@@ -16,7 +16,24 @@ from mind_voyager.client_simulator import (
 )
 
 
-def build_revealed_payload(case: ClientCase, difficulty: DifficultyConfig) -> dict[str, str]:
+def build_revealed_payload(
+    case: ClientCase,
+    difficulty: DifficultyConfig,
+    hide_all: bool = False,
+) -> dict[str, str]:
+    if hide_all:
+        return {
+            "name": case.name,
+            "openness": "unknown",
+            "metacognition": "unknown",
+            "history": "unknown",
+            "core_belief": "unknown",
+            "intermediate_belief": "unknown",
+            "coping_strategy": "unknown",
+            "situation": "unknown",
+            "reaction": "unknown",
+        }
+
     core_beliefs = " | ".join(case.core_beliefs) if case.core_beliefs else "unknown"
     intermediate = case.intermediate_belief or "unknown"
     if case.intermediate_belief_depression:
@@ -41,30 +58,35 @@ def build_revealed_payload(case: ClientCase, difficulty: DifficultyConfig) -> di
     }
 
 
-def render_revealed_client_prompt(case: ClientCase, difficulty: DifficultyConfig) -> str:
+def render_revealed_client_prompt(
+    case: ClientCase,
+    difficulty: DifficultyConfig,
+    hide_all: bool = False,
+) -> str:
     prompt = load_prompt("reveal_client_prompt.txt").replace("[Client]", case.name)
-    prompt = prompt.format(**build_revealed_payload(case, difficulty))
+    prompt = prompt.format(**build_revealed_payload(case, difficulty, hide_all=hide_all))
     print(prompt)
     return prompt
 
 
-def therapist_intake(case: ClientCase, difficulty: DifficultyConfig) -> str:
+def therapist_intake(case: ClientCase, difficulty: DifficultyConfig, hide_all: bool = False) -> str:
+    reveal_mode = "all client-side fields hidden as unknown" if hide_all else "full cognitive diagram visible from the start"
     return (
         f"Case ID: {case.case_id}\n"
         f"Client: {case.name}\n"
         f"Presenting situation: {case.situation}\n"
         f"Difficulty label: {difficulty.name}\n"
-        "Reveal mode: full cognitive diagram visible from the start"
+        f"Reveal mode: {reveal_mode}"
     )
 
 
-def run_dry_run(case: ClientCase, difficulty: DifficultyConfig) -> None:
+def run_dry_run(case: ClientCase, difficulty: DifficultyConfig, hide_all: bool = False) -> None:
     print("Therapist intake")
     print("----------------")
-    print(therapist_intake(case, difficulty))
+    print(therapist_intake(case, difficulty, hide_all=hide_all))
     print("\nRevealed client system prompt")
     print("-----------------------------")
-    print(render_revealed_client_prompt(case, difficulty))
+    print(render_revealed_client_prompt(case, difficulty, hide_all=hide_all))
 
 
 def run_interactive_session(
@@ -72,14 +94,15 @@ def run_interactive_session(
     difficulty: DifficultyConfig,
     model: str,
     max_turns: int,
+    hide_all: bool = False,
 ) -> None:
     ensure_api_key()
     dialogue: list[dict[str, str]] = []
-    system_prompt = render_revealed_client_prompt(case, difficulty)
+    system_prompt = render_revealed_client_prompt(case, difficulty, hide_all=hide_all)
 
     print("Therapist intake")
     print("----------------")
-    print(therapist_intake(case, difficulty))
+    print(therapist_intake(case, difficulty, hide_all=hide_all))
     print("\nType therapist messages. Type 'exit' to stop.\n")
 
     for _ in range(max_turns):
@@ -119,6 +142,11 @@ def build_arg_parser() -> argparse.ArgumentParser:
     parser.add_argument("--model", default="gpt-4o-mini", help="Client model")
     parser.add_argument("--max-turns", type=int, default=15, help="Maximum therapist turns")
     parser.add_argument("--dry-run", action="store_true", help="Print intake and prompt only")
+    parser.add_argument(
+        "--hide-all",
+        action="store_true",
+        help="Force all client-side prompt fields except the client name to 'unknown'",
+    )
     return parser
 
 
@@ -127,9 +155,15 @@ def main() -> None:
     case = load_case(Path(args.dataset), args.case_id)
     difficulty = DIFFICULTIES[args.difficulty]
     if args.dry_run:
-        run_dry_run(case, difficulty)
+        run_dry_run(case, difficulty, hide_all=args.hide_all)
         return
-    run_interactive_session(case=case, difficulty=difficulty, model=args.model, max_turns=args.max_turns)
+    run_interactive_session(
+        case=case,
+        difficulty=difficulty,
+        model=args.model,
+        max_turns=args.max_turns,
+        hide_all=args.hide_all,
+    )
 
 
 if __name__ == "__main__":

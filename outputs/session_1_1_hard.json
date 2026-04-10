@@ -1,0 +1,184 @@
+{
+  "case_id": "1-1",
+  "client_name": "Alex",
+  "client_mode": "masked",
+  "hide_all": false,
+  "difficulty": "hard",
+  "therapist_provider": "openai",
+  "therapist_model": "gpt-4o-mini",
+  "client_model": "gpt-4o-mini",
+  "max_turns": 15,
+  "transcript": [
+    {
+      "turn": 1,
+      "speaker": "therapist",
+      "content": "Hi Alex, it's great to have you here today. I want to create a space where you feel comfortable sharing whatever is on your mind. What feels most important for you to talk about today?"
+    },
+    {
+      "turn": 1,
+      "speaker": "client",
+      "content": "Um, I guess I\u2019m not really sure. There\u2019s not much going on, to be honest. I mean, I\u2019ve just been keeping to myself lately. It\u2019s easier that way, you know? I don\u2019t really want to dig into anything too deep right now. Maybe we could just talk about something simple?"
+    },
+    {
+      "turn": 2,
+      "speaker": "therapist",
+      "content": "I appreciate you sharing that with me, Alex. It sounds like you\u2019ve been keeping things low-key and prefer to stay on the surface for now. That\u2019s completely okay. What kind of simple topics do you enjoy discussing?"
+    },
+    {
+      "turn": 2,
+      "speaker": "client",
+      "content": "I don\u2019t know, maybe just everyday stuff? Like, I\u2019ve been watching some shows lately. It\u2019s nice to just zone out and not think about anything too heavy. I guess I like things that don\u2019t require too much thought or interaction. It\u2019s just... easier that way."
+    },
+    {
+      "turn": 3,
+      "speaker": "therapist",
+      "content": "It sounds like watching shows has been a way for you to relax and take a break from any heavier thoughts or interactions. That makes a lot of sense. What kind of shows have you been watching? Do they have a particular theme or style that draws you in?"
+    },
+    {
+      "turn": 3,
+      "speaker": "client",
+      "content": "I\u2019ve been watching some crime dramas. They\u2019re kind of interesting, I guess. There\u2019s always a mystery to solve, and it keeps my mind busy without having to think about my own stuff. I like how everything gets wrapped up by the end, you know? It feels... neat. I don\u2019t really have to think about anything messy or complicated."
+    },
+    {
+      "turn": 4,
+      "speaker": "therapist",
+      "content": "That\u2019s really interesting, Alex. It sounds like crime dramas provide a sense of structure and resolution that feels comforting to you. The way they wrap things up can be quite satisfying, especially when life feels more complex. How do you feel when you\u2019re watching those shows? Do you notice any particular emotions that come up for you?"
+    },
+    {
+      "turn": 4,
+      "speaker": "client",
+      "content": "I guess it\u2019s kind of a mix. Sometimes I feel a bit tense, like I\u2019m on edge with the suspense, but it\u2019s not a bad feeling. It\u2019s just... different from how I feel most of the time. It\u2019s like I can focus on something else instead of my own worries. But then, when it\u2019s over, I usually just feel... kind of empty, I guess. Like, what now? It\u2019s not like I can just jump into another episode forever."
+    },
+    {
+      "turn": 5,
+      "speaker": "therapist",
+      "content": "It sounds like the suspense in the shows gives you a break from your own thoughts, which can be a nice distraction. But then, when the show ends, you\u2019re left with that feeling of emptiness and wondering what to do next. That contrast must be quite challenging. Can you tell me more about what those worries are that you find yourself coming back to after the shows?"
+    },
+    {
+      "turn": 5,
+      "speaker": "client",
+      "content": "Um, I don\u2019t know if I want to get into that right now. It\u2019s just... a lot of pressure, I guess. I worry about family stuff, and how they see me. It\u2019s hard when you feel like you don\u2019t fit in or when you think people might judge you. It\u2019s easier to just not think about it, you know? I\u2019d rather stick to the shows. They don\u2019t judge."
+    },
+    {
+      "turn": 6,
+      "speaker": "therapist",
+      "content": "I hear you, Alex. It sounds like there\u2019s a lot of pressure related to your family and concerns about fitting in or being judged. It makes sense that you\u2019d want to avoid those feelings, especially when the shows provide a judgment-free escape. It\u2019s okay to take your time with those thoughts. What do you think it is about the shows that makes you feel safer compared to those family worries?"
+    },
+    {
+      "turn": 6,
+      "speaker": "client",
+      "content": "I think it\u2019s just that the shows are predictable. You know what to expect, and there\u2019s a clear story. With family, it\u2019s all messy and complicated, and you never really know how things will go. I don\u2019t like surprises, especially when it comes to people. It\u2019s easier to just watch something where I can control how I feel, rather than facing all those questions and expectations from family. I don\u2019t want to deal with that."
+    },
+    {
+      "turn": 7,
+      "speaker": "therapist",
+      "content": "That makes a lot of sense, Alex. The predictability of the shows gives you a sense of control and comfort, especially when family dynamics feel unpredictable and overwhelming. It sounds like avoiding those messy situations helps you maintain a sense of peace. I wonder, when you think about the expectations from family, what kind of feelings or thoughts come up for you?"
+    },
+    {
+      "turn": 7,
+      "speaker": "client",
+      "content": "I don\u2019t know... I just feel anxious, I guess. Like there\u2019s this weight on my chest. I worry that they\u2019ll ask me things I can\u2019t answer or that I\u2019ll disappoint them somehow. It\u2019s like I\u2019m always waiting for that critical look or a comment that makes me feel small. I\u2019d rather just avoid it all than face that. It\u2019s easier to just stay away and not deal with it."
+    },
+    {
+      "turn": 8,
+      "speaker": "therapist",
+      "content": "It sounds really tough to carry that anxiety and the weight of those expectations from your family. Feeling like you might disappoint them or face criticism can be incredibly heavy. It\u2019s understandable that you\u2019d want to avoid those situations to protect yourself from that discomfort. When you think about staying away, how does that choice make you feel in the moment?"
+    },
+    {
+      "turn": 8,
+      "speaker": "client",
+      "content": "In the moment, it feels like a relief. I don\u2019t have to deal with the stress or the anxiety of facing them. It\u2019s like I can breathe a little easier. But then later, I feel kind of guilty or sad, like I\u2019m missing out on something important. It\u2019s a weird mix of feeling safe but also feeling lonely. I guess I just wish it didn\u2019t have to be that way."
+    },
+    {
+      "turn": 9,
+      "speaker": "therapist",
+      "content": "That\u2019s a really insightful reflection, Alex. It sounds like you experience a temporary relief when you avoid those family interactions, but it also brings up feelings of guilt and loneliness afterward. It\u2019s a tough balance to navigate\u2014wanting to protect yourself while also feeling the weight of missing out on connection. If you could imagine a different way to approach those family situations, what might that look like for you?"
+    },
+    {
+      "turn": 9,
+      "speaker": "client",
+      "content": "I don\u2019t know... that\u2019s hard to think about. Maybe if I could just be more confident or not care so much about what they think? But that feels impossible. I guess if I could just go and not feel that pressure to perform or explain myself, it might be easier. Like, just being there without all the expectations hanging over me. But I don\u2019t know how to make that happen. It feels like a lot to change."
+    },
+    {
+      "turn": 10,
+      "speaker": "therapist",
+      "content": "It sounds like you\u2019re really yearning for a sense of freedom in those family interactions\u2014being able to just be yourself without the pressure to meet expectations. That desire for confidence and ease is completely valid, and it\u2019s understandable to feel overwhelmed by the idea of making such a change. It\u2019s a big shift to think about. What do you think might help you take even a small step toward feeling more at ease in those situations?"
+    },
+    {
+      "turn": 10,
+      "speaker": "client",
+      "content": "I guess maybe if I could practice what to say or how to respond to questions beforehand? Like, if I had some kind of script or something, it might help me feel less anxious. But then again, I worry that even that wouldn\u2019t be enough. It\u2019s just hard to imagine being comfortable in those situations. I don\u2019t know if I\u2019m ready to try anything yet. It feels safer to just keep avoiding it."
+    },
+    {
+      "turn": 11,
+      "speaker": "therapist",
+      "content": "That makes a lot of sense, Alex. Having a script or some practice could provide a sense of preparation and reduce anxiety, but it\u2019s also understandable to feel uncertain about whether it would truly help. It\u2019s okay to feel that way and to prioritize your comfort right now. Avoiding those situations feels safer for you at the moment, and that\u2019s valid. What do you think would help you feel more ready to explore this idea of practicing or engaging with your family in the future?"
+    },
+    {
+      "turn": 11,
+      "speaker": "client",
+      "content": "I\u2019m not sure. Maybe if I felt more supported or if I had someone to talk to about it who really understood? It\u2019s hard to open up, but if I knew I wasn\u2019t alone in it, it might help. But right now, I just feel stuck. It\u2019s like I want to change, but I don\u2019t know how, and that makes it easier to just stay where I am. I guess I\u2019ll have to think about it more."
+    },
+    {
+      "turn": 12,
+      "speaker": "therapist",
+      "content": "It sounds like having support and understanding from someone could make a big difference for you. Feeling stuck can be really challenging, especially when you have that desire for change but aren\u2019t sure how to take the next step. It\u2019s completely okay to take your time to think things through. Just acknowledging those feelings is a meaningful step. If you ever feel ready to explore this further or talk about what support might look like for you, I\u2019m here to listen. What do you think would be helpful for you in the meantime as you process all of this?"
+    },
+    {
+      "turn": 12,
+      "speaker": "client",
+      "content": "I think just having space to think about it without pressure would help. Maybe I could write down my thoughts or feelings when they come up, just to get them out. It might make it easier to sort through everything. And knowing that I can come back and talk about it whenever I\u2019m ready feels good. I don\u2019t want to rush anything, but I also don\u2019t want to ignore it forever. Just taking it one step at a time, I guess."
+    },
+    {
+      "turn": 13,
+      "speaker": "therapist",
+      "content": "That sounds like a really thoughtful approach, Alex. Giving yourself space to think and write down your thoughts can be a great way to process everything without feeling rushed. It\u2019s wonderful that you\u2019re recognizing the importance of taking things one step at a time. You\u2019re not alone in this, and whenever you feel ready to share or explore more, I\u2019ll be here to support you. Is there anything else on your mind today, or do you feel good about where we\u2019ve left things for now?"
+    },
+    {
+      "turn": 13,
+      "speaker": "client",
+      "content": "I think I\u2019m okay for now. It feels good to have talked about some of this, even if it\u2019s just a little. I appreciate you being here and listening. I\u2019ll take some time to think about everything we discussed, and maybe I\u2019ll write some things down. Thanks for understanding."
+    },
+    {
+      "turn": 14,
+      "speaker": "therapist",
+      "content": "I\u2019m really glad to hear that, Alex. It\u2019s been meaningful to talk with you, and I appreciate your openness. Taking time to reflect and write can be a helpful way to process things. Whenever you feel ready to continue the conversation or explore more, I\u2019ll be here for you. Take care of yourself, and I hope you find some peace in that space you\u2019re creating for yourself."
+    },
+    {
+      "turn": 14,
+      "speaker": "client",
+      "content": "Thank you. I appreciate that. I\u2019ll definitely take some time for myself and think things over. It\u2019s nice to know I can come back whenever I\u2019m ready. Take care, too."
+    },
+    {
+      "turn": 15,
+      "speaker": "therapist",
+      "content": "You\u2019re very welcome, Alex. I\u2019m glad you feel that way. Take all the time you need, and remember that it\u2019s okay to reach out whenever you\u2019re ready. Wishing you a peaceful time as you reflect. Take care!"
+    },
+    {
+      "turn": 15,
+      "speaker": "client",
+      "content": "Thanks, I will. I\u2019ll keep that in mind. Take care!"
+    }
+  ],
+  "judge_model": "gpt-4o-mini",
+  "mediator_events": [
+    "Exploration judge rated 1/5; internal elements remain masked.",
+    "Exploration judge output: [Rating]: 1 (Moderate Facilitation)\n\n[Justification]: The therapist's questions primarily focused on surface-level topics, allowing the client to discuss their preference for light conversation and avoidance of deeper issues. While the therapist acknowledged the client's feelings and encouraged sharing about everyday interests, the questions did not significantly challenge the client's existing thought patterns or promote deeper self-reflection. The conversation remained within familiar territory, lacking the depth needed for higher-level exploration or insight.",
+    "Rapport judge rated 3/5; no experience reveal.",
+    "Rapport judge output: **Rating: 3**\n\n**Key Examples:**\n1. \"I guess I like things that don\u2019t require too much thought or interaction. It\u2019s just... easier that way.\"\n2. \"I like how everything gets wrapped up by the end, you know? It feels... neat. I don\u2019t really have to think about anything messy or complicated.\"\n\n**Progression:**\nIn the most recent exchanges, the client demonstrates a mix of factual and emotional responses, indicating a warming up phase. They express a preference for light topics and avoidance of deeper emotional engagement, yet they provide some insight into their coping mechanisms, such as watching crime dramas to distract from their own thoughts. This marks a significant change from earlier in the session, where the client was more hesitant and defensive about delving into their feelings. The client\u2019s acknowledgment of their emotional state\u2014seeking simplicity and structure\u2014suggests a growing comfort in sharing, even if they are not fully ready to explore deeper issues.\n\n**Turning Point:**\nThe client's emotional depth shifted when they began expressing their feelings about watching crime dramas. This moment highlighted their desire for structure and resolution in their life, reflecting an underlying emotional need for control and simplicity amidst complexity. This insight indicates a movement towards greater self-reflection, which is essential for deeper engagement in future sessions.",
+    "Exploration judge rated 2/5; internal elements remain masked.",
+    "Exploration judge output: [Rating]: 2 (High Facilitation)\n\n[Justification]: The therapist asked relevant and well-structured open-ended questions that encouraged the client to reflect on their preferences and feelings regarding the shows they watch. The conversation expanded on the client's existing thoughts about the comfort of watching crime dramas as a distraction from deeper issues. However, while the therapist did touch on the client's emotions and the contrast between the shows and their personal worries, the questions primarily explored the client's current coping mechanism rather than delving into the root causes of their feelings of pressure and judgment from family. The exploration remained somewhat surface-level, lacking the depth that would challenge the client\u2019s existing thought patterns significantly or introduce new perspectives.",
+    "Rapport judge rated 3/5; no experience reveal.",
+    "Rapport judge output: **Rating: 3 (ENGAGED EXPLORATION)**\n\n**Key Examples:**\n1. \"I guess it\u2019s kind of a mix. Sometimes I feel a bit tense, like I\u2019m on edge with the suspense, but it\u2019s not a bad feeling. It\u2019s just... different from how I feel most of the time.\"\n2. \"I just feel anxious, I guess. Like there\u2019s this weight on my chest. I worry that they\u2019ll ask me things I can\u2019t answer or that I\u2019ll disappoint them somehow.\"\n\n**Progression:** The client\u2019s most recent interactions demonstrate a noticeable increase in emotional expression and self-reflection. Initially, the client was hesitant and focused on superficial topics, indicating a desire to avoid deeper feelings. However, in the latest exchanges, they began to articulate their feelings of anxiety and the weight of family expectations. This marks a significant change from earlier in the session when they expressed a preference for keeping things light and simple.\n\n**Turning Point:** The client's emotional depth shifted during the exchange where they discussed feeling anxious about family expectations. This moment marked a transition from avoidance to a more open acknowledgment of their feelings, indicating a growing comfort in sharing more vulnerable aspects of their emotional state. The client\u2019s willingness to discuss their anxiety and the pressure they feel from family shows a deeper engagement with their emotions, reflecting a developing rapport with the therapist.",
+    "Exploration judge rated 3/5; internal elements remain masked.",
+    "Exploration judge output: [Rating]: 3 (Very High Facilitation \u2013 Deep Exploration Begins)\n\n[Justification]: The therapist asked insightful and thought-provoking questions that encouraged the client to analyze their feelings and experiences related to watching shows as a coping mechanism. The therapist effectively guided the client to explore the contrast between the comfort of predictable shows and the anxiety associated with family expectations. This line of questioning helped the client begin to uncover deeper emotions and the root causes of their avoidance behavior. While the questions did facilitate a deeper level of self-reflection, they did not fully challenge the client\u2019s existing thought patterns or introduce completely new perspectives that could lead to a significant shift in understanding. Thus, the facilitation was strong but did not reach the highest levels of transformational potential.",
+    "Rapport judge rated 3/5; no experience reveal.",
+    "Rapport judge output: **Rating: 3 (ENGAGED EXPLORATION)**\n\n**Key Examples:**\n1. \"I guess it\u2019s kind of a mix. Sometimes I feel a bit tense, like I\u2019m on edge with the suspense, but it\u2019s not a bad feeling. It\u2019s just... different from how I feel most of the time.\"\n2. \"In the moment, it feels like a relief. I don\u2019t have to deal with the stress or the anxiety of facing them. It\u2019s like I can breathe a little easier. But then later, I feel kind of guilty or sad, like I\u2019m missing out on something important.\"\n\n**Progression:** The client\u2019s most recent interactions demonstrate a noticeable increase in emotional expression and self-reflection. They articulate feelings of tension and relief, indicating a deeper engagement with their emotional state compared to earlier exchanges where they expressed a desire to avoid deeper topics. Initially, the client was hesitant and focused on surface-level discussions, but they have begun to explore the complexities of their feelings regarding family dynamics and personal expectations.\n\n**Turning Point:** The client\u2019s emotional depth shifted significantly when they began to articulate their feelings of anxiety related to family expectations. This occurred during the exchange where they expressed, \"I just feel anxious, I guess. Like there\u2019s this weight on my chest.\" This moment marked a transition from avoidance to a willingness to confront and discuss their emotional struggles, indicating a growing comfort with the therapeutic process and a desire for change, albeit with some hesitation.",
+    "Exploration judge rated 3/5; internal elements remain masked.",
+    "Exploration judge output: [Rating]: 3 (Very High Facilitation \u2013 Deep Exploration Begins)\n\n[Justification]: The therapist asked insightful and thought-provoking questions that encouraged the client to analyze the emotional depth behind their experiences, particularly regarding their family dynamics and the feelings of anxiety and avoidance. The therapist effectively guided the conversation to explore the contrast between the comfort of watching shows and the complexities of family interactions, prompting the client to reflect on their feelings of relief and guilt. While the therapist did not push the client beyond their current understanding to a point of significant transformation, they did facilitate a deeper exploration of the client's emotions and thought patterns, helping the client articulate their desires for change and the challenges they face. This level of inquiry began to shift the client's perspective and encouraged higher-level self-reflection, making it a strong example of facilitative therapy.",
+    "Exploration judge rated 3/5; internal elements remain masked.",
+    "Exploration judge output: [Rating]: 3 (Very High Facilitation \u2013 Deep Exploration Begins)\n\n[Justification]: The therapist engaged the client in a thoughtful dialogue that encouraged deeper self-reflection and exploration of underlying emotions and patterns. The therapist's questions prompted the client to analyze their feelings about family dynamics, expectations, and the contrast between comfort in watching shows versus the anxiety of family interactions. While the conversation did not lead to a major breakthrough, it effectively facilitated a deeper understanding of the client's experiences and emotions, particularly around feelings of anxiety and the desire for connection. The therapist's inquiries began to shift the client's perspective, particularly when discussing the feelings of emptiness after watching shows and the weight of family expectations. Overall, the therapist's approach fostered significant self-exploration, making it a strong example of high-quality facilitation."
+  ],
+  "final_visible_experience_count": 1,
+  "internal_revealed": false
+}

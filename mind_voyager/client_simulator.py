@@ -200,7 +200,7 @@ def judge_openness(dialogue: list[dict[str, str]], model: str) -> tuple[int | No
     response = call_llm(
         system_prompt="",
         user_prompt=prompt,
-        temperature=0.0,
+        temperature=0.3,
         model=model,
     )
     return parse_first_rating(response), response
@@ -211,44 +211,69 @@ def judge_exploration(dialogue: list[dict[str, str]], model: str) -> tuple[int |
     response = call_llm(
         system_prompt="",
         user_prompt=prompt,
-        temperature=0.0,
+        temperature=0.3,
         model=model,
     )
     return parse_first_rating(response), response
 
 
-def maybe_update_state(state: SimulatorState, judge_model: str) -> None:
+def format_judge_status(turn: int, judge_status: dict[str, str]) -> str:
+    return (
+        f"Judge scores after turn {turn}: "
+        f"openness={judge_status['openness']}; "
+        f"exploration={judge_status['exploration']}"
+    )
+
+
+def maybe_update_state(state: SimulatorState, judge_model: str) -> dict[str, str]:
     if not state.dialogue:
-        return
+        return {
+            "openness": "not run (no dialogue yet)",
+            "exploration": "not run (no dialogue yet)",
+        }
 
     did_rapport_check = state.therapist_turns % 4 == 0
     did_exploration_check = state.therapist_turns % state.difficulty.exploration_interval == 0
+    judge_status = {
+        "openness": "not scheduled",
+        "exploration": "not scheduled",
+    }
 
-    if did_rapport_check and state.visible_experience_count < 3:
+    if state.visible_experience_count >= 3:
+        judge_status["openness"] = "not run (already fully externally revealed)"
+    elif did_rapport_check:
         rating, raw = judge_openness(state.dialogue, judge_model)
         if rating is not None and rating >= 4:
             state.visible_experience_count += 1
             state.events.append(
                 f"Rapport judge rated {rating}/5 and revealed one more experience block."
             )
+            judge_status["openness"] = f"{rating}/5 (revealed one more experience block)"
         else:
             state.events.append(
                 f"Rapport judge rated {rating or 'unknown'}/5; no experience reveal."
             )
+            judge_status["openness"] = f"{rating or 'unknown'}/5 (no external reveal)"
         state.events.append(f"Rapport judge output: {raw.strip()}")
 
-    if did_exploration_check and not state.internal_revealed:
+    if state.internal_revealed:
+        judge_status["exploration"] = "not run (internal elements already revealed)"
+    elif did_exploration_check:
         rating, raw = judge_exploration(state.dialogue, judge_model)
         if rating is not None and rating >= 4:
             state.internal_revealed = True
             state.events.append(
                 f"Exploration judge rated {rating}/5 and revealed internal cognitive elements."
             )
+            judge_status["exploration"] = f"{rating}/5 (revealed internal elements)"
         else:
             state.events.append(
                 f"Exploration judge rated {rating or 'unknown'}/5; internal elements remain masked."
             )
+            judge_status["exploration"] = f"{rating or 'unknown'}/5 (internal still masked)"
         state.events.append(f"Exploration judge output: {raw.strip()}")
+
+    return judge_status
 
 
 def generate_client_reply(state: SimulatorState, model: str) -> str:
@@ -277,7 +302,8 @@ def run_interactive_session(
 
         state.dialogue.append({"role": "user", "content": therapist})
         state.therapist_turns += 1
-        maybe_update_state(state, judge_model)
+        judge_status = maybe_update_state(state, judge_model)
+        print(format_judge_status(state.therapist_turns, judge_status))
 
         reply = generate_client_reply(state, model)
         state.dialogue.append({"role": "assistant", "content": reply})

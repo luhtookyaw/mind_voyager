@@ -15,6 +15,7 @@ from mind_voyager.client_simulator import (
     ensure_api_key,
     load_case,
     load_prompt,
+    format_judge_status,
     maybe_update_state,
     render_client_system_prompt,
 )
@@ -22,11 +23,12 @@ from mind_voyager.revealed_client_simulator import render_revealed_client_prompt
 
 
 def render_therapist_prompt(case: ClientCase) -> str:
-    prompt = load_prompt("therapist_prompt.txt")
-    return prompt.format(
-        name=case.name,
-        situation=case.situation,
+    prompt = load_prompt("therapist_prompt.txt").strip()
+    case_context = (
+        "\n\nCase context:\n"
+        f"- Client name: {case.name}"
     )
+    return f"{prompt}{case_context}"
 
 
 def generate_therapist_reply(
@@ -74,6 +76,7 @@ def run_simulation(
     judge_model: str,
     max_turns: int,
     revealed_client: bool,
+    hide_all: bool,
     output: Path | None,
 ) -> None:
     ensure_api_key()
@@ -86,6 +89,8 @@ def run_simulation(
     print(f"Case ID: {case.case_id}")
     print(f"Client: {case.name}")
     print(f"Client mode: {'revealed' if revealed_client else 'masked'}")
+    if revealed_client:
+        print(f"Hide all client fields: {'yes' if hide_all else 'no'}")
     print(f"Difficulty: {difficulty.name}")
     print(f"Therapist provider: {therapist_provider}")
     print(f"Therapist model: {therapist_model}")
@@ -97,7 +102,7 @@ def run_simulation(
     therapist_transcript: list[dict[str, str]] = []
 
     if revealed_client:
-        client_system_prompt = render_revealed_client_prompt(case, difficulty)
+        client_system_prompt = render_revealed_client_prompt(case, difficulty, hide_all=hide_all)
         client_dialogue: list[dict[str, str]] = []
     else:
         state = SimulatorState(case=case, difficulty=difficulty)
@@ -128,7 +133,8 @@ def run_simulation(
         else:
             state.dialogue.append({"role": "user", "content": therapist_reply})
             state.therapist_turns += 1
-            maybe_update_state(state, judge_model)
+            judge_status = maybe_update_state(state, judge_model)
+            print(format_judge_status(state.therapist_turns, judge_status))
             client_reply = generate_masked_client_reply(state=state, client_model=client_model)
             state.dialogue.append({"role": "assistant", "content": client_reply})
 
@@ -150,6 +156,7 @@ def run_simulation(
             "case_id": case.case_id,
             "client_name": case.name,
             "client_mode": "revealed" if revealed_client else "masked",
+            "hide_all": hide_all if revealed_client else False,
             "difficulty": difficulty.name,
             "therapist_provider": therapist_provider,
             "therapist_model": therapist_model,
@@ -199,6 +206,11 @@ def build_arg_parser() -> argparse.ArgumentParser:
         action="store_true",
         help="Use reveal_client_prompt.txt and bypass the mediator",
     )
+    parser.add_argument(
+        "--hide-all",
+        action="store_true",
+        help="With --revealed-client, force all client-side prompt fields except the client name to 'unknown'",
+    )
     parser.add_argument("--output", help="Optional path to save the transcript as JSON")
     return parser
 
@@ -215,6 +227,7 @@ def main() -> None:
         judge_model=args.judge_model,
         max_turns=args.max_turns,
         revealed_client=args.revealed_client,
+        hide_all=args.hide_all,
         output=Path(args.output) if args.output else None,
     )
 
