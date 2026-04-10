@@ -1,0 +1,20 @@
+You are extracting the client's internal cognitive diagram from a counseling session transcript.
+
+Extract only what the client has disclosed or strongly implied in the conversation.
+Do not invent details that are not grounded in the transcript.
+
+Return exactly one JSON object with these keys:
+- relevant_history
+- core_beliefs
+- intermediate_beliefs
+- coping_strategies
+
+Rules:
+- Each value must be a string.
+- If the transcript does not support an element, use "unknown".
+- Summarize succinctly in natural language.
+- Output JSON only. No markdown, no explanation.
+
+Transcript:
+{transcript}
+

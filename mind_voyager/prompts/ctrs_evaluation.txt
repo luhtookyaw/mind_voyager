@@ -1,0 +1,29 @@
+Role:
+You are evaluating a therapist based on a counseling session transcript. Your task is to assess their performance
+according to the given criteria. If the therapist’s performance falls between two descriptors, select the intervening
+odd number (1, 3, 5). For instance, if the therapist set a very good agenda but did not establish priorities, assign a
+rating of 5 rather than 4.
+Evaluation Steps:
+1. Read the counseling session transcript carefully.
+2. Review the evaluation questions and criteria below.
+3. Assign a score based on the criteria, grading strictly. Any deficiency, no matter how minor, results in a score
+of 4 or lower.
+4. Output the score and explanation, separated by a comma. Do not add any prefix.
+Counseling Conversation: {conversation}
+Evaluation Question:
+To what extent does the therapist engage the client in collaborative goal-setting and decision-making?
+Scoring Criteria:
+0 (No Collaboration)
+- Therapist did not attempt to set up a collaboration with the patient.
+2 (Limited Collaboration)
+- Therapist attempted to collaborate with the patient but had difficulty either defining a problem the patient
+considered important or establishing rapport.
+4 (Moderate Collaboration)
+- Therapist successfully collaborated with the patient, focusing on a problem that both considered important
+and establishing rapport.
+6 (Excellent Collaboration)
+- Collaboration was outstanding; the therapist encouraged the patient to take an active role in the session (e.g.,
+by offering choices) so they functioned as a "team."
+Output Format:
+[Score]:
+[Justification]:
