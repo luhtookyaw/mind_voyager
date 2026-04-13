@@ -1,0 +1,178 @@
+{
+  "case_id": "17-1",
+  "client_name": "Sarah",
+  "client_mode": "masked",
+  "hide_all": false,
+  "difficulty": "hard",
+  "therapist_provider": "openai",
+  "therapist_model": "gpt-4o-mini",
+  "client_model": "gpt-4o-mini",
+  "max_turns": 15,
+  "transcript": [
+    {
+      "turn": 1,
+      "speaker": "therapist",
+      "content": "Hello, Sarah. I'm glad you're here today. What feels most important for you to talk about right now?"
+    },
+    {
+      "turn": 1,
+      "speaker": "client",
+      "content": "Um, I guess I\u2019m not really sure. There\u2019s just a lot on my mind, but I don\u2019t know if it\u2019s worth talking about. I mean, it\u2019s just the usual stuff, I guess. Like, I haven\u2019t heard from Amelia today, and it\u2019s kind of making me anxious. But, I don\u2019t know if that\u2019s really a big deal or anything."
+    },
+    {
+      "turn": 2,
+      "speaker": "therapist",
+      "content": "It sounds like you're feeling a bit anxious about not hearing from Amelia, but you're also questioning whether it's something worth discussing. That uncertainty can be tough. Can you tell me more about what you're feeling when you think about not hearing from her?"
+    },
+    {
+      "turn": 2,
+      "speaker": "client",
+      "content": "Yeah, I guess it just makes me feel... uneasy? Like, I start to worry that something bad might have happened to her or that she doesn\u2019t care enough to reach out. It\u2019s silly, I know, but I can\u2019t help but feel sad and lonely when I don\u2019t hear from her. I just wish I could relax, but I keep thinking about it."
+    },
+    {
+      "turn": 3,
+      "speaker": "therapist",
+      "content": "It's not silly at all to feel uneasy and sad when you haven't heard from someone important to you. It sounds like those thoughts about her safety and feelings toward you are really weighing on your mind. When you start to feel that way, what do you usually do to cope with those feelings?"
+    },
+    {
+      "turn": 3,
+      "speaker": "client",
+      "content": "Well, I usually end up texting her a lot. I know it might come off as needy or clingy, but I just feel like I need to reach out. It\u2019s like I can\u2019t settle down until I hear from her. I guess I just want to feel reassured that everything's okay between us. But then I worry that I might be overreacting or bothering her, you know?"
+    },
+    {
+      "turn": 4,
+      "speaker": "therapist",
+      "content": "It makes sense that you would want to reach out for reassurance, especially when you're feeling anxious and uncertain. It sounds like there's a bit of a struggle between your need for connection and the worry about how your actions might be perceived. Can you share more about what you think might happen if you don\u2019t reach out to her?"
+    },
+    {
+      "turn": 4,
+      "speaker": "client",
+      "content": "If I don\u2019t reach out, I start imagining all these worst-case scenarios. Like, what if something really did happen to her? Or what if she\u2019s just not interested in talking to me anymore? I guess I just feel like I need to take action to prevent those thoughts from becoming real. But then I also worry that I\u2019m just being too much, and that makes me feel even worse. It\u2019s like I\u2019m stuck in this loop."
+    },
+    {
+      "turn": 5,
+      "speaker": "therapist",
+      "content": "That sounds really challenging\u2014feeling stuck in that loop of worry and needing to take action. It seems like your mind is racing with different scenarios, which makes it hard to find peace. I can see how that would create a lot of tension for you. When you think about being \"too much,\" what does that mean for you? What do you fear might happen if you feel that way?"
+    },
+    {
+      "turn": 5,
+      "speaker": "client",
+      "content": "I guess when I think about being \"too much,\" I worry that I might push her away. Like, if I come off as clingy or overly anxious, she might get frustrated or feel suffocated. I don\u2019t want to lose her, but at the same time, I can\u2019t help but feel this need to connect. It\u2019s just... hard to find that balance. I fear that if I show too much of how I\u2019m feeling, she might think I\u2019m weak or something, and that\u2019s not how I want her to see me."
+    },
+    {
+      "turn": 6,
+      "speaker": "therapist",
+      "content": "It sounds like you\u2019re really caught between wanting to connect and fearing that your feelings might push Amelia away. That concern about how she perceives you and wanting to maintain a certain image can be really heavy. It\u2019s understandable to want to show strength, but it seems like it\u2019s also making it difficult for you to express your needs. How do you feel about that balance between showing vulnerability and wanting to be seen as strong?"
+    },
+    {
+      "turn": 6,
+      "speaker": "client",
+      "content": "It\u2019s really tough. I feel like I should be strong and independent, but at the same time, I just want to be able to share how I\u2019m feeling without worrying about what she\u2019ll think. I guess I\u2019ve always been taught to be self-sufficient, but I struggle with that. I want to be there for her, but I also need support, and it feels like I can\u2019t have both. It\u2019s like I\u2019m stuck in this place where I feel weak for needing her, but I also feel lonely without her. It\u2019s frustrating."
+    },
+    {
+      "turn": 7,
+      "speaker": "therapist",
+      "content": "That frustration makes a lot of sense. It sounds like you\u2019re navigating a really tough tension between wanting to be self-sufficient and also needing connection and support from Amelia. It\u2019s understandable to feel weak for needing someone, especially when you've been taught to be strong and independent. It\u2019s a complex place to be in. Can you tell me more about how this belief about being self-sufficient has shaped your relationships in the past?"
+    },
+    {
+      "turn": 7,
+      "speaker": "client",
+      "content": "Um, I think it\u2019s made me hold back a lot. I often feel like I have to put on a brave face and not show any weakness. In the past, I\u2019ve tried to be the one who supports others, like friends or family, but when it comes to my own needs, I just... struggle to express them. I\u2019ve had friendships where I felt really close, but then I\u2019d pull away if I thought I was being too needy. It\u2019s like I\u2019m always worried that if I show too much of myself, they\u2019ll see me as a burden or something. So, I end up feeling isolated, even when I\u2019m surrounded by people."
+    },
+    {
+      "turn": 8,
+      "speaker": "therapist",
+      "content": "It sounds like this belief about needing to be strong has really influenced how you connect with others, often leading you to hold back your own needs. It must be really lonely to feel isolated, especially when you\u2019re surrounded by people you care about. The fear of being seen as a burden can be incredibly heavy. How do you think this pattern of holding back has affected your relationships over time?"
+    },
+    {
+      "turn": 8,
+      "speaker": "client",
+      "content": "I think it\u2019s made it hard for me to form deeper connections. I mean, I can be friendly and supportive, but I often keep people at arm\u2019s length. I worry that if I let them in too much, they might not stick around. So, I end up feeling like I\u2019m always putting on a mask and not really being myself. It\u2019s like I\u2019m missing out on the closeness that could be there, and that just makes me feel more alone. I guess I just don\u2019t want to risk getting hurt or feeling abandoned, so I keep my guard up."
+    },
+    {
+      "turn": 9,
+      "speaker": "therapist",
+      "content": "That sounds really painful\u2014feeling like you have to wear a mask to protect yourself, while also longing for deeper connections. It\u2019s understandable to want to guard yourself against the possibility of hurt or abandonment, but it seems like that guard is also keeping you from experiencing the closeness you desire. It\u2019s a tough balance to navigate. What do you think it would feel like to let your guard down a little, even just with Amelia?"
+    },
+    {
+      "turn": 9,
+      "speaker": "client",
+      "content": "I... I don\u2019t know. It\u2019s kind of scary to think about. On one hand, it could feel really freeing to be open and honest with her, to share what I\u2019m really feeling. But then there\u2019s this fear that she might not respond the way I hope, or that she might see me as weak. I guess I worry that if I let her see how vulnerable I am, it might change how she feels about me. But at the same time, I know that keeping everything bottled up isn\u2019t helping either. It\u2019s just... really confusing."
+    },
+    {
+      "turn": 10,
+      "speaker": "therapist",
+      "content": "It\u2019s completely understandable to feel scared about the possibility of being vulnerable, especially when you care about how someone might perceive you. That mix of wanting to be open and fearing the potential consequences can create a lot of confusion. It\u2019s a tough spot to be in, wanting to connect but feeling held back by those fears. What do you think might help you navigate that confusion as you consider the possibility of being more open with Amelia?"
+    },
+    {
+      "turn": 10,
+      "speaker": "client",
+      "content": "I guess maybe it would help to think about what I really want from our relationship. I mean, I want to feel close to her and not just keep everything inside. Maybe I could start small, like sharing little things about how I\u2019m feeling instead of diving into the deep stuff right away. But then I worry that even small things might come off as too much. It\u2019s hard to find that starting point. I just don\u2019t want to mess things up or make her feel overwhelmed."
+    },
+    {
+      "turn": 11,
+      "speaker": "therapist",
+      "content": "That sounds like a thoughtful approach\u2014starting small could be a way to ease into sharing your feelings without feeling overwhelmed. It\u2019s great that you\u2019re considering what you truly want from your relationship with Amelia. It\u2019s natural to worry about how your feelings might be received, but it seems like you\u2019re also recognizing the importance of connection. What small step do you think you might feel comfortable taking first?"
+    },
+    {
+      "turn": 11,
+      "speaker": "client",
+      "content": "Maybe I could try just mentioning that I\u2019ve been feeling a bit anxious when I don\u2019t hear from her. It feels a little less intense than diving into everything else. I think I could frame it in a way that shows I\u2019m not trying to put pressure on her, just sharing how I\u2019ve been feeling. But even thinking about that makes me a bit nervous. I guess I\u2019m just worried about how she\u2019ll react."
+    },
+    {
+      "turn": 12,
+      "speaker": "therapist",
+      "content": "That sounds like a really good starting point. Sharing that you\u2019ve been feeling anxious without putting pressure on her shows a willingness to be open while also being mindful of her feelings. It\u2019s completely normal to feel nervous about how she might react, especially when you\u2019re stepping out of your comfort zone. What do you think might help you manage that nervousness as you prepare to share this with her?"
+    },
+    {
+      "turn": 12,
+      "speaker": "client",
+      "content": "I think maybe taking some time to really think about what I want to say could help. I could write it down or practice it in my head so it feels less daunting. Also, reminding myself that it\u2019s okay to feel nervous might help too. I guess I could also try to focus on the potential positive outcome, like feeling closer to her and being more honest about what I\u2019m going through. It\u2019s just hard to shake off that fear of rejection or judgment."
+    },
+    {
+      "turn": 13,
+      "speaker": "therapist",
+      "content": "Those sound like really constructive strategies\u2014taking time to think about what you want to say and practicing can definitely help ease some of that nervousness. It\u2019s also important to remind yourself that feeling nervous is a natural part of being vulnerable. Focusing on the potential positive outcomes, like increased closeness and honesty, can help shift your perspective. It\u2019s understandable to have fears of rejection or judgment, but it seems like you\u2019re also recognizing the value of connection. How do you feel about balancing those fears with the hope of a deeper relationship with Amelia?"
+    },
+    {
+      "turn": 13,
+      "speaker": "client",
+      "content": "It\u2019s definitely a balancing act. On one hand, I feel that hope for a deeper relationship, and that\u2019s really important to me. I want to be able to share my feelings and feel connected to her. But on the other hand, those fears can be really loud in my head, making me doubt myself and worry about what might happen. I guess I just have to remind myself that taking that risk could lead to something good, even if it feels scary. It\u2019s just hard to push through that fear sometimes."
+    },
+    {
+      "turn": 14,
+      "speaker": "therapist",
+      "content": "It sounds like you\u2019re really aware of the tension between hope and fear, and that\u2019s a significant insight. Acknowledging that both feelings can coexist is an important step. It\u2019s understandable that the fears can feel overwhelming at times, especially when you\u2019re considering taking a risk. Reminding yourself of the potential for something positive can be a powerful motivator. What do you think might help you stay grounded in that hope when the fears start to feel loud?"
+    },
+    {
+      "turn": 14,
+      "speaker": "client",
+      "content": "I think maybe I could try to focus on the reasons why I care about Amelia and why I want to be open with her. Reflecting on the positive moments we\u2019ve shared might help remind me of the connection we have. I could also talk to a friend or write in a journal about my feelings to help process them. It might help to have some support outside of my relationship with Amelia, just to keep my perspective balanced. I guess I just need to keep reminding myself that being vulnerable doesn\u2019t mean I\u2019m weak; it\u2019s actually a step toward building something stronger."
+    },
+    {
+      "turn": 15,
+      "speaker": "therapist",
+      "content": "Those sound like wonderful strategies! Reflecting on the positive moments you\u2019ve shared with Amelia can definitely help reinforce your connection and remind you of the foundation you have. Talking to a friend or journaling can also provide a safe space to process your feelings and gain perspective. It\u2019s great that you\u2019re recognizing that vulnerability can be a strength rather than a weakness. That mindset shift can be really empowering. As you think about these steps, how do you feel about the possibility of moving forward with this approach?"
+    },
+    {
+      "turn": 15,
+      "speaker": "client",
+      "content": "I feel a bit more hopeful about it, actually. Just thinking about those strategies makes it seem more manageable. I know it won\u2019t be easy, and I\u2019ll probably still feel nervous, but having a plan in place helps. It feels like I\u2019m taking a step toward being more honest with myself and with Amelia, which is something I really want. I guess I just have to take it one step at a time and be gentle with myself along the way."
+    }
+  ],
+  "judge_model": "gpt-4o-mini",
+  "mediator_events": [
+    "Exploration judge rated 2/5; internal elements remain masked.",
+    "Exploration judge output: [Rating]: 2 (High Facilitation)\n\n[Justification]: The Therapist asked relevant and open-ended questions that encouraged the client to explore her feelings about not hearing from Amelia. The questions prompted some deeper reflection on the client's emotions and coping mechanisms. However, while the Therapist's inquiries were clear and relevant, they primarily expanded on the client's existing thoughts rather than introducing significantly new perspectives or challenging her assumptions. The conversation remained within familiar territory, focusing on the client's immediate feelings of anxiety and sadness without delving into deeper underlying issues or patterns.",
+    "Rapport judge rated 3/5; no experience reveal.",
+    "Rapport judge output: **Rating: 3 (ENGAGED EXPLORATION)**\n\n**Key Examples:**\n1. Client: \"Yeah, I guess it just makes me feel... uneasy? Like, I start to worry that something bad might have happened to her or that she doesn\u2019t care enough to reach out. It\u2019s silly, I know, but I can\u2019t help but feel sad and lonely when I don\u2019t hear from her.\"\n2. Client: \"Well, I usually end up texting her a lot. I know it might come off as needy or clingy, but I just feel like I need to reach out. It\u2019s like I can\u2019t settle down until I hear from her.\"\n\n**Progression:**\nThe client\u2019s most recent interactions demonstrate a notable increase in emotional expression and self-reflection. They articulate feelings of unease, sadness, and loneliness regarding their relationship with Amelia, indicating a deeper emotional engagement than in earlier exchanges. Initially, the client showed hesitance and a lack of clarity about their feelings, but now they are able to identify and articulate specific emotions tied to their anxiety. This marks a significant change from earlier stages where the client was more guarded and less willing to explore their emotional landscape.\n\n**Turning Point:**\nThe client\u2019s emotional depth shifted during the exchange where they began to express their feelings of sadness and loneliness related to not hearing from Amelia. This moment was pivotal as it signaled a transition from a more defensive stance to one of vulnerability, allowing for a richer exploration of their emotional state. The client\u2019s willingness to share their worries and the internal conflict between their need for reassurance and fear of being perceived as clingy illustrates a growing comfort with the therapeutic process.",
+    "Exploration judge rated 4/5 and revealed internal cognitive elements.",
+    "Exploration judge output: [Rating]: 4 (Even Higher Facilitation \u2013 Strong Transformational Potential)\n\n[Justification]: The therapist asked strategic and powerfully open-ended questions that pushed the client to explore deeper emotional layers and underlying fears. The questions challenged the client's assumptions about vulnerability and connection, revealing hidden motivations and concerns about being perceived as \"too much.\" The therapist's inquiries encouraged the client to reflect on the balance between their need for connection and their fear of pushing others away, facilitating a significant shift in self-awareness. This level of questioning indicates a strong potential for transformation, as it encourages the client to confront and analyze their feelings and behaviors in a more profound way.",
+    "Rapport judge rated 3/5; no experience reveal.",
+    "Rapport judge output: **Rating: 3 (ENGAGED EXPLORATION)**\n\n**Key Examples:**\n1. **Emotional State:** \"I guess it just makes me feel... uneasy? Like, I start to worry that something bad might have happened to her or that she doesn\u2019t care enough to reach out. It\u2019s silly, I know, but I can\u2019t help but feel sad and lonely when I don\u2019t hear from her.\"\n2. **Current Openness:** \"I guess when I think about being 'too much,' I worry that I might push her away. Like, if I come off as clingy or overly anxious, she might get frustrated or feel suffocated.\"\n\n**Progression:** The client\u2019s most recent interactions indicate a notable increase in emotional expression and self-reflection. Initially, the client presented with uncertainty and a reluctance to delve deeply into their feelings, as seen in their early responses where they downplayed their anxiety about not hearing from Amelia. However, as the session progressed, the client began to articulate their feelings of unease, sadness, and loneliness more clearly, demonstrating a willingness to explore the underlying fears associated with their need for connection. This marks a significant change from earlier exchanges where emotional depth was minimal.\n\n**Turning Point:** The client\u2019s emotional depth shifted notably when they began expressing their fears about being perceived as \"too much\" and the implications of that on their relationship with Amelia. This moment of vulnerability, where they articulated the tension between their desire for connection and their fear of being seen as weak, served as a catalyst for deeper exploration of their feelings and needs. This shift reflects a growing comfort with the therapist and a willingness to engage in meaningful dialogue about their emotional state.",
+    "Rapport judge rated 3/5; no experience reveal.",
+    "Rapport judge output: **Rating: 3 (ENGAGED EXPLORATION)**\n\n**Key Examples:**\n1. \"I guess it just makes me feel... uneasy? Like, I start to worry that something bad might have happened to her or that she doesn\u2019t care enough to reach out. It\u2019s silly, I know, but I can\u2019t help but feel sad and lonely when I don\u2019t hear from her.\"\n2. \"I guess maybe it would help to think about what I really want from our relationship. I mean, I want to feel close to her and not just keep everything inside. Maybe I could start small, like sharing little things about how I\u2019m feeling instead of diving into the deep stuff right away.\"\n\n**Progression:**\nIn the most recent exchanges, the client has shown a notable increase in emotional expression and self-reflection. Initially, the client was hesitant and uncertain about discussing their feelings, as seen in their early responses where they downplayed their anxiety about not hearing from Amelia. However, as the session progressed, the client began to articulate their feelings more clearly, expressing unease, sadness, and loneliness. This marks a significant shift from earlier interactions, where the client was more guarded and factual. The current exchanges reveal a deeper engagement with their emotions, as the client is now actively exploring their feelings and considering steps to communicate their needs to Amelia.\n\n**Turning Point:**\nThe turning point in the client's emotional depth occurred when they began to articulate their fears about being perceived as \"too much\" and the tension between wanting to connect and fearing vulnerability. This moment of self-reflection allowed the client to recognize the impact of their beliefs about self-sufficiency on their relationships. The acknowledgment of wanting to share their feelings, even in a small way, indicates a willingness to explore vulnerability, which is a crucial step in their emotional journey. This shift towards considering actionable steps to improve their connection with Amelia demonstrates a growing comfort with the therapeutic process and a desire for deeper engagement."
+  ],
+  "final_visible_experience_count": 1,
+  "internal_revealed": true
+}

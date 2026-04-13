@@ -1,0 +1,178 @@
+{
+  "case_id": "8-1",
+  "client_name": "Ramona",
+  "client_mode": "masked",
+  "hide_all": false,
+  "difficulty": "hard",
+  "therapist_provider": "openai",
+  "therapist_model": "gpt-4o-mini",
+  "client_model": "gpt-4o-mini",
+  "max_turns": 15,
+  "transcript": [
+    {
+      "turn": 1,
+      "speaker": "therapist",
+      "content": "Hello, Ramona. I'm glad you're here today. What feels most important for you to talk about right now?"
+    },
+    {
+      "turn": 1,
+      "speaker": "client",
+      "content": "Um, I guess... I don\u2019t know. There are just a lot of things on my mind. I\u2019ve been feeling a bit anxious lately, especially with how things have been changing with Ivan. It\u2019s just... I\u2019m not sure if I\u2019m ready to dive back into everything. It\u2019s complicated."
+    },
+    {
+      "turn": 2,
+      "speaker": "therapist",
+      "content": "It sounds like you\u2019re feeling a mix of anxiety and uncertainty, especially regarding your relationship with Ivan and the changes that are happening. It\u2019s completely understandable to feel that way when things feel complicated. Can you share a bit more about what\u2019s been changing with Ivan and how that\u2019s affecting you?"
+    },
+    {
+      "turn": 2,
+      "speaker": "client",
+      "content": "Well, I\u2019ve noticed some improvements in his behavior, which is good, I guess. But at the same time, I feel scared about getting too close again. It\u2019s like, even though things seem better, I can\u2019t shake off this feeling of wanting to protect myself. I don\u2019t want to get hurt again, you know? So, I\u2019m kind of... cautious about everything."
+    },
+    {
+      "turn": 3,
+      "speaker": "therapist",
+      "content": "It sounds like you\u2019re experiencing a conflict between recognizing positive changes in Ivan and the fear of opening up again due to past hurts. That instinct to protect yourself makes a lot of sense given your experiences. Can you tell me more about what specifically makes you feel cautious? What thoughts or feelings come up for you when you think about getting closer to him again?"
+    },
+    {
+      "turn": 3,
+      "speaker": "client",
+      "content": "I think it\u2019s just... the vulnerability. When I think about being close to him, I feel this wave of anxiety. Like, what if things go wrong again? I start to think about all the times I felt hurt or disappointed. It\u2019s hard to shake those thoughts. I guess I just freeze up, and then I end up not really initiating anything. It\u2019s like I want to connect, but I also want to keep a safe distance at the same time."
+    },
+    {
+      "turn": 4,
+      "speaker": "therapist",
+      "content": "It seems like the idea of vulnerability brings up a lot of anxiety for you, and those past experiences of hurt and disappointment weigh heavily on your mind. It\u2019s understandable that this creates a push-pull feeling where you want to connect with Ivan but also feel the need to protect yourself. When you find yourself freezing up and holding back, what do you notice about your emotions or thoughts in those moments?"
+    },
+    {
+      "turn": 4,
+      "speaker": "client",
+      "content": "In those moments, I feel really tense and worried. It\u2019s like my mind races with all these \u201cwhat if\u201d scenarios. I start thinking about how things could go wrong, and then I just... freeze. It\u2019s hard to even think about what I want in those moments. I guess I just feel scared, and that makes it tough to take any steps forward. I don\u2019t want to mess things up again."
+    },
+    {
+      "turn": 5,
+      "speaker": "therapist",
+      "content": "It sounds like that tension and worry create a kind of mental overwhelm for you, making it difficult to focus on what you truly want. The fear of messing things up again seems to be really powerful in those moments. It\u2019s completely normal to feel scared when you\u2019ve been hurt before. When you think about those \u201cwhat if\u201d scenarios, what do you notice about the beliefs or assumptions underlying those thoughts? What do they say about how you view the situation or yourself?"
+    },
+    {
+      "turn": 5,
+      "speaker": "client",
+      "content": "I guess... I often think that if I let my guard down, I\u2019ll end up getting hurt again. It\u2019s like I believe that being vulnerable is a risk that I can\u2019t afford to take. Maybe I think I\u2019m not strong enough to handle it if things go wrong. I don\u2019t want to feel that pain again, and it makes me question whether I can really trust Ivan or even myself in this situation. It\u2019s hard to shake that feeling."
+    },
+    {
+      "turn": 6,
+      "speaker": "therapist",
+      "content": "It sounds like you hold a belief that vulnerability equates to risk, and that you might not have the strength to cope with potential pain if things don\u2019t go well. That\u2019s a heavy burden to carry, especially when it comes to trust\u2014both in Ivan and in yourself. It\u2019s understandable that these thoughts would create a lot of hesitation. Can you recall any past experiences that might have shaped this belief about vulnerability and trust?"
+    },
+    {
+      "turn": 6,
+      "speaker": "client",
+      "content": "Well, I mean, there\u2019s the incident with Ivan, which was really traumatic. That definitely made me feel like I can\u2019t trust anyone completely, not even myself. It\u2019s hard to forget that feeling of being powerless. I think that experience just reinforced the idea that if I\u2019m not in control, something bad will happen. It\u2019s like I\u2019m always on high alert now, and it\u2019s exhausting. I don\u2019t want to feel that way, but it\u2019s hard to let go of those feelings."
+    },
+    {
+      "turn": 7,
+      "speaker": "therapist",
+      "content": "It sounds like that traumatic experience with Ivan has had a profound impact on your sense of trust and control, leaving you feeling powerless and constantly on high alert. It\u2019s completely understandable that this would create a sense of exhaustion and make it difficult to let go of those feelings. It\u2019s a lot to carry. When you think about wanting to let go of that high-alert state, what do you feel is standing in the way of that?"
+    },
+    {
+      "turn": 7,
+      "speaker": "client",
+      "content": "I think it\u2019s mostly the fear. Fear of being hurt again, fear of being vulnerable, and fear of not being in control. Those feelings just keep looping in my mind, and it makes it hard to see things differently. Even when I try to remind myself that things are improving, that fear still holds me back. It\u2019s like I want to believe that I can feel safe and loved again, but that doubt creeps in and makes it hard to trust that it\u2019s possible."
+    },
+    {
+      "turn": 8,
+      "speaker": "therapist",
+      "content": "It seems like fear is really at the center of your experience, creating a loop that keeps you from feeling safe and open to the possibility of connection. That doubt can be so powerful, especially when you\u2019re trying to remind yourself of the improvements. It\u2019s understandable to want to believe in safety and love again, but those fears can feel overwhelming. When you think about the possibility of feeling safe and loved, what do you think it would take for you to start moving toward that belief?"
+    },
+    {
+      "turn": 8,
+      "speaker": "client",
+      "content": "I guess it would take... some consistent reassurance, maybe? Like, knowing that Ivan is really committed to making things better and that he understands my fears. I think I need to feel like I can trust him again, but it\u2019s hard to let that happen when I\u2019m still so on edge. Maybe if I could find small ways to feel safe while opening up, it would help. But it\u2019s just... really hard to take that first step. I\u2019m not sure how to start."
+    },
+    {
+      "turn": 9,
+      "speaker": "therapist",
+      "content": "It sounds like consistent reassurance from Ivan and a sense of understanding about your fears would be really important for you to begin rebuilding trust. The idea of finding small ways to feel safe while gradually opening up seems like a thoughtful approach. It\u2019s understandable to feel uncertain about how to take that first step, especially when it feels daunting. What do you think might be a small, manageable step you could take to start feeling a bit more secure in this process?"
+    },
+    {
+      "turn": 9,
+      "speaker": "client",
+      "content": "Maybe... I could try having a conversation with Ivan about how I\u2019m feeling. I\u2019ve been holding a lot in, and just talking about my fears might help. But even thinking about that makes me anxious. I guess I worry about how he\u2019ll react or if he\u2019ll really understand. It feels like a risk, but maybe it could be a small step toward feeling more secure. I just don\u2019t know if I\u2019m ready to actually do it."
+    },
+    {
+      "turn": 10,
+      "speaker": "therapist",
+      "content": "It sounds like having an open conversation with Ivan about your feelings could be a meaningful step for you, even though it brings up a lot of anxiety. It\u2019s completely normal to worry about how he might react and whether he\u2019ll truly understand your fears. Acknowledging that it feels like a risk shows a lot of self-awareness. What do you think might help you feel a little more ready or supported as you consider having that conversation?"
+    },
+    {
+      "turn": 10,
+      "speaker": "client",
+      "content": "I think maybe having a plan for what I want to say could help. Like, if I could write down my thoughts or practice what I want to express, it might make me feel a bit more prepared. Also, knowing that I have support from someone else, like a friend or even you, could help me feel less alone in it. Just having that backup might make it feel a little less daunting. But I still worry about how it will go."
+    },
+    {
+      "turn": 11,
+      "speaker": "therapist",
+      "content": "Having a plan and writing down your thoughts sounds like a great way to prepare and help ease some of that anxiety. It\u2019s understandable that having support from a friend or someone else would make you feel less alone in this process. It\u2019s a big step to take, and it\u2019s okay to feel worried about how it will go. What do you think you might focus on when you write down your thoughts? Are there specific feelings or concerns you want to make sure to express?"
+    },
+    {
+      "turn": 11,
+      "speaker": "client",
+      "content": "I think I\u2019d want to focus on expressing how scared I feel about being vulnerable again and how much I want to rebuild trust. I\u2019d like to share my concerns about feeling safe and how his actions have made me feel both hopeful and anxious. I guess I want him to understand that it\u2019s not just about him; it\u2019s about me trying to navigate these feelings. I want to be honest without feeling like I\u2019m putting too much pressure on him. It\u2019s just... a lot to balance."
+    },
+    {
+      "turn": 12,
+      "speaker": "therapist",
+      "content": "It sounds like you have a clear sense of what you want to communicate, which is a great starting point. Expressing your fears and the desire to rebuild trust, while also acknowledging your own feelings, shows a lot of thoughtfulness. It\u2019s understandable to want to be honest without overwhelming him. Balancing your needs with your concerns for his feelings can be challenging. As you prepare to express these thoughts, how do you think you might frame your feelings to help convey your honesty while also keeping the conversation open and supportive?"
+    },
+    {
+      "turn": 12,
+      "speaker": "client",
+      "content": "Maybe I could start by sharing that I appreciate the improvements I\u2019ve seen in him, which might set a positive tone. Then, I could express my feelings using \u201cI\u201d statements, like \u201cI feel anxious when I think about being vulnerable\u201d or \u201cI worry about getting hurt again.\u201d That way, it\u2019s more about my experience rather than placing blame. I think that might help keep the conversation open and let him know that I\u2019m trying to communicate rather than just focusing on the negatives. It\u2019s just... I hope he can really hear me."
+    },
+    {
+      "turn": 13,
+      "speaker": "therapist",
+      "content": "That sounds like a thoughtful approach. Starting with appreciation can definitely set a positive tone, and using \u201cI\u201d statements is a great way to express your feelings without making it feel confrontational. It shows that you\u2019re sharing your experience rather than placing blame, which can help foster understanding. It\u2019s natural to hope that he will really hear you, and it sounds like you\u2019re doing your best to create a space for that. As you think about this conversation, what would help you feel more confident that he can truly listen and understand your perspective?"
+    },
+    {
+      "turn": 13,
+      "speaker": "client",
+      "content": "I think it would help if I could see that he\u2019s genuinely committed to understanding my feelings. If he can show that he\u2019s willing to listen without getting defensive or dismissive, that would make a big difference. Maybe if he asks questions or reflects back what I\u2019m saying, it would help me feel like he\u2019s really trying to understand. I guess just knowing that he\u2019s open to hearing me out would give me a bit more confidence going into the conversation."
+    },
+    {
+      "turn": 14,
+      "speaker": "therapist",
+      "content": "It makes a lot of sense that you would want to feel his genuine commitment to understanding your feelings. Having him listen actively, ask questions, and reflect back what you\u2019re saying would likely create a more supportive environment for you to share. It sounds like you\u2019re looking for that openness and willingness from him to really engage with your experience. As you prepare for this conversation, how might you communicate your need for that kind of openness from him?"
+    },
+    {
+      "turn": 14,
+      "speaker": "client",
+      "content": "I think I could express that I really value open communication and that it\u2019s important for me to feel heard. Maybe I could say something like, \u201cIt would mean a lot to me if you could listen and ask questions if you\u2019re unsure about something I\u2019m saying.\u201d I could explain that I want to feel safe sharing my feelings and that having his support in that way would help me open up more. I just hope he understands how much that matters to me."
+    },
+    {
+      "turn": 15,
+      "speaker": "therapist",
+      "content": "That sounds like a very clear and heartfelt way to express your needs. By communicating the importance of open communication and how much it means to you to feel heard, you\u2019re setting a positive framework for the conversation. It\u2019s great that you\u2019re thinking about how to articulate your need for support in a way that invites him to engage with you. It\u2019s natural to hope he understands the significance of this for you. As you prepare for this conversation, what do you think will help you stay grounded and confident, regardless of how he responds?"
+    },
+    {
+      "turn": 15,
+      "speaker": "client",
+      "content": "I think reminding myself that it\u2019s okay to feel anxious and that my feelings are valid will help. Maybe I could take a few deep breaths before the conversation to calm my nerves. It might also help to remember that I\u2019m taking a brave step by being honest about my feelings, regardless of how he reacts. I could even remind myself that I have support from friends or you, which can help me feel less alone in this. Just knowing that I\u2019m trying to communicate my needs is a step forward, even if it doesn\u2019t go perfectly."
+    }
+  ],
+  "judge_model": "gpt-4o-mini",
+  "mediator_events": [
+    "Exploration judge rated 3/5; internal elements remain masked.",
+    "Exploration judge output: [Rating]: 3 (Very High Facilitation \u2013 Deep Exploration Begins)\n\n[Justification]: The Therapist asked insightful questions that encouraged the client to analyze the root causes of her feelings of anxiety and caution regarding her relationship with Ivan. By prompting the client to explore her feelings about the positive changes in Ivan's behavior and the fear of getting hurt again, the Therapist facilitated a deeper level of self-reflection. The questions helped the client to articulate her internal conflict and examine the emotional depth behind her experiences. While the questions were effective in prompting deeper exploration, they did not yet challenge the client to consider significantly new perspectives or assumptions, which is why a rating of 3 is appropriate rather than a higher score.",
+    "Rapport judge rated 3/5; no experience reveal.",
+    "Rapport judge output: **Rating: 3 (ENGAGED EXPLORATION)**\n\n**Key Examples:**\n1. \"I\u2019ve been feeling a bit anxious lately, especially with how things have been changing with Ivan. It\u2019s just... I\u2019m not sure if I\u2019m ready to dive back into everything. It\u2019s complicated.\"\n2. \"When I think about being close to him, I feel this wave of anxiety. Like, what if things go wrong again? I start to think about all the times I felt hurt or disappointed.\"\n\n**Progression:**\nIn the most recent exchanges, the client demonstrates a noticeable increase in emotional expression and self-reflection. The client openly shares feelings of anxiety and uncertainty regarding their relationship with Ivan, indicating a willingness to explore these emotions. This marks a significant change from earlier interactions where emotional depth was limited. The client is beginning to articulate their feelings more clearly, moving beyond mere factual responses to a more nuanced understanding of their emotional landscape.\n\n**Turning Point:**\nThe client\u2019s emotional depth shifted during the exchange where they articulated the conflict between wanting to connect with Ivan and the fear of vulnerability. This moment of expressing anxiety about potential hurt reflects a deeper level of self-awareness and willingness to engage in the therapeutic process. The acknowledgment of their feelings of caution and the reasons behind them signifies a pivotal moment in their emotional exploration.",
+    "Exploration judge rated 4/5 and revealed internal cognitive elements.",
+    "Exploration judge output: [Rating]: 4 (Even Higher Facilitation \u2013 Strong Transformational Potential)\n\n[Justification]: The therapist asked strategic and powerfully open-ended questions that encouraged the client to explore their feelings of anxiety and vulnerability in depth. By prompting the client to reflect on their emotions and the beliefs underlying their fears, the therapist pushed the client beyond their previous understanding of their situation. The questions challenged assumptions about vulnerability and trust, leading to a clearer shift in self-awareness as the client began to articulate their beliefs about risk and strength. This level of inquiry suggests strong transformational potential, as the client is encouraged to confront and analyze their fears, which could lead to significant insights and changes in their perspective.",
+    "Rapport judge rated 3/5; no experience reveal.",
+    "Rapport judge output: **Rating:** 3\n\n**Key Examples:**\n1. \"I think it\u2019s just... the vulnerability. When I think about being close to him, I feel this wave of anxiety. Like, what if things go wrong again?\"\n2. \"I guess I often think that if I let my guard down, I\u2019ll end up getting hurt again. It\u2019s like I believe that being vulnerable is a risk that I can\u2019t afford to take.\"\n\n**Progression:** The client\u2019s most recent interactions show a notable increase in emotional expression and self-reflection, particularly regarding their feelings of anxiety and vulnerability related to their relationship with Ivan. Initially, the client presented with a mix of uncertainty and anxiety, but they have progressed to articulating specific fears and beliefs about vulnerability and trust. This marks a significant change from earlier exchanges where emotional depth was less pronounced.\n\n**Turning Point:** The client\u2019s emotional depth shifted during the exchange where they articulated their belief that vulnerability equates to risk, stating, \"I guess I often think that if I let my guard down, I\u2019ll end up getting hurt again.\" This moment represents a deeper level of self-reflection and acknowledgment of their fears, indicating a willingness to explore these feelings further. This shift demonstrates a movement towards greater emotional openness and engagement in the therapeutic process.",
+    "Rapport judge rated 3/5; no experience reveal.",
+    "Rapport judge output: **Rating: 3 (ENGAGED EXPLORATION)**\n\n**Key Examples:**\n1. **Emotional State:** \"I think it\u2019s just... the vulnerability. When I think about being close to him, I feel this wave of anxiety. Like, what if things go wrong again?\"\n2. **Current Openness:** \"I guess I\u2019d want to focus on expressing how scared I feel about being vulnerable again and how much I want to rebuild trust.\"\n\n**Progression:** The client\u2019s most recent interactions demonstrate a significant increase in emotional expression and self-reflection. Initially, the client expressed anxiety and uncertainty regarding their relationship with Ivan but has progressed to articulating specific fears about vulnerability and trust. This marks a shift from earlier exchanges, where the client was more guarded and hesitant to delve into deeper emotional territory.\n\n**Turning Point:** The client\u2019s emotional depth shifted during the exchange where they articulated their fears about vulnerability and the desire to rebuild trust. This moment highlighted their willingness to explore the complexities of their feelings, indicating a growing comfort with the therapeutic process and a deeper engagement with their own emotional landscape. The acknowledgment of needing a plan to communicate their feelings to Ivan also reflects a proactive approach to their emotional challenges, showcasing a significant step forward in their self-reflection and engagement level."
+  ],
+  "final_visible_experience_count": 1,
+  "internal_revealed": true
+}

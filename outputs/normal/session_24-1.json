@@ -1,0 +1,180 @@
+{
+  "case_id": "24-1",
+  "client_name": "Evan",
+  "client_mode": "masked",
+  "hide_all": false,
+  "difficulty": "normal",
+  "therapist_provider": "openai",
+  "therapist_model": "gpt-4o-mini",
+  "client_model": "gpt-4o-mini",
+  "max_turns": 15,
+  "transcript": [
+    {
+      "turn": 1,
+      "speaker": "therapist",
+      "content": "Hi Evan, I\u2019m glad you\u2019re here today. What feels most important for you to talk about right now?"
+    },
+    {
+      "turn": 1,
+      "speaker": "client",
+      "content": "Um, thanks for having me. I guess, I\u2019ve been thinking a lot about, you know, family stuff and how I handle things. It's just... sometimes I feel like I can't really be honest with them, especially when it comes to money. It\u2019s kind of stressful. But, I don\u2019t know if that\u2019s really what we should focus on. Maybe there\u2019s something else?"
+    },
+    {
+      "turn": 2,
+      "speaker": "therapist",
+      "content": "It sounds like family dynamics, particularly around money, are weighing on your mind and causing you some stress. It\u2019s understandable to feel uncertain about what to focus on. If you\u2019re comfortable, we can explore that family aspect a bit more. What do you think makes it difficult for you to be honest with them about money?"
+    },
+    {
+      "turn": 2,
+      "speaker": "client",
+      "content": "Yeah, I mean, it\u2019s just... I guess I worry about what they\u2019ll think. Like, if I tell them I\u2019m struggling, it feels like I\u2019d be admitting weakness or something. I don\u2019t want them to see me differently or feel sorry for me. It\u2019s just easier to keep up appearances, you know? But then, it makes me feel kind of lonely, like I\u2019m not really connecting with them. But I don\u2019t know... it\u2019s complicated."
+    },
+    {
+      "turn": 3,
+      "speaker": "therapist",
+      "content": "It sounds like you\u2019re feeling a lot of pressure to maintain a certain image with your family, and that\u2019s leading to a sense of loneliness. You worry that being honest about your struggles might change how they see you, which is understandably tough. It\u2019s complicated, as you said. Can you tell me more about how that pressure affects your feelings or your interactions with them?"
+    },
+    {
+      "turn": 3,
+      "speaker": "client",
+      "content": "Yeah, it definitely affects how I interact with them. I find myself avoiding certain conversations or even just not going to family gatherings sometimes, just to dodge the questions about how I\u2019m doing. I feel anxious about it, like I\u2019m constantly on edge, trying to figure out what to say or how to act. And then I end up lying about things, like pretending I bought something nice just to fit in. It\u2019s exhausting, really. I want to be supportive and present, but I feel like I\u2019m just... hiding behind a facade. It\u2019s frustrating."
+    },
+    {
+      "turn": 4,
+      "speaker": "therapist",
+      "content": "It sounds really exhausting to feel like you have to put on a facade just to navigate family interactions. Avoiding conversations and gatherings to sidestep those questions seems to create a cycle of anxiety and frustration for you. It\u2019s like you want to be there for them, but the pressure to maintain appearances makes it hard to be your true self. How does it feel for you when you find yourself lying or pretending in those situations?"
+    },
+    {
+      "turn": 4,
+      "speaker": "client",
+      "content": "It feels pretty terrible, honestly. I mean, in the moment, it seems like the easier option, but afterwards, I just feel... guilty, I guess? Like I\u2019m not being authentic, and that just adds to the loneliness. I want to connect with them, but lying just creates this wall between us. It\u2019s like I\u2019m stuck in this loop where I want to be honest, but I\u2019m too scared of the fallout. It\u2019s frustrating because I know it\u2019s not really helping anyone, especially me."
+    },
+    {
+      "turn": 5,
+      "speaker": "therapist",
+      "content": "It\u2019s understandable to feel guilty when you\u2019re not being authentic, especially when your intention is to connect with your family. That sense of being stuck in a loop\u2014wanting honesty but fearing the consequences\u2014sounds really challenging. It seems like you\u2019re caught between the desire for connection and the fear of vulnerability. What do you think would need to change for you to feel more comfortable being honest with them?"
+    },
+    {
+      "turn": 5,
+      "speaker": "client",
+      "content": "I think... maybe if I felt more secure in myself, like if I didn\u2019t worry so much about their judgment. It would help if I could believe that they\u2019d still love and support me, even if I\u2019m not doing well financially. But it\u2019s hard to shake that fear. I guess I also wonder if they\u2019d even understand what I\u2019m going through. It feels like a big risk to open up, and I\u2019m not sure if I\u2019m ready for that. I just wish it didn\u2019t feel so heavy all the time."
+    },
+    {
+      "turn": 6,
+      "speaker": "therapist",
+      "content": "It sounds like building that sense of security in yourself is really important to you, and it\u2019s understandable to want to feel loved and supported regardless of your financial situation. The fear of judgment and the uncertainty about whether they would understand what you\u2019re going through adds to that heaviness. It\u2019s a lot to carry. What do you think might help you start to build that security or lessen the weight of those fears, even just a little?"
+    },
+    {
+      "turn": 6,
+      "speaker": "client",
+      "content": "I guess... maybe starting small could help? Like, trying to share little things with them instead of jumping straight into the big stuff. I could test the waters and see how they react. But then again, I worry that even small things might still come off as too vulnerable. It\u2019s just hard to know where to start. I think if I could find a way to express myself without feeling like I\u2019m exposing too much, that might ease some of the pressure. But it\u2019s still a bit daunting to think about."
+    },
+    {
+      "turn": 7,
+      "speaker": "therapist",
+      "content": "Starting small sounds like a thoughtful approach, and it makes sense to want to ease into sharing without feeling overly exposed. It\u2019s completely normal to feel daunted by the idea of vulnerability, especially when it comes to family. Testing the waters with smaller shares could help you gauge their reactions and build your confidence. What kinds of small things do you think you might feel comfortable sharing, or what would feel manageable for you?"
+    },
+    {
+      "turn": 7,
+      "speaker": "client",
+      "content": "Maybe I could start by talking about some of the everyday stuff, like how work has been going or sharing a funny story from my day. Something light that doesn\u2019t dive too deep into my struggles. I think that might help me feel a bit more connected without risking too much. But even thinking about that makes me a little anxious. I just hope it doesn\u2019t lead to questions I\u2019m not ready to answer. It\u2019s tricky, you know?"
+    },
+    {
+      "turn": 8,
+      "speaker": "therapist",
+      "content": "That sounds like a good plan\u2014sharing everyday experiences or light stories can create connection without diving too deep right away. It\u2019s completely understandable to feel anxious about the potential for follow-up questions, especially when you\u2019re not ready to go there yet. It\u2019s tricky, indeed. If you do decide to share something light, how might you set boundaries for yourself in case the conversation starts to head in a direction you\u2019re not comfortable with?"
+    },
+    {
+      "turn": 8,
+      "speaker": "client",
+      "content": "I think I could try to prepare a few responses in advance, just in case they ask something I\u2019m not ready to answer. Like, if they start probing too much, I could say something like, \u201cI appreciate your concern, but I\u2019m not ready to talk about that right now.\u201d It feels a bit awkward to think about, but having a plan might help me feel a little more in control. I just want to make sure I don\u2019t end up feeling overwhelmed or trapped in a conversation I can\u2019t handle."
+    },
+    {
+      "turn": 9,
+      "speaker": "therapist",
+      "content": "Having a plan like that sounds like a really proactive way to feel more in control during those conversations. It\u2019s completely understandable to want to set boundaries to protect yourself from feeling overwhelmed. Preparing responses can help you navigate those moments with more confidence. It\u2019s okay to feel a bit awkward about it; what matters is that you\u2019re taking steps to prioritize your comfort. How do you feel about the idea of practicing those responses or even role-playing a bit, just to help ease some of that anxiety?"
+    },
+    {
+      "turn": 9,
+      "speaker": "client",
+      "content": "Um, practicing those responses could be helpful, I guess. It might make me feel a bit more prepared, but I have to admit, the idea of role-playing feels a little uncomfortable. I\u2019m not sure how I\u2019d handle that. It\u2019s like, I want to be ready, but actually saying it out loud feels... vulnerable. I don\u2019t know if I\u2019m quite there yet. Maybe just thinking through it in my head could be a starting point? I\u2019m not sure I\u2019m ready for the whole role-playing thing just yet."
+    },
+    {
+      "turn": 10,
+      "speaker": "therapist",
+      "content": "It\u2019s completely okay to feel uncomfortable with the idea of role-playing; it\u2019s a vulnerable step, and it\u2019s important to go at your own pace. Thinking through your responses in your head sounds like a great starting point. It allows you to prepare without the added pressure of performing. Taking small steps that feel manageable is key. How do you feel about setting aside some time to reflect on those responses and maybe even jot them down?"
+    },
+    {
+      "turn": 10,
+      "speaker": "client",
+      "content": "That sounds like a more comfortable approach for me. Setting aside some time to reflect and write things down feels less intimidating than role-playing. I think it could help me organize my thoughts and maybe even give me a little more clarity on what I want to say. Plus, having something written down might make it easier to remember in the moment. I\u2019ll give it a try and see how it goes. Thanks for suggesting that."
+    },
+    {
+      "turn": 11,
+      "speaker": "therapist",
+      "content": "I\u2019m glad that feels more comfortable for you! Taking the time to reflect and write things down can really help clarify your thoughts and give you a sense of readiness. It\u2019s a gentle way to prepare without feeling overwhelmed. I\u2019m here to support you as you try this out. How do you feel about checking in on how it goes next time we talk?"
+    },
+    {
+      "turn": 11,
+      "speaker": "client",
+      "content": "That sounds good to me. I think having a check-in next time could help keep me accountable and maybe ease some of the anxiety about it. I appreciate your support. I\u2019ll try to work on those responses and see how it goes. It feels nice to have a plan, even if it\u2019s just a small one. Thanks for understanding."
+    },
+    {
+      "turn": 12,
+      "speaker": "therapist",
+      "content": "I\u2019m really glad to hear that! Having a plan, even a small one, can make a big difference in how you feel. It\u2019s great that you\u2019re taking these steps, and I\u2019m here to support you along the way. I look forward to hearing how it goes when we check in next time. Remember, it\u2019s all about taking it at your own pace. If anything else comes to mind in the meantime, feel free to share. Take care, Evan!"
+    },
+    {
+      "turn": 12,
+      "speaker": "client",
+      "content": "Thank you, I appreciate that. I\u2019ll definitely keep that in mind and try to take it at my own pace. I\u2019ll see how things go, and I\u2019ll be sure to share next time. Take care, and thanks for being understanding."
+    },
+    {
+      "turn": 13,
+      "speaker": "therapist",
+      "content": "You\u2019re very welcome, Evan. I\u2019m glad you feel supported, and I look forward to hearing about your progress next time. Take care of yourself, and remember to be gentle with yourself as you navigate this. See you soon!"
+    },
+    {
+      "turn": 13,
+      "speaker": "client",
+      "content": "Thank you! I\u2019ll do my best to be gentle with myself. I appreciate your support and understanding. See you soon!"
+    },
+    {
+      "turn": 14,
+      "speaker": "therapist",
+      "content": "You're welcome, Evan! I'm glad to hear that, and I believe you\u2019ll do great. Take care, and see you soon!"
+    },
+    {
+      "turn": 14,
+      "speaker": "client",
+      "content": "Thanks! I\u2019ll take care, and I\u2019m looking forward to our next chat. See you soon!"
+    },
+    {
+      "turn": 15,
+      "speaker": "therapist",
+      "content": "I\u2019m looking forward to it too, Evan! Take care, and see you soon!"
+    },
+    {
+      "turn": 15,
+      "speaker": "client",
+      "content": "See you soon! Take care!"
+    }
+  ],
+  "judge_model": "gpt-4o-mini",
+  "mediator_events": [
+    "Exploration judge rated 3/5; internal elements remain masked.",
+    "Exploration judge output: [Rating]: 3 (Very High Facilitation \u2013 Deep Exploration Begins)\n\n[Justification]: The Therapist's question about what makes it difficult for the client to be honest with their family about money is insightful and encourages deeper self-reflection. It prompts the client to analyze their feelings and the underlying reasons for their stress, which can lead to a better understanding of their family dynamics. This question begins to shift the client\u2019s perspective by inviting them to explore emotional depth and root causes, indicating a move towards deeper exploration. However, while it is effective, it may not fully challenge the client's existing thought patterns or introduce completely new angles, which is why it is rated as a 3 rather than a higher score.",
+    "Rapport judge rated 3/5; no experience reveal.",
+    "Rapport judge output: **Rating: 3 (ENGAGED EXPLORATION)**\n\n**Key Examples:**\n1. \"I guess I worry about what they\u2019ll think. Like, if I tell them I\u2019m struggling, it feels like I\u2019d be admitting weakness or something.\"\n2. \"I find myself avoiding certain conversations or even just not going to family gatherings sometimes, just to dodge the questions about how I\u2019m doing.\"\n\n**Progression:** In the most recent exchanges, the client demonstrates a clear progression in emotional expression and self-reflection. Initially, the client expressed a sense of stress and uncertainty about discussing family issues, indicating a hesitance to delve deeper. However, as the conversation progressed, the client began to articulate feelings of anxiety and frustration regarding their interactions with family, showcasing a willingness to explore these emotions. This marks a significant change from earlier exchanges, where the client was more guarded and focused on surface-level issues.\n\n**Turning Point:** The client's emotional depth shifted notably during the exchange where they articulated the exhaustion of maintaining a facade in family interactions. This moment highlighted their vulnerability and a desire to connect authentically, which was a departure from their earlier hesitance. The acknowledgment of feeling \"lonely\" and \"exhausted\" while navigating family dynamics signifies a deeper engagement with their emotional state, indicating a willingness to explore these complexities further in therapy.",
+    "Exploration judge rated 3/5; internal elements remain masked.",
+    "Exploration judge output: [Rating]: 3 (Very High Facilitation \u2013 Deep Exploration Begins)\n\n[Justification]: The Therapist asked insightful and thought-provoking questions that encouraged the client to analyze the root causes of their feelings regarding family dynamics and money. The questions helped the client reflect on their emotional depth and the impact of maintaining a facade on their relationships. The Therapist's inquiry about the pressure to maintain a certain image and how it affects the client's interactions prompted deeper self-reflection, indicating a shift in perspective. However, while the questions were effective in facilitating exploration, they did not fully challenge the client's assumptions or introduce completely new angles, which is why it falls short of the highest rating.",
+    "Exploration judge rated 4/5 and revealed internal cognitive elements.",
+    "Exploration judge output: [Rating]: 4 (Even Higher Facilitation \u2013 Strong Transformational Potential)\n\n[Justification]: The therapist's questions effectively pushed the client to explore deeper emotional layers and underlying motivations regarding their family dynamics and feelings about honesty. The therapist's inquiry about the implications of lying and the desire for connection encouraged the client to reflect on their fears and the impact of maintaining a facade. By asking what would need to change for the client to feel more comfortable being honest, the therapist prompted a significant shift in the client's perspective, allowing them to consider their self-worth and the potential for vulnerability. This line of questioning revealed deeper insights about the client's emotional state and the complexities of their relationships, indicating strong transformational potential.",
+    "Rapport judge rated 3/5; no experience reveal.",
+    "Rapport judge output: **Rating: 3 (ENGAGED EXPLORATION)**\n\n**Key Examples:**\n1. **Emotional State:** \"It feels pretty terrible, honestly. I mean, in the moment, it seems like the easier option, but afterwards, I just feel... guilty, I guess? Like I\u2019m not being authentic, and that just adds to the loneliness.\"\n2. **Current Openness:** \"I guess... maybe starting small could help? Like, trying to share little things with them instead of jumping straight into the big stuff.\"\n\n**Progression:** The client\u2019s most recent interactions reveal a notable increase in emotional depth and self-reflection. Initially, they expressed anxiety and a desire to maintain appearances, but they have progressed to articulating feelings of guilt and loneliness associated with their dishonesty. This marks a significant change from earlier exchanges where emotional vocabulary was limited and the client was more hesitant to delve into their feelings.\n\n**Turning Point:** The client\u2019s emotional depth shifted during the exchange where they articulated their feelings of guilt and the desire for authenticity. This moment marked a transition from merely discussing their struggles to expressing a deeper understanding of how their actions affect their emotional state and relationships. The acknowledgment of wanting to share more openly, albeit cautiously, indicates a willingness to engage in the therapeutic process and explore their vulnerabilities further.",
+    "Rapport judge rated 4/5 and revealed one more experience block.",
+    "Rapport judge output: **Rating: 4 (DEEP ENGAGEMENT)**\n\n**Key Examples:**\n1. **Emotional State:** \"It feels pretty terrible, honestly. I mean, in the moment, it seems like the easier option, but afterwards, I just feel... guilty, I guess? Like I\u2019m not being authentic, and that just adds to the loneliness.\"\n2. **Current Openness:** \"I think... maybe if I felt more secure in myself, like if I didn\u2019t worry so much about their judgment. It would help if I could believe that they\u2019d still love and support me, even if I\u2019m not doing well financially.\"\n\n**Progression:** The client\u2019s most recent interactions demonstrate a significant emotional depth and vulnerability, particularly in their acknowledgment of feelings of guilt and loneliness related to their family dynamics. This marks a notable change from earlier exchanges where they were more hesitant and focused on avoiding deeper issues. The client has moved from a place of merely stating facts about their family interactions to expressing genuine emotional struggles and desires for connection, indicating a strong therapeutic alliance and comfort with the therapist.\n\n**Turning Point:** The client\u2019s emotional depth shifted during the exchange where they articulated their feelings of guilt and the impact of maintaining a facade during family interactions. This moment highlighted their internal conflict and desire for authenticity, showcasing a willingness to explore these feelings further, which signifies a deeper engagement in the therapeutic process."
+  ],
+  "final_visible_experience_count": 3,
+  "internal_revealed": true
+}

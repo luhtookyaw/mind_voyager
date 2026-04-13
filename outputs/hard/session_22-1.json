@@ -1,0 +1,182 @@
+{
+  "case_id": "22-1",
+  "client_name": "Wendy",
+  "client_mode": "masked",
+  "hide_all": false,
+  "difficulty": "hard",
+  "therapist_provider": "openai",
+  "therapist_model": "gpt-4o-mini",
+  "client_model": "gpt-4o-mini",
+  "max_turns": 15,
+  "transcript": [
+    {
+      "turn": 1,
+      "speaker": "therapist",
+      "content": "Hello, Wendy. I'm glad you're here today. What feels most important for you to talk about right now?"
+    },
+    {
+      "turn": 1,
+      "speaker": "client",
+      "content": "Um, I guess I\u2019m not really sure. There\u2019s just a lot going on, you know? Sometimes it feels like I\u2019m just... waiting for something to go wrong. Like, I don\u2019t know, maybe it\u2019s just me being paranoid or something. But it\u2019s hard to shake off that feeling."
+    },
+    {
+      "turn": 2,
+      "speaker": "therapist",
+      "content": "It sounds like you\u2019re feeling a sense of unease, almost like you\u2019re anticipating something negative happening. That must be really challenging to carry around. Can you tell me more about what\u2019s been contributing to that feeling for you?"
+    },
+    {
+      "turn": 2,
+      "speaker": "client",
+      "content": "I suppose it\u2019s just... things that have happened in the past. Like, when people don\u2019t communicate or keep things from me, it really gets to me. I can\u2019t help but think they\u2019re hiding something, and then I start to feel angry and suspicious. It\u2019s just... frustrating, I guess. I wish I could just trust people, but it\u2019s hard when you\u2019ve been let down before."
+    },
+    {
+      "turn": 3,
+      "speaker": "therapist",
+      "content": "It seems like past experiences have really shaped how you view trust and communication with others. Feeling let down can create a lot of frustration and suspicion, and it makes sense that those feelings would linger. When you think about those past experiences, what stands out to you the most?"
+    },
+    {
+      "turn": 3,
+      "speaker": "client",
+      "content": "Well, there was this time when someone I cared about made a big decision without telling me. It felt like a betrayal, and it brought back all those memories of other times when I was kept in the dark. I just... I can\u2019t shake that feeling that it\u2019s going to happen again. It\u2019s like a cycle, and I don\u2019t want to be hurt again. So, I guess I just end up being on guard all the time."
+    },
+    {
+      "turn": 4,
+      "speaker": "therapist",
+      "content": "That sounds really painful, especially when it feels like a cycle that keeps repeating. It makes sense that you\u2019d want to protect yourself from being hurt again. Being on guard can be exhausting, though. How do you feel when you find yourself in that state of alertness?"
+    },
+    {
+      "turn": 4,
+      "speaker": "client",
+      "content": "It\u2019s really draining, honestly. I feel angry and irritated a lot, like I\u2019m just waiting for something to go wrong. It\u2019s hard to relax or enjoy anything when my mind is racing with all these thoughts. And then I end up confronting people, which usually just leads to more fights. I don\u2019t want to be like that, but it\u2019s like I can\u2019t help myself sometimes. It\u2019s just... frustrating."
+    },
+    {
+      "turn": 5,
+      "speaker": "therapist",
+      "content": "It sounds like that constant state of alertness is taking a toll on you, both emotionally and in your relationships. Feeling angry and irritated can create a cycle that\u2019s hard to break, especially when it leads to confrontations. I hear you expressing a desire to change that pattern, but it feels difficult to manage in the moment. What do you think might help you find a little more peace or relaxation amidst all of this?"
+    },
+    {
+      "turn": 5,
+      "speaker": "client",
+      "content": "I don\u2019t really know. I mean, I\u2019ve tried to just... breathe or distract myself, but it doesn\u2019t always work. Sometimes I think maybe if I could just trust people more, it would help. But then I get stuck in my head, and it\u2019s like I can\u2019t let go of those thoughts. I guess I just wish I could find a way to feel more secure without feeling like I have to be on high alert all the time. It\u2019s just hard to figure out how to do that."
+    },
+    {
+      "turn": 6,
+      "speaker": "therapist",
+      "content": "It sounds like you\u2019re caught in a tough spot between wanting to trust and feeling the weight of those past experiences. It\u2019s understandable to wish for a sense of security without the constant vigilance. You\u2019ve mentioned trying breathing and distraction, but it seems like those strategies don\u2019t always provide the relief you\u2019re looking for. What do you think might be getting in the way of trusting others more fully?"
+    },
+    {
+      "turn": 6,
+      "speaker": "client",
+      "content": "I think it\u2019s just... the fear of being hurt again. It\u2019s like, every time I try to let my guard down, I remember those past betrayals, and it just pulls me back. I don\u2019t want to feel that disappointment again, so I end up doubting everything. It\u2019s like I\u2019m stuck in this loop where I want to trust, but I can\u2019t shake off the worry that it\u2019ll all fall apart. It\u2019s frustrating because I know it\u2019s not fair to the people around me, but I just can\u2019t help it."
+    },
+    {
+      "turn": 7,
+      "speaker": "therapist",
+      "content": "That fear of being hurt again really seems to hold a strong grip on you, creating a loop of wanting to trust but feeling unable to do so. It\u2019s understandable that past betrayals would make you cautious, and it sounds like you\u2019re aware of how this impacts your relationships. It must be frustrating to feel like you\u2019re caught between wanting connection and the fear of disappointment. When you think about those past betrayals, what do you feel you need in order to start breaking that loop?"
+    },
+    {
+      "turn": 7,
+      "speaker": "client",
+      "content": "I guess I need some reassurance, maybe? Like, I wish there was a way to know that things would be different this time. It\u2019s hard to trust when I feel like I\u2019m always waiting for the other shoe to drop. If I could just feel a little more secure in my relationships, maybe I could start to let my guard down. But it\u2019s tough to figure out how to get there when I\u2019m always second-guessing everything."
+    },
+    {
+      "turn": 8,
+      "speaker": "therapist",
+      "content": "It sounds like reassurance is really important for you to feel more secure in your relationships. The desire for certainty is completely understandable, especially when past experiences have made you wary. It must be frustrating to feel like you\u2019re constantly second-guessing yourself and others. When you think about what reassurance would look like for you, what specific actions or words from others would help you feel more at ease?"
+    },
+    {
+      "turn": 8,
+      "speaker": "client",
+      "content": "I think just being open and honest would help a lot. If someone could share their thoughts or plans with me, it would make me feel included, like I\u2019m part of the decision-making. I guess I need to feel like they\u2019re not hiding anything from me. Simple things, like checking in or just being clear about what\u2019s going on, would go a long way. It\u2019s just hard to ask for that, you know? I don\u2019t want to seem needy or like I\u2019m overreacting."
+    },
+    {
+      "turn": 9,
+      "speaker": "therapist",
+      "content": "It makes sense that open and honest communication would provide you with the reassurance you\u2019re looking for. Feeling included and informed can help build trust and reduce that sense of being on guard. It\u2019s understandable to worry about coming across as needy or overreacting, especially when you\u2019re trying to navigate these feelings. What do you think holds you back from asking for that kind of communication from others?"
+    },
+    {
+      "turn": 9,
+      "speaker": "client",
+      "content": "I think it\u2019s mostly the fear of rejection or being seen as too much. I don\u2019t want to burden anyone with my worries or make them feel like they have to tiptoe around me. It\u2019s like I\u2019m afraid that if I ask for what I need, they might think I\u2019m being unreasonable or demanding. So, I end up keeping it to myself, which just makes everything feel heavier. It\u2019s frustrating because I know I need that communication, but I don\u2019t want to push people away either."
+    },
+    {
+      "turn": 10,
+      "speaker": "therapist",
+      "content": "It sounds like you\u2019re caught in a difficult balance between wanting to express your needs and fearing how others might perceive that. The worry about being seen as too much or burdensome can create a lot of internal conflict. It\u2019s understandable to want to protect your relationships while also feeling the weight of those unexpressed needs. How do you feel when you keep those worries to yourself?"
+    },
+    {
+      "turn": 10,
+      "speaker": "client",
+      "content": "It feels really isolating, honestly. Like I\u2019m carrying this heavy weight alone, and it just builds up inside me. I get more frustrated and angry, and it\u2019s hard to focus on anything else. I know it\u2019s not healthy to keep everything bottled up, but I just don\u2019t know how to bring it up without feeling like I\u2019m causing a problem. It\u2019s like I\u2019m stuck in this cycle of feeling alone and wanting connection, but not knowing how to bridge that gap."
+    },
+    {
+      "turn": 11,
+      "speaker": "therapist",
+      "content": "That sense of isolation must be really tough to deal with, especially when you\u2019re longing for connection but feeling stuck. It sounds like keeping everything bottled up not only adds to your frustration but also makes it harder to focus on other aspects of your life. It\u2019s understandable to feel hesitant about bringing up your needs, especially when you\u2019re worried about causing problems. What do you think might help you feel more comfortable in taking that step toward expressing your needs to others?"
+    },
+    {
+      "turn": 11,
+      "speaker": "client",
+      "content": "I think maybe if I could practice it somehow, like talking it out in a safe space first, it might help. Just getting used to the idea of saying what I need without feeling so anxious about it. I guess having some support or encouragement would make it easier too. It\u2019s just hard to imagine actually saying it out loud when I\u2019ve kept it all in for so long. I want to feel more confident about expressing myself, but it\u2019s a bit overwhelming to think about."
+    },
+    {
+      "turn": 12,
+      "speaker": "therapist",
+      "content": "Practicing in a safe space sounds like a really constructive approach. It makes sense that getting comfortable with expressing your needs could help ease some of that anxiety. Having support and encouragement can also make a big difference in building your confidence. It\u2019s understandable to feel overwhelmed, especially after keeping things inside for so long. What kind of support do you think would feel most helpful for you as you start to practice expressing yourself?"
+    },
+    {
+      "turn": 12,
+      "speaker": "client",
+      "content": "I think having someone who understands where I\u2019m coming from would be really helpful. Maybe a friend or even someone in therapy who can help me work through what I want to say. Just having that space to talk things out without judgment would make it feel less daunting. I guess I need to feel like it\u2019s okay to express my needs and that it won\u2019t lead to conflict or rejection. It would be nice to have someone who can remind me that it\u2019s okay to ask for what I need."
+    },
+    {
+      "turn": 13,
+      "speaker": "therapist",
+      "content": "It sounds like having a supportive person who understands your perspective would really help you feel more at ease with expressing your needs. A judgment-free space can make a big difference in reducing that sense of daunting pressure. It\u2019s completely valid to want reassurance that expressing your needs won\u2019t lead to conflict or rejection. As you think about reaching out for that kind of support, what steps do you feel ready to take next?"
+    },
+    {
+      "turn": 13,
+      "speaker": "client",
+      "content": "I think I could start by talking to my therapist about it. Maybe we can role-play some scenarios or work on what I want to say. That feels like a safe first step. I could also try to identify a friend who I trust and see if they\u2019d be open to having a conversation about it. Just taking those small steps might help me feel a little more prepared to express myself when the time comes. It\u2019s still a bit scary, but I think it\u2019s a start."
+    },
+    {
+      "turn": 14,
+      "speaker": "therapist",
+      "content": "That sounds like a thoughtful and proactive plan. Starting with your therapist to role-play and prepare can provide you with a safe space to explore your feelings and practice what you want to say. Identifying a trusted friend for a conversation is also a great step toward building that confidence. It\u2019s completely normal to feel a bit scared, but taking those small steps can really help you feel more prepared. How do you feel about moving forward with these steps?"
+    },
+    {
+      "turn": 14,
+      "speaker": "client",
+      "content": "I feel a mix of nervousness and a bit of relief, to be honest. It\u2019s good to have a plan, but I can\u2019t shake off the anxiety about actually doing it. I guess just knowing that I have a way to approach it makes me feel a little more hopeful. I really want to break this cycle and feel more connected, so I think it\u2019s worth a shot. It\u2019s just going to take some time for me to feel comfortable with it all."
+    },
+    {
+      "turn": 15,
+      "speaker": "therapist",
+      "content": "It\u2019s completely understandable to feel both nervous and relieved. Having a plan can bring a sense of hope, even amidst the anxiety. It\u2019s great to hear that you\u2019re committed to breaking the cycle and seeking more connection. Remember, it\u2019s okay to take your time as you work toward feeling more comfortable with these steps. Each small effort is a step toward what you want. How do you think you might remind yourself of this hope and commitment as you move forward?"
+    },
+    {
+      "turn": 15,
+      "speaker": "client",
+      "content": "I think I could try keeping a journal or something, just to jot down my thoughts and feelings as I go through this process. It might help me see my progress and remind me why I\u2019m doing this. I could also write down some positive affirmations or reminders about trusting myself and the people around me. Just having something tangible to look back on might help keep me focused on the hope and commitment I have, even when it feels tough."
+    }
+  ],
+  "judge_model": "gpt-4o-mini",
+  "mediator_events": [
+    "Exploration judge rated 3/5; internal elements remain masked.",
+    "Exploration judge output: [Rating]: 3 (Very High Facilitation \u2013 Deep Exploration Begins)\n\n[Justification]: The Therapist's questions and reflections prompted the client to delve deeper into their feelings of unease and the impact of past experiences on their current emotional state. The Therapist's inquiry about what contributes to the client's feelings encouraged the client to analyze the root causes of their trust issues and emotional responses. This line of questioning began to shift the client's perspective by connecting their current feelings to past experiences, which is a significant step towards deeper self-reflection. However, while the questions were insightful and thought-provoking, they did not fully challenge the client to explore completely new angles or assumptions, which would have elevated the facilitation further.",
+    "Rapport judge rated 3/5; no experience reveal.",
+    "Rapport judge output: **Rating: 3 (ENGAGED EXPLORATION)**\n\n**Key Examples:**\n1. \"I suppose it\u2019s just... things that have happened in the past. Like, when people don\u2019t communicate or keep things from me, it really gets to me. I can\u2019t help but think they\u2019re hiding something, and then I start to feel angry and suspicious.\"\n2. \"Well, there was this time when someone I cared about made a big decision without telling me. It felt like a betrayal, and it brought back all those memories of other times when I was kept in the dark.\"\n\n**Progression:**\nThe client\u2019s most recent interactions demonstrate a notable increase in emotional expression and self-reflection. They are articulating feelings of frustration, anger, and suspicion that stem from past experiences, which indicates a deeper level of engagement compared to earlier sessions. Initially, the client appeared hesitant and uncertain about what to discuss, but now they are able to identify specific emotions and experiences that contribute to their current state of unease. This shift marks a significant change from earlier exchanges where emotional vocabulary was limited and responses were more factual.\n\n**Turning Point:**\nThe client\u2019s emotional depth shifted during the discussion of past betrayals, specifically when they recounted the experience of someone making a significant decision without their knowledge. This moment highlighted their vulnerability and the cyclical nature of their feelings of distrust. By expressing this painful memory, the client demonstrated a willingness to explore deeper emotional issues, which has contributed to their current state of engagement and self-reflection.",
+    "Exploration judge rated 3/5; internal elements remain masked.",
+    "Exploration judge output: [Rating]: 3 (Very High Facilitation \u2013 Deep Exploration Begins)\n\n[Justification]: The therapist's questions effectively encouraged the client to delve into the emotional depth and root causes of their feelings of unease and distrust. The therapist's inquiries prompted the client to reflect on past experiences that shaped their current mindset, leading to a deeper understanding of their emotional state. The questions began to shift the client's perspective, particularly when discussing the cycle of feeling on guard and the toll it takes on their relationships. However, while the therapist facilitated significant self-reflection, the questions did not fully challenge the client's assumptions or introduce entirely new perspectives, which is why it falls short of a higher rating. Overall, the conversation fostered a meaningful exploration of the client's feelings and experiences.",
+    "Rapport judge rated 3/5; no experience reveal.",
+    "Rapport judge output: **Rating: 3 (ENGAGED EXPLORATION)**\n\n**Key Examples:**\n1. \"It\u2019s really draining, honestly. I feel angry and irritated a lot, like I\u2019m just waiting for something to go wrong.\"\n2. \"I guess I need some reassurance, maybe? Like, I wish there was a way to know that things would be different this time.\"\n\n**Progression:** In the most recent interactions, the client demonstrates a notable shift towards deeper emotional expression and self-reflection. They articulate feelings of anger and frustration stemming from a sense of unease and the anticipation of negative outcomes. This marks a significant change from earlier exchanges, where the client exhibited more guardedness and limited emotional vocabulary. The current dialogue reflects a growing comfort in discussing their feelings, indicating a movement towards greater emotional openness.\n\n**Turning Point:** The client\u2019s emotional depth shifted during the exchange where they expressed, \"I guess I need some reassurance, maybe?\" This moment signifies a transition from merely identifying feelings of distrust and frustration to articulating a specific need for reassurance in their relationships. This indicates a willingness to explore their vulnerabilities and a desire for change, which is a critical step in their therapeutic journey.",
+    "Exploration judge rated 3/5; internal elements remain masked.",
+    "Exploration judge output: [Rating]: 3 (Very High Facilitation \u2013 Deep Exploration Begins)\n\n[Justification]: The therapist asked insightful and thought-provoking questions that helped the client analyze the root causes of their feelings of unease and distrust. The therapist effectively guided the client to explore their past experiences and how these have shaped their current emotional state and behaviors. The questions encouraged deeper self-reflection, particularly when the therapist asked about the specific actions or words that would help the client feel more at ease and what holds them back from asking for reassurance. While the therapist did facilitate a significant exploration of the client's feelings and patterns, the questions did not fully challenge the client's assumptions or introduce entirely new perspectives, which is why it falls short of a rating of 4 or 5. Overall, the conversation led to meaningful insights but did not reach a major breakthrough moment.",
+    "Rapport judge rated 3/5; no experience reveal.",
+    "Rapport judge output: **Rating: 3 (ENGAGED EXPLORATION)**\n\n**Key Examples:**\n1. **Emotional State:** \"It\u2019s really draining, honestly. I feel angry and irritated a lot, like I\u2019m just waiting for something to go wrong.\"\n2. **Current Openness:** \"I think just being open and honest would help a lot. If someone could share their thoughts or plans with me, it would make me feel included, like I\u2019m part of the decision-making.\"\n\n**Progression:**\nThe client\u2019s most recent interactions demonstrate a notable increase in emotional expression and self-reflection. They articulate feelings of anger and irritation stemming from their constant state of alertness, indicating a deeper emotional awareness than earlier in the session. Initially, the client presented a more guarded demeanor, but they have progressed to openly discussing their feelings of isolation and the impact of past betrayals on their current relationships. This shift reflects a growing comfort with the therapist and a willingness to explore complex emotions.\n\n**Turning Point:**\nA significant turning point occurred when the client began to articulate their needs for reassurance and open communication. This moment marked a shift from merely expressing feelings of frustration and suspicion to actively seeking solutions and support for their emotional struggles. The client\u2019s acknowledgment of the need for practice in expressing their needs indicates a deeper level of self-awareness and a desire to break the cycle of isolation and mistrust.",
+    "Exploration judge rated 4/5 and revealed internal cognitive elements.",
+    "Exploration judge output: [Rating]: 4 (Even Higher Facilitation \u2013 Strong Transformational Potential)\n\n[Justification]: The therapist asked strategic and powerfully open-ended questions that pushed the client to explore their feelings of trust, fear of rejection, and the impact of past experiences on their current relationships. The therapist effectively guided the client to analyze the root causes of their feelings and behaviors, such as the cycle of wanting connection while fearing disappointment. The questions challenged the client\u2019s assumptions about expressing their needs and encouraged them to consider specific actions that could help them feel more secure. This led to a clear shift in the client\u2019s self-awareness, particularly regarding their need for reassurance and the barriers they face in asking for it. The conversation moved beyond surface-level issues and delved into deeper emotional patterns, demonstrating strong transformational potential."
+  ],
+  "final_visible_experience_count": 1,
+  "internal_revealed": true
+}

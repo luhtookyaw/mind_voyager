@@ -1,0 +1,182 @@
+{
+  "case_id": "9-1",
+  "client_name": "Fiona",
+  "client_mode": "masked",
+  "hide_all": false,
+  "difficulty": "easy",
+  "therapist_provider": "openai",
+  "therapist_model": "gpt-4o-mini",
+  "client_model": "gpt-4o-mini",
+  "max_turns": 15,
+  "transcript": [
+    {
+      "turn": 1,
+      "speaker": "therapist",
+      "content": "Hello, Fiona. I'm glad you're here today. What feels most important for you to talk about right now?"
+    },
+    {
+      "turn": 1,
+      "speaker": "client",
+      "content": "Hi. Thank you for having me. I guess... I've been thinking a lot about Jersey and her surgery. It's been weighing on my mind, and I just feel... I don't know, worried, I suppose. I wish I could be there for her more, but I\u2019ve got so much going on. It\u2019s hard to balance everything."
+    },
+    {
+      "turn": 2,
+      "speaker": "therapist",
+      "content": "It sounds like Jersey's surgery is really on your mind, and you're feeling a lot of worry about it. You also seem to be feeling the weight of your own responsibilities and how they make it difficult for you to be there for her. Can you tell me more about what specifically worries you about her surgery?"
+    },
+    {
+      "turn": 2,
+      "speaker": "client",
+      "content": "Yeah, it\u2019s just... I keep thinking about how she\u2019s going to handle everything. I know surgeries can be tough, and I just want her to be okay. I feel like if I could be there, maybe I could help somehow, but I can\u2019t. It makes me feel guilty, like I\u2019m not doing enough. I just wish I could ease her pain or at least be a support for her."
+    },
+    {
+      "turn": 3,
+      "speaker": "therapist",
+      "content": "It sounds like you really care about Jersey and want to support her through this challenging time. The feeling of guilt you're experiencing seems to stem from wanting to be there for her, but feeling limited by your own circumstances. It\u2019s understandable to wish you could ease her pain. How does that guilt affect you in your day-to-day life right now?"
+    },
+    {
+      "turn": 3,
+      "speaker": "client",
+      "content": "It\u2019s definitely been tough. I find myself getting really tense and irritable, especially when I think about her. Sometimes, I just want to avoid the whole situation because it feels overwhelming. I struggle to sleep, too, which doesn\u2019t help. It\u2019s like this constant worry is just hanging over me, and I feel... lonely, I guess. It\u2019s hard to focus on anything else when I\u2019m so preoccupied with how she\u2019s doing."
+    },
+    {
+      "turn": 4,
+      "speaker": "therapist",
+      "content": "It sounds like the worry about Jersey is really impacting your emotional well-being. Feeling tense, irritable, and lonely can be exhausting, especially when it feels like this worry is always present. It makes sense that it would be hard to focus on other things when your mind is so occupied. Can you share more about how you usually cope with these feelings when they come up?"
+    },
+    {
+      "turn": 4,
+      "speaker": "client",
+      "content": "I\u2019m not sure I have a solid way to cope, to be honest. I tend to just... push through, I guess. I might talk to a friend about it, but sometimes I don\u2019t even want to do that. I feel like I should be strong and handle it on my own. I end up just keeping it all inside, which probably isn\u2019t healthy. I know I should probably find better ways to deal with it, but it\u2019s hard to figure out what that looks like."
+    },
+    {
+      "turn": 5,
+      "speaker": "therapist",
+      "content": "It sounds like you have a strong sense of responsibility to be strong and handle things on your own, which can make it difficult to reach out for support, even when you feel overwhelmed. Keeping everything inside can be really tough, and it\u2019s understandable that you\u2019re feeling uncertain about how to cope better. What do you think holds you back from sharing more with others, even when you might want to?"
+    },
+    {
+      "turn": 5,
+      "speaker": "client",
+      "content": "I think part of it is just this feeling that I don\u2019t want to burden anyone else with my worries. Everyone has their own stuff to deal with, and I don\u2019t want to add to that. Plus, there\u2019s this voice in my head that tells me I should be able to manage it myself. I guess I worry that if I open up too much, it\u2019ll make me seem weak or like I\u2019m not handling things well. It\u2019s a bit of a struggle, really."
+    },
+    {
+      "turn": 6,
+      "speaker": "therapist",
+      "content": "It sounds like you\u2019re carrying a lot of weight on your shoulders, feeling both the desire to protect others from your worries and the pressure to manage everything on your own. That voice telling you to be strong and not to burden others can be really powerful. It\u2019s understandable to feel that way, but it also seems to create a struggle for you. How does it feel to recognize that this pressure exists, and how might it be affecting your ability to connect with others?"
+    },
+    {
+      "turn": 6,
+      "speaker": "client",
+      "content": "It\u2019s a bit of a relief to talk about it, honestly. Recognizing that pressure makes me realize it\u2019s not just me being difficult; it\u2019s this expectation I\u2019ve put on myself. But at the same time, it feels isolating. I want to connect with others, but I end up pushing them away because I think I should handle everything alone. It\u2019s like I\u2019m stuck in this cycle where I want support, but I\u2019m too afraid to ask for it. It\u2019s frustrating, and I know it\u2019s not the best way to cope, but it\u2019s hard to break out of that mindset."
+    },
+    {
+      "turn": 7,
+      "speaker": "therapist",
+      "content": "It\u2019s really insightful that you\u2019re able to recognize that expectation you\u2019ve placed on yourself. It sounds like you\u2019re caught in a cycle where the desire for connection conflicts with the fear of being vulnerable. That frustration is completely valid, and it\u2019s understandable that breaking out of that mindset feels challenging. What do you think might help you take a small step toward reaching out for support, even if it feels uncomfortable?"
+    },
+    {
+      "turn": 7,
+      "speaker": "client",
+      "content": "I guess... maybe starting with something small could help? Like just sharing a little bit with a friend instead of everything all at once. I think I could try to express that I\u2019m feeling overwhelmed without going into too much detail. It might feel a bit less scary that way. I just worry about how they\u2019ll react or if they\u2019ll think I\u2019m being dramatic. But I know I can\u2019t keep everything bottled up forever. It\u2019s just... taking that first step feels daunting."
+    },
+    {
+      "turn": 8,
+      "speaker": "therapist",
+      "content": "Starting small sounds like a thoughtful approach. It\u2019s understandable to feel apprehensive about how others might react, especially when you\u2019re opening up about feeling overwhelmed. Taking that first step can indeed feel daunting, but it also sounds like you recognize the importance of not keeping everything bottled up. What do you think might help you feel more comfortable when you decide to share that little bit with a friend?"
+    },
+    {
+      "turn": 8,
+      "speaker": "client",
+      "content": "Maybe having a clear idea of what I want to say could help. If I could practice it a bit in my head or even write it down, it might make it feel less intimidating. I think knowing that I don\u2019t have to share everything at once could ease some of the pressure, too. It might also help to remind myself that my friends care about me and would probably want to know if I\u2019m struggling, even if it feels uncomfortable to say it. Just... finding a way to frame it in a way that feels manageable could make a difference."
+    },
+    {
+      "turn": 9,
+      "speaker": "therapist",
+      "content": "That sounds like a very constructive plan. Practicing what you want to say and writing it down can definitely help make it feel more manageable. It\u2019s great that you\u2019re recognizing your friends\u2019 care for you and that they would likely want to support you. Framing it in a way that feels comfortable for you can really ease some of that pressure. How do you feel about taking this step in the next few days? What might be a good time or situation for you to try it out?"
+    },
+    {
+      "turn": 9,
+      "speaker": "client",
+      "content": "I think I could try to bring it up when I\u2019m hanging out with a friend this weekend. It feels like a more relaxed setting, so maybe it won\u2019t feel as intense. I could mention that I\u2019ve been feeling a bit overwhelmed lately and see how they respond. Just thinking about it makes me a little nervous, but I also feel a bit hopeful that it could help. I guess it\u2019s just about taking that leap and trusting that they\u2019ll be supportive."
+    },
+    {
+      "turn": 10,
+      "speaker": "therapist",
+      "content": "That sounds like a positive plan, and it\u2019s encouraging to hear that you\u2019re feeling a bit hopeful about it. A relaxed setting can definitely make it easier to open up. It\u2019s completely normal to feel nervous, but trusting in your friend\u2019s support is a great mindset to have. As you prepare for this conversation, how do you think you might take care of yourself afterward, regardless of how it goes?"
+    },
+    {
+      "turn": 10,
+      "speaker": "client",
+      "content": "I think it would be important to give myself some grace afterward, no matter how the conversation goes. Maybe I could do something nice for myself, like going for a walk or treating myself to my favorite coffee. I could also take some time to reflect on how I felt during the conversation, whether it went well or not. Just reminding myself that it\u2019s okay to feel vulnerable and that I\u2019m taking steps to connect with others might help, too. I want to be kind to myself through this process."
+    },
+    {
+      "turn": 11,
+      "speaker": "therapist",
+      "content": "That\u2019s a wonderful approach, Fiona. Giving yourself grace and doing something nice for yourself afterward can really help reinforce the positive step you\u2019re taking. Reflecting on your feelings about the conversation, regardless of the outcome, is also a great way to process the experience. It sounds like you\u2019re cultivating a kind and supportive attitude toward yourself, which is so important. As you move forward, what do you think will be the most helpful reminder for you to keep that kindness in mind?"
+    },
+    {
+      "turn": 11,
+      "speaker": "client",
+      "content": "I think a good reminder for me would be to remember that it\u2019s okay to be human and to have struggles. I often forget that everyone goes through tough times, and it doesn\u2019t make me weak or undeserving of support. Maybe I could write a little note to myself about being kind and that reaching out is a sign of strength, not weakness. Keeping that in mind could help me stay grounded and remind me that it\u2019s okay to lean on others sometimes."
+    },
+    {
+      "turn": 12,
+      "speaker": "therapist",
+      "content": "That\u2019s a beautiful reminder, and writing a note to yourself sounds like a meaningful way to reinforce that message. Acknowledging that everyone has struggles and that reaching out is a strength can really help shift your perspective. It\u2019s clear you\u2019re taking thoughtful steps toward connection and self-compassion. As you prepare for this weekend, how do you feel about the progress you\u2019ve made in this conversation today?"
+    },
+    {
+      "turn": 12,
+      "speaker": "client",
+      "content": "I feel a bit lighter, actually. Talking through everything has helped me see things more clearly, and I appreciate having a space to explore my thoughts and feelings. It feels good to have a plan and some strategies to approach this weekend. I know it won\u2019t be easy, but I feel more equipped to handle it now. I guess I\u2019m realizing that it\u2019s okay to seek support and that I don\u2019t have to carry everything alone. Thank you for guiding me through this."
+    },
+    {
+      "turn": 13,
+      "speaker": "therapist",
+      "content": "I\u2019m really glad to hear that you\u2019re feeling lighter and more equipped to handle the situation. It\u2019s wonderful that you\u2019ve gained clarity and a sense of direction through our conversation. Recognizing that you don\u2019t have to carry everything alone is such an important insight. Thank you for sharing your thoughts and feelings with me today. As you move forward, remember to be kind to yourself, and I wish you the best with your conversation this weekend. If you ever want to explore more, I\u2019m here for you."
+    },
+    {
+      "turn": 13,
+      "speaker": "client",
+      "content": "Thank you so much. I really appreciate your support and understanding. It means a lot to have someone to talk to about all of this. I\u2019ll definitely keep your words in mind as I move forward. I might take you up on that offer to explore more in the future. Thanks again for everything!"
+    },
+    {
+      "turn": 14,
+      "speaker": "therapist",
+      "content": "You\u2019re very welcome, Fiona. I\u2019m glad I could be here for you, and I appreciate your openness in sharing your thoughts. Remember, it\u2019s perfectly okay to reach out whenever you feel the need to explore more. Take care of yourself, and I wish you all the best as you move forward. I look forward to our next conversation whenever you\u2019re ready!"
+    },
+    {
+      "turn": 14,
+      "speaker": "client",
+      "content": "Thank you! I\u2019ll definitely take care of myself, and I look forward to our next conversation, too. It\u2019s nice to know I have a space to come back to when I need it. Take care!"
+    },
+    {
+      "turn": 15,
+      "speaker": "therapist",
+      "content": "You're welcome, Fiona! I'm glad you feel that way. Take care of yourself, and I look forward to our next conversation whenever you're ready. Have a great day!"
+    },
+    {
+      "turn": 15,
+      "speaker": "client",
+      "content": "Thank you! I hope you have a great day too. I\u2019ll take care, and I\u2019ll see you next time!"
+    }
+  ],
+  "judge_model": "gpt-4o-mini",
+  "mediator_events": [
+    "Exploration judge rated 2/5; internal elements remain masked.",
+    "Exploration judge output: [Rating]: 2 (High Facilitation)\n\n[Justification]: The Therapist asked a clear and relevant open-ended question that encourages Fiona to reflect on her current priorities and feelings. While this question allows for some self-exploration and could lead to deeper discussions, it primarily opens the floor for existing thoughts rather than challenging Fiona's assumptions or introducing new perspectives. The question is well-structured but does not significantly push for deeper analysis or insight into underlying issues, which would be necessary for a higher rating.",
+    "Exploration judge rated 3/5; internal elements remain masked.",
+    "Exploration judge output: [Rating]: 3 (Very High Facilitation \u2013 Deep Exploration Begins)\n\n[Justification]: The Therapist's question about what specifically worries the client about Jersey's surgery is insightful and encourages deeper self-reflection. It prompts the client to analyze their emotions and the underlying concerns related to the surgery, which can lead to a better understanding of their feelings and motivations. This question begins to shift the client's perspective by inviting them to explore the emotional depth of their worries, rather than just staying on the surface level of their responsibilities. However, while it is a strong question that facilitates deeper exploration, it does not yet reach the level of challenging assumptions or introducing completely new angles, which would elevate it to a higher rating.",
+    "Exploration judge rated 3/5; internal elements remain masked.",
+    "Exploration judge output: [Rating]: 3 (Very High Facilitation \u2013 Deep Exploration Begins)\n\n[Justification]: The Therapist asked insightful and thought-provoking questions that encouraged the client to analyze the emotional depth behind their feelings of worry and guilt regarding Jersey's surgery. The questions prompted the client to reflect on the root causes of their emotions and how these feelings impact their daily life. While the conversation was moving towards deeper self-reflection, the Therapist's questions could have further challenged the client's assumptions or introduced new perspectives to elevate the exploration even more. Overall, the Therapist facilitated a meaningful discussion that began to shift the client's understanding of their emotions, but there is still potential for even deeper exploration.",
+    "Exploration judge rated 3/5; internal elements remain masked.",
+    "Exploration judge output: [Rating]: 3 (Very High Facilitation \u2013 Deep Exploration Begins)\n\n[Justification]: The therapist's questions and reflections effectively encouraged the client to delve deeper into their feelings of worry and guilt regarding Jersey's surgery. The therapist's inquiry about the specific worries related to the surgery and how the guilt affects the client's day-to-day life prompted the client to analyze their emotional state and its impact on their well-being. This line of questioning helped the client articulate their feelings of tension, irritability, and loneliness, which are crucial for understanding the root causes of their distress. While the questions were insightful and facilitated deeper self-reflection, they did not fully challenge the client's existing thought patterns or introduce significantly new perspectives, which is why it falls short of a higher rating.",
+    "Exploration judge rated 3/5; internal elements remain masked.",
+    "Exploration judge output: [Rating]: 3 (Very High Facilitation \u2013 Deep Exploration Begins)\n\n[Justification]: The therapist asked insightful and thought-provoking questions that encouraged the client to analyze the emotional depth behind their experiences, particularly regarding their feelings of guilt and worry about Jersey's surgery. The questions prompted the client to reflect on how these feelings affect their day-to-day life and coping mechanisms. While the therapist's inquiries were effective in facilitating deeper self-reflection, they did not fully challenge the client's assumptions or introduce completely new perspectives that could lead to a significant shift in self-awareness. Overall, the conversation demonstrated a strong level of facilitation, but it stopped short of reaching the highest levels of transformational potential.",
+    "Exploration judge rated 3/5; internal elements remain masked.",
+    "Exploration judge output: [Rating]: 3 (Very High Facilitation \u2013 Deep Exploration Begins)\n\n[Justification]: The therapist's questions effectively encouraged the client to delve deeper into her feelings of worry, guilt, and the pressure to be strong. The therapist's inquiries about the impact of guilt on the client's daily life and her coping mechanisms prompted the client to reflect on her emotional state and the underlying reasons for her reluctance to share her feelings with others. This line of questioning began to shift the client's perspective by helping her analyze the root causes of her struggles, such as her desire to protect others and the internalized belief that she should manage her emotions alone. While the questions were insightful and led to deeper self-reflection, they did not fully challenge the client's assumptions or introduce completely new angles that would lead to a significant breakthrough. Therefore, a rating of 3 is appropriate, indicating that deep exploration began but did not reach the level of profound insight or transformation.",
+    "Exploration judge rated 4/5 and revealed internal cognitive elements.",
+    "Exploration judge output: [Rating]: 4 (Even Higher Facilitation \u2013 Strong Transformational Potential)\n\n[Justification]: The Therapist asked strategic and powerfully open-ended questions that pushed the client to explore deeper aspects of her feelings, particularly around guilt, responsibility, and vulnerability. The questions challenged the client's assumptions about needing to be strong and not burdening others, which revealed hidden motivations and emotional struggles. The conversation led to a clear shift in the client's self-awareness as she recognized the cycle of wanting support while simultaneously pushing others away. The Therapist's inquiry into how the pressure affects her ability to connect with others and what small steps she might take toward reaching out for support further encouraged the client to think critically about her coping mechanisms and relationships. This level of facilitation indicates a strong potential for transformation, as it encourages the client to consider actionable steps toward change."
+  ],
+  "final_visible_experience_count": 3,
+  "internal_revealed": true
+}

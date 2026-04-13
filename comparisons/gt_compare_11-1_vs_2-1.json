@@ -1,0 +1,24 @@
+{
+  "case_a": "11-1",
+  "case_b": "2-1",
+  "embedding_model": "sentence-transformers/all-MiniLM-L6-v2",
+  "ground_truth_internal_diagram_a": {
+    "relevant_history": "The client has a history of feeling isolated and has been dealing with chronic depression since late adolescence. They have experienced frustration with friends and had a recent breakup that preceded a relapse into a depressive episode. The client has a history of taking SSRI and has recently been adjusting their medication regimen to deal with the relapse, which has been a source of additional stress.",
+    "core_beliefs": "I am incompetent. | I am helpless. | I am powerless, weak, vulnerable. | I am trapped. | I am unlovable. | I am undesirable, unwanted. | I am bound to be alone.",
+    "intermediate_beliefs": "If I can't manage my own feelings or make others understand me, then I'm failing. I should be able to handle my mental health better.\nDepressive variant: When I'm depressed, nothing I do seems to make a difference. It feels like I'll never get better no matter what medication or strategies I try.",
+    "coping_strategies": "Attempts to connect with friends for support, but this sometimes leads to further frustration when the interactions don't go as hoped."
+  },
+  "ground_truth_internal_diagram_b": {
+    "relevant_history": "Patient has been experiencing frustration, anxiety, and anger related to familial relationships. This is significantly influenced by a conversation regarding his wedding list with his parents, leading to insights about his feelings and actions similar to his father's pattern of seeking approval and unconditional love from family members who do not provide it.",
+    "core_beliefs": "I am powerless, weak, vulnerable. | I am trapped. | I am unlovable. | I am undesirable, unwanted. | I am bound to be abandoned. | I am bound to be alone.",
+    "intermediate_beliefs": "Patient holds the belief that one must continuously seek familial approval and support to feel safe and valued. Patient also believes that investing in unhealthy familial relationships is necessary despite ongoing distress and frustration.\nDepressive variant: During periods of low mood, the patient likely adopts more polarized views on family loyalty and support, feeling an increased sense of obligation to pursue approval, which exacerbates feelings of helplessness and rejection.",
+    "coping_strategies": "Patient tends to engage in conversations with family members about emotional support and seeks to change family dynamics, though this is often met with resistance."
+  },
+  "idss_like_similarity": {
+    "relevant_history": 0.47163780090153673,
+    "core_beliefs": 0.9162550054595063,
+    "intermediate_beliefs": 0.36582247519746147,
+    "coping_strategies": 0.4815531265205986,
+    "average": 0.5588171020197757
+  }
+}

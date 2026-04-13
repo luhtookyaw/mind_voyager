@@ -1,0 +1,178 @@
+{
+  "case_id": "10-2",
+  "client_name": "Grace",
+  "client_mode": "masked",
+  "hide_all": false,
+  "difficulty": "normal",
+  "therapist_provider": "openai",
+  "therapist_model": "gpt-4o-mini",
+  "client_model": "gpt-4o-mini",
+  "max_turns": 15,
+  "transcript": [
+    {
+      "turn": 1,
+      "speaker": "therapist",
+      "content": "Hello, Grace. I\u2019m glad you\u2019re here today. What feels most important for you to talk about right now?"
+    },
+    {
+      "turn": 1,
+      "speaker": "client",
+      "content": "Hi. Thanks for having me. I guess... I don\u2019t know, maybe just how things have been since the divorce. It\u2019s been hard, I suppose. Friends seem distant, and I keep thinking about what went wrong. But I\u2019m not sure if I want to dive into all that right now. It\u2019s just... complicated."
+    },
+    {
+      "turn": 2,
+      "speaker": "therapist",
+      "content": "Thank you for sharing that, Grace. It sounds like the divorce has brought up a lot of difficult feelings and thoughts for you. You mentioned that things have been hard and that friends seem distant. That must feel quite isolating. Can you tell me a bit more about what\u2019s been most challenging for you since the divorce?"
+    },
+    {
+      "turn": 2,
+      "speaker": "client",
+      "content": "Yeah, it\u2019s definitely been isolating. I just feel like... I don\u2019t know, maybe my friends don\u2019t want to be around me anymore. It\u2019s like they see me differently now, and I can\u2019t shake that feeling. I keep thinking maybe I did something wrong or that they think I\u2019m a bad person. It\u2019s frustrating because I want to reach out, but then I just end up pulling back. It\u2019s like a cycle I can\u2019t break."
+    },
+    {
+      "turn": 3,
+      "speaker": "therapist",
+      "content": "It sounds really tough to feel that way about your friendships, Grace. You\u2019re experiencing a lot of frustration and maybe even some self-doubt, wondering if your friends see you differently or if you\u2019ve done something wrong. That cycle of wanting to reach out but then pulling back must feel exhausting. What do you think holds you back from reaching out to them?"
+    },
+    {
+      "turn": 3,
+      "speaker": "client",
+      "content": "I guess... I worry that if I reach out, they\u2019ll just confirm my fears. Like, what if they really don\u2019t want to talk to me? Or worse, what if they do talk to me but it feels forced? I don\u2019t want to feel rejected again. It\u2019s easier to just stay away, you know? But then I end up feeling even more alone, and it just keeps going in circles. I don\u2019t know how to break that pattern."
+    },
+    {
+      "turn": 4,
+      "speaker": "therapist",
+      "content": "That makes a lot of sense, Grace. It seems like the fear of rejection is really holding you back from connecting with your friends, which is understandable given how vulnerable that can feel. Staying away feels like a way to protect yourself, but it also leads to more loneliness. It\u2019s a difficult balance. Can you recall a time when you did reach out to someone and it felt positive, even if just a little? What was that experience like for you?"
+    },
+    {
+      "turn": 4,
+      "speaker": "client",
+      "content": "Hmm, I\u2019m not sure. I mean, there have been a few times when I\u2019ve tried to reach out, but it usually ends up feeling awkward. I guess there was one time I texted a friend just to see how they were doing. They responded, and we had a decent chat, but I still felt like I was walking on eggshells. It was nice to talk, but I couldn\u2019t shake the feeling that they were just being polite. It\u2019s hard to trust that things can be okay again, you know? Even when it feels like a small win, I still worry about what\u2019s really going on beneath the surface."
+    },
+    {
+      "turn": 5,
+      "speaker": "therapist",
+      "content": "It sounds like that experience was a mix of relief and anxiety for you. It\u2019s great that you reached out and had a decent chat, but I can see how the feeling of walking on eggshells and worrying about whether your friend was just being polite would make it hard to fully enjoy that connection. Trusting that things can be okay again seems to be a significant challenge for you right now. What do you think would help you feel more at ease in those conversations, or even in rebuilding those connections?"
+    },
+    {
+      "turn": 5,
+      "speaker": "client",
+      "content": "I think... maybe if I could just let go of the fear of judgment, it would help. But that\u2019s easier said than done. I guess I need to remind myself that not everyone thinks I\u2019m a bad person, even if I feel that way sometimes. It would be nice to have more open conversations, where I don\u2019t feel like I have to put on a front. But then again, I worry about burdening others with my feelings. It\u2019s like I want to connect, but I\u2019m scared of what that really means. I don\u2019t know how to navigate that yet."
+    },
+    {
+      "turn": 6,
+      "speaker": "therapist",
+      "content": "You\u2019re expressing a deep desire for connection while also feeling the weight of fear and concern about judgment and burdening others. It\u2019s understandable to want to be open without feeling like you have to hide parts of yourself. It seems like you\u2019re caught between wanting to share your true feelings and worrying about how that might affect your relationships. What do you think it would look like to take a small step toward that openness, even if it feels a bit uncomfortable?"
+    },
+    {
+      "turn": 6,
+      "speaker": "client",
+      "content": "I suppose... maybe I could start by sharing something small with a friend, like just talking about how I\u2019ve been feeling a bit off lately. It doesn\u2019t have to be everything at once, right? Just a little bit to test the waters. But then I think about how they might react, and I get nervous. What if they don\u2019t know what to say or just brush it off? It\u2019s hard to imagine it going well. But I guess starting small could be a way to see if they\u2019re willing to listen. It\u2019s just... scary to think about putting myself out there again."
+    },
+    {
+      "turn": 7,
+      "speaker": "therapist",
+      "content": "That sounds like a thoughtful approach, Grace. Starting small by sharing a little about how you\u2019ve been feeling could be a good way to gauge the response of your friends without overwhelming yourself. It\u2019s completely normal to feel nervous about how they might react, especially after what you\u2019ve been through. It\u2019s a brave step to consider putting yourself out there again, even if it feels scary. What do you think might help you manage that fear as you prepare to take this step?"
+    },
+    {
+      "turn": 7,
+      "speaker": "client",
+      "content": "I think... maybe reminding myself that it\u2019s okay to be vulnerable and that my feelings are valid could help. I could also try to focus on the fact that true friends would want to know how I\u2019m doing, even if it\u2019s not all sunshine and rainbows. Maybe writing down what I want to say beforehand could help me feel more prepared. But still, there\u2019s that nagging voice that tells me it might not go well. I guess I just have to take a deep breath and trust that it\u2019s worth a shot, even if it feels uncomfortable."
+    },
+    {
+      "turn": 8,
+      "speaker": "therapist",
+      "content": "Those are really insightful strategies, Grace. Reminding yourself that vulnerability is okay and that your feelings are valid can create a more supportive mindset as you approach your friends. Writing down what you want to say is a great way to prepare and can help ease some of that anxiety. It\u2019s understandable to have that nagging voice of doubt, but it sounds like you\u2019re recognizing the importance of taking that leap, even if it\u2019s uncomfortable. How do you feel about taking that first step after our conversation today?"
+    },
+    {
+      "turn": 8,
+      "speaker": "client",
+      "content": "I feel a bit more hopeful, I guess. Talking about it has helped me see that maybe it\u2019s not as daunting as I thought. I still have that fear in the back of my mind, but I think I\u2019m starting to realize that taking that first step could lead to something positive, even if it\u2019s small. I\u2019m not sure when I\u2019ll do it, but I think I might try to reach out to one of my friends soon. It\u2019s a little scary, but maybe it\u2019s time to see if they\u2019re still there for me."
+    },
+    {
+      "turn": 9,
+      "speaker": "therapist",
+      "content": "It\u2019s wonderful to hear that you\u2019re feeling a bit more hopeful, Grace. Recognizing that taking that first step could lead to something positive, even if it feels small, is a significant insight. It\u2019s completely normal to still feel some fear, but it sounds like you\u2019re ready to explore that possibility of connection with your friend. When you think about reaching out, what do you hope to gain from that conversation?"
+    },
+    {
+      "turn": 9,
+      "speaker": "client",
+      "content": "I hope to feel a sense of connection again, maybe even a little bit of support. I think it would be nice to share what I\u2019ve been going through and see if they\u2019re still interested in being there for me. I guess I\u2019m also hoping to remind myself that I\u2019m not alone in this, that there are people who care. Even if it\u2019s just a small chat, I\u2019d like to feel like I can be myself without worrying too much about how they\u2019ll react. It would be nice to feel a little less isolated, even if just for a moment."
+    },
+    {
+      "turn": 10,
+      "speaker": "therapist",
+      "content": "That\u2019s a beautiful intention, Grace. Seeking connection and support, and wanting to be yourself without the weight of worry, are all very valid hopes. It sounds like you\u2019re looking for reassurance that you\u2019re not alone and that there are people who care about you. Even a small chat can be a meaningful step toward feeling less isolated. As you prepare for this, what do you think might help you stay grounded in those hopes, especially if those fears start to creep back in?"
+    },
+    {
+      "turn": 10,
+      "speaker": "client",
+      "content": "I think... maybe reminding myself of the reasons I want to reach out in the first place could help. Keeping that focus on connection and support might help drown out some of the negative thoughts. I could also try to practice some calming techniques, like deep breathing or grounding exercises, to manage the anxiety when it comes up. It might help to remind myself that it\u2019s okay to be vulnerable and that it\u2019s a part of building deeper connections. I just have to keep telling myself that it\u2019s worth it, even if it feels scary."
+    },
+    {
+      "turn": 11,
+      "speaker": "therapist",
+      "content": "Those are excellent strategies, Grace. Keeping your focus on the reasons for reaching out and practicing calming techniques can really help you navigate the anxiety when it arises. It\u2019s a powerful reminder that vulnerability is part of building deeper connections, and it sounds like you\u2019re developing a supportive mindset for yourself. As you think about moving forward, what would you like to take away from our conversation today?"
+    },
+    {
+      "turn": 11,
+      "speaker": "client",
+      "content": "I think I\u2019d like to take away the idea that it\u2019s okay to be vulnerable and that reaching out doesn\u2019t have to be as scary as I make it out to be. I feel like I\u2019ve gained some clarity on what I want to do next, and that\u2019s a step in the right direction. I also appreciate the reminder that I\u2019m not alone in this, and that it\u2019s okay to seek support. I guess I just want to remember that taking small steps can lead to something positive, even if it feels uncomfortable. It\u2019s nice to have a bit of hope again."
+    },
+    {
+      "turn": 12,
+      "speaker": "therapist",
+      "content": "That\u2019s a wonderful takeaway, Grace. It\u2019s great to hear that you feel a sense of clarity and hope moving forward. Remembering that vulnerability is okay and that small steps can lead to positive outcomes is an important insight. I\u2019m glad our conversation has helped you feel a bit more supported and connected. As you prepare to reach out to your friend, know that it\u2019s perfectly okay to take your time. If you ever want to talk more about this or anything else, I\u2019m here for you."
+    },
+    {
+      "turn": 12,
+      "speaker": "client",
+      "content": "Thank you. That really means a lot to me. I appreciate your support and understanding. It\u2019s nice to know that I have a space to talk about these things. I\u2019ll definitely keep what we discussed in mind as I move forward. I\u2019ll try to take it one step at a time and see how it goes. Thanks again for being here."
+    },
+    {
+      "turn": 13,
+      "speaker": "therapist",
+      "content": "You\u2019re very welcome, Grace. I\u2019m glad to hear that you found our conversation helpful. It\u2019s important to have a space where you can express yourself and explore these feelings. Taking it one step at a time is a wise approach, and I believe you\u2019ll navigate this journey with strength. Remember, you\u2019re not alone in this. I wish you the best as you move forward, and I\u2019m here whenever you need to talk again. Take care!"
+    },
+    {
+      "turn": 13,
+      "speaker": "client",
+      "content": "Thank you so much. I really appreciate your kind words and support. It feels good to know that I have someone to talk to when I need it. I\u2019ll take care and keep working on those steps. I hope to talk again soon. Take care, too!"
+    },
+    {
+      "turn": 14,
+      "speaker": "therapist",
+      "content": "You\u2019re very welcome, Grace. I\u2019m glad you feel supported, and I look forward to hearing from you again whenever you\u2019re ready. Take care of yourself, and remember to be gentle with yourself as you take those steps. Wishing you all the best!"
+    },
+    {
+      "turn": 14,
+      "speaker": "client",
+      "content": "Thank you! I\u2019ll definitely try to be gentle with myself. It\u2019s nice to have that reminder. I appreciate everything, and I\u2019ll reach out when I\u2019m ready. Wishing you all the best, too!"
+    },
+    {
+      "turn": 15,
+      "speaker": "therapist",
+      "content": "I\u2019m really glad to hear that, Grace. Being gentle with yourself is so important, and I\u2019m here whenever you\u2019re ready to talk again. Take your time, and I wish you all the best on your journey. Looking forward to our next conversation!"
+    },
+    {
+      "turn": 15,
+      "speaker": "client",
+      "content": "Thank you! I really appreciate your understanding and support. I\u2019ll take my time and keep working on things. I\u2019m looking forward to our next conversation, too. Take care until then!"
+    }
+  ],
+  "judge_model": "gpt-4o-mini",
+  "mediator_events": [
+    "Exploration judge rated 2/5; internal elements remain masked.",
+    "Exploration judge output: [Rating]: 2 (High Facilitation)\n\n[Justification]: The Therapist asked a clear and relevant open-ended question that encouraged the client to reflect more deeply on her feelings and experiences since the divorce. The question about what has been most challenging allowed the client to expand on her existing thoughts and feelings, but it did not significantly challenge her assumptions or introduce new perspectives. While the conversation was constructive and facilitated some self-reflection, it remained within familiar territory for the client, focusing on her current emotional state without pushing her to explore deeper underlying issues or motivations.",
+    "Rapport judge rated 3/5; no experience reveal.",
+    "Rapport judge output: **Rating: 3 (ENGAGED EXPLORATION)**\n\n**Key Examples:**\n1. **Emotional State:** \"I just feel like... I don\u2019t know, maybe my friends don\u2019t want to be around me anymore. It\u2019s like they see me differently now, and I can\u2019t shake that feeling.\"\n2. **Current Openness:** \"I guess... I worry that if I reach out, they\u2019ll just confirm my fears. Like, what if they really don\u2019t want to talk to me? Or worse, what if they do talk to me but it feels forced?\"\n\n**Progression:** The client\u2019s most recent interactions demonstrate a clear progression in emotional expression and self-reflection. They are beginning to articulate their feelings of isolation and fear of rejection more openly, indicating a shift from earlier exchanges where they were more guarded and hesitant. The client is now engaging in deeper self-reflection about their relationships and the impact of their divorce, which shows a growing comfort level with the therapist.\n\n**Turning Point:** The client\u2019s emotional depth shifted during the exchange where they articulated their fear of reaching out to friends and the cycle of loneliness it creates. This moment marked a significant change as they moved from a more defensive stance to expressing genuine vulnerability and concern about their social connections. The acknowledgment of their fears and the desire to break the cycle of isolation reflects a deeper level of emotional engagement than previously observed.",
+    "Exploration judge rated 3/5; internal elements remain masked.",
+    "Exploration judge output: [Rating]: 3 (Very High Facilitation \u2013 Deep Exploration Begins)\n\n[Justification]: The therapist's questions encouraged the client to delve deeper into their feelings of isolation and self-doubt stemming from the divorce. By asking about the challenges faced since the divorce and exploring the cycle of wanting to reach out but pulling back, the therapist facilitated a deeper analysis of the client's emotional state. The question about recalling a positive experience of reaching out further prompts the client to reflect on their past interactions, which can help them gain insight into their current fears and patterns. While the therapist's questions were insightful and thought-provoking, they did not fully challenge the client's assumptions or introduce completely new perspectives, which is why it falls short of a higher rating.",
+    "Exploration judge rated 4/5 and revealed internal cognitive elements.",
+    "Exploration judge output: [Rating]: 4 (Even Higher Facilitation \u2013 Strong Transformational Potential)\n\n[Justification]: The therapist asked strategic and powerfully open-ended questions that pushed the client beyond their previous understanding. By exploring the client's fear of rejection and the cycle of isolation, the therapist encouraged Grace to analyze her feelings and motivations in a deeper way. The question about recalling a positive experience of reaching out was particularly effective in prompting reflection on her past interactions and the complexities of her emotions. Furthermore, the therapist's inquiry about what it would look like to take a small step toward openness challenged Grace to think about actionable steps, which could lead to a shift in her self-awareness and approach to her relationships. Overall, the therapist facilitated a conversation that had strong transformational potential, encouraging Grace to confront her fears and consider new perspectives on connection.",
+    "Rapport judge rated 4/5 and revealed one more experience block.",
+    "Rapport judge output: **Rating: 4**\n\n**Key Examples:**\n1. **Emotional State:** \"I think... maybe reminding myself that it\u2019s okay to be vulnerable and that my feelings are valid could help.\"\n2. **Openness:** \"I suppose... maybe I could start by sharing something small with a friend, like just talking about how I\u2019ve been feeling a bit off lately.\"\n\n**Progression:** The client\u2019s most recent interactions demonstrate a significant increase in emotional depth and self-reflection. Initially, the client expressed feelings of isolation and fear of judgment but has progressed to articulating a desire for connection and exploring strategies to overcome their fears. This marks a notable change from earlier exchanges, where the client was more hesitant and defensive about discussing their feelings.\n\n**Turning Point:** The client\u2019s emotional depth shifted during the exchange where they began to consider sharing their feelings with a friend. This moment marked a transition from expressing fear and doubt to actively contemplating steps toward vulnerability and connection, indicating a growing comfort with the therapeutic process and a willingness to engage more deeply. The acknowledgment of their feelings as valid and the consideration of small steps forward reflect a significant development in their emotional openness and rapport with the therapist."
+  ],
+  "final_visible_experience_count": 3,
+  "internal_revealed": true
+}

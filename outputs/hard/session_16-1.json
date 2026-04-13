@@ -1,0 +1,178 @@
+{
+  "case_id": "16-1",
+  "client_name": "Mason",
+  "client_mode": "masked",
+  "hide_all": false,
+  "difficulty": "hard",
+  "therapist_provider": "openai",
+  "therapist_model": "gpt-4o-mini",
+  "client_model": "gpt-4o-mini",
+  "max_turns": 15,
+  "transcript": [
+    {
+      "turn": 1,
+      "speaker": "therapist",
+      "content": "Hello, Mason. I'm glad you're here today. What feels most important for you to talk about right now?"
+    },
+    {
+      "turn": 1,
+      "speaker": "client",
+      "content": "Um, I guess I\u2019ve been feeling a bit overwhelmed lately. There\u2019s this project I\u2019m working on, and it\u2019s due soon. It\u2019s just\u2026 it feels like there\u2019s a lot of pressure with everything going on around it. I don\u2019t know, maybe I\u2019m just not managing my time well. It\u2019s hard to keep up."
+    },
+    {
+      "turn": 2,
+      "speaker": "therapist",
+      "content": "It sounds like you're feeling quite overwhelmed with the pressure of your project and everything else happening around you. It\u2019s understandable to feel that way, especially with a deadline approaching. Can you tell me more about what specifically feels overwhelming right now?"
+    },
+    {
+      "turn": 2,
+      "speaker": "client",
+      "content": "Yeah, I mean, it\u2019s just that I keep thinking about how I haven\u2019t finished everything I need to do. I feel like I\u2019m behind, and it\u2019s like this constant worry in the back of my mind. I keep telling myself I need to finish it as soon as possible, but then I just end up stressing out more. It\u2019s like I can\u2019t catch a break."
+    },
+    {
+      "turn": 3,
+      "speaker": "therapist",
+      "content": "It seems like there's a lot of pressure you're putting on yourself to finish the project, and that pressure is turning into stress and worry. It\u2019s like a cycle where the more you think about being behind, the more stressed you feel, which makes it harder to focus. How does that constant worry affect your day-to-day life right now?"
+    },
+    {
+      "turn": 3,
+      "speaker": "client",
+      "content": "Well, it\u2019s kind of hard to concentrate on anything else. I find myself rushing to work on the project, and I end up skipping sleep just to try to get things done. I feel tense all the time, and it\u2019s like I can\u2019t relax. Even when I\u2019m not working on it, I\u2019m still thinking about it. It\u2019s exhausting, really."
+    },
+    {
+      "turn": 4,
+      "speaker": "therapist",
+      "content": "That sounds really exhausting, Mason. It seems like the project is consuming a lot of your mental energy, to the point where it's affecting your sleep and your ability to relax. It must be tough to feel that tension all the time. When you think about skipping sleep and rushing to work on the project, what emotions come up for you?"
+    },
+    {
+      "turn": 4,
+      "speaker": "client",
+      "content": "I guess I feel anxious and worried a lot. There\u2019s this fear that I\u2019m going to fail, you know? Like, if I don\u2019t get it done in time, everything will fall apart. It\u2019s just this constant pressure that I can\u2019t shake off. Sometimes I feel scared that I won\u2019t be able to meet expectations, and that just makes everything worse."
+    },
+    {
+      "turn": 5,
+      "speaker": "therapist",
+      "content": "It sounds like there's a deep fear of failure and not meeting expectations that\u2019s really weighing on you. That anxiety and worry can be incredibly heavy to carry, especially when you feel like everything is on the line. Can you share more about where that fear of failing or not meeting expectations comes from? Has it been a recurring theme for you in other areas of your life?"
+    },
+    {
+      "turn": 5,
+      "speaker": "client",
+      "content": "Um, I\u2019m not really sure. I guess I\u2019ve always felt like I need to do well, but I don\u2019t really talk about it much. It\u2019s just something I\u2019ve always carried, I think. I don\u2019t want to let anyone down, and it feels like if I don\u2019t do well on this project, it\u2019ll just prove that I\u2019m not good enough. But I don\u2019t really like to think about it too much. It\u2019s easier to just focus on the work, I guess."
+    },
+    {
+      "turn": 6,
+      "speaker": "therapist",
+      "content": "It sounds like there\u2019s a long-standing belief that your worth is tied to your performance, and that can create a lot of pressure to succeed. It\u2019s understandable that you\u2019d want to avoid thinking about it too much, especially when it feels heavy. Focusing on the work might feel like a way to cope, but it also sounds like it\u2019s leading to more stress. How do you feel when you think about the possibility of not meeting those expectations?"
+    },
+    {
+      "turn": 6,
+      "speaker": "client",
+      "content": "Honestly, it makes me feel like a failure. Like, if I don\u2019t meet those expectations, it just confirms all those negative thoughts I have about myself. I start to think that I\u2019m incompetent or that I\u2019m wasting my life. It\u2019s a pretty dark place to go, and I try to avoid it, but it\u2019s hard when I feel like I\u2019m not making progress. It just adds to the anxiety."
+    },
+    {
+      "turn": 7,
+      "speaker": "therapist",
+      "content": "That sounds really tough, Mason. It seems like the fear of not meeting expectations leads you to some very harsh self-judgments, which only intensifies your anxiety. It\u2019s understandable to want to avoid those feelings, but they seem to be quite powerful for you. When you find yourself in that dark place, what do you usually do to cope or manage those feelings?"
+    },
+    {
+      "turn": 7,
+      "speaker": "client",
+      "content": "Well, I try to stick to my routines, like going to the gym or playing guitar. It helps to have some structure in my day, you know? I set reminders for tasks to keep myself on track, but sometimes it feels like I\u2019m just going through the motions. I guess I\u2019m trying to stay present and not let my mind wander too much, but it\u2019s hard to shake off those feelings of inadequacy."
+    },
+    {
+      "turn": 8,
+      "speaker": "therapist",
+      "content": "It sounds like you have some helpful routines in place, like going to the gym and playing guitar, which provide structure and a way to stay present. However, it also seems like there\u2019s a sense of just going through the motions, and that the feelings of inadequacy still linger beneath the surface. When you engage in those routines, do you find any moments of relief or joy, even if they\u2019re brief?"
+    },
+    {
+      "turn": 8,
+      "speaker": "client",
+      "content": "Sometimes, I do find a little bit of relief when I\u2019m playing guitar or working out. It\u2019s nice to have those moments where I can just focus on something else for a bit. But then, it\u2019s like the worries creep back in once I\u2019m done. I guess I\u2019m just trying to hold onto those small moments, but they don\u2019t last long enough to really make a difference. It\u2019s frustrating."
+    },
+    {
+      "turn": 9,
+      "speaker": "therapist",
+      "content": "It\u2019s great that you can find some relief and focus while playing guitar or working out, even if those moments feel fleeting. It sounds frustrating to have those worries come creeping back once you\u2019re done. It\u2019s like you\u2019re caught in a cycle where the temporary relief doesn\u2019t fully address the underlying feelings. When you think about those small moments of relief, what do you think would help them last longer or feel more impactful for you?"
+    },
+    {
+      "turn": 9,
+      "speaker": "client",
+      "content": "I\u2019m not really sure. Maybe if I could find a way to really enjoy those moments without the worries coming back right away. Sometimes I think about trying to be more mindful or present, but it\u2019s hard to actually do. I guess I just wish I could feel more confident in myself and not let those negative thoughts take over. It would be nice to have something that really helps me break that cycle, but I don\u2019t know what that would look like."
+    },
+    {
+      "turn": 10,
+      "speaker": "therapist",
+      "content": "It sounds like you\u2019re yearning for a way to truly enjoy those moments without the worries intruding, and that you\u2019re aware of mindfulness as a potential tool, even if it feels challenging to practice. The desire for more confidence and to break that cycle of negative thoughts is understandable. It\u2019s a tough place to be in. What do you think might help you explore mindfulness or confidence-building in a way that feels manageable for you?"
+    },
+    {
+      "turn": 10,
+      "speaker": "client",
+      "content": "I guess starting small might help. Maybe I could try just a few minutes of mindfulness each day, like focusing on my breath or something. I\u2019ve heard that can be helpful. As for confidence, I\u2019m not sure. Maybe setting smaller, achievable goals could help me feel like I\u2019m making progress without the pressure of everything being perfect. But it\u2019s hard to commit to those ideas when I\u2019m feeling so overwhelmed."
+    },
+    {
+      "turn": 11,
+      "speaker": "therapist",
+      "content": "Starting small sounds like a gentle and manageable approach, especially with mindfulness. Focusing on your breath for just a few minutes each day could provide a little space from the overwhelm. Setting smaller, achievable goals for your project could also help you feel a sense of progress without the weight of perfectionism. It\u2019s understandable that committing to these ideas can feel challenging when you\u2019re in a state of overwhelm. What do you think might help you take that first step toward trying out mindfulness or setting those smaller goals?"
+    },
+    {
+      "turn": 11,
+      "speaker": "client",
+      "content": "Maybe if I set a specific time each day to try mindfulness, like right after I wake up or before bed, it could help me remember to do it. As for the smaller goals, I could write them down and keep them visible, so I\u2019m reminded of what I want to achieve without feeling too pressured. I think having a plan might make it feel less daunting, but I still worry about sticking to it. It\u2019s just hard to break out of this cycle."
+    },
+    {
+      "turn": 12,
+      "speaker": "therapist",
+      "content": "It sounds like you\u2019re developing a thoughtful plan by setting specific times for mindfulness and writing down your smaller goals to keep them visible. Having a plan can definitely help make things feel more manageable. It\u2019s completely normal to worry about sticking to it, especially when you\u2019re feeling overwhelmed. What do you think might support you in following through on this plan, even on days when it feels tough?"
+    },
+    {
+      "turn": 12,
+      "speaker": "client",
+      "content": "I guess having some reminders might help, like setting alarms on my phone or using sticky notes. It could be a way to nudge myself without feeling too much pressure. Maybe I could also share my goals with someone, so I have a bit of accountability. But, honestly, I still worry that I won\u2019t follow through, and that makes it hard to commit. It\u2019s like I want to try, but there\u2019s always that fear of failing again."
+    },
+    {
+      "turn": 13,
+      "speaker": "therapist",
+      "content": "It\u2019s great that you\u2019re thinking about practical reminders and accountability to help you stay on track. Sharing your goals with someone can create a supportive environment, which might ease some of that pressure. It\u2019s completely understandable to feel hesitant about committing, especially with the fear of failing lingering in the background. It\u2019s a tough balance between wanting to try and the fear of not meeting your own expectations. How do you think you might be able to approach that fear of failing in a way that feels a bit less daunting?"
+    },
+    {
+      "turn": 13,
+      "speaker": "client",
+      "content": "I think maybe I could try to reframe how I view failure. Instead of seeing it as a confirmation of my incompetence, I could think of it as a part of learning or growing. It\u2019s just hard to shift that mindset when I\u2019ve been so focused on perfection. Maybe if I remind myself that it\u2019s okay to not get everything right, it could take some of the pressure off. But, honestly, it\u2019s going to take time to really believe that."
+    },
+    {
+      "turn": 14,
+      "speaker": "therapist",
+      "content": "Reframing failure as a part of learning and growth is a powerful perspective, and it\u2019s understandable that shifting that mindset will take time, especially when perfectionism has been a strong focus for you. It\u2019s a significant step to recognize that it\u2019s okay not to get everything right. Allowing yourself that grace could definitely help ease some of the pressure. What small reminders or affirmations do you think might help you reinforce this new perspective as you work on it?"
+    },
+    {
+      "turn": 14,
+      "speaker": "client",
+      "content": "Maybe I could write down some affirmations like \u201cIt\u2019s okay to make mistakes\u201d or \u201cEvery step is progress, even if it\u2019s not perfect.\u201d I could keep those somewhere I see them often, like on my desk or in my planner. It might help to have those reminders to counter the negative thoughts when they pop up. I just hope I can remember to look at them when I need to."
+    },
+    {
+      "turn": 15,
+      "speaker": "therapist",
+      "content": "Writing down affirmations like that and keeping them visible sounds like a wonderful idea. Having those reminders can serve as a gentle nudge when negative thoughts arise. It\u2019s normal to worry about remembering to look at them, especially when you\u2019re feeling overwhelmed. Perhaps you could pair looking at your affirmations with another routine, like your mindfulness practice or your time at the gym. How does that sound to you?"
+    },
+    {
+      "turn": 15,
+      "speaker": "client",
+      "content": "That actually sounds like a good idea. If I can connect looking at the affirmations with something I already do, it might make it easier to remember. Like, maybe I could read them right after my mindfulness practice or before I head to the gym. It feels a bit more manageable that way. I just hope I can keep it up, but it\u2019s a start, I guess."
+    }
+  ],
+  "judge_model": "gpt-4o-mini",
+  "mediator_events": [
+    "Exploration judge rated 2/5; internal elements remain masked.",
+    "Exploration judge output: [Rating]: 2 (High Facilitation)\n\n[Justification]: The therapist asked relevant and well-structured open-ended questions that encouraged the client to reflect on their feelings of overwhelm and the pressures they are experiencing. The questions prompted the client to elaborate on their thoughts and feelings, leading to some deeper self-reflection. However, the questions primarily expanded on the client's existing thoughts about their stress and time management rather than introducing significantly new perspectives or challenging underlying assumptions. While the therapist facilitated a meaningful conversation, the exploration remained somewhat within familiar territory without pushing the client to a deeper level of insight or transformation.",
+    "Rapport judge rated 3/5; no experience reveal.",
+    "Rapport judge output: **Rating: 3 (ENGAGED EXPLORATION)**\n\n**Key Examples:**\n1. \"I feel like I\u2019m behind, and it\u2019s like this constant worry in the back of my mind. I keep telling myself I need to finish it as soon as possible, but then I just end up stressing out more.\"\n2. \"I find myself rushing to work on the project, and I end up skipping sleep just to try to get things done. I feel tense all the time, and it\u2019s like I can\u2019t relax.\"\n\n**Progression:**\nThe client\u2019s most recent interactions demonstrate a notable increase in emotional expression and self-reflection. They articulate feelings of being overwhelmed and the impact of their project on their mental state, indicating a deeper engagement with their emotional experience compared to earlier sessions. Initially, the client may have provided more factual responses with limited emotional vocabulary, but now they are able to articulate specific feelings of tension, exhaustion, and worry. This marks a significant change from earlier stages, where emotional depth was minimal.\n\n**Turning Point:**\nThe client\u2019s emotional depth shifted during the exchange where they began to express the cycle of stress and worry associated with their project. Specifically, the moment they acknowledged, \"I feel tense all the time, and it\u2019s like I can\u2019t relax,\" signifies a pivotal point where they moved from merely stating facts about their situation to genuinely reflecting on the emotional toll it takes on them. This moment of vulnerability indicates a growing comfort with the therapist and a willingness to explore their feelings more deeply.",
+    "Exploration judge rated 4/5 and revealed internal cognitive elements.",
+    "Exploration judge output: [Rating]: 4 (Even Higher Facilitation \u2013 Strong Transformational Potential)\n\n[Justification]: The therapist asked strategic and open-ended questions that encouraged the client to explore deeper emotional layers and underlying beliefs related to their fear of failure and performance pressure. The questions challenged the client to reflect on the origins of their anxiety and how it manifests in their life, leading to a clearer understanding of their emotional state. The therapist's inquiry about the impact of these feelings on the client's day-to-day life and the exploration of long-standing beliefs about self-worth facilitated a significant shift in self-awareness. While the conversation did not reach a profound breakthrough, it effectively pushed the client beyond their previous understanding, indicating strong transformational potential.",
+    "Rapport judge rated 3/5; no experience reveal.",
+    "Rapport judge output: **Rating: 3 (ENGAGED EXPLORATION)**\n\n**Key Examples:**\n1. **Emotional State:** \"Honestly, it makes me feel like a failure. Like, if I don\u2019t meet those expectations, it just confirms all those negative thoughts I have about myself.\"\n2. **Current Openness:** \"I guess I\u2019ve always felt like I need to do well, but I don\u2019t really talk about it much. It\u2019s just something I\u2019ve always carried, I think.\"\n\n**Progression:** The client\u2019s most recent interactions demonstrate a clear progression in emotional expression and self-reflection. Initially, the client expressed feelings of being overwhelmed and anxious about their project but has since delved deeper into the underlying fears of inadequacy and failure. This marks a significant change from earlier exchanges where the client focused more on the surface-level stress of the project without exploring the emotional implications.\n\n**Turning Point:** The client\u2019s emotional depth shifted notably when they articulated their fear of failure and how it ties to their self-worth. This moment occurred when they stated, \"Honestly, it makes me feel like a failure,\" which indicates a deeper level of vulnerability and self-reflection. This acknowledgment of their internal struggle signifies a turning point in the session, as it reveals the client\u2019s willingness to confront and discuss their fears rather than merely describing their external pressures. \n\nOverall, while the client is still navigating their anxiety and feelings of inadequacy, they are engaging more openly and exploring the emotional ramifications of their experiences, which aligns with the characteristics of the \"Engaged Exploration\" stage.",
+    "Rapport judge rated 3/5; no experience reveal.",
+    "Rapport judge output: **Rating: 3 (Engaged Exploration)**\n\n**Key Examples:**\n1. **Emotional State:** \"Honestly, it makes me feel like a failure. Like, if I don\u2019t meet those expectations, it just confirms all those negative thoughts I have about myself.\"\n2. **Current Openness:** \"I guess starting small might help. Maybe I could try just a few minutes of mindfulness each day, like focusing on my breath or something.\"\n\n**Progression:** The client\u2019s most recent interactions reveal a growing emotional depth, particularly in their acknowledgment of feelings of anxiety and fear of failure. This marks a significant change from earlier in the session, where they primarily expressed feelings of being overwhelmed without delving into the underlying emotions. The client is now articulating their emotions more clearly and reflecting on their coping mechanisms, indicating a shift towards deeper self-reflection.\n\n**Turning Point:** The client\u2019s emotional depth shifted notably when they began expressing their fear of failure and how it ties into their self-worth. This occurred during the exchange where they stated, \"I guess I feel anxious and worried a lot. There\u2019s this fear that I\u2019m going to fail, you know?\" This moment marked a transition from a more surface-level discussion about their project to a deeper exploration of their emotional landscape, allowing for a more meaningful dialogue about their struggles and coping strategies."
+  ],
+  "final_visible_experience_count": 1,
+  "internal_revealed": true
+}

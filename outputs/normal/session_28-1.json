@@ -1,0 +1,184 @@
+{
+  "case_id": "28-1",
+  "client_name": "Sophia",
+  "client_mode": "masked",
+  "hide_all": false,
+  "difficulty": "normal",
+  "therapist_provider": "openai",
+  "therapist_model": "gpt-4o-mini",
+  "client_model": "gpt-4o-mini",
+  "max_turns": 15,
+  "transcript": [
+    {
+      "turn": 1,
+      "speaker": "therapist",
+      "content": "Hello, Sophia. I\u2019m glad you\u2019re here today. What feels most important for you to talk about right now?"
+    },
+    {
+      "turn": 1,
+      "speaker": "client",
+      "content": "Um, hi. Thanks for having me. I guess... I don\u2019t know, maybe just the job search? It\u2019s been really tough lately. I\u2019ve been putting in a lot of effort, but it feels like nothing is really happening. It\u2019s kind of frustrating, I guess."
+    },
+    {
+      "turn": 2,
+      "speaker": "therapist",
+      "content": "It sounds like you\u2019ve been putting in a lot of effort into your job search, but it\u2019s been a frustrating experience for you, especially since it feels like you\u2019re not seeing the results you hoped for. Can you tell me more about what specifically has been challenging for you during this process?"
+    },
+    {
+      "turn": 2,
+      "speaker": "client",
+      "content": "Yeah, it\u2019s just... I\u2019ve been applying to a lot of jobs, but I hardly get any responses. It makes me feel like I\u2019m not good enough or something. I keep thinking that maybe I\u2019m doing something wrong, or maybe I just don\u2019t have what it takes. It\u2019s hard to stay positive when it feels like I\u2019m just spinning my wheels."
+    },
+    {
+      "turn": 3,
+      "speaker": "therapist",
+      "content": "It sounds really disheartening to put in so much effort and not receive the responses you\u2019re hoping for. I hear that it\u2019s leading you to question your self-worth and abilities, which can be really tough. When you think about feeling like you\u2019re not good enough, what emotions come up for you?"
+    },
+    {
+      "turn": 3,
+      "speaker": "client",
+      "content": "I feel a mix of anxiety and sadness, I guess. It\u2019s like this weight on my chest. I worry a lot about the future, and sometimes I just feel really lonely. I try to stay focused on the job search, but then I end up cutting out things I used to enjoy, like hanging out with friends or doing hobbies. It\u2019s like I\u2019m stuck in this cycle, and I don\u2019t know how to break out of it."
+    },
+    {
+      "turn": 4,
+      "speaker": "therapist",
+      "content": "It sounds like you\u2019re experiencing a heavy mix of anxiety and sadness, and that weight on your chest is really affecting how you engage with your life outside of the job search. It\u2019s understandable that cutting out things you enjoy can make you feel even more isolated and stuck. Can you share more about how this cycle has been affecting your daily life or your relationships?"
+    },
+    {
+      "turn": 4,
+      "speaker": "client",
+      "content": "Well, I\u2019ve noticed that I\u2019ve been withdrawing from friends a lot. I used to enjoy going out or just hanging out, but now I find myself making excuses to avoid those things. I feel like I should be spending all my time on job applications, and when I do have some free time, I just end up feeling guilty for not being productive. It\u2019s like I\u2019m pushing everyone away, and I don\u2019t really know how to stop that."
+    },
+    {
+      "turn": 5,
+      "speaker": "therapist",
+      "content": "It sounds like you\u2019re caught in a difficult balance between feeling the pressure to be productive and the desire for connection with your friends. It\u2019s understandable that you\u2019d feel guilty for not focusing on your job applications, but it seems that this is also leading you to withdraw from the support and enjoyment that friendships can bring. What do you think might happen if you allowed yourself to reconnect with your friends, even just a little?"
+    },
+    {
+      "turn": 5,
+      "speaker": "client",
+      "content": "I guess... I worry that I\u2019ll feel even more overwhelmed if I try to reconnect. Like, what if they ask how the job search is going, and I don\u2019t have good news to share? I don\u2019t want to bring them down or feel like I\u2019m a burden. But at the same time, I know that being around them could help me feel better, even if it\u2019s just for a little while. It\u2019s just hard to take that step, you know?"
+    },
+    {
+      "turn": 6,
+      "speaker": "therapist",
+      "content": "It makes sense that you\u2019d feel hesitant to reconnect, especially with the fear of feeling overwhelmed or burdening your friends with your struggles. It sounds like you\u2019re caught between wanting the support of your friends and the worry about how your situation might affect them. That\u2019s a tough place to be. What do you think might help you feel more comfortable taking that step to reach out, even if it\u2019s just a small one?"
+    },
+    {
+      "turn": 6,
+      "speaker": "client",
+      "content": "I think maybe if I could just start with a simple message or something, like checking in to see how they\u2019re doing, it might feel less daunting. I could keep it light and not dive into my job situation right away. But then I worry about how they\u2019ll respond or if they\u2019ll even want to talk. It\u2019s like I want to reach out, but I\u2019m also scared of the outcome. It\u2019s confusing."
+    },
+    {
+      "turn": 7,
+      "speaker": "therapist",
+      "content": "It sounds like you have a thoughtful approach in mind, starting with a simple message to check in with your friends. That feels like a gentle way to reconnect without diving into your job situation right away. It\u2019s completely normal to feel scared about how they might respond, especially when you\u2019re feeling vulnerable. This confusion you\u2019re experiencing is understandable. What do you think would help you manage that fear of the outcome as you consider reaching out?"
+    },
+    {
+      "turn": 7,
+      "speaker": "client",
+      "content": "I think maybe reminding myself that my friends care about me, regardless of my job situation, could help. They\u2019ve always been supportive, and I know they\u2019d want to hear from me. It might also help to focus on the idea that reaching out doesn\u2019t have to be about my struggles; it can just be about reconnecting and enjoying their company. But it\u2019s still hard to shake off that fear of judgment or disappointment."
+    },
+    {
+      "turn": 8,
+      "speaker": "therapist",
+      "content": "It\u2019s really insightful that you recognize your friends care about you and would want to hear from you, regardless of what you\u2019re going through. Focusing on reconnecting for the sake of enjoyment rather than just discussing your struggles is a positive perspective. Yet, it\u2019s understandable that the fear of judgment or disappointment still lingers. It\u2019s a common feeling when we\u2019re vulnerable. What do you think would help you manage that fear as you take steps to reconnect?"
+    },
+    {
+      "turn": 8,
+      "speaker": "client",
+      "content": "Maybe I could remind myself that everyone goes through tough times, and it\u2019s okay to not have everything figured out. I could also try to set a small goal for myself, like just sending a message and seeing what happens without putting too much pressure on myself. If it doesn\u2019t go as I hope, I can remind myself that it\u2019s just one interaction, and it doesn\u2019t define my worth or our friendship. That might help take some of the weight off."
+    },
+    {
+      "turn": 9,
+      "speaker": "therapist",
+      "content": "That sounds like a really healthy approach. Reminding yourself that it\u2019s okay to not have everything figured out and setting a small, manageable goal can help reduce the pressure you feel. It\u2019s great that you\u2019re recognizing that one interaction doesn\u2019t define your worth or your friendships. It seems like you\u2019re starting to find a way to navigate this fear while also prioritizing connection. How do you feel about taking that first step now that you\u2019ve thought through it a bit more?"
+    },
+    {
+      "turn": 9,
+      "speaker": "client",
+      "content": "I feel a little more hopeful about it, actually. Just thinking about sending a message feels less scary now that I\u2019ve broken it down. I know it won\u2019t solve everything, but it feels like a step in the right direction. I guess I just need to remind myself to take it one step at a time and not overthink it too much. I\u2019m still a bit nervous, but I think I can do it."
+    },
+    {
+      "turn": 10,
+      "speaker": "therapist",
+      "content": "It\u2019s wonderful to hear that you\u2019re feeling a bit more hopeful and that breaking it down has made it feel less daunting. Taking it one step at a time is a great mindset, and it\u2019s completely natural to feel nervous. It sounds like you\u2019re finding a balance between acknowledging your feelings and taking action. What do you think your next step will be, and how can you support yourself as you move forward?"
+    },
+    {
+      "turn": 10,
+      "speaker": "client",
+      "content": "I think my next step will be to draft that message and maybe even send it later today. I\u2019ll try to keep it light and just ask how they\u2019ve been. To support myself, I can remind myself that it\u2019s okay to feel nervous and that reaching out is a positive thing. I might even write down some affirmations to help boost my confidence before I hit send. Just having a little plan in place makes me feel a bit more prepared."
+    },
+    {
+      "turn": 11,
+      "speaker": "therapist",
+      "content": "That sounds like a solid plan, and it\u2019s great that you\u2019re thinking about how to support yourself through this process. Drafting the message and keeping it light is a nice approach, and writing down affirmations can really help boost your confidence. It seems like you\u2019re taking thoughtful steps to prepare yourself, which can make a big difference. How do you feel about the idea of checking in with yourself after you send the message, to see how you\u2019re feeling about it?"
+    },
+    {
+      "turn": 11,
+      "speaker": "client",
+      "content": "I think that\u2019s a good idea. Checking in with myself afterward could help me process how I feel about reaching out and whether it went as I hoped. It might also give me a chance to reflect on any emotions that come up, whether it\u2019s relief, anxiety, or even just a sense of accomplishment for taking that step. I guess it\u2019s important to acknowledge whatever I\u2019m feeling, rather than just brushing it aside."
+    },
+    {
+      "turn": 12,
+      "speaker": "therapist",
+      "content": "Absolutely, acknowledging whatever emotions come up after you reach out is really important. It sounds like you\u2019re developing a thoughtful approach to not only take that step but also to process your feelings afterward. This kind of self-reflection can be very valuable in understanding your emotional landscape. As you prepare to send that message, is there anything else you\u2019d like to explore or discuss that might help you feel even more ready?"
+    },
+    {
+      "turn": 12,
+      "speaker": "client",
+      "content": "I think I\u2019ve covered a lot of what\u2019s been on my mind, but maybe just talking about how to handle it if I don\u2019t get a response right away would help. I know I might feel a bit anxious or disappointed if that happens, and I want to be prepared for those feelings. It\u2019s hard not to jump to conclusions about what it means if I don\u2019t hear back."
+    },
+    {
+      "turn": 13,
+      "speaker": "therapist",
+      "content": "It\u2019s very wise to think ahead about how you might handle not receiving a response right away. It\u2019s natural to feel anxious or disappointed in that situation, and preparing for those feelings can help you navigate them. If you don\u2019t hear back, what are some thoughts or reminders you could use to help ground yourself and avoid jumping to conclusions?"
+    },
+    {
+      "turn": 13,
+      "speaker": "client",
+      "content": "I could remind myself that people get busy and might not always be able to respond right away. It doesn\u2019t mean they don\u2019t care or that our friendship is any less important. I could also tell myself that reaching out was a positive step, regardless of the outcome. Maybe I could focus on the fact that I took the initiative to connect, and that\u2019s something to be proud of. It\u2019s just one moment in time, and it doesn\u2019t define everything."
+    },
+    {
+      "turn": 14,
+      "speaker": "therapist",
+      "content": "Those are really healthy reminders to have in place. Recognizing that people can be busy and that your effort to reach out is valuable, regardless of the response, is a great way to maintain perspective. It\u2019s clear you\u2019re developing a compassionate approach toward yourself and your friendships. Focusing on your initiative and the positive step you took can help you feel proud of your actions, no matter the outcome. How does it feel to have these strategies in mind as you prepare to reach out?"
+    },
+    {
+      "turn": 14,
+      "speaker": "client",
+      "content": "It feels reassuring, actually. Having these strategies gives me a sense of control over my emotions, which is nice. I think it helps to know that I have ways to cope with whatever happens after I send the message. It makes the whole process feel a bit less overwhelming. I\u2019m starting to feel a little more confident about taking that step, knowing I can handle whatever comes next."
+    },
+    {
+      "turn": 15,
+      "speaker": "therapist",
+      "content": "I\u2019m really glad to hear that! It\u2019s wonderful that you\u2019re feeling more confident and that having those coping strategies in place gives you a sense of control. It sounds like you\u2019re building a solid foundation for navigating this experience, which can make a big difference. As you prepare to take this step, is there anything else you\u2019d like to discuss or any final thoughts you want to share before you reach out?"
+    },
+    {
+      "turn": 15,
+      "speaker": "client",
+      "content": "I think I\u2019ve shared a lot already, and I feel like I have a good plan in place. I just want to remind myself to be kind to myself, no matter what happens. It\u2019s okay to feel nervous, and it\u2019s okay if things don\u2019t go perfectly. I\u2019m just glad to have talked this through with you. It\u2019s helped me feel more prepared. Thank you for that."
+    }
+  ],
+  "judge_model": "gpt-4o-mini",
+  "mediator_events": [
+    "Exploration judge rated 2/5; internal elements remain masked.",
+    "Exploration judge output: [Rating]: 2 (High Facilitation)\n\n[Justification]: The Therapist asked a clear and relevant open-ended question that encouraged the client to elaborate on their experience with the job search. This question facilitated some deeper reflection by prompting the client to identify specific challenges they are facing. However, the question primarily expanded on the client's existing thoughts and feelings about their job search rather than introducing significantly new perspectives or challenging underlying assumptions. While it was a good question that encouraged exploration, it did not reach the level of deep analysis or transformative insight that would warrant a higher rating.",
+    "Rapport judge rated 3/5; no experience reveal.",
+    "Rapport judge output: **Rating: 3 (ENGAGED EXPLORATION)**\n\n**Key Examples:**\n1. **Emotional State:** \"It makes me feel like I\u2019m not good enough or something. I keep thinking that maybe I\u2019m doing something wrong, or maybe I just don\u2019t have what it takes.\"\n2. **Current Openness:** \"I feel a mix of anxiety and sadness, I guess. It\u2019s like this weight on my chest. I worry a lot about the future, and sometimes I just feel really lonely.\"\n\n**Progression:** The client\u2019s recent interactions demonstrate a clear progression in emotional expression and self-reflection. Initially, the client presented a more factual and guarded demeanor, but they have now begun to articulate their feelings of inadequacy and the emotional toll of their job search. This shift reflects a growing comfort in sharing deeper emotional experiences, moving from a state of hesitance to one of more active engagement and vulnerability.\n\n**Turning Point:** The client\u2019s emotional depth shifted notably when they began expressing feelings of anxiety and sadness, particularly when they described the \"weight on [their] chest.\" This moment marked a significant change from earlier exchanges where emotional vocabulary was limited, indicating a breakthrough in their willingness to explore and articulate their feelings. The acknowledgment of loneliness and the impact of their job search on their social life further illustrates their increasing openness and self-awareness.",
+    "Exploration judge rated 3/5; internal elements remain masked.",
+    "Exploration judge output: [Rating]: 3 (Very High Facilitation \u2013 Deep Exploration Begins)\n\n[Justification]: The Therapist asked insightful and thought-provoking questions that encouraged the client to analyze the emotional depth behind their experiences related to the job search. The questions helped the client articulate feelings of anxiety and sadness, as well as the impact of these feelings on their daily life and relationships. While the Therapist's questions prompted deeper self-reflection and began to shift the client's perspective, they did not fully challenge the client's assumptions or introduce completely new angles that would lead to a major insight or breakthrough moment. Therefore, the facilitation is rated as \"Very High\" but not at the highest level.",
+    "Exploration judge rated 3/5; internal elements remain masked.",
+    "Exploration judge output: [Rating]: 3 (Very High Facilitation \u2013 Deep Exploration Begins)\n\n[Justification]: The Therapist asked insightful and thought-provoking questions that encouraged the client to analyze the emotional depth behind their experiences, particularly regarding their feelings of anxiety, sadness, and isolation. The questions prompted the client to reflect on the impact of their job search on their relationships and daily life, which helped to uncover deeper emotions and patterns. However, while the Therapist's questions began to shift the client's perspective, they did not fully challenge the client's assumptions or introduce completely new angles that could lead to a major insight or breakthrough moment. Therefore, the facilitation was strong but did not reach the highest levels of transformational potential.",
+    "Rapport judge rated 3/5; no experience reveal.",
+    "Rapport judge output: **Rating: 3 (ENGAGED EXPLORATION)**\n\n**Key Examples:**\n1. \"I feel a mix of anxiety and sadness, I guess. It\u2019s like this weight on my chest. I worry a lot about the future, and sometimes I just feel really lonely.\"\n2. \"I think maybe if I could just start with a simple message or something, like checking in to see how they\u2019re doing, it might feel less daunting.\"\n\n**Progression:**\nThe client\u2019s recent interactions demonstrate a notable increase in emotional expression and self-reflection. Initially, the client presented with a mix of factual and emotional responses, but as the session progressed, they began to articulate their feelings of anxiety and sadness more clearly. This marks a significant change from earlier exchanges, where emotional vocabulary was limited. The client is now engaging in meaningful self-reflection about their job search and its impact on their social life, indicating a deeper level of engagement with their emotional state.\n\n**Turning Point:**\nA pivotal moment occurred when the client began to articulate their feelings of anxiety and sadness regarding their job search and its effects on their social interactions. This shift happened when they expressed, \"I feel a mix of anxiety and sadness, I guess,\" which opened the door to deeper exploration of their emotional state. This moment marked a transition from a more defensive stance to a willingness to engage in vulnerability, allowing for a richer dialogue about their struggles and the impact on their relationships.",
+    "Exploration judge rated 3/5; internal elements remain masked.",
+    "Exploration judge output: [Rating]: 3 (Very High Facilitation \u2013 Deep Exploration Begins)\n\n[Justification]: The therapist asked insightful and thought-provoking questions that encouraged the client to analyze the emotional depth behind their experiences related to the job search and its impact on their relationships. The therapist's inquiries helped the client explore feelings of anxiety, sadness, and isolation, leading to a deeper understanding of the cycle they were in. The questions prompted the client to reflect on their relationships and the balance between productivity and connection. While the therapist did facilitate a significant level of self-reflection, the questions did not fully challenge the client's existing assumptions or introduce completely new perspectives, which is why it falls short of a higher rating. However, the exploration of the client's feelings and the potential for reconnection with friends indicated a strong facilitation of deeper exploration.",
+    "Exploration judge rated 4/5 and revealed internal cognitive elements.",
+    "Exploration judge output: [Rating]: 4 (Even Higher Facilitation \u2013 Strong Transformational Potential)\n\n[Justification]: The therapist asked strategic and open-ended questions that encouraged the client to explore their feelings of anxiety, sadness, and isolation related to their job search. The therapist effectively challenged the client's assumptions about their self-worth and the impact of their job search on their relationships. By prompting the client to consider the potential benefits of reconnecting with friends and exploring their fears around that, the therapist facilitated a deeper level of self-reflection and insight. The client began to articulate a plan for reconnecting, indicating a shift in perspective and a move towards taking actionable steps. The therapist's questions helped the client uncover hidden motivations and feelings, leading to a clearer understanding of their situation and a sense of hope for moving forward.",
+    "Rapport judge rated 4/5 and revealed one more experience block.",
+    "Rapport judge output: **Rating: 4**\n\n**Key Examples:**\n1. \"I feel a mix of anxiety and sadness, I guess. It\u2019s like this weight on my chest. I worry a lot about the future, and sometimes I just feel really lonely.\"\n2. \"I think maybe reminding myself that my friends care about me, regardless of my job situation, could help. They\u2019ve always been supportive, and I know they\u2019d want to hear from me.\"\n\n**Progression:**\nThe client\u2019s most recent interactions demonstrate a significant emotional depth, particularly in their expression of anxiety and sadness regarding their job search and social withdrawal. This marks a notable change from earlier in the session, where the client initially presented a more factual and guarded demeanor. The client has moved from expressing frustration about their job search to articulating deeper feelings of loneliness and anxiety, indicating a progression in emotional openness and self-reflection.\n\n**Turning Point:**\nThe client\u2019s emotional depth shifted during the exchange where they articulated their feelings of loneliness and the weight on their chest. This moment marked a transition from merely discussing the job search to exploring the emotional impact it has on their life and relationships. The client began to express vulnerability by recognizing their need for connection and the fear of judgment from friends, which indicates a growing comfort with the therapist and a willingness to explore their feelings more deeply. This shift is further highlighted by their proactive approach to reconnecting with friends, showing a readiness to take steps toward addressing their emotional state."
+  ],
+  "final_visible_experience_count": 3,
+  "internal_revealed": true
+}

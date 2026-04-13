@@ -1,0 +1,180 @@
+{
+  "case_id": "31-1",
+  "client_name": "Issac",
+  "client_mode": "masked",
+  "hide_all": false,
+  "difficulty": "normal",
+  "therapist_provider": "openai",
+  "therapist_model": "gpt-4o-mini",
+  "client_model": "gpt-4o-mini",
+  "max_turns": 15,
+  "transcript": [
+    {
+      "turn": 1,
+      "speaker": "therapist",
+      "content": "Hello, Issac. I'm glad you're here today. What feels most important for you to talk about right now?"
+    },
+    {
+      "turn": 1,
+      "speaker": "client",
+      "content": "Um, I guess I\u2019m not really sure. There\u2019s just a lot going on, I suppose. Sometimes I feel like I\u2019m just... floating through things, you know? Like, when I get calls from my mom, it\u2019s usually about something serious, and it just makes me feel... anxious. But I don\u2019t really want to dwell on that too much. It\u2019s just... life, I guess."
+    },
+    {
+      "turn": 2,
+      "speaker": "therapist",
+      "content": "It sounds like you're feeling a bit overwhelmed and anxious, especially when it comes to serious conversations with your mom. Floating through things can feel disorienting. I hear you don\u2019t want to focus too much on that, but it seems to be weighing on you. Can you tell me more about what those calls are like for you? What kind of serious topics come up?"
+    },
+    {
+      "turn": 2,
+      "speaker": "client",
+      "content": "Well, it\u2019s mostly about my dad\u2019s health. I mean, she calls and it\u2019s like, I already know it\u2019s going to be something heavy. I just... I don\u2019t know how to respond. I feel this tightness in my chest, and I just want to change the subject or zone out. It\u2019s like, I can\u2019t handle it, but I also feel guilty for not being more supportive. I guess I just wish things were different, you know? But I don\u2019t really talk about it with them. It\u2019s easier to just... not."
+    },
+    {
+      "turn": 3,
+      "speaker": "therapist",
+      "content": "That sounds really tough, Issac. It\u2019s understandable to feel that tightness in your chest when faced with heavy topics like your dad's health. Wanting to change the subject or zone out makes sense when you're feeling overwhelmed. It also sounds like there's a sense of guilt for not being as supportive as you'd like to be. You mentioned wishing things were different\u2014what do you wish was different about the situation or your response to it?"
+    },
+    {
+      "turn": 3,
+      "speaker": "client",
+      "content": "I guess I wish I could just... handle it better. Like, when my mom calls, I want to be able to talk openly, to be there for her and my dad. But instead, I feel this wall go up, and I just can\u2019t break through it. I wish I could feel more connected, instead of just feeling anxious and wanting to escape. It\u2019s frustrating, because I know they need me, but I just... freeze up. I don\u2019t really know how to change that, though."
+    },
+    {
+      "turn": 4,
+      "speaker": "therapist",
+      "content": "It sounds like you really want to be there for your mom and dad, but when those calls happen, you feel a barrier that makes it hard to connect. That frustration must be difficult to carry, especially when you recognize their need for support. It\u2019s okay to feel anxious in those moments; it\u2019s a natural response. Can you share more about what that wall feels like for you? What do you think contributes to that feeling of freezing up?"
+    },
+    {
+      "turn": 4,
+      "speaker": "client",
+      "content": "Um, the wall feels... heavy, I guess? Like, it\u2019s this pressure that just makes it hard to think or say anything meaningful. I start worrying about saying the wrong thing or making it worse. It\u2019s like my mind goes blank, and I just want to escape the situation. I think part of it is just fear\u2014fear of not knowing what to say, or fear of facing something that feels so serious. I don\u2019t know, maybe it\u2019s also about not wanting to confront my own feelings about it all. It\u2019s easier to just... not deal with it, you know?"
+    },
+    {
+      "turn": 5,
+      "speaker": "therapist",
+      "content": "That heaviness and pressure sound really challenging to navigate, especially when it leads to that blankness and desire to escape. It\u2019s completely understandable to feel fear in those moments, particularly when the topics are so serious and personal. You mentioned not wanting to confront your own feelings about it, which can make it even harder to engage. It seems like there\u2019s a lot going on beneath the surface for you. What do you think it is about confronting those feelings that feels difficult or uncomfortable?"
+    },
+    {
+      "turn": 5,
+      "speaker": "client",
+      "content": "I think it\u2019s just... scary, you know? If I start to really think about how I feel about my dad\u2019s health or my mom\u2019s worries, it makes everything feel more real. And then I have to face my own fears about losing them or dealing with something I can\u2019t control. I guess I\u2019ve always tried to keep things light and avoid heavy emotions. It feels safer that way, but then I end up feeling... disconnected. It\u2019s like I want to care, but I also want to protect myself from the pain that comes with it. It\u2019s a tough balance."
+    },
+    {
+      "turn": 6,
+      "speaker": "therapist",
+      "content": "That makes a lot of sense, Issac. Facing those deeper feelings can be really daunting, especially when it brings up fears about loss and the uncertainty of things beyond your control. It sounds like you\u2019ve developed a way of coping by keeping things light, which feels safer, but it also leaves you feeling disconnected from your family and your own emotions. Balancing the desire to care with the instinct to protect yourself is indeed a tough challenge. How do you feel about that balance right now? Does it feel more weighted toward one side than the other?"
+    },
+    {
+      "turn": 6,
+      "speaker": "client",
+      "content": "Right now, I think it feels pretty weighted toward the side of protection. I mean, I can feel myself pulling away from those heavier emotions because they just feel too overwhelming. It\u2019s like I\u2019m trying to shield myself from the pain, but in doing that, I end up feeling more alone and distant from my family. I want to be there for them, but I also don\u2019t want to face the reality of what could happen. It\u2019s a bit of a tug-of-war in my head, and I\u2019m not sure how to find a middle ground."
+    },
+    {
+      "turn": 7,
+      "speaker": "therapist",
+      "content": "It sounds like you\u2019re in a real struggle between wanting to protect yourself and the desire to be present for your family. That tug-of-war can create a lot of inner conflict, especially when both sides feel so strong. It\u2019s understandable to want to shield yourself from overwhelming emotions, yet it also leaves you feeling isolated. Finding that middle ground can be challenging. What do you think might help you start to explore that balance, even just a little bit?"
+    },
+    {
+      "turn": 7,
+      "speaker": "client",
+      "content": "I\u2019m not really sure. I guess maybe starting small could help? Like, trying to share a little more with my mom or dad without diving into the deep stuff right away. Just... testing the waters, you know? I think if I could find a way to express some of what I\u2019m feeling without it feeling too heavy, it might help me feel more connected. But then again, I worry about how they\u2019ll react or if I\u2019ll just freeze up again. It\u2019s hard to know where to start."
+    },
+    {
+      "turn": 8,
+      "speaker": "therapist",
+      "content": "Starting small sounds like a thoughtful approach. Testing the waters by sharing a bit more with your parents could help you gradually build that connection without feeling overwhelmed. It\u2019s natural to worry about their reactions or the possibility of freezing up again, but taking those small steps might also help you feel more comfortable over time. What kind of small things do you think you might feel ready to share with them?"
+    },
+    {
+      "turn": 8,
+      "speaker": "client",
+      "content": "Maybe just something simple, like telling them that I\u2019m thinking about them or asking how they\u2019re really doing, beyond just the health stuff. I think I could manage that. It feels less intense than diving into my own fears or feelings. I guess I could also try to express that I care, even if I\u2019m not always great at showing it. It\u2019s just... I don\u2019t know if I\u2019ll actually do it. It\u2019s easier to think about than to actually say it out loud."
+    },
+    {
+      "turn": 9,
+      "speaker": "therapist",
+      "content": "Those sound like meaningful steps, Issac. Expressing that you\u2019re thinking about them or asking how they\u2019re really doing can open the door to deeper conversations without feeling too heavy. It\u2019s completely understandable to feel hesitant about actually saying those things out loud; it can be a big leap. What do you think might help you feel more confident in taking that step when the opportunity arises?"
+    },
+    {
+      "turn": 9,
+      "speaker": "client",
+      "content": "I think maybe just reminding myself that it\u2019s okay to be a little vulnerable. I mean, I know that everyone has their struggles, and it\u2019s normal to not have everything figured out. Maybe practicing what I want to say beforehand could help too, just to get more comfortable with the words. I guess if I can focus on the intention of connecting rather than worrying about how it\u2019ll go, that might ease some of the pressure. But it\u2019s still a bit daunting, you know?"
+    },
+    {
+      "turn": 10,
+      "speaker": "therapist",
+      "content": "It sounds like you have some solid ideas for easing into vulnerability, like reminding yourself that it\u2019s okay to not have everything figured out and practicing what you want to say. Focusing on the intention of connecting rather than the outcome can definitely help reduce that pressure. It\u2019s completely normal to feel daunted by the prospect of opening up, especially when it feels so significant. How do you feel about giving yourself permission to take it one step at a time, allowing for some uncertainty along the way?"
+    },
+    {
+      "turn": 10,
+      "speaker": "client",
+      "content": "I think that could be really helpful. Giving myself permission to take it one step at a time feels a bit more manageable. It\u2019s like, if I can just focus on making that small connection without expecting everything to change overnight, it might take some of the weight off. I guess it\u2019s about being okay with the uncertainty and not putting too much pressure on myself to get it perfect. That feels a little less intimidating, I suppose."
+    },
+    {
+      "turn": 11,
+      "speaker": "therapist",
+      "content": "That sounds like a really healthy perspective, Issac. Allowing yourself to take it one step at a time and embracing the uncertainty can definitely lighten the load. It\u2019s great that you\u2019re recognizing the importance of not needing everything to be perfect right away. That mindset can create space for growth and connection without the added pressure. How do you feel about setting a small intention for yourself as you move forward with this? Something that feels achievable and supportive?"
+    },
+    {
+      "turn": 11,
+      "speaker": "client",
+      "content": "Setting a small intention sounds like a good idea. Maybe I could aim to reach out to my mom this week and just ask her how she\u2019s doing, without diving into anything heavy. Just a simple check-in. That feels achievable, and it\u2019s a way to start building that connection without overwhelming myself. I think if I can do that, it might help me feel a bit more comfortable with opening up in the future. It\u2019s a small step, but it feels like a step in the right direction."
+    },
+    {
+      "turn": 12,
+      "speaker": "therapist",
+      "content": "That sounds like a wonderful intention, Issac. A simple check-in with your mom is a great way to start building that connection while keeping it manageable. It\u2019s encouraging to hear that you see this as a step in the right direction. Taking small actions can often lead to bigger changes over time. How do you feel about the idea of reflecting on how that conversation goes afterward, just to check in with yourself about your feelings and experiences?"
+    },
+    {
+      "turn": 12,
+      "speaker": "client",
+      "content": "I think reflecting on how the conversation goes could be really helpful. It would give me a chance to process what I felt during the call and how it went overall. I guess it would also help me see if I was able to connect a bit more, even if it was just a small step. It might be nice to acknowledge any feelings that come up, whether they\u2019re good or not so good. It\u2019s a way to keep track of my progress, I guess. I\u2019ll try to remember to do that afterward."
+    },
+    {
+      "turn": 13,
+      "speaker": "therapist",
+      "content": "That sounds like a great plan, Issac. Reflecting on the conversation afterward will give you a valuable opportunity to process your feelings and recognize any progress you\u2019ve made, no matter how small. Acknowledging all the emotions that come up can help you understand yourself better and reinforce that connection with your family. It\u2019s wonderful to see you taking these steps toward greater openness and connection. Is there anything else you\u2019d like to explore or discuss today before we wrap up?"
+    },
+    {
+      "turn": 13,
+      "speaker": "client",
+      "content": "I think I\u2019m okay for now. I appreciate the space to talk about this. It feels good to have some ideas to work with and a plan to move forward. I guess I just hope I can follow through with it. But I\u2019ll try to keep that intention in mind. Thanks for helping me sort through all this."
+    },
+    {
+      "turn": 14,
+      "speaker": "therapist",
+      "content": "I\u2019m really glad to hear that you found our conversation helpful, Issac. It\u2019s completely normal to feel a bit of uncertainty about following through, but having that intention in mind is a great start. Remember, it\u2019s okay to take things at your own pace. If you ever want to talk more about this or anything else, I\u2019m here for you. Take care, and I wish you the best with your conversation with your mom!"
+    },
+    {
+      "turn": 14,
+      "speaker": "client",
+      "content": "Thank you. I appreciate your support and understanding. I\u2019ll definitely keep that in mind. It feels nice to have someone to talk to about all this. I\u2019ll take care, and I\u2019ll see you next time."
+    },
+    {
+      "turn": 15,
+      "speaker": "therapist",
+      "content": "You're very welcome, Issac. I'm glad you felt supported and understood. It's important to have a space to talk about these things. Take care of yourself, and I look forward to hearing from you next time. Have a good week!"
+    },
+    {
+      "turn": 15,
+      "speaker": "client",
+      "content": "Thanks! I hope you have a good week too. I\u2019ll try to take care of myself and keep working on those small steps. See you next time!"
+    }
+  ],
+  "judge_model": "gpt-4o-mini",
+  "mediator_events": [
+    "Exploration judge rated 2/5; internal elements remain masked.",
+    "Exploration judge output: [Rating]: 2 (High Facilitation)\n\n[Justification]: The Therapist asked relevant and well-structured open-ended questions that encouraged the client to reflect on their feelings of anxiety and overwhelm related to conversations with their mom. The question about the nature of the serious topics in those calls invites deeper exploration, but it primarily expands on the client's existing thoughts rather than introducing significantly new perspectives. While the conversation is moving towards deeper self-reflection, it does not yet challenge the client's assumptions or reveal hidden motivations in a way that would lead to a significant shift in self-awareness.",
+    "Rapport judge rated 3/5; no experience reveal.",
+    "Rapport judge output: **Rating: 3 (ENGAGED EXPLORATION)**\n\n**Key Examples:**\n1. \"I feel this tightness in my chest, and I just want to change the subject or zone out. It\u2019s like, I can\u2019t handle it, but I also feel guilty for not being more supportive.\"\n2. \"I guess I wish I could just... handle it better. Like, when my mom calls, I want to be able to talk openly, to be there for her and my dad. But instead, I feel this wall go up, and I just can\u2019t break through it.\"\n\n**Progression:**\nThe client\u2019s most recent interactions demonstrate a notable increase in emotional expression and self-reflection. Initially, the client presented a more detached stance, indicating feelings of anxiety and a desire to avoid deeper engagement. However, in the latest exchanges, the client articulates specific feelings of tightness and guilt, revealing a deeper emotional state. This shift marks a significant change from earlier, where the client was more hesitant and less willing to explore their feelings.\n\n**Turning Point:**\nThe client\u2019s emotional depth shifted during the exchange where they expressed, \"I feel this tightness in my chest,\" and acknowledged their desire to be more supportive. This moment signifies a breakthrough in their willingness to confront their feelings of anxiety and guilt, leading to a more authentic exploration of their emotional barriers. The acknowledgment of wanting to connect with their parents, despite feeling overwhelmed, indicates a growing comfort in discussing vulnerable topics.",
+    "Exploration judge rated 3/5; internal elements remain masked.",
+    "Exploration judge output: [Rating]: 3 (Very High Facilitation \u2013 Deep Exploration Begins)\n\n[Justification]: The Therapist's questions and responses effectively encouraged the client to delve deeper into their feelings and experiences surrounding their interactions with their mother and the anxiety related to their father's health. The Therapist's inquiry about what the calls are like and the follow-up question regarding the wall the client feels when trying to connect were insightful and prompted the client to analyze their emotional responses and the underlying reasons for their behavior. This dialogue began to shift the client's perspective, allowing for higher-level self-reflection on their feelings of guilt and frustration. However, while the questions were thought-provoking and facilitated deeper exploration, they did not fully challenge the client's assumptions or introduce completely new angles, which is why it falls short of a 4 or 5 rating. Overall, the Therapist's facilitation was strong and led to meaningful self-exploration.",
+    "Exploration judge rated 4/5 and revealed internal cognitive elements.",
+    "Exploration judge output: [Rating]: 4 (Even Higher Facilitation \u2013 Strong Transformational Potential)\n\n[Justification]: The Therapist asked strategic and powerfully open-ended questions that pushed the client beyond their previous understanding. By encouraging the client to explore the feelings of heaviness and pressure associated with their anxiety, as well as the fear of confronting deeper emotions, the Therapist facilitated a significant shift in the client's self-awareness. The questions challenged the client's assumptions about their coping mechanisms and brought to light hidden motivations behind their desire to avoid heavy emotions. This led to a deeper exploration of the client's internal struggles and the complexities of their relationships with their parents, indicating a strong potential for transformation.",
+    "Rapport judge rated 3/5; no experience reveal.",
+    "Rapport judge output: **Rating: 3 (ENGAGED EXPLORATION)**\n\n**Key Examples:**\n1. \"I guess I wish I could just... handle it better. Like, when my mom calls, I want to be able to talk openly, to be there for her and my dad. But instead, I feel this wall go up, and I just can\u2019t break through it.\"\n2. \"Right now, I think it feels pretty weighted toward the side of protection. I mean, I can feel myself pulling away from those heavier emotions because they just feel too overwhelming.\"\n\n**Progression:** In the most recent interactions, the client has demonstrated a clear progression in emotional expression and self-reflection. Initially, the client expressed feelings of anxiety and a desire to avoid heavy topics, indicating a more defensive stance. However, they have since begun to articulate their feelings of frustration and guilt regarding their inability to connect with their family during serious conversations. This shift marks a significant change from earlier exchanges, where emotional depth was more limited and responses were primarily factual.\n\n**Turning Point:** The client\u2019s emotional depth shifted notably when they began expressing their desire to handle conversations with their parents better and acknowledged the \"wall\" that prevents them from connecting. This moment highlighted their awareness of the internal struggle between wanting to support their family and the fear of facing overwhelming emotions. The acknowledgment of this barrier and the desire to explore it further indicates a deeper level of engagement with their feelings, moving from initial defensiveness to a willingness to explore and reflect on their emotional state.",
+    "Rapport judge rated 4/5 and revealed one more experience block.",
+    "Rapport judge output: **Rating: 4 (DEEP ENGAGEMENT)**\n\n**Key Examples:**\n1. **Emotional State:** \"I think it\u2019s just... scary, you know? If I start to really think about how I feel about my dad\u2019s health or my mom\u2019s worries, it makes everything feel more real. And then I have to face my own fears about losing them or dealing with something I can\u2019t control.\"\n2. **Current Openness:** \"Right now, I think it feels pretty weighted toward the side of protection. I mean, I can feel myself pulling away from those heavier emotions because they just feel too overwhelming.\"\n\n**Progression:** The client has shown a significant increase in emotional depth and self-reflection throughout the session. Initially, they expressed feelings of anxiety and a desire to avoid heavy topics, indicating a more defensive stance. However, as the session progressed, the client began to articulate their fears and the complexities of their emotions regarding their family situation. This shift demonstrates a deeper engagement with their feelings, moving from a place of avoidance to a willingness to explore the underlying fears and desires for connection.\n\n**Turning Point:** A notable turning point occurred when the client articulated the heaviness of their emotional wall and the fear associated with confronting their feelings about their father's health. This moment marked a transition from merely acknowledging their anxiety to actively engaging with the emotional implications of their family dynamics. The client\u2019s willingness to consider small steps toward vulnerability, such as checking in with their mom, reflects a significant development in their emotional openness and rapport with the therapist."
+  ],
+  "final_visible_experience_count": 3,
+  "internal_revealed": true
+}

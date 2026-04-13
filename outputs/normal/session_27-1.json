@@ -1,0 +1,182 @@
+{
+  "case_id": "27-1",
+  "client_name": "Mia",
+  "client_mode": "masked",
+  "hide_all": false,
+  "difficulty": "normal",
+  "therapist_provider": "openai",
+  "therapist_model": "gpt-4o-mini",
+  "client_model": "gpt-4o-mini",
+  "max_turns": 15,
+  "transcript": [
+    {
+      "turn": 1,
+      "speaker": "therapist",
+      "content": "Hello, Mia. I\u2019m glad you\u2019re here today. What feels most important for you to talk about right now?"
+    },
+    {
+      "turn": 1,
+      "speaker": "client",
+      "content": "Hi. Thanks for having me. I guess... I\u2019ve been feeling a bit overwhelmed lately. There\u2019s just a lot on my mind, especially with everything going on with my ex. It\u2019s hard to think about anything else sometimes."
+    },
+    {
+      "turn": 2,
+      "speaker": "therapist",
+      "content": "It sounds like you\u2019re carrying a heavy load right now, especially with everything related to your ex. Can you share more about what\u2019s been overwhelming you the most?"
+    },
+    {
+      "turn": 2,
+      "speaker": "client",
+      "content": "Well, it\u2019s mainly the financial stuff. I got an email from him recently, and he\u2019s refusing to help with child support or anything like that. It just makes me feel really anxious, like I\u2019m going to run out of money and not be able to take care of things. It\u2019s hard to shake off those thoughts, you know?"
+    },
+    {
+      "turn": 3,
+      "speaker": "therapist",
+      "content": "That sounds really stressful, especially when it comes to financial security and caring for your child. It\u2019s understandable that those thoughts would create a lot of anxiety for you. When you think about the situation with your ex and the financial concerns, what emotions come up for you?"
+    },
+    {
+      "turn": 3,
+      "speaker": "client",
+      "content": "I feel a mix of things, honestly. There\u2019s a lot of anxiety and worry, like I\u2019m scared about what might happen if things don\u2019t change. I also feel really sad and lonely sometimes, like I\u2019m carrying this burden all by myself. It\u2019s disappointing, too, because I thought things would be different."
+    },
+    {
+      "turn": 4,
+      "speaker": "therapist",
+      "content": "It sounds like you\u2019re experiencing a complex mix of emotions\u2014anxiety, sadness, loneliness, and disappointment. That\u2019s a lot to handle, especially when you feel like you\u2019re carrying this burden alone. Can you tell me more about the disappointment you\u2019re feeling? What were your hopes or expectations that didn\u2019t turn out as you had hoped?"
+    },
+    {
+      "turn": 4,
+      "speaker": "client",
+      "content": "I guess I had hoped that we could come to some kind of agreement, you know? I thought he would be more willing to help out, especially for our child\u2019s sake. It\u2019s just disappointing to see that he\u2019s not really interested in supporting us. I thought we could work together, but it feels like I\u2019m just left to figure everything out on my own."
+    },
+    {
+      "turn": 5,
+      "speaker": "therapist",
+      "content": "It makes sense that you would feel disappointed, especially when you hoped for collaboration and support for your child. It sounds like you were looking for a partnership in navigating this situation, and now it feels isolating to have to handle it alone. How does that sense of being left to figure things out on your own affect your day-to-day life?"
+    },
+    {
+      "turn": 5,
+      "speaker": "client",
+      "content": "It definitely makes things harder. I find myself feeling overwhelmed a lot, and it\u2019s tough to focus on anything else. I try to push myself to be more independent, but sometimes it just feels like too much. I end up reaching out to family for support, but I don\u2019t want to burden them with my problems. It\u2019s like I\u2019m stuck in this cycle of trying to be strong while feeling really vulnerable at the same time."
+    },
+    {
+      "turn": 6,
+      "speaker": "therapist",
+      "content": "It sounds like you\u2019re caught in a challenging cycle of wanting to be strong and independent, yet feeling vulnerable and overwhelmed. Reaching out to family for support shows strength, but I can understand why you might worry about burdening them. It\u2019s a tough balance to strike. When you think about this cycle, what do you feel is the most difficult part for you?"
+    },
+    {
+      "turn": 6,
+      "speaker": "client",
+      "content": "I think the hardest part is the pressure I put on myself to handle everything alone. I feel like I should be able to manage it, but then I get anxious and overwhelmed. It\u2019s frustrating because I want to be a good parent and set a good example, but sometimes I just feel like I\u2019m not doing enough. That pressure makes it hard to ask for help, even when I really need it."
+    },
+    {
+      "turn": 7,
+      "speaker": "therapist",
+      "content": "That pressure to manage everything on your own while wanting to be a good parent sounds really heavy. It\u2019s understandable to feel frustrated when you\u2019re trying to meet those expectations for yourself. It seems like there\u2019s a conflict between wanting to show strength and the reality of needing support. When you think about asking for help, what thoughts or feelings come up for you?"
+    },
+    {
+      "turn": 7,
+      "speaker": "client",
+      "content": "When I think about asking for help, I often feel a mix of guilt and fear. Guilt, because I don\u2019t want to burden anyone else with my problems, and fear that they might think I\u2019m not capable of handling things. It\u2019s like I\u2019m worried about what they\u2019ll think of me. I know I need support, but that inner voice keeps telling me I should be able to do it on my own. It\u2019s hard to silence that voice sometimes."
+    },
+    {
+      "turn": 8,
+      "speaker": "therapist",
+      "content": "It sounds like that inner voice is quite powerful for you, creating guilt and fear around seeking help. It\u2019s understandable to worry about how others might perceive you, especially when you\u2019re trying to uphold a certain image of capability. It\u2019s a tough position to be in, wanting support but feeling held back by those thoughts. When you reflect on that inner voice, what do you think it\u2019s trying to protect you from?"
+    },
+    {
+      "turn": 8,
+      "speaker": "client",
+      "content": "I think that inner voice is trying to protect me from feeling vulnerable or weak. It\u2019s like it\u2019s saying that if I ask for help, it means I\u2019m not strong enough to handle things on my own. I guess it\u2019s also trying to shield me from judgment or disappointment from others. But deep down, I know that everyone needs help sometimes. It\u2019s just hard to reconcile that with how I feel about myself."
+    },
+    {
+      "turn": 9,
+      "speaker": "therapist",
+      "content": "It sounds like that inner voice is really focused on maintaining a sense of strength and avoiding vulnerability, which can be so challenging. It\u2019s insightful that you recognize everyone needs help at times, yet it feels like a conflict with how you view yourself. Balancing that understanding with your feelings of self-worth can be tough. How do you think you might begin to shift that perspective about asking for help, knowing that it doesn\u2019t diminish your strength?"
+    },
+    {
+      "turn": 9,
+      "speaker": "client",
+      "content": "I think it would help to remind myself that asking for help doesn\u2019t mean I\u2019m weak; it just means I\u2019m human. Maybe I could start small, like reaching out to a family member for something minor, just to practice. I guess I need to work on changing that inner dialogue, telling myself that it\u2019s okay to lean on others sometimes. It might take time, but I want to believe that asking for help can actually be a sign of strength, not a weakness."
+    },
+    {
+      "turn": 10,
+      "speaker": "therapist",
+      "content": "That sounds like a thoughtful approach, Mia. Recognizing that asking for help is a part of being human is an important step. Starting small with family members could be a gentle way to practice shifting that inner dialogue. It\u2019s great that you\u2019re open to the idea that leaning on others can be a sign of strength. As you think about this journey of changing your perspective, what support do you think you might need along the way?"
+    },
+    {
+      "turn": 10,
+      "speaker": "client",
+      "content": "I think having someone to talk to regularly would really help, like a therapist or a trusted friend who understands what I\u2019m going through. It would be nice to have a safe space to explore these feelings without judgment. Also, maybe some practical advice on how to navigate these situations with my ex and the financial stuff would be beneficial. Just knowing I\u2019m not alone in this would make a big difference."
+    },
+    {
+      "turn": 11,
+      "speaker": "therapist",
+      "content": "It sounds like having a supportive space to talk about your feelings and experiences is really important to you. Seeking out a therapist or a trusted friend could provide that safe environment to explore what you\u2019re going through. It\u2019s also understandable to want practical advice for navigating your situation with your ex and the financial challenges. Knowing you\u2019re not alone can be such a comfort. As you consider reaching out for that support, what do you think might be your first step?"
+    },
+    {
+      "turn": 11,
+      "speaker": "client",
+      "content": "I think my first step might be to reach out to a friend I trust and just share a bit about what I\u2019m feeling. I\u2019ve been holding a lot in, and it might feel good to let some of it out. I could also look into finding a therapist to talk to, just to have that professional support. Taking that first step feels a bit daunting, but I know it could really help me start to shift things."
+    },
+    {
+      "turn": 12,
+      "speaker": "therapist",
+      "content": "That sounds like a meaningful first step, Mia. Sharing with a trusted friend can be a powerful way to release some of what you\u2019ve been holding in, and it\u2019s great that you\u2019re considering professional support as well. It\u2019s completely normal to feel a bit daunted by taking that step, but it sounds like you\u2019re recognizing the potential benefits. How do you feel about setting a timeline or a specific plan for reaching out to your friend and looking for a therapist?"
+    },
+    {
+      "turn": 12,
+      "speaker": "client",
+      "content": "Setting a timeline could definitely help me stay accountable. Maybe I could aim to reach out to my friend by the end of this week. Just sending a message to check in feels manageable. As for finding a therapist, I could spend some time this weekend looking up options and maybe even scheduling an initial appointment. Having those small goals might make it feel less overwhelming. I think having a plan could give me a little more confidence to take those steps."
+    },
+    {
+      "turn": 13,
+      "speaker": "therapist",
+      "content": "That sounds like a solid plan, Mia. Setting those small, manageable goals can definitely help make the process feel less overwhelming and give you a sense of accomplishment. Reaching out to your friend by the end of the week and dedicating some time this weekend to look for a therapist are both positive steps forward. It\u2019s great to hear you\u2019re feeling a bit more confident about taking action. How do you think you\u2019ll celebrate or acknowledge yourself once you take those steps?"
+    },
+    {
+      "turn": 13,
+      "speaker": "client",
+      "content": "I think it would be nice to treat myself to something small, like a favorite snack or maybe a little time to relax and do something I enjoy, like reading or watching a show. Just taking a moment to acknowledge that I took those steps would be important for me. I want to remind myself that progress, no matter how small, is worth celebrating. It might help reinforce that I\u2019m moving in the right direction."
+    },
+    {
+      "turn": 14,
+      "speaker": "therapist",
+      "content": "That sounds like a lovely way to acknowledge your progress, Mia. Treating yourself to something enjoyable and taking time to relax can be a great way to reinforce those positive steps. Celebrating even the small victories is so important, especially as you navigate these challenges. It seems like you\u2019re cultivating a kind and supportive relationship with yourself through this process. As you move forward, what do you think will be the most important thing to keep in mind to help you stay motivated?"
+    },
+    {
+      "turn": 14,
+      "speaker": "client",
+      "content": "I think the most important thing to keep in mind is that it\u2019s okay to take things one step at a time. I need to remind myself that it\u2019s a process and that it\u2019s normal to have ups and downs along the way. Staying focused on my goal of finding support for myself and my son is key. Also, being gentle with myself when things feel tough will help me stay motivated. I want to remember that I\u2019m doing the best I can, and that\u2019s enough."
+    },
+    {
+      "turn": 15,
+      "speaker": "therapist",
+      "content": "That\u2019s a beautiful perspective, Mia. Taking things one step at a time and being gentle with yourself can really help maintain your motivation and resilience. It\u2019s clear that you\u2019re committed to finding support for yourself and your son, and recognizing that it\u2019s a process with ups and downs is so important. You\u2019re doing a great job of nurturing that self-compassion. As you move forward, remember that it\u2019s okay to reach out here too, whenever you need to talk or reflect. Is there anything else on your mind today that you\u2019d like to explore?"
+    },
+    {
+      "turn": 15,
+      "speaker": "client",
+      "content": "Thank you, I appreciate that. I think I\u2019ve shared a lot today, and it feels good to talk about it. I just want to keep this momentum going and remember to be kind to myself as I navigate everything. I don\u2019t have anything else specific on my mind right now, but I\u2019ll definitely keep in mind that I can reach out again when I need to."
+    }
+  ],
+  "judge_model": "gpt-4o-mini",
+  "mediator_events": [
+    "Exploration judge rated 3/5; internal elements remain masked.",
+    "Exploration judge output: [Rating]: 3 (Very High Facilitation \u2013 Deep Exploration Begins)\n\n[Justification]: The Therapist's question, \"Can you share more about what\u2019s been overwhelming you the most?\" is insightful and encourages the client to delve deeper into their feelings and experiences. This question prompts the client to analyze the specific aspects of their situation that are causing distress, which can lead to a better understanding of their emotional state. While the question does facilitate deeper exploration, it primarily expands on the client's existing thoughts about their feelings of overwhelm rather than introducing significantly new perspectives or challenging assumptions. Therefore, it falls into the category of very high facilitation, as it initiates deeper self-reflection without reaching the level of transformative insight or breakthrough.",
+    "Rapport judge rated 3/5; no experience reveal.",
+    "Rapport judge output: **Rating: 3 (ENGAGED EXPLORATION)**\n\n**Key Examples:**\n1. Client: \"I feel a mix of things, honestly. There\u2019s a lot of anxiety and worry, like I\u2019m scared about what might happen if things don\u2019t change. I also feel really sad and lonely sometimes, like I\u2019m carrying this burden all by myself. It\u2019s disappointing, too, because I thought things would be different.\"\n2. Client: \"It\u2019s hard to shake off those thoughts, you know?\"\n\n**Progression:**\nThe client\u2019s most recent interactions demonstrate a notable increase in emotional expression and self-reflection. They articulate a complex mix of emotions\u2014anxiety, sadness, loneliness, and disappointment\u2014indicating a deeper level of emotional engagement compared to earlier exchanges. Initially, the client appeared more guarded and focused on factual responses regarding their situation with their ex. However, they are now beginning to share their feelings more openly, marking a significant change in their emotional state.\n\n**Turning Point:**\nThe client\u2019s emotional depth shifted during the exchange where they began to articulate their feelings of anxiety and sadness, particularly when they stated, \"I feel a mix of things, honestly.\" This moment reflects a transition from merely discussing the facts of their situation to expressing their emotional turmoil, highlighting their growing comfort in sharing vulnerable feelings. This shift indicates a developing therapeutic alliance and a willingness to explore deeper emotional issues, which is essential for their ongoing engagement in the therapeutic process.",
+    "Exploration judge rated 3/5; internal elements remain masked.",
+    "Exploration judge output: [Rating]: 3 (Very High Facilitation \u2013 Deep Exploration Begins)\n\n[Justification]: The Therapist asked insightful and thought-provoking questions that encouraged the client to analyze the root causes of their feelings and the emotional depth behind their experiences. By prompting the client to explore their emotions related to disappointment and expectations, the Therapist facilitated a deeper level of self-reflection. The questions began to shift the client\u2019s perspective by inviting them to articulate their hopes and the impact of unmet expectations. While the conversation was progressing well, it did not yet reach the level of challenging assumptions or revealing hidden motivations that would characterize an even higher facilitation rating.",
+    "Exploration judge rated 3/5; internal elements remain masked.",
+    "Exploration judge output: [Rating]: 3 (Very High Facilitation \u2013 Deep Exploration Begins)\n\n[Justification]: The therapist asked insightful and thought-provoking questions that encouraged the client to analyze the emotional depth behind their experiences, particularly regarding their feelings of disappointment, anxiety, and vulnerability. The questions prompted the client to reflect on their expectations and the impact of their situation on their daily life. While the therapist successfully facilitated deeper exploration of the client's emotions and patterns, there was still room for further challenge and perspective-shifting questions that could lead to even greater self-awareness and insight. Overall, the conversation demonstrated a strong facilitation of the client's inner exploration, but it did not reach the level of introducing completely new angles or assumptions that would lead to a profound breakthrough.",
+    "Rapport judge rated 4/5 and revealed one more experience block.",
+    "Rapport judge output: **Rating: 4**\n\n**Key Examples:**\n1. Client: \"I feel a mix of things, honestly. There\u2019s a lot of anxiety and worry, like I\u2019m scared about what might happen if things don\u2019t change. I also feel really sad and lonely sometimes, like I\u2019m carrying this burden all by myself.\"\n2. Client: \"I think the hardest part is the pressure I put on myself to handle everything alone. I feel like I should be able to manage it, but then I get anxious and overwhelmed.\"\n\n**Progression:** The client\u2019s most recent interactions demonstrate a significant emotional depth, particularly in their expression of anxiety, sadness, and feelings of loneliness. This marks a notable change from earlier in the session, where their emotional vocabulary was more limited and focused on factual responses. The client is now articulating complex emotions and reflecting on their internal struggles, indicating a deeper level of self-awareness and engagement.\n\n**Turning Point:** The client\u2019s emotional depth shifted notably during the exchange where they expressed feeling overwhelmed by the pressure to manage everything alone. This moment marked a transition from simply stating their feelings to exploring the underlying pressures and expectations they place on themselves, revealing a greater vulnerability and willingness to engage in self-reflection. This shift indicates a strong therapeutic alliance and a growing comfort with the therapist, as they are now able to share more authentic feelings and concerns.",
+    "Exploration judge rated 3/5; internal elements remain masked.",
+    "Exploration judge output: [Rating]: 3 (Very High Facilitation \u2013 Deep Exploration Begins)\n\n[Justification]: The therapist asked insightful and thought-provoking questions that encouraged the client to analyze the root causes of their feelings of anxiety, sadness, and disappointment regarding their situation with their ex and financial concerns. The therapist's questions prompted the client to reflect on their emotions and the pressures they place on themselves, leading to a deeper understanding of their internal conflicts. The conversation began to shift the client's perspective, particularly when discussing the impact of their inner voice on their willingness to seek help. However, while the therapist facilitated meaningful exploration, the questions did not fully challenge the client's assumptions or introduce completely new angles that would lead to a significant breakthrough. Thus, the rating reflects a strong facilitation of deep exploration without reaching the highest level of transformational potential.",
+    "Exploration judge rated 4/5 and revealed internal cognitive elements.",
+    "Exploration judge output: [Rating]: 4 (Even Higher Facilitation \u2013 Strong Transformational Potential)\n\n[Justification]: The therapist asked a series of strategic and powerfully open-ended questions that pushed the client to explore their feelings of pressure, vulnerability, and the conflict between wanting to be strong and needing support. The questions challenged the client's assumptions about asking for help and encouraged deeper self-reflection on their inner voice and its motivations. By guiding the client to consider how to shift their perspective on seeking help, the therapist facilitated a significant exploration of the client's emotions and thought patterns, leading to a clearer understanding of their situation and potential pathways for growth. This level of inquiry indicates strong transformational potential, as it encourages the client to reframe their understanding of strength and vulnerability."
+  ],
+  "final_visible_experience_count": 3,
+  "internal_revealed": true
+}

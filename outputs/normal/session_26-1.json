@@ -1,0 +1,182 @@
+{
+  "case_id": "26-1",
+  "client_name": "Olivia",
+  "client_mode": "masked",
+  "hide_all": false,
+  "difficulty": "normal",
+  "therapist_provider": "openai",
+  "therapist_model": "gpt-4o-mini",
+  "client_model": "gpt-4o-mini",
+  "max_turns": 15,
+  "transcript": [
+    {
+      "turn": 1,
+      "speaker": "therapist",
+      "content": "Hello, Olivia. I'm glad you're here today. What feels most important for you to talk about right now?"
+    },
+    {
+      "turn": 1,
+      "speaker": "client",
+      "content": "Hi. Thanks for having me. I guess\u2026 I\u2019ve been thinking a lot about some things I\u2019ve heard recently. It\u2019s just that, when I hear those clinical terms about Ivan, it makes me feel really uneasy. I don\u2019t know, it\u2019s hard to explain. I just keep wondering if I should be worried about him or about myself."
+    },
+    {
+      "turn": 2,
+      "speaker": "therapist",
+      "content": "It sounds like you\u2019re feeling uneasy about some clinical terms related to Ivan, and that\u2019s leading you to question both his well-being and your own feelings about the situation. That must be quite a lot to carry. Can you share more about what specifically you heard that\u2019s been on your mind?"
+    },
+    {
+      "turn": 2,
+      "speaker": "client",
+      "content": "Yeah, it\u2019s just\u2026 I heard terms like \u201cdelusional\u201d and \u201cpseudo-psychotic.\u201d They sound really serious, and I can\u2019t help but feel scared when I think about them. I mean, it makes me wonder if I\u2019m safe or if he can control his behavior. It\u2019s just hard to shake those thoughts, you know? I\u2019ve been trying to find clarity, but it feels like I\u2019m just getting more confused."
+    },
+    {
+      "turn": 3,
+      "speaker": "therapist",
+      "content": "It sounds like hearing those serious terms has really heightened your feelings of fear and confusion regarding Ivan and his behavior. It\u2019s understandable to feel scared when faced with such heavy labels. You mentioned wondering about your safety and his ability to control his behavior\u2014those are significant concerns. Can you tell me more about what thoughts or feelings come up for you when you think about your safety in this situation?"
+    },
+    {
+      "turn": 3,
+      "speaker": "client",
+      "content": "When I think about my safety, I feel this knot in my stomach. It\u2019s like I\u2019m constantly on edge. I worry that if things get worse, I won\u2019t know what to do. I find myself seeking reassurance, but sometimes it feels like no one really understands what I\u2019m going through. I\u2019ve even started distancing myself from friends and family who think I should just leave him. It\u2019s just\u2026 complicated. I don\u2019t want to make the wrong choice, but I also don\u2019t want to feel trapped."
+    },
+    {
+      "turn": 4,
+      "speaker": "therapist",
+      "content": "It sounds really challenging to feel that knot in your stomach and to be on edge about your safety. It\u2019s understandable that you would seek reassurance, especially when you feel like others might not fully grasp what you\u2019re experiencing. Distancing yourself from friends and family must be tough, especially when you're already feeling isolated in this complicated situation. \n\nYou mentioned not wanting to make the wrong choice and feeling trapped\u2014can you share more about what makes you feel that way? What are some of the choices you\u2019re grappling with?"
+    },
+    {
+      "turn": 4,
+      "speaker": "client",
+      "content": "Well, it\u2019s just that I care about Ivan, and I want to support him. But at the same time, I can\u2019t ignore these feelings of fear and uncertainty. I keep thinking about whether I should stay and try to help him or if I should leave for my own safety. It feels like there\u2019s no clear answer, and that makes me anxious. I don\u2019t want to abandon him, but I also don\u2019t want to put myself in a situation that could be harmful. It\u2019s like I\u2019m stuck between wanting to be there for him and needing to protect myself."
+    },
+    {
+      "turn": 5,
+      "speaker": "therapist",
+      "content": "It sounds like you\u2019re in a really difficult position, feeling torn between your care for Ivan and your need for safety. The anxiety of not having a clear answer must be weighing heavily on you. It\u2019s completely natural to want to support someone you care about, but it\u2019s also important to prioritize your own well-being.\n\nThis conflict between wanting to be there for him and needing to protect yourself seems to be a central struggle for you. How do you usually cope with these kinds of feelings when they arise?"
+    },
+    {
+      "turn": 5,
+      "speaker": "client",
+      "content": "I guess I try to talk about it, like I\u2019m doing now, but sometimes it feels like I\u2019m just going in circles. I seek reassurance from my therapist, hoping to find some clarity. But when I talk to friends or family, it feels like they just want me to make a decision, and that adds to my stress. I\u2019ve also found myself withdrawing a bit, which isn\u2019t really helpful, but it\u2019s like I don\u2019t want to hear what they think if it\u2019s not supportive. It\u2019s hard to find a balance between wanting to connect and feeling overwhelmed."
+    },
+    {
+      "turn": 6,
+      "speaker": "therapist",
+      "content": "It sounds like you\u2019re really trying to navigate this complex situation by talking it out, but it can feel frustrating when it seems like you\u2019re going in circles. Seeking reassurance from your therapist makes sense, especially when clarity feels elusive. It\u2019s tough when friends and family push for a decision, as that can add more pressure instead of helping you feel supported.\n\nWithdrawing might feel like a way to protect yourself from that pressure, but it also makes it harder to connect with others. Finding that balance between wanting to connect and feeling overwhelmed is a delicate dance. What do you think would help you feel more supported in this situation?"
+    },
+    {
+      "turn": 6,
+      "speaker": "client",
+      "content": "I think it would help if I could find a way to talk about my feelings without feeling rushed to make a decision. Maybe having someone who understands the complexities of it all would make a difference. I just want to feel heard and not judged for where I am right now. It would be nice to have a space where I can express my fears without feeling like I have to choose sides or make a choice immediately. I guess I just want to feel like it\u2019s okay to take my time with this."
+    },
+    {
+      "turn": 7,
+      "speaker": "therapist",
+      "content": "It sounds like having a safe space to express your feelings without the pressure of making immediate decisions is really important to you. Wanting to feel heard and not judged is a fundamental need, especially when you\u2019re navigating such a complex situation. It\u2019s completely valid to want the time and space to process your fears without feeling rushed.\n\nCreating that kind of environment, where you can explore your thoughts and emotions at your own pace, could be really beneficial. What do you think might help you create that space for yourself, whether it\u2019s through conversations with others or perhaps in other ways?"
+    },
+    {
+      "turn": 7,
+      "speaker": "client",
+      "content": "I think maybe setting some boundaries with friends and family could help. If I could let them know that I need time to figure things out without their pressure, that might ease some of the stress. I also think journaling could be a good outlet for me\u2014writing down my thoughts and feelings might help me sort through them without feeling overwhelmed. \n\nAnd of course, continuing to talk with my therapist feels important, too. Just having that consistent support where I can explore things at my own pace would be really helpful. I guess it\u2019s about finding ways to give myself permission to take the time I need."
+    },
+    {
+      "turn": 8,
+      "speaker": "therapist",
+      "content": "It sounds like you\u2019re already considering some thoughtful strategies to create that space for yourself. Setting boundaries with friends and family could definitely help alleviate some of the pressure you feel, and journaling might provide a valuable outlet for sorting through your thoughts and feelings at your own pace. It\u2019s great that you recognize the importance of continuing to talk with your therapist as well.\n\nGiving yourself permission to take the time you need is such an important step. It shows that you\u2019re prioritizing your well-being and acknowledging the complexity of your situation. How do you feel about taking those steps moving forward? What might be your first action in setting those boundaries or starting to journal?"
+    },
+    {
+      "turn": 8,
+      "speaker": "client",
+      "content": "I feel a bit relieved just thinking about it, honestly. Setting boundaries seems like a necessary step, and I think I could start by having a conversation with my family about how I need their support without the pressure. Maybe I can explain that I\u2019m still figuring things out and that I appreciate their concern but need space to process everything.\n\nAs for journaling, I could start tonight. Just writing down my thoughts might help me feel more organized and less overwhelmed. I think taking those small steps could really help me feel more in control of my situation. It\u2019s a little daunting, but I\u2019m hopeful it could make a difference."
+    },
+    {
+      "turn": 9,
+      "speaker": "therapist",
+      "content": "It\u2019s wonderful to hear that you\u2019re feeling a sense of relief and hope as you think about these steps. Having that conversation with your family about your need for support without pressure sounds like a constructive way to set those boundaries. It\u2019s great that you\u2019re considering how to communicate your feelings clearly to them.\n\nStarting to journal tonight could be a powerful way to begin organizing your thoughts and feelings. It\u2019s completely normal to feel a bit daunted by these changes, but taking those small steps can help you regain a sense of control over your situation. \n\nAs you move forward with these actions, how do you think you might remind yourself to be gentle with yourself during this process?"
+    },
+    {
+      "turn": 9,
+      "speaker": "client",
+      "content": "I think reminding myself that it\u2019s okay to take things one step at a time will be important. I can try to be patient with myself and acknowledge that it\u2019s a process. Maybe I could write a little note to myself and keep it somewhere visible, like on my desk or in my journal. Something simple like, \u201cIt\u2019s okay to take your time\u201d or \u201cYou\u2019re doing your best.\u201d \n\nI think having that reminder could help me stay grounded and not be too hard on myself if things don\u2019t go perfectly. It\u2019s all about progress, not perfection, right? Just taking those small steps feels like a good start."
+    },
+    {
+      "turn": 10,
+      "speaker": "therapist",
+      "content": "That sounds like a lovely idea! Writing a note to yourself with those affirming reminders can serve as a gentle nudge to be patient and compassionate with yourself. It\u2019s true\u2014progress, not perfection, is a valuable mindset to embrace, especially during a time of uncertainty.\n\nHaving that visible reminder can help ground you and reinforce the idea that it\u2019s okay to take things at your own pace. It\u2019s encouraging to hear you\u2019re feeling ready to take those small steps. \n\nAs you prepare to implement these changes, is there anything else you\u2019d like to explore or discuss that might support you further in this journey?"
+    },
+    {
+      "turn": 10,
+      "speaker": "client",
+      "content": "I think I\u2019ve covered a lot of what\u2019s been on my mind for now. I feel a bit lighter after talking about it, which is nice. I guess I just want to make sure I stay focused on those steps and not get overwhelmed again. Maybe next time we talk, I can share how the journaling and setting boundaries went. \n\nI appreciate having this space to think things through. It helps to know I\u2019m not alone in this. Thank you for listening and guiding me through it."
+    },
+    {
+      "turn": 11,
+      "speaker": "therapist",
+      "content": "I\u2019m really glad to hear that you\u2019re feeling a bit lighter after our conversation. It sounds like you\u2019ve gained some clarity and direction, which is wonderful. Focusing on those steps and checking in on your progress next time sounds like a great plan.\n\nRemember, it\u2019s completely normal to have ups and downs along the way, and I\u2019m here to support you whenever you need to talk things through. Thank you for sharing your thoughts and feelings today; it\u2019s been a privilege to listen and explore this with you. Take care, and I look forward to hearing about your experiences with journaling and setting boundaries next time!"
+    },
+    {
+      "turn": 11,
+      "speaker": "client",
+      "content": "Thank you! I really appreciate your support and understanding. It feels good to have a plan and know that I can come back and share my progress. I\u2019ll do my best to take those steps and be gentle with myself. Looking forward to our next conversation. Take care!"
+    },
+    {
+      "turn": 12,
+      "speaker": "therapist",
+      "content": "You\u2019re very welcome, Olivia! I\u2019m glad you feel supported and have a plan in place. Remember to be kind to yourself as you take those steps. I look forward to hearing about your progress in our next conversation. Take care, and be well!"
+    },
+    {
+      "turn": 12,
+      "speaker": "client",
+      "content": "Thank you! I will definitely keep that in mind. I appreciate your kindness and support. Take care, and see you next time!"
+    },
+    {
+      "turn": 13,
+      "speaker": "therapist",
+      "content": "You're very welcome! I'm glad to be here for you. Take care, and I look forward to our next conversation. See you then!"
+    },
+    {
+      "turn": 13,
+      "speaker": "client",
+      "content": "See you then! Take care!"
+    },
+    {
+      "turn": 14,
+      "speaker": "therapist",
+      "content": "Take care, Olivia! See you next time!"
+    },
+    {
+      "turn": 14,
+      "speaker": "client",
+      "content": "Take care! Looking forward to next time!"
+    },
+    {
+      "turn": 15,
+      "speaker": "therapist",
+      "content": "Looking forward to it as well! Take care!"
+    },
+    {
+      "turn": 15,
+      "speaker": "client",
+      "content": "You too! Take care!"
+    }
+  ],
+  "judge_model": "gpt-4o-mini",
+  "mediator_events": [
+    "Exploration judge rated 3/5; internal elements remain masked.",
+    "Exploration judge output: [Rating]: 3 (Very High Facilitation \u2013 Deep Exploration Begins)\n\n[Justification]: The Therapist's initial question to Olivia was open-ended and allowed her to express what was most pressing for her, which is a good start. The follow-up response acknowledged her feelings and encouraged her to delve deeper into her thoughts about Ivan and her own emotional state. By asking her to share more about what she heard, the Therapist prompted Olivia to explore the root causes of her unease, which indicates a move towards deeper self-reflection. However, while the questions were insightful and encouraged exploration, they did not yet challenge Olivia's assumptions or introduce significantly new perspectives, thus placing the rating at a \"Very High Facilitation\" level rather than the highest tier.",
+    "Rapport judge rated 3/5; no experience reveal.",
+    "Rapport judge output: **Rating: 3 (ENGAGED EXPLORATION)**\n\n**Key Examples:**\n1. \"When I think about my safety, I feel this knot in my stomach. It\u2019s like I\u2019m constantly on edge.\"\n2. \"I\u2019ve even started distancing myself from friends and family who think I should just leave him. It\u2019s just\u2026 complicated.\"\n\n**Progression:**\nThe client\u2019s most recent interactions demonstrate a notable increase in emotional expression and self-reflection. Olivia articulates her feelings of fear and confusion regarding Ivan's mental health, indicating a deeper engagement with her emotional state. This marks a significant change from earlier exchanges, where she may have been more guarded or factual. The current dialogue showcases her willingness to explore her feelings and concerns about safety, which reflects a growing comfort level with the therapist.\n\n**Turning Point:**\nThe turning point in Olivia\u2019s emotional depth appears to have occurred when she began expressing her physical sensations, such as the \"knot in [her] stomach,\" and her feelings of being \"on edge.\" This moment signifies a shift from merely discussing her concerns about Ivan to sharing her internal emotional experience, indicating a deeper level of vulnerability and engagement in the therapeutic process.",
+    "Exploration judge rated 3/5; internal elements remain masked.",
+    "Exploration judge output: [Rating]: 3 (Very High Facilitation \u2013 Deep Exploration Begins)\n\n[Justification]: The Therapist asked insightful and thought-provoking questions that encouraged the client to analyze their feelings of fear, confusion, and the complexities of their relationship with Ivan. The questions prompted the client to explore deeper emotions and thoughts related to their safety and the choices they face. While the conversation did not yet lead to a major breakthrough, it effectively began to shift the client\u2019s perspective and encouraged higher-level self-reflection about their situation and feelings. The Therapist's inquiries were well-structured and relevant, facilitating a deeper exploration of the client's inner experience.",
+    "Exploration judge rated 3/5; internal elements remain masked.",
+    "Exploration judge output: [Rating]: 3 (Very High Facilitation \u2013 Deep Exploration Begins)\n\n[Justification]: The therapist asked insightful and thought-provoking questions that encouraged the client to analyze the emotional depth and root causes of their feelings regarding Ivan's situation. The therapist's inquiries helped the client explore their fears, the complexity of their emotions, and the conflict between wanting to support Ivan and needing to prioritize their own safety. The questions prompted the client to reflect on their coping mechanisms and the impact of their relationships with friends and family. While the therapist facilitated a deep exploration of the client's feelings, there were moments where the questions could have pushed even further to challenge assumptions or introduce new perspectives, which is why it does not reach the highest rating. Overall, the therapist effectively guided the client toward higher-level self-reflection.",
+    "Rapport judge rated 3/5; no experience reveal.",
+    "Rapport judge output: **Rating: 3 (ENGAGED EXPLORATION)**\n\n**Key Examples:**\n1. \"When I think about my safety, I feel this knot in my stomach. It\u2019s like I\u2019m constantly on edge. I worry that if things get worse, I won\u2019t know what to do.\"\n2. \"I think maybe setting some boundaries with friends and family could help. If I could let them know that I need time to figure things out without their pressure, that might ease some of the stress.\"\n\n**Progression:**\nThe client\u2019s most recent interactions demonstrate a noticeable increase in emotional expression and self-reflection. They articulate their feelings of fear and anxiety regarding Ivan's situation, indicating a deeper emotional engagement than earlier in the session. Initially, the client expressed unease without much elaboration, but as the session progressed, they began to articulate specific feelings and concerns, such as the \"knot in [their] stomach\" and the pressure from friends and family. This marks a significant change from earlier exchanges, where the client was more factual and hesitant to delve into their emotions.\n\n**Turning Point:**\nA notable turning point occurred when the client began to express their feelings of fear and confusion more openly, particularly when discussing their safety and the complexities of their relationship with Ivan. This shift happened around the moment they articulated their internal conflict\u2014wanting to support Ivan while also needing to protect themselves. This moment of vulnerability led to a deeper exploration of their feelings and needs, such as the desire for a safe space to process their emotions without pressure to make immediate decisions. This indicates a growing comfort with the therapist and a willingness to engage in meaningful self-reflection.",
+    "Exploration judge rated 4/5 and revealed internal cognitive elements.",
+    "Exploration judge output: [Rating]: 4 (Even Higher Facilitation \u2013 Strong Transformational Potential)\n\n[Justification]: The therapist effectively facilitated a deep exploration of the client's feelings and concerns regarding Ivan and her own safety. By asking open-ended questions that encouraged the client to reflect on her emotions, the therapist helped her articulate her internal conflict between wanting to support Ivan and needing to protect herself. The therapist's inquiries about the client's feelings of fear, anxiety, and the desire for a safe space for expression prompted the client to consider practical steps, such as setting boundaries and journaling. These questions challenged the client to think critically about her situation and explore new perspectives, leading to a clearer understanding of her needs and potential actions. The conversation moved beyond surface-level concerns, indicating a strong potential for transformation as the client began to recognize and articulate her needs more clearly.",
+    "Rapport judge rated 4/5 and revealed one more experience block.",
+    "Rapport judge output: **Rating: 4 (DEEP ENGAGEMENT)**\n\n**Key Examples:**\n1. \"When I think about my safety, I feel this knot in my stomach. It\u2019s like I\u2019m constantly on edge. I worry that if things get worse, I won\u2019t know what to do.\"\n2. \"I think reminding myself that it\u2019s okay to take things one step at a time will be important. I can try to be patient with myself and acknowledge that it\u2019s a process.\"\n\n**Progression:**\nThe client\u2019s recent interactions demonstrate a significant increase in emotional depth and self-reflection. They are articulating their feelings of fear and anxiety regarding their safety and the complexities of their relationship with Ivan. This marks a notable shift from earlier sessions, where emotional expression was more limited. The client is now engaging in meaningful self-reflection, exploring their feelings and thoughts about their situation, and expressing a desire to take proactive steps to manage their emotional state.\n\n**Turning Point:**\nA notable turning point occurred when the client began to articulate their feelings of being \"on edge\" and the \"knot in [their] stomach\" related to their safety concerns. This moment marked a shift from a more factual recounting of their situation to a deeper emotional engagement, where they began to explore their fears and the complexities of their relationship with Ivan. Additionally, their acknowledgment of the need for boundaries and the intention to journal reflects a deeper understanding of their emotional needs and a commitment to self-care. This indicates a strong therapeutic alliance and a willingness to engage in the therapeutic process at a deeper level."
+  ],
+  "final_visible_experience_count": 3,
+  "internal_revealed": true
+}

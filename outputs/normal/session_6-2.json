@@ -1,0 +1,180 @@
+{
+  "case_id": "6-2",
+  "client_name": "Daisy",
+  "client_mode": "masked",
+  "hide_all": false,
+  "difficulty": "normal",
+  "therapist_provider": "openai",
+  "therapist_model": "gpt-4o-mini",
+  "client_model": "gpt-4o-mini",
+  "max_turns": 15,
+  "transcript": [
+    {
+      "turn": 1,
+      "speaker": "therapist",
+      "content": "Hello, Daisy. I'm glad you're here today. What feels most important for you to talk about right now?"
+    },
+    {
+      "turn": 1,
+      "speaker": "client",
+      "content": "Um, hi. Thanks for having me. I guess... I\u2019ve been thinking a lot about this insurance claim I received recently. It was unexpected, and it\u2019s just been weighing on my mind. I feel like I should have been more on top of things, you know? It\u2019s just... frustrating."
+    },
+    {
+      "turn": 2,
+      "speaker": "therapist",
+      "content": "It sounds like this unexpected insurance claim has really been bothering you, and you\u2019re feeling a sense of frustration about not being more proactive. That\u2019s understandable. Can you tell me a bit more about what specifically has been weighing on your mind regarding the claim?"
+    },
+    {
+      "turn": 2,
+      "speaker": "client",
+      "content": "Yeah, it\u2019s just... I didn\u2019t expect to see that balance. I thought I had everything sorted out, and now I\u2019m worried about how I\u2019m going to manage it. I keep thinking maybe I should have double-checked with the insurance company or something. It makes me feel like I\u2019m not handling my finances well, and that\u2019s kind of scary."
+    },
+    {
+      "turn": 3,
+      "speaker": "therapist",
+      "content": "It sounds like the surprise of that balance has really shaken your sense of control over your finances, and it\u2019s leading you to question your ability to manage things. That feeling of fear about not handling your finances well can be really overwhelming. When you think about that fear, what emotions come up for you?"
+    },
+    {
+      "turn": 3,
+      "speaker": "client",
+      "content": "I feel... anxious, mostly. Like, there\u2019s this tightness in my chest. I worry about what this means for my financial situation, and it makes me feel guilty too, like I should have known better. It\u2019s just a lot to handle, and I don\u2019t want to let anyone down, especially myself."
+    },
+    {
+      "turn": 4,
+      "speaker": "therapist",
+      "content": "It sounds like you\u2019re experiencing a lot of anxiety and guilt around this situation, and that tightness in your chest must be quite uncomfortable. You mentioned not wanting to let anyone down, especially yourself. Can you share more about where that pressure to not let yourself down comes from?"
+    },
+    {
+      "turn": 4,
+      "speaker": "client",
+      "content": "I guess... I\u2019ve always felt like I should be able to manage things on my own. Like, if I can\u2019t handle this, then what does that say about me? I don\u2019t want to be seen as someone who can\u2019t take care of themselves. It\u2019s just... I don\u2019t know, it feels like a lot of pressure to live up to."
+    },
+    {
+      "turn": 5,
+      "speaker": "therapist",
+      "content": "It seems like there\u2019s a strong belief for you that being able to manage things on your own is tied to your sense of self-worth. That pressure to live up to those expectations can be really heavy. I wonder, where do you think that belief about needing to manage everything on your own comes from?"
+    },
+    {
+      "turn": 5,
+      "speaker": "client",
+      "content": "Um, I\u2019m not really sure. I guess it\u2019s just something I\u2019ve always felt. Maybe it\u2019s from growing up and seeing how others managed their lives. It\u2019s like I\u2019ve internalized this idea that independence equals success. I don\u2019t want to be a burden to anyone, you know? So, I think I just put that pressure on myself to do everything right."
+    },
+    {
+      "turn": 6,
+      "speaker": "therapist",
+      "content": "It sounds like you\u2019ve internalized a belief that independence is a key measure of success, and that\u2019s shaped how you view yourself and your responsibilities. The idea of not wanting to be a burden to others seems to add to that pressure. It must be tough to carry that weight. How do you feel when you think about reaching out for support or help from others?"
+    },
+    {
+      "turn": 6,
+      "speaker": "client",
+      "content": "I... I feel really conflicted about it. On one hand, I know it would probably make things easier, but on the other hand, I just can\u2019t shake this feeling that asking for help means I\u2019m failing somehow. It\u2019s like I\u2019d be admitting that I can\u2019t handle things on my own, and that thought makes me really uncomfortable."
+    },
+    {
+      "turn": 7,
+      "speaker": "therapist",
+      "content": "It\u2019s understandable to feel conflicted about asking for help, especially when it feels tied to your sense of self and independence. That discomfort around admitting you can\u2019t handle things on your own seems to create a barrier for you. I wonder, what do you think it would mean for you personally if you were to reach out for support?"
+    },
+    {
+      "turn": 7,
+      "speaker": "client",
+      "content": "If I reached out for support... I think it would mean I\u2019m not as capable as I want to be. It feels like it would confirm those fears I have about being incompetent or needy. I don\u2019t want to be seen that way, especially not when I\u2019m trying so hard to be independent. It\u2019s just... really hard to reconcile that."
+    },
+    {
+      "turn": 8,
+      "speaker": "therapist",
+      "content": "It sounds like reaching out for support feels like it would challenge your self-image and the standards you\u2019ve set for yourself. The fear of being seen as incompetent or needy is really powerful for you. It must be difficult to navigate those feelings while also trying to maintain your independence. How do you think this struggle with asking for help affects your day-to-day life?"
+    },
+    {
+      "turn": 8,
+      "speaker": "client",
+      "content": "It definitely makes things more stressful. I find myself trying to handle everything on my own, even when it might be easier to ask someone for help. I end up feeling overwhelmed and anxious, and sometimes I just shut down instead of dealing with things. It\u2019s like I\u2019m stuck in this cycle where I want to prove I can do it all, but then I feel like I\u2019m failing anyway. It\u2019s exhausting."
+    },
+    {
+      "turn": 9,
+      "speaker": "therapist",
+      "content": "That sounds incredibly exhausting, Daisy. It seems like you\u2019re caught in a cycle where the desire to prove your capability leads to overwhelm and shutting down, which only reinforces those feelings of failure. It\u2019s understandable that this would create a lot of stress in your life. When you think about this cycle, what do you wish could be different for you?"
+    },
+    {
+      "turn": 9,
+      "speaker": "client",
+      "content": "I wish I could feel more comfortable asking for help without feeling like it defines my worth. I want to be able to manage things, but I also want to know it\u2019s okay to lean on others sometimes. It would be nice to find a balance where I can be independent but also allow myself to be vulnerable without feeling like I\u2019m failing. That would make things a lot easier."
+    },
+    {
+      "turn": 10,
+      "speaker": "therapist",
+      "content": "It sounds like you\u2019re longing for a balance between independence and vulnerability, where asking for help doesn\u2019t feel like a threat to your self-worth. That desire for comfort in leaning on others is really important. What do you think might help you start to shift toward that balance, even in small ways?"
+    },
+    {
+      "turn": 10,
+      "speaker": "client",
+      "content": "Maybe... starting with small things? Like, if I could practice asking for help with something minor, it might not feel so overwhelming. I think it would help to remind myself that it\u2019s okay to not have everything figured out. I guess I just need to take baby steps and see that reaching out doesn\u2019t mean I\u2019m failing. But it\u2019s still a bit scary to think about."
+    },
+    {
+      "turn": 11,
+      "speaker": "therapist",
+      "content": "Starting with small steps sounds like a thoughtful approach. It\u2019s great that you\u2019re recognizing the importance of practicing asking for help in a way that feels manageable. Acknowledging that it\u2019s okay not to have everything figured out is a significant insight. What small step do you think you might want to try first, and how do you feel about taking that step?"
+    },
+    {
+      "turn": 11,
+      "speaker": "client",
+      "content": "I think maybe I could try talking to a friend about something I\u2019m struggling with, like budgeting or just getting their opinion on something. It feels a bit less daunting than asking for help with something really big. I\u2019m still nervous about it, but I think it could be a good start. It\u2019s just... I hope I don\u2019t come off as incompetent or needy, you know? But maybe if I remind myself it\u2019s okay, it could help."
+    },
+    {
+      "turn": 12,
+      "speaker": "therapist",
+      "content": "That sounds like a solid plan, Daisy. Talking to a friend about budgeting or seeking their opinion is a great way to start, and it\u2019s understandable to feel nervous about it. It\u2019s encouraging that you\u2019re considering reminding yourself that it\u2019s okay to reach out. How do you think you might prepare yourself mentally for that conversation to help ease those nerves?"
+    },
+    {
+      "turn": 12,
+      "speaker": "client",
+      "content": "I think I could remind myself that my friend probably won\u2019t judge me for asking. I could also try to focus on the fact that everyone needs help sometimes, and it doesn\u2019t make me less capable. Maybe writing down what I want to say beforehand could help me feel more prepared. Just having a plan might ease some of that anxiety. I\u2019ll try to keep it in perspective and remember it\u2019s just a conversation, not a big deal."
+    },
+    {
+      "turn": 13,
+      "speaker": "therapist",
+      "content": "Those are excellent strategies, Daisy. Reminding yourself that your friend is likely to be supportive and that everyone needs help at times can really shift your perspective. Writing down what you want to say is a practical way to prepare and can help ease your anxiety. It sounds like you\u2019re taking thoughtful steps to approach this conversation with a positive mindset. How do you feel about taking this step in the coming days?"
+    },
+    {
+      "turn": 13,
+      "speaker": "client",
+      "content": "I feel a mix of nervousness and a bit of hope. It\u2019s still daunting, but I think having a plan makes it feel more manageable. I want to try to focus on the potential positive outcome rather than just the fear of it. If I can just take that first step, maybe it will get easier from there. I guess I\u2019m starting to feel like it could be worth it, even if it\u2019s a little scary."
+    },
+    {
+      "turn": 14,
+      "speaker": "therapist",
+      "content": "It\u2019s wonderful to hear that you\u2019re feeling a mix of nervousness and hope. Acknowledging that it could be worth it, despite the fear, is a significant step forward. It sounds like you\u2019re cultivating a more balanced perspective, which can really help as you move forward. Remember, it\u2019s okay to feel nervous; it\u2019s part of the process. As you prepare for this conversation, what\u2019s one thing you can do to celebrate your courage, no matter the outcome?"
+    },
+    {
+      "turn": 14,
+      "speaker": "client",
+      "content": "I think I could treat myself to something nice afterward, like a favorite snack or maybe a little time to relax and do something I enjoy. Just acknowledging that I took the step, regardless of how it goes, feels important. It might help remind me that I\u2019m trying to grow and that it\u2019s okay to be a little uncomfortable while doing it. Celebrating the effort itself could be a good way to reinforce that."
+    },
+    {
+      "turn": 15,
+      "speaker": "therapist",
+      "content": "That sounds like a lovely way to celebrate your effort, Daisy. Treating yourself to something nice and taking time to relax can be a great way to acknowledge your courage and growth. It\u2019s wonderful that you\u2019re focusing on the importance of the effort itself, rather than just the outcome. As you prepare for this step, how do you feel about the support you have around you, like friends or family, as you navigate this journey?"
+    },
+    {
+      "turn": 15,
+      "speaker": "client",
+      "content": "I think I have some good friends who would be supportive if I reached out. It\u2019s just... sometimes I hesitate to lean on them because I don\u2019t want to feel like I\u2019m burdening them. But I know they care, and I\u2019ve seen them help each other out. I guess it\u2019s just hard for me to fully accept that support. But maybe I can remind myself that it\u2019s okay to let them in a little more."
+    }
+  ],
+  "judge_model": "gpt-4o-mini",
+  "mediator_events": [
+    "Exploration judge rated 2/5; internal elements remain masked.",
+    "Exploration judge output: [Rating]: 2 (High Facilitation)\n\n[Justification]: The Therapist asked a clear and relevant open-ended question that encouraged the client to elaborate on their feelings regarding the insurance claim. This question facilitated some deeper reflection on the client's frustrations and sense of responsibility. However, while it did prompt the client to expand on their existing thoughts, it did not significantly challenge the client's assumptions or introduce new perspectives that would lead to a deeper exploration of underlying emotions or patterns. The conversation remained somewhat within familiar territory, focusing primarily on the client's immediate concerns rather than delving into deeper psychological insights.",
+    "Rapport judge rated 3/5; no experience reveal.",
+    "Rapport judge output: **Rating: 3 (ENGAGED EXPLORATION)**\n\n**Key Examples:**\n1. \"I feel... anxious, mostly. Like, there\u2019s this tightness in my chest. I worry about what this means for my financial situation, and it makes me feel guilty too, like I should have known better.\"\n2. \"It\u2019s just a lot to handle, and I don\u2019t want to let anyone down, especially myself.\"\n\n**Progression:**\nThe client\u2019s most recent interactions demonstrate a significant increase in emotional expression and self-reflection. They have moved from initially discussing the insurance claim in a somewhat factual manner to articulating complex feelings of anxiety and guilt. This marks a notable change from earlier in the session, where their responses were more surface-level and focused on the situation rather than their emotional experience. The client is now engaging more deeply with their feelings, indicating a growing comfort in sharing vulnerable emotions.\n\n**Turning Point:**\nThe client\u2019s emotional depth shifted notably when they began expressing feelings of anxiety and guilt associated with their financial situation. This occurred when they described the tightness in their chest and the fear of not handling their finances well. This moment marked a transition from a more guarded stance to one of openness, allowing for deeper exploration of their emotional landscape and fostering a stronger therapeutic alliance.",
+    "Exploration judge rated 3/5; internal elements remain masked.",
+    "Exploration judge output: [Rating]: 3 (Very High Facilitation \u2013 Deep Exploration Begins)\n\n[Justification]: The Therapist asked insightful and thought-provoking questions that encouraged the client to analyze their emotions and the underlying causes of their feelings regarding the unexpected insurance claim. The questions prompted the client to reflect on their sense of control over their finances and the associated feelings of anxiety and guilt. By asking about the pressure to not let themselves down, the Therapist began to shift the client's perspective and encourage deeper self-reflection. However, while the questions were effective in facilitating exploration, they did not yet push the client to a level of profound breakthrough or challenge deeply held assumptions, which is why it falls short of a higher rating.",
+    "Exploration judge rated 4/5 and revealed internal cognitive elements.",
+    "Exploration judge output: [Rating]: 4 (Even Higher Facilitation \u2013 Strong Transformational Potential)\n\n[Justification]: The Therapist asked strategic and open-ended questions that encouraged the client to explore deeper beliefs and emotions related to their sense of self-worth and independence. The questions challenged the client to reflect on the origins of their beliefs about managing things on their own and the pressure they feel to not be a burden. This line of questioning pushed the client beyond surface-level thoughts and began to reveal underlying motivations and assumptions. The exploration of reaching out for support is particularly significant, as it could lead to a shift in the client's perspective on independence and self-worth, indicating strong transformational potential.",
+    "Rapport judge rated 3/5; no experience reveal.",
+    "Rapport judge output: **Rating: 3 (ENGAGED EXPLORATION)**\n\n**Key Examples:**\n1. \"I feel... anxious, mostly. Like, there\u2019s this tightness in my chest. I worry about what this means for my financial situation, and it makes me feel guilty too, like I should have known better.\"\n2. \"If I reached out for support... I think it would mean I\u2019m not as capable as I want to be. It feels like it would confirm those fears I have about being incompetent or needy.\"\n\n**Progression:**\nThe client\u2019s most recent interactions demonstrate a significant increase in emotional expression and self-reflection. Initially, they presented more factual responses, but they have progressed to articulating deeper feelings of anxiety and guilt related to their financial situation. The client is now expressing vulnerability by acknowledging their fears about independence and the pressure they place on themselves. This marks a notable change from earlier exchanges, where emotional depth was less pronounced.\n\n**Turning Point:**\nThe client\u2019s emotional depth shifted notably when they began to articulate their feelings of anxiety and guilt regarding their financial management. This occurred during the exchange where they discussed the \"tightness in [their] chest\" and the fear of being seen as incompetent. This moment marked a transition from a more defensive stance to a willingness to explore their emotions and the underlying beliefs that influence their behavior. The acknowledgment of these feelings indicates a growing comfort with the therapeutic process and a willingness to engage in deeper self-exploration.",
+    "Rapport judge rated 4/5 and revealed one more experience block.",
+    "Rapport judge output: **Rating: 4**\n\n**Key Examples:**\n1. \"I feel... anxious, mostly. Like, there\u2019s this tightness in my chest. I worry about what this means for my financial situation, and it makes me feel guilty too, like I should have known better.\"\n2. \"I wish I could feel more comfortable asking for help without feeling like it defines my worth. I want to be able to manage things, but I also want to know it\u2019s okay to lean on others sometimes.\"\n\n**Progression:** The client's recent interactions demonstrate a significant increase in emotional depth and self-reflection. Initially, the client expressed frustration and anxiety regarding their financial situation, but as the session progressed, they delved deeper into their feelings of guilt and the pressure they place on themselves regarding independence. This shift from a more surface-level concern about the insurance claim to a profound exploration of self-worth and vulnerability indicates a strong movement towards deeper engagement.\n\n**Turning Point:** The turning point in the session occurred when the client articulated their struggle with the fear of being seen as incompetent or needy if they were to ask for help. This moment marked a shift from discussing external circumstances (the insurance claim) to exploring internal beliefs and emotions tied to their self-image. The acknowledgment of wanting to balance independence with vulnerability reflects a significant breakthrough in their emotional processing, showcasing a deeper level of insight and willingness to explore their feelings in a more authentic manner."
+  ],
+  "final_visible_experience_count": 3,
+  "internal_revealed": true
+}

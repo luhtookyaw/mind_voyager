@@ -1,0 +1,178 @@
+{
+  "case_id": "3-1",
+  "client_name": "Caleb",
+  "client_mode": "masked",
+  "hide_all": false,
+  "difficulty": "hard",
+  "therapist_provider": "openai",
+  "therapist_model": "gpt-4o-mini",
+  "client_model": "gpt-4o-mini",
+  "max_turns": 15,
+  "transcript": [
+    {
+      "turn": 1,
+      "speaker": "therapist",
+      "content": "Hi Caleb, I\u2019m glad you\u2019re here today. What\u2019s been on your mind lately? What feels most important for us to talk about?"
+    },
+    {
+      "turn": 1,
+      "speaker": "client",
+      "content": "Um, thanks for having me. I guess I've been thinking a lot about my PhD project. It feels like I should be further along by now, but I just... I don't know. The last part of it seems really overwhelming. I keep telling myself I should have finished it already, but it just feels impossible sometimes. So, yeah, that's been on my mind a lot."
+    },
+    {
+      "turn": 2,
+      "speaker": "therapist",
+      "content": "It sounds like you\u2019re feeling a lot of pressure regarding your PhD project, and that the final part feels particularly daunting. You mentioned feeling overwhelmed and that you think you should be further along. Can you tell me more about what specifically feels impossible right now?"
+    },
+    {
+      "turn": 2,
+      "speaker": "client",
+      "content": "Well, it\u2019s just... I have this sense that I should be able to wrap it up, but every time I sit down to work on it, I get distracted. I find myself painting or doing other things instead. It\u2019s like I can't focus on the project. I keep thinking about how much I have left to do, and it just makes me anxious. I guess I feel stuck, like I\u2019m not making any progress, and that\u2019s frustrating."
+    },
+    {
+      "turn": 3,
+      "speaker": "therapist",
+      "content": "It sounds really frustrating to feel stuck and to have that sense of anxiety about the progress you want to make. You mentioned getting distracted and turning to painting or other activities instead. I wonder, what do you think is happening for you in those moments when you choose to do something else instead of working on your project?"
+    },
+    {
+      "turn": 3,
+      "speaker": "client",
+      "content": "I don\u2019t know... I guess it feels easier to do something like painting. It\u2019s more enjoyable, and I can see the results right away. With the PhD work, it feels like I\u2019m just spinning my wheels and not getting anywhere. So, I guess I avoid it because it\u2019s just too much to handle. I don\u2019t really want to face that pressure, you know? It\u2019s like I\u2019d rather do something I can actually finish."
+    },
+    {
+      "turn": 4,
+      "speaker": "therapist",
+      "content": "That makes a lot of sense. It sounds like painting provides you with a sense of accomplishment and enjoyment, especially compared to the pressure and uncertainty you feel with your PhD work. It\u2019s understandable to want to avoid something that feels overwhelming. When you think about that pressure you mentioned, what do you think it stems from? Is it something external, like expectations from others, or more about your own standards for yourself?"
+    },
+    {
+      "turn": 4,
+      "speaker": "client",
+      "content": "I think it\u2019s more about my own standards. I have this idea in my head that I should be able to do it all, and that I should be further along by now. I don\u2019t really feel like anyone is putting that pressure on me, but I just... I guess I expect a lot from myself. It\u2019s hard to shake that feeling that I\u2019m not measuring up, and it just adds to the anxiety. I don\u2019t know if that makes sense."
+    },
+    {
+      "turn": 5,
+      "speaker": "therapist",
+      "content": "It makes perfect sense, Caleb. It sounds like you hold yourself to very high standards, and that can create a lot of internal pressure. Feeling like you\u2019re not measuring up to those expectations can be really tough and can contribute to your anxiety. I\u2019m curious, where do you think those standards come from? Have you always felt this way about your work or achievements?"
+    },
+    {
+      "turn": 5,
+      "speaker": "client",
+      "content": "I\u2019m not really sure. I guess I\u2019ve always been the type to push myself, but I don\u2019t know why. Maybe it\u2019s just how I\u2019ve always been. I\u2019ve always wanted to do well, and I think I\u2019ve felt that pressure to succeed for a long time. It\u2019s like I can\u2019t shake this feeling that I need to prove something, even if I don\u2019t know exactly what that is. It\u2019s just... there, you know?"
+    },
+    {
+      "turn": 6,
+      "speaker": "therapist",
+      "content": "It sounds like this drive to push yourself and succeed has been a long-standing part of your identity, almost like a constant companion. The feeling of needing to prove something, even if it\u2019s not clear what that is, can be really heavy to carry. I wonder, when you think about that pressure to succeed, what does it feel like for you? Are there specific emotions that come up when you reflect on it?"
+    },
+    {
+      "turn": 6,
+      "speaker": "client",
+      "content": "Yeah, it definitely feels heavy. I think there\u2019s a lot of anxiety and fear mixed in there. Sometimes I feel scared that I\u2019m going to fail or that I\u2019m not good enough. It\u2019s like this constant worry that I\u2019m not living up to my potential. And then there\u2019s this feeling of being trapped, like I can\u2019t escape those expectations I put on myself. It\u2019s just... exhausting, really."
+    },
+    {
+      "turn": 7,
+      "speaker": "therapist",
+      "content": "That sounds incredibly exhausting, Caleb. It\u2019s understandable to feel anxious and fearful when you\u2019re carrying such heavy expectations. The sense of being trapped by your own standards can be really draining. It seems like this cycle of worry and pressure is making it difficult to find the motivation to move forward with your project. How do you usually cope with those feelings of anxiety and fear when they come up?"
+    },
+    {
+      "turn": 7,
+      "speaker": "client",
+      "content": "I try to cope by doing things I enjoy, like painting or meditating. Those activities help me relax and take my mind off the pressure for a bit. But I guess it\u2019s also a way to avoid the work I need to do. Sometimes I just feel like I need a break from it all, and those outlets help me escape, even if it\u2019s just for a little while. But then I end up feeling guilty for not working on my project, which just adds to the cycle."
+    },
+    {
+      "turn": 8,
+      "speaker": "therapist",
+      "content": "It sounds like you\u2019ve found some helpful ways to cope, like painting and meditating, which provide you with a much-needed break from the pressure. Yet, it\u2019s tough that those moments of relief can also lead to feelings of guilt for not working on your project. It seems like you\u2019re caught in a cycle where you\u2019re trying to manage your anxiety, but then feel guilty for needing that escape. How do you feel about the balance between taking breaks for self-care and working on your project?"
+    },
+    {
+      "turn": 8,
+      "speaker": "client",
+      "content": "Honestly, I struggle with that balance a lot. I know I need breaks to recharge, but then I feel like I\u2019m wasting time when I could be working on my project. It\u2019s like I can\u2019t allow myself to just enjoy those moments without feeling guilty. I think part of me worries that if I take too many breaks, I\u2019ll never finish. But at the same time, I know that pushing myself too hard isn\u2019t good either. It\u2019s just really confusing."
+    },
+    {
+      "turn": 9,
+      "speaker": "therapist",
+      "content": "It sounds like you\u2019re in a really challenging position, trying to navigate the need for self-care while also feeling the weight of your project. The confusion between allowing yourself to enjoy breaks and the guilt that follows is understandable. It seems like there\u2019s a part of you that recognizes the importance of recharging, yet another part that fears it might hinder your progress. How do you feel when you think about finding a way to incorporate breaks without the guilt? What would that look like for you?"
+    },
+    {
+      "turn": 9,
+      "speaker": "client",
+      "content": "I think it would feel... freeing, maybe? If I could find a way to take breaks without feeling guilty, it might help me relax more and actually be more productive when I do work. But I guess I\u2019m not sure how to do that. Maybe setting some kind of schedule where I allow myself specific times to take breaks and stick to it could help? But then I worry that I won\u2019t stick to it or that I\u2019ll end up avoiding work altogether. It\u2019s just hard to imagine a balance that feels right."
+    },
+    {
+      "turn": 10,
+      "speaker": "therapist",
+      "content": "It sounds like the idea of finding that balance feels freeing, but also a bit daunting because of the uncertainty around it. Creating a schedule for breaks could be a helpful strategy, but I can see how the fear of not sticking to it or avoiding work might hold you back. It\u2019s a complex situation. What do you think would help you feel more confident in trying out a schedule for breaks? Are there small steps you could take to experiment with this idea without feeling overwhelmed?"
+    },
+    {
+      "turn": 10,
+      "speaker": "client",
+      "content": "I think starting small might be a good idea. Maybe I could try setting aside just a short amount of time for a break, like 10 or 15 minutes, and see how that feels. If I can manage that without feeling guilty, it might help me build some confidence. I could also try to remind myself that taking breaks doesn\u2019t mean I\u2019m failing or not working hard enough. It\u2019s just a way to recharge. I guess if I can approach it gradually, it might feel less overwhelming."
+    },
+    {
+      "turn": 11,
+      "speaker": "therapist",
+      "content": "That sounds like a thoughtful approach, Caleb. Starting small with short breaks could help you ease into the idea without feeling overwhelmed. It\u2019s great that you\u2019re also considering ways to remind yourself that taking breaks is a form of self-care and not a sign of failure. Building that confidence gradually could make a big difference. How do you feel about giving this a try? What might be your first step in implementing those short breaks?"
+    },
+    {
+      "turn": 11,
+      "speaker": "client",
+      "content": "I think I\u2019m willing to give it a try. My first step could be to set a timer for 15 minutes when I sit down to work. If I feel the urge to take a break, I can allow myself to step away for a bit without guilt. I could also maybe write down a few reminders for myself about the importance of those breaks. Just having a plan in place might help me feel more comfortable with it. I guess I\u2019m just hoping it\u2019ll help me find a bit more balance."
+    },
+    {
+      "turn": 12,
+      "speaker": "therapist",
+      "content": "That sounds like a solid plan, Caleb! Setting a timer and allowing yourself those breaks without guilt, along with writing reminders, could really help you create that balance you\u2019re looking for. It\u2019s encouraging to hear that you\u2019re willing to try this approach. How do you feel about the potential impact this might have on your work and your overall well-being?"
+    },
+    {
+      "turn": 12,
+      "speaker": "client",
+      "content": "I think it could be really positive. If I can manage to take those breaks without feeling guilty, it might help me feel less anxious and more focused when I do work. I\u2019m hoping that it\u2019ll make the project feel less overwhelming and maybe even help me make some progress. It would be nice to feel a bit more at ease and not so trapped by my own expectations. I guess I\u2019m cautiously optimistic about it."
+    },
+    {
+      "turn": 13,
+      "speaker": "therapist",
+      "content": "It\u2019s wonderful to hear that you\u2019re feeling cautiously optimistic about the potential positive impact of taking those breaks. It sounds like you\u2019re envisioning a way to reduce anxiety and create a more manageable relationship with your project. Feeling more at ease and less trapped by your expectations is a valuable goal. As you start to implement this plan, how do you think you might celebrate or acknowledge your progress, no matter how small?"
+    },
+    {
+      "turn": 13,
+      "speaker": "client",
+      "content": "I think acknowledging even the small steps could be important. Maybe I could reward myself with something simple, like allowing extra time for painting or treating myself to a favorite snack after a productive work session. Just recognizing that I\u2019m trying to make changes, even if it\u2019s just taking those breaks, could help me feel more positive about my progress. I guess it\u2019s about finding ways to appreciate the effort, even if the results aren\u2019t perfect."
+    },
+    {
+      "turn": 14,
+      "speaker": "therapist",
+      "content": "That sounds like a lovely way to acknowledge your efforts, Caleb. Rewarding yourself with something enjoyable, like extra time for painting or a favorite snack, can help reinforce those positive changes. It\u2019s great that you\u2019re focusing on appreciating your effort rather than just the results. This mindset can really help shift how you view your progress and reduce some of that pressure. How do you feel about incorporating these rewards into your routine as you start this new approach?"
+    },
+    {
+      "turn": 14,
+      "speaker": "client",
+      "content": "I think incorporating those rewards could be really motivating. It would give me something to look forward to after putting in the effort, which might make it easier to stick to the plan. I like the idea of celebrating the small wins, even if they seem minor. It feels like a way to be kinder to myself and acknowledge that I\u2019m trying, which is important. I guess I\u2019m feeling more hopeful about being able to make this work."
+    },
+    {
+      "turn": 15,
+      "speaker": "therapist",
+      "content": "It\u2019s wonderful to hear that you\u2019re feeling more hopeful about making this work! Celebrating those small wins and being kinder to yourself can really shift your perspective and create a more supportive environment for your progress. It sounds like you\u2019re setting yourself up for success with this approach. As you move forward, what do you think will be the most important thing to keep in mind to help you stay on track with this plan?"
+    },
+    {
+      "turn": 15,
+      "speaker": "client",
+      "content": "I think the most important thing to keep in mind will be to be patient with myself. I need to remember that it\u2019s okay if things don\u2019t go perfectly or if I don\u2019t make as much progress as I\u2019d like right away. Just trying to take those breaks and being kind to myself about it is a step in the right direction. I guess I\u2019ll also need to remind myself that it\u2019s a process, and it\u2019s okay to take it one day at a time. That might help me stay focused on the positive changes instead of getting overwhelmed by the bigger picture."
+    }
+  ],
+  "judge_model": "gpt-4o-mini",
+  "mediator_events": [
+    "Exploration judge rated 2/5; internal elements remain masked.",
+    "Exploration judge output: [Rating]: 2 (High Facilitation)\n\n[Justification]: The Therapist asked relevant and well-structured open-ended questions that encouraged the client to reflect on their feelings of pressure and anxiety regarding their PhD project. The inquiry about what happens when the client chooses to engage in distractions instead of working on the project prompts deeper thinking. However, the questions primarily expand on the client's existing thoughts and feelings rather than introducing significantly new perspectives or challenging assumptions. While the conversation is constructive and facilitates some self-reflection, it does not reach the level of deep exploration or transformational potential that would warrant a higher rating.",
+    "Rapport judge rated 3/5; no experience reveal.",
+    "Rapport judge output: **Rating: 3 (ENGAGED EXPLORATION)**\n\n**Key Examples:**\n1. \"I guess I feel stuck, like I\u2019m not making any progress, and that\u2019s frustrating.\"\n2. \"It\u2019s like I can't focus on the project. I keep thinking about how much I have left to do, and it just makes me anxious.\"\n\n**Progression:**\nIn the most recent exchanges, the client demonstrates a notable increase in emotional expression and self-reflection. They articulate feelings of frustration and anxiety related to their PhD project, indicating a deeper level of emotional engagement compared to earlier parts of the session. The client is moving beyond mere factual recounting of their situation to expressing genuine feelings about their struggles, which marks a significant change from an initial stage where they might have been more guarded or hesitant.\n\n**Turning Point:**\nThe client\u2019s emotional depth shifted when they began expressing their feelings of being \"stuck\" and the anxiety tied to their perceived lack of progress. This moment of vulnerability, where they acknowledge their avoidance of the PhD work in favor of more enjoyable activities like painting, signifies a turning point. It reflects a growing comfort in discussing their internal struggles and a willingness to explore the underlying pressures they face, which enhances the therapeutic rapport.",
+    "Exploration judge rated 4/5 and revealed internal cognitive elements.",
+    "Exploration judge output: [Rating]: 4 (Even Higher Facilitation \u2013 Strong Transformational Potential)\n\n[Justification]: The therapist's questions effectively pushed the client to explore deeper aspects of their feelings and motivations regarding their PhD project and personal standards. The inquiry about what happens when the client chooses to engage in painting instead of working on the project prompted the client to reflect on their avoidance behaviors and the underlying reasons for them. Furthermore, the therapist's question about the origins of the client's high standards encouraged the client to delve into their identity and long-standing pressures, revealing insights about their internal struggles. These questions challenged the client's existing thought patterns and led to a clearer understanding of their emotions and motivations, indicating a strong potential for transformation. However, while the questions were insightful, they did not quite reach the level of a profound breakthrough, which would involve a major insight or realization about the client's identity or emotional state.",
+    "Rapport judge rated 3/5; no experience reveal.",
+    "Rapport judge output: **Rating: 3 (ENGAGED EXPLORATION)**\n\n**Key Examples:**\n1. **Emotional State:** \"Yeah, it definitely feels heavy. I think there\u2019s a lot of anxiety and fear mixed in there. Sometimes I feel scared that I\u2019m going to fail or that I\u2019m not good enough.\"\n2. **Current Openness:** \"I try to cope by doing things I enjoy, like painting or meditating. Those activities help me relax and take my mind off the pressure for a bit. But I guess it\u2019s also a way to avoid the work I need to do.\"\n\n**Progression:** The client\u2019s most recent interactions reveal a notable increase in emotional expression and self-reflection. Initially, the client expressed feelings of being overwhelmed and stuck, but as the session progressed, they began to articulate deeper emotions such as anxiety, fear, and the pressure of self-expectations. This shift indicates a growing comfort in discussing their emotional state and a willingness to explore the underlying factors contributing to their feelings.\n\n**Turning Point:** The client\u2019s emotional depth shifted significantly when they began to articulate their feelings of anxiety and fear regarding their PhD project. This moment, particularly when they stated, \"Sometimes I feel scared that I\u2019m going to fail or that I\u2019m not good enough,\" marked a turning point where the client moved from a more surface-level discussion about their project to a deeper exploration of their internal struggles and self-imposed pressures. This shift demonstrates a greater openness and vulnerability, which is crucial for building rapport and therapeutic alliance.",
+    "Rapport judge rated 4/5 and revealed one more experience block.",
+    "Rapport judge output: **Rating: 4 (DEEP ENGAGEMENT)**\n\n**Key Examples:**\n1. \"Yeah, it definitely feels heavy. I think there\u2019s a lot of anxiety and fear mixed in there. Sometimes I feel scared that I\u2019m going to fail or that I\u2019m not good enough. It\u2019s like this constant worry that I\u2019m not living up to my potential.\"\n2. \"I think starting small might be a good idea. Maybe I could try setting aside just a short amount of time for a break, like 10 or 15 minutes, and see how that feels. If I can manage that without feeling guilty, it might help me build some confidence.\"\n\n**Progression:**\nIn the most recent exchanges, Caleb demonstrates a significant emotional depth, particularly in expressing feelings of anxiety, fear, and the pressure he places on himself. His willingness to articulate these emotions marks a clear progression from earlier in the session, where he was more focused on factual descriptions of his situation. He has moved from a state of feeling overwhelmed and stuck to actively considering practical steps to manage his anxiety and find a balance between work and self-care. This shift indicates a growing comfort with the therapeutic process and a deeper engagement with his emotional state.\n\n**Turning Point:**\nA notable turning point occurred when Caleb began to articulate the emotional weight of his expectations, stating, \"It definitely feels heavy,\" and identifying specific feelings of anxiety and fear. This moment marked a transition from a more surface-level discussion about his project to a deeper exploration of his internal struggles and the pressures he faces. His subsequent willingness to discuss strategies for self-care and balance further illustrates his increased emotional openness and engagement in the therapeutic process."
+  ],
+  "final_visible_experience_count": 2,
+  "internal_revealed": true
+}

@@ -209,8 +209,12 @@ def build_arg_parser() -> argparse.ArgumentParser:
     )
     parser.add_argument(
         "--embedding-model",
-        default="text-embedding-ada-002",
-        help="Embedding model used for IDSS similarity scoring",
+        default="sentence-transformers/all-MiniLM-L6-v2",
+        help=(
+            "Embedding model used for IDSS similarity scoring. "
+            "Supports OpenAI embedding models or sentence-transformers models "
+            "such as sentence-transformers/all-MiniLM-L6-v2"
+        ),
     )
     parser.add_argument("--include-ctrs", action="store_true", help="Also score CTRS collaboration")
     parser.add_argument(

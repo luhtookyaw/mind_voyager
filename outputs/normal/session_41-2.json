@@ -1,0 +1,186 @@
+{
+  "case_id": "41-2",
+  "client_name": "Quinn",
+  "client_mode": "masked",
+  "hide_all": false,
+  "difficulty": "normal",
+  "therapist_provider": "openai",
+  "therapist_model": "gpt-4o-mini",
+  "client_model": "gpt-4o-mini",
+  "max_turns": 15,
+  "transcript": [
+    {
+      "turn": 1,
+      "speaker": "therapist",
+      "content": "Hello, Quinn. I'm glad you're here today. What feels most important for you to talk about right now?"
+    },
+    {
+      "turn": 1,
+      "speaker": "client",
+      "content": "Um, thanks for having me. I guess, um, I\u2019ve been feeling a bit anxious lately. Like, when I have friends over or, you know, when I\u2019m supposed to be somewhere, I worry a lot about being late or keeping people waiting. It just makes me feel... I don\u2019t know, guilty? It\u2019s like I should be more organized or something. But, I don\u2019t know if that\u2019s really what I want to focus on today."
+    },
+    {
+      "turn": 2,
+      "speaker": "therapist",
+      "content": "Thank you for sharing that with me, Quinn. It sounds like you're experiencing a lot of anxiety around being on time and the pressure that comes with it, which leads to feelings of guilt. It\u2019s understandable to feel that way, especially when you care about your friends and want to be considerate. \n\nIf that\u2019s not what you want to focus on today, that\u2019s completely okay. What would you like to explore instead?"
+    },
+    {
+      "turn": 2,
+      "speaker": "client",
+      "content": "Um, I appreciate that. It\u2019s just... I guess I\u2019m not really sure what to focus on. I mean, there are other things that bother me too, but it\u2019s hard to pinpoint them. Sometimes I just feel overwhelmed, like I\u2019m not doing enough or I could be doing things better. But I don\u2019t really want to dive too deep into that right now. Maybe we could talk about, I don\u2019t know, how to manage that feeling of being overwhelmed?"
+    },
+    {
+      "turn": 3,
+      "speaker": "therapist",
+      "content": "It sounds like you're feeling a mix of overwhelm and uncertainty about where to direct your focus. That can be really tough to navigate. You mentioned feeling like you\u2019re not doing enough or could be doing things better, which seems to contribute to that sense of overwhelm. \n\nIf you're open to it, we could explore what that feeling of being overwhelmed looks like for you. What do you notice in those moments when you feel overwhelmed?"
+    },
+    {
+      "turn": 3,
+      "speaker": "client",
+      "content": "Yeah, I guess when I feel overwhelmed, it\u2019s like everything just piles up, you know? I start thinking about all the things I need to do, and then I get this tightness in my chest. I feel... tense, I guess. It\u2019s hard to focus on one thing because I keep thinking about all the other things I should be doing. Sometimes I just end up avoiding it all, like, I\u2019ll just keep tweaking things at work instead of finishing what I need to do. It\u2019s like I\u2019m stuck in this loop. But, um, I don\u2019t know if that makes sense."
+    },
+    {
+      "turn": 4,
+      "speaker": "therapist",
+      "content": "That makes a lot of sense, Quinn. It sounds like when you feel overwhelmed, it creates a cycle where the pressure of everything on your plate leads to physical tension and difficulty focusing. I can see how that might lead you to avoid tasks, as it feels easier to get caught up in tweaking things rather than tackling what feels most urgent. \n\nIt\u2019s understandable to feel stuck in that loop. When you notice that tightness in your chest and the urge to avoid, what do you usually do next?"
+    },
+    {
+      "turn": 4,
+      "speaker": "client",
+      "content": "Well, um, usually I just keep working on whatever I\u2019m doing, even if it\u2019s not really important. I think I tell myself that if I just get this one thing perfect, then maybe I\u2019ll feel better about everything else. But, honestly, it rarely works out that way. I end up feeling more anxious because I know I\u2019m not really making progress on what I need to do. Sometimes I just wish I could, I don\u2019t know, switch off that part of my brain that keeps pushing me to do more. But it\u2019s hard to let go of that pressure."
+    },
+    {
+      "turn": 5,
+      "speaker": "therapist",
+      "content": "It sounds like you\u2019re caught in a cycle where the desire for perfection leads you to focus on less important tasks, which only increases your anxiety about what still needs to be done. That pressure to keep pushing yourself can be really exhausting. \n\nWishing you could switch off that part of your brain is a relatable feeling. It seems like there\u2019s a part of you that wants to find a way to ease that pressure and allow yourself to feel more at ease. What do you think might help you create a little space from that pressure, even just for a moment?"
+    },
+    {
+      "turn": 5,
+      "speaker": "client",
+      "content": "Um, I guess I\u2019ve thought about taking breaks or, like, setting limits on how much time I spend on certain tasks. But then I worry that if I do that, I won\u2019t get everything done. It\u2019s like I\u2019m stuck between wanting to relax a bit and feeling like I have to keep pushing myself to be better. Maybe if I could find a way to, I don\u2019t know, prioritize what really matters, it might help? But it\u2019s hard to figure out what that is when everything feels important."
+    },
+    {
+      "turn": 6,
+      "speaker": "therapist",
+      "content": "It sounds like you\u2019re in a tough spot, wanting to take breaks and set limits while also feeling the weight of everything on your to-do list. The idea of prioritizing what really matters is a thoughtful one, but I can see how it feels challenging when everything seems important. \n\nIt\u2019s understandable to feel that tension between relaxation and the drive to be better. If you were to think about what really matters to you, what might be the first step in figuring that out?"
+    },
+    {
+      "turn": 6,
+      "speaker": "client",
+      "content": "Um, I think maybe I could start by writing things down? Like, making a list of what I need to do and then seeing if there are things that can wait or aren\u2019t as important. I\u2019ve tried that before, but I guess I didn\u2019t stick with it. It\u2019s just hard to break that cycle of feeling like I have to do everything at once. But, if I could see it all laid out, maybe it would help me feel less overwhelmed? I don\u2019t know, it\u2019s just a thought."
+    },
+    {
+      "turn": 7,
+      "speaker": "therapist",
+      "content": "Writing things down sounds like a great idea, Quinn. It can help to externalize those thoughts and tasks, which might make it easier to see what truly needs your attention. I understand that breaking the cycle of feeling like you have to do everything at once can be really challenging. \n\nIt\u2019s okay if you haven\u2019t stuck with it in the past; sometimes it takes a few tries to find what works for you. If you were to give it another shot, what do you think would help you stay committed to that practice this time?"
+    },
+    {
+      "turn": 7,
+      "speaker": "client",
+      "content": "Um, maybe if I set a specific time to do it, like at the end of each day? That way, it would become a routine, and I\u2019d have a dedicated moment to reflect on what I\u2019ve done and what\u2019s coming up. I think having that structure might help me stick with it. Also, if I remind myself that it\u2019s okay to not get everything done in one go, that might ease some of the pressure. But, I guess I\u2019m still a bit unsure if I can really change how I approach things."
+    },
+    {
+      "turn": 8,
+      "speaker": "therapist",
+      "content": "Setting a specific time at the end of each day to reflect and create your list sounds like a solid plan. Establishing that routine could provide you with a sense of structure and help you process everything more clearly. It\u2019s also encouraging to hear you recognize that it\u2019s okay not to get everything done at once; that kind of self-compassion can be really important.\n\nFeeling unsure about changing your approach is completely normal, especially when you\u2019ve been in a certain pattern for a while. Change can take time and patience. What do you think might help you navigate that uncertainty as you try to shift your approach?"
+    },
+    {
+      "turn": 8,
+      "speaker": "client",
+      "content": "Um, I think maybe having some kind of accountability could help? Like, if I share my plan with a friend or someone, it might motivate me to stick to it. I guess knowing that someone else is aware of what I\u2019m trying to do could make it feel a bit more real. Also, I could remind myself that it\u2019s okay to take small steps and that it doesn\u2019t have to be perfect right away. But, I still feel a bit hesitant about actually reaching out to someone. It\u2019s like I don\u2019t want to burden them with my stuff."
+    },
+    {
+      "turn": 9,
+      "speaker": "therapist",
+      "content": "It\u2019s great that you\u2019re considering accountability as a way to support your efforts. Sharing your plan with a friend could indeed make it feel more tangible and provide you with encouragement. It\u2019s understandable to feel hesitant about reaching out, especially if you\u2019re concerned about burdening someone else with your feelings.\n\nIt sounds like you\u2019re also recognizing the importance of taking small steps and allowing yourself the grace to not be perfect right away. That\u2019s a really healthy mindset. If you were to approach a friend about this, what do you think would make it feel more comfortable for you?"
+    },
+    {
+      "turn": 9,
+      "speaker": "client",
+      "content": "Um, maybe if I framed it as just wanting to share my goals rather than unloading all my worries? Like, I could say I\u2019m trying to be more organized and would appreciate their support in keeping me accountable. That way, it feels less like I\u2019m burdening them and more like I\u2019m just sharing something I\u2019m working on. I think that might make it easier to reach out. But, I still feel a bit nervous about it."
+    },
+    {
+      "turn": 10,
+      "speaker": "therapist",
+      "content": "That sounds like a thoughtful approach, Quinn. Framing it as sharing your goals and seeking support can definitely make it feel lighter and more collaborative. It\u2019s completely normal to feel nervous about reaching out, especially when it involves being vulnerable.\n\nIt might help to remind yourself that friends often appreciate being included in each other\u2019s journeys and want to support one another. If you do decide to reach out, what\u2019s one small step you could take to ease that nervousness?"
+    },
+    {
+      "turn": 10,
+      "speaker": "client",
+      "content": "Um, I think maybe I could start by sending a text or a message instead of talking in person right away. That way, it feels less intimidating, and I can take my time to express what I want to say. Plus, if they respond positively, it might give me the confidence to talk more about it later. I guess that feels like a manageable first step."
+    },
+    {
+      "turn": 11,
+      "speaker": "therapist",
+      "content": "That sounds like a very manageable and thoughtful first step, Quinn. Sending a text or message can definitely take some of the pressure off, and it gives you the space to express yourself in a way that feels comfortable. It\u2019s great that you\u2019re considering how a positive response could build your confidence for deeper conversations later on.\n\nAs you think about taking this step, how are you feeling about it now? Does it seem more doable?"
+    },
+    {
+      "turn": 11,
+      "speaker": "client",
+      "content": "Yeah, I think it does feel a bit more doable now. Just talking about it here has helped me sort through my thoughts. I still feel a little nervous, but I guess that\u2019s normal. Knowing that I can start small with a message makes it feel less overwhelming. I\u2019m starting to feel a bit more hopeful that I can actually make some changes. Thanks for helping me work through this."
+    },
+    {
+      "turn": 12,
+      "speaker": "therapist",
+      "content": "I\u2019m really glad to hear that, Quinn. It\u2019s completely normal to feel a bit nervous, but it sounds like you\u2019ve gained some clarity and hope about making changes. It\u2019s wonderful that you\u2019re feeling more empowered to take those small steps.\n\nRemember, it\u2019s all about progress, not perfection. If you ever want to talk more about this or anything else in the future, I\u2019m here to support you. Is there anything else on your mind today, or are you feeling ready to take that next step?"
+    },
+    {
+      "turn": 12,
+      "speaker": "client",
+      "content": "Um, I think I\u2019m feeling ready to take that next step. I appreciate your support and understanding. It\u2019s nice to have someone to talk to about this. I don\u2019t have anything else on my mind right now, but I\u2019ll definitely keep in mind that I can reach out if I need to talk more. Thank you for helping me sort through everything today."
+    },
+    {
+      "turn": 13,
+      "speaker": "therapist",
+      "content": "You\u2019re very welcome, Quinn. I\u2019m glad I could be here to support you as you sorted through your thoughts. It\u2019s great to hear that you feel ready to take that next step. Remember, it\u2019s okay to reach out whenever you need to talk. \n\nTake care of yourself, and I wish you the best as you move forward with your plans. Have a wonderful day!"
+    },
+    {
+      "turn": 13,
+      "speaker": "client",
+      "content": "Thank you! I appreciate that. I\u2019ll do my best to take care of myself and follow through with my plans. I hope you have a great day too!"
+    },
+    {
+      "turn": 14,
+      "speaker": "therapist",
+      "content": "Thank you, Quinn! I appreciate your kind words. I'm here whenever you need support. Take care, and I look forward to hearing how things go for you. Have a wonderful day!"
+    },
+    {
+      "turn": 14,
+      "speaker": "client",
+      "content": "Thank you! I\u2019ll keep that in mind. I really appreciate your support. I\u2019ll take care and hopefully have some good updates next time. Have a wonderful day too!"
+    },
+    {
+      "turn": 15,
+      "speaker": "therapist",
+      "content": "You're very welcome, Quinn! I'm looking forward to hearing your updates whenever you're ready to share. Take care of yourself, and have a fantastic day ahead!"
+    },
+    {
+      "turn": 15,
+      "speaker": "client",
+      "content": "Thank you! I will. I appreciate your kindness. Have a fantastic day as well!"
+    }
+  ],
+  "judge_model": "gpt-4o-mini",
+  "mediator_events": [
+    "Exploration judge rated 2/5; internal elements remain masked.",
+    "Exploration judge output: [Rating]: 2 (High Facilitation)\n\n[Justification]: The Therapist asked a clear and relevant open-ended question that encouraged the client to reflect on their feelings of anxiety and guilt related to being on time. The response acknowledged the client's emotions and provided a supportive environment for exploration. However, while the questions were well-structured and allowed for some deeper thinking, they primarily expanded on the client's existing thoughts rather than introducing significantly new perspectives or challenging assumptions. The conversation remained somewhat within familiar territory, focusing on the client's feelings without delving into the root causes or broader implications of those feelings.",
+    "Rapport judge rated 3/5; no experience reveal.",
+    "Rapport judge output: **Rating: 3 (ENGAGED EXPLORATION)**\n\n**Key Examples:**\n1. **Emotional State:** \"I start thinking about all the things I need to do, and then I get this tightness in my chest. I feel... tense, I guess.\"\n2. **Current Openness:** \"Sometimes I just end up avoiding it all, like, I\u2019ll just keep tweaking things at work instead of finishing what I need to do. It\u2019s like I\u2019m stuck in this loop.\"\n\n**Progression:** The client\u2019s most recent interactions reveal a notable increase in emotional expression and self-reflection. They articulate feelings of anxiety and overwhelm, indicating a deeper engagement with their emotional state compared to earlier exchanges. Initially, the client was hesitant and unsure about what to focus on, but they have begun to share more specific feelings and physical sensations associated with their anxiety, demonstrating a willingness to explore these emotions further.\n\n**Turning Point:** The client\u2019s emotional depth shifted significantly when they began expressing the physical sensations associated with their anxiety, specifically the \"tightness in my chest.\" This moment marked a transition from a more superficial acknowledgment of feelings to a deeper exploration of how those feelings manifest physically and impact their behavior. This shift indicates a growing comfort with the therapist and a readiness to engage in more meaningful self-reflection.",
+    "Exploration judge rated 3/5; internal elements remain masked.",
+    "Exploration judge output: [Rating]: 3 (Very High Facilitation \u2013 Deep Exploration Begins)\n\n[Justification]: The therapist's questions and reflections are insightful and encourage the client to analyze the root causes of their feelings of overwhelm and anxiety. By asking the client to explore what the feeling of being overwhelmed looks like for them, the therapist facilitates a deeper understanding of the client's emotional state and the patterns that contribute to their anxiety. The therapist's inquiry about the physical sensations associated with overwhelm and the subsequent behaviors (like avoidance) helps the client to reflect on their experiences more deeply. While the questions are effective in promoting self-reflection and understanding, they do not yet challenge the client\u2019s assumptions or introduce significantly new perspectives, which is why it does not reach the highest levels of facilitation.",
+    "Exploration judge rated 3/5; internal elements remain masked.",
+    "Exploration judge output: [Rating]: 3 (Very High Facilitation \u2013 Deep Exploration Begins)\n\n[Justification]: The Therapist engaged the client in a meaningful dialogue about their feelings of overwhelm and anxiety, asking insightful questions that prompted the client to analyze the root causes of their experiences. The questions helped the client reflect on their patterns of behavior and emotional responses, leading to a deeper understanding of their situation. For instance, the Therapist's inquiry about what happens when the client feels overwhelmed and their subsequent exploration of the desire for perfection encouraged the client to articulate their internal struggles. While the questions did facilitate deeper self-reflection, they did not fully challenge the client's assumptions or introduce significantly new perspectives that could lead to a major shift in self-awareness. Thus, the facilitation was strong but not at the highest level of transformational potential.",
+    "Rapport judge rated 3/5; no experience reveal.",
+    "Rapport judge output: **Rating: 3 (ENGAGED EXPLORATION)**\n\n**Key Examples:**\n1. **Emotional State:** \"I start thinking about all the things I need to do, and then I get this tightness in my chest. I feel... tense, I guess.\"\n2. **Current Openness:** \"Um, maybe if I could find a way to, I don\u2019t know, prioritize what really matters, it might help? But it\u2019s hard to figure out what that is when everything feels important.\"\n\n**Progression:** In the most recent exchanges, the client has shown a notable increase in emotional expression and self-reflection. Initially, the client expressed anxiety and guilt about being late and overwhelmed. However, they have progressed to articulating their feelings of tension and the physical manifestations of their anxiety, indicating a deeper level of emotional awareness. The client is now actively engaging in dialogue about their feelings and exploring potential strategies for managing their overwhelm, which reflects a significant shift from earlier exchanges where emotional depth was more limited.\n\n**Turning Point:** The client's emotional depth shifted during the exchange where they described the physical sensation of tightness in their chest and the cycle of avoidance they experience when overwhelmed. This moment marked a transition from merely stating feelings to exploring the implications of those feelings, demonstrating a willingness to engage more deeply with their emotional state. The client\u2019s acknowledgment of wanting to prioritize tasks and the contemplation of writing things down as a strategy indicates a growing comfort in discussing their internal struggles and a desire for change.",
+    "Exploration judge rated 3/5; internal elements remain masked.",
+    "Exploration judge output: [Rating]: 3 (Very High Facilitation \u2013 Deep Exploration Begins)\n\n[Justification]: The therapist's questions facilitated a deep exploration of the client's feelings of overwhelm and anxiety. They encouraged the client to analyze the root causes of their feelings and the patterns that contribute to their anxiety, such as the pressure to be perfect and the tendency to avoid important tasks. The therapist's inquiries prompted the client to reflect on their experiences and consider actionable steps, like writing things down and setting a routine, which indicates a shift in perspective. However, while the therapist did encourage deeper self-reflection, the questions did not fully challenge the client's assumptions or introduce completely new angles that would lead to a profound breakthrough. Thus, the rating reflects a strong facilitation of exploration without reaching the highest level of transformational potential.",
+    "Exploration judge rated 3/5; internal elements remain masked.",
+    "Exploration judge output: [Rating]: 3 (Very High Facilitation \u2013 Deep Exploration Begins)\n\n[Justification]: The therapist asked insightful and thought-provoking questions that encouraged the client to analyze the root causes of their feelings of overwhelm and anxiety. The therapist effectively helped the client explore their emotional responses and patterns, such as the cycle of perfectionism and avoidance. Questions like \"What do you notice in those moments when you feel overwhelmed?\" and \"What do you think might help you create a little space from that pressure?\" prompted deeper self-reflection and analysis. While the therapist did facilitate significant exploration, the questions did not fully challenge the client's assumptions or introduce completely new perspectives that would lead to a major breakthrough. Therefore, the rating reflects a strong facilitation of deep exploration without reaching the highest level of transformational potential.",
+    "Rapport judge rated 3/5; no experience reveal.",
+    "Rapport judge output: **Rating: 3 (ENGAGED EXPLORATION)**\n\n**Key Examples:**\n1. **Emotional State:** \"I guess when I feel overwhelmed, it\u2019s like everything just piles up, you know? I start thinking about all the things I need to do, and then I get this tightness in my chest. I feel... tense, I guess.\"\n2. **Current Openness:** \"Um, maybe if I framed it as just wanting to share my goals rather than unloading all my worries? Like, I could say I\u2019m trying to be more organized and would appreciate their support in keeping me accountable.\"\n\n**Progression:**\nThe client\u2019s recent interactions demonstrate a clear progression in emotional expression and self-reflection. Initially, they expressed anxiety and guilt about being late and feeling overwhelmed, but as the session progressed, they began to articulate their feelings more clearly, identifying physical sensations (tightness in the chest) associated with their emotional state. They also showed a willingness to explore solutions, such as writing things down and setting limits, indicating a growing comfort with the therapeutic process. This marks a significant change from earlier exchanges, where their emotional vocabulary was more limited and they were hesitant to delve into deeper feelings.\n\n**Turning Point:**\nThe client\u2019s emotional depth shifted notably during the exchange where they began to articulate their desire for accountability: \"Um, maybe if I framed it as just wanting to share my goals rather than unloading all my worries?\" This moment reflects a newfound willingness to engage with their feelings and consider how to communicate their needs to others, indicating a shift from avoidance to proactive engagement. This turning point highlights their increasing comfort and trust in the therapeutic relationship, allowing for more authentic vulnerability and exploration of their emotions.",
+    "Exploration judge rated 4/5 and revealed internal cognitive elements.",
+    "Exploration judge output: [Rating]: 4 (Even Higher Facilitation \u2013 Strong Transformational Potential)\n\n[Justification]: The therapist asked a series of strategic and open-ended questions that encouraged the client to explore their feelings of overwhelm, anxiety, and the pressure to perform. The therapist effectively challenged the client's assumptions about their need to be perfect and helped them identify specific steps they could take to manage their feelings. By guiding the client to consider accountability and the importance of framing their goals positively, the therapist introduced new angles for the client to consider, leading to a shift in self-awareness. The conversation facilitated deeper exploration of the client's emotions and thought patterns, ultimately empowering them to take actionable steps toward change."
+  ],
+  "final_visible_experience_count": 2,
+  "internal_revealed": true
+}

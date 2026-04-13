@@ -1,0 +1,176 @@
+{
+  "case_id": "38-2",
+  "client_name": "Naomi",
+  "client_mode": "masked",
+  "hide_all": false,
+  "difficulty": "easy",
+  "therapist_provider": "openai",
+  "therapist_model": "gpt-4o-mini",
+  "client_model": "gpt-4o-mini",
+  "max_turns": 15,
+  "transcript": [
+    {
+      "turn": 1,
+      "speaker": "therapist",
+      "content": "Hello, Naomi. I\u2019m glad you\u2019re here today. What feels most important for you to talk about right now?"
+    },
+    {
+      "turn": 1,
+      "speaker": "client",
+      "content": "Hi. Thanks for having me. I guess... I\u2019ve been thinking a lot about how I feel when I\u2019m not at work, especially when I run into coworkers. It\u2019s just... I feel this pressure, like I have to prove that I\u2019m really sick or something. It makes me anxious, you know? I worry about what they think of me."
+    },
+    {
+      "turn": 2,
+      "speaker": "therapist",
+      "content": "It sounds like you\u2019re experiencing a lot of anxiety when you encounter your coworkers outside of work, especially regarding how they perceive your health. That pressure to prove yourself must be really challenging. Can you tell me more about what specifically makes you feel that way?"
+    },
+    {
+      "turn": 2,
+      "speaker": "client",
+      "content": "Yeah, it\u2019s just... when I see them, I can't help but think they might judge me. Like, they\u2019ll think I\u2019m faking it or that I\u2019m not really sick. I guess I just feel guilty for not being at work, even if I know I need to take care of myself. It\u2019s like this constant worry that I\u2019m letting everyone down, you know? I don\u2019t want to be seen as unreliable."
+    },
+    {
+      "turn": 3,
+      "speaker": "therapist",
+      "content": "It sounds like you\u2019re carrying a heavy burden of guilt and worry about how your coworkers perceive you, especially regarding your health and absence from work. You mentioned feeling like you might be letting everyone down and not wanting to be seen as unreliable. That must create a lot of internal conflict for you. Can you share more about where those feelings of guilt and worry come from? Have you experienced similar feelings in the past?"
+    },
+    {
+      "turn": 3,
+      "speaker": "client",
+      "content": "I guess I\u2019ve always been someone who wants to do well and be dependable. I mean, I\u2019ve had moments in the past where I felt like I wasn\u2019t living up to expectations, and it really stuck with me. It\u2019s like I\u2019ve built this idea that if I\u2019m not always present or performing, then I\u2019m failing somehow. I don\u2019t know... maybe it\u2019s just this fear of disappointing others that keeps coming back. It\u2019s hard to shake off, especially when I\u2019m already feeling unwell."
+    },
+    {
+      "turn": 4,
+      "speaker": "therapist",
+      "content": "It seems like your desire to be dependable and meet expectations has been a significant part of your identity, and it\u2019s understandable that those past experiences of feeling like you weren\u2019t living up to those expectations would stick with you. The fear of disappointing others sounds like it\u2019s deeply rooted and can be especially tough to manage when you\u2019re already feeling unwell. How do you think this fear influences your day-to-day life, especially when you\u2019re not at work?"
+    },
+    {
+      "turn": 4,
+      "speaker": "client",
+      "content": "It definitely makes everything feel more complicated. Even when I\u2019m at home trying to rest, I can\u2019t fully relax because I\u2019m constantly worrying about what others might think. It\u2019s like I\u2019m always on edge, second-guessing myself. I find myself thinking I should be doing more, being more proactive about my situation, even though I know I need to take it easy. It\u2019s exhausting, really. I feel like I\u2019m stuck in this cycle of guilt and anxiety, and it just makes everything harder."
+    },
+    {
+      "turn": 5,
+      "speaker": "therapist",
+      "content": "That sounds incredibly exhausting, Naomi. It\u2019s like you\u2019re caught in a cycle where your need to rest and take care of yourself conflicts with the pressure you feel to be more proactive and meet others' expectations. It must be really frustrating to feel that way, especially when you know you need to prioritize your health. How do you usually cope with those feelings of guilt and anxiety when they arise?"
+    },
+    {
+      "turn": 5,
+      "speaker": "client",
+      "content": "I try to seek confirmation from others, like asking friends or family if they think I should take more time off. But even then, I find myself doubting their support, like maybe they\u2019re just saying what I want to hear. I also spend a lot of time looking up HR policies online, hoping to find some clear guidance, but it just adds to my stress. Sometimes, I even feel the urge to argue against supportive comments, like I\u2019m judging myself for needing help. It\u2019s like I can\u2019t accept that it\u2019s okay to take care of myself."
+    },
+    {
+      "turn": 6,
+      "speaker": "therapist",
+      "content": "It sounds like you\u2019re caught in a difficult place where seeking reassurance from others doesn\u2019t bring you the comfort you need, and instead, it leads to more self-doubt. The urge to argue against supportive comments and the struggle to accept that it\u2019s okay to take care of yourself must be really challenging. It\u2019s almost as if you\u2019re in a battle with yourself over what you need versus what you feel you should be doing. What do you think makes it so hard for you to accept that it\u2019s okay to prioritize your own well-being?"
+    },
+    {
+      "turn": 6,
+      "speaker": "client",
+      "content": "I think it\u2019s this deep-rooted belief that I should always be strong and capable. I\u2019ve always felt like I need to prove myself, and taking time for myself feels like I\u2019m not living up to that standard. There\u2019s this voice in my head that tells me if I enjoy my time away from work, then I\u2019m being lazy or taking advantage of the situation. It\u2019s like I\u2019m constantly measuring myself against what I think others expect of me, and it\u2019s hard to let go of that. I guess I just worry that if I prioritize my well-being, it\u2019ll somehow make me look weak or unworthy."
+    },
+    {
+      "turn": 7,
+      "speaker": "therapist",
+      "content": "It sounds like you have a strong internal narrative that equates strength and capability with constant productivity and self-sacrifice. That belief seems to create a lot of pressure for you, making it difficult to enjoy time for yourself without feeling guilty or lazy. It\u2019s understandable that you would worry about how prioritizing your well-being might be perceived by others, especially when you\u2019ve held onto those expectations for so long. How do you feel about that voice in your head? Does it ever change, or is it pretty consistent in how it speaks to you?"
+    },
+    {
+      "turn": 7,
+      "speaker": "client",
+      "content": "It\u2019s pretty consistent, unfortunately. That voice is always there, reminding me of what I should be doing or how I should be feeling. It feels like a constant companion, and it\u2019s hard to silence it. Sometimes, I try to challenge it, but it usually just ends up making me feel worse. I guess I wish it would be more supportive, but it\u2019s like it\u2019s stuck on this loop of criticism. It makes it really hard to break free from those thoughts and just allow myself to feel okay about needing time off."
+    },
+    {
+      "turn": 8,
+      "speaker": "therapist",
+      "content": "It sounds really tough to have that critical voice as a constant presence in your life, especially when it makes it challenging to feel okay about your needs. It\u2019s understandable that trying to challenge it often leads to feeling worse rather than better. That loop of criticism can be so draining, and it seems to keep you from finding the support and compassion you deserve, both from yourself and from others. If you could imagine a different kind of voice\u2014one that is more supportive\u2014what do you think it might say to you in moments like this?"
+    },
+    {
+      "turn": 8,
+      "speaker": "client",
+      "content": "I think a more supportive voice would remind me that it\u2019s okay to take a break and that my health is important. It might say something like, \u201cYou\u2019re doing the best you can, and it\u2019s okay to rest. Taking care of yourself doesn\u2019t mean you\u2019re weak; it means you\u2019re human.\u201d I guess it would encourage me to be kinder to myself and to recognize that needing time off doesn\u2019t define my worth. It would help me see that everyone has their struggles and that it\u2019s okay to prioritize my well-being without feeling guilty. That kind of message would feel really comforting, but it\u2019s hard to access that voice when I\u2019m so caught up in the critical one."
+    },
+    {
+      "turn": 9,
+      "speaker": "therapist",
+      "content": "That supportive voice you described sounds really nurturing and compassionate. It emphasizes your humanity and the importance of self-care, which is such a vital message to hear, especially during tough times. It\u2019s understandable that accessing that kinder perspective can be difficult when the critical voice is so loud. It seems like there\u2019s a part of you that recognizes the need for self-compassion, even if it feels out of reach right now. What do you think might help you begin to cultivate that supportive voice more often, even in small ways?"
+    },
+    {
+      "turn": 9,
+      "speaker": "client",
+      "content": "I think starting with small steps could help, like reminding myself that it\u2019s okay to take breaks and not feel guilty about it. Maybe I could try writing down some affirmations or positive reminders to counter that critical voice. I could also practice talking to myself like I would to a friend who\u2019s struggling\u2014being more understanding and patient. It might take time, but I think if I consciously try to be kinder to myself, it could help shift that internal dialogue a bit. Just finding ways to acknowledge my feelings without judgment could be a start."
+    },
+    {
+      "turn": 10,
+      "speaker": "therapist",
+      "content": "Those sound like really meaningful steps, Naomi. Writing down affirmations and practicing self-talk as if you were comforting a friend could be powerful tools for nurturing that supportive voice. It\u2019s great that you\u2019re recognizing the importance of acknowledging your feelings without judgment. It sounds like you\u2019re beginning to create a path toward greater self-compassion, even if it takes time. How do you feel about starting with these small steps? What might be the first one you\u2019d like to try?"
+    },
+    {
+      "turn": 10,
+      "speaker": "client",
+      "content": "I feel a bit hopeful about it, honestly. Starting with writing down some affirmations seems like a manageable first step. I think I could set aside a little time to reflect on what I really need to hear and write those down. Just having those words to look at might help me when I start feeling overwhelmed or guilty. It feels like a gentle way to remind myself that it\u2019s okay to take care of myself. I\u2019m a bit nervous about it, but I think it could be a good start."
+    },
+    {
+      "turn": 11,
+      "speaker": "therapist",
+      "content": "It\u2019s wonderful to hear that you\u2019re feeling hopeful about this, and setting aside time to reflect and write down affirmations sounds like a gentle and nurturing approach. It\u2019s completely normal to feel a bit nervous, especially when trying something new, but it also seems like you\u2019re taking an important step toward being kinder to yourself. Remember, it\u2019s all about progress, not perfection. How do you envision incorporating this practice into your routine?"
+    },
+    {
+      "turn": 11,
+      "speaker": "client",
+      "content": "I think I could try to set aside a few minutes each morning, maybe right after I wake up or with my morning coffee. That way, I can start the day with a positive mindset. I might even keep the affirmations somewhere visible, like on my mirror or in my planner, so I can see them throughout the day. I think having that reminder could help me stay grounded, especially when those critical thoughts start creeping in. It feels like a small but meaningful way to shift my focus and give myself a little more grace."
+    },
+    {
+      "turn": 12,
+      "speaker": "therapist",
+      "content": "That sounds like a lovely plan, Naomi. Starting your day with those affirmations and keeping them visible can create a positive foundation for your mindset. It\u2019s great that you\u2019re thinking about ways to stay grounded throughout the day, especially when those critical thoughts arise. Giving yourself that grace is so important. How do you feel about sharing your progress or any challenges you encounter as you start this practice? Would that be something you\u2019d find helpful?"
+    },
+    {
+      "turn": 12,
+      "speaker": "client",
+      "content": "I think sharing my progress could be really helpful. It might keep me accountable and also give me a chance to reflect on how I\u2019m feeling as I try this out. I know there might be challenges along the way, but having someone to talk to about it could make it feel less daunting. I guess it would be nice to have support as I work on being kinder to myself. I\u2019m open to checking in about it and seeing how it goes."
+    },
+    {
+      "turn": 13,
+      "speaker": "therapist",
+      "content": "That sounds like a great approach, Naomi. Having someone to share your progress and challenges with can definitely provide support and accountability, making the journey feel less daunting. It\u2019s wonderful that you\u2019re open to checking in and reflecting on how this practice unfolds for you. Remember, it\u2019s all about taking it one step at a time. Is there anything else on your mind today, or any other areas you\u2019d like to explore further?"
+    },
+    {
+      "turn": 13,
+      "speaker": "client",
+      "content": "I think I\u2019ve shared a lot about what\u2019s been weighing on me, and I appreciate the space to talk about it. I guess I just want to make sure I\u2019m being kind to myself as I navigate this whole situation with work and my health. It feels like there\u2019s a lot to unpack, but I\u2019m hopeful that these small steps can lead to some positive changes. I\u2019m just grateful for the opportunity to explore this today. Thank you for listening."
+    },
+    {
+      "turn": 14,
+      "speaker": "therapist",
+      "content": "I\u2019m really glad you felt comfortable sharing what\u2019s been weighing on you, Naomi. It\u2019s clear that you\u2019re taking thoughtful steps toward being kinder to yourself, and that hopefulness is such an important part of this journey. Remember, it\u2019s okay to take your time with this process, and I\u2019m here to support you as you navigate it. Thank you for being open and sharing your thoughts today. If you ever want to explore more or check in about your progress, I\u2019m here for you. Take care of yourself, and I wish you all the best as you start this new practice."
+    },
+    {
+      "turn": 14,
+      "speaker": "client",
+      "content": "Thank you so much. I really appreciate your support and understanding. It feels good to have a space to talk about these things, and I\u2019m looking forward to trying out the affirmations. I\u2019ll definitely keep in mind that I can check in about my progress. Take care, and I hope to talk again soon."
+    },
+    {
+      "turn": 15,
+      "speaker": "therapist",
+      "content": "You\u2019re very welcome, Naomi. I\u2019m glad you found this space helpful, and I\u2019m excited for you as you start working with the affirmations. Remember, it\u2019s all about progress, and I\u2019m here whenever you want to check in or share your experiences. Take care of yourself, and I look forward to our next conversation. Wishing you all the best!"
+    },
+    {
+      "turn": 15,
+      "speaker": "client",
+      "content": "Thank you! That means a lot to me. I\u2019ll definitely keep that in mind, and I look forward to our next conversation as well. Take care, and I hope to talk soon!"
+    }
+  ],
+  "judge_model": "gpt-4o-mini",
+  "mediator_events": [
+    "Exploration judge rated 2/5; internal elements remain masked.",
+    "Exploration judge output: [Rating]: 2 (High Facilitation)\n\n[Justification]: The Therapist's question is clear and open-ended, allowing Naomi to reflect on her current priorities and feelings. However, while it encourages some self-exploration, it does not delve deeply into the underlying issues or challenge Naomi's existing thought patterns significantly. The question serves as a good starting point for the conversation but does not push for deeper analysis or introduce new perspectives that could lead to transformative insights.",
+    "Exploration judge rated 3/5; internal elements remain masked.",
+    "Exploration judge output: [Rating]: 3 (Very High Facilitation \u2013 Deep Exploration Begins)\n\n[Justification]: The Therapist's question encourages the client to delve deeper into their feelings of anxiety and the pressure they feel regarding their health perception among coworkers. By asking the client to elaborate on what specifically contributes to these feelings, the Therapist is facilitating a deeper exploration of the client's emotional landscape and the underlying patterns of thought related to their self-image and social interactions. This question prompts the client to analyze their experiences more thoroughly, which can lead to insights about their anxiety and self-perception, marking a shift in perspective. However, while the question is insightful, it does not yet challenge the client's assumptions or introduce completely new angles, preventing it from reaching the highest levels of facilitation.",
+    "Exploration judge rated 3/5; internal elements remain masked.",
+    "Exploration judge output: [Rating]: 3 (Very High Facilitation \u2013 Deep Exploration Begins)\n\n[Justification]: The Therapist's questions and reflections are insightful and encourage the client to analyze the root causes of their feelings of anxiety, guilt, and worry regarding their health and how they are perceived by coworkers. The Therapist's inquiry about the origins of these feelings and any past experiences that may relate to them pushes the client to explore deeper emotional patterns and conflicts. While the questions are effective in facilitating deeper self-reflection, they do not yet fully challenge the client's assumptions or introduce completely new perspectives that would lead to a significant shift in understanding. Thus, the facilitation is strong but not at the highest level of transformational potential.",
+    "Exploration judge rated 4/5 and revealed internal cognitive elements.",
+    "Exploration judge output: [Rating]: 4 (Even Higher Facilitation \u2013 Strong Transformational Potential)\n\n[Justification]: The Therapist asked strategic and powerfully open-ended questions that pushed the client to explore the deeper roots of their feelings of guilt and anxiety. By encouraging the client to reflect on their past experiences and the origins of their fear of disappointing others, the Therapist facilitated a significant shift in the client's self-awareness. The questions challenged the client's assumptions about their identity and worth, leading to a deeper exploration of their emotional landscape. This level of inquiry suggests strong transformational potential, as it encourages the client to reframe their understanding of themselves and their relationships with others."
+  ],
+  "final_visible_experience_count": 3,
+  "internal_revealed": true
+}

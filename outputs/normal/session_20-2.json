@@ -1,0 +1,180 @@
+{
+  "case_id": "20-2",
+  "client_name": "Patrick",
+  "client_mode": "masked",
+  "hide_all": false,
+  "difficulty": "normal",
+  "therapist_provider": "openai",
+  "therapist_model": "gpt-4o-mini",
+  "client_model": "gpt-4o-mini",
+  "max_turns": 15,
+  "transcript": [
+    {
+      "turn": 1,
+      "speaker": "therapist",
+      "content": "Hello, Patrick. I'm glad you're here today. What feels most important for you to talk about right now?"
+    },
+    {
+      "turn": 1,
+      "speaker": "client",
+      "content": "Um, hi. Thanks for having me. I guess, um, I\u2019ve been feeling a bit overwhelmed at work lately. There\u2019s this, uh, micromanagement thing going on, and it\u2019s just... it\u2019s hard to shake off. I don\u2019t know if it\u2019s worth diving into, though. It\u2019s probably just me not doing enough or something."
+    },
+    {
+      "turn": 2,
+      "speaker": "therapist",
+      "content": "Thank you for sharing that, Patrick. It sounds like the micromanagement at work is really weighing on you, and it\u2019s understandable to feel overwhelmed by it. You mentioned feeling like it might be something about not doing enough\u2014can you tell me more about that thought?"
+    },
+    {
+      "turn": 2,
+      "speaker": "client",
+      "content": "Well, it\u2019s just... whenever I get feedback, it feels like it\u2019s never quite enough, you know? Like, no matter how hard I try, I end up thinking that I\u2019m not meeting their expectations. It makes me anxious, and I start to wonder if I\u2019m even cut out for this job. I guess I just... I don\u2019t want to disappoint anyone, but it feels like I\u2019m always falling short."
+    },
+    {
+      "turn": 3,
+      "speaker": "therapist",
+      "content": "It sounds really tough to feel that way, Patrick. That constant sense of not meeting expectations and the anxiety it brings can be really draining. You mentioned worrying about disappointing others and feeling like you\u2019re falling short\u2014what do you think that says about how you view your own performance or worth in your job?"
+    },
+    {
+      "turn": 3,
+      "speaker": "client",
+      "content": "Um, I suppose it makes me feel like I\u2019m not really good enough. Like, if I can\u2019t meet their expectations, then maybe I\u2019m just not competent at what I do. It\u2019s frustrating because I want to do well, but then I get stuck in this loop of thinking I\u2019m not doing enough. It\u2019s hard to shake off those thoughts, and they just keep coming back. I don\u2019t know, maybe I just need to try harder or something."
+    },
+    {
+      "turn": 4,
+      "speaker": "therapist",
+      "content": "It sounds like you\u2019re caught in a challenging cycle, where the pressure to meet expectations leads to self-doubt and frustration. Feeling like you\u2019re not good enough can be really heavy to carry. When you say you might just need to try harder, it seems like there\u2019s a lot of pressure you\u2019re putting on yourself. Can you share more about where that belief comes from?"
+    },
+    {
+      "turn": 4,
+      "speaker": "client",
+      "content": "I guess it\u2019s just... I\u2019ve always felt this need to prove myself, especially in a work environment. Maybe it\u2019s from past experiences, like, when I\u2019ve been in situations where I didn\u2019t feel supported or where I was criticized a lot. It\u2019s like I internalized that I have to constantly show I\u2019m capable, or else... I don\u2019t know, I\u2019ll be seen as a failure? It\u2019s just hard to let go of that pressure, even when I know it might not be entirely fair to myself."
+    },
+    {
+      "turn": 5,
+      "speaker": "therapist",
+      "content": "It sounds like those past experiences have really shaped how you view your capabilities and the pressure you feel to prove yourself. It\u2019s understandable that you\u2019d internalize that need for validation, especially if you\u2019ve faced criticism or a lack of support before. Recognizing that this pressure might not be fair to yourself is an important insight. How do you feel when you think about letting go of that pressure to constantly prove yourself?"
+    },
+    {
+      "turn": 5,
+      "speaker": "client",
+      "content": "Honestly, it\u2019s a bit scary to think about. Letting go of that pressure feels like... like I\u2019d be taking a risk. What if I don\u2019t meet expectations? What if I\u2019m not good enough? But at the same time, I know it\u2019s exhausting to keep pushing myself like this. I guess there\u2019s a part of me that wishes I could just relax and do my job without all this weight on my shoulders. It\u2019s just hard to imagine what that would look like."
+    },
+    {
+      "turn": 6,
+      "speaker": "therapist",
+      "content": "It makes sense that letting go of that pressure feels scary, especially when it\u2019s tied to your sense of self-worth and job performance. The fear of not meeting expectations can be really paralyzing. Yet, it sounds like there\u2019s also a part of you that longs for a lighter experience at work, where you can just focus on your tasks without that heavy weight. What do you think might help you start to envision what that lighter experience could look like for you?"
+    },
+    {
+      "turn": 6,
+      "speaker": "client",
+      "content": "Um, I think maybe it would help to, like, take a step back and really think about what success means to me, rather than just what I think others expect. Like, maybe I could focus on my own goals and what I feel is important in my work. I guess it could also be helpful to talk to someone about it, maybe get some feedback that isn\u2019t just about criticism. But then again, I worry that if I do that, I might just end up feeling more inadequate. It\u2019s tough to balance those thoughts."
+    },
+    {
+      "turn": 7,
+      "speaker": "therapist",
+      "content": "That sounds like a really thoughtful approach, Patrick. Taking a step back to define success on your own terms could be a powerful way to shift your perspective. It\u2019s also understandable to feel hesitant about seeking feedback, especially if you\u2019re worried it might reinforce those feelings of inadequacy. Balancing those thoughts can be challenging. What do you think would help you feel more comfortable in seeking that feedback or support?"
+    },
+    {
+      "turn": 7,
+      "speaker": "client",
+      "content": "I think maybe it would help if I could approach it with a mindset of learning rather than just trying to prove myself. Like, if I could remind myself that feedback is just a way to grow, not a judgment on my worth. It might also help to talk to someone I trust, someone who understands what I\u2019m going through. But, um, I still worry about how I\u2019ll react to that feedback. It\u2019s just hard to separate my self-worth from my work sometimes."
+    },
+    {
+      "turn": 8,
+      "speaker": "therapist",
+      "content": "That\u2019s a really insightful perspective, Patrick. Approaching feedback as a learning opportunity rather than a judgment on your worth could create a healthier mindset. It\u2019s great that you\u2019re considering talking to someone you trust, as having that support can make a big difference. It\u2019s completely normal to feel concerned about how you might react to feedback, especially when your self-worth feels intertwined with your work. How do you think you could prepare yourself to receive feedback in a way that feels safer and more constructive?"
+    },
+    {
+      "turn": 8,
+      "speaker": "client",
+      "content": "Um, I think maybe I could try to set some intentions before seeking feedback. Like, reminding myself that it\u2019s okay to make mistakes and that everyone has room to grow. I could also, I don\u2019t know, write down some questions or specific areas I want feedback on, so it feels more focused. That way, it\u2019s not just a general critique, but something I can actually work with. I guess having a plan might help me feel a bit more in control and less anxious about it."
+    },
+    {
+      "turn": 9,
+      "speaker": "therapist",
+      "content": "Those sound like excellent strategies, Patrick. Setting intentions and framing feedback in a more focused way can definitely help create a sense of control and reduce anxiety. It\u2019s encouraging to hear you\u2019re thinking about how to make the process feel more constructive and less overwhelming. How do you feel about taking those steps? Do they seem manageable to you?"
+    },
+    {
+      "turn": 9,
+      "speaker": "client",
+      "content": "Yeah, I think they do seem manageable. It feels like a small step I can take, which is nice. I mean, it\u2019s still a bit daunting, but having a plan makes it feel less overwhelming. I guess if I can just remind myself that it\u2019s part of the process and not a reflection of my worth, it might help. I just hope I can stick to that mindset when the time comes. It\u2019s a bit of a balancing act, but I think I can try."
+    },
+    {
+      "turn": 10,
+      "speaker": "therapist",
+      "content": "It\u2019s great to hear that you feel those steps are manageable, Patrick. Acknowledging that it\u2019s a balancing act is important, and it\u2019s completely normal to feel a bit daunted by the process. Reminding yourself that feedback is part of growth, rather than a reflection of your worth, can be a powerful mindset shift. As you prepare to take these steps, what do you think might help you stay grounded in that mindset when you receive feedback?"
+    },
+    {
+      "turn": 10,
+      "speaker": "client",
+      "content": "Um, I think maybe I could practice some self-compassion. Like, reminding myself that everyone makes mistakes and that it\u2019s okay to not have everything figured out. I could also try to take a few deep breaths before and after receiving feedback, just to help calm my nerves. Maybe even keep a journal to reflect on my thoughts and feelings after I get feedback, so I can process it better. I guess having those little reminders could help me stay grounded and not spiral into self-criticism."
+    },
+    {
+      "turn": 11,
+      "speaker": "therapist",
+      "content": "Those are wonderful ideas, Patrick. Practicing self-compassion and using deep breathing techniques can really help create a sense of calm and perspective when receiving feedback. Keeping a journal to reflect on your thoughts and feelings afterward is a great way to process the experience and reinforce your learning. It sounds like you\u2019re building a solid toolkit to support yourself through this. How do you feel about starting to implement these practices? What do you think might be your first step?"
+    },
+    {
+      "turn": 11,
+      "speaker": "client",
+      "content": "I feel a bit more hopeful about it, actually. I think my first step could be to set aside some time to write down those intentions and the strategies we talked about. Just having it all laid out might help me feel more prepared. I could also start practicing some deep breathing exercises, maybe even before I go into work. It feels good to have a plan, and I think taking that first step could help me feel more in control. I just hope I can remember to be kind to myself along the way."
+    },
+    {
+      "turn": 12,
+      "speaker": "therapist",
+      "content": "It\u2019s wonderful to hear that you\u2019re feeling more hopeful, Patrick. Setting aside time to write down your intentions and strategies sounds like a great first step, and practicing deep breathing before work can help set a positive tone for your day. It\u2019s completely natural to want to remind yourself to be kind along the way, and it sounds like you\u2019re building a compassionate approach to this process. As you move forward, what do you think will help you stay connected to that kindness and self-compassion?"
+    },
+    {
+      "turn": 12,
+      "speaker": "client",
+      "content": "I think maybe I could create some reminders for myself, like, little notes or quotes that encourage self-compassion. I could put them somewhere I\u2019ll see them often, like on my desk or in my journal. Also, I could try to check in with myself regularly, just to see how I\u2019m feeling and remind myself that it\u2019s okay to not be perfect. I guess having those little nudges could help me stay connected to that kindness, especially when things get tough. It\u2019s nice to think I can have some support for myself, even if it\u2019s just from me."
+    },
+    {
+      "turn": 13,
+      "speaker": "therapist",
+      "content": "Those are fantastic ideas, Patrick. Creating reminders and checking in with yourself regularly can serve as powerful tools to keep that sense of self-compassion alive. It\u2019s great to hear that you\u2019re recognizing the importance of supporting yourself through this process. Having those little nudges can make a big difference, especially during challenging moments. As you think about implementing these reminders, how do you feel about the support you\u2019re offering yourself?"
+    },
+    {
+      "turn": 13,
+      "speaker": "client",
+      "content": "I feel like it\u2019s a step in the right direction. It\u2019s nice to think that I can be there for myself, even if it feels a bit new. I guess it\u2019s comforting to know that I\u2019m trying to create a more supportive environment for myself, rather than just relying on others for validation. It feels empowering, in a way, to take that initiative. I just hope I can remember to be patient with myself as I navigate all of this. It\u2019s a bit of a journey, but I think I\u2019m starting to see it as something I can manage."
+    },
+    {
+      "turn": 14,
+      "speaker": "therapist",
+      "content": "It\u2019s wonderful to hear that you\u2019re feeling empowered by taking these steps, Patrick. Creating a supportive environment for yourself is a significant shift, and it\u2019s great that you\u2019re recognizing the importance of patience as you navigate this journey. It\u2019s completely normal for it to feel new, but it sounds like you\u2019re building a strong foundation for yourself. As you move forward, what do you think will help you stay committed to this journey of self-support and patience?"
+    },
+    {
+      "turn": 14,
+      "speaker": "client",
+      "content": "I think keeping track of my progress could really help. Maybe I could set aside some time each week to reflect on how I\u2019m feeling and what\u2019s working for me. That way, I can celebrate the small wins and see how far I\u2019ve come. I could also remind myself that it\u2019s okay to have setbacks; they don\u2019t define my worth or my progress. I guess having that regular check-in could help me stay committed and keep me focused on the positive changes I\u2019m trying to make. It feels good to think about it that way."
+    },
+    {
+      "turn": 15,
+      "speaker": "therapist",
+      "content": "That sounds like a great plan, Patrick. Setting aside time each week to reflect on your feelings and progress can really help you stay connected to your journey and celebrate those small wins. Acknowledging that setbacks are part of the process and don\u2019t define your worth is an important mindset shift. It\u2019s encouraging to see you focusing on the positive changes you\u2019re making. How do you feel about starting this weekly reflection practice? What do you think might be the best way to begin?"
+    },
+    {
+      "turn": 15,
+      "speaker": "client",
+      "content": "I feel pretty good about starting the weekly reflection practice. It seems like a nice way to check in with myself and really acknowledge what I\u2019m experiencing. I think I could begin by picking a specific day and time each week, maybe Sunday evenings, to sit down and write in my journal. I could jot down what went well, what I found challenging, and how I felt overall. Having that routine might help me stay consistent and make it feel like a special time for myself. It\u2019s nice to think I\u2019ll have that space to reflect and grow."
+    }
+  ],
+  "judge_model": "gpt-4o-mini",
+  "mediator_events": [
+    "Exploration judge rated 2/5; internal elements remain masked.",
+    "Exploration judge output: [Rating]: 2 (High Facilitation)\n\n[Justification]: The Therapist asked a clear and relevant open-ended question that encouraged the client to delve deeper into his feelings about micromanagement and his self-perception of not doing enough. This question facilitated some self-reflection and allowed the client to explore his thoughts further. However, the question primarily expanded on the client's existing thoughts rather than introducing significantly new perspectives or challenging deeper assumptions. While it did encourage deeper thinking, it did not reach the level of insight or transformation that would warrant a higher rating.",
+    "Rapport judge rated 3/5; no experience reveal.",
+    "Rapport judge output: **Rating: 3 (ENGAGED EXPLORATION)**\n\n**Key Examples:**\n1. \"I guess, um, I\u2019ve been feeling a bit overwhelmed at work lately. There\u2019s this, uh, micromanagement thing going on, and it\u2019s just... it\u2019s hard to shake off.\"\n2. \"It\u2019s frustrating because I want to do well, but then I get stuck in this loop of thinking I\u2019m not doing enough.\"\n\n**Progression:**\nThe client\u2019s most recent interactions demonstrate a noticeable increase in emotional expression and self-reflection. Initially, the client presented more factual responses, but they have begun to articulate their feelings of overwhelm and anxiety related to work. This shift indicates a growing comfort in discussing emotional topics, marking a significant change from earlier sessions where the client may have been more guarded or hesitant to delve into personal feelings.\n\n**Turning Point:**\nThe client\u2019s emotional depth shifted notably when they began expressing feelings of inadequacy and frustration regarding their work performance. This occurred during the exchange where they stated, \"It\u2019s frustrating because I want to do well, but then I get stuck in this loop of thinking I\u2019m not doing enough.\" This moment reflects a deeper level of vulnerability and self-awareness, highlighting a willingness to explore their internal struggles rather than merely stating facts about their situation.",
+    "Exploration judge rated 3/5; internal elements remain masked.",
+    "Exploration judge output: [Rating]: 3 (Very High Facilitation \u2013 Deep Exploration Begins)\n\n[Justification]: The Therapist asked insightful and thought-provoking questions that encouraged the client to analyze the root causes of their feelings of inadequacy and self-doubt. By asking the client to reflect on how their perception of their performance relates to their self-worth, the Therapist facilitated a deeper exploration of the client's emotional landscape. This line of questioning began to shift the client's perspective, prompting them to consider the underlying beliefs that contribute to their anxiety and feelings of falling short. While the Therapist did not pose questions that led to a major breakthrough, the inquiry effectively encouraged higher-level self-reflection and analysis of the client's experiences.",
+    "Exploration judge rated 4/5 and revealed internal cognitive elements.",
+    "Exploration judge output: [Rating]: 4 (Even Higher Facilitation \u2013 Strong Transformational Potential)\n\n[Justification]: The Therapist asked strategic and powerfully open-ended questions that pushed the client beyond their previous understanding. By exploring the roots of the client's feelings of inadequacy and the pressure to prove himself, the Therapist facilitated a deeper self-reflection. The questions challenged the client's assumptions about his worth and performance, revealing hidden motivations tied to past experiences. The inquiry into how the client feels about letting go of that pressure and what a lighter experience at work might look like encourages a shift in perspective, indicating strong transformational potential. Overall, the Therapist's approach effectively guided the client toward a deeper understanding of his emotions and beliefs.",
+    "Rapport judge rated 3/5; no experience reveal.",
+    "Rapport judge output: **Rating: 3 (ENGAGED EXPLORATION)**\n\n**Key Examples:**\n1. **Emotional State:** \"It\u2019s just hard to shake off those thoughts, and they just keep coming back. I don\u2019t know, maybe I just need to try harder or something.\"\n2. **Current Openness:** \"Honestly, it\u2019s a bit scary to think about. Letting go of that pressure feels like... like I\u2019d be taking a risk. What if I don\u2019t meet expectations? What if I\u2019m not good enough?\"\n\n**Progression:** The client\u2019s most recent interactions demonstrate a significant increase in emotional expression and self-reflection. Initially, the client presented a more defensive stance, suggesting a hesitance to delve deeply into their feelings. However, in the latest exchanges, they have begun to articulate their fears and anxieties more openly, indicating a shift from merely stating feelings to exploring the underlying beliefs that contribute to their emotional state. This marks a notable change from earlier in the session, where they were more focused on external validation and less on their internal experience.\n\n**Turning Point:** The client\u2019s emotional depth shifted during the exchange where they articulated their fear of letting go of the pressure to prove themselves. This moment was pivotal as they began to express not just the anxiety associated with external expectations but also the desire for a lighter experience at work. This acknowledgment of their internal struggle and the recognition that their self-worth is tied to their performance indicates a deeper level of self-awareness and vulnerability, which is crucial for therapeutic progress.",
+    "Rapport judge rated 4/5 and revealed one more experience block.",
+    "Rapport judge output: **Rating: 4 (DEEP ENGAGEMENT)**\n\n**Key Examples:**\n1. **Emotional State:** \"Honestly, it\u2019s a bit scary to think about. Letting go of that pressure feels like... like I\u2019d be taking a risk. What if I don\u2019t meet expectations? What if I\u2019m not good enough? But at the same time, I know it\u2019s exhausting to keep pushing myself like this.\"\n2. **Current Openness:** \"I think maybe I could try to set some intentions before seeking feedback. Like, reminding myself that it\u2019s okay to make mistakes and that everyone has room to grow.\"\n\n**Progression:** The client\u2019s most recent interactions demonstrate a significant increase in emotional depth and self-reflection. Initially, the client expressed feelings of being overwhelmed and anxious, primarily focusing on external pressures and expectations. However, as the session progressed, the client began to articulate deeper fears about self-worth and the internalized pressure to prove themselves. The shift from a defensive stance to a more open exploration of their feelings indicates a strong therapeutic alliance and a willingness to engage in meaningful self-reflection.\n\n**Turning Point:** The client\u2019s emotional depth shifted notably when they began expressing their fears about letting go of the pressure to meet expectations. This moment marked a transition from merely discussing external factors to delving into their internal struggles and vulnerabilities, showcasing a greater level of emotional openness and insight. The acknowledgment of the need for self-compassion and the desire to redefine success on their own terms further illustrates this deep engagement in the therapeutic process."
+  ],
+  "final_visible_experience_count": 3,
+  "internal_revealed": true
+}

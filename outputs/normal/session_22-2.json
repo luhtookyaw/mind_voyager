@@ -1,0 +1,184 @@
+{
+  "case_id": "22-2",
+  "client_name": "Wendy",
+  "client_mode": "masked",
+  "hide_all": false,
+  "difficulty": "normal",
+  "therapist_provider": "openai",
+  "therapist_model": "gpt-4o-mini",
+  "client_model": "gpt-4o-mini",
+  "max_turns": 15,
+  "transcript": [
+    {
+      "turn": 1,
+      "speaker": "therapist",
+      "content": "Hello, Wendy. I'm glad you're here today. What feels most important for you to talk about right now?"
+    },
+    {
+      "turn": 1,
+      "speaker": "client",
+      "content": "Um, I guess... I don't know. There are a lot of things on my mind, but I\u2019m not sure where to start. I\u2019ve been feeling a bit overwhelmed lately, especially when it comes to family stuff. It's just... complicated."
+    },
+    {
+      "turn": 2,
+      "speaker": "therapist",
+      "content": "It sounds like you\u2019re carrying a lot right now, especially with family matters feeling complicated and overwhelming. That can be really tough to navigate. What specific aspects of your family situation are weighing on you the most?"
+    },
+    {
+      "turn": 2,
+      "speaker": "client",
+      "content": "Well, there\u2019s this thing with Ivan's family. They just... don\u2019t seem to understand what I\u2019ve been through. Like, when his mom said that \u201cboys will be boys\u201d and told me to \u201cforgive and forget,\u201d it felt really dismissive. It\u2019s like they think I should just move on, but it\u2019s not that simple. I don\u2019t know, I just feel... frustrated and hurt, I guess."
+    },
+    {
+      "turn": 3,
+      "speaker": "therapist",
+      "content": "It sounds like you felt really frustrated and hurt by Ivan's mom's comments, especially since they seemed to dismiss your experiences. It\u2019s understandable to feel that way when it feels like your feelings aren\u2019t being acknowledged. Can you tell me more about what you\u2019ve been through that makes it hard for you to just \u201cforgive and forget\u201d?"
+    },
+    {
+      "turn": 3,
+      "speaker": "client",
+      "content": "I mean, it\u2019s just... there have been some things that happened in the past that really affected me. It\u2019s hard to just brush them off, you know? I keep thinking about those moments, and it feels like they don\u2019t get how deep it goes. I don\u2019t want to sound dramatic, but it\u2019s like they\u2019re all on his side, and I\u2019m just left here feeling... alone. I don\u2019t know if I can just forget about it."
+    },
+    {
+      "turn": 4,
+      "speaker": "therapist",
+      "content": "It sounds like those past experiences have had a significant impact on you, and it feels really isolating when it seems like Ivan's family isn't recognizing the depth of what you've gone through. Feeling alone in this situation must be really challenging. When you think about those moments from your past, what emotions come up for you?"
+    },
+    {
+      "turn": 4,
+      "speaker": "client",
+      "content": "Honestly, a mix of things. I feel angry, and sometimes I just feel... disappointed. It\u2019s like I want to be understood, but instead, I just end up ruminating on everything. I get so caught up in those feelings that it\u2019s hard to sleep or focus on anything else. I keep imagining how I would stand up to them, but then I wonder if it would even make a difference. It\u2019s just... exhausting."
+    },
+    {
+      "turn": 5,
+      "speaker": "therapist",
+      "content": "It sounds incredibly exhausting to be caught in that cycle of anger and disappointment, especially when you\u2019re longing for understanding. The ruminating and imagining how to stand up to them must take a toll on your energy and focus. It\u2019s understandable to question whether speaking up would make a difference. What do you think would help you feel more understood in this situation?"
+    },
+    {
+      "turn": 5,
+      "speaker": "client",
+      "content": "I think... I just want someone to really listen and acknowledge what I\u2019ve been through. Not just brush it off or tell me to move on. It would help if they could see it from my perspective, you know? Maybe if they could just understand how their words affect me, it might make things a little easier. But I don\u2019t know if that\u2019s even possible. Sometimes I feel like I\u2019m just stuck in my own head."
+    },
+    {
+      "turn": 6,
+      "speaker": "therapist",
+      "content": "It makes sense that you want to be truly heard and acknowledged, especially when your experiences feel so significant. It sounds like having someone recognize the impact of their words could ease some of that heaviness for you. Feeling stuck in your own head can be really isolating. When you think about expressing your perspective to them, what holds you back from doing that?"
+    },
+    {
+      "turn": 6,
+      "speaker": "client",
+      "content": "I guess... I worry about how they\u2019ll react. What if they just dismiss me again or think I\u2019m being overly dramatic? I don\u2019t want to create more conflict, but at the same time, it feels unfair to keep everything bottled up. It\u2019s like I\u2019m caught between wanting to speak up and fearing the consequences. So, I end up just... not saying anything at all."
+    },
+    {
+      "turn": 7,
+      "speaker": "therapist",
+      "content": "It sounds like you\u2019re in a tough spot, feeling torn between the desire to express yourself and the fear of being dismissed or causing conflict. That fear of potential negative reactions can really hold you back from sharing what\u2019s on your mind. It\u2019s understandable to want to avoid more tension, but it also feels unfair to keep those feelings bottled up. How do you usually cope with that internal struggle when it arises?"
+    },
+    {
+      "turn": 7,
+      "speaker": "client",
+      "content": "I tend to just... ruminate a lot. I replay conversations in my head, thinking about what I could say or how I should have responded. Sometimes I even fantasize about standing up to them, but it never really goes anywhere. I lose sleep over it, and it just keeps me stuck in this loop of frustration and hurt. I guess I\u2019m not sure how to break out of that cycle."
+    },
+    {
+      "turn": 8,
+      "speaker": "therapist",
+      "content": "It sounds like ruminating becomes a way for you to process those feelings, but it also keeps you stuck in a frustrating loop that affects your sleep and overall well-being. Imagining how you might stand up to them shows that you have a desire for change, but it\u2019s tough when it feels like nothing moves forward. What do you think would help you start to break that cycle, even in small ways?"
+    },
+    {
+      "turn": 8,
+      "speaker": "client",
+      "content": "I\u2019m not really sure... Maybe if I could find a way to express my feelings without it feeling so confrontational? Like, maybe writing it down first or talking to someone I trust about it could help. I think if I could just get it out somehow, it might ease some of that pressure. But then I worry about how to actually bring it up with them. It feels like a big step, and I\u2019m not sure I\u2019m ready for that yet."
+    },
+    {
+      "turn": 9,
+      "speaker": "therapist",
+      "content": "It sounds like you\u2019re considering some thoughtful ways to express your feelings, like writing them down or talking to someone you trust first. Those could be helpful steps to ease the pressure you\u2019re feeling. It\u2019s completely okay to take your time with this and not rush into a conversation with them if you\u2019re not ready. What do you think might help you feel more prepared or comfortable when you decide to take that step?"
+    },
+    {
+      "turn": 9,
+      "speaker": "client",
+      "content": "I think maybe practicing what I want to say could help. If I could write it down and go over it a few times, it might make me feel more confident. Also, having someone supportive with me, like a friend, could make it feel less daunting. I guess just knowing that I have a plan might help me feel a bit more in control. But it\u2019s still a little scary to think about actually doing it."
+    },
+    {
+      "turn": 10,
+      "speaker": "therapist",
+      "content": "Practicing what you want to say and having a supportive friend with you sounds like a solid plan. It\u2019s great that you\u2019re thinking about ways to feel more in control and confident. It\u2019s completely natural to feel scared about taking that step, especially when it involves such personal feelings. What do you think might help you manage that fear as you prepare to move forward?"
+    },
+    {
+      "turn": 10,
+      "speaker": "client",
+      "content": "I think reminding myself that it\u2019s okay to feel scared might help. I mean, it\u2019s a big deal to open up about these things. Maybe I could also focus on the potential positive outcomes, like feeling relieved after sharing or even just being heard. It might help to visualize that, rather than just thinking about the worst-case scenarios. But, honestly, it\u2019s still hard to shake off that fear completely."
+    },
+    {
+      "turn": 11,
+      "speaker": "therapist",
+      "content": "It sounds like you have some thoughtful strategies in mind, like reminding yourself that it\u2019s okay to feel scared and focusing on the potential positive outcomes. Visualizing relief and being heard could be a powerful way to shift your perspective. It\u2019s understandable that the fear might not go away entirely, especially when it\u2019s such a significant step. How do you think you can support yourself in those moments when the fear feels overwhelming?"
+    },
+    {
+      "turn": 11,
+      "speaker": "client",
+      "content": "I think I could try to take a step back and breathe when the fear feels overwhelming. Maybe practicing some mindfulness or grounding techniques could help me stay present and not get lost in my thoughts. It might also be helpful to talk to someone about my feelings in those moments, just to remind myself that I\u2019m not alone in this. I guess finding ways to be kind to myself during that process could make a difference."
+    },
+    {
+      "turn": 12,
+      "speaker": "therapist",
+      "content": "It sounds like you have some compassionate ideas for supporting yourself, like using breathing techniques and mindfulness to stay grounded. Talking to someone about your feelings can also be a great way to remind yourself that you\u2019re not alone. Being kind to yourself during this process is so important, especially when facing something that feels daunting. What do you think would be the first small step you\u2019d like to take towards this plan?"
+    },
+    {
+      "turn": 12,
+      "speaker": "client",
+      "content": "I think the first small step could be to write down my thoughts and feelings about the situation. Just getting it all out on paper might help me sort through everything and figure out what I really want to say. Then, maybe I could share it with a friend to get their perspective before I think about talking to Ivan\u2019s family. It feels manageable to start with writing, and I think it could help me feel a bit more prepared."
+    },
+    {
+      "turn": 13,
+      "speaker": "therapist",
+      "content": "That sounds like a really constructive first step, Wendy. Writing down your thoughts and feelings can be a powerful way to clarify what you want to express, and sharing it with a friend for their perspective could provide valuable support. It\u2019s great that you\u2019re finding a manageable way to begin this process. How do you feel about setting aside some time to start that writing?"
+    },
+    {
+      "turn": 13,
+      "speaker": "client",
+      "content": "I think setting aside some time to write could be really helpful. It feels like a good way to start without too much pressure. I might try to do it this week, maybe when I have a quiet moment to myself. Just having that time to reflect could help me feel more organized in my thoughts. I\u2019m a little nervous, but also kind of hopeful that it will help me sort things out."
+    },
+    {
+      "turn": 14,
+      "speaker": "therapist",
+      "content": "It sounds like you have a thoughtful plan in place, and it\u2019s great that you\u2019re feeling a mix of nervousness and hope. Setting aside time for reflection can really help you organize your thoughts and feelings. It\u2019s completely normal to feel a bit anxious about it, but having that quiet moment to yourself could be a valuable opportunity for clarity. As you prepare for this, is there anything else you\u2019d like to explore or discuss before you take that step?"
+    },
+    {
+      "turn": 14,
+      "speaker": "client",
+      "content": "I think I\u2019m okay for now. I just want to focus on this writing step and see how it goes. I appreciate having this space to talk about it, though. It helps to sort through my thoughts a bit. Maybe next time we can discuss how it went or any other feelings that come up after I write. Thank you for listening and guiding me through this."
+    },
+    {
+      "turn": 15,
+      "speaker": "therapist",
+      "content": "I\u2019m really glad to hear that this space has been helpful for you, Wendy. Focusing on the writing step sounds like a good plan, and I\u2019m here whenever you want to discuss how it goes or anything else that comes up. Thank you for sharing your thoughts and feelings today. Take care as you work through this, and I look forward to hearing from you next time."
+    },
+    {
+      "turn": 15,
+      "speaker": "client",
+      "content": "Thank you. I appreciate your support and understanding. I\u2019ll do my best with the writing, and I look forward to sharing how it goes next time. Take care, and see you soon."
+    }
+  ],
+  "judge_model": "gpt-4o-mini",
+  "mediator_events": [
+    "Exploration judge rated 2/5; internal elements remain masked.",
+    "Exploration judge output: [Rating]: 2 (High Facilitation)\n\n[Justification]: The Therapist asked a clear and relevant open-ended question that encouraged the client to delve deeper into their feelings about their family situation. While the question prompted some self-reflection and exploration of the client's thoughts, it primarily expanded on existing feelings of overwhelm rather than introducing significantly new perspectives or challenging the client's assumptions. The conversation remained within familiar territory, focusing on the complexities of family dynamics without pushing the client toward a deeper analysis of underlying patterns or motivations.",
+    "Rapport judge rated 3/5; no experience reveal.",
+    "Rapport judge output: **Rating: 3 (ENGAGED EXPLORATION)**\n\n**Key Examples:**\n1. \"Well, there\u2019s this thing with Ivan's family. They just... don\u2019t seem to understand what I\u2019ve been through. Like, when his mom said that 'boys will be boys' and told me to 'forgive and forget,' it felt really dismissive. It\u2019s like they think I should just move on, but it\u2019s not that simple. I don\u2019t know, I just feel... frustrated and hurt, I guess.\"\n2. \"I mean, it\u2019s just... there have been some things that happened in the past that really affected me. It\u2019s hard to just brush them off, you know? I keep thinking about those moments, and it feels like they don\u2019t get how deep it goes. I don\u2019t want to sound dramatic, but it\u2019s like they\u2019re all on his side, and I\u2019m just left here feeling... alone.\"\n\n**Progression:**\nIn the most recent exchanges, the client has shown a marked increase in emotional expression and self-reflection. Initially, the client appeared hesitant and unsure about where to start, indicating a more defensive stance. However, as the session progressed, they articulated specific feelings of frustration and hurt regarding their experiences with Ivan's family, demonstrating a deeper emotional engagement. This shift from vague feelings of being overwhelmed to specific expressions of hurt and frustration marks a significant change from earlier interactions, where emotional depth was less pronounced.\n\n**Turning Point:**\nThe client\u2019s emotional depth shifted notably when they began expressing their feelings about Ivan's family and the dismissive comments made by his mother. This moment was pivotal as it encouraged the client to reflect on their past experiences and articulate how those experiences have affected their current emotional state. The acknowledgment of feeling \"alone\" in their struggles signifies a deeper level of vulnerability and engagement with the therapeutic process, moving them into the \"Engaged Exploration\" stage.",
+    "Exploration judge rated 3/5; internal elements remain masked.",
+    "Exploration judge output: [Rating]: 3 (Very High Facilitation \u2013 Deep Exploration Begins)\n\n[Justification]: The Therapist asked insightful and thought-provoking questions that encouraged the client to analyze the emotional depth behind their experiences, particularly regarding their feelings of frustration and hurt in relation to Ivan's family. The questions prompted the client to reflect on the significance of their past experiences and how these experiences contribute to their current feelings of isolation. While the Therapist's questions were effective in facilitating deeper exploration, they did not fully challenge the client\u2019s assumptions or introduce completely new angles that could lead to a major insight or breakthrough. Therefore, the rating reflects a strong facilitation of deep exploration, but not to the highest level of transformational potential.",
+    "Exploration judge rated 3/5; internal elements remain masked.",
+    "Exploration judge output: [Rating]: 3 (Very High Facilitation \u2013 Deep Exploration Begins)\n\n[Justification]: The Therapist asked insightful and thought-provoking questions that encouraged the client to analyze the emotional depth behind their experiences. By prompting the client to explore their feelings of frustration, hurt, and isolation, the Therapist facilitated a deeper understanding of the client's situation. The questions began to shift the client's perspective, particularly when asking about the emotions that arise from past experiences and what would help them feel more understood. However, while the Therapist's questions were effective in deepening the conversation, they did not fully challenge the client's existing thought patterns or introduce completely new angles that would lead to a major insight or breakthrough moment. Overall, the facilitation was strong, but there was still room for deeper exploration and transformation.",
+    "Rapport judge rated 4/5 and revealed one more experience block.",
+    "Rapport judge output: **Rating: 4**\n\n**Key Examples:**\n1. \"I feel angry, and sometimes I just feel... disappointed. It\u2019s like I want to be understood, but instead, I just end up ruminating on everything.\"\n2. \"I guess... I worry about how they\u2019ll react. What if they just dismiss me again or think I\u2019m being overly dramatic? I don\u2019t want to create more conflict, but at the same time, it feels unfair to keep everything bottled up.\"\n\n**Progression:** The client\u2019s most recent interactions demonstrate a significant increase in emotional depth and self-reflection. They are expressing complex emotions such as anger and disappointment, which indicates a deeper level of emotional engagement compared to earlier exchanges where they were more hesitant and factual. The client is now articulating their feelings about their family situation with greater clarity and vulnerability, showing a willingness to explore their internal struggles.\n\n**Turning Point:** The client\u2019s emotional depth shifted notably when they began expressing their feelings of frustration and hurt regarding Ivan's family's dismissive comments. This moment marked a transition from a more guarded stance to a more open and vulnerable expression of their emotional state, allowing for a richer dialogue about their experiences and feelings. The acknowledgment of their desire to be understood and the fear of being dismissed reflects a deeper engagement with their emotions and a growing trust in the therapeutic relationship.",
+    "Exploration judge rated 3/5; internal elements remain masked.",
+    "Exploration judge output: [Rating]: 3 (Very High Facilitation \u2013 Deep Exploration Begins)\n\n[Justification]: The therapist asked insightful and thought-provoking questions that encouraged the client to analyze the emotional depth behind their experiences with Ivan's family. The questions helped the client articulate their feelings of frustration, hurt, and isolation, leading to deeper self-reflection. The therapist's inquiries about the client's past experiences and emotions prompted the client to explore the roots of their feelings and the impact of their family dynamics. While the questions were effective in facilitating deeper exploration, they did not fully challenge the client's assumptions or introduce completely new perspectives, which is why it falls short of the highest rating. Overall, the therapist's approach significantly contributed to the client's self-exploration and understanding of their situation.",
+    "Exploration judge rated 3/5; internal elements remain masked.",
+    "Exploration judge output: [Rating]: 3 (Very High Facilitation \u2013 Deep Exploration Begins)\n\n[Justification]: The therapist asked insightful and thought-provoking questions that encouraged the client to analyze the emotional depth behind their experiences with Ivan's family. The therapist effectively helped the client explore their feelings of frustration, hurt, and isolation, which led to deeper self-reflection. The questions prompted the client to consider their past experiences and the impact of those on their current feelings, as well as their desire for understanding and acknowledgment. While the therapist facilitated a significant exploration of the client's emotions and thoughts, the questions did not fully challenge the client's assumptions or introduce completely new perspectives, which is why it falls short of a rating of 4 or 5. Overall, the therapist's approach fostered a deeper understanding of the client's internal struggle and potential steps forward.",
+    "Exploration judge rated 4/5 and revealed internal cognitive elements.",
+    "Exploration judge output: [Rating]: 4 (Even Higher Facilitation \u2013 Strong Transformational Potential)\n\n[Justification]: The therapist asked a series of strategic and open-ended questions that encouraged the client to explore their feelings and experiences in depth. The questions prompted the client to analyze their emotions, motivations, and the complexities of their family dynamics. For example, when the therapist asked, \"What do you think would help you feel more understood in this situation?\" and \"What holds you back from doing that?\" it pushed the client to reflect on their needs and fears, revealing underlying assumptions and emotions. The therapist facilitated a deeper exploration of the client's internal struggles and encouraged them to consider actionable steps, such as practicing what to say and using mindfulness techniques. This approach helped the client gain insights and a clearer understanding of their situation, indicating a strong potential for transformation."
+  ],
+  "final_visible_experience_count": 3,
+  "internal_revealed": true
+}

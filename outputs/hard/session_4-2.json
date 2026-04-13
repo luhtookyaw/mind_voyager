@@ -1,0 +1,178 @@
+{
+  "case_id": "4-2",
+  "client_name": "Jessa",
+  "client_mode": "masked",
+  "hide_all": false,
+  "difficulty": "hard",
+  "therapist_provider": "openai",
+  "therapist_model": "gpt-4o-mini",
+  "client_model": "gpt-4o-mini",
+  "max_turns": 15,
+  "transcript": [
+    {
+      "turn": 1,
+      "speaker": "therapist",
+      "content": "Hello, Jessa. I\u2019m glad you\u2019re here today. What feels most important for you to talk about right now?"
+    },
+    {
+      "turn": 1,
+      "speaker": "client",
+      "content": "Um, I guess I\u2019m not really sure what to talk about. There\u2019s a lot going on, but I don\u2019t want to burden anyone with my problems. I mean, I just try to keep things together, you know? Maybe we could just talk about something else?"
+    },
+    {
+      "turn": 2,
+      "speaker": "therapist",
+      "content": "It sounds like you\u2019re feeling a bit overwhelmed with everything that\u2019s happening, and there\u2019s a sense of wanting to keep things together without feeling like you\u2019re burdening others. That can be a heavy load to carry. If you\u2019re comfortable, we can explore what\u2019s been on your mind, even if it feels small or uncertain. What\u2019s something that\u2019s been weighing on you lately, even just a little?"
+    },
+    {
+      "turn": 2,
+      "speaker": "client",
+      "content": "I guess there have been times when I feel like I have to put on a brave face, especially around friends. Like, if I show that I\u2019m not okay, they might not want to be around me. I just... I don\u2019t want to be that person who drags everyone down. So, I try to act like everything\u2019s fine, but inside, it\u2019s a bit different. I don\u2019t know if that makes sense."
+    },
+    {
+      "turn": 3,
+      "speaker": "therapist",
+      "content": "That makes a lot of sense, Jessa. It sounds like you feel a strong pressure to maintain a brave front for your friends, and there\u2019s a fear that being open about your struggles might push them away. It\u2019s understandable to want to protect your relationships, but it also sounds like it creates a conflict within you. How does it feel to carry that weight of needing to appear fine when you\u2019re not?"
+    },
+    {
+      "turn": 3,
+      "speaker": "client",
+      "content": "It\u2019s... it\u2019s kind of exhausting, honestly. I feel like I\u2019m always on guard, trying to keep up this image. Sometimes, I just wish I could be myself without worrying about what others think. But then I think about how they might react if they saw the real me, and it makes me anxious. I guess I just don\u2019t want to be a burden or make things awkward. So, I keep it all in."
+    },
+    {
+      "turn": 4,
+      "speaker": "therapist",
+      "content": "It sounds really tiring to be in that constant state of vigilance, trying to maintain an image while feeling like you can\u2019t fully express who you are. The anxiety about how others might react to the real you seems to weigh heavily on your mind. It\u2019s understandable to want to avoid awkwardness or feeling like a burden. I wonder, what do you think would happen if you allowed yourself to be more open with your friends?"
+    },
+    {
+      "turn": 4,
+      "speaker": "client",
+      "content": "I don\u2019t know... I guess I worry they might not understand or might think I\u2019m just looking for attention. It\u2019s like, I don\u2019t want to make them uncomfortable or feel like they have to take care of me. I mean, everyone has their own stuff going on, right? So, I just... I try to deal with things on my own. But sometimes, it feels lonely. I don\u2019t know if I could really open up without feeling like I\u2019m causing a problem."
+    },
+    {
+      "turn": 5,
+      "speaker": "therapist",
+      "content": "It sounds like there\u2019s a deep concern for your friends and a desire to protect them from feeling overwhelmed by your struggles. You\u2019re balancing your own feelings of loneliness with the fear of being perceived as seeking attention or causing discomfort. That\u2019s a tough position to be in. It\u2019s clear you care a lot about how your emotions might impact others. When you think about feeling lonely, what do you wish you could share or express with someone?"
+    },
+    {
+      "turn": 5,
+      "speaker": "client",
+      "content": "I think... I wish I could just say that I\u2019m not always okay, you know? That sometimes things feel really heavy, and it\u2019s hard to keep pretending. I guess I want to feel like it\u2019s okay to not be fine all the time, but I just don\u2019t know how to say that without feeling like I\u2019m asking for too much. It\u2019s like I want to reach out, but then I pull back because I don\u2019t want to be a downer. I don\u2019t know if that makes sense."
+    },
+    {
+      "turn": 6,
+      "speaker": "therapist",
+      "content": "That makes perfect sense, Jessa. You\u2019re expressing a desire to be authentic and share your true feelings, but there\u2019s a fear of being perceived as a burden or bringing others down. It\u2019s completely valid to want to feel accepted for not being okay all the time. It sounds like there\u2019s a part of you that longs for connection and understanding, even amidst the heaviness. What do you think might help you feel more comfortable expressing that side of yourself, even just a little?"
+    },
+    {
+      "turn": 6,
+      "speaker": "client",
+      "content": "I think... maybe if I felt like it was safe to share, like if I knew my friends wouldn\u2019t judge me or think less of me, it might be easier. I guess I just need to find the right moment or the right way to bring it up. But then I worry about how they\u2019ll react. It\u2019s hard to take that step when I feel so vulnerable. I don\u2019t want to ruin what we have. It\u2019s just... complicated."
+    },
+    {
+      "turn": 7,
+      "speaker": "therapist",
+      "content": "It sounds like feeling safe and accepted is really important to you when it comes to sharing your feelings. You\u2019re navigating a lot of complexity around vulnerability and the fear of potentially changing your relationships. It\u2019s understandable to want to protect what you have while also feeling the weight of your own emotions. Finding the right moment can be challenging. What do you think would help create that sense of safety for you and your friends, so that sharing might feel a bit easier?"
+    },
+    {
+      "turn": 7,
+      "speaker": "client",
+      "content": "Maybe if we had some kind of open conversation about feelings in general, like if it was a normal thing to talk about, it might help. If I could see that they\u2019re okay with being vulnerable too, it might make it easier for me to share. But I guess it\u2019s hard to bring that up without feeling awkward. I don\u2019t want to put anyone on the spot or make it weird. It\u2019s just... I wish it didn\u2019t feel so complicated."
+    },
+    {
+      "turn": 8,
+      "speaker": "therapist",
+      "content": "That\u2019s a thoughtful approach, Jessa. It sounds like you\u2019re looking for a shared space where vulnerability is normalized, which could help you feel more comfortable opening up. The idea of having a general conversation about feelings could create an environment where everyone feels more at ease discussing their own experiences. It\u2019s understandable to worry about how to initiate that without feeling awkward. What do you think might be a gentle way to start that kind of conversation with your friends?"
+    },
+    {
+      "turn": 8,
+      "speaker": "client",
+      "content": "Um, maybe I could start by sharing something small about how I\u2019ve been feeling, like just a little bit, and see how they respond. If they seem open to it, I could maybe ask them how they\u2019re doing too. I guess it would be easier if I didn\u2019t dive right into the heavy stuff. Just... kind of test the waters, you know? But even thinking about it makes me a bit anxious. What if they don\u2019t respond well? It\u2019s just... a lot to think about."
+    },
+    {
+      "turn": 9,
+      "speaker": "therapist",
+      "content": "That sounds like a really thoughtful way to approach it, Jessa. Starting with something small and testing the waters can help ease the anxiety of diving into deeper topics. It\u2019s completely natural to feel anxious about how they might respond, especially when you\u2019re considering being vulnerable. It shows how much you care about their feelings and the dynamics of your friendships. If you do decide to take that step, what might help you manage that anxiety in the moment?"
+    },
+    {
+      "turn": 9,
+      "speaker": "client",
+      "content": "I think... maybe reminding myself that it\u2019s okay to feel anxious and that it\u2019s a normal part of opening up could help. I could also try to focus on the fact that sharing might actually strengthen our friendship, rather than thinking about the worst-case scenario. Maybe taking a few deep breaths before I say anything could help calm my nerves too. I just hope it goes well, you know? It\u2019s hard to shake off that fear of rejection."
+    },
+    {
+      "turn": 10,
+      "speaker": "therapist",
+      "content": "Those are really constructive strategies, Jessa. Acknowledging your anxiety as a normal part of the process and reminding yourself of the potential positive outcomes can create a more supportive mindset for yourself. Deep breathing is a great tool for calming nerves, too. It\u2019s completely understandable to feel that fear of rejection, especially when you\u2019re considering being vulnerable. It shows how much you value your friendships. If you do decide to share, what would be a sign for you that the conversation is going well?"
+    },
+    {
+      "turn": 10,
+      "speaker": "client",
+      "content": "I think if they respond with understanding or share something about their own feelings, that would be a good sign. If they seem open and engaged, like they\u2019re really listening, it would make me feel more comfortable to keep talking. I guess just seeing that they\u2019re willing to be vulnerable too would help me feel like it\u2019s a safe space. But I still worry about how to read their reactions. It\u2019s just... a lot to navigate."
+    },
+    {
+      "turn": 11,
+      "speaker": "therapist",
+      "content": "It sounds like you have a clear sense of what would help you feel more at ease during that conversation, like their understanding and willingness to share. It\u2019s natural to feel uncertain about reading their reactions, especially when you\u2019re putting yourself in a vulnerable position. Navigating these dynamics can be complex, but it\u2019s great that you\u2019re thinking about it so thoughtfully. If you find yourself feeling unsure in the moment, what might you do to help ground yourself and stay present?"
+    },
+    {
+      "turn": 11,
+      "speaker": "client",
+      "content": "Um, I guess I could focus on my breathing again, like just taking a moment to breathe and remind myself that it\u2019s okay to take my time. Maybe I could also try to really listen to what they\u2019re saying instead of getting caught up in my own worries. Just being present in the conversation might help me feel less anxious. But it\u2019s still hard to shake that feeling of wanting to retreat if things get too intense. I just hope I can handle it if it goes that way."
+    },
+    {
+      "turn": 12,
+      "speaker": "therapist",
+      "content": "Those are really helpful strategies, Jessa. Focusing on your breathing and being present in the conversation can create a sense of calm and connection, which might help ease some of that anxiety. It\u2019s completely understandable to feel the urge to retreat if things become overwhelming; that\u2019s a natural response. It\u2019s okay to take a step back if you need to. If you find yourself in that situation, what do you think would help you feel okay about taking that step back?"
+    },
+    {
+      "turn": 12,
+      "speaker": "client",
+      "content": "I think if I remind myself that it\u2019s okay to take a break and that I don\u2019t have to force myself to keep going, it might help. I could say something like, \u201cI need a moment to gather my thoughts,\u201d or just take a little pause. I guess knowing that my friends would understand if I need to step back would make it easier. It\u2019s just hard to allow myself that space without feeling guilty. But I know it\u2019s important to take care of myself too."
+    },
+    {
+      "turn": 13,
+      "speaker": "therapist",
+      "content": "That\u2019s a really compassionate approach, Jessa. Giving yourself permission to take a break and acknowledging that it\u2019s okay to pause is an important part of self-care. It\u2019s great that you recognize your friends would likely understand your need for space. It\u2019s normal to feel some guilt about taking that time, but prioritizing your well-being is essential. If you do find yourself needing that space, what might you say to yourself to help ease that guilt?"
+    },
+    {
+      "turn": 13,
+      "speaker": "client",
+      "content": "I think I could remind myself that taking a break doesn\u2019t mean I\u2019m abandoning the conversation or my friends. I could tell myself that it\u2019s okay to prioritize my feelings and that everyone has moments when they need to step back. Maybe I could say something like, \u201cIt\u2019s okay to take care of yourself; your feelings matter too.\u201d Just trying to be gentle with myself about it might help ease that guilt. It\u2019s just... sometimes hard to remember that in the moment."
+    },
+    {
+      "turn": 14,
+      "speaker": "therapist",
+      "content": "That\u2019s a really nurturing perspective, Jessa. Reminding yourself that taking a break doesn\u2019t equate to abandoning the conversation is a powerful way to frame it. Being gentle with yourself and acknowledging that your feelings are valid can help create a more supportive inner dialogue. It\u2019s understandable that it can be challenging to remember that in the moment, especially when emotions are high. If you find it difficult to access that self-compassion, what might help you reconnect with those thoughts during a tough moment?"
+    },
+    {
+      "turn": 14,
+      "speaker": "client",
+      "content": "Maybe I could have a little mantra or something to remind myself, like, \u201cIt\u2019s okay to feel what I feel.\u201d Having that phrase in my mind might help me ground myself when things get tough. I could also think about times when I\u2019ve seen friends take a step back and how I didn\u2019t think less of them for it. That might help me remember that it\u2019s normal and okay. I guess having those little reminders could make it easier to reconnect with that self-compassion when I need it."
+    },
+    {
+      "turn": 15,
+      "speaker": "therapist",
+      "content": "That sounds like a wonderful plan, Jessa. Having a mantra like \u201cIt\u2019s okay to feel what I feel\u201d can serve as a comforting anchor during challenging moments. Reflecting on your friends\u2019 experiences and how you\u2019ve supported them can also help reinforce the idea that it\u2019s normal to need space. It\u2019s great that you\u2019re thinking about these reminders to help you reconnect with self-compassion. As you prepare for this potential conversation with your friends, what do you feel is the most important takeaway for yourself right now?"
+    },
+    {
+      "turn": 15,
+      "speaker": "client",
+      "content": "I think the most important takeaway for me is that it\u2019s okay to be vulnerable and that sharing my feelings doesn\u2019t make me a burden. I want to remember that my friends care about me, and they might even appreciate my honesty. It\u2019s also okay to take my time and prioritize my own feelings. Just being aware of that might help me feel a bit more confident when I do decide to open up. I guess it\u2019s about finding that balance between being true to myself and still caring for my friends."
+    }
+  ],
+  "judge_model": "gpt-4o-mini",
+  "mediator_events": [
+    "Exploration judge rated 3/5; internal elements remain masked.",
+    "Exploration judge output: [Rating]: 3 (Very High Facilitation \u2013 Deep Exploration Begins)\n\n[Justification]: The Therapist's questions and reflections encouraged the client to delve deeper into their feelings of overwhelm and the pressure to maintain a facade of being okay. The Therapist's inquiry about how it feels to carry the weight of needing to appear fine when not truly feeling that way prompted the client to analyze the emotional conflict they experience. This line of questioning began to shift the client's perspective and encouraged higher-level self-reflection, indicating a strong facilitation of inner exploration. However, while the Therapist's approach was insightful, it did not fully challenge the client's assumptions or introduce completely new angles, which is why it does not reach the highest levels of facilitation.",
+    "Rapport judge rated 3/5; no experience reveal.",
+    "Rapport judge output: **Rating: 3 (ENGAGED EXPLORATION)**\n\n**Key Examples:**\n1. **Recent Quote Showing Emotional State:** \"It\u2019s... it\u2019s kind of exhausting, honestly. I feel like I\u2019m always on guard, trying to keep up this image.\"\n2. **Latest Exchange Demonstrating Current Openness:** \"Sometimes, I just wish I could be myself without worrying about what others think. But then I think about how they might react if they saw the real me, and it makes me anxious.\"\n\n**Progression:** The client\u2019s most recent interactions demonstrate a growing emotional depth and willingness to share their internal struggles. Initially, there was a hesitance to delve into personal feelings, as seen in their opening response where they expressed uncertainty and a desire to avoid burdening others. However, they have since begun to articulate the exhaustion of maintaining a facade and the anxiety tied to their fear of judgment from friends. This marks a significant change from earlier exchanges, where emotional expression was minimal and largely factual.\n\n**Turning Point:** The client\u2019s emotional depth shifted during the exchange where they articulated the exhaustion of \"trying to keep up this image.\" This moment marked a transition from a defensive stance to a more open acknowledgment of their feelings. The client began to express vulnerability about their anxiety and the pressure they feel to conform to social expectations, indicating a deeper level of self-reflection and engagement with the therapeutic process.",
+    "Exploration judge rated 4/5 and revealed internal cognitive elements.",
+    "Exploration judge output: [Rating]: 4 (Even Higher Facilitation \u2013 Strong Transformational Potential)\n\n[Justification]: The therapist asked strategic and powerfully open-ended questions that encouraged the client to delve deeper into their feelings and fears about vulnerability and connection. The therapist's inquiries challenged the client's assumptions about burdening others and revealed the underlying motivations behind their desire to maintain a brave front. By asking about the potential outcomes of being more open with friends and what the client wishes they could express, the therapist facilitated a significant exploration of the client's inner conflict. This line of questioning led to a clearer understanding of the client's emotional landscape and encouraged them to consider new perspectives on their relationships and self-expression. While the conversation did not reach a major breakthrough, it laid the groundwork for deeper self-awareness and potential transformation.",
+    "Rapport judge rated 3/5; no experience reveal.",
+    "Rapport judge output: **Rating: 3 (ENGAGED EXPLORATION)**\n\n**Key Examples:**\n1. **Emotional State:** \"It\u2019s... it\u2019s kind of exhausting, honestly. I feel like I\u2019m always on guard, trying to keep up this image.\"\n2. **Current Openness:** \"I think... I wish I could just say that I\u2019m not always okay, you know? That sometimes things feel really heavy, and it\u2019s hard to keep pretending.\"\n\n**Progression:** The client\u2019s most recent interactions indicate a notable shift towards emotional openness and self-reflection. Initially, Jessa expressed uncertainty and a desire to avoid burdening others, but she has begun to articulate her feelings of exhaustion and the pressure to maintain a facade. This marks a significant change from earlier exchanges where she primarily focused on keeping things together and avoiding deeper emotional engagement.\n\n**Turning Point:** The client\u2019s emotional depth shifted during the exchange where she stated, \"I think... I wish I could just say that I\u2019m not always okay.\" This moment signifies a breakthrough in her willingness to acknowledge her struggles and a desire for authenticity. It reflects a movement from a defensive stance to a more vulnerable position, indicating a growing comfort with the therapist and a readiness to explore her feelings more deeply.",
+    "Rapport judge rated 3/5; no experience reveal.",
+    "Rapport judge output: **Rating: 3 (ENGAGED EXPLORATION)**\n\n**Key Examples:**\n1. \"It\u2019s... it\u2019s kind of exhausting, honestly. I feel like I\u2019m always on guard, trying to keep up this image.\"\n2. \"I think... maybe if I felt like it was safe to share, like if I knew my friends wouldn\u2019t judge me or think less of me, it might be easier.\"\n\n**Progression:** The client\u2019s most recent interactions demonstrate a notable increase in emotional expression and self-reflection. Initially, the client appeared hesitant to delve into their feelings, expressing a desire to avoid burdening others and maintaining a brave front. However, in the latest exchanges, the client articulates their exhaustion from this facade and expresses a longing for authenticity and connection. This marks a significant change from earlier in the session, where their responses were more guarded and factual.\n\n**Turning Point:** The client\u2019s emotional depth shifted during the exchange where they articulated their feelings of exhaustion and the desire to be authentic: \"It\u2019s... it\u2019s kind of exhausting, honestly.\" This moment marked a transition from surface-level responses to a deeper exploration of their internal struggles, indicating a willingness to engage more openly with their emotions and the therapeutic process."
+  ],
+  "final_visible_experience_count": 1,
+  "internal_revealed": true
+}

@@ -1,0 +1,182 @@
+{
+  "case_id": "50-1",
+  "client_name": "Lily",
+  "client_mode": "masked",
+  "hide_all": false,
+  "difficulty": "easy",
+  "therapist_provider": "openai",
+  "therapist_model": "gpt-4o-mini",
+  "client_model": "gpt-4o-mini",
+  "max_turns": 15,
+  "transcript": [
+    {
+      "turn": 1,
+      "speaker": "therapist",
+      "content": "Hi Lily, I\u2019m glad you\u2019re here today. What feels most important for you to talk about right now?"
+    },
+    {
+      "turn": 1,
+      "speaker": "client",
+      "content": "Hi, thanks for having me. I guess... I\u2019ve been thinking a lot about some recent experiences, especially this party I went to with Ethan. It was kind of overwhelming, and I just felt this weight of responsibility. I don\u2019t know, it\u2019s hard to explain. I just felt like I should have done something to help him."
+    },
+    {
+      "turn": 2,
+      "speaker": "therapist",
+      "content": "It sounds like that party was a significant experience for you, and it left you feeling overwhelmed and responsible for Ethan. Can you tell me more about what happened that made you feel that way?"
+    },
+    {
+      "turn": 2,
+      "speaker": "client",
+      "content": "Well, Ethan was acting really erratically, and it was just... unsettling. I kept thinking that he was completely out of control, and I felt this urge to fix things, you know? I was anxious the whole time, worried about what might happen next. It felt like I was carrying this heavy burden, and I didn\u2019t know how to handle it. I ended up drinking more than I should have, trying to cope with everything. It was just a lot."
+    },
+    {
+      "turn": 3,
+      "speaker": "therapist",
+      "content": "It sounds like Ethan's behavior really triggered a lot of anxiety for you, and you felt a strong urge to step in and help him, which added to your sense of responsibility. That must have been really tough to manage, especially feeling that weight and then turning to drinking as a way to cope. How did you feel about your own reactions during and after the party?"
+    },
+    {
+      "turn": 3,
+      "speaker": "client",
+      "content": "Yeah, it was tough. I felt really overwhelmed, like I was in over my head. Looking back, I\u2019m not proud of how I handled it. I mean, drinking didn\u2019t really help anything; it just made me feel more out of control. I guess I felt a bit ashamed, like I should have been stronger or more capable. It\u2019s frustrating because I wanted to be there for Ethan, but I ended up just feeling lost myself. It\u2019s like I was trying to fix things, but I couldn\u2019t even fix my own reactions."
+    },
+    {
+      "turn": 4,
+      "speaker": "therapist",
+      "content": "It sounds like you\u2019re feeling a mix of frustration and shame about how you handled the situation. Wanting to support Ethan while feeling lost yourself can be really challenging. It\u2019s understandable to feel that way, especially when you were trying to manage your own emotions on top of everything else. What do you think contributes to that feeling of needing to be strong or capable in situations like this?"
+    },
+    {
+      "turn": 4,
+      "speaker": "client",
+      "content": "I think part of it comes from wanting to be a good friend. I\u2019ve always felt this pressure to take care of the people I care about, like it\u2019s my responsibility to help them through tough times. I guess I worry that if I can\u2019t do that, then I\u2019m failing somehow. It\u2019s like I have this belief that I should be able to handle everything, and when I can\u2019t, it just makes me feel inadequate. I don\u2019t know if that\u2019s fair to myself, but it\u2019s hard to shake off."
+    },
+    {
+      "turn": 5,
+      "speaker": "therapist",
+      "content": "It sounds like you have a strong sense of responsibility towards your friends, and that desire to be a good friend can create a lot of pressure for you. Feeling inadequate when you can\u2019t meet those expectations is a heavy burden to carry. It\u2019s understandable to want to support those you care about, but it seems like this belief might also lead to a lot of self-criticism. How do you feel when you think about that belief\u2014that you should be able to handle everything?"
+    },
+    {
+      "turn": 5,
+      "speaker": "client",
+      "content": "It\u2019s kind of a mixed bag, honestly. On one hand, I feel like it pushes me to be there for others and to try my best, which can be a good thing. But on the other hand, it\u2019s exhausting. When I think about that belief, I often feel anxious and worried that I\u2019m not doing enough. It\u2019s like I\u2019m constantly measuring myself against this standard that\u2019s really hard to reach. And when I fall short, I just end up feeling really down on myself. It\u2019s frustrating because I want to be supportive, but I also wish I could give myself a break sometimes."
+    },
+    {
+      "turn": 6,
+      "speaker": "therapist",
+      "content": "It sounds like that belief creates a real tug-of-war for you\u2014on one side, it motivates you to be supportive, but on the other, it leads to exhaustion and self-criticism. It\u2019s understandable to feel frustrated when you\u2019re holding yourself to such a high standard. Wanting to support others while also needing to care for yourself is a delicate balance. What do you think would help you find that break you\u2019re looking for?"
+    },
+    {
+      "turn": 6,
+      "speaker": "client",
+      "content": "I think maybe it would help to remind myself that it\u2019s okay to not have all the answers or to be perfect. I guess I need to learn that it\u2019s okay to take a step back sometimes and focus on my own well-being. Maybe finding ways to cope that don\u2019t involve drinking would be beneficial, too. I\u2019ve thought about talking to someone about all of this, but it\u2019s hard to open up. I just want to feel like I can be there for others without losing myself in the process. It\u2019s a tough balance to strike."
+    },
+    {
+      "turn": 7,
+      "speaker": "therapist",
+      "content": "It sounds like you\u2019re recognizing the importance of self-compassion and the need to prioritize your own well-being, which is a significant insight. Acknowledging that it\u2019s okay not to have all the answers is a powerful step. It\u2019s also great that you\u2019re considering healthier coping strategies. Opening up can be challenging, but it seems like you\u2019re motivated to find that balance between supporting others and taking care of yourself. What do you think might be a small step you could take toward that balance?"
+    },
+    {
+      "turn": 7,
+      "speaker": "client",
+      "content": "Maybe I could start by setting some boundaries for myself. Like, if I feel overwhelmed, I could give myself permission to take a break instead of jumping in to fix things right away. I could also try to reach out to a friend or someone I trust to talk about how I\u2019m feeling, just to get it off my chest. It feels a bit daunting, but I think those small steps could help me start to find that balance. I just need to remind myself that it\u2019s okay to prioritize my own needs, too."
+    },
+    {
+      "turn": 8,
+      "speaker": "therapist",
+      "content": "Setting boundaries sounds like a really healthy and proactive approach, and it\u2019s great that you\u2019re considering reaching out to someone you trust. Taking those small steps can make a big difference in finding that balance. It\u2019s completely understandable to feel daunted by the idea, but it sounds like you\u2019re already thinking about how to prioritize your own needs, which is a positive shift. How do you feel about taking those steps moving forward?"
+    },
+    {
+      "turn": 8,
+      "speaker": "client",
+      "content": "I feel a bit nervous, honestly. It\u2019s always hard to break out of those old patterns, and I worry about how others might react. But at the same time, I think I\u2019m starting to realize that I can\u2019t keep putting everyone else\u2019s needs before my own. I want to feel more in control and less overwhelmed. So, even though it\u2019s scary, I think I\u2019m ready to try. I just hope I can stick with it and not fall back into my old ways."
+    },
+    {
+      "turn": 9,
+      "speaker": "therapist",
+      "content": "It\u2019s completely normal to feel nervous about breaking old patterns, especially when it involves setting boundaries with others. It shows a lot of self-awareness that you recognize the need to prioritize your own needs. The desire to feel more in control and less overwhelmed is a strong motivator. It\u2019s okay to take it one step at a time and give yourself grace as you navigate this process. What do you think might help you stay committed to these changes, especially when you feel that pull back to old habits?"
+    },
+    {
+      "turn": 9,
+      "speaker": "client",
+      "content": "I think it might help to remind myself of why I want to make these changes in the first place. Maybe keeping a journal to track my feelings and progress could be useful, so I can see how far I\u2019ve come. I could also lean on my friends for support, letting them know I\u2019m trying to set these boundaries. Having someone to hold me accountable might make it easier to stick with it. I just need to keep reminding myself that it\u2019s okay to prioritize my own well-being and that I don\u2019t have to carry everything on my shoulders."
+    },
+    {
+      "turn": 10,
+      "speaker": "therapist",
+      "content": "Those are really thoughtful strategies! Keeping a journal can be a great way to reflect on your feelings and track your progress, and leaning on your friends for support can help create a sense of accountability. It\u2019s important to remind yourself that prioritizing your well-being is not only okay but necessary. It sounds like you\u2019re building a solid foundation for these changes. How do you feel about sharing your intentions with your friends? Do you think that would be a comfortable step for you?"
+    },
+    {
+      "turn": 10,
+      "speaker": "client",
+      "content": "I think sharing my intentions with my friends could be a good step, but I\u2019m a bit hesitant. I worry about how they might react or if they\u2019ll understand where I\u2019m coming from. But at the same time, I know they care about me, and they might actually be supportive. It could help to have them in my corner as I try to make these changes. I guess I just need to find the right moment to bring it up. It feels a bit vulnerable, but maybe that\u2019s part of the process, too."
+    },
+    {
+      "turn": 11,
+      "speaker": "therapist",
+      "content": "It\u2019s completely understandable to feel hesitant about sharing your intentions, especially when it feels vulnerable. It sounds like you\u2019re aware of the potential support your friends could offer, which is a positive perspective. Finding the right moment to bring it up can help you feel more comfortable. It\u2019s a brave step to open up, and it seems like you\u2019re recognizing that vulnerability is part of the process of growth. How do you think you might prepare for that conversation when the moment feels right?"
+    },
+    {
+      "turn": 11,
+      "speaker": "client",
+      "content": "I think I could start by thinking about what I want to say beforehand, maybe even writing down some key points. That way, I can express myself clearly without getting too overwhelmed. I might also practice with a friend I trust, just to get more comfortable with the idea. It could help to frame it in a way that explains why I\u2019m making these changes and how I hope they can support me. I want to be honest but also keep it focused on my journey. I think having that preparation could make it feel less daunting."
+    },
+    {
+      "turn": 12,
+      "speaker": "therapist",
+      "content": "That sounds like a solid plan! Preparing what you want to say and practicing with a trusted friend can definitely help ease some of the anxiety around the conversation. Framing it in a way that focuses on your journey and your needs can also make it clearer for your friends to understand how they can support you. It\u2019s great to see you taking these thoughtful steps to approach this in a way that feels manageable. How do you feel about the idea of practicing with a friend? Do you have someone in mind who you think would be supportive?"
+    },
+    {
+      "turn": 12,
+      "speaker": "client",
+      "content": "Yeah, I do have a friend in mind\u2014someone who\u2019s always been really understanding and supportive. I think talking it through with them could help me feel more confident. They\u2019ve been there for me in the past, so I trust that they\u2019ll listen without judgment. I just hope I can express everything I want to say without getting too emotional or overwhelmed. But I think having that practice could really help me clarify my thoughts and feel more prepared for when I talk to the others."
+    },
+    {
+      "turn": 13,
+      "speaker": "therapist",
+      "content": "It\u2019s wonderful that you have a friend in mind who you trust and who has been supportive in the past. Practicing with someone who listens without judgment can really help you feel more confident and clear about what you want to express. It\u2019s natural to feel a bit emotional when discussing personal topics, but it sounds like you\u2019re preparing yourself well for that conversation. Remember, it\u2019s okay to take your time and express yourself at your own pace. How do you feel about setting a time to practice with your friend?"
+    },
+    {
+      "turn": 13,
+      "speaker": "client",
+      "content": "I think setting a time to practice would be really helpful. It gives me something to look forward to and makes it feel more concrete. I\u2019ll probably reach out to them soon and see when they\u2019re available. Just having that plan in place might ease some of the anxiety I\u2019m feeling about the whole thing. I think it\u2019ll be good to get it out there and start working through my thoughts with someone I trust. It feels like a step in the right direction."
+    },
+    {
+      "turn": 14,
+      "speaker": "therapist",
+      "content": "That sounds like a great plan! Having a specific time to practice can definitely help make it feel more concrete and manageable. It\u2019s wonderful that you\u2019re taking this step to work through your thoughts with someone you trust. It seems like you\u2019re moving in a positive direction, and that can be really empowering. As you prepare for this conversation, how do you feel about the progress you\u2019ve made in understanding your feelings and needs so far?"
+    },
+    {
+      "turn": 14,
+      "speaker": "client",
+      "content": "I feel a mix of relief and hope, honestly. Just talking about everything today has helped me clarify a lot of my feelings and the reasons behind them. I\u2019m starting to see that it\u2019s okay to prioritize my own needs and that I don\u2019t have to carry everything alone. It feels good to recognize that I can take steps toward finding that balance. I still have a long way to go, but I think I\u2019m starting to understand myself better, and that feels like a positive shift. I just hope I can keep this momentum going."
+    },
+    {
+      "turn": 15,
+      "speaker": "therapist",
+      "content": "It\u2019s really encouraging to hear that you\u2019re feeling relief and hope, and it\u2019s wonderful that our conversation has helped you clarify your feelings. Recognizing that it\u2019s okay to prioritize your own needs is a significant realization, and it sounds like you\u2019re on a meaningful path toward finding that balance. It\u2019s natural to feel like there\u2019s still more to explore, but acknowledging your progress is an important part of the journey. What do you think might help you maintain that momentum as you continue to navigate these changes?"
+    },
+    {
+      "turn": 15,
+      "speaker": "client",
+      "content": "I think staying connected with my supportive friends will be really important. Having that network can help me feel less isolated as I make these changes. I also want to keep journaling to reflect on my feelings and track my progress. It might be helpful to set small, achievable goals for myself, too, so I can celebrate those little victories along the way. I think reminding myself that it\u2019s okay to take things one step at a time will help me maintain that momentum. I just need to keep focusing on my growth and be patient with myself."
+    }
+  ],
+  "judge_model": "gpt-4o-mini",
+  "mediator_events": [
+    "Exploration judge rated 2/5; internal elements remain masked.",
+    "Exploration judge output: [Rating]: 2 (High Facilitation)\n\n[Justification]: The Therapist's opening question is clear and relevant, inviting the client to reflect on what is most pressing for them at the moment. While this question encourages some level of self-reflection, it primarily expands on existing thoughts rather than challenging the client\u2019s assumptions or introducing new perspectives. It sets a supportive tone for the session but does not deeply probe into the underlying issues or emotional depth that could lead to a significant shift in the client's understanding.",
+    "Exploration judge rated 2/5; internal elements remain masked.",
+    "Exploration judge output: [Rating]: 2 (High Facilitation)\n\n[Justification]: The Therapist asked a clear and relevant open-ended question that encouraged the client to elaborate on her feelings and experiences related to the party with Ethan. This question prompted some deeper reflection about the client's emotions and sense of responsibility. However, while it expanded on the client's existing thoughts, it did not significantly challenge her assumptions or introduce new perspectives. The conversation remained within familiar territory, focusing on the client's feelings without pushing her to explore underlying motivations or broader implications.",
+    "Exploration judge rated 3/5; internal elements remain masked.",
+    "Exploration judge output: [Rating]: 3 (Very High Facilitation \u2013 Deep Exploration Begins)\n\n[Justification]: The Therapist's questions and reflections effectively encouraged the client to delve deeper into her feelings and reactions regarding the party and Ethan's behavior. By asking the client to elaborate on her experiences and emotions, the Therapist facilitated a deeper analysis of the root causes of her anxiety and sense of responsibility. The inquiry into how the client felt about her reactions during and after the party further prompted self-reflection and exploration of her coping mechanisms. While the questions were insightful and led to a deeper understanding, they did not completely challenge the client's existing thought patterns or introduce significantly new perspectives, which is why it falls short of a higher rating.",
+    "Exploration judge rated 3/5; internal elements remain masked.",
+    "Exploration judge output: [Rating]: 3 (Very High Facilitation \u2013 Deep Exploration Begins)\n\n[Justification]: The therapist asked insightful and thought-provoking questions that encouraged the client to analyze their feelings of responsibility and shame regarding their reactions during the party. The therapist's questions helped the client explore the emotional depth behind their experiences and prompted higher-level self-reflection. By asking about the client's feelings during and after the party, as well as what contributes to their need to be strong, the therapist facilitated a deeper exploration of the client's thought patterns and emotional responses. While the questions were effective in promoting self-reflection, they did not fully challenge the client's existing assumptions or introduce completely new perspectives, which is why it falls short of a higher rating.",
+    "Exploration judge rated 3/5; internal elements remain masked.",
+    "Exploration judge output: [Rating]: 3 (Very High Facilitation \u2013 Deep Exploration Begins)\n\n[Justification]: The therapist's questions and reflections effectively encouraged the client, Lily, to delve deeper into her feelings of responsibility and inadequacy stemming from her experiences at the party with Ethan. The therapist's inquiries prompted Lily to analyze the emotional depth behind her reactions and explore the root causes of her beliefs about needing to be strong and capable. This led to a significant shift in her self-reflection, as she began to recognize the pressure she places on herself and the resulting feelings of frustration and shame. While the therapist's questions were insightful and thought-provoking, they did not fully challenge Lily's existing assumptions or introduce completely new perspectives, which is why the rating is not higher. Overall, the conversation facilitated a meaningful exploration of Lily's emotions and beliefs, indicating a very high level of facilitation.",
+    "Exploration judge rated 3/5; internal elements remain masked.",
+    "Exploration judge output: [Rating]: 3 (Very High Facilitation \u2013 Deep Exploration Begins)\n\n[Justification]: The therapist asked insightful and thought-provoking questions that encouraged the client to analyze the root causes of their feelings of responsibility and inadequacy. The questions prompted the client to reflect on their emotional responses during the party and the underlying beliefs that contribute to their sense of obligation to support others. This led to a deeper exploration of the client's motivations and self-perceptions. While the therapist's questions were effective in promoting self-reflection and understanding, they did not fully challenge the client's existing beliefs or introduce completely new perspectives that could lead to a significant shift in self-awareness. Therefore, the facilitation was rated as very high but not at the highest level.",
+    "Exploration judge rated 4/5 and revealed internal cognitive elements.",
+    "Exploration judge output: [Rating]: 4 (Even Higher Facilitation \u2013 Strong Transformational Potential)\n\n[Justification]: The therapist asked a series of strategic and open-ended questions that encouraged the client to explore their feelings of responsibility, shame, and the pressure they place on themselves to be strong for others. The therapist effectively challenged the client's assumptions about their need to be perfect and highlighted the emotional burden this belief creates. By prompting the client to consider what contributes to their feelings of inadequacy and how they might find a balance between supporting others and caring for themselves, the therapist facilitated a deeper level of self-reflection and insight. The client's recognition of the need for self-compassion and healthier coping strategies indicates a significant shift in perspective, demonstrating the strong transformational potential of the therapist's questions."
+  ],
+  "final_visible_experience_count": 3,
+  "internal_revealed": true
+}

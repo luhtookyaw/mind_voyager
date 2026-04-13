@@ -1,0 +1,178 @@
+{
+  "case_id": "30-1",
+  "client_name": "Matthew",
+  "client_mode": "masked",
+  "hide_all": false,
+  "difficulty": "normal",
+  "therapist_provider": "openai",
+  "therapist_model": "gpt-4o-mini",
+  "client_model": "gpt-4o-mini",
+  "max_turns": 15,
+  "transcript": [
+    {
+      "turn": 1,
+      "speaker": "therapist",
+      "content": "Hello, Matthew. I'm glad you're here today. What feels most important for you to talk about right now?"
+    },
+    {
+      "turn": 1,
+      "speaker": "client",
+      "content": "Hi. Thanks for having me. I guess... I\u2019ve been thinking a lot about my parents lately, especially about how they might react to things I want to share with them. It\u2019s just... I don\u2019t know, it feels complicated."
+    },
+    {
+      "turn": 2,
+      "speaker": "therapist",
+      "content": "It sounds like your relationship with your parents is on your mind, and that there are some complicated feelings around how they might respond to what you want to share. Can you tell me a bit more about what specifically feels complicated for you?"
+    },
+    {
+      "turn": 2,
+      "speaker": "client",
+      "content": "Yeah, it\u2019s just... I worry that they won\u2019t really understand me. Like, if I tell them about my breakup, I feel like they\u2019ll just see it as another failure or something. It\u2019s hard to shake off that feeling, you know? I don\u2019t want to feel judged or like they don\u2019t care."
+    },
+    {
+      "turn": 3,
+      "speaker": "therapist",
+      "content": "It seems like you're feeling a lot of anxiety about their potential judgment regarding your breakup, and that you\u2019re concerned they might not see it for what it really is for you. That fear of being misunderstood or judged can be really heavy. What emotions come up for you when you think about sharing this with them?"
+    },
+    {
+      "turn": 3,
+      "speaker": "client",
+      "content": "I feel really sad and lonely when I think about it. There\u2019s this heaviness, like I\u2019m carrying around this weight. I just keep going back and forth in my mind about whether it\u2019s even worth telling them. It\u2019s like I\u2019m stuck in this loop of worrying about how they\u2019ll react and feeling down about it all."
+    },
+    {
+      "turn": 4,
+      "speaker": "therapist",
+      "content": "It sounds like that heaviness is really weighing on you, and the sadness and loneliness are making it even harder to navigate your thoughts about sharing with your parents. Being stuck in that loop of worry can be exhausting. When you think about the possibility of sharing with them, what do you hope to achieve or feel from that conversation?"
+    },
+    {
+      "turn": 4,
+      "speaker": "client",
+      "content": "I guess... part of me hopes that they might actually listen and understand where I\u2019m coming from. I want to feel supported, like they care about what I\u2019m going through. But then, there\u2019s this other part of me that fears it\u2019ll just end up being another disappointment. It\u2019s hard to balance those hopes and fears."
+    },
+    {
+      "turn": 5,
+      "speaker": "therapist",
+      "content": "It sounds like you have a deep desire for connection and support from your parents, but at the same time, there's a strong fear of disappointment that makes it difficult to take that step. That push and pull between hope and fear can create a lot of inner conflict. Can you share more about what you think might lead to that disappointment? What experiences have shaped that fear for you?"
+    },
+    {
+      "turn": 5,
+      "speaker": "client",
+      "content": "I think it comes from past experiences, you know? Like, there have been times when I\u2019ve tried to open up to them, and it didn\u2019t go well. They didn\u2019t really seem to get it, or they brushed it off like it wasn\u2019t a big deal. It just makes me feel like my feelings don\u2019t matter to them. So now, I\u2019m always worried that if I share something important, it\u2019ll just be met with the same kind of indifference."
+    },
+    {
+      "turn": 6,
+      "speaker": "therapist",
+      "content": "It sounds like those past experiences have really impacted how you view sharing your feelings with them. Feeling like your emotions were brushed off can create a sense of invalidation, which understandably makes you hesitant to open up again. It\u2019s tough to carry that fear of indifference into new conversations. How do you think those past interactions influence your current feelings about reaching out to them?"
+    },
+    {
+      "turn": 6,
+      "speaker": "client",
+      "content": "I think they make me really hesitant. Like, I keep replaying those moments in my head, and it makes me doubt whether it\u2019s even worth trying again. I start to feel like I\u2019m just setting myself up for more disappointment. It\u2019s like, why put myself through that again? So, I end up just keeping things to myself, which feels lonely, but at least I know what to expect."
+    },
+    {
+      "turn": 7,
+      "speaker": "therapist",
+      "content": "That makes a lot of sense. It sounds like the hesitation is a protective mechanism to avoid the pain of disappointment, even though it leads to feelings of loneliness. It\u2019s understandable to want to shield yourself from hurt, but it also seems like you\u2019re caught in a cycle where you\u2019re missing out on the connection you desire. What do you think it would take for you to feel more comfortable taking that risk and sharing with them again?"
+    },
+    {
+      "turn": 7,
+      "speaker": "client",
+      "content": "I\u2019m not really sure. Maybe if I felt more confident that they would actually listen and try to understand, instead of jumping to conclusions. It would help if I could see some signs that they\u2019re willing to be supportive, you know? But right now, it just feels like a big leap, and I\u2019m not sure if I\u2019m ready for that."
+    },
+    {
+      "turn": 8,
+      "speaker": "therapist",
+      "content": "It sounds like having some reassurance that they would be open and supportive would make a big difference for you. That feeling of needing to see signs of their willingness to listen before taking that leap is completely valid. It\u2019s a lot to ask of yourself to step into uncertainty when you\u2019re not sure how they\u2019ll respond. What do you think might help you gauge their openness or willingness to support you before you decide to share?"
+    },
+    {
+      "turn": 8,
+      "speaker": "client",
+      "content": "I guess I could try to bring up smaller topics first, to see how they react. Like, maybe I could test the waters with something less personal and see if they\u2019re receptive. If they seem open and understanding, maybe it would give me the confidence to share more later. But even that feels a bit daunting, like I\u2019m still walking on eggshells."
+    },
+    {
+      "turn": 9,
+      "speaker": "therapist",
+      "content": "That sounds like a thoughtful approach\u2014starting with smaller topics to gauge their receptiveness. It\u2019s understandable that even that feels daunting, as it still requires vulnerability. Walking on eggshells can be exhausting. What do you think might help you feel a bit more grounded or secure as you navigate those smaller conversations?"
+    },
+    {
+      "turn": 9,
+      "speaker": "client",
+      "content": "I think having a plan or maybe even practicing what I want to say could help. If I could prepare myself a bit, it might ease some of the anxiety. Also, talking to someone else about it first\u2014like a friend or even you\u2014might help me feel more supported before I approach them. Just having that extra layer of support could make it feel less overwhelming."
+    },
+    {
+      "turn": 10,
+      "speaker": "therapist",
+      "content": "It sounds like having a plan and practicing could provide you with a sense of control and confidence, which is really important. Talking it through with someone else first, like a friend or here, could definitely help you feel more supported and less isolated in this process. It\u2019s great that you\u2019re thinking about ways to ease the anxiety. What specific aspects of what you want to share do you think you\u2019d like to practice or prepare for?"
+    },
+    {
+      "turn": 10,
+      "speaker": "client",
+      "content": "I think I\u2019d want to practice how to express my feelings without sounding defensive or overly emotional. I want to be clear about what I\u2019m going through, but I also don\u2019t want them to feel attacked or overwhelmed. Maybe I could focus on sharing how I feel rather than just the situation itself. That way, it might help them understand me better without feeling like I\u2019m blaming them for anything."
+    },
+    {
+      "turn": 11,
+      "speaker": "therapist",
+      "content": "That sounds like a really constructive approach. Focusing on expressing your feelings can help create a more open dialogue and reduce the chance of them feeling defensive. It\u2019s thoughtful of you to consider how to communicate in a way that fosters understanding rather than conflict. How do you feel about the idea of framing your feelings in a way that emphasizes your experience, rather than the situation itself? What might that look like for you?"
+    },
+    {
+      "turn": 11,
+      "speaker": "client",
+      "content": "I think it could be really helpful. Instead of just saying, \u201cI\u2019m upset about my breakup,\u201d I could say something like, \u201cI\u2019ve been feeling really sad and lonely lately because of what happened.\u201d That way, it\u2019s more about how I\u2019m feeling rather than just the event itself. It might help them connect with my emotions better. I just hope they can really hear me and not just see it as another thing to worry about."
+    },
+    {
+      "turn": 12,
+      "speaker": "therapist",
+      "content": "That\u2019s a great example of how to shift the focus to your feelings, which can definitely help them connect with your experience on a deeper level. It sounds like you\u2019re really hoping for that genuine understanding and connection, rather than just a reaction to the situation. It\u2019s completely natural to want to be heard and validated. As you think about this approach, what do you think might help you stay grounded in your feelings during the conversation, especially if you start to feel anxious?"
+    },
+    {
+      "turn": 12,
+      "speaker": "client",
+      "content": "I think it might help to take a few deep breaths before I start talking. Just to calm myself down a bit. Maybe I could remind myself that it\u2019s okay to feel vulnerable and that my feelings are valid, no matter how they react. Having a few key points to focus on could also keep me grounded, so I don\u2019t get too caught up in the moment or let anxiety take over."
+    },
+    {
+      "turn": 13,
+      "speaker": "therapist",
+      "content": "Those sound like really effective strategies. Taking deep breaths can help center you, and reminding yourself that your feelings are valid is a powerful affirmation. Having key points to focus on can also provide a sense of structure, which might ease some of the anxiety. It seems like you\u2019re building a solid plan to approach this conversation with intention and care. How are you feeling about this plan now that you\u2019ve thought it through?"
+    },
+    {
+      "turn": 13,
+      "speaker": "client",
+      "content": "I feel a bit more hopeful about it, actually. It\u2019s nice to have a clearer idea of how to approach it instead of just feeling overwhelmed. I know it\u2019s still going to be tough, but having some strategies in place makes it feel a little less daunting. I guess I just need to remind myself that it\u2019s okay to take it one step at a time."
+    },
+    {
+      "turn": 14,
+      "speaker": "therapist",
+      "content": "It\u2019s wonderful to hear that you\u2019re feeling more hopeful and that having a clearer plan is helping to ease some of that overwhelm. Taking it one step at a time is a wise approach, especially with something as significant as this. It\u2019s okay to give yourself grace as you navigate these feelings and conversations. Is there anything else you\u2019d like to explore or discuss today as you prepare for this?"
+    },
+    {
+      "turn": 14,
+      "speaker": "client",
+      "content": "I think I\u2019ve covered a lot of what\u2019s been on my mind. I just hope I can keep this sense of clarity as I move forward. Maybe just remembering that it\u2019s okay to feel nervous and that I\u2019m doing my best is something I need to hold onto. Thanks for helping me sort through all of this. It feels good to have a plan."
+    },
+    {
+      "turn": 15,
+      "speaker": "therapist",
+      "content": "I\u2019m really glad to hear that you feel more clarity and that you have a plan in place. Remembering that it\u2019s okay to feel nervous and that you\u2019re doing your best is a valuable mindset to carry with you. You\u2019ve done a great job of exploring your feelings and thoughts today. If you ever want to revisit this or talk about anything else in the future, I\u2019m here for you. Take care as you move forward, Matthew."
+    },
+    {
+      "turn": 15,
+      "speaker": "client",
+      "content": "Thank you. I appreciate your support and understanding. It really helps to talk things through. I\u2019ll definitely keep that in mind as I move forward. Take care, and I\u2019ll see you next time."
+    }
+  ],
+  "judge_model": "gpt-4o-mini",
+  "mediator_events": [
+    "Exploration judge rated 2/5; internal elements remain masked.",
+    "Exploration judge output: [Rating]: 2 (High Facilitation)\n\n[Justification]: The Therapist asked a relevant and open-ended question that encouraged the client to elaborate on their feelings about their parents and the complexities of their relationship. This question prompted some deeper reflection, allowing the client to explore their thoughts further. However, the inquiry primarily expanded on the client's existing thoughts rather than introducing significantly new perspectives or challenging underlying assumptions. While it facilitated some self-reflection, it did not delve deeply into the root causes or emotional depths of the client's experiences, which would have warranted a higher rating.",
+    "Rapport judge rated 3/5; no experience reveal.",
+    "Rapport judge output: **Rating: 3 (ENGAGED EXPLORATION)**\n\n**Key Examples:**\n1. \"I feel really sad and lonely when I think about it. There\u2019s this heaviness, like I\u2019m carrying around this weight.\"\n2. \"It\u2019s hard to shake off that feeling, you know? I don\u2019t want to feel judged or like they don\u2019t care.\"\n\n**Progression:**\nThe client\u2019s most recent interactions demonstrate a clear progression in emotional expression and self-reflection. They have moved from primarily factual responses to sharing deeper emotional experiences, particularly regarding their feelings of sadness and loneliness related to their parents' potential judgment. This marks a significant change from earlier sessions, where the client may have been more guarded or hesitant to delve into their emotions. The current state reflects a willingness to explore these feelings more openly, indicating a growing comfort with the therapeutic process.\n\n**Turning Point:**\nThe client\u2019s emotional depth shifted notably when they began expressing feelings of sadness and loneliness, particularly in the exchange where they articulated the \"heaviness\" they feel about their situation. This moment signifies a turning point as it illustrates their ability to articulate complex emotions and engage in meaningful self-reflection, moving beyond surface-level concerns to a more profound exploration of their emotional landscape.",
+    "Exploration judge rated 3/5; internal elements remain masked.",
+    "Exploration judge output: [Rating]: 3 (Very High Facilitation \u2013 Deep Exploration Begins)\n\n[Justification]: The Therapist asked insightful and thought-provoking questions that encouraged the client to analyze the emotional depth behind their experiences with their parents. The questions helped the client explore their feelings of anxiety, sadness, and loneliness regarding potential judgment from their parents. While the Therapist's inquiries prompted deeper self-reflection and began to shift the client's perspective, they did not fully challenge the client's existing thought patterns or introduce completely new angles. Overall, the conversation facilitated a deeper exploration of the client's emotions and concerns, but there remains potential for even greater transformational insights.",
+    "Exploration judge rated 4/5 and revealed internal cognitive elements.",
+    "Exploration judge output: [Rating]: 4 (Even Higher Facilitation \u2013 Strong Transformational Potential)\n\n[Justification]: The therapist asked a series of strategic and open-ended questions that encouraged the client to explore their feelings and fears about sharing personal experiences with their parents. The therapist effectively challenged the client's assumptions by prompting them to reflect on their past experiences and how those shaped their current anxieties. This led to a deeper exploration of the client's emotional landscape, revealing hidden motivations and fears. The questions pushed the client to analyze the root causes of their feelings and consider the implications of their past interactions, which indicates a strong potential for transformation in their self-awareness and understanding of their relationship with their parents.",
+    "Rapport judge rated 4/5 and revealed one more experience block.",
+    "Rapport judge output: **Rating: 4**\n\n**Key Examples:**\n1. \"I feel really sad and lonely when I think about it. There\u2019s this heaviness, like I\u2019m carrying around this weight.\"\n2. \"I think they make me really hesitant. Like, I keep replaying those moments in my head, and it makes me doubt whether it\u2019s even worth trying again.\"\n\n**Progression:**\nThe client\u2019s most recent interactions exhibit a notable increase in emotional depth and self-reflection. They have moved from a more guarded stance to expressing their feelings of sadness and loneliness regarding their relationship with their parents. This shift indicates a growing comfort in sharing vulnerable emotions, which marks a significant change from earlier exchanges where they were more factual and hesitant. The client is now articulating complex feelings about their past experiences and how these shape their current fears, demonstrating a deeper level of engagement and exploration.\n\n**Turning Point:**\nThe client\u2019s emotional depth shifted significantly when they began expressing their feelings of sadness and loneliness, particularly in the exchange where they stated, \"I feel really sad and lonely when I think about it.\" This moment reflects a breakthrough in their willingness to disclose deeper emotions and concerns about their relationship with their parents, moving beyond mere factual recounting to a more profound exploration of their emotional landscape. This indicates a strong therapeutic alliance and a readiness to engage in more meaningful self-exploration."
+  ],
+  "final_visible_experience_count": 3,
+  "internal_revealed": true
+}

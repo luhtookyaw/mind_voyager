@@ -1,12 +1,14 @@
 # llm.py
 import os
 from math import sqrt
+
 from openai import OpenAI
 from dotenv import load_dotenv
 
 load_dotenv()
 
 client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
+_sentence_transformer_models: dict[str, object] = {}
 
 def call_llm(
     system_prompt: str,
@@ -50,8 +52,24 @@ def get_embedding(
     model: str = "text-embedding-ada-002",
 ) -> list[float]:
     """
-    Thin wrapper around OpenAI embeddings.
+    Embedding wrapper supporting both OpenAI embedding models and
+    sentence-transformers models such as `sentence-transformers/all-MiniLM-L6-v2`.
     """
+    if model.startswith("sentence-transformers/"):
+        try:
+            from sentence_transformers import SentenceTransformer
+        except ImportError as exc:
+            raise ImportError(
+                "sentence-transformers is required for local embedding models. "
+                "Install it with `pip install sentence-transformers`."
+            ) from exc
+
+        encoder = _sentence_transformer_models.get(model)
+        if encoder is None:
+            encoder = SentenceTransformer(model)
+            _sentence_transformer_models[model] = encoder
+        return encoder.encode(text, convert_to_numpy=True).tolist()
+
     response = client.embeddings.create(
         model=model,
         input=text,

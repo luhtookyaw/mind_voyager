@@ -1,0 +1,186 @@
+{
+  "case_id": "16-1",
+  "client_name": "Mason",
+  "client_mode": "masked",
+  "hide_all": false,
+  "difficulty": "normal",
+  "therapist_provider": "openai",
+  "therapist_model": "gpt-4o-mini",
+  "client_model": "gpt-4o-mini",
+  "max_turns": 15,
+  "transcript": [
+    {
+      "turn": 1,
+      "speaker": "therapist",
+      "content": "Hello, Mason. I\u2019m glad you\u2019re here today. What feels most important for you to talk about right now?"
+    },
+    {
+      "turn": 1,
+      "speaker": "client",
+      "content": "Hi. Thanks for having me. I guess... I\u2019ve been feeling a bit overwhelmed lately, especially with this project I\u2019m working on. It\u2019s due soon, and there\u2019s been a lot of pressure around it because of recent events. I just can\u2019t shake the feeling that I\u2019m falling behind."
+    },
+    {
+      "turn": 2,
+      "speaker": "therapist",
+      "content": "It sounds like you\u2019re carrying a lot of pressure with this project, especially with the deadline approaching. Feeling overwhelmed and like you\u2019re falling behind can be really tough. Can you tell me more about what aspects of the project are feeling most overwhelming for you?"
+    },
+    {
+      "turn": 2,
+      "speaker": "client",
+      "content": "Yeah, it\u2019s just... there\u2019s so much to do, and I keep thinking about how important it is. I worry that if I don\u2019t get it right, it\u2019ll reflect badly on me. I guess I\u2019m just anxious about not meeting expectations, both from others and from myself. It\u2019s like I can\u2019t focus because I\u2019m constantly thinking about how I need to finish it as soon as possible."
+    },
+    {
+      "turn": 3,
+      "speaker": "therapist",
+      "content": "It seems like the weight of expectations, both from others and yourself, is adding to your anxiety about the project. It\u2019s understandable that this pressure would make it hard to focus. When you think about not meeting those expectations, what kind of thoughts or feelings come up for you?"
+    },
+    {
+      "turn": 3,
+      "speaker": "client",
+      "content": "I start to think that maybe I\u2019m not cut out for this, you know? Like, what if I really do fail? It makes me feel scared and tense. I just keep picturing all the things that could go wrong, and it\u2019s hard to shake those thoughts. I know I should probably take a step back, but it\u2019s like I\u2019m stuck in this cycle of worry."
+    },
+    {
+      "turn": 4,
+      "speaker": "therapist",
+      "content": "It sounds like those thoughts about not being cut out for this and the fear of failure are really weighing on you. It\u2019s understandable to feel scared and tense when you\u2019re caught in that cycle of worry. It can be hard to step back when you\u2019re feeling stuck. What do you think keeps you in that cycle, even when you know it might help to take a break?"
+    },
+    {
+      "turn": 4,
+      "speaker": "client",
+      "content": "I think part of it is just this feeling that I have to keep pushing through. If I stop, I might fall even further behind, and then I\u2019ll really be in trouble. There\u2019s this voice in my head that says I need to keep working, even if it means sacrificing sleep or just feeling awful. It\u2019s like I\u2019m afraid that if I take a break, I won\u2019t be able to catch up."
+    },
+    {
+      "turn": 5,
+      "speaker": "therapist",
+      "content": "It sounds like there\u2019s a strong internal pressure driving you to keep pushing through, even at the cost of your well-being. That voice telling you to keep working seems to create a fear of falling further behind. It\u2019s tough when taking a break feels like it could lead to more trouble. Can you share more about where that voice comes from? Have you experienced similar feelings or pressures in the past?"
+    },
+    {
+      "turn": 5,
+      "speaker": "client",
+      "content": "I guess I\u2019ve always felt this way about deadlines and expectations. In school, I was always worried about grades and how others perceived my work. I think it\u2019s just carried over into my current projects. There\u2019s this belief that if I don\u2019t give it my all, I\u2019ll disappoint people or let myself down. It\u2019s hard to shake that feeling, even when I know it\u2019s not healthy. I just... I don\u2019t want to fail."
+    },
+    {
+      "turn": 6,
+      "speaker": "therapist",
+      "content": "It sounds like this belief about needing to give your all to avoid disappointing others has been with you for a long time, starting from your school days. It\u2019s understandable that those feelings would carry over into your current projects. The fear of failure and letting people down can be really powerful. When you think about that belief, how does it make you feel about yourself and your work?"
+    },
+    {
+      "turn": 6,
+      "speaker": "client",
+      "content": "It makes me feel pretty inadequate, honestly. Like, no matter how hard I try, it\u2019s never enough. I start to doubt my abilities and wonder if I\u2019m really capable of doing this. It\u2019s frustrating because I know I can do good work, but that fear just clouds everything. I end up feeling like I\u2019m constantly on edge, trying to prove something to myself and others. It\u2019s exhausting."
+    },
+    {
+      "turn": 7,
+      "speaker": "therapist",
+      "content": "It sounds incredibly exhausting to feel like you\u2019re constantly trying to prove your worth and capabilities, especially when it leads to feelings of inadequacy and self-doubt. It\u2019s frustrating to know you can do good work yet feel overshadowed by that fear. How do you usually cope with those feelings when they arise?"
+    },
+    {
+      "turn": 7,
+      "speaker": "client",
+      "content": "I usually just dive into the work, thinking that if I keep busy, I won\u2019t have to deal with those feelings. But it often just leads to more stress and anxiety. Sometimes I try to push through it by telling myself that once I finish the project, I\u2019ll feel better. But it\u2019s like a temporary fix, and the feelings come back as soon as I stop working. I guess I haven\u2019t really found a good way to cope with it."
+    },
+    {
+      "turn": 8,
+      "speaker": "therapist",
+      "content": "It sounds like keeping busy with work feels like a way to avoid those difficult feelings, but it often just leads to more stress and anxiety in the long run. That temporary relief you get from finishing a project doesn\u2019t seem to last, which can be frustrating. It\u2019s understandable to want to find a better way to cope. What do you think might help you address those feelings in a more lasting way, even if it feels challenging?"
+    },
+    {
+      "turn": 8,
+      "speaker": "client",
+      "content": "I think... maybe I need to find a way to step back and acknowledge those feelings instead of just pushing them aside. It\u2019s just hard to do that when I feel so much pressure to keep going. I guess talking about it like this helps a bit, but I\u2019m not sure how to make it a regular thing. Maybe finding some balance between working and taking care of myself could help, but it feels daunting to figure out how to do that."
+    },
+    {
+      "turn": 9,
+      "speaker": "therapist",
+      "content": "It\u2019s a positive step that you\u2019re recognizing the importance of acknowledging your feelings rather than pushing them aside. It can be daunting to think about finding that balance, especially with the pressure you feel. It\u2019s great that talking about it helps, and it sounds like you\u2019re open to exploring ways to make this a more regular practice. What do you think might be a small step you could take towards that balance, even if it feels challenging?"
+    },
+    {
+      "turn": 9,
+      "speaker": "client",
+      "content": "Maybe I could try setting aside a little time each day to just check in with myself, you know? Like, taking a short break to breathe and reflect on how I\u2019m feeling instead of just diving into work. It feels a bit uncomfortable to think about, but I guess it could help me recognize when I\u2019m feeling overwhelmed before it gets too bad. I\u2019m not sure how consistent I\u2019d be, but it\u2019s a start, I think."
+    },
+    {
+      "turn": 10,
+      "speaker": "therapist",
+      "content": "That sounds like a meaningful and proactive step\u2014setting aside time each day to check in with yourself. It\u2019s completely understandable to feel a bit uncomfortable with that idea, especially when you\u2019re used to pushing through. Recognizing your feelings before they become overwhelming could really help you find that balance. It\u2019s okay if it takes some time to build consistency; what matters is that you\u2019re willing to start. How do you feel about committing to that small practice?"
+    },
+    {
+      "turn": 10,
+      "speaker": "client",
+      "content": "I feel a bit hopeful about it, actually. It seems like a manageable way to start, and I like the idea of being more aware of my feelings. I know it won\u2019t solve everything overnight, but just taking that time might help me feel a little more in control. I guess I\u2019m willing to give it a try and see how it goes. It feels like a step in the right direction."
+    },
+    {
+      "turn": 11,
+      "speaker": "therapist",
+      "content": "It\u2019s wonderful to hear that you\u2019re feeling hopeful about this approach. Taking that time for self-awareness can be a powerful way to regain a sense of control. It\u2019s true that change takes time, but starting with small, manageable steps can lead to meaningful progress. As you try this out, how do you think you might remind yourself to take that time each day?"
+    },
+    {
+      "turn": 11,
+      "speaker": "client",
+      "content": "I think I could set a reminder on my phone or maybe even write it down in my planner. Having a visual cue might help me remember to take that break. I could also try to associate it with something I already do daily, like after I finish a work session or before I start a new task. That way, it becomes part of my routine. It feels a bit more tangible when I think about it like that."
+    },
+    {
+      "turn": 12,
+      "speaker": "therapist",
+      "content": "Those sound like great strategies! Setting reminders and associating this new practice with something you already do can really help make it a part of your routine. It\u2019s encouraging to see you thinking of practical ways to integrate this into your daily life. How do you feel about the idea of checking in with yourself after a work session or before starting a new task? What do you think that moment might look like for you?"
+    },
+    {
+      "turn": 12,
+      "speaker": "client",
+      "content": "I think it could be really grounding. Taking a moment to pause and reflect after a work session might help me clear my mind and assess how I\u2019m feeling before jumping into the next task. I imagine it could be as simple as sitting quietly for a minute, taking a few deep breaths, and just asking myself how I\u2019m doing. It feels like it could create a little space between tasks, which might help reduce that rush I often feel. I\u2019m actually looking forward to trying it out."
+    },
+    {
+      "turn": 13,
+      "speaker": "therapist",
+      "content": "That sounds like a wonderful approach! Creating that grounding moment between tasks could really help you slow down and check in with yourself. It\u2019s great to hear you\u2019re looking forward to trying it out. That space you\u2019re envisioning might make a big difference in how you feel throughout the day. As you start this practice, what do you hope to notice about yourself or your feelings?"
+    },
+    {
+      "turn": 13,
+      "speaker": "client",
+      "content": "I hope to notice if I\u2019m feeling more at ease or if I can catch those anxious thoughts before they spiral. Maybe I\u2019ll become more aware of when I\u2019m pushing myself too hard or when I need to take a break. I think it could help me feel more balanced overall. I\u2019d like to see if I can shift my focus from just being productive to also being mindful of my well-being. That seems important to me."
+    },
+    {
+      "turn": 14,
+      "speaker": "therapist",
+      "content": "That\u2019s a beautiful intention\u2014to shift your focus from solely productivity to also prioritizing your well-being. Being more aware of your feelings and recognizing when you need a break can lead to a healthier balance. It sounds like you\u2019re really committed to this journey of self-awareness and mindfulness. As you embark on this practice, remember to be gentle with yourself. It\u2019s a process, and every small step counts. How do you feel about the progress you\u2019ve made in our conversation today?"
+    },
+    {
+      "turn": 14,
+      "speaker": "client",
+      "content": "I feel like I\u2019ve made some good progress, actually. Talking through everything has helped me clarify my thoughts and feelings, and I appreciate the space to explore this. I feel a bit lighter, like I have a clearer path forward with this new practice. It\u2019s nice to know that I can take small steps toward feeling better, and I\u2019m grateful for the encouragement to do that. Thank you for guiding me through this."
+    },
+    {
+      "turn": 15,
+      "speaker": "therapist",
+      "content": "I\u2019m really glad to hear that you feel lighter and have a clearer path forward. It\u2019s wonderful that our conversation has helped you clarify your thoughts and feelings. Acknowledging the small steps you can take is such an important part of this journey. Thank you for sharing your experiences and being open to exploring these feelings. If you ever want to talk more about how this practice is going or anything else, I\u2019m here for you. What\u2019s one thing you\u2019d like to carry with you from our conversation today?"
+    },
+    {
+      "turn": 15,
+      "speaker": "client",
+      "content": "I think one thing I\u2019d like to carry with me is the idea that it\u2019s okay to take a step back and check in with myself. That it doesn\u2019t have to be all about productivity all the time. I want to remind myself that acknowledging my feelings is just as important as getting work done. I\u2019ll definitely keep that in mind as I start this new practice. Thank you for helping me see that."
+    }
+  ],
+  "judge_model": "gpt-4o-mini",
+  "mediator_events": [
+    "Exploration judge rated 2/5; internal elements remain masked.",
+    "Exploration judge output: [Rating]: 2 (High Facilitation)\n\n[Justification]: The Therapist asked a clear and relevant open-ended question that encouraged the client to elaborate on their feelings of overwhelm regarding the project. This question allowed for some deeper exploration of the client's thoughts and feelings, but it primarily expanded on the client's existing concerns rather than introducing significantly new perspectives or challenging assumptions. While the conversation was constructive, it did not reach the level of deep exploration or transformational potential that would warrant a higher rating.",
+    "Rapport judge rated 3/5; no experience reveal.",
+    "Rapport judge output: **Rating: 3 (ENGAGED EXPLORATION)**\n\n**Key Examples:**\n1. \"I guess I\u2019m just anxious about not meeting expectations, both from others and from myself. It\u2019s like I can\u2019t focus because I\u2019m constantly thinking about how I need to finish it as soon as possible.\"\n2. \"I start to think that maybe I\u2019m not cut out for this, you know? Like, what if I really do fail? It makes me feel scared and tense.\"\n\n**Progression:**\nThe client\u2019s most recent interactions demonstrate a clear emotional quality of anxiety and self-doubt, indicating a significant change from earlier sessions where emotional expression was more limited. In the latest exchanges, the client openly discusses feelings of being overwhelmed and the pressure they feel, which reflects a deeper level of engagement compared to previous sessions where they may have been more guarded or factual. The emergence of phrases like \"I start to think that maybe I\u2019m not cut out for this\" shows a meaningful self-reflection that indicates the client is beginning to explore their fears and vulnerabilities more openly.\n\n**Turning Point:**\nThe client\u2019s emotional depth shifted during the exchange where they articulated their fear of failure and the feeling of being overwhelmed. This moment marked a transition from merely discussing the project to expressing deeper emotional concerns about their self-worth and capabilities. This shift illustrates a growing comfort with vulnerability and a willingness to engage more deeply in the therapeutic process, which is a notable turning point in their emotional openness.",
+    "Exploration judge rated 3/5; internal elements remain masked.",
+    "Exploration judge output: [Rating]: 3 (Very High Facilitation \u2013 Deep Exploration Begins)\n\n[Justification]: The therapist asked insightful and thought-provoking questions that encouraged the client to analyze the root causes of their feelings of overwhelm and anxiety regarding the project. The questions prompted the client to reflect on their thoughts about expectations and failure, leading to a deeper exploration of their emotional state. The therapist's inquiry about what keeps the client in the cycle of worry further encouraged higher-level self-reflection. While the conversation was effective in facilitating deeper exploration, it did not fully challenge the client's assumptions or introduce completely new perspectives, which is why it falls short of a higher rating.",
+    "Exploration judge rated 3/5; internal elements remain masked.",
+    "Exploration judge output: [Rating]: 3 (Very High Facilitation \u2013 Deep Exploration Begins)\n\n[Justification]: The therapist asked insightful and thought-provoking questions that encouraged the client to analyze the root causes of their anxiety and pressure related to the project. The questions prompted the client to reflect on their feelings of inadequacy and the origins of their internal pressures, leading to a deeper understanding of their emotional state. However, while the therapist's questions were effective in facilitating self-reflection and exploring the client's experiences, they did not fully challenge the client's assumptions or introduce significantly new perspectives that could lead to a transformative realization. The conversation was productive and insightful, but it did not reach the level of profound breakthrough or exceptional facilitation.",
+    "Rapport judge rated 3/5; no experience reveal.",
+    "Rapport judge output: **Rating: 3 (ENGAGED EXPLORATION)**\n\n**Key Examples:**\n1. Client: \"I guess I\u2019ve always felt this way about deadlines and expectations. In school, I was always worried about grades and how others perceived my work. I think it\u2019s just carried over into my current projects.\"\n2. Client: \"It makes me feel pretty inadequate, honestly. Like, no matter how hard I try, it\u2019s never enough. I start to doubt my abilities and wonder if I\u2019m really capable of doing this.\"\n\n**Progression:**\nThe client\u2019s recent interactions demonstrate a notable increase in emotional expression and self-reflection. Initially, they presented a more factual and surface-level response regarding their feelings of being overwhelmed. However, as the session progressed, they began to articulate deeper emotional experiences, such as feelings of inadequacy and self-doubt. This marks a significant change from earlier exchanges, where emotional depth was limited, and the client seemed more hesitant to explore their feelings.\n\n**Turning Point:**\nThe client\u2019s emotional depth shifted during the exchange where they expressed, \"It makes me feel pretty inadequate, honestly.\" This moment marked a transition from discussing external pressures to revealing internal struggles, indicating a growing comfort with vulnerability. By acknowledging feelings of inadequacy and the impact of past experiences on their current state, the client demonstrated a willingness to engage in more profound self-exploration, which is a key indicator of progress in the therapeutic relationship.",
+    "Exploration judge rated 3/5; internal elements remain masked.",
+    "Exploration judge output: [Rating]: 3 (Very High Facilitation \u2013 Deep Exploration Begins)\n\n[Justification]: The therapist asked insightful and thought-provoking questions that encouraged the client to analyze the root causes of their feelings of inadequacy and anxiety related to expectations and deadlines. The therapist's inquiries prompted the client to reflect on their past experiences and the internal pressures they face, leading to a deeper understanding of their emotional state. While the questions did facilitate significant self-reflection and began to shift the client's perspective, they did not reach a level that challenged the client's assumptions or introduced completely new angles that could lead to a profound breakthrough. Overall, the conversation effectively initiated deep exploration of the client's feelings and thought patterns.",
+    "Exploration judge rated 3/5; internal elements remain masked.",
+    "Exploration judge output: [Rating]: 3 (Very High Facilitation \u2013 Deep Exploration Begins)\n\n[Justification]: The therapist asked insightful and thought-provoking questions that helped the client analyze the root causes of their feelings of inadequacy and pressure. The questions encouraged the client to reflect on their past experiences and beliefs, leading to a deeper understanding of their current emotional state. For instance, when the therapist asked about the origins of the internal voice pushing the client to keep working, it prompted the client to connect their current anxiety to past experiences in school. This line of questioning began to shift the client\u2019s perspective and encouraged higher-level self-reflection. However, while the therapist facilitated deep exploration, the questions did not fully challenge the client's assumptions or introduce completely new angles that could lead to a significant breakthrough, which is why it did not reach the highest rating. Overall, the therapist's approach effectively supported the client's inner exploration and self-awareness.",
+    "Rapport judge rated 4/5 and revealed one more experience block.",
+    "Rapport judge output: **Rating: 4 (DEEP ENGAGEMENT)**\n\n**Key Examples:**\n1. Client: \"It makes me feel pretty inadequate, honestly. Like, no matter how hard I try, it\u2019s never enough. I start to doubt my abilities and wonder if I\u2019m really capable of doing this.\"\n2. Client: \"I feel a bit hopeful about it, actually. It seems like a manageable way to start, and I like the idea of being more aware of my feelings.\"\n\n**Progression:**\nThe client's most recent interactions demonstrate a significant emotional depth and vulnerability, particularly in their acknowledgment of feelings of inadequacy and the pressure they place on themselves. This marks a notable change from earlier exchanges, where the client primarily expressed anxiety and pressure without delving deeply into the emotional ramifications. The shift towards expressing hopefulness about taking proactive steps indicates a deeper engagement with their emotional state and a willingness to explore their feelings more thoroughly.\n\n**Turning Point:**\nThe turning point in the session occurred when the client articulated their feelings of inadequacy and self-doubt, stating, \"It makes me feel pretty inadequate, honestly.\" This moment marked a shift from merely discussing the pressures they faced to a more profound exploration of their internal emotional landscape. Following this, the client began to express hope and a willingness to implement self-care strategies, indicating a deeper level of engagement and self-reflection. This progression highlights the development of a strong therapeutic alliance, as the client feels safe enough to explore these deeper emotions and consider actionable steps for improvement.",
+    "Exploration judge rated 4/5 and revealed internal cognitive elements.",
+    "Exploration judge output: [Rating]: 4 (Even Higher Facilitation \u2013 Strong Transformational Potential)\n\n[Justification]: The therapist asked strategic and powerfully open-ended questions that pushed the client to explore deeper feelings and beliefs about their work and self-worth. The therapist's inquiries about the origins of the client's internal pressure and the cycle of worry prompted the client to reflect on long-standing beliefs that contribute to their anxiety. By encouraging the client to consider practical steps for self-awareness and balance, the therapist facilitated a shift in the client's perspective, moving them towards actionable strategies for coping with their feelings. The conversation led to a clear sense of self-awareness and a plan for change, indicating strong transformational potential."
+  ],
+  "final_visible_experience_count": 3,
+  "internal_revealed": true
+}

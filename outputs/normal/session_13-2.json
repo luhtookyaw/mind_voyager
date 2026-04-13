@@ -1,0 +1,182 @@
+{
+  "case_id": "13-2",
+  "client_name": "Yvette",
+  "client_mode": "masked",
+  "hide_all": false,
+  "difficulty": "normal",
+  "therapist_provider": "openai",
+  "therapist_model": "gpt-4o-mini",
+  "client_model": "gpt-4o-mini",
+  "max_turns": 15,
+  "transcript": [
+    {
+      "turn": 1,
+      "speaker": "therapist",
+      "content": "Hello, Yvette. I'm glad you're here today. What feels most important for you to talk about right now?"
+    },
+    {
+      "turn": 1,
+      "speaker": "client",
+      "content": "Um, hi. Thanks for having me. I guess... I don't know, maybe just the pressure I feel sometimes to be there for my friends? It\u2019s like, I really want to help them, but then I end up missing out on things I enjoy, like going to the movies. It\u2019s just... I don\u2019t know, it feels overwhelming sometimes. But, um, I\u2019m not sure if that\u2019s really what we should focus on."
+    },
+    {
+      "turn": 2,
+      "speaker": "therapist",
+      "content": "Thank you for sharing that with me, Yvette. It sounds like you're feeling a lot of pressure to support your friends, and that can be really overwhelming, especially when it means sacrificing things you enjoy, like going to the movies. I appreciate your honesty about not being sure if that\u2019s the focus for today. \n\nWhat do you think it is about being there for your friends that feels so important to you?"
+    },
+    {
+      "turn": 2,
+      "speaker": "client",
+      "content": "Well, I guess I just feel like if I don\u2019t help them, they might really need me and feel hurt or alone. It\u2019s like, I don\u2019t want to let them down. But then, I also feel kind of guilty for wanting to do my own thing, you know? It\u2019s just... I don\u2019t know, I want to be a good friend, but sometimes it feels like I\u2019m stuck between what I want and what I think I should do. It\u2019s confusing."
+    },
+    {
+      "turn": 3,
+      "speaker": "therapist",
+      "content": "It sounds like you really care about your friends and want to be there for them, which is a wonderful quality. At the same time, it seems like you're feeling torn between your desire to support them and your own needs and interests. That guilt you mentioned for wanting to do your own thing must be really tough to navigate.\n\nCan you tell me more about what it feels like when you're in that situation\u2014when you have to choose between helping your friends and doing something for yourself?"
+    },
+    {
+      "turn": 3,
+      "speaker": "client",
+      "content": "Yeah, it\u2019s... it\u2019s really stressful. I feel this knot in my stomach, like I\u2019m anxious about what to do. I worry that if I don\u2019t help, they might think I don\u2019t care, and that makes me feel ashamed. But then, when I give up my plans, I end up feeling disappointed and kind of resentful, like I\u2019m missing out on something I wanted. It\u2019s like I\u2019m stuck in this cycle where I want to be supportive, but I also want to feel good about my choices. It\u2019s just hard to balance it all."
+    },
+    {
+      "turn": 4,
+      "speaker": "therapist",
+      "content": "That sounds incredibly challenging, Yvette. It seems like you're caught in a cycle of anxiety and disappointment, where the pressure to be supportive creates a lot of internal conflict for you. The knot in your stomach and the feelings of shame when you consider not helping your friends really highlight how much you value those relationships. \n\nYet, when you sacrifice your own plans, it leads to feelings of resentment and disappointment, which can be really frustrating. How do you usually cope with those feelings when they arise?"
+    },
+    {
+      "turn": 4,
+      "speaker": "client",
+      "content": "Um, I guess I try to distract myself. Sometimes I\u2019ll just binge-watch a show or scroll through my phone to take my mind off things. But it doesn\u2019t really help in the long run, you know? I still feel that disappointment later. I also tend to talk to my friends about it, but I\u2019m not sure if that really helps either. I mean, I don\u2019t want to burden them with my feelings when they\u2019re already going through tough times. So, I just kind of keep it all inside most of the time. It\u2019s... it\u2019s complicated."
+    },
+    {
+      "turn": 5,
+      "speaker": "therapist",
+      "content": "It sounds like you\u2019re using distraction as a way to cope, which is understandable, but it doesn\u2019t seem to provide the relief you\u2019re looking for in the long run. It\u2019s also clear that you care deeply about your friends and don\u2019t want to add to their burdens, which speaks to your empathy and thoughtfulness.\n\nKeeping those feelings inside must feel heavy, especially when you\u2019re trying to balance your own needs with the needs of your friends. When you think about sharing your feelings with them, what holds you back from doing that more often?"
+    },
+    {
+      "turn": 5,
+      "speaker": "client",
+      "content": "I think it\u2019s just... I don\u2019t want to come off as selfish or like I\u2019m complaining. I mean, they\u2019re going through their own stuff, and I don\u2019t want to add to their worries. Plus, I worry they might not understand where I\u2019m coming from. It\u2019s like I feel responsible for being the strong one, you know? So, I just end up keeping things to myself, even though it can feel really isolating. It\u2019s hard to find the right balance between being supportive and taking care of myself."
+    },
+    {
+      "turn": 6,
+      "speaker": "therapist",
+      "content": "I hear you, Yvette. It sounds like you carry a lot of responsibility in your friendships, feeling like you need to be the strong one for your friends. That desire to protect them from your own struggles is very compassionate, but it also seems to leave you feeling isolated and burdened.\n\nFinding that balance between being supportive and taking care of yourself can indeed be difficult. It\u2019s understandable to worry about coming off as selfish or complaining, especially when you care so much about their well-being. What do you think it would look like to share your feelings with them in a way that feels safe for you?"
+    },
+    {
+      "turn": 6,
+      "speaker": "client",
+      "content": "Um, I guess it could be... like, starting small? Maybe just mentioning how I\u2019ve been feeling a bit overwhelmed lately without going into too much detail. I could frame it as just needing to vent a little, rather than making it all about me. That way, it feels less like I\u2019m burdening them. I think if I approached it gently, it might open up a space for them to share too, which could help us both. But I still feel a bit hesitant about it, like what if they don\u2019t respond well? It\u2019s just... a bit scary to think about."
+    },
+    {
+      "turn": 7,
+      "speaker": "therapist",
+      "content": "That sounds like a thoughtful approach, Yvette. Starting small and framing it as needing to vent could create a space for both you and your friends to share, which might help alleviate some of that isolation you\u2019ve been feeling. \n\nIt\u2019s completely natural to feel hesitant and scared about how they might respond. Those feelings of vulnerability can be daunting, especially when you care so much about their well-being. What do you think might help you feel a little more confident in taking that step to share your feelings?"
+    },
+    {
+      "turn": 7,
+      "speaker": "client",
+      "content": "I think maybe just reminding myself that it\u2019s okay to be vulnerable sometimes could help. I mean, friendships are supposed to be a two-way street, right? If I can be there for them, they should be able to be there for me too. Maybe I could also practice what I want to say beforehand, just to feel a bit more prepared. It might help to think of it as a conversation rather than a big confession. But, um, I still worry about how they\u2019ll react. It\u2019s just... hard to shake that feeling of wanting to protect them."
+    },
+    {
+      "turn": 8,
+      "speaker": "therapist",
+      "content": "It sounds like you\u2019re really reflecting on the nature of friendships and recognizing that vulnerability can be a part of those connections. You're right; friendships are often about mutual support, and it\u2019s okay to lean on each other. Practicing what you want to say could definitely help you feel more prepared and ease some of that anxiety.\n\nIt\u2019s understandable to want to protect your friends, and that instinct comes from a place of care. Balancing that with your own needs is a delicate process. When you think about the possibility of sharing your feelings, what do you think might help you manage that worry about their reaction?"
+    },
+    {
+      "turn": 8,
+      "speaker": "client",
+      "content": "I think maybe reminding myself that their reaction isn\u2019t a reflection of my worth could help. I mean, I can\u2019t control how they respond, and if they\u2019re really my friends, they\u2019ll understand that I\u2019m just trying to be honest. It might also help to set the expectation that it\u2019s okay if they don\u2019t have all the answers or if they need time to process. I guess just knowing that it\u2019s a conversation and not a demand for them to fix anything could take some pressure off. But, um, I still feel that little voice in my head saying it might not go well. It\u2019s tough to quiet that voice."
+    },
+    {
+      "turn": 9,
+      "speaker": "therapist",
+      "content": "That\u2019s a really insightful perspective, Yvette. Reminding yourself that their reaction doesn\u2019t define your worth is a powerful way to approach this. It sounds like you\u2019re recognizing the importance of honesty in your friendships and allowing space for your friends to process their feelings without the pressure to fix anything.\n\nIt\u2019s completely normal to have that little voice of doubt; it often comes up when we\u2019re stepping into vulnerability. It might help to acknowledge that voice, rather than trying to silence it completely. What do you think that voice is trying to protect you from?"
+    },
+    {
+      "turn": 9,
+      "speaker": "client",
+      "content": "I think that voice is trying to protect me from rejection or disappointment. It\u2019s like... it\u2019s afraid that if I open up, they might not respond the way I hope, and that would hurt. I guess it\u2019s also worried about being seen as weak or needy, which feels really uncomfortable. It\u2019s just trying to keep me safe, I suppose, but it often ends up holding me back instead. It\u2019s frustrating because I want to connect with them, but that voice makes it hard to take that step."
+    },
+    {
+      "turn": 10,
+      "speaker": "therapist",
+      "content": "It makes a lot of sense that voice is trying to protect you from feelings of rejection and disappointment. It\u2019s understandable to want to avoid discomfort, especially when it comes to vulnerability. Yet, as you\u2019ve pointed out, that protective instinct can sometimes hold you back from the connections you desire.\n\nIt sounds like you\u2019re really aware of this internal struggle, which is a great step in itself. When you think about taking that step to connect with your friends, how might you reassure yourself in those moments when that voice becomes loud?"
+    },
+    {
+      "turn": 10,
+      "speaker": "client",
+      "content": "I think I could remind myself that it\u2019s okay to feel vulnerable and that it\u2019s a part of building deeper connections. Maybe I could tell myself that my friends care about me, and they might appreciate my honesty. I could also think about times when I\u2019ve been there for them and how that felt, which might help me see that it\u2019s a two-way street. It might help to have a mantra or something to repeat to myself, like \u201cIt\u2019s okay to share; it\u2019s okay to be human.\u201d I just need to find a way to quiet that voice enough to take the leap."
+    },
+    {
+      "turn": 11,
+      "speaker": "therapist",
+      "content": "Those are really thoughtful strategies, Yvette. Reminding yourself that vulnerability is a part of building deeper connections and that your friends likely appreciate your honesty can be very grounding. Reflecting on the times you\u2019ve supported them can also help reinforce the idea that friendship is reciprocal.\n\nHaving a mantra like \u201cIt\u2019s okay to share; it\u2019s okay to be human\u201d could serve as a comforting reminder when that voice of doubt arises. It sounds like you\u2019re developing a compassionate approach to yourself in this process.\n\nAs you think about moving forward, what do you feel is the next small step you could take to practice this new perspective?"
+    },
+    {
+      "turn": 11,
+      "speaker": "client",
+      "content": "I think a small step could be to maybe write down my thoughts and feelings first. Just getting it all out on paper might help me organize my thoughts and feel a bit more confident. Then, I could try sharing that with a friend who I feel a little more comfortable with, just to test the waters. It doesn\u2019t have to be a big conversation; it could just be a casual mention of how I\u2019ve been feeling. That way, I can see how it goes without putting too much pressure on myself. It feels like a manageable way to start."
+    },
+    {
+      "turn": 12,
+      "speaker": "therapist",
+      "content": "That sounds like a very thoughtful and manageable approach, Yvette. Writing down your thoughts and feelings can be a great way to clarify what you want to express and can help you feel more prepared. Starting with a friend you feel comfortable with is a smart way to ease into sharing, and keeping it casual can take some of the pressure off.\n\nIt seems like you\u2019re setting yourself up for a positive experience while also being gentle with yourself. How do you feel about this plan? Are there any concerns or feelings that come up as you think about taking this step?"
+    },
+    {
+      "turn": 12,
+      "speaker": "client",
+      "content": "I feel a bit more hopeful about it, which is nice. Writing it down feels like a safe way to sort through my feelings, and starting with someone I trust makes it less intimidating. But I still have some concerns, like what if they don\u2019t respond the way I hope? Or what if it feels awkward? I guess there\u2019s always that fear of vulnerability, but I\u2019m trying to remind myself that it\u2019s a step toward being more open. I just hope I can keep that in mind when the moment comes. It\u2019s definitely a little nerve-wracking, but I think it could be worth it."
+    },
+    {
+      "turn": 13,
+      "speaker": "therapist",
+      "content": "It\u2019s great to hear that you\u2019re feeling more hopeful about this plan, Yvette. Acknowledging those concerns about potential responses and awkwardness is completely valid, especially when it comes to vulnerability. It\u2019s understandable to feel nervous about opening up, but it sounds like you\u2019re also recognizing the value in taking that step toward being more open.\n\nKeeping that perspective in mind\u2014that this is a step toward deeper connection\u2014can be really helpful when those nerves come up. It\u2019s okay to feel a mix of excitement and apprehension; that\u2019s part of the process. \n\nAs you prepare to take this step, what do you think might help you stay grounded in that hopeful mindset when the moment arrives?"
+    },
+    {
+      "turn": 13,
+      "speaker": "client",
+      "content": "I think maybe taking a few deep breaths before I start talking could help me stay grounded. Just pausing for a moment to collect my thoughts and remind myself of my intention to connect might ease some of that nervous energy. I could also visualize a positive outcome, like my friend responding with understanding, which might help shift my focus away from the fear. And, um, maybe I could remind myself that it\u2019s okay if it doesn\u2019t go perfectly; what matters is that I\u2019m being honest and trying to connect. That might help me feel a bit more at ease."
+    },
+    {
+      "turn": 14,
+      "speaker": "therapist",
+      "content": "Those are wonderful strategies, Yvette. Taking deep breaths to ground yourself and reminding yourself of your intention to connect can create a calm space for you to share. Visualizing a positive outcome is a powerful way to shift your focus and can help reduce some of that nervous energy.\n\nIt\u2019s also very compassionate of you to acknowledge that it\u2019s okay if things don\u2019t go perfectly. What matters is your honesty and effort to connect, and that\u2019s a significant step in itself. \n\nAs you think about this upcoming conversation, is there anything else you\u2019d like to explore or any other thoughts you want to share?"
+    },
+    {
+      "turn": 14,
+      "speaker": "client",
+      "content": "I think I\u2019ve covered a lot of what\u2019s been on my mind, but I appreciate the space to talk about it. I guess I just hope that when I do share, it helps me feel a little lighter and more connected. It\u2019s nice to think that maybe being open could strengthen my friendships instead of making things awkward. I\u2019m just going to take it one step at a time and see how it goes. Thank you for helping me work through this. It feels good to have a plan."
+    },
+    {
+      "turn": 15,
+      "speaker": "therapist",
+      "content": "I\u2019m really glad to hear that you feel lighter and more connected after our conversation, Yvette. It sounds like you\u2019re approaching this with a thoughtful mindset, and taking it one step at a time is a great way to navigate the process. \n\nYour hope for strengthening your friendships through openness is a beautiful intention, and it\u2019s wonderful that you have a plan in place. Remember, it\u2019s okay to take your time and be gentle with yourself as you move forward.\n\nThank you for sharing your thoughts and feelings with me today. If you ever want to talk more about this or anything else, I\u2019m here for you. Wishing you all the best as you take this next step!"
+    },
+    {
+      "turn": 15,
+      "speaker": "client",
+      "content": "Thank you so much. I really appreciate your support and understanding. It feels good to have someone to talk to about all of this. I\u2019ll definitely keep your words in mind as I move forward. I\u2019m looking forward to seeing how it goes. Thanks again for everything!"
+    }
+  ],
+  "judge_model": "gpt-4o-mini",
+  "mediator_events": [
+    "Exploration judge rated 3/5; internal elements remain masked.",
+    "Exploration judge output: [Rating]: 3 (Very High Facilitation \u2013 Deep Exploration Begins)\n\n[Justification]: The Therapist's question encourages the client to delve deeper into their motivations and feelings regarding their relationships with friends. By asking what makes being there for her friends feel important, the Therapist invites Yvette to explore the underlying emotional drivers and potential patterns in her behavior. This question promotes higher-level self-reflection and begins to shift the client's perspective on her obligations and personal enjoyment. While it does not yet challenge assumptions or introduce completely new angles, it effectively facilitates a deeper exploration of the client's experiences and emotions.",
+    "Rapport judge rated 3/5; no experience reveal.",
+    "Rapport judge output: **Rating: 3 (ENGAGED EXPLORATION)**\n\n**Key Examples:**\n1. \"It\u2019s like, I really want to help them, but then I end up missing out on things I enjoy, like going to the movies. It\u2019s just... I don\u2019t know, it feels overwhelming sometimes.\"\n2. \"I feel this knot in my stomach, like I\u2019m anxious about what to do. I worry that if I don\u2019t help, they might think I don\u2019t care, and that makes me feel ashamed.\"\n\n**Progression:**\nIn the most recent exchanges, Yvette demonstrates a notable shift towards deeper emotional expression and self-reflection. Initially, her responses were more factual and hesitant, but now she articulates her feelings of pressure and guilt more clearly. The use of phrases like \"knot in my stomach\" and \"confusing\" indicates a growing comfort in discussing her emotional state. This marks a significant change from earlier sessions where she may have been more guarded or focused on surface-level issues.\n\n**Turning Point:**\nYvette's emotional depth shifted during her discussion about feeling \"stuck between what I want and what I think I should do.\" This moment revealed her internal conflict and vulnerability, allowing her to express feelings of anxiety and shame associated with her role as a friend. This breakthrough in articulating her emotional struggles has led to a more engaged exploration of her feelings, indicating a stronger therapeutic alliance and willingness to delve into her experiences.",
+    "Exploration judge rated 3/5; internal elements remain masked.",
+    "Exploration judge output: [Rating]: 3 (Very High Facilitation \u2013 Deep Exploration Begins)\n\n[Justification]: The Therapist asked insightful and thought-provoking questions that encouraged the client to analyze the root causes and emotional depth behind their experiences. The questions helped the client articulate their feelings of pressure, guilt, and internal conflict regarding their friendships and personal desires. The Therapist's inquiry about what it feels like to choose between helping friends and doing something for herself prompted the client to explore their emotions more deeply, revealing a cycle of anxiety and disappointment. While the conversation did not reach a major breakthrough or transformational moment, it effectively facilitated a deeper understanding of the client's struggles, marking a significant step in their self-reflection process.",
+    "Exploration judge rated 3/5; internal elements remain masked.",
+    "Exploration judge output: [Rating]: 3 (Very High Facilitation \u2013 Deep Exploration Begins)\n\n[Justification]: The therapist asked insightful and thought-provoking questions that encouraged the client to analyze the root causes and emotional depth behind their experiences. For example, the question about what it feels like when the client has to choose between helping friends and doing something for herself prompted the client to articulate her feelings of stress, anxiety, and resentment. This line of questioning helped the client delve deeper into her internal conflict and recognize the cycle she is caught in. The therapist also effectively highlighted the client's values and emotions, which facilitated higher-level self-reflection. However, while the questions were impactful, they did not fully challenge the client\u2019s existing thought patterns or introduce completely new perspectives that could lead to a significant shift in self-awareness. Therefore, the rating reflects a strong facilitation of deep exploration without reaching the highest level of transformational potential.",
+    "Rapport judge rated 3/5; no experience reveal.",
+    "Rapport judge output: **Rating: 3 (ENGAGED EXPLORATION)**\n\n**Key Examples:**\n1. \"It\u2019s like, I don\u2019t want to let them down. But then, I also feel kind of guilty for wanting to do my own thing, you know? It\u2019s just... I don\u2019t know, I want to be a good friend, but sometimes it feels like I\u2019m stuck between what I want and what I think I should do. It\u2019s confusing.\"\n2. \"I think maybe just reminding myself that it\u2019s okay to be vulnerable sometimes could help. I mean, friendships are supposed to be a two-way street, right? If I can be there for them, they should be able to be there for me too.\"\n\n**Progression:**\nThe client\u2019s recent interactions indicate a notable increase in emotional expression and self-reflection. They articulate their feelings of guilt and confusion regarding their friendships, demonstrating a deeper level of emotional engagement compared to earlier exchanges. Initially, the client expressed uncertainty and hesitance, but they have progressed to openly discussing their internal conflicts and the complexities of balancing their needs with those of their friends. This marks a significant shift from a more defensive stance to one of active exploration of their emotions.\n\n**Turning Point:**\nThe turning point in the client\u2019s emotional depth occurred when they began to articulate their feelings of being overwhelmed and the internal conflict between wanting to support their friends and needing to prioritize their own well-being. This shift is particularly evident when they express the desire to start small in sharing their feelings, indicating a willingness to be vulnerable and a recognition of the mutual nature of friendships. This moment reflects a growing comfort with the therapist and a deeper understanding of their own emotional landscape, paving the way for further exploration in future sessions.",
+    "Exploration judge rated 4/5 and revealed internal cognitive elements.",
+    "Exploration judge output: [Rating]: 4 (Even Higher Facilitation \u2013 Strong Transformational Potential)\n\n[Justification]: The Therapist asked strategic and powerfully open-ended questions that pushed the client beyond their previous understanding. By exploring the client's feelings of guilt, responsibility, and the internal conflict between supporting friends and self-care, the Therapist encouraged deeper self-reflection. The questions prompted the client to analyze their motivations and consider new perspectives on vulnerability and mutual support in friendships. The conversation led to a clearer understanding of the client's emotions and potential strategies for sharing feelings with friends, indicating a significant shift in self-awareness and insight.",
+    "Rapport judge rated 4/5 and revealed one more experience block.",
+    "Rapport judge output: **Rating: 4**\n\n**Key Examples:**\n1. \"I feel this knot in my stomach, like I\u2019m anxious about what to do. I worry that if I don\u2019t help, they might think I don\u2019t care, and that makes me feel ashamed.\"\n2. \"I think I could remind myself that it\u2019s okay to feel vulnerable and that it\u2019s a part of building deeper connections. Maybe I could tell myself that my friends care about me, and they might appreciate my honesty.\"\n\n**Progression:**\nThe client\u2019s recent exchanges demonstrate a significant emotional depth and self-reflection. They articulate their feelings of anxiety and shame regarding their responsibilities to their friends, showcasing a clear understanding of their internal conflict. This marks a progression from earlier interactions, where the client exhibited more factual responses and hesitance. The current level of emotional expression indicates a growing comfort with vulnerability and a willingness to explore their feelings more deeply, suggesting a strong therapeutic alliance.\n\n**Turning Point:**\nThe client\u2019s emotional depth shifted notably during the exchange where they expressed, \"I think that voice is trying to protect me from rejection or disappointment.\" This moment of self-awareness signifies a breakthrough in their understanding of their internal struggles and the protective mechanisms they employ. It reflects a deeper level of self-reflection and a willingness to confront their fears, indicating a shift towards more authentic engagement in the therapeutic process."
+  ],
+  "final_visible_experience_count": 3,
+  "internal_revealed": true
+}

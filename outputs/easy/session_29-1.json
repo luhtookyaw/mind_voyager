@@ -1,0 +1,176 @@
+{
+  "case_id": "29-1",
+  "client_name": "Wyatt",
+  "client_mode": "masked",
+  "hide_all": false,
+  "difficulty": "easy",
+  "therapist_provider": "openai",
+  "therapist_model": "gpt-4o-mini",
+  "client_model": "gpt-4o-mini",
+  "max_turns": 15,
+  "transcript": [
+    {
+      "turn": 1,
+      "speaker": "therapist",
+      "content": "Hello, Wyatt. I\u2019m glad you\u2019re here today. What feels most important for you to talk about right now?"
+    },
+    {
+      "turn": 1,
+      "speaker": "client",
+      "content": "Hi. Thanks for having me. I guess... I\u2019ve been feeling a lot of pressure lately, especially with this big talk coming up in January. It\u2019s just been on my mind constantly. I want everything to go perfectly, but I can\u2019t shake this feeling of anxiety about it. It\u2019s like I have to control every little detail, or else it\u2019ll reflect poorly on me. I don\u2019t know, it just feels overwhelming sometimes."
+    },
+    {
+      "turn": 2,
+      "speaker": "therapist",
+      "content": "It sounds like you\u2019re experiencing a significant amount of pressure and anxiety related to this upcoming talk. You mentioned wanting everything to go perfectly and feeling like you need to control every detail. That sounds really overwhelming. Can you tell me more about what specifically is making you feel this way?"
+    },
+    {
+      "turn": 2,
+      "speaker": "client",
+      "content": "Yeah, it\u2019s just... there are so many challenging tasks involved, like troubleshooting equipment and learning new programming. I keep thinking that if I don\u2019t get everything right, it\u2019ll show that I\u2019m not capable enough. I guess I worry about how others will perceive me. It\u2019s like I\u2019m constantly pushing myself to take on more tasks and prepare as much as possible, but it just leads to more stress. Sometimes I wonder if I\u2019m doing too much, but I feel like I have to."
+    },
+    {
+      "turn": 3,
+      "speaker": "therapist",
+      "content": "It sounds like you\u2019re juggling a lot of challenging tasks, and the pressure to perform well is really weighing on you. You mentioned worrying about how others perceive you and feeling that if things don\u2019t go perfectly, it might reflect on your capabilities. That seems to create a cycle of pushing yourself harder, which only adds to your stress. I\u2019m curious, what do you think drives that need to take on so much and prepare extensively?"
+    },
+    {
+      "turn": 3,
+      "speaker": "client",
+      "content": "I think... part of it comes from wanting to prove myself, maybe? I\u2019ve always felt like I need to show that I can handle things, especially in a lab setting where there\u2019s so much at stake. I guess there\u2019s this belief that if I\u2019m not fully prepared, it means I\u2019m not good enough. I don\u2019t want to disappoint anyone or let them see that I\u2019m struggling. It\u2019s like I have this internal pressure to meet certain expectations, and it\u2019s hard to let go of that."
+    },
+    {
+      "turn": 4,
+      "speaker": "therapist",
+      "content": "It seems like there\u2019s a strong desire within you to prove yourself and show that you can handle the responsibilities in your lab work. You mentioned a belief that being unprepared equates to not being good enough, which adds a lot of internal pressure. It\u2019s understandable that you wouldn\u2019t want to disappoint others or let them see you struggling. I can see how that would make it difficult to let go of those expectations. How do you feel when you think about that internal pressure and the expectations you\u2019ve set for yourself?"
+    },
+    {
+      "turn": 4,
+      "speaker": "client",
+      "content": "Honestly, it makes me feel anxious and a bit trapped. There\u2019s this constant worry that if I don\u2019t meet those expectations, I\u2019ll be seen as weak or incompetent. It\u2019s like I\u2019m on this tightrope, trying to balance everything, and one misstep could lead to a fall. Sometimes I feel like I\u2019m just running on empty, but I push through anyway because I think that\u2019s what I\u2019m supposed to do. It\u2019s exhausting, and I wonder if it\u2019s really worth it. But then, I can\u2019t shake the thought that if I don\u2019t keep pushing, I\u2019ll lose my place or my value in the lab."
+    },
+    {
+      "turn": 5,
+      "speaker": "therapist",
+      "content": "It sounds really tough to feel that way\u2014like you\u2019re on a tightrope and constantly worried about falling. The anxiety and exhaustion from pushing yourself to meet those expectations must be incredibly draining. You mentioned feeling like you\u2019re running on empty but still pushing through because you believe it\u2019s what you\u2019re supposed to do. That\u2019s a heavy burden to carry. I\u2019m curious, what do you think would happen if you allowed yourself to take a step back or ease up on those expectations?"
+    },
+    {
+      "turn": 5,
+      "speaker": "client",
+      "content": "I... I guess I worry that if I took a step back, it would mean I\u2019m not committed or that I\u2019m failing in some way. There\u2019s this fear that people would think I\u2019m not capable or that I don\u2019t care about my work. It\u2019s hard to imagine what it would be like to ease up because I\u2019ve always felt like I need to be on top of things to prove my worth. But at the same time, I can see how it might help me feel less overwhelmed. It\u2019s just... letting go of that pressure feels really scary."
+    },
+    {
+      "turn": 6,
+      "speaker": "therapist",
+      "content": "It makes sense that letting go of that pressure feels scary, especially when you\u2019ve tied your sense of worth and commitment to being on top of everything. The fear of being perceived as not capable or not caring about your work is a powerful motivator to keep pushing yourself. It sounds like you\u2019re caught between recognizing the potential relief of easing up and the fear of what that might mean for how you\u2019re viewed. I appreciate you sharing this with me. What do you think might help you explore that fear a little more?"
+    },
+    {
+      "turn": 6,
+      "speaker": "client",
+      "content": "I think... maybe talking about it more could help? I mean, just exploring those fears and what they really mean. It\u2019s hard to confront them, but I can see how they might not be as solid as they feel. Maybe it would help to think about what it would look like to set more realistic expectations for myself. I guess I just need to figure out how to balance that fear with the idea of taking care of myself. It\u2019s a bit daunting, but I\u2019m willing to try."
+    },
+    {
+      "turn": 7,
+      "speaker": "therapist",
+      "content": "It sounds like you\u2019re open to exploring those fears and considering how they might not be as solid as they feel. That\u2019s a brave step. Thinking about setting more realistic expectations for yourself could be a valuable way to find that balance between managing your fears and taking care of yourself. It\u2019s understandable that it feels daunting, but it\u2019s great to hear that you\u2019re willing to try. \n\nWhat do you think would be a small step you could take toward setting more realistic expectations for yourself?"
+    },
+    {
+      "turn": 7,
+      "speaker": "client",
+      "content": "Maybe I could start by identifying one specific task that I can approach with a more relaxed mindset? Like, instead of trying to perfect everything for the upcoming talk, I could focus on just one aspect of it and give myself permission to not have it all figured out right away. I could also try to set aside some time for myself, even if it\u2019s just a little break during the day. It feels a bit uncomfortable to think about, but I think it might help me see that I don\u2019t have to do everything perfectly to still be valuable."
+    },
+    {
+      "turn": 8,
+      "speaker": "therapist",
+      "content": "That sounds like a really thoughtful approach. Focusing on one specific task with a more relaxed mindset and giving yourself permission to not have everything figured out right away could be a great way to ease some of that pressure. Setting aside time for yourself, even if it\u2019s just a little break, is also a positive step toward self-care. It\u2019s understandable that it feels uncomfortable, but recognizing that your value isn\u2019t tied to perfection is an important realization. \n\nHow do you feel about taking those steps? What do you think might support you in following through with them?"
+    },
+    {
+      "turn": 8,
+      "speaker": "client",
+      "content": "I feel a mix of relief and apprehension, to be honest. It\u2019s nice to think about taking those steps, but I still worry about whether I\u2019ll actually follow through. I think having some accountability might help\u2014maybe sharing my plan with a colleague or a friend who can check in with me. Also, setting reminders for those breaks could be useful. I just need to remind myself that it\u2019s okay to take a step back and that I don\u2019t have to do everything alone. It\u2019s a bit of a shift in thinking, but I think it could be beneficial."
+    },
+    {
+      "turn": 9,
+      "speaker": "therapist",
+      "content": "It\u2019s completely normal to feel both relief and apprehension when considering these changes. The idea of having accountability, like sharing your plan with a colleague or friend, sounds like a supportive way to help you follow through. Setting reminders for your breaks could also serve as a helpful nudge to prioritize your well-being. \n\nAcknowledging that it\u2019s okay to take a step back and that you don\u2019t have to do everything alone is a significant shift in thinking, and it sounds like you\u2019re ready to explore that. How do you envision starting this process of sharing your plan and setting those reminders?"
+    },
+    {
+      "turn": 9,
+      "speaker": "client",
+      "content": "I think I could start by talking to a colleague I trust, someone who understands the pressures we face in the lab. I could explain what I\u2019m trying to do and ask for their support in checking in with me. Maybe we could even set up a time to discuss our progress together, so it feels more collaborative. \n\nAs for the reminders, I could set them on my phone for specific times during the day, maybe after I finish a task. Just a simple alert to remind me to take a moment for myself. I think starting small like this might make it feel less overwhelming and help me build that new habit gradually."
+    },
+    {
+      "turn": 10,
+      "speaker": "therapist",
+      "content": "That sounds like a solid plan, Wyatt. Talking to a trusted colleague and explaining what you\u2019re trying to do could create a supportive environment for both of you. Having that collaborative aspect might make it feel less isolating and more encouraging. \n\nSetting reminders on your phone for breaks after completing tasks is a practical way to start building that new habit without it feeling overwhelming. It\u2019s great that you\u2019re thinking about taking small steps to gradually shift your approach. \n\nAs you prepare to take these steps, how do you feel about the support you might receive from your colleague? What do you hope to gain from that conversation?"
+    },
+    {
+      "turn": 10,
+      "speaker": "client",
+      "content": "I feel hopeful about the support I might receive. Having someone who understands what I\u2019m going through could really make a difference. I hope that by sharing my plan, I can not only get their encouragement but also maybe hear their perspective on managing similar pressures. It might help me feel less alone in this.\n\nFrom that conversation, I hope to gain some reassurance and maybe even some practical tips on how they handle their own expectations. I think it would be nice to know that I\u2019m not the only one struggling with these feelings. Overall, I\u2019m looking for a sense of camaraderie and a reminder that it\u2019s okay to lean on others when things get tough."
+    },
+    {
+      "turn": 11,
+      "speaker": "therapist",
+      "content": "It\u2019s wonderful to hear that you feel hopeful about the support from your colleague. Connecting with someone who understands your experiences can indeed make a significant difference. Seeking their perspective on managing similar pressures could provide valuable insights and help you feel less alone in what you\u2019re going through.\n\nLooking for reassurance and practical tips is a great approach, and it sounds like you\u2019re aiming for a sense of camaraderie, which can be really comforting. Leaning on others during tough times is important, and it\u2019s encouraging that you\u2019re open to that.\n\nAs you prepare for this conversation, what do you think might help you feel more comfortable sharing your thoughts and feelings with your colleague?"
+    },
+    {
+      "turn": 11,
+      "speaker": "client",
+      "content": "I think it might help to jot down a few key points or feelings I want to express before the conversation. That way, I can organize my thoughts and feel more prepared. I could also remind myself that it\u2019s okay to be vulnerable and that sharing my struggles doesn\u2019t make me weak; it\u2019s just part of being human.\n\nMaybe practicing what I want to say out loud could help too, just to get comfortable with the idea. I could also approach the conversation with an open mind, ready to listen to their experiences as well. I think if I focus on the mutual support aspect, it might ease some of my nerves about opening up."
+    },
+    {
+      "turn": 12,
+      "speaker": "therapist",
+      "content": "That sounds like a thoughtful approach, Wyatt. Jotting down key points or feelings can definitely help you organize your thoughts and feel more prepared for the conversation. Reminding yourself that vulnerability is a part of being human is an important mindset, and it can help reduce the pressure you might feel about sharing.\n\nPracticing what you want to say out loud is a great way to build confidence, and approaching the conversation with an open mind to listen to their experiences can create a supportive dialogue. Focusing on the mutual support aspect will likely help ease your nerves and foster a sense of connection.\n\nAs you think about this conversation, what do you hope to feel or take away from it afterward?"
+    },
+    {
+      "turn": 12,
+      "speaker": "client",
+      "content": "I hope to feel a sense of relief and validation after the conversation. Just knowing that I\u2019ve shared my thoughts and feelings with someone who understands can be really comforting. I\u2019d like to walk away feeling more connected, not just to my colleague but also to my own feelings, knowing that it\u2019s okay to express them.\n\nIf I can gain some practical tips or insights from their experiences, that would be a bonus. Ultimately, I want to feel like I\u2019ve taken a step toward managing my expectations and pressures in a healthier way. If I can leave the conversation feeling supported and a bit lighter, I think it would be a positive step forward."
+    },
+    {
+      "turn": 13,
+      "speaker": "therapist",
+      "content": "That\u2019s a beautiful goal, Wyatt. Seeking a sense of relief and validation through sharing your thoughts and feelings is a meaningful step. Feeling more connected to both your colleague and your own emotions can really enhance your sense of support and understanding.\n\nGaining practical tips or insights would certainly be a valuable bonus, and it sounds like you\u2019re aiming for a healthier way to manage your expectations and pressures. Leaving the conversation feeling supported and a bit lighter would indeed be a positive step forward.\n\nAs you prepare for this conversation, is there anything else you\u2019d like to explore or any concerns you have about it?"
+    },
+    {
+      "turn": 13,
+      "speaker": "client",
+      "content": "I think I\u2019m feeling mostly good about the plan, but I do have a bit of concern about how I might react if the conversation doesn\u2019t go as I hope. What if my colleague doesn\u2019t understand or doesn\u2019t have the time to really engage? I guess I worry that it might feel discouraging if I don\u2019t get the support I\u2019m looking for. \n\nI know I can\u2019t control how they respond, but I\u2019d like to think about how I can stay grounded in that moment, regardless of their reaction. Maybe reminding myself that I\u2019m taking a brave step by opening up, regardless of the outcome, could help. I just want to be prepared for any possibility."
+    },
+    {
+      "turn": 14,
+      "speaker": "therapist",
+      "content": "It\u2019s completely understandable to have concerns about how the conversation might go, especially when you\u2019re hoping for support and understanding. The possibility that your colleague may not engage as you hope can feel discouraging, and it\u2019s wise to think about how to stay grounded in that moment.\n\nReminding yourself that you\u2019re taking a brave step by opening up, regardless of the outcome, is a powerful way to frame the situation. It reflects your courage and willingness to be vulnerable, which is commendable. \n\nYou might also consider some grounding techniques, like taking a few deep breaths before the conversation or having a mantra to repeat to yourself if you start to feel anxious. It could be something simple, like \u201cI\u2019m doing my best\u201d or \u201cIt\u2019s okay to share my feelings.\u201d \n\nWhat do you think about these ideas? Do any resonate with you as you prepare for the conversation?"
+    },
+    {
+      "turn": 14,
+      "speaker": "client",
+      "content": "I really like the idea of using grounding techniques, especially the deep breathing. It\u2019s a simple way to calm my nerves before diving into the conversation. Having a mantra to repeat could also be helpful; it gives me something to focus on if I start feeling anxious. \n\n\u201cI\u2019m doing my best\u201d feels particularly resonant because it acknowledges my efforts without putting too much pressure on myself. I think having those tools in my back pocket will help me feel more prepared and centered, no matter how the conversation goes. It\u2019s nice to have a plan for managing my feelings in the moment. Thank you for suggesting that!"
+    },
+    {
+      "turn": 15,
+      "speaker": "therapist",
+      "content": "I\u2019m glad to hear that you find the grounding techniques helpful! Deep breathing can be a great way to calm your nerves, and having a mantra like \u201cI\u2019m doing my best\u201d is a wonderful choice. It\u2019s supportive and acknowledges your efforts without adding pressure. \n\nHaving those tools ready will definitely help you feel more prepared and centered, regardless of how the conversation unfolds. It\u2019s great that you\u2019re taking proactive steps to manage your feelings in the moment. \n\nAs you get ready for this conversation, is there anything else you\u2019d like to discuss or any final thoughts you want to share?"
+    },
+    {
+      "turn": 15,
+      "speaker": "client",
+      "content": "I think I\u2019ve covered a lot of what\u2019s been on my mind, and I feel more prepared now. I appreciate the space to talk through my thoughts and feelings. It\u2019s been helpful to explore my concerns and come up with a plan for the conversation. \n\nI guess my final thought is that I\u2019m hopeful about taking these steps and seeing how they might help me manage my expectations and pressures better. I want to remind myself that it\u2019s okay to reach out for support and that I don\u2019t have to go through this alone. Thank you for guiding me through this process; it\u2019s made a difference."
+    }
+  ],
+  "judge_model": "gpt-4o-mini",
+  "mediator_events": [
+    "Exploration judge rated 2/5; internal elements remain masked.",
+    "Exploration judge output: [Rating]: 2 (High Facilitation)\n\n[Justification]: The Therapist's opening question is clear and relevant, encouraging Wyatt to reflect on what is most pressing for him at the moment. While this question invites some level of self-reflection, it primarily serves to expand on existing thoughts rather than challenge Wyatt's current perspectives or delve into deeper emotional or psychological patterns. The question is well-structured but does not push for a deeper exploration of underlying issues or assumptions, which would be necessary for a higher rating.",
+    "Exploration judge rated 2/5; internal elements remain masked.",
+    "Exploration judge output: [Rating]: 2 (High Facilitation)\n\n[Justification]: The Therapist asked a clear and relevant open-ended question that encouraged the client to elaborate on their feelings of pressure and anxiety. This question allowed the client to expand on their existing thoughts and feelings, which is a positive step toward deeper self-reflection. However, the question primarily sought to gather more information about the client's current state rather than challenging their existing thought patterns or introducing new perspectives. While it facilitated some exploration, it did not significantly push the client to analyze the root causes or emotional depth behind their experiences. Therefore, it falls into the category of high facilitation rather than deeper exploration.",
+    "Exploration judge rated 3/5; internal elements remain masked.",
+    "Exploration judge output: [Rating]: 3 (Very High Facilitation \u2013 Deep Exploration Begins)\n\n[Justification]: The Therapist asked insightful and thought-provoking questions that encouraged the client to analyze the root causes of their anxiety and pressure related to the upcoming talk. The inquiry into what specifically makes the client feel overwhelmed and the follow-up question about the drive behind their need to take on so much work prompted deeper self-reflection. These questions began to shift the client\u2019s perspective, helping them explore underlying motivations and emotional depth. However, while the questions were effective in facilitating deeper exploration, they did not yet challenge the client\u2019s assumptions or introduce completely new angles that would lead to a major breakthrough. Thus, the facilitation was strong but not at the highest level.",
+    "Exploration judge rated 4/5 and revealed internal cognitive elements.",
+    "Exploration judge output: [Rating]: 4 (Even Higher Facilitation \u2013 Strong Transformational Potential)\n\n[Justification]: The Therapist asked strategic and powerfully open-ended questions that encouraged the client to explore the deeper motivations behind their anxiety and pressure. By inquiring about what drives the need to take on so much and prepare extensively, the Therapist challenged the client's assumptions and beliefs about their self-worth and capabilities. This line of questioning not only revealed hidden motivations but also prompted the client to reflect on their internal pressures and expectations. The conversation moved towards a clearer understanding of the client's emotional landscape, indicating a potential for significant self-awareness and transformation."
+  ],
+  "final_visible_experience_count": 3,
+  "internal_revealed": true
+}

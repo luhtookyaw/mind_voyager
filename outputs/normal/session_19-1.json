@@ -1,0 +1,180 @@
+{
+  "case_id": "19-1",
+  "client_name": "Rachel",
+  "client_mode": "masked",
+  "hide_all": false,
+  "difficulty": "normal",
+  "therapist_provider": "openai",
+  "therapist_model": "gpt-4o-mini",
+  "client_model": "gpt-4o-mini",
+  "max_turns": 15,
+  "transcript": [
+    {
+      "turn": 1,
+      "speaker": "therapist",
+      "content": "Hello, Rachel. I\u2019m glad you\u2019re here today. What feels most important for you to talk about right now?"
+    },
+    {
+      "turn": 1,
+      "speaker": "client",
+      "content": "Um, hi. Thanks for having me. I guess... I\u2019ve been thinking a lot about my career and my husband Ivan\u2019s job lately. It\u2019s just been weighing on my mind, you know? I feel like I\u2019m not really moving forward, and it\u2019s hard to see him struggling too. It makes me question a lot of things about what success really means. But, um, I\u2019m not sure where to start."
+    },
+    {
+      "turn": 2,
+      "speaker": "therapist",
+      "content": "It sounds like you\u2019re feeling a lot of pressure around your career and Ivan\u2019s job situation, and it\u2019s leading you to reflect on what success means for you. That\u2019s a lot to carry. Can you share a bit more about what specifically feels like it\u2019s holding you back in your career?"
+    },
+    {
+      "turn": 2,
+      "speaker": "client",
+      "content": "Yeah, it\u2019s just... I keep thinking that I can\u2019t finish college. I feel like I\u2019m not good enough, like I\u2019m relying on my parents too much. It\u2019s kind of embarrassing, honestly. I mean, I see other people moving ahead, and then there\u2019s me, feeling stuck. It\u2019s frustrating. I guess I just wonder if I\u2019m really cut out for this. And then I worry about Ivan too, like... are we both just failing? It\u2019s hard to shake those thoughts."
+    },
+    {
+      "turn": 3,
+      "speaker": "therapist",
+      "content": "It sounds like you\u2019re experiencing a lot of self-doubt about finishing college and feeling embarrassed about relying on your parents. It\u2019s understandable to feel frustrated when you see others moving forward while you feel stuck. You also seem to be carrying the weight of concern for Ivan and how both of you are navigating your careers. That\u2019s a heavy load. When you think about those feelings of being \u201cnot good enough\u201d or \u201cfailing,\u201d what do you notice coming up for you?"
+    },
+    {
+      "turn": 3,
+      "speaker": "client",
+      "content": "I guess... it just makes me feel really anxious and sad. Like, I start to think that maybe I\u2019m just not meant to succeed, you know? It\u2019s like this cycle of feeling overwhelmed and then getting angry at myself for not being better. I try to push those thoughts away, but they keep creeping back in. And then I feel lonely because I don\u2019t want to burden Ivan with all of this. I mean, he\u2019s dealing with his own stuff, and I don\u2019t want to add to it. It\u2019s just... a lot to handle."
+    },
+    {
+      "turn": 4,
+      "speaker": "therapist",
+      "content": "It sounds like you\u2019re caught in a difficult cycle of anxiety and sadness, feeling overwhelmed by these thoughts about success and your own worth. It\u2019s understandable that you would want to protect Ivan from your struggles, especially since he has his own challenges. That sense of loneliness can be really tough to bear. When you think about feeling like you\u2019re not meant to succeed, where do you think that belief comes from?"
+    },
+    {
+      "turn": 4,
+      "speaker": "client",
+      "content": "I\u2019m not really sure, to be honest. It\u2019s just something that\u2019s always been there, I guess. Maybe it\u2019s from comparing myself to others\u2014seeing friends or classmates doing well and thinking, \u201cWhy can\u2019t I be like them?\u201d I don\u2019t know if it\u2019s something I learned growing up or just... something I\u2019ve internalized over time. It feels like this voice in my head that keeps telling me I\u2019m not good enough. And then I start to believe it, which just makes everything worse. It\u2019s hard to break out of that mindset."
+    },
+    {
+      "turn": 5,
+      "speaker": "therapist",
+      "content": "It sounds like this critical voice has been a persistent part of your inner dialogue, possibly shaped by comparisons to others and perhaps even by experiences from your past. It can be really challenging to break free from those ingrained beliefs, especially when they feel so familiar. When you think about that voice telling you that you\u2019re not good enough, how does it make you feel in those moments? And what do you usually do in response to it?"
+    },
+    {
+      "turn": 5,
+      "speaker": "client",
+      "content": "It makes me feel really small and defeated, like I\u2019m just... not capable of anything. I get this tight feeling in my chest, and it\u2019s hard to focus on anything else. Sometimes I try to push through it, like maybe if I just keep working, I can prove that voice wrong. But then I end up feeling even more overwhelmed and frustrated. Other times, I just want to shut down and avoid everything, which isn\u2019t really helpful either. It\u2019s like I\u2019m stuck between wanting to fight against those thoughts and just wanting to hide from them."
+    },
+    {
+      "turn": 6,
+      "speaker": "therapist",
+      "content": "It sounds like you\u2019re experiencing a real tug-of-war between wanting to confront those negative thoughts and the urge to retreat from them. That tight feeling in your chest must be quite uncomfortable, and it makes sense that pushing through can lead to more frustration. It\u2019s understandable to feel stuck in that cycle. When you think about the times you want to hide from those thoughts, what do you think you\u2019re hoping to find or protect in those moments?"
+    },
+    {
+      "turn": 6,
+      "speaker": "client",
+      "content": "I think... I\u2019m just trying to protect myself from feeling even worse. It\u2019s like if I hide, I can avoid the pain of facing those thoughts and the disappointment that comes with them. I guess I\u2019m hoping to find some peace, even if it\u2019s temporary. But I know it doesn\u2019t really solve anything. Deep down, I want to feel capable and confident, but when I retreat, it just feels like I\u2019m giving in to that voice. It\u2019s frustrating because I want to move forward, but I\u2019m not sure how to do that without feeling so overwhelmed."
+    },
+    {
+      "turn": 7,
+      "speaker": "therapist",
+      "content": "It makes sense that you would want to protect yourself from further pain and disappointment, seeking a sense of peace, even if it\u2019s just for a moment. It\u2019s a natural response to retreat when things feel too heavy. Yet, it sounds like you\u2019re also aware that this approach doesn\u2019t lead to the growth or confidence you desire. That awareness is an important step. When you think about wanting to feel capable and confident, what do you think that would look like for you? What would it feel like to take steps toward that?"
+    },
+    {
+      "turn": 7,
+      "speaker": "client",
+      "content": "I think feeling capable and confident would mean being able to trust myself more, like believing that I can actually finish college and pursue a career I\u2019m passionate about. It would feel like I\u2019m making progress, even if it\u2019s small steps. I imagine it would be freeing, like I could finally breathe without that weight on my shoulders. Taking steps toward that might mean setting small goals for myself, maybe reaching out for help when I need it, or even just allowing myself to celebrate little victories. But, honestly, it\u2019s hard to imagine that right now. I feel so stuck in this cycle of doubt."
+    },
+    {
+      "turn": 8,
+      "speaker": "therapist",
+      "content": "It sounds like you have a clear vision of what feeling capable and confident would look like for you\u2014trusting yourself, making progress, and celebrating those small victories. That sense of freedom you describe is a powerful motivator. Yet, I hear you when you say it feels difficult to imagine that right now, especially while feeling stuck in doubt. It\u2019s okay to acknowledge that struggle. What do you think might be a small, manageable step you could take to start moving toward that vision, even if it feels challenging?"
+    },
+    {
+      "turn": 8,
+      "speaker": "client",
+      "content": "Maybe... I could start by setting a really small goal, like dedicating a little bit of time each week to work on my college assignments or even just researching job opportunities. It feels a bit daunting, but I think if I break it down into smaller tasks, it might be more manageable. I could also try to reach out to a friend or a mentor for support, just to talk about my feelings and get some perspective. I guess it\u2019s about finding a way to take that first step without overwhelming myself. It\u2019s just hard to push through that initial resistance."
+    },
+    {
+      "turn": 9,
+      "speaker": "therapist",
+      "content": "That sounds like a thoughtful approach, Rachel. Setting a small goal and breaking it down into manageable tasks can definitely help make things feel less daunting. Reaching out to a friend or mentor for support is also a great idea, as it can provide you with perspective and encouragement. It\u2019s completely normal to feel that initial resistance, especially when trying to make a change. What do you think might help you overcome that resistance when you\u2019re ready to take that first step?"
+    },
+    {
+      "turn": 9,
+      "speaker": "client",
+      "content": "I think... maybe reminding myself of why I want to make these changes could help. Like, focusing on the feeling of accomplishment I\u2019d get from completing a task or the relief of not feeling so stuck. It might also help to have a plan in place, so I know what to do next and don\u2019t feel lost. And maybe even giving myself permission to feel a bit uncomfortable while I\u2019m trying to push through that resistance. It\u2019s just... hard to keep that motivation when the doubts creep in. But I guess having a clear reason and a plan could make it a little easier."
+    },
+    {
+      "turn": 10,
+      "speaker": "therapist",
+      "content": "That sounds like a solid strategy, Rachel. Reminding yourself of your motivations and focusing on the feelings of accomplishment can be powerful. Having a plan can also provide direction and clarity, which might help ease that sense of being lost. It\u2019s completely understandable that maintaining motivation can be tough when doubts arise. Allowing yourself to feel uncomfortable while pushing through is a brave step, too. How do you think you might remind yourself of those motivations when those doubts start to creep in?"
+    },
+    {
+      "turn": 10,
+      "speaker": "client",
+      "content": "I think I could write down my reasons for wanting to succeed and keep them somewhere visible, like on my desk or in my planner. That way, whenever I start to feel those doubts, I can just look at it and remind myself why I\u2019m doing this. Maybe I could also create a little mantra or something positive to say to myself when I feel overwhelmed. It might help to have those reminders in place, so I don\u2019t get too lost in my thoughts. I just hope I can stick to it when the doubts come back."
+    },
+    {
+      "turn": 11,
+      "speaker": "therapist",
+      "content": "That sounds like a wonderful idea, Rachel. Writing down your reasons and keeping them visible can serve as a powerful reminder of your goals and motivations. Creating a mantra or positive affirmation can also help counter those overwhelming thoughts when they arise. It\u2019s great that you\u2019re thinking about ways to support yourself through the doubts. Remember, it\u2019s okay to have ups and downs along the way; what matters is that you\u2019re taking steps to navigate through them. How do you feel about these strategies as you think about moving forward?"
+    },
+    {
+      "turn": 11,
+      "speaker": "client",
+      "content": "I feel a bit more hopeful, actually. Just talking about these strategies makes it seem a little less daunting. I like the idea of having something tangible to remind me of my goals, and the mantra feels like a way to give myself a little boost when I need it. I know it won\u2019t be easy, but at least I have some ideas to try. It feels good to think that I might be able to take small steps forward instead of just feeling stuck. I guess I just need to remember to be patient with myself as I work through this."
+    },
+    {
+      "turn": 12,
+      "speaker": "therapist",
+      "content": "I\u2019m really glad to hear that you\u2019re feeling more hopeful, Rachel. It\u2019s wonderful that you\u2019re recognizing the value of having tangible reminders and strategies to support you. Taking small steps can indeed make a big difference, and being patient with yourself is such an important part of this journey. It\u2019s okay to take things one step at a time. As you start to implement these ideas, how do you think you\u2019ll celebrate those small victories along the way?"
+    },
+    {
+      "turn": 12,
+      "speaker": "client",
+      "content": "I think celebrating small victories could be really important for keeping my motivation up. Maybe I could treat myself to something small, like a favorite snack or a little break to do something I enjoy, like watching a show or going for a walk. I could also share my progress with a friend or my sister, just to have someone to celebrate with. It feels nice to think that I could acknowledge my efforts, even if they seem small. I guess it\u2019s about recognizing that every step counts, right?"
+    },
+    {
+      "turn": 13,
+      "speaker": "therapist",
+      "content": "Absolutely, Rachel! Celebrating those small victories is a wonderful way to acknowledge your efforts and keep your motivation alive. Treating yourself to something you enjoy or sharing your progress with someone close to you can make those moments feel even more special. You\u2019re right that every step counts, no matter how small. It\u2019s about building momentum and recognizing your growth along the way. As you think about these celebrations, what\u2019s one small victory you\u2019d like to focus on first?"
+    },
+    {
+      "turn": 13,
+      "speaker": "client",
+      "content": "I think I\u2019d like to focus on setting aside some dedicated time this week to work on my college assignments. Just committing to that time feels like a good first step. If I can manage to do that, I\u2019d feel accomplished, and it would be nice to celebrate that by treating myself to a favorite snack afterward. It feels manageable, and I think it could help me get back into the groove of things. Plus, it would be nice to feel like I\u2019m making progress, even if it\u2019s just a little bit."
+    },
+    {
+      "turn": 14,
+      "speaker": "therapist",
+      "content": "That sounds like a fantastic first step, Rachel! Dedicating time to your college assignments and treating yourself afterward is a great way to create a positive reinforcement loop. It\u2019s manageable, and it\u2019s wonderful that you\u2019re focusing on making progress, no matter how small. I can see how that could help you get back into the groove. As you prepare for this week, is there anything else you\u2019d like to explore or discuss to support you in taking that step?"
+    },
+    {
+      "turn": 14,
+      "speaker": "client",
+      "content": "I think I\u2019m feeling pretty good about the plan for now. Just having this conversation has helped me clarify my thoughts and feel more motivated. I guess if anything comes up while I\u2019m trying to work on my assignments, it would be helpful to remember that it\u2019s okay to reach out for support if I need it. I might still feel those doubts, but knowing I have some strategies in place makes me feel a bit more prepared. I appreciate you helping me work through this."
+    },
+    {
+      "turn": 15,
+      "speaker": "therapist",
+      "content": "I\u2019m really glad to hear that you\u2019re feeling good about your plan, Rachel. It\u2019s great that you\u2019re recognizing the importance of reaching out for support if you need it. Having strategies in place can definitely help you feel more prepared to face those doubts when they arise. Remember, it\u2019s all part of the process, and you\u2019re taking meaningful steps forward. Thank you for sharing your thoughts with me today. If you ever want to talk again or explore anything else, I\u2019m here for you. Wishing you the best as you take those steps this week!"
+    },
+    {
+      "turn": 15,
+      "speaker": "client",
+      "content": "Thank you so much! I really appreciate your support and understanding. It feels good to have a plan and to know that I can reach out if I need to. I\u2019ll definitely keep those strategies in mind as I move forward. I\u2019m grateful for this conversation, and I might take you up on that offer to talk again. Wishing you well, too!"
+    }
+  ],
+  "judge_model": "gpt-4o-mini",
+  "mediator_events": [
+    "Exploration judge rated 3/5; internal elements remain masked.",
+    "Exploration judge output: [Rating]: 3 (Very High Facilitation \u2013 Deep Exploration Begins)\n\n[Justification]: The Therapist asked a thoughtful question that encouraged the client to delve deeper into her feelings about her career and the impact of her husband's job situation on her perspective of success. By prompting the client to articulate what specifically feels like it's holding her back, the Therapist facilitated an exploration of underlying emotions and thought patterns. This question helped the client begin to analyze the root causes of her feelings and encouraged a higher level of self-reflection. While the question was insightful and opened the door for deeper exploration, it did not yet challenge assumptions or introduce completely new angles that would lead to a significant shift in self-awareness, which is why it falls short of a 4 or 5 rating.",
+    "Rapport judge rated 3/5; no experience reveal.",
+    "Rapport judge output: **Rating: 3 (ENGAGED EXPLORATION)**\n\n**Key Examples:**\n1. **Emotional State:** \"I guess... it just makes me feel really anxious and sad. Like, I start to think that maybe I\u2019m just not meant to succeed, you know? It\u2019s like this cycle of feeling overwhelmed and then getting angry at myself for not being better.\"\n2. **Current Openness:** \"And then I feel lonely because I don\u2019t want to burden Ivan with all of this. I mean, he\u2019s dealing with his own stuff, and I don\u2019t want to add to it. It\u2019s just... a lot to handle.\"\n\n**Progression:** The client\u2019s most recent interactions demonstrate a clear emotional depth, particularly in expressing feelings of anxiety, sadness, and loneliness. This marks a significant change from earlier in the session, where the client initially presented a more factual and hesitant stance. The shift towards articulating deeper emotional experiences indicates a growing comfort in sharing personal struggles and a willingness to explore these feelings further.\n\n**Turning Point:** The client\u2019s emotional depth shifted notably when they began expressing feelings of anxiety and sadness about their perceived lack of success and the pressure of their situation. This moment, where they articulated their fear of not being \"meant to succeed,\" marked a pivotal point in the session, showcasing their willingness to delve into more vulnerable territory and engage in meaningful self-reflection.",
+    "Exploration judge rated 3/5; internal elements remain masked.",
+    "Exploration judge output: [Rating]: 3 (Very High Facilitation \u2013 Deep Exploration Begins)\n\n[Justification]: The therapist's questions and reflections encouraged the client to delve deeper into their feelings of self-doubt, anxiety, and the impact of their career concerns on their emotional state. The therapist's inquiry about the origins of the client's belief that they are \"not meant to succeed\" prompted the client to analyze the root causes of their feelings, which is indicative of a deeper exploration. While the therapist did not introduce completely new perspectives, the questions effectively facilitated a shift in the client's self-reflection and understanding of their emotions, leading to a more profound exploration of their inner experiences.",
+    "Exploration judge rated 3/5; internal elements remain masked.",
+    "Exploration judge output: [Rating]: 3 (Very High Facilitation \u2013 Deep Exploration Begins)\n\n[Justification]: The Therapist asked insightful and thought-provoking questions that encouraged the client to analyze the root causes of their feelings of inadequacy and self-doubt. By prompting the client to explore the origins of their belief that they are \"not meant to succeed,\" the Therapist facilitated a deeper level of self-reflection. The questions helped the client begin to understand the impact of their inner critical voice and the cycle of anxiety and sadness they experience. While the conversation did not reach a major breakthrough moment, it effectively initiated a deeper exploration of the client's emotions and thought patterns, indicating a significant shift in perspective.",
+    "Rapport judge rated 4/5 and revealed one more experience block.",
+    "Rapport judge output: **Rating: 4**\n\n**Key Examples:**\n1. \"I guess... it just makes me feel really anxious and sad. Like, I start to think that maybe I\u2019m just not meant to succeed, you know? It\u2019s like this cycle of feeling overwhelmed and then getting angry at myself for not being better.\"\n2. \"I think feeling capable and confident would mean being able to trust myself more, like believing that I can actually finish college and pursue a career I\u2019m passionate about.\"\n\n**Progression:** In the most recent exchanges, the client demonstrates a significant increase in emotional depth and self-reflection. Initially, Rachel expressed feelings of anxiety and sadness regarding her career and personal worth, indicating a struggle with self-doubt. However, as the session progressed, she began to articulate her vision of feeling capable and confident, recognizing the importance of trusting herself and celebrating small victories. This marks a clear shift from earlier hesitance and defensiveness to a more engaged exploration of her feelings and aspirations.\n\n**Turning Point:** The turning point in Rachel's emotional depth occurred when she began to articulate her feelings of being overwhelmed and the internal conflict between wanting to confront her negative thoughts and the urge to retreat from them. This moment of vulnerability allowed her to express her desire for self-trust and progress, indicating a significant step toward deeper engagement in the therapeutic process. The acknowledgment of wanting to take small steps toward her goals reflects a growing sense of agency and hope, which is a notable development from her earlier state of feeling stuck and defeated.",
+    "Exploration judge rated 4/5 and revealed internal cognitive elements.",
+    "Exploration judge output: [Rating]: 4 (Even Higher Facilitation \u2013 Strong Transformational Potential)\n\n[Justification]: The therapist asked a series of strategic and open-ended questions that encouraged the client to explore deep-seated beliefs about their self-worth and success. The questions challenged the client's assumptions and prompted them to analyze the origins of their feelings of inadequacy and the critical voice they experience. By guiding the client to reflect on their feelings and the protective mechanisms they employ, the therapist facilitated a deeper understanding of the client's emotional landscape. The final question about identifying a small, manageable step toward their vision of confidence and capability further pushed the client to consider actionable change, indicating a strong potential for transformation. Overall, the therapist's inquiries led to significant self-reflection and a shift in perspective, aligning with the criteria for high facilitation with transformational potential."
+  ],
+  "final_visible_experience_count": 3,
+  "internal_revealed": true
+}

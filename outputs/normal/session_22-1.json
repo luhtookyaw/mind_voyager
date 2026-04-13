@@ -1,0 +1,184 @@
+{
+  "case_id": "22-1",
+  "client_name": "Wendy",
+  "client_mode": "masked",
+  "hide_all": false,
+  "difficulty": "normal",
+  "therapist_provider": "openai",
+  "therapist_model": "gpt-4o-mini",
+  "client_model": "gpt-4o-mini",
+  "max_turns": 15,
+  "transcript": [
+    {
+      "turn": 1,
+      "speaker": "therapist",
+      "content": "Hello, Wendy. I\u2019m glad you\u2019re here today. What feels most important for you to talk about right now?"
+    },
+    {
+      "turn": 1,
+      "speaker": "client",
+      "content": "Um, I guess... I don't know. There are a lot of things on my mind, but I\u2019m not sure where to start. Maybe it\u2019s just... things that have happened recently, like with Ivan. It\u2019s just been frustrating. But, I mean, it\u2019s probably not that big of a deal, right?"
+    },
+    {
+      "turn": 2,
+      "speaker": "therapist",
+      "content": "It sounds like there\u2019s a lot going on for you, and it\u2019s understandable to feel frustrated, especially with what\u2019s been happening with Ivan. It\u2019s okay to feel that way, even if it seems like it might not be a big deal to others. Can you share a bit more about what\u2019s been frustrating you regarding Ivan?"
+    },
+    {
+      "turn": 2,
+      "speaker": "client",
+      "content": "Well, it\u2019s just... he booked a trip without telling me. It\u2019s like, why wouldn\u2019t he just mention it? It makes me feel like he\u2019s hiding something, you know? I can\u2019t help but think about past times when things like this happened. It just brings up all those feelings of betrayal again. I don\u2019t want to feel this way, but it\u2019s hard not to."
+    },
+    {
+      "turn": 3,
+      "speaker": "therapist",
+      "content": "It sounds really tough to feel that way, especially when it brings up past feelings of betrayal. It\u2019s understandable to feel hurt and confused when someone close to you doesn\u2019t communicate openly. When you think about Ivan booking the trip without telling you, what specific thoughts or emotions come up for you?"
+    },
+    {
+      "turn": 3,
+      "speaker": "client",
+      "content": "I guess I just keep thinking, \u201cHe\u2019s hiding things again.\u201d It makes me feel angry and suspicious. I mean, it\u2019s like, can I really trust him? I don\u2019t want to feel this way, but it\u2019s hard not to go back to those past experiences. I just feel... disappointed, I guess. It\u2019s like I\u2019m always on guard, waiting for something else to happen."
+    },
+    {
+      "turn": 4,
+      "speaker": "therapist",
+      "content": "It sounds like you\u2019re feeling a mix of anger, suspicion, and disappointment, which is completely valid given your past experiences. Being on guard can be really exhausting. It seems like this situation with Ivan is triggering those old feelings of distrust. Can you tell me more about those past experiences that make it hard for you to trust him now?"
+    },
+    {
+      "turn": 4,
+      "speaker": "client",
+      "content": "I don\u2019t know if I want to go into all of that. It\u2019s just... there have been times before when I thought things were fine, and then I found out he was keeping things from me. It\u2019s just made me feel like I can\u2019t really rely on him. I guess I just try to protect myself, but it ends up making everything more complicated. I don\u2019t want to keep feeling like this, but it\u2019s hard to shake off those memories."
+    },
+    {
+      "turn": 5,
+      "speaker": "therapist",
+      "content": "It makes sense that you\u2019d want to protect yourself after having those experiences. It sounds like you\u2019re caught in a difficult cycle where your past is influencing how you feel in the present, and that\u2019s understandably complicated. You\u2019re trying to navigate your feelings while also wanting to move past them. What do you think would help you feel a bit more secure or at ease in this situation with Ivan?"
+    },
+    {
+      "turn": 5,
+      "speaker": "client",
+      "content": "I don\u2019t know... maybe if he was more open about things? Like, if he just told me what was going on instead of me finding out later, it might help. I think I just need to feel like I\u2019m in the loop, you know? But then again, I worry that if I bring it up, it\u2019ll just lead to another fight. It\u2019s frustrating because I want to trust him, but it\u2019s hard when I feel like I have to keep my guard up."
+    },
+    {
+      "turn": 6,
+      "speaker": "therapist",
+      "content": "It sounds like open communication is really important to you, and that feeling included could help ease some of your worries. I can see how the fear of conflict might make it hard to bring this up with him. It\u2019s a tough balance between wanting to express your needs and fearing how he might react. How do you feel about the possibility of sharing your feelings with him, even if it feels risky?"
+    },
+    {
+      "turn": 6,
+      "speaker": "client",
+      "content": "I mean, part of me wants to, but then there\u2019s this other part that\u2019s scared. What if he gets defensive or doesn\u2019t understand where I\u2019m coming from? I don\u2019t want to start another fight, but I also don\u2019t want to keep feeling this way. It\u2019s just... frustrating. I guess I just wish it could be easier to talk about these things without it turning into a big deal. But I know I can\u2019t keep bottling it up either."
+    },
+    {
+      "turn": 7,
+      "speaker": "therapist",
+      "content": "It sounds like you\u2019re really torn between wanting to express yourself and the fear of how he might react. It\u2019s frustrating to feel like you\u2019re stuck in this cycle of wanting to communicate but worrying about the outcome. It\u2019s clear that you don\u2019t want to bottle things up, but you also want to feel safe in those conversations. What do you think might help create a more open space for discussion with him, where both of you can share without it escalating into a conflict?"
+    },
+    {
+      "turn": 7,
+      "speaker": "client",
+      "content": "I guess... maybe if I approached it more calmly, instead of just jumping in with accusations. Like, if I could express how I feel without blaming him, it might help. But it\u2019s hard to find the right words when I\u2019m feeling so hurt and angry. Maybe if we set aside some time to talk about things when we\u2019re both not stressed, that could work? But then again, I worry if it\u2019ll just turn into another argument. It\u2019s just so complicated."
+    },
+    {
+      "turn": 8,
+      "speaker": "therapist",
+      "content": "It sounds like you\u2019re really reflecting on how to approach the conversation in a way that feels constructive, which is a positive step. Setting aside time to talk when you\u2019re both calm could create a better environment for sharing your feelings. It\u2019s understandable to worry about it turning into an argument, especially when emotions are running high. \n\nWhat do you think might help you feel more prepared or grounded when you do decide to have that conversation?"
+    },
+    {
+      "turn": 8,
+      "speaker": "client",
+      "content": "Maybe writing down what I want to say could help? That way, I can organize my thoughts and focus on how I feel instead of getting caught up in the moment. I think it might also help to remind myself that I\u2019m not trying to attack him, but just share what I\u2019m feeling. But, honestly, I still feel a bit anxious about it. It\u2019s just hard to know how he\u2019ll react, and I don\u2019t want to make things worse."
+    },
+    {
+      "turn": 9,
+      "speaker": "therapist",
+      "content": "Writing down your thoughts sounds like a great strategy to help you organize your feelings and communicate more clearly. It\u2019s understandable to feel anxious about how he might react, especially given your past experiences. It\u2019s a brave step to want to share your feelings without attacking him, and that intention can really help guide the conversation.\n\nAs you think about this upcoming conversation, what do you think might help you manage that anxiety or prepare yourself emotionally for whatever his response might be?"
+    },
+    {
+      "turn": 9,
+      "speaker": "client",
+      "content": "I think maybe reminding myself that it\u2019s okay to feel anxious and that it\u2019s normal to have these kinds of conversations. I could try some deep breathing or even take a walk beforehand to clear my head. It might help to focus on the fact that I\u2019m trying to improve our communication, not just pointing fingers. But still, I can\u2019t shake the worry that it might not go well. It\u2019s just... a lot to think about."
+    },
+    {
+      "turn": 10,
+      "speaker": "therapist",
+      "content": "It sounds like you have some thoughtful strategies in mind to help manage your anxiety, like reminding yourself that it\u2019s normal to feel this way and using deep breathing or a walk to clear your head. Focusing on the goal of improving communication rather than placing blame is a positive mindset to have.\n\nIt\u2019s completely normal to feel apprehensive about how the conversation might unfold, especially with so much at stake emotionally. It\u2019s a lot to navigate, and it\u2019s okay to take your time with it. How do you feel about giving yourself permission to take things one step at a time, rather than feeling pressured to resolve everything in one conversation?"
+    },
+    {
+      "turn": 10,
+      "speaker": "client",
+      "content": "That makes sense. I think taking it one step at a time might help ease some of the pressure. I guess I\u2019ve been feeling like everything needs to be fixed right away, but that\u2019s probably unrealistic. If I can just focus on having that initial conversation and see where it goes, maybe it won\u2019t feel so overwhelming. I just need to remind myself that it\u2019s okay to take my time with this. It\u2019s a process, right?"
+    },
+    {
+      "turn": 11,
+      "speaker": "therapist",
+      "content": "Absolutely, it\u2019s definitely a process. Taking it one step at a time can help make it feel more manageable and less overwhelming. It\u2019s great that you\u2019re recognizing the pressure you\u2019ve been putting on yourself to fix everything immediately. Allowing yourself the space to have that initial conversation and see where it leads can be a really healthy approach.\n\nAs you prepare for this process, what do you think will be the most important thing for you to keep in mind to help you stay grounded and focused on your feelings?"
+    },
+    {
+      "turn": 11,
+      "speaker": "client",
+      "content": "I think it\u2019ll be important to remind myself that my feelings are valid, no matter how he reacts. I need to focus on expressing how I feel rather than getting caught up in his responses. It\u2019s easy to get lost in worrying about what he might say or how he might feel, but I need to prioritize my own feelings in this. Staying calm and centered will help me communicate better, I hope. I just want to feel heard and understood."
+    },
+    {
+      "turn": 12,
+      "speaker": "therapist",
+      "content": "That\u2019s a powerful insight, Wendy. Reminding yourself that your feelings are valid, regardless of his reaction, can really help you stay centered during the conversation. Focusing on expressing your own emotions rather than getting lost in his responses is a healthy approach. It\u2019s clear that being heard and understood is really important to you.\n\nAs you move forward, how do you feel about setting a specific intention for the conversation that aligns with that goal of being heard? What might that intention look like for you?"
+    },
+    {
+      "turn": 12,
+      "speaker": "client",
+      "content": "Setting an intention sounds like a good idea. I think my intention could be something like, \u201cI want to share my feelings honestly and create a space for us to understand each other better.\u201d That way, I\u2019m focusing on opening up rather than just reacting to whatever he says. It might help me stay on track and remind me why I\u2019m having this conversation in the first place. I just hope it leads to a better understanding between us."
+    },
+    {
+      "turn": 13,
+      "speaker": "therapist",
+      "content": "That\u2019s a wonderful intention, Wendy. Focusing on sharing your feelings honestly and creating a space for mutual understanding can really guide the conversation in a positive direction. It\u2019s a great way to keep your goal in mind and remind yourself of the purpose behind the discussion.\n\nAs you prepare to set this intention, how do you feel about the possibility of practicing it in your mind or even out loud before the conversation? Do you think that might help you feel more confident when the time comes?"
+    },
+    {
+      "turn": 13,
+      "speaker": "client",
+      "content": "Practicing it in my mind or out loud could definitely help. I think it might make me feel more confident and ready when the time comes. Just saying it a few times could help me internalize it and remind me of what I want to achieve. I guess it\u2019s like a little rehearsal, so I\u2019m not caught off guard. I\u2019ll try to do that before we talk. It might help calm my nerves a bit, too."
+    },
+    {
+      "turn": 14,
+      "speaker": "therapist",
+      "content": "That sounds like a great plan! Rehearsing your intention can really help you feel more prepared and confident, and it\u2019s a good way to calm those nerves. It\u2019s all about creating a sense of readiness for the conversation, which can make a big difference.\n\nAs you think about this upcoming conversation and your intention, is there anything else you\u2019d like to explore or any other feelings you want to address before you take this step?"
+    },
+    {
+      "turn": 14,
+      "speaker": "client",
+      "content": "I think I\u2019ve covered a lot of what\u2019s been on my mind. I just hope I can stick to my intention and not let my emotions take over. It\u2019s hard to shake off that fear of how he might react, but I feel a bit more prepared now. I guess I just need to remind myself that it\u2019s okay to feel vulnerable in this situation. I appreciate talking this through; it helps to sort out my thoughts."
+    },
+    {
+      "turn": 15,
+      "speaker": "therapist",
+      "content": "I\u2019m really glad to hear that talking this through has helped you sort out your thoughts, Wendy. It\u2019s completely normal to feel vulnerable in situations like this, and acknowledging that is a strong step. Remembering your intention and allowing yourself to feel those emotions can help you navigate the conversation more effectively.\n\nAs you move forward, just take it one step at a time, and be gentle with yourself. If you ever want to revisit this or talk about how it went afterward, I\u2019m here for you. Is there anything else you\u2019d like to discuss before we wrap up today?"
+    },
+    {
+      "turn": 15,
+      "speaker": "client",
+      "content": "I think I\u2019m okay for now. I appreciate your support and understanding. It feels good to have a plan and know that I can come back to talk about it later if I need to. Thank you for helping me work through this. I\u2019ll try to keep everything in mind as I prepare for the conversation."
+    }
+  ],
+  "judge_model": "gpt-4o-mini",
+  "mediator_events": [
+    "Exploration judge rated 2/5; internal elements remain masked.",
+    "Exploration judge output: [Rating]: 2 (High Facilitation)\n\n[Justification]: The Therapist asked a clear and relevant question that encouraged the client to delve deeper into her feelings about Ivan. The question was open-ended and allowed for some exploration of the client's thoughts and emotions. However, the inquiry primarily expanded on the client's existing thoughts rather than introducing significantly new perspectives or challenging her assumptions. While the conversation showed potential for deeper exploration, it did not yet reach the level of insight or breakthrough that would indicate a higher rating on the facilitation scale.",
+    "Rapport judge rated 3/5; no experience reveal.",
+    "Rapport judge output: **Rating: 3 (ENGAGED EXPLORATION)**\n\n**Key Examples:**\n1. Client: \"Well, it\u2019s just... he booked a trip without telling me. It\u2019s like, why wouldn\u2019t he just mention it? It makes me feel like he\u2019s hiding something, you know? I can\u2019t help but think about past times when things like this happened. It just brings up all those feelings of betrayal again.\"\n2. Client: \"I guess I just keep thinking, 'He\u2019s hiding things again.' It makes me feel angry and suspicious. I mean, it\u2019s like, can I really trust him? I don\u2019t want to feel this way, but it\u2019s hard not to go back to those past experiences. I just feel... disappointed, I guess.\"\n\n**Progression:**\nThe client\u2019s most recent interactions demonstrate a noticeable increase in emotional expression and self-reflection, marking a significant change from earlier exchanges where they exhibited more factual and guarded responses. In the latest dialogue, the client openly discusses feelings of frustration, anger, and disappointment regarding their relationship with Ivan, indicating a deeper level of emotional engagement. This shift from a more defensive stance to a willingness to explore complex emotions suggests a growing comfort with the therapeutic process and the therapist.\n\n**Turning Point:**\nThe client\u2019s emotional depth shifted during the exchange where they articulated their feelings of betrayal and disappointment related to Ivan's actions. This moment marked a transition from merely stating frustrations to actively connecting those feelings to past experiences, showcasing a deeper level of self-reflection and vulnerability. The client\u2019s acknowledgment of being \"always on guard\" indicates a significant step toward understanding their emotional landscape and the impact of past experiences on their current feelings.",
+    "Exploration judge rated 3/5; internal elements remain masked.",
+    "Exploration judge output: [Rating]: 3 (Very High Facilitation \u2013 Deep Exploration Begins)\n\n[Justification]: The Therapist asked insightful and thought-provoking questions that encouraged the client to analyze the root causes of their feelings regarding Ivan's actions. By prompting the client to explore their emotions and past experiences, the Therapist facilitated a deeper level of self-reflection. The questions helped the client begin to unpack their feelings of anger, suspicion, and disappointment, as well as the connection to past betrayals. While the questions were effective in promoting exploration, they did not fully challenge the client's assumptions or introduce entirely new perspectives, which is why a rating of 3 is appropriate rather than a higher score.",
+    "Exploration judge rated 3/5; internal elements remain masked.",
+    "Exploration judge output: [Rating]: 3 (Very High Facilitation \u2013 Deep Exploration Begins)\n\n[Justification]: The therapist engaged the client in a meaningful exploration of her feelings regarding her relationship with Ivan. The questions posed were insightful and encouraged the client to analyze the root causes of her emotions, particularly how past experiences of betrayal are influencing her current feelings of distrust. The therapist's inquiries prompted the client to reflect on her emotional state and the complexities of her situation, leading to a deeper understanding of her feelings. However, while the therapist facilitated significant self-reflection, the questions did not fully challenge the client's existing thought patterns or introduce completely new perspectives that could lead to a major shift in self-awareness. Thus, while the facilitation was strong and led to deeper exploration, it did not reach the highest levels of transformational potential.",
+    "Rapport judge rated 3/5; no experience reveal.",
+    "Rapport judge output: **Rating: 3 (ENGAGED EXPLORATION)**\n\n**Key Examples:**\n1. **Emotional State:** \"It makes me feel angry and suspicious. I mean, it\u2019s like, can I really trust him? I don\u2019t want to feel this way, but it\u2019s hard not to go back to those past experiences.\"\n2. **Current Openness:** \"I guess... maybe if I approached it more calmly, instead of just jumping in with accusations. Like, if I could express how I feel without blaming him, it might help.\"\n\n**Progression:** The client\u2019s recent interactions demonstrate a notable increase in emotional expression and self-reflection. Initially, the client expressed frustration but was hesitant to delve deeper into their feelings. However, in the latest exchanges, they articulate specific emotions like anger, suspicion, and disappointment, indicating a shift towards greater emotional depth. The client is beginning to explore their feelings more openly and is actively engaging in dialogue about their relationship dynamics with Ivan.\n\n**Turning Point:** The client\u2019s emotional depth shifted significantly when they acknowledged their feelings of anger and suspicion regarding Ivan's actions. This moment marked a transition from merely stating frustrations to actively reflecting on how these feelings connect to past experiences of betrayal. The client\u2019s willingness to consider how to approach the conversation with Ivan more constructively also indicates a growing self-awareness and readiness to engage in difficult discussions, which is a positive development in their emotional journey.",
+    "Exploration judge rated 3/5; internal elements remain masked.",
+    "Exploration judge output: [Rating]: 3 (Very High Facilitation \u2013 Deep Exploration Begins)\n\n[Justification]: The therapist asked insightful and thought-provoking questions that encouraged the client to analyze the emotional depth behind their experiences with Ivan. The therapist effectively helped the client articulate their feelings of anger, suspicion, and disappointment, and explored the impact of past experiences on their current emotions. The questions prompted the client to reflect on their needs for open communication and the complexities of expressing those needs without escalating conflict. While the therapist's questions did lead to deeper self-reflection and analysis, they did not fully challenge the client's assumptions or introduce completely new perspectives, which is why it falls short of a 4 rating. Overall, the conversation facilitated significant exploration of the client's feelings and concerns.",
+    "Exploration judge rated 4/5 and revealed internal cognitive elements.",
+    "Exploration judge output: [Rating]: 4 (Even Higher Facilitation \u2013 Strong Transformational Potential)\n\n[Justification]: The therapist asked strategic and open-ended questions that encouraged the client to explore their feelings and thoughts about their relationship with Ivan. The therapist helped the client analyze the root causes of their feelings of distrust and frustration, particularly by connecting current experiences with past ones. The questions posed by the therapist challenged the client to think about their communication strategies and emotional preparedness, which pushed the client beyond their existing understanding of the situation. The conversation facilitated a deeper exploration of the client's emotions and motivations, leading to insights about how to approach the conversation with Ivan. Overall, the therapist's questions had strong transformational potential, as they encouraged the client to reflect on their feelings and consider new ways of engaging in communication.",
+    "Rapport judge rated 3/5; no experience reveal.",
+    "Rapport judge output: **Rating: 3 (ENGAGED EXPLORATION)**\n\n**Key Examples:**\n1. \"I guess I just keep thinking, 'He\u2019s hiding things again.' It makes me feel angry and suspicious. I mean, it\u2019s like, can I really trust him? I don\u2019t want to feel this way, but it\u2019s hard not to go back to those past experiences. I just feel... disappointed, I guess.\"\n2. \"I think it\u2019ll be important to remind myself that my feelings are valid, no matter how he reacts. I need to focus on expressing how I feel rather than getting caught up in his responses.\"\n\n**Progression:**\nThe client's most recent interactions indicate a notable increase in emotional expression and self-reflection. Initially, they presented a mix of uncertainty and defensiveness, stating, \"I don't know... I guess... there are a lot of things on my mind.\" However, as the session progressed, the client began to articulate their feelings more clearly, expressing anger, suspicion, and disappointment regarding their relationship with Ivan. This shift demonstrates a significant change from earlier hesitance to a more engaged exploration of their emotions.\n\n**Turning Point:**\nThe turning point in the session occurred when the client began to articulate their feelings of disappointment and anger in response to Ivan's actions. This moment marked a transition from vague expressions of frustration to a deeper exploration of their emotional landscape, as they acknowledged past experiences that shaped their current feelings. The client's willingness to consider strategies for communication and their recognition of the validity of their feelings reflect a growing comfort and engagement in the therapeutic process."
+  ],
+  "final_visible_experience_count": 2,
+  "internal_revealed": true
+}

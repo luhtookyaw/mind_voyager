@@ -1,0 +1,184 @@
+{
+  "case_id": "17-3",
+  "client_name": "Sarah",
+  "client_mode": "masked",
+  "hide_all": false,
+  "difficulty": "hard",
+  "therapist_provider": "openai",
+  "therapist_model": "gpt-4o-mini",
+  "client_model": "gpt-4o-mini",
+  "max_turns": 15,
+  "transcript": [
+    {
+      "turn": 1,
+      "speaker": "therapist",
+      "content": "Hello, Sarah. I'm glad you're here today. What feels most important for you to talk about right now?"
+    },
+    {
+      "turn": 1,
+      "speaker": "client",
+      "content": "Um, I guess I\u2019m not really sure. I mean, there\u2019s always stuff going on, but it\u2019s hard to pinpoint what\u2019s really important. Sometimes I just feel... I don\u2019t know, like people don\u2019t really want to be around me. It\u2019s just... I don\u2019t know. Maybe we could talk about that?"
+    },
+    {
+      "turn": 2,
+      "speaker": "therapist",
+      "content": "It sounds like you're feeling a bit uncertain about what to focus on, but you've mentioned a feeling of being unwanted by others. That seems to weigh on you. Can you share more about when you first started feeling this way?"
+    },
+    {
+      "turn": 2,
+      "speaker": "client",
+      "content": "I guess it\u2019s been around for a while. Like, I remember trying to reach out to a friend from summer camp recently. I thought we could reconnect, but it felt like she wasn\u2019t really interested. It just made me think that maybe... maybe people just don\u2019t care. I don\u2019t know. It\u2019s just... disappointing, I guess."
+    },
+    {
+      "turn": 3,
+      "speaker": "therapist",
+      "content": "That sounds really disappointing, especially when you were hoping to reconnect. It seems like that experience with your friend has brought up some deeper feelings about how you perceive others' interest in you. When you think about that situation, what emotions come up for you?"
+    },
+    {
+      "turn": 3,
+      "speaker": "client",
+      "content": "Well, I felt really sad and lonely. Like, it\u2019s hard not to feel hurt when someone you thought would want to talk just... doesn\u2019t. I guess it makes me think that maybe nobody really cares about me. It\u2019s just... I don\u2019t know, it\u2019s a heavy feeling. I try to shake it off, but it lingers."
+    },
+    {
+      "turn": 4,
+      "speaker": "therapist",
+      "content": "It sounds like those feelings of sadness and loneliness really stick with you, especially when you feel let down by someone you hoped would be there. It\u2019s understandable to feel heavy when those thoughts creep in. When you try to shake off those feelings, what do you usually do?"
+    },
+    {
+      "turn": 4,
+      "speaker": "client",
+      "content": "Um, I usually just... try to distract myself, I guess. Maybe watch something or talk to my friend Amelia. But sometimes it just feels like I\u2019m putting a band-aid on it, you know? Like, it doesn\u2019t really fix anything. I just... I don\u2019t know, I wish I could feel more connected to people, but it\u2019s hard."
+    },
+    {
+      "turn": 5,
+      "speaker": "therapist",
+      "content": "It sounds like you\u2019re using distractions and reaching out to Amelia as ways to cope, but you\u2019re aware that they might not address the deeper feelings of disconnection. That awareness can be tough. When you think about wanting to feel more connected to people, what do you think might be getting in the way of that connection for you?"
+    },
+    {
+      "turn": 5,
+      "speaker": "client",
+      "content": "I guess I\u2019m not really sure. Sometimes I think it\u2019s just me. Like, maybe I\u2019m not interesting enough or... I don\u2019t know, maybe I just don\u2019t know how to connect with people. It\u2019s like I want to reach out, but then I get scared they won\u2019t want to talk or they\u2019ll just push me away. So, I end up holding back. It\u2019s frustrating."
+    },
+    {
+      "turn": 6,
+      "speaker": "therapist",
+      "content": "It sounds like there's a lot of self-doubt and fear of rejection that holds you back from reaching out to others. You want to connect, but those worries about not being interesting enough or being pushed away make it difficult. It\u2019s understandable to feel frustrated in that situation. Can you recall any past experiences that might have contributed to these feelings or beliefs about yourself?"
+    },
+    {
+      "turn": 6,
+      "speaker": "client",
+      "content": "Um, I don\u2019t really know. I mean, there have been times when I felt left out or ignored, but it\u2019s hard to pinpoint specific moments. It\u2019s just this feeling that\u2019s been there for a while. Like, I remember feeling really alone at times, even when I was around people. I guess those moments just stick with you, you know? They make it hard to shake off the feeling that maybe I\u2019m not worth connecting with."
+    },
+    {
+      "turn": 7,
+      "speaker": "therapist",
+      "content": "It sounds like those feelings of loneliness, even in the company of others, have left a lasting impact on you. It makes sense that those experiences would contribute to the belief that you might not be worth connecting with. It can be really tough to carry that weight. When you think about those moments, what do you wish had been different for you?"
+    },
+    {
+      "turn": 7,
+      "speaker": "client",
+      "content": "I guess I just wish people had reached out more or noticed when I was feeling left out. It would have been nice to feel like I mattered to someone, you know? Maybe if someone had just said something kind or included me, it would have made a difference. I don\u2019t know, it just feels like I keep trying, but it\u2019s like I\u2019m invisible sometimes."
+    },
+    {
+      "turn": 8,
+      "speaker": "therapist",
+      "content": "It sounds like feeling noticed and included is really important to you, and it\u2019s painful to feel invisible. That desire for connection and validation from others is completely understandable. When you think about those moments of feeling left out, do you notice any specific thoughts that come up for you about yourself or your worth in those situations?"
+    },
+    {
+      "turn": 8,
+      "speaker": "client",
+      "content": "Yeah, I guess I start thinking things like... maybe I\u2019m not good enough or maybe people just don\u2019t want me around. It\u2019s like a loop in my head that keeps playing. I try to tell myself it\u2019s not true, but it\u2019s hard to shake off those thoughts. They just make me feel even more alone, like I\u2019m stuck in this cycle of feeling unwanted."
+    },
+    {
+      "turn": 9,
+      "speaker": "therapist",
+      "content": "That loop of negative thoughts sounds really challenging to deal with, especially when it reinforces feelings of being unwanted and alone. It\u2019s tough when you\u2019re trying to counter those thoughts but still feel stuck in that cycle. It seems like there\u2019s a part of you that wants to believe differently about yourself. What do you think it would take for you to start feeling more connected and valued by others?"
+    },
+    {
+      "turn": 9,
+      "speaker": "client",
+      "content": "I don\u2019t know... maybe if I could find a way to open up more or feel more comfortable around people. It\u2019s just hard to take that first step. I think if I felt like I could trust someone, maybe it would help. But then I worry they\u2019ll just end up leaving or not caring. I guess I just need to find a way to break that cycle, but it feels really daunting."
+    },
+    {
+      "turn": 10,
+      "speaker": "therapist",
+      "content": "It sounds like building trust and feeling comfortable with others is a crucial step for you, but the fear of being let down makes it feel daunting. It\u2019s understandable to feel that way, especially when past experiences have shaped your view of connection. What do you think might help you feel a little more comfortable taking that first step, even if it feels small?"
+    },
+    {
+      "turn": 10,
+      "speaker": "client",
+      "content": "Um, maybe starting with small conversations or just being around people without the pressure to connect deeply right away? I think if I could just... be in the moment without worrying too much, it might help. But I still feel that hesitation, like what if I say the wrong thing or they don\u2019t respond the way I hope? It\u2019s just... I don\u2019t know, it\u2019s hard to push through that fear."
+    },
+    {
+      "turn": 11,
+      "speaker": "therapist",
+      "content": "It sounds like starting with small interactions and being present in the moment could be a helpful approach for you. That makes a lot of sense, especially since it takes some of the pressure off. Yet, I hear that hesitation and fear of saying the wrong thing still linger, making it tough to take that step. What do you think might help you manage that fear when you find yourself in those situations?"
+    },
+    {
+      "turn": 11,
+      "speaker": "client",
+      "content": "I guess maybe reminding myself that it\u2019s okay to not be perfect and that everyone makes mistakes in conversations. I could try to focus on just being myself instead of worrying about how I come across. Maybe even telling myself that it\u2019s okay if someone doesn\u2019t respond the way I hope. But it\u2019s hard to keep that in mind when I\u2019m actually in the moment. I just wish I could feel more confident, you know?"
+    },
+    {
+      "turn": 12,
+      "speaker": "therapist",
+      "content": "It sounds like you have some really insightful ideas about how to approach those interactions, like reminding yourself that imperfection is part of being human. Focusing on being yourself instead of worrying about others' perceptions is a great mindset. I can see how it would be challenging to hold onto that perspective in the moment, especially when confidence feels shaky. What do you think could help you build that confidence gradually, so it feels more accessible when you\u2019re in those situations?"
+    },
+    {
+      "turn": 12,
+      "speaker": "client",
+      "content": "Maybe practicing those small conversations more often, like with people I feel a bit more comfortable with. I could try to set little goals for myself, like just saying hi or asking a simple question. I think if I could get used to that, it might help me feel a bit more at ease. But I still worry about how I\u2019ll feel if it doesn\u2019t go well. It\u2019s like I want to build that confidence, but I\u2019m scared of failing."
+    },
+    {
+      "turn": 13,
+      "speaker": "therapist",
+      "content": "That sounds like a thoughtful plan\u2014practicing with people you feel comfortable with and setting small, achievable goals could be a great way to build your confidence. I hear that fear of failure is still present, which is completely understandable. It can be daunting to face the possibility of things not going as hoped. How do you think you might respond to yourself if a conversation doesn\u2019t go as planned? What would you want to remind yourself in that moment?"
+    },
+    {
+      "turn": 13,
+      "speaker": "client",
+      "content": "I think I\u2019d want to remind myself that it\u2019s okay to have off days and that one conversation doesn\u2019t define me. I\u2019d try to tell myself that everyone has moments where things don\u2019t go perfectly. I guess I\u2019d want to focus on the effort I made rather than the outcome. But it\u2019s hard to keep that in mind when I\u2019m feeling down about it. I just wish I could be kinder to myself in those moments."
+    },
+    {
+      "turn": 14,
+      "speaker": "therapist",
+      "content": "It\u2019s really encouraging to hear that you want to remind yourself of the importance of effort and that one conversation doesn\u2019t define you. Focusing on self-kindness in those moments is a powerful intention. I can see how it would be difficult to maintain that perspective when you\u2019re feeling down. What do you think could help you cultivate that self-kindness, especially when those feelings of disappointment arise?"
+    },
+    {
+      "turn": 14,
+      "speaker": "client",
+      "content": "Um, maybe I could try writing down some positive things about myself or things I\u2019ve accomplished, even if they seem small. Having that to look back on might help me remember that I\u2019m not just defined by one moment. I could also try talking to Amelia about it, since she usually knows how to lift me up. It\u2019s just... I have to remember to actually do those things when I\u2019m feeling low, which is the hard part."
+    },
+    {
+      "turn": 15,
+      "speaker": "therapist",
+      "content": "That sounds like a wonderful idea\u2014writing down positive things about yourself and your accomplishments could serve as a great reminder of your worth. Talking to Amelia for support is also a valuable step. I hear you on the challenge of remembering to do those things when you\u2019re feeling low. What do you think might help you to actually follow through on those strategies when you need them most?"
+    },
+    {
+      "turn": 15,
+      "speaker": "client",
+      "content": "Maybe setting a specific time to check in with myself, like at the end of the day, could help. I could make it a little routine, so it becomes a habit. I could also keep those positive reminders somewhere visible, like on my fridge or in my journal, so they\u2019re there when I need them. I just have to find a way to make it feel like a priority, even when I\u2019m feeling down. It\u2019s just... sometimes it\u2019s hard to remember to take care of myself."
+    }
+  ],
+  "judge_model": "gpt-4o-mini",
+  "mediator_events": [
+    "Exploration judge rated 3/5; internal elements remain masked.",
+    "Exploration judge output: [Rating]: 3 (Very High Facilitation \u2013 Deep Exploration Begins)\n\n[Justification]: The Therapist's questions are insightful and encourage the client to delve deeper into their feelings of being unwanted. By asking the client to share more about when they first started feeling this way and what emotions arise from their experiences, the Therapist facilitates a deeper exploration of the client's emotional landscape. These questions help the client analyze the root causes of their feelings, prompting higher-level self-reflection. However, while the questions are effective in guiding the client to explore their emotions, they do not yet challenge the client's assumptions or introduce significantly new perspectives, which would elevate the rating to a higher level of facilitation.",
+    "Rapport judge rated 3/5; no experience reveal.",
+    "Rapport judge output: **Rating: 3 (ENGAGED EXPLORATION)**\n\n**Key Examples:**\n1. \"Sometimes I just feel... I don\u2019t know, like people don\u2019t really want to be around me.\"\n2. \"Well, I felt really sad and lonely. Like, it\u2019s hard not to feel hurt when someone you thought would want to talk just... doesn\u2019t.\"\n\n**Progression:**\nThe client\u2019s recent interactions demonstrate a notable increase in emotional depth and self-reflection compared to earlier exchanges. Initially, the client expressed uncertainty and hesitance, but they have begun to articulate their feelings of sadness and loneliness more clearly. This shift indicates a growing comfort in discussing their emotions, moving from a more factual and guarded stance to a willingness to explore deeper feelings of disappointment and hurt.\n\n**Turning Point:**\nThe client\u2019s emotional depth shifted during the exchange where they reflected on their experience trying to reconnect with a friend from summer camp. This moment marked a significant change as they began expressing feelings of sadness and loneliness, moving beyond mere facts to a more vulnerable state. The acknowledgment of these emotions signifies a deeper engagement with their feelings and a willingness to explore the implications of those feelings in their life.",
+    "Exploration judge rated 3/5; internal elements remain masked.",
+    "Exploration judge output: [Rating]: 3 (Very High Facilitation \u2013 Deep Exploration Begins)\n\n[Justification]: The therapist asked insightful and thought-provoking questions that encouraged the client to analyze the root causes of their feelings of disconnection and self-doubt. The questions prompted the client to reflect on their emotions and experiences, leading to deeper self-exploration. For instance, the therapist's inquiry about the emotions that arise when the client thinks about their friend and the subsequent question about what might be getting in the way of connection pushed the client to consider underlying beliefs and fears. While the questions were effective in facilitating a deeper understanding, they did not fully challenge the client's assumptions or introduce completely new perspectives, which is why it falls short of a rating of 4. Overall, the therapist's approach fostered significant self-reflection and exploration of emotional depth.",
+    "Rapport judge rated 3/5; no experience reveal.",
+    "Rapport judge output: **Rating: 3 (ENGAGED EXPLORATION)**\n\n**Key Examples:**\n1. **Emotional State:** \"I felt really sad and lonely. Like, it\u2019s hard not to feel hurt when someone you thought would want to talk just... doesn\u2019t. I guess it makes me think that maybe nobody really cares about me. It\u2019s just... I don\u2019t know, it\u2019s a heavy feeling.\"\n2. **Current Openness:** \"I guess I just wish people had reached out more or noticed when I was feeling left out. It would have been nice to feel like I mattered to someone, you know? Maybe if someone had just said something kind or included me, it would have made a difference.\"\n\n**Progression:** The client\u2019s most recent interactions reveal a notable increase in emotional depth and self-reflection. They are expressing feelings of sadness and loneliness more openly than earlier in the session, where they initially struggled to pinpoint their emotions. The transition from vague feelings of being unwanted to specific instances of disappointment and a desire for connection indicates a significant shift toward deeper engagement with their emotions.\n\n**Turning Point:** The client's emotional depth shifted during the exchange where they articulated their feelings of being \"invisible\" and their wish for others to have reached out to them. This moment marked a transition from a more defensive stance to a willingness to explore and articulate their emotional experiences, demonstrating a growing comfort with vulnerability in the therapeutic relationship.",
+    "Exploration judge rated 3/5; internal elements remain masked.",
+    "Exploration judge output: [Rating]: 3 (Very High Facilitation \u2013 Deep Exploration Begins)\n\n[Justification]: The therapist asked insightful and thought-provoking questions that helped the client analyze the root causes of their feelings of loneliness and disconnection. The therapist encouraged the client to explore deeper emotions and patterns, such as self-doubt and fear of rejection, which are central to the client's experience. The questions prompted the client to reflect on past experiences and their impact on current beliefs about self-worth. While the conversation did not lead to a major breakthrough, it effectively facilitated deeper self-reflection and began to shift the client's perspective on their feelings of being unwanted. The therapist's approach allowed for significant exploration of the client's emotional depth, making it a strong example of high-quality therapeutic questioning.",
+    "Rapport judge rated 3/5; no experience reveal.",
+    "Rapport judge output: **Rating: 3 (ENGAGED EXPLORATION)**\n\n**Key Examples:**\n1. **Emotional State:** \"I guess it makes me think that maybe... maybe people just don\u2019t care. I don\u2019t know. It\u2019s just... disappointing, I guess.\"\n2. **Current Openness:** \"I guess I just wish people had reached out more or noticed when I was feeling left out. It would have been nice to feel like I mattered to someone, you know?\"\n\n**Progression:** The client\u2019s most recent interactions demonstrate a notable increase in emotional expression and self-reflection. They are articulating feelings of sadness and loneliness, which indicates a deeper engagement with their emotional state compared to earlier exchanges where they were more hesitant and vague. The client is beginning to explore their feelings of disconnection and self-doubt more openly, marking a significant change from earlier in the session when they expressed uncertainty about what to discuss.\n\n**Turning Point:** The client\u2019s emotional depth shifted notably when they began expressing their feelings of disappointment and loneliness regarding their social connections. This occurred during the dialogue about their experience trying to reconnect with a friend, which prompted them to reflect on deeper feelings of being unwanted and invisible. This moment marked a transition from a more guarded stance to a willingness to explore and articulate their emotional experiences.",
+    "Exploration judge rated 3/5; internal elements remain masked.",
+    "Exploration judge output: [Rating]: 3 (Very High Facilitation \u2013 Deep Exploration Begins)\n\n[Justification]: The therapist asked insightful and thought-provoking questions that encouraged the client to analyze the root causes and emotional depth behind their feelings of disconnection and self-doubt. The therapist's inquiries prompted the client to reflect on their past experiences and the beliefs they hold about themselves, leading to a deeper exploration of their emotions and thought patterns. While the therapist did not fully challenge the client's assumptions or introduce completely new angles, the questions did facilitate a significant shift in the client's self-awareness and understanding of their feelings. This level of facilitation indicates that the therapist is effectively guiding the client toward deeper insights, but there is still potential for even more transformative questioning.",
+    "Exploration judge rated 4/5 and revealed internal cognitive elements.",
+    "Exploration judge output: [Rating]: 4 (Even Higher Facilitation \u2013 Strong Transformational Potential)\n\n[Justification]: The therapist asked strategic and open-ended questions that encouraged the client to explore their feelings of disconnection and self-doubt in depth. The questions prompted the client to analyze their emotions, identify patterns, and reflect on their past experiences that contributed to their current feelings. The therapist effectively challenged the client's assumptions about their worth and ability to connect with others, leading to a deeper understanding of their fears and desires. The conversation facilitated a shift in perspective, particularly when the client began to consider actionable steps to build confidence and self-kindness. Overall, the therapist's questions pushed the client beyond their previous understanding and opened up new avenues for self-exploration and growth."
+  ],
+  "final_visible_experience_count": 1,
+  "internal_revealed": true
+}

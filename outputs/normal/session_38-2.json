@@ -1,0 +1,182 @@
+{
+  "case_id": "38-2",
+  "client_name": "Naomi",
+  "client_mode": "masked",
+  "hide_all": false,
+  "difficulty": "normal",
+  "therapist_provider": "openai",
+  "therapist_model": "gpt-4o-mini",
+  "client_model": "gpt-4o-mini",
+  "max_turns": 15,
+  "transcript": [
+    {
+      "turn": 1,
+      "speaker": "therapist",
+      "content": "Hello, Naomi. I\u2019m glad you\u2019re here today. What feels most important for you to talk about?"
+    },
+    {
+      "turn": 1,
+      "speaker": "client",
+      "content": "Hi. Thanks for having me. I guess... I don't know, maybe just how I've been feeling lately? It\u2019s been a bit overwhelming, especially with work and everything. I just keep worrying about what others think of me, especially when I'm not there. It\u2019s hard to shake off that feeling."
+    },
+    {
+      "turn": 2,
+      "speaker": "therapist",
+      "content": "It sounds like you\u2019ve been feeling quite overwhelmed, especially with work, and that worry about how others perceive you is weighing on you. That sounds really challenging. Can you tell me more about what specifically has been overwhelming for you lately?"
+    },
+    {
+      "turn": 2,
+      "speaker": "client",
+      "content": "Yeah, it\u2019s just... I\u2019ve been out sick, and every time I think about running into coworkers, I start to feel anxious. I worry they might think I\u2019m not really sick or that I\u2019m just taking advantage of the situation. It makes me feel guilty for being away, even when I know I need to rest. It\u2019s like this constant loop of worry in my head."
+    },
+    {
+      "turn": 3,
+      "speaker": "therapist",
+      "content": "It sounds like being out sick has triggered a lot of anxiety for you, especially around how your coworkers might perceive your absence. That guilt you\u2019re feeling seems to be really strong, even though you recognize the importance of taking care of yourself. I can imagine that constant loop of worry must be exhausting. What do you think is at the root of those worries about how others see you?"
+    },
+    {
+      "turn": 3,
+      "speaker": "client",
+      "content": "I guess... I\u2019ve always felt like I need to prove myself at work. Like, if I\u2019m not there, it\u2019s almost like I\u2019m letting everyone down or not living up to expectations. I don\u2019t want anyone to think I\u2019m not committed or that I\u2019m slacking off. It\u2019s just hard to shake that feeling, you know? Sometimes I feel like I\u2019m constantly trying to measure up, and when I\u2019m not there, it\u2019s like I\u2019m failing at that."
+    },
+    {
+      "turn": 4,
+      "speaker": "therapist",
+      "content": "It seems like there\u2019s a deep belief within you that your value at work is tied to your presence and performance. That pressure to prove yourself and meet expectations sounds really heavy. It\u2019s understandable that being away would trigger feelings of failure for you. Can you recall any experiences from your past that might have contributed to this belief about needing to measure up?"
+    },
+    {
+      "turn": 4,
+      "speaker": "client",
+      "content": "Um, I\u2019m not sure. I mean, I think it\u2019s just something I\u2019ve always felt, maybe from school or even earlier jobs. There was always this emphasis on being the best or not letting anyone down. I guess I just internalized that, and now it feels like I have to keep up that image. It\u2019s hard to pinpoint a specific moment, but it\u2019s like this underlying pressure that\u2019s just always been there."
+    },
+    {
+      "turn": 5,
+      "speaker": "therapist",
+      "content": "It sounds like this pressure to be the best and not let anyone down has been a long-standing theme in your life, possibly rooted in your experiences from school and previous jobs. That ongoing internalization can create a lot of stress, especially when you feel like you have to maintain a certain image. It must be tough to carry that weight. How do you usually cope with those feelings when they arise?"
+    },
+    {
+      "turn": 5,
+      "speaker": "client",
+      "content": "I guess I try to distract myself... maybe by keeping busy with work or other tasks. Sometimes I just push through the anxiety and tell myself it\u2019s not a big deal. But then, when I do take a break or need to step back, those feelings come rushing back, and I feel guilty again. It\u2019s like I\u2019m stuck in this cycle where I can\u2019t really relax or feel okay about taking time for myself."
+    },
+    {
+      "turn": 6,
+      "speaker": "therapist",
+      "content": "It sounds like keeping busy is your way of managing the anxiety, but it also seems to create a cycle where taking a break brings those feelings of guilt and pressure back to the surface. That must be really frustrating, feeling stuck between needing to rest and the anxiety that comes with it. When you do take a break, what kinds of thoughts or feelings come up for you that make it hard to relax?"
+    },
+    {
+      "turn": 6,
+      "speaker": "client",
+      "content": "When I take a break, I start thinking about all the things I should be doing instead. Like, I\u2019ll think about deadlines or tasks piling up, and then I feel guilty for not being there to handle them. It\u2019s like I can\u2019t enjoy the moment because I\u2019m too busy worrying about what others might think or what I\u2019m missing out on. I just keep replaying those thoughts in my head, and it makes it really hard to just... be."
+    },
+    {
+      "turn": 7,
+      "speaker": "therapist",
+      "content": "It sounds like when you try to take a break, your mind fills with thoughts about responsibilities and what you should be doing, which makes it difficult for you to enjoy that time for yourself. That constant replay of worries and guilt seems to prevent you from being present in the moment. It must be exhausting to navigate those feelings. How do you feel about the idea of taking breaks or time for yourself, given all of this?"
+    },
+    {
+      "turn": 7,
+      "speaker": "client",
+      "content": "Honestly, it feels really complicated. Part of me knows I need those breaks to recharge, but another part feels like I\u2019m being lazy or not doing enough. It\u2019s like I\u2019m torn between wanting to take care of myself and this fear of disappointing others or falling behind. I wish I could just relax without all that guilt hanging over me, but it\u2019s hard to shake off those thoughts."
+    },
+    {
+      "turn": 8,
+      "speaker": "therapist",
+      "content": "It sounds like you\u2019re caught in a conflict between the need for self-care and the fear of not meeting expectations, which makes it really difficult to relax. That tension between wanting to recharge and feeling guilty for doing so is understandably overwhelming. It\u2019s clear that you recognize the importance of taking breaks, yet the pressure to perform seems to overshadow that need. What do you think it would take for you to feel more comfortable allowing yourself those breaks without the guilt?"
+    },
+    {
+      "turn": 8,
+      "speaker": "client",
+      "content": "I think... maybe if I could change how I view breaks, like seeing them as necessary rather than a failure, it might help. But that\u2019s easier said than done. I guess I\u2019d need to remind myself that taking care of my health is important and that it doesn\u2019t mean I\u2019m not committed. It\u2019s just hard to shift that mindset when I\u2019ve been thinking this way for so long. I don\u2019t know, maybe some reassurance that it\u2019s okay to take time for myself would help, but it\u2019s tough to believe that sometimes."
+    },
+    {
+      "turn": 9,
+      "speaker": "therapist",
+      "content": "It sounds like shifting your perspective on breaks is something you recognize as important, but it feels challenging given how long you\u2019ve held those beliefs. Wanting reassurance that it\u2019s okay to take time for yourself is completely valid, especially when you\u2019ve internalized the idea that breaks equate to failure. It\u2019s understandable that believing in that shift would take time and effort. What small steps do you think you could take to start changing that mindset, even if it feels difficult?"
+    },
+    {
+      "turn": 9,
+      "speaker": "client",
+      "content": "Maybe I could start by setting small, specific times for breaks and treating them as non-negotiable. Like, just a few minutes to step away and breathe, without guilt. I could also try to remind myself that everyone needs breaks and that it\u2019s okay to prioritize my health. Perhaps even talking to someone about it, like a friend or a therapist, could help me feel less alone in this. It\u2019s just... I worry that I won\u2019t stick to it or that I\u2019ll feel guilty even trying. But I guess starting small might be a way to ease into it."
+    },
+    {
+      "turn": 10,
+      "speaker": "therapist",
+      "content": "Those sound like thoughtful and manageable steps, Naomi. Setting specific, non-negotiable times for breaks and reminding yourself that everyone needs them could be a gentle way to start shifting your mindset. It\u2019s completely normal to worry about sticking to it or feeling guilty, especially when you\u2019re trying to change long-held beliefs. Talking to someone about it could also provide support and help you feel less isolated in this process. How do you feel about taking that first small step, and what might help you stay committed to it?"
+    },
+    {
+      "turn": 10,
+      "speaker": "client",
+      "content": "I think taking that first small step feels a bit daunting, but also kind of hopeful? I guess it\u2019s just about finding the right moment to start. Maybe if I write it down or set reminders for myself, it could help keep me accountable. I could also check in with a friend to share my goals and have someone to talk to about how it\u2019s going. It\u2019s just... I worry I might slip back into old habits, but I think having a plan could make it feel more doable."
+    },
+    {
+      "turn": 11,
+      "speaker": "therapist",
+      "content": "It\u2019s great to hear that you\u2019re feeling a mix of hope and a bit of apprehension about taking that first step. Writing it down and setting reminders could definitely help you stay accountable, and sharing your goals with a friend can provide that extra layer of support. It\u2019s completely normal to worry about slipping back into old habits, but having a plan in place can make it feel more manageable. What do you think would be a good first step for you to take, and when do you think you might want to start?"
+    },
+    {
+      "turn": 11,
+      "speaker": "client",
+      "content": "I think a good first step would be to set aside just ten minutes each day for a break, maybe starting tomorrow. I could use that time to just breathe, maybe go for a short walk or just sit quietly. I\u2019ll write it down and set a reminder on my phone so I don\u2019t forget. It feels a bit scary, but I think starting small like that could help me ease into it. I\u2019ll also try to reach out to my friend to share what I\u2019m doing. It might help to have someone else know about it."
+    },
+    {
+      "turn": 12,
+      "speaker": "therapist",
+      "content": "That sounds like a wonderful plan, Naomi! Setting aside ten minutes each day for a break and using that time to breathe or take a short walk is a great way to start. Writing it down and setting a reminder can help reinforce that commitment. It\u2019s completely understandable to feel a bit scared, but taking small steps can really make a difference. Reaching out to your friend to share your goals adds another layer of support, which is fantastic. How do you feel about starting this tomorrow?"
+    },
+    {
+      "turn": 12,
+      "speaker": "client",
+      "content": "I feel a bit nervous but also kind of excited. It\u2019s nice to have a plan in place, and I think sharing it with my friend will help keep me motivated. I just hope I can stick to it and not let those old worries creep back in. But I guess starting tomorrow is a good way to begin. I\u2019ll try to remind myself that it\u2019s okay to take that time for myself. Thank you for helping me think this through."
+    },
+    {
+      "turn": 13,
+      "speaker": "therapist",
+      "content": "It\u2019s completely normal to feel a mix of nervousness and excitement, especially when you\u2019re embarking on a new approach. Having a plan and sharing it with your friend can definitely help keep you motivated. Remember, it\u2019s okay to have setbacks; what matters is that you\u2019re taking this important step for yourself. I\u2019m glad we could talk through this together. How do you feel about checking in on how it goes after you start?"
+    },
+    {
+      "turn": 13,
+      "speaker": "client",
+      "content": "I think checking in sounds like a good idea. It would be nice to have a space to talk about how it went, whether it felt good or if I struggled. I guess it\u2019ll help me reflect on what worked and what didn\u2019t. I appreciate having that support. I\u2019ll definitely let you know how it goes!"
+    },
+    {
+      "turn": 14,
+      "speaker": "therapist",
+      "content": "I\u2019m really glad to hear that you\u2019re open to checking in and reflecting on your experience. Having that space to discuss what worked and what didn\u2019t can be really valuable as you navigate this process. I appreciate you sharing your thoughts and feelings with me today, and I look forward to hearing how it goes for you. Remember, it\u2019s all about progress, not perfection. Take care of yourself, and I\u2019ll be here when you\u2019re ready to share!"
+    },
+    {
+      "turn": 14,
+      "speaker": "client",
+      "content": "Thank you! I really appreciate your support and understanding. It feels good to have a plan and someone to talk to about it. I\u2019ll do my best to take care of myself and look forward to sharing how it goes. Take care, and I\u2019ll see you next time!"
+    },
+    {
+      "turn": 15,
+      "speaker": "therapist",
+      "content": "You\u2019re very welcome, Naomi! I\u2019m glad you found our conversation helpful. It\u2019s wonderful to see you taking steps to care for yourself. I\u2019ll be here whenever you\u2019re ready to talk again. Take care, and I look forward to hearing about your progress. See you next time!"
+    },
+    {
+      "turn": 15,
+      "speaker": "client",
+      "content": "Thank you! I appreciate it. I\u2019ll see you next time and hopefully have some positive updates to share. Take care!"
+    }
+  ],
+  "judge_model": "gpt-4o-mini",
+  "mediator_events": [
+    "Exploration judge rated 2/5; internal elements remain masked.",
+    "Exploration judge output: [Rating]: 2 (High Facilitation)\n\n[Justification]: The Therapist asked a clear and relevant open-ended question that encouraged the client to elaborate on their feelings of overwhelm. This question prompted some deeper reflection on the client's experiences, but it primarily built on existing thoughts rather than introducing significantly new perspectives. While the conversation is moving in a productive direction, it does not yet challenge the client's assumptions or reveal hidden motivations, which would be necessary for a higher rating.",
+    "Rapport judge rated 3/5; no experience reveal.",
+    "Rapport judge output: **Rating: 3 (ENGAGED EXPLORATION)**\n\n**Key Examples:**\n1. Client: \"I guess... I\u2019ve always felt like I need to prove myself at work. Like, if I\u2019m not there, it\u2019s almost like I\u2019m letting everyone down or not living up to expectations.\"\n2. Client: \"It\u2019s just hard to shake that feeling, you know? Sometimes I feel like I\u2019m constantly trying to measure up, and when I\u2019m not there, it\u2019s like I\u2019m failing at that.\"\n\n**Progression:**\nThe client\u2019s most recent interactions demonstrate a notable increase in emotional expression and self-reflection. They are articulating feelings of anxiety and guilt related to their absence from work, indicating a deeper level of emotional engagement than in earlier sessions. Initially, the client displayed more factual responses and hesitance in sharing personal feelings. However, they are now beginning to explore the roots of their emotions, revealing a growing comfort in discussing their vulnerabilities. This marks a significant change from earlier sessions where emotional depth was limited.\n\n**Turning Point:**\nThe client\u2019s emotional depth shifted during the exchange where they articulated their need to prove themselves at work. This moment marked a transition from merely expressing anxiety to reflecting on the underlying beliefs that fuel that anxiety. By acknowledging the pressure they feel to measure up, the client demonstrated a willingness to explore their emotions more deeply, indicating a turning point in their engagement with the therapeutic process. This newfound openness suggests a developing rapport with the therapist and a readiness to engage in more profound self-exploration.",
+    "Exploration judge rated 3/5; internal elements remain masked.",
+    "Exploration judge output: [Rating]: 3 (Very High Facilitation \u2013 Deep Exploration Begins)\n\n[Justification]: The Therapist asked insightful and thought-provoking questions that encouraged the client to analyze the root causes of their anxiety and guilt related to their absence from work. The question about what is at the root of the client's worries about how others perceive them prompted the client to reflect on deeper beliefs about their value and performance. This line of questioning began to shift the client's perspective and encouraged higher-level self-reflection, particularly when the Therapist asked about past experiences that may have contributed to these beliefs. However, while the questions were effective in facilitating deeper exploration, they did not reach the level of challenging assumptions or introducing completely new angles that would indicate an even higher facilitation rating.",
+    "Exploration judge rated 3/5; internal elements remain masked.",
+    "Exploration judge output: [Rating]: 3 (Very High Facilitation \u2013 Deep Exploration Begins)\n\n[Justification]: The Therapist asked insightful and thought-provoking questions that helped the client analyze the root causes of their anxiety and guilt related to work and self-worth. The questions encouraged the client to reflect on their beliefs about needing to prove themselves and the origins of those beliefs. The Therapist's inquiries began to shift the client's perspective on their situation, allowing for deeper self-reflection about their feelings of inadequacy and the pressure they place on themselves. While the conversation was productive and led to significant insights, it did not reach the level of challenging assumptions or introducing completely new angles that would indicate an even higher level of facilitation.",
+    "Rapport judge rated 3/5; no experience reveal.",
+    "Rapport judge output: **Rating: 3 - ENGAGED EXPLORATION**\n\n**Key Examples:**\n1. **Emotional State:** \"I just keep worrying about what others think of me, especially when I'm not there. It\u2019s hard to shake off that feeling.\"\n2. **Current Openness:** \"Honestly, it feels really complicated. Part of me knows I need those breaks to recharge, but another part feels like I\u2019m being lazy or not doing enough.\"\n\n**Progression:** The client\u2019s most recent interactions demonstrate a notable increase in emotional expression, particularly regarding their feelings of anxiety and guilt related to work. Earlier in the session, the client exhibited a mix of factual and emotional responses, but as the dialogue progressed, they began to articulate their internal conflict more clearly. This shift indicates a deeper level of self-reflection and emotional engagement compared to earlier exchanges, where the client was more guarded and hesitant.\n\n**Turning Point:** The client\u2019s emotional depth shifted significantly when they began to articulate the complexity of their feelings about taking breaks. This moment, where they expressed being \"torn between wanting to take care of myself and this fear of disappointing others,\" marked a turning point in their emotional openness. The acknowledgment of this internal struggle reflects a deeper understanding of their emotional state, indicating a progression from initial hesitance to a more engaged exploration of their feelings.",
+    "Exploration judge rated 4/5 and revealed internal cognitive elements.",
+    "Exploration judge output: [Rating]: 4 (Even Higher Facilitation \u2013 Strong Transformational Potential)\n\n[Justification]: The therapist asked strategic and open-ended questions that pushed the client to explore deeper aspects of their feelings and beliefs. For instance, when the therapist inquired about the root of the client's worries regarding how others perceive them, it encouraged the client to reflect on their long-standing beliefs about performance and presence. The therapist also effectively highlighted the internal conflict between self-care and the fear of disappointing others, prompting the client to consider what it would take to alleviate the guilt associated with taking breaks. This line of questioning challenged the client's assumptions and introduced new angles for self-reflection, leading to a clearer understanding of their emotional landscape. Overall, the therapist facilitated a conversation that had strong transformational potential, encouraging the client to explore their motivations and feelings in a meaningful way.",
+    "Rapport judge rated 4/5 and revealed one more experience block.",
+    "Rapport judge output: **Rating: 4 (DEEP ENGAGEMENT)**\n\n**Key Examples:**\n1. **Emotional State:** \"Honestly, it feels really complicated. Part of me knows I need those breaks to recharge, but another part feels like I\u2019m being lazy or not doing enough.\"\n2. **Current Openness:** \"I think a good first step would be to set aside just ten minutes each day for a break, maybe starting tomorrow. I could use that time to just breathe, maybe go for a short walk or just sit quietly.\"\n\n**Progression:** The client\u2019s most recent interactions demonstrate a significant emotional depth, particularly in their acknowledgment of the internal conflict between the need for self-care and the fear of disappointing others. This marks a notable change from earlier in the session, where they expressed feelings of guilt and anxiety primarily in relation to their work absence without delving deeply into the underlying beliefs driving those feelings.\n\n**Turning Point:** The client\u2019s emotional depth shifted during the exchange where they articulated their desire to change their perspective on breaks. Specifically, when they stated, \"I guess I\u2019d need to remind myself that taking care of my health is important and that it doesn\u2019t mean I\u2019m not committed,\" they began to show authentic vulnerability and a willingness to explore new coping strategies. This moment reflects a deeper engagement with their emotions and a recognition of the need for self-compassion, which has significantly enhanced the therapeutic rapport and their openness in the session."
+  ],
+  "final_visible_experience_count": 3,
+  "internal_revealed": true
+}

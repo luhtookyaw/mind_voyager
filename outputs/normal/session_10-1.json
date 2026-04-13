@@ -1,0 +1,180 @@
+{
+  "case_id": "10-1",
+  "client_name": "Grace",
+  "client_mode": "masked",
+  "hide_all": false,
+  "difficulty": "normal",
+  "therapist_provider": "openai",
+  "therapist_model": "gpt-4o-mini",
+  "client_model": "gpt-4o-mini",
+  "max_turns": 15,
+  "transcript": [
+    {
+      "turn": 1,
+      "speaker": "therapist",
+      "content": "Hello, Grace. I'm glad you're here today. What feels most important for you to talk about right now?"
+    },
+    {
+      "turn": 1,
+      "speaker": "client",
+      "content": "Um, hi. Thanks for having me. I guess... I\u2019ve been feeling a bit overwhelmed lately. There\u2019s just a lot going on, you know? It\u2019s hard to keep up with everything, especially with the financial stuff after the divorce. I\u2019m just not sure where to start."
+    },
+    {
+      "turn": 2,
+      "speaker": "therapist",
+      "content": "It sounds like you\u2019re carrying a heavy load right now, especially with everything that\u2019s happening after your divorce. Feeling overwhelmed can be really tough. Can you share a bit more about what specific aspects are feeling most overwhelming for you?"
+    },
+    {
+      "turn": 2,
+      "speaker": "client",
+      "content": "Yeah, it\u2019s just... the financial side of things is really stressing me out. I keep thinking about how I\u2019m going to manage all the bills and expenses. Sometimes I feel like I\u2019m just on the edge of not being able to handle it. I\u2019ve even thought about making some tough choices, like giving up my dog to save money. It\u2019s just hard to think about, you know? I wish I could just figure it all out."
+    },
+    {
+      "turn": 3,
+      "speaker": "therapist",
+      "content": "It sounds like the financial stress is really weighing on you, and the thought of making tough choices, like giving up your dog, is understandably difficult. It seems like you're feeling a lot of pressure to manage everything, and that can be really overwhelming. What emotions come up for you when you think about those choices?"
+    },
+    {
+      "turn": 3,
+      "speaker": "client",
+      "content": "Honestly, it makes me feel really anxious and scared. I worry about not being able to pay for things, and it\u2019s like this constant knot in my stomach. I feel tense all the time, and it\u2019s hard to focus on anything else. I just keep ruminating on it instead of finding a way to solve the problems, which makes it even worse. It\u2019s like I\u2019m stuck in this loop of worry."
+    },
+    {
+      "turn": 4,
+      "speaker": "therapist",
+      "content": "That sounds really tough, Grace. It\u2019s understandable to feel anxious and scared when you're in that loop of worry, especially with the financial pressures you\u2019re facing. It seems like the anxiety is not only affecting your emotions but also your ability to focus on other things. Can you tell me more about what thoughts go through your mind when you find yourself ruminating on these worries?"
+    },
+    {
+      "turn": 4,
+      "speaker": "client",
+      "content": "Well, I keep thinking things like, \u201cI don\u2019t know how I\u2019m going to afford everything,\u201d or \u201cWhat if I can\u2019t pay my bills?\u201d It\u2019s like these thoughts just keep circling around in my head. I know I should probably be looking for solutions, but instead, I just feel overwhelmed and stuck. It\u2019s hard to see a way out when everything feels so uncertain. Sometimes I just wish I could stop thinking about it all, but it\u2019s like I can\u2019t help it."
+    },
+    {
+      "turn": 5,
+      "speaker": "therapist",
+      "content": "It sounds like those thoughts create a really heavy sense of uncertainty for you, and it\u2019s understandable that feeling stuck can make it hard to see any way forward. The pressure to find solutions while feeling overwhelmed can be paralyzing. When you think about wanting to stop those thoughts, what do you think is behind that wish? What would it mean for you if you could find a way to ease that mental burden?"
+    },
+    {
+      "turn": 5,
+      "speaker": "client",
+      "content": "I think if I could ease that mental burden, it would mean I could finally breathe a little easier. It would feel like I\u2019m not constantly on edge, waiting for something to go wrong. I guess I just want to feel more in control of my life again. Right now, it feels like everything is just spiraling, and I\u2019m not sure how to grab hold of it. If I could stop those thoughts, maybe I could focus on what really matters, like my dog and just enjoying life a bit more. But it\u2019s hard to imagine that right now."
+    },
+    {
+      "turn": 6,
+      "speaker": "therapist",
+      "content": "It sounds like regaining that sense of control and being able to breathe easier is really important to you. You want to shift your focus back to the things that bring you joy, like your dog and enjoying life. It\u2019s completely natural to feel that way, especially when everything feels so chaotic. When you think about what it would take to start feeling more in control, what comes to mind for you?"
+    },
+    {
+      "turn": 6,
+      "speaker": "client",
+      "content": "I guess I think about needing to take small steps, but it\u2019s hard to know where to start. Maybe if I could break things down into manageable pieces, it wouldn\u2019t feel so overwhelming. Like, maybe I could set a budget or talk to someone about my finances. But then I worry that I won\u2019t be able to stick to it or that I\u2019ll just mess it up again. It\u2019s frustrating because I want to feel in control, but I also feel like I\u2019m not capable of handling it all."
+    },
+    {
+      "turn": 7,
+      "speaker": "therapist",
+      "content": "It sounds like you have some ideas about taking small steps, like setting a budget or seeking help, which is a positive direction. However, I can hear that there's a lot of self-doubt and frustration about whether you\u2019ll be able to follow through. That tension between wanting to take action and feeling unsure of your capabilities can be really challenging. What do you think might help you feel more confident in taking those first steps?"
+    },
+    {
+      "turn": 7,
+      "speaker": "client",
+      "content": "I think maybe having some support would help. If I could talk to someone who understands what I\u2019m going through, it might make it feel less daunting. Sometimes I feel like I have to handle everything on my own, and that just adds to the pressure. If I could share my concerns and get some guidance, it might help me feel more capable. But then I also worry about burdening others with my problems, so it\u2019s hard to reach out."
+    },
+    {
+      "turn": 8,
+      "speaker": "therapist",
+      "content": "It makes sense that having support could ease some of that pressure and help you feel less alone in what you\u2019re facing. Sharing your concerns with someone who understands can be a powerful way to lighten the load. I can also see how the worry about burdening others might hold you back from reaching out. It\u2019s a tough balance to navigate. When you think about the idea of reaching out for support, what feelings come up for you?"
+    },
+    {
+      "turn": 8,
+      "speaker": "client",
+      "content": "I feel a mix of hope and hesitation. On one hand, I think it would be nice to have someone to talk to, someone who might understand what I\u2019m going through. But on the other hand, I feel guilty for even thinking about asking for help. I worry that I\u2019ll just be seen as weak or that my problems aren\u2019t worth someone else\u2019s time. It\u2019s like I want to be strong and handle everything myself, but I also know that it\u2019s really hard right now. So, I\u2019m just stuck in this back-and-forth."
+    },
+    {
+      "turn": 9,
+      "speaker": "therapist",
+      "content": "That back-and-forth sounds really challenging, Grace. It\u2019s completely understandable to feel both hope and hesitation when considering reaching out for support. Wanting to be strong and handle everything on your own is a common feeling, but it\u2019s also okay to recognize that asking for help doesn\u2019t mean you\u2019re weak. It\u2019s a sign of strength to acknowledge when things are tough. What do you think might help you navigate those feelings of guilt and hesitation when it comes to reaching out?"
+    },
+    {
+      "turn": 9,
+      "speaker": "client",
+      "content": "I think maybe reminding myself that everyone needs help sometimes could be a start. It\u2019s not like I\u2019m the only one going through tough times, right? I guess I could try to reframe it in my mind, like seeing it as a way to connect rather than a burden. Maybe if I could focus on the potential for support and understanding, it wouldn\u2019t feel so heavy. But it\u2019s still hard to shake that feeling of guilt. I just don\u2019t want to feel like I\u2019m imposing on anyone."
+    },
+    {
+      "turn": 10,
+      "speaker": "therapist",
+      "content": "That\u2019s a really insightful perspective, Grace. Reminding yourself that everyone needs help at times can be a powerful way to reframe your thoughts about reaching out. It sounds like you\u2019re recognizing the potential for connection and support, which is a positive step. The guilt you feel is understandable, but it\u2019s important to remember that most people appreciate the opportunity to help others. When you think about reframing your thoughts in this way, what specific steps do you think you could take to start that process?"
+    },
+    {
+      "turn": 10,
+      "speaker": "client",
+      "content": "I think I could start by making a list of people I trust and feel comfortable reaching out to. Just writing it down might help me see that there are people who care and would be willing to listen. Maybe I could also practice what I might say to them, so it feels less daunting when I actually do reach out. And I could remind myself that it\u2019s okay to share my struggles without feeling like I\u2019m burdening them. Just taking those small steps might help me feel a bit more confident about it."
+    },
+    {
+      "turn": 11,
+      "speaker": "therapist",
+      "content": "Those sound like great steps, Grace. Creating a list of trusted people and practicing what you might say can help make the process feel more manageable. It\u2019s wonderful that you\u2019re thinking about ways to remind yourself that sharing your struggles is okay. Taking those small steps can build your confidence and help you feel more connected. How do you feel about starting this process? What do you think might be your first step?"
+    },
+    {
+      "turn": 11,
+      "speaker": "client",
+      "content": "I feel a bit more hopeful about it, actually. Just thinking about those steps makes it seem less overwhelming. I think my first step could be to sit down and make that list of people I trust. It might help to see their names on paper and remind myself that I\u2019m not alone in this. I\u2019ll try to do that soon. I guess it\u2019s a small step, but it feels like it could lead to something more positive."
+    },
+    {
+      "turn": 12,
+      "speaker": "therapist",
+      "content": "I'm glad to hear you're feeling more hopeful, Grace. Making that list sounds like a meaningful first step, and it\u2019s great that you recognize the potential for it to lead to something positive. It\u2019s often those small steps that can create momentum. As you work on this, remember to be gentle with yourself. How do you feel about setting a time frame for when you might want to sit down and make that list?"
+    },
+    {
+      "turn": 12,
+      "speaker": "client",
+      "content": "I think setting a time frame could help keep me accountable. Maybe I could aim to do it by the end of the week? That gives me a little time to think about who I want to include without feeling rushed. I think having a specific time to focus on it might make it feel more real. I just hope I can follow through with it. But I guess even just planning to do it is a step in the right direction."
+    },
+    {
+      "turn": 13,
+      "speaker": "therapist",
+      "content": "That sounds like a solid plan, Grace. Setting a time frame by the end of the week gives you the space to reflect without feeling rushed, and it\u2019s great that you\u2019re recognizing the importance of planning as a step in itself. It\u2019s completely normal to have some uncertainty about following through, but just committing to the process is a positive move. As you approach this, what might help you stay motivated to follow through with your plan?"
+    },
+    {
+      "turn": 13,
+      "speaker": "client",
+      "content": "I think reminding myself of the reasons why I want to reach out for support could help keep me motivated. I want to feel less overwhelmed and more connected, so maybe I could write down those reasons and keep them somewhere visible. Also, maybe setting a little reward for myself after I make the list could be nice\u2014like treating myself to something small that I enjoy. Just having those reminders might help me stay focused on the goal."
+    },
+    {
+      "turn": 14,
+      "speaker": "therapist",
+      "content": "Those are excellent strategies, Grace. Writing down your reasons and keeping them visible can serve as a powerful reminder of your motivation. And treating yourself to a small reward after completing the list is a lovely way to celebrate your effort and progress. It sounds like you\u2019re creating a supportive framework for yourself, which is really important. As you move forward, how do you feel about checking in with yourself after you make the list? What might that look like for you?"
+    },
+    {
+      "turn": 14,
+      "speaker": "client",
+      "content": "I think checking in with myself afterward could be really helpful. Maybe I could take a moment to reflect on how I feel after making the list\u2014like jotting down any thoughts or emotions that come up. It might help me see how taking that step impacts me. I could also think about what my next steps might be after that, like reaching out to someone on the list. Just taking a moment to acknowledge my feelings could help me process everything better."
+    },
+    {
+      "turn": 15,
+      "speaker": "therapist",
+      "content": "That sounds like a thoughtful approach, Grace. Taking time to reflect on your feelings after making the list can provide valuable insights and help you process the experience. Acknowledging your emotions and considering your next steps will keep you connected to your goals and progress. It\u2019s clear you\u2019re putting a lot of care into this process. How do you feel about the overall journey you\u2019re on right now, as you think about these steps and the support you\u2019re considering?"
+    },
+    {
+      "turn": 15,
+      "speaker": "client",
+      "content": "I feel a mix of apprehension and hope. It\u2019s a bit scary to think about reaching out and making changes, but at the same time, I feel like I\u2019m starting to take control of things, even if it\u2019s just a little bit. I know it\u2019s going to be a process, and there will be ups and downs, but I\u2019m starting to see that I can take small steps to improve my situation. It feels good to have a plan, and I hope that by taking these steps, I can start feeling more like myself again."
+    }
+  ],
+  "judge_model": "gpt-4o-mini",
+  "mediator_events": [
+    "Exploration judge rated 2/5; internal elements remain masked.",
+    "Exploration judge output: [Rating]: 2 (High Facilitation)\n\n[Justification]: The Therapist asked a clear and relevant open-ended question that encouraged the client to elaborate on their feelings of overwhelm. This question prompted the client to reflect on their experiences and identify specific areas of concern, which is a positive step towards deeper exploration. However, the question primarily expanded on the client's existing thoughts about their situation rather than introducing significantly new perspectives or challenging their assumptions. While it facilitated some self-reflection, it did not delve deeply into the root causes or emotional depth of the client's experiences, which would be necessary for a higher rating.",
+    "Rapport judge rated 3/5; no experience reveal.",
+    "Rapport judge output: **Rating: 3 (ENGAGED EXPLORATION)**\n\n**Key Examples:**\n1. \"Honestly, it makes me feel really anxious and scared. I worry about not being able to pay for things, and it\u2019s like this constant knot in my stomach.\"\n2. \"I just keep ruminating on it instead of finding a way to solve the problems, which makes it even worse. It\u2019s like I\u2019m stuck in this loop of worry.\"\n\n**Progression:** The client\u2019s most recent interactions demonstrate a clear increase in emotional expression and self-reflection. They articulate feelings of anxiety and fear related to their financial situation, showcasing a deeper emotional quality than earlier exchanges. Initially, the client expressed feeling overwhelmed but did not delve into the emotional ramifications. Now, they are able to identify specific emotions (anxiety, fear) and describe physical sensations (knot in the stomach), indicating a significant shift towards more profound emotional engagement.\n\n**Turning Point:** The client\u2019s emotional depth shifted notably when they began expressing their feelings of anxiety and fear in response to the financial stress. This moment marked a transition from a more surface-level acknowledgment of being overwhelmed to a deeper exploration of the emotions and thoughts that accompany their situation. The client\u2019s willingness to discuss the potential sacrifice of their dog for financial reasons also reflects a growing vulnerability and engagement with the therapeutic process.",
+    "Exploration judge rated 3/5; internal elements remain masked.",
+    "Exploration judge output: [Rating]: 3 (Very High Facilitation \u2013 Deep Exploration Begins)\n\n[Justification]: The Therapist asked insightful and thought-provoking questions that encouraged the client to analyze the emotional depth behind their experiences, particularly regarding the financial stress and its impact on their well-being. The questions prompted the client to reflect on their feelings of anxiety and the thought patterns associated with their worries. While the Therapist did facilitate deeper exploration, there was still potential for even more transformative questioning that could challenge the client's assumptions or introduce new perspectives. Overall, the session demonstrated a strong facilitation of self-reflection and emotional analysis, but it did not reach the level of profound breakthrough or significant shifts in understanding.",
+    "Exploration judge rated 4/5 and revealed internal cognitive elements.",
+    "Exploration judge output: [Rating]: 4 (Even Higher Facilitation \u2013 Strong Transformational Potential)\n\n[Justification]: The therapist asked strategic and open-ended questions that encouraged the client to explore deeper emotional layers and consider the implications of their thoughts and feelings. For example, when the therapist inquired about what it would mean for the client to ease their mental burden, it prompted the client to reflect on their desire for control and the importance of focusing on what brings them joy. This line of questioning challenged the client to think beyond their immediate worries and consider their broader emotional needs and desires. The therapist's questions effectively pushed the client towards a deeper understanding of their situation and feelings, leading to a potential shift in self-awareness. However, while the facilitation was strong, it did not reach the level of a profound breakthrough, as the client did not articulate a major insight or realization that fundamentally reframed their situation.",
+    "Rapport judge rated 3/5; no experience reveal.",
+    "Rapport judge output: **Rating: 3 (ENGAGED EXPLORATION)**\n\n**Key Examples:**\n1. \"Honestly, it makes me feel really anxious and scared. I worry about not being able to pay for things, and it\u2019s like this constant knot in my stomach.\"\n2. \"I guess I think about needing to take small steps, but it\u2019s hard to know where to start. Maybe if I could break things down into manageable pieces, it wouldn\u2019t feel so overwhelming.\"\n\n**Progression:**\nThe client\u2019s most recent interactions demonstrate a clear emotional depth, particularly in their expression of anxiety and fear regarding financial pressures. They articulate feelings of being overwhelmed and stuck, indicating a significant shift from earlier exchanges where emotional expression was more limited. In the latest exchanges, the client is not only identifying their feelings but also reflecting on the impact of these emotions on their daily life, which marks a progression from a more factual and guarded stance to one of active engagement and self-reflection.\n\n**Turning Point:**\nThe turning point in the session occurred when the client began to articulate their feelings of anxiety and fear more openly, particularly when they said, \"Honestly, it makes me feel really anxious and scared.\" This moment marked a shift from merely stating facts about their situation to expressing deeper emotional experiences, allowing for a more authentic dialogue about their struggles and aspirations. This newfound openness has fostered a stronger therapeutic alliance, as the client is beginning to explore their feelings and thoughts more freely.",
+    "Rapport judge rated 4/5 and revealed one more experience block.",
+    "Rapport judge output: **Rating: 4 (DEEP ENGAGEMENT)**\n\n**Key Examples:**\n1. \u201cHonestly, it makes me feel really anxious and scared. I worry about not being able to pay for things, and it\u2019s like this constant knot in my stomach. I feel tense all the time, and it\u2019s hard to focus on anything else.\u201d\n2. \u201cI think maybe reminding myself that everyone needs help sometimes could be a start. It\u2019s not like I\u2019m the only one going through tough times, right? I guess I could try to reframe it in my mind, like seeing it as a way to connect rather than a burden.\u201d\n\n**Progression:**\nThe client has shown a significant progression in emotional openness and depth throughout the session. Initially, they expressed feelings of being overwhelmed and uncertain, primarily focusing on factual aspects of their situation. However, in the latest exchanges, the client has moved towards a deeper emotional expression, articulating feelings of anxiety, fear, and a desire for connection. They have begun to reflect on their emotions more meaningfully, indicating a growing comfort with the therapist and a willingness to explore their vulnerabilities. This marks a shift from earlier hesitance to a more engaged and self-reflective dialogue.\n\n**Turning Point:**\nThe turning point in the client\u2019s emotional depth occurred when they articulated their feelings of anxiety and fear regarding their financial situation and the potential need to give up their dog. This moment marked a shift from merely discussing their circumstances to expressing genuine emotional distress and vulnerability. Following this, the client began to explore their thoughts about reaching out for support, indicating a willingness to confront their feelings of guilt and hesitation, which further deepened their engagement in the therapeutic process."
+  ],
+  "final_visible_experience_count": 3,
+  "internal_revealed": true
+}

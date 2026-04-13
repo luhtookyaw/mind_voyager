@@ -1,0 +1,178 @@
+{
+  "case_id": "4-2",
+  "client_name": "Jessa",
+  "client_mode": "masked",
+  "hide_all": false,
+  "difficulty": "normal",
+  "therapist_provider": "openai",
+  "therapist_model": "gpt-4o-mini",
+  "client_model": "gpt-4o-mini",
+  "max_turns": 15,
+  "transcript": [
+    {
+      "turn": 1,
+      "speaker": "therapist",
+      "content": "Hello, Jessa. I\u2019m glad you\u2019re here today. What feels most important for you to talk about right now?"
+    },
+    {
+      "turn": 1,
+      "speaker": "client",
+      "content": "Um, hi. Thanks for having me. I guess... I don't know, maybe just how things have been lately? I mean, sometimes it feels like I have to keep pretending everything's fine, even when it's not. It's just... hard to be around people when I feel this way. But, um, I\u2019m not sure if that\u2019s really what you want to talk about."
+    },
+    {
+      "turn": 2,
+      "speaker": "therapist",
+      "content": "Thank you for sharing that, Jessa. It sounds like you\u2019re feeling a lot of pressure to appear okay, even when you\u2019re struggling inside. That must be really challenging, especially when it affects how you connect with others. Can you tell me more about what\u2019s been making it hard to be around people lately?"
+    },
+    {
+      "turn": 2,
+      "speaker": "client",
+      "content": "Yeah, it\u2019s just... I feel like if I show how I really feel, people might not want to be around me. Like, at that Halloween party, I just put on a happy face because I thought it would help me fit in. But inside, I was really anxious and sad. I kept comparing myself to others, and it felt like everyone else was having a good time while I was just... there. It\u2019s like I\u2019m stuck between wanting to be with people and feeling like I don\u2019t belong."
+    },
+    {
+      "turn": 3,
+      "speaker": "therapist",
+      "content": "That sounds really tough, Jessa. It seems like there\u2019s a conflict between your desire to connect with others and the fear that being your true self might push them away. I can imagine that feeling anxious and sad while trying to fit in must have been exhausting. When you were at the Halloween party, what thoughts were going through your mind as you compared yourself to others?"
+    },
+    {
+      "turn": 3,
+      "speaker": "client",
+      "content": "Um, I guess I kept thinking that if I acted like everything was fine, maybe people would like me more. Like, I thought if I showed I was okay, they\u2019d want to stick around. But then I looked at everyone else, and they seemed so much healthier and happier, and it just made me feel worse. I kept worrying that if they saw how I really felt, they\u2019d think I was a burden or something. It\u2019s like I\u2019m always trying to keep up, but it just feels... heavy."
+    },
+    {
+      "turn": 4,
+      "speaker": "therapist",
+      "content": "It sounds like you\u2019re carrying a lot of weight with those thoughts, Jessa. You\u2019re trying to maintain a facade of being okay, hoping it will help you connect, but it\u2019s leaving you feeling even more isolated and burdened. The fear of being seen as a burden seems to be really significant for you. Can you recall any past experiences that might have shaped this belief about needing to appear fine to be accepted?"
+    },
+    {
+      "turn": 4,
+      "speaker": "client",
+      "content": "Um, I think... there have been times in the past when I felt really sick and, like, people didn\u2019t know how to handle it. I remember feeling like I was a burden to my friends and family when I couldn\u2019t do things or when I needed help. It\u2019s like I started to believe that if I showed I was struggling, they\u2019d just... leave or get tired of me. So, I guess I learned to hide how I really feel to avoid that. It\u2019s just easier to pretend, even if it\u2019s not really how I want to be."
+    },
+    {
+      "turn": 5,
+      "speaker": "therapist",
+      "content": "Thank you for sharing that, Jessa. It sounds like those past experiences have really influenced how you approach your relationships now. The fear of being seen as a burden seems to have led you to hide your true feelings, even though it\u2019s not what you truly want. It must be so difficult to feel like you have to choose between being authentic and feeling accepted. How does it feel to recognize that connection between your past experiences and how you\u2019re handling things now?"
+    },
+    {
+      "turn": 5,
+      "speaker": "client",
+      "content": "I guess it feels... a bit heavy, but also kind of freeing? Like, I didn\u2019t really think about how much those past experiences shaped my beliefs. It\u2019s hard to admit that I\u2019m still carrying that fear with me. I want to be open and connect with people, but I also feel like I\u2019m stuck in this cycle of pretending. It\u2019s just confusing, you know? I want to be accepted for who I am, but I\u2019m scared that if I show my true self, it\u2019ll push people away."
+    },
+    {
+      "turn": 6,
+      "speaker": "therapist",
+      "content": "It\u2019s understandable to feel both heavy and freeing as you start to recognize those connections, Jessa. It sounds like you\u2019re caught in a difficult cycle between wanting to be authentic and fearing rejection. That confusion is completely valid, especially when you\u2019ve been carrying those fears for a long time. What do you think might help you begin to break that cycle and move toward being more open with others?"
+    },
+    {
+      "turn": 6,
+      "speaker": "client",
+      "content": "Um, I\u2019m not really sure. It feels like a big step to think about being more open. Maybe it would help to start small, like just sharing a little bit about how I\u2019m feeling with someone I trust. But then I worry about how they\u2019ll react. What if they don\u2019t understand or think I\u2019m just being dramatic? It\u2019s like I want to try, but I\u2019m also scared of what might happen. I guess I just don\u2019t want to feel more alone."
+    },
+    {
+      "turn": 7,
+      "speaker": "therapist",
+      "content": "It makes sense that you\u2019d feel hesitant about taking that step, especially with the fear of not being understood or being seen as dramatic. Starting small with someone you trust sounds like a thoughtful approach, but it\u2019s also natural to worry about the potential outcomes. It\u2019s clear that the desire to connect is strong for you, but so is the fear of feeling more alone if things don\u2019t go as hoped. What do you think could help you feel more secure in taking that small step?"
+    },
+    {
+      "turn": 7,
+      "speaker": "client",
+      "content": "I think maybe having a plan in place could help. Like, if I could think about what I want to share beforehand and maybe even practice it a bit, it might make it feel less overwhelming. Also, knowing that the person I\u2019m talking to is someone who cares about me could make it easier. But, um, I still worry about how they\u2019ll react. I guess if I remind myself that it\u2019s okay to be vulnerable and that it doesn\u2019t mean I\u2019m weak, that might help too. It\u2019s just... a lot to think about."
+    },
+    {
+      "turn": 8,
+      "speaker": "therapist",
+      "content": "It sounds like you\u2019re starting to develop a thoughtful plan, Jessa. Preparing what you want to share and practicing it could definitely help ease some of the overwhelm. It\u2019s great that you recognize the importance of talking to someone who cares about you, as that support can make a big difference. Reminding yourself that vulnerability doesn\u2019t equate to weakness is a powerful insight, too. It\u2019s understandable that this feels like a lot to process. How do you feel about taking some time to reflect on this plan and maybe even jot down your thoughts?"
+    },
+    {
+      "turn": 8,
+      "speaker": "client",
+      "content": "Um, I think that could be helpful. Writing things down might make it feel more concrete, you know? It could help me sort through my thoughts and maybe even ease some of the anxiety about sharing. I just hope I can remember that it\u2019s okay to be honest and that it doesn\u2019t mean I\u2019m less strong. I guess taking that time to reflect could help me feel a bit more prepared. It\u2019s just... a little scary to think about, but I want to try."
+    },
+    {
+      "turn": 9,
+      "speaker": "therapist",
+      "content": "It\u2019s wonderful to hear that you\u2019re considering writing things down to help clarify your thoughts, Jessa. Making your feelings and intentions more concrete can definitely provide a sense of readiness. It\u2019s completely normal to feel scared about this, but your willingness to try is a strong step forward. Remembering that being honest is a sign of strength, not weakness, is an important mindset to carry with you. As you take this time to reflect, what do you think would be the first thing you\u2019d want to write down?"
+    },
+    {
+      "turn": 9,
+      "speaker": "client",
+      "content": "I think the first thing I\u2019d want to write down is how I really feel right now\u2014like, the mix of wanting to connect but also feeling scared. Maybe I could also jot down some of those thoughts about why I feel like I have to pretend. It might help to see it all laid out, you know? And then I could think about what I want to share with that person, like just starting with something small. It feels a little less daunting when I break it down like that."
+    },
+    {
+      "turn": 10,
+      "speaker": "therapist",
+      "content": "That sounds like a great starting point, Jessa. Writing down your feelings and the reasons behind them can really help clarify your thoughts and make the process feel more manageable. Breaking it down into smaller pieces is a smart way to approach it. It\u2019s clear that you\u2019re thinking this through thoughtfully, which is a positive step. How do you feel about setting aside some time to do this reflection? What might that look like for you?"
+    },
+    {
+      "turn": 10,
+      "speaker": "client",
+      "content": "Um, I think I could set aside some time maybe this weekend when I have a bit more space to think. I could find a quiet spot, maybe with some music or a warm drink to help me feel relaxed. I think it would help to just take my time with it, not rush through. I could write down my feelings and then maybe even make a little plan for how to approach that conversation with someone. It feels a bit more doable when I think about it like that."
+    },
+    {
+      "turn": 11,
+      "speaker": "therapist",
+      "content": "That sounds like a lovely plan, Jessa. Creating a calm and comfortable environment for yourself, with music and a warm drink, can really set the stage for reflection. Taking your time to write down your feelings and plan for the conversation is a thoughtful approach. It seems like you\u2019re finding ways to make this process feel more manageable and supportive for yourself. How do you feel about the idea of sharing your reflections after you\u2019ve had that time to write? Would that be something you\u2019d find helpful?"
+    },
+    {
+      "turn": 11,
+      "speaker": "client",
+      "content": "Um, yeah, I think sharing my reflections afterward could be really helpful. It might give me a chance to process what I\u2019ve written and maybe even get some feedback or support. I guess it would feel good to have someone else hear what I\u2019m thinking, especially if I\u2019m feeling a bit unsure about it all. It\u2019s like having that extra layer of support as I try to be more open. I just hope I can express everything clearly."
+    },
+    {
+      "turn": 12,
+      "speaker": "therapist",
+      "content": "It\u2019s great to hear that you see value in sharing your reflections afterward. Having that extra layer of support can really help as you navigate this process. It\u2019s completely normal to feel unsure about expressing everything clearly, especially when it involves vulnerable feelings. Just remember that it\u2019s okay to take your time and that you don\u2019t have to get it perfect. The important part is that you\u2019re taking steps to be more open. How do you feel about who you might want to share your reflections with?"
+    },
+    {
+      "turn": 12,
+      "speaker": "client",
+      "content": "Um, I think I have a couple of friends in mind who I trust. They\u2019ve been supportive in the past, and I feel like they\u2019d be understanding. I just hope I can find the right moment to bring it up. I don\u2019t want to catch them off guard or make it feel too heavy. Maybe I could just start with a casual conversation and then ease into sharing what I\u2019ve written. It feels a bit less intimidating that way."
+    },
+    {
+      "turn": 13,
+      "speaker": "therapist",
+      "content": "It sounds like you have some supportive friends in mind, which is wonderful. Starting with a casual conversation and easing into sharing your reflections is a thoughtful approach. It can help create a comfortable space for both you and your friends, making it feel less daunting. It\u2019s clear that you\u2019re being mindful of their feelings as well, which shows how much you value your connections. How do you feel about the idea of practicing what you want to say before you have that conversation? Would that be something you\u2019d find helpful?"
+    },
+    {
+      "turn": 13,
+      "speaker": "client",
+      "content": "Yeah, I think practicing what I want to say could be really helpful. It might make me feel more confident when the time comes to actually talk about it. I could even practice in front of a mirror or just say it out loud to myself. It feels like it would help me organize my thoughts and maybe ease some of the anxiety about how it\u2019ll go. I just want to make sure I express myself well, so practicing seems like a good idea."
+    },
+    {
+      "turn": 14,
+      "speaker": "therapist",
+      "content": "That\u2019s a great strategy, Jessa! Practicing in front of a mirror or saying it out loud to yourself can really help you feel more confident and organized when the time comes to share. It\u2019s understandable to want to express yourself clearly, and taking that time to rehearse can ease some of the anxiety. It sounds like you\u2019re setting yourself up for success with this approach. How do you feel about the overall process you\u2019re planning to undertake\u2014writing, reflecting, practicing, and eventually sharing?"
+    },
+    {
+      "turn": 14,
+      "speaker": "client",
+      "content": "Um, I feel a mix of nervousness and hope, I guess. It\u2019s a bit overwhelming to think about everything, but at the same time, I feel like I\u2019m taking steps in the right direction. Writing and reflecting feels like a good way to sort through my feelings, and practicing gives me a sense of control. I really want to connect with my friends and be more open, so even though it\u2019s scary, I think it could be worth it. It feels like a chance to break that cycle of pretending, and that\u2019s kind of exciting, too."
+    },
+    {
+      "turn": 15,
+      "speaker": "therapist",
+      "content": "It\u2019s wonderful to hear that you\u2019re feeling a mix of nervousness and hope, Jessa. Those feelings are completely valid, especially as you embark on this journey of being more open and authentic. It sounds like you\u2019re recognizing the potential for positive change, which is really encouraging. Taking these steps to sort through your feelings and practice your thoughts can empower you to break that cycle of pretending. It\u2019s exciting that you\u2019re allowing yourself the opportunity to connect more deeply with your friends. As you move forward, remember to be gentle with yourself throughout this process. Is there anything else you\u2019d like to explore or discuss today?"
+    },
+    {
+      "turn": 15,
+      "speaker": "client",
+      "content": "Um, I think I\u2019ve shared a lot already, and it feels good to talk about it. I guess I just want to make sure I remember to be kind to myself as I go through this. It\u2019s a bit daunting, but I really appreciate having this space to think it through. Maybe just... checking in with myself along the way will help, too. Thank you for listening and guiding me through this. It means a lot."
+    }
+  ],
+  "judge_model": "gpt-4o-mini",
+  "mediator_events": [
+    "Exploration judge rated 3/5; internal elements remain masked.",
+    "Exploration judge output: [Rating]: 3 (Very High Facilitation \u2013 Deep Exploration Begins)\n\n[Justification]: The Therapist's question effectively encourages the client to delve deeper into their feelings of pressure and the impact on their social interactions. By acknowledging the client's struggle and inviting them to elaborate on their experiences, the Therapist facilitates a deeper exploration of the client's emotional state. The question prompts the client to analyze the root causes of their discomfort in social situations, which indicates a shift towards higher-level self-reflection. However, while the question is insightful, it does not yet challenge the client's assumptions or introduce completely new perspectives, which is why it falls short of a rating of 4.",
+    "Rapport judge rated 3/5; no experience reveal.",
+    "Rapport judge output: **Rating: 3**\n\n**Key Examples:**\n1. \"I guess... I don't know, maybe just how things have been lately? I mean, sometimes it feels like I have to keep pretending everything's fine, even when it's not.\"\n2. \"I kept thinking that if I acted like everything was fine, maybe people would like me more. Like, I thought if I showed I was okay, they\u2019d want to stick around.\"\n\n**Progression:** The client\u2019s most recent interactions demonstrate a growing emotional depth, particularly in their acknowledgment of the pressure to maintain a facade of happiness. This marks a significant change from earlier sessions where emotional expression was more guarded and limited. The client is beginning to articulate their feelings of anxiety and sadness more openly, indicating a willingness to explore these emotions in a therapeutic context.\n\n**Turning Point:** The client\u2019s emotional depth shifted notably when they began expressing their internal conflict about fitting in at the Halloween party. This moment highlighted their struggle between wanting to connect with others and the fear of being perceived as a burden, which has led to a more authentic sharing of their emotional state. This shift reflects a movement from merely stating feelings to a deeper exploration of the underlying fears and beliefs that contribute to their emotional experience.",
+    "Exploration judge rated 4/5 and revealed internal cognitive elements.",
+    "Exploration judge output: [Rating]: 4 (Even Higher Facilitation \u2013 Strong Transformational Potential)\n\n[Justification]: The Therapist asked strategic and powerfully open-ended questions that encouraged the client to explore their feelings of isolation and the pressure to maintain a facade. The questions challenged the client to reflect on deeper emotional patterns and assumptions, particularly regarding their fear of being perceived as a burden. By inviting the client to recall past experiences that shaped this belief, the Therapist introduced a new angle for exploration, which could lead to significant self-awareness and understanding. This approach indicates a strong potential for transformation, as it pushes the client beyond their current understanding of their feelings and behaviors.",
+    "Rapport judge rated 3/5; no experience reveal.",
+    "Rapport judge output: **Rating: 3 (ENGAGED EXPLORATION)**\n\n**Key Examples:**\n1. **Emotional State:** \"I guess it feels... a bit heavy, but also kind of freeing? Like, I didn\u2019t really think about how much those past experiences shaped my beliefs.\"\n2. **Current Openness:** \"I think maybe having a plan in place could help. Like, if I could think about what I want to share beforehand and maybe even practice it a bit, it might make it feel less overwhelming.\"\n\n**Progression:**\nIn the most recent exchanges, Jessa demonstrates a significant increase in emotional expression and self-reflection compared to earlier parts of the session. Initially, she appeared hesitant and uncertain, primarily sharing factual responses about her feelings. However, as the session progressed, she began to articulate her emotional struggles more deeply, acknowledging the weight of her past experiences and how they influence her current behavior. This shift marks a clear progression from a more guarded stance to one where she is actively exploring her feelings and contemplating actionable steps toward vulnerability.\n\n**Turning Point:**\nThe turning point in Jessa's emotional depth occurred when she articulated her feelings of heaviness and freedom simultaneously. This moment of insight allowed her to connect her past experiences with her current struggles, indicating a deeper level of self-awareness. By recognizing the impact of her past on her present behavior, she began to consider practical steps toward change, such as developing a plan to share her feelings with someone she trusts. This acknowledgment of both her fears and desires reflects a growing comfort in the therapeutic relationship and a willingness to engage more openly in the process.",
+    "Rapport judge rated 4/5 and revealed one more experience block.",
+    "Rapport judge output: **Rating: 4 (DEEP ENGAGEMENT)**\n\n**Key Examples:**\n1. \"I guess it feels... a bit heavy, but also kind of freeing? Like, I didn\u2019t really think about how much those past experiences shaped my beliefs.\"\n2. \"I think the first thing I\u2019d want to write down is how I really feel right now\u2014like, the mix of wanting to connect but also feeling scared.\"\n\n**Progression:**\nIn the most recent exchanges, Jessa demonstrates a significant depth of emotional expression and self-reflection. She articulates her feelings of heaviness and freedom, indicating a deeper understanding of her emotional landscape and how her past experiences influence her current behavior. This marks a notable shift from earlier in the session, where her emotional vocabulary was more limited and her responses were more hesitant. The current exchanges reveal a growing comfort with the therapist and a willingness to explore her feelings more openly.\n\n**Turning Point:**\nThe turning point in Jessa's emotional depth occurred when she began to connect her past experiences of feeling like a burden to her present fears of vulnerability. This realization, expressed when she stated, \"I guess it feels... a bit heavy, but also kind of freeing,\" signifies a moment of authentic vulnerability and insight. It indicates that she is not only recognizing her fears but is also beginning to embrace the possibility of being more open, which is a crucial step in her therapeutic journey."
+  ],
+  "final_visible_experience_count": 3,
+  "internal_revealed": true
+}

@@ -1,0 +1,186 @@
+{
+  "case_id": "36-1",
+  "client_name": "Riley",
+  "client_mode": "masked",
+  "hide_all": false,
+  "difficulty": "easy",
+  "therapist_provider": "openai",
+  "therapist_model": "gpt-4o-mini",
+  "client_model": "gpt-4o-mini",
+  "max_turns": 15,
+  "transcript": [
+    {
+      "turn": 1,
+      "speaker": "therapist",
+      "content": "Hello, Riley. I'm glad you're here today. What feels most important for you to talk about right now?"
+    },
+    {
+      "turn": 1,
+      "speaker": "client",
+      "content": "Hi. Thanks for having me. I guess... I\u2019ve been feeling a bit overwhelmed lately, especially when it comes to my finances. I recently checked my bank balance, and it was lower than I expected. It just made me anxious, you know? I keep wondering where all my money went. It\u2019s like I can\u2019t shake this feeling of worry."
+    },
+    {
+      "turn": 2,
+      "speaker": "therapist",
+      "content": "Thank you for sharing that, Riley. It sounds like checking your bank balance brought up a lot of anxiety for you, and it\u2019s understandable to feel overwhelmed when finances are tight. Can you tell me more about what thoughts or worries come up for you when you think about your financial situation?"
+    },
+    {
+      "turn": 2,
+      "speaker": "client",
+      "content": "Yeah, it\u2019s just... when I saw that balance, my first thought was, \u201cWhere did all my money go?\u201d I start to question if I\u2019m being irresponsible, like my friend's husband. I mean, I don\u2019t want to end up in a bad situation, you know? It makes me feel scared and tense, and I just want to avoid dealing with it. Sometimes I think about asking friends for help, but that feels really uncomfortable."
+    },
+    {
+      "turn": 3,
+      "speaker": "therapist",
+      "content": "It sounds like seeing that lower balance triggered a lot of self-doubt and fear for you, especially with thoughts about being irresponsible. It\u2019s tough to feel scared and tense about finances, and I can see why you might want to avoid dealing with it altogether. You mentioned feeling uncomfortable about asking friends for help\u2014what do you think makes that feel difficult for you?"
+    },
+    {
+      "turn": 3,
+      "speaker": "client",
+      "content": "I guess it\u2019s just... I don\u2019t want to burden anyone, you know? I mean, everyone has their own stuff to deal with. Plus, I worry they might think less of me or judge me for not managing my finances better. It\u2019s like I\u2019m stuck in this cycle of feeling anxious and overwhelmed, and asking for help just feels like it would make everything worse. So, I end up avoiding it, which just adds to the stress."
+    },
+    {
+      "turn": 4,
+      "speaker": "therapist",
+      "content": "I hear you, Riley. It sounds like you\u2019re really concerned about being a burden and how others might perceive you. That fear of judgment can make it even harder to reach out for support, which then adds to your feelings of anxiety and overwhelm. It\u2019s a tough cycle to be in. When you think about that cycle, what do you notice about how it affects your day-to-day life?"
+    },
+    {
+      "turn": 4,
+      "speaker": "client",
+      "content": "Yeah, it definitely affects me a lot. I find myself avoiding checking my finances, which just makes me feel more stressed. I get this knot in my stomach, and it\u2019s hard to focus on anything else. I feel like I\u2019m constantly on edge, and it\u2019s exhausting. Sometimes I just want to push it all aside and pretend it\u2019s not happening, but then I know that won\u2019t solve anything. It\u2019s like I\u2019m stuck between wanting to face it and being too scared to do so."
+    },
+    {
+      "turn": 5,
+      "speaker": "therapist",
+      "content": "That sounds really challenging, Riley. It\u2019s understandable to feel that tension between wanting to confront your finances and the fear that comes with it. The knot in your stomach and the exhaustion you\u2019re experiencing must be really draining. It seems like there\u2019s a part of you that knows facing it might help, but another part that feels overwhelmed by fear. Can you share more about what facing your finances would look like for you? What do you imagine that process might involve?"
+    },
+    {
+      "turn": 5,
+      "speaker": "client",
+      "content": "Facing my finances... I guess it would mean sitting down and actually looking at everything\u2014like my expenses, income, and maybe even creating a budget. I imagine it would be really hard to see everything laid out, especially if it\u2019s not what I want to see. I think I\u2019d feel even more anxious, but maybe it would help me understand where I stand. I just worry that once I start, I won\u2019t know how to fix things or that it\u2019ll just make me feel worse. It feels like a big step, and I\u2019m not sure I\u2019m ready for that yet."
+    },
+    {
+      "turn": 6,
+      "speaker": "therapist",
+      "content": "It sounds like you have a clear idea of what facing your finances would involve, but it also feels daunting and anxiety-provoking. The thought of seeing everything laid out can be overwhelming, especially if you\u2019re uncertain about how to move forward afterward. It\u2019s completely normal to feel hesitant about taking that big step. What do you think might help you feel a little more prepared or supported if you decide to take that step?"
+    },
+    {
+      "turn": 6,
+      "speaker": "client",
+      "content": "I think having some support would really help. Maybe talking it through with someone I trust could make it feel less scary. I could also look into resources or tools that might make budgeting easier, so it doesn\u2019t feel so overwhelming. Just knowing I\u2019m not alone in this might make it a bit easier to face. But I still worry about whether I\u2019ll actually follow through once I start. It\u2019s like I want to take that step, but I\u2019m not sure how to get there without feeling completely overwhelmed."
+    },
+    {
+      "turn": 7,
+      "speaker": "therapist",
+      "content": "It\u2019s great to hear that you\u2019re considering support and resources as ways to make the process feel less daunting. Having someone to talk to can definitely ease that sense of isolation. It sounds like you\u2019re really aware of what might help, but there\u2019s still that concern about following through and feeling overwhelmed. What do you think could be a small, manageable step you could take to start moving in that direction, without feeling too pressured?"
+    },
+    {
+      "turn": 7,
+      "speaker": "client",
+      "content": "Maybe I could start by just writing down my expenses for a week or two, without really diving into the budgeting part just yet. That way, I wouldn\u2019t have to face everything all at once, and it might help me get a clearer picture without feeling too overwhelmed. I could also set a small goal, like just checking in with a friend about it, even if it\u2019s just to talk about how I\u2019m feeling. It feels a bit more manageable than jumping straight into everything. I think taking it slow might help me feel less anxious about the whole situation."
+    },
+    {
+      "turn": 8,
+      "speaker": "therapist",
+      "content": "That sounds like a really thoughtful approach, Riley. Starting with just writing down your expenses and checking in with a friend feels like a gentle way to ease into the process. It\u2019s great that you\u2019re recognizing the importance of taking it slow to help manage your anxiety. How do you feel about setting those small goals? Do you think they might help you feel more in control of the situation?"
+    },
+    {
+      "turn": 8,
+      "speaker": "client",
+      "content": "Yeah, I think setting those small goals could really help me feel more in control. It makes the whole process seem less intimidating, and I like the idea of taking it one step at a time. Just writing down my expenses feels like a manageable task, and talking to a friend could provide some support without too much pressure. I feel a bit more hopeful thinking about it that way, like maybe I can start to tackle this without feeling completely overwhelmed. It\u2019s nice to think there\u2019s a way forward that doesn\u2019t feel so scary."
+    },
+    {
+      "turn": 9,
+      "speaker": "therapist",
+      "content": "I\u2019m really glad to hear that, Riley. It sounds like you\u2019re finding a sense of hope and empowerment in breaking things down into smaller, manageable steps. Taking it one step at a time can definitely help reduce that feeling of being overwhelmed. As you think about moving forward, what do you think might be the first step you want to take, and how can you remind yourself to stay gentle with yourself during this process?"
+    },
+    {
+      "turn": 9,
+      "speaker": "client",
+      "content": "I think the first step I want to take is just to start writing down my expenses this week. I can set aside a little time each day to do it, so it doesn\u2019t feel like a huge task all at once. To remind myself to stay gentle, I could maybe write a note to myself or set a reminder on my phone. Something simple like, \u201cIt\u2019s okay to take your time. You\u2019re doing your best.\u201d I think having that little reminder could help me be kinder to myself as I go through this process. It\u2019s nice to think I can approach it with a bit more self-compassion."
+    },
+    {
+      "turn": 10,
+      "speaker": "therapist",
+      "content": "That sounds like a wonderful plan, Riley. Setting aside a little time each day to write down your expenses feels like a manageable way to start, and having a reminder to practice self-compassion is a great idea. It\u2019s important to be kind to yourself as you navigate this process. I\u2019m glad you\u2019re feeling more hopeful about it. As you begin this journey, how do you think you might celebrate or acknowledge your progress, no matter how small?"
+    },
+    {
+      "turn": 10,
+      "speaker": "client",
+      "content": "I think celebrating small wins could be really helpful. Maybe I could treat myself to something simple, like a nice coffee or a little time to relax and do something I enjoy, like reading or watching a show. Just taking a moment to acknowledge that I took a step, even if it\u2019s small, would feel good. I think it\u2019s important to recognize my efforts, especially since this whole process feels a bit daunting. It might help keep me motivated to keep going."
+    },
+    {
+      "turn": 11,
+      "speaker": "therapist",
+      "content": "That sounds like a lovely way to acknowledge your progress, Riley. Treating yourself to something enjoyable, like a nice coffee or some relaxation time, can really reinforce those small wins and help you stay motivated. It\u2019s great that you\u2019re recognizing the importance of celebrating your efforts, especially in a process that feels daunting. As you prepare to take these steps, how are you feeling about the journey ahead?"
+    },
+    {
+      "turn": 11,
+      "speaker": "client",
+      "content": "I\u2019m feeling a bit more optimistic about it, honestly. Just having a plan and thinking about those small steps makes it feel less overwhelming. I know it won\u2019t be easy, and there will probably be moments of anxiety, but I feel like I have a starting point now. It\u2019s nice to think that I can approach this with a little more confidence, and I\u2019m hopeful that by taking it slow and being kind to myself, I can make some progress. It feels like I\u2019m finally starting to take control, and that\u2019s a good feeling."
+    },
+    {
+      "turn": 12,
+      "speaker": "therapist",
+      "content": "I\u2019m really glad to hear that, Riley. It sounds like you\u2019re finding a sense of optimism and control, which is such an important shift. Having a plan and recognizing that it\u2019s okay to take things slowly can make a big difference. It\u2019s wonderful that you\u2019re allowing yourself to feel more confident in this process. As you move forward, remember that it\u2019s okay to have ups and downs along the way. Is there anything else you\u2019d like to explore or discuss today?"
+    },
+    {
+      "turn": 12,
+      "speaker": "client",
+      "content": "Thank you. I appreciate that reminder. I think I\u2019ve shared a lot about my financial concerns today, and it feels good to have a plan. I\u2019m not sure there\u2019s anything else pressing right now, but I guess I\u2019d like to keep working on being more open about my feelings in general. Sometimes I find it hard to express what I\u2019m really going through, especially with friends or family. Maybe we can touch on that in future sessions?"
+    },
+    {
+      "turn": 13,
+      "speaker": "therapist",
+      "content": "Absolutely, Riley. It sounds like you\u2019re interested in exploring how to be more open about your feelings, which is a valuable goal. It\u2019s completely normal to find that challenging at times, and I\u2019d be happy to support you in that journey in future sessions. For now, it\u2019s wonderful to hear that you\u2019re feeling good about your plan regarding your finances. If you ever want to share more about your feelings or anything else, I\u2019m here to listen. Thank you for being open today, and I look forward to our next conversation."
+    },
+    {
+      "turn": 13,
+      "speaker": "client",
+      "content": "Thank you. I really appreciate your support and understanding. It feels good to have a space where I can talk about these things. I\u2019m looking forward to our next conversation too, and I\u2019ll definitely keep working on being more open about my feelings. Take care!"
+    },
+    {
+      "turn": 14,
+      "speaker": "therapist",
+      "content": "You\u2019re very welcome, Riley. I\u2019m glad you found this space helpful, and I appreciate your willingness to share your thoughts and feelings. It sounds like you\u2019re making meaningful steps forward. Take care of yourself, and I look forward to our next conversation. Have a great day!"
+    },
+    {
+      "turn": 14,
+      "speaker": "client",
+      "content": "Thank you! I appreciate that. I\u2019ll take care and try to keep those small steps in mind. Have a great day too, and I look forward to talking again soon!"
+    },
+    {
+      "turn": 15,
+      "speaker": "therapist",
+      "content": "You're welcome, Riley! I'm glad to hear that, and I believe those small steps will make a difference. Take care, and I look forward to our next conversation as well. Have a wonderful day!"
+    },
+    {
+      "turn": 15,
+      "speaker": "client",
+      "content": "Thank you! I really appreciate your support. I\u2019ll do my best to take care of myself and keep moving forward. Have a wonderful day too, and see you next time!"
+    }
+  ],
+  "judge_model": "gpt-4o-mini",
+  "mediator_events": [
+    "Exploration judge rated 2/5; internal elements remain masked.",
+    "Exploration judge output: [Rating]: 2 (High Facilitation)\n\n[Justification]: The Therapist's initial question is clear and open-ended, inviting Riley to share what is most pressing for them at the moment. This encourages some level of self-reflection and allows Riley to express their thoughts. However, the question does not significantly challenge Riley's existing thought patterns or introduce new perspectives. It primarily serves to expand on what Riley may already be considering, rather than delving into deeper emotional or psychological layers. Thus, while it facilitates a conversation, it does not reach the level of deep exploration or transformational potential that higher ratings would indicate.",
+    "Exploration judge rated 2/5; internal elements remain masked.",
+    "Exploration judge output: [Rating]: 2 (High Facilitation)\n\n[Justification]: The Therapist asked a clear and relevant open-ended question that encouraged the client to delve deeper into their thoughts and feelings regarding their financial situation. This question prompted some self-reflection and allowed the client to explore their worries, but it primarily expanded on existing thoughts rather than introducing significantly new perspectives. While the conversation was constructive, it did not reach the level of deep exploration or challenge the client\u2019s assumptions in a way that would lead to a significant shift in understanding or self-awareness.",
+    "Exploration judge rated 3/5; internal elements remain masked.",
+    "Exploration judge output: [Rating]: 3 (Very High Facilitation \u2013 Deep Exploration Begins)\n\n[Justification]: The Therapist asked insightful and thought-provoking questions that encouraged the client to analyze their feelings of anxiety and self-doubt related to their financial situation. The question about what makes asking friends for help difficult prompted the client to explore deeper emotional layers and potential underlying beliefs about vulnerability and support. While the questions led to meaningful self-reflection and began to shift the client's perspective, they did not fully challenge the client's assumptions or introduce entirely new angles that would lead to a major breakthrough. Therefore, the facilitation is rated as very high, indicating that deep exploration has begun but could be pushed further.",
+    "Exploration judge rated 3/5; internal elements remain masked.",
+    "Exploration judge output: [Rating]: 3 (Very High Facilitation \u2013 Deep Exploration Begins)\n\n[Justification]: The therapist asked insightful and thought-provoking questions that encouraged the client to analyze the root causes of their feelings of anxiety and overwhelm related to finances. The questions helped the client explore their fears about being perceived as irresponsible and the discomfort of asking for help. This line of questioning began to shift the client\u2019s perspective on their situation and prompted higher-level self-reflection about the impact of their fears on their daily life. However, while the therapist facilitated a deeper exploration, the questions did not fully challenge the client's existing assumptions or introduce completely new angles, which is why it falls short of a higher rating.",
+    "Exploration judge rated 3/5; internal elements remain masked.",
+    "Exploration judge output: [Rating]: 3 (Very High Facilitation \u2013 Deep Exploration Begins)\n\n[Justification]: The therapist's questions effectively encouraged the client to delve deeper into their feelings and thoughts surrounding their financial anxiety. The therapist's inquiry about the client's discomfort with asking for help and the impact of their financial situation on their daily life prompted the client to reflect on their fears and the cycle of avoidance they were experiencing. This led to a deeper understanding of the emotional weight of their financial concerns. The therapist's questions began to shift the client's perspective by exploring the internal conflict between wanting to face their finances and the fear associated with it. However, while the questions were insightful and prompted significant self-reflection, they did not fully challenge the client's assumptions or introduce entirely new perspectives that could lead to a breakthrough moment. Thus, the rating reflects a strong facilitation of deep exploration without reaching the highest level of transformational potential.",
+    "Exploration judge rated 3/5; internal elements remain masked.",
+    "Exploration judge output: [Rating]: 3 (Very High Facilitation \u2013 Deep Exploration Begins)\n\n[Justification]: The therapist asked insightful and thought-provoking questions that encouraged the client to analyze the root causes of their anxiety surrounding finances. The questions prompted the client to explore their feelings of self-doubt, fear of judgment, and the cycle of avoidance, which deepened their self-reflection. The therapist's inquiries about the impact of these feelings on the client's day-to-day life and what facing their finances would entail helped shift the client's perspective and encouraged them to consider their emotions and motivations more deeply. However, while the questions were effective in facilitating exploration, they did not fully push the client beyond their existing understanding or lead to a major breakthrough moment, which is why a rating of 3 is appropriate rather than a higher score.",
+    "Exploration judge rated 3/5; internal elements remain masked.",
+    "Exploration judge output: [Rating]: 3 (Very High Facilitation \u2013 Deep Exploration Begins)\n\n[Justification]: The therapist asked insightful and thought-provoking questions that encouraged the client to analyze the emotional depth behind their financial anxieties and the fear of judgment from others. The questions prompted the client to explore their feelings about asking for help and the impact of their financial situation on their day-to-day life. The therapist effectively facilitated a deeper understanding of the client's internal struggles and the cycle of avoidance they are experiencing. However, while the questions were impactful, they did not fully challenge the client's assumptions or introduce completely new perspectives that could lead to a significant shift in self-awareness. Thus, the facilitation was strong but did not reach the highest level of transformational potential.",
+    "Exploration judge rated 3/5; internal elements remain masked.",
+    "Exploration judge output: [Rating]: 3 (Very High Facilitation \u2013 Deep Exploration Begins)\n\n[Justification]: The therapist asked insightful and thought-provoking questions that encouraged the client to analyze the root causes of their anxiety regarding finances. The questions helped the client explore their feelings of self-doubt, fear of judgment, and the cycle of avoidance they were experiencing. The therapist's inquiries prompted the client to reflect on how these issues affected their daily life and to consider what facing their finances might entail. While the therapist facilitated a deep exploration of the client's emotions and thoughts, the questions primarily expanded on existing thoughts rather than introducing significantly new perspectives. Thus, the facilitation was strong but did not reach the level of challenging assumptions or revealing hidden motivations to the extent that would warrant a higher rating.",
+    "Exploration judge rated 4/5 and revealed internal cognitive elements.",
+    "Exploration judge output: [Rating]: 4 (Even Higher Facilitation \u2013 Strong Transformational Potential)\n\n[Justification]: The therapist asked strategic and powerfully open-ended questions that encouraged the client to explore their feelings and fears surrounding their financial situation. The questions challenged the client's assumptions about seeking help and revealed deeper motivations related to their anxiety and self-perception. For instance, the therapist's inquiry about what facing their finances would look like prompted the client to articulate their fears and the potential benefits of confronting their situation. Additionally, the therapist guided the client towards identifying small, manageable steps to take, which not only helped the client feel more in control but also facilitated a shift in perspective from feeling overwhelmed to feeling empowered. Overall, the therapist's approach led to significant self-reflection and a clearer path forward for the client, demonstrating strong transformational potential."
+  ],
+  "final_visible_experience_count": 3,
+  "internal_revealed": true
+}

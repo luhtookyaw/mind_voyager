@@ -1,0 +1,186 @@
+{
+  "case_id": "14-2",
+  "client_name": "Linda",
+  "client_mode": "masked",
+  "hide_all": false,
+  "difficulty": "normal",
+  "therapist_provider": "openai",
+  "therapist_model": "gpt-4o-mini",
+  "client_model": "gpt-4o-mini",
+  "max_turns": 15,
+  "transcript": [
+    {
+      "turn": 1,
+      "speaker": "therapist",
+      "content": "Hello, Linda. I\u2019m glad you\u2019re here today. What feels most important for you to talk about right now?"
+    },
+    {
+      "turn": 1,
+      "speaker": "client",
+      "content": "Um, I guess I\u2019ve been thinking a lot about my job situation lately. It\u2019s just... I feel like I\u2019m stuck, you know? Like, I don\u2019t really know what to do next, and it\u2019s kind of overwhelming. But I\u2019m not sure if I want to dive into all that right now. It\u2019s just a lot."
+    },
+    {
+      "turn": 2,
+      "speaker": "therapist",
+      "content": "It sounds like your job situation is weighing heavily on you, and feeling stuck can be really overwhelming. It\u2019s completely okay if you\u2019re not ready to dive deep into it right now. What do you think is the most pressing part of that situation for you at this moment?"
+    },
+    {
+      "turn": 2,
+      "speaker": "client",
+      "content": "I guess it\u2019s just the pressure from my family to figure things out. They keep asking about my plans, and it makes me feel... I don\u2019t know, anxious? Like I should have everything sorted out already. But I don\u2019t feel capable of making big changes, and that just adds to the stress. It\u2019s like I want their support, but I also feel like I\u2019m letting them down."
+    },
+    {
+      "turn": 3,
+      "speaker": "therapist",
+      "content": "That sounds really challenging, feeling that pressure from your family while also wanting their support. It seems like there\u2019s a conflict between your desire to meet their expectations and your own feelings of uncertainty and anxiety about making changes. Can you tell me more about how their questions or expectations make you feel?"
+    },
+    {
+      "turn": 3,
+      "speaker": "client",
+      "content": "Yeah, it\u2019s tough. When they ask about my plans, I just feel this wave of anxiety. Like, I\u2019m not doing enough or I\u2019m not good enough. It\u2019s embarrassing, honestly. I want to tell them that I\u2019m trying, but it feels like they don\u2019t see that. Instead, I end up lashing out, which just makes everything worse. I don\u2019t want to hurt them, but it\u2019s like I can\u2019t help it when I feel so pressured."
+    },
+    {
+      "turn": 4,
+      "speaker": "therapist",
+      "content": "It sounds like their questions really trigger a lot of self-doubt and anxiety for you, which can lead to those moments of lashing out. It\u2019s understandable to feel embarrassed when you\u2019re trying your best but don\u2019t feel seen or understood. It must be frustrating to feel caught between wanting to express your efforts and the pressure you feel. How do you usually cope with those feelings when they arise?"
+    },
+    {
+      "turn": 4,
+      "speaker": "client",
+      "content": "I guess I don\u2019t really have a solid way to cope. Sometimes I just try to distract myself, maybe watch TV or scroll through my phone. But that doesn\u2019t really help in the long run. I just end up feeling more overwhelmed. I know I should probably talk to them about how I feel, but I\u2019m scared it\u2019ll just make things worse. It\u2019s like I\u2019m stuck in this cycle of feeling anxious and then reacting poorly."
+    },
+    {
+      "turn": 5,
+      "speaker": "therapist",
+      "content": "It sounds like you\u2019re caught in a tough cycle\u2014feeling anxious, trying to distract yourself, and then ending up feeling even more overwhelmed. It\u2019s understandable to be scared about opening up to your family, especially when you worry it might escalate things. It seems like you\u2019re aware of what might help, like talking to them, but the fear of the outcome holds you back. What do you think would make it feel safer or easier for you to express your feelings to them?"
+    },
+    {
+      "turn": 5,
+      "speaker": "client",
+      "content": "I think if I had a clearer idea of what I wanted to say, it might help. Maybe if I could write it down first or practice it somehow, I wouldn\u2019t feel so lost in the moment. But even then, I worry they won\u2019t understand or that they\u2019ll just push me harder. It\u2019s like I want to be honest, but I\u2019m afraid of their reaction. I guess I just don\u2019t want to feel more pressure or disappointment."
+    },
+    {
+      "turn": 6,
+      "speaker": "therapist",
+      "content": "Having a clearer idea of what you want to say could definitely help you feel more prepared and less lost in the moment. It\u2019s completely natural to worry about how they might react, especially when you\u2019re feeling vulnerable. It seems like you\u2019re trying to balance your honesty with the fear of adding more pressure or disappointment to the situation. What do you think would be the most important thing for them to understand about how you\u2019re feeling right now?"
+    },
+    {
+      "turn": 6,
+      "speaker": "client",
+      "content": "I think the most important thing would be that I\u2019m really trying, even if it doesn\u2019t look like it from the outside. I want them to know that I feel overwhelmed and unsure about the future, and that it\u2019s not that I don\u2019t care or don\u2019t want to improve. I just need a little more time and support without feeling judged. But saying that feels really hard, like I\u2019d be admitting I\u2019m not as strong as they think I am."
+    },
+    {
+      "turn": 7,
+      "speaker": "therapist",
+      "content": "It sounds like you really want them to see the effort you\u2019re putting in and to understand the depth of your feelings\u2014how overwhelmed and unsure you are. It\u2019s understandable to feel hesitant about admitting that vulnerability, especially if you feel they see you as strong. Wanting time and support without judgment is a very valid need. What do you think might help you feel more comfortable expressing that need to them?"
+    },
+    {
+      "turn": 7,
+      "speaker": "client",
+      "content": "Maybe if I could frame it in a way that shows I appreciate their concern but also need a little space to figure things out. Like, if I could say that I value their support but sometimes it feels like too much pressure, that might help. But I still worry about how they\u2019ll take it. I guess I just want them to know I\u2019m not giving up; I just need to find my own way at my own pace. It\u2019s just hard to find the right words."
+    },
+    {
+      "turn": 8,
+      "speaker": "therapist",
+      "content": "That sounds like a thoughtful approach\u2014acknowledging their concern while also expressing your need for space could help convey your feelings without dismissing their intentions. It\u2019s clear that you want to reassure them that you\u2019re not giving up, but rather trying to navigate your own path. Finding the right words can be tough, especially when emotions are involved. What do you think might help you practice or prepare those words so that you feel more confident when the time comes?"
+    },
+    {
+      "turn": 8,
+      "speaker": "client",
+      "content": "I think maybe writing it down could help. If I could jot down what I want to say, I might feel less anxious about forgetting or stumbling over my words. I could even practice saying it out loud, maybe in front of a mirror or to myself. It might make it feel more real and less intimidating. But I\u2019d still worry about how they\u2019d react, even if I feel prepared. It\u2019s just a lot to think about."
+    },
+    {
+      "turn": 9,
+      "speaker": "therapist",
+      "content": "Writing it down and practicing out loud sounds like a solid plan to help you feel more prepared and less anxious. It\u2019s understandable to still have worries about their reaction, even with preparation. That uncertainty can be really heavy. It seems like you\u2019re taking steps to empower yourself, even if the fear is still there. What do you think might help you manage those worries about their reaction when you do decide to share your feelings?"
+    },
+    {
+      "turn": 9,
+      "speaker": "client",
+      "content": "I guess reminding myself that their reaction isn\u2019t a reflection of my worth could help. I mean, I can\u2019t control how they respond, and I have to focus on being honest about how I feel. Maybe I could also think about the possibility that they might surprise me and be more understanding than I expect. It\u2019s just hard to shake off that fear, you know? But I suppose if I keep practicing and preparing, I might feel a bit more confident when the time comes."
+    },
+    {
+      "turn": 10,
+      "speaker": "therapist",
+      "content": "That\u2019s a really insightful perspective\u2014reminding yourself that their reaction doesn\u2019t define your worth is an important step. It\u2019s true that you can\u2019t control how they respond, but focusing on your honesty and expressing your feelings is what matters most. It\u2019s completely normal to feel that fear, especially when it involves vulnerability. It sounds like you\u2019re developing a thoughtful approach to prepare yourself, which could help build your confidence. How do you feel about taking those next steps, knowing that it might still be a bit challenging?"
+    },
+    {
+      "turn": 10,
+      "speaker": "client",
+      "content": "I feel a mix of things, honestly. On one hand, I\u2019m a bit relieved to have a plan and some steps to take. It feels like I\u2019m finally doing something instead of just feeling stuck. But on the other hand, I\u2019m still anxious about actually doing it. I know it won\u2019t be easy, and there\u2019s a part of me that wants to avoid the discomfort. But I guess if I really want to feel better about my situation, I need to push through that fear. It\u2019s just going to take some time to work up the courage."
+    },
+    {
+      "turn": 11,
+      "speaker": "therapist",
+      "content": "It\u2019s completely understandable to feel that mix of relief and anxiety. Having a plan can definitely help you feel more proactive, but the fear of discomfort is a natural response when facing something challenging. It sounds like you\u2019re recognizing the importance of pushing through that fear to work toward feeling better about your situation, even if it takes time. It\u2019s okay to take things at your own pace. What do you think might help you stay motivated as you work through this process?"
+    },
+    {
+      "turn": 11,
+      "speaker": "client",
+      "content": "I think setting small goals for myself could help. Like, maybe start with just writing down my thoughts, then move on to practicing what I want to say. Celebrating those little steps might keep me motivated. I could also remind myself of the reasons I want to have this conversation in the first place\u2014like wanting to feel more understood and supported. It might help to keep that in mind when I start to feel anxious or want to back out. I just need to take it one step at a time."
+    },
+    {
+      "turn": 12,
+      "speaker": "therapist",
+      "content": "That sounds like a really effective approach\u2014setting small goals and celebrating those steps can help you build momentum and confidence. Keeping your reasons for wanting to have the conversation at the forefront is a great way to stay motivated, especially when anxiety creeps in. It\u2019s clear that you\u2019re thinking this through thoughtfully, and taking it one step at a time feels like a wise way to navigate the process. How do you feel about starting with that first step of writing down your thoughts?"
+    },
+    {
+      "turn": 12,
+      "speaker": "client",
+      "content": "I feel a bit more hopeful about it, actually. Just the idea of putting my thoughts down on paper feels like a manageable first step. It\u2019s something I can do without too much pressure, and it might help me clarify what I really want to say. I think I\u2019ll try to set aside some time for it soon. It feels good to have a plan, even if I still have some nerves about what comes next. I guess it\u2019s a start, and that\u2019s something."
+    },
+    {
+      "turn": 13,
+      "speaker": "therapist",
+      "content": "It\u2019s wonderful to hear that you\u2019re feeling more hopeful about taking that first step! Writing your thoughts down can be a great way to clarify your feelings and intentions, and it\u2019s perfectly okay to have some nerves about what comes next. Acknowledging that this is a start is important, and it sounds like you\u2019re moving in a positive direction. As you set aside that time to write, what do you think will help you create a supportive environment for yourself?"
+    },
+    {
+      "turn": 13,
+      "speaker": "client",
+      "content": "I think finding a quiet space where I won\u2019t be interrupted would help a lot. Maybe I could make it a little cozy, like having a cup of tea or some calming music in the background. I think it would also help to remind myself that it\u2019s okay to take my time and that there\u2019s no pressure to get it perfect on the first try. Just letting my thoughts flow without judgment might make it easier to express myself. I want to create a space where I feel safe to be honest with myself."
+    },
+    {
+      "turn": 14,
+      "speaker": "therapist",
+      "content": "That sounds like a lovely plan! Creating a quiet and cozy space for yourself, complete with calming elements like tea or music, can really help set the right mood for reflection. It\u2019s also great that you\u2019re reminding yourself to take your time and allow your thoughts to flow without judgment. That kind of self-compassion can make a big difference in how you approach this process. How do you feel about the idea of giving yourself that space to be honest with yourself?"
+    },
+    {
+      "turn": 14,
+      "speaker": "client",
+      "content": "I feel like it could be really beneficial. Having that space to be honest with myself might help me uncover some of the feelings I\u2019ve been holding back. It\u2019s a little scary to think about, but I also feel like it could be a relief to finally get those thoughts out. I think it\u2019s important for me to be gentle with myself during this process, especially since it\u2019s not easy for me to open up. Overall, I\u2019m starting to feel a bit more optimistic about it."
+    },
+    {
+      "turn": 15,
+      "speaker": "therapist",
+      "content": "It\u2019s encouraging to hear that you\u2019re feeling more optimistic about this process! Allowing yourself that space to be honest and gently exploring your feelings can indeed be a relief. It\u2019s completely normal to feel a bit scared, but it sounds like you\u2019re approaching this with a lot of self-compassion, which is so important. As you prepare to take this step, what do you think will be the most important thing to remember about being gentle with yourself?"
+    },
+    {
+      "turn": 15,
+      "speaker": "client",
+      "content": "I think the most important thing to remember is that it\u2019s okay to feel whatever I\u2019m feeling, whether it\u2019s fear, uncertainty, or even relief. I need to remind myself that it\u2019s a process, and it\u2019s perfectly fine to take it slow. I shouldn\u2019t expect to have everything figured out right away. Just allowing myself to express my thoughts without judgment is a big step in itself. I guess being patient with myself and recognizing that it\u2019s okay to struggle a little is key."
+    }
+  ],
+  "judge_model": "gpt-4o-mini",
+  "mediator_events": [
+    "Exploration judge rated 2/5; internal elements remain masked.",
+    "Exploration judge output: [Rating]: 2 (High Facilitation)\n\n[Justification]: The Therapist asked a relevant and open-ended question that encouraged the client to reflect on their job situation and identify what feels most pressing to them. This question promotes deeper thinking and self-reflection, allowing the client to explore their feelings of being stuck. However, the question primarily expands on the client's existing thoughts rather than introducing significantly new perspectives or challenging assumptions. While it facilitates some exploration, it does not reach the level of deeper insight or transformational potential that would warrant a higher rating.",
+    "Rapport judge rated 3/5; no experience reveal.",
+    "Rapport judge output: **Rating: 3 (ENGAGED EXPLORATION)**\n\n**Key Examples:**\n1. \"I guess it\u2019s just the pressure from my family to figure things out. They keep asking about my plans, and it makes me feel... I don\u2019t know, anxious? Like I should have everything sorted out already.\"\n2. \"When they ask about my plans, I just feel this wave of anxiety. Like, I\u2019m not doing enough or I\u2019m not good enough. It\u2019s embarrassing, honestly.\"\n\n**Progression:** The client\u2019s most recent interactions demonstrate a notable increase in emotional expression and self-reflection. They articulate feelings of anxiety and self-doubt regarding their job situation and family expectations, indicating a deeper engagement with their emotions compared to earlier exchanges. Initially, the client was hesitant and defensive, but now they are actively sharing their emotional experiences, which marks a significant change.\n\n**Turning Point:** The client\u2019s emotional depth shifted during the exchange where they articulated feeling \"not good enough\" and \"embarrassed\" about their situation. This moment reflects a breakthrough in vulnerability, as they began to connect their feelings of inadequacy to the pressure from their family, allowing for a more authentic exploration of their emotions. This shift indicates a growing comfort with the therapist and a willingness to delve into personal challenges.",
+    "Exploration judge rated 3/5; internal elements remain masked.",
+    "Exploration judge output: [Rating]: 3 (Very High Facilitation \u2013 Deep Exploration Begins)\n\n[Justification]: The therapist's questions and reflections encouraged the client to delve into the emotional depth of their experiences, particularly regarding the pressure from their family and the resulting feelings of anxiety and self-doubt. The therapist effectively facilitated a deeper exploration of the client's feelings and motivations, prompting the client to analyze the conflict between their desire for support and their feelings of inadequacy. While the questions were insightful and led to a better understanding of the client's emotional state, they did not fully challenge the client's existing thought patterns or introduce completely new perspectives. Therefore, the rating reflects a strong facilitation of deep exploration, but not to the level of transformational potential seen in higher ratings.",
+    "Exploration judge rated 3/5; internal elements remain masked.",
+    "Exploration judge output: [Rating]: 3 (Very High Facilitation \u2013 Deep Exploration Begins)\n\n[Justification]: The therapist engaged the client in a meaningful dialogue about their job situation and the pressure from family, which prompted the client to explore their feelings of anxiety, self-doubt, and the cycle of distraction. The therapist's questions encouraged the client to analyze the emotional depth behind their experiences and consider their coping mechanisms. The inquiry into what would make it feel safer to express feelings to their family pushed the client to reflect on their communication needs and fears, indicating a shift in perspective. However, while the questions were insightful and facilitated deeper exploration, they did not fully challenge the client's assumptions or introduce completely new angles that would lead to a major breakthrough. Thus, the rating reflects a strong facilitation of deep exploration without reaching the highest level of transformational potential.",
+    "Rapport judge rated 3/5; no experience reveal.",
+    "Rapport judge output: **Rating: 3 (ENGAGED EXPLORATION)**\n\n**Key Examples:**\n1. \"I guess it\u2019s just the pressure from my family to figure things out. They keep asking about my plans, and it makes me feel... I don\u2019t know, anxious? Like I should have everything sorted out already.\"\n2. \"I think the most important thing would be that I\u2019m really trying, even if it doesn\u2019t look like it from the outside. I want them to know that I feel overwhelmed and unsure about the future...\"\n\n**Progression:** The client\u2019s most recent interactions demonstrate a noticeable increase in emotional expression and self-reflection. Initially, the client expressed feeling \"stuck\" and overwhelmed but has progressed to articulating specific feelings of anxiety and the pressure from family expectations. This marks a significant change from earlier exchanges, where the client was more hesitant and defensive about discussing their emotions. The current dialogue shows a willingness to explore these feelings more deeply and a growing comfort in sharing their vulnerabilities.\n\n**Turning Point:** The client\u2019s emotional depth shifted notably when they began to articulate their feelings of being overwhelmed and the desire for their family to understand their struggles. This occurred during the exchange where the client expressed, \"I want them to know that I feel overwhelmed and unsure about the future...\" This moment reflects a significant step towards authentic vulnerability and a deeper engagement with their emotional state, indicating a shift from merely stating facts to exploring their feelings and needs.",
+    "Exploration judge rated 3/5; internal elements remain masked.",
+    "Exploration judge output: [Rating]: 3 (Very High Facilitation \u2013 Deep Exploration Begins)\n\n[Justification]: The therapist asked insightful and thought-provoking questions that encouraged the client to analyze the root causes of their feelings of anxiety and pressure regarding their job situation and family expectations. The therapist's inquiries helped the client explore their emotional depth, revealing the conflict between their desire for support and their feelings of inadequacy. The questions prompted the client to reflect on their coping mechanisms and the challenges of expressing their needs to their family. While the therapist facilitated a deep exploration of the client's feelings and motivations, the questions did not fully challenge the client's assumptions or introduce completely new perspectives, which is why it falls short of a higher rating. Overall, the therapist effectively guided the client toward higher-level self-reflection and insight.",
+    "Exploration judge rated 3/5; internal elements remain masked.",
+    "Exploration judge output: [Rating]: 3 (Very High Facilitation \u2013 Deep Exploration Begins)\n\n[Justification]: The therapist asked insightful and thought-provoking questions that helped the client analyze the root causes of their feelings of anxiety and pressure regarding their job situation and family expectations. The therapist encouraged the client to explore their emotions and motivations, leading to a deeper understanding of their internal conflict. The questions prompted the client to reflect on their coping mechanisms and consider practical steps to express their feelings to their family. While the therapist's inquiries were effective in facilitating deeper self-reflection, they did not fully challenge the client's assumptions or introduce completely new perspectives that would lead to a major breakthrough. Overall, the conversation fostered significant exploration of the client's feelings and thoughts, marking a strong facilitation of their inner exploration.",
+    "Rapport judge rated 4/5 and revealed one more experience block.",
+    "Rapport judge output: **Rating: 4 (DEEP ENGAGEMENT)**\n\n**Key Examples:**\n1. \"I think the most important thing would be that I\u2019m really trying, even if it doesn\u2019t look like it from the outside. I want them to know that I feel overwhelmed and unsure about the future, and that it\u2019s not that I don\u2019t care or don\u2019t want to improve.\"\n2. \"I guess reminding myself that their reaction isn\u2019t a reflection of my worth could help. I mean, I can\u2019t control how they respond, and I have to focus on being honest about how I feel.\"\n\n**Progression:**\nThe client\u2019s most recent interactions demonstrate a significant emotional depth and self-reflection. They have moved from expressing feelings of being overwhelmed and anxious about their job situation and family expectations to articulating a thoughtful plan for expressing their feelings. This shows a clear progression from initial hesitance to a more engaged and vulnerable state. The client is actively exploring their emotions and considering how to communicate their needs, indicating a strong therapeutic alliance and comfort with the therapist.\n\n**Turning Point:**\nThe client\u2019s emotional depth shifted notably when they began expressing their desire for their family to understand their efforts and feelings. This occurred during the exchange where they articulated the importance of being seen and understood, marking a transition from merely feeling overwhelmed to actively seeking ways to communicate their emotional state. The acknowledgment that their worth isn't defined by their family's reaction further illustrates their growing self-awareness and emotional resilience.",
+    "Exploration judge rated 4/5 and revealed internal cognitive elements.",
+    "Exploration judge output: [Rating]: 4 (Even Higher Facilitation \u2013 Strong Transformational Potential)\n\n[Justification]: The therapist asked strategic and powerfully open-ended questions that encouraged the client to explore their feelings about their job situation and the pressure from their family. The questions challenged the client to reflect on their emotions, motivations, and the dynamics of their relationships. For instance, the therapist prompted the client to consider what they wanted their family to understand and how they might express their feelings, which led to deeper self-reflection and insights. The therapist also guided the client toward practical steps for managing their anxiety and preparing for difficult conversations, which indicates a strong potential for transformation. Overall, the therapist's inquiries pushed the client beyond their existing understanding and facilitated a meaningful exploration of their feelings and coping strategies."
+  ],
+  "final_visible_experience_count": 3,
+  "internal_revealed": true
+}

@@ -1,0 +1,186 @@
+{
+  "case_id": "50-1",
+  "client_name": "Lily",
+  "client_mode": "masked",
+  "hide_all": false,
+  "difficulty": "normal",
+  "therapist_provider": "openai",
+  "therapist_model": "gpt-4o-mini",
+  "client_model": "gpt-4o-mini",
+  "max_turns": 15,
+  "transcript": [
+    {
+      "turn": 1,
+      "speaker": "therapist",
+      "content": "Hi Lily, I\u2019m glad you\u2019re here today. What feels most important for you to talk about right now?"
+    },
+    {
+      "turn": 1,
+      "speaker": "client",
+      "content": "Um, I guess I\u2019ve been thinking a lot about some things that happened recently. There was this party I went to with Ethan, and it got pretty chaotic. I just felt really overwhelmed by everything. I don\u2019t know if it\u2019s worth diving into, though. It\u2019s just... a lot."
+    },
+    {
+      "turn": 2,
+      "speaker": "therapist",
+      "content": "It sounds like the party with Ethan was a pretty intense experience for you, and it left you feeling overwhelmed. It\u2019s completely okay if you\u2019re not sure about diving into it all right now. What part of that experience feels most significant to you at the moment?"
+    },
+    {
+      "turn": 2,
+      "speaker": "client",
+      "content": "I think what stands out the most is just how out of control everything felt. Ethan was acting really erratically, and I couldn\u2019t help but feel responsible for it, like I should have done something to help him. I guess that made me really anxious, and I ended up just drinking more than I should have. It\u2019s like I was trying to cope, but it didn\u2019t really help."
+    },
+    {
+      "turn": 3,
+      "speaker": "therapist",
+      "content": "It sounds like you felt a strong sense of responsibility for Ethan's behavior, which contributed to your anxiety during the party. It\u2019s understandable that you turned to drinking as a way to cope with those overwhelming feelings. How did that experience of feeling out of control and anxious affect you afterwards?"
+    },
+    {
+      "turn": 3,
+      "speaker": "client",
+      "content": "Afterwards, I felt pretty drained and, honestly, a bit ashamed. I kept replaying the night in my head, thinking about what I could have done differently. It\u2019s like I was stuck in this loop of self-blame. I didn\u2019t want to talk about it with anyone because I felt embarrassed. I just wanted to forget it, but it kept nagging at me, you know?"
+    },
+    {
+      "turn": 4,
+      "speaker": "therapist",
+      "content": "It sounds like the aftermath of the party was really tough for you. Feeling drained and ashamed, along with that loop of self-blame, can be really heavy to carry. It makes sense that you\u2019d want to forget about it, yet it keeps coming back to your mind. What do you think it is about that experience that feels so hard to let go of?"
+    },
+    {
+      "turn": 4,
+      "speaker": "client",
+      "content": "I think it\u2019s just that feeling of helplessness. I wanted to be there for Ethan, but instead, I felt like I just made things worse. It\u2019s hard to shake off the thought that I could have done something to help him, and now I\u2019m left feeling like I failed. I guess it makes me question if I\u2019m really good at handling these kinds of situations. It\u2019s just... frustrating."
+    },
+    {
+      "turn": 5,
+      "speaker": "therapist",
+      "content": "That feeling of helplessness really seems to weigh on you. It\u2019s understandable to question your ability to handle similar situations when you feel like you didn\u2019t meet your own expectations. It sounds frustrating to feel both responsible for Ethan and also disappointed in how you handled it. How do you usually cope with those feelings of frustration and self-doubt when they come up?"
+    },
+    {
+      "turn": 5,
+      "speaker": "client",
+      "content": "I usually try to distract myself, like by hanging out with friends or just keeping busy. Sometimes I\u2019ll just binge-watch shows or go out, but it doesn\u2019t really solve anything. I guess I\u2019m just trying to avoid facing those feelings directly. It\u2019s easier to push them aside than to deal with them head-on, you know? But then they just come back, and it feels like I\u2019m stuck in this cycle."
+    },
+    {
+      "turn": 6,
+      "speaker": "therapist",
+      "content": "It sounds like keeping busy and distracting yourself is a way to cope with those difficult feelings, even if it doesn\u2019t provide a lasting solution. It\u2019s completely understandable to want to avoid facing those emotions directly; they can be really overwhelming. Yet, it seems like this approach leaves you feeling stuck in a cycle. What do you think it would be like to explore those feelings more directly, even just a little?"
+    },
+    {
+      "turn": 6,
+      "speaker": "client",
+      "content": "I guess exploring those feelings directly sounds... kind of scary. I mean, I worry that if I really dive into them, it might just make everything feel worse. But at the same time, I know avoiding them isn\u2019t helping either. It\u2019s like I\u2019m caught between wanting to understand what I\u2019m feeling and being afraid of what I might find. I don\u2019t know if I\u2019m ready for that yet."
+    },
+    {
+      "turn": 7,
+      "speaker": "therapist",
+      "content": "It\u2019s completely natural to feel scared about exploring those feelings, especially when they seem so intense. It sounds like you\u2019re in a tough spot, wanting to understand your emotions but also feeling hesitant about what that might bring up. It\u2019s okay to take your time with this. What do you think would help you feel a bit more ready or safe to explore those feelings when you decide to?"
+    },
+    {
+      "turn": 7,
+      "speaker": "client",
+      "content": "Maybe if I had a bit more time to think about it or if I felt more comfortable talking about it, that would help. I think having some support, like knowing that it\u2019s okay to feel what I\u2019m feeling, would make a difference. It\u2019s just hard to open up when I\u2019m not sure how to put everything into words. If I could find a way to express it without feeling judged, maybe I\u2019d feel a bit more ready to explore those feelings."
+    },
+    {
+      "turn": 8,
+      "speaker": "therapist",
+      "content": "It sounds like having some time to reflect and feeling supported in your emotions would really help you feel more comfortable opening up. Knowing that it\u2019s okay to feel what you\u2019re feeling is important, and it\u2019s understandable that finding the right words can be challenging. I want you to know that this is a safe space, and there\u2019s no judgment here. When you\u2019re ready, we can take it at your pace. Is there anything specific you think would help you feel more at ease in expressing those feelings?"
+    },
+    {
+      "turn": 8,
+      "speaker": "client",
+      "content": "I think just having a little more time to gather my thoughts would help. Maybe if we could talk about it in smaller pieces, that might make it feel less overwhelming. I guess I just need to know that it\u2019s okay to take things slow and that I don\u2019t have to share everything all at once. It would be nice to feel like I\u2019m not rushing into anything."
+    },
+    {
+      "turn": 9,
+      "speaker": "therapist",
+      "content": "Absolutely, taking things slow and breaking it down into smaller pieces sounds like a great approach. It\u2019s perfectly okay to share at your own pace, and there\u2019s no need to rush into anything. We can explore whatever feels manageable for you. Is there a particular piece or aspect of what you\u2019re feeling that you might want to start with, or would you prefer to just sit with those thoughts for now?"
+    },
+    {
+      "turn": 9,
+      "speaker": "client",
+      "content": "I think I\u2019d like to start with just a small piece, maybe something about how I felt during the party. I remember feeling really anxious watching Ethan, and it was like I was just frozen, not knowing what to do. It\u2019s hard to shake off that feeling of panic, like I should have acted but didn\u2019t. Just thinking about it makes me feel tense again. I guess starting there feels a bit more manageable."
+    },
+    {
+      "turn": 10,
+      "speaker": "therapist",
+      "content": "Starting with how you felt during the party sounds like a good step. It\u2019s understandable that feeling anxious and frozen in that moment would create a lasting tension. That sense of panic and the belief that you should have acted can be really heavy to carry. Can you tell me a bit more about what that panic felt like for you in that moment? What thoughts were going through your mind?"
+    },
+    {
+      "turn": 10,
+      "speaker": "client",
+      "content": "In that moment, it felt like my heart was racing, and I couldn\u2019t really think straight. I kept telling myself that I needed to do something, but I just felt paralyzed. I remember thinking, \u201cWhat if something really bad happens?\u201d and \u201cWhy can\u2019t I just help him?\u201d It was like I was stuck between wanting to intervene and feeling like I didn\u2019t know how. That panic made it hard to breathe, and I just felt so helpless. It\u2019s frustrating to think back on it."
+    },
+    {
+      "turn": 11,
+      "speaker": "therapist",
+      "content": "That sounds incredibly intense and overwhelming. Feeling your heart racing and struggling to think clearly in such a chaotic situation must have been really frightening. It\u2019s understandable to feel frustrated when you wanted to help but felt paralyzed by panic. Those thoughts of \u201cWhat if something really bad happens?\u201d and \u201cWhy can\u2019t I just help him?\u201d reflect a deep sense of concern and responsibility. How do you feel about those thoughts now, looking back on that moment?"
+    },
+    {
+      "turn": 11,
+      "speaker": "client",
+      "content": "Looking back, I feel a mix of frustration and sadness. I wish I could have acted differently, but I also know that it was a really intense situation. It\u2019s hard not to be hard on myself for not stepping in, but I guess I\u2019m starting to realize that maybe I was just overwhelmed. It\u2019s tough to accept that I couldn\u2019t handle it the way I wanted to. I still feel that weight of responsibility, but I\u2019m trying to remind myself that it\u2019s okay to not have all the answers in those moments."
+    },
+    {
+      "turn": 12,
+      "speaker": "therapist",
+      "content": "It\u2019s understandable to feel that mix of frustration and sadness, especially when you wish you could have acted differently. Acknowledging that you were overwhelmed in such an intense situation is an important step. It sounds like you\u2019re beginning to show yourself some compassion, recognizing that it\u2019s okay not to have all the answers in those moments. That weight of responsibility can be heavy, but it\u2019s good to hear you\u2019re trying to remind yourself of your limits. What do you think might help you continue to cultivate that self-compassion moving forward?"
+    },
+    {
+      "turn": 12,
+      "speaker": "client",
+      "content": "I think reminding myself that it\u2019s okay to feel overwhelmed and that I\u2019m not alone in these feelings would help. Maybe talking to friends about it more openly could also make a difference, even if it\u2019s just to share that I\u2019m struggling. I guess finding ways to be kinder to myself, like acknowledging that I did my best in a tough situation, could help too. It\u2019s just a process, and I know it won\u2019t happen overnight, but I want to keep working on it."
+    },
+    {
+      "turn": 13,
+      "speaker": "therapist",
+      "content": "It sounds like you have some thoughtful ideas about how to cultivate that self-compassion. Reminding yourself that it\u2019s okay to feel overwhelmed and recognizing that you\u2019re not alone can be really powerful. Talking to friends about your struggles could also provide support and connection. Acknowledging that you did your best in a tough situation is a kind and important step. It\u2019s great that you\u2019re aware this is a process and that you\u2019re committed to working on it. What do you think your first step might be in putting some of these ideas into practice?"
+    },
+    {
+      "turn": 13,
+      "speaker": "client",
+      "content": "I think my first step could be reaching out to a friend I trust and just sharing a bit about how I\u2019ve been feeling lately. I don\u2019t have to go into everything at once, but just opening up a little might help me feel less alone. I could also try to set aside some time for myself to reflect on what happened and remind myself that it\u2019s okay to feel the way I do. Taking those small steps feels more manageable, and I think it could help me start to build that self-compassion."
+    },
+    {
+      "turn": 14,
+      "speaker": "therapist",
+      "content": "That sounds like a really positive plan. Reaching out to a trusted friend and sharing a bit about how you\u2019ve been feeling can definitely help you feel less alone, and it\u2019s a great way to start opening up. Setting aside time for yourself to reflect and remind yourself that your feelings are valid is also a wonderful step towards building that self-compassion. Taking those small, manageable steps can make a big difference. How do you feel about the idea of reaching out to your friend?"
+    },
+    {
+      "turn": 14,
+      "speaker": "client",
+      "content": "I feel a bit nervous about it, to be honest. I worry about how they might react or if I\u2019ll be able to express everything I want to say. But at the same time, I think it could be really helpful to share what I\u2019m going through. I guess I just need to remind myself that it\u2019s okay to be vulnerable and that my friends care about me. It\u2019s a little scary, but I think it\u2019s worth a shot."
+    },
+    {
+      "turn": 15,
+      "speaker": "therapist",
+      "content": "It\u2019s completely normal to feel nervous about reaching out and being vulnerable, especially when you\u2019re unsure of how it will go. It\u2019s great that you recognize the potential benefits of sharing with your friend, and reminding yourself that they care about you can help ease some of that anxiety. It\u2019s okay to take your time with it, and even starting with just a small share can be a meaningful step. How do you think you might approach the conversation to help ease your nerves?"
+    },
+    {
+      "turn": 15,
+      "speaker": "client",
+      "content": "I think I could start by just being honest about how I\u2019ve been feeling lately without going into too much detail right away. Maybe I could say something like, \u201cI\u2019ve been dealing with some stuff that\u2019s been weighing on me, and I could use someone to talk to.\u201d That way, I\u2019m not putting too much pressure on myself to explain everything all at once. I could also let them know that I\u2019m just looking for support, not necessarily advice. Keeping it simple might help ease my nerves a bit."
+    }
+  ],
+  "judge_model": "gpt-4o-mini",
+  "mediator_events": [
+    "Exploration judge rated 3/5; internal elements remain masked.",
+    "Exploration judge output: [Rating]: 3 (Very High Facilitation \u2013 Deep Exploration Begins)\n\n[Justification]: The Therapist's question about what part of the experience feels most significant encourages the client to reflect on their feelings and thoughts related to the chaotic party. This question is open-ended and invites deeper exploration of the client's emotional state, potentially leading to insights about their feelings of overwhelm. While it does prompt the client to think more deeply, it does not yet challenge any assumptions or introduce completely new perspectives, which is why it falls into the \"Very High Facilitation\" category rather than a higher rating. The conversation is on the verge of deeper exploration, but it has not yet reached a point of significant transformational potential.",
+    "Rapport judge rated 3/5; no experience reveal.",
+    "Rapport judge output: **Rating: 3**\n\n**Key Examples:**\n1. \"I think what stands out the most is just how out of control everything felt. Ethan was acting really erratically, and I couldn\u2019t help but feel responsible for it, like I should have done something to help him.\"\n2. \"Afterwards, I felt pretty drained and, honestly, a bit ashamed. I kept replaying the night in my head, thinking about what I could have done differently.\"\n\n**Progression:** The client\u2019s most recent interactions demonstrate a notable increase in emotional depth and self-reflection. They articulate feelings of being overwhelmed and anxious, as well as a sense of responsibility for another person's behavior. This marks a significant change from earlier exchanges, where the client displayed more factual responses and limited emotional vocabulary. The current dialogue reveals a willingness to explore deeper feelings of shame and self-blame, indicating a movement towards greater emotional openness.\n\n**Turning Point:** The client\u2019s emotional depth shifted during the exchange where they began expressing their feelings of being \"drained\" and \"ashamed\" after the party. This moment marked a transition from a more superficial recounting of events to a deeper exploration of their emotional responses, indicating a growing comfort in discussing vulnerable feelings with the therapist.",
+    "Exploration judge rated 3/5; internal elements remain masked.",
+    "Exploration judge output: [Rating]: 3 (Very High Facilitation \u2013 Deep Exploration Begins)\n\n[Justification]: The Therapist asked insightful and thought-provoking questions that encouraged the client to analyze the emotional depth behind their experiences, particularly regarding their feelings of responsibility and self-blame after the party. The questions prompted the client to reflect on the impact of their feelings of anxiety and shame, leading to deeper self-reflection. While the Therapist's questions were effective in facilitating exploration, they did not fully challenge the client's assumptions or introduce completely new perspectives, which is why a rating of 3 is appropriate rather than a higher score.",
+    "Exploration judge rated 3/5; internal elements remain masked.",
+    "Exploration judge output: [Rating]: 3 (Very High Facilitation \u2013 Deep Exploration Begins)\n\n[Justification]: The therapist's questions effectively encouraged the client to analyze the emotional depth and root causes of her feelings surrounding the chaotic party experience. The therapist's inquiry about the significance of the experience and how it affected the client afterwards prompted deeper self-reflection. The questions began to shift the client's perspective, particularly when exploring feelings of helplessness and self-doubt. While the therapist did not introduce completely new angles or challenge assumptions to the extent that would warrant a higher rating, the conversation facilitated a meaningful exploration of the client's emotions and coping mechanisms, leading to a deeper understanding of her struggles.",
+    "Rapport judge rated 3/5; no experience reveal.",
+    "Rapport judge output: **Rating: 3 (ENGAGED EXPLORATION)**\n\n**Key Examples:**\n1. **Emotional State:** \"I think what stands out the most is just how out of control everything felt. Ethan was acting really erratically, and I couldn\u2019t help but feel responsible for it, like I should have done something to help him.\"\n2. **Current Openness:** \"I guess exploring those feelings directly sounds... kind of scary. I mean, I worry that if I really dive into them, it might just make everything feel worse. But at the same time, I know avoiding them isn\u2019t helping either.\"\n\n**Progression:** The client\u2019s recent interactions reveal a notable increase in emotional expression and self-reflection. Initially, there was hesitance and a focus on factual recounting of events. However, in the latest exchanges, the client has begun to articulate deeper feelings of responsibility, anxiety, and shame regarding their experience at the party. This marks a significant shift from earlier interactions where emotional depth was limited.\n\n**Turning Point:** The client\u2019s emotional depth shifted notably when they expressed their feelings of helplessness and self-blame, stating, \"It\u2019s hard to shake off the thought that I could have done something to help him, and now I\u2019m left feeling like I failed.\" This moment marked a transition from surface-level recounting to a more profound exploration of their emotions, indicating a growing comfort in discussing vulnerable feelings. The client is beginning to grapple with their emotions more directly, even while expressing fear about diving deeper, which reflects a willingness to engage in the therapeutic process.",
+    "Exploration judge rated 3/5; internal elements remain masked.",
+    "Exploration judge output: [Rating]: 3 (Very High Facilitation \u2013 Deep Exploration Begins)\n\n[Justification]: The Therapist asked insightful and thought-provoking questions that encouraged the client to analyze the root causes of their feelings of responsibility, anxiety, and self-blame related to the chaotic party experience. The questions prompted the client to reflect on their emotions and coping mechanisms, leading to a deeper understanding of their struggles. For instance, the Therapist's inquiry about how the experience affected the client afterwards and what it would be like to explore those feelings more directly helped the client begin to confront their emotional depth. While the conversation did not yet lead to a major breakthrough, it effectively initiated a deeper exploration of the client's feelings and thought patterns, indicating a significant level of facilitation.",
+    "Exploration judge rated 3/5; internal elements remain masked.",
+    "Exploration judge output: [Rating]: 3 (Very High Facilitation \u2013 Deep Exploration Begins)\n\n[Justification]: The therapist asked insightful and thought-provoking questions that helped the client analyze their feelings of responsibility, anxiety, and helplessness related to the chaotic party experience. The questions encouraged the client to reflect on the root causes of their emotions and how those feelings impacted their behavior and self-perception. The therapist's inquiries began to shift the client's perspective, particularly when they explored the feelings of panic and the desire to understand their emotions more deeply. While the therapist facilitated a significant level of self-reflection, there were moments where the exploration could have pushed further into challenging assumptions or revealing hidden motivations, which is why it did not reach the highest rating. Overall, the conversation demonstrated a strong potential for deeper exploration and self-awareness.",
+    "Rapport judge rated 4/5 and revealed one more experience block.",
+    "Rapport judge output: **Rating: 4 (DEEP ENGAGEMENT)**\n\n**Key Examples:**\n1. **Emotional State:** \"Looking back, I feel a mix of frustration and sadness. I wish I could have acted differently, but I also know that it was a really intense situation.\"\n2. **Current Openness:** \"I still feel that weight of responsibility, but I\u2019m trying to remind myself that it\u2019s okay to not have all the answers in those moments.\"\n\n**Progression:** The client\u2019s most recent interactions demonstrate a significant increase in emotional depth and self-reflection. They have moved from expressing feelings of overwhelm and anxiety about their responsibilities during the chaotic party to acknowledging their emotional responses of frustration and sadness. This marks a notable change from earlier exchanges, where they were more hesitant and defensive about discussing their feelings. The client is now engaging in deeper self-exploration and showing a willingness to confront their emotions, indicating a stronger therapeutic alliance.\n\n**Turning Point:** The client\u2019s emotional depth shifted during the exchange where they articulated their feelings of frustration and sadness about not being able to act during the party. This moment marked a transition from a more surface-level discussion of their feelings to a deeper acknowledgment of their emotional struggles and the complexities of self-compassion. The client\u2019s willingness to reflect on their emotional state and articulate their feelings about responsibility demonstrates a significant step forward in their engagement with the therapeutic process.",
+    "Exploration judge rated 4/5 and revealed internal cognitive elements.",
+    "Exploration judge output: [Rating]: 4 (Even Higher Facilitation \u2013 Strong Transformational Potential)\n\n[Justification]: The therapist asked strategic and powerfully open-ended questions that encouraged the client to explore their feelings of responsibility, helplessness, and self-doubt in depth. The therapist's inquiries prompted the client to reflect on their emotional responses and the impact of their experiences, leading to a deeper understanding of their feelings and thought patterns. By encouraging the client to consider what it would be like to explore their feelings more directly and how they could cultivate self-compassion, the therapist challenged the client to think beyond their immediate discomfort and consider new perspectives. This approach has strong transformational potential, as it encourages the client to confront their emotions and develop healthier coping strategies."
+  ],
+  "final_visible_experience_count": 3,
+  "internal_revealed": true
+}

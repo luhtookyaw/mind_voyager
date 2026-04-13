@@ -1,0 +1,184 @@
+{
+  "case_id": "2-1",
+  "client_name": "Blaise",
+  "client_mode": "masked",
+  "hide_all": false,
+  "difficulty": "normal",
+  "therapist_provider": "openai",
+  "therapist_model": "gpt-4o-mini",
+  "client_model": "gpt-4o-mini",
+  "max_turns": 15,
+  "transcript": [
+    {
+      "turn": 1,
+      "speaker": "therapist",
+      "content": "Hello, Blaise. I\u2019m glad you\u2019re here today. What feels most important for you to talk about right now?"
+    },
+    {
+      "turn": 1,
+      "speaker": "client",
+      "content": "Um, I guess I\u2019m not really sure. There\u2019s just a lot going on with the wedding planning and, well, my parents have some strong opinions about the guest list. It\u2019s been... a bit stressful, I suppose. But I don\u2019t want to burden anyone with it. It\u2019s probably not that big of a deal, right?"
+    },
+    {
+      "turn": 2,
+      "speaker": "therapist",
+      "content": "It sounds like you\u2019re feeling a lot of pressure with the wedding planning, especially with your parents having strong opinions about the guest list. It\u2019s understandable to feel stressed in a situation like this. You mentioned not wanting to burden anyone\u2014can you share more about what that feels like for you?"
+    },
+    {
+      "turn": 2,
+      "speaker": "client",
+      "content": "Yeah, I mean, I just don\u2019t want to make anyone upset, you know? If I push back on their suggestions, I worry they\u2019ll get angry or disappointed. It\u2019s like, I feel this weight of needing to keep everyone happy. I guess I just... don\u2019t want to feel alone in this. But talking about it makes me feel a bit uneasy, like I shouldn\u2019t be complaining."
+    },
+    {
+      "turn": 3,
+      "speaker": "therapist",
+      "content": "It sounds like you\u2019re carrying a lot of responsibility for your parents\u2019 feelings and trying to keep everyone happy, which can be really heavy. Feeling uneasy about sharing your thoughts is completely valid, especially when you\u2019re concerned about how others might react. You mentioned not wanting to feel alone in this\u2014what do you think would help you feel more supported right now?"
+    },
+    {
+      "turn": 3,
+      "speaker": "client",
+      "content": "I think it would help if I could just be honest about what I want without worrying about their reactions. But it\u2019s hard to imagine that. I guess I wish I could talk to them about my feelings without feeling like I\u2019m going to upset them. Maybe if I could find a way to express my thoughts without causing conflict... I just don\u2019t know how to do that. It feels like a tricky balance."
+    },
+    {
+      "turn": 4,
+      "speaker": "therapist",
+      "content": "It sounds like you really want to express your own needs and desires, but you\u2019re feeling stuck between that and the fear of upsetting your parents. It\u2019s understandable to want to avoid conflict, especially with something as significant as a wedding. Finding that balance can be challenging. What do you think might be holding you back from being honest with them about your feelings?"
+    },
+    {
+      "turn": 4,
+      "speaker": "client",
+      "content": "I think it\u2019s mostly the fear of their reaction. I mean, I\u2019ve seen how they can get when things don\u2019t go their way, and I just don\u2019t want to deal with that. It\u2019s like, if I say something they don\u2019t like, it could lead to a big argument, and I really don\u2019t want that. Plus, there\u2019s this nagging thought that if I upset them, they might pull away or not support me in other ways. So, I guess I just keep quiet and go along with it. It feels safer that way, even if it\u2019s not what I really want."
+    },
+    {
+      "turn": 5,
+      "speaker": "therapist",
+      "content": "It seems like you\u2019re really caught in a tough spot, feeling that keeping quiet is the safer option, even though it doesn\u2019t align with what you truly want. The fear of their reaction and the potential for conflict is weighing heavily on you, and it makes sense that you\u2019d want to avoid that. You mentioned a concern about their support if you were to upset them\u2014can you share more about what that support looks like for you and why it feels so important?"
+    },
+    {
+      "turn": 5,
+      "speaker": "client",
+      "content": "Well, I guess their support means a lot to me, especially during such a big life event like a wedding. I\u2019ve always relied on them for guidance and encouragement, and I just want to feel like they\u2019re on my side. If they were to pull away or be upset, I\u2019d feel really alone in this. It\u2019s like I need their approval to feel okay about my choices. I don\u2019t want to lose that connection, but at the same time, I know I should be able to express my own feelings. It\u2019s just... really confusing."
+    },
+    {
+      "turn": 6,
+      "speaker": "therapist",
+      "content": "It sounds like their support and approval are deeply intertwined with your sense of security and connection, especially during such a significant time in your life. It\u2019s completely understandable to want that reassurance from them while also feeling the need to express your own feelings. The confusion you\u2019re experiencing is valid, as you\u2019re navigating the desire for independence alongside the fear of losing that connection. What do you think might happen if you were to express your feelings, even just a little bit?"
+    },
+    {
+      "turn": 6,
+      "speaker": "client",
+      "content": "I guess... part of me worries that it could lead to a big fallout. Like, what if they don\u2019t understand where I\u2019m coming from? I could see them getting defensive or trying to convince me I\u2019m wrong for wanting something different. But then again, maybe it wouldn\u2019t be as bad as I\u2019m imagining. I mean, it\u2019s possible they could surprise me and be more understanding than I think. But the thought of that uncertainty makes me anxious. It\u2019s like I\u2019m stuck in this loop of \u201cwhat ifs.\u201d"
+    },
+    {
+      "turn": 7,
+      "speaker": "therapist",
+      "content": "It sounds like you\u2019re really grappling with a lot of \u201cwhat if\u201d scenarios, which can create a sense of anxiety and keep you feeling stuck. The fear of a potential fallout is weighing heavily on you, but you also recognize that there\u2019s a possibility they could respond with understanding. It\u2019s a tough place to be in, wanting to break free from that loop but feeling anxious about the uncertainty. How do you usually cope with that anxiety when it comes up?"
+    },
+    {
+      "turn": 7,
+      "speaker": "client",
+      "content": "Um, I guess I try to distract myself. I keep busy with other things, like planning the wedding or just focusing on work. But then, when I finally sit down to think about it, all those anxious thoughts come rushing back. Sometimes, I just pretend everything is fine and go along with what my parents want, even if it doesn\u2019t feel right to me. It\u2019s easier in the moment, but I know it doesn\u2019t really help in the long run. I just wish I could find a better way to handle it."
+    },
+    {
+      "turn": 8,
+      "speaker": "therapist",
+      "content": "It sounds like keeping busy helps you avoid those anxious thoughts for a while, but when you take a moment to pause, they come rushing back. It\u2019s understandable to want to maintain peace in the moment, even if it feels like it\u2019s not addressing the underlying issues. You\u2019re recognizing that this approach might not be sustainable, which is an important insight. What do you think might be a first step toward finding a better way to handle these feelings, even if it feels small?"
+    },
+    {
+      "turn": 8,
+      "speaker": "client",
+      "content": "Maybe... I could start by just writing down my thoughts or feelings about the wedding and my parents\u2019 opinions. It feels a bit safer to put it on paper rather than saying it out loud. That way, I can sort through what I really want without the immediate pressure of their reactions. I guess it could help me clarify my feelings before I decide if I want to share anything with them. It\u2019s a small step, but it feels like it could be a start."
+    },
+    {
+      "turn": 9,
+      "speaker": "therapist",
+      "content": "That sounds like a thoughtful and constructive first step. Writing down your thoughts and feelings can provide a safe space for you to explore what you truly want without the pressure of immediate reactions. It might help you gain clarity and confidence about how to express yourself later on. It\u2019s great that you\u2019re considering this approach. How do you feel about starting this writing process? What do you think might be the most challenging part for you?"
+    },
+    {
+      "turn": 9,
+      "speaker": "client",
+      "content": "I think starting the writing process could be a relief, honestly. It feels like a way to get everything out without the fear of judgment. But I guess the challenging part might be facing some of those deeper feelings I\u2019ve been avoiding. I worry that once I start writing, I might uncover things that are hard to deal with. It\u2019s like, what if I realize I want something completely different from what my parents expect? That could be tough to confront. But maybe it\u2019s necessary, too. I just have to take it one step at a time, I suppose."
+    },
+    {
+      "turn": 10,
+      "speaker": "therapist",
+      "content": "It\u2019s completely understandable to feel a mix of relief and apprehension about starting that writing process. Facing deeper feelings can be daunting, especially when they might challenge what you think is expected of you. It sounds like you\u2019re aware that this exploration could lead to important insights, even if it feels tough. Taking it one step at a time is a wise approach. What do you think might help you stay grounded as you navigate those deeper feelings when they come up?"
+    },
+    {
+      "turn": 10,
+      "speaker": "client",
+      "content": "I think maybe setting aside some quiet time for myself could help. Just finding a space where I can think without distractions might make it easier to process everything. I could also remind myself that it\u2019s okay to feel whatever comes up, even if it\u2019s uncomfortable. Maybe I could have a few calming techniques ready, like deep breathing or taking breaks if it gets overwhelming. It\u2019s just about giving myself permission to feel and explore without rushing through it. That might make it a bit less daunting."
+    },
+    {
+      "turn": 11,
+      "speaker": "therapist",
+      "content": "That sounds like a really thoughtful plan. Creating a quiet space for yourself and allowing time to process your feelings can be very nurturing. It\u2019s great that you\u2019re considering calming techniques like deep breathing and taking breaks; those can be really helpful in managing any overwhelming emotions that arise. Giving yourself permission to feel whatever comes up is an important step toward self-compassion. How do you feel about this approach? Does it resonate with you?"
+    },
+    {
+      "turn": 11,
+      "speaker": "client",
+      "content": "Yeah, it does resonate with me. It feels like a more gentle way to approach everything, rather than forcing myself to confront it all at once. I think having that space to breathe and just be with my thoughts could really help me sort through my feelings without feeling pressured. It\u2019s nice to think that I can take my time with this. I just hope I can stick to it and not get too caught up in my worries. But it feels like a step in the right direction, at least."
+    },
+    {
+      "turn": 12,
+      "speaker": "therapist",
+      "content": "It\u2019s wonderful to hear that this approach feels gentle and supportive for you. Allowing yourself the time and space to sort through your feelings can really make a difference in how you process everything. It\u2019s natural to have worries about sticking to it, but recognizing that it\u2019s a step in the right direction is a positive mindset. Remember, it\u2019s okay to take things at your own pace. What do you think might help you stay committed to this process when those worries start to creep in?"
+    },
+    {
+      "turn": 12,
+      "speaker": "client",
+      "content": "I think maybe setting some small goals for myself could help, like committing to write for just a few minutes each day. That way, it doesn\u2019t feel overwhelming. I could also remind myself of why I\u2019m doing this\u2014like wanting to feel more in control of my feelings and my wedding planning. Maybe even sharing my intentions with someone I trust could help keep me accountable. I just want to make sure I don\u2019t let those worries take over and stop me from moving forward. It feels important to try."
+    },
+    {
+      "turn": 13,
+      "speaker": "therapist",
+      "content": "Setting small, manageable goals sounds like a great way to approach this without feeling overwhelmed. Committing to just a few minutes each day can make it feel more achievable. Reminding yourself of your intentions and the reasons behind this process can also provide motivation and clarity. Sharing your intentions with someone you trust for accountability is a wonderful idea, as it can create a support system for you. It\u2019s clear that you\u2019re committed to moving forward, and that\u2019s a strong foundation. How do you feel about sharing your intentions with someone? Do you have someone in mind?"
+    },
+    {
+      "turn": 13,
+      "speaker": "client",
+      "content": "I think sharing my intentions could be really helpful, actually. It might make it feel more real and give me that extra push to stick with it. I have a close friend who I think would be supportive. They\u2019ve always been good at listening and understanding where I\u2019m coming from. I just hope I can express everything clearly without feeling too vulnerable. But I know they\u2019d want to help me through this, so it could be a good step. I just need to find the right moment to bring it up."
+    },
+    {
+      "turn": 14,
+      "speaker": "therapist",
+      "content": "It\u2019s great that you have a close friend in mind who you feel would be supportive. Sharing your intentions with someone who listens and understands can really help solidify your commitment to this process. It\u2019s completely normal to feel a bit vulnerable when expressing your feelings, but it sounds like you trust this friend, which can make it easier. Finding the right moment to bring it up is a thoughtful approach. How do you envision that conversation going? What might you want to share with them?"
+    },
+    {
+      "turn": 14,
+      "speaker": "client",
+      "content": "I imagine starting off by just explaining that I\u2019ve been feeling a lot of pressure with the wedding planning and my parents\u2019 opinions. I think I\u2019d want to share that I\u2019m trying to work through my feelings and that I\u2019ve decided to start writing them down. I\u2019d probably mention that I want to be more honest about what I want, but I\u2019m feeling a bit anxious about it. I guess I\u2019d ask for their support in holding me accountable and maybe even check in with me about it. It feels a bit scary to open up like that, but I think it could really help me feel less alone in this."
+    },
+    {
+      "turn": 15,
+      "speaker": "therapist",
+      "content": "That sounds like a thoughtful and honest way to approach the conversation. By sharing your feelings about the pressure and your desire to be more honest, you\u2019re opening the door for your friend to understand what you\u2019re going through. Asking for their support and accountability can create a sense of partnership in this process, which can be really comforting. It\u2019s completely natural to feel scared about opening up, but it sounds like you\u2019re recognizing the potential benefits of sharing your experience. How do you feel about taking that step to have that conversation with your friend?"
+    },
+    {
+      "turn": 15,
+      "speaker": "client",
+      "content": "I feel a mix of nervousness and relief, honestly. The thought of opening up is a bit intimidating, but at the same time, it feels like it could really help me. I think once I get past that initial awkwardness, it might feel good to share what I\u2019m going through. It\u2019s nice to think that I won\u2019t have to carry this alone. I just need to find the right moment to bring it up, and hopefully, it will go well. I guess I\u2019m ready to take that step, even if it feels a little scary."
+    }
+  ],
+  "judge_model": "gpt-4o-mini",
+  "mediator_events": [
+    "Exploration judge rated 3/5; internal elements remain masked.",
+    "Exploration judge output: [Rating]: 3 (Very High Facilitation \u2013 Deep Exploration Begins)\n\n[Justification]: The Therapist's question about the client's feelings regarding not wanting to burden anyone encourages deeper reflection on the client's emotional state and underlying motivations. This question prompts the client to analyze their feelings of stress and pressure in the context of their wedding planning and family dynamics. It moves beyond surface-level concerns and begins to explore the emotional depth and potential root causes of the client's stress. While the question is insightful and promotes self-reflection, it does not yet challenge the client's assumptions or introduce significantly new perspectives, which is why it falls short of the highest rating.",
+    "Rapport judge rated 3/5; no experience reveal.",
+    "Rapport judge output: **Rating: 3**\n\n**Key Examples:**\n1. \"I guess I just... don\u2019t want to feel alone in this. But talking about it makes me feel a bit uneasy, like I shouldn\u2019t be complaining.\"\n2. \"I think it would help if I could just be honest about what I want without worrying about their reactions. But it\u2019s hard to imagine that.\"\n\n**Progression:** The client\u2019s most recent interactions demonstrate a growing emotional openness, particularly in expressing feelings of stress and unease regarding their wedding planning and family dynamics. They are beginning to articulate their internal struggles more clearly, moving from a place of hesitance and factual responses to a more engaged exploration of their emotions. This marks a significant change from earlier in the session, where the client was more guarded and uncertain about what to discuss.\n\n**Turning Point:** The client\u2019s emotional depth shifted notably when they articulated their desire to express their needs without fearing their parents' reactions. This moment highlighted a new level of self-awareness and vulnerability, as they began to confront the conflict between their own desires and their fear of disappointing others. This shift indicates a willingness to explore deeper emotional issues, suggesting a developing rapport with the therapist and a readiness for more profound self-reflection.",
+    "Exploration judge rated 3/5; internal elements remain masked.",
+    "Exploration judge output: [Rating]: 3 (Very High Facilitation \u2013 Deep Exploration Begins)\n\n[Justification]: The Therapist asked insightful and thought-provoking questions that encouraged the client to analyze the emotional depth behind their experiences, particularly regarding the pressure they feel from their parents and the desire to express their own needs. The questions prompted the client to reflect on their feelings of responsibility and the fear of conflict, which are core issues in their situation. However, while the Therapist's questions did facilitate deeper exploration, they did not fully challenge the client's existing thought patterns or introduce significantly new perspectives that would lead to a major shift in self-awareness. The conversation is on the right track, but it could benefit from even more probing questions that challenge the client's assumptions or explore hidden motivations.",
+    "Exploration judge rated 3/5; internal elements remain masked.",
+    "Exploration judge output: [Rating]: 3 (Very High Facilitation \u2013 Deep Exploration Begins)\n\n[Justification]: The therapist asked insightful and thought-provoking questions that helped the client analyze the root causes of their feelings regarding their parents' expectations and the stress of wedding planning. The therapist effectively encouraged the client to reflect on their emotions and the underlying fear of conflict, which is a significant aspect of their experience. The questions prompted the client to explore their desire for support and approval from their parents, leading to a deeper understanding of their emotional landscape. While the questions did not fully challenge the client's existing thought patterns to the extent of introducing completely new perspectives, they did facilitate a meaningful exploration of the client's feelings and motivations, marking a shift in self-reflection.",
+    "Rapport judge rated 3/5; no experience reveal.",
+    "Rapport judge output: **Rating: 3 (ENGAGED EXPLORATION)**\n\n**Key Examples:**\n1. \"I guess I just... don\u2019t want to feel alone in this. But talking about it makes me feel a bit uneasy, like I shouldn\u2019t be complaining.\"\n2. \"I think it would help if I could just be honest about what I want without worrying about their reactions. But it\u2019s hard to imagine that.\"\n\n**Progression:**\nThe client\u2019s most recent interactions demonstrate a notable increase in emotional expression and self-reflection. They are articulating their feelings of stress and unease regarding wedding planning and their parents' expectations. This marks a significant change from earlier in the session, where the client was more hesitant and focused on factual responses. The shift towards expressing their desire for honesty and the fear of conflict indicates a deeper engagement with their emotions and a willingness to explore these feelings further.\n\n**Turning Point:**\nThe client\u2019s emotional depth shifted during the exchange where they articulated their desire to be honest about their feelings but acknowledged the difficulty in doing so due to fear of upsetting their parents. This moment highlighted a new emotional quality\u2014recognition of their own needs versus the pressure to conform to others' expectations\u2014indicating a deeper level of self-awareness and vulnerability. This acknowledgment serves as a pivotal moment in the session, suggesting a movement towards more authentic self-expression and a desire to navigate their relationships with greater honesty.",
+    "Exploration judge rated 3/5; internal elements remain masked.",
+    "Exploration judge output: [Rating]: 3 (Very High Facilitation \u2013 Deep Exploration Begins)\n\n[Justification]: The therapist asked insightful and thought-provoking questions that encouraged the client to analyze the root causes of their feelings regarding their parents' opinions and the stress of wedding planning. The therapist effectively helped the client explore their fears of conflict and the desire for approval, leading to deeper self-reflection. The questions prompted the client to consider their emotional needs and the implications of expressing their feelings. However, while the therapist's questions initiated a significant exploration of the client's emotions and motivations, they did not fully challenge the client's assumptions or introduce completely new perspectives that could lead to a major breakthrough. Thus, the facilitation was strong but did not reach the highest level of transformational potential.",
+    "Exploration judge rated 4/5 and revealed internal cognitive elements.",
+    "Exploration judge output: [Rating]: 4 (Even Higher Facilitation \u2013 Strong Transformational Potential)\n\n[Justification]: The therapist asked strategic and powerfully open-ended questions that encouraged the client to explore their feelings about wedding planning, family expectations, and personal desires. The therapist effectively challenged the client's assumptions about their need to keep their parents happy and facilitated a deeper understanding of the emotional weight the client carries. By encouraging the client to articulate their fears and desires, the therapist helped them recognize the complexity of their situation and the potential for conflict. The suggestion to write down thoughts and feelings was a pivotal moment that could lead to a significant shift in self-awareness, as it allows the client to confront deeper emotions in a manageable way. Overall, the therapist's questions pushed the client beyond their previous understanding and opened the door for transformative insights.",
+    "Rapport judge rated 4/5 and revealed one more experience block.",
+    "Rapport judge output: **Rating: 4 (DEEP ENGAGEMENT)**\n\n**Key Examples:**\n1. **Emotional State:** \"I guess I wish I could talk to them about my feelings without feeling like I\u2019m going to upset them. Maybe if I could find a way to express my thoughts without causing conflict... I just don\u2019t know how to do that. It feels like a tricky balance.\"\n2. **Current Openness:** \"Maybe... I could start by just writing down my thoughts or feelings about the wedding and my parents\u2019 opinions. It feels a bit safer to put it on paper rather than saying it out loud.\"\n\n**Progression:** The client has shown significant emotional depth in their recent interactions, moving from a place of hesitance and avoidance to a more open exploration of their feelings. Initially, the client expressed a desire to avoid conflict and a fear of burdening others, indicating a defensive stance. However, in the latest exchanges, they have begun to articulate their needs and desires more clearly, demonstrating a willingness to confront their feelings and consider constructive steps forward. This marks a notable shift from earlier exchanges where emotional expression was minimal and focused primarily on external pressures.\n\n**Turning Point:** The client's emotional depth shifted notably when they began to articulate their desire for honesty about their feelings regarding the wedding and their parents' opinions. This occurred during the exchange where they expressed the wish to write down their thoughts as a first step. This moment reflects a significant increase in self-reflection and a proactive approach to managing their anxiety, indicating a deeper engagement with their emotional state and a stronger therapeutic alliance."
+  ],
+  "final_visible_experience_count": 3,
+  "internal_revealed": true
+}

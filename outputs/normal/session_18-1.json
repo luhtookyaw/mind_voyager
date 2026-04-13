@@ -1,0 +1,182 @@
+{
+  "case_id": "18-1",
+  "client_name": "Noah",
+  "client_mode": "masked",
+  "hide_all": false,
+  "difficulty": "normal",
+  "therapist_provider": "openai",
+  "therapist_model": "gpt-4o-mini",
+  "client_model": "gpt-4o-mini",
+  "max_turns": 15,
+  "transcript": [
+    {
+      "turn": 1,
+      "speaker": "therapist",
+      "content": "Hello, Noah. I'm glad you're here today. What feels most important for you to talk about right now?"
+    },
+    {
+      "turn": 1,
+      "speaker": "client",
+      "content": "Um, I guess I\u2019ve been thinking a lot about how my week went. It didn\u2019t really go as planned, and I can\u2019t help but feel... well, like I messed things up again. It\u2019s just frustrating, you know? I keep comparing myself to my sister, and it\u2019s hard not to feel like I\u2019m falling short. But, I mean, I don\u2019t know if that\u2019s really what we should focus on. Maybe there\u2019s something else?"
+    },
+    {
+      "turn": 2,
+      "speaker": "therapist",
+      "content": "It sounds like this week has been challenging for you, and you're feeling frustrated about how things turned out. I hear you mentioning a sense of falling short, especially in comparison to your sister. That seems to weigh on you. What specific moments from the week are standing out to you as feeling like you messed things up?"
+    },
+    {
+      "turn": 2,
+      "speaker": "client",
+      "content": "Yeah, it\u2019s just... there were a few times when I had plans, and I thought I could manage everything, but then I ended up not following through. Like, I had this list of things to do, but I got distracted or just didn\u2019t know where to start. It felt like I was just wasting time, and then I\u2019d look at what my sister was doing, and it made me feel even worse. I don\u2019t know, it\u2019s like I can\u2019t get it right, and it just makes me feel... sad, I guess. But I don\u2019t want to dwell on it too much. Maybe I just need to move on?"
+    },
+    {
+      "turn": 3,
+      "speaker": "therapist",
+      "content": "It sounds like you had a lot on your plate, and when things didn\u2019t go as planned, it left you feeling sad and frustrated. It\u2019s understandable to feel that way, especially when you\u2019re comparing yourself to your sister. You mentioned wanting to move on, but it seems like there\u2019s still some heaviness around these feelings. What do you think it is about not following through on your plans that feels particularly difficult for you?"
+    },
+    {
+      "turn": 3,
+      "speaker": "client",
+      "content": "I guess it\u2019s just... I feel like I should be better at this by now. I mean, planning and organizing shouldn\u2019t be that hard, right? When I don\u2019t follow through, it\u2019s like I\u2019m proving to myself that I can\u2019t do it, and that makes me feel... pathetic, I guess. It\u2019s like I\u2019m letting everyone down, especially my parents. I know they have high expectations, and I just... I don\u2019t want to disappoint them. But then I see my sister, and it just makes it worse. I don\u2019t know if I\u2019m really cut out for this kind of thing."
+    },
+    {
+      "turn": 4,
+      "speaker": "therapist",
+      "content": "It sounds like there's a lot of pressure you're feeling, both from yourself and from your parents' expectations. You mentioned feeling like you should be better at planning and organizing by now, and when things don\u2019t go as planned, it leads to feelings of disappointment and even self-judgment. It\u2019s tough to carry that weight, especially when you\u2019re comparing yourself to your sister. \n\nI wonder, what do you think it would look like for you to feel more capable in managing your plans and expectations?"
+    },
+    {
+      "turn": 4,
+      "speaker": "client",
+      "content": "I\u2019m not really sure. I guess it would be nice to feel more in control, like I could actually stick to a plan without getting sidetracked. Maybe if I had a better system or something? But then I worry that even trying to change things might just lead to more failure. It\u2019s like, what if I try something new and it doesn\u2019t work out? I don\u2019t know if I can handle that kind of disappointment again. I just want to feel like I\u2019m doing okay, you know? But it\u2019s hard to see a way forward when I keep getting stuck in this cycle."
+    },
+    {
+      "turn": 5,
+      "speaker": "therapist",
+      "content": "It makes sense that you want to feel more in control and capable of sticking to your plans. The fear of trying something new and potentially facing more disappointment can be really daunting. It sounds like you\u2019re caught in a cycle where the desire for change is met with a lot of apprehension about failing again.\n\nYou mentioned wanting to feel like you\u2019re doing okay, which is completely valid. What do you think it would take for you to feel a little more secure in trying out new approaches, even if there\u2019s a risk of not succeeding?"
+    },
+    {
+      "turn": 5,
+      "speaker": "client",
+      "content": "I guess... maybe if I had some support or guidance, it wouldn\u2019t feel so overwhelming? Like, if I could talk through my plans with someone or have a clearer idea of what to do step by step, it might help. But then again, I worry that I\u2019d still mess it up, and that would just be embarrassing. I don\u2019t want to keep feeling like a failure. It\u2019s just hard to take that first step when I\u2019m so used to feeling stuck. I think I just need to find a way to believe that it\u2019s okay to not be perfect, but that\u2019s easier said than done, right?"
+    },
+    {
+      "turn": 6,
+      "speaker": "therapist",
+      "content": "It sounds like having support and guidance could make a big difference for you, helping to ease some of that overwhelming feeling. It\u2019s completely understandable to worry about the possibility of messing up and feeling embarrassed, especially when you\u2019re already feeling stuck. \n\nYou mentioned wanting to find a way to believe that it\u2019s okay to not be perfect, which is a valuable insight. It can be really tough to shift that mindset, especially when you\u2019re used to holding yourself to high standards. What do you think might help you start to challenge that belief about perfection and allow yourself to take those first steps?"
+    },
+    {
+      "turn": 6,
+      "speaker": "client",
+      "content": "I think maybe... if I could remind myself that everyone makes mistakes and that it\u2019s part of learning, it might help. Like, if I could see it as a chance to grow instead of just failing, that could change things. But it\u2019s hard to keep that in mind when I\u2019m feeling down about myself. \n\nMaybe I could start small, like setting really simple goals that feel manageable? I guess if I could achieve those, it might build my confidence a bit. But I still worry about whether I\u2019ll actually follow through. It\u2019s like I want to believe it\u2019s okay to not be perfect, but then that voice in my head just keeps saying I\u2019m not good enough. It\u2019s frustrating."
+    },
+    {
+      "turn": 7,
+      "speaker": "therapist",
+      "content": "It sounds like you\u2019re starting to identify some helpful strategies, like reminding yourself that mistakes are part of learning and setting small, manageable goals to build your confidence. That\u2019s a positive step forward. \n\nI hear you expressing frustration with that inner voice that tells you you\u2019re not good enough, which can be really challenging to navigate. It\u2019s understandable that it feels difficult to hold onto those more compassionate thoughts about yourself when you\u2019re feeling down. \n\nWhat do you think might help you quiet that critical voice, even just a little, when you\u2019re trying to take those small steps?"
+    },
+    {
+      "turn": 7,
+      "speaker": "client",
+      "content": "I think... maybe if I could practice being kinder to myself, like actually acknowledging when I do something well, even if it\u2019s small, that might help. It\u2019s just hard to remember to do that when I\u2019m in a negative headspace. \n\nMaybe I could keep a journal or something to track my progress and celebrate those little wins? But then I worry that I\u2019ll just end up focusing on the things I didn\u2019t do instead. I guess it\u2019s about finding a balance, right? It feels like a lot to manage, but I want to try. I just hope I can stick with it and not let that critical voice take over again."
+    },
+    {
+      "turn": 8,
+      "speaker": "therapist",
+      "content": "It sounds like you\u2019re really reflecting on the importance of self-kindness and recognizing your achievements, even the small ones. Keeping a journal could be a great way to track your progress and celebrate those wins, while also providing a space to express your thoughts and feelings. \n\nFinding that balance between acknowledging what you\u2019ve accomplished and not getting caught up in what you didn\u2019t do can be tricky, but it\u2019s wonderful that you\u2019re willing to try. It\u2019s completely normal to have ups and downs in this process. \n\nWhat do you think might help you stay committed to this practice, especially on days when that critical voice feels louder?"
+    },
+    {
+      "turn": 8,
+      "speaker": "client",
+      "content": "I think maybe having a routine could help, like setting aside a specific time each day to write in the journal. That way, it becomes a habit, and I won\u2019t have to think too much about it. I could also remind myself that it\u2019s okay if I don\u2019t have a perfect entry every time. \n\nOn tougher days, maybe I could try to focus on just one positive thing, no matter how small, instead of feeling overwhelmed by everything. I guess having that structure might make it easier to push through those moments when I\u2019m feeling down. But I still worry about whether I\u2019ll actually stick to it. It\u2019s like I want to believe I can, but there\u2019s always that nagging doubt."
+    },
+    {
+      "turn": 9,
+      "speaker": "therapist",
+      "content": "It sounds like you\u2019ve thought through some practical strategies, like establishing a routine for journaling and focusing on one positive thing on tougher days. Creating that structure could definitely help make it feel more manageable and less overwhelming. \n\nIt\u2019s completely natural to have doubts about whether you\u2019ll stick to it, especially when you\u2019re trying to change patterns that have been ingrained for a while. Acknowledging that nagging doubt is important, too. \n\nWhat do you think might help you address those doubts when they come up, so they don\u2019t hold you back from trying these new approaches?"
+    },
+    {
+      "turn": 9,
+      "speaker": "client",
+      "content": "I think... maybe I could remind myself that it\u2019s okay to have doubts and that they don\u2019t define my ability to change. Like, if I could acknowledge the doubt without letting it take over, that might help. I could also try to talk to someone about it, maybe a friend or even you, to get some perspective when I\u2019m feeling stuck. \n\nIt might also help to look back at the times I\u2019ve succeeded, even in small ways, to remind myself that I can do this. I guess it\u2019s about building that resilience and not letting the doubts completely derail me. But it\u2019s still a bit scary to think about facing those feelings head-on."
+    },
+    {
+      "turn": 10,
+      "speaker": "therapist",
+      "content": "It sounds like you\u2019re developing a thoughtful approach to managing your doubts, which is a significant step. Acknowledging that doubts are part of the process and don\u2019t define your ability to change is a powerful mindset. \n\nTalking to someone for perspective and reflecting on your past successes can also be really grounding. Building resilience takes time, and it\u2019s understandable to feel scared about facing those feelings directly. \n\nAs you think about these strategies, what do you feel would be the first step you\u2019d like to take to start this journey?"
+    },
+    {
+      "turn": 10,
+      "speaker": "client",
+      "content": "I think the first step I\u2019d like to take is to set a specific time for journaling, maybe in the evening when I can reflect on my day. I could start by just writing down one positive thing that happened, even if it feels small. That feels manageable, and I think it might help me get into the habit without feeling overwhelmed. \n\nI also want to remind myself that it\u2019s okay if I have doubts and that I can talk about them when they come up. Just taking that first step feels a bit less daunting now, and I hope it can lead to more positive changes. I guess I\u2019m just trying to take it one day at a time."
+    },
+    {
+      "turn": 11,
+      "speaker": "therapist",
+      "content": "That sounds like a wonderful first step, Noah. Setting a specific time in the evening to reflect and write down one positive thing is a manageable way to ease into the journaling habit. It\u2019s great to hear that you\u2019re feeling a bit less daunted by the process and are focusing on taking it one day at a time.\n\nRemember, it\u2019s okay to have ups and downs as you navigate this journey. Being gentle with yourself and allowing space for those doubts will be important. How are you feeling about this plan now that you\u2019ve articulated it?"
+    },
+    {
+      "turn": 11,
+      "speaker": "client",
+      "content": "I feel a bit more hopeful about it, actually. Just saying it out loud makes it feel more real, and I think having a plan gives me something to focus on. I know it won\u2019t be perfect, and I might have days where I struggle, but at least I have a starting point. \n\nIt feels good to think that I\u2019m taking a step toward changing things, even if it\u2019s small. I guess I just need to remind myself that progress doesn\u2019t have to be perfect. I\u2019m still a little nervous about how it\u2019ll go, but I\u2019m willing to give it a try."
+    },
+    {
+      "turn": 12,
+      "speaker": "therapist",
+      "content": "I\u2019m really glad to hear that you\u2019re feeling more hopeful and that articulating your plan has made it feel more tangible. Having a starting point can be empowering, and recognizing that progress doesn\u2019t have to be perfect is such an important insight. \n\nIt\u2019s completely normal to feel a bit nervous about how things will go, but your willingness to try is a significant step in itself. As you move forward, remember to be kind to yourself and celebrate those small victories along the way. \n\nIs there anything else you\u2019d like to explore or discuss today before we wrap up?"
+    },
+    {
+      "turn": 12,
+      "speaker": "client",
+      "content": "I think I\u2019ve covered a lot of what\u2019s been on my mind today. I appreciate the space to talk about it all. I guess I just want to make sure I stay committed to this plan and not let those doubts creep back in too much. But I feel like I have some tools now to help with that. \n\nThank you for listening and guiding me through this. It\u2019s been helpful to sort through my thoughts. I\u2019m feeling a bit more ready to take that first step."
+    },
+    {
+      "turn": 13,
+      "speaker": "therapist",
+      "content": "I\u2019m really glad to hear that you found our conversation helpful and that you feel more ready to take that first step. It\u2019s great that you have some tools in mind to help you stay committed and manage those doubts. \n\nRemember, it\u2019s a journey, and it\u2019s okay to take it one day at a time. If you ever want to talk again or need support as you move forward, I\u2019m here for you. Thank you for sharing your thoughts today, Noah. I wish you the best as you start this new chapter!"
+    },
+    {
+      "turn": 13,
+      "speaker": "client",
+      "content": "Thank you, I really appreciate that. It feels good to have a plan and some support. I\u2019ll definitely keep in mind that I can reach out if I need to talk again. I\u2019m looking forward to seeing how this goes. Thanks for being here and for listening."
+    },
+    {
+      "turn": 14,
+      "speaker": "therapist",
+      "content": "You're very welcome, Noah. I'm glad to have been here to listen and support you. It\u2019s wonderful to hear that you\u2019re feeling positive about your plan and the journey ahead. Remember, it\u2019s perfectly okay to reach out whenever you need to talk or reflect. Wishing you all the best as you take those steps forward. Take care!"
+    },
+    {
+      "turn": 14,
+      "speaker": "client",
+      "content": "Thank you! I appreciate your support and encouragement. I\u2019ll take care and keep working on my plan. Looking forward to seeing how things unfold. Take care, too!"
+    },
+    {
+      "turn": 15,
+      "speaker": "therapist",
+      "content": "You're very welcome! I'm glad to hear that you're feeling encouraged and ready to work on your plan. I look forward to hearing how things unfold for you. Take care, and remember to be kind to yourself along the way!"
+    },
+    {
+      "turn": 15,
+      "speaker": "client",
+      "content": "Thank you! I\u2019ll definitely keep that in mind. I appreciate your kindness and support. I\u2019ll take care and hopefully have some positive updates next time we talk. Have a great day!"
+    }
+  ],
+  "judge_model": "gpt-4o-mini",
+  "mediator_events": [
+    "Exploration judge rated 2/5; internal elements remain masked.",
+    "Exploration judge output: [Rating]: 2 (High Facilitation)\n\n[Justification]: The Therapist asked a relevant and well-structured open-ended question that encouraged the client to reflect on specific moments from the week. This question helped to expand on the client's existing thoughts about feeling frustrated and comparing himself to his sister. However, while the question prompted deeper reflection, it primarily focused on the client's current feelings and experiences without significantly challenging his underlying assumptions or introducing new perspectives. Therefore, it falls into the high facilitation category, as it encourages deeper thinking but does not yet lead to a profound shift in self-awareness or understanding.",
+    "Rapport judge rated 3/5; no experience reveal.",
+    "Rapport judge output: **Rating: 3**\n\n**Key Examples:**\n1. \"I guess it\u2019s just... I feel like I should be better at this by now. I mean, planning and organizing shouldn\u2019t be that hard, right? When I don\u2019t follow through, it\u2019s like I\u2019m proving to myself that I can\u2019t do it, and that makes me feel... pathetic, I guess.\"\n2. \"It\u2019s tough to carry that weight, especially when you\u2019re comparing yourself to your sister.\"\n\n**Progression:**\nThe client\u2019s most recent interactions reveal a notable increase in emotional expression and self-reflection. They articulate feelings of frustration and sadness regarding their perceived shortcomings, particularly in relation to their sister and their parents' expectations. This marks a significant change from earlier in the session, where their responses were more factual and less emotionally charged. The client is beginning to explore deeper feelings of inadequacy and self-judgment, indicating a movement towards greater emotional openness.\n\n**Turning Point:**\nThe client\u2019s emotional depth shifted during the exchange where they expressed feeling \"pathetic\" for not meeting their own expectations. This moment of vulnerability indicates a willingness to confront difficult emotions and a growing comfort in sharing these feelings with the therapist. The acknowledgment of feeling like they are \"letting everyone down\" highlights an important turning point, as it reflects a deeper level of self-awareness and emotional processing that was not as evident earlier in the session.",
+    "Exploration judge rated 3/5; internal elements remain masked.",
+    "Exploration judge output: [Rating]: 3 (Very High Facilitation \u2013 Deep Exploration Begins)\n\n[Justification]: The Therapist asked insightful and thought-provoking questions that encouraged the client to analyze the root causes of their feelings of inadequacy and disappointment. The question about what it would look like for the client to feel more capable in managing their plans and expectations prompts deeper self-reflection and invites the client to explore their own perceptions of capability and success. This line of questioning begins to shift the client's perspective and encourages them to think beyond their current feelings of frustration and comparison, making it a strong facilitation of inner exploration. However, while the questions are impactful, they do not yet challenge the client to the extent that would lead to a major breakthrough or a complete reframe of their situation, which is why it does not reach the highest rating.",
+    "Exploration judge rated 3/5; internal elements remain masked.",
+    "Exploration judge output: [Rating]: 3 (Very High Facilitation \u2013 Deep Exploration Begins)\n\n[Justification]: The therapist asked insightful and thought-provoking questions that encouraged the client to analyze the root causes of their feelings of inadequacy and frustration. The questions helped the client reflect on their experiences and emotions, particularly regarding their comparisons to their sister and the pressure they feel from their parents. The therapist's inquiry about what it would look like for the client to feel more capable and secure in trying new approaches prompted deeper self-reflection. While the conversation did not lead to a major breakthrough, it did facilitate a significant exploration of the client's internal struggles and fears, indicating a shift in perspective. The therapist's approach effectively encouraged the client to delve into their beliefs about perfection and the associated fears, which is a crucial step in their therapeutic journey.",
+    "Rapport judge rated 3/5; no experience reveal.",
+    "Rapport judge output: **Rating: 3 (ENGAGED EXPLORATION)**\n\n**Key Examples:**\n1. **Emotional State:** \"It\u2019s just frustrating, you know? I keep comparing myself to my sister, and it\u2019s hard not to feel like I\u2019m falling short.\"\n2. **Openness:** \"I guess it\u2019s just... I feel like I should be better at this by now. I mean, planning and organizing shouldn\u2019t be that hard, right?\"\n\n**Progression:** The client\u2019s most recent interactions demonstrate a notable increase in emotional expression and self-reflection. Initially, the client presented with a mix of frustration and sadness regarding their week, indicating a willingness to share feelings of inadequacy and comparison to their sister. As the session progressed, the client began to articulate their feelings more deeply, expressing concerns about their ability to manage expectations and the fear of disappointing their parents. This shift from a more defensive stance to a willingness to explore their emotions and thoughts marks significant progress from earlier exchanges, where the client was more hesitant and focused on factual recounting of events.\n\n**Turning Point:** The client\u2019s emotional depth shifted during the exchange where they stated, \"I guess it\u2019s just... I feel like I should be better at this by now.\" This moment highlighted a deeper level of self-reflection and vulnerability, as the client began to confront their internal pressures and self-judgments. The acknowledgment of their feelings of being \"pathetic\" and the desire to not disappoint others indicates a significant turning point in their emotional openness, allowing for a more engaged exploration of their challenges.",
+    "Exploration judge rated 4/5 and revealed internal cognitive elements.",
+    "Exploration judge output: [Rating]: 4 (Even Higher Facilitation \u2013 Strong Transformational Potential)\n\n[Justification]: The therapist asked strategic and powerfully open-ended questions that encouraged the client to explore their feelings of inadequacy and the pressures they feel from themselves and their family. The questions prompted the client to analyze their beliefs about perfection and failure, leading to insights about the importance of self-kindness and the potential benefits of setting manageable goals. The therapist effectively challenged the client's assumptions and introduced new angles for consideration, such as the idea of mistakes being part of the learning process and the value of having support. This approach facilitated a significant shift in the client's perspective, indicating strong transformational potential.",
+    "Rapport judge rated 3/5; no experience reveal.",
+    "Rapport judge output: **Rating: 3 (ENGAGED EXPLORATION)**\n\n**Key Examples:**\n1. **Emotional State:** \"I guess it\u2019s just... I feel like I should be better at this by now. I mean, planning and organizing shouldn\u2019t be that hard, right? When I don\u2019t follow through, it\u2019s like I\u2019m proving to myself that I can\u2019t do it, and that makes me feel... pathetic, I guess.\"\n2. **Openness:** \"I think maybe having a routine could help, like setting aside a specific time each day to write in the journal. That way, it becomes a habit, and I won\u2019t have to think too much about it.\"\n\n**Progression:**\nThe client\u2019s recent interactions indicate a notable progression in emotional openness and self-reflection. Initially, the client expressed feelings of frustration and sadness regarding their perceived failures, particularly in comparison to their sister. However, in the latest exchanges, there is a clear shift towards a more engaged exploration of their feelings and thoughts. The client is articulating their emotions more freely and is beginning to identify practical strategies to manage their feelings of inadequacy, such as setting a routine for journaling and acknowledging their doubts. This marks a significant change from earlier stages where emotional expression was more limited.\n\n**Turning Point:**\nA notable turning point occurred when the client began to express a desire for self-kindness and the importance of acknowledging their achievements, even if small. This shift is evident when they state, \"I think maybe... if I could practice being kinder to myself, like actually acknowledging when I do something well, even if it\u2019s small, that might help.\" This moment reflects a deeper level of self-reflection and a willingness to challenge their critical inner voice, indicating growth in their emotional depth and engagement with the therapeutic process. The client is moving from a place of feeling stuck and overwhelmed to actively seeking ways to foster self-compassion and resilience."
+  ],
+  "final_visible_experience_count": 2,
+  "internal_revealed": true
+}

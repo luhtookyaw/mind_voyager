@@ -1,0 +1,182 @@
+{
+  "case_id": "1-1",
+  "client_name": "Alex",
+  "client_mode": "masked",
+  "hide_all": false,
+  "difficulty": "hard",
+  "therapist_provider": "openai",
+  "therapist_model": "gpt-4o-mini",
+  "client_model": "gpt-4o-mini",
+  "max_turns": 15,
+  "transcript": [
+    {
+      "turn": 1,
+      "speaker": "therapist",
+      "content": "Hello, Alex. I'm glad you're here today. What feels most important for you to talk about right now?"
+    },
+    {
+      "turn": 1,
+      "speaker": "client",
+      "content": "Um, I guess I\u2019m not really sure what to talk about. There\u2019s just a lot going on, I suppose. I mean, sometimes I feel like I don\u2019t really fit in with my family or friends, but it\u2019s hard to explain. I don\u2019t know if it\u2019s worth discussing."
+    },
+    {
+      "turn": 2,
+      "speaker": "therapist",
+      "content": "It sounds like you're feeling a bit uncertain about where to start, and that feeling of not fitting in with your family or friends seems to weigh on you. It\u2019s completely okay to feel that way, and it might be worth exploring. Can you share a little more about what that feels like for you?"
+    },
+    {
+      "turn": 2,
+      "speaker": "client",
+      "content": "I guess it just feels... heavy, you know? Like, when I think about family gatherings or events, I just get this knot in my stomach. I worry that people will ask me things I don\u2019t want to answer, or they\u2019ll judge me. It\u2019s like I\u2019m always trying to avoid those situations. I just don\u2019t want to deal with the stress."
+    },
+    {
+      "turn": 3,
+      "speaker": "therapist",
+      "content": "That sounds really challenging. It seems like the anticipation of those gatherings brings a lot of anxiety for you, creating that heavy feeling and the knot in your stomach. You mentioned trying to avoid those situations to reduce stress. Can you tell me more about what specifically worries you about those interactions?"
+    },
+    {
+      "turn": 3,
+      "speaker": "client",
+      "content": "Well, it\u2019s just... I think people expect things from me, like they want to know what I\u2019m doing with my life or why I\u2019m not more involved. I feel like I don\u2019t have good answers, and I worry they\u2019ll think less of me. Sometimes I even feel like my family doesn\u2019t really want me there, like I\u2019m just a burden or something. It\u2019s easier to just not go than to face all that."
+    },
+    {
+      "turn": 4,
+      "speaker": "therapist",
+      "content": "It sounds like you feel a lot of pressure from those expectations, and that can be really tough to navigate. The fear of not having the right answers and feeling like a burden can make those gatherings feel overwhelming. It\u2019s understandable that you would want to avoid that discomfort. When you think about those feelings of being a burden or not wanting to be there, where do you think those thoughts come from? Have you experienced similar feelings in other areas of your life?"
+    },
+    {
+      "turn": 4,
+      "speaker": "client",
+      "content": "I don\u2019t know... I guess I\u2019ve always felt a bit out of place. Like, even in school or with friends, I sometimes felt like I didn\u2019t belong. It\u2019s like there\u2019s this voice in my head telling me I\u2019m not good enough or that people wouldn\u2019t really miss me if I wasn\u2019t around. I try not to think about it too much, but it just kind of lingers. I just don\u2019t want to deal with the disappointment or judgment."
+    },
+    {
+      "turn": 5,
+      "speaker": "therapist",
+      "content": "That lingering voice sounds really difficult to cope with, and it seems like it has been a part of your experience for a long time, affecting how you feel in various situations. The idea of not being good enough or that people wouldn\u2019t miss you can be really painful. It makes sense that you would want to protect yourself from disappointment and judgment. When you hear that voice, what kinds of thoughts or feelings come up for you? How do you usually respond to it?"
+    },
+    {
+      "turn": 5,
+      "speaker": "client",
+      "content": "When I hear that voice, it makes me feel really small and anxious. I just want to shut it out, but it\u2019s hard. Sometimes I try to distract myself with other things, like just staying busy or avoiding situations altogether. But then I end up feeling lonely, which just makes everything worse. It\u2019s like I\u2019m stuck in this cycle where I want to connect but then pull away because I\u2019m scared. I don\u2019t know how to break that."
+    },
+    {
+      "turn": 6,
+      "speaker": "therapist",
+      "content": "It sounds like you're caught in a really tough cycle\u2014wanting connection but feeling scared, which leads to avoidance and ultimately loneliness. That must be really frustrating, especially when you\u2019re trying to find ways to cope. It\u2019s understandable that you\u2019d want to distract yourself, but it seems like that only adds to the feelings of isolation. When you think about breaking that cycle, what do you feel might be the first step, even if it feels small?"
+    },
+    {
+      "turn": 6,
+      "speaker": "client",
+      "content": "I guess... maybe just trying to be a little more open? I mean, it\u2019s hard to think about, but maybe if I could talk to someone I trust, it might help. I just worry about how they\u2019ll react or if they\u2019ll think I\u2019m overreacting. But I know avoiding it isn\u2019t working either. It\u2019s just... scary to think about actually reaching out."
+    },
+    {
+      "turn": 7,
+      "speaker": "therapist",
+      "content": "It\u2019s really brave of you to consider being more open, especially when it feels scary. Reaching out to someone you trust could be a meaningful step, even if it feels daunting. It\u2019s natural to worry about how they might react, but it sounds like you\u2019re recognizing that avoiding the situation isn\u2019t helping you either. What do you think might help you feel a bit more comfortable about reaching out?"
+    },
+    {
+      "turn": 7,
+      "speaker": "client",
+      "content": "Maybe if I could prepare what I want to say beforehand, it might help. Like, just writing down my thoughts or feelings so I don\u2019t feel so lost when I actually talk to them. I think having a plan could ease some of the anxiety. But then again, I still worry about how they\u2019ll respond. It\u2019s just hard to take that first step, you know?"
+    },
+    {
+      "turn": 8,
+      "speaker": "therapist",
+      "content": "Preparing what you want to say sounds like a thoughtful approach, and it could definitely help you feel more grounded when you reach out. It\u2019s completely normal to feel anxious about that first step, especially when you\u2019re unsure of how someone might respond. It shows that you care about the connection and their reaction. What do you think might help you take that first step, even if it feels small?"
+    },
+    {
+      "turn": 8,
+      "speaker": "client",
+      "content": "I suppose I could start by just sending a text or a message, something low-pressure. Maybe I could just say I\u2019ve been feeling a bit off and would like to talk sometime. That way, it\u2019s not too overwhelming, and I can gauge their response before diving deeper. It still feels a bit scary, but it seems more manageable than a face-to-face conversation right away."
+    },
+    {
+      "turn": 9,
+      "speaker": "therapist",
+      "content": "That sounds like a really practical and gentle way to start! Sending a text can definitely take some of the pressure off while still opening the door for a conversation. It\u2019s great that you\u2019re thinking about what feels manageable for you. How do you feel about taking that step? What emotions come up for you when you think about sending that message?"
+    },
+    {
+      "turn": 9,
+      "speaker": "client",
+      "content": "I feel a mix of things, honestly. There\u2019s some relief at the thought of finally reaching out, but also a lot of anxiety. I worry about how they\u2019ll react or if they\u2019ll think I\u2019m being dramatic. But I guess there\u2019s a part of me that hopes it could lead to something better, like feeling less alone. It\u2019s just hard to balance those feelings."
+    },
+    {
+      "turn": 10,
+      "speaker": "therapist",
+      "content": "It\u2019s completely understandable to feel that mix of relief and anxiety. Reaching out can bring hope for connection and understanding, but it also stirs up worries about how you\u2019ll be received. Balancing those feelings is tough, especially when you want to feel less alone. It\u2019s okay to acknowledge both the hope and the fear. What do you think might help you manage that anxiety as you prepare to send the message?"
+    },
+    {
+      "turn": 10,
+      "speaker": "client",
+      "content": "Maybe I could take a few deep breaths before I send it, just to calm myself down a bit. I could also remind myself that it\u2019s okay to feel nervous and that it doesn\u2019t have to be perfect. Just reaching out is a step in itself. I think focusing on the possibility of a positive outcome might help too, rather than getting stuck in the worries. It\u2019s just... hard to keep that in mind sometimes."
+    },
+    {
+      "turn": 11,
+      "speaker": "therapist",
+      "content": "Those sound like really helpful strategies! Taking deep breaths and reminding yourself that it\u2019s okay to feel nervous can create a sense of calm. Focusing on the possibility of a positive outcome is a great way to shift your mindset, even if it\u2019s challenging at times. It\u2019s natural to get caught up in worries, but it seems like you\u2019re finding ways to gently guide yourself back to a more hopeful perspective. How do you feel about putting those strategies into practice when you\u2019re ready to reach out?"
+    },
+    {
+      "turn": 11,
+      "speaker": "client",
+      "content": "I think I feel a bit more hopeful about it now. Knowing I have some strategies to manage the anxiety makes it feel less daunting. I guess it\u2019s just about taking that first step and trusting that I can handle whatever comes next. It\u2019s still a bit scary, but maybe it\u2019s worth it to try. I\u2019ll just have to remind myself that it\u2019s okay to take things one step at a time."
+    },
+    {
+      "turn": 12,
+      "speaker": "therapist",
+      "content": "It\u2019s wonderful to hear that you\u2019re feeling more hopeful and that you have some strategies to help manage the anxiety. Taking it one step at a time is a great approach, and trusting yourself to handle whatever comes next is a powerful mindset. It\u2019s completely normal for it to feel scary, but it sounds like you\u2019re ready to take that first step. How do you feel about setting a timeframe for when you might want to send that message?"
+    },
+    {
+      "turn": 12,
+      "speaker": "client",
+      "content": "Setting a timeframe could help. Maybe I could aim to send it by the end of the week? That gives me a little time to prepare and gather my thoughts without dragging it out too long. I think having a deadline might motivate me to actually do it instead of just thinking about it. It feels a bit more real that way."
+    },
+    {
+      "turn": 13,
+      "speaker": "therapist",
+      "content": "That sounds like a solid plan! Setting a deadline can definitely create a sense of motivation and help you move forward. Giving yourself until the end of the week allows you time to prepare while also keeping it within reach. It\u2019s great that you\u2019re making it feel more real and actionable. How do you feel about checking in with yourself as the week goes on to see how you\u2019re feeling about sending that message?"
+    },
+    {
+      "turn": 13,
+      "speaker": "client",
+      "content": "I think checking in with myself sounds like a good idea. It\u2019ll help me stay aware of how I\u2019m feeling and if I need to adjust my plan or give myself a little extra encouragement. I could maybe jot down my thoughts or feelings each day, just to keep track of how I\u2019m doing. It might help me feel more prepared when the time comes."
+    },
+    {
+      "turn": 14,
+      "speaker": "therapist",
+      "content": "That\u2019s a fantastic approach! Jotting down your thoughts and feelings each day can really help you stay connected to your emotions and track your progress. It\u2019s a way to give yourself some space to reflect and adjust your plan if needed. It sounds like you\u2019re setting yourself up for success while also being gentle with yourself. How do you feel about starting that daily check-in process?"
+    },
+    {
+      "turn": 14,
+      "speaker": "client",
+      "content": "I feel pretty good about it, actually. It seems like a manageable way to stay in touch with how I\u2019m feeling without overwhelming myself. I think it\u2019ll help me feel more prepared and maybe even a bit more confident as the week goes on. I just hope I can stick with it, but I\u2019ll try my best. It feels like a step in the right direction."
+    },
+    {
+      "turn": 15,
+      "speaker": "therapist",
+      "content": "It\u2019s great to hear that you feel good about this plan! Staying in touch with your feelings in a manageable way can really help build your confidence as you move forward. Remember, it\u2019s okay to take it one day at a time, and even if you find it challenging to stick with it, being gentle with yourself is important. It sounds like you\u2019re making meaningful progress. Is there anything else you\u2019d like to discuss or explore today?"
+    },
+    {
+      "turn": 15,
+      "speaker": "client",
+      "content": "I think I\u2019ve said a lot already, and it feels good to have a plan. I guess I just want to make sure I don\u2019t lose sight of this progress as the week goes on. Sometimes I get caught up in my worries and forget about the steps I\u2019ve taken. But I appreciate having this space to talk about it. It helps."
+    }
+  ],
+  "judge_model": "gpt-4o-mini",
+  "mediator_events": [
+    "Exploration judge rated 3/5; internal elements remain masked.",
+    "Exploration judge output: [Rating]: 3 (Very High Facilitation \u2013 Deep Exploration Begins)\n\n[Justification]: The Therapist asked insightful and thought-provoking questions that encouraged the client to analyze the emotional depth behind their experiences of feeling out of place with family and friends. The question about what specifically worries the client about interactions at gatherings prompts deeper self-reflection and analysis of their anxiety. This line of questioning begins to shift the client's perspective by inviting them to explore the root causes of their feelings, indicating a move towards deeper exploration. However, while the questions are effective, they do not yet challenge the client\u2019s assumptions or introduce completely new angles, which is why it does not reach the highest levels of facilitation.",
+    "Rapport judge rated 3/5; no experience reveal.",
+    "Rapport judge output: **Rating: 3 (ENGAGED EXPLORATION)**\n\n**Key Examples:**\n1. \"I guess it just feels... heavy, you know? Like, when I think about family gatherings or events, I just get this knot in my stomach.\"\n2. \"Sometimes I even feel like my family doesn\u2019t really want me there, like I\u2019m just a burden or something.\"\n\n**Progression:**\nThe client\u2019s most recent interactions demonstrate a notable increase in emotional expression and self-reflection. They articulate feelings of heaviness and anxiety related to family gatherings, indicating a deeper level of emotional engagement compared to earlier parts of the session. Initially, the client was hesitant and uncertain about what to discuss, but they have since begun to share specific emotional experiences and concerns. This marks a significant change from their earlier state, where they expressed uncertainty and a lack of emotional vocabulary.\n\n**Turning Point:**\nThe client\u2019s emotional depth shifted during the exchange where they began to articulate feelings of being a burden to their family. This moment marked a transition from vague discomfort to specific emotional insights, allowing for a more profound exploration of their feelings and experiences. The acknowledgment of these feelings signifies a growing comfort with the therapist and a willingness to engage in deeper self-reflection.",
+    "Exploration judge rated 3/5; internal elements remain masked.",
+    "Exploration judge output: [Rating]: 3 (Very High Facilitation \u2013 Deep Exploration Begins)\n\n[Justification]: The therapist's questions prompted the client to delve into their feelings of anxiety and inadequacy, particularly regarding family and social situations. The therapist effectively encouraged the client to explore the roots of their feelings of not fitting in and the impact of a negative internal voice. By asking about the origins of these thoughts and how they manifest in the client's life, the therapist facilitated a deeper level of self-reflection. However, while the questions were insightful and led to significant exploration of the client's emotions and experiences, they did not yet challenge the client's assumptions or introduce entirely new perspectives that could lead to a transformative realization. Thus, the facilitation was strong but not at the highest level of transformational potential.",
+    "Rapport judge rated 3/5; no experience reveal.",
+    "Rapport judge output: **Rating: 3 (ENGAGED EXPLORATION)**\n\n**Key Examples:**\n1. **Emotional State:** \"I guess it just feels... heavy, you know? Like, when I think about family gatherings or events, I just get this knot in my stomach.\"\n2. **Current Openness:** \"I guess... maybe just trying to be a little more open? I mean, it\u2019s hard to think about, but maybe if I could talk to someone I trust, it might help.\"\n\n**Progression:** The client\u2019s most recent interactions demonstrate a notable increase in emotional expression and self-reflection. Initially, the client expressed uncertainty and hesitance about discussing their feelings, indicating a defensive stance. However, they have progressed to articulate their feelings of heaviness and anxiety regarding social situations, showing a willingness to explore these emotions. This marks a significant change from earlier in the session when their responses were more guarded and factual.\n\n**Turning Point:** The client\u2019s emotional depth shifted during the exchange where they articulated the desire to be \"a little more open.\" This moment represents a pivotal point in the session, as it indicates a willingness to confront their fears about connection and vulnerability, moving from avoidance to considering proactive steps toward engagement with trusted individuals. This shift reflects a growing comfort with the therapeutic process and a deeper exploration of their emotional landscape.",
+    "Exploration judge rated 3/5; internal elements remain masked.",
+    "Exploration judge output: [Rating]: 3 (Very High Facilitation \u2013 Deep Exploration Begins)\n\n[Justification]: The therapist asked insightful and thought-provoking questions that encouraged the client to analyze the root causes of their feelings of not fitting in and the anxiety surrounding social interactions. The therapist's inquiries helped the client explore deeper emotional patterns and the impact of their internal dialogue on their behavior. By prompting the client to reflect on the origins of their feelings of being a burden and their experiences of isolation, the therapist facilitated a higher level of self-reflection. However, while the questions were effective in guiding the client toward deeper insights, they did not fully challenge the client's existing thought patterns to the extent that would lead to a major breakthrough or a significant shift in perspective. Thus, the rating reflects a strong facilitation of deep exploration without reaching the highest levels of transformational potential.",
+    "Rapport judge rated 4/5 and revealed one more experience block.",
+    "Rapport judge output: **Rating: 4**\n\n**Key Examples:**\n1. **Emotional State:** \"I feel a mix of things, honestly. There\u2019s some relief at the thought of finally reaching out, but also a lot of anxiety. I worry about how they\u2019ll react or if they\u2019ll think I\u2019m being dramatic.\"\n2. **Current Openness:** \"I think I feel a bit more hopeful about it now. Knowing I have some strategies to manage the anxiety makes it feel less daunting. I guess it\u2019s just about taking that first step and trusting that I can handle whatever comes next.\"\n\n**Progression:** The client\u2019s most recent interactions demonstrate a significant increase in emotional depth and self-reflection compared to earlier exchanges. Initially, the client expressed feelings of uncertainty and heaviness regarding their social interactions, indicating a defensive stance. However, as the session progressed, they began to articulate their feelings of anxiety and the pressure they feel from expectations, showcasing a deeper emotional engagement. The client transitioned from a place of avoidance and fear to a more hopeful outlook, recognizing the importance of reaching out and developing strategies to manage their anxiety.\n\n**Turning Point:** The client\u2019s emotional depth shifted notably during the exchange where they acknowledged, \"I suppose I could start by just sending a text or a message, something low-pressure.\" This moment marked a pivotal change as the client began to consider actionable steps towards connection, reflecting a willingness to confront their fears and engage more openly. The recognition of the need to prepare and the hope for a positive outcome indicates a deeper level of self-awareness and emotional processing, moving them towards a more engaged and vulnerable state.",
+    "Exploration judge rated 4/5 and revealed internal cognitive elements.",
+    "Exploration judge output: [Rating]: 4 (Even Higher Facilitation \u2013 Strong Transformational Potential)\n\n[Justification]: The therapist engaged in a deep and meaningful exploration of the client's feelings of anxiety and not fitting in, which led to significant self-reflection. The therapist's questions challenged the client's assumptions about their worth and the expectations of others, encouraging the client to analyze the roots of their feelings and consider actionable steps for change. The conversation moved beyond surface-level concerns, prompting the client to think about their emotions, the cycle of avoidance, and the potential for connection. The therapist's inquiry about the origins of the client's feelings and their strategies for managing anxiety pushed the client to explore new perspectives and solutions, indicating a strong transformational potential in the therapeutic process."
+  ],
+  "final_visible_experience_count": 2,
+  "internal_revealed": true
+}

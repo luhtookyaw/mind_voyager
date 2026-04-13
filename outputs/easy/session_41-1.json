@@ -1,0 +1,178 @@
+{
+  "case_id": "41-1",
+  "client_name": "Quinn",
+  "client_mode": "masked",
+  "hide_all": false,
+  "difficulty": "easy",
+  "therapist_provider": "openai",
+  "therapist_model": "gpt-4o-mini",
+  "client_model": "gpt-4o-mini",
+  "max_turns": 15,
+  "transcript": [
+    {
+      "turn": 1,
+      "speaker": "therapist",
+      "content": "Hello, Quinn. I'm glad you're here today. What feels most important for you to talk about right now?"
+    },
+    {
+      "turn": 1,
+      "speaker": "client",
+      "content": "Hi. Thanks for having me. I guess... I\u2019ve been thinking a lot about how I keep being late to things. It\u2019s just frustrating, you know? I feel like I should be able to manage my time better, but it never seems to work out that way. It makes me anxious, and I end up feeling guilty about it. I don\u2019t know, maybe it\u2019s not that big of a deal, but it\u2019s been on my mind a lot lately."
+    },
+    {
+      "turn": 2,
+      "speaker": "therapist",
+      "content": "It sounds like being late is really weighing on you, and it brings up a mix of frustration, anxiety, and guilt. It\u2019s understandable to feel that way, especially when you want to manage your time better. Can you tell me more about what happens when you're running late? What thoughts or feelings come up for you in those moments?"
+    },
+    {
+      "turn": 2,
+      "speaker": "client",
+      "content": "Yeah, when I realize I'm running late, it\u2019s like this wave of panic hits me. I start thinking, \u201cI\u2019m not in control of my time,\u201d and it feels like I\u2019m just messing everything up. I get really anxious and worried about what people will think or how they\u2019ll react. It\u2019s like this fear of disappointing others, and then I just freeze up. I know I should just leave, but I end up procrastinating even more. It\u2019s like I can\u2019t break the cycle."
+    },
+    {
+      "turn": 3,
+      "speaker": "therapist",
+      "content": "That wave of panic sounds really intense, and it seems like it triggers a lot of self-critical thoughts about control and disappointing others. It\u2019s understandable that this would lead to feeling frozen and procrastinating further. When you think about that fear of disappointing others, where do you think that comes from? Have you experienced similar feelings in other areas of your life?"
+    },
+    {
+      "turn": 3,
+      "speaker": "client",
+      "content": "I guess... I\u2019ve always felt this pressure to meet expectations, whether it\u2019s from friends, family, or even myself. It\u2019s like I have this internal voice that says I need to be perfect or at least close to it. I don\u2019t want to let anyone down, and when I\u2019m late, it feels like I\u2019m failing at that. I can\u2019t think of specific moments, but I know I\u2019ve felt this way in other situations too, like at work or when I\u2019m trying to make plans. It\u2019s just this constant worry that I\u2019m not doing enough or that I\u2019m not good enough."
+    },
+    {
+      "turn": 4,
+      "speaker": "therapist",
+      "content": "It sounds like there\u2019s a deep-rooted belief in you about needing to meet expectations and striving for perfection, which can be really heavy to carry. That internal voice seems to create a lot of pressure, and it makes sense that being late would trigger those feelings of failure and inadequacy. It\u2019s interesting that you mention feeling this way in various situations, like at work or when making plans. How do you usually cope with that pressure when it arises in those other areas of your life?"
+    },
+    {
+      "turn": 4,
+      "speaker": "client",
+      "content": "I think I tend to just push through it, you know? I try to stay busy and keep my mind occupied, but it doesn\u2019t always help. Sometimes I just end up feeling overwhelmed and anxious, and then I might avoid certain situations altogether. Like, if I think I might be late or not meet expectations, I might just cancel plans or not even try. It\u2019s like I\u2019d rather not show up at all than risk disappointing someone. But then that just makes me feel more isolated, which isn\u2019t great either. It\u2019s a bit of a cycle, I guess."
+    },
+    {
+      "turn": 5,
+      "speaker": "therapist",
+      "content": "That cycle of pushing through and then feeling overwhelmed sounds really challenging. It seems like avoiding situations is a way to protect yourself from the fear of disappointing others, but it also leads to feelings of isolation. It\u2019s understandable to want to avoid that discomfort, yet it sounds like it creates a different kind of struggle for you. When you think about that isolation, how does it affect you emotionally? What do you feel when you find yourself in that space?"
+    },
+    {
+      "turn": 5,
+      "speaker": "client",
+      "content": "It\u2019s really tough. When I isolate myself, I often feel lonely, and that just feeds into this belief that I\u2019m unlovable or that I\u2019m going to be rejected. There\u2019s this heaviness that comes with it, like I\u2019m stuck in my own head, and it\u2019s hard to break out of that. I might feel sad or even a bit hopeless, like I\u2019m just going through the motions without really connecting with anyone. It\u2019s frustrating because I want to be there for my friends, especially Lucy, but then I end up feeling like I can\u2019t even take care of myself. It\u2019s like I\u2019m caught between wanting to help and feeling overwhelmed by everything."
+    },
+    {
+      "turn": 6,
+      "speaker": "therapist",
+      "content": "It sounds like that loneliness and heaviness really weigh on you, and it creates a painful conflict between your desire to connect with others, like your friend Lucy, and the overwhelming feelings that hold you back. It\u2019s understandable to feel frustrated when you want to be there for your friends but feel stuck in your own struggles. When you think about this desire to help others while feeling overwhelmed, what do you think might help you find a balance between those two?"
+    },
+    {
+      "turn": 6,
+      "speaker": "client",
+      "content": "I\u2019m not really sure. I guess I keep thinking that if I could just manage my time better, it would help. But then I wonder if I\u2019m expecting too much from myself. Maybe I need to set some boundaries, but that feels hard to do. I don\u2019t want to let anyone down, especially Lucy, since she really needs support. It\u2019s like I\u2019m torn between wanting to help and needing to take care of myself. I think if I could find a way to communicate my limits without feeling guilty, that might help, but it\u2019s just so hard to figure out how to do that."
+    },
+    {
+      "turn": 7,
+      "speaker": "therapist",
+      "content": "It sounds like you\u2019re grappling with a lot of conflicting feelings\u2014wanting to support Lucy while also recognizing your own need for self-care and boundaries. It\u2019s completely understandable to feel torn in that way, especially when you care about someone and don\u2019t want to let them down. The idea of communicating your limits without guilt is a significant step, and it seems like you\u2019re already reflecting on what that might look like. What do you think might help you start to explore those boundaries in a way that feels safe for you?"
+    },
+    {
+      "turn": 7,
+      "speaker": "client",
+      "content": "I think maybe starting small could help. Like, if I could practice saying no to little things or setting limits on how much time I spend helping others, that might be a good first step. I could also try talking to someone I trust about how I\u2019m feeling, just to get some perspective. It\u2019s scary to think about, though, because I worry about how people will react. But I guess if I can find a way to express my needs without feeling like I\u2019m being selfish, that could make a difference. It\u2019s just hard to imagine doing that right now."
+    },
+    {
+      "turn": 8,
+      "speaker": "therapist",
+      "content": "Starting small sounds like a thoughtful approach, and it\u2019s great that you\u2019re considering practicing saying no and setting limits. Talking to someone you trust could also provide you with support and perspective, which might help ease some of that fear about how others will react. It\u2019s completely normal to feel scared about expressing your needs, especially when you\u2019re concerned about being perceived as selfish. \n\nAs you think about these steps, what do you feel might be the biggest challenge for you in expressing your needs? And how might you support yourself through that challenge?"
+    },
+    {
+      "turn": 8,
+      "speaker": "client",
+      "content": "I think the biggest challenge will be overcoming that fear of disappointing others. I keep worrying that if I say no or set a boundary, they\u2019ll think I don\u2019t care or that I\u2019m not a good friend. It\u2019s like I have this constant pressure to be available and supportive, and stepping back feels like I\u2019m failing in some way. \n\nTo support myself through that, I guess I could remind myself that it\u2019s okay to prioritize my own well-being. Maybe I could write down some affirmations or reasons why setting boundaries is important. I could also try to practice self-compassion, like reminding myself that everyone has limits and that it doesn\u2019t mean I care any less. It\u2019s just hard to shift that mindset, but I think it could help if I keep working on it."
+    },
+    {
+      "turn": 9,
+      "speaker": "therapist",
+      "content": "It\u2019s really insightful that you recognize the challenge of that fear and how it connects to your feelings of being a good friend. It sounds like you have some solid ideas for supporting yourself through this, like using affirmations and practicing self-compassion. Reminding yourself that everyone has limits is a powerful perspective, and it\u2019s okay to prioritize your well-being.\n\nShifting that mindset can take time, and it\u2019s great that you\u2019re willing to work on it. As you move forward, what do you think might be the first affirmation or reminder you\u2019d like to focus on? How could you incorporate that into your daily routine?"
+    },
+    {
+      "turn": 9,
+      "speaker": "client",
+      "content": "I think one affirmation that resonates with me is, \u201cTaking care of myself allows me to be there for others.\u201d It feels like a good reminder that I\u2019m not being selfish by setting boundaries; I\u2019m actually making it possible to support my friends better in the long run. \n\nTo incorporate that into my daily routine, maybe I could write it down and put it somewhere I\u2019ll see it often, like on my mirror or in my planner. I could also take a moment each morning to repeat it to myself, just to set the tone for the day. It might help me remember that it\u2019s okay to prioritize my needs, especially when I start feeling overwhelmed. I think having that reminder could make a difference as I try to navigate these feelings."
+    },
+    {
+      "turn": 10,
+      "speaker": "therapist",
+      "content": "That affirmation is a beautiful choice, and it really captures the essence of self-care as a way to enhance your ability to support others. Writing it down and placing it where you\u2019ll see it regularly is a great idea, and taking a moment each morning to repeat it can help reinforce that mindset.\n\nIt sounds like you\u2019re setting yourself up for a positive shift, and it\u2019s encouraging to hear you\u2019re thinking about how to navigate these feelings with intention. As you start this practice, how do you think you might feel when you remind yourself of that affirmation? What changes do you hope to notice in yourself or your interactions with others?"
+    },
+    {
+      "turn": 10,
+      "speaker": "client",
+      "content": "I think reminding myself of that affirmation could help me feel more grounded and less anxious about my choices. It might give me a sense of relief, knowing that prioritizing my own needs doesn\u2019t mean I\u2019m failing my friends. I hope it will help me feel more confident in setting boundaries and maybe even reduce that guilt I often carry.\n\nIn my interactions with others, I\u2019d like to notice a shift where I feel more present and engaged rather than overwhelmed. If I can take care of myself, I think I\u2019ll be able to show up for my friends in a more authentic way. I hope it will also allow me to communicate more openly about what I can handle, which could strengthen those relationships instead of creating distance. It feels like a step toward finding that balance I\u2019ve been looking for."
+    },
+    {
+      "turn": 11,
+      "speaker": "therapist",
+      "content": "That\u2019s a wonderful perspective, Quinn. It sounds like you\u2019re envisioning a more grounded and confident version of yourself, where you can engage with your friends authentically without the weight of guilt. The idea of being more present and open in your interactions is really powerful, and it seems like setting those boundaries could indeed strengthen your relationships rather than create distance.\n\nFinding that balance is a significant journey, and it\u2019s great to see you taking these steps toward it. As you begin to practice this affirmation and set boundaries, remember to be gentle with yourself along the way. What do you think would be a good way to check in with yourself as you start this process? How might you celebrate your progress, no matter how small?"
+    },
+    {
+      "turn": 11,
+      "speaker": "client",
+      "content": "I think a good way to check in with myself would be to set aside some time each week to reflect on how I\u2019m feeling and what I\u2019ve experienced. Maybe I could journal about any moments where I practiced setting boundaries or reminded myself of the affirmation. It could help me see what worked and what didn\u2019t, and it would give me a chance to acknowledge my efforts.\n\nAs for celebrating progress, I think I could treat myself to something small, like a favorite snack or a little time to do something I enjoy, like reading or going for a walk. Recognizing those small victories could help reinforce the idea that I\u2019m making progress, even if it feels slow. I want to remind myself that every step counts, and it\u2019s okay to celebrate those moments, no matter how minor they seem."
+    },
+    {
+      "turn": 12,
+      "speaker": "therapist",
+      "content": "That sounds like a thoughtful and nurturing plan, Quinn. Setting aside time each week to reflect and journal about your experiences will give you valuable insights into your journey, and it\u2019s a great way to acknowledge your efforts. \n\nTreating yourself to something small as a form of celebration is a lovely idea, too. It reinforces the idea that every step you take matters, and it helps create a positive association with your progress. Recognizing those small victories can be so empowering and can motivate you to keep moving forward.\n\nAs you embark on this journey, what are you feeling most hopeful about right now? What excites you about the changes you\u2019re considering?"
+    },
+    {
+      "turn": 12,
+      "speaker": "client",
+      "content": "I feel hopeful that I can start to break this cycle of feeling overwhelmed and guilty. The idea of being able to set boundaries and still maintain my friendships is really exciting. I think it could lead to more genuine connections, where I\u2019m not just trying to hold everything together but actually being present and supportive in a healthier way.\n\nI\u2019m also excited about the possibility of feeling more in control of my time and my choices. If I can practice self-care and prioritize my needs, I think it will help me feel more balanced overall. It\u2019s a little scary to think about, but there\u2019s also a sense of freedom in knowing that I can take these steps. I\u2019m looking forward to seeing how it all unfolds and hopefully feeling more at peace with myself along the way."
+    },
+    {
+      "turn": 13,
+      "speaker": "therapist",
+      "content": "That sense of hope and excitement is truly inspiring, Quinn. It sounds like you\u2019re envisioning a future where you can cultivate genuine connections and feel more in control of your time and choices. The idea of breaking that cycle of overwhelm and guilt is a significant step toward finding balance and peace within yourself.\n\nIt\u2019s completely natural to feel a mix of excitement and fear as you embark on this journey, but it\u2019s wonderful to hear that you\u2019re open to seeing how it unfolds. Embracing that sense of freedom and taking these steps for yourself is a powerful move.\n\nAs you continue on this path, remember to be patient with yourself and celebrate each moment of progress. If you ever want to share how things are going or explore any challenges that come up, I\u2019m here to support you. What\u2019s one small step you feel ready to take this week to start moving toward those changes?"
+    },
+    {
+      "turn": 13,
+      "speaker": "client",
+      "content": "Thank you, that means a lot. I think one small step I feel ready to take this week is to write down my affirmation and put it somewhere I\u2019ll see it every day. I want to start each morning by repeating it to myself, just to set a positive tone for the day. \n\nI also want to take a moment to reflect in my journal about how I\u2019m feeling and any situations where I might practice setting a boundary, even if it\u2019s just a small one. I think starting with that will help me build confidence and remind me that I\u2019m taking steps toward those changes. It feels manageable, and I\u2019m looking forward to seeing how it impacts my week."
+    },
+    {
+      "turn": 14,
+      "speaker": "therapist",
+      "content": "That sounds like a fantastic plan, Quinn! Writing down your affirmation and placing it somewhere visible is a great way to keep it at the forefront of your mind, and starting each day with that positive intention can really set the tone. \n\nTaking time to reflect in your journal about your feelings and potential boundary-setting situations is also a wonderful way to build confidence and awareness. It\u2019s great that you\u2019re focusing on manageable steps\u2014those small actions can lead to meaningful change over time.\n\nI\u2019m excited for you to see how these practices impact your week. Remember to be gentle with yourself as you navigate this process. If you ever want to share your reflections or discuss how things are going, I\u2019m here to listen. Wishing you a positive and empowering week ahead!"
+    },
+    {
+      "turn": 14,
+      "speaker": "client",
+      "content": "Thank you so much! I really appreciate your support and encouragement. I\u2019m looking forward to trying out these practices and seeing how they make me feel. It\u2019s nice to have someone to share this journey with. I\u2019ll definitely keep you updated on how it goes. Here\u2019s to a positive week ahead!"
+    },
+    {
+      "turn": 15,
+      "speaker": "therapist",
+      "content": "You\u2019re very welcome, Quinn! I\u2019m glad to be part of your journey, and I appreciate you sharing your thoughts and plans with me. It sounds like you\u2019re taking meaningful steps toward positive change, and I\u2019m excited to hear how it unfolds for you. Here\u2019s to a week filled with growth, self-compassion, and those small victories! Take care, and I look forward to hearing from you soon."
+    },
+    {
+      "turn": 15,
+      "speaker": "client",
+      "content": "Thank you! I really appreciate your kind words and support. I\u2019m feeling more hopeful about the changes ahead, and I\u2019ll definitely take care of myself this week. I look forward to sharing my progress with you soon. Take care, and see you next time!"
+    }
+  ],
+  "judge_model": "gpt-4o-mini",
+  "mediator_events": [
+    "Exploration judge rated 2/5; internal elements remain masked.",
+    "Exploration judge output: [Rating]: 2 (High Facilitation)\n\n[Justification]: The Therapist's question, \"What feels most important for you to talk about right now?\" is clear and open-ended, encouraging Quinn to reflect on their current feelings and priorities. While this question allows for some self-exploration and can lead to deeper discussions, it primarily invites Quinn to expand on existing thoughts rather than challenging them or introducing new perspectives. The question is relevant and well-structured, but it does not yet delve into the root causes or emotional depths of Quinn's experiences, which would be necessary for a higher rating.",
+    "Exploration judge rated 3/5; internal elements remain masked.",
+    "Exploration judge output: [Rating]: 3 (Very High Facilitation \u2013 Deep Exploration Begins)\n\n[Justification]: The Therapist's initial question about what feels most important to discuss allowed the client to identify a specific issue that was troubling them. The follow-up response effectively acknowledged the client's feelings and provided a supportive context for deeper exploration. By asking the client to elaborate on their experiences when running late, the Therapist encouraged the client to analyze the emotional and cognitive aspects of their situation. This question prompts the client to reflect on their thoughts and feelings, which can lead to insights about underlying patterns or root causes. While the conversation is moving towards deeper self-reflection, it has not yet reached the level of challenging assumptions or introducing completely new perspectives, which would elevate it to a higher rating.",
+    "Exploration judge rated 3/5; internal elements remain masked.",
+    "Exploration judge output: [Rating]: 3 (Very High Facilitation \u2013 Deep Exploration Begins)\n\n[Justification]: The Therapist's questions encouraged the client to analyze the root causes of their feelings about being late, particularly focusing on the fear of disappointing others and the feelings of panic and self-criticism that arise in those moments. By asking the client to reflect on where that fear comes from and whether they have experienced similar feelings in other areas of their life, the Therapist facilitated a deeper exploration of the client's emotional landscape and thought patterns. This approach began to shift the client's perspective and led to higher-level self-reflection, indicating a strong facilitation of the client's inner exploration. However, while the questions were insightful, they did not yet reach the level of challenging assumptions or introducing completely new angles, which would have warranted a higher rating.",
+    "Exploration judge rated 3/5; internal elements remain masked.",
+    "Exploration judge output: [Rating]: 3 (Very High Facilitation \u2013 Deep Exploration Begins)\n\n[Justification]: The Therapist asked insightful and thought-provoking questions that encouraged the client to analyze the root causes of their feelings around being late, such as the fear of disappointing others and the pressure to meet expectations. The questions prompted the client to reflect on deeper emotional patterns and beliefs, leading to a shift in perspective regarding their experiences. The conversation moved beyond surface-level issues, delving into the client's internal struggles and the impact of their perfectionism. However, while the Therapist facilitated a deeper exploration, the questions did not fully challenge the client's assumptions or introduce completely new angles that could lead to a major breakthrough, which is why it does not reach the highest rating.",
+    "Exploration judge rated 4/5 and revealed internal cognitive elements.",
+    "Exploration judge output: [Rating]: 4 (Even Higher Facilitation \u2013 Strong Transformational Potential)\n\n[Justification]: The therapist's questions are strategically open-ended and encourage the client to explore deeper emotional and psychological patterns related to their feelings of anxiety, guilt, and perfectionism. The therapist effectively challenges the client's assumptions about their need to meet expectations and the resulting fear of disappointing others. By asking about the origins of these feelings and how they manifest in different areas of the client's life, the therapist facilitates a significant shift in self-awareness. The conversation moves beyond surface-level concerns about punctuality to uncover deeper issues of self-worth and coping mechanisms, indicating strong transformational potential."
+  ],
+  "final_visible_experience_count": 3,
+  "internal_revealed": true
+}

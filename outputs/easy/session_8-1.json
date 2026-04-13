@@ -1,0 +1,186 @@
+{
+  "case_id": "8-1",
+  "client_name": "Ramona",
+  "client_mode": "masked",
+  "hide_all": false,
+  "difficulty": "easy",
+  "therapist_provider": "openai",
+  "therapist_model": "gpt-4o-mini",
+  "client_model": "gpt-4o-mini",
+  "max_turns": 15,
+  "transcript": [
+    {
+      "turn": 1,
+      "speaker": "therapist",
+      "content": "Hello, Ramona. I'm glad you're here today. What feels most important for you to talk about right now?"
+    },
+    {
+      "turn": 1,
+      "speaker": "client",
+      "content": "Hi. Thanks for having me. I guess I\u2019ve been thinking a lot about my relationship with Ivan lately. There have been some improvements in how he\u2019s been behaving, which is nice, but I can\u2019t shake this feeling of anxiety when it comes to being intimate again. It\u2019s like I want to be close to him, but at the same time, I feel this huge wall up. It\u2019s confusing."
+    },
+    {
+      "turn": 2,
+      "speaker": "therapist",
+      "content": "It sounds like you're experiencing a mix of positive changes in your relationship with Ivan, but also some lingering anxiety that makes intimacy feel challenging. That must be really confusing for you. Can you tell me more about what that wall feels like for you?"
+    },
+    {
+      "turn": 2,
+      "speaker": "client",
+      "content": "Yeah, it really is confusing. The wall feels\u2026 protective, I guess? Like, I know I should let my guard down, especially since things are getting better, but I can\u2019t help but feel scared. It\u2019s like I want to be vulnerable, but then I remember past experiences that make me hesitate. I just freeze up, and it\u2019s hard to even think about initiating anything. It\u2019s frustrating because I want to connect, but I feel stuck."
+    },
+    {
+      "turn": 3,
+      "speaker": "therapist",
+      "content": "It sounds like that wall serves as a kind of shield for you, protecting you from potential hurt, even though you desire connection with Ivan. The fear and memories from past experiences seem to play a significant role in how you\u2019re feeling. It must be frustrating to feel that conflict between wanting to be vulnerable and feeling stuck. Can you share a bit more about those past experiences that come to mind when you think about intimacy?"
+    },
+    {
+      "turn": 3,
+      "speaker": "client",
+      "content": "I think\u2026 it\u2019s just hard to talk about. There have been moments in the past where things didn\u2019t go well, and I ended up feeling really hurt. I guess those experiences linger in my mind, making me second-guess myself. I want to trust Ivan and what we have now, but there\u2019s this nagging voice that keeps reminding me of the past. It\u2019s like I\u2019m caught between wanting to move forward and being scared of what might happen if I do. I know it\u2019s not fair to him, but it\u2019s just hard to shake those feelings."
+    },
+    {
+      "turn": 4,
+      "speaker": "therapist",
+      "content": "It sounds like those past experiences have left a significant impact on you, creating a tension between your desire to trust Ivan and the fear of being hurt again. It\u2019s understandable to feel that way, especially when those memories resurface. You mentioned feeling that it\u2019s not fair to him\u2014can you tell me more about what that means for you?"
+    },
+    {
+      "turn": 4,
+      "speaker": "client",
+      "content": "I guess I just feel guilty sometimes. Ivan is trying to be better, and I can see that. But then I hold back because of my fears, and I worry that it might push him away or make him feel rejected. It\u2019s like I\u2019m aware that my walls are affecting him, and I don\u2019t want to ruin what we\u2019re building together. I want to be open and supportive, but I also feel this pressure to protect myself. It\u2019s just a lot to navigate, and I don\u2019t want to hurt him in the process."
+    },
+    {
+      "turn": 5,
+      "speaker": "therapist",
+      "content": "It sounds like you\u2019re carrying a heavy sense of responsibility for how your feelings and fears might impact Ivan and your relationship. You want to be supportive and open, but at the same time, you feel the need to protect yourself. That must create a lot of internal conflict for you. How do you usually cope with those feelings of guilt and pressure when they arise?"
+    },
+    {
+      "turn": 5,
+      "speaker": "client",
+      "content": "When those feelings come up, I tend to retreat a bit. I might distract myself with other things\u2014work, hobbies, or just keeping busy. It\u2019s like I try to push those thoughts aside instead of dealing with them directly. Sometimes I talk to friends, but I don\u2019t always share the full picture. I guess I\u2019m worried about burdening them or making them think less of me. So, I keep things vague. It\u2019s easier to manage that way, but I know it doesn\u2019t really solve anything. It\u2019s just a temporary escape, and then I\u2019m left feeling the same way again."
+    },
+    {
+      "turn": 6,
+      "speaker": "therapist",
+      "content": "It sounds like keeping busy and talking to friends helps you manage those feelings, but it also leaves you feeling unresolved and maybe even more isolated. It\u2019s understandable to want to protect your friends from your struggles, but it seems like that might also prevent you from fully processing what you\u2019re experiencing. How do you feel about the idea of sharing more of your feelings with someone, whether it\u2019s a friend or in this space?"
+    },
+    {
+      "turn": 6,
+      "speaker": "client",
+      "content": "I think\u2026 it\u2019s a bit daunting. I mean, part of me wants to open up more and share what I\u2019m really feeling, but there\u2019s this fear of being vulnerable. What if they don\u2019t understand, or what if it changes how they see me? It\u2019s easier to keep things light and not dive too deep. But I also know that holding everything in isn\u2019t helping me either. It\u2019s just a tough balance to strike. I guess I\u2019m still figuring out how to be more open without feeling like I\u2019m putting too much on someone else."
+    },
+    {
+      "turn": 7,
+      "speaker": "therapist",
+      "content": "It makes sense that you would feel daunted by the idea of being vulnerable, especially with the fear of how others might react. Striking that balance between wanting to connect and protect yourself can be really challenging. It sounds like you\u2019re aware of the impact of holding things in, yet the fear of vulnerability still holds you back. What do you think might help you feel more comfortable with the idea of opening up, even just a little bit?"
+    },
+    {
+      "turn": 7,
+      "speaker": "client",
+      "content": "Maybe starting small could help? Like, sharing just a bit more with a friend I trust, or even expressing my feelings about the relationship with Ivan in a less intense way. I think if I could find a way to ease into it, it might feel less overwhelming. It\u2019s just that first step that feels so hard. I guess I could also remind myself that it\u2019s okay to be vulnerable and that it doesn\u2019t mean I\u2019m weak or that I\u2019ll be judged. But it\u2019s still a bit scary to think about."
+    },
+    {
+      "turn": 8,
+      "speaker": "therapist",
+      "content": "Starting small sounds like a thoughtful approach. It seems like you\u2019re recognizing that easing into vulnerability might make it feel less overwhelming, which is a great insight. Reminding yourself that vulnerability doesn\u2019t equate to weakness is also an important step. It\u2019s completely normal to feel scared about taking that first step, though. What do you think might help you take that initial step when you\u2019re ready?"
+    },
+    {
+      "turn": 8,
+      "speaker": "client",
+      "content": "I think maybe setting a specific goal could help, like planning a time to talk to a friend about something that\u2019s been on my mind. I could even write down what I want to say beforehand to help organize my thoughts. Having a plan might make it feel less intimidating. Also, maybe reminding myself that it\u2019s okay if the conversation doesn\u2019t go perfectly. Just opening up a little could be a step in the right direction. I guess it\u2019s about finding that balance between pushing myself and being gentle with my own feelings."
+    },
+    {
+      "turn": 9,
+      "speaker": "therapist",
+      "content": "That sounds like a solid plan. Setting a specific goal and preparing what you want to say could definitely help ease some of the anxiety around the conversation. It\u2019s great that you\u2019re considering the importance of being gentle with yourself, too. Finding that balance between pushing yourself and honoring your feelings is a wise approach. How do you feel about taking that first step, knowing you have a plan in mind?"
+    },
+    {
+      "turn": 9,
+      "speaker": "client",
+      "content": "I feel a bit more hopeful, actually. Having a plan makes it seem more manageable, and I like the idea of taking it one step at a time. I still have some nervousness about it, but I think that\u2019s normal. It\u2019s nice to think that I could share a bit more and maybe feel a little lighter afterward. I just have to remind myself that it\u2019s okay to take my time with this. It feels like a small victory just to think about it."
+    },
+    {
+      "turn": 10,
+      "speaker": "therapist",
+      "content": "It\u2019s wonderful to hear that you\u2019re feeling more hopeful and that having a plan makes it feel more manageable. Acknowledging that nervousness is normal is an important part of this process, too. It sounds like you\u2019re allowing yourself the space to take your time, which is a healthy approach. Celebrating that small victory of thinking about sharing more is a great step forward. Is there anything else on your mind today, or anything else you\u2019d like to explore further?"
+    },
+    {
+      "turn": 10,
+      "speaker": "client",
+      "content": "I think I\u2019m feeling a bit more settled now. I\u2019ve shared a lot about my feelings and thoughts, which is a bit of a relief. I guess I just want to keep reminding myself that it\u2019s okay to take things slowly and that it\u2019s a process. Maybe I\u2019ll just focus on that for now. I appreciate having this space to talk about it. It helps to sort through everything a bit more clearly. Thank you for listening."
+    },
+    {
+      "turn": 11,
+      "speaker": "therapist",
+      "content": "I\u2019m really glad to hear that you\u2019re feeling more settled and that sharing has brought you some relief. It\u2019s perfectly okay to take things slowly and recognize that this is a process. I appreciate you being open and sharing your thoughts here. If you ever want to talk more or explore anything else, I\u2019m here for you. Take care of yourself as you navigate this, and thank you for trusting me with your feelings today."
+    },
+    {
+      "turn": 11,
+      "speaker": "client",
+      "content": "Thank you. I really appreciate your support and understanding. It means a lot to have a space where I can express myself without judgment. I\u2019ll definitely keep in mind that I can come back to talk more whenever I need to. It feels good to know that I\u2019m not alone in this. Take care, and I\u2019ll see you next time."
+    },
+    {
+      "turn": 12,
+      "speaker": "therapist",
+      "content": "You\u2019re very welcome, Ramona. I\u2019m glad you found this space helpful, and it\u2019s important to know you\u2019re not alone in what you\u2019re experiencing. I\u2019ll be here whenever you feel ready to talk again. Take care of yourself, and I look forward to our next conversation."
+    },
+    {
+      "turn": 12,
+      "speaker": "client",
+      "content": "Thank you so much. I\u2019ll take care, and I look forward to our next conversation too. It really helps to have this support. See you next time!"
+    },
+    {
+      "turn": 13,
+      "speaker": "therapist",
+      "content": "You're very welcome, Ramona. I'm glad to hear that this support helps you. Take care, and I look forward to our next conversation as well. See you next time!"
+    },
+    {
+      "turn": 13,
+      "speaker": "client",
+      "content": "See you next time! Take care!"
+    },
+    {
+      "turn": 14,
+      "speaker": "therapist",
+      "content": "Take care, Ramona! See you next time!"
+    },
+    {
+      "turn": 14,
+      "speaker": "client",
+      "content": "Take care! Looking forward to it!"
+    },
+    {
+      "turn": 15,
+      "speaker": "therapist",
+      "content": "Looking forward to it too! Take care!"
+    },
+    {
+      "turn": 15,
+      "speaker": "client",
+      "content": "You too! Bye for now!"
+    }
+  ],
+  "judge_model": "gpt-4o-mini",
+  "mediator_events": [
+    "Exploration judge rated 2/5; internal elements remain masked.",
+    "Exploration judge output: [Rating]: 2 (High Facilitation)\n\n[Justification]: The Therapist's opening question is clear and relevant, inviting Ramona to share what is currently on her mind. This question encourages some level of self-reflection and allows for exploration of her thoughts. However, it remains somewhat surface-level as it does not challenge her existing thought patterns or introduce new perspectives. While it sets the stage for deeper conversation, it primarily expands on existing thoughts rather than delving into the root causes or emotional depth of her experiences.",
+    "Exploration judge rated 3/5; internal elements remain masked.",
+    "Exploration judge output: [Rating]: 3 (Very High Facilitation \u2013 Deep Exploration Begins)\n\n[Justification]: The Therapist's question about the \"wall\" that the client feels regarding intimacy is insightful and encourages deeper self-reflection. It prompts the client to analyze the emotional depth and root causes of their anxiety, which can lead to a better understanding of their feelings and experiences. This question moves beyond surface-level concerns and invites the client to explore their emotions more thoroughly, indicating a shift in perspective. However, while it is a strong question, it does not fully challenge the client's assumptions or introduce completely new angles, which is why it falls short of a rating of 4.",
+    "Exploration judge rated 3/5; internal elements remain masked.",
+    "Exploration judge output: [Rating]: 3 (Very High Facilitation \u2013 Deep Exploration Begins)\n\n[Justification]: The therapist's questions and reflections are insightful and encourage the client to delve deeper into their feelings and experiences. By asking the client to elaborate on the \"wall\" they feel and to share more about their past experiences related to intimacy, the therapist is facilitating a deeper exploration of the client's emotional landscape. This approach helps the client analyze the root causes of their anxiety and the conflict between their desire for connection and their fear of vulnerability. While the therapist is not yet pushing the client to completely reframe their understanding or challenge their assumptions in a transformative way, they are effectively guiding the client towards higher-level self-reflection and insight.",
+    "Exploration judge rated 3/5; internal elements remain masked.",
+    "Exploration judge output: [Rating]: 3 (Very High Facilitation \u2013 Deep Exploration Begins)\n\n[Justification]: The Therapist asked insightful and thought-provoking questions that encouraged the client to analyze the emotional depth behind her experiences with intimacy and her relationship with Ivan. The questions helped the client explore the root causes of her anxiety and the protective wall she feels, leading to a deeper understanding of her internal conflict. The Therapist's inquiry about the past experiences that contribute to the client's feelings of hesitation was particularly effective in prompting self-reflection. However, while the questions were impactful, they did not fully challenge the client's assumptions or introduce completely new perspectives that could lead to a significant shift in self-awareness. Therefore, the facilitation was strong but not at the highest level of transformational potential.",
+    "Exploration judge rated 3/5; internal elements remain masked.",
+    "Exploration judge output: [Rating]: 3 (Very High Facilitation \u2013 Deep Exploration Begins)\n\n[Justification]: The therapist asked insightful and thought-provoking questions that helped the client analyze the emotional depth behind their experiences, particularly regarding the conflict between wanting intimacy and the fear stemming from past experiences. The therapist's inquiries encouraged the client to delve deeper into their feelings about the protective wall and the impact of guilt on their relationship with Ivan. This led to a higher-level self-reflection, as the client began to articulate the internal conflict they face. However, while the therapist facilitated a significant exploration of the client's emotions and motivations, the questions did not fully challenge the client's assumptions or introduce completely new perspectives, which would have elevated the facilitation to a higher rating.",
+    "Exploration judge rated 3/5; internal elements remain masked.",
+    "Exploration judge output: [Rating]: 3 (Very High Facilitation \u2013 Deep Exploration Begins)\n\n[Justification]: The therapist asked insightful and thought-provoking questions that prompted the client to analyze the emotional depth behind their experiences and the root causes of their anxiety around intimacy. The therapist effectively encouraged the client to explore the significance of their past experiences and how these experiences impact their current relationship with Ivan. The questions began to shift the client\u2019s perspective, particularly when discussing the conflict between wanting to be vulnerable and the fear of being hurt again. While the therapist facilitated deep exploration, there were moments where the questions could have pushed further into uncovering hidden motivations or challenging assumptions, which would have elevated the facilitation to a higher level.",
+    "Exploration judge rated 3/5; internal elements remain masked.",
+    "Exploration judge output: [Rating]: 3 (Very High Facilitation \u2013 Deep Exploration Begins)\n\n[Justification]: The therapist asked insightful and thought-provoking questions that encouraged the client to analyze the root causes of their feelings of anxiety and the protective wall they have built around intimacy. The therapist effectively guided the client to explore their past experiences and the internal conflict between wanting to connect and the fear of being hurt. The questions prompted the client to reflect on their feelings of guilt and the impact of their fears on their relationship with Ivan. While the therapist's questions were deep and facilitated significant self-reflection, they did not fully challenge the client's assumptions or introduce completely new perspectives that could lead to a major breakthrough. Thus, the facilitation was rated as \"Very High\" but not at the highest level.",
+    "Exploration judge rated 3/5; internal elements remain masked.",
+    "Exploration judge output: [Rating]: 3 (Very High Facilitation \u2013 Deep Exploration Begins)\n\n[Justification]: The therapist asked insightful and thought-provoking questions that encouraged the client to analyze the root causes of her feelings regarding intimacy and vulnerability. The conversation delved into the client's past experiences and the emotional conflict she faces, prompting her to reflect on her fears and the impact of those fears on her relationship with Ivan. The therapist's questions helped the client explore her feelings of guilt and responsibility, as well as her coping mechanisms, leading to a deeper understanding of her internal struggles. While the therapist facilitated significant self-reflection and began to shift the client's perspective, there was still potential for further exploration of the client's underlying motivations and assumptions, which would elevate the facilitation to an even higher level.",
+    "Exploration judge rated 4/5 and revealed internal cognitive elements.",
+    "Exploration judge output: [Rating]: 4 (Even Higher Facilitation \u2013 Strong Transformational Potential)\n\n[Justification]: The therapist asked a series of strategic and open-ended questions that encouraged the client to explore their feelings of anxiety and vulnerability in relation to their relationship with Ivan. The therapist effectively guided the client to analyze the root causes of their emotional barriers and the impact of past experiences on their current feelings. By prompting the client to reflect on their sense of responsibility towards Ivan and their coping mechanisms, the therapist facilitated a deeper understanding of the client's internal conflict.\n\nThe therapist's questions challenged the client to consider new perspectives, such as the idea of starting small in terms of vulnerability and the importance of being gentle with themselves. This led to a clear shift in the client's self-awareness and the formulation of actionable steps to address their feelings. Overall, the therapist's approach had strong transformational potential, pushing the client beyond their previous understanding and encouraging deeper self-reflection."
+  ],
+  "final_visible_experience_count": 3,
+  "internal_revealed": true
+}

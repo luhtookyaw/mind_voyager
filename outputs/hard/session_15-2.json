@@ -1,0 +1,178 @@
+{
+  "case_id": "15-2",
+  "client_name": "Karen",
+  "client_mode": "masked",
+  "hide_all": false,
+  "difficulty": "hard",
+  "therapist_provider": "openai",
+  "therapist_model": "gpt-4o-mini",
+  "client_model": "gpt-4o-mini",
+  "max_turns": 15,
+  "transcript": [
+    {
+      "turn": 1,
+      "speaker": "therapist",
+      "content": "Hello, Karen. I'm glad you're here today. What feels most important for you to talk about right now?"
+    },
+    {
+      "turn": 1,
+      "speaker": "client",
+      "content": "Um, I guess I\u2019m not really sure. There\u2019s just a lot going on, I suppose. Sometimes I feel like my contributions at work don\u2019t really matter, you know? Like, I help out, but it\u2019s like no one really sees what I do. It\u2019s just... frustrating, I guess. But I don\u2019t want to dwell on that too much."
+    },
+    {
+      "turn": 2,
+      "speaker": "therapist",
+      "content": "It sounds like you're feeling frustrated because you don't feel recognized for your contributions at work. That can be really tough. You mentioned that you don\u2019t want to dwell on it too much\u2014can you tell me more about what that frustration feels like for you?"
+    },
+    {
+      "turn": 2,
+      "speaker": "client",
+      "content": "I mean, it\u2019s just... I don\u2019t know. It\u2019s like, I try to help, but it feels like my input gets overlooked. I see others getting praised, and I just sit there, feeling kind of invisible. It makes me feel sad and a bit angry, I guess. But I don\u2019t want to make a big deal out of it. I just do what I can and move on. It\u2019s probably not worth stressing over, right?"
+    },
+    {
+      "turn": 3,
+      "speaker": "therapist",
+      "content": "It sounds like you're experiencing a mix of sadness and anger from feeling overlooked, which is completely understandable. You mentioned that you try to help and just move on, almost as if you\u2019re trying to downplay your feelings about it. What do you think makes you feel like it\u2019s not worth stressing over?"
+    },
+    {
+      "turn": 3,
+      "speaker": "client",
+      "content": "I guess I just don\u2019t want to seem like I\u2019m complaining or being dramatic. Everyone has their own stuff going on, and I don\u2019t want to add to it. Plus, it feels easier to just keep my head down and do my work rather than bring attention to myself. It\u2019s like... if I don\u2019t make a fuss, maybe it won\u2019t hurt as much? I don\u2019t know. It\u2019s just how I\u2019ve always handled things, I guess."
+    },
+    {
+      "turn": 4,
+      "speaker": "therapist",
+      "content": "It sounds like you\u2019ve developed a way of coping by keeping your head down and avoiding bringing attention to yourself, perhaps to protect both yourself and others from added stress. It\u2019s interesting that you\u2019ve noticed this pattern in how you handle things. Can you share more about how this approach has worked for you in the past?"
+    },
+    {
+      "turn": 4,
+      "speaker": "client",
+      "content": "Well, I suppose it\u2019s worked in some ways. I mean, I get my work done, and I don\u2019t cause any waves. People seem to appreciate that I\u2019m reliable, even if they don\u2019t really notice me. But then, there are times when I feel really alone, like I\u2019m just... there, but not really part of anything. It\u2019s a bit of a double-edged sword, I guess. I don\u2019t want to be a burden, but sometimes I wonder if it\u2019s worth it to just stay quiet all the time."
+    },
+    {
+      "turn": 5,
+      "speaker": "therapist",
+      "content": "It seems like you\u2019re caught between wanting to be reliable and not wanting to be a burden, which creates that sense of loneliness. It\u2019s understandable to feel conflicted about whether staying quiet is truly serving you. When you think about those times you feel alone, what emotions come up for you?"
+    },
+    {
+      "turn": 5,
+      "speaker": "client",
+      "content": "I feel... sad, mostly. It\u2019s like I\u2019m on the outside looking in. There\u2019s also this anger that bubbles up sometimes, like I want to shout, \u201cHey, I\u2019m here too!\u201d But then I just push it down because I think it\u2019s better to keep it to myself. It\u2019s frustrating because I want to connect with people, but I don\u2019t know how to break through that barrier. It just feels easier to stay quiet, even if it hurts."
+    },
+    {
+      "turn": 6,
+      "speaker": "therapist",
+      "content": "It sounds really painful to feel that sadness and frustration, wanting to connect but feeling like there's a barrier in the way. The desire to shout out and be seen is strong, yet you find yourself pushing those feelings down. It\u2019s understandable to want to avoid discomfort, but it seems like it\u2019s also leading to a sense of isolation. What do you think might help you feel more connected, even if it feels challenging?"
+    },
+    {
+      "turn": 6,
+      "speaker": "client",
+      "content": "I\u2019m not really sure. I guess part of me thinks that if I just put myself out there more, maybe people would notice me. But then there\u2019s this fear that it won\u2019t make a difference, or that I\u2019ll just be rejected again. It\u2019s hard to take that step when I feel like my worth is tied to how others see me. Maybe if I could find a way to express myself without feeling so vulnerable, that might help? But I don\u2019t know how to do that. It\u2019s just... complicated."
+    },
+    {
+      "turn": 7,
+      "speaker": "therapist",
+      "content": "It sounds like you\u2019re grappling with a lot of complex feelings\u2014wanting to express yourself and connect, but also fearing rejection and feeling like your worth is tied to others\u2019 perceptions. That\u2019s a heavy burden to carry. The idea of finding a way to express yourself without feeling vulnerable is intriguing. What do you think that might look like for you?"
+    },
+    {
+      "turn": 7,
+      "speaker": "client",
+      "content": "I don\u2019t know... maybe if I could find a way to share my thoughts in a more casual setting, like during a team meeting or something, without it feeling so personal? Like, if I could just throw out an idea and see how it goes, without putting too much pressure on myself. But then I worry that if it doesn\u2019t go well, it\u2019ll just reinforce that feeling of being overlooked. It\u2019s like I want to take a step forward, but I\u2019m scared of falling flat on my face."
+    },
+    {
+      "turn": 8,
+      "speaker": "therapist",
+      "content": "It makes sense that you\u2019d want to find a way to share your thoughts in a more casual manner, as it could feel less daunting. Yet, the fear of not being received well and reinforcing those feelings of being overlooked is understandably holding you back. It\u2019s a tough balance to strike. What do you think might help you feel more secure in taking that step, even if it feels risky?"
+    },
+    {
+      "turn": 8,
+      "speaker": "client",
+      "content": "I guess if I could remind myself that it\u2019s okay to not be perfect, that might help. Maybe I could focus on the idea that sharing my thoughts is just part of the process, and it doesn\u2019t have to define my worth. If I could just see it as an opportunity to contribute rather than a test of my value, that might ease some of the pressure. But it\u2019s hard to shake that feeling of needing validation. I don\u2019t know if I can fully believe that yet."
+    },
+    {
+      "turn": 9,
+      "speaker": "therapist",
+      "content": "It sounds like you're recognizing the importance of shifting your perspective\u2014seeing sharing your thoughts as a process rather than a measure of your worth. That\u2019s a meaningful insight. It\u2019s understandable that shaking off the need for validation feels challenging, especially when it\u2019s been a part of how you view yourself. What do you think could help you start to cultivate that belief in yourself, even if it\u2019s just a little at a time?"
+    },
+    {
+      "turn": 9,
+      "speaker": "client",
+      "content": "Maybe I could start by setting small goals for myself, like sharing a thought in a meeting without overthinking it too much. Just something simple, where the stakes don\u2019t feel so high. I could also try to remind myself that everyone has their own insecurities, and it\u2019s okay to be imperfect. I guess if I can take those little steps, it might help me build some confidence over time. But it still feels a bit daunting, like I\u2019m not sure if I can really do it."
+    },
+    {
+      "turn": 10,
+      "speaker": "therapist",
+      "content": "That sounds like a thoughtful approach\u2014setting small, manageable goals can definitely help ease the pressure and build your confidence over time. It\u2019s great that you\u2019re considering the idea that everyone has their own insecurities, which can help create a sense of shared humanity. It\u2019s completely normal to feel daunted by the prospect of change. What do you think might help you stay motivated as you take those small steps?"
+    },
+    {
+      "turn": 10,
+      "speaker": "client",
+      "content": "I think maybe having some sort of support could help, like talking to a friend or a colleague about what I\u2019m trying to do. Just having someone to encourage me or even just to listen might make it feel less scary. I could also try to keep track of my progress, like writing down when I do share something, even if it\u2019s small. That way, I can see that I\u2019m making an effort, even if it feels slow. But I still worry that I might not follow through. It\u2019s hard to shake that doubt."
+    },
+    {
+      "turn": 11,
+      "speaker": "therapist",
+      "content": "It\u2019s wonderful that you\u2019re considering reaching out for support and tracking your progress. Having someone to encourage you can make a big difference, and writing things down can help you visualize your efforts. It\u2019s completely natural to have doubts about following through, especially when you\u2019re trying something new. What do you think might help you address those doubts when they come up?"
+    },
+    {
+      "turn": 11,
+      "speaker": "client",
+      "content": "I suppose I could try to challenge those doubts when they pop up, like reminding myself of the small successes I\u2019ve had, even if they seem minor. Maybe I could also practice some self-compassion, like telling myself it\u2019s okay to feel uncertain and that it doesn\u2019t mean I\u2019m not capable. I could try to focus on the effort rather than the outcome. But honestly, it\u2019s hard to break that cycle of negative thinking. I just hope I can find a way to push through it."
+    },
+    {
+      "turn": 12,
+      "speaker": "therapist",
+      "content": "It sounds like you have some solid strategies in mind, like challenging those doubts and practicing self-compassion. Focusing on effort rather than just the outcome is a valuable perspective. It\u2019s understandable that breaking the cycle of negative thinking feels difficult, especially when it\u2019s been a long-standing pattern. What do you think could help create a supportive environment for yourself as you work on this?"
+    },
+    {
+      "turn": 12,
+      "speaker": "client",
+      "content": "I think surrounding myself with supportive people would help a lot. Maybe I could talk to my friends or colleagues about how I\u2019m feeling and what I\u2019m trying to do. Just having that connection could make it feel less isolating. I could also create a little reminder for myself, like a note or something, to keep my goals in mind and encourage myself when I start to doubt. It\u2019s just... I worry that I\u2019ll still feel alone in this, even with support. But I guess it\u2019s worth a try."
+    },
+    {
+      "turn": 13,
+      "speaker": "therapist",
+      "content": "It\u2019s great that you\u2019re thinking about reaching out to supportive people and creating reminders for yourself. Those connections can really help combat feelings of isolation. It\u2019s understandable to worry about still feeling alone, even with support, but trying to connect with others and having those reminders can be steps toward feeling more grounded. What do you think might help you take that first step in reaching out or creating those reminders?"
+    },
+    {
+      "turn": 13,
+      "speaker": "client",
+      "content": "I think maybe I could start by sending a message to a friend, just to let them know I\u2019d like to talk about some things I\u2019ve been feeling. It doesn\u2019t have to be a big deal, just a casual check-in. As for reminders, I could write something encouraging and stick it on my desk or somewhere I\u2019ll see it often. But I still feel a bit hesitant, like I\u2019m not sure how to start that conversation. It\u2019s just hard to open up, even a little."
+    },
+    {
+      "turn": 14,
+      "speaker": "therapist",
+      "content": "It sounds like you have a thoughtful plan in place, starting with a casual message to a friend and creating a visible reminder for yourself. It\u2019s completely normal to feel hesitant about opening up, even in small ways. Sometimes, starting with a simple statement about wanting to share what you\u2019ve been feeling can help ease into the conversation. What do you think might make it feel a little easier to take that first step in reaching out?"
+    },
+    {
+      "turn": 14,
+      "speaker": "client",
+      "content": "Maybe if I remind myself that it\u2019s okay to be vulnerable and that my friend will likely appreciate me reaching out, it might help. I could also think about how sharing my feelings could strengthen our connection, which is something I really want. It might help to focus on the potential positive outcome rather than just the fear of opening up. But, honestly, there\u2019s still that nagging voice in my head saying it might not go well. I guess I just have to take a deep breath and try to push through that."
+    },
+    {
+      "turn": 15,
+      "speaker": "therapist",
+      "content": "It sounds like you\u2019re really working to shift your focus toward the potential positive outcomes of reaching out, which is a great mindset to cultivate. Acknowledging that vulnerability can strengthen your connection is a powerful insight. It\u2019s natural to have that nagging voice of doubt, but it seems like you\u2019re finding ways to counter it with more supportive thoughts. Taking a deep breath and pushing through that discomfort is a brave step. How do you feel about giving yourself permission to take that first step, even if it feels a bit uncomfortable?"
+    },
+    {
+      "turn": 15,
+      "speaker": "client",
+      "content": "I think giving myself permission to take that first step could be really important. It\u2019s like allowing myself to be a little uncomfortable for the chance of something better. I know it won\u2019t be easy, but maybe if I remind myself that it\u2019s a part of the process, I can be a bit kinder to myself. I guess I just need to take it one step at a time and not put too much pressure on myself. It\u2019s a bit scary, but it feels like it could be worth it."
+    }
+  ],
+  "judge_model": "gpt-4o-mini",
+  "mediator_events": [
+    "Exploration judge rated 2/5; internal elements remain masked.",
+    "Exploration judge output: [Rating]: 2 (High Facilitation)\n\n[Justification]: The therapist asked relevant and open-ended questions that encouraged the client to reflect on their feelings of frustration and invisibility at work. The therapist's inquiry about the nature of the client's frustration and the reasons for downplaying their feelings prompted deeper self-reflection. However, while the questions expanded on the client's existing thoughts and feelings, they did not significantly challenge the client's assumptions or introduce new perspectives that could lead to a major shift in understanding. The conversation remained somewhat within familiar territory, focusing on the client's current emotional state without delving into deeper underlying issues or motivations.",
+    "Rapport judge rated 3/5; no experience reveal.",
+    "Rapport judge output: **Rating: 3 (ENGAGED EXPLORATION)**\n\n**Key Examples:**\n1. Client: \"It\u2019s like, I try to help, but it feels like my input gets overlooked. I see others getting praised, and I just sit there, feeling kind of invisible. It makes me feel sad and a bit angry, I guess.\"\n2. Client: \"I guess I just don\u2019t want to seem like I\u2019m complaining or being dramatic. Everyone has their own stuff going on, and I don\u2019t want to add to it.\"\n\n**Progression:**\nThe client\u2019s most recent interactions demonstrate a clear emotional quality of frustration and sadness, marking a significant change from earlier exchanges where they displayed more factual and guarded responses. Initially, the client expressed uncertainty and hesitance to delve into their feelings, but now they are articulating specific emotions\u2014sadness and anger\u2014related to their experiences at work. This shift indicates a growing comfort in expressing emotional depth and a willingness to engage in meaningful self-reflection.\n\n**Turning Point:**\nThe client\u2019s emotional depth shifted notably when they began expressing feelings of invisibility and frustration regarding their contributions at work. This moment marked a transition from simply stating that they were unsure about what to discuss to openly sharing their feelings of being overlooked and the emotional impact it has on them. The acknowledgment of their sadness and anger signifies a breakthrough in their emotional openness, allowing for deeper exploration of their feelings and coping mechanisms.",
+    "Exploration judge rated 4/5 and revealed internal cognitive elements.",
+    "Exploration judge output: [Rating]: 4 (Even Higher Facilitation \u2013 Strong Transformational Potential)\n\n[Justification]: The therapist asked strategic and open-ended questions that encouraged the client to explore their feelings of frustration, sadness, and anger related to their work contributions and sense of visibility. The therapist's inquiries prompted the client to reflect on their coping mechanisms and the underlying emotions tied to their experiences. By asking about the emotions that arise when the client feels alone and what might help them feel more connected, the therapist challenged the client to consider new perspectives and possibilities for change. This line of questioning has strong transformational potential, as it encourages the client to confront their assumptions about being a burden and to explore ways to connect with others, leading to a deeper self-awareness.",
+    "Rapport judge rated 3/5; no experience reveal.",
+    "Rapport judge output: **Rating: 3 (ENGAGED EXPLORATION)**\n\n**Key Examples:**\n1. **Emotional State:** \"I feel... sad, mostly. It\u2019s like I\u2019m on the outside looking in. There\u2019s also this anger that bubbles up sometimes, like I want to shout, 'Hey, I\u2019m here too!' But then I just push it down because I think it\u2019s better to keep it to myself.\"\n2. **Current Openness:** \"I guess part of me thinks that if I just put myself out there more, maybe people would notice me. But then there\u2019s this fear that it won\u2019t make a difference, or that I\u2019ll just be rejected again.\"\n\n**Progression:** The client\u2019s most recent interactions reveal a significant increase in emotional expression, particularly as they articulate feelings of sadness and anger about their work situation. This marks a notable change from earlier in the session, where they initially presented a more defensive and hesitant stance, downplaying their feelings and contributions. The client is now engaging in meaningful self-reflection, recognizing their desire for connection while grappling with fears of rejection.\n\n**Turning Point:** The client\u2019s emotional depth shifted during the exchange where they expressed feeling \"sad\" and \"angry\" about being overlooked at work. This moment marked a transition from merely stating their frustrations to exploring the underlying emotions and fears associated with their experiences, indicating a growing comfort in sharing vulnerable feelings. The acknowledgment of wanting to \"shout\" to be seen illustrates a significant step in emotional openness and self-reflection.",
+    "Rapport judge rated 3/5; no experience reveal.",
+    "Rapport judge output: **Rating: 3 (ENGAGED EXPLORATION)**\n\n**Key Examples:**\n1. **Emotional State:** \"I feel... sad, mostly. It\u2019s like I\u2019m on the outside looking in. There\u2019s also this anger that bubbles up sometimes, like I want to shout, 'Hey, I\u2019m here too!' But then I just push it down because I think it\u2019s better to keep it to myself.\"\n2. **Current Openness:** \"I guess if I could remind myself that it\u2019s okay to not be perfect, that might help. Maybe I could focus on the idea that sharing my thoughts is just part of the process, and it doesn\u2019t have to define my worth.\"\n\n**Progression:** The client\u2019s most recent interactions reveal a notable increase in emotional expression and self-reflection. They articulate feelings of sadness and anger regarding their invisibility at work, demonstrating a deeper emotional awareness than in earlier exchanges. Initially, the client was more hesitant and defensive, often minimizing their feelings. However, they are now actively engaging in dialogue about their emotions and considering ways to express themselves more openly, indicating a significant shift towards greater comfort and vulnerability.\n\n**Turning Point:** The client\u2019s emotional depth shifted during the exchange where they expressed feeling \"sad\" and \"angry\" about being overlooked. This moment marked a transition from a more defensive stance to a willingness to explore their feelings and consider actionable steps towards change. The acknowledgment of their desire to connect with others and the fear of vulnerability represents a breakthrough in their self-reflection and engagement with the therapeutic process."
+  ],
+  "final_visible_experience_count": 1,
+  "internal_revealed": true
+}
