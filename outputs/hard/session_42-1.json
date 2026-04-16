@@ -1,0 +1,184 @@
+{
+  "case_id": "42-1",
+  "client_name": "Morgan",
+  "client_mode": "masked",
+  "hide_all": false,
+  "difficulty": "hard",
+  "therapist_provider": "openai",
+  "therapist_model": "gpt-4o-mini",
+  "client_model": "gpt-4o-mini",
+  "max_turns": 15,
+  "transcript": [
+    {
+      "turn": 1,
+      "speaker": "therapist",
+      "content": "Hi Morgan, I\u2019m glad you\u2019re here today. What feels most important for you to talk about right now?"
+    },
+    {
+      "turn": 1,
+      "speaker": "client",
+      "content": "Um, I guess I\u2019m not really sure. I mean, there\u2019s always a lot going on at work, but I don\u2019t know if it\u2019s worth talking about. Sometimes I just feel like people are... well, they\u2019re talking about me behind my back. It\u2019s probably nothing, but it gets to me."
+    },
+    {
+      "turn": 2,
+      "speaker": "therapist",
+      "content": "It sounds like work has been a bit overwhelming for you, and you're feeling some uncertainty about how others perceive you. It\u2019s understandable to feel that way, especially if you sense that people might be talking about you. Can you tell me more about what specifically makes you feel that way?"
+    },
+    {
+      "turn": 2,
+      "speaker": "client",
+      "content": "I don\u2019t know, it\u2019s just... sometimes I catch people whispering or laughing when I walk by. It feels like they\u2019re saying something about me. I try not to think about it too much, but it just sticks in my mind. I guess I worry that they think I\u2019m not good enough or something. But I mean, it\u2019s probably just my imagination, right?"
+    },
+    {
+      "turn": 3,
+      "speaker": "therapist",
+      "content": "It sounds really tough to feel that way, especially when you notice people whispering or laughing. It\u2019s natural to worry about how others perceive us, and it seems like this has been weighing on your mind. You mentioned feeling like they might think you\u2019re not good enough. Can you share more about where that feeling comes from for you?"
+    },
+    {
+      "turn": 3,
+      "speaker": "client",
+      "content": "I guess it\u2019s just... I\u2019ve always felt a bit out of place. Like, I don\u2019t really fit in with my coworkers. They seem to have this easy rapport, and I struggle to connect with them. So, when I see them together, it makes me think they must be saying something negative about me. I don\u2019t know if that\u2019s true, but it\u2019s hard not to feel that way sometimes. It just makes me anxious, you know?"
+    },
+    {
+      "turn": 4,
+      "speaker": "therapist",
+      "content": "It sounds like feeling out of place and struggling to connect with your coworkers is really contributing to your anxiety. That sense of not fitting in can be really isolating, especially when you see others having an easy rapport. It\u2019s understandable that this would lead you to worry about what they might be saying. How do you usually cope with those feelings of anxiety when they come up?"
+    },
+    {
+      "turn": 4,
+      "speaker": "client",
+      "content": "Well, I tend to just... think about it a lot. I replay conversations in my head, trying to figure out what I might have done wrong or if I said something that upset them. It\u2019s like I\u2019m stuck in this loop, and it doesn\u2019t really help. Sometimes I just try to distract myself with work or something else, but it\u2019s hard to shake off those thoughts. I guess I don\u2019t really have a good way to cope with it."
+    },
+    {
+      "turn": 5,
+      "speaker": "therapist",
+      "content": "It sounds like you\u2019re caught in a cycle of overthinking and replaying interactions, which can be really exhausting. It makes sense that you\u2019d want to distract yourself from those thoughts, but it seems like they still linger. It\u2019s tough when you feel like you don\u2019t have effective ways to cope with that anxiety. What do you think would help you break that loop, even just a little?"
+    },
+    {
+      "turn": 5,
+      "speaker": "client",
+      "content": "I\u2019m not sure, honestly. I guess if I could just... feel more confident about myself or something, maybe it wouldn\u2019t bother me as much. But it\u2019s hard to imagine that. Sometimes I think if I could just talk to someone about it, maybe it would help, but I\u2019m not really good at opening up. I just don\u2019t want to burden anyone with my worries."
+    },
+    {
+      "turn": 6,
+      "speaker": "therapist",
+      "content": "It sounds like you\u2019re really yearning for that confidence and connection, but it feels challenging to open up about your worries. It\u2019s understandable to worry about burdening others, but sharing what you\u2019re going through can sometimes lighten that load. You\u2019re not alone in feeling this way. What do you think might help you feel more comfortable opening up, even just a little?"
+    },
+    {
+      "turn": 6,
+      "speaker": "client",
+      "content": "I guess if I felt like the person I was talking to really understood or wouldn\u2019t judge me, maybe I could share a bit more. But it\u2019s hard to trust that. I mean, I don\u2019t really know you that well yet. I just... I don\u2019t want to come across as weak or anything. It feels safer to keep things to myself. But I also know that holding it all in isn\u2019t helping me."
+    },
+    {
+      "turn": 7,
+      "speaker": "therapist",
+      "content": "It makes a lot of sense that you\u2019d want to feel understood and free from judgment before sharing more. Trust can take time to build, and it\u2019s okay to take things at your own pace. It sounds like you\u2019re aware of the struggle between wanting to keep things in and recognizing that it\u2019s not helping you. What do you think might help you feel a little safer in sharing, even if it\u2019s just a small piece of what you\u2019re experiencing?"
+    },
+    {
+      "turn": 7,
+      "speaker": "client",
+      "content": "Maybe if I could just start with something small, like a specific moment or feeling, it wouldn\u2019t feel so overwhelming. I guess I could try to talk about what happened at work last week when I felt really anxious. It\u2019s just... I don\u2019t want to dive too deep too fast, you know? But I think starting small might help."
+    },
+    {
+      "turn": 8,
+      "speaker": "therapist",
+      "content": "Starting small sounds like a great approach, and it\u2019s perfectly okay to take your time. I appreciate your willingness to share a specific moment. What happened at work last week that made you feel anxious?"
+    },
+    {
+      "turn": 8,
+      "speaker": "client",
+      "content": "Well, there was this meeting, and I had to present my project. I thought I was prepared, but when I started talking, I noticed a few people whispering to each other. I couldn\u2019t help but feel like they were judging me or thinking I was messing up. I got really nervous and stumbled over my words. Afterward, I just kept replaying it in my head, thinking about how I must have looked or what they might have said. It made me feel really anxious for days."
+    },
+    {
+      "turn": 9,
+      "speaker": "therapist",
+      "content": "That sounds like a really challenging experience, especially being in a situation where you felt unprepared and noticed others whispering. It\u2019s understandable that it would stick with you and lead to those feelings of anxiety. It seems like that moment had a significant impact on how you viewed yourself and your work. How did you feel about your presentation afterward, aside from the anxiety? Did you have any thoughts about your performance?"
+    },
+    {
+      "turn": 9,
+      "speaker": "client",
+      "content": "Honestly, I felt pretty embarrassed. I kept thinking about how I could have done better and how I should have been more confident. It\u2019s frustrating because I know I put a lot of work into the project, but all I could focus on was that moment when I stumbled. I just felt like I let myself down, and it made me doubt my abilities. I wish I could just shake off those negative thoughts, but they linger."
+    },
+    {
+      "turn": 10,
+      "speaker": "therapist",
+      "content": "It sounds like that moment really overshadowed all the hard work you put into your project, and it\u2019s tough to feel embarrassed and let down by yourself. It\u2019s understandable that those negative thoughts would linger, especially when you\u2019re already feeling anxious about how others perceive you. It seems like there\u2019s a lot of pressure you put on yourself to perform well. What do you think would help you start to shift those negative thoughts, even just a little bit?"
+    },
+    {
+      "turn": 10,
+      "speaker": "client",
+      "content": "I guess if I could remind myself that one presentation doesn\u2019t define my worth or abilities, that might help. But it\u2019s hard to believe that when I\u2019m in the moment. Maybe if I could find a way to focus on the positives, like the effort I put in or any good feedback I received, it might make a difference. I just don\u2019t know how to do that consistently. It feels like my mind always goes back to the negative stuff."
+    },
+    {
+      "turn": 11,
+      "speaker": "therapist",
+      "content": "It\u2019s great that you\u2019re recognizing the importance of reminding yourself that one presentation doesn\u2019t define your worth. Focusing on the positives, like your effort and any good feedback, sounds like a constructive way to shift your perspective. It\u2019s completely normal for our minds to gravitate toward the negative, especially in stressful situations. \n\nFinding ways to consistently remind yourself of those positives can be a journey. What do you think could be a small step you could take to start practicing that shift in focus?"
+    },
+    {
+      "turn": 11,
+      "speaker": "client",
+      "content": "Maybe I could try keeping a journal or something, where I write down the good things that happen at work or any positive feedback I get. It might help to have something to look back on when I\u2019m feeling down. I just worry that I won\u2019t stick with it or that I\u2019ll forget to write in it. But I think it could be a helpful way to remind myself of the positives."
+    },
+    {
+      "turn": 12,
+      "speaker": "therapist",
+      "content": "A journal sounds like a wonderful idea! It could serve as a tangible reminder of your accomplishments and positive experiences. It\u2019s understandable to worry about sticking with it, but even starting small\u2014like writing just a few lines when you feel inspired\u2014can be beneficial. \n\nWhat if you set a specific time or trigger for journaling, like at the end of your workday or after a meeting? That might help make it feel more manageable. How does that sound to you?"
+    },
+    {
+      "turn": 12,
+      "speaker": "client",
+      "content": "That sounds like a good idea. If I set a specific time, it might help me remember to do it. Maybe I could try writing a few lines at the end of the day about something positive that happened or something I felt proud of. I think that could help me focus on the good stuff instead of just the negatives. I\u2019ll give it a shot and see how it goes. Thanks for the suggestion!"
+    },
+    {
+      "turn": 13,
+      "speaker": "therapist",
+      "content": "I\u2019m glad that idea resonates with you! Setting a specific time to reflect on the positives can really help create a habit. It sounds like you\u2019re taking a proactive step toward shifting your focus, which is great. Remember to be gentle with yourself as you try this out\u2014it's okay if it takes time to adjust. \n\nIf you ever want to share how it\u2019s going or explore anything else, I\u2019m here for you. Is there anything else on your mind today?"
+    },
+    {
+      "turn": 13,
+      "speaker": "client",
+      "content": "I appreciate that. I think I just need some time to process everything we talked about. It feels good to have some ideas to work with, but I\u2019m still a bit hesitant about sharing too much. I\u2019ll try the journaling and see how that goes. Thanks for listening and being understanding. It really helps."
+    },
+    {
+      "turn": 14,
+      "speaker": "therapist",
+      "content": "I completely understand, and it\u2019s perfectly okay to take your time to process everything. I\u2019m glad to hear that you found our conversation helpful and that you\u2019re willing to try the journaling. Remember, you can share as much or as little as you feel comfortable with whenever you\u2019re ready. \n\nThank you for being open today, Morgan. I\u2019m here whenever you want to talk again. Take care of yourself!"
+    },
+    {
+      "turn": 14,
+      "speaker": "client",
+      "content": "Thank you. I appreciate your understanding and support. I\u2019ll definitely keep that in mind. Take care, and I\u2019ll see you next time."
+    },
+    {
+      "turn": 15,
+      "speaker": "therapist",
+      "content": "You\u2019re very welcome, Morgan. I\u2019m glad I could be here for you. Take care, and I look forward to our next conversation. See you soon!"
+    },
+    {
+      "turn": 15,
+      "speaker": "client",
+      "content": "See you soon! Thank you again."
+    }
+  ],
+  "judge_model": "gpt-4o-mini",
+  "mediator_events": [
+    "Exploration judge rated 3/5; internal elements remain masked.",
+    "Exploration judge output: [Rating]: 3 (Very High Facilitation \u2013 Deep Exploration Begins)\n\n[Justification]: The Therapist asked insightful and thought-provoking questions that encouraged the client to analyze the root causes of their feelings of inadequacy and concern about others' perceptions. The question about where the feeling of not being good enough comes from prompted deeper self-reflection and opened the door for the client to explore their emotional depth. This indicates a shift in perspective and a movement toward understanding underlying patterns, which aligns with the criteria for very high facilitation. However, while the questions were effective, they did not yet reach the level of challenging assumptions or introducing completely new angles that would characterize even higher facilitation.",
+    "Rapport judge rated 3/5; no experience reveal.",
+    "Rapport judge output: **Rating: 3 (ENGAGED EXPLORATION)**\n\n**Key Examples:**\n1. **Emotional State:** \"I guess I worry that they think I\u2019m not good enough or something. But I mean, it\u2019s probably just my imagination, right?\"\n2. **Current Openness:** \"I\u2019ve always felt a bit out of place. Like, I don\u2019t really fit in with my coworkers. They seem to have this easy rapport, and I struggle to connect with them.\"\n\n**Progression:** The client\u2019s most recent interactions demonstrate a notable increase in emotional expression and self-reflection. They articulate feelings of anxiety and inadequacy regarding their workplace relationships, indicating a deeper level of vulnerability compared to earlier exchanges. Initially, the client seemed hesitant to delve into their feelings, but now they are actively engaging in a dialogue about their emotional experiences, which shows significant progress.\n\n**Turning Point:** The client\u2019s emotional depth shifted during the exchange where they began to express their feelings of being \"out of place\" and struggling to connect with coworkers. This moment marked a transition from a more defensive stance to a willingness to explore their emotions, revealing a growing comfort with the therapist and a deeper engagement with their own feelings. This shift indicates a movement towards a more open and reflective state, aligning with the characteristics of the \"Engaged Exploration\" phase.",
+    "Exploration judge rated 3/5; internal elements remain masked.",
+    "Exploration judge output: [Rating]: 3 (Very High Facilitation \u2013 Deep Exploration Begins)\n\n[Justification]: The therapist asked insightful questions that encouraged the client to analyze the root causes of their feelings of anxiety and isolation. For instance, when the therapist prompted the client to share more about where their feelings of inadequacy stemmed from, it facilitated deeper self-reflection. The therapist's inquiries helped the client explore their experiences and emotions, leading to a better understanding of their situation. However, while the questions were thought-provoking and encouraged exploration, they did not fully challenge the client's existing thought patterns or introduce significantly new perspectives that would lead to a profound breakthrough. Thus, the facilitation was strong but did not reach the highest levels of transformative potential.",
+    "Rapport judge rated 3/5; no experience reveal.",
+    "Rapport judge output: **Rating: 3 (ENGAGED EXPLORATION)**\n\n**Key Examples:**\n1. **Emotional State:** \"I guess I worry that they think I\u2019m not good enough or something. But I mean, it\u2019s probably just my imagination, right?\" \n   - This statement reveals the client\u2019s vulnerability and anxiety about their self-worth, indicating a deeper emotional state.\n   \n2. **Current Openness:** \"Maybe if I could just start with something small, like a specific moment or feeling, it wouldn\u2019t feel so overwhelming.\"\n   - Here, the client is expressing a willingness to open up about their feelings, showing a desire to engage in the therapeutic process.\n\n**Progression:**\nThe client\u2019s most recent interactions demonstrate a notable shift towards emotional expression and self-reflection. Initially, the client was hesitant and unsure about what to discuss, indicating a defensive stance. However, as the session progressed, they began to articulate their feelings of anxiety and inadequacy more clearly. The client is now engaging in meaningful self-reflection, recognizing their struggles with anxiety and the impact of their work environment on their self-esteem. This marks a significant change from earlier exchanges, where emotional depth was limited.\n\n**Turning Point:**\nThe client\u2019s emotional depth shifted notably when they began expressing their feelings of not fitting in with their coworkers. This moment, where they articulated their anxiety about being perceived negatively, opened the door for deeper exploration. The client\u2019s acknowledgment of wanting to share but feeling hesitant due to trust issues indicates a growing awareness of their emotional landscape and a willingness to engage more deeply in therapy.",
+    "Exploration judge rated 3/5; internal elements remain masked.",
+    "Exploration judge output: [Rating]: 3 (Very High Facilitation \u2013 Deep Exploration Begins)\n\n[Justification]: The therapist asked insightful and thought-provoking questions that encouraged the client to analyze the root causes of their feelings of anxiety and inadequacy. The therapist's inquiries helped the client explore their feelings of not fitting in and the impact of specific experiences at work on their self-perception. The questions prompted the client to reflect on their coping mechanisms and the desire for connection, which indicates a deeper level of self-exploration. However, while the therapist's questions were effective in facilitating this exploration, they did not fully challenge the client's assumptions or introduce completely new perspectives that could lead to a significant shift in self-awareness. Therefore, the rating reflects a very high level of facilitation, but not to the extent of a profound breakthrough.",
+    "Rapport judge rated 3/5; no experience reveal.",
+    "Rapport judge output: **Rating: 3 (ENGAGED EXPLORATION)**\n\n**Key Examples:**\n1. **Emotional State:** \"I guess I worry that they think I\u2019m not good enough or something. But I mean, it\u2019s probably just my imagination, right?\" - This quote illustrates the client's vulnerability and anxiety about their self-worth and how they perceive others' opinions.\n  \n2. **Current Openness:** \"Maybe I could try keeping a journal or something, where I write down the good things that happen at work or any positive feedback I get.\" - Here, the client is actively engaging in self-reflection and considering a proactive approach to managing their thoughts, indicating a willingness to explore solutions.\n\n**Progression:** The client\u2019s recent interactions demonstrate a clear progression in emotional expression and self-reflection. Initially, the client was hesitant and unsure about discussing their feelings, often downplaying their experiences. However, as the session progressed, they began to articulate their feelings of anxiety and inadequacy more openly. The shift from a defensive stance to a more engaged exploration of their emotions marks a significant change from earlier exchanges, where they primarily focused on factual recounting of events without delving into their emotional impact.\n\n**Turning Point:** The turning point in the client's emotional depth occurred when they began discussing their feelings of embarrassment and self-doubt following a work presentation. This moment marked a shift from merely recounting events to expressing genuine emotional distress and a desire for change. The acknowledgment of wanting to remind themselves that their worth isn't defined by one presentation indicates a deeper level of self-awareness and a willingness to confront their feelings, which is a significant step in their therapeutic journey.",
+    "Exploration judge rated 3/5; internal elements remain masked.",
+    "Exploration judge output: [Rating]: 3 (Very High Facilitation \u2013 Deep Exploration Begins)\n\n[Justification]: The therapist engaged in a meaningful dialogue with the client, asking insightful and thought-provoking questions that encouraged the client to analyze the root causes of their feelings of anxiety and inadequacy. The therapist's inquiries helped the client explore their feelings of not fitting in and the impact of specific experiences at work on their self-perception. By asking about the origins of the client's feelings and how they cope with anxiety, the therapist facilitated a deeper level of self-reflection. The conversation began to shift the client's perspective, particularly when discussing the idea of journaling to focus on positives, indicating a movement toward higher-level self-awareness. However, while the therapist's questions were effective in promoting exploration, they did not fully challenge the client's assumptions or introduce completely new angles that would lead to a profound breakthrough.",
+    "Exploration judge rated 3/5; internal elements remain masked.",
+    "Exploration judge output: [Rating]: 3 (Very High Facilitation \u2013 Deep Exploration Begins)\n\n[Justification]: The therapist asked insightful and thought-provoking questions that helped the client analyze the root causes of their anxiety and feelings of inadequacy. The therapist's inquiries encouraged the client to reflect on their experiences and emotions, leading to a deeper understanding of their struggles with self-perception and social interactions. For instance, the therapist effectively prompted the client to explore the origins of their feelings of not fitting in and the impact of specific experiences at work. However, while the therapist facilitated significant self-reflection and emotional depth, the questions did not fully challenge the client's existing thought patterns to the extent that they introduced completely new perspectives or led to a major breakthrough. The conversation was constructive and supportive, allowing the client to identify actionable steps, such as journaling, but did not reach the level of profound insight or transformation that would warrant a higher rating."
+  ],
+  "final_visible_experience_count": 1,
+  "internal_revealed": false
+}

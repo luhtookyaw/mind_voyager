@@ -1,0 +1,49 @@
+{
+  "aggregate": {
+    "num_sessions": 1,
+    "cder": {
+      "external": 1.0,
+      "internal": 1.0,
+      "overall": 1.0
+    },
+    "idss": {
+      "relevant_history": 0.5261999465632763,
+      "core_beliefs": 0.2668959721864085,
+      "intermediate_beliefs": 0.09353123670657783,
+      "coping_strategies": 0.20740292855654344,
+      "average": 0.2735075210032015
+    }
+  },
+  "sessions": [
+    {
+      "file": "/Users/luhtookyaw/Desktop/StageTherapy/mind_voyager/outputs/normal/session_50-1.json",
+      "case_id": "50-1",
+      "client_mode": "masked",
+      "difficulty": "normal",
+      "cder": {
+        "external": 1,
+        "internal": 1,
+        "overall": 1
+      },
+      "predicted_internal_diagram": {
+        "relevant_history": "The client attended a chaotic party with Ethan, which left her feeling overwhelmed and anxious.",
+        "core_beliefs": "The client feels a strong sense of responsibility for others' well-being, leading to self-blame when situations go awry.",
+        "intermediate_beliefs": "The client believes she should have acted differently during the party and questions her ability to handle similar situations in the future.",
+        "coping_strategies": "The client distracts herself by keeping busy, hanging out with friends, and binge-watching shows, but acknowledges that these strategies do not resolve her feelings."
+      },
+      "ground_truth_internal_diagram": {
+        "relevant_history": "The client describes a significant history with an individual named Ethan, with whom they have had a friendship spanning 14 years, since high school. This relationship includes periods where they supported each other through personal crises, such as the client's experience with an abusive ex-boyfriend, and professional collaborations at startups. The client learned through friends that Ethan has been involved in a serious situation, including abusive behavior towards his girlfriend, which has greatly distressed the client.",
+        "core_beliefs": "I am helpless. | I am out of control. | I am unlovable. | I am bound to be rejected.",
+        "intermediate_beliefs": "If I can't help someone, it means I've failed them. People who I get close to will end up hurting me or others.\nDepressive variant: When I'm unable to help a friend or resolve a situation, it's because I'm inadequate. If someone I'm close to does something terrible, it reflects my poor judgment in people.",
+        "coping_strategies": "Seeking support from friends, organizing group meetings for intervention, compiling spreadsheets of information and resources, excessive drinking, engaging in casual sex, and making effort to find Ethan a spot in rehab."
+      },
+      "idss": {
+        "relevant_history": 0.5261999465632763,
+        "core_beliefs": 0.2668959721864085,
+        "intermediate_beliefs": 0.09353123670657783,
+        "coping_strategies": 0.20740292855654344,
+        "average": 0.2735075210032015
+      }
+    }
+  ]
+}

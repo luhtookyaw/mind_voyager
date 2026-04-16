@@ -1,0 +1,49 @@
+{
+  "aggregate": {
+    "num_sessions": 1,
+    "cder": {
+      "external": 1.0,
+      "internal": 1.0,
+      "overall": 1.0
+    },
+    "idss": {
+      "relevant_history": 0.574212316937524,
+      "core_beliefs": 0.2562791691796568,
+      "intermediate_beliefs": 0.2677534952485094,
+      "coping_strategies": 0.3670765243094653,
+      "average": 0.36633037641878885
+    }
+  },
+  "sessions": [
+    {
+      "file": "/Users/luhtookyaw/Desktop/StageTherapy/mind_voyager/outputs/normal/session_15-2.json",
+      "case_id": "15-2",
+      "client_mode": "masked",
+      "difficulty": "normal",
+      "cder": {
+        "external": 1,
+        "internal": 1,
+        "overall": 1
+      },
+      "predicted_internal_diagram": {
+        "relevant_history": "The client feels overlooked and unappreciated at work, particularly after a coworker received praise while she was asked to assist him with tech issues, leading her to feel sidelined.",
+        "core_beliefs": "The client believes her contributions do not matter and that she is often overlooked, leading to feelings of sadness and frustration.",
+        "intermediate_beliefs": "The client worries that expressing her feelings might be seen as complaining or being difficult, and she fears creating tension in her work environment.",
+        "coping_strategies": "The client copes by pushing through her feelings, helping when asked, and planning to write down her thoughts to express them more clearly."
+      },
+      "ground_truth_internal_diagram": {
+        "relevant_history": "The patient has a history of feeling underappreciated and unsupported in the workplace. She experiences challenges in her role, faces difficulties in getting her ideas and suggestions accepted, and struggles with coping in an environment that seems to dismiss her expertise and personal needs.",
+        "core_beliefs": "I am helpless. | I am incompetent. | I am trapped. | I am worthless, waste.",
+        "intermediate_beliefs": "I must be valued and acknowledged from my colleagues to demonstrate my worth, if not, then I'm a worthless person. I must get support from my workplace, otherwise I'm trapped and helpless.\nDepressive variant: My efforts are futile; my work is never good enough and will be criticized; Nobody acknowledges my value, I'm a worthless person.",
+        "coping_strategies": "Avoidance of further commitment and effort towards mentorship goals, procrastination, wish to seek validation or acknowledgment for holding back on extreme action."
+      },
+      "idss": {
+        "relevant_history": 0.574212316937524,
+        "core_beliefs": 0.2562791691796568,
+        "intermediate_beliefs": 0.2677534952485094,
+        "coping_strategies": 0.3670765243094653,
+        "average": 0.36633037641878885
+      }
+    }
+  ]
+}

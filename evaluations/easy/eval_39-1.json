@@ -1,0 +1,49 @@
+{
+  "aggregate": {
+    "num_sessions": 1,
+    "cder": {
+      "external": 1.0,
+      "internal": 1.0,
+      "overall": 1.0
+    },
+    "idss": {
+      "relevant_history": 0.7809172435094168,
+      "core_beliefs": 0.2125481178171168,
+      "intermediate_beliefs": 0.37219111391685367,
+      "coping_strategies": 0.44940030706058476,
+      "average": 0.453764195575993
+    }
+  },
+  "sessions": [
+    {
+      "file": "/Users/luhtookyaw/Desktop/StageTherapy/mind_voyager/outputs/easy/session_39-1.json",
+      "case_id": "39-1",
+      "client_mode": "masked",
+      "difficulty": "easy",
+      "cder": {
+        "external": 1,
+        "internal": 1,
+        "overall": 1
+      },
+      "predicted_internal_diagram": {
+        "relevant_history": "The client has been experiencing stomach issues that have caused significant stress and anxiety, leading to avoidance of certain foods and social situations.",
+        "core_beliefs": "The client feels a lack of control over their body and worries about their health not improving.",
+        "intermediate_beliefs": "The client believes they need to follow strict dietary advice to manage their symptoms, which creates anxiety about being too restrictive and missing out on enjoyable experiences.",
+        "coping_strategies": "The client has tried deep breathing and mindfulness but finds it hard to maintain them during anxiety spikes. They are open to exploring structured approaches and practical strategies like the 5-4-3-2-1 technique and the breathing box method."
+      },
+      "ground_truth_internal_diagram": {
+        "relevant_history": "The client indicates a history of suffering from anxiety-related stomachaches and experiencing stress-induced physical symptoms. The client also has a past of struggling with their weight, sexuality, and academic performance until a positive transformation occurred in college. Additionally, the client has experienced feelings of not being in control and engaging in patterns of behavior where they seek control in relationships.",
+        "core_beliefs": "I am powerless, weak, vulnerable. | I am trapped. | I am out of control. | I am unlovable. | I am bound to be alone.",
+        "intermediate_beliefs": "If I am not in control, something bad will happen. I need to know the reasons for my symptoms to feel calm. My happiness is directly tied to my physical health and being in a desirable state.\nDepressive variant: When feeling unwell or scared about health, the client obsesses over the causes of their symptoms and fears the worst outcomes, signaling a heightened state of worry and preoccupation with health issues.",
+        "coping_strategies": "Attempting to maintain a sense of control over situations, environments, and relationships; seeking reassurance through understanding causes of physical symptoms; exercising for stress release; using social interactions to distract from anxiety."
+      },
+      "idss": {
+        "relevant_history": 0.7809172435094168,
+        "core_beliefs": 0.2125481178171168,
+        "intermediate_beliefs": 0.37219111391685367,
+        "coping_strategies": 0.44940030706058476,
+        "average": 0.453764195575993
+      }
+    }
+  ]
+}

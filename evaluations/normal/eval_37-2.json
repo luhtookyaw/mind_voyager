@@ -1,0 +1,49 @@
+{
+  "aggregate": {
+    "num_sessions": 1,
+    "cder": {
+      "external": 1.0,
+      "internal": 1.0,
+      "overall": 1.0
+    },
+    "idss": {
+      "relevant_history": 0.49427470484433716,
+      "core_beliefs": 0.2196419432278357,
+      "intermediate_beliefs": 0.43649400497850294,
+      "coping_strategies": 0.41185509226492195,
+      "average": 0.3905664363288994
+    }
+  },
+  "sessions": [
+    {
+      "file": "/Users/luhtookyaw/Desktop/StageTherapy/mind_voyager/outputs/normal/session_37-2.json",
+      "case_id": "37-2",
+      "client_mode": "masked",
+      "difficulty": "normal",
+      "cder": {
+        "external": 1,
+        "internal": 1,
+        "overall": 1
+      },
+      "predicted_internal_diagram": {
+        "relevant_history": "The client has been feeling frustrated at work due to being asked to put in extra hours without recognition or compensation, leading to feelings of being taken for granted.",
+        "core_beliefs": "The client believes that their feelings are valid and that it is okay to express them.",
+        "intermediate_beliefs": "The client worries about being seen as difficult or confrontational and feels hesitant to reach out for support due to the fear of burdening others.",
+        "coping_strategies": "The client plans to write down their thoughts to clarify their feelings and prepare for conversations, and they aim to remind themselves to be gentle and non-judgmental during this process."
+      },
+      "ground_truth_internal_diagram": {
+        "relevant_history": "The client has a history involving a stressful labor dispute situation at a previous workplace, which seems to have had a significant impact on their views regarding fairness, compensation, and trust in authority figures.",
+        "core_beliefs": "I am unlovable. | I am bound to be rejected. | I am bound to be abandoned.",
+        "intermediate_beliefs": "Others will not fairly compensate or recognize my effort; authority figures cannot be trusted; my feelings and reactions may not be valid.\nDepressive variant: People are fundamentally selfish and exploitative; I cannot rely on others for basic fairness or understanding.",
+        "coping_strategies": "Seeking validation through persuasion and argumentation; becoming angry and resistant as a way to assert control; intellectualizing emotional responses."
+      },
+      "idss": {
+        "relevant_history": 0.49427470484433716,
+        "core_beliefs": 0.2196419432278357,
+        "intermediate_beliefs": 0.43649400497850294,
+        "coping_strategies": 0.41185509226492195,
+        "average": 0.3905664363288994
+      }
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "aggregate": {
+    "num_sessions": 1,
+    "cder": {
+      "external": 1.0,
+      "internal": 1.0,
+      "overall": 1.0
+    },
+    "idss": {
+      "relevant_history": 0.6555737736379584,
+      "core_beliefs": 0.21771890308308428,
+      "intermediate_beliefs": 0.381549178622373,
+      "coping_strategies": 0.42555882062055983,
+      "average": 0.4201001689909939
+    }
+  },
+  "sessions": [
+    {
+      "file": "/Users/luhtookyaw/Desktop/StageTherapy/mind_voyager/outputs/easy/session_10-2.json",
+      "case_id": "10-2",
+      "client_mode": "masked",
+      "difficulty": "easy",
+      "cder": {
+        "external": 1,
+        "internal": 1,
+        "overall": 1
+      },
+      "predicted_internal_diagram": {
+        "relevant_history": "The client has been struggling with friendships since their divorce, feeling a loss of connections and a sense of exclusion.",
+        "core_beliefs": "The client believes they might be the problem in their friendships and fears being judged or seen as a failure.",
+        "intermediate_beliefs": "The client thinks that being vulnerable could lead to rejection and that their flaws make them less worthy of friendship.",
+        "coping_strategies": "The client plans to reach out to a friend, write down their thoughts, practice positive self-talk, and keep a journal to track progress and celebrate small steps."
+      },
+      "ground_truth_internal_diagram": {
+        "relevant_history": "The patient has recently gone through a divorce and is dealing with the associated challenges such as financial struggles, adjusting to single life, and co-parenting. The patient has also experienced a breakdown of several friendships due to the divorce and has a complicated relationship with her parents, which adds to the stress.",
+        "core_beliefs": "I am helpless. | I am defective. | I am unlovable. | I am bound to be abandoned. | I am bound to be alone.",
+        "intermediate_beliefs": "If people know the real me or the details of my situation, they will not want to be my friend or support me. It's important to maintain a good image to be accepted.\nDepressive variant: People will eventually find out the real me and the details of my situation. I will get abandoned by everybody.",
+        "coping_strategies": "The patient tries to explain things to a few friends. The patient also attempts strategies like keeping busy and avoidance."
+      },
+      "idss": {
+        "relevant_history": 0.6555737736379584,
+        "core_beliefs": 0.21771890308308428,
+        "intermediate_beliefs": 0.381549178622373,
+        "coping_strategies": 0.42555882062055983,
+        "average": 0.4201001689909939
+      }
+    }
+  ]
+}

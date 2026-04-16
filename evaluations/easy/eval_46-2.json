@@ -1,0 +1,49 @@
+{
+  "aggregate": {
+    "num_sessions": 1,
+    "cder": {
+      "external": 1.0,
+      "internal": 1.0,
+      "overall": 1.0
+    },
+    "idss": {
+      "relevant_history": 0.7386953815645398,
+      "core_beliefs": 0.26751812330431984,
+      "intermediate_beliefs": 0.5626460999771006,
+      "coping_strategies": 0.486455996252515,
+      "average": 0.5138289002746188
+    }
+  },
+  "sessions": [
+    {
+      "file": "/Users/luhtookyaw/Desktop/StageTherapy/mind_voyager/outputs/easy/session_46-2.json",
+      "case_id": "46-2",
+      "client_mode": "masked",
+      "difficulty": "easy",
+      "cder": {
+        "external": 1,
+        "internal": 1,
+        "overall": 1
+      },
+      "predicted_internal_diagram": {
+        "relevant_history": "The client has been feeling concerned about their friends who are struggling, which has led to feelings of sadness and being lost. They have a history of trying to help their friends but feeling overwhelmed by their burdens.",
+        "core_beliefs": "The client believes that taking care of themselves is necessary for being a better friend and that it\u2019s okay to prioritize their own well-being.",
+        "intermediate_beliefs": "The client feels that their efforts to help friends may not make a difference and worries about pushing them away. They also believe that neglecting their own needs while focusing on others is unhealthy.",
+        "coping_strategies": "The client plans to set boundaries, engage in self-care activities like walking, reading, and journaling, and use affirmations to remind themselves of their needs. They also intend to check in with themselves regularly to reflect on their progress."
+      },
+      "ground_truth_internal_diagram": {
+        "relevant_history": "The client has a history of being involved with friends who are experiencing significant stressors, such as a friend Yvonne dealing with tenure and an autistic child. The client has an emotional involvement with these individuals and seems to feel a sense of responsibility towards them.",
+        "core_beliefs": "I am powerless, weak, vulnerable. | I am a victim. | I am needy. | I am unlovable. | I am bound to be rejected.",
+        "intermediate_beliefs": "If I don't support my friends, no one will; I must always be available to help others, even at my own expense.\nDepressive variant: My friends' happiness and stability rest upon my shoulders; I have to absorb their negative feelings to help them.",
+        "coping_strategies": "The client uses emotional support from friends as a coping strategy but finds it draining because these friends are also dealing with their own depressive states and crises. The client feels guilty for wanting to set boundaries and limit time spent with these friends."
+      },
+      "idss": {
+        "relevant_history": 0.7386953815645398,
+        "core_beliefs": 0.26751812330431984,
+        "intermediate_beliefs": 0.5626460999771006,
+        "coping_strategies": 0.486455996252515,
+        "average": 0.5138289002746188
+      }
+    }
+  ]
+}

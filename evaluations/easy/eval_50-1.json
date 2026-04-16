@@ -1,0 +1,49 @@
+{
+  "aggregate": {
+    "num_sessions": 1,
+    "cder": {
+      "external": 1.0,
+      "internal": 1.0,
+      "overall": 1.0
+    },
+    "idss": {
+      "relevant_history": 0.6500836996616209,
+      "core_beliefs": 0.2907879465972943,
+      "intermediate_beliefs": 0.4604736799229056,
+      "coping_strategies": 0.3612806056451942,
+      "average": 0.44065648295675375
+    }
+  },
+  "sessions": [
+    {
+      "file": "/Users/luhtookyaw/Desktop/StageTherapy/mind_voyager/outputs/easy/session_50-1.json",
+      "case_id": "50-1",
+      "client_mode": "masked",
+      "difficulty": "easy",
+      "cder": {
+        "external": 1,
+        "internal": 1,
+        "overall": 1
+      },
+      "predicted_internal_diagram": {
+        "relevant_history": "The client felt overwhelmed and responsible during a recent party with a friend named Ethan, who was acting erratically. This experience triggered anxiety and led the client to drink more than intended as a coping mechanism.",
+        "core_beliefs": "The client believes they should be able to handle everything and feels inadequate when they cannot meet this expectation, which stems from a desire to be a good friend.",
+        "intermediate_beliefs": "The client feels pressure to take care of others and worries that failing to do so means they are failing as a friend. They often measure themselves against a high standard, leading to anxiety and self-criticism.",
+        "coping_strategies": "The client plans to set boundaries, remind themselves it's okay to not be perfect, reach out to friends for support, keep a journal to track feelings and progress, and practice conversations with a trusted friend."
+      },
+      "ground_truth_internal_diagram": {
+        "relevant_history": "The client describes a significant history with an individual named Ethan, with whom they have had a friendship spanning 14 years, since high school. This relationship includes periods where they supported each other through personal crises, such as the client's experience with an abusive ex-boyfriend, and professional collaborations at startups. The client learned through friends that Ethan has been involved in a serious situation, including abusive behavior towards his girlfriend, which has greatly distressed the client.",
+        "core_beliefs": "I am helpless. | I am out of control. | I am unlovable. | I am bound to be rejected.",
+        "intermediate_beliefs": "If I can't help someone, it means I've failed them. People who I get close to will end up hurting me or others.\nDepressive variant: When I'm unable to help a friend or resolve a situation, it's because I'm inadequate. If someone I'm close to does something terrible, it reflects my poor judgment in people.",
+        "coping_strategies": "Seeking support from friends, organizing group meetings for intervention, compiling spreadsheets of information and resources, excessive drinking, engaging in casual sex, and making effort to find Ethan a spot in rehab."
+      },
+      "idss": {
+        "relevant_history": 0.6500836996616209,
+        "core_beliefs": 0.2907879465972943,
+        "intermediate_beliefs": 0.4604736799229056,
+        "coping_strategies": 0.3612806056451942,
+        "average": 0.44065648295675375
+      }
+    }
+  ]
+}

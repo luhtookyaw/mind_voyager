@@ -1,0 +1,49 @@
+{
+  "aggregate": {
+    "num_sessions": 1,
+    "cder": {
+      "external": 0.0,
+      "internal": 1.0,
+      "overall": 0.0
+    },
+    "idss": {
+      "relevant_history": 0.531562184833453,
+      "core_beliefs": 0.21974599589541147,
+      "intermediate_beliefs": 0.6702078901792654,
+      "coping_strategies": 0.521036990932007,
+      "average": 0.4856382654600342
+    }
+  },
+  "sessions": [
+    {
+      "file": "/Users/luhtookyaw/Desktop/StageTherapy/mind_voyager/outputs/hard/session_45-1.json",
+      "case_id": "45-1",
+      "client_mode": "masked",
+      "difficulty": "hard",
+      "cder": {
+        "external": 0,
+        "internal": 1,
+        "overall": 0
+      },
+      "predicted_internal_diagram": {
+        "relevant_history": "The client has always felt a need to be perfect, possibly influenced by their upbringing and expectations faced, but does not recall specific memories.",
+        "core_beliefs": "The client believes that making mistakes reflects their capabilities and that they are not good enough if they fail.",
+        "intermediate_beliefs": "The client feels they must be perfect to avoid disappointing others and themselves, leading to anxiety and avoidance.",
+        "coping_strategies": "The client plans to prepare for conversations by thinking about what to say, reminding themselves that vulnerability is okay, and focusing on the potential for support."
+      },
+      "ground_truth_internal_diagram": {
+        "relevant_history": "The client has a history of developing friendships that potentially evolve into romantic relationships. They have gone through experiences where expressing their opinions, especially when angry, has led to social discord and the potential loss of friendships, which they find deeply unsettling. Additionally, the client has a complex relationship with their parents, marked by negative feelings, love, and obligation.",
+        "core_beliefs": "I am powerless, weak, vulnerable. | I am out of control. | I am unlovable. | I am bound to be rejected. | I am bound to be abandoned. | I am bound to be alone.",
+        "intermediate_beliefs": "The client holds beliefs that they must restrain their own opinions and expressions of anger to preserve relationships, fearing that if they express discontent or negative emotions, it may lead to social isolation or being disliked by others.\nDepressive variant: During periods of distress, the client believes that expressing their opinions will alienate them, and they also worry that by not expressing themselves, they will become uninteresting to others, which could lead to the deterioration of their social relationships.",
+        "coping_strategies": "The client utilizes avoidance and suppression of their thoughts and feelings as a coping mechanism to prevent conflict or rejection. They have also demonstrated a pattern of seeking comfort and reassurance from their partner after experiencing distress."
+      },
+      "idss": {
+        "relevant_history": 0.531562184833453,
+        "core_beliefs": 0.21974599589541147,
+        "intermediate_beliefs": 0.6702078901792654,
+        "coping_strategies": 0.521036990932007,
+        "average": 0.4856382654600342
+      }
+    }
+  ]
+}

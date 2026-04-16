@@ -1,0 +1,49 @@
+{
+  "aggregate": {
+    "num_sessions": 1,
+    "cder": {
+      "external": 1.0,
+      "internal": 1.0,
+      "overall": 1.0
+    },
+    "idss": {
+      "relevant_history": 0.5934599153443524,
+      "core_beliefs": 0.27676195520568103,
+      "intermediate_beliefs": 0.3416182162346625,
+      "coping_strategies": 0.5700792975657449,
+      "average": 0.4454798460876102
+    }
+  },
+  "sessions": [
+    {
+      "file": "/Users/luhtookyaw/Desktop/StageTherapy/mind_voyager/outputs/easy/session_18-1.json",
+      "case_id": "18-1",
+      "client_mode": "masked",
+      "difficulty": "easy",
+      "cder": {
+        "external": 1,
+        "internal": 1,
+        "overall": 1
+      },
+      "predicted_internal_diagram": {
+        "relevant_history": "The client has been struggling with time management and often compares himself to his sister, who he perceives as more organized and successful. He feels overwhelmed and frustrated by his inability to meet deadlines, leading to feelings of inadequacy and shame, particularly regarding his parents' potential disappointment.",
+        "core_beliefs": "The client believes he is 'pathetic' and that his struggles with time management reflect poorly on his worth as a person. He feels that he is always falling short and worries about disappointing his parents.",
+        "intermediate_beliefs": "The client thinks that he should have everything figured out by now and fears being judged or seen as weak if he shares his struggles. He feels pressure to prove himself and believes that reaching out for help is a burden to others.",
+        "coping_strategies": "The client tends to distract himself with shows or social media but acknowledges that this leaves him feeling more isolated. He is considering writing down his thoughts to express himself better and plans to start small by sharing with a trusted friend. He aims to remind himself that it's okay to be imperfect and that seeking support is a sign of strength."
+      },
+      "ground_truth_internal_diagram": {
+        "relevant_history": "The client has a past of academic challenges and underachievement despite noted intelligence. There was a negative college experience at Grinnell, which the client found to be isolated and disconnected from society, leading to dropping out and bitterness toward education. The client has not completed college, having about two years' worth of credits left. The client has a history of having high expectations set by the mother, and there seems to be a perceived failure to meet these. After some financial troubles, the client felt pressure from the mother to return home, further complicating the dynamic.",
+        "core_beliefs": "I am incompetent. | I am helpless. | I am a failure, loser. | I am worthless, waste.",
+        "intermediate_beliefs": "I must meet my parents' expectations, otherwise I'm a failure. I must work hard and stay productive to avoid failure.\nDepressive variant: I'm not competent for anything. I keep failing to meet expectations of myself and others. I'm a worthless person.",
+        "coping_strategies": "The client attempts to cope with feelings of inadequacy and fear of failure by controlling situations, making plans and being selective of the projects he undertakes. However, if they don't work well it will trigger stronger feeling of failure. There are traces of isolation, like secluding oneself to work, and probably procrastination as coping mechanisms."
+      },
+      "idss": {
+        "relevant_history": 0.5934599153443524,
+        "core_beliefs": 0.27676195520568103,
+        "intermediate_beliefs": 0.3416182162346625,
+        "coping_strategies": 0.5700792975657449,
+        "average": 0.4454798460876102
+      }
+    }
+  ]
+}

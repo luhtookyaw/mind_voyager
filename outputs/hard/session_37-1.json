@@ -1,0 +1,182 @@
+{
+  "case_id": "37-1",
+  "client_name": "Hudson",
+  "client_mode": "masked",
+  "hide_all": false,
+  "difficulty": "hard",
+  "therapist_provider": "openai",
+  "therapist_model": "gpt-4o-mini",
+  "client_model": "gpt-4o-mini",
+  "max_turns": 15,
+  "transcript": [
+    {
+      "turn": 1,
+      "speaker": "therapist",
+      "content": "Hello, Hudson. I\u2019m glad you\u2019re here today. What feels most important for you to talk about right now?"
+    },
+    {
+      "turn": 1,
+      "speaker": "client",
+      "content": "Uh, I guess I\u2019m not really sure what to focus on. There\u2019s always a lot going on at work, and sometimes I just feel frustrated with how people handle things. Like, I can\u2019t understand how someone could make such selfish decisions and still think they\u2019re right. But, I don\u2019t know if that\u2019s really what we should be discussing."
+    },
+    {
+      "turn": 2,
+      "speaker": "therapist",
+      "content": "It sounds like you're feeling frustrated with some of your colleagues and their decision-making. It\u2019s understandable to feel that way, especially when it seems like their choices impact you or the team. Would you like to explore what specifically has been bothering you about their actions?"
+    },
+    {
+      "turn": 2,
+      "speaker": "client",
+      "content": "I mean, yeah, I guess. It just seems like some people don\u2019t think things through. Like, they make these choices that seem so obviously wrong to me. It\u2019s like they don\u2019t care about the consequences. I don\u2019t know, maybe I\u2019m just being too harsh? But it really gets under my skin when I see that kind of behavior."
+    },
+    {
+      "turn": 3,
+      "speaker": "therapist",
+      "content": "It sounds like you\u2019re feeling a mix of frustration and maybe even a bit of confusion about their decisions. You mentioned feeling like they don\u2019t care about the consequences, which seems to really bother you. It\u2019s okay to have strong feelings about this. Can you share a specific situation that stands out to you where you felt this way?"
+    },
+    {
+      "turn": 3,
+      "speaker": "client",
+      "content": "Well, there was this recent case at work where a businessman made a decision that impacted a lot of people. I just couldn\u2019t believe he still stood by it, like it was completely inexcusable and selfish. I felt really angry about it. It\u2019s hard for me to understand how someone can justify that kind of behavior. I don\u2019t know if I\u2019m explaining it well, but it just feels so wrong to me."
+    },
+    {
+      "turn": 4,
+      "speaker": "therapist",
+      "content": "You\u2019re explaining it clearly, Hudson. It sounds like this situation really struck a chord with you, and the anger you felt is tied to a sense of injustice. It\u2019s tough when you see someone making decisions that seem to disregard the well-being of others. What do you think it is about this particular situation that made you feel so strongly?"
+    },
+    {
+      "turn": 4,
+      "speaker": "client",
+      "content": "I think it\u2019s just that it feels like a lack of responsibility. When someone makes a choice that affects others negatively and then acts like it\u2019s no big deal, it\u2019s frustrating. I guess I just expect people to think about how their actions impact others. It\u2019s like, how can you not see that? It makes me feel like I have to be the one to point it out, and that can be exhausting. I don\u2019t know if I\u2019m making sense."
+    },
+    {
+      "turn": 5,
+      "speaker": "therapist",
+      "content": "You\u2019re making perfect sense. It seems like you have a strong sense of responsibility and empathy, and it\u2019s frustrating when others don\u2019t seem to share that perspective. It sounds exhausting to feel like you have to be the one to highlight these issues. How does that sense of responsibility affect you in your day-to-day work?"
+    },
+    {
+      "turn": 5,
+      "speaker": "client",
+      "content": "It can be a lot to carry, honestly. I often find myself getting caught up in trying to address these issues, and it feels like I\u2019m constantly judging what others do. It makes it hard to focus on my own tasks because I\u2019m worried about the bigger picture and how things are being handled. Sometimes I just want to let it go, but I can\u2019t help but feel like I need to speak up. It\u2019s a bit of a tug-of-war in my head, I guess."
+    },
+    {
+      "turn": 6,
+      "speaker": "therapist",
+      "content": "That tug-of-war sounds really challenging. On one hand, you want to speak up and address what you see as important issues, but on the other hand, it\u2019s taking a toll on your ability to focus on your own work. It\u2019s understandable to feel conflicted in that situation. What do you think holds you back from letting go of those concerns sometimes?"
+    },
+    {
+      "turn": 6,
+      "speaker": "client",
+      "content": "I think it\u2019s just that I feel responsible for the outcomes. If I see something wrong and don\u2019t say anything, I worry that it might lead to bigger problems down the line. It\u2019s like I\u2019m afraid of being complicit in something I don\u2019t agree with. But at the same time, I know it can be draining to always be the one pointing things out. I guess I just struggle with finding the right balance between speaking up and not getting too involved in others' decisions."
+    },
+    {
+      "turn": 7,
+      "speaker": "therapist",
+      "content": "It sounds like you have a strong sense of accountability, which is commendable, but it also creates a heavy burden for you. The fear of being complicit in decisions that don\u2019t align with your values can be really tough to navigate. Finding that balance between advocating for what you believe in and protecting your own energy seems like a delicate dance. How do you usually decide when to speak up versus when to hold back?"
+    },
+    {
+      "turn": 7,
+      "speaker": "client",
+      "content": "I wish I had a clear answer for that. It usually depends on how strongly I feel about the issue. If it\u2019s something I think could really harm people or the business, I\u2019m more likely to say something. But if it feels like a minor issue, I might just let it slide. Still, even with the smaller things, I often find myself second-guessing my choice to stay quiet. It\u2019s like I\u2019m always weighing the potential consequences in my head, and sometimes it just feels overwhelming."
+    },
+    {
+      "turn": 8,
+      "speaker": "therapist",
+      "content": "It sounds like you\u2019re constantly in a state of evaluation, weighing the potential impact of your voice against the energy it takes to speak up. That can definitely feel overwhelming, especially when you care so much about the outcomes. It\u2019s understandable to second-guess yourself in those moments. When you find yourself in that position of weighing the consequences, what emotions come up for you?"
+    },
+    {
+      "turn": 8,
+      "speaker": "client",
+      "content": "I think I feel a mix of frustration and anxiety. Frustration because I wish things were different, and I want to see people take responsibility. But then there\u2019s also anxiety about whether I\u2019m making the right choice by speaking up or staying quiet. It\u2019s like I\u2019m stuck in this loop of overthinking everything. Sometimes I just want to be able to trust my instincts, but it feels like there\u2019s so much at stake."
+    },
+    {
+      "turn": 9,
+      "speaker": "therapist",
+      "content": "That mix of frustration and anxiety makes a lot of sense, especially when you care deeply about responsibility and the impact of decisions. It sounds like you\u2019re caught in a cycle of overthinking, which can be exhausting. Wanting to trust your instincts is a natural desire, but it\u2019s tough when you feel the weight of potential consequences. When you think about trusting your instincts, what do you think might help you feel more confident in those moments?"
+    },
+    {
+      "turn": 9,
+      "speaker": "client",
+      "content": "I guess it would help to have a clearer sense of what my values are and what I stand for. Sometimes I feel like I\u2019m just reacting to situations instead of having a solid foundation to guide me. If I could remind myself of what really matters to me, maybe it would make it easier to decide when to speak up. I think having some sort of framework or guidelines could help me feel more confident in my choices. But I\u2019m not sure how to create that for myself."
+    },
+    {
+      "turn": 10,
+      "speaker": "therapist",
+      "content": "It sounds like you\u2019re recognizing the importance of having a clearer sense of your values as a way to guide your decisions. That could definitely provide you with a stronger foundation and help reduce some of the anxiety you feel. It\u2019s great that you\u2019re thinking about creating a framework for yourself. What values do you feel are most important to you right now, even if they\u2019re not fully defined yet?"
+    },
+    {
+      "turn": 10,
+      "speaker": "client",
+      "content": "I think fairness and integrity are really important to me. I want to see people treated justly and to act in a way that aligns with what\u2019s right. I also value accountability\u2014not just for myself, but for others too. It\u2019s hard to see people not taking responsibility for their actions. I guess those are the things that really stand out to me, but I\u2019m still figuring out how to apply them in my day-to-day life. It feels like a work in progress."
+    },
+    {
+      "turn": 11,
+      "speaker": "therapist",
+      "content": "Those values of fairness, integrity, and accountability are powerful and reflect a strong moral compass. It\u2019s completely normal for this to be a work in progress, especially when it comes to applying them in everyday situations. It sounds like you\u2019re on a journey to align your actions with those values, which can take time and reflection. How do you think you might start to incorporate those values more consciously into your decision-making at work?"
+    },
+    {
+      "turn": 11,
+      "speaker": "client",
+      "content": "I think I could start by taking a moment to pause and reflect before reacting to situations. Maybe I could ask myself how my response aligns with those values. It might help to write down some scenarios and think about how I would handle them based on fairness and integrity. I guess just being more intentional about my choices could make a difference. It\u2019s a bit daunting, but I think it might help me feel more grounded in those moments when I\u2019m unsure."
+    },
+    {
+      "turn": 12,
+      "speaker": "therapist",
+      "content": "That sounds like a thoughtful approach, Hudson. Taking a moment to pause and reflect can really help you connect your responses to your core values. Writing down scenarios and considering how you\u2019d handle them based on fairness and integrity is a great way to create that framework you mentioned. It\u2019s understandable to feel a bit daunted by this process, but it also sounds like a meaningful step toward feeling more grounded. How do you feel about starting this practice? What might be your first step?"
+    },
+    {
+      "turn": 12,
+      "speaker": "client",
+      "content": "I feel a bit nervous about it, but also kind of hopeful. I think my first step could be to set aside some time at the end of the week to reflect on situations that stood out to me. I could jot down what happened, how I reacted, and whether it aligned with my values. Just starting small like that might make it feel less overwhelming. I guess I\u2019ll have to see how it goes and adjust from there. It feels like a step in the right direction, at least."
+    },
+    {
+      "turn": 13,
+      "speaker": "therapist",
+      "content": "That sounds like a wonderful plan, Hudson. Setting aside time for reflection at the end of the week is a manageable way to start, and it allows you to gradually build that awareness without feeling overwhelmed. It\u2019s great to hear that you\u2019re feeling hopeful about this step. Remember, it\u2019s all about progress, not perfection. As you begin this practice, how do you think you might celebrate your efforts, no matter how small?"
+    },
+    {
+      "turn": 13,
+      "speaker": "client",
+      "content": "I think it would be nice to acknowledge my efforts, even if they feel small. Maybe I could treat myself to something simple, like a favorite snack or taking some time to do something I enjoy. Just recognizing that I\u2019m trying to make a change could help motivate me to keep going. I guess it\u2019s important to remind myself that every little step counts, even if it doesn\u2019t feel like much at the time."
+    },
+    {
+      "turn": 14,
+      "speaker": "therapist",
+      "content": "That\u2019s a lovely idea, Hudson. Acknowledging your efforts with something enjoyable, like a favorite snack or time spent on a hobby, can reinforce your commitment to this change. It\u2019s true that every step counts, and celebrating those small victories can help maintain your motivation. It sounds like you\u2019re setting yourself up for success by being kind to yourself in the process. How are you feeling about this plan as a whole?"
+    },
+    {
+      "turn": 14,
+      "speaker": "client",
+      "content": "I feel a mix of relief and a bit of excitement. It\u2019s nice to have a plan that feels manageable, and thinking about celebrating those small steps makes it feel more positive. I know it won\u2019t be easy, but having a clearer direction gives me some hope. I guess I\u2019m just ready to see how this goes and hopefully feel a bit more in control of my reactions and decisions at work. It feels like a good start."
+    },
+    {
+      "turn": 15,
+      "speaker": "therapist",
+      "content": "That\u2019s wonderful to hear, Hudson! Feeling relief and excitement about a manageable plan is a great sign. It sounds like you\u2019re ready to take this step forward and see how it unfolds. Having a clearer direction can really empower you to feel more in control of your reactions and decisions. Remember, it\u2019s okay to take it one step at a time and to be gentle with yourself along the way. If you ever want to revisit this or explore anything else, I\u2019m here for you. What\u2019s on your mind as we wrap up today?"
+    },
+    {
+      "turn": 15,
+      "speaker": "client",
+      "content": "I appreciate that. I think I\u2019m just feeling a bit more hopeful than when we started. It\u2019s nice to have a plan to work on, and I\u2019m glad I could talk about it. I guess I just want to make sure I keep this momentum going. I\u2019ll try to remember to check in with myself and see how I\u2019m doing with this. Thank you for helping me sort through my thoughts today."
+    }
+  ],
+  "judge_model": "gpt-4o-mini",
+  "mediator_events": [
+    "Exploration judge rated 3/5; internal elements remain masked.",
+    "Exploration judge output: [Rating]: 3 (Very High Facilitation \u2013 Deep Exploration Begins)\n\n[Justification]: The Therapist asked insightful and thought-provoking questions that encouraged the client to analyze their feelings of frustration and confusion regarding their colleagues' decision-making. By prompting the client to share a specific situation, the Therapist facilitated a deeper exploration of the client's emotions and the underlying reasons for their reactions. This approach helped the client begin to reflect on their feelings and the impact of others' actions on their own emotional state, indicating a shift towards higher-level self-reflection. However, while the questions were effective in deepening the conversation, they did not yet challenge the client's assumptions or introduce significantly new perspectives, which is why it did not reach the highest rating.",
+    "Rapport judge rated 3/5; no experience reveal.",
+    "Rapport judge output: **Rating: 3**\n\n**Key Examples:**\n1. \"It just seems like some people don\u2019t think things through. Like, they make these choices that seem so obviously wrong to me. It\u2019s like they don\u2019t care about the consequences.\"\n2. \"I felt really angry about it. It\u2019s hard for me to understand how someone can justify that kind of behavior.\"\n\n**Progression:**\nThe client\u2019s most recent interactions demonstrate a clear emotional quality of frustration and anger, marking a significant change from earlier exchanges where they were more hesitant and factual. In the latest dialogue, the client has begun to articulate their feelings more openly, moving beyond mere observations about their colleagues' behaviors to expressing personal emotional responses, such as anger and confusion. This shift indicates a growing comfort in sharing their emotional state, suggesting they are warming up to deeper exploration of their feelings.\n\n**Turning Point:**\nThe client\u2019s emotional depth shifted notably when they began expressing their feelings of anger regarding a specific situation at work. This moment marked a transition from discussing general frustrations to a more personal and emotionally charged response, indicating a willingness to engage more deeply with their feelings and the implications of those feelings on their well-being. This change reflects a developing rapport with the therapist and a readiness to explore the underlying emotional currents driving their frustrations.",
+    "Exploration judge rated 3/5; internal elements remain masked.",
+    "Exploration judge output: [Rating]: 3 (Very High Facilitation \u2013 Deep Exploration Begins)\n\n[Justification]: The therapist asked insightful and thought-provoking questions that encouraged the client to analyze the emotional depth behind their frustrations with colleagues' decision-making. The therapist's inquiries helped the client explore the root causes of their feelings, such as a strong sense of responsibility and empathy, and how these emotions impact their work life. The questions prompted the client to reflect on their internal conflict and the toll it takes on their focus and well-being. While the therapist facilitated a deeper exploration of the client's feelings and motivations, the questions did not fully challenge the client's existing thought patterns or introduce completely new perspectives, which is why it falls short of a higher rating.",
+    "Rapport judge rated 3/5; no experience reveal.",
+    "Rapport judge output: **Rating: 3 (ENGAGED EXPLORATION)**\n\n**Key Examples:**\n1. \"It can be a lot to carry, honestly. I often find myself getting caught up in trying to address these issues, and it feels like I\u2019m constantly judging what others do.\"\n2. \"It\u2019s like I\u2019m afraid of being complicit in something I don\u2019t agree with. But at the same time, I know it can be draining to always be the one pointing things out.\"\n\n**Progression:**\nThe client\u2019s most recent interactions demonstrate a notable increase in emotional expression and self-reflection. They articulate feelings of frustration and responsibility regarding their colleagues' decisions, indicating a deeper engagement with their emotions compared to earlier exchanges where they were more hesitant and factual. The client is now sharing specific feelings of anger and exhaustion, which reflects a significant shift from a more guarded stance to a willingness to explore their internal struggles.\n\n**Turning Point:**\nThe turning point in the client\u2019s emotional depth appears to be when they began to articulate the \"tug-of-war\" in their head regarding their sense of responsibility and the burden it creates. This moment marked a transition from merely stating frustrations to expressing a complex emotional landscape, including feelings of being overwhelmed and the struggle to balance their values with the need to protect their own energy. This shift indicates a growing comfort with the therapist and a readiness to explore deeper emotional themes.",
+    "Exploration judge rated 3/5; internal elements remain masked.",
+    "Exploration judge output: [Rating]: 3 (Very High Facilitation \u2013 Deep Exploration Begins)\n\n[Justification]: The therapist asked insightful and thought-provoking questions that helped the client analyze the root causes of their feelings of frustration and responsibility regarding their colleagues' decisions. The therapist's inquiries encouraged the client to explore their emotions and the underlying motivations behind their desire to speak up or hold back. While the questions led to deeper self-reflection and a better understanding of the client's internal conflict, they did not fully challenge the client's existing thought patterns or introduce completely new perspectives. Thus, while the conversation facilitated significant exploration, it did not reach the level of transformational potential indicated by a higher rating.",
+    "Rapport judge rated 3/5; no experience reveal.",
+    "Rapport judge output: **Rating: 3 (ENGAGED EXPLORATION)**\n\n**Key Examples:**\n1. Client: \"I think I feel a mix of frustration and anxiety. Frustration because I wish things were different, and I want to see people take responsibility. But then there\u2019s also anxiety about whether I\u2019m making the right choice by speaking up or staying quiet.\"\n2. Client: \"I guess it would help to have a clearer sense of what my values are and what I stand for. Sometimes I feel like I\u2019m just reacting to situations instead of having a solid foundation to guide me.\"\n\n**Progression:**\nThe client\u2019s most recent interactions demonstrate a notable increase in emotional expression and self-reflection. Initially, the client presented a more factual and hesitant stance regarding their feelings about work and colleagues. However, in the latest exchanges, they articulate their emotions more clearly, expressing frustration and anxiety about the decisions of others and their own responses to those situations. This marks a significant change from earlier in the session, where the client was more guarded and uncertain about what to focus on.\n\n**Turning Point:**\nThe client\u2019s emotional depth shifted during the exchange where they articulated their feelings of frustration and anxiety regarding their colleagues' decisions. This moment marked a transition from merely discussing the actions of others to reflecting on their internal emotional landscape and the impact of those actions on their own well-being. The recognition of their values of fairness and integrity further illustrates their growing self-awareness and willingness to explore deeper emotional themes, indicating a movement toward a more engaged and exploratory state in the therapeutic process.",
+    "Exploration judge rated 4/5 and revealed internal cognitive elements.",
+    "Exploration judge output: [Rating]: 4 (Even Higher Facilitation \u2013 Strong Transformational Potential)\n\n[Justification]: The therapist asked strategic and powerfully open-ended questions that encouraged the client to explore their feelings of frustration and responsibility in depth. The questions challenged the client to analyze their motivations and the emotional toll of their experiences at work. By guiding the client to reflect on their values and how they can incorporate them into their decision-making, the therapist facilitated a deeper understanding of the client's internal conflicts. The conversation led to a clear shift in the client's perspective, particularly in recognizing the importance of having a framework for their values, which has strong transformational potential for their future actions and decisions."
+  ],
+  "final_visible_experience_count": 1,
+  "internal_revealed": true
+}

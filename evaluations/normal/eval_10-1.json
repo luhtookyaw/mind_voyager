@@ -1,0 +1,49 @@
+{
+  "aggregate": {
+    "num_sessions": 1,
+    "cder": {
+      "external": 1.0,
+      "internal": 1.0,
+      "overall": 1.0
+    },
+    "idss": {
+      "relevant_history": 0.6044308945215093,
+      "core_beliefs": 0.287870468394779,
+      "intermediate_beliefs": 0.238724133507077,
+      "coping_strategies": 0.4831305212163518,
+      "average": 0.4035390044099293
+    }
+  },
+  "sessions": [
+    {
+      "file": "/Users/luhtookyaw/Desktop/StageTherapy/mind_voyager/outputs/normal/session_10-1.json",
+      "case_id": "10-1",
+      "client_mode": "masked",
+      "difficulty": "normal",
+      "cder": {
+        "external": 1,
+        "internal": 1,
+        "overall": 1
+      },
+      "predicted_internal_diagram": {
+        "relevant_history": "The client is feeling overwhelmed due to financial stress after a divorce.",
+        "core_beliefs": "The client believes they should handle everything on their own and fears being seen as weak for asking for help.",
+        "intermediate_beliefs": "The client thinks they are not capable of managing their financial situation and worries about burdening others with their problems.",
+        "coping_strategies": "The client plans to make a list of trusted people to reach out to, practice what to say, and remind themselves that seeking help is okay."
+      },
+      "ground_truth_internal_diagram": {
+        "relevant_history": "The patient has recently gone through a divorce and is dealing with the associated challenges such as financial struggles, adjusting to single life, and co-parenting. The patient has also experienced a breakdown of several friendships due to the divorce and has a complicated relationship with her parents, which adds to the stress.",
+        "core_beliefs": "I am powerless, weak, vulnerable. | I am incompetent. | I am helpless. | I am defective.",
+        "intermediate_beliefs": "I must be independent and self-reliant to handle challenges. I must make everything in control.\nDepressive variant: There are so many uncertanties in the future. I cannot handle them at all. I cannot stay independent and live on my own. I already lack the ability to stay independent after these many years' marrige.",
+        "coping_strategies": "The patient uses social support by spending time with friends and seeking comfort in those relationships. The patient also attempts strategies like keeping busy and avoidance."
+      },
+      "idss": {
+        "relevant_history": 0.6044308945215093,
+        "core_beliefs": 0.287870468394779,
+        "intermediate_beliefs": 0.238724133507077,
+        "coping_strategies": 0.4831305212163518,
+        "average": 0.4035390044099293
+      }
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "aggregate": {
+    "num_sessions": 1,
+    "cder": {
+      "external": 0.0,
+      "internal": 1.0,
+      "overall": 0.0
+    },
+    "idss": {
+      "relevant_history": 0.6251141870033019,
+      "core_beliefs": 0.29478048148625347,
+      "intermediate_beliefs": 0.3412561476947241,
+      "coping_strategies": 0.4462832472880676,
+      "average": 0.42685851586808676
+    }
+  },
+  "sessions": [
+    {
+      "file": "/Users/luhtookyaw/Desktop/StageTherapy/mind_voyager/outputs/normal/session_18-1.json",
+      "case_id": "18-1",
+      "client_mode": "masked",
+      "difficulty": "normal",
+      "cder": {
+        "external": 0,
+        "internal": 1,
+        "overall": 0
+      },
+      "predicted_internal_diagram": {
+        "relevant_history": "The client has been feeling frustrated and sad about not following through on plans, often comparing himself to his sister and feeling like he falls short of expectations, particularly from his parents.",
+        "core_beliefs": "The client believes he should be better at planning and organizing by now, and when he fails to do so, he feels pathetic and like he is letting everyone down.",
+        "intermediate_beliefs": "The client worries that trying new approaches might lead to more failure and feels overwhelmed by the pressure to be perfect.",
+        "coping_strategies": "The client plans to set a specific time for journaling to reflect on positive experiences and aims to remind himself that it's okay to have doubts and that mistakes are part of learning."
+      },
+      "ground_truth_internal_diagram": {
+        "relevant_history": "The client has a past of academic challenges and underachievement despite noted intelligence. There was a negative college experience at Grinnell, which the client found to be isolated and disconnected from society, leading to dropping out and bitterness toward education. The client has not completed college, having about two years' worth of credits left. The client has a history of having high expectations set by the mother, and there seems to be a perceived failure to meet these. After some financial troubles, the client felt pressure from the mother to return home, further complicating the dynamic.",
+        "core_beliefs": "I am incompetent. | I am helpless. | I am a failure, loser. | I am worthless, waste.",
+        "intermediate_beliefs": "I must meet my parents' expectations, otherwise I'm a failure. I must work hard and stay productive to avoid failure.\nDepressive variant: I'm not competent for anything. I keep failing to meet expectations of myself and others. I'm a worthless person.",
+        "coping_strategies": "The client attempts to cope with feelings of inadequacy and fear of failure by controlling situations, making plans and being selective of the projects he undertakes. However, if they don't work well it will trigger stronger feeling of failure. There are traces of isolation, like secluding oneself to work, and probably procrastination as coping mechanisms."
+      },
+      "idss": {
+        "relevant_history": 0.6251141870033019,
+        "core_beliefs": 0.29478048148625347,
+        "intermediate_beliefs": 0.3412561476947241,
+        "coping_strategies": 0.4462832472880676,
+        "average": 0.42685851586808676
+      }
+    }
+  ]
+}

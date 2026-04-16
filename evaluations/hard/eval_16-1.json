@@ -1,0 +1,49 @@
+{
+  "aggregate": {
+    "num_sessions": 1,
+    "cder": {
+      "external": 0.0,
+      "internal": 1.0,
+      "overall": 0.0
+    },
+    "idss": {
+      "relevant_history": 0.4717697910936655,
+      "core_beliefs": 0.18831056870355956,
+      "intermediate_beliefs": 0.4263965104612742,
+      "coping_strategies": 0.7247299424959395,
+      "average": 0.4528017031886097
+    }
+  },
+  "sessions": [
+    {
+      "file": "/Users/luhtookyaw/Desktop/StageTherapy/mind_voyager/outputs/hard/session_16-1.json",
+      "case_id": "16-1",
+      "client_mode": "masked",
+      "difficulty": "hard",
+      "cder": {
+        "external": 0,
+        "internal": 1,
+        "overall": 0
+      },
+      "predicted_internal_diagram": {
+        "relevant_history": "The client has always felt the need to do well and fears letting others down, which contributes to their anxiety about performance.",
+        "core_beliefs": "The client's worth is tied to their performance, and they fear that not meeting expectations confirms their feelings of inadequacy.",
+        "intermediate_beliefs": "The client believes that failure equates to incompetence and that they are wasting their life if they do not succeed.",
+        "coping_strategies": "The client engages in routines like going to the gym and playing guitar, sets reminders for tasks, and is considering mindfulness and writing affirmations to manage their feelings."
+      },
+      "ground_truth_internal_diagram": {
+        "relevant_history": "The client has spent eleven months in Europe working on a project, which included creating a website and conducting interviews. This period appears important to the client and he's eager to show something for his efforts. The client has suffered from procrastination and anxiety in the past. He has managed to build structure into his life by implementing various strategies learned from a course and using reminders.",
+        "core_beliefs": "I am incompetent. | I am out of control. | I am a failure, loser.",
+        "intermediate_beliefs": "If I'm not productive or not doing anything significant, I'm wasting my life. I must keep up with the schedule. If I stay idle, then I'm failing.\nDepressive variant: I just keep procrastinating and can never catch up with schedule. Failure is imminent. My project is going to fail due to my incompetency.",
+        "coping_strategies": "The client uses structured daily routines with set times for reading, playing guitar, and going to the gym. He also sets reminders for tasks and have been trying to be present in the moment to reduce idle time, which he associates with being unproductive."
+      },
+      "idss": {
+        "relevant_history": 0.4717697910936655,
+        "core_beliefs": 0.18831056870355956,
+        "intermediate_beliefs": 0.4263965104612742,
+        "coping_strategies": 0.7247299424959395,
+        "average": 0.4528017031886097
+      }
+    }
+  ]
+}

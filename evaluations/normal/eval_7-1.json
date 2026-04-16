@@ -1,0 +1,49 @@
+{
+  "aggregate": {
+    "num_sessions": 1,
+    "cder": {
+      "external": 1.0,
+      "internal": 1.0,
+      "overall": 1.0
+    },
+    "idss": {
+      "relevant_history": 0.1182775065962459,
+      "core_beliefs": 0.10649594549354091,
+      "intermediate_beliefs": 0.3198121724780946,
+      "coping_strategies": 0.3817674573293217,
+      "average": 0.23158827047430078
+    }
+  },
+  "sessions": [
+    {
+      "file": "/Users/luhtookyaw/Desktop/StageTherapy/mind_voyager/outputs/normal/session_7-1.json",
+      "case_id": "7-1",
+      "client_mode": "masked",
+      "difficulty": "normal",
+      "cder": {
+        "external": 1,
+        "internal": 1,
+        "overall": 1
+      },
+      "predicted_internal_diagram": {
+        "relevant_history": "The client has been thinking about personal projects, particularly wanting to build a website to express themselves and share their interests.",
+        "core_beliefs": "The client values authenticity and connection, and has a deep desire to be seen and understood.",
+        "intermediate_beliefs": "The client believes that their worth is measured by the potential reactions of others to their creations, leading to pressure and fear of not being good enough.",
+        "coping_strategies": "The client plans to set aside time to brainstorm ideas without pressure, keep reminders of their motivations, and share progress with someone they trust for accountability."
+      },
+      "ground_truth_internal_diagram": {
+        "relevant_history": "The patient has a history of working long hours, similar to past experiences while touring, indicating a history of demanding work environments. The patient has also been dealing with unresolved issues with his father, including past abuse and a recent exchange of letters addressing this painful history. The patient's father's response to the letter appears to have been a significant event for the patient, potentially contributing to his current mental state.",
+        "core_beliefs": "I am worthless, waste.",
+        "intermediate_beliefs": "The patient seems to hold the belief that work and productivity are essential to his self-worth and that idle time or personal development is wasted time. He also appears to believe that completing tasks and being acknowledged for his work is important for his value and self-esteem.\nDepressive variant: During periods of depression, the patient may believe that he is not making progress in life and that his efforts are meaningless. This could lead to a lack of motivation to engage in activities and to complete tasks, further reinforcing feelings of inadequacy and worthless.",
+        "coping_strategies": "The patient uses work as a coping strategy to feel productive and to reduce idle time, which he associates with negative feelings. He also use avoidance strategies when he perceives himself not productive and worthless, such as scrolling on social media."
+      },
+      "idss": {
+        "relevant_history": 0.1182775065962459,
+        "core_beliefs": 0.10649594549354091,
+        "intermediate_beliefs": 0.3198121724780946,
+        "coping_strategies": 0.3817674573293217,
+        "average": 0.23158827047430078
+      }
+    }
+  ]
+}

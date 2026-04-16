@@ -1,0 +1,49 @@
+{
+  "aggregate": {
+    "num_sessions": 1,
+    "cder": {
+      "external": 1.0,
+      "internal": 1.0,
+      "overall": 1.0
+    },
+    "idss": {
+      "relevant_history": 0.5056220219003448,
+      "core_beliefs": 0.2926170385837451,
+      "intermediate_beliefs": 0.6276827141672798,
+      "coping_strategies": 0.3205201456096977,
+      "average": 0.43661048006526687
+    }
+  },
+  "sessions": [
+    {
+      "file": "/Users/luhtookyaw/Desktop/StageTherapy/mind_voyager/outputs/easy/session_21-1.json",
+      "case_id": "21-1",
+      "client_mode": "masked",
+      "difficulty": "easy",
+      "cder": {
+        "external": 1,
+        "internal": 1,
+        "overall": 1
+      },
+      "predicted_internal_diagram": {
+        "relevant_history": "The client has had past experiences where speaking up led to conflict, particularly a family gathering where expressing feelings resulted in a huge argument and feelings of being dismissed.",
+        "core_beliefs": "The client feels unlovable and powerless, doubting their worth and believing they are meant to be the quiet one who doesn't rock the boat.",
+        "intermediate_beliefs": "The client worries about being hurtful comments from Candace and fears that standing up for themselves will lead to conflict and upset the family dynamic.",
+        "coping_strategies": "The client avoids thinking about the situation, procrastinates on other tasks, and plans to write down thoughts and practice what to say to feel more prepared."
+      },
+      "ground_truth_internal_diagram": {
+        "relevant_history": "The patient has a significant history of family conflict, particularly with her father who was described as cruel, dismissive, and unsupportive. The patient's relationship with her father has deteriorated to the point of estrangement, and similar themes of familial conflict are reflected in her experiences with her partner's family. The patient reports feeling unsupported and mistreated by her partner's sister-in-law, Candace, which appears to be causing a significant amount of stress and frustration. The pressure to conform to the expectations of her partner's family and to tolerate Candace's behavior without recourse is reminiscent of her history with her own family and her inability to effectively confront or manage these familial relationships.",
+        "core_beliefs": "I am helpless. | I am powerless, weak, vulnerable. | I am trapped. | I am unlovable. | I am undesirable, unwanted. | I am bound to be abandoned.",
+        "intermediate_beliefs": "I must maintain peace and accept family members as they are, even if they treat me poorly. If I have conflicts with family members, I cannot win them, and it will only make everybody abandon me, or make the whole family torn apart.\nDepressive variant: If I stand up for myself, it will only make situations worse and I will be the one causing drama within the family. I'm powerless in this family and they will not support me. But I'm getting more and more upset by being offended by Candace. I don't know what to do. I'm just a weak person and trapped.",
+        "coping_strategies": "Avoiding confrontation with family members, withdrawing from situations that may lead to conflict, considering reducing time spent with the family or specific family members, looking for support from friends."
+      },
+      "idss": {
+        "relevant_history": 0.5056220219003448,
+        "core_beliefs": 0.2926170385837451,
+        "intermediate_beliefs": 0.6276827141672798,
+        "coping_strategies": 0.3205201456096977,
+        "average": 0.43661048006526687
+      }
+    }
+  ]
+}

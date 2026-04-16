@@ -1,0 +1,49 @@
+{
+  "aggregate": {
+    "num_sessions": 1,
+    "cder": {
+      "external": 1.0,
+      "internal": 1.0,
+      "overall": 1.0
+    },
+    "idss": {
+      "relevant_history": 0.10715024951350574,
+      "core_beliefs": 0.23205415039637614,
+      "intermediate_beliefs": 0.35520153808721455,
+      "coping_strategies": 0.34936461798763085,
+      "average": 0.2609426389961818
+    }
+  },
+  "sessions": [
+    {
+      "file": "/Users/luhtookyaw/Desktop/StageTherapy/mind_voyager/outputs/easy/session_4-2.json",
+      "case_id": "4-2",
+      "client_mode": "masked",
+      "difficulty": "easy",
+      "cder": {
+        "external": 1,
+        "internal": 1,
+        "overall": 1
+      },
+      "predicted_internal_diagram": {
+        "relevant_history": "The client feels pressure to present a certain way in social situations, often putting on a mask to feel accepted, which leads to feelings of loneliness and anxiety.",
+        "core_beliefs": "The client believes that showing true feelings may lead to being judged, rejected, or seen as a burden.",
+        "intermediate_beliefs": "The client thinks that acting happy and put together is necessary to fit in, and compares herself negatively to others, which exacerbates her feelings of inadequacy.",
+        "coping_strategies": "The client plans to take small steps by sharing feelings with a trusted person, using affirmations for self-acceptance, and reminding herself that it's okay to not be okay."
+      },
+      "ground_truth_internal_diagram": {
+        "relevant_history": "Jessa has recently undergone shoulder surgery and is recovering from very painful processes. She is also dealing with additional pain, numbness, and tingling due to a herniated disc in her cervical spine. Jessa has a history of physical therapy due to an inability to walk and back issues. She has experienced being very ill in the past, which led to a significant period of being unable to walk and feeling down. After recovering, she started a new relationship, but her physical symptoms resurfaced.",
+        "core_beliefs": "I am helpless. | I am powerless, weak, vulnerable. | I am a victim. | I am trapped. | I am defective. | I am unlovable. | I am undesirable, unwanted. | I am bound to be abandoned.",
+        "intermediate_beliefs": "Jessa believes she must appear strong and cheerful to be accepted and loved.\nDepressive variant: During depressive episodes, Jessa believes that she will never be the same again and that her situation is permanent, people will eventually figure out she's actually very sick and everybody would leave her.",
+        "coping_strategies": "Jessa utilizes avoidance by trying to put on a happy face and acting as if she's feeling okay."
+      },
+      "idss": {
+        "relevant_history": 0.10715024951350574,
+        "core_beliefs": 0.23205415039637614,
+        "intermediate_beliefs": 0.35520153808721455,
+        "coping_strategies": 0.34936461798763085,
+        "average": 0.2609426389961818
+      }
+    }
+  ]
+}

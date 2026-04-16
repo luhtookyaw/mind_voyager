@@ -1,0 +1,49 @@
+{
+  "aggregate": {
+    "num_sessions": 1,
+    "cder": {
+      "external": 1.0,
+      "internal": 1.0,
+      "overall": 1.0
+    },
+    "idss": {
+      "relevant_history": 0.7096091766884648,
+      "core_beliefs": 0.1926313290848486,
+      "intermediate_beliefs": 0.4724027771346806,
+      "coping_strategies": 0.4948633809223571,
+      "average": 0.46737666595758776
+    }
+  },
+  "sessions": [
+    {
+      "file": "/Users/luhtookyaw/Desktop/StageTherapy/mind_voyager/outputs/normal/session_49-2.json",
+      "case_id": "49-2",
+      "client_mode": "masked",
+      "difficulty": "normal",
+      "cder": {
+        "external": 1,
+        "internal": 1,
+        "overall": 1
+      },
+      "predicted_internal_diagram": {
+        "relevant_history": "The client has been reflecting on family, particularly concerning the health of their dad and grandmother, and is struggling with feelings of relief and guilt regarding their suffering.",
+        "core_beliefs": "The client believes that feeling relief about family suffering is wrong and equates it with being selfish or ungrateful.",
+        "intermediate_beliefs": "The client feels torn between wanting to care for their family and wanting to escape the emotional burden of seeing them suffer.",
+        "coping_strategies": "The client keeps feelings to themselves, pushes thoughts away, stays busy with work and hobbies, and seeks temporary distractions like watching shows or reading."
+      },
+      "ground_truth_internal_diagram": {
+        "relevant_history": "The client has a history that involves complex and strained family relationships. The client's father is described as making everyone around him miserable and has always been unhappy with his life. The client's grandmother (mother's mother) also had a similarly negative impact on the family, particularly on the client's mother, which has influenced the client's perception of familial relationships.",
+        "core_beliefs": "I am powerless, weak, vulnerable. | I am trapped. | I am out of control.",
+        "intermediate_beliefs": "I must always be prepared for the worst-case scenario; I am responsible for fulfilling others' expectations and wishes even if it's difficult.\nDepressive variant: My worries are overwhelming and I am unable to find solutions; my thoughts are uncontrollable and lean towards the morbid.",
+        "coping_strategies": "The client engages in anticipatory planning for worst-case scenarios, exhibiting anxiety about future events that may or may not happen. Though possibly initially intended to be productive, this strategy seems to result in increased anxiety and guilt. The client also exhibits avoidance by delaying to look for consulates or make travel plans, despite acknowledging these tasks as necessary."
+      },
+      "idss": {
+        "relevant_history": 0.7096091766884648,
+        "core_beliefs": 0.1926313290848486,
+        "intermediate_beliefs": 0.4724027771346806,
+        "coping_strategies": 0.4948633809223571,
+        "average": 0.46737666595758776
+      }
+    }
+  ]
+}

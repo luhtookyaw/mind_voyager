@@ -1,0 +1,49 @@
+{
+  "aggregate": {
+    "num_sessions": 1,
+    "cder": {
+      "external": 0.0,
+      "internal": 0.0,
+      "overall": 0.0
+    },
+    "idss": {
+      "relevant_history": 0.6702075646897372,
+      "core_beliefs": 0.25133092273136765,
+      "intermediate_beliefs": 0.3299592656923626,
+      "coping_strategies": 0.5030660500027544,
+      "average": 0.43864095077905546
+    }
+  },
+  "sessions": [
+    {
+      "file": "/Users/luhtookyaw/Desktop/StageTherapy/mind_voyager/outputs/hard/session_29-2.json",
+      "case_id": "29-2",
+      "client_mode": "masked",
+      "difficulty": "hard",
+      "cder": {
+        "external": 0,
+        "internal": 0,
+        "overall": 0
+      },
+      "predicted_internal_diagram": {
+        "relevant_history": "The client is experiencing changes at work due to a colleague leaving, which has made them feel sad, lonely, and uncertain about the future.",
+        "core_beliefs": "The absence of support from the colleague will lead to a lack of motivation and engagement at work.",
+        "intermediate_beliefs": "Without the colleague, things might fall apart, and the client feels lost and overwhelmed by the changes.",
+        "coping_strategies": "The client is trying to connect with their colleague's work, talking to others, and planning to reach out to other colleagues for support."
+      },
+      "ground_truth_internal_diagram": {
+        "relevant_history": "The client has had a profound relationship with their workplace, a research lab, where they've developed a sense of identity and belonging through their interactions and achievements. They mentioned a significant event with emotional heft regarding the departure of a close colleague, affecting their sense of stability. The lab serves as a counterpoint to their home life, where they've not felt the same level of comfort or predictability.",
+        "core_beliefs": "I am powerless, weak, vulnerable. | I am out of control. | I am undesirable, unwanted. | I am bound to be alone.",
+        "intermediate_beliefs": "They view the workplace as a setting where they can exert some measure of control and maintain emotional stability, unlike at home where they experience anxiety and uncertainty. \n[during depression]\n The workplace is not stable and falling apart. There will be nowhere to keep myself valuable and belonged.",
+        "coping_strategies": "The client attempts to cope through maintaining a busy schedule. They also have an inclination towards social interaction and structure, such as attending a holiday party and the lab, which serve as places of comfort and familiarity."
+      },
+      "idss": {
+        "relevant_history": 0.6702075646897372,
+        "core_beliefs": 0.25133092273136765,
+        "intermediate_beliefs": 0.3299592656923626,
+        "coping_strategies": 0.5030660500027544,
+        "average": 0.43864095077905546
+      }
+    }
+  ]
+}

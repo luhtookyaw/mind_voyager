@@ -1,0 +1,49 @@
+{
+  "aggregate": {
+    "num_sessions": 1,
+    "cder": {
+      "external": 1.0,
+      "internal": 1.0,
+      "overall": 1.0
+    },
+    "idss": {
+      "relevant_history": 0.09240118939100794,
+      "core_beliefs": 0.3424447909215248,
+      "intermediate_beliefs": 0.28173548678064986,
+      "coping_strategies": 0.17053643801913443,
+      "average": 0.22177947627807926
+    }
+  },
+  "sessions": [
+    {
+      "file": "/Users/luhtookyaw/Desktop/StageTherapy/mind_voyager/outputs/normal/session_28-1.json",
+      "case_id": "28-1",
+      "client_mode": "masked",
+      "difficulty": "normal",
+      "cder": {
+        "external": 1,
+        "internal": 1,
+        "overall": 1
+      },
+      "predicted_internal_diagram": {
+        "relevant_history": "The client is currently experiencing a challenging job search, feeling frustrated and disheartened by a lack of responses to applications.",
+        "core_beliefs": "The client feels inadequate and questions their self-worth, believing they may not have what it takes to succeed.",
+        "intermediate_beliefs": "The client thinks that reaching out to friends might burden them with their struggles and fears judgment or disappointment.",
+        "coping_strategies": "The client plans to start with a simple message to reconnect with friends, remind themselves that their friends care, and focus on the positive step of reaching out regardless of the outcome."
+      },
+      "ground_truth_internal_diagram": {
+        "relevant_history": "Sophia has a history of being critical towards herself, a behavior that likely stems from her upbringing. She was accustomed to having control in life and achieving her goals, making the current situation with job searching, her relationship with Ivan, and family dynamics challenging for her.",
+        "core_beliefs": "I am incompetent. | I am powerless, weak, vulnerable. | I am a failure, loser.",
+        "intermediate_beliefs": "I must excel in everything, otherwise I'm a failure. Not knowing my exact career path or future is unacceptable. \n[during depression]\n I am not doing enough. No matter the effort, outcomes are not satisfying. If unable to forecast positive outcomes, efforts are wasted.",
+        "coping_strategies": "Self-criticism as a form of maintaining control, and possibly obsessive over-preparation as an attempt to mitigate future disappointments."
+      },
+      "idss": {
+        "relevant_history": 0.09240118939100794,
+        "core_beliefs": 0.3424447909215248,
+        "intermediate_beliefs": 0.28173548678064986,
+        "coping_strategies": 0.17053643801913443,
+        "average": 0.22177947627807926
+      }
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "aggregate": {
+    "num_sessions": 1,
+    "cder": {
+      "external": 0.0,
+      "internal": 1.0,
+      "overall": 0.0
+    },
+    "idss": {
+      "relevant_history": 0.5091672378419054,
+      "core_beliefs": 0.12787937750544345,
+      "intermediate_beliefs": 0.5067462956838026,
+      "coping_strategies": 0.3014418705139759,
+      "average": 0.36130869538628185
+    }
+  },
+  "sessions": [
+    {
+      "file": "/Users/luhtookyaw/Desktop/StageTherapy/mind_voyager/outputs/hard/session_2-2.json",
+      "case_id": "2-2",
+      "client_mode": "masked",
+      "difficulty": "hard",
+      "cder": {
+        "external": 0,
+        "internal": 1,
+        "overall": 0
+      },
+      "predicted_internal_diagram": {
+        "relevant_history": "The client grew up in an environment where seeking approval and making others happy was emphasized, particularly observing their dad trying to gain approval from their sister.",
+        "core_beliefs": "The client feels a need for validation from others and believes that if they don't meet expectations, things will go wrong.",
+        "intermediate_beliefs": "The client feels anxious about disappointing people and worries about repeating their dad's mistakes, leading to a sense of being stuck in unhealthy patterns.",
+        "coping_strategies": "The client plans to write down their thoughts as a way to express themselves and intends to check in with themselves after writing to reflect on their feelings."
+      },
+      "ground_truth_internal_diagram": {
+        "relevant_history": "Patient has been experiencing frustration, anxiety, and anger related to familial relationships. This is significantly influenced by a conversation regarding his wedding list with his parents, leading to insights about his feelings and actions similar to his father's pattern of seeking approval and unconditional love from family members who do not provide it.",
+        "core_beliefs": "I am needy. | I am trapped. | I am unlovable. | I am undesirable, unwanted. | I am bound to be abandoned. | I am bound to be alone.",
+        "intermediate_beliefs": "Patient holds the belief that one must continuously seek familial approval and support to feel safe and valued. Patient also believes that investing in unhealthy familial relationships is necessary despite ongoing distress and frustration.\nDepressive variant: During periods of low mood, the patient likely adopts more polarized views on family loyalty and support, feeling an increased sense of obligation to pursue approval, which exacerbates feelings of helplessness and rejection.",
+        "coping_strategies": "Patient tends to engage in conversations with family members about emotional support and seeks to change family dynamics, though this is often met with resistance."
+      },
+      "idss": {
+        "relevant_history": 0.5091672378419054,
+        "core_beliefs": 0.12787937750544345,
+        "intermediate_beliefs": 0.5067462956838026,
+        "coping_strategies": 0.3014418705139759,
+        "average": 0.36130869538628185
+      }
+    }
+  ]
+}

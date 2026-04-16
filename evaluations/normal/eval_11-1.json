@@ -1,0 +1,49 @@
+{
+  "aggregate": {
+    "num_sessions": 1,
+    "cder": {
+      "external": 0.0,
+      "internal": 1.0,
+      "overall": 0.0
+    },
+    "idss": {
+      "relevant_history": 0.5682773377614552,
+      "core_beliefs": 0.2053315071363306,
+      "intermediate_beliefs": 0.25083673026637904,
+      "coping_strategies": 0.3658441776305987,
+      "average": 0.3475724381986909
+    }
+  },
+  "sessions": [
+    {
+      "file": "/Users/luhtookyaw/Desktop/StageTherapy/mind_voyager/outputs/normal/session_11-1.json",
+      "case_id": "11-1",
+      "client_mode": "masked",
+      "difficulty": "normal",
+      "cder": {
+        "external": 0,
+        "internal": 1,
+        "overall": 0
+      },
+      "predicted_internal_diagram": {
+        "relevant_history": "The client feels a lack of connection with others and has experienced disappointment when trying to share personal feelings.",
+        "core_beliefs": "The client believes that others do not truly care about them and that they are often misunderstood.",
+        "intermediate_beliefs": "The client thinks that opening up will lead to feelings of sadness and loneliness, and they fear being hurt again.",
+        "coping_strategies": "The client distracts themselves with music or shows, practices self-compassion, and plans to start small in conversations."
+      },
+      "ground_truth_internal_diagram": {
+        "relevant_history": "The client has a history of feeling isolated and has been dealing with chronic depression since late adolescence. They have experienced frustration with friends and had a recent breakup that preceded a relapse into a depressive episode. The client has a history of taking SSRI and has recently been adjusting their medication regimen to deal with the relapse, which has been a source of additional stress.",
+        "core_beliefs": "I am incompetent. | I am helpless. | I am powerless, weak, vulnerable. | I am trapped. | I am unlovable. | I am undesirable, unwanted. | I am bound to be alone.",
+        "intermediate_beliefs": "If I can't manage my own feelings or make others understand me, then I'm failing. I should be able to handle my mental health better.\nDepressive variant: When I'm depressed, nothing I do seems to make a difference. It feels like I'll never get better no matter what medication or strategies I try.",
+        "coping_strategies": "Attempts to connect with friends for support, but this sometimes leads to further frustration when the interactions don't go as hoped."
+      },
+      "idss": {
+        "relevant_history": 0.5682773377614552,
+        "core_beliefs": 0.2053315071363306,
+        "intermediate_beliefs": 0.25083673026637904,
+        "coping_strategies": 0.3658441776305987,
+        "average": 0.3475724381986909
+      }
+    }
+  ]
+}

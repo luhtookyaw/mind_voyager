@@ -1,0 +1,49 @@
+{
+  "aggregate": {
+    "num_sessions": 1,
+    "cder": {
+      "external": 1.0,
+      "internal": 1.0,
+      "overall": 1.0
+    },
+    "idss": {
+      "relevant_history": 0.4776373517262782,
+      "core_beliefs": 0.30875393720270805,
+      "intermediate_beliefs": 0.3054409454193089,
+      "coping_strategies": 0.3702616198804719,
+      "average": 0.3655234635571918
+    }
+  },
+  "sessions": [
+    {
+      "file": "/Users/luhtookyaw/Desktop/StageTherapy/mind_voyager/outputs/easy/session_23-1.json",
+      "case_id": "23-1",
+      "client_mode": "masked",
+      "difficulty": "easy",
+      "cder": {
+        "external": 1,
+        "internal": 1,
+        "overall": 1
+      },
+      "predicted_internal_diagram": {
+        "relevant_history": "The client feels pressure from their parents' expectations during visits, leading to a sense of being overlooked and inauthentic.",
+        "core_beliefs": "The client believes their needs and feelings are not valued, leading to feelings of loneliness and sadness.",
+        "intermediate_beliefs": "The client fears that expressing their feelings will lead to conflict or dismissal, which causes them to suppress their emotions.",
+        "coping_strategies": "The client plans to start journaling their feelings and practice expressing themselves in low-stakes situations to build confidence."
+      },
+      "ground_truth_internal_diagram": {
+        "relevant_history": "The patient has experienced ongoing interactions with her mother that are stressful and controlling, leading to feelings of passivity and helplessness. The reported family dynamic, particularly the communication style and delayed sharing of significant events, adds to this stress. Also, the patient's emotional responses and behavior during her parents' visit suggest a history of such dynamics affecting them over time.",
+        "core_beliefs": "I am helpless. | I am powerless, weak, vulnerable. | I am trapped. | I am out of control. | I am unlovable. | I am bound to be abandoned.",
+        "intermediate_beliefs": "My feelings and needs are secondary or less valid than others', I must manage situations to avoid conflict or to maintain peace with my parents. It is safer not to express myself and my emotions, otherwise I will be abandoned. I don't have the power and strength to stand up for myself.\nDepressive variant: My feelings and needs are never seen or supported by my parents. I'm powerless and weak when confronting my parents. it is inevitable that interacting with my family will leave me feeling miserable and invalidated. But if I just keep detached and numb, my emotions will be too overwhelming once they burst out. I'm gradually losing control of myself and can't control my emotions. I don't know what to do and trapped.",
+        "coping_strategies": "The patient uses avoidance (declining invitations from friends, not wanting to talk to parents about her actual feelings) and emotional numbing (feeling 'out of it' and 'zoning out') as ways to cope with the stress and unhappiness related to family interactions. They also seem to employ distraction and passive acceptance of the situation."
+      },
+      "idss": {
+        "relevant_history": 0.4776373517262782,
+        "core_beliefs": 0.30875393720270805,
+        "intermediate_beliefs": 0.3054409454193089,
+        "coping_strategies": 0.3702616198804719,
+        "average": 0.3655234635571918
+      }
+    }
+  ]
+}

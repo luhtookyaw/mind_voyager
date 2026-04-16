@@ -1,0 +1,180 @@
+{
+  "case_id": "26-1",
+  "client_name": "Olivia",
+  "client_mode": "masked",
+  "hide_all": false,
+  "difficulty": "hard",
+  "therapist_provider": "openai",
+  "therapist_model": "gpt-4o-mini",
+  "client_model": "gpt-4o-mini",
+  "max_turns": 15,
+  "transcript": [
+    {
+      "turn": 1,
+      "speaker": "therapist",
+      "content": "Hello, Olivia. I'm glad you're here today. What feels most important for you to talk about right now?"
+    },
+    {
+      "turn": 1,
+      "speaker": "client",
+      "content": "Um, I guess I\u2019m just... I\u2019m not sure. There\u2019s a lot on my mind, but it\u2019s hard to pinpoint. I\u2019ve been thinking about some things that have happened recently, especially with Ivan. It\u2019s just... I don\u2019t know, it feels heavy. I feel like I need to understand things better, but I\u2019m not sure how to express that."
+    },
+    {
+      "turn": 2,
+      "speaker": "therapist",
+      "content": "It sounds like there\u2019s a lot weighing on you, especially regarding your experiences with Ivan. It\u2019s completely okay to feel unsure about how to express what\u2019s on your mind. Can you share a bit more about what happened with Ivan that feels heavy for you?"
+    },
+    {
+      "turn": 2,
+      "speaker": "client",
+      "content": "Well, there have been some conversations where people have used terms like \"delusional\" and \"pseudo-psychotic\" to describe his behavior. It just... it sounds really serious and scary. I can\u2019t help but worry about what it means for him and for me. I find myself feeling anxious and tense, like I\u2019m not sure if I\u2019m safe or if he can control himself. It\u2019s just a lot to take in, you know?"
+    },
+    {
+      "turn": 3,
+      "speaker": "therapist",
+      "content": "It sounds like hearing those terms about Ivan has created a lot of anxiety and uncertainty for you. It\u2019s understandable to feel tense when you\u2019re concerned about someone\u2019s behavior and your own sense of safety. Can you tell me more about how those conversations have affected your feelings toward Ivan and your relationship with him?"
+    },
+    {
+      "turn": 3,
+      "speaker": "client",
+      "content": "Yeah, it\u2019s been tough. I find myself feeling unsettled after those conversations. I start to question everything\u2014like, can I trust him? Should I be worried? It makes me want to seek reassurance, but then I also feel like I should distance myself from people who say I should just leave him. I don\u2019t know... it\u2019s like I\u2019m caught between wanting to support him and feeling scared about what that means for me. It\u2019s confusing."
+    },
+    {
+      "turn": 4,
+      "speaker": "therapist",
+      "content": "It sounds like you\u2019re in a really difficult position, feeling torn between wanting to support Ivan and the fear that comes from the uncertainty around his behavior. It\u2019s natural to seek reassurance when you\u2019re feeling unsettled, yet you also feel the pressure to consider distancing yourself based on what others are saying. That must create a lot of internal conflict for you. How do you usually cope with these feelings of confusion and anxiety?"
+    },
+    {
+      "turn": 4,
+      "speaker": "client",
+      "content": "I guess I try to talk it out, like I\u2019m doing now, but sometimes it feels hard to really open up. I often just keep things to myself, you know? I don\u2019t want to burden anyone with my worries, and I\u2019m not sure if they\u2019d understand anyway. So, I might just distract myself with other things or try to focus on what\u2019s going well in my life. But deep down, I know it doesn\u2019t really help me figure things out. It\u2019s just... easier to avoid the tough stuff sometimes."
+    },
+    {
+      "turn": 5,
+      "speaker": "therapist",
+      "content": "It sounds like you have a mix of strategies for coping, like talking it out when you can, but also keeping things to yourself out of concern for burdening others. It\u2019s understandable to want to avoid the tough stuff, especially when it feels overwhelming. Distracting yourself or focusing on the positives can feel easier in the moment, but it seems like you\u2019re aware that it doesn\u2019t fully address what you\u2019re feeling. What do you think makes it hard for you to open up about these worries, even when you want to?"
+    },
+    {
+      "turn": 5,
+      "speaker": "client",
+      "content": "I think part of it is just feeling like my worries might not make sense to others, or that they might think I\u2019m overreacting. I don\u2019t want to seem weak or like I can\u2019t handle things. There\u2019s also this fear of judgment, like if I share too much, people might tell me what to do or how to feel, and that just adds to the pressure. So, I guess I hold back because I\u2019m not sure how people will react, and I don\u2019t want to feel more anxious than I already do."
+    },
+    {
+      "turn": 6,
+      "speaker": "therapist",
+      "content": "It sounds like you\u2019re carrying a lot of concern about how others might perceive your worries, which makes it difficult to open up. The fear of being judged or feeling like you need to meet certain expectations can create additional pressure. It\u2019s completely valid to want to protect yourself from feeling more anxious. I wonder, what would it feel like for you to share your thoughts and feelings, even just a little, with someone you trust?"
+    },
+    {
+      "turn": 6,
+      "speaker": "client",
+      "content": "I think it would feel... kind of freeing, but also really scary. There\u2019s a part of me that wants to let it out, to not carry it all alone. But then I worry about how they might react or if they\u2019ll really understand. It\u2019s like I want to be honest, but I\u2019m also afraid of being vulnerable. I guess I just don\u2019t want to feel more exposed than I already do. It\u2019s a tough balance, you know?"
+    },
+    {
+      "turn": 7,
+      "speaker": "therapist",
+      "content": "It makes a lot of sense that you would feel both a desire for freedom in sharing your feelings and a fear of vulnerability. That balance between wanting to be honest and the fear of being exposed can be really challenging. It\u2019s clear that you value connection and understanding, yet the risk of judgment feels daunting. How do you think you might navigate that balance, especially when you\u2019re feeling ready to share?"
+    },
+    {
+      "turn": 7,
+      "speaker": "client",
+      "content": "I suppose I could start small, maybe just share a little bit at a time with someone I trust. That way, it wouldn\u2019t feel so overwhelming. I could gauge their reaction and see if it feels safe to open up more. I think finding someone who really listens and doesn\u2019t rush to give advice would help. It\u2019s just... taking that first step feels like a big deal. I guess it\u2019s about finding the right moment and the right person to talk to."
+    },
+    {
+      "turn": 8,
+      "speaker": "therapist",
+      "content": "That sounds like a thoughtful approach\u2014starting small and sharing a little at a time with someone you trust could make it feel more manageable. It\u2019s great that you recognize the importance of finding someone who listens without rushing to give advice. Taking that first step can indeed feel significant, and it\u2019s okay to take your time with it. What do you think might help you feel more prepared or confident when you decide to take that step?"
+    },
+    {
+      "turn": 8,
+      "speaker": "client",
+      "content": "Maybe if I take some time to really think about what I want to say beforehand, it could help. Like, writing down my thoughts or even practicing how to express them could make it feel less daunting. I think having a clear idea of what I want to share might give me more confidence. Also, reminding myself that it\u2019s okay to feel vulnerable and that it\u2019s a part of connecting with others could help too. Just... finding that courage to actually do it is the tricky part."
+    },
+    {
+      "turn": 9,
+      "speaker": "therapist",
+      "content": "It sounds like you have some solid ideas for preparing yourself, like writing down your thoughts and practicing how to express them. That could definitely help build your confidence. It\u2019s also insightful that you recognize vulnerability as a part of connecting with others. Finding the courage to take that step can be tough, but it seems like you\u2019re already thinking about ways to support yourself through it. What do you think might motivate you to take that first step when the moment feels right?"
+    },
+    {
+      "turn": 9,
+      "speaker": "client",
+      "content": "I think the motivation might come from wanting to feel less alone in all of this. If I can share even a little, it might lighten the load I\u2019ve been carrying. Also, knowing that there are people who care and want to help could push me to take that step. I guess I just want to feel more connected and understood, especially with everything going on with Ivan and my own feelings. It\u2019s like... if I can reach out, maybe I can start to make sense of things a bit better."
+    },
+    {
+      "turn": 10,
+      "speaker": "therapist",
+      "content": "That\u2019s a powerful motivation\u2014wanting to feel less alone and more connected, especially during such a challenging time with Ivan and your own feelings. It\u2019s understandable that sharing even a little could help lighten your emotional load and create a sense of understanding. It seems like reaching out could be a meaningful step toward making sense of everything you\u2019re experiencing. As you think about this, what do you feel would be the most important thing for you to remember when you decide to reach out?"
+    },
+    {
+      "turn": 10,
+      "speaker": "client",
+      "content": "I think the most important thing to remember would be that it\u2019s okay to be honest about how I\u2019m feeling, even if it\u2019s messy or confusing. I need to remind myself that it\u2019s a safe space to express my worries and that I don\u2019t have to have all the answers right away. It\u2019s also important to remember that I\u2019m not alone in this, and that sharing could actually help me feel more supported. Just taking that step, no matter how small, could be a big deal for me."
+    },
+    {
+      "turn": 11,
+      "speaker": "therapist",
+      "content": "That\u2019s a beautiful insight, Olivia. Remembering that it\u2019s okay to be honest about your feelings, even when they\u2019re messy or confusing, can really help create that safe space for yourself. Acknowledging that you\u2019re not alone and that sharing could lead to more support is so important. It sounds like you\u2019re recognizing the value of taking even small steps toward connection, which is a significant realization. As you move forward, how do you feel about giving yourself permission to take those small steps, even if they feel a bit daunting?"
+    },
+    {
+      "turn": 11,
+      "speaker": "client",
+      "content": "I think giving myself permission to take those small steps feels... kind of liberating, actually. It\u2019s like I\u2019m allowing myself to be human and to experience these feelings without judgment. I know it won\u2019t be easy, and there will still be some fear, but just acknowledging that it\u2019s okay to take it slow makes it feel more manageable. I guess it\u2019s about being gentle with myself and recognizing that progress doesn\u2019t have to be perfect. That feels like a good place to start."
+    },
+    {
+      "turn": 12,
+      "speaker": "therapist",
+      "content": "That\u2019s a wonderful perspective, Olivia. Allowing yourself to be human and experience your feelings without judgment is such an important part of this process. It\u2019s great that you\u2019re recognizing the value of being gentle with yourself and understanding that progress doesn\u2019t have to be perfect. That mindset can really help you navigate the challenges ahead. As you think about this journey, what do you feel would be the next small step you\u2019d like to take toward sharing your feelings with someone?"
+    },
+    {
+      "turn": 12,
+      "speaker": "client",
+      "content": "I think the next small step I\u2019d like to take is to write down some of my thoughts and feelings. Just getting them out on paper might help me clarify what I want to say when I do decide to share. Maybe I could even pick a trusted friend or family member and think about how I might approach the conversation. Just having a plan could make it feel less overwhelming. I guess starting with writing feels like a safe way to begin."
+    },
+    {
+      "turn": 13,
+      "speaker": "therapist",
+      "content": "That sounds like a great plan, Olivia. Writing down your thoughts and feelings can be a really effective way to clarify what you want to express, and it can help ease some of the overwhelm. Choosing a trusted friend or family member to approach is a thoughtful step, too. It seems like you\u2019re setting yourself up for success by creating a plan that feels safe and manageable. How do you feel about starting that writing process? Is there anything specific you\u2019d like to focus on when you begin?"
+    },
+    {
+      "turn": 13,
+      "speaker": "client",
+      "content": "I feel a bit nervous about starting the writing process, but also kind of hopeful. I think I\u2019d like to focus on the feelings I\u2019ve been having about Ivan and the confusion surrounding our relationship. It might help to put into words how I feel about the things that have been said about him and my own worries. I think I\u2019ll also try to include some of the things I want to express when I do talk to someone. Just getting it all out might help me feel clearer and more prepared."
+    },
+    {
+      "turn": 14,
+      "speaker": "therapist",
+      "content": "It\u2019s completely natural to feel a mix of nervousness and hope as you begin this writing process. Focusing on your feelings about Ivan and the confusion surrounding your relationship sounds like a meaningful way to start. Putting those thoughts into words can really help you gain clarity and prepare for future conversations. It\u2019s wonderful that you\u2019re recognizing the value of expressing both your worries and what you\u2019d like to share with someone. As you embark on this writing journey, remember to be gentle with yourself and allow whatever comes up to flow. How do you plan to create a space for yourself to write, so it feels comfortable and supportive?"
+    },
+    {
+      "turn": 14,
+      "speaker": "client",
+      "content": "I think I\u2019ll find a quiet spot in my home where I can be alone and won\u2019t be interrupted. Maybe I\u2019ll light a candle or play some soft music to create a calming atmosphere. I want to make it feel like a safe space where I can just let my thoughts flow without any pressure. I might even set a timer for a short period, like 15 or 20 minutes, so I don\u2019t feel overwhelmed by the idea of writing for too long. Just having that little routine could help me feel more at ease as I start to write."
+    },
+    {
+      "turn": 15,
+      "speaker": "therapist",
+      "content": "That sounds like a lovely plan, Olivia. Creating a quiet and calming atmosphere with a candle and soft music can really help set the right mood for your writing. Setting a timer for a short period is a smart way to ease any pressure and make the process feel more manageable. It seems like you\u2019re taking thoughtful steps to ensure that this space feels safe and supportive for you. As you prepare to start this writing process, is there anything else you\u2019d like to reflect on or any other support you feel you might need?"
+    },
+    {
+      "turn": 15,
+      "speaker": "client",
+      "content": "I think I just want to remind myself that it\u2019s okay if the writing doesn\u2019t come out perfectly or if I don\u2019t capture everything I want to say right away. I might need to give myself permission to write freely without worrying about how it sounds. Also, it could be helpful to remind myself that it\u2019s a process, and I can always come back to it later if I need to. I guess just having that mindset will help me feel less pressured. I appreciate having this space to talk about it; it helps me feel more prepared."
+    }
+  ],
+  "judge_model": "gpt-4o-mini",
+  "mediator_events": [
+    "Exploration judge rated 3/5; internal elements remain masked.",
+    "Exploration judge output: [Rating]: 3 (Very High Facilitation \u2013 Deep Exploration Begins)\n\n[Justification]: The Therapist asked insightful and thought-provoking questions that encouraged the client to analyze the emotional depth and root causes of her anxiety regarding Ivan's behavior. By prompting the client to reflect on how the conversations about Ivan have affected her feelings and their relationship, the Therapist facilitated a deeper exploration of the client's emotions and concerns. This approach helped shift the client's perspective, allowing her to delve into her feelings of safety and anxiety. However, while the questions were effective in promoting self-reflection, they did not fully challenge the client's existing thought patterns or introduce completely new angles, which is why it falls short of a rating of 4.",
+    "Rapport judge rated 3/5; no experience reveal.",
+    "Rapport judge output: **Rating: 3 (ENGAGED EXPLORATION)**\n\n**Key Examples:**\n1. \"It just... it sounds really serious and scary. I can\u2019t help but worry about what it means for him and for me. I find myself feeling anxious and tense, like I\u2019m not sure if I\u2019m safe or if he can control himself.\"\n2. \"I start to question everything\u2014like, can I trust him? Should I be worried? It makes me want to seek reassurance, but then I also feel like I should distance myself from people who say I should just leave him.\"\n\n**Progression:**\nThe client\u2019s most recent interactions reflect a notable increase in emotional depth and self-reflection. Initially, the client expressed uncertainty and hesitance, but now they are articulating specific feelings of anxiety and tension related to their relationship with Ivan. This marks a significant change from earlier exchanges, where the client may have been more guarded and less willing to explore their emotional landscape. The current dialogue showcases a willingness to engage with complex emotions, indicating a deeper level of exploration and understanding of their situation.\n\n**Turning Point:**\nThe client\u2019s emotional depth shifted during the discussion about the terms used to describe Ivan's behavior, particularly when they articulated feelings of anxiety and the internal conflict of wanting to support Ivan while also feeling scared. This moment of vulnerability and the recognition of their emotional turmoil served as a catalyst for deeper engagement, allowing the client to express their confusion and fear more openly. This shift indicates a growing comfort with the therapist and a readiness to explore their feelings further, which aligns with the characteristics of the \"Engaged Exploration\" stage.",
+    "Exploration judge rated 3/5; internal elements remain masked.",
+    "Exploration judge output: [Rating]: 3 (Very High Facilitation \u2013 Deep Exploration Begins)\n\n[Justification]: The therapist asked insightful and thought-provoking questions that encouraged the client to analyze the root causes of her feelings of anxiety and confusion regarding her relationship with Ivan. The therapist's inquiries helped the client to explore her internal conflict and the impact of external opinions on her emotions and decisions. The questions began to shift the client's perspective, particularly when discussing her fears about judgment and the difficulty of opening up. However, while the therapist facilitated deeper exploration, the questions did not fully challenge the client's existing thought patterns or introduce completely new angles that could lead to a significant breakthrough. Thus, the facilitation was strong but not at the highest level of transformational potential.",
+    "Rapport judge rated 3/5; no experience reveal.",
+    "Rapport judge output: **Rating: 3 (ENGAGED EXPLORATION)**\n\n**Key Examples:**\n1. \"It\u2019s just... it feels heavy. I feel like I need to understand things better, but I\u2019m not sure how to express that.\"\n2. \"I think it would feel... kind of freeing, but also really scary. There\u2019s a part of me that wants to let it out, to not carry it all alone.\"\n\n**Progression:** The client\u2019s most recent interactions demonstrate a notable increase in emotional expression and self-reflection. Initially, the client expressed uncertainty and hesitance, but as the session progressed, they articulated their feelings of anxiety and confusion regarding their relationship with Ivan. This marks a significant change from earlier in the session, where the client was more guarded and unsure about how to articulate their thoughts. The client is now engaging in meaningful self-reflection, recognizing their desire to share their feelings while grappling with the fear of vulnerability.\n\n**Turning Point:** The client\u2019s emotional depth shifted during the exchange where they articulated the desire to share their feelings, stating, \"I think it would feel... kind of freeing, but also really scary.\" This moment reflects a breakthrough in their willingness to explore their emotions more openly, indicating a growing comfort with vulnerability and a desire for connection. The acknowledgment of wanting to share but feeling scared illustrates a deeper level of self-awareness and emotional engagement, which is a significant turning point in their therapeutic journey.",
+    "Exploration judge rated 4/5 and revealed internal cognitive elements.",
+    "Exploration judge output: [Rating]: 4 (Even Higher Facilitation \u2013 Strong Transformational Potential)\n\n[Justification]: The Therapist posed strategic and powerfully open-ended questions that pushed the client beyond their previous understanding. For instance, when the Therapist asked, \"What do you think makes it hard for you to open up about these worries, even when you want to?\" it prompted the client to explore deeper emotional barriers and fears related to vulnerability and judgment. The Therapist's inquiry about how it would feel to share thoughts and feelings with someone they trust also encouraged the client to consider new perspectives on their situation. This line of questioning led to a clear shift in the client's self-awareness, as they began to articulate their coping strategies and the internal conflict they experience. Overall, the Therapist's questions effectively challenged the client's assumptions and revealed hidden motivations, facilitating a deeper exploration of their feelings and experiences.",
+    "Rapport judge rated 4/5 and revealed one more experience block.",
+    "Rapport judge output: **Rating: 4 (DEEP ENGAGEMENT)**\n\n**Key Examples:**\n1. **Emotional State:** \"I think the motivation might come from wanting to feel less alone in all of this. If I can share even a little, it might lighten the load I\u2019ve been carrying.\"\n2. **Current Openness:** \"I think giving myself permission to take those small steps feels... kind of liberating, actually. It\u2019s like I\u2019m allowing myself to be human and to experience these feelings without judgment.\"\n\n**Progression:** The client\u2019s most recent interactions demonstrate a significant emotional depth and vulnerability, particularly in their acknowledgment of wanting to share their feelings to alleviate their emotional burden. This marks a notable change from earlier exchanges, where they expressed uncertainty and hesitance about opening up. The client has moved from a place of primarily keeping their feelings to themselves to actively contemplating sharing their emotions with trusted individuals, indicating a deeper level of engagement and self-reflection.\n\n**Turning Point:** The client\u2019s emotional depth shifted during the exchange where they articulated their desire to feel less alone and more connected, particularly in relation to their experiences with Ivan. This moment highlighted their growing awareness of the importance of vulnerability and connection, which has significantly contributed to their current emotional state of openness and willingness to explore their feelings further."
+  ],
+  "final_visible_experience_count": 2,
+  "internal_revealed": true
+}

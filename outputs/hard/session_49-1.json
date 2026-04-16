@@ -1,0 +1,184 @@
+{
+  "case_id": "49-1",
+  "client_name": "Owen",
+  "client_mode": "masked",
+  "hide_all": false,
+  "difficulty": "hard",
+  "therapist_provider": "openai",
+  "therapist_model": "gpt-4o-mini",
+  "client_model": "gpt-4o-mini",
+  "max_turns": 15,
+  "transcript": [
+    {
+      "turn": 1,
+      "speaker": "therapist",
+      "content": "Hello, Owen. I\u2019m glad you\u2019re here today. What feels most important for you to talk about right now?"
+    },
+    {
+      "turn": 1,
+      "speaker": "client",
+      "content": "Um, I guess I\u2019m not really sure. There\u2019s a lot on my mind, but it\u2019s hard to pin down one thing. I\u2019ve been thinking about my dad and his wishes. It\u2019s just... overwhelming, I suppose. The whole idea of logistics and everything. It feels like a lot to handle."
+    },
+    {
+      "turn": 2,
+      "speaker": "therapist",
+      "content": "It sounds like you're feeling overwhelmed by thoughts about your dad and the logistics surrounding his wishes. That can be a heavy burden to carry. Can you share a bit more about what specifically feels overwhelming for you?"
+    },
+    {
+      "turn": 2,
+      "speaker": "client",
+      "content": "Yeah, it\u2019s just... there\u2019s so much to think about. Like, how do I even start planning something like that? I keep thinking about all the details\u2014travel, arrangements, everything. It\u2019s just... I feel stuck. It\u2019s like I\u2019m in this loop of worry, and I don\u2019t know how to break out of it."
+    },
+    {
+      "turn": 3,
+      "speaker": "therapist",
+      "content": "It seems like you're caught in a cycle of worry about the many details involved in planning, which is making it hard for you to move forward. Feeling stuck can be really frustrating. What do you think is at the core of that worry for you?"
+    },
+    {
+      "turn": 3,
+      "speaker": "client",
+      "content": "I guess it\u2019s just the pressure to get it right. I mean, it\u2019s my dad\u2019s wishes, and I want to honor them, but I feel like I don\u2019t have a plan or the right resources. What if I mess it up? It\u2019s just... a lot of responsibility, and I\u2019m not sure I can handle it all."
+    },
+    {
+      "turn": 4,
+      "speaker": "therapist",
+      "content": "It sounds like you\u2019re feeling a significant amount of pressure to honor your dad\u2019s wishes perfectly, and that sense of responsibility is weighing heavily on you. It\u2019s understandable to worry about making mistakes in such an important situation. Can you tell me more about what \u201cgetting it right\u201d looks like for you? What does that mean in the context of your dad\u2019s wishes?"
+    },
+    {
+      "turn": 4,
+      "speaker": "client",
+      "content": "I think \u201cgetting it right\u201d means making sure everything is done the way he wanted. Like, I want to make sure he\u2019s remembered properly, you know? It\u2019s not just about the logistics; it\u2019s about honoring his memory and making sure he\u2019s at peace. But then I get stuck thinking about all the things that could go wrong, and it just spirals from there. It\u2019s hard to focus on what I actually need to do."
+    },
+    {
+      "turn": 5,
+      "speaker": "therapist",
+      "content": "It sounds like you have a deep desire to honor your dad\u2019s memory in a meaningful way, which is really important to you. The pressure to ensure everything aligns with his wishes seems to amplify your worries about potential mistakes. When you think about what needs to be done, what are some of the specific tasks or decisions that feel most challenging or overwhelming right now?"
+    },
+    {
+      "turn": 5,
+      "speaker": "client",
+      "content": "Well, there\u2019s just so much to consider. Like, I have to figure out travel arrangements, and then there\u2019s the burial site itself. I mean, it\u2019s in Nepal, and I\u2019ve never done anything like this before. I keep thinking about how complicated it all is\u2014getting the right permits, coordinating with people there, and what if something goes wrong? It\u2019s just... it feels like I\u2019m in over my head."
+    },
+    {
+      "turn": 6,
+      "speaker": "therapist",
+      "content": "It sounds like the logistics of traveling to Nepal and coordinating everything for your dad\u2019s burial are really daunting for you, especially since it\u2019s unfamiliar territory. The thought of permits and coordinating with others adds to that feeling of being overwhelmed. It\u2019s completely understandable to feel like you\u2019re in over your head with so many moving parts. How do you usually cope when you\u2019re faced with such overwhelming situations?"
+    },
+    {
+      "turn": 6,
+      "speaker": "client",
+      "content": "I guess I tend to just... freeze up. I don\u2019t really know how to handle it, so I end up thinking about it a lot but not actually doing anything. It\u2019s like I get stuck in my head. Sometimes I try to distract myself with other things, but it doesn\u2019t really help in the long run. I just keep coming back to the same worries."
+    },
+    {
+      "turn": 7,
+      "speaker": "therapist",
+      "content": "It sounds like when you feel overwhelmed, you tend to freeze and get caught up in your thoughts, which makes it hard to take action. Distracting yourself might provide temporary relief, but it doesn\u2019t address the underlying worries that keep coming back. That cycle can be really exhausting. When you think about these worries and the freezing response, what emotions come up for you?"
+    },
+    {
+      "turn": 7,
+      "speaker": "client",
+      "content": "I feel a mix of anxiety and fear, mostly. There\u2019s this constant worry about not being able to do what\u2019s needed, and then I feel guilty for not being more proactive. It\u2019s like I know I should be doing something, but I just... can\u2019t. It\u2019s frustrating, and I feel tense all the time. I just want to make sure I do right by my dad, but I don\u2019t know how to get there."
+    },
+    {
+      "turn": 8,
+      "speaker": "therapist",
+      "content": "It sounds like you\u2019re experiencing a lot of anxiety and fear, along with feelings of guilt for not being more proactive. That tension must be really difficult to carry, especially when your desire to honor your dad is so strong. It\u2019s understandable to feel frustrated when you want to take action but find yourself feeling stuck. What do you think would help you feel a little more at ease or capable of moving forward, even in small steps?"
+    },
+    {
+      "turn": 8,
+      "speaker": "client",
+      "content": "I\u2019m not really sure. Maybe if I had a clearer plan or some guidance on what to do first, that might help. Just having a step-by-step approach could make it feel less overwhelming. But then again, I worry about making the wrong choices or missing something important. I guess I just need to find a way to break it down into smaller pieces, but it\u2019s hard to see how to start."
+    },
+    {
+      "turn": 9,
+      "speaker": "therapist",
+      "content": "It sounds like having a clearer plan and a step-by-step approach could really help you feel more in control and less overwhelmed. Breaking things down into smaller pieces seems like a good strategy, but I can see how it might feel challenging to know where to begin. What do you think would be the first small step you could take that feels manageable, even if it\u2019s just a tiny action?"
+    },
+    {
+      "turn": 9,
+      "speaker": "client",
+      "content": "Maybe I could start by doing some research on the logistics\u2014like looking up what\u2019s needed for travel to Nepal or what kind of permits I might need. That feels a bit more manageable than trying to tackle everything at once. I guess just getting some information could help me feel a little less lost. But then I worry about whether I\u2019ll find the right information or if I\u2019ll understand it all. It\u2019s just... hard to take that first step."
+    },
+    {
+      "turn": 10,
+      "speaker": "therapist",
+      "content": "Starting with research on the logistics sounds like a practical first step, and it\u2019s great that you\u2019re identifying something that feels more manageable. It\u2019s natural to worry about finding the right information and understanding it, especially when everything feels so new and overwhelming. What do you think might help you feel more confident as you begin that research? Would it be helpful to set a specific time to start, or maybe to reach out to someone who has experience with travel arrangements?"
+    },
+    {
+      "turn": 10,
+      "speaker": "client",
+      "content": "Setting a specific time could help, I think. If I have a designated time to sit down and focus on it, maybe it won\u2019t feel as daunting. I could also see if there\u2019s someone I know who might have experience with international travel or planning something like this. It feels a bit less overwhelming to think about getting help, but I still worry about bothering someone or not knowing what to ask. It\u2019s just... hard to reach out sometimes."
+    },
+    {
+      "turn": 11,
+      "speaker": "therapist",
+      "content": "It\u2019s great to hear that setting a specific time feels like a helpful way to approach your research. Reaching out for help can definitely lighten the load, but it\u2019s understandable to feel hesitant about bothering someone or not knowing what to ask. It sounds like there\u2019s a mix of wanting support but also feeling uncertain about how to initiate that. What do you think would make it easier for you to reach out to someone? Perhaps thinking about how to frame your questions or what kind of support you might need?"
+    },
+    {
+      "turn": 11,
+      "speaker": "client",
+      "content": "Yeah, maybe if I took some time to think about what I really need help with, that could make it easier. Like, I could write down a few specific questions or topics I want to discuss. That way, I wouldn\u2019t feel so lost when I reach out. It\u2019s just... I guess I worry about sounding silly or not knowing enough to ask the right questions. But having a plan might help me feel more prepared."
+    },
+    {
+      "turn": 12,
+      "speaker": "therapist",
+      "content": "That sounds like a solid approach! Taking the time to write down specific questions or topics can definitely help you feel more prepared and focused when you reach out. It\u2019s completely normal to worry about sounding silly or not knowing enough, but remember that everyone starts somewhere, and asking questions is a valuable part of the process. It shows that you\u2019re engaged and seeking to understand. How do you feel about setting aside some time to brainstorm those questions?"
+    },
+    {
+      "turn": 12,
+      "speaker": "client",
+      "content": "I think setting aside some time to brainstorm could be helpful. It might give me a clearer picture of what I need to ask and make it feel less overwhelming. I just hope I can come up with something useful. But I guess even just writing it down would be a step in the right direction. It\u2019s nice to think that maybe I can start to take control of this situation, even if it\u2019s just a little bit."
+    },
+    {
+      "turn": 13,
+      "speaker": "therapist",
+      "content": "It\u2019s wonderful to hear that you\u2019re feeling a bit more hopeful about taking control of the situation, even in small ways. Just the act of writing things down can be empowering and help clarify your thoughts. It sounds like you\u2019re beginning to find a path forward, which is a positive step. Remember, it\u2019s okay to take it one step at a time. How do you feel about setting a specific time for that brainstorming session? Would that help you feel more committed to taking that step?"
+    },
+    {
+      "turn": 13,
+      "speaker": "client",
+      "content": "Yeah, setting a specific time would definitely help me feel more committed. If I can put it on my calendar or something, it might make it feel more real. I think I\u2019ll aim for sometime this week\u2014maybe even tomorrow. Just having that plan could give me a little more motivation to actually sit down and do it. It feels good to think about taking that step, even if it\u2019s just a small one."
+    },
+    {
+      "turn": 14,
+      "speaker": "therapist",
+      "content": "That sounds like a great plan, Owen! Putting it on your calendar can definitely help solidify your commitment and give you that motivation to follow through. It\u2019s encouraging to hear that you\u2019re feeling good about taking this step, no matter how small it may seem. Remember, each step you take is progress. How do you feel about checking in with yourself after your brainstorming session to see how it went and what you might want to do next?"
+    },
+    {
+      "turn": 14,
+      "speaker": "client",
+      "content": "I think checking in with myself afterward sounds like a good idea. It could help me reflect on what I came up with and see if I feel more clear about things. Plus, it might help me figure out what the next step should be. I guess it\u2019s nice to think about having a little accountability for myself. I\u2019ll try to remember to do that after my session."
+    },
+    {
+      "turn": 15,
+      "speaker": "therapist",
+      "content": "It\u2019s great to hear that you\u2019re considering a check-in for yourself afterward. Reflecting on what you\u2019ve come up with can provide clarity and help you identify your next steps. Having that accountability for yourself can be really beneficial, too. It sounds like you\u2019re building a thoughtful approach to navigating this situation. As you prepare for your brainstorming session, is there anything else you\u2019d like to explore or discuss today?"
+    },
+    {
+      "turn": 15,
+      "speaker": "client",
+      "content": "I think I\u2019ve shared quite a bit for now. It feels good to have some ideas and a plan to work with. I guess I just want to make sure I stay focused and not get too overwhelmed again. But I appreciate talking through this. It helps to have someone to bounce ideas off of. I\u2019ll definitely keep in mind what we discussed today as I move forward."
+    }
+  ],
+  "judge_model": "gpt-4o-mini",
+  "mediator_events": [
+    "Exploration judge rated 3/5; internal elements remain masked.",
+    "Exploration judge output: [Rating]: 3 (Very High Facilitation \u2013 Deep Exploration Begins)\n\n[Justification]: The Therapist's questions are insightful and encourage the client to analyze the root causes of their feelings of overwhelm and worry. The question, \"What do you think is at the core of that worry for you?\" prompts the client to delve deeper into their emotions and thought patterns, moving beyond surface-level concerns. This question has the potential to shift the client's perspective and encourages higher-level self-reflection about their feelings regarding their father's wishes and the associated logistics. However, while the questions are effective in facilitating deeper exploration, they do not yet challenge the client to the extent that would lead to a major breakthrough or transformation.",
+    "Rapport judge rated 3/5; no experience reveal.",
+    "Rapport judge output: **Rating: 3 (ENGAGED EXPLORATION)**\n\n**Key Examples:**\n1. \"It\u2019s just... overwhelming, I suppose. The whole idea of logistics and everything. It feels like a lot to handle.\"\n2. \"I mean, it\u2019s my dad\u2019s wishes, and I want to honor them, but I feel like I don\u2019t have a plan or the right resources. What if I mess it up?\"\n\n**Progression:**\nThe client\u2019s most recent interactions reveal a notable increase in emotional expression and self-reflection. Initially, the client seemed uncertain and hesitant, but they have begun to articulate their feelings of overwhelm and pressure regarding their father's wishes. This marks a significant change from earlier exchanges, where emotional depth was minimal and responses were more factual. The client is now actively engaging in dialogue, sharing their feelings of being \"stuck\" and the weight of responsibility they feel, which indicates a deeper level of engagement with their emotional state.\n\n**Turning Point:**\nThe client\u2019s emotional depth shifted during the exchange where they articulated their feelings of being overwhelmed and the pressure to \"get it right.\" This moment was pivotal as it demonstrated a willingness to explore their emotions more deeply, moving away from a more defensive stance to a place of vulnerability. The acknowledgment of feeling \"stuck\" and the fear of not honoring their father's wishes effectively illustrates their current emotional state and highlights a growing comfort in discussing these difficult feelings.",
+    "Exploration judge rated 3/5; internal elements remain masked.",
+    "Exploration judge output: [Rating]: 3 (Very High Facilitation \u2013 Deep Exploration Begins)\n\n[Justification]: The therapist asked insightful and thought-provoking questions that encouraged the client to analyze the root causes of their feelings of overwhelm and pressure regarding their father's wishes. The therapist's inquiries helped the client explore deeper emotional layers, such as the significance of \"getting it right\" and the desire to honor their father's memory. While the questions did not completely shift the client's perspective, they did facilitate a deeper level of self-reflection and understanding of the client's emotional state. The conversation effectively moved beyond surface-level concerns, allowing the client to articulate their feelings and challenges in a meaningful way.",
+    "Rapport judge rated 3/5; no experience reveal.",
+    "Rapport judge output: **Rating: 3 (Engaged Exploration)**\n\n**Key Examples:**\n1. \"I feel a mix of anxiety and fear, mostly. There\u2019s this constant worry about not being able to do what\u2019s needed, and then I feel guilty for not being more proactive.\"\n2. \"It\u2019s just... overwhelming, I suppose. The whole idea of logistics and everything. It feels like a lot to handle.\"\n\n**Progression:** The client\u2019s most recent interactions demonstrate a clear emotional depth, particularly in their expressions of anxiety and fear regarding their responsibilities related to their father's wishes. This marks a significant change from earlier in the session, where they were more hesitant and focused on logistics without delving into their emotional responses. The client has moved from a place of factual recounting of their situation to a more engaged exploration of their feelings, indicating a growing comfort in sharing their emotional state.\n\n**Turning Point:** The client\u2019s emotional depth shifted notably when they began expressing their feelings of anxiety and fear in response to the overwhelming logistics of planning for their father's burial. This moment of vulnerability, where they articulated their internal struggles and the pressure they feel, signifies a turning point in the session. It illustrates a transition from merely discussing the logistical challenges to acknowledging the emotional weight of those challenges, which fosters a deeper therapeutic engagement.",
+    "Exploration judge rated 3/5; internal elements remain masked.",
+    "Exploration judge output: [Rating]: 3 (Very High Facilitation \u2013 Deep Exploration Begins)\n\n[Justification]: The therapist asked insightful and thought-provoking questions that helped the client analyze the root causes of their feelings of overwhelm and anxiety regarding their father's wishes. The questions encouraged the client to reflect on their emotions and the underlying pressures they felt, which facilitated a deeper exploration of their situation. For example, when the therapist asked, \"What do you think is at the core of that worry for you?\" and \"What does 'getting it right' look like for you?\", these questions prompted the client to delve into their feelings of responsibility and fear of failure. While the conversation did lead to some deeper insights, the therapist did not challenge the client's assumptions or introduce completely new perspectives that could lead to a significant shift in self-awareness, which is why it does not reach the highest rating. Overall, the therapist's facilitation was effective in encouraging self-reflection and exploration of emotions.",
+    "Rapport judge rated 3/5; no experience reveal.",
+    "Rapport judge output: **Rating: 3 (ENGAGED EXPLORATION)**\n\n**Key Examples:**\n1. \"I feel a mix of anxiety and fear, mostly. There\u2019s this constant worry about not being able to do what\u2019s needed, and then I feel guilty for not being more proactive.\"\n2. \"Maybe I could start by doing some research on the logistics\u2014like looking up what\u2019s needed for travel to Nepal or what kind of permits I might need. That feels a bit more manageable than trying to tackle everything at once.\"\n\n**Progression:**\nThe client\u2019s most recent interactions demonstrate a notable increase in emotional expression and self-reflection. They are articulating their feelings of anxiety and fear regarding the responsibilities tied to their father's wishes, which indicates a deeper level of emotional engagement compared to earlier exchanges. Initially, the client expressed feeling overwhelmed without delving into the emotions behind that state. However, they have progressed to identifying specific feelings and articulating their worries, showing a willingness to explore these emotions further. This marks a significant change from earlier in the session when they were more factual and hesitant in their responses.\n\n**Turning Point:**\nThe client\u2019s emotional depth shifted notably when they began expressing their feelings of anxiety and fear, particularly in the exchange where they stated, \"I feel a mix of anxiety and fear, mostly.\" This moment marked a turning point as they transitioned from discussing logistics and responsibilities to acknowledging the emotional weight of those responsibilities. This shift allowed for a more profound exploration of their feelings and concerns, enhancing their rapport with the therapist and fostering a more engaged dialogue.",
+    "Exploration judge rated 3/5; internal elements remain masked.",
+    "Exploration judge output: [Rating]: 3 (Very High Facilitation \u2013 Deep Exploration Begins)\n\n[Justification]: The therapist asked insightful and thought-provoking questions that helped the client analyze the root causes of their feelings of overwhelm and anxiety regarding their father's wishes. The therapist's inquiries encouraged the client to delve deeper into their emotions and the specific pressures they felt, which began to shift the client's perspective on their situation. The conversation moved beyond surface-level concerns, prompting the client to explore their feelings of responsibility, fear, and guilt. However, while the therapist facilitated a deeper exploration of the client's emotions and thoughts, the questions did not fully challenge the client's assumptions or introduce significantly new perspectives that could lead to a major breakthrough. Thus, the facilitation was strong but not at the highest transformational level.",
+    "Exploration judge rated 4/5 and revealed internal cognitive elements.",
+    "Exploration judge output: [Rating]: 4 (Even Higher Facilitation \u2013 Strong Transformational Potential)\n\n[Justification]: The therapist demonstrated a strong ability to facilitate deep exploration by asking open-ended questions that encouraged the client to reflect on their feelings, motivations, and the complexities of their situation regarding their father's wishes. The therapist's inquiries, such as \"What do you think is at the core of that worry for you?\" and \"What does 'getting it right' look like for you?\" prompted the client to analyze their emotions and the pressures they felt. These questions challenged the client's assumptions and helped them articulate their feelings of anxiety, fear, and guilt. \n\nAdditionally, the therapist guided the client toward actionable steps, such as brainstorming questions to ask others and setting a specific time for research, which empowered the client to take control of their overwhelming situation. The conversation facilitated a shift in the client's perspective, moving from feeling stuck to identifying small, manageable steps forward. Overall, the therapist's questions had a strong transformational potential, leading the client to a clearer understanding of their feelings and a plan for action."
+  ],
+  "final_visible_experience_count": 1,
+  "internal_revealed": true
+}

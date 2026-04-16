@@ -1,0 +1,49 @@
+{
+  "aggregate": {
+    "num_sessions": 1,
+    "cder": {
+      "external": 1.0,
+      "internal": 1.0,
+      "overall": 1.0
+    },
+    "idss": {
+      "relevant_history": 0.6385582825894368,
+      "core_beliefs": 0.31859229761390445,
+      "intermediate_beliefs": 0.6848747597945541,
+      "coping_strategies": 0.6391701774492025,
+      "average": 0.5702988793617745
+    }
+  },
+  "sessions": [
+    {
+      "file": "/Users/luhtookyaw/Desktop/StageTherapy/mind_voyager/outputs/normal/session_35-2.json",
+      "case_id": "35-2",
+      "client_mode": "masked",
+      "difficulty": "normal",
+      "cder": {
+        "external": 1,
+        "internal": 1,
+        "overall": 1
+      },
+      "predicted_internal_diagram": {
+        "relevant_history": "The client has been feeling detached for a while, with this feeling becoming more pronounced recently. They experience sadness and loneliness, feeling like they are missing a sense of connection.",
+        "core_beliefs": "The client believes that their detachment is not about their relationships but rather an internal struggle. They feel a fear of diving into their emotions and worry about being vulnerable.",
+        "intermediate_beliefs": "The client thinks that practicing acceptance of their emotions might help them, but they are unsure how to do it without feeling overwhelmed. They believe that having support from others could make exploring their feelings less daunting.",
+        "coping_strategies": "The client talks to close friends or family, reads for perspective, uses metaphorical language to describe their feelings, and plans to write down their thoughts to prepare for conversations."
+      },
+      "ground_truth_internal_diagram": {
+        "relevant_history": "The client's family background seems to be a significant factor in shaping their current mental state. They described a challenging conversation with their mom about why their family didn't discuss pain or suffering. The client also recounts their father's coping mechanisms and his reluctance to engage in talk therapy despite experiencing considerable suffering, including disturbing dreams related to his brother's suicide. Additionally, the client mentioned their own struggle with feelings of separation and suffering, indicating a history of unaddressed emotional pain.",
+        "core_beliefs": "I am powerless, weak, vulnerable. | I am trapped. | I am defective. | I am unlovable. | I am bound to be rejected.",
+        "intermediate_beliefs": "The client seems to have intermediate beliefs surrounding communicability of emotions, particularly regarding their ability or inability to express or deal with suffering and raw feelings. They may also carry beliefs about gender-related emotional expression, as they mentioned a belief their mother holds about men not talking about their feelings. Additionally, they may have beliefs related to the visibility of emotional pain, as evidenced by their surprise at not having noticed suffering in themselves or others earlier.\nDepressive variant: During periods of emotional pain or depression, the client seems to struggle with connecting to or fully experiencing their feelings. They describe using detached language when discussing painful emotions, which might indicate intermediate beliefs that serve to keep them at a distance from their suffering ('what are these experiences and how do I relate to them, and how are, and why, and like, what, why can't I be fully in them').",
+        "coping_strategies": "The client reveals several coping strategies: seeking validation and understanding through conversations with their mother and Jeremy (someone close to them), using metaphorical and reflective language to articulate feelings, and reading (e.g., Carl Rogers' book) to gain insight and perspective. They also ponder the effectiveness of acceptance as a means of dealing with detachment and raw emotions."
+      },
+      "idss": {
+        "relevant_history": 0.6385582825894368,
+        "core_beliefs": 0.31859229761390445,
+        "intermediate_beliefs": 0.6848747597945541,
+        "coping_strategies": 0.6391701774492025,
+        "average": 0.5702988793617745
+      }
+    }
+  ]
+}

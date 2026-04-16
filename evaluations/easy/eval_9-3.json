@@ -1,0 +1,49 @@
+{
+  "aggregate": {
+    "num_sessions": 1,
+    "cder": {
+      "external": 1.0,
+      "internal": 1.0,
+      "overall": 1.0
+    },
+    "idss": {
+      "relevant_history": 0.1953000482450999,
+      "core_beliefs": 0.21433663617337853,
+      "intermediate_beliefs": 0.369442753769377,
+      "coping_strategies": 0.512774783042491,
+      "average": 0.32296355530758664
+    }
+  },
+  "sessions": [
+    {
+      "file": "/Users/luhtookyaw/Desktop/StageTherapy/mind_voyager/outputs/easy/session_9-3.json",
+      "case_id": "9-3",
+      "client_mode": "masked",
+      "difficulty": "easy",
+      "cder": {
+        "external": 1,
+        "internal": 1,
+        "overall": 1
+      },
+      "predicted_internal_diagram": {
+        "relevant_history": "The client grew up in an environment where helping others was emphasized, leading to a belief that their value comes from how much they can do for others.",
+        "core_beliefs": "The client believes that being a good friend means always being available and supportive, and that failing to do so makes them a bad friend.",
+        "intermediate_beliefs": "The client feels guilty for not being able to support others, leading to feelings of being undesirable or unwanted when they can't help.",
+        "coping_strategies": "The client plans to take breaks for self-care, remind themselves that it's okay to prioritize their own needs, and check in with themselves regularly to reflect on their emotions."
+      },
+      "ground_truth_internal_diagram": {
+        "relevant_history": "The patient has a long-standing relationship with a friend named Jersey, who has undergone multiple surgeries due to her disabilities, including a below-the-knee amputation and knee replacement. The patient has been a supportive figure during Jersey's medical procedures and recovery but currently feels overwhelmed with her own life stresses. The patient also experiences conflict with her roommate, Ashby, regarding household issues.",
+        "core_beliefs": "I am undesirable, unwanted. | I am bound to be abandoned. | I am bound to be alone. | I am immoral.",
+        "intermediate_beliefs": "I should always try to help others and prioritize others' needs over myself.\nDepressive variant: My efforts to help others are not enough, and I cannot manage my own life effectively when my friends are in trouble.",
+        "coping_strategies": "The patient copes by trying to provide practical support as much as she can, like cooking meals for friends in need, and by attempting to manage situations, like resolving cable service issues."
+      },
+      "idss": {
+        "relevant_history": 0.1953000482450999,
+        "core_beliefs": 0.21433663617337853,
+        "intermediate_beliefs": 0.369442753769377,
+        "coping_strategies": 0.512774783042491,
+        "average": 0.32296355530758664
+      }
+    }
+  ]
+}

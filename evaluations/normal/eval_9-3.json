@@ -1,0 +1,49 @@
+{
+  "aggregate": {
+    "num_sessions": 1,
+    "cder": {
+      "external": 1.0,
+      "internal": 1.0,
+      "overall": 1.0
+    },
+    "idss": {
+      "relevant_history": 0.43560884009084505,
+      "core_beliefs": 0.24924969377887957,
+      "intermediate_beliefs": 0.43704276248293283,
+      "coping_strategies": 0.44887590156314094,
+      "average": 0.3926942994789496
+    }
+  },
+  "sessions": [
+    {
+      "file": "/Users/luhtookyaw/Desktop/StageTherapy/mind_voyager/outputs/normal/session_9-3.json",
+      "case_id": "9-3",
+      "client_mode": "masked",
+      "difficulty": "normal",
+      "cder": {
+        "external": 1,
+        "internal": 1,
+        "overall": 1
+      },
+      "predicted_internal_diagram": {
+        "relevant_history": "The client has been feeling overwhelmed and guilty due to personal issues that have affected her ability to support a friend.",
+        "core_beliefs": "Taking care of myself feels selfish when my friend is struggling.",
+        "intermediate_beliefs": "I should be there for my friend, and if I prioritize myself, I will let her down.",
+        "coping_strategies": "Distraction through reading or watching shows; considering writing affirmations to remind herself that self-care is important."
+      },
+      "ground_truth_internal_diagram": {
+        "relevant_history": "The patient has a long-standing relationship with a friend named Jersey, who has undergone multiple surgeries due to her disabilities, including a below-the-knee amputation and knee replacement. The patient has been a supportive figure during Jersey's medical procedures and recovery but currently feels overwhelmed with her own life stresses. The patient also experiences conflict with her roommate, Ashby, regarding household issues.",
+        "core_beliefs": "I am undesirable, unwanted. | I am bound to be abandoned. | I am bound to be alone. | I am immoral.",
+        "intermediate_beliefs": "I should always try to help others and prioritize others' needs over myself.\nDepressive variant: My efforts to help others are not enough, and I cannot manage my own life effectively when my friends are in trouble.",
+        "coping_strategies": "The patient copes by trying to provide practical support as much as she can, like cooking meals for friends in need, and by attempting to manage situations, like resolving cable service issues."
+      },
+      "idss": {
+        "relevant_history": 0.43560884009084505,
+        "core_beliefs": 0.24924969377887957,
+        "intermediate_beliefs": 0.43704276248293283,
+        "coping_strategies": 0.44887590156314094,
+        "average": 0.3926942994789496
+      }
+    }
+  ]
+}

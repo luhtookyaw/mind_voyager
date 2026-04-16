@@ -1,0 +1,49 @@
+{
+  "aggregate": {
+    "num_sessions": 1,
+    "cder": {
+      "external": 1.0,
+      "internal": 1.0,
+      "overall": 1.0
+    },
+    "idss": {
+      "relevant_history": 0.40361807415009204,
+      "core_beliefs": 0.12450417881450579,
+      "intermediate_beliefs": 0.15173940957796717,
+      "coping_strategies": 0.4780750490407206,
+      "average": 0.2894841778958214
+    }
+  },
+  "sessions": [
+    {
+      "file": "/Users/luhtookyaw/Desktop/StageTherapy/mind_voyager/outputs/easy/session_41-2.json",
+      "case_id": "41-2",
+      "client_mode": "masked",
+      "difficulty": "easy",
+      "cder": {
+        "external": 1,
+        "internal": 1,
+        "overall": 1
+      },
+      "predicted_internal_diagram": {
+        "relevant_history": "The client feels anxious in social situations, particularly when hosting friends, due to a fear of disappointing them and a desire for perfection.",
+        "core_beliefs": "The client believes they must be organized and avoid being perceived as rude to be a good friend.",
+        "intermediate_beliefs": "The client thinks that if they don't try hard to make everything perfect, they might disappoint their friends.",
+        "coping_strategies": "The client plans to journal about their experiences, set small goals after gatherings, and have open conversations with friends about their pressures."
+      },
+      "ground_truth_internal_diagram": {
+        "relevant_history": "The client has a history involving a complicated relationship with an individual named Cricket, who has exhibited questionable behavior and influenced the client's social circle. Their friends seem to have mental health challenges, and they often take on a caretaking or protective role, particularly regarding a friend named Lucy with medical issues.",
+        "core_beliefs": "I am incompetent. | I am helpless. | I am out of control. | I am unlovable. | I am bound to be rejected.",
+        "intermediate_beliefs": "It's important for me to be on time and productive, but I can't seem to control my procrastination or punctuality. I must not get involved in my friends' dramatic situations, but I can't help feeling protective.\nDepressive variant: My environment is consistently negative, possibly affecting my mood. If I expose myself or engage with Cricket, it will have negative outcomes, and it's better to avoid confrontation.",
+        "coping_strategies": "The client uses avoidance in confronting their grief and engages in overcommitment to helping others to compliment their inner grief and distress."
+      },
+      "idss": {
+        "relevant_history": 0.40361807415009204,
+        "core_beliefs": 0.12450417881450579,
+        "intermediate_beliefs": 0.15173940957796717,
+        "coping_strategies": 0.4780750490407206,
+        "average": 0.2894841778958214
+      }
+    }
+  ]
+}

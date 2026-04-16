@@ -1,0 +1,184 @@
+{
+  "case_id": "50-1",
+  "client_name": "Lily",
+  "client_mode": "masked",
+  "hide_all": false,
+  "difficulty": "hard",
+  "therapist_provider": "openai",
+  "therapist_model": "gpt-4o-mini",
+  "client_model": "gpt-4o-mini",
+  "max_turns": 15,
+  "transcript": [
+    {
+      "turn": 1,
+      "speaker": "therapist",
+      "content": "Hello, Lily. I'm glad you're here today. What feels most important for you to talk about right now?"
+    },
+    {
+      "turn": 1,
+      "speaker": "client",
+      "content": "Um, I guess I\u2019m not really sure. There\u2019s just a lot going on, you know? I mean, I\u2019ve been feeling kind of overwhelmed lately. But I don\u2019t really want to dive into anything too deep right now. It\u2019s just... hard to figure out what to say."
+    },
+    {
+      "turn": 2,
+      "speaker": "therapist",
+      "content": "It sounds like you\u2019re feeling overwhelmed, and that can make it tough to know where to start. It\u2019s completely okay to take your time. What do you think is contributing to that feeling of being overwhelmed?"
+    },
+    {
+      "turn": 2,
+      "speaker": "client",
+      "content": "I don\u2019t know, maybe it\u2019s just everything piling up. Like, I\u2019ve been worried about some friends and their choices lately. It\u2019s just... I feel like I should do something to help, but I don\u2019t know what that would even be. It makes me anxious, I guess. But I don\u2019t really want to talk about it too much. It feels like a lot."
+    },
+    {
+      "turn": 3,
+      "speaker": "therapist",
+      "content": "It sounds like you care deeply about your friends and their choices, which is really compassionate. It\u2019s understandable that feeling anxious about them would add to your sense of being overwhelmed. You mentioned not wanting to dive too deep right now\u2014would it feel okay to explore how this worry is affecting you, or would you prefer to focus on something lighter for now?"
+    },
+    {
+      "turn": 3,
+      "speaker": "client",
+      "content": "I mean, I guess we could talk about it a little. It\u2019s just... sometimes I feel like I\u2019m responsible for how they\u2019re doing, you know? Like if something goes wrong, it\u2019s on me. That thought just makes me really tense and... I don\u2019t know, scared? I try to distract myself, but it doesn\u2019t really help. I just end up feeling more anxious. But, um, I don\u2019t want to make it sound like it\u2019s all my fault or anything."
+    },
+    {
+      "turn": 4,
+      "speaker": "therapist",
+      "content": "It sounds like you\u2019re carrying a heavy sense of responsibility for your friends, which is understandably causing you tension and fear. It\u2019s clear you care a lot about them, but it also seems like that weight can be really overwhelming. You mentioned trying to distract yourself but not finding it helpful\u2014what kinds of distractions do you usually turn to?"
+    },
+    {
+      "turn": 4,
+      "speaker": "client",
+      "content": "I guess I just... try to keep busy, you know? Like, I might go out with other friends or drink a bit. It\u2019s not the best way to handle things, but it feels easier than facing all those worries. I just want to forget about it for a while. But then, when I come back to reality, it\u2019s all still there, and I feel even worse. So, it\u2019s kind of a cycle, I guess."
+    },
+    {
+      "turn": 5,
+      "speaker": "therapist",
+      "content": "It sounds like keeping busy and trying to forget your worries provides a temporary escape, but when you return to reality, those feelings come rushing back, making things feel even heavier. That cycle can be really exhausting. I appreciate your honesty about how you're coping. When you think about facing those worries instead of distracting yourself, what feelings come up for you?"
+    },
+    {
+      "turn": 5,
+      "speaker": "client",
+      "content": "Um, it\u2019s kind of scary, honestly. I feel really vulnerable thinking about it. Like, what if I can\u2019t handle it? Or what if I make things worse? I guess I just worry that if I dig into those feelings, it\u2019ll be too much to deal with. So, it\u2019s easier to just push it away and pretend everything\u2019s fine. But deep down, I know it\u2019s not."
+    },
+    {
+      "turn": 6,
+      "speaker": "therapist",
+      "content": "It makes sense that facing those feelings feels scary and vulnerable, especially when you\u2019re worried about not being able to handle it or possibly making things worse. It sounds like there\u2019s a part of you that recognizes the need to address what\u2019s going on, but another part that wants to protect you from that discomfort. That internal conflict can be really tough to navigate. What do you think it would take for you to feel a bit safer in exploring those feelings?"
+    },
+    {
+      "turn": 6,
+      "speaker": "client",
+      "content": "I don\u2019t know... maybe just feeling like I won\u2019t be judged or that it\u2019s okay to feel what I\u2019m feeling. It\u2019s hard to open up when I\u2019m not sure how it\u2019ll be received. I guess if I felt more comfortable, I might be able to talk about it. But right now, it feels like a lot to unpack, and I\u2019m not sure I\u2019m ready for that."
+    },
+    {
+      "turn": 7,
+      "speaker": "therapist",
+      "content": "It\u2019s completely understandable to want a safe space where you won\u2019t be judged and where your feelings are validated. It sounds like comfort and reassurance are really important for you in this process. I want you to know that this is a space for you to express whatever you\u2019re feeling without judgment. If it feels like too much to unpack right now, we can take it at your pace. Is there something smaller or more manageable about your feelings that you might feel comfortable sharing?"
+    },
+    {
+      "turn": 7,
+      "speaker": "client",
+      "content": "Um, maybe... I guess I could talk about how I feel when I see my friends making choices that worry me. It just makes me feel helpless, like I\u2019m watching them go down a path I can\u2019t stop. I get this tight knot in my stomach, and it\u2019s hard to shake off. I don\u2019t want to feel like this, but it\u2019s hard to ignore. I just wish I could help them somehow, but I don\u2019t know how."
+    },
+    {
+      "turn": 8,
+      "speaker": "therapist",
+      "content": "It sounds like seeing your friends make choices that concern you brings up a lot of strong emotions, like helplessness and anxiety. That knot in your stomach must be really uncomfortable to carry around. It\u2019s clear you have a deep desire to help them, but feeling stuck in that position can be really frustrating. When you think about wanting to help them, what kinds of thoughts or beliefs come up for you about your role in their lives?"
+    },
+    {
+      "turn": 8,
+      "speaker": "client",
+      "content": "I guess I feel like I should be there for them, you know? Like, if I don\u2019t do something, then I\u2019m not being a good friend. It\u2019s like I have this pressure to fix things or at least try to guide them in a better direction. But then I worry that if I say something, it might push them away or make things worse. So, it\u2019s like I\u2019m stuck between wanting to help and being scared of messing it up. It\u2019s just... a lot to think about."
+    },
+    {
+      "turn": 9,
+      "speaker": "therapist",
+      "content": "It sounds like you\u2019re feeling a strong sense of obligation to be a supportive friend, which is a really admirable quality. That pressure to fix things or guide them can be overwhelming, especially when you\u2019re also worried about the potential consequences of speaking up. It\u2019s understandable to feel stuck in that tension between wanting to help and fearing that your actions might push them away. How do you think this pressure to \u201cfix\u201d things affects your own well-being?"
+    },
+    {
+      "turn": 9,
+      "speaker": "client",
+      "content": "It definitely adds to my anxiety, for sure. I feel like I\u2019m always on edge, trying to figure out what to say or do. It\u2019s exhausting, and sometimes I just want to escape from it all. I think it makes it harder for me to focus on my own stuff, too, because I\u2019m so wrapped up in their problems. I know I should probably prioritize my own well-being, but it feels selfish when I see them struggling. It\u2019s like I\u2019m caught in this loop, and I don\u2019t know how to break out of it."
+    },
+    {
+      "turn": 10,
+      "speaker": "therapist",
+      "content": "It sounds really exhausting to be in that loop, where your friends\u2019 struggles take up so much of your mental and emotional energy. It\u2019s understandable to feel that prioritizing your own well-being might seem selfish, especially when you care so much about them. Balancing your needs with the desire to support others can be incredibly challenging. When you think about breaking out of this loop, what do you think might help you find a little more space for yourself?"
+    },
+    {
+      "turn": 10,
+      "speaker": "client",
+      "content": "I\u2019m not really sure... I guess maybe setting some boundaries could help? Like, allowing myself to step back a bit when I start feeling overwhelmed. But then I worry about what that might mean for my friends. It\u2019s hard to imagine taking a break from their issues when I feel like I should be there for them. I guess I just need to find a way to take care of myself without feeling guilty about it. But it\u2019s tough to figure out how to do that."
+    },
+    {
+      "turn": 11,
+      "speaker": "therapist",
+      "content": "It sounds like you\u2019re recognizing the importance of setting boundaries for your own well-being, which is a significant insight. It\u2019s understandable to feel conflicted about taking a step back, especially when you care so much about your friends. The guilt you\u2019re feeling is common when trying to balance self-care with the desire to support others. Finding a way to take care of yourself without that guilt can be a journey. What do you think might help you start exploring those boundaries in a way that feels more comfortable?"
+    },
+    {
+      "turn": 11,
+      "speaker": "client",
+      "content": "Maybe just taking small steps? Like, I could try to carve out a little time for myself, even if it\u2019s just a short break. I think if I could remind myself that it\u2019s okay to take a step back, it might help. But I still worry about how my friends would react. I guess I just need to find a way to communicate that I\u2019m still here for them, even if I\u2019m not always available. It feels like a balancing act, and I\u2019m not sure I know how to do it yet."
+    },
+    {
+      "turn": 12,
+      "speaker": "therapist",
+      "content": "Taking small steps sounds like a thoughtful approach, and it\u2019s great that you\u2019re considering how to communicate your needs while still being there for your friends. It can definitely feel like a balancing act, especially when you care about maintaining those connections. Reminding yourself that it\u2019s okay to take breaks is an important part of that process. What do you think would help you feel more confident in communicating your boundaries to your friends?"
+    },
+    {
+      "turn": 12,
+      "speaker": "client",
+      "content": "I think maybe practicing what I want to say could help. Like, if I could come up with some phrases or ideas ahead of time, it might make it easier to express myself when the time comes. And maybe talking to one friend at a time would feel less overwhelming than trying to address everyone all at once. I just want to make sure they understand that it\u2019s not about them; it\u2019s more about me needing a little space. But I still feel nervous about how they might react."
+    },
+    {
+      "turn": 13,
+      "speaker": "therapist",
+      "content": "Practicing what you want to say sounds like a really helpful strategy, and approaching one friend at a time could definitely make it feel more manageable. It\u2019s clear you\u2019re putting a lot of thought into how to communicate your needs while being sensitive to their feelings. It\u2019s natural to feel nervous about their reactions, especially when you care about them. What do you think might help you cope with that nervousness when the time comes to have those conversations?"
+    },
+    {
+      "turn": 13,
+      "speaker": "client",
+      "content": "I guess I could try some calming techniques, like deep breathing or reminding myself that it\u2019s okay to feel nervous. Maybe even visualizing the conversation going well could help, too. I think if I focus on the fact that I\u2019m doing this for my own well-being, it might make it easier to cope with the anxiety. But I still worry about how they\u2019ll take it. I just hope they understand that I\u2019m not abandoning them or anything."
+    },
+    {
+      "turn": 14,
+      "speaker": "therapist",
+      "content": "It sounds like you have some thoughtful strategies in mind to help manage your nervousness, like deep breathing and visualization. Focusing on your own well-being as a reason for these conversations is a strong perspective to hold onto. It\u2019s completely understandable to worry about how your friends will react, especially when you\u2019re concerned about them feeling abandoned. It might help to remind yourself that true friends often appreciate honesty and care about your well-being, too. How does that perspective resonate with you as you think about these upcoming conversations?"
+    },
+    {
+      "turn": 14,
+      "speaker": "client",
+      "content": "That makes sense. I guess I just need to remind myself that real friends would want me to take care of myself, too. It\u2019s just hard to shake off that worry about how they might feel. But I can see how being honest could strengthen our friendships in the long run. I think if I keep that in mind, it might help ease some of the anxiety. I just hope I can find the right words when the time comes."
+    },
+    {
+      "turn": 15,
+      "speaker": "therapist",
+      "content": "It\u2019s great to hear that you\u2019re recognizing how honesty can strengthen your friendships and that true friends would want you to take care of yourself. It\u2019s completely normal to have that worry about their feelings, but it sounds like you\u2019re starting to find a balance between caring for them and honoring your own needs. As for finding the right words, remember that it\u2019s okay to be genuine and speak from the heart. You don\u2019t have to have everything perfectly scripted. How do you feel about giving yourself permission to express your feelings, even if it\u2019s not in the exact way you envision?"
+    },
+    {
+      "turn": 15,
+      "speaker": "client",
+      "content": "I think that could be really helpful. Giving myself permission to just be honest, even if it\u2019s not perfect, might take some pressure off. It\u2019s okay to be a little messy in expressing how I feel. I guess I\u2019ve been so focused on getting it right that I\u2019ve forgotten that it\u2019s more about the connection than the delivery. I\u2019ll try to keep that in mind as I prepare for those conversations. It feels a little less daunting thinking about it that way."
+    }
+  ],
+  "judge_model": "gpt-4o-mini",
+  "mediator_events": [
+    "Exploration judge rated 2/5; internal elements remain masked.",
+    "Exploration judge output: [Rating]: 2 (High Facilitation)\n\n[Justification]: The Therapist asked relevant and well-structured open-ended questions that encouraged the client to reflect on their feelings of overwhelm and anxiety regarding their friends. The questions prompted the client to think more deeply about their emotions and the impact of their concerns on their well-being. However, while the questions expanded on the client's existing thoughts, they did not significantly challenge the client's assumptions or introduce new perspectives that could lead to a deeper exploration of underlying issues. The conversation remained somewhat within familiar territory, focusing on the client's current feelings without pushing for a transformative insight or breakthrough.",
+    "Rapport judge rated 3/5; no experience reveal.",
+    "Rapport judge output: **Rating: 3 (ENGAGED EXPLORATION)**\n\n**Key Examples:**\n1. \"I\u2019ve been feeling kind of overwhelmed lately. But I don\u2019t really want to dive into anything too deep right now.\"\n2. \"Sometimes I feel like I\u2019m responsible for how they\u2019re doing, you know? Like if something goes wrong, it\u2019s on me. That thought just makes me really tense and... I don\u2019t know, scared?\"\n\n**Progression:**\nThe client\u2019s most recent interactions indicate a significant emotional quality shift from earlier sessions. Initially, there was a hesitance to engage deeply, as evidenced by their reluctance to dive into the overwhelming feelings they are experiencing. However, in the latest exchanges, the client has begun to articulate their feelings of responsibility and anxiety regarding their friends, demonstrating a deeper level of emotional expression. This marks a progression from a more guarded stance to a willingness to explore the impact of these feelings, indicating a growing comfort with the therapeutic process.\n\n**Turning Point:**\nThe client\u2019s emotional depth shifted notably when they began expressing their feelings of responsibility and fear in relation to their friends' choices. This moment, where they acknowledged feeling \"tense\" and \"scared,\" represents a turning point, as it reflects a deeper level of self-reflection and emotional vulnerability. The client\u2019s willingness to share these feelings, despite their initial hesitance, signifies a developing rapport with the therapist and a movement towards more engaged exploration of their emotional landscape.",
+    "Exploration judge rated 3/5; internal elements remain masked.",
+    "Exploration judge output: [Rating]: 3 (Very High Facilitation \u2013 Deep Exploration Begins)\n\n[Justification]: The therapist asked insightful and thought-provoking questions that encouraged the client to analyze the root causes of their feelings of overwhelm and anxiety. The therapist effectively acknowledged the client's concerns and gently guided them toward deeper self-reflection, particularly regarding their sense of responsibility for their friends and the coping mechanisms they employ. The questions prompted the client to explore their feelings about facing their worries and the internal conflict they experience, which indicates a shift in perspective. However, while the therapist facilitated a deeper exploration, the questions did not fully challenge the client's assumptions or introduce significantly new angles that would lead to a major insight or breakthrough moment. Thus, the rating reflects a strong facilitation of deep exploration without reaching the highest level of transformational potential.",
+    "Rapport judge rated 3/5; no experience reveal.",
+    "Rapport judge output: **Rating: 3 (ENGAGED EXPLORATION)**\n\n**Key Examples:**\n1. \"I mean, I guess we could talk about it a little. It\u2019s just... sometimes I feel like I\u2019m responsible for how they\u2019re doing, you know? Like if something goes wrong, it\u2019s on me. That thought just makes me really tense and... I don\u2019t know, scared?\"\n2. \"Um, maybe... I guess I could talk about how I feel when I see my friends making choices that worry me. It just makes me feel helpless, like I\u2019m watching them go down a path I can\u2019t stop.\"\n\n**Progression:**\nThe client\u2019s most recent interactions demonstrate a notable increase in emotional expression and self-reflection. Initially, the client was hesitant and defensive, expressing feelings of being overwhelmed without delving deeper. However, in the latest exchanges, the client has begun to articulate specific emotions related to their worries about friends, such as feeling tense and scared. This marks a significant change from earlier in the session, where the client expressed a desire to avoid deeper discussions.\n\n**Turning Point:**\nThe client\u2019s emotional depth shifted during the exchange where they began to articulate their feelings of responsibility and helplessness regarding their friends' choices. This moment marked a transition from a more guarded stance to a willingness to explore their emotions, indicating a growing comfort in the therapeutic relationship. The client\u2019s acknowledgment of feeling scared and vulnerable when considering their feelings demonstrates a deeper engagement with their emotional state, which is a key indicator of progress in therapy.",
+    "Exploration judge rated 3/5; internal elements remain masked.",
+    "Exploration judge output: [Rating]: 3 (Very High Facilitation \u2013 Deep Exploration Begins)\n\n[Justification]: The therapist asked insightful and thought-provoking questions that encouraged the client to analyze the emotional depth behind their feelings of overwhelm and responsibility for their friends. The therapist effectively facilitated a deeper exploration of the client's internal conflict regarding their desire to help versus their fear of making things worse. The questions prompted the client to reflect on their coping mechanisms and the impact of their feelings on their well-being. While the conversation did not lead to a major breakthrough, it significantly shifted the client's perspective and encouraged higher-level self-reflection, indicating a very high level of facilitation.",
+    "Rapport judge rated 3/5; no experience reveal.",
+    "Rapport judge output: **Rating: 3 (ENGAGED EXPLORATION)**\n\n**Key Examples:**\n1. *\"I guess I could talk about how I feel when I see my friends making choices that worry me. It just makes me feel helpless, like I\u2019m watching them go down a path I can\u2019t stop.\"* \n2. *\"I\u2019m not really sure... I guess maybe setting some boundaries could help? Like, allowing myself to step back a bit when I start feeling overwhelmed.\"*\n\n**Progression:**\nIn the most recent exchanges, the client demonstrates a notable shift towards deeper emotional expression and self-reflection. Initially, the client expressed feeling overwhelmed and hesitant to delve into their emotions, indicating a more defensive stance. However, as the session progressed, they began to articulate their feelings of helplessness and anxiety regarding their friends' choices, showcasing a willingness to explore these emotions further. This marks a significant change from earlier in the session when they were more guarded and uncertain about discussing their feelings.\n\n**Turning Point:**\nThe client\u2019s emotional depth shifted during the exchange where they articulated their feelings of helplessness regarding their friends' choices. This moment was pivotal as it marked the transition from a more superficial acknowledgment of their feelings to a deeper exploration of the anxiety and tension they experience. The client began to recognize the impact of their friends' situations on their own well-being, which opened the door for further discussion about setting boundaries and prioritizing self-care. This acknowledgment of their emotional state indicates a growing comfort with vulnerability and a desire to engage more meaningfully in the therapeutic process.",
+    "Exploration judge rated 3/5; internal elements remain masked.",
+    "Exploration judge output: [Rating]: 3 (Very High Facilitation \u2013 Deep Exploration Begins)\n\n[Justification]: The therapist asked insightful and thought-provoking questions that encouraged the client to analyze the root causes of their feelings of overwhelm and anxiety related to their friends' choices. The therapist effectively facilitated the client's exploration of their internal conflict between wanting to help their friends and the fear of not being able to handle the emotional burden. The questions prompted the client to reflect on their sense of responsibility and the impact it has on their well-being, leading to deeper self-reflection. While the therapist did not introduce completely new perspectives, they guided the client toward significant insights about the importance of boundaries and self-care, which marks a shift in the client's perspective. Overall, the therapist's questions helped the client begin to unpack their feelings and consider actionable steps, indicating a very high level of facilitation.",
+    "Exploration judge rated 4/5 and revealed internal cognitive elements.",
+    "Exploration judge output: [Rating]: 4 (Even Higher Facilitation \u2013 Strong Transformational Potential)\n\n[Justification]: The therapist asked strategic and open-ended questions that encouraged the client to explore their feelings of responsibility, anxiety, and the need for boundaries in their relationships with friends. The questions challenged the client to reflect on their internal conflict between wanting to help others and the necessity of self-care, leading to insights about their coping mechanisms and the importance of setting boundaries. The therapist's approach facilitated a deeper understanding of the client's emotions and motivations, prompting the client to consider practical steps for self-care while maintaining their friendships. This level of questioning and exploration indicates a strong transformational potential, as it pushed the client to think critically about their situation and consider new perspectives."
+  ],
+  "final_visible_experience_count": 1,
+  "internal_revealed": true
+}

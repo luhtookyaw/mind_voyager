@@ -1,0 +1,49 @@
+{
+  "aggregate": {
+    "num_sessions": 1,
+    "cder": {
+      "external": 0.0,
+      "internal": 1.0,
+      "overall": 0.0
+    },
+    "idss": {
+      "relevant_history": 0.2156890254058235,
+      "core_beliefs": 0.35960647961825426,
+      "intermediate_beliefs": 0.5369594530273435,
+      "coping_strategies": 0.5544210187030314,
+      "average": 0.41666899418861314
+    }
+  },
+  "sessions": [
+    {
+      "file": "/Users/luhtookyaw/Desktop/StageTherapy/mind_voyager/outputs/hard/session_47-1.json",
+      "case_id": "47-1",
+      "client_mode": "masked",
+      "difficulty": "hard",
+      "cder": {
+        "external": 0,
+        "internal": 1,
+        "overall": 0
+      },
+      "predicted_internal_diagram": {
+        "relevant_history": "The client has been considering starting a micro press but feels anxious and doubtful about it.",
+        "core_beliefs": "The client feels inadequate and worries about not being cut out for the venture, fearing failure and its impact on self-esteem.",
+        "intermediate_beliefs": "The client believes that comparing themselves to others who are successful amplifies feelings of inadequacy and that they might let others down if they fail.",
+        "coping_strategies": "The client plans to set realistic expectations, focus on the process rather than the outcome, keep a journal, and reach out to friends for support."
+      },
+      "ground_truth_internal_diagram": {
+        "relevant_history": "The client is educated with a master's degree in engineering and is considering a career change. They have experience in robotics from their junior year of college. They also mentioned being in a situation where they felt ashamed and embarrassed about not dedicating enough time to a project, which impacted the project's success.",
+        "core_beliefs": "I am incompetent. | I am out of control. | I am unlovable. | I am bound to be rejected.",
+        "intermediate_beliefs": "Success is defined by professional achievements and the approval of others. Self-worth is tied to productivity and creative output.\nDepressive variant: When depressed, the client seems to believe that making mistakes or not accomplishing tasks indicates a lack of competence and control.",
+        "coping_strategies": "The client deals with stress by withdrawing and going to bed, engaging in creative projects like printing and bookbinding, and planning future activities like workshops. They also engage in social activities, such as supporting friends and participating in online discussions."
+      },
+      "idss": {
+        "relevant_history": 0.2156890254058235,
+        "core_beliefs": 0.35960647961825426,
+        "intermediate_beliefs": 0.5369594530273435,
+        "coping_strategies": 0.5544210187030314,
+        "average": 0.41666899418861314
+      }
+    }
+  ]
+}

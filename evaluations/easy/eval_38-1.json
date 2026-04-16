@@ -1,0 +1,49 @@
+{
+  "aggregate": {
+    "num_sessions": 1,
+    "cder": {
+      "external": 1.0,
+      "internal": 1.0,
+      "overall": 1.0
+    },
+    "idss": {
+      "relevant_history": 0.7259859554678961,
+      "core_beliefs": 0.13540175912329477,
+      "intermediate_beliefs": 0.4706654450112785,
+      "coping_strategies": 0.38953763997442914,
+      "average": 0.4303976998942246
+    }
+  },
+  "sessions": [
+    {
+      "file": "/Users/luhtookyaw/Desktop/StageTherapy/mind_voyager/outputs/easy/session_38-1.json",
+      "case_id": "38-1",
+      "client_mode": "masked",
+      "difficulty": "easy",
+      "cder": {
+        "external": 1,
+        "internal": 1,
+        "overall": 1
+      },
+      "predicted_internal_diagram": {
+        "relevant_history": "The client has had past experiences where they felt judged by HR for taking disability leave, which has influenced their current feelings about taking time off for health.",
+        "core_beliefs": "The client believes that taking time off for health makes them appear weak or uncommitted to their work.",
+        "intermediate_beliefs": "The client feels anxious about being judged by colleagues and worries that they are not sick enough to need a break, leading to guilt for considering time off.",
+        "coping_strategies": "The client plans to write down affirmations, talk to someone they trust, practice self-compassion, and set aside time for self-check-ins to manage overwhelming feelings."
+      },
+      "ground_truth_internal_diagram": {
+        "relevant_history": "The client expressed concerns about returning to work after a period of physical therapy for a painful condition. They have a history of feeling judged by personnel at work, experience dread and nervousness about interacting with HR and their manager regarding their return to work and their short-term disability status, and feel guilty for being away from work despite medical reasons.",
+        "core_beliefs": "I am helpless. | I am trapped. | I am out of control. | I am unlovable. | I am bound to be alone.",
+        "intermediate_beliefs": "I need to control my situation but can't, If I don't go back to work soon, others will view me negatively, Taking care of my health might make others judge me.\nDepressive variant: I'm failing at knowing what to do to continue being out of work, I should be more proactive, If I enjoy time away from work, it means I'm lazy and taking advantage of the system.",
+        "coping_strategies": "Seeking confirmation from others about taking more time off from work, attempting to find clear instructions from HR policies online, wanting to argue against supportive comments as a means of judging self-necessity."
+      },
+      "idss": {
+        "relevant_history": 0.7259859554678961,
+        "core_beliefs": 0.13540175912329477,
+        "intermediate_beliefs": 0.4706654450112785,
+        "coping_strategies": 0.38953763997442914,
+        "average": 0.4303976998942246
+      }
+    }
+  ]
+}

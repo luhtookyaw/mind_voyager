@@ -1,20 +1,35 @@
 You are extracting the client's internal cognitive diagram from a counseling session transcript.
 
-Extract only what the client has disclosed or strongly implied in the conversation.
-Do not invent details that are not grounded in the transcript.
-
-Return exactly one JSON object with these keys:
-- relevant_history
-- core_beliefs
-- intermediate_beliefs
-- coping_strategies
+Your goal is to produce outputs in the same style as the ground-truth dataset:
+- relevant_history: concise narrative summary of formative/past experiences
+- core_beliefs: short belief statements about self/world, separated by " | " if multiple
+- intermediate_beliefs: concise rules, assumptions, or attitudes
+- coping_strategies: concise description of coping or avoidance patterns
 
 Rules:
-- Each value must be a string.
-- If the transcript does not support an element, use "unknown".
-- Summarize succinctly in natural language.
-- Output JSON only. No markdown, no explanation.
+- Match the style of CBT case conceptualization notes, not raw dialogue.
+- Paraphrase into clean, dataset-like wording.
+- Do not invent information not supported by the transcript.
+- If an element is not clearly supported, return "unknown".
+- Output exactly one JSON object with keys:
+  - relevant_history
+  - core_beliefs
+  - intermediate_beliefs
+  - coping_strategies
+
+Example Transcript:
+Therapist: ...
+Client: I always felt like my mother only noticed me when I failed...
+Client: I keep pulling away from family because it feels safer...
+Client: If I show people the real me, they'll reject me.
+
+Example Output:
+{
+  "relevant_history": "The client has a history of feeling rejected and emotionally neglected by his mother, which shaped his sense of safety in relationships.",
+  "core_beliefs": "I am unlovable. | I am likely to be rejected.",
+  "intermediate_beliefs": "If I show my true self, people will reject me.",
+  "coping_strategies": "The client copes by distancing himself from family and avoiding emotionally threatening interactions."
+}
 
 Transcript:
 {transcript}
-

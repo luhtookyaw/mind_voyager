@@ -1,0 +1,49 @@
+{
+  "aggregate": {
+    "num_sessions": 1,
+    "cder": {
+      "external": 1.0,
+      "internal": 1.0,
+      "overall": 1.0
+    },
+    "idss": {
+      "relevant_history": 0.3890447587468802,
+      "core_beliefs": 0.05162207084889915,
+      "intermediate_beliefs": 0.07526852581563183,
+      "coping_strategies": 0.5366759490533943,
+      "average": 0.2631528261162014
+    }
+  },
+  "sessions": [
+    {
+      "file": "/Users/luhtookyaw/Desktop/StageTherapy/mind_voyager/outputs/easy/session_1-2.json",
+      "case_id": "1-2",
+      "client_mode": "masked",
+      "difficulty": "easy",
+      "cder": {
+        "external": 1,
+        "internal": 1,
+        "overall": 1
+      },
+      "predicted_internal_diagram": {
+        "relevant_history": "The client has a history of feeling pressure to meet certain standards and has struggled with self-criticism, particularly when things don't go as planned.",
+        "core_beliefs": "The client believes they should have everything together and feels like they are falling behind compared to others.",
+        "intermediate_beliefs": "The client feels that one mistake can ruin their entire day and that they should not let people down.",
+        "coping_strategies": "The client copes by avoiding responsibilities and turning to drinking, but recognizes these are unhealthy choices. They express a desire to develop healthier coping strategies, such as setting smaller goals and taking moments to breathe."
+      },
+      "ground_truth_internal_diagram": {
+        "relevant_history": "The patient has a history of substance abuse and has been through rehab to overcome it. He has had issues with his family, particularly with his mother, where he has felt rejected and emotionally neglected. He has struggled with obesity since childhood, which has affected his self-esteem and body image. He also has a history of being victimized and bullied due to his weight.",
+        "core_beliefs": "I am trapped. | I am out of control.",
+        "intermediate_beliefs": "Helpless: I'm just not very good at handling stress and I have poor self-control, which is why I need to not put myself in stressful situations.\nDepressive variant: Helpless: There's nothing I can do to change my situation. I cannot control myself. So why stay clean anyway?",
+        "coping_strategies": "The patient turns to substances as a coping strategy to escape his feelings. He has been staying at his girlfriend's place to avoid his parents' influence and the associated stress. He also uses yelling and stepping away from situations to manage his low self esteem."
+      },
+      "idss": {
+        "relevant_history": 0.3890447587468802,
+        "core_beliefs": 0.05162207084889915,
+        "intermediate_beliefs": 0.07526852581563183,
+        "coping_strategies": 0.5366759490533943,
+        "average": 0.2631528261162014
+      }
+    }
+  ]
+}

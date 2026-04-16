@@ -1,0 +1,49 @@
+{
+  "aggregate": {
+    "num_sessions": 1,
+    "cder": {
+      "external": 1.0,
+      "internal": 1.0,
+      "overall": 1.0
+    },
+    "idss": {
+      "relevant_history": 0.3694235592186295,
+      "core_beliefs": 0.17935329123237193,
+      "intermediate_beliefs": 0.2593797420630678,
+      "coping_strategies": 0.3704089798834856,
+      "average": 0.2946413930993887
+    }
+  },
+  "sessions": [
+    {
+      "file": "/Users/luhtookyaw/Desktop/StageTherapy/mind_voyager/outputs/easy/session_4-1.json",
+      "case_id": "4-1",
+      "client_mode": "masked",
+      "difficulty": "easy",
+      "cder": {
+        "external": 1,
+        "internal": 1,
+        "overall": 1
+      },
+      "predicted_internal_diagram": {
+        "relevant_history": "The client has received MRI results indicating a herniated disc, which has been difficult for them to process.",
+        "core_beliefs": "The client believes they are too young to be facing significant health issues and fears that their life will be filled with limitations.",
+        "intermediate_beliefs": "The client feels that their identity is tied to being active and worries about losing that part of themselves due to their condition.",
+        "coping_strategies": "The client considers seeking support from others, setting small goals, and practicing vulnerability to help manage their feelings."
+      },
+      "ground_truth_internal_diagram": {
+        "relevant_history": "Jessa has recently undergone shoulder surgery and is recovering from very painful processes. She is also dealing with additional pain, numbness, and tingling due to a herniated disc in her cervical spine. Jessa has a history of physical therapy due to an inability to walk and back issues. She has experienced being very ill in the past, which led to a significant period of being unable to walk and feeling down. After recovering, she started a new relationship, but her physical symptoms resurfaced.",
+        "core_beliefs": "I am helpless. | I am powerless, weak, vulnerable. | I am a victim. | I am trapped. | I am defective.",
+        "intermediate_beliefs": "Jessa tends to listen and believe people she perceives as smart or those who speak with conviction, treating their words as if they are always accurate or true. She also holds beliefs that she must find solutions and answers immediately, and becomes frustrated when things are not resolved quickly.\nDepressive variant: During depressive episodes, Jessa believes that she will never be the same again and that her situation is permanent.",
+        "coping_strategies": "She also seeks external validation and guidance from friends and professionals. When overwhelmed, she can fall into a state of hysteria, but she is learning to use humor and perspective-taking to calm herself down."
+      },
+      "idss": {
+        "relevant_history": 0.3694235592186295,
+        "core_beliefs": 0.17935329123237193,
+        "intermediate_beliefs": 0.2593797420630678,
+        "coping_strategies": 0.3704089798834856,
+        "average": 0.2946413930993887
+      }
+    }
+  ]
+}

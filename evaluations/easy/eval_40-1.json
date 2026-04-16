@@ -1,0 +1,49 @@
+{
+  "aggregate": {
+    "num_sessions": 1,
+    "cder": {
+      "external": 1.0,
+      "internal": 1.0,
+      "overall": 1.0
+    },
+    "idss": {
+      "relevant_history": 0.7580590509861802,
+      "core_beliefs": 0.13063692737872362,
+      "intermediate_beliefs": 0.10361096780696061,
+      "coping_strategies": 0.6572200192907368,
+      "average": 0.4123817413656503
+    }
+  },
+  "sessions": [
+    {
+      "file": "/Users/luhtookyaw/Desktop/StageTherapy/mind_voyager/outputs/easy/session_40-1.json",
+      "case_id": "40-1",
+      "client_mode": "masked",
+      "difficulty": "easy",
+      "cder": {
+        "external": 1,
+        "internal": 1,
+        "overall": 1
+      },
+      "predicted_internal_diagram": {
+        "relevant_history": "The client has recently moved to a new place and expected support from friends that did not materialize, leading to feelings of overwhelm, sadness, and loneliness.",
+        "core_beliefs": "The client feels unimportant and questions their worth in friendships, believing that their friends may not care about them.",
+        "intermediate_beliefs": "The client thinks that reaching out to friends may be bothersome and fears being seen as needy, which prevents them from connecting.",
+        "coping_strategies": "The client withdraws from social contact, distracts themselves with activities like watching shows, and rationalizes their feelings by reminding themselves that others have their own issues."
+      },
+      "ground_truth_internal_diagram": {
+        "relevant_history": "The client has recently moved and has been dealing with the stress of unpacking and organizing their new living space. They have a complicated relationship with their parents, particularly their mother, where they feel judged and unsupported in their emotional needs. The client's friends were unable to support them during a time of need, leading to increased feelings of isolation.",
+        "core_beliefs": "I am incompetent. | I am trapped. | I am out of control. | I am unlovable. | I am undesirable, unwanted.",
+        "intermediate_beliefs": "If I get really upset, then obviously the next step would be something destructive, like punching in a wall or a window.\nDepressive variant: Feeling upset is inappropriate and if I express my upset, it means I've made a communicative mistake or I am being unreasonable. Negative feelings are dangerous and must be avoided.",
+        "coping_strategies": "The client tends to avoid contact with their mother when feeling emotionally unwell to prevent a conversation that they anticipate will be frustrating and inauthentic. This indicates a pattern of avoidance in stressful situations. The client also seems to engage in social withdrawal when feeling mentally or physically unwell, as they avoided attending a friend's birthday party and communicating with their mother."
+      },
+      "idss": {
+        "relevant_history": 0.7580590509861802,
+        "core_beliefs": 0.13063692737872362,
+        "intermediate_beliefs": 0.10361096780696061,
+        "coping_strategies": 0.6572200192907368,
+        "average": 0.4123817413656503
+      }
+    }
+  ]
+}

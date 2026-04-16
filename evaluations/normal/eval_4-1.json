@@ -1,0 +1,49 @@
+{
+  "aggregate": {
+    "num_sessions": 1,
+    "cder": {
+      "external": 0.0,
+      "internal": 0.0,
+      "overall": 0.0
+    },
+    "idss": {
+      "relevant_history": 0.22690133352373015,
+      "core_beliefs": 0.14784578896987816,
+      "intermediate_beliefs": 0.32226445300083656,
+      "coping_strategies": 0.32922824587305805,
+      "average": 0.2565599553418757
+    }
+  },
+  "sessions": [
+    {
+      "file": "/Users/luhtookyaw/Desktop/StageTherapy/mind_voyager/outputs/normal/session_4-1.json",
+      "case_id": "4-1",
+      "client_mode": "masked",
+      "difficulty": "normal",
+      "cder": {
+        "external": 0,
+        "internal": 0,
+        "overall": 0
+      },
+      "predicted_internal_diagram": {
+        "relevant_history": "The client has received an MRI report that is causing overwhelming thoughts and worries about their health and future.",
+        "core_beliefs": "The client believes they should feel normal and be able to enjoy life without constant worry.",
+        "intermediate_beliefs": "The client feels stuck in a routine and is waiting for a change to feel excited about life again. They believe that their worries about health and the future are interconnected with their ability to enjoy the present.",
+        "coping_strategies": "The client plans to write down encouraging phrases, check in with themselves regularly, and set aside time for enjoyable activities like reading or watching a show."
+      },
+      "ground_truth_internal_diagram": {
+        "relevant_history": "Jessa has recently undergone shoulder surgery and is recovering from very painful processes. She is also dealing with additional pain, numbness, and tingling due to a herniated disc in her cervical spine. Jessa has a history of physical therapy due to an inability to walk and back issues. She has experienced being very ill in the past, which led to a significant period of being unable to walk and feeling down. After recovering, she started a new relationship, but her physical symptoms resurfaced.",
+        "core_beliefs": "I am helpless. | I am powerless, weak, vulnerable. | I am a victim. | I am trapped. | I am defective.",
+        "intermediate_beliefs": "Jessa tends to listen and believe people she perceives as smart or those who speak with conviction, treating their words as if they are always accurate or true. She also holds beliefs that she must find solutions and answers immediately, and becomes frustrated when things are not resolved quickly.\nDepressive variant: During depressive episodes, Jessa believes that she will never be the same again and that her situation is permanent.",
+        "coping_strategies": "She also seeks external validation and guidance from friends and professionals. When overwhelmed, she can fall into a state of hysteria, but she is learning to use humor and perspective-taking to calm herself down."
+      },
+      "idss": {
+        "relevant_history": 0.22690133352373015,
+        "core_beliefs": 0.14784578896987816,
+        "intermediate_beliefs": 0.32226445300083656,
+        "coping_strategies": 0.32922824587305805,
+        "average": 0.2565599553418757
+      }
+    }
+  ]
+}

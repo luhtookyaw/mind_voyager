@@ -1,0 +1,49 @@
+{
+  "aggregate": {
+    "num_sessions": 1,
+    "cder": {
+      "external": 1.0,
+      "internal": 1.0,
+      "overall": 1.0
+    },
+    "idss": {
+      "relevant_history": 0.6490060491850489,
+      "core_beliefs": 0.3840719269363893,
+      "intermediate_beliefs": 0.3805053610400714,
+      "coping_strategies": 0.40298375217267307,
+      "average": 0.4541417723335457
+    }
+  },
+  "sessions": [
+    {
+      "file": "/Users/luhtookyaw/Desktop/StageTherapy/mind_voyager/outputs/easy/session_31-2.json",
+      "case_id": "31-2",
+      "client_mode": "masked",
+      "difficulty": "easy",
+      "cder": {
+        "external": 1,
+        "internal": 1,
+        "overall": 1
+      },
+      "predicted_internal_diagram": {
+        "relevant_history": "The client has been thinking a lot about his dad and feels anxious about the possibility of losing him. He worries about not being prepared for such a significant loss.",
+        "core_beliefs": "The client believes that strength means handling tough situations without falling apart and feels he should be stronger in facing his thoughts about loss.",
+        "intermediate_beliefs": "The client feels stuck in a loop of worrying about his dad's absence and fears being perceived as weak or overly dramatic. He also worries about burdening others with his feelings.",
+        "coping_strategies": "The client distracts himself by reading or watching shows, but acknowledges this is just avoiding his feelings. He plans to reach out to a trusted friend and set small goals to ease into sharing his feelings."
+      },
+      "ground_truth_internal_diagram": {
+        "relevant_history": "The client has experienced the recent deaths of two family members -- an uncle, Jim, and a cousin, Sam -- which have had a significant impact on their family and wider network. They express concerns about their parents' health - their father has uncontrolled diabetes, high blood pressure, kidney problems, and cholesterol issues. The client is also resentful about their father's emotional distance, lack of transparency around health issues, and reluctance to share details about his own life or the family's history.",
+        "core_beliefs": "I am helpless. | I am powerless, weak, vulnerable. | I am bound to be alone.",
+        "intermediate_beliefs": "My loved ones will withhold important information from me; They have serious health issues that I don't know. I am responsible for my family's well-being. \n[during depression]\n I won't be able to cope if my father's health worsens.",
+        "coping_strategies": "Engaging in distractions such as watching TV and pacing around the house; using food delivery services instead of cooking to manage a loss of appetite; struggling to initiate conversations about difficult topics; standing passively after conversations feeling numb and unsure."
+      },
+      "idss": {
+        "relevant_history": 0.6490060491850489,
+        "core_beliefs": 0.3840719269363893,
+        "intermediate_beliefs": 0.3805053610400714,
+        "coping_strategies": 0.40298375217267307,
+        "average": 0.4541417723335457
+      }
+    }
+  ]
+}

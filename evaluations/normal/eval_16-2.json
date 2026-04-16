@@ -1,0 +1,49 @@
+{
+  "aggregate": {
+    "num_sessions": 1,
+    "cder": {
+      "external": 0.0,
+      "internal": 1.0,
+      "overall": 0.0
+    },
+    "idss": {
+      "relevant_history": 0.5084447326162316,
+      "core_beliefs": 0.3643148390774394,
+      "intermediate_beliefs": 0.46094422571874266,
+      "coping_strategies": 0.6987554160664731,
+      "average": 0.5081148033697217
+    }
+  },
+  "sessions": [
+    {
+      "file": "/Users/luhtookyaw/Desktop/StageTherapy/mind_voyager/outputs/normal/session_16-2.json",
+      "case_id": "16-2",
+      "client_mode": "masked",
+      "difficulty": "normal",
+      "cder": {
+        "external": 0,
+        "internal": 1,
+        "overall": 0
+      },
+      "predicted_internal_diagram": {
+        "relevant_history": "The client has had past experiences where decisions did not go as planned, leading to feelings of disappointment and frustration.",
+        "core_beliefs": "The client believes that making mistakes could lead to serious consequences and feels a lack of confidence in their decision-making abilities.",
+        "intermediate_beliefs": "The client thinks they cannot afford to make a mistake and worries about failing or choosing the wrong path, which contributes to their anxiety.",
+        "coping_strategies": "The client tends to overthink decisions, talk to friends for reassurance, and sometimes avoids thinking about choices altogether."
+      },
+      "ground_truth_internal_diagram": {
+        "relevant_history": "The client has spent eleven months in Europe working on a project, which included creating a website and conducting interviews. This period appears important to the client and he's eager to show something for his efforts. The client has suffered from procrastination and anxiety in the past. He has managed to build structure into his life by implementing various strategies learned from a course and using reminders.",
+        "core_beliefs": "I am incompetent. | I am out of control. | I am a failure, loser.",
+        "intermediate_beliefs": "I must always have something to show for my choices, actions and efforts, otherwise I'm a failure. I must always make the right choice. If I make the wrong choice, or stay idle, then I'm failing.\nDepressive variant: Having options is paralyzing due to the pressure to make the perfect choice. I cannot make the right choice, I'm a failure.",
+        "coping_strategies": "The client uses avoidance or procrastination when overwhelmed by decision making."
+      },
+      "idss": {
+        "relevant_history": 0.5084447326162316,
+        "core_beliefs": 0.3643148390774394,
+        "intermediate_beliefs": 0.46094422571874266,
+        "coping_strategies": 0.6987554160664731,
+        "average": 0.5081148033697217
+      }
+    }
+  ]
+}

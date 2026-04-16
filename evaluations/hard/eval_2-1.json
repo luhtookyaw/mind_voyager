@@ -1,0 +1,49 @@
+{
+  "aggregate": {
+    "num_sessions": 1,
+    "cder": {
+      "external": 0.0,
+      "internal": 1.0,
+      "overall": 0.0
+    },
+    "idss": {
+      "relevant_history": 0.5586531139134836,
+      "core_beliefs": 0.1341943759586706,
+      "intermediate_beliefs": 0.4845784490873002,
+      "coping_strategies": 0.35362163421191883,
+      "average": 0.3827618932928433
+    }
+  },
+  "sessions": [
+    {
+      "file": "/Users/luhtookyaw/Desktop/StageTherapy/mind_voyager/outputs/hard/session_2-1.json",
+      "case_id": "2-1",
+      "client_mode": "masked",
+      "difficulty": "hard",
+      "cder": {
+        "external": 0,
+        "internal": 1,
+        "overall": 0
+      },
+      "predicted_internal_diagram": {
+        "relevant_history": "The client has had challenging conversations with their parents about wedding invitations, feeling pressure not to upset them.",
+        "core_beliefs": "The client believes that disagreeing with their parents could lead to conflict and potential withdrawal from the relationship.",
+        "intermediate_beliefs": "The client feels lost between wanting to assert their own happiness and fearing the consequences of upsetting their parents. They believe avoiding conflict is safer, even if it means sacrificing their own truth.",
+        "coping_strategies": "The client plans to write down their thoughts to express themselves without pressure, set small goals for writing, celebrate small progress, and incorporate self-care activities to manage anxiety."
+      },
+      "ground_truth_internal_diagram": {
+        "relevant_history": "Patient has been experiencing frustration, anxiety, and anger related to familial relationships. This is significantly influenced by a conversation regarding his wedding list with his parents, leading to insights about his feelings and actions similar to his father's pattern of seeking approval and unconditional love from family members who do not provide it.",
+        "core_beliefs": "I am powerless, weak, vulnerable. | I am trapped. | I am unlovable. | I am undesirable, unwanted. | I am bound to be abandoned. | I am bound to be alone.",
+        "intermediate_beliefs": "Patient holds the belief that one must continuously seek familial approval and support to feel safe and valued. Patient also believes that investing in unhealthy familial relationships is necessary despite ongoing distress and frustration.\nDepressive variant: During periods of low mood, the patient likely adopts more polarized views on family loyalty and support, feeling an increased sense of obligation to pursue approval, which exacerbates feelings of helplessness and rejection.",
+        "coping_strategies": "Patient tends to engage in conversations with family members about emotional support and seeks to change family dynamics, though this is often met with resistance."
+      },
+      "idss": {
+        "relevant_history": 0.5586531139134836,
+        "core_beliefs": 0.1341943759586706,
+        "intermediate_beliefs": 0.4845784490873002,
+        "coping_strategies": 0.35362163421191883,
+        "average": 0.3827618932928433
+      }
+    }
+  ]
+}

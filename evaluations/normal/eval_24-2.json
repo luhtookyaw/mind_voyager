@@ -1,0 +1,49 @@
+{
+  "aggregate": {
+    "num_sessions": 1,
+    "cder": {
+      "external": 1.0,
+      "internal": 1.0,
+      "overall": 1.0
+    },
+    "idss": {
+      "relevant_history": 0.4352341755865131,
+      "core_beliefs": 0.3939203374386667,
+      "intermediate_beliefs": 0.5069602887001169,
+      "coping_strategies": 0.3294080814626058,
+      "average": 0.41638072079697563
+    }
+  },
+  "sessions": [
+    {
+      "file": "/Users/luhtookyaw/Desktop/StageTherapy/mind_voyager/outputs/normal/session_24-2.json",
+      "case_id": "24-2",
+      "client_mode": "masked",
+      "difficulty": "normal",
+      "cder": {
+        "external": 1,
+        "internal": 1,
+        "overall": 1
+      },
+      "predicted_internal_diagram": {
+        "relevant_history": "The client has been dealing with financial issues and recently took out a loan, feeling overwhelmed and anxious about maintaining a successful image.",
+        "core_beliefs": "The client believes that showing weakness is a sign of failure and that their worth is tied to their success.",
+        "intermediate_beliefs": "The client feels they need to prove themselves to others and fears being seen as inadequate or abandoned if they don't meet expectations.",
+        "coping_strategies": "The client plans to acknowledge their feelings, set small achievable goals, practice mindfulness, and use affirmations to support themselves during self-check-ins."
+      },
+      "ground_truth_internal_diagram": {
+        "relevant_history": "The patient has a history of experiencing feelings of inadequacy, performance pressure, and social disappointment. He recalls past instances where he tried to put on a performance to meet others' expectations and hide his vulnerability. He recently encountered an incident that caused one of his businesses to fail, which resulted in financial difficulty.",
+        "core_beliefs": "I am incompetent. | I am helpless. | I am powerless, weak, vulnerable. | I am a failure, loser. | I am undesirable, unwanted. | I am bound to be abandoned.",
+        "intermediate_beliefs": "I must meet others' expectations. Expressing weaknesses or asking for help is frowned upon and not beneficial. I need to have a facade of control or a performance to be accepted or to interact socially. Discussing problems is pointless and signs of weakness must be hidden, otherwise nobody likes me and I will be abandoned.\nDepressive variant: If I'm failing to meet expectations, or showing my vulnerability and weakeness, people will know I'm just a weak person and a failure. I will eventually be unwanted and abandoned.",
+        "coping_strategies": "The patient uses avoidance (e.g., not attending gatherings), suppression of emotions, and intellectualization as coping methods. He also engages in counterproductive self-talk, pseudo-performances in social interactions, and rationalization to avoid showing vulnerability. He also uses grandiosity and masculinity to cover up his insecurities."
+      },
+      "idss": {
+        "relevant_history": 0.4352341755865131,
+        "core_beliefs": 0.3939203374386667,
+        "intermediate_beliefs": 0.5069602887001169,
+        "coping_strategies": 0.3294080814626058,
+        "average": 0.41638072079697563
+      }
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "aggregate": {
+    "num_sessions": 1,
+    "cder": {
+      "external": 1.0,
+      "internal": 1.0,
+      "overall": 1.0
+    },
+    "idss": {
+      "relevant_history": 0.538009002312135,
+      "core_beliefs": 0.221259794577761,
+      "intermediate_beliefs": 0.5177695973310253,
+      "coping_strategies": 0.3171936178940984,
+      "average": 0.39855800302875494
+    }
+  },
+  "sessions": [
+    {
+      "file": "/Users/luhtookyaw/Desktop/StageTherapy/mind_voyager/outputs/easy/session_50-2.json",
+      "case_id": "50-2",
+      "client_mode": "masked",
+      "difficulty": "easy",
+      "cder": {
+        "external": 1,
+        "internal": 1,
+        "overall": 1
+      },
+      "predicted_internal_diagram": {
+        "relevant_history": "The client has always been the one in her friend group who tries to help others, possibly stemming from a desire to provide support due to a lack of it in her own life.",
+        "core_beliefs": "A good friend should always be there for each other and solve their problems; if she can't help, she feels like she's failing as a friend.",
+        "intermediate_beliefs": "If I'm not helping, then I'm not being a good friend; I have a responsibility to fix things for my friends.",
+        "coping_strategies": "Talking to friends about her feelings, setting boundaries, writing down thoughts and feelings, sending supportive messages without pressure, and creating reminders or affirmations."
+      },
+      "ground_truth_internal_diagram": {
+        "relevant_history": "The client describes a significant history with an individual named Ethan, with whom they have had a friendship spanning 14 years, since high school. This relationship includes periods where they supported each other through personal crises, such as the client's experience with an abusive ex-boyfriend, and professional collaborations at startups. The client learned through friends that Ethan has been involved in a serious situation, including abusive behavior towards his girlfriend, which has greatly distressed the client.",
+        "core_beliefs": "I am helpless. | I am out of control. | I am unlovable. | I am bound to be rejected.",
+        "intermediate_beliefs": "If I can't help someone, it means I've failed them. People who I get close to will end up hurting me or others.\nDepressive variant: When I'm unable to help a friend or resolve a situation, it's because I'm inadequate. If someone I'm close to does something terrible, it reflects my poor judgment in people.",
+        "coping_strategies": "Seeking support from friends, organizing group meetings for intervention, compiling spreadsheets of information and resources, excessive drinking, engaging in casual sex, and making effort to find Ethan a spot in rehab."
+      },
+      "idss": {
+        "relevant_history": 0.538009002312135,
+        "core_beliefs": 0.221259794577761,
+        "intermediate_beliefs": 0.5177695973310253,
+        "coping_strategies": 0.3171936178940984,
+        "average": 0.39855800302875494
+      }
+    }
+  ]
+}

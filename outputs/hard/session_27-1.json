@@ -1,0 +1,184 @@
+{
+  "case_id": "27-1",
+  "client_name": "Mia",
+  "client_mode": "masked",
+  "hide_all": false,
+  "difficulty": "hard",
+  "therapist_provider": "openai",
+  "therapist_model": "gpt-4o-mini",
+  "client_model": "gpt-4o-mini",
+  "max_turns": 15,
+  "transcript": [
+    {
+      "turn": 1,
+      "speaker": "therapist",
+      "content": "Hello, Mia. I\u2019m glad you\u2019re here today. What feels most important for you to talk about right now?"
+    },
+    {
+      "turn": 1,
+      "speaker": "client",
+      "content": "Um, I guess... I don't really know. There\u2019s a lot going on, but it\u2019s hard to pinpoint. I mean, I\u2019ve been feeling a bit overwhelmed lately. Just trying to figure things out on my own, you know? It\u2019s just... everything feels heavy."
+    },
+    {
+      "turn": 2,
+      "speaker": "therapist",
+      "content": "It sounds like you\u2019re carrying a lot right now and feeling overwhelmed by it all. That heaviness can be really tough to manage. Can you share a bit more about what\u2019s been contributing to that feeling of overwhelm?"
+    },
+    {
+      "turn": 2,
+      "speaker": "client",
+      "content": "Well, there\u2019s just... stuff with my ex, I guess. He\u2019s not being very helpful with things like child support, and it\u2019s just... frustrating. I keep worrying about money and how I\u2019m going to manage everything. It feels like I\u2019m stuck and I don\u2019t know what to do. It\u2019s just... a lot to handle."
+    },
+    {
+      "turn": 3,
+      "speaker": "therapist",
+      "content": "It sounds like the situation with your ex and the financial worries are really weighing on you. Feeling stuck in that kind of situation can be incredibly frustrating. How do you usually cope when these feelings of being overwhelmed come up?"
+    },
+    {
+      "turn": 3,
+      "speaker": "client",
+      "content": "I try to push myself to be more independent, I guess. I mean, I talk to my family sometimes, but it\u2019s hard to really open up about everything. I just... I don\u2019t want to burden anyone, you know? So I try to deal with it on my own, but it can get really tough. I just feel like I need to keep trying harder."
+    },
+    {
+      "turn": 4,
+      "speaker": "therapist",
+      "content": "It sounds like you\u2019re really striving for independence and trying to handle things on your own, but it also feels like that can be quite isolating at times. You mentioned not wanting to burden your family\u2014can you tell me more about what makes it hard for you to open up to them?"
+    },
+    {
+      "turn": 4,
+      "speaker": "client",
+      "content": "I don\u2019t know... I guess I just feel like everyone has their own problems, and I don\u2019t want to add to that. It\u2019s like, I should be able to manage this myself. I don\u2019t want them to see me as weak or... struggling. So, I keep things to myself. It just feels safer that way, I think."
+    },
+    {
+      "turn": 5,
+      "speaker": "therapist",
+      "content": "It seems like you\u2019re carrying a belief that sharing your struggles might make you seem weak or like a burden, which makes it feel safer to keep things to yourself. That\u2019s a heavy load to bear alone. I wonder, what do you think it would feel like to share some of what you\u2019re going through with your family?"
+    },
+    {
+      "turn": 5,
+      "speaker": "client",
+      "content": "I... I\u2019m not sure. It\u2019s kind of scary to think about. I mean, what if they don\u2019t understand or think I\u2019m just complaining? I guess part of me worries they might judge me or think I\u2019m not doing enough. It\u2019s just easier to keep it all inside, even if it feels heavy. I don\u2019t know if I\u2019m ready to take that step."
+    },
+    {
+      "turn": 6,
+      "speaker": "therapist",
+      "content": "It makes sense that you would feel scared about opening up, especially with those worries about being judged or misunderstood. It sounds like there\u2019s a real conflict between wanting to share the weight you\u2019re carrying and the fear of how it might be received. It\u2019s okay to take your time with this. What do you think would help you feel more ready to share, if that\u2019s something you want to explore?"
+    },
+    {
+      "turn": 6,
+      "speaker": "client",
+      "content": "I guess... maybe if I felt more certain about how they would react? Like, if I knew they\u2019d be supportive and not judgmental, it might make it easier. But it\u2019s hard to know that for sure. I think I just need to find a way to feel more secure in myself first, before I can even think about opening up. It\u2019s just... a lot to figure out."
+    },
+    {
+      "turn": 7,
+      "speaker": "therapist",
+      "content": "It sounds like having that assurance of support from your family would make a big difference for you, but it\u2019s understandable that it\u2019s hard to know how they would respond. Focusing on feeling more secure in yourself first seems like a thoughtful approach. What do you think would help you build that sense of security?"
+    },
+    {
+      "turn": 7,
+      "speaker": "client",
+      "content": "I\u2019m not really sure. I guess... maybe if I could find some small ways to feel more in control of my situation? Like, setting little goals for myself or something. But even that feels overwhelming sometimes. I just want to feel like I can handle things without falling apart. It\u2019s hard to see how to get there, though."
+    },
+    {
+      "turn": 8,
+      "speaker": "therapist",
+      "content": "It sounds like you\u2019re looking for ways to regain a sense of control, which is completely understandable given how overwhelming things feel right now. Setting small goals could be a helpful step, even if it feels daunting. What kind of small goals do you think might feel manageable for you at this moment?"
+    },
+    {
+      "turn": 8,
+      "speaker": "client",
+      "content": "Um, maybe just... things like budgeting better or looking into some resources for support? I don\u2019t know, it feels like a lot, but maybe if I could break it down into smaller steps, it wouldn\u2019t be so overwhelming. I just have to remind myself that it\u2019s okay to take it slow. But then again, I worry about not doing enough. It\u2019s a bit of a struggle."
+    },
+    {
+      "turn": 9,
+      "speaker": "therapist",
+      "content": "It sounds like you\u2019re already thinking about practical steps, like budgeting and seeking support, which is a positive direction. Breaking things down into smaller steps could definitely help make it feel less overwhelming. I hear that there\u2019s a tension between wanting to take it slow and the worry about not doing enough. How do you think you can balance that desire to move forward with the need to be gentle with yourself during this process?"
+    },
+    {
+      "turn": 9,
+      "speaker": "client",
+      "content": "I guess... I could try to remind myself that it\u2019s okay to take things one step at a time. Maybe setting a specific, small goal each week could help? Like, just focusing on one thing instead of trying to tackle everything at once. But it\u2019s hard to shake that feeling of urgency, like I should be doing more. I think I just need to be more patient with myself, but that\u2019s easier said than done."
+    },
+    {
+      "turn": 10,
+      "speaker": "therapist",
+      "content": "It sounds like you\u2019re recognizing the value of patience and the idea of focusing on one small goal at a time, which is a great insight. It\u2019s understandable to feel that urgency, especially when things feel heavy. Acknowledging that it\u2019s easier said than done is important too. What do you think might help you cultivate that patience with yourself as you work on these small steps?"
+    },
+    {
+      "turn": 10,
+      "speaker": "client",
+      "content": "Maybe... I could try to remind myself that progress doesn\u2019t have to be fast. I could keep a journal or something to track my small wins, even if they seem minor. Just to see that I\u2019m moving forward, even if it\u2019s slow. I think that might help me feel a bit more patient and less pressured. But, I don\u2019t know... sometimes it\u2019s just hard to see the positives when everything feels so heavy."
+    },
+    {
+      "turn": 11,
+      "speaker": "therapist",
+      "content": "That sounds like a thoughtful approach\u2014keeping a journal to track your small wins could help you recognize your progress, even when it feels slow. It\u2019s completely normal to struggle to see the positives when you\u2019re feeling weighed down. It might be helpful to remind yourself that it\u2019s okay to acknowledge both the heaviness and the small victories. How do you feel about the idea of celebrating those small wins, even if they seem minor?"
+    },
+    {
+      "turn": 11,
+      "speaker": "client",
+      "content": "I think... it could be nice, actually. Celebrating the small wins might help me shift my focus a bit. It\u2019s just... I worry that I might downplay them or feel like they\u2019re not enough. But maybe if I set aside a little time to acknowledge them, it could help me feel more motivated. I guess it\u2019s worth a try, even if it feels a bit strange at first."
+    },
+    {
+      "turn": 12,
+      "speaker": "therapist",
+      "content": "It\u2019s great to hear that you\u2019re open to the idea of celebrating those small wins, even if it feels a bit strange at first. Acknowledging your accomplishments, no matter how minor they may seem, can be a powerful way to shift your focus and build motivation. It\u2019s understandable to worry about downplaying them, but giving yourself permission to celebrate can be a step toward recognizing your efforts. What do you think would be a meaningful way for you to celebrate those small wins?"
+    },
+    {
+      "turn": 12,
+      "speaker": "client",
+      "content": "Um, maybe treating myself to something small, like a favorite snack or taking a little time to relax with a book or a show? Just something that feels like a reward for making progress, even if it\u2019s just a little bit. I think that could help me feel more positive about what I\u2019m doing. It\u2019s just... I have to remember to actually do it and not just brush it off."
+    },
+    {
+      "turn": 13,
+      "speaker": "therapist",
+      "content": "Those sound like lovely ways to treat yourself and acknowledge your progress! Taking time for a favorite snack or enjoying a book or show can be a nice reward and a way to cultivate positivity. It\u2019s understandable to worry about brushing it off, but perhaps setting a specific time for those little rewards could help you remember to follow through. How do you feel about creating a small plan for when you might treat yourself after achieving a goal?"
+    },
+    {
+      "turn": 13,
+      "speaker": "client",
+      "content": "That could work, I think. If I set a specific time, it might make it easier to remember. Maybe I could plan to treat myself at the end of each week, after I\u2019ve accomplished my small goal. It feels a bit more structured that way, and I think it might help me stay motivated. I just have to remind myself that it\u2019s okay to take those moments for myself. It\u2019s a step, I guess."
+    },
+    {
+      "turn": 14,
+      "speaker": "therapist",
+      "content": "That sounds like a solid plan! Setting a specific time at the end of each week to treat yourself after accomplishing your small goal adds structure and gives you something to look forward to. It\u2019s wonderful that you\u2019re recognizing the importance of taking those moments for yourself. Each step you take, no matter how small, is a step toward feeling more in control and less overwhelmed. How are you feeling about this plan as we wrap up our conversation today?"
+    },
+    {
+      "turn": 14,
+      "speaker": "client",
+      "content": "I feel... a bit more hopeful, I think. Having a plan makes it feel more manageable, and it\u2019s nice to think about treating myself for my efforts. I know it won\u2019t solve everything, but it feels like a step in the right direction. I still have a lot to figure out, but maybe I can take it one step at a time. Thanks for helping me sort through this. It\u2019s been... helpful."
+    },
+    {
+      "turn": 15,
+      "speaker": "therapist",
+      "content": "I\u2019m really glad to hear that you\u2019re feeling more hopeful and that our conversation has been helpful for you. It sounds like you\u2019re starting to find a way forward, and taking it one step at a time is a great approach. Remember, it\u2019s okay to take your time as you navigate everything. If you ever want to talk more or explore anything else, I\u2019m here for you. Take care of yourself, Mia."
+    },
+    {
+      "turn": 15,
+      "speaker": "client",
+      "content": "Thank you. I appreciate that. It feels good to have someone to talk to about all this. I\u2019ll try to keep those small steps in mind and take care of myself. I\u2019ll see you next time."
+    }
+  ],
+  "judge_model": "gpt-4o-mini",
+  "mediator_events": [
+    "Exploration judge rated 2/5; internal elements remain masked.",
+    "Exploration judge output: [Rating]: 2 (High Facilitation)\n\n[Justification]: The Therapist asked relevant and open-ended questions that encouraged the client to elaborate on their feelings of overwhelm and the specific issues contributing to it, such as the situation with their ex and financial worries. While the questions prompted some deeper reflection, they primarily expanded on the client's existing thoughts and emotions rather than introducing significantly new perspectives or challenging assumptions. The conversation remained focused on familiar territory, and while it was supportive, it did not push the client towards a profound shift in understanding or self-awareness.",
+    "Rapport judge rated 3/5; no experience reveal.",
+    "Rapport judge output: **Rating: 3 (ENGAGED EXPLORATION)**\n\n**Key Examples:**\n1. **Emotional State:** \"I mean, I\u2019ve been feeling a bit overwhelmed lately. Just trying to figure things out on my own, you know? It\u2019s just... everything feels heavy.\"\n2. **Current Openness:** \"I try to push myself to be more independent, I guess. I mean, I talk to my family sometimes, but it\u2019s hard to really open up about everything. I just... I don\u2019t want to burden anyone, you know?\"\n\n**Progression:** The client\u2019s most recent interactions reveal a growing emotional depth, particularly in their acknowledgment of feeling overwhelmed and the weight of their responsibilities. This marks a significant change from earlier in the session, where the client displayed more factual responses and hesitance to delve into their feelings. The shift towards expressing vulnerability about their situation with their ex and financial worries indicates a deeper engagement with their emotional state.\n\n**Turning Point:** The client\u2019s emotional depth shifted notably when they began expressing feelings of being overwhelmed and the struggle with independence. This occurred when they articulated the heaviness of their situation and the frustration stemming from their ex's lack of support. This moment marked a transition from a more guarded stance to a willingness to explore their feelings, demonstrating a pivotal point in their emotional openness during the session.",
+    "Exploration judge rated 3/5; internal elements remain masked.",
+    "Exploration judge output: [Rating]: 3 (Very High Facilitation \u2013 Deep Exploration Begins)\n\n[Justification]: The Therapist asked insightful and thought-provoking questions that encouraged the client to analyze the root causes of their feelings of overwhelm and isolation. The questions prompted the client to reflect on their beliefs about vulnerability and sharing their struggles with family, which are key areas for deeper self-exploration. The Therapist's inquiry into the client's fears about judgment and the conflict between wanting to share and feeling scared to do so helped to shift the client's perspective and encouraged higher-level self-reflection. While the conversation did not reach the level of a profound breakthrough, it effectively facilitated a deeper exploration of the client's emotional landscape and coping mechanisms.",
+    "Rapport judge rated 3/5; no experience reveal.",
+    "Rapport judge output: **Rating: 3 (ENGAGED EXPLORATION)**\n\n**Key Examples:**\n1. **Emotional State:** \"I\u2019ve been feeling a bit overwhelmed lately. Just trying to figure things out on my own, you know? It\u2019s just... everything feels heavy.\"\n2. **Current Openness:** \"I guess... maybe if I felt more certain about how they would react? Like, if I knew they\u2019d be supportive and not judgmental, it might make it easier.\"\n\n**Progression:** In the most recent exchanges, the client demonstrates a notable increase in emotional expression and self-reflection. Initially, the client expressed feelings of being overwhelmed and heavy with emotional burdens, indicating a willingness to share their emotional state. This marks a significant change from earlier interactions where emotional vocabulary was limited. The client is now actively engaging in dialogue about their feelings, showing a deeper level of self-awareness and a desire to explore their coping mechanisms and fears regarding vulnerability.\n\n**Turning Point:** The client\u2019s emotional depth shifted during the exchange where they articulated their fear of being judged by their family. This moment highlighted their internal conflict between the desire to share their struggles and the fear of appearing weak. This acknowledgment of their fears and the contemplation of potential support from family members signifies a deeper level of emotional processing and readiness to explore these feelings further, indicating a movement towards greater emotional openness.",
+    "Exploration judge rated 3/5; internal elements remain masked.",
+    "Exploration judge output: [Rating]: 3 (Very High Facilitation \u2013 Deep Exploration Begins)\n\n[Justification]: The Therapist asked insightful and thought-provoking questions that encouraged the client to analyze the root causes of their feelings of overwhelm and isolation. The questions prompted the client to explore their beliefs about vulnerability and the fear of judgment from family, which are significant emotional depths behind their experiences. The Therapist's inquiries began to shift the client's perspective, particularly when they asked about the potential feelings associated with sharing struggles and what might help the client feel more secure in themselves. While the conversation was productive and facilitated deeper self-reflection, it did not reach the level of introducing completely new angles or challenging assumptions to the extent that would warrant a higher rating. Overall, the Therapist effectively guided the client towards a deeper understanding of their situation and emotions.",
+    "Rapport judge rated 3/5; no experience reveal.",
+    "Rapport judge output: **Rating: 3**\n\n**Key Examples:**\n1. *\u201cI guess... maybe if I could find some small ways to feel more in control of my situation? Like, setting little goals for myself or something. But even that feels overwhelming sometimes.\u201d* \n2. *\u201cI think... it could be nice, actually. Celebrating the small wins might help me shift my focus a bit. It\u2019s just... I worry that I might downplay them or feel like they\u2019re not enough.\u201d*\n\n**Progression:**\nThe client\u2019s most recent interactions demonstrate a growing emotional depth, particularly in their acknowledgment of feeling overwhelmed and their desire to regain control through small, manageable goals. This marks a significant change from earlier in the session, where they expressed a more generalized sense of being overwhelmed without specific strategies for coping. The client is beginning to articulate their feelings more clearly and is showing a willingness to explore practical steps, indicating a shift from initial hesitance to a more engaged exploration of their emotions and circumstances.\n\n**Turning Point:**\nThe client\u2019s emotional depth shifted notably when they began to express their thoughts on setting small goals and the idea of celebrating small wins. This moment reflects a new level of self-awareness and a willingness to engage with their feelings and experiences more openly. The transition from feeling stuck and overwhelmed to considering actionable steps and recognizing the importance of celebrating progress indicates a significant turning point in their emotional state and rapport with the therapist.",
+    "Exploration judge rated 3/5; internal elements remain masked.",
+    "Exploration judge output: [Rating]: 3 (Very High Facilitation \u2013 Deep Exploration Begins)\n\n[Justification]: The therapist asked insightful and thought-provoking questions that helped the client analyze their feelings of overwhelm and the underlying beliefs about sharing struggles with family. The therapist's inquiries encouraged the client to reflect on their motivations, fears, and coping strategies, facilitating a deeper understanding of their emotional state. The conversation began to shift the client's perspective, particularly when discussing the conflict between wanting to share burdens and the fear of judgment. However, while the therapist's questions were effective in promoting self-reflection and exploration, they did not fully challenge the client's assumptions or introduce significantly new perspectives that would lead to a major breakthrough. Thus, the facilitation was strong but did not reach the highest level of transformational potential.",
+    "Exploration judge rated 3/5; internal elements remain masked.",
+    "Exploration judge output: [Rating]: 3 (Very High Facilitation \u2013 Deep Exploration Begins)\n\n[Justification]: The therapist asked insightful and thought-provoking questions that encouraged the client to analyze the root causes of her feelings of overwhelm and isolation. The therapist effectively facilitated a deeper exploration of the client's beliefs about sharing her struggles and the fear of judgment from her family. The questions prompted the client to reflect on her coping mechanisms and the conflict between wanting to be independent and the need for support. While the therapist's questions were impactful and led to significant self-reflection, they primarily focused on expanding the client's existing thoughts rather than introducing completely new perspectives. Overall, the conversation fostered a deeper understanding of the client's emotional state and helped her identify actionable steps, but there was still room for further exploration of underlying beliefs and motivations."
+  ],
+  "final_visible_experience_count": 1,
+  "internal_revealed": false
+}

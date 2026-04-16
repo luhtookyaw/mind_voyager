@@ -1,0 +1,49 @@
+{
+  "aggregate": {
+    "num_sessions": 1,
+    "cder": {
+      "external": 1.0,
+      "internal": 1.0,
+      "overall": 1.0
+    },
+    "idss": {
+      "relevant_history": 0.5128905066217793,
+      "core_beliefs": 0.3286656689304535,
+      "intermediate_beliefs": 0.27647430646412136,
+      "coping_strategies": 0.6193869094404182,
+      "average": 0.4343543478641931
+    }
+  },
+  "sessions": [
+    {
+      "file": "/Users/luhtookyaw/Desktop/StageTherapy/mind_voyager/outputs/easy/session_27-1.json",
+      "case_id": "27-1",
+      "client_mode": "masked",
+      "difficulty": "easy",
+      "cder": {
+        "external": 1,
+        "internal": 1,
+        "overall": 1
+      },
+      "predicted_internal_diagram": {
+        "relevant_history": "The client has been feeling overwhelmed due to an email from her ex-partner about child support, which has triggered anxiety and financial worries.",
+        "core_beliefs": "The client believes she may not have enough money and feels scared about her future, leading to feelings of loneliness and burden.",
+        "intermediate_beliefs": "The client thinks her ex-partner is unwilling to help, which contributes to her financial anxiety and feelings of being stuck.",
+        "coping_strategies": "The client plans to take small steps like texting her sister for support and researching financial counseling options. She also considers writing down her thoughts and practicing self-compassion."
+      },
+      "ground_truth_internal_diagram": {
+        "relevant_history": "The client is undergoing a divorce and experiencing financial difficulties. She used to be with her ex-partner since the age of 19 and has never felt lonely until now because she had always been with someone. The couple has a young son, Brady, for whom they are still settling child support issues. The client has faced recent changes, such as solo travelling with her son for the first time and visiting her family without her partner. She also feels a sense of shame or guilt related to her friends disconnecting from her after the separation.",
+        "core_beliefs": "I am incompetent. | I am helpless. | I am powerless, weak, vulnerable. | I am unlovable. | I am bound to be rejected. | I am bound to be abandoned.",
+        "intermediate_beliefs": "I should be able to provide for myself and my son without needing help. But in fact I need to rely on others to support myself and my kid. People are supposed to help me. \n[during depression]\n I cannot support myself by my own. I'm not independent. Nobody would help me.",
+        "coping_strategies": "Communicating and seeking support with family and friends; seeking legal advice to resolve financial disputes with her ex-partner; The client sometimes engages in avoidance of negative feelings by distracting herself with routine or scheduled activities."
+      },
+      "idss": {
+        "relevant_history": 0.5128905066217793,
+        "core_beliefs": 0.3286656689304535,
+        "intermediate_beliefs": 0.27647430646412136,
+        "coping_strategies": 0.6193869094404182,
+        "average": 0.4343543478641931
+      }
+    }
+  ]
+}

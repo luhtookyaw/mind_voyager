@@ -1,0 +1,49 @@
+{
+  "aggregate": {
+    "num_sessions": 1,
+    "cder": {
+      "external": 0.0,
+      "internal": 0.0,
+      "overall": 0.0
+    },
+    "idss": {
+      "relevant_history": 0.6549056608833197,
+      "core_beliefs": 0.16139446793677845,
+      "intermediate_beliefs": 0.4167534180937363,
+      "coping_strategies": 0.23923472012426536,
+      "average": 0.368072066759525
+    }
+  },
+  "sessions": [
+    {
+      "file": "/Users/luhtookyaw/Desktop/StageTherapy/mind_voyager/outputs/hard/session_39-2.json",
+      "case_id": "39-2",
+      "client_mode": "masked",
+      "difficulty": "hard",
+      "cder": {
+        "external": 0,
+        "internal": 0,
+        "overall": 0
+      },
+      "predicted_internal_diagram": {
+        "relevant_history": "The client has experienced times when things seemed fine, but then they fell apart, leading to a cautious approach to happiness.",
+        "core_beliefs": "The client believes that good times don't last and that happiness is often followed by something bad happening.",
+        "intermediate_beliefs": "The client feels the need to keep their guard up to avoid being caught off guard and experiences anxiety when trying to enjoy positive moments.",
+        "coping_strategies": "The client plans to keep a journal to track positive moments and remind themselves that not everything has to go wrong."
+      },
+      "ground_truth_internal_diagram": {
+        "relevant_history": "The client indicates a history of suffering from anxiety-related stomachaches and experiencing stress-induced physical symptoms. The client also has a past of struggling with their weight, sexuality, and academic performance until a positive transformation occurred in college. Additionally, the client has experienced feelings of not being in control and engaging in patterns of behavior where they seek control in relationships.",
+        "core_beliefs": "I am powerless, weak, vulnerable. | I am trapped. | I am out of control. | I am unlovable. | I am bound to be alone.",
+        "intermediate_beliefs": "If I am not in control, something bad will happen. I need to know the reasons for my symptoms to feel calm. My happiness is directly tied to my physical health and being in a desirable state.\nDepressive variant: When feeling unwell or scared about health, the client obsesses over the causes of their symptoms and fears the worst outcomes, signaling a heightened state of worry and preoccupation with health issues.",
+        "coping_strategies": "Attempting to maintain a sense of control over situations, environments, and relationships; seeking reassurance through understanding causes of physical symptoms; exercising for stress release; using social interactions to distract from anxiety."
+      },
+      "idss": {
+        "relevant_history": 0.6549056608833197,
+        "core_beliefs": 0.16139446793677845,
+        "intermediate_beliefs": 0.4167534180937363,
+        "coping_strategies": 0.23923472012426536,
+        "average": 0.368072066759525
+      }
+    }
+  ]
+}

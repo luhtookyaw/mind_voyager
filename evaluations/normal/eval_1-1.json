@@ -1,0 +1,49 @@
+{
+  "aggregate": {
+    "num_sessions": 1,
+    "cder": {
+      "external": 1.0,
+      "internal": 1.0,
+      "overall": 1.0
+    },
+    "idss": {
+      "relevant_history": 0.3077335025423345,
+      "core_beliefs": 0.055272809160755026,
+      "intermediate_beliefs": 0.25423508066746536,
+      "coping_strategies": 0.3863859612888825,
+      "average": 0.25090683841485933
+    }
+  },
+  "sessions": [
+    {
+      "file": "/Users/luhtookyaw/Desktop/StageTherapy/mind_voyager/outputs/normal/session_1-1.json",
+      "case_id": "1-1",
+      "client_mode": "masked",
+      "difficulty": "normal",
+      "cder": {
+        "external": 1,
+        "internal": 1,
+        "overall": 1
+      },
+      "predicted_internal_diagram": {
+        "relevant_history": "The client feels like they don't fit in with their family and worries about being judged during family gatherings, leading to avoidance of these events.",
+        "core_beliefs": "The client believes they are not wanted by their family and that they should handle their problems on their own.",
+        "intermediate_beliefs": "The client fears being misunderstood and feels pressure to explain themselves, which contributes to their anxiety about family interactions.",
+        "coping_strategies": "The client plans to remind themselves that it's okay to feel anxious, prepare what to say beforehand, and set small goals for self-encouragement."
+      },
+      "ground_truth_internal_diagram": {
+        "relevant_history": "The patient has a history of substance abuse and has been through rehab to overcome it. He has had issues with his family, particularly with his mother, where he has felt rejected and emotionally neglected. He has struggled with obesity since childhood, which has affected his self-esteem and body image. He also has a history of being victimized and bullied due to his weight.",
+        "core_beliefs": "I am trapped. | I am out of control. | I am unlovable. | I am undesirable, unwanted.",
+        "intermediate_beliefs": "Helpless: I'm just not very good at handling stress and I have poor self-control, which is why I need to not put myself in stressful situations. \n Unlovable: If I show my true self, people will reject me the way my mother rejected me.\nDepressive variant: Helpless: There's nothing I can do to change my situation. I cannot control myself. \nUnlovable: I don't deserve to be happy, so why even try to stay clean?",
+        "coping_strategies": "The patient has adopted avoidance as a coping strategy by distancing himself from his family to reduce exposure to negativity and conflict. He has started scheduling pleasant activities and planning his day ahead of time in order to maintain a sense of control over his emotions and circumstances."
+      },
+      "idss": {
+        "relevant_history": 0.3077335025423345,
+        "core_beliefs": 0.055272809160755026,
+        "intermediate_beliefs": 0.25423508066746536,
+        "coping_strategies": 0.3863859612888825,
+        "average": 0.25090683841485933
+      }
+    }
+  ]
+}

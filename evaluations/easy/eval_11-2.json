@@ -1,0 +1,49 @@
+{
+  "aggregate": {
+    "num_sessions": 1,
+    "cder": {
+      "external": 1.0,
+      "internal": 1.0,
+      "overall": 1.0
+    },
+    "idss": {
+      "relevant_history": 0.4225487090115166,
+      "core_beliefs": 0.2833175152309539,
+      "intermediate_beliefs": 0.3164721805116836,
+      "coping_strategies": 0.3573927830487459,
+      "average": 0.344932796950725
+    }
+  },
+  "sessions": [
+    {
+      "file": "/Users/luhtookyaw/Desktop/StageTherapy/mind_voyager/outputs/easy/session_11-2.json",
+      "case_id": "11-2",
+      "client_mode": "masked",
+      "difficulty": "easy",
+      "cder": {
+        "external": 1,
+        "internal": 1,
+        "overall": 1
+      },
+      "predicted_internal_diagram": {
+        "relevant_history": "The client has been feeling stuck and frustrated due to unmet expectations for productivity over the weekend, which included plans for sewing and work tasks.",
+        "core_beliefs": "The client believes they should be able to accomplish tasks and feels a fear of not being good enough when they fail to meet their own standards.",
+        "intermediate_beliefs": "The client thinks that taking breaks should help them feel better, but instead, it leads to guilt and frustration for not being productive.",
+        "coping_strategies": "The client plans to break tasks into smaller steps, set reminders, create a cozy journaling space, and practice self-compassion to navigate feelings of overwhelm."
+      },
+      "ground_truth_internal_diagram": {
+        "relevant_history": "The client has a history of feeling isolated and has been dealing with chronic depression since late adolescence. They have experienced frustration with friends and had a recent breakup that preceded a relapse into a depressive episode. The client has a history of taking SSRI and has recently been adjusting their medication regimen to deal with the relapse, which has been a source of additional stress.",
+        "core_beliefs": "I am incompetent. | I am helpless. | I am powerless, weak, vulnerable. | I am trapped.",
+        "intermediate_beliefs": "If I can't manage my own feelings, then I'm failing. I should be able to handle my mental health better.\nDepressive variant: When I'm depressed, nothing I do seems to make a difference. It feels like I'll never get better no matter what medication or strategies I try.",
+        "coping_strategies": "Uses distraction techniques like watching TV, reading, and sewing, although these have been less effective lately."
+      },
+      "idss": {
+        "relevant_history": 0.4225487090115166,
+        "core_beliefs": 0.2833175152309539,
+        "intermediate_beliefs": 0.3164721805116836,
+        "coping_strategies": 0.3573927830487459,
+        "average": 0.344932796950725
+      }
+    }
+  ]
+}

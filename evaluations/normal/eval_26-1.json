@@ -1,0 +1,49 @@
+{
+  "aggregate": {
+    "num_sessions": 1,
+    "cder": {
+      "external": 1.0,
+      "internal": 1.0,
+      "overall": 1.0
+    },
+    "idss": {
+      "relevant_history": 0.5866257059393176,
+      "core_beliefs": 0.12682860460114362,
+      "intermediate_beliefs": 0.28108952521595487,
+      "coping_strategies": 0.4857694799698449,
+      "average": 0.3700783289315652
+    }
+  },
+  "sessions": [
+    {
+      "file": "/Users/luhtookyaw/Desktop/StageTherapy/mind_voyager/outputs/normal/session_26-1.json",
+      "case_id": "26-1",
+      "client_mode": "masked",
+      "difficulty": "normal",
+      "cder": {
+        "external": 1,
+        "internal": 1,
+        "overall": 1
+      },
+      "predicted_internal_diagram": {
+        "relevant_history": "The client has been feeling uneasy about clinical terms related to Ivan, such as 'delusional' and 'pseudo-psychotic,' which has led her to question both his well-being and her own safety.",
+        "core_beliefs": "The client believes she should support Ivan but also needs to prioritize her own safety.",
+        "intermediate_beliefs": "The client feels scared and anxious about Ivan's behavior and worries about making the wrong choice regarding their relationship.",
+        "coping_strategies": "The client seeks reassurance from her therapist, considers setting boundaries with friends and family, plans to journal her thoughts, and aims to remind herself to take things one step at a time."
+      },
+      "ground_truth_internal_diagram": {
+        "relevant_history": "The client has a history of uncertainty and anxiety about her work, a recent marriage filled with complexities and abuse - her husband Ivan had physically assaulted her and they are now separated. However, she is open to working on the relationship and is currently in couple's therapy with Ivan, who is also keen to change.",
+        "core_beliefs": "I am helpless. | I am out of control. | I am powerless, weak, vulnerable. | I am trapped. | I am unlovable.",
+        "intermediate_beliefs": "I need to wait for an explanation to feel closure. I need to fully understand others' behaviors to get things in control. I need a lot of patience to cope with the responsibilities and situations I am facing. \n[during depression]\n My partner's behaviors are confusing, and it's difficult to reconcile his actions with how I want to perceive him. My loyalty and commitment are making it difficult to act in my own best interest.",
+        "coping_strategies": "Using work as a means of distraction from anxiety and personal issues. Suppressing her emotions and not dwelling on feelings. Engaging in couple's therapy and individual therapy for support."
+      },
+      "idss": {
+        "relevant_history": 0.5866257059393176,
+        "core_beliefs": 0.12682860460114362,
+        "intermediate_beliefs": 0.28108952521595487,
+        "coping_strategies": 0.4857694799698449,
+        "average": 0.3700783289315652
+      }
+    }
+  ]
+}

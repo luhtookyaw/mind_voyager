@@ -1,0 +1,49 @@
+{
+  "aggregate": {
+    "num_sessions": 1,
+    "cder": {
+      "external": 0.0,
+      "internal": 1.0,
+      "overall": 0.0
+    },
+    "idss": {
+      "relevant_history": 0.19740282348076654,
+      "core_beliefs": 0.2032699837019786,
+      "intermediate_beliefs": 0.22951458932804292,
+      "coping_strategies": 0.367474827404164,
+      "average": 0.24941555597873802
+    }
+  },
+  "sessions": [
+    {
+      "file": "/Users/luhtookyaw/Desktop/StageTherapy/mind_voyager/outputs/hard/session_12-1.json",
+      "case_id": "12-1",
+      "client_mode": "masked",
+      "difficulty": "hard",
+      "cder": {
+        "external": 0,
+        "internal": 1,
+        "overall": 0
+      },
+      "predicted_internal_diagram": {
+        "relevant_history": "The client has always been cautious and tends to avoid risks, feeling uncomfortable with vulnerability and the possibility of disappointing others.",
+        "core_beliefs": "The client believes they do not belong in jazz rehearsals and fears they are not good enough, leading to feelings of anxiety and self-doubt.",
+        "intermediate_beliefs": "The client thinks that avoiding full engagement in music is safer than risking mistakes, and they feel pressure to not let others down.",
+        "coping_strategies": "The client plans to use a mantra, practice deep breathing, talk to someone in the group for support, and reflect on past experiences to build resilience."
+      },
+      "ground_truth_internal_diagram": {
+        "relevant_history": "Jay is a PhD student in a science field. Outside of work, Jay is deeply involved in music, having led a college band and now participates in a jazz group. He was recently offered a leadership position in the jazz group, but he declined because he was worried about not being able to manage the increased responsibility in addition to his mental health struggles and PhD work. The patient is struggling with his scientific work environment, feeling disconnected from his colleagues due to differing values and work habits. There seems to be a past experience of feeling connected and appreciated, which is now missing in his current environment.",
+        "core_beliefs": "I am incompetent. | I am helpless. | I am a failure, loser.",
+        "intermediate_beliefs": "If I am not able to excel in everything I do, then I am failing. I need to be recognized and appreciated by others to feel successful.\nDepressive variant: When I'm not engaged in music or my work in a meaningful way, or when I'm not recognized for my efforts, I feel useless and like a failure. I believe my contributions are not valuable.",
+        "coping_strategies": "Engaging in music and performance. The patient also seems to show avoidance of certain responsibilities and opportunities that may lead to additional stress."
+      },
+      "idss": {
+        "relevant_history": 0.19740282348076654,
+        "core_beliefs": 0.2032699837019786,
+        "intermediate_beliefs": 0.22951458932804292,
+        "coping_strategies": 0.367474827404164,
+        "average": 0.24941555597873802
+      }
+    }
+  ]
+}

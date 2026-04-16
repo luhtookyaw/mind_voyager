@@ -1,0 +1,49 @@
+{
+  "aggregate": {
+    "num_sessions": 1,
+    "cder": {
+      "external": 0.0,
+      "internal": 1.0,
+      "overall": 0.0
+    },
+    "idss": {
+      "relevant_history": 0.7057660489045399,
+      "core_beliefs": 0.15256105349074958,
+      "intermediate_beliefs": 0.3136410291685034,
+      "coping_strategies": 0.5459984445448055,
+      "average": 0.42949164402714957
+    }
+  },
+  "sessions": [
+    {
+      "file": "/Users/luhtookyaw/Desktop/StageTherapy/mind_voyager/outputs/hard/session_49-2.json",
+      "case_id": "49-2",
+      "client_mode": "masked",
+      "difficulty": "hard",
+      "cder": {
+        "external": 0,
+        "internal": 1,
+        "overall": 0
+      },
+      "predicted_internal_diagram": {
+        "relevant_history": "The client has been thinking about family, particularly their dad and grandmother, who are getting older. They feel overwhelmed by concerns about their aging and have conflicting feelings about the potential relief of their passing.",
+        "core_beliefs": "The client believes they should feel sad about their family's aging and that having thoughts of relief is selfish. They also feel inadequate and worry about being a burden to others.",
+        "intermediate_beliefs": "The client thinks that if they share their feelings, others might judge them or see them as dramatic. They feel guilty for their emotions and believe they should be happier or more fulfilled.",
+        "coping_strategies": "The client uses distraction to cope with overwhelming feelings, plans to practice mindfulness and grounding techniques, and considers writing down thoughts to organize them. They also think about setting small goals for sharing feelings gradually."
+      },
+      "ground_truth_internal_diagram": {
+        "relevant_history": "The client has a history that involves complex and strained family relationships. The client's father is described as making everyone around him miserable and has always been unhappy with his life. The client's grandmother (mother's mother) also had a similarly negative impact on the family, particularly on the client's mother, which has influenced the client's perception of familial relationships.",
+        "core_beliefs": "I am powerless, weak, vulnerable. | I am trapped. | I am out of control.",
+        "intermediate_beliefs": "I must always be prepared for the worst-case scenario; I am responsible for fulfilling others' expectations and wishes even if it's difficult.\nDepressive variant: My worries are overwhelming and I am unable to find solutions; my thoughts are uncontrollable and lean towards the morbid.",
+        "coping_strategies": "The client engages in anticipatory planning for worst-case scenarios, exhibiting anxiety about future events that may or may not happen. Though possibly initially intended to be productive, this strategy seems to result in increased anxiety and guilt. The client also exhibits avoidance by delaying to look for consulates or make travel plans, despite acknowledging these tasks as necessary."
+      },
+      "idss": {
+        "relevant_history": 0.7057660489045399,
+        "core_beliefs": 0.15256105349074958,
+        "intermediate_beliefs": 0.3136410291685034,
+        "coping_strategies": 0.5459984445448055,
+        "average": 0.42949164402714957
+      }
+    }
+  ]
+}

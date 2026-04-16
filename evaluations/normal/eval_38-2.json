@@ -1,0 +1,49 @@
+{
+  "aggregate": {
+    "num_sessions": 1,
+    "cder": {
+      "external": 1.0,
+      "internal": 1.0,
+      "overall": 1.0
+    },
+    "idss": {
+      "relevant_history": 0.4528867873427461,
+      "core_beliefs": 0.21411564307864228,
+      "intermediate_beliefs": 0.4404750929459081,
+      "coping_strategies": 0.3480560333145296,
+      "average": 0.36388338917045654
+    }
+  },
+  "sessions": [
+    {
+      "file": "/Users/luhtookyaw/Desktop/StageTherapy/mind_voyager/outputs/normal/session_38-2.json",
+      "case_id": "38-2",
+      "client_mode": "masked",
+      "difficulty": "normal",
+      "cder": {
+        "external": 1,
+        "internal": 1,
+        "overall": 1
+      },
+      "predicted_internal_diagram": {
+        "relevant_history": "The client has a history of feeling the need to prove herself at work, which may stem from experiences in school and previous jobs where there was an emphasis on being the best and not letting anyone down.",
+        "core_beliefs": "The client believes her value at work is tied to her presence and performance, feeling that being absent equates to failure.",
+        "intermediate_beliefs": "The client feels guilty for being away from work, worries about how others perceive her, and thinks that taking breaks is a sign of laziness or not doing enough.",
+        "coping_strategies": "The client copes by distracting herself with work, pushing through anxiety, and plans to set specific times for breaks while reminding herself that taking care of her health is important."
+      },
+      "ground_truth_internal_diagram": {
+        "relevant_history": "The client expressed concerns about returning to work after a period of physical therapy for a painful condition. They have a history of feeling judged by personnel at work, experience dread and nervousness about interacting with HR and their manager regarding their return to work and their short-term disability status, and feel guilty for being away from work despite medical reasons.",
+        "core_beliefs": "I am helpless. | I am trapped. | I am out of control. | I am unlovable. | I am bound to be alone.",
+        "intermediate_beliefs": "I need to control my situation but can't, If I don't go back to work soon, others will view me negatively, Taking care of my health might make others judge me.\nDepressive variant: I'm failing at knowing what to do to continue being out of work, I should be more proactive, If I enjoy time away from work, it means I'm lazy and taking advantage of the system.",
+        "coping_strategies": "Seeking confirmation from others about taking more time off from work, attempting to find clear instructions from HR policies online, wanting to argue against supportive comments as a means of judging self-necessity."
+      },
+      "idss": {
+        "relevant_history": 0.4528867873427461,
+        "core_beliefs": 0.21411564307864228,
+        "intermediate_beliefs": 0.4404750929459081,
+        "coping_strategies": 0.3480560333145296,
+        "average": 0.36388338917045654
+      }
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "aggregate": {
+    "num_sessions": 1,
+    "cder": {
+      "external": 1.0,
+      "internal": 1.0,
+      "overall": 1.0
+    },
+    "idss": {
+      "relevant_history": 0.2468237106011675,
+      "core_beliefs": 0.2562053631492491,
+      "intermediate_beliefs": 0.44833936908369765,
+      "coping_strategies": 0.3011390278002248,
+      "average": 0.3131268676585848
+    }
+  },
+  "sessions": [
+    {
+      "file": "/Users/luhtookyaw/Desktop/StageTherapy/mind_voyager/outputs/easy/session_19-2.json",
+      "case_id": "19-2",
+      "client_mode": "masked",
+      "difficulty": "easy",
+      "cder": {
+        "external": 1,
+        "internal": 1,
+        "overall": 1
+      },
+      "predicted_internal_diagram": {
+        "relevant_history": "The client is currently job searching and has been feeling anxious and overwhelmed due to repeated rejections.",
+        "core_beliefs": "The client believes they may not be good enough and fears they are failing in their job search.",
+        "intermediate_beliefs": "The client feels that taking a break from job searching would mean admitting defeat and worries about losing momentum.",
+        "coping_strategies": "The client plans to set smaller goals, schedule specific times for job searching, practice deep breathing, and seek support from friends or family."
+      },
+      "ground_truth_internal_diagram": {
+        "relevant_history": "The patient, named Rachel, has a history of relationship problems, including with her current husband, Ivan, and work-related stress. She has demonstrated a pattern of self-critical thoughts, particularly around her value in relationships and her professional achievements. She also appears to feel a significant burden of responsibility, as shown in the dynamics with her sister, Emma, who has typically assumed a caring role for Rachel. Her father's successful career and work ethic have shaped her expectations and self-view, and she often feels Ivan doesn't work hard enough. She was also recently laid off and is having a hard time finding a new job.",
+        "core_beliefs": "I am incompetent. | I am helpless. | I am a failure, loser.",
+        "intermediate_beliefs": "Being ambitious and successful in career is crucial components of a fulfilling life. If one is not successful in career or not ambitious enough, he's a failure.\nDepressive variant: My efforts towards job seeking are futile, I cannot be successful in my career, so I'm a failure.",
+        "coping_strategies": "The coping strategies Rachel mentions include volunteering for roles related to her field of interest, applying for jobs, seeking therapy, and possibly socializing with her sister. However, she also displays unhealthy coping mechanisms such as self-criticism and emotional reasoning."
+      },
+      "idss": {
+        "relevant_history": 0.2468237106011675,
+        "core_beliefs": 0.2562053631492491,
+        "intermediate_beliefs": 0.44833936908369765,
+        "coping_strategies": 0.3011390278002248,
+        "average": 0.3131268676585848
+      }
+    }
+  ]
+}

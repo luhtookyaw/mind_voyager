@@ -1,0 +1,49 @@
+{
+  "aggregate": {
+    "num_sessions": 1,
+    "cder": {
+      "external": 0.0,
+      "internal": 1.0,
+      "overall": 0.0
+    },
+    "idss": {
+      "relevant_history": 0.6992529941337405,
+      "core_beliefs": 0.22649040127190181,
+      "intermediate_beliefs": 0.5775018839607087,
+      "coping_strategies": 0.45080876122177116,
+      "average": 0.48851351014703054
+    }
+  },
+  "sessions": [
+    {
+      "file": "/Users/luhtookyaw/Desktop/StageTherapy/mind_voyager/outputs/hard/session_45-2.json",
+      "case_id": "45-2",
+      "client_mode": "masked",
+      "difficulty": "hard",
+      "cder": {
+        "external": 0,
+        "internal": 1,
+        "overall": 0
+      },
+      "predicted_internal_diagram": {
+        "relevant_history": "The client feels overwhelmed and misunderstood when trying to express thoughts, leading to feelings of anger and a desire to withdraw. They have experienced situations where they felt ignored or judged by friends, which resulted in confrontational reactions they later regretted.",
+        "core_beliefs": "The client believes they are not good enough and that their opinions do not matter, leading to feelings of being small and defensive when sensing judgment.",
+        "intermediate_beliefs": "The client thinks that pushing back against perceived judgment is a way to prove their worth, but this often backfires, creating a cycle of frustration and isolation.",
+        "coping_strategies": "The client plans to share thoughts with trusted individuals, set specific times for conversations, write down affirmations, and celebrate small steps to reinforce progress."
+      },
+      "ground_truth_internal_diagram": {
+        "relevant_history": "The client has a history of developing friendships that potentially evolve into romantic relationships. They have gone through experiences where expressing their opinions, especially when angry, has led to social discord and the potential loss of friendships, which they find deeply unsettling. Additionally, the client has a complex relationship with their parents, marked by negative feelings, love, and obligation.",
+        "core_beliefs": "I am powerless, weak, vulnerable. | I am out of control. | I am unlovable. | I am bound to be rejected. | I am bound to be abandoned. | I am bound to be alone.",
+        "intermediate_beliefs": "The client holds beliefs that they must restrain their own opinions and expressions of anger to preserve relationships, fearing that if they express discontent or negative emotions, it may lead to social isolation or being disliked by others.\nDepressive variant: During periods of distress, the client believes that expressing their opinions will alienate them, and they also worry that by not expressing themselves, they will become uninteresting to others, which could lead to the deterioration of their social relationships.",
+        "coping_strategies": "The client utilizes avoidance and suppression of their thoughts and feelings as a coping mechanism to prevent conflict or rejection. They have also demonstrated a pattern of seeking comfort and reassurance from their partner after experiencing distress."
+      },
+      "idss": {
+        "relevant_history": 0.6992529941337405,
+        "core_beliefs": 0.22649040127190181,
+        "intermediate_beliefs": 0.5775018839607087,
+        "coping_strategies": 0.45080876122177116,
+        "average": 0.48851351014703054
+      }
+    }
+  ]
+}

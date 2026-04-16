@@ -1,0 +1,49 @@
+{
+  "aggregate": {
+    "num_sessions": 1,
+    "cder": {
+      "external": 0.0,
+      "internal": 1.0,
+      "overall": 0.0
+    },
+    "idss": {
+      "relevant_history": 0.4517660524568312,
+      "core_beliefs": 0.24281218050861605,
+      "intermediate_beliefs": 0.46652883933125616,
+      "coping_strategies": 0.6096234153517518,
+      "average": 0.4426826219121138
+    }
+  },
+  "sessions": [
+    {
+      "file": "/Users/luhtookyaw/Desktop/StageTherapy/mind_voyager/outputs/normal/session_43-1.json",
+      "case_id": "43-1",
+      "client_mode": "masked",
+      "difficulty": "normal",
+      "cder": {
+        "external": 0,
+        "internal": 1,
+        "overall": 0
+      },
+      "predicted_internal_diagram": {
+        "relevant_history": "The client feels disappointed when people only reach out when they need something, leading to feelings of being undervalued and isolated.",
+        "core_beliefs": "The client believes their value is tied to how often others reach out, and fears being perceived as needy or a burden.",
+        "intermediate_beliefs": "The client thinks that if they don't reach out, they are not important, and worries about being judged or dismissed if they share their feelings.",
+        "coping_strategies": "The client distracts themselves with work or hobbies and avoids discussing their true feelings, but recognizes this may not be a healthy solution."
+      },
+      "ground_truth_internal_diagram": {
+        "relevant_history": "The client has had experiences of feeling unheard and emotionally invalidated since a young age, such as the recollection of being chastised for crying as a child. They have struggled with depression. Their interactions with Edson and others may have reactivated these historical feelings of invalidation.",
+        "core_beliefs": "I am unlovable. | I am undesirable, unwanted. | I am bound to be rejected. | I am bound to be abandoned. | I am bound to be alone.",
+        "intermediate_beliefs": "People will not find me worth their time. If someone does not reach out to me, it means they do not value me. If I am not explicitly included, I am unwanted. My worth is contingent on others' acceptance.\nDepressive variant: When I am depressed, no one will want to be around me. If I'm not perfect, people will reject me. My value to friends is conditional on my ability to be socially available and upbeat.",
+        "coping_strategies": "The client uses avoidance like declining invitations or rebuffing attempts to interact (such as Edson's dinner invitation) as a protective measure. They seek affirmation from others to combat feelings of rejection but also distance themselves from situations where they could potentially feel hurt."
+      },
+      "idss": {
+        "relevant_history": 0.4517660524568312,
+        "core_beliefs": 0.24281218050861605,
+        "intermediate_beliefs": 0.46652883933125616,
+        "coping_strategies": 0.6096234153517518,
+        "average": 0.4426826219121138
+      }
+    }
+  ]
+}

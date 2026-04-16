@@ -1,0 +1,49 @@
+{
+  "aggregate": {
+    "num_sessions": 1,
+    "cder": {
+      "external": 0.0,
+      "internal": 1.0,
+      "overall": 0.0
+    },
+    "idss": {
+      "relevant_history": 0.5751814154366932,
+      "core_beliefs": 0.1608241422714456,
+      "intermediate_beliefs": 0.4268386157653997,
+      "coping_strategies": 0.40974640957726643,
+      "average": 0.3931476457627012
+    }
+  },
+  "sessions": [
+    {
+      "file": "/Users/luhtookyaw/Desktop/StageTherapy/mind_voyager/outputs/hard/session_36-1.json",
+      "case_id": "36-1",
+      "client_mode": "masked",
+      "difficulty": "hard",
+      "cder": {
+        "external": 0,
+        "internal": 1,
+        "overall": 0
+      },
+      "predicted_internal_diagram": {
+        "relevant_history": "The client has been feeling anxious about money and has been trying to manage finances on their own, which has led to feelings of overwhelm.",
+        "core_beliefs": "The client believes they should be able to handle their finances independently and fears being seen as irresponsible or incapable.",
+        "intermediate_beliefs": "The client thinks that avoiding financial realities will prevent anxiety and worries about judgment from others if they share their struggles.",
+        "coping_strategies": "The client plans to write down thoughts and feelings about finances, set a timer for focused work, take breaks when feeling overwhelmed, and create a mantra to remind themselves of their motivations."
+      },
+      "ground_truth_internal_diagram": {
+        "relevant_history": "The client has experienced significant stress due to financial concerns and relationship instability within their social circle. The client has felt overwhelmed by the responsibilities at work, including dealing with computer problems and handling issues in the absence of a co-worker named Chet. The client has a social network that imposes emotional demands, with friends experiencing personal crises and showing dependent behavior. Furthermore, the client's birthday is approaching, and they are contemplating asking their parents to pay their therapy bill as a birthday gift. The client exhibits some avoidance in dealing with their parents' visit and managing social interactions at an upcoming convention.",
+        "core_beliefs": "I am needy. | I am out of control. | I am unlovable. | I am undesirable, unwanted.",
+        "intermediate_beliefs": "I must have a financial cushion or I am irresponsible, I should be able to manage work stress better, I have to be available for my friends' needs, I must balance everyone's expectations with my own needs\nDepressive variant: When stressed and depressed, I lose track of money, and this contributes to feeling incompetent and helpless. I worry too much about others' needs and this leads to feeling overwhelmed and unable to say no.",
+        "coping_strategies": "Asking friends or parents for financial support, using avoidance tactics to manage social demands, employing humor to deal with hurtful situations, seeking therapy to discuss emotional challenges."
+      },
+      "idss": {
+        "relevant_history": 0.5751814154366932,
+        "core_beliefs": 0.1608241422714456,
+        "intermediate_beliefs": 0.4268386157653997,
+        "coping_strategies": 0.40974640957726643,
+        "average": 0.3931476457627012
+      }
+    }
+  ]
+}

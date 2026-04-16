@@ -119,7 +119,10 @@ fi
 
 mkdir -p "$OUTPUT_ROOT"/easy "$OUTPUT_ROOT"/normal "$OUTPUT_ROOT"/hard
 
-mapfile -t CASE_IDS < <(
+CASE_IDS=()
+while IFS= read -r case_id; do
+  CASE_IDS+=("$case_id")
+done < <(
   python3 - "$DATASET" <<'PY'
 import json
 import sys

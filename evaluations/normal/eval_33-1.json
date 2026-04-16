@@ -1,0 +1,49 @@
+{
+  "aggregate": {
+    "num_sessions": 1,
+    "cder": {
+      "external": 1.0,
+      "internal": 1.0,
+      "overall": 1.0
+    },
+    "idss": {
+      "relevant_history": 0.7467489037947518,
+      "core_beliefs": 0.12803406969200515,
+      "intermediate_beliefs": 0.4457132330260221,
+      "coping_strategies": 0.37739656142810785,
+      "average": 0.4244731919852217
+    }
+  },
+  "sessions": [
+    {
+      "file": "/Users/luhtookyaw/Desktop/StageTherapy/mind_voyager/outputs/normal/session_33-1.json",
+      "case_id": "33-1",
+      "client_mode": "masked",
+      "difficulty": "normal",
+      "cder": {
+        "external": 1,
+        "internal": 1,
+        "overall": 1
+      },
+      "predicted_internal_diagram": {
+        "relevant_history": "The client has been feeling overwhelmed and frustrated in their friendship with Cleo, who often shares her relationship problems without reciprocating support.",
+        "core_beliefs": "The client believes that friendships should involve mutual support and that they deserve to be heard and valued.",
+        "intermediate_beliefs": "The client feels sad and lonely after interactions with Cleo, perceiving themselves as an emotional crutch. They worry about sounding selfish when expressing their needs.",
+        "coping_strategies": "The client plans to journal about their feelings, practice what to say before talking to Cleo, take deep breaths to manage anxiety, and remind themselves of their progress in other areas of life."
+      },
+      "ground_truth_internal_diagram": {
+        "relevant_history": "The client shares a history of complicated romantic relationships. His most recent involvement is with a woman named Cleo, who is giving mixed signals towards the client. Cleo is already in a long-distance relationship, but is also seeing the client on the side. The client feels Cleo is emotionally maanipulative, but also is not willing to end thir relationship. The client has encountered similar situations before, reflecting a pattern in his relationships.",
+        "core_beliefs": "I am trapped. | I am unlovable. | I am bound to be abandoned. | I am bound to be alone.",
+        "intermediate_beliefs": "I must support other's emotional needs to get love from them. \n[during depression]\n I'm just a tool for others' emotional convenience without getting a fair exchange. Everybody is using me as emotional crutch, and will eventually abandon me after the usage.",
+        "coping_strategies": "The client expresses a tendency to control emotional exposure and not being 'drawn in' to avoid hurt. He also rationalize his supports as being generous."
+      },
+      "idss": {
+        "relevant_history": 0.7467489037947518,
+        "core_beliefs": 0.12803406969200515,
+        "intermediate_beliefs": 0.4457132330260221,
+        "coping_strategies": 0.37739656142810785,
+        "average": 0.4244731919852217
+      }
+    }
+  ]
+}

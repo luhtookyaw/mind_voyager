@@ -1,0 +1,49 @@
+{
+  "aggregate": {
+    "num_sessions": 1,
+    "cder": {
+      "external": 0.0,
+      "internal": 1.0,
+      "overall": 0.0
+    },
+    "idss": {
+      "relevant_history": 0.268689801874216,
+      "core_beliefs": 0.21281867797580162,
+      "intermediate_beliefs": 0.19944639075964113,
+      "coping_strategies": 0.5452678955206958,
+      "average": 0.3065556915325886
+    }
+  },
+  "sessions": [
+    {
+      "file": "/Users/luhtookyaw/Desktop/StageTherapy/mind_voyager/outputs/hard/session_1-3.json",
+      "case_id": "1-3",
+      "client_mode": "masked",
+      "difficulty": "hard",
+      "cder": {
+        "external": 0,
+        "internal": 1,
+        "overall": 0
+      },
+      "predicted_internal_diagram": {
+        "relevant_history": "The client feels stuck in a routine and experiences frustration with small disruptions, like unexpected rain. They often feel like a victim of bad luck and struggle with their reactions to these frustrations.",
+        "core_beliefs": "The client believes that things should go smoothly and feels frustrated when they don't, leading to feelings of powerlessness and shame.",
+        "intermediate_beliefs": "The client thinks they are not in control of their reactions and often regrets their responses. They wish to handle situations better but find it difficult to break the habit of escaping through distractions like alcohol.",
+        "coping_strategies": "The client considers using breathing techniques and journaling as ways to cope and reflect on their emotions, but they express uncertainty about their ability to maintain these practices consistently."
+      },
+      "ground_truth_internal_diagram": {
+        "relevant_history": "The patient has a history of substance abuse and has been through rehab to overcome it. He has had issues with his family, particularly with his mother, where he has felt rejected and emotionally neglected. He has struggled with obesity since childhood, which has affected his self-esteem and body image. He also has a history of being victimized and bullied due to his weight.",
+        "core_beliefs": "I am a victim. | I am trapped. | I am out of control.",
+        "intermediate_beliefs": "Helpless: I'm just not very good at handling stress and I have poor self-control, which is why I need to not put myself in stressful situations.\nDepressive variant: Helpless: There's nothing I can do to change my situation, bad things just happen to me.",
+        "coping_strategies": "The patient turns to substances as a coping strategy to escape his feelings. The patient has adopted avoidance as a coping strategy by distancing himself from his family to reduce exposure to negativity and conflict. He also uses yelling and stepping away from situations to manage his low self esteem."
+      },
+      "idss": {
+        "relevant_history": 0.268689801874216,
+        "core_beliefs": 0.21281867797580162,
+        "intermediate_beliefs": 0.19944639075964113,
+        "coping_strategies": 0.5452678955206958,
+        "average": 0.3065556915325886
+      }
+    }
+  ]
+}

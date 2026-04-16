@@ -1,0 +1,49 @@
+{
+  "aggregate": {
+    "num_sessions": 1,
+    "cder": {
+      "external": 1.0,
+      "internal": 1.0,
+      "overall": 1.0
+    },
+    "idss": {
+      "relevant_history": 0.47800057326240303,
+      "core_beliefs": 0.428263956807672,
+      "intermediate_beliefs": 0.647308449952227,
+      "coping_strategies": 0.37697366154476475,
+      "average": 0.48263666039176667
+    }
+  },
+  "sessions": [
+    {
+      "file": "/Users/luhtookyaw/Desktop/StageTherapy/mind_voyager/outputs/easy/session_6-1.json",
+      "case_id": "6-1",
+      "client_mode": "masked",
+      "difficulty": "easy",
+      "cder": {
+        "external": 1,
+        "internal": 1,
+        "overall": 1
+      },
+      "predicted_internal_diagram": {
+        "relevant_history": "The client has always felt they should be able to handle things on their own and has internalized a belief that self-sufficiency is ideal, influenced by observing others who manage without apparent struggle.",
+        "core_beliefs": "Asking for help is something I shouldn't need to do; needing support reflects incompetence.",
+        "intermediate_beliefs": "Independence is tied to self-image and success; asking for help feels shameful and like admitting failure.",
+        "coping_strategies": "Starting small by asking for minor help, practicing self-compassion, preparing thoughts ahead of time, and taking deep breaths before reaching out."
+      },
+      "ground_truth_internal_diagram": {
+        "relevant_history": "The patient is a 28-year-old student who has been trying to assert independence and self-sufficiency, particularly in financial matters, after returning from Egypt. The patient has previously relied on parents for support but is now attempting to take on more adult responsibilities such as paying bills, managing finances, and dealing with health insurance on her own for the first time. The patient's brother is still financially dependent on their parents, which the patient is consciously trying to avoid for herself.",
+        "core_beliefs": "I am incompetent. | I am helpless. | I am needy. | I am a failure, loser.",
+        "intermediate_beliefs": "I must do everything independently to prove that I am a capable adult and to avoid being a burden or like my brother.\nDepressive variant: I have failed at independence and self-sufficiency, and I need to ask for help which makes me feel incompetent.",
+        "coping_strategies": "The patient attempts to handle situations independently without relying on others, particularly parents. When faced with anxiety or uncertainty, the patient may act hastily or seek immediate resolution rather than waiting. The patient also aims to budget and handle finances alone, which is a form of asserting control and self-reliance."
+      },
+      "idss": {
+        "relevant_history": 0.47800057326240303,
+        "core_beliefs": 0.428263956807672,
+        "intermediate_beliefs": 0.647308449952227,
+        "coping_strategies": 0.37697366154476475,
+        "average": 0.48263666039176667
+      }
+    }
+  ]
+}

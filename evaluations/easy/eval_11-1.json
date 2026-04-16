@@ -1,0 +1,49 @@
+{
+  "aggregate": {
+    "num_sessions": 1,
+    "cder": {
+      "external": 1.0,
+      "internal": 1.0,
+      "overall": 1.0
+    },
+    "idss": {
+      "relevant_history": 0.5883239349036671,
+      "core_beliefs": 0.21175378903545736,
+      "intermediate_beliefs": 0.06915025250823625,
+      "coping_strategies": 0.3243727241681022,
+      "average": 0.29840017515386574
+    }
+  },
+  "sessions": [
+    {
+      "file": "/Users/luhtookyaw/Desktop/StageTherapy/mind_voyager/outputs/easy/session_11-1.json",
+      "case_id": "11-1",
+      "client_mode": "masked",
+      "difficulty": "easy",
+      "cder": {
+        "external": 1,
+        "internal": 1,
+        "overall": 1
+      },
+      "predicted_internal_diagram": {
+        "relevant_history": "The client has had past experiences where they felt dismissed or not taken seriously when sharing their struggles, leading to a sense of distrust in others.",
+        "core_beliefs": "The client believes that people do not want to deal with heavy issues and fears being a burden to others.",
+        "intermediate_beliefs": "The client worries that opening up will lead to judgment or rejection, which makes it hard to trust that someone will be there for them.",
+        "coping_strategies": "The client tends to withdraw and isolate themselves after difficult conversations, but is considering starting with smaller shares to gauge openness and practicing self-compassion."
+      },
+      "ground_truth_internal_diagram": {
+        "relevant_history": "The client has a history of feeling isolated and has been dealing with chronic depression since late adolescence. They have experienced frustration with friends and had a recent breakup that preceded a relapse into a depressive episode. The client has a history of taking SSRI and has recently been adjusting their medication regimen to deal with the relapse, which has been a source of additional stress.",
+        "core_beliefs": "I am incompetent. | I am helpless. | I am powerless, weak, vulnerable. | I am trapped. | I am unlovable. | I am undesirable, unwanted. | I am bound to be alone.",
+        "intermediate_beliefs": "If I can't manage my own feelings or make others understand me, then I'm failing. I should be able to handle my mental health better.\nDepressive variant: When I'm depressed, nothing I do seems to make a difference. It feels like I'll never get better no matter what medication or strategies I try.",
+        "coping_strategies": "Attempts to connect with friends for support, but this sometimes leads to further frustration when the interactions don't go as hoped."
+      },
+      "idss": {
+        "relevant_history": 0.5883239349036671,
+        "core_beliefs": 0.21175378903545736,
+        "intermediate_beliefs": 0.06915025250823625,
+        "coping_strategies": 0.3243727241681022,
+        "average": 0.29840017515386574
+      }
+    }
+  ]
+}

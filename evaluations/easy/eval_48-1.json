@@ -1,0 +1,49 @@
+{
+  "aggregate": {
+    "num_sessions": 1,
+    "cder": {
+      "external": 1.0,
+      "internal": 1.0,
+      "overall": 1.0
+    },
+    "idss": {
+      "relevant_history": 0.3597542901412826,
+      "core_beliefs": 0.07832658413185288,
+      "intermediate_beliefs": 0.3103938026222958,
+      "coping_strategies": 0.30383730036388895,
+      "average": 0.26307799431483003
+    }
+  },
+  "sessions": [
+    {
+      "file": "/Users/luhtookyaw/Desktop/StageTherapy/mind_voyager/outputs/easy/session_48-1.json",
+      "case_id": "48-1",
+      "client_mode": "masked",
+      "difficulty": "easy",
+      "cder": {
+        "external": 1,
+        "internal": 1,
+        "overall": 1
+      },
+      "predicted_internal_diagram": {
+        "relevant_history": "The client feels overwhelmed with responsibilities at home, often taking care of tasks that should be shared, which leads to feelings of sadness and exhaustion.",
+        "core_beliefs": "The client believes they are expected to handle everything and that their needs for support are not being met.",
+        "intermediate_beliefs": "The client thinks that expressing their needs might lead to conflict and worries about how their partner will react.",
+        "coping_strategies": "The client plans to approach the conversation thoughtfully, focusing on their feelings, practicing what to say, and visualizing a positive outcome."
+      },
+      "ground_truth_internal_diagram": {
+        "relevant_history": "The client has been married to Ivan for three years and they have been together for about seven years. Past events of extreme stress have occurred during finals week in her academic life, and she has experienced difficulties with Ivan around their wedding preparations due to his lack of participation and support. She has recently been dealing with intense financial pressures, which are exacerbated by Ivan's part-time work status and the added costs of their individual and couples therapy sessions, as well as her dental treatments.",
+        "core_beliefs": "I am trapped. | I am out of control. | I am unlovable. | I am undesirable, unwanted.",
+        "intermediate_beliefs": "I am responsible for solving others' problems, I must be in control to ensure stability, My needs should come second to others' needs.\nDepressive variant: If I criticize Ivan, I'm attacking him and shutting him down, If I don't confront issues, Ivan will continue avoiding responsibility, If I turn my negativity inwards, I maintain control and responsibility.",
+        "coping_strategies": "Journaling to process feelings and document patterns, Attempting to manage the household and Ivan's issues independently, Seeking therapy to understand and manage her own thoughts and feelings."
+      },
+      "idss": {
+        "relevant_history": 0.3597542901412826,
+        "core_beliefs": 0.07832658413185288,
+        "intermediate_beliefs": 0.3103938026222958,
+        "coping_strategies": 0.30383730036388895,
+        "average": 0.26307799431483003
+      }
+    }
+  ]
+}

@@ -43,7 +43,7 @@ def build_ground_truth(case_id: str, dataset: Path) -> dict[str, str]:
 
 
 def extract_internal_diagram(transcript: str, model: str) -> dict[str, str]:
-    prompt = load_prompt("internal_diagram_extraction.txt").format(transcript=transcript)
+    prompt = load_prompt("internal_diagram_extraction.txt").replace("{transcript}", transcript)
     raw = call_llm(system_prompt="", user_prompt=prompt, temperature=0.0, model=model)
     try:
         parsed = json.loads(raw)
@@ -77,8 +77,6 @@ def compute_idss(
     embedding_model: str,
 ) -> dict[str, float]:
     scores = {}
-    print(predicted)
-    print(ground_truth)
     for key in (
         "relevant_history",
         "core_beliefs",

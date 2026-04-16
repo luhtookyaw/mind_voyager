@@ -1,0 +1,49 @@
+{
+  "aggregate": {
+    "num_sessions": 1,
+    "cder": {
+      "external": 0.0,
+      "internal": 1.0,
+      "overall": 0.0
+    },
+    "idss": {
+      "relevant_history": 0.6962521956842456,
+      "core_beliefs": 0.14916855173415924,
+      "intermediate_beliefs": 0.23764945809322788,
+      "coping_strategies": 0.4377459161533823,
+      "average": 0.3802040304162537
+    }
+  },
+  "sessions": [
+    {
+      "file": "/Users/luhtookyaw/Desktop/StageTherapy/mind_voyager/outputs/normal/session_13-1.json",
+      "case_id": "13-1",
+      "client_mode": "masked",
+      "difficulty": "normal",
+      "cder": {
+        "external": 0,
+        "internal": 1,
+        "overall": 0
+      },
+      "predicted_internal_diagram": {
+        "relevant_history": "The client has been reflecting on her aunt and feels regret about not fulfilling her last request, which makes her feel like a bad person. She experiences sadness and loneliness due to this perceived failure.",
+        "core_beliefs": "The client believes she has failed her aunt and feels guilty for not being there for her, leading to feelings of shame and embarrassment.",
+        "intermediate_beliefs": "The client thinks that keeping her feelings inside helps her avoid pain and self-judgment, even though she recognizes it may not be a long-term solution.",
+        "coping_strategies": "The client plans to write down her favorite memories of her aunt as a way to process her feelings and honor their relationship, while also reminding herself to be gentle with her emotions."
+      },
+      "ground_truth_internal_diagram": {
+        "relevant_history": "The patient has a significant life event of her aunt passing away without the patient fulfilling her aunt's last request. The patient was also not able to be with her aunt when she passed, which causes her persistent guilt. The patient was very close to her aunt, seeing her as the mother she wished she had, and her death has left a lasting impact. The patient also has a pattern of taking care of others at her own expense, and struggles with recognizing her own needs and allowing herself to experience fun and enjoyment.",
+        "core_beliefs": "I am worthless, waste. | I am immoral. | I am bad - dangerous, toxic, evil.",
+        "intermediate_beliefs": "I am responsible for others and must fulfill others' expectations to validate my purpose in life. If I'm not meeting the needs of others, I'm a worthless person.\nDepressive variant: I'm not meeting others' expectations. When I feel overwhelmed by my responsibilities, I'm a bad person and always hurting others like what I did to my aunt. It's shameful to think of prioritizing my own needs over others.",
+        "coping_strategies": "The patient uses avoidance in confronting her grief and engages in overcommitment to helping others to compliment her inner grief and distress."
+      },
+      "idss": {
+        "relevant_history": 0.6962521956842456,
+        "core_beliefs": 0.14916855173415924,
+        "intermediate_beliefs": 0.23764945809322788,
+        "coping_strategies": 0.4377459161533823,
+        "average": 0.3802040304162537
+      }
+    }
+  ]
+}

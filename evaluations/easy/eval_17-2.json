@@ -1,0 +1,49 @@
+{
+  "aggregate": {
+    "num_sessions": 1,
+    "cder": {
+      "external": 1.0,
+      "internal": 1.0,
+      "overall": 1.0
+    },
+    "idss": {
+      "relevant_history": 0.6138426160511155,
+      "core_beliefs": 0.20150423689228805,
+      "intermediate_beliefs": 0.12869860367581235,
+      "coping_strategies": 0.3905861092566401,
+      "average": 0.33365789146896396
+    }
+  },
+  "sessions": [
+    {
+      "file": "/Users/luhtookyaw/Desktop/StageTherapy/mind_voyager/outputs/easy/session_17-2.json",
+      "case_id": "17-2",
+      "client_mode": "masked",
+      "difficulty": "easy",
+      "cder": {
+        "external": 1,
+        "internal": 1,
+        "overall": 1
+      },
+      "predicted_internal_diagram": {
+        "relevant_history": "The client has been reflecting on her relationship with Amelia and feels overwhelmed by the responsibilities she takes on, such as doing chores.",
+        "core_beliefs": "The client believes that expressing her feelings may lead to negative perceptions from Amelia, and she fears losing her.",
+        "intermediate_beliefs": "The client feels trapped in her role and worries that if she doesn't fulfill her responsibilities, Amelia might think less of her.",
+        "coping_strategies": "The client plans to write down her thoughts, practice what she wants to say, take deep breaths before the conversation, and check in with herself throughout the process."
+      },
+      "ground_truth_internal_diagram": {
+        "relevant_history": "Sarah is in a significant relationship with her partner, Amelia, who has a rigorous schedule due to her clinical-based program, which keeps her busy and away from home for extended hours. Sarah often feels isolated during the week. Even though Sarah is incredibly busy, she feels like she has 'housewife'  duties and takes care of all household tasks. Although she resents it, she has not brought it up to her partner. She has a history of attachment issues, starting from her childhood, where separation from her parents caused her distress. These issues have continued into adulthood, where she has struggled with separation anxiety and strong attachments to people in various contexts, such as summer camp, study abroad programs, and volunteer positions.",
+        "core_beliefs": "I am powerless, weak, vulnerable. | I am needy. | I am trapped. | I am unlovable. | I am undesirable, unwanted. | I am bound to be abandoned. | I am bound to be alone.",
+        "intermediate_beliefs": "I need to keep myself valuable to others and support others, otherwise I will be abandoned. I cannot live alone.\nDepressive variant: People will just abandon me no matter how I try. Nobody loves me. I'm just a weak and needy person that cannot be independent.",
+        "coping_strategies": "The client engages in various activities to cope with her feelings of loneliness and anxiety, such as running, cleaning, cooking, and sometimes picking Amelia up to spend more time with her. She tries to do household tasks as much as she can, so that to keep herself valuable to Amelia."
+      },
+      "idss": {
+        "relevant_history": 0.6138426160511155,
+        "core_beliefs": 0.20150423689228805,
+        "intermediate_beliefs": 0.12869860367581235,
+        "coping_strategies": 0.3905861092566401,
+        "average": 0.33365789146896396
+      }
+    }
+  ]
+}

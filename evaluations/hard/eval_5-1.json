@@ -1,0 +1,49 @@
+{
+  "aggregate": {
+    "num_sessions": 1,
+    "cder": {
+      "external": 0.0,
+      "internal": 0.0,
+      "overall": 0.0
+    },
+    "idss": {
+      "relevant_history": 0.359650945014812,
+      "core_beliefs": 0.10952995838633704,
+      "intermediate_beliefs": 0.3535380695323075,
+      "coping_strategies": 0.2807211817446099,
+      "average": 0.2758600386695166
+    }
+  },
+  "sessions": [
+    {
+      "file": "/Users/luhtookyaw/Desktop/StageTherapy/mind_voyager/outputs/hard/session_5-1.json",
+      "case_id": "5-1",
+      "client_mode": "masked",
+      "difficulty": "hard",
+      "cder": {
+        "external": 0,
+        "internal": 0,
+        "overall": 0
+      },
+      "predicted_internal_diagram": {
+        "relevant_history": "The client has been working on a website project but feels stuck and questions its worth. They have invested time into it and feel guilty for not working on it.",
+        "core_beliefs": "The client believes that giving up on the project would mean failing and feels overwhelmed by self-doubt about their abilities.",
+        "intermediate_beliefs": "The client thinks they are not cut out for the project and worries about others' opinions, which adds to their anxiety and reluctance to seek feedback.",
+        "coping_strategies": "The client plans to set small goals, create a dedicated workspace, establish a routine, and minimize distractions by setting boundaries."
+      },
+      "ground_truth_internal_diagram": {
+        "relevant_history": "The patient has a history of working overseas and creating a website related to that work. He express a pattern of getting excited about new ideas but then becoming conflicted, losing confidence, and abandoning projects when encountering challenges. Additionally, the patient is dealing with issues related to his father, including writing a 'living letter' as part of his process of learning to forgive him.",
+        "core_beliefs": "I am undesirable, unwanted. | I am worthless, waste.",
+        "intermediate_beliefs": "If I don't succeed in my projects or if people don't acknowledge my work, then it means I am not valued or desired. I need to be constantly validated by others to feel worthwhile.\nDepressive variant: When I face challenges or feel stuck, it means I am failing and this confirms that I am undesirable or not good enough. Others' approval is the only measure of my success and worth.",
+        "coping_strategies": "The patient uses fantasy as a coping mechanism to escape feelings of worthlessness and to seek a sense of acceptance and value. They also use social media for validation and rely on external feedback to feel appreciated. (all avoidance based strategies)"
+      },
+      "idss": {
+        "relevant_history": 0.359650945014812,
+        "core_beliefs": 0.10952995838633704,
+        "intermediate_beliefs": 0.3535380695323075,
+        "coping_strategies": 0.2807211817446099,
+        "average": 0.2758600386695166
+      }
+    }
+  ]
+}

@@ -1,0 +1,180 @@
+{
+  "case_id": "36-1",
+  "client_name": "Riley",
+  "client_mode": "masked",
+  "hide_all": false,
+  "difficulty": "hard",
+  "therapist_provider": "openai",
+  "therapist_model": "gpt-4o-mini",
+  "client_model": "gpt-4o-mini",
+  "max_turns": 15,
+  "transcript": [
+    {
+      "turn": 1,
+      "speaker": "therapist",
+      "content": "Hello, Riley. I'm glad you're here today. What feels most important for you to talk about right now?"
+    },
+    {
+      "turn": 1,
+      "speaker": "client",
+      "content": "Um, I guess I\u2019m not really sure. There\u2019s just a lot going on, but I don\u2019t know if it\u2019s worth talking about. I mean, I\u2019ve been feeling a bit anxious lately, especially about money. It\u2019s just\u2026 it\u2019s hard to keep track of everything, you know? But I don\u2019t want to make a big deal out of it."
+    },
+    {
+      "turn": 2,
+      "speaker": "therapist",
+      "content": "It sounds like you\u2019re feeling a bit overwhelmed with everything going on, especially regarding your finances, and that\u2019s causing some anxiety. It\u2019s completely understandable to feel that way. You mentioned not wanting to make a big deal out of it\u2014can you share more about what makes you feel that way?"
+    },
+    {
+      "turn": 2,
+      "speaker": "client",
+      "content": "I guess I just don\u2019t want to seem irresponsible or like I can\u2019t handle things. I mean, I see how some people manage their finances, and it makes me wonder if I\u2019m doing something wrong. It\u2019s like, I don\u2019t want to burden anyone with my problems. I\u2019d rather just keep it to myself, you know? It feels easier that way, even if it\u2019s stressful."
+    },
+    {
+      "turn": 3,
+      "speaker": "therapist",
+      "content": "It sounds like you\u2019re carrying a lot of pressure to appear responsible and capable, especially when you compare yourself to others. I can see how that might lead you to keep things to yourself, even if it adds to your stress. It\u2019s tough to feel like you can\u2019t share your worries without burdening others. What do you think it would feel like to open up about these financial concerns, even just a little?"
+    },
+    {
+      "turn": 3,
+      "speaker": "client",
+      "content": "I don\u2019t know\u2026 it feels kind of scary, honestly. Like, what if people judge me or think I\u2019m not good with money? I mean, I don\u2019t want to be seen as someone who can\u2019t manage their life. But at the same time, I guess it could be a relief to talk about it. I just worry about what others might think. It\u2019s like, I want to be open, but there\u2019s this part of me that just wants to keep everything under control, even if it feels overwhelming."
+    },
+    {
+      "turn": 4,
+      "speaker": "therapist",
+      "content": "It makes sense that you\u2019d feel scared about opening up, given your concerns about judgment and wanting to maintain control. It sounds like there\u2019s a real conflict between wanting to share and feeling the need to protect your image. That must be a heavy place to be in. Can you tell me more about what \u201ckeeping everything under control\u201d looks like for you? What does that involve?"
+    },
+    {
+      "turn": 4,
+      "speaker": "client",
+      "content": "Well, I guess it means trying to manage my finances on my own, even if it\u2019s tough. I try to stick to a budget, but sometimes I just avoid looking at my bank statements because it feels overwhelming. I think if I don\u2019t look, maybe it won\u2019t be as bad? But then I end up feeling anxious about it anyway. It\u2019s like I\u2019m just trying to keep things from spiraling out of control, but it\u2019s hard to know if I\u2019m really doing a good job. I don\u2019t want to face the reality of it all, so I just\u2026 sort of push it aside."
+    },
+    {
+      "turn": 5,
+      "speaker": "therapist",
+      "content": "It sounds like avoiding your bank statements is a way of coping with the anxiety, even if it ultimately adds to your stress. You\u2019re trying to manage things on your own, but it feels like that strategy is leaving you in a cycle of uncertainty and worry. It\u2019s understandable to want to protect yourself from the reality of the situation. What do you think would help you feel more comfortable facing those financial realities?"
+    },
+    {
+      "turn": 5,
+      "speaker": "client",
+      "content": "I\u2019m not really sure. Maybe if I had someone to talk to about it, like a friend or something, it wouldn\u2019t feel so daunting? But then again, I worry about what they might think. I guess having some kind of plan or support could help, but it\u2019s hard to take that first step. I just keep thinking about how I should be able to handle this on my own, and that makes it tough to reach out. It\u2019s like I\u2019m stuck in this loop of wanting to do better but feeling too anxious to actually make a move."
+    },
+    {
+      "turn": 6,
+      "speaker": "therapist",
+      "content": "It sounds like you\u2019re caught in a loop of wanting support but feeling held back by your worries about how others might perceive you. The idea of having a plan or someone to talk to seems like it could provide some relief, but taking that first step feels really challenging. It\u2019s tough to balance the desire for independence with the need for connection. What do you think might help you take that first step, even if it feels small?"
+    },
+    {
+      "turn": 6,
+      "speaker": "client",
+      "content": "I guess maybe just starting with something simple, like writing down my thoughts or feelings about my finances, could help? It might make it feel less overwhelming if I can see it all laid out. Then, maybe I could share that with someone I trust, but I\u2019m still not sure who that would be. It\u2019s just hard to imagine actually doing it. I think I need to find a way to feel a bit more secure before I can take that step. It\u2019s like I want to be ready, but I\u2019m not sure how to get there."
+    },
+    {
+      "turn": 7,
+      "speaker": "therapist",
+      "content": "Writing down your thoughts and feelings sounds like a really constructive first step. It could help you gain clarity and make the situation feel more manageable. I hear you saying that feeling secure is important before you reach out to someone, and that makes a lot of sense. What do you think would help you feel more secure as you consider taking these steps?"
+    },
+    {
+      "turn": 7,
+      "speaker": "client",
+      "content": "I think maybe having a clearer picture of my finances would help. Like, if I could get a better handle on where my money is actually going, it might ease some of the anxiety. I guess I could also remind myself that it\u2019s okay to ask for help and that it doesn\u2019t mean I\u2019m failing. But it\u2019s just hard to shake that feeling of needing to be in control. I think if I could break things down into smaller pieces, it might feel less intimidating. But I still worry about how I\u2019ll react when I actually face it all."
+    },
+    {
+      "turn": 8,
+      "speaker": "therapist",
+      "content": "It sounds like gaining a clearer picture of your finances could really help you feel more in control and reduce some of that anxiety. Breaking things down into smaller pieces seems like a practical approach to make it less intimidating. I also hear you acknowledging that asking for help doesn\u2019t mean you\u2019re failing, which is an important realization. It\u2019s completely normal to feel apprehensive about facing everything, especially when it feels overwhelming. How do you think you might support yourself emotionally when you start to face those financial realities?"
+    },
+    {
+      "turn": 8,
+      "speaker": "client",
+      "content": "I think I could try to be a bit kinder to myself, you know? Remind myself that it\u2019s okay to feel anxious and that I\u2019m not alone in this. Maybe I could set aside some time just to breathe and process my feelings before diving into the numbers. I guess having some sort of mantra or positive reminder could help too, like telling myself that it\u2019s a step toward being more responsible, not a sign of failure. But I\u2019m still not sure how to keep that mindset when I actually sit down to do it. It\u2019s like I want to be supportive of myself, but I don\u2019t always know how."
+    },
+    {
+      "turn": 9,
+      "speaker": "therapist",
+      "content": "It\u2019s great to hear that you\u2019re thinking about being kinder to yourself and creating space to process your feelings. Setting aside time to breathe and reflect before diving into the numbers sounds like a thoughtful way to approach it. The idea of having a mantra or positive reminder is also a powerful tool to help shift your mindset. \n\nIt\u2019s understandable to feel uncertain about maintaining that supportive mindset when you actually sit down to face your finances. What do you think might help you stay connected to that kindness and self-support when the moment comes?"
+    },
+    {
+      "turn": 9,
+      "speaker": "client",
+      "content": "I think maybe writing down that mantra or positive reminder and keeping it somewhere visible could help. Like, if I have it in front of me when I\u2019m looking at my finances, it might keep me grounded. I could also try to set a specific time for it, so it feels more intentional, like a little appointment with myself. But I still worry that when I actually start looking at everything, I might just freeze up or feel overwhelmed again. I guess having a plan for how to handle those feelings in the moment could be useful, but I\u2019m not sure what that would look like."
+    },
+    {
+      "turn": 10,
+      "speaker": "therapist",
+      "content": "Writing down your mantra and keeping it visible sounds like a solid strategy to help ground you when you\u2019re facing your finances. Setting a specific time for it can also create a sense of intention, which is important. \n\nIt\u2019s completely normal to worry about feeling overwhelmed or freezing up when you start looking at everything. Having a plan for those moments could indeed be very helpful. What do you think might be some small, comforting actions you could take if you start to feel overwhelmed? For example, would it help to take a short break, practice some deep breathing, or remind yourself of your mantra?"
+    },
+    {
+      "turn": 10,
+      "speaker": "client",
+      "content": "Yeah, I think taking a short break could help if I start to feel overwhelmed. Just stepping away for a minute to breathe or clear my head might make it easier to come back to it. I could also try to remind myself that it\u2019s okay to take things slow and that I don\u2019t have to figure it all out at once. Maybe even having a glass of water or a snack nearby could help ground me too. It\u2019s just about finding those little moments to pause and reset, I guess. But I still feel like I need to be careful not to let myself get too caught up in avoidance again."
+    },
+    {
+      "turn": 11,
+      "speaker": "therapist",
+      "content": "It sounds like you have some thoughtful strategies in mind for when you start to feel overwhelmed, like taking breaks, reminding yourself to take things slow, and having a snack or water nearby. Those little moments to pause and reset can really make a difference. \n\nI hear you expressing a concern about slipping back into avoidance, which is understandable given how challenging this process can be. What do you think might help you stay aware of that tendency to avoid, so you can gently steer yourself back when you notice it happening?"
+    },
+    {
+      "turn": 11,
+      "speaker": "client",
+      "content": "I think maybe setting a timer for myself could help. Like, if I give myself a specific amount of time to work on my finances, I can stay focused without feeling like I have to dive in for hours. If the timer goes off and I feel overwhelmed, I can take a break and check in with myself. I could also keep a journal or notes about how I\u2019m feeling during those moments, so I can see patterns in my avoidance and remind myself why I want to face this. It\u2019s just about being mindful of those feelings and not letting them take over, I guess. But I still worry about getting stuck in that cycle again."
+    },
+    {
+      "turn": 12,
+      "speaker": "therapist",
+      "content": "Setting a timer sounds like a practical way to create structure while working on your finances, allowing you to focus without feeling overwhelmed by the time commitment. Checking in with yourself when the timer goes off is a great way to stay connected to your feelings. \n\nKeeping a journal or notes about your feelings during those moments could provide valuable insights and help you recognize patterns in your avoidance. It\u2019s clear you\u2019re thinking deeply about how to be mindful and proactive, which is a positive step. \n\nIt\u2019s natural to worry about getting stuck in that cycle again, but it seems like you\u2019re building a solid toolkit to help navigate those feelings. What do you think might help you remind yourself of your progress and the steps you\u2019ve taken, especially when you start to feel that worry creeping in?"
+    },
+    {
+      "turn": 12,
+      "speaker": "client",
+      "content": "I think reflecting on my progress regularly could really help. Maybe at the end of each week, I could take a few minutes to look back at what I\u2019ve accomplished, even if it\u2019s just small steps. Writing down those wins, no matter how minor they seem, might help me see that I\u2019m moving forward. I could also remind myself of the strategies I\u2019ve put in place, like the timer and the mantra, and how they\u2019re meant to support me. \n\nHaving a visual reminder of my goals or progress could be motivating too, like a chart or a list. It\u2019s just about finding ways to celebrate the little victories and not get too caught up in what\u2019s still left to do. That way, I can keep my focus on the positive rather than letting the worry take over."
+    },
+    {
+      "turn": 13,
+      "speaker": "therapist",
+      "content": "It sounds like you have a thoughtful plan for reflecting on your progress and celebrating those small victories. Taking time at the end of each week to acknowledge what you\u2019ve accomplished, no matter how minor, can really help reinforce your sense of movement and growth. \n\nCreating visual reminders of your goals or progress, like a chart or list, seems like a wonderful way to keep motivation high and maintain a positive focus. It\u2019s clear you\u2019re committed to finding balance between acknowledging challenges and celebrating successes, which is so important.\n\nAs you think about these strategies, how do you feel about the journey ahead? What emotions come up for you when you envision putting these plans into action?"
+    },
+    {
+      "turn": 13,
+      "speaker": "client",
+      "content": "I feel a mix of emotions, honestly. There\u2019s some hope because I can see how these strategies might help me manage my finances better and reduce my anxiety. But there\u2019s also a bit of fear about actually facing everything and the possibility of feeling overwhelmed again. I worry about whether I\u2019ll stick to the plan or if I\u2019ll just fall back into old habits. \n\nAt the same time, I think there\u2019s a sense of determination too. I want to make progress and not let my worries control me. It\u2019s like I\u2019m trying to find that balance between being cautious and being hopeful. I guess it\u2019s just a lot to navigate, but I\u2019m trying to remind myself that it\u2019s okay to take it one step at a time."
+    },
+    {
+      "turn": 14,
+      "speaker": "therapist",
+      "content": "It\u2019s completely understandable to feel a mix of hope, fear, and determination as you consider this journey. Hope can be a powerful motivator, especially when you see potential for progress, but it\u2019s natural to also feel apprehensive about facing challenges and the possibility of slipping back into old habits. \n\nYour awareness of wanting to find a balance between caution and hope is insightful. It shows that you\u2019re approaching this with a thoughtful mindset. Taking it one step at a time is a gentle and compassionate way to navigate the process. \n\nAs you move forward, how do you think you can continue to nurture that sense of determination while also allowing space for the fears and uncertainties?"
+    },
+    {
+      "turn": 14,
+      "speaker": "client",
+      "content": "I think I can nurture my determination by reminding myself of my reasons for wanting to make these changes. Keeping those motivations at the forefront, like wanting to feel more in control and less anxious, could help me stay focused. I could also try to practice self-compassion when those fears and uncertainties come up, acknowledging that it\u2019s okay to feel that way and that it doesn\u2019t mean I\u2019m failing.\n\nMaybe I could create a little mantra for myself that combines both aspects\u2014something like, \u201cIt\u2019s okay to feel scared, but I\u2019m capable of taking steps forward.\u201d That way, I can validate my feelings while also reinforcing my determination. I think it\u2019s about finding a way to hold both the fear and the hope together, so I don\u2019t feel like I have to choose one over the other."
+    },
+    {
+      "turn": 15,
+      "speaker": "therapist",
+      "content": "That sounds like a beautiful approach, Riley. Keeping your motivations at the forefront can really help anchor you during challenging moments. Practicing self-compassion and acknowledging your feelings is so important, and it\u2019s great that you\u2019re recognizing that it\u2019s okay to feel scared while also being capable of moving forward.\n\nCreating a mantra that combines both aspects is a powerful way to validate your emotions while reinforcing your determination. Holding both fear and hope together reflects a deep understanding of the complexity of this journey. \n\nAs you prepare to take these steps, what do you think will be the first thing you want to focus on, and how can you remind yourself of this balance as you begin?"
+    },
+    {
+      "turn": 15,
+      "speaker": "client",
+      "content": "I think the first thing I want to focus on is just getting a clear picture of my finances\u2014like reviewing my bank statements and creating a simple budget. It feels like a good starting point to understand where I stand. \n\nTo remind myself of this balance as I begin, I could write down my mantra and keep it nearby while I work on this. Maybe I could even set aside some time to reflect on my motivations before I dive in, just to ground myself. I think having that reminder of both my fears and my determination will help me stay focused and not get too overwhelmed. It\u2019s about taking that first step and being kind to myself along the way."
+    }
+  ],
+  "judge_model": "gpt-4o-mini",
+  "mediator_events": [
+    "Exploration judge rated 3/5; internal elements remain masked.",
+    "Exploration judge output: [Rating]: 3 (Very High Facilitation \u2013 Deep Exploration Begins)\n\n[Justification]: The therapist's questions and reflections facilitated a deeper exploration of the client's feelings and thought patterns. By asking the client to elaborate on their reluctance to discuss their financial concerns, the therapist encouraged the client to analyze the underlying pressures they feel regarding responsibility and comparison to others. This line of questioning began to shift the client's perspective on their situation, prompting them to consider the emotional implications of their choices. However, while the therapist's questions were insightful and led to a deeper understanding, they did not yet reach the level of challenging assumptions or introducing completely new angles that would characterize the highest levels of facilitation. Thus, the rating reflects a strong facilitation of deep exploration without achieving a profound breakthrough.",
+    "Rapport judge rated 3/5; no experience reveal.",
+    "Rapport judge output: **Rating: 3 (ENGAGED EXPLORATION)**\n\n**Key Examples:**\n1. \"I guess I just don\u2019t want to seem irresponsible or like I can\u2019t handle things. I mean, I see how some people manage their finances, and it makes me wonder if I\u2019m doing something wrong.\"\n2. \"I don\u2019t know\u2026 it feels kind of scary, honestly. Like, what if people judge me or think I\u2019m not good with money? I mean, I don\u2019t want to be seen as someone who can\u2019t manage their life.\"\n\n**Progression:**\nThe client\u2019s most recent interactions indicate a notable increase in emotional expression and self-reflection. They have transitioned from a hesitant stance at the beginning of the session, where they expressed uncertainty about discussing their feelings, to articulating specific anxieties about financial management and the fear of judgment from others. This shift demonstrates a growing comfort in sharing their vulnerabilities, which marks a significant change from earlier exchanges characterized by more guarded responses.\n\n**Turning Point:**\nThe client\u2019s emotional depth shifted during the exchange where they articulated their fear of being judged for their financial situation. This moment of vulnerability\u2014expressing the fear of being perceived as irresponsible\u2014signifies a breakthrough in their willingness to explore deeper feelings. It reflects a movement towards authentic self-disclosure, indicating they are beginning to navigate the complexities of their emotions rather than simply stating facts. This willingness to confront their fears about judgment and the desire to maintain control over their image represents a pivotal moment in their emotional journey during this session.",
+    "Exploration judge rated 3/5; internal elements remain masked.",
+    "Exploration judge output: [Rating]: 3 (Very High Facilitation \u2013 Deep Exploration Begins)\n\n[Justification]: The therapist asked insightful and thought-provoking questions that encouraged the client to analyze the root causes of their anxiety regarding finances and the pressures they feel about appearing responsible. The therapist's inquiries helped the client explore their feelings about judgment and the conflict between wanting to share their concerns and the desire to maintain control. The questions prompted deeper self-reflection and began to shift the client's perspective on their situation, particularly regarding the potential benefits of opening up and seeking support. However, while the therapist facilitated a meaningful exploration, the questions did not fully challenge the client's assumptions or introduce significantly new angles that could lead to a major breakthrough, which is why it falls short of a higher rating.",
+    "Rapport judge rated 3/5; no experience reveal.",
+    "Rapport judge output: **Rating: 3 (ENGAGED EXPLORATION)**\n\n**Key Examples:**\n1. \"I guess I just don\u2019t want to seem irresponsible or like I can\u2019t handle things. I mean, I see how some people manage their finances, and it makes me wonder if I\u2019m doing something wrong.\"\n2. \"I think maybe having a clearer picture of my finances would help. Like, if I could get a better handle on where my money is actually going, it might ease some of the anxiety.\"\n\n**Progression:**\nThe client\u2019s most recent interactions demonstrate a noticeable increase in emotional expression and self-reflection. They are beginning to articulate their feelings of anxiety regarding finances more openly, indicating a shift from initial hesitance to a willingness to explore these emotions. Earlier in the session, the client exhibited a more defensive stance, expressing uncertainty about the importance of their feelings. However, as the session progressed, they began to share more about their internal conflicts and the pressures they feel, marking a significant change in their emotional engagement.\n\n**Turning Point:**\nThe client\u2019s emotional depth shifted notably when they expressed their fear of being perceived as irresponsible. This moment highlighted their internal struggle and vulnerability, allowing for a deeper exploration of their feelings about financial management. The acknowledgment of wanting to keep control while feeling overwhelmed indicates a growing self-awareness and willingness to confront their issues, which is a critical turning point in their emotional openness.",
+    "Exploration judge rated 4/5 and revealed internal cognitive elements.",
+    "Exploration judge output: [Rating]: 4 (Even Higher Facilitation \u2013 Strong Transformational Potential)\n\n[Justification]: The Therapist asked strategic and powerfully open-ended questions that pushed the client to explore their feelings about financial anxiety and the underlying pressures they feel regarding responsibility and control. The questions challenged the client to reflect on their thoughts and emotions, revealing hidden motivations and assumptions about seeking help and managing their finances. The Therapist facilitated a deeper exploration of the client's internal conflict between wanting to share their struggles and the fear of judgment, which led to a clearer understanding of the client's situation. This process encouraged the client to consider actionable steps, such as writing down their thoughts and being kinder to themselves, which indicates a significant shift in self-awareness and perspective. Overall, the Therapist's questions effectively prompted the client to think critically about their experiences and feelings, leading to insights that have strong potential for transformation.",
+    "Rapport judge rated 3/5; no experience reveal.",
+    "Rapport judge output: **Rating: 3 (ENGAGED EXPLORATION)**\n\n**Key Examples:**\n1. *\u201cI guess I just don\u2019t want to seem irresponsible or like I can\u2019t handle things. I mean, I see how some people manage their finances, and it makes me wonder if I\u2019m doing something wrong.\u201d* - This statement reveals the client's anxiety and self-judgment, indicating a willingness to express deeper emotions.\n   \n2. *\u201cI think maybe writing down that mantra or positive reminder and keeping it somewhere visible could help.\u201d* - Here, the client demonstrates proactive thinking and a desire to implement strategies for emotional support, reflecting a growing engagement in the therapeutic process.\n\n**Progression:**\nThe client\u2019s recent interactions show a marked increase in emotional expression and self-reflection compared to earlier exchanges. Initially, the client was hesitant and defensive, primarily expressing anxiety in a factual manner. However, in the latest exchanges, they have begun to articulate their feelings more openly and consider practical steps to manage their anxiety about finances. The client is moving from a place of avoidance to actively contemplating strategies for emotional support and engagement, indicating a significant shift in their emotional state.\n\n**Turning Point:**\nA notable turning point occurred when the client began to express their fears about judgment and the pressure to appear responsible. This moment marked a shift from merely stating their feelings to engaging in a deeper exploration of their emotional landscape. The client\u2019s acknowledgment of their desire to be kinder to themselves and their recognition of the need for support illustrates a new level of emotional depth and vulnerability, contributing to their current state of engagement in the therapeutic process."
+  ],
+  "final_visible_experience_count": 1,
+  "internal_revealed": true
+}

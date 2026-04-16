@@ -1,0 +1,49 @@
+{
+  "aggregate": {
+    "num_sessions": 1,
+    "cder": {
+      "external": 0.0,
+      "internal": 1.0,
+      "overall": 0.0
+    },
+    "idss": {
+      "relevant_history": 0.4462145810210004,
+      "core_beliefs": 0.28558982400891053,
+      "intermediate_beliefs": 0.24544941387345467,
+      "coping_strategies": 0.29084775680407504,
+      "average": 0.3170253939268602
+    }
+  },
+  "sessions": [
+    {
+      "file": "/Users/luhtookyaw/Desktop/StageTherapy/mind_voyager/outputs/hard/session_28-2.json",
+      "case_id": "28-2",
+      "client_mode": "masked",
+      "difficulty": "hard",
+      "cder": {
+        "external": 0,
+        "internal": 1,
+        "overall": 0
+      },
+      "predicted_internal_diagram": {
+        "relevant_history": "The client is in a relationship with Ivan and feels frustrated by the perceived imbalance in their efforts, particularly regarding Ivan's job search and life direction.",
+        "core_beliefs": "The client fears not being good enough and worries that Ivan's struggles reflect poorly on her, impacting how others perceive her as a partner.",
+        "intermediate_beliefs": "The client believes that expressing her feelings might burden others and fears that discussing her concerns with Ivan could lead to conflict.",
+        "coping_strategies": "The client tends to push down her feelings, distract herself with work, and avoid confronting the situation, but she recognizes the need to reflect and communicate her feelings more openly."
+      },
+      "ground_truth_internal_diagram": {
+        "relevant_history": "Sophia has a history of being critical towards herself, a behavior that likely stems from her upbringing. She was accustomed to having control in life and achieving her goals, making the current situation with job searching, her relationship with Ivan, and family dynamics challenging for her.",
+        "core_beliefs": "I am incompetent. | I am powerless, weak, vulnerable. | I am a failure, loser.",
+        "intermediate_beliefs": "I must take responsibility for others' actions to make things in control. I must excel in everything, otherwise I'm a failure. My partner must be successful and in the same pace with me, otherwise it makes both of us failures. \n[during depression]\n My partner is not meeting my expectations, he's a failure and there must be something wrong with me, which makes me a failure too to stay with him.",
+        "coping_strategies": "Self-criticism as a form of maintaining control, attempts at rationalizing or justifying others' behaviors to avoid feeling disappointed."
+      },
+      "idss": {
+        "relevant_history": 0.4462145810210004,
+        "core_beliefs": 0.28558982400891053,
+        "intermediate_beliefs": 0.24544941387345467,
+        "coping_strategies": 0.29084775680407504,
+        "average": 0.3170253939268602
+      }
+    }
+  ]
+}

@@ -1,0 +1,182 @@
+{
+  "case_id": "36-2",
+  "client_name": "Riley",
+  "client_mode": "masked",
+  "hide_all": false,
+  "difficulty": "hard",
+  "therapist_provider": "openai",
+  "therapist_model": "gpt-4o-mini",
+  "client_model": "gpt-4o-mini",
+  "max_turns": 15,
+  "transcript": [
+    {
+      "turn": 1,
+      "speaker": "therapist",
+      "content": "Hello, Riley. I'm glad you're here today. What feels most important for you to talk about right now?"
+    },
+    {
+      "turn": 1,
+      "speaker": "client",
+      "content": "Um, I guess I\u2019m just feeling a bit overwhelmed lately. There\u2019s been a lot going on, especially with friends expecting me to be available for them. It\u2019s just... sometimes it feels like I can\u2019t keep up with what everyone wants from me. I don\u2019t know if it\u2019s worth it to try to meet all those expectations."
+    },
+    {
+      "turn": 2,
+      "speaker": "therapist",
+      "content": "It sounds like you're feeling quite overwhelmed by the demands and expectations from your friends. It must be really challenging to navigate that pressure. Can you tell me more about what specific expectations are feeling the heaviest for you right now?"
+    },
+    {
+      "turn": 2,
+      "speaker": "client",
+      "content": "Well, it\u2019s just that they often want me to be involved in everything\u2014like planning outings or being there for every little thing. I feel like if I don\u2019t say yes, they might think I don\u2019t care, but then I end up feeling drained. I guess I just worry about disappointing them, but at the same time, I need some space for myself. It\u2019s a bit of a tug-of-war in my head, you know?"
+    },
+    {
+      "turn": 3,
+      "speaker": "therapist",
+      "content": "That tug-of-war sounds really exhausting. On one hand, you want to be there for your friends and not disappoint them, but on the other hand, you recognize the need for your own space and well-being. It\u2019s understandable to feel conflicted in that situation. How do you usually cope when you\u2019re feeling this way?"
+    },
+    {
+      "turn": 3,
+      "speaker": "client",
+      "content": "I usually try to set some boundaries, like sending out an email to let them know when I\u2019m not available. But then I start to worry about how they\u2019ll react. I guess I just end up feeling frustrated and anxious about it all. Sometimes I just keep it to myself and try to push through, but that doesn\u2019t really help either. It\u2019s like I\u2019m stuck in this cycle."
+    },
+    {
+      "turn": 4,
+      "speaker": "therapist",
+      "content": "It sounds like you're caught in a cycle of trying to set boundaries but feeling anxious about how your friends might respond. Keeping it to yourself seems to add to your frustration, which can feel really isolating. It\u2019s tough to balance your own needs with the fear of disappointing others. When you think about those boundaries you try to set, what do you hope to achieve for yourself?"
+    },
+    {
+      "turn": 4,
+      "speaker": "client",
+      "content": "I guess I just want to feel like I have some control over my time and energy. I want to enjoy my time with friends without feeling like I\u2019m constantly on call or worrying about what they think. But at the same time, I don\u2019t want to come off as distant or uncaring. It\u2019s like I want to find a way to be there for them without losing myself in the process, but I\u2019m not really sure how to do that."
+    },
+    {
+      "turn": 5,
+      "speaker": "therapist",
+      "content": "It makes sense that you want to feel in control of your time and energy while still being present for your friends. It sounds like you\u2019re striving for a balance between connection and self-care, which can be really tricky. You mentioned not wanting to come off as distant or uncaring\u2014what do you think contributes to that worry for you?"
+    },
+    {
+      "turn": 5,
+      "speaker": "client",
+      "content": "I think it\u2019s just this feeling that if I don\u2019t show up for them all the time, they\u2019ll think I don\u2019t value our friendship. I\u2019ve seen how some people react when others pull away, and I guess I\u2019m afraid of being seen as someone who doesn\u2019t care. It\u2019s like I want to be a good friend, but I also don\u2019t want to lose myself in trying to please everyone. It\u2019s hard to find that middle ground."
+    },
+    {
+      "turn": 6,
+      "speaker": "therapist",
+      "content": "It sounds like you have a strong desire to be a good friend, but that desire is also creating a lot of pressure for you. The fear of being perceived as uncaring, especially based on what you've seen in others, seems to weigh heavily on you. It\u2019s understandable to want to maintain those connections while also protecting your own sense of self. When you think about your friendships, what does being a \"good friend\" mean to you?"
+    },
+    {
+      "turn": 6,
+      "speaker": "client",
+      "content": "I think being a good friend means being there when they need support and being involved in their lives. It\u2019s about showing up and caring for them, you know? But I also feel like it\u2019s important to be honest and communicate. I guess I just struggle with how to do that without feeling like I\u2019m letting them down. It\u2019s like I want to be reliable and supportive, but I also need to take care of myself, and that feels like a contradiction sometimes."
+    },
+    {
+      "turn": 7,
+      "speaker": "therapist",
+      "content": "You\u2019ve captured a really important aspect of friendship\u2014being supportive and involved while also valuing honesty and communication. It\u2019s clear that you care deeply about your friends, but it\u2019s also valid to want to take care of yourself. That feeling of contradiction can be really tough to navigate. When you think about being honest with your friends about your needs, what do you think holds you back from expressing that?"
+    },
+    {
+      "turn": 7,
+      "speaker": "client",
+      "content": "I think it\u2019s mostly fear\u2014fear of how they might react or if they\u2019ll think I\u2019m being selfish. I worry that if I say I need some space or time for myself, they\u2019ll feel hurt or think I don\u2019t want to be their friend anymore. It\u2019s like I don\u2019t want to risk damaging those relationships, even if it means I\u2019m not being completely honest about what I need. So, I end up keeping it to myself, which just makes everything feel heavier."
+    },
+    {
+      "turn": 8,
+      "speaker": "therapist",
+      "content": "That fear of how they might react and the worry about being perceived as selfish really seem to weigh on you. It\u2019s understandable to want to protect those relationships, but it sounds like keeping your needs to yourself is adding to your emotional burden. It\u2019s a tough position to be in, wanting to maintain connection while also feeling the need for space. If you could imagine a way to communicate your needs that felt safe and respectful, what might that look like for you?"
+    },
+    {
+      "turn": 8,
+      "speaker": "client",
+      "content": "I guess it would be nice if I could just be straightforward without feeling like I\u2019m going to hurt anyone. Maybe I could start by expressing how much I value our friendship and then explain that I need some time to recharge. I think if I framed it that way, it might feel less like I\u2019m pushing them away and more like I\u2019m just being honest about where I\u2019m at. But even thinking about doing that makes me a bit anxious, like I\u2019m not sure how they\u2019d take it."
+    },
+    {
+      "turn": 9,
+      "speaker": "therapist",
+      "content": "That sounds like a thoughtful approach\u2014starting with expressing your appreciation for the friendship and then sharing your need for some time to recharge. Framing it that way could help convey that your intention is not to push them away, but rather to be honest about your own needs. It\u2019s completely normal to feel anxious about how they might respond, especially when you care about their feelings. What do you think might help you manage that anxiety when you consider having that conversation?"
+    },
+    {
+      "turn": 9,
+      "speaker": "client",
+      "content": "I think it might help to remind myself that it\u2019s okay to have needs and that a real friendship should be able to handle some honesty. Maybe practicing what I want to say beforehand could make me feel more prepared. I guess having a plan could ease some of the anxiety, like knowing I\u2019m not just going in blind. It might also help to think about how they might actually appreciate my honesty rather than being upset. But it\u2019s still a bit daunting to think about."
+    },
+    {
+      "turn": 10,
+      "speaker": "therapist",
+      "content": "Those are really constructive strategies\u2014reminding yourself that it\u2019s okay to have needs and practicing what you want to say can definitely help build your confidence. It\u2019s great that you\u2019re considering the possibility that your friends might appreciate your honesty. A plan can provide a sense of control in a situation that feels daunting. As you think about taking this step, what do you think would be the most important thing for you to focus on in that moment?"
+    },
+    {
+      "turn": 10,
+      "speaker": "client",
+      "content": "I think the most important thing would be to stay calm and remember that it\u2019s just a conversation. I\u2019d want to focus on being clear about my feelings without getting too caught up in worrying about their reactions. It might help to remind myself that I\u2019m not trying to hurt them, just trying to be honest about what I need. Keeping that perspective might make it easier to express myself without feeling overwhelmed."
+    },
+    {
+      "turn": 11,
+      "speaker": "therapist",
+      "content": "That\u2019s a really insightful perspective to hold onto\u2014staying calm and focusing on clarity can help you navigate the conversation more smoothly. Reminding yourself of your intentions and that honesty is part of a healthy friendship is a powerful way to ground yourself. It sounds like you\u2019re developing a thoughtful approach to this. As you prepare for this conversation, how do you feel about the possibility of taking this step toward expressing your needs?"
+    },
+    {
+      "turn": 11,
+      "speaker": "client",
+      "content": "I feel a mix of nervousness and a bit of relief at the thought of finally being honest. It\u2019s a little scary to think about, but I also feel like it could be a positive change. If I can get through that initial anxiety, it might actually help me feel more connected to my friends in the long run. I guess there\u2019s a part of me that hopes they\u2019ll understand and that it might even strengthen our friendship. But, of course, that fear is still there, too."
+    },
+    {
+      "turn": 12,
+      "speaker": "therapist",
+      "content": "It\u2019s completely natural to feel both nervous and relieved at the thought of being honest. That mix of emotions shows how much you care about your friendships and the potential for positive change. It\u2019s encouraging to hear that you see this as a step that could strengthen your connections in the long run. Acknowledging the fear while also holding onto the hope for understanding is a powerful balance. As you move forward, what do you think would be the best way to support yourself through that initial anxiety when the time comes?"
+    },
+    {
+      "turn": 12,
+      "speaker": "client",
+      "content": "I think it would help to remind myself that it\u2019s okay to feel anxious and that I\u2019m not alone in this. Maybe taking a few deep breaths before the conversation could help calm my nerves. I could also try to focus on the positive outcomes I hope for, like the possibility of a deeper connection with my friends. Having a supportive friend or someone to talk to afterward might also help me process how it went, regardless of the outcome. Just knowing I have some support could make it feel a bit less daunting."
+    },
+    {
+      "turn": 13,
+      "speaker": "therapist",
+      "content": "Those are excellent strategies for supporting yourself through the anxiety. Acknowledging that it\u2019s okay to feel anxious and using deep breathing can really help ground you in the moment. Focusing on the positive outcomes and having someone to talk to afterward can provide a sense of reassurance and connection. It sounds like you\u2019re building a solid framework to approach this conversation with care for both yourself and your friends. As you prepare for this, is there anything else you\u2019d like to explore or discuss about your feelings or the situation?"
+    },
+    {
+      "turn": 13,
+      "speaker": "client",
+      "content": "I think I\u2019ve covered a lot of what\u2019s been on my mind, but I guess I\u2019m still a bit worried about how to handle it if the conversation doesn\u2019t go as I hope. I mean, what if they don\u2019t understand or react negatively? That thought is still lingering. I just want to make sure I\u2019m ready for whatever happens, you know? It\u2019s hard to shake that fear of rejection or disappointment."
+    },
+    {
+      "turn": 14,
+      "speaker": "therapist",
+      "content": "It\u2019s completely understandable to have concerns about how the conversation might go, especially with the fear of rejection or disappointment lingering in your mind. Preparing for different outcomes can feel daunting, but it\u2019s also a sign of your thoughtfulness and care for the friendship. If the conversation doesn\u2019t go as you hope, what do you think might help you cope with those feelings in the moment?"
+    },
+    {
+      "turn": 14,
+      "speaker": "client",
+      "content": "If it doesn\u2019t go well, I think it would be important for me to remind myself that it doesn\u2019t necessarily reflect my worth or the value of our friendship. I\u2019d probably need to take some time to process my feelings, maybe talk to someone who understands. It might help to focus on the fact that I was honest and tried to communicate my needs, even if it didn\u2019t go perfectly. I guess giving myself some grace and not being too hard on myself would be key."
+    },
+    {
+      "turn": 15,
+      "speaker": "therapist",
+      "content": "That\u2019s a really compassionate approach. Reminding yourself that their reaction doesn\u2019t define your worth or the value of the friendship is a powerful way to maintain perspective. Taking time to process your feelings and seeking support from someone who understands can be incredibly helpful, too. It\u2019s great that you\u2019re considering giving yourself grace, as that can foster resilience in the face of uncertainty. As you think about all of this, how do you feel about the overall journey you\u2019re on in navigating these friendships and your own needs?"
+    },
+    {
+      "turn": 15,
+      "speaker": "client",
+      "content": "I feel like it\u2019s a bit of a mixed bag. On one hand, it\u2019s challenging and sometimes overwhelming to think about all these dynamics and my own needs. But on the other hand, I also feel like I\u2019m starting to understand myself better and what I really want in my friendships. It\u2019s a journey, for sure, and I know it won\u2019t be easy, but I think I\u2019m slowly getting there. I just hope I can keep moving forward and find that balance between being there for my friends and taking care of myself."
+    }
+  ],
+  "judge_model": "gpt-4o-mini",
+  "mediator_events": [
+    "Exploration judge rated 2/5; internal elements remain masked.",
+    "Exploration judge output: [Rating]: 2 (High Facilitation)\n\n[Justification]: The Therapist asked relevant and well-structured open-ended questions that encouraged the client to reflect on their feelings of overwhelm and the expectations from their friends. The questions prompted the client to elaborate on their experiences and explore their internal conflict. However, while the Therapist's inquiries were supportive and helped the client expand on their existing thoughts, they did not significantly challenge the client's assumptions or introduce new perspectives that could lead to deeper self-exploration. The conversation remained largely within the familiar territory of the client's feelings and experiences without pushing for a transformative insight or breakthrough.",
+    "Rapport judge rated 3/5; no experience reveal.",
+    "Rapport judge output: **Rating: 3**\n\n**Key Examples:**\n1. \"I guess I just worry about disappointing them, but at the same time, I need some space for myself. It\u2019s a bit of a tug-of-war in my head, you know?\"\n2. \"I usually try to set some boundaries, like sending out an email to let them know when I\u2019m not available. But then I start to worry about how they\u2019ll react.\"\n\n**Progression:** The client\u2019s most recent interactions exhibit a notable increase in emotional expression and self-reflection. They articulate their feelings of being overwhelmed and the internal conflict between meeting friends' expectations and their own need for space. This marks a significant change from earlier exchanges, where emotional vocabulary was limited and responses were more factual.\n\n**Turning Point:** The client\u2019s emotional depth shifted during the exchange where they described the \"tug-of-war\" in their head. This moment highlighted their internal struggle and willingness to explore their feelings, indicating a growing comfort in discussing their vulnerabilities and a deeper engagement with the therapeutic process.",
+    "Exploration judge rated 3/5; internal elements remain masked.",
+    "Exploration judge output: [Rating]: 3 (Very High Facilitation \u2013 Deep Exploration Begins)\n\n[Justification]: The therapist asked insightful and thought-provoking questions that encouraged the client to analyze their feelings of overwhelm and the underlying motivations behind their struggles with boundaries. The questions helped the client explore the root causes of their anxiety and the conflict between wanting to meet friends' expectations and needing personal space. The therapist's inquiries began to shift the client's perspective, prompting deeper self-reflection about their definition of friendship and the pressures they feel. However, while the conversation was rich and meaningful, it did not reach the level of introducing completely new angles or challenging assumptions to the extent that would warrant a higher rating.",
+    "Rapport judge rated 3/5; no experience reveal.",
+    "Rapport judge output: **Rating: 3 (ENGAGED EXPLORATION)**\n\n**Key Examples:**\n1. **Emotional State:** \"I guess I just want to feel like I have some control over my time and energy. I want to enjoy my time with friends without feeling like I\u2019m constantly on call or worrying about what they think.\"\n2. **Current Openness:** \"I think it\u2019s mostly fear\u2014fear of how they might react or if they\u2019ll think I\u2019m being selfish. I worry that if I say I need some space or time for myself, they\u2019ll feel hurt or think I don\u2019t want to be their friend anymore.\"\n\n**Progression:** The client\u2019s most recent interactions demonstrate a clear emotional depth, particularly in their acknowledgment of feeling overwhelmed and the internal conflict between their needs and their desire to support friends. This marks a significant change from earlier in the session, where they initially presented more factual responses and hesitance. The client is now actively engaging in self-reflection about their boundaries and the emotional toll of their friendships, indicating a deeper level of exploration.\n\n**Turning Point:** The client\u2019s emotional depth shifted notably when they began expressing their fears about disappointing their friends and the pressure they feel to be constantly available. This moment highlighted a transition from merely stating feelings to exploring the underlying fears and conflicts, showcasing a more vulnerable and authentic engagement with their emotions.",
+    "Exploration judge rated 3/5; internal elements remain masked.",
+    "Exploration judge output: [Rating]: 3 (Very High Facilitation \u2013 Deep Exploration Begins)\n\n[Justification]: The therapist asked insightful and thought-provoking questions that encouraged the client to analyze the root causes of their feelings of overwhelm and the conflict between their needs and their desire to meet friends' expectations. The therapist's questions helped the client explore their fears and motivations, such as the fear of being perceived as uncaring and the desire for control over their time and energy. This led to a deeper understanding of the client's emotional landscape and the dynamics of their friendships. While the therapist facilitated significant self-reflection and exploration, the questions did not fully challenge the client's assumptions or introduce completely new perspectives that could lead to a major breakthrough. Thus, the facilitation was rated as very high but not at the level of transformational potential.",
+    "Rapport judge rated 4/5 and revealed one more experience block.",
+    "Rapport judge output: **Rating: 4 (DEEP ENGAGEMENT)**\n\n**Key Examples:**\n1. \"I feel a mix of nervousness and a bit of relief at the thought of finally being honest. It\u2019s a little scary to think about, but I also feel like it could be a positive change.\"\n2. \"I think it might help to remind myself that it\u2019s okay to have needs and that a real friendship should be able to handle some honesty.\"\n\n**Progression:** The client\u2019s most recent interactions demonstrate a significant emotional depth and vulnerability, particularly in their acknowledgment of both anxiety and relief regarding the prospect of being honest with their friends. This marks a notable change from earlier in the session, where they expressed feeling overwhelmed and conflicted about their needs. The client has transitioned from a defensive stance about their boundaries to actively exploring their feelings and articulating their needs, indicating a strong therapeutic alliance and comfort with the therapist.\n\n**Turning Point:** The client\u2019s emotional depth shifted during the exchange where they articulated their desire to express their needs to their friends. This moment marked a transition from merely recognizing their feelings of overwhelm to actively contemplating a constructive approach to communication. The client\u2019s willingness to consider how their honesty could strengthen their friendships signifies a breakthrough in their self-awareness and emotional processing.",
+    "Exploration judge rated 4/5 and revealed internal cognitive elements.",
+    "Exploration judge output: [Rating]: 4 (Even Higher Facilitation \u2013 Strong Transformational Potential)\n\n[Justification]: The therapist asked strategic and powerfully open-ended questions that pushed the client to explore their feelings about boundaries, friendship, and self-care. The therapist effectively challenged the client's assumptions about being a \"good friend\" and the fear of disappointing others, leading to deeper self-reflection. The questions encouraged the client to analyze their motivations and the emotional weight of their experiences. The dialogue facilitated a shift in perspective, particularly when the client began to articulate a plan for communicating their needs, indicating a clear movement towards greater self-awareness and potential personal growth. The therapist's approach created a space for the client to consider new angles on their situation, which demonstrates strong transformational potential."
+  ],
+  "final_visible_experience_count": 2,
+  "internal_revealed": true
+}

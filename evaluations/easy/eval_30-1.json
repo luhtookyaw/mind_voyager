@@ -1,0 +1,49 @@
+{
+  "aggregate": {
+    "num_sessions": 1,
+    "cder": {
+      "external": 1.0,
+      "internal": 1.0,
+      "overall": 1.0
+    },
+    "idss": {
+      "relevant_history": 0.6772670347182072,
+      "core_beliefs": 0.22057724522934585,
+      "intermediate_beliefs": 0.3641601206375747,
+      "coping_strategies": 0.49748042122742664,
+      "average": 0.43987120545313857
+    }
+  },
+  "sessions": [
+    {
+      "file": "/Users/luhtookyaw/Desktop/StageTherapy/mind_voyager/outputs/easy/session_30-1.json",
+      "case_id": "30-1",
+      "client_mode": "masked",
+      "difficulty": "easy",
+      "cder": {
+        "external": 1,
+        "internal": 1,
+        "overall": 1
+      },
+      "predicted_internal_diagram": {
+        "relevant_history": "The client is dealing with a recent breakup and is uncertain about whether to share this with their parents due to concerns about their potential reaction.",
+        "core_beliefs": "The client believes that their parents may not care about their feelings and might judge them for not having their life figured out.",
+        "intermediate_beliefs": "The client feels that sharing their feelings with their parents could lead to disappointment and judgment, which makes them hesitant to open up.",
+        "coping_strategies": "The client plans to write down their thoughts to organize their feelings and practice expressing themselves, and they consider talking to a friend for support before reaching out to their parents."
+      },
+      "ground_truth_internal_diagram": {
+        "relevant_history": "The client is transitioning to a better job position and has just completed their degree. Coming out to their parents only two and a half to three years ago, their sexuality was a significant surprise to the parents, and coming out was met with negative reactions and felt like they had to protect themself during the process. The client moved to New York for school, which was also an excuse to discover their identity away from the influence of their family. There are strained family relationships, especially with their mother who seems to focus on the practical repercussions of life events rather than emotional support, and with their sister, who remains unfocused, living at home and seemingly jealous of their independence and achievements.",
+        "core_beliefs": "I am helpless. | I am powerless, weak, vulnerable. | I am unlovable. | I am bound to be rejected.",
+        "intermediate_beliefs": "My family will not understand or support me emotionally. Achieving independence is necessary for self-discovery, but it leads to estrangement from family. \n[during depression]\n When faced with challenges or personal issues, my family will likely not offer the emotional support I need. I am not independent.",
+        "coping_strategies": "The client seeks approval and acceptance from their family but often has to emotionally distance themselves to maintain their well-being. Humor and minimizing the emotional impact of situations are used as defense mechanisms."
+      },
+      "idss": {
+        "relevant_history": 0.6772670347182072,
+        "core_beliefs": 0.22057724522934585,
+        "intermediate_beliefs": 0.3641601206375747,
+        "coping_strategies": 0.49748042122742664,
+        "average": 0.43987120545313857
+      }
+    }
+  ]
+}

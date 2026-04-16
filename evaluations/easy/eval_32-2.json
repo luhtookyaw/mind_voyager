@@ -1,0 +1,49 @@
+{
+  "aggregate": {
+    "num_sessions": 1,
+    "cder": {
+      "external": 1.0,
+      "internal": 1.0,
+      "overall": 1.0
+    },
+    "idss": {
+      "relevant_history": 0.46711290060810684,
+      "core_beliefs": 0.21370390913561868,
+      "intermediate_beliefs": 0.2692757007472746,
+      "coping_strategies": 0.4752455247686464,
+      "average": 0.35633450881491163
+    }
+  },
+  "sessions": [
+    {
+      "file": "/Users/luhtookyaw/Desktop/StageTherapy/mind_voyager/outputs/easy/session_32-2.json",
+      "case_id": "32-2",
+      "client_mode": "masked",
+      "difficulty": "easy",
+      "cder": {
+        "external": 1,
+        "internal": 1,
+        "overall": 1
+      },
+      "predicted_internal_diagram": {
+        "relevant_history": "The client recently received a bonus at work but felt anxious after sharing the news with their parents, who questioned their job choices.",
+        "core_beliefs": "The client feels that their accomplishments are not recognized and fears judgment from their parents regarding their career.",
+        "intermediate_beliefs": "The client believes they must always be striving for more and that their current achievements are not enough.",
+        "coping_strategies": "The client withdraws from sharing their feelings, plans to keep a list of accomplishments, and intends to use mantras and grounding techniques to manage anxiety."
+      },
+      "ground_truth_internal_diagram": {
+        "relevant_history": "The client has a history of complicated family dynamics and struggles with relationships within his family. He expresses feelings of disconnection and discomfort around his parents and feels slighted or judged by them, leading to detachment. Past issues related to his mother's illness and his parents' support of his education have generated feelings of guilt and frustration. The client also hints at possible issues with his mother's behavior towards him and possibly others (mentions of her being 'broken' and a past affair).",
+        "core_beliefs": "I am a failure, loser. | I am unlovable. | I am bound to be rejected. | I am worthless, waste.",
+        "intermediate_beliefs": "I must be acknowledged and recognized by my parents to demonstrate my worth. \n[during depression]\n My parents see me as incompetent and a failure. My accomplishments can never get acknowledged by them, therefore I'm worthless and failing.",
+        "coping_strategies": "The client copes by detaching from his family, cutting off relationships when feeling slighted, and trying to maintain control over his life and interactions. He also has a tendency to 'test' relationships through causing hurt, to validate his personal significance and the authenticity of the connection."
+      },
+      "idss": {
+        "relevant_history": 0.46711290060810684,
+        "core_beliefs": 0.21370390913561868,
+        "intermediate_beliefs": 0.2692757007472746,
+        "coping_strategies": 0.4752455247686464,
+        "average": 0.35633450881491163
+      }
+    }
+  ]
+}

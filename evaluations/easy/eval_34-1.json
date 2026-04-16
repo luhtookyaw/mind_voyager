@@ -1,0 +1,49 @@
+{
+  "aggregate": {
+    "num_sessions": 1,
+    "cder": {
+      "external": 1.0,
+      "internal": 1.0,
+      "overall": 1.0
+    },
+    "idss": {
+      "relevant_history": 0.6553063074320763,
+      "core_beliefs": 0.16287251023039212,
+      "intermediate_beliefs": 0.35205558514749263,
+      "coping_strategies": 0.27504583904378943,
+      "average": 0.3613200604634376
+    }
+  },
+  "sessions": [
+    {
+      "file": "/Users/luhtookyaw/Desktop/StageTherapy/mind_voyager/outputs/easy/session_34-1.json",
+      "case_id": "34-1",
+      "client_mode": "masked",
+      "difficulty": "easy",
+      "cder": {
+        "external": 1,
+        "internal": 1,
+        "overall": 1
+      },
+      "predicted_internal_diagram": {
+        "relevant_history": "Client has been thinking about family, particularly due to their brother's upcoming birthday, which brings up feelings of sadness and loneliness.",
+        "core_beliefs": "Client believes that openness about feelings in their family could help everyone feel less alone.",
+        "intermediate_beliefs": "Client feels isolated because their family does not discuss emotions, and they fear expressing their feelings due to potential rejection.",
+        "coping_strategies": "Client tries to keep busy to push feelings aside but acknowledges that this leads to feeling empty; they consider starting small conversations with trusted friends to gauge support."
+      },
+      "ground_truth_internal_diagram": {
+        "relevant_history": "The client's brother died by suicide as a teenager, which has strongly and negatively impacted the family. The client described frequently challenging their mom about why their family never wants to discuss the pain and suffering they've gone through because of the suicide. The client also recounts their parents' reluctance to let the client engage in talk therapy after the brother's death, despite experiencing recurring and disturbing dreams related to the suicide. As an adult now, the client reports still struggling with feelings of separation and suffering, and lack coping skills to regulate their emotions.",
+        "core_beliefs": "I am powerless, weak, vulnerable. | I am trapped. | I am defective. | I am unlovable. | I am bound to be rejected.",
+        "intermediate_beliefs": "I am sensitive and weak because I am still not over my brother's death; I keep bringing down everyone's mood because I am the only one who is still not able to cope with my brother's death. \n[during depression]\n I need to control myself and my emotions; if I feel all my emotions, I will break down and never recover from it.",
+        "coping_strategies": "Reading psychological books (e.g. Carl Rogers's book) to gain insight and perspective; attempts to rationalize every negative situation to prevent getting emotional; represses emotions"
+      },
+      "idss": {
+        "relevant_history": 0.6553063074320763,
+        "core_beliefs": 0.16287251023039212,
+        "intermediate_beliefs": 0.35205558514749263,
+        "coping_strategies": 0.27504583904378943,
+        "average": 0.3613200604634376
+      }
+    }
+  ]
+}

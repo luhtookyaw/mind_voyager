@@ -1,0 +1,49 @@
+{
+  "aggregate": {
+    "num_sessions": 1,
+    "cder": {
+      "external": 1.0,
+      "internal": 1.0,
+      "overall": 1.0
+    },
+    "idss": {
+      "relevant_history": 0.7219042345247334,
+      "core_beliefs": 0.2236336123833114,
+      "intermediate_beliefs": 0.24989229706672614,
+      "coping_strategies": 0.2763075490509264,
+      "average": 0.36793442325642434
+    }
+  },
+  "sessions": [
+    {
+      "file": "/Users/luhtookyaw/Desktop/StageTherapy/mind_voyager/outputs/normal/session_14-1.json",
+      "case_id": "14-1",
+      "client_mode": "masked",
+      "difficulty": "normal",
+      "cder": {
+        "external": 1,
+        "internal": 1,
+        "overall": 1
+      },
+      "predicted_internal_diagram": {
+        "relevant_history": "The client has been feeling stressed about her financial situation, expressing concerns about poor decisions impacting her ability to retire as planned.",
+        "core_beliefs": "The client feels overwhelmed and unsupported, believing that her family does not take her financial stress seriously.",
+        "intermediate_beliefs": "The client thinks that expressing her feelings is vulnerable and fears that her family may not take her seriously if she opens up.",
+        "coping_strategies": "The client ruminates on past decisions and plans to take small steps to open up about her feelings, including journaling and reflecting on her intentions."
+      },
+      "ground_truth_internal_diagram": {
+        "relevant_history": "The client has had significant life events that have impacted her current state, including losing her retirement funds on some poor financial decisions, which has led to financial concerns and the need to continue working potentially until an old age, find a new job that pays more, and/or find other ways to make money. Additionally, there are underlying tensions and unresolved feelings related to their family, particularly her mother and father, because now she is relying on them more for financial help.",
+        "core_beliefs": "I am helpless. | I am incompetent. | I am a failure, loser.",
+        "intermediate_beliefs": "I need to rely on family and friends to support my life. I am not able to handle anything out of my expectation by myself. My family and friends are supposed to always support me.\nDepressive variant: I just cannot support myself. I am a failure and cannot even be independent. My future is hopeless. I cannot be trusted to take care of myself.",
+        "coping_strategies": "Questioning the self; becoming easily defensive when feeling challenged or criticised for taking care of self; Show avoidance of making decisions or taking challenges in life, which in fact further increases anxious feelings."
+      },
+      "idss": {
+        "relevant_history": 0.7219042345247334,
+        "core_beliefs": 0.2236336123833114,
+        "intermediate_beliefs": 0.24989229706672614,
+        "coping_strategies": 0.2763075490509264,
+        "average": 0.36793442325642434
+      }
+    }
+  ]
+}

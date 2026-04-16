@@ -1,0 +1,49 @@
+{
+  "aggregate": {
+    "num_sessions": 1,
+    "cder": {
+      "external": 1.0,
+      "internal": 1.0,
+      "overall": 1.0
+    },
+    "idss": {
+      "relevant_history": 0.6672447058651437,
+      "core_beliefs": 0.10956267980475604,
+      "intermediate_beliefs": 0.4256747124813897,
+      "coping_strategies": 0.37648565368561104,
+      "average": 0.39474193795922513
+    }
+  },
+  "sessions": [
+    {
+      "file": "/Users/luhtookyaw/Desktop/StageTherapy/mind_voyager/outputs/easy/session_37-2.json",
+      "case_id": "37-2",
+      "client_mode": "masked",
+      "difficulty": "easy",
+      "cder": {
+        "external": 1,
+        "internal": 1,
+        "overall": 1
+      },
+      "predicted_internal_diagram": {
+        "relevant_history": "The client is currently experiencing frustration and concern about fairness at work due to being asked to work extra hours without compensation amidst a labor dispute.",
+        "core_beliefs": "The client believes they deserve to be heard and treated fairly, and that advocating for oneself is important.",
+        "intermediate_beliefs": "The client feels conflicted about standing up for themselves due to fears of confrontation and potential negative consequences from authority figures.",
+        "coping_strategies": "The client plans to prepare and practice what to say, seek support from trusted colleagues, and remind themselves of their worth to manage anxiety."
+      },
+      "ground_truth_internal_diagram": {
+        "relevant_history": "The client has a history involving a stressful labor dispute situation at a previous workplace, which seems to have had a significant impact on their views regarding fairness, compensation, and trust in authority figures.",
+        "core_beliefs": "I am unlovable. | I am bound to be rejected. | I am bound to be abandoned.",
+        "intermediate_beliefs": "Others will not fairly compensate or recognize my effort; authority figures cannot be trusted; my feelings and reactions may not be valid.\nDepressive variant: People are fundamentally selfish and exploitative; I cannot rely on others for basic fairness or understanding.",
+        "coping_strategies": "Seeking validation through persuasion and argumentation; becoming angry and resistant as a way to assert control; intellectualizing emotional responses."
+      },
+      "idss": {
+        "relevant_history": 0.6672447058651437,
+        "core_beliefs": 0.10956267980475604,
+        "intermediate_beliefs": 0.4256747124813897,
+        "coping_strategies": 0.37648565368561104,
+        "average": 0.39474193795922513
+      }
+    }
+  ]
+}

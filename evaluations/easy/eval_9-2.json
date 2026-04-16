@@ -1,0 +1,49 @@
+{
+  "aggregate": {
+    "num_sessions": 1,
+    "cder": {
+      "external": 1.0,
+      "internal": 1.0,
+      "overall": 1.0
+    },
+    "idss": {
+      "relevant_history": 0.3984986088092373,
+      "core_beliefs": 0.27194531219474544,
+      "intermediate_beliefs": 0.16947845782722468,
+      "coping_strategies": 0.4159152588642353,
+      "average": 0.3139594094238607
+    }
+  },
+  "sessions": [
+    {
+      "file": "/Users/luhtookyaw/Desktop/StageTherapy/mind_voyager/outputs/easy/session_9-2.json",
+      "case_id": "9-2",
+      "client_mode": "masked",
+      "difficulty": "easy",
+      "cder": {
+        "external": 1,
+        "internal": 1,
+        "overall": 1
+      },
+      "predicted_internal_diagram": {
+        "relevant_history": "The client has been feeling frustrated with her roommate, Ashby, particularly regarding issues in the kitchen, such as trash being left for days.",
+        "core_beliefs": "The client believes her needs are not being considered and feels taken for granted in her relationship with Ashby.",
+        "intermediate_beliefs": "The client worries about being confrontational and fears that expressing her feelings may create tension in their friendship. She questions whether her feelings are valid and is hesitant to bring up issues due to past experiences of being dismissed.",
+        "coping_strategies": "The client plans to write down her thoughts to organize what she wants to say, approach the conversation casually, remind herself that her needs matter, and take breaks to manage her emotions."
+      },
+      "ground_truth_internal_diagram": {
+        "relevant_history": "The patient has a long-standing relationship with a friend named Jersey, who has undergone multiple surgeries due to her disabilities, including a below-the-knee amputation and knee replacement. The patient has been a supportive figure during Jersey's medical procedures and recovery but currently feels overwhelmed with her own life stresses. The patient also experiences conflict with her roommate, Ashby, regarding household issues.",
+        "core_beliefs": "I am undesirable, unwanted. | I am bound to be abandoned. | I am bound to be alone.",
+        "intermediate_beliefs": "If I ask for what I want, I'm unlikely to get it and it's probably going to be all ruined anyway. I should always try to help others and prioritize others' needs over myself.\nDepressive variant: My efforts to help others are not enough. Nobody likes me no matter how much I help them.",
+        "coping_strategies": "The patient copes by trying to provide practical support as much as she can, like cooking meals for friends in need, and by attempting to manage situations, like resolving cable service issues."
+      },
+      "idss": {
+        "relevant_history": 0.3984986088092373,
+        "core_beliefs": 0.27194531219474544,
+        "intermediate_beliefs": 0.16947845782722468,
+        "coping_strategies": 0.4159152588642353,
+        "average": 0.3139594094238607
+      }
+    }
+  ]
+}

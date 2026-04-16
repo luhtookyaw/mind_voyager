@@ -1,0 +1,49 @@
+{
+  "aggregate": {
+    "num_sessions": 1,
+    "cder": {
+      "external": 1.0,
+      "internal": 1.0,
+      "overall": 1.0
+    },
+    "idss": {
+      "relevant_history": 0.31164191645441225,
+      "core_beliefs": 0.41558436991049547,
+      "intermediate_beliefs": 0.36859076179073175,
+      "coping_strategies": 0.4794393213999082,
+      "average": 0.3938140923888869
+    }
+  },
+  "sessions": [
+    {
+      "file": "/Users/luhtookyaw/Desktop/StageTherapy/mind_voyager/outputs/easy/session_27-2.json",
+      "case_id": "27-2",
+      "client_mode": "masked",
+      "difficulty": "easy",
+      "cder": {
+        "external": 1,
+        "internal": 1,
+        "overall": 1
+      },
+      "predicted_internal_diagram": {
+        "relevant_history": "Mia grew up in a family that valued independence and expected her to be responsible from a young age, which shaped her beliefs about strength and vulnerability.",
+        "core_beliefs": "Being strong and independent is tied to self-worth, and showing vulnerability will lead to being judged or seen differently.",
+        "intermediate_beliefs": "If I show any weakness, people will think less of me; I need to prove that I can handle everything on my own.",
+        "coping_strategies": "Reaching out to a trusted friend, journaling thoughts and emotions, using calming techniques like breathing and positive affirmations."
+      },
+      "ground_truth_internal_diagram": {
+        "relevant_history": "The client is undergoing a divorce and experiencing financial difficulties. She used to be with her ex-partner since the age of 19 and has never felt lonely until now because she had always been with someone. The couple has a young son, Brady, for whom they are still settling child support issues. The client has faced recent changes, such as solo travelling with her son for the first time and visiting her family without her partner. She also feels a sense of shame or guilt related to her friends disconnecting from her after the separation.",
+        "core_beliefs": "I am helpless. | I am powerless, weak, vulnerable. | I am unlovable. | I am bound to be abandoned. | I am bound to be alone.",
+        "intermediate_beliefs": "I need constant stimulation from others to feel okay. It's important to show others that I am doing well despite the situation, otherwise I will be abandoned. \n[during depression]\n When I don't have social interactions, it leads to a feeling of loneliness and sadness. I can't handle being alone. People know my issues and they will abandon me.",
+        "coping_strategies": "The client demonstrates several coping strategies, such as avoiding thinking of the divorce and use distractions; seeking social interactions to mitigate feelings of loneliness and sadness; mantaining a good image in front of friends; visiting her home town for a change of environment and support; She also plans to engage in hobbies, such as dance classes to fill her time and make new friends."
+      },
+      "idss": {
+        "relevant_history": 0.31164191645441225,
+        "core_beliefs": 0.41558436991049547,
+        "intermediate_beliefs": 0.36859076179073175,
+        "coping_strategies": 0.4794393213999082,
+        "average": 0.3938140923888869
+      }
+    }
+  ]
+}

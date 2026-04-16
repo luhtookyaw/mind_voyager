@@ -1,0 +1,49 @@
+{
+  "aggregate": {
+    "num_sessions": 1,
+    "cder": {
+      "external": 1.0,
+      "internal": 1.0,
+      "overall": 1.0
+    },
+    "idss": {
+      "relevant_history": 0.4699025669195302,
+      "core_beliefs": 0.09138838188815411,
+      "intermediate_beliefs": 0.369582049955089,
+      "coping_strategies": 0.34920155831534094,
+      "average": 0.32001863926952856
+    }
+  },
+  "sessions": [
+    {
+      "file": "/Users/luhtookyaw/Desktop/StageTherapy/mind_voyager/outputs/easy/session_44-1.json",
+      "case_id": "44-1",
+      "client_mode": "masked",
+      "difficulty": "easy",
+      "cder": {
+        "external": 1,
+        "internal": 1,
+        "overall": 1
+      },
+      "predicted_internal_diagram": {
+        "relevant_history": "The client often feels isolated during the holidays and perceives that they are the one always reaching out to others without receiving the same effort in return.",
+        "core_beliefs": "The client believes they are not worth the effort to remember and feels invisible and unimportant.",
+        "intermediate_beliefs": "The client thinks that expressing their feelings might burden others and worries about being perceived as needy or dramatic.",
+        "coping_strategies": "The client plans to journal, practice self-care, and set small, achievable goals while being patient and gentle with themselves."
+      },
+      "ground_truth_internal_diagram": {
+        "relevant_history": "The client has a complex family dynamic with recurrent conflicts and relational strains. The client has presented issues with trust and boundaries among family members and associates, some of whom struggle with alcoholism, a relative who she feels has taken advantage of her generosity, and shows a general frustration with the people surrounding her. The client discusses past episodes of significant aggressive behavior and indicates a history of violence.",
+        "core_beliefs": "I am helpless. | I am powerless, weak, vulnerable. | I am unlovable. | I am bound to be alone.",
+        "intermediate_beliefs": "People always take advantage of me, I need to be assertive to not be a victim, I must protect myself from being hurt by others, I can't rely on anyone.\nDepressive variant: When I'm depressed, I believe that I will always be alone because nobody cares, I'm unlovable, and it's useless to try because people will disappoint me.",
+        "coping_strategies": "Avoidance of social interactions to prevent feeling overwhelmed by rage, the client stays at home and isolates in the bedroom."
+      },
+      "idss": {
+        "relevant_history": 0.4699025669195302,
+        "core_beliefs": 0.09138838188815411,
+        "intermediate_beliefs": 0.369582049955089,
+        "coping_strategies": 0.34920155831534094,
+        "average": 0.32001863926952856
+      }
+    }
+  ]
+}

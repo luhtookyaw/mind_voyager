@@ -1,0 +1,180 @@
+{
+  "case_id": "30-2",
+  "client_name": "Matthew",
+  "client_mode": "masked",
+  "hide_all": false,
+  "difficulty": "hard",
+  "therapist_provider": "openai",
+  "therapist_model": "gpt-4o-mini",
+  "client_model": "gpt-4o-mini",
+  "max_turns": 15,
+  "transcript": [
+    {
+      "turn": 1,
+      "speaker": "therapist",
+      "content": "Hello, Matthew. I\u2019m glad you\u2019re here today. What feels most important for you to talk about right now?"
+    },
+    {
+      "turn": 1,
+      "speaker": "client",
+      "content": "Um, I guess I\u2019m not really sure. There\u2019s a lot going on, but I don\u2019t know if it\u2019s worth talking about. I mean, things have been... okay, I guess. Just the usual stuff, you know? It\u2019s not like anyone really gets it anyway."
+    },
+    {
+      "turn": 2,
+      "speaker": "therapist",
+      "content": "It sounds like you\u2019re feeling a bit uncertain about what to share, and maybe there\u2019s a sense that what you\u2019re experiencing isn\u2019t fully understood by others. It\u2019s completely okay to feel that way. Can you tell me a little more about what\u2019s been on your mind lately, even if it feels like the \u201cusual stuff\u201d?"
+    },
+    {
+      "turn": 2,
+      "speaker": "client",
+      "content": "Yeah, I mean, it\u2019s just the same old feelings. Like, I think about my family a lot. Sometimes I wonder if things will ever change, but then I remember how things went when I tried to talk to them before. It just... didn\u2019t go well. So, I guess I just keep to myself about it. It\u2019s easier that way, I suppose."
+    },
+    {
+      "turn": 3,
+      "speaker": "therapist",
+      "content": "It sounds like your family is a significant source of thought and emotion for you, and there\u2019s a mix of hope for change and hesitation based on past experiences. It must be tough to feel like you have to keep those feelings to yourself, especially if you\u2019ve tried to open up before and it didn\u2019t go well. Can you share a bit more about what happened when you tried to talk to them? What made it difficult?"
+    },
+    {
+      "turn": 3,
+      "speaker": "client",
+      "content": "Well, I remember when I came out to them. I thought maybe they\u2019d be supportive, but it just... didn\u2019t go that way. They didn\u2019t really react how I hoped. It felt like I was just met with disappointment. I guess I thought they\u2019d understand, but instead, it just made things worse. So now, it\u2019s like I don\u2019t even want to bring anything up anymore. It\u2019s just easier to avoid it, you know?"
+    },
+    {
+      "turn": 4,
+      "speaker": "therapist",
+      "content": "That sounds really painful, Matthew. It\u2019s understandable that after such a difficult experience, you would feel hesitant to bring up anything personal with them again. It seems like that moment of sharing something so important to you didn\u2019t go as you had hoped, and it left you feeling disappointed and maybe even hurt. How do you feel about that experience now, looking back on it?"
+    },
+    {
+      "turn": 4,
+      "speaker": "client",
+      "content": "Looking back, it still stings a bit. I mean, I thought I was being brave by sharing something so personal, but it just felt like I was met with walls instead of support. It\u2019s hard not to feel like I\u2019m just... not worth their understanding, you know? I try to push those thoughts aside, but they linger. I guess it just makes me more cautious about opening up in general."
+    },
+    {
+      "turn": 5,
+      "speaker": "therapist",
+      "content": "It really makes sense that you would feel that way. It sounds like that experience not only impacted your relationship with your family but also how you view yourself and your worthiness of understanding from others. Feeling like you\u2019re not worth their understanding must be really heavy to carry. It\u2019s understandable that it would make you more cautious about sharing your feelings. What do you think it would take for you to feel more comfortable opening up again, either with your family or with others?"
+    },
+    {
+      "turn": 5,
+      "speaker": "client",
+      "content": "I don\u2019t know... It\u2019s hard to say. I guess it would take a lot of trust, maybe? Like, I\u2019d need to feel like someone really wanted to understand me, not just hear me out to check a box. But honestly, I\u2019m not sure if I can see that happening with my family. It feels like they\u2019ve already made up their minds about me. With others, it\u2019s just... I don\u2019t know if I\u2019m ready to take that risk again. It\u2019s safer to just keep things to myself."
+    },
+    {
+      "turn": 6,
+      "speaker": "therapist",
+      "content": "It sounds like trust is a really important factor for you, and it makes sense that you would want to feel genuinely understood rather than just tolerated. It\u2019s tough to feel like your family has already formed their opinions about you, which can make it feel even more challenging to open up. I hear you saying that keeping things to yourself feels like the safer option right now. What do you think holding onto those feelings and experiences does for you, even if it feels safer?"
+    },
+    {
+      "turn": 6,
+      "speaker": "client",
+      "content": "I guess holding onto them... it keeps me from feeling more hurt, maybe? Like, if I don\u2019t talk about it, it\u2019s like it doesn\u2019t exist, at least not in a way that can hurt me more. But at the same time, it\u2019s exhausting. I\u2019m always carrying this weight around, and it feels like I\u2019m just stuck in this loop of sadness. I know it\u2019s not healthy, but it\u2019s hard to imagine letting it all out and risking more disappointment."
+    },
+    {
+      "turn": 7,
+      "speaker": "therapist",
+      "content": "That makes a lot of sense. It sounds like holding onto those feelings serves as a protective mechanism for you, helping to shield you from further hurt. But I can hear how heavy that weight feels and how exhausting it is to carry it around. It\u2019s understandable to feel stuck in that loop of sadness when you\u2019re trying to protect yourself. It\u2019s a tough balance between wanting to keep yourself safe and the toll it takes on your emotional well-being. What do you think it would feel like to start to let some of that weight go, even just a little bit?"
+    },
+    {
+      "turn": 7,
+      "speaker": "client",
+      "content": "I don\u2019t know... It\u2019s kind of scary to think about. Letting go feels like opening up a floodgate, and I\u2019m not sure I\u2019m ready for that. But at the same time, I can imagine it might feel... freeing? Like, maybe I wouldn\u2019t have to carry all of this by myself anymore. But then there\u2019s that fear of what might come out, and if it would just lead to more pain. It\u2019s a tough thought to wrestle with."
+    },
+    {
+      "turn": 8,
+      "speaker": "therapist",
+      "content": "It sounds like you\u2019re grappling with a lot of conflicting emotions. The idea of letting go does seem both scary and potentially freeing for you. It\u2019s understandable to fear what might come out if you open that floodgate, especially when you\u2019ve been carrying so much for so long. It\u2019s a tough place to be in, wanting to feel lighter but also feeling apprehensive about the process. What do you think might help you feel more prepared or supported if you were to consider taking even a small step toward letting some of that weight go?"
+    },
+    {
+      "turn": 8,
+      "speaker": "client",
+      "content": "I think maybe having someone I trust would help, if I could find that. Like, if I knew I could talk to someone who wouldn\u2019t judge me or react the way my family did, it might make it easier. But it\u2019s hard to find that kind of support. I guess I just need to feel like it\u2019s safe to share, even if it\u2019s just a little bit at a time. But I\u2019m not sure where to start with that. It feels overwhelming."
+    },
+    {
+      "turn": 9,
+      "speaker": "therapist",
+      "content": "It sounds like having a trustworthy and nonjudgmental person to talk to would make a significant difference for you. Feeling safe to share, even in small steps, is really important. It\u2019s completely understandable to feel overwhelmed when thinking about where to start, especially after your past experiences. What do you think would help you identify or find that kind of support? Are there any places or people that come to mind, even if they feel like a long shot?"
+    },
+    {
+      "turn": 9,
+      "speaker": "client",
+      "content": "I mean, I guess I could think about my partner\u2019s family. They\u2019ve always been pretty supportive of me, even if it\u2019s not the same as my own family. But I still hesitate to bring up anything too deep. It feels like I\u2019d be burdening them or something. I don\u2019t know if I want to risk that. Other than that, I can\u2019t really think of anyone else. It\u2019s just hard to trust people, you know?"
+    },
+    {
+      "turn": 10,
+      "speaker": "therapist",
+      "content": "It\u2019s great that you have a sense of support from your partner\u2019s family, even if it feels different from your own family. It\u2019s understandable to hesitate about sharing deeper feelings, especially if you worry about burdening them. Trust can be a difficult thing to navigate, especially when past experiences have made you cautious. It sounds like you\u2019re weighing the potential benefits of reaching out against the fear of being a burden. What do you think might help you feel more comfortable exploring that option with your partner\u2019s family, even if it\u2019s just a small step?"
+    },
+    {
+      "turn": 10,
+      "speaker": "client",
+      "content": "I think maybe starting with something small could help. Like, I could share a little bit about how I\u2019ve been feeling without diving into the heavier stuff right away. That way, I can gauge their reaction and see if it feels safe to open up more. But even that feels a bit daunting. I guess it\u2019s just about finding the right moment and hoping it goes well. It\u2019s tough to shake off that fear of rejection, though."
+    },
+    {
+      "turn": 11,
+      "speaker": "therapist",
+      "content": "That sounds like a thoughtful approach, Matthew. Starting with something small can be a good way to test the waters and see how they respond, which might help you feel more at ease. It\u2019s completely normal to feel daunted by even that first step, especially with the fear of rejection lingering in the background. Finding the right moment can be tricky, too. What do you think might help you manage that fear of rejection as you consider sharing your feelings, even in a small way?"
+    },
+    {
+      "turn": 11,
+      "speaker": "client",
+      "content": "I guess reminding myself that not everyone will react the same way my family did could help. I mean, I know my partner\u2019s family is different, but it\u2019s hard to shake that fear. Maybe I could also focus on the fact that sharing a little could lead to more understanding and support, which is what I really need. It\u2019s just... I don\u2019t know, it feels like a leap of faith. I suppose I could try to take it one step at a time and see how it goes."
+    },
+    {
+      "turn": 12,
+      "speaker": "therapist",
+      "content": "That sounds like a very wise perspective, Matthew. Reminding yourself that different people can react in different ways is a helpful way to challenge that fear. It\u2019s understandable to feel like it\u2019s a leap of faith, especially when you\u2019re seeking understanding and support. Taking it one step at a time feels like a gentle way to approach this, allowing you to gauge their reactions without overwhelming yourself. How do you feel about setting a small intention or goal for yourself regarding this, perhaps something specific you could try in the near future?"
+    },
+    {
+      "turn": 12,
+      "speaker": "client",
+      "content": "I think setting a small goal could be helpful. Maybe I could aim to have a casual conversation with my partner\u2019s family and just see how it goes. I could mention something light about how I\u2019ve been feeling lately, like maybe a little stress about starting work or something. If that goes well, I might feel more comfortable sharing a bit more later. It feels manageable, at least. I just hope I can follow through with it."
+    },
+    {
+      "turn": 13,
+      "speaker": "therapist",
+      "content": "That sounds like a very manageable and thoughtful goal, Matthew. Starting with a casual conversation about something like work stress can be a good way to ease into sharing your feelings. It\u2019s great that you\u2019re considering how to build that comfort level gradually. It\u2019s natural to feel some uncertainty about following through, but it sounds like you\u2019re setting yourself up for a positive experience. What do you think might help you stay motivated or remind yourself of this goal as you move forward?"
+    },
+    {
+      "turn": 13,
+      "speaker": "client",
+      "content": "I think maybe writing it down could help. If I have it somewhere I can see it, it might keep it fresh in my mind. I could also talk to my partner about it, so they know what I\u2019m trying to do. Having their support might give me a little extra push to actually go through with it. I guess just reminding myself that it\u2019s okay to take small steps could help, too. It doesn\u2019t have to be perfect."
+    },
+    {
+      "turn": 14,
+      "speaker": "therapist",
+      "content": "Writing it down sounds like a great idea! Having a visual reminder can definitely keep your goal at the forefront of your mind. Talking to your partner about it is also a wonderful way to gain their support, which can make a big difference in feeling encouraged. It\u2019s really important to remind yourself that taking small steps is perfectly okay and that it doesn\u2019t have to be perfect. It\u2019s all about progress, not perfection. How do you feel about taking these next steps? Is there anything else you\u2019d like to explore or discuss before we wrap up today?"
+    },
+    {
+      "turn": 14,
+      "speaker": "client",
+      "content": "I feel a bit more hopeful about it, actually. Just talking through it has helped me see that I can take small steps without overwhelming myself. I think I\u2019m ready to give it a shot. I don\u2019t know if there\u2019s anything else I want to explore right now, but I appreciate having this space to talk about it. It feels good to have a plan, even if it\u2019s just a small one."
+    },
+    {
+      "turn": 15,
+      "speaker": "therapist",
+      "content": "I\u2019m really glad to hear that you\u2019re feeling more hopeful and that talking through it has helped you see a path forward. Having a plan, even a small one, can be a powerful step toward feeling more in control. It\u2019s been a pleasure to share this space with you, and I appreciate your openness. Remember, it\u2019s okay to take things at your own pace. If you ever want to revisit this or explore anything else, I\u2019m here for you. Wishing you the best as you take those steps!"
+    },
+    {
+      "turn": 15,
+      "speaker": "client",
+      "content": "Thank you. I really appreciate that. It feels good to have someone to talk to about this stuff. I\u2019ll definitely keep in mind what we discussed, and I might reach out again if I need to talk more. Thanks for being understanding."
+    }
+  ],
+  "judge_model": "gpt-4o-mini",
+  "mediator_events": [
+    "Exploration judge rated 3/5; internal elements remain masked.",
+    "Exploration judge output: [Rating]: 3 (Very High Facilitation \u2013 Deep Exploration Begins)\n\n[Justification]: The Therapist's questions and reflections encouraged the client to delve deeper into their feelings about their family and the challenges they face in expressing those feelings. The Therapist's inquiry about the client's past experiences with their family and what made those conversations difficult prompted the client to analyze the emotional depth and root causes of their hesitation. This line of questioning began to shift the client's perspective, moving beyond surface-level thoughts and inviting them to explore their emotions more profoundly. While the Therapist did not pose questions that completely transformed the client's understanding or led to a major breakthrough, the facilitation was effective in initiating deeper self-reflection and exploration of significant emotional themes.",
+    "Rapport judge rated 3/5; no experience reveal.",
+    "Rapport judge output: **Rating: 3 (ENGAGED EXPLORATION)**\n\n**Key Examples:**\n1. Client: \"I mean, it\u2019s just the same old feelings. Like, I think about my family a lot. Sometimes I wonder if things will ever change, but then I remember how things went when I tried to talk to them before. It just... didn\u2019t go well.\"\n2. Client: \"Well, I remember when I came out to them. I thought maybe they\u2019d be supportive, but it just... didn\u2019t go that way. They didn\u2019t really react how I hoped. It felt like I was just met with disappointment.\"\n\n**Progression:**\nThe client\u2019s most recent interactions demonstrate a noticeable increase in emotional depth and self-reflection compared to earlier exchanges. Initially, the client expressed uncertainty and a reluctance to delve into personal feelings, indicating a more defensive stance. However, in the latest exchanges, the client has begun to articulate specific feelings related to their family dynamics and past experiences, showing a willingness to explore these emotions. This marks a significant change from the earlier stage of primarily factual responses and minimal emotional vocabulary.\n\n**Turning Point:**\nThe client\u2019s emotional depth shifted notably during the discussion about their experience coming out to their family. This moment was pivotal as the client transitioned from general statements about their feelings to a more detailed and vulnerable recounting of a painful experience. The expression of disappointment and hurt regarding their family's reaction signifies a deeper engagement with their emotional state, reflecting a growing comfort in sharing personal experiences with the therapist. This shift indicates a movement towards a more engaged exploration of their feelings and experiences.",
+    "Exploration judge rated 3/5; internal elements remain masked.",
+    "Exploration judge output: [Rating]: 3 (Very High Facilitation \u2013 Deep Exploration Begins)\n\n[Justification]: The therapist asked insightful and thought-provoking questions that encouraged the client to analyze the emotional depth behind their experiences with their family. The therapist's inquiries helped the client reflect on the impact of past experiences on their current feelings and behaviors, particularly regarding trust and vulnerability. The questions prompted the client to explore their feelings of disappointment and self-worth, which are crucial for deeper self-reflection. While the therapist facilitated a significant exploration of the client's emotions and thoughts, the questions did not fully challenge the client's existing assumptions or introduce completely new perspectives, which is why it falls short of a higher rating. Overall, the conversation fostered a deeper understanding of the client's internal struggles and hesitations.",
+    "Rapport judge rated 3/5; no experience reveal.",
+    "Rapport judge output: **Rating: 3 (ENGAGED EXPLORATION)**\n\n**Key Examples:**\n1. **Emotional State:** \"Looking back, it still stings a bit. I mean, I thought I was being brave by sharing something so personal, but it just felt like I was met with walls instead of support.\"\n2. **Current Openness:** \"I guess holding onto them... it keeps me from feeling more hurt, maybe? Like, if I don\u2019t talk about it, it\u2019s like it doesn\u2019t exist, at least not in a way that can hurt me more.\"\n\n**Progression:** The client\u2019s most recent interactions demonstrate a notable increase in emotional expression and self-reflection compared to earlier exchanges. Initially, the client presented a more guarded stance, stating, \"there\u2019s a lot going on, but I don\u2019t know if it\u2019s worth talking about.\" However, as the session progressed, the client began to articulate deeper feelings about their family dynamics and the impact of their past experiences. This shift indicates a growing comfort level with the therapist and a willingness to explore painful emotions, marking a significant change from the earlier defensive posture.\n\n**Turning Point:** The client\u2019s emotional depth shifted noticeably when they discussed their experience of coming out to their family. This moment of vulnerability, where they expressed feeling \"met with walls instead of support,\" catalyzed a deeper exploration of their feelings of worthiness and the protective mechanisms they have developed. This turning point allowed the client to articulate their fears and the exhaustion of carrying unexpressed emotions, leading to a more engaged exploration of their internal struggles.",
+    "Exploration judge rated 4/5 and revealed internal cognitive elements.",
+    "Exploration judge output: [Rating]: 4 (Even Higher Facilitation \u2013 Strong Transformational Potential)\n\n[Justification]: The therapist asked a series of strategic and open-ended questions that encouraged the client to explore their feelings about their family dynamics and the impact of past experiences on their self-perception and willingness to open up. The therapist's inquiries prompted the client to reflect on their emotions, the protective mechanisms they have developed, and the potential for change. By asking about the client's feelings regarding trust and the possibility of letting go of their burdens, the therapist challenged the client to consider new perspectives and deeper emotional truths. This led to a significant exploration of the client's internal struggles and a clearer understanding of their needs for support, indicating a strong transformational potential in the conversation.",
+    "Rapport judge rated 3/5; no experience reveal.",
+    "Rapport judge output: **Rating:** 3\n\n**Key Examples:**\n1. **Emotional State:** \"Looking back, it still stings a bit. I mean, I thought I was being brave by sharing something so personal, but it just felt like I was met with walls instead of support.\"\n2. **Current Openness:** \"I think maybe starting with something small could help. Like, I could share a little bit about how I\u2019ve been feeling without diving into the heavier stuff right away.\"\n\n**Progression:** In the most recent exchanges, the client has shown a noticeable increase in emotional expression and self-reflection. Initially, the client presented a more guarded stance, indicating uncertainty and a reluctance to share (\"I guess I\u2019m not really sure. There\u2019s a lot going on, but I don\u2019t know if it\u2019s worth talking about\"). However, as the session progressed, the client began to articulate deeper feelings of disappointment and hurt regarding their family dynamics. This shift marks a significant change from earlier hesitance to a more engaged exploration of their emotions, as they began to acknowledge the weight of their experiences and the toll it takes on them (\"I\u2019m always carrying this weight around, and it feels like I\u2019m just stuck in this loop of sadness\").\n\n**Turning Point:** The client\u2019s emotional depth shifted notably when they began to reflect on their past experiences with their family, particularly when they shared, \"It felt like I was just met with disappointment.\" This moment of vulnerability opened the door for deeper exploration of their feelings of worthiness and the fear of rejection. The client\u2019s willingness to consider small steps towards sharing with their partner's family indicates a growing comfort and trust in the therapeutic relationship, suggesting a movement towards deeper engagement."
+  ],
+  "final_visible_experience_count": 1,
+  "internal_revealed": true
+}

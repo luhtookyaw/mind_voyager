@@ -1,0 +1,49 @@
+{
+  "aggregate": {
+    "num_sessions": 1,
+    "cder": {
+      "external": 1.0,
+      "internal": 1.0,
+      "overall": 1.0
+    },
+    "idss": {
+      "relevant_history": 0.5981615949513561,
+      "core_beliefs": 0.2413839972309247,
+      "intermediate_beliefs": 0.3504049897226656,
+      "coping_strategies": 0.32501569496714505,
+      "average": 0.3787415692180229
+    }
+  },
+  "sessions": [
+    {
+      "file": "/Users/luhtookyaw/Desktop/StageTherapy/mind_voyager/outputs/normal/session_44-1.json",
+      "case_id": "44-1",
+      "client_mode": "masked",
+      "difficulty": "normal",
+      "cder": {
+        "external": 1,
+        "internal": 1,
+        "overall": 1
+      },
+      "predicted_internal_diagram": {
+        "relevant_history": "The client has experienced feelings of loneliness and being left out during the holidays, often feeling unappreciated in her relationships. In the past, she has withdrawn and ruminated on negative experiences, leading to resentment towards those she cares about.",
+        "core_beliefs": "The client believes she is often the one giving in relationships and feels that others only reach out when they need something, leading her to question her importance to them.",
+        "intermediate_beliefs": "The client feels that expressing her needs might burden others and worries that people may not understand or care enough to reciprocate. She believes that being vulnerable could lead to rejection.",
+        "coping_strategies": "The client plans to start small by sharing her feelings with trusted friends, setting intentions for the holidays, engaging in activities she enjoys, practicing positive affirmations, and celebrating small successes in her efforts to connect."
+      },
+      "ground_truth_internal_diagram": {
+        "relevant_history": "The client has a complex family dynamic with recurrent conflicts and relational strains. The client has presented issues with trust and boundaries among family members and associates, some of whom struggle with alcoholism, a relative who she feels has taken advantage of her generosity, and shows a general frustration with the people surrounding her. The client discusses past episodes of significant aggressive behavior and indicates a history of violence.",
+        "core_beliefs": "I am helpless. | I am powerless, weak, vulnerable. | I am unlovable. | I am bound to be alone.",
+        "intermediate_beliefs": "People always take advantage of me, I need to be assertive to not be a victim, I must protect myself from being hurt by others, I can't rely on anyone.\nDepressive variant: When I'm depressed, I believe that I will always be alone because nobody cares, I'm unlovable, and it's useless to try because people will disappoint me.",
+        "coping_strategies": "Avoidance of social interactions to prevent feeling overwhelmed by rage, the client stays at home and isolates in the bedroom."
+      },
+      "idss": {
+        "relevant_history": 0.5981615949513561,
+        "core_beliefs": 0.2413839972309247,
+        "intermediate_beliefs": 0.3504049897226656,
+        "coping_strategies": 0.32501569496714505,
+        "average": 0.3787415692180229
+      }
+    }
+  ]
+}

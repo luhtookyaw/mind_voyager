@@ -1,0 +1,49 @@
+{
+  "aggregate": {
+    "num_sessions": 1,
+    "cder": {
+      "external": 1.0,
+      "internal": 1.0,
+      "overall": 1.0
+    },
+    "idss": {
+      "relevant_history": 0.4361472742542258,
+      "core_beliefs": 0.22431647345815287,
+      "intermediate_beliefs": 0.2899402059478575,
+      "coping_strategies": 0.422270621451085,
+      "average": 0.3431686437778303
+    }
+  },
+  "sessions": [
+    {
+      "file": "/Users/luhtookyaw/Desktop/StageTherapy/mind_voyager/outputs/normal/session_25-3.json",
+      "case_id": "25-3",
+      "client_mode": "masked",
+      "difficulty": "normal",
+      "cder": {
+        "external": 1,
+        "internal": 1,
+        "overall": 1
+      },
+      "predicted_internal_diagram": {
+        "relevant_history": "The client has been feeling frustrated and judged, particularly after a conversation with a friend who described him as controlling, which made him feel sad, angry, and lonely.",
+        "core_beliefs": "The client believes that being seen as controlling means he is failing at being a good friend or person, and he desires to be reliable and supportive.",
+        "intermediate_beliefs": "The client values supportiveness, honesty, and the ability to lift others up, but feels confused and uncertain about his impact on others after receiving critical feedback.",
+        "coping_strategies": "The client plans to prepare for a conversation by writing down his thoughts, reminding himself that it's okay to feel anxious, and taking small steps like sending a light text to check in with his friend."
+      },
+      "ground_truth_internal_diagram": {
+        "relevant_history": "The patient works in an educational setting with children with learning disabilities. The patient has had a history of being babied by his parents, facing little punishment or consequences for his actions, leading to conflicts with authority and frustration when things don't go his way. He has been frustrated by the difference between his expectations and reality both in his job and personal life.",
+        "core_beliefs": "I am incompetent. | I am powerless, weak, vulnerable. | I am a failure, loser.",
+        "intermediate_beliefs": "My efforts must have desired impact. I must have authority and influence, otherwise I'm a failure. The changes I make must proceed smoothly.\nDepressive variant: My efforts in both work and life are unproductive and futile, I'm powerless and ineffective in everything. I'm a failure.",
+        "coping_strategies": "The patient tends to become frustrated and angry, yet internally conceals these feelings. He uses verbal self-expression to relieve frustration and are aware of his tendency to erupt like a 'volcano' and talk to himself as a form of coping."
+      },
+      "idss": {
+        "relevant_history": 0.4361472742542258,
+        "core_beliefs": 0.22431647345815287,
+        "intermediate_beliefs": 0.2899402059478575,
+        "coping_strategies": 0.422270621451085,
+        "average": 0.3431686437778303
+      }
+    }
+  ]
+}

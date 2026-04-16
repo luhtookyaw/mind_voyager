@@ -1,0 +1,184 @@
+{
+  "case_id": "23-3",
+  "client_name": "Ashley",
+  "client_mode": "masked",
+  "hide_all": false,
+  "difficulty": "hard",
+  "therapist_provider": "openai",
+  "therapist_model": "gpt-4o-mini",
+  "client_model": "gpt-4o-mini",
+  "max_turns": 15,
+  "transcript": [
+    {
+      "turn": 1,
+      "speaker": "therapist",
+      "content": "Hello, Ashley. I\u2019m glad you\u2019re here today. What feels most important for you to talk about right now?"
+    },
+    {
+      "turn": 1,
+      "speaker": "client",
+      "content": "Um, I guess I\u2019m not really sure. There\u2019s a lot going on, but I don\u2019t want to make it a big deal or anything. I mean, it\u2019s just... sometimes I feel like my feelings don\u2019t really matter, you know? Like, I shouldn\u2019t be so emotional about things. It\u2019s probably just me."
+    },
+    {
+      "turn": 2,
+      "speaker": "therapist",
+      "content": "It sounds like you\u2019re feeling a bit overwhelmed by your emotions and questioning their validity. It\u2019s understandable to feel that way, especially when there\u2019s a lot happening. Can you tell me more about what\u2019s been going on that\u2019s led you to feel this way?"
+    },
+    {
+      "turn": 2,
+      "speaker": "client",
+      "content": "Well, um, there\u2019s been some tension at home. Like, when I try to express how I feel, it just seems to make things worse. My mom, she... I don\u2019t know, she just doesn\u2019t really get it. I end up feeling like I\u2019m the only one who cares too much or something. So, I just try to keep it all inside. It\u2019s easier that way, I guess."
+    },
+    {
+      "turn": 3,
+      "speaker": "therapist",
+      "content": "It sounds like there\u2019s a lot of tension at home, and when you try to express your feelings, it feels like it doesn\u2019t go well. You mentioned feeling like you might be the only one who cares, which must be really isolating. Keeping your feelings inside seems like a way to cope, but I wonder how that affects you over time. Can you share more about what it\u2019s like for you when you hold those feelings in?"
+    },
+    {
+      "turn": 3,
+      "speaker": "client",
+      "content": "I mean, it\u2019s just... it gets really heavy, you know? Like, I try to act like everything\u2019s fine, but inside, I\u2019m just... I feel anxious and worried all the time. Sometimes I just cry alone later because I can\u2019t really talk about it. It\u2019s like I\u2019m stuck in my own head, and I don\u2019t know how to get out. I guess I just don\u2019t want to make things worse or be a burden."
+    },
+    {
+      "turn": 4,
+      "speaker": "therapist",
+      "content": "That sounds really tough, Ashley. It seems like you\u2019re carrying a lot of weight by trying to keep everything inside, and it\u2019s understandable to feel anxious and worried when you\u2019re in that situation. Crying alone can be a release, but it also sounds lonely. You mentioned not wanting to be a burden, which can be a heavy belief to carry. Can you share more about where that belief comes from for you?"
+    },
+    {
+      "turn": 4,
+      "speaker": "client",
+      "content": "I don\u2019t know... I guess it\u2019s just how things have always been. Like, whenever I try to say something, it feels like I\u2019m just adding to the problems. My mom gets stressed out, and I don\u2019t want to make her feel worse. So, I just think it\u2019s better if I keep quiet. I don\u2019t want to be the reason for any more conflict. It\u2019s like, if I just stay out of it, maybe everything will be okay. But then I end up feeling... well, alone, I guess."
+    },
+    {
+      "turn": 5,
+      "speaker": "therapist",
+      "content": "It sounds like you\u2019ve learned to prioritize your mom\u2019s feelings and the overall peace at home over your own needs, which makes sense given your experiences. It\u2019s understandable to want to avoid conflict, but it also leaves you feeling isolated and alone. That\u2019s a difficult balance to navigate. How do you feel about the idea of expressing your feelings, even if it feels risky? What thoughts come up for you when you consider that?"
+    },
+    {
+      "turn": 5,
+      "speaker": "client",
+      "content": "I mean, it\u2019s scary to think about. I worry that if I say something, it\u2019ll just blow up into a bigger issue. Like, what if my mom gets upset or doesn\u2019t understand? I don\u2019t want to be the one causing more problems. Sometimes I think maybe it\u2019s just not worth it. But then I also feel... trapped, I guess? Like, if I don\u2019t say anything, I\u2019m just stuck with all this stuff inside. It\u2019s frustrating. I just don\u2019t know how to find that balance."
+    },
+    {
+      "turn": 6,
+      "speaker": "therapist",
+      "content": "It makes sense that you feel scared about expressing yourself, given your concerns about potential conflict and your mom\u2019s reactions. It sounds like you\u2019re caught between wanting to be honest about your feelings and the fear of making things worse. Feeling trapped by your emotions can be really frustrating, especially when you\u2019re trying to navigate that balance. What do you think might help you explore this balance a little more? Are there small steps you could consider taking?"
+    },
+    {
+      "turn": 6,
+      "speaker": "client",
+      "content": "I\u2019m not sure... I guess maybe I could try to write things down first? Like, if I put my thoughts on paper, it might help me figure out what I really want to say without feeling so overwhelmed. But then, I worry about actually sharing it. What if it doesn\u2019t come out right? Or what if it just makes everything worse? I don\u2019t know if I\u2019m ready for that. It feels like a lot."
+    },
+    {
+      "turn": 7,
+      "speaker": "therapist",
+      "content": "Writing things down sounds like a thoughtful approach. It could give you a chance to clarify your feelings without the immediate pressure of a conversation. It\u2019s completely normal to feel apprehensive about sharing those thoughts, especially when you\u2019re worried about how they might be received. It sounds like you\u2019re weighing the potential risks against the need to express yourself. What do you think might help you feel more prepared or supported if you decide to share what you\u2019ve written?"
+    },
+    {
+      "turn": 7,
+      "speaker": "client",
+      "content": "Maybe if I had some time to think about it and, like, practice what I want to say, that could help. I guess having someone to talk to about it first would be nice, too. But I\u2019m not sure who I could trust with that. I don\u2019t want to burden anyone else with my problems. It\u2019s just hard to know how to start. I feel like I need some kind of... support, but I don\u2019t really know where to find it."
+    },
+    {
+      "turn": 8,
+      "speaker": "therapist",
+      "content": "It sounds like taking time to think and practice could really help you feel more confident. It\u2019s understandable to feel unsure about who to trust with your feelings, especially when you\u2019re concerned about burdening others. Finding support can be challenging, but it\u2019s important to remember that everyone needs someone to lean on sometimes. What qualities do you think would be important in someone you could talk to about this?"
+    },
+    {
+      "turn": 8,
+      "speaker": "client",
+      "content": "I guess I\u2019d want someone who\u2019s understanding and patient. Someone who won\u2019t judge me for feeling the way I do. It would be nice if they could just listen without trying to fix everything right away. I don\u2019t know if I have anyone like that in my life, though. It feels like everyone\u2019s dealing with their own stuff, and I don\u2019t want to add to it. But I think having that kind of support would make it easier to open up."
+    },
+    {
+      "turn": 9,
+      "speaker": "therapist",
+      "content": "It sounds like you\u2019re looking for a safe space where you can express yourself without fear of judgment or pressure to fix things. That\u2019s a really important quality in a supportive person. It\u2019s understandable to feel hesitant about reaching out, especially when you perceive that others are also struggling. It can feel isolating when you think you don\u2019t have that support. Have you considered any options for finding that kind of understanding, whether it\u2019s through friends, family, or perhaps even a support group or professional?"
+    },
+    {
+      "turn": 9,
+      "speaker": "client",
+      "content": "I haven\u2019t really thought about a support group or anything like that. It feels a bit intimidating, to be honest. I mean, talking to strangers about my feelings? But maybe it could help to hear from others who are going through similar things. I just don\u2019t know if I\u2019m ready for that. I guess I could try talking to a friend, but I\u2019m still worried about burdening them. It\u2019s hard to know what to do."
+    },
+    {
+      "turn": 10,
+      "speaker": "therapist",
+      "content": "It\u2019s completely understandable to feel intimidated by the idea of a support group or sharing with friends. Opening up to strangers can feel daunting, but it\u2019s also true that hearing from others who have similar experiences can provide comfort and connection. It\u2019s okay to take your time with this process. Talking to a friend might feel like a smaller step, and it\u2019s natural to worry about burdening them. Sometimes, friends appreciate the opportunity to support each other. How do you think you might approach a friend if you decide to share your feelings with them?"
+    },
+    {
+      "turn": 10,
+      "speaker": "client",
+      "content": "I guess I could start by just saying that I\u2019ve been feeling a bit overwhelmed lately. Maybe I could ask if they\u2019re okay with me sharing some of what\u2019s been on my mind. I think I\u2019d want to make it clear that I don\u2019t expect them to fix anything, just... to listen. But even thinking about that makes me a little anxious. What if they don\u2019t know what to say or they seem uncomfortable? I just don\u2019t want to make things awkward. It\u2019s tough to figure out how to start that conversation."
+    },
+    {
+      "turn": 11,
+      "speaker": "therapist",
+      "content": "It sounds like you have a thoughtful approach in mind for starting that conversation, which is a great first step. Expressing that you\u2019re feeling overwhelmed and asking for their willingness to listen can help set the tone. It\u2019s natural to feel anxious about how the other person might respond, especially when you\u2019re concerned about making things awkward. Remember, it\u2019s okay if the conversation doesn\u2019t go perfectly; what matters is that you\u2019re taking a step to share your feelings. How do you think you might manage those feelings of anxiety if they come up during the conversation?"
+    },
+    {
+      "turn": 11,
+      "speaker": "client",
+      "content": "I guess I could try to remind myself that it\u2019s okay to feel anxious and that my friend might not have all the answers. Maybe I could take a few deep breaths before I start talking to help calm my nerves. I could also remind myself that it\u2019s a safe space, and my friend is there to support me. But, honestly, I\u2019m still worried about how I\u2019ll feel in the moment. It\u2019s hard to shake that anxiety. I just hope I can get through it without feeling too overwhelmed."
+    },
+    {
+      "turn": 12,
+      "speaker": "therapist",
+      "content": "Those are really helpful strategies to manage your anxiety. Reminding yourself that it\u2019s okay to feel anxious and that your friend is there to support you can create a sense of safety. Deep breathing is a great tool to help ground yourself in the moment, too. It\u2019s completely normal to feel worried about how you\u2019ll feel during the conversation, especially when it\u2019s something so personal. It might be helpful to acknowledge that it\u2019s okay to feel overwhelmed, and that you can take it at your own pace. If it feels right, you could even share with your friend that you\u2019re feeling anxious about opening up. How does that idea sit with you?"
+    },
+    {
+      "turn": 12,
+      "speaker": "client",
+      "content": "That actually makes sense. If I tell my friend that I\u2019m feeling anxious about opening up, it might help them understand where I\u2019m coming from. It could even make it easier for me to share, knowing they know how I\u2019m feeling. I guess it\u2019s okay to be vulnerable like that. It\u2019s just a little scary to think about, but maybe it would help us connect more. I\u2019ll have to think about how to phrase it when I do decide to talk to them."
+    },
+    {
+      "turn": 13,
+      "speaker": "therapist",
+      "content": "It sounds like you\u2019re really starting to see the potential for connection through vulnerability, even though it feels scary. Sharing your anxiety with your friend could indeed create a deeper understanding and make it easier for you to express yourself. Taking the time to think about how to phrase it is a great idea, as it can help you feel more prepared. Remember, it\u2019s okay to take your time with this process. How are you feeling about the possibility of talking to your friend now that we\u2019ve explored it a bit?"
+    },
+    {
+      "turn": 13,
+      "speaker": "client",
+      "content": "I feel a little more hopeful about it, actually. Talking about it here has helped me think through some of my worries, and I can see how it might be a good step. I still feel nervous, but maybe that\u2019s normal. I think I\u2019ll try to write down what I want to say and practice it a bit. Just having a plan makes it feel a little less overwhelming. I appreciate you helping me work through this. It feels nice to have a clearer idea of how to approach it."
+    },
+    {
+      "turn": 14,
+      "speaker": "therapist",
+      "content": "I\u2019m really glad to hear that you\u2019re feeling more hopeful and that our conversation has helped you clarify your thoughts. It\u2019s completely normal to feel nervous, and having a plan can definitely make things feel more manageable. Writing down what you want to say and practicing it sounds like a solid approach. Remember, it\u2019s okay to take things at your own pace. If you ever want to talk more about this or anything else, I\u2019m here to support you. What\u2019s one small step you\u2019d like to take next?"
+    },
+    {
+      "turn": 14,
+      "speaker": "client",
+      "content": "I think the next small step I\u2019d like to take is to write down my thoughts and feelings. I\u2019ll try to organize what I want to say to my friend, so it feels less jumbled in my head. Maybe I can set aside some time this week to do that. Once I have it written down, I\u2019ll feel more ready to talk to them. It feels good to have a plan, even if it\u2019s just a small one. Thank you for helping me get to this point."
+    },
+    {
+      "turn": 15,
+      "speaker": "therapist",
+      "content": "That sounds like a wonderful plan, Ashley. Setting aside time to write down your thoughts and feelings can really help you organize everything and feel more prepared for your conversation. It\u2019s great to hear that you\u2019re feeling good about having a plan, even if it\u2019s a small step. Remember, every little step counts. I\u2019m glad I could help you get to this point, and I\u2019m here if you want to talk more about it in the future. Wishing you the best as you take this next step!"
+    },
+    {
+      "turn": 15,
+      "speaker": "client",
+      "content": "Thank you! I really appreciate your support. It feels nice to have someone to talk to about this. I\u2019ll definitely keep in mind what we discussed, and I\u2019ll let you know how it goes when I talk to my friend. It feels a bit less daunting now. Thanks again for being here for me."
+    }
+  ],
+  "judge_model": "gpt-4o-mini",
+  "mediator_events": [
+    "Exploration judge rated 3/5; internal elements remain masked.",
+    "Exploration judge output: [Rating]: 3 (Very High Facilitation \u2013 Deep Exploration Begins)\n\n[Justification]: The Therapist asked insightful and thought-provoking questions that encouraged the client to analyze the emotional depth behind their experiences. By reflecting on the impact of holding in feelings and the isolation that comes from feeling misunderstood, the Therapist facilitated a deeper exploration of the client's emotions and the dynamics at home. The question about how keeping feelings inside affects the client over time invites further self-reflection and analysis of their coping mechanisms, indicating a shift in perspective. However, while the questions are effective in promoting deeper exploration, they do not yet push the client to challenge their assumptions or reveal hidden motivations to the extent that would warrant a higher rating.",
+    "Rapport judge rated 3/5; no experience reveal.",
+    "Rapport judge output: **Rating: 3 (ENGAGED EXPLORATION)**\n\n**Key Examples:**\n1. **Emotional State:** \"I mean, it\u2019s just... it gets really heavy, you know? Like, I try to act like everything\u2019s fine, but inside, I\u2019m just... I feel anxious and worried all the time.\"\n2. **Current Openness:** \"I guess I just don\u2019t want to make things worse or be a burden.\"\n\n**Progression:** The client\u2019s most recent interactions demonstrate a noticeable increase in emotional expression and self-reflection. Initially, they presented a hesitant stance, downplaying their feelings and expressing uncertainty about their importance. However, in the latest exchanges, the client articulates their internal struggles more openly, describing feelings of anxiety and the heaviness of keeping emotions bottled up. This marks a significant change from earlier in the session, where they were more guarded and focused on minimizing their emotional experiences.\n\n**Turning Point:** The client\u2019s emotional depth shifted notably when they began to articulate the heaviness of their feelings and the anxiety associated with suppressing them. This moment of vulnerability, where they acknowledged crying alone and feeling isolated, indicates a deeper level of self-awareness and willingness to engage in the therapeutic process. Their expression of not wanting to be a burden reflects a significant internal conflict, highlighting their emotional struggles and the desire for connection, which further strengthens the therapeutic alliance.",
+    "Exploration judge rated 3/5; internal elements remain masked.",
+    "Exploration judge output: [Rating]: 3 (Very High Facilitation \u2013 Deep Exploration Begins)\n\n[Justification]: The therapist asked insightful and thought-provoking questions that encouraged the client to analyze the root causes of their feelings and the patterns in their behavior. The questions helped the client reflect on their beliefs about expressing emotions and the impact of those beliefs on their well-being. For instance, the therapist's inquiry about the origins of the client's belief that they might be a burden was particularly effective in prompting deeper self-reflection. While the therapist facilitated a significant exploration of the client's emotional landscape, the questions did not fully challenge the client's existing thought patterns or introduce completely new perspectives that could lead to a major insight or breakthrough. Thus, the rating reflects a strong facilitation of deep exploration, but not to the highest level of transformational potential.",
+    "Rapport judge rated 3/5; no experience reveal.",
+    "Rapport judge output: **Rating: 3 (ENGAGED EXPLORATION)**\n\n**Key Examples:**\n1. \"I mean, it\u2019s just... it gets really heavy, you know? Like, I try to act like everything\u2019s fine, but inside, I\u2019m just... I feel anxious and worried all the time.\"\n2. \"I guess maybe I could try to write things down first? Like, if I put my thoughts on paper, it might help me figure out what I really want to say without feeling so overwhelmed.\"\n\n**Progression:**\nThe client\u2019s most recent interactions demonstrate a notable increase in emotional expression and self-reflection. They are beginning to articulate their feelings of anxiety and isolation more clearly, moving from a place of hesitance to a more engaged exploration of their emotions. Earlier in the session, the client expressed uncertainty and a desire to minimize their feelings, indicating a defensive stance. However, as the session progressed, they began to share deeper insights into their emotional state, revealing the heaviness they feel from suppressing their emotions and the anxiety that accompanies it. This marks a significant change from their earlier reluctance to discuss their feelings.\n\n**Turning Point:**\nA pivotal moment occurred when the client articulated, \"I feel anxious and worried all the time,\" which signified a shift from merely acknowledging their feelings to actively engaging with them. This moment allowed for deeper exploration of their emotional landscape and highlighted their struggle with feeling trapped by their emotions. The client\u2019s willingness to consider writing down their feelings as a method of expression further illustrates their growing comfort with the therapeutic process and their desire to find a way to articulate their emotions more effectively.",
+    "Exploration judge rated 3/5; internal elements remain masked.",
+    "Exploration judge output: [Rating]: 3 (Very High Facilitation \u2013 Deep Exploration Begins)\n\n[Justification]: The therapist asked insightful and thought-provoking questions that encouraged the client to analyze the emotional depth behind their experiences and explore the root causes of their feelings of isolation and fear of expressing emotions. The therapist's inquiries about the client's belief of being a burden and the potential risks of expressing feelings prompted deeper self-reflection. However, while the questions were effective in facilitating exploration, they did not fully challenge the client's existing thought patterns to the extent that would lead to a significant shift in perspective. The conversation remained focused on the client's current struggles without introducing completely new angles or challenging assumptions to a transformative degree.",
+    "Rapport judge rated 3/5; no experience reveal.",
+    "Rapport judge output: **Rating: 3 (ENGAGED EXPLORATION)**\n\n**Key Examples:**\n1. \"I mean, it\u2019s just... it gets really heavy, you know? Like, I try to act like everything\u2019s fine, but inside, I\u2019m just... I feel anxious and worried all the time.\"\n2. \"I guess I could start by just saying that I\u2019ve been feeling a bit overwhelmed lately. Maybe I could ask if they\u2019re okay with me sharing some of what\u2019s been on my mind.\"\n\n**Progression:**\nThe client\u2019s recent interactions reveal a notable increase in emotional expression and self-reflection. They articulate feelings of anxiety and worry, indicating a deeper engagement with their emotional state. This marks a significant change from earlier in the session, where they initially downplayed their feelings and expressed hesitance to share. The client is beginning to explore their emotions more openly, demonstrating a willingness to discuss their struggles and consider potential steps toward expressing themselves.\n\n**Turning Point:**\nA notable turning point occurred when the client began to articulate their feelings of being overwhelmed and the heaviness of keeping emotions inside. This shift is evident when they stated, \"I feel anxious and worried all the time,\" which reflects a deeper level of emotional awareness and vulnerability. This moment marked a transition from merely describing their situation to actively engaging in self-reflection about their emotional experiences and the impact of their coping mechanisms. The client is starting to recognize the importance of expressing their feelings, which is a critical step in their therapeutic journey.",
+    "Exploration judge rated 3/5; internal elements remain masked.",
+    "Exploration judge output: [Rating]: 3 (Very High Facilitation \u2013 Deep Exploration Begins)\n\n[Justification]: The therapist engaged in a thoughtful and empathetic dialogue with the client, asking insightful questions that encouraged deeper reflection on the client's feelings and experiences. The therapist's inquiries about the client's belief of being a burden and the impact of holding in emotions prompted the client to analyze their emotional state and the dynamics at home. The questions began to shift the client's perspective, particularly when discussing the balance between expressing feelings and fearing conflict. However, while the therapist facilitated a significant exploration of the client's emotions and thoughts, the questions did not fully challenge the client\u2019s existing beliefs or introduce completely new angles that could lead to a profound breakthrough. Thus, the facilitation was strong but did not reach the highest level of transformational potential.",
+    "Exploration judge rated 4/5 and revealed internal cognitive elements.",
+    "Exploration judge output: [Rating]: 4 (Even Higher Facilitation \u2013 Strong Transformational Potential)\n\n[Justification]: The therapist asked strategic and open-ended questions that encouraged the client to explore their feelings and beliefs about expressing emotions, particularly in the context of their family dynamics. The therapist effectively challenged the client's assumptions about being a burden and the fear of conflict, prompting deeper self-reflection. For example, when the therapist asked about the origins of the client's belief that they shouldn't express their feelings, it led to a significant exploration of the client's past experiences and current emotional state. The therapist also facilitated the client's consideration of practical steps to express their feelings, which introduced new angles for the client to consider. Overall, the therapist's questions pushed the client towards a clearer understanding of their emotions and the potential for connection, leading to a shift in self-awareness and hopefulness about taking action."
+  ],
+  "final_visible_experience_count": 1,
+  "internal_revealed": true
+}

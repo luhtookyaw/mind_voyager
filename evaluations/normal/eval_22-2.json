@@ -1,0 +1,49 @@
+{
+  "aggregate": {
+    "num_sessions": 1,
+    "cder": {
+      "external": 1.0,
+      "internal": 1.0,
+      "overall": 1.0
+    },
+    "idss": {
+      "relevant_history": 0.6842532985247209,
+      "core_beliefs": 0.17906007242500524,
+      "intermediate_beliefs": 0.1215203459050372,
+      "coping_strategies": 0.281239659659961,
+      "average": 0.3165183441286811
+    }
+  },
+  "sessions": [
+    {
+      "file": "/Users/luhtookyaw/Desktop/StageTherapy/mind_voyager/outputs/normal/session_22-2.json",
+      "case_id": "22-2",
+      "client_mode": "masked",
+      "difficulty": "normal",
+      "cder": {
+        "external": 1,
+        "internal": 1,
+        "overall": 1
+      },
+      "predicted_internal_diagram": {
+        "relevant_history": "The client has experienced past events that have significantly affected her, leading to feelings of frustration and hurt, particularly in relation to Ivan's family.",
+        "core_beliefs": "The client feels misunderstood and alone, believing that others do not recognize the depth of her experiences.",
+        "intermediate_beliefs": "The client fears being dismissed or seen as overly dramatic if she expresses her feelings, which leads to internal conflict about speaking up.",
+        "coping_strategies": "The client copes by ruminating on her feelings, imagining standing up to others, and plans to write down her thoughts to clarify her feelings before discussing them."
+      },
+      "ground_truth_internal_diagram": {
+        "relevant_history": "The patient has been dealing with complex interpersonal relations, particularly with a significant other named Ivan and his family. A series of betrayals and trust issues have recently emerged from Ivan, and his family seems to avoid taking intervention in these matters. The patient has been actively involved with the family but feels anger and betrayal due to their recent actions and avoidance.",
+        "core_beliefs": "I am helpless. | I am a victim. | I am trapped. | I am unlovable. | I am bound to be abandoned.",
+        "intermediate_beliefs": "I must keep good peace with family members and get support from them, otherwise I'm helpless and trapped. My partner should never betray or deceive me. If it happened, the harm will never be remedied.\nDepressive variant: Betrayal and deceit will happen at any time, even people who say love me will lie and hurt me eventually. There's no trust left between Ivan and I. Nobody in this family is supporting me. There's no solution to everything and I'm helpless and trapped",
+        "coping_strategies": "Wendy copes with by being on high alert of any suspicious behaviors or red flags from Ivan; and has resorted to checking his phone and tracking his location. Wendy also goes to therapy and seems willing to engage in change."
+      },
+      "idss": {
+        "relevant_history": 0.6842532985247209,
+        "core_beliefs": 0.17906007242500524,
+        "intermediate_beliefs": 0.1215203459050372,
+        "coping_strategies": 0.281239659659961,
+        "average": 0.3165183441286811
+      }
+    }
+  ]
+}

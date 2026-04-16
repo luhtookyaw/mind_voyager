@@ -1,0 +1,49 @@
+{
+  "aggregate": {
+    "num_sessions": 1,
+    "cder": {
+      "external": 0.0,
+      "internal": 1.0,
+      "overall": 0.0
+    },
+    "idss": {
+      "relevant_history": 0.650700143592508,
+      "core_beliefs": 0.22729068365533245,
+      "intermediate_beliefs": 0.4872411087731289,
+      "coping_strategies": 0.5313929837736777,
+      "average": 0.4741562299486618
+    }
+  },
+  "sessions": [
+    {
+      "file": "/Users/luhtookyaw/Desktop/StageTherapy/mind_voyager/outputs/hard/session_20-2.json",
+      "case_id": "20-2",
+      "client_mode": "masked",
+      "difficulty": "hard",
+      "cder": {
+        "external": 0,
+        "internal": 1,
+        "overall": 0
+      },
+      "predicted_internal_diagram": {
+        "relevant_history": "The client has experienced challenges at work, particularly with a micromanaging manager, leading to feelings of inadequacy and anxiety.",
+        "core_beliefs": "The client believes they are not cut out for their job and that their efforts are never enough.",
+        "intermediate_beliefs": "The client tends to blame themselves for mistakes and feels overwhelmed by the fear of disappointing others.",
+        "coping_strategies": "The client ruminates on past experiences, considers quitting, and plans to focus on one task at a time while trying to practice self-compassion."
+      },
+      "ground_truth_internal_diagram": {
+        "relevant_history": "The patient has experienced issues with micromanagement at work in both their current and previous job positions. They have a history of feeling blamed and experiencing situations where they have little to no control and being criticized for it, contributing to a sense of helplessness and potentially lowering self-efficacy in their professional life.",
+        "core_beliefs": "I am incompetent. | I am helpless. | I am powerless, weak, vulnerable. | I am trapped.",
+        "intermediate_beliefs": "I must be acknowledged and treated fairly by colleagues which demonstrate I'm competent for my work, if not, then I'm not competent. I must try every effort to take responsibility for everything, to meet the expectations of my colleagues.\nDepressive variant: My colleagues just keep criticizing me. Maybe those mistakes are really my responsibility, I'm just not competent for this work. I'm trapped and hopeless.",
+        "coping_strategies": "The client points out mistakes in management to alleviate blame, takes initiative to manage a heavy workload effectively, employs self-distraction, and engages in social activities and role plays to cope with stress and the feeling of being overwhelmed. However, the client also tends to work too hard, to overload himself, with the hope of meeting others' expectations, while having a lot of self criticism."
+      },
+      "idss": {
+        "relevant_history": 0.650700143592508,
+        "core_beliefs": 0.22729068365533245,
+        "intermediate_beliefs": 0.4872411087731289,
+        "coping_strategies": 0.5313929837736777,
+        "average": 0.4741562299486618
+      }
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "aggregate": {
+    "num_sessions": 1,
+    "cder": {
+      "external": 0.0,
+      "internal": 1.0,
+      "overall": 0.0
+    },
+    "idss": {
+      "relevant_history": 0.262394628677004,
+      "core_beliefs": 0.31643458954441267,
+      "intermediate_beliefs": 0.3902842862661345,
+      "coping_strategies": 0.5822867212903258,
+      "average": 0.38785005644446924
+    }
+  },
+  "sessions": [
+    {
+      "file": "/Users/luhtookyaw/Desktop/StageTherapy/mind_voyager/outputs/hard/session_47-2.json",
+      "case_id": "47-2",
+      "client_mode": "masked",
+      "difficulty": "hard",
+      "cder": {
+        "external": 0,
+        "internal": 1,
+        "overall": 0
+      },
+      "predicted_internal_diagram": {
+        "relevant_history": "The client recently sent an email to someone they like and felt down when they didn't receive a reply, leading to feelings of sadness and loneliness.",
+        "core_beliefs": "The client has a fear of rejection and not feeling good enough, which is reinforced by situations where they don't receive responses.",
+        "intermediate_beliefs": "The client tends to assume that a lack of response means disinterest, leading to a cycle of negative thoughts and feelings of being stuck.",
+        "coping_strategies": "The client copes by ruminating on situations, trying to distract themselves with activities like watching TV or going for walks, and is considering writing down alternative explanations for negative thoughts."
+      },
+      "ground_truth_internal_diagram": {
+        "relevant_history": "The client is educated with a master's degree in engineering and is considering a career change. They have experience in robotics from their junior year of college. They also mentioned being in a situation where they felt ashamed and embarrassed about not dedicating enough time to a project, which impacted the project's success.",
+        "core_beliefs": "I am incompetent. | I am out of control. | I am unlovable. | I am bound to be rejected.",
+        "intermediate_beliefs": "Success is defined by professional achievements and the approval of others. Self-worth is tied to productivity and creative output.\nDepressive variant: When depressed, the client seems to believe that making mistakes or not accomplishing tasks indicates a lack of competence and control.",
+        "coping_strategies": "The client deals with stress by withdrawing and going to bed, engaging in creative projects like printing and bookbinding, and planning future activities like workshops. They also engage in social activities, such as supporting friends and participating in online discussions."
+      },
+      "idss": {
+        "relevant_history": 0.262394628677004,
+        "core_beliefs": 0.31643458954441267,
+        "intermediate_beliefs": 0.3902842862661345,
+        "coping_strategies": 0.5822867212903258,
+        "average": 0.38785005644446924
+      }
+    }
+  ]
+}

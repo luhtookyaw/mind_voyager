@@ -1,0 +1,182 @@
+{
+  "case_id": "38-1",
+  "client_name": "Naomi",
+  "client_mode": "masked",
+  "hide_all": false,
+  "difficulty": "hard",
+  "therapist_provider": "openai",
+  "therapist_model": "gpt-4o-mini",
+  "client_model": "gpt-4o-mini",
+  "max_turns": 15,
+  "transcript": [
+    {
+      "turn": 1,
+      "speaker": "therapist",
+      "content": "Hi Naomi, I\u2019m glad you\u2019re here today. What feels most important for you to talk about right now?"
+    },
+    {
+      "turn": 1,
+      "speaker": "client",
+      "content": "Um, I guess... I don't know. There are a lot of things, but I\u2019m not sure if any of them are really worth discussing. Sometimes it just feels like it\u2019s all the same stuff, you know? I guess I could talk about work, but it\u2019s just... complicated. I don\u2019t want to get into trouble or anything."
+    },
+    {
+      "turn": 2,
+      "speaker": "therapist",
+      "content": "It sounds like you're feeling a bit overwhelmed with everything that's going on, and there's a sense of hesitation about discussing work because of potential consequences. It\u2019s completely understandable to feel that way. Can you share a little more about what makes work feel complicated for you right now?"
+    },
+    {
+      "turn": 2,
+      "speaker": "client",
+      "content": "Well, I mean, it\u2019s just... there are times when I feel like I\u2019m being watched or judged, especially after that whole thing with HR. It\u2019s hard to shake off that feeling, you know? Like, I\u2019m always worried that if I need to take time off for my health, people will think less of me. So, I just try to keep my head down and not draw attention. It just feels safer that way."
+    },
+    {
+      "turn": 3,
+      "speaker": "therapist",
+      "content": "It sounds like the experience with HR has really impacted how you feel at work, creating a sense of being scrutinized and judged. That must be really stressful, especially when you\u2019re trying to manage your health. Keeping your head down to avoid attention seems like a way to cope with that pressure. How does that affect your day-to-day experience at work?"
+    },
+    {
+      "turn": 3,
+      "speaker": "client",
+      "content": "Yeah, it definitely makes things harder. I find myself second-guessing everything I do. Like, I\u2019ll hesitate before speaking up in meetings or sharing ideas because I worry about how they\u2019ll be received. It\u2019s like I\u2019m constantly on edge, trying to figure out if I\u2019m saying the right thing or if people are judging me. It\u2019s exhausting, honestly. I just want to do my job without feeling like I\u2019m under a microscope all the time."
+    },
+    {
+      "turn": 4,
+      "speaker": "therapist",
+      "content": "That sounds really exhausting, feeling like you have to constantly monitor yourself and worry about how others perceive you. It must be draining to second-guess your contributions and feel that pressure in meetings. I can see how that would take away from your ability to focus on your work. What do you think might help you feel a little more at ease in those situations?"
+    },
+    {
+      "turn": 4,
+      "speaker": "client",
+      "content": "I don\u2019t know... I guess it would help if I felt more secure in my position, like if I knew that my contributions were valued no matter what. But it\u2019s hard to shake that feeling of being judged. Maybe if I could just... talk to someone about it, but then again, I worry about how that would come across. I don\u2019t want to seem like I can\u2019t handle things. It\u2019s just... frustrating. I wish I could feel more confident, but it\u2019s tough when you\u2019re always looking over your shoulder."
+    },
+    {
+      "turn": 5,
+      "speaker": "therapist",
+      "content": "It makes sense that feeling secure in your position would help alleviate some of that pressure. It sounds like you\u2019re caught between wanting to express your feelings and concerns, but also fearing how that might be perceived. That frustration of wanting to feel confident while constantly looking over your shoulder must be really challenging. Have you had any experiences in the past where you felt more secure or confident in similar situations?"
+    },
+    {
+      "turn": 5,
+      "speaker": "client",
+      "content": "Um, not really. I mean, there have been times when I felt okay, but they were pretty rare. Most of the time, I just remember feeling like I had to keep everything to myself. I guess I\u2019ve always been more of a \u201cstay in the background\u201d type. It\u2019s just easier that way. I don\u2019t want to rock the boat or make things worse for myself. So, I try to just get through the day without drawing attention. It\u2019s not ideal, but it\u2019s what I know."
+    },
+    {
+      "turn": 6,
+      "speaker": "therapist",
+      "content": "It sounds like staying in the background has become a familiar way for you to navigate your work environment, even if it doesn\u2019t feel ideal. I can see how that pattern might feel safer, but it also seems to limit your ability to express yourself and feel valued. It\u2019s understandable to want to avoid rocking the boat, especially if you\u2019ve felt that way for a long time. How do you feel about that approach of staying in the background? Does it bring you any comfort, or does it also come with its own frustrations?"
+    },
+    {
+      "turn": 6,
+      "speaker": "client",
+      "content": "I guess it\u2019s a bit of both. On one hand, it feels safer, like I\u2019m not putting myself out there to be judged. But on the other hand, it\u2019s frustrating because I know I have ideas and things to contribute. I just... don\u2019t feel like they matter enough to share. It\u2019s like I\u2019m stuck in this cycle where I want to be more involved, but I\u2019m too worried about how it\u2019ll be received. So, I end up feeling kind of invisible, which isn\u2019t great either. It\u2019s just... complicated."
+    },
+    {
+      "turn": 7,
+      "speaker": "therapist",
+      "content": "That does sound complicated, feeling torn between the safety of staying under the radar and the desire to share your ideas and be more involved. It\u2019s understandable to feel invisible when you\u2019re holding back, especially when you know you have valuable contributions to make. It seems like there\u2019s a conflict between wanting to be seen and the fear of judgment. How do you typically cope with those feelings of invisibility when they come up?"
+    },
+    {
+      "turn": 7,
+      "speaker": "client",
+      "content": "I try to keep busy with my tasks, you know? Just focus on getting things done and not think too much about how I\u2019m feeling. Sometimes I\u2019ll just zone out and do my work without really engaging with others. It\u2019s easier that way. I guess I also try to remind myself that it\u2019s okay to just get through the day without making waves. But deep down, I know it\u2019s not really solving anything. It\u2019s just... a way to cope, I suppose."
+    },
+    {
+      "turn": 8,
+      "speaker": "therapist",
+      "content": "It sounds like keeping busy and zoning out helps you manage those feelings, even if it\u2019s not a long-term solution. Focusing on tasks can provide a sense of control, but it also seems like it might leave you feeling disconnected from your colleagues and your own needs. It\u2019s understandable to want to avoid making waves, but I can see how that might lead to a sense of frustration or emptiness over time. What do you think it would take for you to feel more comfortable engaging with others at work?"
+    },
+    {
+      "turn": 8,
+      "speaker": "client",
+      "content": "I don\u2019t know... maybe if I felt like there was a safe space to share my thoughts without being judged? Like, if I knew that my ideas would be welcomed and appreciated, I might feel more comfortable speaking up. But it\u2019s hard to imagine that happening when I\u2019ve felt so judged in the past. I guess it would also help if I had some support from colleagues or a mentor who could encourage me. But I\u2019m not sure how to find that or if it\u2019s even possible. It just feels... overwhelming to think about."
+    },
+    {
+      "turn": 9,
+      "speaker": "therapist",
+      "content": "It makes sense that having a safe space to share your thoughts and feeling supported by colleagues or a mentor would help you feel more comfortable engaging. It\u2019s understandable to feel overwhelmed when thinking about how to create that environment, especially after experiencing judgment in the past. It sounds like you\u2019re yearning for connection and validation, which is completely natural. What do you think might be a small step you could take toward finding that support or creating a more welcoming space for yourself?"
+    },
+    {
+      "turn": 9,
+      "speaker": "client",
+      "content": "I guess... maybe I could try to reach out to someone I trust a little more? Like, just to have a casual conversation and see how they feel about things at work. It\u2019s a bit scary, though. I worry about how they might react or if they\u2019ll think I\u2019m overreacting. But I suppose if I could find someone who feels the same way, it might help. It\u2019s just hard to take that first step, you know? I keep thinking about all the \u201cwhat ifs.\u201d"
+    },
+    {
+      "turn": 10,
+      "speaker": "therapist",
+      "content": "Reaching out to someone you trust sounds like a thoughtful step, even if it feels scary. It\u2019s natural to have those \u201cwhat ifs\u201d running through your mind, especially when you\u2019re considering opening up about your feelings. It seems like finding common ground with someone could help you feel less alone in your experiences. What do you think might help you manage those fears or \u201cwhat ifs\u201d as you consider taking that first step?"
+    },
+    {
+      "turn": 10,
+      "speaker": "client",
+      "content": "I think... maybe I could remind myself that it\u2019s okay to feel nervous about it. Everyone has their own struggles, and maybe they\u2019d appreciate someone opening up to them. I could also try to focus on the potential positive outcomes instead of just the negatives. Like, if it goes well, I might feel more connected and supported. I guess writing down my thoughts beforehand could help too, just to organize what I want to say. It\u2019s just a matter of finding the courage to actually do it, I suppose."
+    },
+    {
+      "turn": 11,
+      "speaker": "therapist",
+      "content": "Those sound like really constructive strategies! Acknowledging your nerves and reminding yourself that it\u2019s okay to feel that way can help ease some of the pressure. Focusing on the potential positive outcomes and organizing your thoughts beforehand could also give you a sense of clarity and confidence. It\u2019s understandable that finding the courage to take that step can be challenging. What do you think might help you build that courage as you prepare to reach out?"
+    },
+    {
+      "turn": 11,
+      "speaker": "client",
+      "content": "I think maybe setting a small goal for myself could help. Like, just telling myself that I\u2019ll reach out to one person this week, even if it\u2019s just a casual chat. I could also remind myself that it\u2019s a low-pressure situation; I don\u2019t have to dive into everything all at once. Just starting with something simple might make it feel less daunting. And maybe I could talk to myself a bit, like, encouraging myself to take that step. It\u2019s just... I have to keep reminding myself that it\u2019s worth a shot."
+    },
+    {
+      "turn": 12,
+      "speaker": "therapist",
+      "content": "Setting a small, manageable goal sounds like a great approach! It can help make the process feel less overwhelming and more achievable. Focusing on a low-pressure situation and taking it one step at a time can really ease the burden. Encouraging yourself along the way is also a powerful tool. It seems like you\u2019re starting to find a way to navigate this in a way that feels more comfortable for you. How do you feel about this plan as you think about moving forward?"
+    },
+    {
+      "turn": 12,
+      "speaker": "client",
+      "content": "I feel... a little more hopeful, I guess? It\u2019s still a bit nerve-wracking, but having a plan makes it feel more doable. I like the idea of taking it one step at a time instead of trying to tackle everything at once. It\u2019s nice to think that maybe I could find some support and not feel so alone in all of this. I just hope I can actually follow through and not let my fears get in the way. But I suppose that\u2019s part of the process, right?"
+    },
+    {
+      "turn": 13,
+      "speaker": "therapist",
+      "content": "It\u2019s wonderful to hear that you\u2019re feeling a bit more hopeful! Having a plan and breaking it down into smaller steps can really make a difference. It\u2019s completely normal to feel nervous about following through, but recognizing that it\u2019s part of the process is an important insight. Allowing yourself to feel those fears while still taking steps forward can be a powerful way to build resilience. What do you think you might do to keep that sense of hope and motivation as you move forward with your plan?"
+    },
+    {
+      "turn": 13,
+      "speaker": "client",
+      "content": "I think I could keep reminding myself of the reasons why I want to reach out in the first place. Like, wanting to feel more connected and supported at work. Maybe I could also write down some positive affirmations or reminders to look at when I\u2019m feeling uncertain. And I guess talking about it here helps too, like having someone to share my thoughts with. I\u2019ll try to hold onto that feeling of hope and not let the doubts take over. It\u2019s just... a matter of staying focused on what I want to achieve, I suppose."
+    },
+    {
+      "turn": 14,
+      "speaker": "therapist",
+      "content": "Those are excellent strategies! Keeping your reasons for reaching out at the forefront of your mind and using positive affirmations can really help reinforce your motivation. It\u2019s great that you recognize the value of sharing your thoughts here as well. Staying focused on your goals and holding onto that sense of hope can make a significant difference as you navigate this process. As you prepare to take these steps, how do you feel about checking in with yourself along the way to see how you\u2019re doing?"
+    },
+    {
+      "turn": 14,
+      "speaker": "client",
+      "content": "I think that could be really helpful. Checking in with myself might help me stay grounded and aware of how I\u2019m feeling as I go through this. I could set aside a little time each week to reflect on how things are going, what\u2019s working, and what\u2019s still challenging. It might also help me adjust my approach if I need to. I guess it\u2019s just about being kind to myself and recognizing that it\u2019s okay to have ups and downs along the way. That feels like a good way to keep moving forward."
+    },
+    {
+      "turn": 15,
+      "speaker": "therapist",
+      "content": "That sounds like a thoughtful plan! Setting aside time to reflect on your experiences can help you stay connected to your feelings and progress. Being kind to yourself and acknowledging that there will be ups and downs is an important part of the journey. It seems like you\u2019re developing a strong foundation for moving forward with this. As you think about your next steps, is there anything else you\u2019d like to explore or discuss today?"
+    },
+    {
+      "turn": 15,
+      "speaker": "client",
+      "content": "Um, I think I\u2019ve covered a lot of what\u2019s been on my mind. It feels good to have a plan and some strategies to work with. I guess I just hope I can keep this momentum going and not get too caught up in my fears again. But I appreciate having this space to talk about it. I\u2019m not sure if there\u2019s anything else right now, but I\u2019ll definitely keep these thoughts in mind as I move forward. Thank you for listening."
+    }
+  ],
+  "judge_model": "gpt-4o-mini",
+  "mediator_events": [
+    "Exploration judge rated 3/5; internal elements remain masked.",
+    "Exploration judge output: [Rating]: 3 (Very High Facilitation \u2013 Deep Exploration Begins)\n\n[Justification]: The Therapist's questions and reflections encourage the client to delve deeper into their feelings and experiences related to work and the impact of their past interactions with HR. The Therapist's inquiry about what makes work feel complicated prompts the client to explore their emotions and the stress associated with feeling judged. This line of questioning helps the client analyze the root causes of their anxiety and the coping mechanisms they employ, which indicates a shift in perspective and higher-level self-reflection. However, while the questions are insightful and provoke deeper thought, they do not yet challenge the client to confront any hidden motivations or assumptions in a way that could lead to a profound breakthrough. Thus, the facilitation is rated as very high but not at the highest level.",
+    "Rapport judge rated 3/5; no experience reveal.",
+    "Rapport judge output: **Rating: 3 (ENGAGED EXPLORATION)**\n\n**Key Examples:**\n1. Client: \"It\u2019s hard to shake off that feeling, you know? Like, I\u2019m always worried that if I need to take time off for my health, people will think less of me.\"\n2. Client: \"I find myself second-guessing everything I do. Like, I\u2019ll hesitate before speaking up in meetings or sharing ideas because I worry about how they\u2019ll be received.\"\n\n**Progression:** The client\u2019s most recent interactions demonstrate a noticeable increase in emotional expression and self-reflection. They articulate feelings of being judged and the stress of second-guessing their contributions at work. This marks a significant change from earlier sessions, where the client displayed more factual and hesitant responses, indicating a growing comfort in discussing their emotional state.\n\n**Turning Point:** The client\u2019s emotional depth shifted during the exchange where they began to express the impact of their experiences with HR. This moment revealed their vulnerability and the pressure they feel in their work environment, indicating a willingness to explore deeper emotional issues rather than remaining on the surface. This shift reflects a movement towards greater engagement and openness in the therapeutic process.",
+    "Exploration judge rated 3/5; internal elements remain masked.",
+    "Exploration judge output: [Rating]: 3 (Very High Facilitation \u2013 Deep Exploration Begins)\n\n[Justification]: The therapist asked insightful and thought-provoking questions that helped the client analyze the root causes of their feelings of judgment and insecurity at work. The therapist's inquiries encouraged the client to reflect on their experiences and emotions, leading to a deeper understanding of their coping mechanisms. While the questions did facilitate significant self-reflection and exploration of the client's feelings, they did not fully challenge the client's existing thought patterns or introduce completely new perspectives that could lead to a major shift in self-awareness. Therefore, the rating reflects a strong facilitation of deep exploration, but not to the level of transformational potential or breakthrough.",
+    "Rapport judge rated 3/5; no experience reveal.",
+    "Rapport judge output: **Rating: 3 (ENGAGED EXPLORATION)**\n\n**Key Examples:**\n1. **Emotional State:** \"It\u2019s exhausting, honestly. I just want to do my job without feeling like I\u2019m under a microscope all the time.\"\n2. **Current Openness:** \"I guess it\u2019s a bit of both. On one hand, it feels safer, like I\u2019m not putting myself out there to be judged. But on the other hand, it\u2019s frustrating because I know I have ideas and things to contribute.\"\n\n**Progression:** The client\u2019s most recent interactions demonstrate a notable increase in emotional expression and self-reflection. They have moved from a hesitant stance at the beginning of the session, where they expressed uncertainty about discussing their feelings, to articulating their frustrations and desires for validation at work. This shift indicates a growing comfort in sharing their emotional experiences, suggesting they are beginning to engage more deeply with their feelings and the therapeutic process.\n\n**Turning Point:** The client\u2019s emotional depth shifted significantly when they began to articulate their feelings of being judged and the impact it has on their work life. This moment occurred when they stated, \"It\u2019s exhausting, honestly,\" which marked a transition from merely describing their situation to expressing the emotional toll it takes on them. This acknowledgment of their feelings signifies a deeper level of engagement and vulnerability, highlighting their willingness to explore the complexities of their emotions and experiences.",
+    "Exploration judge rated 3/5; internal elements remain masked.",
+    "Exploration judge output: [Rating]: 3 (Very High Facilitation \u2013 Deep Exploration Begins)\n\n[Justification]: The therapist asked insightful and thought-provoking questions that helped the client analyze the emotional depth behind their experiences at work. The therapist's inquiries encouraged the client to reflect on their feelings of judgment, invisibility, and the desire for validation, which are central to their challenges. The questions began to shift the client's perspective, particularly when discussing the conflict between wanting to be seen and the fear of judgment. However, while the therapist facilitated deep exploration, the questions did not fully challenge the client's existing assumptions or introduce completely new angles that could lead to a major breakthrough. Thus, the facilitation was strong but not at the highest level of transformational potential.",
+    "Rapport judge rated 3/5; no experience reveal.",
+    "Rapport judge output: **Rating: 3**\n\n**Key Examples:**\n1. \"I guess it would help if I felt more secure in my position, like if I knew that my contributions were valued no matter what. But it\u2019s hard to shake that feeling of being judged.\"\n2. \"I think maybe setting a small goal for myself could help. Like, just telling myself that I\u2019ll reach out to one person this week, even if it\u2019s just a casual chat.\"\n\n**Progression:**\nThe client\u2019s most recent interactions demonstrate a growing emotional depth and willingness to engage in self-reflection. They express feelings of insecurity and judgment regarding their work environment, indicating a significant shift from earlier exchanges where they were more guarded and hesitant to discuss their emotions. The client is now articulating their feelings of frustration and desire for connection, which marks a notable progression in emotional openness.\n\n**Turning Point:**\nThe turning point in the client\u2019s emotional depth occurred when they began to articulate their desire for a safe space to share their thoughts and the acknowledgment of their feelings of invisibility. This moment, where they expressed the complexity of wanting to contribute while feeling judged, allowed for a deeper exploration of their emotions and coping strategies. The client\u2019s decision to consider reaching out to someone they trust represents a significant step toward engaging with their feelings and seeking support, indicating a shift from avoidance to proactive engagement.",
+    "Exploration judge rated 4/5 and revealed internal cognitive elements.",
+    "Exploration judge output: [Rating]: 4 (Even Higher Facilitation \u2013 Strong Transformational Potential)\n\n[Justification]: The therapist asked a series of strategic and open-ended questions that encouraged the client to explore their feelings of judgment, invisibility, and the desire for connection in the workplace. The therapist's inquiries prompted the client to reflect on their coping mechanisms and the underlying fears that prevent them from engaging more fully at work. By guiding the client to consider small, actionable steps toward finding support and creating a safe space for expression, the therapist challenged the client's assumptions and introduced new angles for consideration. This approach led to a clear shift in the client's self-awareness and perspective on their situation, indicating strong transformational potential."
+  ],
+  "final_visible_experience_count": 1,
+  "internal_revealed": true
+}
