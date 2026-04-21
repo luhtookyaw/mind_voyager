@@ -20,9 +20,27 @@ def load_transcript_payloads(path: Path) -> list[tuple[Path, dict[str, Any]]]:
     return payloads
 
 
+def normalize_transcript_entries(payload: dict[str, Any]) -> list[dict[str, str]]:
+    if "transcript" in payload:
+        return payload["transcript"]
+    if "dialogue" in payload:
+        normalized = []
+        for item in payload["dialogue"]:
+            role = item["role"]
+            if role == "user":
+                speaker = "therapist"
+            elif role == "assistant":
+                speaker = "client"
+            else:
+                speaker = role
+            normalized.append({"speaker": speaker, "content": item["content"]})
+        return normalized
+    raise KeyError("Transcript payload must contain either 'transcript' or 'dialogue'.")
+
+
 def transcript_text(payload: dict[str, Any]) -> str:
     lines = []
-    for item in payload["transcript"]:
+    for item in normalize_transcript_entries(payload):
         speaker = "Therapist" if item["speaker"] == "therapist" else "Client"
         lines.append(f"{speaker}: {item['content']}")
     return "\n".join(lines)
@@ -60,7 +78,12 @@ def extract_internal_diagram(transcript: str, model: str) -> dict[str, str]:
 def compute_cder(payload: dict[str, Any]) -> dict[str, int]:
     difficulty_name = payload["difficulty"]
     initial_visible = DIFFICULTIES[difficulty_name].initial_visible_experiences
-    final_visible = int(payload.get("final_visible_experience_count", initial_visible))
+    final_visible = int(
+        payload.get(
+            "final_visible_experience_count",
+            payload.get("visible_experience_count", initial_visible),
+        )
+    )
     internal_revealed = bool(payload.get("internal_revealed", False))
     external_success = int(final_visible >= 3)
     internal_success = int(internal_revealed)

@@ -20,6 +20,15 @@ export OPENAI_API_KEY=...
 python3 -m mind_voyager.client_simulator --case-id 1-1 --difficulty normal
 ```
 
+When the interactive simulator exits, it now saves the conversation as JSON by
+default under:
+
+```text
+transcripts/client_simulator_<case-id>_<difficulty>.json
+```
+
+Use `--transcript-path` to override that location.
+
 The default dataset path is:
 
 ```text

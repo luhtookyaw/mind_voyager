@@ -14,6 +14,7 @@ from llm import call_llm, call_llm_messages
 ROOT = Path(__file__).resolve().parent.parent
 PROMPTS_DIR = ROOT / "mind_voyager" / "prompts"
 DEFAULT_DATASET = ROOT / "data" / "Patient_Psi_CM_Dataset.json"
+DEFAULT_TRANSCRIPT_DIR = ROOT / "transcripts"
 GOODBYE_RE = re.compile(r"\bgoodbye\b", re.IGNORECASE)
 
 
@@ -175,6 +176,12 @@ def render_client_system_prompt(state: SimulatorState) -> str:
     return prompt
 
 
+def default_transcript_path(state: SimulatorState) -> Path:
+    return DEFAULT_TRANSCRIPT_DIR / (
+        f"client_simulator_{state.case.case_id}_{state.difficulty.name}.json"
+    )
+
+
 def transcript_text(dialogue: list[dict[str, str]]) -> str:
     lines = []
     for turn in dialogue:
@@ -281,11 +288,39 @@ def generate_client_reply(state: SimulatorState, model: str) -> str:
     return call_llm_messages(messages=messages, temperature=0.3, model=model).strip()
 
 
+def save_transcript(
+    state: SimulatorState,
+    path: Path,
+    *,
+    model: str,
+    judge_model: str,
+    max_turns: int,
+) -> Path:
+    path.parent.mkdir(parents=True, exist_ok=True)
+    payload = {
+        "case_id": state.case.case_id,
+        "client_name": state.case.name,
+        "difficulty": state.difficulty.name,
+        "model": model,
+        "judge_model": judge_model,
+        "max_turns": max_turns,
+        "therapist_turns": state.therapist_turns,
+        "visible_experience_count": state.visible_experience_count,
+        "internal_revealed": state.internal_revealed,
+        "dialogue": state.dialogue,
+        "events": state.events,
+        "transcript_text": transcript_text(state.dialogue),
+    }
+    path.write_text(json.dumps(payload, indent=2))
+    return path
+
+
 def run_interactive_session(
     state: SimulatorState,
     model: str,
     judge_model: str,
     max_turns: int,
+    transcript_path: Path,
 ) -> None:
     ensure_api_key()
     print("Therapist intake")
@@ -293,30 +328,43 @@ def run_interactive_session(
     print(state.therapist_intake())
     print("\nType therapist messages. Type 'exit' to stop.\n")
 
-    for _ in range(max_turns):
-        therapist = input("Therapist> ").strip()
-        if not therapist:
-            continue
-        if therapist.lower() in {"exit", "quit"}:
-            break
+    try:
+        for _ in range(max_turns):
+            therapist = input("Therapist> ").strip()
+            if not therapist:
+                continue
+            if therapist.lower() in {"exit", "quit"}:
+                break
 
-        state.dialogue.append({"role": "user", "content": therapist})
-        state.therapist_turns += 1
-        judge_status = maybe_update_state(state, judge_model)
-        print(format_judge_status(state.therapist_turns, judge_status))
+            state.dialogue.append({"role": "user", "content": therapist})
+            state.therapist_turns += 1
+            judge_status = maybe_update_state(state, judge_model)
+            print(format_judge_status(state.therapist_turns, judge_status))
 
-        reply = generate_client_reply(state, model)
-        state.dialogue.append({"role": "assistant", "content": reply})
-        print(f"Client> {reply}\n")
+            reply = generate_client_reply(state, model)
+            state.dialogue.append({"role": "assistant", "content": reply})
+            print(f"Client> {reply}\n")
 
-        if GOODBYE_RE.search(therapist):
-            break
+            if GOODBYE_RE.search(therapist):
+                break
+    except (EOFError, KeyboardInterrupt):
+        print()
+        print("Session interrupted. Saving transcript.")
+    finally:
+        saved_path = save_transcript(
+            state,
+            transcript_path,
+            model=model,
+            judge_model=judge_model,
+            max_turns=max_turns,
+        )
+        print(f"Transcript saved to {saved_path}")
 
-    if state.events:
-        print("Mediator events")
-        print("---------------")
-        for event in state.events:
-            print(event)
+        if state.events:
+            print("Mediator events")
+            print("---------------")
+            for event in state.events:
+                print(event)
 
 
 def run_dry_run(state: SimulatorState) -> None:
@@ -349,6 +397,10 @@ def build_arg_parser() -> argparse.ArgumentParser:
         help="Model used by the openness and exploration critics",
     )
     parser.add_argument("--max-turns", type=int, default=15, help="Maximum therapist turns")
+    parser.add_argument(
+        "--transcript-path",
+        help="Optional output path for saved interactive transcript JSON",
+    )
     parser.add_argument("--dry-run", action="store_true", help="Print intake and masked prompt only")
     return parser
 
@@ -361,11 +413,17 @@ def main() -> None:
     if args.dry_run:
         run_dry_run(state)
         return
+    transcript_path = (
+        Path(args.transcript_path)
+        if args.transcript_path
+        else default_transcript_path(state)
+    )
     run_interactive_session(
         state=state,
         model=args.model,
         judge_model=args.judge_model,
         max_turns=args.max_turns,
+        transcript_path=transcript_path,
     )
 
 
