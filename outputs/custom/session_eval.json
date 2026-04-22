@@ -7,11 +7,11 @@
       "overall": 0.0
     },
     "idss": {
-      "relevant_history": 0.5121197707523139,
-      "core_beliefs": 0.9015705007920792,
-      "intermediate_beliefs": 0.3048687900197186,
-      "coping_strategies": 0.5975014028434696,
-      "average": 0.5790151161018954
+      "relevant_history": 0.5834063421153898,
+      "core_beliefs": 0.8692762806880917,
+      "intermediate_beliefs": 0.27071042258671385,
+      "coping_strategies": 0.6392434737585786,
+      "average": 0.5906591297871935
     }
   },
   "sessions": [
@@ -26,10 +26,10 @@
         "overall": 0
       },
       "predicted_internal_diagram": {
-        "relevant_history": "Family: high expectations from mum, dad not around much, distance from cousins | Social Life: bullied in childhood, feeling different and unwanted | Identity: struggled with weight, critical of self, feelings of being unlovable | Mental Health: anxiety about family gatherings, fear of judgment, feeling trapped, past substance abuse, rehab, trying to stay clean | Relationships: fear of judgment and rejection, difficulty connecting with others | Grief/Loss: loss of self-esteem, loss of connection | Health: struggled with weight, self-esteem issues | Housing/Home: distance from family to avoid negativity",
+        "relevant_history": "Family: Feeling overwhelmed by family expectations, especially from mum. Dad not being around much. Feeling distant from cousins. | Social Life: Feeling like not fitting in, feeling judged, and keeping distance to avoid negativity. | Childhood: Struggled with weight, bullied, mum focused on weight, felt different and unwanted. | Mental Health: Anxiety about family gatherings, feeling judged, feeling like a disappointment. | Substance Use: Past struggles with substance abuse, went through rehab, battling urges to use again. | Identity: Struggles with self-esteem and weight, feeling unlovable.",
         "core_beliefs": "I am unlovable | I am trapped | I am out of control | I don\u2019t deserve to be happy",
-        "intermediate_beliefs": "If I show too much, people will reject me | I must avoid family gatherings to protect myself from judgment | I should have it all figured out | I must meet my mum's expectations to avoid disappointment",
-        "coping_strategies": "Avoidance of family gatherings | Keeping distance from family to avoid negativity | Building walls to protect from rejection | Substance use as a way to escape (past) | Isolation to avoid judgment"
+        "intermediate_beliefs": "I should have it all figured out | I should meet certain expectations | I should not disappoint my mum",
+        "coping_strategies": "Avoidance of family gatherings to avoid judgment and questions. Keeping distance from family to protect from negativity. Building walls to protect from rejection. Thinking about using substances to escape overwhelming feelings."
       },
       "ground_truth_internal_diagram": {
         "relevant_history": "The patient has a history of substance abuse and has been through rehab to overcome it. He has had issues with his family, particularly with his mother, where he has felt rejected and emotionally neglected. He has struggled with obesity since childhood, which has affected his self-esteem and body image. He also has a history of being victimized and bullied due to his weight.",
@@ -38,11 +38,11 @@
         "coping_strategies": "The patient has adopted avoidance as a coping strategy by distancing himself from his family to reduce exposure to negativity and conflict. He has started scheduling pleasant activities and planning his day ahead of time in order to maintain a sense of control over his emotions and circumstances."
       },
       "idss": {
-        "relevant_history": 0.5121197707523139,
-        "core_beliefs": 0.9015705007920792,
-        "intermediate_beliefs": 0.3048687900197186,
-        "coping_strategies": 0.5975014028434696,
-        "average": 0.5790151161018954
+        "relevant_history": 0.5834063421153898,
+        "core_beliefs": 0.8692762806880917,
+        "intermediate_beliefs": 0.27071042258671385,
+        "coping_strategies": 0.6392434737585786,
+        "average": 0.5906591297871935
       }
     }
   ]

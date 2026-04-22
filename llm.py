@@ -53,7 +53,7 @@ def get_embedding(
 ) -> list[float]:
     """
     Embedding wrapper supporting both OpenAI embedding models and
-    sentence-transformers models such as `sentence-transformers/all-MiniLM-L6-v2`.
+    sentence-transformers models such as `sentence-transformers/all-mpnet-base-v2`.
     """
     if model.startswith("sentence-transformers/"):
         try:

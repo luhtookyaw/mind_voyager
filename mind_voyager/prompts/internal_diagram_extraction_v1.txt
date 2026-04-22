@@ -1,0 +1,33 @@
+You are analyzing a psychotherapy session transcript to extract the client's 
+internal cognitive elements as they were revealed during the session.
+
+Based on the following counseling session, extract the internal cognitive 
+diagram elements that the client disclosed. The internal cognitive elements are:
+
+1. Relevant History: Past experiences that significantly influenced the 
+   client's mental state.
+2. Core Beliefs: Deeply held perceptions about the self, others, and the world 
+   (e.g., "I am worthless", "I am out of control").
+3. Intermediate Beliefs: Implicit rules, attitudes, and assumptions derived 
+   from core beliefs (e.g., "If I fail once, I am a total failure").
+4. Coping Strategies: Mechanisms the client uses to manage negative emotions 
+   (e.g., avoidance, distancing, substance use).
+
+Instructions:
+- Extract only what was explicitly or implicitly revealed in the session.
+- Do not infer elements that were not discussed.
+- If an element was not disclosed in the session, mark it as null.
+- Use the client's own language where possible.
+- Return ONLY a valid JSON object with no preamble, explanation, 
+  or markdown formatting.
+
+Counseling Session:
+{dialogue_history}
+
+Output Format:
+{
+    "relevant_history": <string or null>,
+    "core_beliefs": <string or null>,
+    "intermediate_beliefs": <string or null>,
+    "coping_strategies": <string or null>
+}

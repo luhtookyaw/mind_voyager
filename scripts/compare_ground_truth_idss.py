@@ -60,11 +60,11 @@ def build_arg_parser() -> argparse.ArgumentParser:
     )
     parser.add_argument(
         "--embedding-model",
-        default="sentence-transformers/all-MiniLM-L6-v2",
+        default="sentence-transformers/all-mpnet-base-v2",
         help=(
             "Embedding model used for similarity scoring. Supports OpenAI embedding "
             "models or sentence-transformers models such as "
-            "sentence-transformers/all-MiniLM-L6-v2"
+            "sentence-transformers/all-mpnet-base-v2"
         ),
     )
     parser.add_argument(

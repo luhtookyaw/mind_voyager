@@ -25,13 +25,11 @@ Elements to extract:
    - Worthlessness: "I am worthless, waste / I am immoral / I am bad (dangerous, toxic, evil) / I don’t deserve to live."
 
 3. Intermediate Beliefs: Conditional rules derived from core beliefs.
-   E.g., "If I show my true self, people will reject me.", "I must avoid stress.", "There's nothing I can do."
 
 4. Coping Strategies: Behavioral/psychological mechanisms to manage distress. \
-   E.g., avoidance, isolation, substance use (maladaptive); scheduling activities, planning (adaptive).
 
 Instructions:
-- Separate multiple entries of Core Beliefs with " | "
+- Separate multiple entries of Core Beliefs with " | ". Don't do like this with other components.
 - Set to null if not discussed
 - Return ONLY valid JSON, no preamble or markdown
 
