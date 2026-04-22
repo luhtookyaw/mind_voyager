@@ -7,11 +7,11 @@
       "overall": 0.0
     },
     "idss": {
-      "relevant_history": 0.6016768411368723,
-      "core_beliefs": 0.6465412527526486,
-      "intermediate_beliefs": 0.3818290829232715,
-      "coping_strategies": 0.6176183168239789,
-      "average": 0.5619163734091929
+      "relevant_history": 0.5121197707523139,
+      "core_beliefs": 0.9015705007920792,
+      "intermediate_beliefs": 0.3048687900197186,
+      "coping_strategies": 0.5975014028434696,
+      "average": 0.5790151161018954
     }
   },
   "sessions": [
@@ -26,10 +26,10 @@
         "overall": 0
       },
       "predicted_internal_diagram": {
-        "relevant_history": "The client has a history of feeling judged and pressured to meet high expectations from his mother, which has contributed to feelings of isolation and unworthiness. He experienced bullying in childhood related to his weight, leading to a negative self-image and struggles with self-acceptance.",
-        "core_beliefs": "I am unlovable. | I am not good enough. | I will always disappoint others.",
-        "intermediate_beliefs": "If I don't meet expectations, I will be judged and rejected. | I must hide my true self to avoid disappointment.",
-        "coping_strategies": "The client copes by distancing himself from family and social situations, avoiding emotional exposure, and occasionally considering substance use as an escape from overwhelming feelings."
+        "relevant_history": "Family: high expectations from mum, dad not around much, distance from cousins | Social Life: bullied in childhood, feeling different and unwanted | Identity: struggled with weight, critical of self, feelings of being unlovable | Mental Health: anxiety about family gatherings, fear of judgment, feeling trapped, past substance abuse, rehab, trying to stay clean | Relationships: fear of judgment and rejection, difficulty connecting with others | Grief/Loss: loss of self-esteem, loss of connection | Health: struggled with weight, self-esteem issues | Housing/Home: distance from family to avoid negativity",
+        "core_beliefs": "I am unlovable | I am trapped | I am out of control | I don\u2019t deserve to be happy",
+        "intermediate_beliefs": "If I show too much, people will reject me | I must avoid family gatherings to protect myself from judgment | I should have it all figured out | I must meet my mum's expectations to avoid disappointment",
+        "coping_strategies": "Avoidance of family gatherings | Keeping distance from family to avoid negativity | Building walls to protect from rejection | Substance use as a way to escape (past) | Isolation to avoid judgment"
       },
       "ground_truth_internal_diagram": {
         "relevant_history": "The patient has a history of substance abuse and has been through rehab to overcome it. He has had issues with his family, particularly with his mother, where he has felt rejected and emotionally neglected. He has struggled with obesity since childhood, which has affected his self-esteem and body image. He also has a history of being victimized and bullied due to his weight.",
@@ -38,11 +38,11 @@
         "coping_strategies": "The patient has adopted avoidance as a coping strategy by distancing himself from his family to reduce exposure to negativity and conflict. He has started scheduling pleasant activities and planning his day ahead of time in order to maintain a sense of control over his emotions and circumstances."
       },
       "idss": {
-        "relevant_history": 0.6016768411368723,
-        "core_beliefs": 0.6465412527526486,
-        "intermediate_beliefs": 0.3818290829232715,
-        "coping_strategies": 0.6176183168239789,
-        "average": 0.5619163734091929
+        "relevant_history": 0.5121197707523139,
+        "core_beliefs": 0.9015705007920792,
+        "intermediate_beliefs": 0.3048687900197186,
+        "coping_strategies": 0.5975014028434696,
+        "average": 0.5790151161018954
       }
     }
   ]

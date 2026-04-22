@@ -2,6 +2,7 @@ from __future__ import annotations
 
 import argparse
 import json
+import re
 from pathlib import Path
 from typing import Any
 
@@ -60,18 +61,69 @@ def build_ground_truth(case_id: str, dataset: Path) -> dict[str, str]:
     }
 
 
-def extract_internal_diagram(transcript: str, model: str) -> dict[str, str]:
-    prompt = load_prompt("internal_diagram_extraction.txt").replace("{transcript}", transcript)
+def render_internal_diagram_extraction_prompt(
+    transcript: str,
+) -> str:
+    prompt = load_prompt("internal_diagram_extraction.txt")
+    replacements = {
+        "{dialogue_history}": transcript,
+        "{transcript}": transcript,
+    }
+    for placeholder, value in replacements.items():
+        prompt = prompt.replace(placeholder, value)
+    return prompt
+
+
+def normalize_extracted_value(value: Any) -> str:
+    if value is None:
+        return "unknown"
+    text = str(value).strip()
+    if not text or text.lower() == "null":
+        return "unknown"
+    return text
+
+
+def normalize_extracted_field(value: Any) -> str:
+    if isinstance(value, dict):
+        return normalize_extracted_value(value.get("value"))
+    return normalize_extracted_value(value)
+
+
+def parse_json_object(raw: str) -> dict[str, Any]:
+    text = raw.strip()
+    if text.startswith("```"):
+        text = re.sub(r"^```(?:json)?\s*", "", text, flags=re.IGNORECASE)
+        text = re.sub(r"\s*```$", "", text)
+
+    try:
+        parsed = json.loads(text)
+    except json.JSONDecodeError:
+        start = text.find("{")
+        end = text.rfind("}")
+        if start == -1 or end == -1 or end <= start:
+            raise
+        parsed = json.loads(text[start : end + 1])
+
+    if not isinstance(parsed, dict):
+        raise ValueError(f"Expected extraction JSON object, got {type(parsed).__name__}: {raw}")
+    return parsed
+
+
+def extract_internal_diagram(
+    transcript: str,
+    model: str,
+) -> dict[str, str]:
+    prompt = render_internal_diagram_extraction_prompt(transcript)
     raw = call_llm(system_prompt="", user_prompt=prompt, temperature=0.0, model=model)
     try:
-        parsed = json.loads(raw)
-    except json.JSONDecodeError as exc:
+        parsed = parse_json_object(raw)
+    except (json.JSONDecodeError, ValueError) as exc:
         raise ValueError(f"Failed to parse extraction JSON: {raw}") from exc
     return {
-        "relevant_history": str(parsed.get("relevant_history", "unknown")),
-        "core_beliefs": str(parsed.get("core_beliefs", "unknown")),
-        "intermediate_beliefs": str(parsed.get("intermediate_beliefs", "unknown")),
-        "coping_strategies": str(parsed.get("coping_strategies", "unknown")),
+        "relevant_history": normalize_extracted_field(parsed.get("relevant_history")),
+        "core_beliefs": normalize_extracted_field(parsed.get("core_beliefs")),
+        "intermediate_beliefs": normalize_extracted_field(parsed.get("intermediate_beliefs")),
+        "coping_strategies": normalize_extracted_field(parsed.get("coping_strategies")),
     }
 
 
@@ -225,7 +277,7 @@ def build_arg_parser() -> argparse.ArgumentParser:
     )
     parser.add_argument(
         "--extraction-model",
-        default="gpt-4o-mini",
+        default="gpt-4o",
         help="Model used to extract internal cognitive elements from transcript",
     )
     parser.add_argument(
