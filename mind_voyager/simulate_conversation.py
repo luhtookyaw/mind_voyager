@@ -5,7 +5,7 @@ import json
 from pathlib import Path
 
 from groq_req import call_groq_messages
-from llm import call_llm_messages
+from llm import call_llm, call_llm_messages
 from mind_voyager.client_simulator import (
     ClientCase,
     DEFAULT_DATASET,
@@ -53,6 +53,30 @@ def generate_masked_client_reply(
     ).strip()
 
 
+def transcript_records_text(transcript_records: list[dict[str, str | int]]) -> str:
+    lines = []
+    for item in transcript_records:
+        speaker = "Therapist" if item["speaker"] == "therapist" else "Client"
+        lines.append(f"{speaker}: {item['content']}")
+    return "\n".join(lines)
+
+
+def should_end_conversation(
+    transcript_records: list[dict[str, str | int]],
+    model: str,
+) -> tuple[bool, str]:
+    prompt = load_prompt("moderator.txt").format(
+        conversation=transcript_records_text(transcript_records)
+    )
+    response = call_llm(
+        system_prompt="",
+        user_prompt=prompt,
+        temperature=0.0,
+        model=model,
+    ).strip()
+    return response.upper().startswith("YES"), response
+
+
 def run_simulation(
     case_id: str,
     dataset: Path,
@@ -61,6 +85,7 @@ def run_simulation(
     therapist_provider: str,
     client_model: str,
     judge_model: str,
+    moderator_model: str,
     max_turns: int,
     output: Path | None,
 ) -> None:
@@ -79,12 +104,15 @@ def run_simulation(
     print(f"Therapist model: {therapist_model}")
     print(f"Client model: {client_model}")
     print(f"Judge model: {judge_model}")
+    print(f"Moderator model: {moderator_model}")
     print()
 
     therapist_transcript: list[dict[str, str]] = []
     state = SimulatorState(case=case, difficulty=difficulty)
 
     transcript_records: list[dict[str, str | int]] = []
+    moderator_events: list[str] = []
+    stop_reason = "max_turns"
 
     for turn in range(1, max_turns + 1):
         therapist_reply = generate_therapist_reply(
@@ -111,6 +139,18 @@ def run_simulation(
         transcript_records.append({"turn": turn, "speaker": "client", "content": client_reply})
 
         if GOODBYE_RE.search(therapist_reply):
+            stop_reason = "therapist_goodbye"
+            break
+
+        should_end, moderator_response = should_end_conversation(
+            transcript_records=transcript_records,
+            model=moderator_model,
+        )
+        moderator_event = f"Turn {turn}: {moderator_response.strip()}"
+        moderator_events.append(moderator_event)
+        print(f"Moderator> {moderator_response}\n")
+        if should_end:
+            stop_reason = "moderator_yes"
             break
 
     if state.events:
@@ -129,11 +169,15 @@ def run_simulation(
             "therapist_provider": therapist_provider,
             "therapist_model": therapist_model,
             "client_model": client_model,
+            "moderator_model": moderator_model,
             "max_turns": max_turns,
+            "therapist_turns": state.therapist_turns,
+            "stop_reason": stop_reason,
             "transcript": transcript_records,
         }
         payload["judge_model"] = judge_model
         payload["mediator_events"] = state.events
+        payload["moderator_events"] = moderator_events
         payload["final_openness_score"] = state.current_openness_score
         payload["final_visible_experience_count"] = state.visible_experience_count
         payload["internal_revealed"] = state.internal_revealed
@@ -165,6 +209,7 @@ def build_arg_parser() -> argparse.ArgumentParser:
     )
     parser.add_argument("--client-model", default="gpt-4o-mini", help="Client model")
     parser.add_argument("--judge-model", default="gpt-4o-mini", help="Mediator judge model")
+    parser.add_argument("--moderator-model", default="gpt-4o-mini", help="Moderator model")
     parser.add_argument("--max-turns", type=int, default=15, help="Maximum therapist turns")
     parser.add_argument("--output", help="Optional path to save the transcript as JSON")
     return parser
@@ -180,6 +225,7 @@ def main() -> None:
         therapist_provider=args.therapist_provider,
         client_model=args.client_model,
         judge_model=args.judge_model,
+        moderator_model=args.moderator_model,
         max_turns=args.max_turns,
         output=Path(args.output) if args.output else None,
     )

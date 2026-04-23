@@ -8,6 +8,7 @@ OUTPUT_ROOT="$ROOT_DIR/outputs"
 THERAPIST_MODEL="gpt-4o-mini"
 CLIENT_MODEL="gpt-4o-mini"
 JUDGE_MODEL="gpt-4o-mini"
+MODERATOR_MODEL="gpt-4o-mini"
 THERAPIST_PROVIDER="openai"
 MAX_TURNS=15
 SKIP_EXISTING=0
@@ -31,6 +32,7 @@ Options:
   --therapist-model MODEL      Therapist model (default: gpt-4o-mini)
   --client-model MODEL         Client model (default: gpt-4o-mini)
   --judge-model MODEL          Judge model for masked mode (default: gpt-4o-mini)
+  --moderator-model MODEL      Moderator model (default: gpt-4o-mini)
   --therapist-provider NAME    openai or groq (default: openai)
   --max-turns N                Maximum therapist turns per session (default: 15)
   --skip-existing              Skip a simulation when the output JSON already exists
@@ -63,6 +65,10 @@ while [[ $# -gt 0 ]]; do
       ;;
     --judge-model)
       JUDGE_MODEL="$2"
+      shift 2
+      ;;
+    --moderator-model)
+      MODERATOR_MODEL="$2"
       shift 2
       ;;
     --therapist-provider)
@@ -135,6 +141,7 @@ for difficulty in easy normal hard; do
       --therapist-provider "$THERAPIST_PROVIDER"
       --client-model "$CLIENT_MODEL"
       --judge-model "$JUDGE_MODEL"
+      --moderator-model "$MODERATOR_MODEL"
       --max-turns "$MAX_TURNS"
       --output "$output_path"
     )

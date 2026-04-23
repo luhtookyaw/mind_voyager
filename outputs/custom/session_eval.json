@@ -2,18 +2,18 @@
   "aggregate": {
     "num_sessions": 1,
     "edss": {
-      "situation": 0.8063973293819869,
-      "automatic_thought": 0.2667403839814412,
-      "emotion": 0.8511181344083669,
-      "behavior": 0.3810456289889395,
-      "average": 0.5763253691901836
+      "situation": 0.8397580750565226,
+      "automatic_thought": 0.47776557707746625,
+      "emotion": 0.719291450715386,
+      "behavior": 0.33291675010134025,
+      "average": 0.5924329632376788
     },
     "idss": {
-      "relevant_history": 0.7872957914121588,
-      "core_beliefs": 0.8416672480583804,
-      "intermediate_beliefs": 0.24273082481626107,
-      "coping_strategies": 0.6799298689975913,
-      "average": 0.6379059333210979
+      "relevant_history": 0.7777766706548925,
+      "core_beliefs": 0.8225300870085717,
+      "intermediate_beliefs": 0.457617078766894,
+      "coping_strategies": 0.6699888443998268,
+      "average": 0.6819781702075463
     }
   },
   "sessions": [
@@ -38,7 +38,7 @@
         "relevant_history": "The client has a history of feeling overwhelmed by family expectations, particularly from their mother, who has high expectations and focuses on the client's weight. The client's father is not around much, leading to a sense of isolation. The client was bullied as a child due to weight issues, which affected their self-image and feelings of being unlovable. The client has struggled with substance abuse in the past and has gone through rehab, but still battles urges to use substances as a way to escape stress and low moods.",
         "core_beliefs": "I am unlovable | I am trapped | I am out of control | I don't deserve to be happy | I am not good enough | I am a disappointment",
         "intermediate_beliefs": "The client believes that if they do not meet their mother's expectations, they will be a disappointment. If they let people in, they will be judged and rejected. If they do not have their life figured out, they are failing.",
-        "coping_strategies": "The client copes by keeping their distance from family to avoid judgment and rejection, which acts as a shield but also leads to feelings of isolation. They also tend to push people away before they can be rejected and struggle with urges to use substances as a way to escape overwhelming feelings."
+        "coping_strategies": "The client copes by keeping their distance from family to avoid judgment and rejection, which acts as a shield but also leads to feelings of isolation. They also build walls to protect themselves from potential rejection by others, and they have thoughts of using substances as a way to escape overwhelming feelings."
       },
       "ground_truth_internal_diagram": {
         "relevant_history": "The patient has a history of substance abuse and has been through rehab to overcome it. He has had issues with his family, particularly with his mother, where he has felt rejected and emotionally neglected. He has struggled with obesity since childhood, which has affected his self-esteem and body image. He also has a history of being victimized and bullied due to his weight.",
@@ -47,18 +47,18 @@
         "coping_strategies": "The patient has adopted avoidance as a coping strategy by distancing himself from his family to reduce exposure to negativity and conflict. He has started scheduling pleasant activities and planning his day ahead of time in order to maintain a sense of control over his emotions and circumstances."
       },
       "edss": {
-        "situation": 0.8063973293819869,
-        "automatic_thought": 0.2667403839814412,
-        "emotion": 0.8511181344083669,
-        "behavior": 0.3810456289889395,
-        "average": 0.5763253691901836
+        "situation": 0.8397580750565226,
+        "automatic_thought": 0.47776557707746625,
+        "emotion": 0.719291450715386,
+        "behavior": 0.33291675010134025,
+        "average": 0.5924329632376788
       },
       "idss": {
-        "relevant_history": 0.7872957914121588,
-        "core_beliefs": 0.8416672480583804,
-        "intermediate_beliefs": 0.24273082481626107,
-        "coping_strategies": 0.6799298689975913,
-        "average": 0.6379059333210979
+        "relevant_history": 0.7777766706548925,
+        "core_beliefs": 0.8225300870085717,
+        "intermediate_beliefs": 0.457617078766894,
+        "coping_strategies": 0.6699888443998268,
+        "average": 0.6819781702075463
       }
     }
   ]

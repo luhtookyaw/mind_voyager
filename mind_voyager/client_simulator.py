@@ -29,9 +29,9 @@ class DifficultyConfig:
 
 
 DIFFICULTIES = {
-    "easy": DifficultyConfig("easy", 0, "high", 1, 2, 1),
-    "normal": DifficultyConfig("normal", 0, "medium", 1, 4, 2),
-    "hard": DifficultyConfig("hard", 0, "low", 1, 6, 3),
+    "easy": DifficultyConfig("easy", 0, "high", 1, 1, 1),
+    "normal": DifficultyConfig("normal", 0, "medium", 1, 2, 2),
+    "hard": DifficultyConfig("hard", 0, "low", 1, 3, 3),
 }
 
 

@@ -1,35 +1,44 @@
 {
   "aggregate": {
     "num_sessions": 1,
-    "cder": {
-      "external": 0.0,
-      "internal": 1.0,
-      "overall": 0.0
+    "edss": {
+      "situation": 0.6378941187373435,
+      "automatic_thought": 0.5764339210462296,
+      "emotion": 0.4506415769750886,
+      "behavior": 0.4911582385682017,
+      "average": 0.5390319638317158
     },
     "idss": {
-      "relevant_history": 0.3295451767124725,
-      "core_beliefs": 0.12965660889646785,
-      "intermediate_beliefs": 0.16812618191627918,
-      "coping_strategies": 0.5296711630550011,
-      "average": 0.28924978264505513
+      "relevant_history": 0.4791669633897663,
+      "core_beliefs": 0.3982827633745043,
+      "intermediate_beliefs": 0.4413540043344704,
+      "coping_strategies": 0.6445138347993156,
+      "average": 0.49082939147451415
     }
   },
   "sessions": [
     {
-      "file": "/Users/luhtookyaw/Desktop/StageTherapy/mind_voyager/outputs/hard/session_1-2.json",
+      "file": "outputs/hard/session_1-2.json",
       "case_id": "1-2",
       "client_mode": "masked",
       "difficulty": "hard",
-      "cder": {
-        "external": 0,
-        "internal": 1,
-        "overall": 0
+      "predicted_external_diagram": {
+        "situation": "Alex missed their alarm and ended up late for work this morning.",
+        "automatic_thought": "It just feels like I can't get anything right.",
+        "emotion": "frustrated, overwhelmed",
+        "behavior": "Alex called in sick to avoid facing anyone and sometimes drinks to forget about it."
+      },
+      "ground_truth_external_diagram": {
+        "situation": "I missed my alarm and work up late for work.",
+        "automatic_thought": "Why can't I even do this little this right? My whole day is written off now, I might as well not do anything.",
+        "emotion": "anxious, worried, fearful, scared, tense; angry, mad, irritated, annoyed",
+        "behavior": "Called in sick. Got drunk in the morning and had a fight with girlfriend."
       },
       "predicted_internal_diagram": {
-        "relevant_history": "The client has a history of feeling overwhelmed and frustrated, particularly when they miss alarms or feel they can't manage simple tasks. They have struggled with feelings of not being good enough and have always felt pressure to succeed.",
-        "core_beliefs": "The client believes they are not good enough and fears letting themselves and others down.",
-        "intermediate_beliefs": "The client thinks that if they can't manage small tasks, they won't be able to handle bigger challenges. They also feel that opening up to others might lead to being misunderstood.",
-        "coping_strategies": "The client copes by shutting down, calling in sick, and using alcohol to forget their feelings. They also consider writing down their thoughts as a potential strategy to organize their feelings."
+        "relevant_history": "The client reports feeling overwhelmed by life and experiencing a rough morning, missing an alarm and being late for work. The client feels frustrated and questions their efforts, leading to thoughts of giving up. The client mentions using alcohol to cope with overwhelming feelings and shutting down by calling in sick to avoid facing others. The client expresses a long-standing feeling of not being good enough and setting high standards for themselves, which reinforces feelings of inadequacy when not met. The client finds it difficult to engage in activities they used to enjoy, like playing video games or watching movies, due to a lack of energy and motivation.",
+        "core_beliefs": "I am not good enough | I am letting everyone down, including myself",
+        "intermediate_beliefs": "If I can't manage the little things, then I can't expect to do anything bigger. | The client believes that if they don't hold themselves to high expectations, they will fall apart or become more lost. | The client believes that asking for help doesn't mean they are weak.",
+        "coping_strategies": "The client copes by shutting down and avoiding situations, such as calling in sick to work, and by using alcohol to temporarily quiet overwhelming thoughts. The client also considers writing down thoughts and feelings as a way to organize and express themselves, and creating a supportive environment to facilitate this process."
       },
       "ground_truth_internal_diagram": {
         "relevant_history": "The patient has a history of substance abuse and has been through rehab to overcome it. He has had issues with his family, particularly with his mother, where he has felt rejected and emotionally neglected. He has struggled with obesity since childhood, which has affected his self-esteem and body image. He also has a history of being victimized and bullied due to his weight.",
@@ -37,12 +46,19 @@
         "intermediate_beliefs": "Helpless: I'm just not very good at handling stress and I have poor self-control, which is why I need to not put myself in stressful situations.\nDepressive variant: Helpless: There's nothing I can do to change my situation. I cannot control myself. So why stay clean anyway?",
         "coping_strategies": "The patient turns to substances as a coping strategy to escape his feelings. He has been staying at his girlfriend's place to avoid his parents' influence and the associated stress. He also uses yelling and stepping away from situations to manage his low self esteem."
       },
+      "edss": {
+        "situation": 0.6378941187373435,
+        "automatic_thought": 0.5764339210462296,
+        "emotion": 0.4506415769750886,
+        "behavior": 0.4911582385682017,
+        "average": 0.5390319638317158
+      },
       "idss": {
-        "relevant_history": 0.3295451767124725,
-        "core_beliefs": 0.12965660889646785,
-        "intermediate_beliefs": 0.16812618191627918,
-        "coping_strategies": 0.5296711630550011,
-        "average": 0.28924978264505513
+        "relevant_history": 0.4791669633897663,
+        "core_beliefs": 0.3982827633745043,
+        "intermediate_beliefs": 0.4413540043344704,
+        "coping_strategies": 0.6445138347993156,
+        "average": 0.49082939147451415
       }
     }
   ]
