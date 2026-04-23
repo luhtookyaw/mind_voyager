@@ -26,12 +26,19 @@ Elements to extract:
 
 3. Intermediate Beliefs: Conditional rules derived from core beliefs.
 
-4. Coping Strategies: Behavioral/psychological mechanisms to manage distress. \
+4. Coping Strategies: Behavioral/psychological mechanisms to manage distress.
 
 Instructions:
-- Separate multiple entries of Core Beliefs with " | ". Don't do like this with other components.
 - Set to null if not discussed
 - Return ONLY valid JSON, no preamble or markdown
+- Use " | " ONLY for core_beliefs.
+- Never use " | " in relevant_history, intermediate_beliefs, or coping_strategies.
+
+Field-specific style:
+- relevant_history: one concise paragraph beginning with "The client has a history of..." or "The client reports..."
+- core_beliefs: first-person absolute belief statements separated by " | ". Use "I am..." / "Others..." / "The world..." phrasing where possible.
+- intermediate_beliefs: conditional rules, assumptions, or attitudes. Prefer "If..., then..." or "The client believes that..." phrasing.
+- coping_strategies: one concise paragraph beginning with "The client copes by..." or "The client tends to..."
 
 Counseling Session:
 {dialogue_history}

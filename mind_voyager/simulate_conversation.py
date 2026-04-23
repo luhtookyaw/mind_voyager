@@ -19,7 +19,6 @@ from mind_voyager.client_simulator import (
     maybe_update_state,
     render_client_system_prompt,
 )
-from mind_voyager.revealed_client_simulator import render_revealed_client_prompt
 
 
 def render_therapist_prompt(case: ClientCase) -> str:
@@ -54,18 +53,6 @@ def generate_masked_client_reply(
     ).strip()
 
 
-def generate_revealed_client_reply(
-    system_prompt: str,
-    dialogue: list[dict[str, str]],
-    client_model: str,
-) -> str:
-    return call_llm_messages(
-        messages=[{"role": "system", "content": system_prompt}, *dialogue],
-        temperature=0.3,
-        model=client_model,
-    ).strip()
-
-
 def run_simulation(
     case_id: str,
     dataset: Path,
@@ -75,8 +62,6 @@ def run_simulation(
     client_model: str,
     judge_model: str,
     max_turns: int,
-    revealed_client: bool,
-    hide_all: bool,
     output: Path | None,
 ) -> None:
     ensure_api_key()
@@ -88,24 +73,16 @@ def run_simulation(
     print("----------------")
     print(f"Case ID: {case.case_id}")
     print(f"Client: {case.name}")
-    print(f"Client mode: {'revealed' if revealed_client else 'masked'}")
-    if revealed_client:
-        print(f"Hide all client fields: {'yes' if hide_all else 'no'}")
+    print("Client mode: masked")
     print(f"Difficulty: {difficulty.name}")
     print(f"Therapist provider: {therapist_provider}")
     print(f"Therapist model: {therapist_model}")
     print(f"Client model: {client_model}")
-    if not revealed_client:
-        print(f"Judge model: {judge_model}")
+    print(f"Judge model: {judge_model}")
     print()
 
     therapist_transcript: list[dict[str, str]] = []
-
-    if revealed_client:
-        client_system_prompt = render_revealed_client_prompt(case, difficulty, hide_all=hide_all)
-        client_dialogue: list[dict[str, str]] = []
-    else:
-        state = SimulatorState(case=case, difficulty=difficulty)
+    state = SimulatorState(case=case, difficulty=difficulty)
 
     transcript_records: list[dict[str, str | int]] = []
 
@@ -122,21 +99,12 @@ def run_simulation(
             {"turn": turn, "speaker": "therapist", "content": therapist_reply}
         )
 
-        if revealed_client:
-            client_dialogue.append({"role": "user", "content": therapist_reply})
-            client_reply = generate_revealed_client_reply(
-                system_prompt=client_system_prompt,
-                dialogue=client_dialogue,
-                client_model=client_model,
-            )
-            client_dialogue.append({"role": "assistant", "content": client_reply})
-        else:
-            state.dialogue.append({"role": "user", "content": therapist_reply})
-            state.therapist_turns += 1
-            judge_status = maybe_update_state(state, judge_model)
-            print(format_judge_status(state.therapist_turns, judge_status))
-            client_reply = generate_masked_client_reply(state=state, client_model=client_model)
-            state.dialogue.append({"role": "assistant", "content": client_reply})
+        state.dialogue.append({"role": "user", "content": therapist_reply})
+        state.therapist_turns += 1
+        judge_status = maybe_update_state(state, judge_model)
+        print(format_judge_status(state.therapist_turns, judge_status))
+        client_reply = generate_masked_client_reply(state=state, client_model=client_model)
+        state.dialogue.append({"role": "assistant", "content": client_reply})
 
         print(f"Client {turn}> {client_reply}\n")
         therapist_transcript.append({"role": "user", "content": client_reply})
@@ -145,7 +113,7 @@ def run_simulation(
         if GOODBYE_RE.search(therapist_reply):
             break
 
-    if not revealed_client and state.events:
+    if state.events:
         print("Mediator events")
         print("---------------")
         for event in state.events:
@@ -155,23 +123,20 @@ def run_simulation(
         payload: dict[str, object] = {
             "case_id": case.case_id,
             "client_name": case.name,
-            "client_mode": "revealed" if revealed_client else "masked",
-            "hide_all": hide_all if revealed_client else False,
+            "client_mode": "masked",
             "difficulty": difficulty.name,
+            "openness_interval": difficulty.openness_interval,
             "therapist_provider": therapist_provider,
             "therapist_model": therapist_model,
             "client_model": client_model,
             "max_turns": max_turns,
             "transcript": transcript_records,
         }
-        if revealed_client:
-            payload["final_visible_experience_count"] = 3
-            payload["internal_revealed"] = True
-        else:
-            payload["judge_model"] = judge_model
-            payload["mediator_events"] = state.events
-            payload["final_visible_experience_count"] = state.visible_experience_count
-            payload["internal_revealed"] = state.internal_revealed
+        payload["judge_model"] = judge_model
+        payload["mediator_events"] = state.events
+        payload["final_openness_score"] = state.current_openness_score
+        payload["final_visible_experience_count"] = state.visible_experience_count
+        payload["internal_revealed"] = state.internal_revealed
         output.parent.mkdir(parents=True, exist_ok=True)
         output.write_text(json.dumps(payload, indent=2))
         print(f"\nSaved transcript to {output}")
@@ -201,16 +166,6 @@ def build_arg_parser() -> argparse.ArgumentParser:
     parser.add_argument("--client-model", default="gpt-4o-mini", help="Client model")
     parser.add_argument("--judge-model", default="gpt-4o-mini", help="Mediator judge model")
     parser.add_argument("--max-turns", type=int, default=15, help="Maximum therapist turns")
-    parser.add_argument(
-        "--revealed-client",
-        action="store_true",
-        help="Use reveal_client_prompt.txt and bypass the mediator",
-    )
-    parser.add_argument(
-        "--hide-all",
-        action="store_true",
-        help="With --revealed-client, force all client-side prompt fields except the client name to 'unknown'",
-    )
     parser.add_argument("--output", help="Optional path to save the transcript as JSON")
     return parser
 
@@ -226,8 +181,6 @@ def main() -> None:
         client_model=args.client_model,
         judge_model=args.judge_model,
         max_turns=args.max_turns,
-        revealed_client=args.revealed_client,
-        hide_all=args.hide_all,
         output=Path(args.output) if args.output else None,
     )
 

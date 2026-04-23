@@ -1,17 +1,19 @@
 {
   "aggregate": {
     "num_sessions": 1,
-    "cder": {
-      "external": 0.0,
-      "internal": 1.0,
-      "overall": 0.0
+    "edss": {
+      "situation": 0.8063973293819869,
+      "automatic_thought": 0.2667403839814412,
+      "emotion": 0.8511181344083669,
+      "behavior": 0.3810456289889395,
+      "average": 0.5763253691901836
     },
     "idss": {
-      "relevant_history": 0.5834063421153898,
-      "core_beliefs": 0.8692762806880917,
-      "intermediate_beliefs": 0.27071042258671385,
-      "coping_strategies": 0.6392434737585786,
-      "average": 0.5906591297871935
+      "relevant_history": 0.7872957914121588,
+      "core_beliefs": 0.8416672480583804,
+      "intermediate_beliefs": 0.24273082481626107,
+      "coping_strategies": 0.6799298689975913,
+      "average": 0.6379059333210979
     }
   },
   "sessions": [
@@ -20,16 +22,23 @@
       "case_id": "1-1",
       "client_mode": "masked",
       "difficulty": "hard",
-      "cder": {
-        "external": 0,
-        "internal": 1,
-        "overall": 0
+      "predicted_external_diagram": {
+        "situation": "Alex was invited to their cousin's wedding and feels overwhelmed by the prospect of attending.",
+        "automatic_thought": "I don\u2019t have good answers. It feels like they\u2019re judging me or something.",
+        "emotion": "anxious, uneasy, overwhelmed, judged, disappointed, trapped, lonely, isolated",
+        "behavior": "Alex wants to avoid the wedding to not deal with questions and potential judgment."
+      },
+      "ground_truth_external_diagram": {
+        "situation": "Alex's cousin invited him to attend his upcoming wedding.",
+        "automatic_thought": "It will be stressful and negative; people will ask me questions I cannot answer or don't want to answer; my mum would be ashamed of me and critical of me as always; They don't want me there anyway, nobody likes me in this family.",
+        "emotion": "anxious, worried, fearful, scared, tense; sad, down, lonely, unhappy",
+        "behavior": "Ignored the invitation and did not respond to the RSVP request. Ignored phone calls from family."
       },
       "predicted_internal_diagram": {
-        "relevant_history": "Family: Feeling overwhelmed by family expectations, especially from mum. Dad not being around much. Feeling distant from cousins. | Social Life: Feeling like not fitting in, feeling judged, and keeping distance to avoid negativity. | Childhood: Struggled with weight, bullied, mum focused on weight, felt different and unwanted. | Mental Health: Anxiety about family gatherings, feeling judged, feeling like a disappointment. | Substance Use: Past struggles with substance abuse, went through rehab, battling urges to use again. | Identity: Struggles with self-esteem and weight, feeling unlovable.",
-        "core_beliefs": "I am unlovable | I am trapped | I am out of control | I don\u2019t deserve to be happy",
-        "intermediate_beliefs": "I should have it all figured out | I should meet certain expectations | I should not disappoint my mum",
-        "coping_strategies": "Avoidance of family gatherings to avoid judgment and questions. Keeping distance from family to protect from negativity. Building walls to protect from rejection. Thinking about using substances to escape overwhelming feelings."
+        "relevant_history": "The client has a history of feeling overwhelmed by family expectations, particularly from their mother, who has high expectations and focuses on the client's weight. The client's father is not around much, leading to a sense of isolation. The client was bullied as a child due to weight issues, which affected their self-image and feelings of being unlovable. The client has struggled with substance abuse in the past and has gone through rehab, but still battles urges to use substances as a way to escape stress and low moods.",
+        "core_beliefs": "I am unlovable | I am trapped | I am out of control | I don't deserve to be happy | I am not good enough | I am a disappointment",
+        "intermediate_beliefs": "The client believes that if they do not meet their mother's expectations, they will be a disappointment. If they let people in, they will be judged and rejected. If they do not have their life figured out, they are failing.",
+        "coping_strategies": "The client copes by keeping their distance from family to avoid judgment and rejection, which acts as a shield but also leads to feelings of isolation. They also tend to push people away before they can be rejected and struggle with urges to use substances as a way to escape overwhelming feelings."
       },
       "ground_truth_internal_diagram": {
         "relevant_history": "The patient has a history of substance abuse and has been through rehab to overcome it. He has had issues with his family, particularly with his mother, where he has felt rejected and emotionally neglected. He has struggled with obesity since childhood, which has affected his self-esteem and body image. He also has a history of being victimized and bullied due to his weight.",
@@ -37,12 +46,19 @@
         "intermediate_beliefs": "Helpless: I'm just not very good at handling stress and I have poor self-control, which is why I need to not put myself in stressful situations. \n Unlovable: If I show my true self, people will reject me the way my mother rejected me.\nDepressive variant: Helpless: There's nothing I can do to change my situation. I cannot control myself. \nUnlovable: I don't deserve to be happy, so why even try to stay clean?",
         "coping_strategies": "The patient has adopted avoidance as a coping strategy by distancing himself from his family to reduce exposure to negativity and conflict. He has started scheduling pleasant activities and planning his day ahead of time in order to maintain a sense of control over his emotions and circumstances."
       },
+      "edss": {
+        "situation": 0.8063973293819869,
+        "automatic_thought": 0.2667403839814412,
+        "emotion": 0.8511181344083669,
+        "behavior": 0.3810456289889395,
+        "average": 0.5763253691901836
+      },
       "idss": {
-        "relevant_history": 0.5834063421153898,
-        "core_beliefs": 0.8692762806880917,
-        "intermediate_beliefs": 0.27071042258671385,
-        "coping_strategies": 0.6392434737585786,
-        "average": 0.5906591297871935
+        "relevant_history": 0.7872957914121588,
+        "core_beliefs": 0.8416672480583804,
+        "intermediate_beliefs": 0.24273082481626107,
+        "coping_strategies": 0.6799298689975913,
+        "average": 0.6379059333210979
       }
     }
   ]

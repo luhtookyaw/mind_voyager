@@ -21,16 +21,17 @@ GOODBYE_RE = re.compile(r"\bgoodbye\b", re.IGNORECASE)
 @dataclass(frozen=True)
 class DifficultyConfig:
     name: str
-    openness: str
+    initial_openness_score: int
     metacognition: str
     initial_visible_experiences: int
+    openness_interval: int
     exploration_interval: int
 
 
 DIFFICULTIES = {
-    "easy": DifficultyConfig("easy", "high", "high", 3, 1),
-    "normal": DifficultyConfig("normal", "medium", "medium", 2, 2),
-    "hard": DifficultyConfig("hard", "low", "low", 1, 3),
+    "easy": DifficultyConfig("easy", 0, "high", 1, 2, 1),
+    "normal": DifficultyConfig("normal", 0, "medium", 1, 4, 2),
+    "hard": DifficultyConfig("hard", 0, "low", 1, 6, 3),
 }
 
 
@@ -75,6 +76,7 @@ class SimulatorState:
     case: ClientCase
     difficulty: DifficultyConfig
     visible_experience_count: int = field(init=False)
+    current_openness_score: int = field(init=False)
     internal_revealed: bool = False
     therapist_turns: int = 0
     dialogue: list[dict[str, str]] = field(default_factory=list)
@@ -82,14 +84,11 @@ class SimulatorState:
 
     def __post_init__(self) -> None:
         self.visible_experience_count = self.difficulty.initial_visible_experiences
+        self.current_openness_score = self.difficulty.initial_openness_score
 
     @property
     def rapport_level(self) -> str:
-        if self.visible_experience_count <= 1:
-            return "low"
-        if self.visible_experience_count == 2:
-            return "building"
-        return "strong"
+        return "single-experience"
 
     def experience_block(self) -> tuple[str, str]:
         reaction_lines = [
@@ -101,10 +100,10 @@ class SimulatorState:
 
     def visible_experiences(self) -> list[tuple[str, str]]:
         situation, reaction = self.experience_block()
-        return [(situation, reaction) for _ in range(self.visible_experience_count)]
+        return [(situation, reaction)] if self.visible_experience_count >= 1 else []
 
     def masked_experience_slots(self) -> list[int]:
-        return list(range(self.visible_experience_count + 1, 4))
+        return [] if self.visible_experience_count >= 1 else [1]
 
     def visible_internal(self) -> dict[str, str]:
         if not self.internal_revealed:
@@ -131,7 +130,9 @@ class SimulatorState:
             f"Presenting situation: {self.case.situation}\n"
             f"Observed style tendencies: {traits}\n"
             f"Difficulty: {self.difficulty.name}\n"
-            f"Initial visible experience blocks: {self.visible_experience_count}/3\n"
+            f"Initial openness score: {self.current_openness_score}/5\n"
+            f"Openness evaluation interval: every {self.difficulty.openness_interval} therapist turn(s)\n"
+            f"Initial visible experience blocks: {self.visible_experience_count}/1\n"
             f"Metacognition evaluation interval: every {self.difficulty.exploration_interval} therapist turn(s)"
         )
 
@@ -152,27 +153,26 @@ def build_base_prompt_payload(state: SimulatorState) -> dict[str, str]:
     visible_internal = state.visible_internal()
     situation, reaction = state.experience_block()
     visible_count = state.visible_experience_count
+    traits = ", ".join(state.case.type_traits) if state.case.type_traits else "unknown"
 
     return {
         "name": state.case.name,
-        "openness": state.difficulty.openness,
+        "traits": traits,
+        "openness": f"{state.current_openness_score}/5",
         "metacognition": state.difficulty.metacognition,
         "history": visible_internal.get("history", "unknown"),
         "core_belief": visible_internal.get("core_beliefs", "unknown"),
         "intermediate_belief": visible_internal.get("intermediate_beliefs", "unknown"),
         "coping_strategy": visible_internal.get("coping_strategies", "unknown"),
-        "situation1": situation if visible_count >= 1 else "unknown",
-        "reaction1": reaction if visible_count >= 1 else "unknown",
-        "situation2": situation if visible_count >= 2 else "unknown",
-        "reaction2": reaction if visible_count >= 2 else "unknown",
-        "situation3": situation if visible_count >= 3 else "unknown",
-        "reaction3": reaction if visible_count >= 3 else "unknown",
+        "situation": situation if visible_count >= 1 else "unknown",
+        "reaction": reaction if visible_count >= 1 else "unknown",
     }
 
 
 def render_client_system_prompt(state: SimulatorState) -> str:
     prompt = load_prompt("base_client_prompt.txt").replace("[Client]", state.case.name)
     prompt = prompt.format(**build_base_prompt_payload(state))
+    print(prompt)
     return prompt
 
 
@@ -239,29 +239,23 @@ def maybe_update_state(state: SimulatorState, judge_model: str) -> dict[str, str
             "exploration": "not run (no dialogue yet)",
         }
 
-    did_rapport_check = state.therapist_turns % 4 == 0
+    did_rapport_check = state.therapist_turns % state.difficulty.openness_interval == 0
     did_exploration_check = state.therapist_turns % state.difficulty.exploration_interval == 0
     judge_status = {
         "openness": "not scheduled",
         "exploration": "not scheduled",
     }
 
-    if state.visible_experience_count >= 3:
-        judge_status["openness"] = "not run (already fully externally revealed)"
-    elif did_rapport_check:
+    if did_rapport_check:
         rating, raw = judge_openness(state.dialogue, judge_model)
-        if rating is not None and rating >= 4:
-            state.visible_experience_count += 1
-            state.events.append(
-                f"Rapport judge rated {rating}/5 and revealed one more experience block."
-            )
-            judge_status["openness"] = f"{rating}/5 (revealed one more experience block)"
+        if rating is not None:
+            state.current_openness_score = rating
+            state.events.append(f"Openness judge rated {rating}/5 and updated prompt openness.")
+            judge_status["openness"] = f"{rating}/5 (updated prompt openness)"
         else:
-            state.events.append(
-                f"Rapport judge rated {rating or 'unknown'}/5; no experience reveal."
-            )
-            judge_status["openness"] = f"{rating or 'unknown'}/5 (no external reveal)"
-        state.events.append(f"Rapport judge output: {raw.strip()}")
+            state.events.append("Openness judge rating could not be parsed; prompt openness unchanged.")
+            judge_status["openness"] = "unknown/5 (prompt openness unchanged)"
+        state.events.append(f"Openness judge output: {raw.strip()}")
 
     if state.internal_revealed:
         judge_status["exploration"] = "not run (internal elements already revealed)"
@@ -305,6 +299,8 @@ def save_transcript(
         "judge_model": judge_model,
         "max_turns": max_turns,
         "therapist_turns": state.therapist_turns,
+        "openness_interval": state.difficulty.openness_interval,
+        "final_openness_score": state.current_openness_score,
         "visible_experience_count": state.visible_experience_count,
         "internal_revealed": state.internal_revealed,
         "dialogue": state.dialogue,

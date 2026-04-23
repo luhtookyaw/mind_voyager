@@ -7,7 +7,7 @@ from pathlib import Path
 from typing import Any
 
 from llm import call_llm, cosine_similarity, get_embedding
-from mind_voyager.client_simulator import DEFAULT_DATASET, DIFFICULTIES, load_case, load_prompt
+from mind_voyager.client_simulator import DEFAULT_DATASET, load_case, load_prompt
 
 
 def load_transcript_payloads(path: Path) -> list[tuple[Path, dict[str, Any]]]:
@@ -61,10 +61,21 @@ def build_ground_truth(case_id: str, dataset: Path) -> dict[str, str]:
     }
 
 
-def render_internal_diagram_extraction_prompt(
+def build_external_ground_truth(case_id: str, dataset: Path) -> dict[str, str]:
+    case = load_case(dataset, case_id)
+    return {
+        "situation": case.situation or "unknown",
+        "automatic_thought": case.automatic_thought or "unknown",
+        "emotion": "; ".join(case.emotion) if case.emotion else "unknown",
+        "behavior": case.behavior or "unknown",
+    }
+
+
+def render_extraction_prompt(
+    prompt_name: str,
     transcript: str,
 ) -> str:
-    prompt = load_prompt("internal_diagram_extraction.txt")
+    prompt = load_prompt(prompt_name)
     replacements = {
         "{dialogue_history}": transcript,
         "{transcript}": transcript,
@@ -72,6 +83,18 @@ def render_internal_diagram_extraction_prompt(
     for placeholder, value in replacements.items():
         prompt = prompt.replace(placeholder, value)
     return prompt
+
+
+def render_internal_diagram_extraction_prompt(
+    transcript: str,
+) -> str:
+    return render_extraction_prompt("internal_diagram_extraction.txt", transcript)
+
+
+def render_external_diagram_extraction_prompt(
+    transcript: str,
+) -> str:
+    return render_extraction_prompt("external_diagram_extraction.txt", transcript)
 
 
 def normalize_extracted_value(value: Any) -> str:
@@ -127,23 +150,37 @@ def extract_internal_diagram(
     }
 
 
-def compute_cder(payload: dict[str, Any]) -> dict[str, int]:
-    difficulty_name = payload["difficulty"]
-    initial_visible = DIFFICULTIES[difficulty_name].initial_visible_experiences
-    final_visible = int(
-        payload.get(
-            "final_visible_experience_count",
-            payload.get("visible_experience_count", initial_visible),
-        )
-    )
-    internal_revealed = bool(payload.get("internal_revealed", False))
-    external_success = int(final_visible >= 3)
-    internal_success = int(internal_revealed)
+def extract_external_diagram(
+    transcript: str,
+    model: str,
+) -> dict[str, str]:
+    prompt = render_external_diagram_extraction_prompt(transcript)
+    raw = call_llm(system_prompt="", user_prompt=prompt, temperature=0.0, model=model)
+    try:
+        parsed = parse_json_object(raw)
+    except (json.JSONDecodeError, ValueError) as exc:
+        raise ValueError(f"Failed to parse external extraction JSON: {raw}") from exc
     return {
-        "external": external_success,
-        "internal": internal_success,
-        "overall": int(external_success and internal_success),
+        "situation": normalize_extracted_field(parsed.get("situation")),
+        "automatic_thought": normalize_extracted_field(parsed.get("automatic_thought")),
+        "emotion": normalize_extracted_field(parsed.get("emotion")),
+        "behavior": normalize_extracted_field(parsed.get("behavior")),
     }
+
+
+def compute_similarity_scores(
+    predicted: dict[str, str],
+    ground_truth: dict[str, str],
+    embedding_model: str,
+    keys: tuple[str, ...],
+) -> dict[str, float]:
+    scores = {}
+    for key in keys:
+        pred_embedding = get_embedding(predicted[key], model=embedding_model)
+        truth_embedding = get_embedding(ground_truth[key], model=embedding_model)
+        scores[key] = cosine_similarity(pred_embedding, truth_embedding)
+    scores["average"] = sum(scores.values()) / len(keys)
+    return scores
 
 
 def compute_idss(
@@ -151,18 +188,35 @@ def compute_idss(
     ground_truth: dict[str, str],
     embedding_model: str,
 ) -> dict[str, float]:
-    scores = {}
-    for key in (
-        "relevant_history",
-        "core_beliefs",
-        "intermediate_beliefs",
-        "coping_strategies",
-    ):
-        pred_embedding = get_embedding(predicted[key], model=embedding_model)
-        truth_embedding = get_embedding(ground_truth[key], model=embedding_model)
-        scores[key] = cosine_similarity(pred_embedding, truth_embedding)
-    scores["average"] = sum(scores.values()) / 4
-    return scores
+    return compute_similarity_scores(
+        predicted,
+        ground_truth,
+        embedding_model,
+        (
+            "relevant_history",
+            "core_beliefs",
+            "intermediate_beliefs",
+            "coping_strategies",
+        ),
+    )
+
+
+def compute_edss(
+    predicted: dict[str, str],
+    ground_truth: dict[str, str],
+    embedding_model: str,
+) -> dict[str, float]:
+    return compute_similarity_scores(
+        predicted,
+        ground_truth,
+        embedding_model,
+        (
+            "situation",
+            "automatic_thought",
+            "emotion",
+            "behavior",
+        ),
+    )
 
 
 def maybe_compute_ctrs(transcript: str, model: str) -> str:
@@ -180,18 +234,22 @@ def evaluate_file(
     ctrs_model: str,
 ) -> dict[str, Any]:
     transcript = transcript_text(payload)
-    ground_truth = build_ground_truth(payload["case_id"], dataset)
-    predicted = extract_internal_diagram(transcript, extraction_model)
-    cder = compute_cder(payload)
-    idss = compute_idss(predicted, ground_truth, embedding_model)
+    internal_ground_truth = build_ground_truth(payload["case_id"], dataset)
+    external_ground_truth = build_external_ground_truth(payload["case_id"], dataset)
+    predicted_internal = extract_internal_diagram(transcript, extraction_model)
+    predicted_external = extract_external_diagram(transcript, extraction_model)
+    idss = compute_idss(predicted_internal, internal_ground_truth, embedding_model)
+    edss = compute_edss(predicted_external, external_ground_truth, embedding_model)
     result: dict[str, Any] = {
         "file": str(file_path),
         "case_id": payload["case_id"],
         "client_mode": payload.get("client_mode", "masked"),
         "difficulty": payload["difficulty"],
-        "cder": cder,
-        "predicted_internal_diagram": predicted,
-        "ground_truth_internal_diagram": ground_truth,
+        "predicted_external_diagram": predicted_external,
+        "ground_truth_external_diagram": external_ground_truth,
+        "predicted_internal_diagram": predicted_internal,
+        "ground_truth_internal_diagram": internal_ground_truth,
+        "edss": edss,
         "idss": idss,
     }
     if include_ctrs:
@@ -201,9 +259,6 @@ def evaluate_file(
 
 def aggregate_results(results: list[dict[str, Any]]) -> dict[str, Any]:
     count = len(results)
-    cder_external = sum(item["cder"]["external"] for item in results) / count
-    cder_internal = sum(item["cder"]["internal"] for item in results) / count
-    cder_overall = sum(item["cder"]["overall"] for item in results) / count
     idss_keys = [
         "relevant_history",
         "core_beliefs",
@@ -215,23 +270,22 @@ def aggregate_results(results: list[dict[str, Any]]) -> dict[str, Any]:
         key: sum(item["idss"][key] for item in results) / count
         for key in idss_keys
     }
+    edss_keys = [
+        "situation",
+        "automatic_thought",
+        "emotion",
+        "behavior",
+        "average",
+    ]
+    edss = {
+        key: sum(item["edss"][key] for item in results) / count
+        for key in edss_keys
+    }
     return {
         "num_sessions": count,
-        "cder": {
-            "external": cder_external,
-            "internal": cder_internal,
-            "overall": cder_overall,
-        },
+        "edss": edss,
         "idss": idss,
     }
-
-
-def pct(value: float) -> str:
-    return f"{value * 100:.2f}"
-
-
-def score(value: float) -> str:
-    return f"{value:.4f}"
 
 
 def pct_score(value: float) -> str:
@@ -239,21 +293,23 @@ def pct_score(value: float) -> str:
 
 
 def print_paper_style_tables(aggregate: dict[str, Any]) -> None:
-    cder = aggregate["cder"]
+    edss = aggregate["edss"]
     idss = aggregate["idss"]
 
-    print("Table 1: Cognitive Diagram Exposure Rate (CDER)")
+    print("External Diagram Similarity Score (EDSS)")
     print()
-    print(f"{'Sessions':<10} {'E':>8} {'I':>8} {'G':>8}")
+    print(f"{'Sessions':<10} {'Avg.':>10} {'S':>10} {'AT':>10} {'E':>10} {'B':>10}")
     print(
         f"{aggregate['num_sessions']:<10} "
-        f"{pct(cder['external']):>8} "
-        f"{pct(cder['internal']):>8} "
-        f"{pct(cder['overall']):>8}"
+        f"{pct_score(edss['average']):>10} "
+        f"{pct_score(edss['situation']):>10} "
+        f"{pct_score(edss['automatic_thought']):>10} "
+        f"{pct_score(edss['emotion']):>10} "
+        f"{pct_score(edss['behavior']):>10}"
     )
     print()
 
-    print("Table 2: Induced Diagram Similarity Score (IDSS)")
+    print("Induced Diagram Similarity Score (IDSS)")
     print()
     print(f"{'Sessions':<10} {'Avg.':>10} {'RH':>10} {'CB':>10} {'IB':>10} {'CS':>10}")
     print(
@@ -284,7 +340,7 @@ def build_arg_parser() -> argparse.ArgumentParser:
         "--embedding-model",
         default="sentence-transformers/all-mpnet-base-v2",
         help=(
-            "Embedding model used for IDSS similarity scoring. "
+            "Embedding model used for EDSS and IDSS similarity scoring. "
             "Supports OpenAI embedding models or sentence-transformers models "
             "such as sentence-transformers/all-mpnet-base-v2"
         ),

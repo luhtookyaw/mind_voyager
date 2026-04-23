@@ -1,0 +1,39 @@
+You are a CBT expert. Extract ALL external cognitive elements revealed by the client in the session below.
+Be exhaustive, specific, and stay close to the client's actual words.
+Do not infer or hallucinate.
+
+Elements to extract:
+
+1. Situation: The current concrete event, context, interpersonal interaction, or task the client is reacting to.
+   - Include who was involved, what happened, where relevant, and the immediate context.
+   - Do not include distant past. 
+
+2. Automatic Thought: The client's spontaneous thoughts, interpretations, predictions, self-talk, meanings, or images that arise in response to the situation.
+   - These are usually phrased as quick appraisals.
+
+3. Emotion: The client's emotional reactions to the situation and thoughts. 
+   - Include specific emotion words and affective states.
+
+4. Behavior: The client's observable actions, avoidance, withdrawal, coping responses, interpersonal responses, or physiological/behavioral changes.
+   - Include what the client did or did not do.
+
+Instructions:
+- Set to null if not discussed.
+- Return ONLY valid JSON, no preamble or markdown.
+
+Field-specific style:
+- situation: concrete event/context in one sentence. Include who/what/when if available.
+- automatic_thought: client’s immediate interpretation, prediction, or self-talk. Prefer first-person thought form if clear.
+- emotion: comma-separated emotion words or short affective phrases.
+- behavior: concrete action/inaction in one sentence.
+
+Counseling Session:
+{dialogue_history}
+
+Output:
+{
+   "situation": <string or null>,
+   "automatic_thought": <string or null>,
+   "emotion": <string or null>,
+   "behavior": <string or null>
+}

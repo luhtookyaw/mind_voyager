@@ -26,6 +26,8 @@ def load_session_aggregates(root: Path) -> dict[str, list[dict]]:
         rows = []
         for file_path in files:
             payload = json.loads(file_path.read_text())
+            if "edss" not in payload.get("aggregate", {}):
+                continue
             rows.append(payload["aggregate"])
         results[difficulty] = rows
     return results
@@ -37,16 +39,18 @@ def summarize(aggregates: dict[str, list[dict]]) -> dict[str, dict]:
         if not rows:
             summary[difficulty] = {
                 "sessions": 0,
-                "cder": {},
+                "edss": {},
                 "idss": {},
             }
             continue
         summary[difficulty] = {
             "sessions": len(rows),
-            "cder": {
-                "external": mean(r["cder"]["external"] for r in rows),
-                "internal": mean(r["cder"]["internal"] for r in rows),
-                "overall": mean(r["cder"]["overall"] for r in rows),
+            "edss": {
+                "average": mean(r["edss"]["average"] for r in rows),
+                "situation": mean(r["edss"]["situation"] for r in rows),
+                "automatic_thought": mean(r["edss"]["automatic_thought"] for r in rows),
+                "emotion": mean(r["edss"]["emotion"] for r in rows),
+                "behavior": mean(r["edss"]["behavior"] for r in rows),
             },
             "idss": {
                 "average": mean(r["idss"]["average"] for r in rows),
@@ -62,18 +66,16 @@ def summarize(aggregates: dict[str, list[dict]]) -> dict[str, dict]:
 def print_summary(summary: dict[str, dict]) -> None:
     print("Average Scores by Difficulty")
     print()
-    print(f"{'Difficulty':<10} {'Sessions':>8} {'CDER-E':>10} {'CDER-I':>10} {'CDER-G':>10} {'IDSS-Avg':>10}")
+    print(f"{'Difficulty':<10} {'Sessions':>8} {'EDSS-Avg':>10} {'IDSS-Avg':>10}")
     for difficulty in DIFFICULTIES:
         row = summary[difficulty]
         if row["sessions"] == 0:
-            print(f"{difficulty:<10} {0:>8} {'-':>10} {'-':>10} {'-':>10} {'-':>10}")
+            print(f"{difficulty:<10} {0:>8} {'-':>10} {'-':>10}")
             continue
         print(
             f"{difficulty:<10} "
             f"{row['sessions']:>8} "
-            f"{row['cder']['external'] * 100:>10.2f} "
-            f"{row['cder']['internal'] * 100:>10.2f} "
-            f"{row['cder']['overall'] * 100:>10.2f} "
+            f"{row['edss']['average'] * 100:>10.2f} "
             f"{row['idss']['average'] * 100:>10.2f}"
         )
 
@@ -83,26 +85,72 @@ def save_summary_json(summary: dict[str, dict], output_path: Path) -> None:
     output_path.write_text(json.dumps(summary, indent=2))
 
 
-def plot_cder(summary: dict[str, dict], output_dir: Path) -> None:
+def plot_average_scores(summary: dict[str, dict], output_dir: Path) -> None:
     labels = DIFFICULTIES
-    ext = [summary[d]["cder"].get("external", 0.0) * 100 for d in labels]
-    internal = [summary[d]["cder"].get("internal", 0.0) * 100 for d in labels]
-    overall = [summary[d]["cder"].get("overall", 0.0) * 100 for d in labels]
-
+    edss = [summary[d]["edss"].get("average", 0.0) * 100 for d in labels]
+    idss = [summary[d]["idss"].get("average", 0.0) * 100 for d in labels]
     x = range(len(labels))
-    width = 0.24
+    width = 0.32
 
     plt.figure(figsize=(8, 5))
-    plt.bar([i - width for i in x], ext, width=width, label="External")
-    plt.bar(x, internal, width=width, label="Internal")
-    plt.bar([i + width for i in x], overall, width=width, label="Overall")
+    plt.bar([i - width / 2 for i in x], edss, width=width, label="EDSS")
+    plt.bar([i + width / 2 for i in x], idss, width=width, label="IDSS")
     plt.xticks(list(x), labels)
     plt.ylabel("Score (%)")
-    plt.title("CDER by Difficulty")
+    plt.title("EDSS and IDSS by Difficulty")
     plt.ylim(0, 100)
     plt.legend()
     plt.tight_layout()
-    plt.savefig(output_dir / "cder_by_difficulty.png", dpi=200)
+    plt.savefig(output_dir / "edss_idss_by_difficulty.png", dpi=200)
+    plt.close()
+
+
+def plot_edss(summary: dict[str, dict], output_dir: Path) -> None:
+    labels = DIFFICULTIES
+    categories = [
+        ("average", "Avg."),
+        ("situation", "S"),
+        ("automatic_thought", "AT"),
+        ("emotion", "E"),
+        ("behavior", "B"),
+    ]
+
+    plt.figure(figsize=(10, 6))
+    for key, label in categories:
+        values = [summary[d]["edss"].get(key, 0.0) * 100 for d in labels]
+        plt.plot(labels, values, marker="o", label=label)
+    plt.ylabel("Score (%)")
+    plt.title("EDSS by Difficulty")
+    plt.ylim(0, 100)
+    plt.legend()
+    plt.tight_layout()
+    plt.savefig(output_dir / "edss_by_difficulty.png", dpi=200)
+    plt.close()
+
+
+def plot_edss_breakdown(summary: dict[str, dict], output_dir: Path) -> None:
+    labels = DIFFICULTIES
+    categories = [
+        ("situation", "S"),
+        ("automatic_thought", "AT"),
+        ("emotion", "E"),
+        ("behavior", "B"),
+    ]
+    x = range(len(labels))
+    width = 0.18
+
+    plt.figure(figsize=(10, 6))
+    for idx, (key, label) in enumerate(categories):
+        offset = (idx - 1.5) * width
+        values = [summary[d]["edss"].get(key, 0.0) * 100 for d in labels]
+        plt.bar([i + offset for i in x], values, width=width, label=label)
+    plt.xticks(list(x), labels)
+    plt.ylabel("Score (%)")
+    plt.title("EDSS Component Breakdown by Difficulty")
+    plt.ylim(0, 100)
+    plt.legend()
+    plt.tight_layout()
+    plt.savefig(output_dir / "edss_breakdown_by_difficulty.png", dpi=200)
     plt.close()
 
 
@@ -186,7 +234,9 @@ def main() -> None:
     summary = summarize(aggregates)
     print_summary(summary)
     save_summary_json(summary, summary_output)
-    plot_cder(summary, plot_dir)
+    plot_average_scores(summary, plot_dir)
+    plot_edss(summary, plot_dir)
+    plot_edss_breakdown(summary, plot_dir)
     plot_idss(summary, plot_dir)
     plot_idss_breakdown(summary, plot_dir)
 

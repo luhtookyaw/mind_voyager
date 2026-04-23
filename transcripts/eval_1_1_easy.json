@@ -1,0 +1,49 @@
+{
+  "aggregate": {
+    "num_sessions": 1,
+    "cder": {
+      "external": 1.0,
+      "internal": 1.0,
+      "overall": 1.0
+    },
+    "idss": {
+      "relevant_history": 0.3311031437725582,
+      "core_beliefs": 0.6848104459545719,
+      "intermediate_beliefs": 0.216565058518777,
+      "coping_strategies": 0.49957040014858944,
+      "average": 0.4330122620986241
+    }
+  },
+  "sessions": [
+    {
+      "file": "transcripts/session_1_1_easy.json",
+      "case_id": "1-1",
+      "client_mode": "masked",
+      "difficulty": "easy",
+      "cder": {
+        "external": 1,
+        "internal": 1,
+        "overall": 1
+      },
+      "predicted_internal_diagram": {
+        "relevant_history": "Family: cousin's wedding, family gatherings, mum's critical eye, feeling like nobody wants me around. | Identity: feeling stuck, fear of failure, pressure to have everything figured out. | Social Life: feeling isolated, fear of judgment, fear of awkwardness or rejection. | Mental Health: stress, anxiety about family gatherings, fear of being judged as a failure.",
+        "core_beliefs": "I am unlovable | I am a failure, loser",
+        "intermediate_beliefs": "If I don't try, I can't fail. | I should be doing more. | I need to have everything figured out.",
+        "coping_strategies": "Avoidance of family gatherings. | Hesitation to open up to others. | Breaking tasks into smaller steps. | Seeking accountability from others. | Celebrating small victories."
+      },
+      "ground_truth_internal_diagram": {
+        "relevant_history": "The patient has a history of substance abuse and has been through rehab to overcome it. He has had issues with his family, particularly with his mother, where he has felt rejected and emotionally neglected. He has struggled with obesity since childhood, which has affected his self-esteem and body image. He also has a history of being victimized and bullied due to his weight.",
+        "core_beliefs": "I am trapped. | I am out of control. | I am unlovable. | I am undesirable, unwanted.",
+        "intermediate_beliefs": "Helpless: I'm just not very good at handling stress and I have poor self-control, which is why I need to not put myself in stressful situations. \n Unlovable: If I show my true self, people will reject me the way my mother rejected me.\nDepressive variant: Helpless: There's nothing I can do to change my situation. I cannot control myself. \nUnlovable: I don't deserve to be happy, so why even try to stay clean?",
+        "coping_strategies": "The patient has adopted avoidance as a coping strategy by distancing himself from his family to reduce exposure to negativity and conflict. He has started scheduling pleasant activities and planning his day ahead of time in order to maintain a sense of control over his emotions and circumstances."
+      },
+      "idss": {
+        "relevant_history": 0.3311031437725582,
+        "core_beliefs": 0.6848104459545719,
+        "intermediate_beliefs": 0.216565058518777,
+        "coping_strategies": 0.49957040014858944,
+        "average": 0.4330122620986241
+      }
+    }
+  ]
+}

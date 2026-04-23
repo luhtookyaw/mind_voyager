@@ -1,7 +1,6 @@
 import os
 
 from dotenv import load_dotenv
-from groq import Groq
 
 load_dotenv()
 
@@ -11,6 +10,14 @@ def call_groq_messages(
     model: str = "llama-3.1-8b-instant",
     temperature: float = 0.3,
 ) -> str:
+    try:
+        from groq import Groq
+    except ImportError as exc:
+        raise RuntimeError(
+            "The groq package is required for --therapist-provider groq. "
+            "Install it or use --therapist-provider openai."
+        ) from exc
+
     api_key = os.getenv("GROQ_API_KEY")
     if not api_key:
         raise RuntimeError("GROQ_API_KEY is not set. Check your .env file or shell environment.")
@@ -22,4 +29,3 @@ def call_groq_messages(
         temperature=temperature,
     )
     return completion.choices[0].message.content
-

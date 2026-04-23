@@ -10,8 +10,6 @@ CLIENT_MODEL="gpt-4o-mini"
 JUDGE_MODEL="gpt-4o-mini"
 THERAPIST_PROVIDER="openai"
 MAX_TURNS=15
-USE_REVEALED_CLIENT=0
-HIDE_ALL=0
 SKIP_EXISTING=0
 
 if [[ -f "$ROOT_DIR/.env" ]]; then
@@ -35,8 +33,6 @@ Options:
   --judge-model MODEL          Judge model for masked mode (default: gpt-4o-mini)
   --therapist-provider NAME    openai or groq (default: openai)
   --max-turns N                Maximum therapist turns per session (default: 15)
-  --revealed-client            Use revealed client mode
-  --hide-all                   With --revealed-client, hide all client-side fields
   --skip-existing              Skip a simulation when the output JSON already exists
   --help                       Show this message
 
@@ -44,7 +40,6 @@ Examples:
   scripts/run_all_simulations.sh
   scripts/run_all_simulations.sh --output-root outputs/masked
   scripts/run_all_simulations.sh --skip-existing
-  scripts/run_all_simulations.sh --revealed-client --hide-all --output-root outputs/revealed_hidden
 EOF
 }
 
@@ -78,14 +73,6 @@ while [[ $# -gt 0 ]]; do
       MAX_TURNS="$2"
       shift 2
       ;;
-    --revealed-client)
-      USE_REVEALED_CLIENT=1
-      shift
-      ;;
-    --hide-all)
-      HIDE_ALL=1
-      shift
-      ;;
     --skip-existing)
       SKIP_EXISTING=1
       shift
@@ -109,11 +96,6 @@ fi
 
 if [[ -z "${OPENAI_API_KEY:-}" ]]; then
   echo "OPENAI_API_KEY is required. Set it in the environment or in $ROOT_DIR/.env." >&2
-  exit 1
-fi
-
-if [[ "$HIDE_ALL" -eq 1 && "$USE_REVEALED_CLIENT" -ne 1 ]]; then
-  echo "--hide-all only applies with --revealed-client." >&2
   exit 1
 fi
 
@@ -156,14 +138,6 @@ for difficulty in easy normal hard; do
       --max-turns "$MAX_TURNS"
       --output "$output_path"
     )
-
-    if [[ "$USE_REVEALED_CLIENT" -eq 1 ]]; then
-      cmd+=(--revealed-client)
-    fi
-
-    if [[ "$HIDE_ALL" -eq 1 ]]; then
-      cmd+=(--hide-all)
-    fi
 
     echo "Running case $case_id at difficulty $difficulty"
     "${cmd[@]}"
