@@ -62,16 +62,9 @@ def build_node_text(
         f"Label: {node['label']}",
     ]
 
-    if node.get("description"):
-        lines.append(f"Description: {node['description']}")
-
     aliases = node.get("aliases")
     if aliases:
         lines.append(f"Aliases: {', '.join(aliases)}")
-
-    prompt_templates = node.get("prompt_templates")
-    if prompt_templates:
-        lines.append(f"Prompt templates: {' | '.join(prompt_templates)}")
 
     parent_topics = labels_for_relation(
         node["id"],
@@ -82,6 +75,18 @@ def build_node_text(
     )
     if parent_topics:
         lines.append(f"Parent topics: {', '.join(parent_topics)}")
+
+    # Keep sub-topic embeddings narrowly focused so first-stage retrieval
+    # matches the client's wording and domain before graph expansion.
+    if node["type"] == "sub_topic":
+        return "\n".join(lines)
+
+    if node.get("description"):
+        lines.append(f"Description: {node['description']}")
+
+    prompt_templates = node.get("prompt_templates")
+    if prompt_templates:
+        lines.append(f"Prompt templates: {' | '.join(prompt_templates)}")
 
     contained_subtopics = labels_for_relation(
         node["id"],
