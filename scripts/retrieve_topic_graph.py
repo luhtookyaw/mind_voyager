@@ -205,9 +205,29 @@ def group_by_type(items: list[dict[str, Any]]) -> dict[str, list[dict[str, Any]]
     return dict(grouped)
 
 
+def build_prompt_style_lines(
+    expanded: list[dict[str, Any]],
+    nodes_by_id: dict[str, dict[str, Any]],
+    max_prompt_types: int = 2,
+) -> list[str]:
+    prompt_nodes = [item for item in expanded if item["type"] == "prompt_type"][:max_prompt_types]
+    if not prompt_nodes:
+        return []
+
+    lines = ["- Possible follow-up styles:"]
+    for item in prompt_nodes:
+        node = nodes_by_id[item["id"]]
+        templates = node.get("prompt_templates") or []
+        if not templates:
+            continue
+        lines.append(f'  - {item["label"]}: "{templates[0]}"')
+    return lines
+
+
 def build_prompt_context(
     anchors: list[dict[str, Any]],
     expanded: list[dict[str, Any]],
+    nodes_by_id: dict[str, dict[str, Any]],
 ) -> str:
     grouped = group_by_type(expanded)
 
@@ -218,19 +238,19 @@ def build_prompt_context(
         return ", ".join(item["label"] for item in values)
 
     anchor_labels = ", ".join(anchor["label"] for anchor in anchors) if anchors else "none"
-    return "\n".join(
-        [
-            "Retrieved topic graph context:",
-            f"- Likely sub-topics: {anchor_labels}",
-            f"- Likely emotions: {labels('emotion_cluster')}",
-            f"- Likely coping styles: {labels('coping_type')}",
-            f"- Likely behavior patterns: {labels('behavior_pattern')}",
-            f"- Likely intermediate beliefs: {labels('intermediate_belief_type')}",
-            f"- Suggested prompt types: {labels('prompt_type')}",
-            f"- Possible core beliefs: {labels('core_belief_cluster')}",
-            "- Use this as tentative guidance only. Reflect what the client actually said, then explore gently.",
-        ]
-    )
+    lines = [
+        "Retrieved topic graph context:",
+        f"- Likely sub-topics: {anchor_labels}",
+        f"- Likely emotions: {labels('emotion_cluster')}",
+        f"- Likely coping styles: {labels('coping_type')}",
+        f"- Likely behavior patterns: {labels('behavior_pattern')}",
+        f"- Likely intermediate beliefs: {labels('intermediate_belief_type')}",
+        f"- Suggested prompt types: {labels('prompt_type')}",
+        f"- Possible core beliefs: {labels('core_belief_cluster')}",
+    ]
+    lines.extend(build_prompt_style_lines(expanded, nodes_by_id))
+    lines.append("- Use this as tentative guidance only. Reflect what the client actually said, then explore gently.")
+    return "\n".join(lines)
 
 
 def retrieve_topic_graph_context(
@@ -285,7 +305,7 @@ def retrieve_topic_graph_context(
         "anchors": anchors,
         "expanded": expanded,
         "grouped_expanded": group_by_type(expanded),
-        "prompt_context": build_prompt_context(anchors, expanded),
+        "prompt_context": build_prompt_context(anchors, expanded, nodes_by_id),
     }
 
 
