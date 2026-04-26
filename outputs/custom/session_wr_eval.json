@@ -1,0 +1,65 @@
+{
+  "aggregate": {
+    "num_sessions": 1,
+    "edss": {
+      "situation": 0.7889575583934524,
+      "automatic_thought": 0.5220681841172959,
+      "emotion": 0.8890939506525154,
+      "behavior": 0.5096733805802764,
+      "average": 0.677448268435885
+    },
+    "idss": {
+      "relevant_history": 0.44030203241941906,
+      "core_beliefs": 0.5347836196003694,
+      "intermediate_beliefs": 0.3739484493604585,
+      "coping_strategies": 0.7051806519614235,
+      "average": 0.5135536883354176
+    }
+  },
+  "sessions": [
+    {
+      "file": "outputs/custom/session_wr.json",
+      "case_id": "1-1",
+      "client_mode": "masked",
+      "difficulty": "hard",
+      "predicted_external_diagram": {
+        "situation": "Alex's cousin's wedding is coming up, and Alex anticipates interacting with family members who may ask questions about Alex's life.",
+        "automatic_thought": "I feel like they\u2019ll judge me, and honestly, I don\u2019t think they really want me there anyway.",
+        "emotion": "anxious, tense, sad, lonely",
+        "behavior": "Alex ignored the wedding invitation and tends to avoid situations like the wedding to not face questions and judgments."
+      },
+      "ground_truth_external_diagram": {
+        "situation": "Alex's cousin invited him to attend his upcoming wedding.",
+        "automatic_thought": "It will be stressful and negative; people will ask me questions I cannot answer or don't want to answer; my mum would be ashamed of me and critical of me as always; They don't want me there anyway, nobody likes me in this family.",
+        "emotion": "anxious, worried, fearful, scared, tense; sad, down, lonely, unhappy",
+        "behavior": "Ignored the invitation and did not respond to the RSVP request. Ignored phone calls from family."
+      },
+      "predicted_internal_diagram": {
+        "relevant_history": "The client reports feeling disconnected from their family, with a specific mention of their mother's critical nature adding pressure. They feel judged and pressured by family expectations and questions about their life choices.",
+        "core_beliefs": "I am judged | I am not accepted | I am not connected to my family",
+        "intermediate_beliefs": "If I don't have good answers to their questions, then they will judge me. | The client believes that avoiding family events will protect them from judgment and pressure.",
+        "coping_strategies": "The client copes by avoiding family events and interactions to escape judgment and pressure, which leads to feelings of loneliness and disconnection. They also consider preparing responses to anticipated questions and focusing on positive aspects of family gatherings as potential strategies."
+      },
+      "ground_truth_internal_diagram": {
+        "relevant_history": "The patient has a history of substance abuse and has been through rehab to overcome it. He has had issues with his family, particularly with his mother, where he has felt rejected and emotionally neglected. He has struggled with obesity since childhood, which has affected his self-esteem and body image. He also has a history of being victimized and bullied due to his weight.",
+        "core_beliefs": "I am trapped. | I am out of control. | I am unlovable. | I am undesirable, unwanted.",
+        "intermediate_beliefs": "Helpless: I'm just not very good at handling stress and I have poor self-control, which is why I need to not put myself in stressful situations. \n Unlovable: If I show my true self, people will reject me the way my mother rejected me.\nDepressive variant: Helpless: There's nothing I can do to change my situation. I cannot control myself. \nUnlovable: I don't deserve to be happy, so why even try to stay clean?",
+        "coping_strategies": "The patient has adopted avoidance as a coping strategy by distancing himself from his family to reduce exposure to negativity and conflict. He has started scheduling pleasant activities and planning his day ahead of time in order to maintain a sense of control over his emotions and circumstances."
+      },
+      "edss": {
+        "situation": 0.7889575583934524,
+        "automatic_thought": 0.5220681841172959,
+        "emotion": 0.8890939506525154,
+        "behavior": 0.5096733805802764,
+        "average": 0.677448268435885
+      },
+      "idss": {
+        "relevant_history": 0.44030203241941906,
+        "core_beliefs": 0.5347836196003694,
+        "intermediate_beliefs": 0.3739484493604585,
+        "coping_strategies": 0.7051806519614235,
+        "average": 0.5135536883354176
+      }
+    }
+  ]
+}

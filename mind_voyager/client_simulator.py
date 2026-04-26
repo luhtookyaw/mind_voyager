@@ -172,7 +172,6 @@ def build_base_prompt_payload(state: SimulatorState) -> dict[str, str]:
 def render_client_system_prompt(state: SimulatorState) -> str:
     prompt = load_prompt("base_client_prompt.txt").replace("[Client]", state.case.name)
     prompt = prompt.format(**build_base_prompt_payload(state))
-    print(prompt)
     return prompt
 
 

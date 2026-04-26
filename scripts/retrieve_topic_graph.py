@@ -249,7 +249,6 @@ def build_prompt_context(
         f"- Possible core beliefs: {labels('core_belief_cluster')}",
     ]
     lines.extend(build_prompt_style_lines(expanded, nodes_by_id))
-    lines.append("- Use this as tentative guidance only. Reflect what the client actually said, then explore gently.")
     return "\n".join(lines)
 
 
