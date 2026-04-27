@@ -15,7 +15,6 @@ ROOT = Path(__file__).resolve().parent.parent
 PROMPTS_DIR = ROOT / "mind_voyager" / "prompts"
 DEFAULT_DATASET = ROOT / "data" / "Patient_Psi_CM_Dataset.json"
 DEFAULT_TRANSCRIPT_DIR = ROOT / "transcripts"
-GOODBYE_RE = re.compile(r"\bgoodbye\b", re.IGNORECASE)
 
 
 @dataclass(frozen=True)
@@ -340,8 +339,6 @@ def run_interactive_session(
             state.dialogue.append({"role": "assistant", "content": reply})
             print(f"Client> {reply}\n")
 
-            if GOODBYE_RE.search(therapist):
-                break
     except (EOFError, KeyboardInterrupt):
         print()
         print("Session interrupted. Saving transcript.")

@@ -11,7 +11,6 @@ from mind_voyager.client_simulator import (
     ClientCase,
     DEFAULT_DATASET,
     DIFFICULTIES,
-    GOODBYE_RE,
     SimulatorState,
     ensure_api_key,
     load_case,
@@ -232,10 +231,6 @@ def run_simulation(
         print(f"Client {turn}> {client_reply}\n")
         therapist_transcript.append({"role": "user", "content": client_reply})
         transcript_records.append({"turn": turn, "speaker": "client", "content": client_reply})
-
-        if GOODBYE_RE.search(therapist_reply):
-            stop_reason = "therapist_goodbye"
-            break
 
         if use_moderator:
             should_end, moderator_response = should_end_conversation(
