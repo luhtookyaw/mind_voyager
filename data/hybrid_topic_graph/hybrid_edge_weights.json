@@ -1,0 +1,149 @@
+{
+  "metadata": {
+    "name": "mind_voyager_hybrid_edge_weights",
+    "description": "Reference manifest for edge weights used in the hybrid topic graph. These weights are heuristic design choices from scripts/build_hybrid_topic_graph.py, not learned parameters.",
+    "source_builder": "scripts/build_hybrid_topic_graph.py"
+  },
+  "layers": {
+    "ontology": {
+      "description": "Weights inherited unchanged from the original ontology graph builder.",
+      "relations": {
+        "contains": {
+          "weights": [1.0],
+          "justification": "Taxonomic membership between a super-topic and its sub-topics is treated as exact structural containment."
+        },
+        "associated_with": {
+          "weights": [0.8, 0.9],
+          "justification": "Used for ontology-level topical association. 0.9 marks stronger subtopic-to-belief association; 0.8 marks slightly weaker subtopic-to-intermediate or coping association."
+        },
+        "evokes": {
+          "weights": [0.75],
+          "justification": "Subtopics evoke emotional themes, but that relation is treated as plausible rather than deterministic."
+        },
+        "manifests_as": {
+          "weights": [0.75],
+          "justification": "Subtopics can manifest as behavior patterns, but the mapping is thematic rather than one-to-one."
+        },
+        "suggests_prompt_type": {
+          "weights": [0.65, 0.7],
+          "justification": "Prompt-type links are recommendation strength signals rather than case-structural facts. 0.7 is used for direct subtopic recommendations; 0.65 for broader concept-to-prompt links."
+        },
+        "leads_to": {
+          "weights": [0.7],
+          "justification": "Belief cluster to intermediate-belief-type links express likely conceptual progression, but not strict determinism."
+        },
+        "maintained_by": {
+          "weights": [0.7],
+          "justification": "Intermediate belief types are maintained by coping patterns with moderate conceptual strength."
+        }
+      }
+    },
+    "dataset_grounded": {
+      "description": "Explicit structural edges tying dataset rows to case, patient, and statement nodes.",
+      "relations": {
+        "has_case_record": {
+          "weights": [1.0],
+          "justification": "A patient-profile node explicitly owns each case record."
+        },
+        "has_external_episode": {
+          "weights": [1.0],
+          "justification": "Each case record explicitly contains one external episode node."
+        },
+        "has_history": {
+          "weights": [1.0],
+          "justification": "History text is copied directly from the dataset row."
+        },
+        "has_core_belief": {
+          "weights": [1.0],
+          "justification": "Core belief statements are explicitly listed in the dataset row."
+        },
+        "has_intermediate_belief_default": {
+          "weights": [1.0],
+          "justification": "The default intermediate belief field is explicit dataset content."
+        },
+        "has_intermediate_belief_depression": {
+          "weights": [1.0],
+          "justification": "The depression-specific intermediate belief field is explicit dataset content."
+        },
+        "has_coping_strategy": {
+          "weights": [1.0],
+          "justification": "Coping strategy text is copied directly from the dataset row."
+        },
+        "has_situation": {
+          "weights": [1.0],
+          "justification": "Situation text is explicit external episode content from the dataset row."
+        },
+        "has_automatic_thought": {
+          "weights": [1.0],
+          "justification": "Automatic thought text is explicit external episode content from the dataset row."
+        },
+        "has_emotion": {
+          "weights": [1.0],
+          "justification": "Emotion statements are explicit external episode content from the dataset row."
+        },
+        "has_behavior": {
+          "weights": [1.0],
+          "justification": "Behavior text is explicit external episode content from the dataset row."
+        }
+      }
+    },
+    "bridge": {
+      "description": "Heuristic edges connecting dataset-grounded statements to ontology nodes.",
+      "relations": {
+        "instance_of": {
+          "weights": [0.7, 0.75, 0.8, 0.95],
+          "by_source": {
+            "core_belief_statement_to_core_belief_cluster": 0.95,
+            "emotion_statement_to_emotion_cluster": 0.8,
+            "intermediate_belief_statement_to_intermediate_belief_type": 0.75,
+            "coping_strategy_statement_to_coping_type": 0.7,
+            "behavior_statement_to_behavior_pattern": 0.7
+          },
+          "justification": "These mappings are inferred normalization links, not explicit annotations. Core belief mappings are given the highest weight because the belief-to-cluster mapping table is explicit and small. Emotion and intermediate-belief mappings are moderately strong lexical/semantic matches. Coping and behavior mappings are weaker because they are derived from broader heuristic phrase matching."
+        },
+        "associated_with_topic": {
+          "weights": [0.6, 0.65, 0.75],
+          "by_source": {
+            "history_statement_to_sub_topic": 0.6,
+            "automatic_thought_statement_to_sub_topic": 0.65,
+            "situation_statement_to_sub_topic": 0.75
+          },
+          "justification": "These are soft topical alignment links. Situation-to-topic is strongest because situations often contain explicit concrete domain cues. Automatic-thought links are somewhat weaker because they are interpretive. History links are weakest because history text is broader and may span multiple themes."
+        }
+      }
+    },
+    "causal": {
+      "description": "Case-structure edges inferred from the semantics of CBT case formulation fields.",
+      "relations": {
+        "history_supports_belief": {
+          "weights": [0.8],
+          "justification": "Relevant history is treated as a strong but not deterministic developmental support for core beliefs."
+        },
+        "belief_expressed_as": {
+          "weights": [0.8],
+          "justification": "Intermediate beliefs are modeled as reasonably strong expressions of core beliefs, but the relation is still interpretive."
+        },
+        "intermediate_shapes_thought": {
+          "weights": [0.8],
+          "justification": "Intermediate beliefs are taken to strongly shape automatic thoughts in a given episode."
+        },
+        "triggers_automatic_thought": {
+          "weights": [1.0],
+          "justification": "Within the row-level CBT episode structure, the situation is treated as the direct trigger for the recorded automatic thought."
+        },
+        "evokes_emotion": {
+          "weights": [0.9],
+          "justification": "Automatic thoughts are treated as very strong elicitors of the recorded emotions, though not strictly one-to-one."
+        },
+        "influences_behavior": {
+          "weights": [0.85],
+          "justification": "Automatic thoughts strongly influence behavior, but behavior may also reflect coping style and broader context."
+        },
+        "manifests_as_behavior": {
+          "weights": [0.8],
+          "justification": "Coping strategy is treated as a strong contributor to behavior, but not the sole determinant."
+        }
+      }
+    }
+  }
+}

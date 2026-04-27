@@ -2,12 +2,12 @@
   "metadata": {
     "name": "mind_voyager_hybrid_topic_graph",
     "description": "Hybrid graph that keeps the generalized CBT ontology and adds Patient-psi-grounded statement nodes, case records, external episodes, and causal/bridge edges for dataset expansion and retrieval.",
-    "node_count": 1012,
-    "edge_count": 4649,
+    "node_count": 1018,
+    "edge_count": 5259,
     "dataset_path": "/Users/luhtookyaw/Desktop/StageTherapy/mind_voyager/data/Patient_Psi_CM_Dataset.json",
     "base_ontology_name": "mind_voyager_generalized_topic_graph",
     "layer_counts": {
-      "dataset_grounded": 844,
+      "dataset_grounded": 850,
       "ontology": 168
     }
   },
@@ -30,11 +30,12 @@
     "history_statement": 51,
     "intermediate_belief_statement": 119,
     "patient_profile": 50,
-    "situation_statement": 106
+    "situation_statement": 106,
+    "style_trait": 6
   },
   "node_layers": {
     "ontology": 168,
-    "dataset_grounded": 844
+    "dataset_grounded": 850
   },
   "edge_relations": {
     "suggests_prompt_type": 348,
@@ -54,6 +55,7 @@
     "has_history": 106,
     "has_intermediate_belief_default": 106,
     "has_intermediate_belief_depression": 90,
+    "has_style_trait": 610,
     "manifests_as_behavior": 106,
     "belief_expressed_as": 514,
     "has_automatic_thought": 106,
@@ -69,6 +71,6 @@
     "ontology": 1298,
     "causal": 1464,
     "bridge": 291,
-    "dataset_grounded": 1596
+    "dataset_grounded": 2206
   }
 }

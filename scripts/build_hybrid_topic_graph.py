@@ -354,7 +354,6 @@ def build_hybrid_graph_spec(dataset_path: Path) -> dict[str, Any]:
             source_dataset="Patient_Psi_CM_Dataset",
             source_case_ids=[case_id],
             case_id=case_id,
-            style_traits=row.get("type", []),
         )
         add_node(
             nodes,
@@ -367,6 +366,24 @@ def build_hybrid_graph_spec(dataset_path: Path) -> dict[str, Any]:
         )
         add_edge(edges, patient_node_id, case_node_id, "has_case_record", 1.0, "dataset_grounded", case_id)
         add_edge(edges, case_node_id, episode_node_id, "has_external_episode", 1.0, "dataset_grounded", case_id)
+
+        for style_trait in row.get("type", []) or []:
+            style_text = normalize_text(style_trait)
+            if not style_text:
+                continue
+            style_id = statement_node_id("style_trait", style_text)
+            add_node(
+                nodes,
+                style_id,
+                type="style_trait",
+                label=style_text,
+                text=style_text,
+                canonical_text=style_text,
+                layer="dataset_grounded",
+                source_dataset="Patient_Psi_CM_Dataset",
+                source_case_ids=[case_id],
+            )
+            add_edge(edges, case_node_id, style_id, "has_style_trait", 1.0, "dataset_grounded", case_id)
 
         history_text = normalize_text(row.get("history", ""))
         if history_text:

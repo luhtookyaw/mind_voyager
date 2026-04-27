@@ -1,0 +1,4235 @@
+{
+  "query": "My cousin invited me to a family event and I feel like nobody wants me there.",
+  "graph": {
+    "path": "/Users/luhtookyaw/Desktop/StageTherapy/mind_voyager/data/hybrid_topic_graph/hybrid_topic_graph.json",
+    "name": "mind_voyager_hybrid_topic_graph",
+    "node_count": 1012,
+    "edge_count": 4649
+  },
+  "embedding_index": {
+    "path": "/Users/luhtookyaw/Desktop/StageTherapy/mind_voyager/data/hybrid_topic_graph/node_embeddings.json",
+    "model": "text-embedding-3-small",
+    "node_count": 738
+  },
+  "retrieval_config": {
+    "anchor_types": [
+      "situation_statement",
+      "automatic_thought_statement",
+      "emotion_statement",
+      "behavior_statement",
+      "history_statement",
+      "core_belief_statement",
+      "intermediate_belief_statement",
+      "coping_strategy_statement",
+      "sub_topic",
+      "core_belief_cluster",
+      "emotion_cluster",
+      "behavior_pattern",
+      "coping_type"
+    ],
+    "anchor_top_k": 5,
+    "traversal_relations": [
+      "instance_of",
+      "associated_with_topic",
+      "has_case_record",
+      "has_external_episode",
+      "has_history",
+      "has_core_belief",
+      "has_intermediate_belief_default",
+      "has_intermediate_belief_depression",
+      "has_coping_strategy",
+      "has_situation",
+      "has_automatic_thought",
+      "has_emotion",
+      "has_behavior",
+      "history_supports_belief",
+      "belief_expressed_as",
+      "intermediate_shapes_thought",
+      "triggers_automatic_thought",
+      "evokes_emotion",
+      "influences_behavior",
+      "manifests_as_behavior"
+    ],
+    "max_related": 40,
+    "max_depth": 3,
+    "case_top_k": 5
+  },
+  "anchors": [
+    {
+      "id": "situation::alex_s_cousin_invited_him_to_attend_his_upcoming_wedding_c1175e71d5",
+      "type": "situation_statement",
+      "label": "Alex's cousin invited him to attend his upcoming wedding.",
+      "layer": "dataset_grounded",
+      "score": 0.4878524974100387,
+      "text": "Type: Situation Statement\nLabel: Alex's cousin invited him to attend his upcoming wedding.\nLayer: dataset_grounded\nText: Alex's cousin invited him to attend his upcoming wedding.\nSource cases: 1-1\nTriggers thoughts: It will be stressful and negative; people will ask me questions I cannot answer "
+    },
+    {
+      "id": "situation::not_being_invited_by_a_friend_for_a_dinner_with_other_friend_ee7b8f6469",
+      "type": "situation_statement",
+      "label": "Not being invited by a friend for a dinner with other friends.",
+      "layer": "dataset_grounded",
+      "score": 0.42560322572933984,
+      "text": "Type: Situation Statement\nLabel: Not being invited by a friend for a dinner with other friends.\nLayer: dataset_grounded\nText: Not being invited by a friend for a dinner with other friends.\nSource cases: 43-2\nTriggers thoughts: My friends don't want me around, I am forgotten and excluded."
+    },
+    {
+      "id": "automatic_thought::it_will_be_stressful_and_negative_people_will_ask_me_questio_053c195a04",
+      "type": "automatic_thought_statement",
+      "label": "It will be stressful and negative; people will ask me questions I cannot answer ",
+      "layer": "dataset_grounded",
+      "score": 0.4166922773604156,
+      "text": "Type: Automatic Thought Statement\nLabel: It will be stressful and negative; people will ask me questions I cannot answer \nLayer: dataset_grounded\nText: It will be stressful and negative; people will ask me questions I cannot answer or don't want to answer; my mum would be ashamed of me and critical of me as always; They don't want me there anyway, nobody likes me in this family.\nSource cases: 1-1\nAssociated topics: Stress overload\nEvokes emotions: anxious, worried, fearful, scared, tense, sad, down, lonely, unhappy\nInfluences behaviors: Ignored the invitation and did not respond to the RSVP request. Ignored phone ca"
+    },
+    {
+      "id": "automatic_thought::family_interactions_will_inevitably_lead_to_judgment_any_eng_741e55b583",
+      "type": "automatic_thought_statement",
+      "label": "Family interactions will inevitably lead to judgment; any engagement with family",
+      "layer": "dataset_grounded",
+      "score": 0.4115286695519106,
+      "text": "Type: Automatic Thought Statement\nLabel: Family interactions will inevitably lead to judgment; any engagement with family\nLayer: dataset_grounded\nText: Family interactions will inevitably lead to judgment; any engagement with family members will be uncomfortable; they will belittle me.\nSource cases: 32-1\nEvokes emotions: anxious, worried, fearful, scared, tense, disappointed\nInfluences behaviors: Tries to think of excuses to not show up; purposefully ignores texts from family"
+    },
+    {
+      "id": "situation::being_invited_to_visit_his_sister_but_currently_being_financ_498dd862cd",
+      "type": "situation_statement",
+      "label": "Being invited to visit his sister but currently being financially unstable.",
+      "layer": "dataset_grounded",
+      "score": 0.3997771186702571,
+      "text": "Type: Situation Statement\nLabel: Being invited to visit his sister but currently being financially unstable.\nLayer: dataset_grounded\nText: Being invited to visit his sister but currently being financially unstable.\nSource cases: 24-1\nTriggers thoughts: I can't afford it, and it would be admitting weakness to tell the truth. Going w"
+    }
+  ],
+  "related_nodes": [
+    {
+      "id": "situation::alex_s_cousin_invited_him_to_attend_his_upcoming_wedding_c1175e71d5",
+      "label": "Alex's cousin invited him to attend his upcoming wedding.",
+      "type": "situation_statement",
+      "layer": "dataset_grounded",
+      "best_score": 0.4166922773604156,
+      "via_anchor_id": "automatic_thought::it_will_be_stressful_and_negative_people_will_ask_me_questio_053c195a04",
+      "via_anchor_label": "It will be stressful and negative; people will ask me questions I cannot answer ",
+      "depth": 1,
+      "path_nodes": [
+        "automatic_thought::it_will_be_stressful_and_negative_people_will_ask_me_questio_053c195a04",
+        "situation::alex_s_cousin_invited_him_to_attend_his_upcoming_wedding_c1175e71d5"
+      ],
+      "path_edges": [
+        "in:triggers_automatic_thought"
+      ]
+    },
+    {
+      "id": "situation::visiting_his_parents_for_a_father_s_day_family_gathering_ove_18fa727867",
+      "label": "Visiting his parents for a Father's Day family gathering over lunch.",
+      "type": "situation_statement",
+      "layer": "dataset_grounded",
+      "best_score": 0.4115286695519106,
+      "via_anchor_id": "automatic_thought::family_interactions_will_inevitably_lead_to_judgment_any_eng_741e55b583",
+      "via_anchor_label": "Family interactions will inevitably lead to judgment; any engagement with family",
+      "depth": 1,
+      "path_nodes": [
+        "automatic_thought::family_interactions_will_inevitably_lead_to_judgment_any_eng_741e55b583",
+        "situation::visiting_his_parents_for_a_father_s_day_family_gathering_ove_18fa727867"
+      ],
+      "path_edges": [
+        "in:triggers_automatic_thought"
+      ]
+    },
+    {
+      "id": "situation::a_discussion_was_happening_in_the_workplace_about_culture_an_ebba80890b",
+      "label": "A discussion was happening in the workplace about culture and atmosphere. Karen ",
+      "type": "situation_statement",
+      "layer": "dataset_grounded",
+      "best_score": 0.33752074466193666,
+      "via_anchor_id": "automatic_thought::it_will_be_stressful_and_negative_people_will_ask_me_questio_053c195a04",
+      "via_anchor_label": "It will be stressful and negative; people will ask me questions I cannot answer ",
+      "depth": 3,
+      "path_nodes": [
+        "automatic_thought::it_will_be_stressful_and_negative_people_will_ask_me_questio_053c195a04",
+        "emotion::sad_down_lonely_unhappy_d4edca2ce3",
+        "automatic_thought::it_doesn_t_matter_if_i_go_or_not_anyway_because_my_thoughts_3438c7d672",
+        "situation::a_discussion_was_happening_in_the_workplace_about_culture_an_ebba80890b"
+      ],
+      "path_edges": [
+        "out:evokes_emotion",
+        "in:evokes_emotion",
+        "in:triggers_automatic_thought"
+      ]
+    },
+    {
+      "id": "situation::anticipating_a_big_talk_in_january_and_is_preparing_for_a_la_e411478085",
+      "label": "Anticipating a big talk in January and is preparing for a lab meeting which invo",
+      "type": "situation_statement",
+      "layer": "dataset_grounded",
+      "best_score": 0.33752074466193666,
+      "via_anchor_id": "automatic_thought::it_will_be_stressful_and_negative_people_will_ask_me_questio_053c195a04",
+      "via_anchor_label": "It will be stressful and negative; people will ask me questions I cannot answer ",
+      "depth": 3,
+      "path_nodes": [
+        "automatic_thought::it_will_be_stressful_and_negative_people_will_ask_me_questio_053c195a04",
+        "emotion::anxious_worried_fearful_scared_tense_9e40a41a9b",
+        "automatic_thought::i_must_be_fully_prepared_and_control_the_preparation_process_b85788f72d",
+        "situation::anticipating_a_big_talk_in_january_and_is_preparing_for_a_la_e411478085"
+      ],
+      "path_edges": [
+        "out:evokes_emotion",
+        "in:evokes_emotion",
+        "in:triggers_automatic_thought"
+      ]
+    },
+    {
+      "id": "situation::anticipating_father_s_reaction_to_exclusion_of_family_member_a45be275b4",
+      "label": "Anticipating father's reaction to exclusion of family members from personal even",
+      "type": "situation_statement",
+      "layer": "dataset_grounded",
+      "best_score": 0.33752074466193666,
+      "via_anchor_id": "automatic_thought::it_will_be_stressful_and_negative_people_will_ask_me_questio_053c195a04",
+      "via_anchor_label": "It will be stressful and negative; people will ask me questions I cannot answer ",
+      "depth": 3,
+      "path_nodes": [
+        "automatic_thought::it_will_be_stressful_and_negative_people_will_ask_me_questio_053c195a04",
+        "emotion::anxious_worried_fearful_scared_tense_9e40a41a9b",
+        "automatic_thought::i_fear_the_loss_of_my_father_s_support_and_struggle_with_his_6e7d374c4b",
+        "situation::anticipating_father_s_reaction_to_exclusion_of_family_member_a45be275b4"
+      ],
+      "path_edges": [
+        "out:evokes_emotion",
+        "in:evokes_emotion",
+        "in:triggers_automatic_thought"
+      ]
+    },
+    {
+      "id": "situation::anticipation_of_a_conversation_with_their_mother_which_the_c_de41429829",
+      "label": "Anticipation of a conversation with their mother, which the client predicts to b",
+      "type": "situation_statement",
+      "layer": "dataset_grounded",
+      "best_score": 0.33752074466193666,
+      "via_anchor_id": "automatic_thought::it_will_be_stressful_and_negative_people_will_ask_me_questio_053c195a04",
+      "via_anchor_label": "It will be stressful and negative; people will ask me questions I cannot answer ",
+      "depth": 3,
+      "path_nodes": [
+        "automatic_thought::it_will_be_stressful_and_negative_people_will_ask_me_questio_053c195a04",
+        "emotion::anxious_worried_fearful_scared_tense_9e40a41a9b",
+        "automatic_thought::talking_to_my_mother_about_how_i_feel_will_only_make_things_c558662687",
+        "situation::anticipation_of_a_conversation_with_their_mother_which_the_c_de41429829"
+      ],
+      "path_edges": [
+        "out:evokes_emotion",
+        "in:evokes_emotion",
+        "in:triggers_automatic_thought"
+      ]
+    },
+    {
+      "id": "situation::being_blamed_for_spreadsheet_errors_at_work_that_are_not_the_a9f86b77df",
+      "label": "Being blamed for spreadsheet errors at work that are not the client's fault.",
+      "type": "situation_statement",
+      "layer": "dataset_grounded",
+      "best_score": 0.33752074466193666,
+      "via_anchor_id": "automatic_thought::it_will_be_stressful_and_negative_people_will_ask_me_questio_053c195a04",
+      "via_anchor_label": "It will be stressful and negative; people will ask me questions I cannot answer ",
+      "depth": 3,
+      "path_nodes": [
+        "automatic_thought::it_will_be_stressful_and_negative_people_will_ask_me_questio_053c195a04",
+        "emotion::anxious_worried_fearful_scared_tense_9e40a41a9b",
+        "automatic_thought::there_is_too_much_pressure_on_me_to_fix_something_i_didn_t_c_5a478033d3",
+        "situation::being_blamed_for_spreadsheet_errors_at_work_that_are_not_the_a9f86b77df"
+      ],
+      "path_edges": [
+        "out:evokes_emotion",
+        "in:evokes_emotion",
+        "in:triggers_automatic_thought"
+      ]
+    },
+    {
+      "id": "situation::being_invited_to_visit_his_sister_but_currently_being_financ_498dd862cd",
+      "label": "Being invited to visit his sister but currently being financially unstable.",
+      "type": "situation_statement",
+      "layer": "dataset_grounded",
+      "best_score": 0.33752074466193666,
+      "via_anchor_id": "automatic_thought::it_will_be_stressful_and_negative_people_will_ask_me_questio_053c195a04",
+      "via_anchor_label": "It will be stressful and negative; people will ask me questions I cannot answer ",
+      "depth": 3,
+      "path_nodes": [
+        "automatic_thought::it_will_be_stressful_and_negative_people_will_ask_me_questio_053c195a04",
+        "emotion::anxious_worried_fearful_scared_tense_9e40a41a9b",
+        "automatic_thought::i_can_t_afford_it_and_it_would_be_admitting_weakness_to_tell_9d35853c4a",
+        "situation::being_invited_to_visit_his_sister_but_currently_being_financ_498dd862cd"
+      ],
+      "path_edges": [
+        "out:evokes_emotion",
+        "in:evokes_emotion",
+        "in:triggers_automatic_thought"
+      ]
+    },
+    {
+      "id": "situation::being_late_to_appointments_and_gatherings_such_as_therapy_se_3a88cb0ef3",
+      "label": "Being late to appointments and gatherings, such as therapy sessions and lunches ",
+      "type": "situation_statement",
+      "layer": "dataset_grounded",
+      "best_score": 0.33752074466193666,
+      "via_anchor_id": "automatic_thought::it_will_be_stressful_and_negative_people_will_ask_me_questio_053c195a04",
+      "via_anchor_label": "It will be stressful and negative; people will ask me questions I cannot answer ",
+      "depth": 3,
+      "path_nodes": [
+        "automatic_thought::it_will_be_stressful_and_negative_people_will_ask_me_questio_053c195a04",
+        "emotion::anxious_worried_fearful_scared_tense_9e40a41a9b",
+        "automatic_thought::i_m_not_in_control_of_my_time_and_i_always_mess_things_up_by_7a83536bfd",
+        "situation::being_late_to_appointments_and_gatherings_such_as_therapy_se_3a88cb0ef3"
+      ],
+      "path_edges": [
+        "out:evokes_emotion",
+        "in:evokes_emotion",
+        "in:triggers_automatic_thought"
+      ]
+    },
+    {
+      "id": "situation::being_offered_a_leadership_position_in_jazz_group_although_h_eb49b711c9",
+      "label": "Being offered a leadership position in jazz group, although he wanted it, but fe",
+      "type": "situation_statement",
+      "layer": "dataset_grounded",
+      "best_score": 0.33752074466193666,
+      "via_anchor_id": "automatic_thought::it_will_be_stressful_and_negative_people_will_ask_me_questio_053c195a04",
+      "via_anchor_label": "It will be stressful and negative; people will ask me questions I cannot answer ",
+      "depth": 3,
+      "path_nodes": [
+        "automatic_thought::it_will_be_stressful_and_negative_people_will_ask_me_questio_053c195a04",
+        "emotion::anxious_worried_fearful_scared_tense_9e40a41a9b",
+        "automatic_thought::i_just_cannot_make_it_i_cannot_make_any_advancement_in_music_e5117ee66a",
+        "situation::being_offered_a_leadership_position_in_jazz_group_although_h_eb49b711c9"
+      ],
+      "path_edges": [
+        "out:evokes_emotion",
+        "in:evokes_emotion",
+        "in:triggers_automatic_thought"
+      ]
+    },
+    {
+      "id": "situation::client_got_a_bonus_at_work_for_good_performance_but_on_his_c_a5b0bbd42b",
+      "label": "Client got a bonus at work for good performance, but on his call with his parent",
+      "type": "situation_statement",
+      "layer": "dataset_grounded",
+      "best_score": 0.33752074466193666,
+      "via_anchor_id": "automatic_thought::it_will_be_stressful_and_negative_people_will_ask_me_questio_053c195a04",
+      "via_anchor_label": "It will be stressful and negative; people will ask me questions I cannot answer ",
+      "depth": 3,
+      "path_nodes": [
+        "automatic_thought::it_will_be_stressful_and_negative_people_will_ask_me_questio_053c195a04",
+        "emotion::anxious_worried_fearful_scared_tense_9e40a41a9b",
+        "automatic_thought::they_will_judge_me_negatively_or_not_understand_sharing_will_6e5fad502f",
+        "situation::client_got_a_bonus_at_work_for_good_performance_but_on_his_c_a5b0bbd42b"
+      ],
+      "path_edges": [
+        "out:evokes_emotion",
+        "in:evokes_emotion",
+        "in:triggers_automatic_thought"
+      ]
+    },
+    {
+      "id": "situation::client_is_working_on_a_project_that_is_due_soon_the_project_4c6857af78",
+      "label": "Client is working on a project that is due soon. The project has had increased v",
+      "type": "situation_statement",
+      "layer": "dataset_grounded",
+      "best_score": 0.33752074466193666,
+      "via_anchor_id": "automatic_thought::it_will_be_stressful_and_negative_people_will_ask_me_questio_053c195a04",
+      "via_anchor_label": "It will be stressful and negative; people will ask me questions I cannot answer ",
+      "depth": 3,
+      "path_nodes": [
+        "automatic_thought::it_will_be_stressful_and_negative_people_will_ask_me_questio_053c195a04",
+        "emotion::anxious_worried_fearful_scared_tense_9e40a41a9b",
+        "automatic_thought::i_need_to_finish_this_asap_i_have_not_finished_the_work_that_97dddfda8d",
+        "situation::client_is_working_on_a_project_that_is_due_soon_the_project_4c6857af78"
+      ],
+      "path_edges": [
+        "out:evokes_emotion",
+        "in:evokes_emotion",
+        "in:triggers_automatic_thought"
+      ]
+    },
+    {
+      "id": "situation::client_think_about_their_life_choices_and_direction_dealing_06ecfc9f83",
+      "label": "Client think about their life choices and direction, dealing with ambiguity and ",
+      "type": "situation_statement",
+      "layer": "dataset_grounded",
+      "best_score": 0.33752074466193666,
+      "via_anchor_id": "automatic_thought::it_will_be_stressful_and_negative_people_will_ask_me_questio_053c195a04",
+      "via_anchor_label": "It will be stressful and negative; people will ask me questions I cannot answer ",
+      "depth": 3,
+      "path_nodes": [
+        "automatic_thought::it_will_be_stressful_and_negative_people_will_ask_me_questio_053c195a04",
+        "emotion::anxious_worried_fearful_scared_tense_9e40a41a9b",
+        "automatic_thought::i_can_t_make_the_wrong_decision_i_might_fail_or_choose_incor_7c0a332e81",
+        "situation::client_think_about_their_life_choices_and_direction_dealing_06ecfc9f83"
+      ],
+      "path_edges": [
+        "out:evokes_emotion",
+        "in:evokes_emotion",
+        "in:triggers_automatic_thought"
+      ]
+    },
+    {
+      "id": "situation::comparing_oneself_to_colleagues_who_work_longer_hours_and_pu_727767767c",
+      "label": "Comparing oneself to colleagues who work longer hours and publish more papers.",
+      "type": "situation_statement",
+      "layer": "dataset_grounded",
+      "best_score": 0.33752074466193666,
+      "via_anchor_id": "automatic_thought::it_will_be_stressful_and_negative_people_will_ask_me_questio_053c195a04",
+      "via_anchor_label": "It will be stressful and negative; people will ask me questions I cannot answer ",
+      "depth": 3,
+      "path_nodes": [
+        "automatic_thought::it_will_be_stressful_and_negative_people_will_ask_me_questio_053c195a04",
+        "emotion::anxious_worried_fearful_scared_tense_9e40a41a9b",
+        "automatic_thought::i_m_not_working_hard_enough_i_m_not_as_good_as_they_are_ed52443e69",
+        "situation::comparing_oneself_to_colleagues_who_work_longer_hours_and_pu_727767767c"
+      ],
+      "path_edges": [
+        "out:evokes_emotion",
+        "in:evokes_emotion",
+        "in:triggers_automatic_thought"
+      ]
+    },
+    {
+      "id": "situation::considering_how_to_handle_candace_s_rude_behavior_21b40ca64c",
+      "label": "Considering how to handle Candace's rude behavior",
+      "type": "situation_statement",
+      "layer": "dataset_grounded",
+      "best_score": 0.33752074466193666,
+      "via_anchor_id": "automatic_thought::it_will_be_stressful_and_negative_people_will_ask_me_questio_053c195a04",
+      "via_anchor_label": "It will be stressful and negative; people will ask me questions I cannot answer ",
+      "depth": 3,
+      "path_nodes": [
+        "automatic_thought::it_will_be_stressful_and_negative_people_will_ask_me_questio_053c195a04",
+        "emotion::anxious_worried_fearful_scared_tense_9e40a41a9b",
+        "automatic_thought::if_i_confront_candace_it_will_make_things_worse_but_if_i_don_e9ffa8ed9f",
+        "situation::considering_how_to_handle_candace_s_rude_behavior_21b40ca64c"
+      ],
+      "path_edges": [
+        "out:evokes_emotion",
+        "in:evokes_emotion",
+        "in:triggers_automatic_thought"
+      ]
+    },
+    {
+      "id": "situation::considering_starting_own_micro_press_and_changing_careers_fe0e571492",
+      "label": "Considering starting own micro press and changing careers.",
+      "type": "situation_statement",
+      "layer": "dataset_grounded",
+      "best_score": 0.33752074466193666,
+      "via_anchor_id": "automatic_thought::it_will_be_stressful_and_negative_people_will_ask_me_questio_053c195a04",
+      "via_anchor_label": "It will be stressful and negative; people will ask me questions I cannot answer ",
+      "depth": 3,
+      "path_nodes": [
+        "automatic_thought::it_will_be_stressful_and_negative_people_will_ask_me_questio_053c195a04",
+        "emotion::anxious_worried_fearful_scared_tense_9e40a41a9b",
+        "automatic_thought::i_m_possibly_hypomanic_and_not_thinking_straight_i_might_not_69f8bbd4b3",
+        "situation::considering_starting_own_micro_press_and_changing_careers_fe0e571492"
+      ],
+      "path_edges": [
+        "out:evokes_emotion",
+        "in:evokes_emotion",
+        "in:triggers_automatic_thought"
+      ]
+    },
+    {
+      "id": "situation::contemplating_the_value_and_completion_of_his_personal_proje_c62e572642",
+      "label": "Contemplating the value and completion of his personal projects, such as buildin",
+      "type": "situation_statement",
+      "layer": "dataset_grounded",
+      "best_score": 0.33752074466193666,
+      "via_anchor_id": "automatic_thought::it_will_be_stressful_and_negative_people_will_ask_me_questio_053c195a04",
+      "via_anchor_label": "It will be stressful and negative; people will ask me questions I cannot answer ",
+      "depth": 3,
+      "path_nodes": [
+        "automatic_thought::it_will_be_stressful_and_negative_people_will_ask_me_questio_053c195a04",
+        "emotion::sad_down_lonely_unhappy_d4edca2ce3",
+        "automatic_thought::what_s_the_point_no_one_will_know_it_s_me_and_i_m_not_gettin_7fe5bad62b",
+        "situation::contemplating_the_value_and_completion_of_his_personal_proje_c62e572642"
+      ],
+      "path_edges": [
+        "out:evokes_emotion",
+        "in:evokes_emotion",
+        "in:triggers_automatic_thought"
+      ]
+    },
+    {
+      "id": "situation::cried_about_the_recent_failure_of_a_business_and_the_financi_cf5a9b02d0",
+      "label": "Cried about the recent failure of a business and the financial difficulty result",
+      "type": "situation_statement",
+      "layer": "dataset_grounded",
+      "best_score": 0.33752074466193666,
+      "via_anchor_id": "automatic_thought::it_will_be_stressful_and_negative_people_will_ask_me_questio_053c195a04",
+      "via_anchor_label": "It will be stressful and negative; people will ask me questions I cannot answer ",
+      "depth": 3,
+      "path_nodes": [
+        "automatic_thought::it_will_be_stressful_and_negative_people_will_ask_me_questio_053c195a04",
+        "emotion::anxious_worried_fearful_scared_tense_9e40a41a9b",
+        "automatic_thought::i_just_failed_the_expectations_of_everybody_i_shouldn_t_show_523918f04f",
+        "situation::cried_about_the_recent_failure_of_a_business_and_the_financi_cf5a9b02d0"
+      ],
+      "path_edges": [
+        "out:evokes_emotion",
+        "in:evokes_emotion",
+        "in:triggers_automatic_thought"
+      ]
+    },
+    {
+      "id": "situation::dealing_with_ivan_s_seemingly_unfocused_approach_to_job_sear_57a05c0e0e",
+      "label": "Dealing with Ivan's seemingly unfocused approach to job searching and life in ge",
+      "type": "situation_statement",
+      "layer": "dataset_grounded",
+      "best_score": 0.33752074466193666,
+      "via_anchor_id": "automatic_thought::it_will_be_stressful_and_negative_people_will_ask_me_questio_053c195a04",
+      "via_anchor_label": "It will be stressful and negative; people will ask me questions I cannot answer ",
+      "depth": 3,
+      "path_nodes": [
+        "automatic_thought::it_will_be_stressful_and_negative_people_will_ask_me_questio_053c195a04",
+        "emotion::sad_down_lonely_unhappy_d4edca2ce3",
+        "automatic_thought::ivan_is_not_making_an_effort_at_the_same_level_as_i_am_and_i_e978df24e7",
+        "situation::dealing_with_ivan_s_seemingly_unfocused_approach_to_job_sear_57a05c0e0e"
+      ],
+      "path_edges": [
+        "out:evokes_emotion",
+        "in:evokes_emotion",
+        "in:triggers_automatic_thought"
+      ]
+    },
+    {
+      "id": "situation::dealing_with_financial_struggles_and_uncertainty_after_the_d_0d95eb9d5a",
+      "label": "Dealing with financial struggles and uncertainty after the divorce.",
+      "type": "situation_statement",
+      "layer": "dataset_grounded",
+      "best_score": 0.33752074466193666,
+      "via_anchor_id": "automatic_thought::it_will_be_stressful_and_negative_people_will_ask_me_questio_053c195a04",
+      "via_anchor_label": "It will be stressful and negative; people will ask me questions I cannot answer ",
+      "depth": 3,
+      "path_nodes": [
+        "automatic_thought::it_will_be_stressful_and_negative_people_will_ask_me_questio_053c195a04",
+        "emotion::anxious_worried_fearful_scared_tense_9e40a41a9b",
+        "automatic_thought::i_don_t_know_how_i_m_going_to_afford_everything_i_m_at_the_b_eb079571cb",
+        "situation::dealing_with_financial_struggles_and_uncertainty_after_the_d_0d95eb9d5a"
+      ],
+      "path_edges": [
+        "out:evokes_emotion",
+        "in:evokes_emotion",
+        "in:triggers_automatic_thought"
+      ]
+    },
+    {
+      "id": "situation::dealing_with_the_job_seeking_process_and_getting_a_rejection_b14fa98a34",
+      "label": "Dealing with the job-seeking process and getting a rejection email.",
+      "type": "situation_statement",
+      "layer": "dataset_grounded",
+      "best_score": 0.33752074466193666,
+      "via_anchor_id": "automatic_thought::it_will_be_stressful_and_negative_people_will_ask_me_questio_053c195a04",
+      "via_anchor_label": "It will be stressful and negative; people will ask me questions I cannot answer ",
+      "depth": 3,
+      "path_nodes": [
+        "automatic_thought::it_will_be_stressful_and_negative_people_will_ask_me_questio_053c195a04",
+        "emotion::anxious_worried_fearful_scared_tense_9e40a41a9b",
+        "automatic_thought::i_m_never_going_to_find_a_job_i_m_failing_in_my_job_search_i_194579b09a",
+        "situation::dealing_with_the_job_seeking_process_and_getting_a_rejection_b14fa98a34"
+      ],
+      "path_edges": [
+        "out:evokes_emotion",
+        "in:evokes_emotion",
+        "in:triggers_automatic_thought"
+      ]
+    },
+    {
+      "id": "situation::dealing_with_the_reality_of_all_friends_being_unhappy_and_th_a2503a4f2a",
+      "label": "Dealing with the reality of all friends being unhappy and the client's own invol",
+      "type": "situation_statement",
+      "layer": "dataset_grounded",
+      "best_score": 0.33752074466193666,
+      "via_anchor_id": "automatic_thought::it_will_be_stressful_and_negative_people_will_ask_me_questio_053c195a04",
+      "via_anchor_label": "It will be stressful and negative; people will ask me questions I cannot answer ",
+      "depth": 3,
+      "path_nodes": [
+        "automatic_thought::it_will_be_stressful_and_negative_people_will_ask_me_questio_053c195a04",
+        "emotion::sad_down_lonely_unhappy_d4edca2ce3",
+        "automatic_thought::none_of_my_efforts_matter_i_can_t_make_anyone_happy_and_i_am_e95fa4aef7",
+        "situation::dealing_with_the_reality_of_all_friends_being_unhappy_and_th_a2503a4f2a"
+      ],
+      "path_edges": [
+        "out:evokes_emotion",
+        "in:evokes_emotion",
+        "in:triggers_automatic_thought"
+      ]
+    },
+    {
+      "id": "situation::difficulty_with_organizing_and_processing_work_results_due_t_9e65d4c735",
+      "label": "Difficulty with organizing and processing work results due to the fear of making",
+      "type": "situation_statement",
+      "layer": "dataset_grounded",
+      "best_score": 0.33752074466193666,
+      "via_anchor_id": "automatic_thought::it_will_be_stressful_and_negative_people_will_ask_me_questio_053c195a04",
+      "via_anchor_label": "It will be stressful and negative; people will ask me questions I cannot answer ",
+      "depth": 3,
+      "path_nodes": [
+        "automatic_thought::it_will_be_stressful_and_negative_people_will_ask_me_questio_053c195a04",
+        "emotion::anxious_worried_fearful_scared_tense_9e40a41a9b",
+        "automatic_thought::i_am_afraid_that_i_am_forgetting_or_overlooking_something_im_db30f5aa35",
+        "situation::difficulty_with_organizing_and_processing_work_results_due_t_9e65d4c735"
+      ],
+      "path_edges": [
+        "out:evokes_emotion",
+        "in:evokes_emotion",
+        "in:triggers_automatic_thought"
+      ]
+    },
+    {
+      "id": "situation::discussing_feelings_of_detachment_with_jeremy_afb451ec7d",
+      "label": "Discussing feelings of detachment with Jeremy.",
+      "type": "situation_statement",
+      "layer": "dataset_grounded",
+      "best_score": 0.33752074466193666,
+      "via_anchor_id": "automatic_thought::it_will_be_stressful_and_negative_people_will_ask_me_questio_053c195a04",
+      "via_anchor_label": "It will be stressful and negative; people will ask me questions I cannot answer ",
+      "depth": 3,
+      "path_nodes": [
+        "automatic_thought::it_will_be_stressful_and_negative_people_will_ask_me_questio_053c195a04",
+        "emotion::sad_down_lonely_unhappy_d4edca2ce3",
+        "automatic_thought::i_feel_detached_and_unable_to_fully_engage_with_my_own_exper_c1298c7b19",
+        "situation::discussing_feelings_of_detachment_with_jeremy_afb451ec7d"
+      ],
+      "path_edges": [
+        "out:evokes_emotion",
+        "in:evokes_emotion",
+        "in:triggers_automatic_thought"
+      ]
+    },
+    {
+      "id": "situation::doing_the_laundry_and_thinking_about_the_future_of_her_relat_8c91311cc9",
+      "label": "Doing the laundry and thinking about the future of her relationship with Amelia ",
+      "type": "situation_statement",
+      "layer": "dataset_grounded",
+      "best_score": 0.33752074466193666,
+      "via_anchor_id": "automatic_thought::it_will_be_stressful_and_negative_people_will_ask_me_questio_053c195a04",
+      "via_anchor_label": "It will be stressful and negative; people will ask me questions I cannot answer ",
+      "depth": 3,
+      "path_nodes": [
+        "automatic_thought::it_will_be_stressful_and_negative_people_will_ask_me_questio_053c195a04",
+        "emotion::anxious_worried_fearful_scared_tense_9e40a41a9b",
+        "automatic_thought::i_don_t_like_the_role_but_this_is_just_what_i_m_capable_of_i_b297a74fe3",
+        "situation::doing_the_laundry_and_thinking_about_the_future_of_her_relat_8c91311cc9"
+      ],
+      "path_edges": [
+        "out:evokes_emotion",
+        "in:evokes_emotion",
+        "in:triggers_automatic_thought"
+      ]
+    },
+    {
+      "id": "situation::during_the_instances_where_ivan_neglects_his_responsibilitie_2a17ada893",
+      "label": "During the instances where Ivan neglects his responsibilities, such as not contr",
+      "type": "situation_statement",
+      "layer": "dataset_grounded",
+      "best_score": 0.33752074466193666,
+      "via_anchor_id": "automatic_thought::it_will_be_stressful_and_negative_people_will_ask_me_questio_053c195a04",
+      "via_anchor_label": "It will be stressful and negative; people will ask me questions I cannot answer ",
+      "depth": 3,
+      "path_nodes": [
+        "automatic_thought::it_will_be_stressful_and_negative_people_will_ask_me_questio_053c195a04",
+        "emotion::sad_down_lonely_unhappy_d4edca2ce3",
+        "automatic_thought::ivan_doesn_t_care_enough_to_contribute_or_he_doesn_t_want_to_c0d2b6ca48",
+        "situation::during_the_instances_where_ivan_neglects_his_responsibilitie_2a17ada893"
+      ],
+      "path_edges": [
+        "out:evokes_emotion",
+        "in:evokes_emotion",
+        "in:triggers_automatic_thought"
+      ]
+    },
+    {
+      "id": "situation::encountering_disagreements_with_parents_at_dinner_and_gettin_7b94b36d02",
+      "label": "Encountering disagreements with parents at dinner and getting suppressed by moth",
+      "type": "situation_statement",
+      "layer": "dataset_grounded",
+      "best_score": 0.33752074466193666,
+      "via_anchor_id": "automatic_thought::it_will_be_stressful_and_negative_people_will_ask_me_questio_053c195a04",
+      "via_anchor_label": "It will be stressful and negative; people will ask me questions I cannot answer ",
+      "depth": 3,
+      "path_nodes": [
+        "automatic_thought::it_will_be_stressful_and_negative_people_will_ask_me_questio_053c195a04",
+        "emotion::anxious_worried_fearful_scared_tense_9e40a41a9b",
+        "automatic_thought::i_m_the_only_one_reacting_emotionally_my_emotions_are_not_va_47b02612d4",
+        "situation::encountering_disagreements_with_parents_at_dinner_and_gettin_7b94b36d02"
+      ],
+      "path_edges": [
+        "out:evokes_emotion",
+        "in:evokes_emotion",
+        "in:triggers_automatic_thought"
+      ]
+    },
+    {
+      "id": "situation::encountering_micromanagement_at_work_dcc28173aa",
+      "label": "Encountering micromanagement at work.",
+      "type": "situation_statement",
+      "layer": "dataset_grounded",
+      "best_score": 0.33752074466193666,
+      "via_anchor_id": "automatic_thought::it_will_be_stressful_and_negative_people_will_ask_me_questio_053c195a04",
+      "via_anchor_label": "It will be stressful and negative; people will ask me questions I cannot answer ",
+      "depth": 3,
+      "path_nodes": [
+        "automatic_thought::it_will_be_stressful_and_negative_people_will_ask_me_questio_053c195a04",
+        "emotion::anxious_worried_fearful_scared_tense_9e40a41a9b",
+        "automatic_thought::my_efforts_are_never_enough_i_m_never_meeting_their_expectat_4b084a4339",
+        "situation::encountering_micromanagement_at_work_dcc28173aa"
+      ],
+      "path_edges": [
+        "out:evokes_emotion",
+        "in:evokes_emotion",
+        "in:triggers_automatic_thought"
+      ]
+    },
+    {
+      "id": "situation::ethan_s_increasingly_erratic_behavior_and_drug_use_at_a_part_5918971fe9",
+      "label": "Ethan's increasingly erratic behavior and drug use at a party they both attended",
+      "type": "situation_statement",
+      "layer": "dataset_grounded",
+      "best_score": 0.33752074466193666,
+      "via_anchor_id": "automatic_thought::it_will_be_stressful_and_negative_people_will_ask_me_questio_053c195a04",
+      "via_anchor_label": "It will be stressful and negative; people will ask me questions I cannot answer ",
+      "depth": 3,
+      "path_nodes": [
+        "automatic_thought::it_will_be_stressful_and_negative_people_will_ask_me_questio_053c195a04",
+        "emotion::anxious_worried_fearful_scared_tense_9e40a41a9b",
+        "automatic_thought::ethan_is_completely_out_of_control_i_feel_responsible_and_ne_7ed0ac889c",
+        "situation::ethan_s_increasingly_erratic_behavior_and_drug_use_at_a_part_5918971fe9"
+      ],
+      "path_edges": [
+        "out:evokes_emotion",
+        "in:evokes_emotion",
+        "in:triggers_automatic_thought"
+      ]
+    },
+    {
+      "id": "situation::experienced_an_unproductive_week_due_to_mistakes_in_planning_884a123bfd",
+      "label": "Experienced an unproductive week due to mistakes in planning. Comparing to clien",
+      "type": "situation_statement",
+      "layer": "dataset_grounded",
+      "best_score": 0.33752074466193666,
+      "via_anchor_id": "automatic_thought::it_will_be_stressful_and_negative_people_will_ask_me_questio_053c195a04",
+      "via_anchor_label": "It will be stressful and negative; people will ask me questions I cannot answer ",
+      "depth": 3,
+      "path_nodes": [
+        "automatic_thought::it_will_be_stressful_and_negative_people_will_ask_me_questio_053c195a04",
+        "emotion::sad_down_lonely_unhappy_d4edca2ce3",
+        "automatic_thought::i_m_a_pathetic_person_i_m_never_good_at_planning_or_organizi_09ee2572a5",
+        "situation::experienced_an_unproductive_week_due_to_mistakes_in_planning_884a123bfd"
+      ],
+      "path_edges": [
+        "out:evokes_emotion",
+        "in:evokes_emotion",
+        "in:triggers_automatic_thought"
+      ]
+    },
+    {
+      "id": "situation::experiencing_stomach_issues_and_concerned_about_the_healing_b2524f8dae",
+      "label": "Experiencing stomach issues and concerned about the healing process.",
+      "type": "situation_statement",
+      "layer": "dataset_grounded",
+      "best_score": 0.33752074466193666,
+      "via_anchor_id": "automatic_thought::it_will_be_stressful_and_negative_people_will_ask_me_questio_053c195a04",
+      "via_anchor_label": "It will be stressful and negative; people will ask me questions I cannot answer ",
+      "depth": 3,
+      "path_nodes": [
+        "automatic_thought::it_will_be_stressful_and_negative_people_will_ask_me_questio_053c195a04",
+        "emotion::anxious_worried_fearful_scared_tense_9e40a41a9b",
+        "automatic_thought::my_stomach_problems_might_not_heal_i_might_not_have_control_af908f8b88",
+        "situation::experiencing_stomach_issues_and_concerned_about_the_healing_b2524f8dae"
+      ],
+      "path_edges": [
+        "out:evokes_emotion",
+        "in:evokes_emotion",
+        "in:triggers_automatic_thought"
+      ]
+    },
+    {
+      "id": "situation::faced_with_the_departure_of_a_close_colleague_and_feeling_th_4691c858d7",
+      "label": "Faced with the departure of a close colleague and feeling the emotional impact o",
+      "type": "situation_statement",
+      "layer": "dataset_grounded",
+      "best_score": 0.33752074466193666,
+      "via_anchor_id": "automatic_thought::it_will_be_stressful_and_negative_people_will_ask_me_questio_053c195a04",
+      "via_anchor_label": "It will be stressful and negative; people will ask me questions I cannot answer ",
+      "depth": 3,
+      "path_nodes": [
+        "automatic_thought::it_will_be_stressful_and_negative_people_will_ask_me_questio_053c195a04",
+        "emotion::sad_down_lonely_unhappy_d4edca2ce3",
+        "automatic_thought::the_departure_of_my_colleague_will_leave_a_void_in_my_work_l_2028e7f8b7",
+        "situation::faced_with_the_departure_of_a_close_colleague_and_feeling_th_4691c858d7"
+      ],
+      "path_edges": [
+        "out:evokes_emotion",
+        "in:evokes_emotion",
+        "in:triggers_automatic_thought"
+      ]
+    },
+    {
+      "id": "situation::fearing_loss_of_positive_aspects_of_life_or_return_to_former_811bc9505f",
+      "label": "Fearing loss of positive aspects of life or return to former unhappy state.",
+      "type": "situation_statement",
+      "layer": "dataset_grounded",
+      "best_score": 0.33752074466193666,
+      "via_anchor_id": "automatic_thought::it_will_be_stressful_and_negative_people_will_ask_me_questio_053c195a04",
+      "via_anchor_label": "It will be stressful and negative; people will ask me questions I cannot answer ",
+      "depth": 3,
+      "path_nodes": [
+        "automatic_thought::it_will_be_stressful_and_negative_people_will_ask_me_questio_053c195a04",
+        "emotion::anxious_worried_fearful_scared_tense_9e40a41a9b",
+        "automatic_thought::things_are_going_too_well_and_i_don_t_deserve_this_happiness_6d0eef3c37",
+        "situation::fearing_loss_of_positive_aspects_of_life_or_return_to_former_811bc9505f"
+      ],
+      "path_edges": [
+        "out:evokes_emotion",
+        "in:evokes_emotion",
+        "in:triggers_automatic_thought"
+      ]
+    },
+    {
+      "id": "situation::feelings_of_exhaustion_after_trying_to_unpack_at_home_withou_b6f79408ad",
+      "label": "Feelings of exhaustion after trying to unpack at home without support from frien",
+      "type": "situation_statement",
+      "layer": "dataset_grounded",
+      "best_score": 0.33752074466193666,
+      "via_anchor_id": "automatic_thought::it_will_be_stressful_and_negative_people_will_ask_me_questio_053c195a04",
+      "via_anchor_label": "It will be stressful and negative; people will ask me questions I cannot answer ",
+      "depth": 3,
+      "path_nodes": [
+        "automatic_thought::it_will_be_stressful_and_negative_people_will_ask_me_questio_053c195a04",
+        "emotion::sad_down_lonely_unhappy_d4edca2ce3",
+        "automatic_thought::i_am_doing_this_alone_because_no_one_cares_to_help_me_or_be_4422914c2c",
+        "situation::feelings_of_exhaustion_after_trying_to_unpack_at_home_withou_b6f79408ad"
+      ],
+      "path_edges": [
+        "out:evokes_emotion",
+        "in:evokes_emotion",
+        "in:triggers_automatic_thought"
+      ]
+    },
+    {
+      "id": "situation::friends_coming_over_for_dinner_and_waiting_outside_because_t_112014f6ad",
+      "label": "Friends coming over for dinner and waiting outside because the client was late l",
+      "type": "situation_statement",
+      "layer": "dataset_grounded",
+      "best_score": 0.33752074466193666,
+      "via_anchor_id": "automatic_thought::it_will_be_stressful_and_negative_people_will_ask_me_questio_053c195a04",
+      "via_anchor_label": "It will be stressful and negative; people will ask me questions I cannot answer ",
+      "depth": 3,
+      "path_nodes": [
+        "automatic_thought::it_will_be_stressful_and_negative_people_will_ask_me_questio_053c195a04",
+        "emotion::anxious_worried_fearful_scared_tense_9e40a41a9b",
+        "automatic_thought::i_m_rude_for_keeping_people_waiting_i_should_be_better_organ_af84261296",
+        "situation::friends_coming_over_for_dinner_and_waiting_outside_because_t_112014f6ad"
+      ],
+      "path_edges": [
+        "out:evokes_emotion",
+        "in:evokes_emotion",
+        "in:triggers_automatic_thought"
+      ]
+    },
+    {
+      "id": "situation::getting_stuck_during_jazz_rehearsals_with_other_performers_a_8f5c8dadf1",
+      "label": "Getting stuck during jazz rehearsals with other performers and need to repeat ma",
+      "type": "situation_statement",
+      "layer": "dataset_grounded",
+      "best_score": 0.33752074466193666,
+      "via_anchor_id": "automatic_thought::it_will_be_stressful_and_negative_people_will_ask_me_questio_053c195a04",
+      "via_anchor_label": "It will be stressful and negative; people will ask me questions I cannot answer ",
+      "depth": 3,
+      "path_nodes": [
+        "automatic_thought::it_will_be_stressful_and_negative_people_will_ask_me_questio_053c195a04",
+        "emotion::anxious_worried_fearful_scared_tense_9e40a41a9b",
+        "automatic_thought::i_don_t_belong_in_a_jazz_improvisation_context_my_skills_are_99a84c551c",
+        "situation::getting_stuck_during_jazz_rehearsals_with_other_performers_a_8f5c8dadf1"
+      ],
+      "path_edges": [
+        "out:evokes_emotion",
+        "in:evokes_emotion",
+        "in:triggers_automatic_thought"
+      ]
+    },
+    {
+      "id": "situation::handling_students_with_learning_disabilities_and_trying_to_e_5c68f7a1aa",
+      "label": "Handling students with learning disabilities and trying to encourage them to soc",
+      "type": "situation_statement",
+      "layer": "dataset_grounded",
+      "best_score": 0.33752074466193666,
+      "via_anchor_id": "automatic_thought::it_will_be_stressful_and_negative_people_will_ask_me_questio_053c195a04",
+      "via_anchor_label": "It will be stressful and negative; people will ask me questions I cannot answer ",
+      "depth": 3,
+      "path_nodes": [
+        "automatic_thought::it_will_be_stressful_and_negative_people_will_ask_me_questio_053c195a04",
+        "emotion::sad_down_lonely_unhappy_d4edca2ce3",
+        "automatic_thought::i_m_not_being_productive_my_effort_is_meaningless_i_feel_lik_d0724ad41d",
+        "situation::handling_students_with_learning_disabilities_and_trying_to_e_5c68f7a1aa"
+      ],
+      "path_edges": [
+        "out:evokes_emotion",
+        "in:evokes_emotion",
+        "in:triggers_automatic_thought"
+      ]
+    },
+    {
+      "id": "situation::having_a_conflicting_discussion_with_mother_over_weekend_pla_1bd4f303d7",
+      "label": "Having a conflicting discussion with mother over weekend plans and financial ass",
+      "type": "situation_statement",
+      "layer": "dataset_grounded",
+      "best_score": 0.33752074466193666,
+      "via_anchor_id": "automatic_thought::it_will_be_stressful_and_negative_people_will_ask_me_questio_053c195a04",
+      "via_anchor_label": "It will be stressful and negative; people will ask me questions I cannot answer ",
+      "depth": 3,
+      "path_nodes": [
+        "automatic_thought::it_will_be_stressful_and_negative_people_will_ask_me_questio_053c195a04",
+        "emotion::anxious_worried_fearful_scared_tense_9e40a41a9b",
+        "automatic_thought::my_mother_will_always_control_the_situation_i_can_t_assert_m_7fa9d229d4",
+        "situation::having_a_conflicting_discussion_with_mother_over_weekend_pla_1bd4f303d7"
+      ],
+      "path_edges": [
+        "out:evokes_emotion",
+        "in:evokes_emotion",
+        "in:triggers_automatic_thought"
+      ]
+    },
+    {
+      "id": "situation::having_to_put_on_a_happy_face_at_a_halloween_party_despite_p_b9b7df9f25",
+      "label": "Having to put on a happy face at a Halloween party despite pain.",
+      "type": "situation_statement",
+      "layer": "dataset_grounded",
+      "best_score": 0.33752074466193666,
+      "via_anchor_id": "automatic_thought::it_will_be_stressful_and_negative_people_will_ask_me_questio_053c195a04",
+      "via_anchor_label": "It will be stressful and negative; people will ask me questions I cannot answer ",
+      "depth": 3,
+      "path_nodes": [
+        "automatic_thought::it_will_be_stressful_and_negative_people_will_ask_me_questio_053c195a04",
+        "emotion::anxious_worried_fearful_scared_tense_9e40a41a9b",
+        "automatic_thought::if_i_act_as_if_i_m_okay_others_will_like_me_and_keep_being_f_d159cbc213",
+        "situation::having_to_put_on_a_happy_face_at_a_halloween_party_despite_p_b9b7df9f25"
+      ],
+      "path_edges": [
+        "out:evokes_emotion",
+        "in:evokes_emotion",
+        "in:triggers_automatic_thought"
+      ]
+    },
+    {
+      "id": "situation::hearing_clinical_terms_delusional_pseudo_psychotic_about_iva_39bffbd3af",
+      "label": "Hearing clinical terms (delusional, pseudo-psychotic) about Ivan's behavior.",
+      "type": "situation_statement",
+      "layer": "dataset_grounded",
+      "best_score": 0.33752074466193666,
+      "via_anchor_id": "automatic_thought::it_will_be_stressful_and_negative_people_will_ask_me_questio_053c195a04",
+      "via_anchor_label": "It will be stressful and negative; people will ask me questions I cannot answer ",
+      "depth": 3,
+      "path_nodes": [
+        "automatic_thought::it_will_be_stressful_and_negative_people_will_ask_me_questio_053c195a04",
+        "emotion::anxious_worried_fearful_scared_tense_9e40a41a9b",
+        "automatic_thought::these_clinical_descriptions_are_very_serious_and_scary_am_i_ffe6a95e83",
+        "situation::hearing_clinical_terms_delusional_pseudo_psychotic_about_iva_39bffbd3af"
+      ],
+      "path_edges": [
+        "out:evokes_emotion",
+        "in:evokes_emotion",
+        "in:triggers_automatic_thought"
+      ]
+    }
+  ],
+  "candidate_cases": [
+    {
+      "id": "case::1-1",
+      "label": "Alex 1-1",
+      "score": 0.4878524974100387,
+      "via_anchor_id": "situation::alex_s_cousin_invited_him_to_attend_his_upcoming_wedding_c1175e71d5",
+      "via_anchor_label": "Alex's cousin invited him to attend his upcoming wedding.",
+      "depth": 2,
+      "path_nodes": [
+        "situation::alex_s_cousin_invited_him_to_attend_his_upcoming_wedding_c1175e71d5",
+        "episode::1-1",
+        "case::1-1"
+      ],
+      "path_edges": [
+        "in:has_situation",
+        "in:has_external_episode"
+      ]
+    },
+    {
+      "id": "case::43-2",
+      "label": "Skyler 43-2",
+      "score": 0.42560322572933984,
+      "via_anchor_id": "situation::not_being_invited_by_a_friend_for_a_dinner_with_other_friend_ee7b8f6469",
+      "via_anchor_label": "Not being invited by a friend for a dinner with other friends.",
+      "depth": 2,
+      "path_nodes": [
+        "situation::not_being_invited_by_a_friend_for_a_dinner_with_other_friend_ee7b8f6469",
+        "episode::43-2",
+        "case::43-2"
+      ],
+      "path_edges": [
+        "in:has_situation",
+        "in:has_external_episode"
+      ]
+    },
+    {
+      "id": "case::32-1",
+      "label": "Leo 32-1",
+      "score": 0.4115286695519106,
+      "via_anchor_id": "automatic_thought::family_interactions_will_inevitably_lead_to_judgment_any_eng_741e55b583",
+      "via_anchor_label": "Family interactions will inevitably lead to judgment; any engagement with family",
+      "depth": 2,
+      "path_nodes": [
+        "automatic_thought::family_interactions_will_inevitably_lead_to_judgment_any_eng_741e55b583",
+        "episode::32-1",
+        "case::32-1"
+      ],
+      "path_edges": [
+        "in:has_automatic_thought",
+        "in:has_external_episode"
+      ]
+    },
+    {
+      "id": "case::24-1",
+      "label": "Evan 24-1",
+      "score": 0.3997771186702571,
+      "via_anchor_id": "situation::being_invited_to_visit_his_sister_but_currently_being_financ_498dd862cd",
+      "via_anchor_label": "Being invited to visit his sister but currently being financially unstable.",
+      "depth": 2,
+      "path_nodes": [
+        "situation::being_invited_to_visit_his_sister_but_currently_being_financ_498dd862cd",
+        "episode::24-1",
+        "case::24-1"
+      ],
+      "path_edges": [
+        "in:has_situation",
+        "in:has_external_episode"
+      ]
+    },
+    {
+      "id": "case::1-2",
+      "label": "Alex 1-2",
+      "score": 0.37502304962437405,
+      "via_anchor_id": "automatic_thought::it_will_be_stressful_and_negative_people_will_ask_me_questio_053c195a04",
+      "via_anchor_label": "It will be stressful and negative; people will ask me questions I cannot answer ",
+      "depth": 3,
+      "path_nodes": [
+        "automatic_thought::it_will_be_stressful_and_negative_people_will_ask_me_questio_053c195a04",
+        "emotion::anxious_worried_fearful_scared_tense_9e40a41a9b",
+        "episode::1-2",
+        "case::1-2"
+      ],
+      "path_edges": [
+        "out:evokes_emotion",
+        "in:has_emotion",
+        "in:has_external_episode"
+      ]
+    }
+  ],
+  "case_bundles": [
+    {
+      "case_record": {
+        "id": "case::1-1",
+        "type": "case_record",
+        "label": "Alex 1-1",
+        "layer": "dataset_grounded",
+        "patient_name": "Alex",
+        "patient_group": "1",
+        "source_dataset": "Patient_Psi_CM_Dataset",
+        "source_case_ids": [
+          "1-1"
+        ],
+        "case_id": "1-1",
+        "style_traits": [
+          "plain",
+          "verbose",
+          "go off on tangents",
+          "hostile",
+          "guarded",
+          "ingratiating"
+        ]
+      },
+      "history": [
+        {
+          "id": "history::the_patient_has_a_history_of_substance_abuse_and_has_been_th_8b5efd10cb",
+          "type": "history_statement",
+          "label": "The patient has a history of substance abuse and has been through rehab to overc",
+          "text": "The patient has a history of substance abuse and has been through rehab to overcome it. He has had issues with his family, particularly with his mother, where he has felt rejected and emotionally neglected. He has struggled with obesity since childhood, which has affected his self-esteem and body image. He also has a history of being victimized and bullied due to his weight.",
+          "canonical_text": "The patient has a history of substance abuse and has been through rehab to overcome it. He has had issues with his family, particularly with his mother, where he has felt rejected and emotionally neglected. He has struggled with obesity since childhood, which has affected his self-esteem and body image. He also has a history of being victimized and bullied due to his weight.",
+          "layer": "dataset_grounded",
+          "source_dataset": "Patient_Psi_CM_Dataset",
+          "source_case_ids": [
+            "1-1",
+            "1-2",
+            "1-3"
+          ]
+        }
+      ],
+      "core_beliefs": [
+        {
+          "id": "core_belief::i_am_out_of_control_4d46341320",
+          "type": "core_belief_statement",
+          "label": "I am out of control.",
+          "text": "I am out of control.",
+          "canonical_text": "I am out of control.",
+          "layer": "dataset_grounded",
+          "source_dataset": "Patient_Psi_CM_Dataset",
+          "source_case_ids": [
+            "1-1",
+            "1-2",
+            "1-3",
+            "16-1",
+            "16-2",
+            "23-1",
+            "23-2",
+            "23-3",
+            "26-1",
+            "29-1",
+            "29-2",
+            "36-1",
+            "36-2",
+            "38-1",
+            "38-2",
+            "39-1",
+            "39-2",
+            "40-1",
+            "40-2",
+            "40-3",
+            "41-1",
+            "41-2",
+            "42-1",
+            "42-2",
+            "45-1",
+            "45-2",
+            "47-1",
+            "47-2",
+            "48-1",
+            "48-2",
+            "49-1",
+            "49-2",
+            "50-1",
+            "50-2"
+          ],
+          "belief_family": "helpless"
+        },
+        {
+          "id": "core_belief::i_am_trapped_07290235d1",
+          "type": "core_belief_statement",
+          "label": "I am trapped.",
+          "text": "I am trapped.",
+          "canonical_text": "I am trapped.",
+          "layer": "dataset_grounded",
+          "source_dataset": "Patient_Psi_CM_Dataset",
+          "source_case_ids": [
+            "1-1",
+            "1-2",
+            "1-3",
+            "11-1",
+            "11-2",
+            "15-1",
+            "15-2",
+            "17-2",
+            "2-1",
+            "2-2",
+            "2-3",
+            "20-1",
+            "20-2",
+            "21-1",
+            "21-2",
+            "22-1",
+            "22-2",
+            "23-1",
+            "23-2",
+            "23-3",
+            "26-1",
+            "3-1",
+            "33-1",
+            "33-2",
+            "34-1",
+            "35-2",
+            "38-1",
+            "38-2",
+            "39-1",
+            "39-2",
+            "4-1",
+            "4-2",
+            "40-1",
+            "40-2",
+            "40-3",
+            "48-1",
+            "48-2",
+            "49-1",
+            "49-2"
+          ],
+          "belief_family": "helpless"
+        },
+        {
+          "id": "core_belief::i_am_undesirable_unwanted_c6ea6577ec",
+          "type": "core_belief_statement",
+          "label": "I am undesirable, unwanted.",
+          "text": "I am undesirable, unwanted.",
+          "canonical_text": "I am undesirable, unwanted.",
+          "layer": "dataset_grounded",
+          "source_dataset": "Patient_Psi_CM_Dataset",
+          "source_case_ids": [
+            "1-1",
+            "11-1",
+            "17-1",
+            "17-2",
+            "17-3",
+            "2-1",
+            "2-2",
+            "2-3",
+            "21-1",
+            "21-2",
+            "24-1",
+            "24-2",
+            "24-3",
+            "29-2",
+            "36-1",
+            "36-2",
+            "4-2",
+            "40-1",
+            "40-2",
+            "40-3",
+            "42-1",
+            "42-2",
+            "43-1",
+            "43-2",
+            "48-1",
+            "48-2",
+            "5-1",
+            "5-2",
+            "9-1",
+            "9-2",
+            "9-3"
+          ],
+          "belief_family": "unlovable"
+        },
+        {
+          "id": "core_belief::i_am_unlovable_d133e5f46c",
+          "type": "core_belief_statement",
+          "label": "I am unlovable.",
+          "text": "I am unlovable.",
+          "canonical_text": "I am unlovable.",
+          "layer": "dataset_grounded",
+          "source_dataset": "Patient_Psi_CM_Dataset",
+          "source_case_ids": [
+            "1-1",
+            "10-2",
+            "10-3",
+            "11-1",
+            "17-1",
+            "17-2",
+            "17-3",
+            "2-1",
+            "2-2",
+            "2-3",
+            "21-1",
+            "21-2",
+            "22-1",
+            "22-2",
+            "23-1",
+            "23-2",
+            "23-3",
+            "26-1",
+            "27-1",
+            "27-2",
+            "30-1",
+            "30-2",
+            "31-1",
+            "32-1",
+            "32-2",
+            "33-1",
+            "33-2",
+            "34-1",
+            "35-2",
+            "36-1",
+            "36-2",
+            "37-1",
+            "37-2",
+            "38-1",
+            "38-2",
+            "39-1",
+            "39-2",
+            "4-2",
+            "40-1",
+            "40-2",
+            "40-3",
+            "41-1",
+            "41-2",
+            "42-1",
+            "42-2",
+            "43-1",
+            "43-2",
+            "44-1",
+            "44-2",
+            "45-1",
+            "45-2",
+            "46-1",
+            "46-2",
+            "47-1",
+            "47-2",
+            "48-1",
+            "48-2",
+            "50-1",
+            "50-2"
+          ],
+          "belief_family": "unlovable"
+        }
+      ],
+      "intermediate_beliefs": [
+        {
+          "id": "intermediate_belief::default_helpless_i_m_just_not_very_good_at_handling_stress_a_93e7637f78",
+          "type": "intermediate_belief_statement",
+          "label": "Helpless: I'm just not very good at handling stress and I have poor self-control",
+          "text": "Helpless: I'm just not very good at handling stress and I have poor self-control, which is why I need to not put myself in stressful situations. Unlovable: If I show my true self, people will reject me the way my mother rejected me.",
+          "canonical_text": "Helpless: I'm just not very good at handling stress and I have poor self-control, which is why I need to not put myself in stressful situations. Unlovable: If I show my true self, people will reject me the way my mother rejected me.",
+          "layer": "dataset_grounded",
+          "source_dataset": "Patient_Psi_CM_Dataset",
+          "source_case_ids": [
+            "1-1"
+          ],
+          "variant": "default"
+        },
+        {
+          "id": "intermediate_belief::depression_helpless_there_s_nothing_i_can_do_to_change_my_si_4d6a6dd515",
+          "type": "intermediate_belief_statement",
+          "label": "Helpless: There's nothing I can do to change my situation. I cannot control myse",
+          "text": "Helpless: There's nothing I can do to change my situation. I cannot control myself. Unlovable: I don't deserve to be happy, so why even try to stay clean?",
+          "canonical_text": "Helpless: There's nothing I can do to change my situation. I cannot control myself. Unlovable: I don't deserve to be happy, so why even try to stay clean?",
+          "layer": "dataset_grounded",
+          "source_dataset": "Patient_Psi_CM_Dataset",
+          "source_case_ids": [
+            "1-1"
+          ],
+          "variant": "depression"
+        }
+      ],
+      "coping_strategies": [
+        {
+          "id": "coping::the_patient_has_adopted_avoidance_as_a_coping_strategy_by_di_b008e93f66",
+          "type": "coping_strategy_statement",
+          "label": "The patient has adopted avoidance as a coping strategy by distancing himself fro",
+          "text": "The patient has adopted avoidance as a coping strategy by distancing himself from his family to reduce exposure to negativity and conflict. He has started scheduling pleasant activities and planning his day ahead of time in order to maintain a sense of control over his emotions and circumstances.",
+          "canonical_text": "The patient has adopted avoidance as a coping strategy by distancing himself from his family to reduce exposure to negativity and conflict. He has started scheduling pleasant activities and planning his day ahead of time in order to maintain a sense of control over his emotions and circumstances.",
+          "layer": "dataset_grounded",
+          "source_dataset": "Patient_Psi_CM_Dataset",
+          "source_case_ids": [
+            "1-1"
+          ]
+        }
+      ],
+      "situation": [
+        {
+          "id": "situation::alex_s_cousin_invited_him_to_attend_his_upcoming_wedding_c1175e71d5",
+          "type": "situation_statement",
+          "label": "Alex's cousin invited him to attend his upcoming wedding.",
+          "text": "Alex's cousin invited him to attend his upcoming wedding.",
+          "canonical_text": "Alex's cousin invited him to attend his upcoming wedding.",
+          "layer": "dataset_grounded",
+          "source_dataset": "Patient_Psi_CM_Dataset",
+          "source_case_ids": [
+            "1-1"
+          ]
+        }
+      ],
+      "automatic_thought": [
+        {
+          "id": "automatic_thought::it_will_be_stressful_and_negative_people_will_ask_me_questio_053c195a04",
+          "type": "automatic_thought_statement",
+          "label": "It will be stressful and negative; people will ask me questions I cannot answer ",
+          "text": "It will be stressful and negative; people will ask me questions I cannot answer or don't want to answer; my mum would be ashamed of me and critical of me as always; They don't want me there anyway, nobody likes me in this family.",
+          "canonical_text": "It will be stressful and negative; people will ask me questions I cannot answer or don't want to answer; my mum would be ashamed of me and critical of me as always; They don't want me there anyway, nobody likes me in this family.",
+          "layer": "dataset_grounded",
+          "source_dataset": "Patient_Psi_CM_Dataset",
+          "source_case_ids": [
+            "1-1"
+          ]
+        }
+      ],
+      "emotions": [
+        {
+          "id": "emotion::anxious_worried_fearful_scared_tense_9e40a41a9b",
+          "type": "emotion_statement",
+          "label": "anxious, worried, fearful, scared, tense",
+          "text": "anxious, worried, fearful, scared, tense",
+          "canonical_text": "anxious, worried, fearful, scared, tense",
+          "layer": "dataset_grounded",
+          "source_dataset": "Patient_Psi_CM_Dataset",
+          "source_case_ids": [
+            "1-1",
+            "1-2",
+            "10-1",
+            "10-3",
+            "12-1",
+            "12-2",
+            "13-2",
+            "14-1",
+            "14-2",
+            "16-1",
+            "16-2",
+            "17-1",
+            "17-2",
+            "19-1",
+            "19-2",
+            "2-1",
+            "2-2",
+            "2-3",
+            "20-1",
+            "20-2",
+            "21-1",
+            "21-2",
+            "23-2",
+            "23-3",
+            "24-1",
+            "24-2",
+            "24-3",
+            "26-1",
+            "27-1",
+            "28-1",
+            "29-1",
+            "3-1",
+            "3-2",
+            "31-1",
+            "31-2",
+            "32-1",
+            "32-2",
+            "36-1",
+            "38-2",
+            "39-1",
+            "39-2",
+            "4-1",
+            "4-2",
+            "40-2",
+            "41-1",
+            "41-2",
+            "42-1",
+            "45-1",
+            "46-1",
+            "47-1",
+            "49-1",
+            "5-1",
+            "5-2",
+            "50-1",
+            "50-2",
+            "6-2",
+            "7-2",
+            "8-1",
+            "8-2",
+            "9-1"
+          ]
+        },
+        {
+          "id": "emotion::sad_down_lonely_unhappy_d4edca2ce3",
+          "type": "emotion_statement",
+          "label": "sad, down, lonely, unhappy",
+          "text": "sad, down, lonely, unhappy",
+          "canonical_text": "sad, down, lonely, unhappy",
+          "layer": "dataset_grounded",
+          "source_dataset": "Patient_Psi_CM_Dataset",
+          "source_case_ids": [
+            "1-1",
+            "10-3",
+            "11-1",
+            "13-1",
+            "15-1",
+            "15-2",
+            "17-1",
+            "17-2",
+            "17-3",
+            "18-1",
+            "18-2",
+            "19-1",
+            "19-2",
+            "20-2",
+            "21-1",
+            "21-2",
+            "23-1",
+            "24-1",
+            "24-3",
+            "25-1",
+            "25-3",
+            "27-1",
+            "28-1",
+            "28-2",
+            "29-2",
+            "3-2",
+            "30-1",
+            "30-2",
+            "31-1",
+            "31-2",
+            "33-1",
+            "33-2",
+            "34-1",
+            "35-2",
+            "36-2",
+            "4-2",
+            "40-1",
+            "42-2",
+            "43-2",
+            "44-1",
+            "46-1",
+            "46-2",
+            "47-2",
+            "48-1",
+            "48-2",
+            "49-2",
+            "50-2",
+            "7-1",
+            "9-1",
+            "9-3"
+          ]
+        }
+      ],
+      "behavior": [
+        {
+          "id": "behavior::ignored_the_invitation_and_did_not_respond_to_the_rsvp_reque_1509a0bbdd",
+          "type": "behavior_statement",
+          "label": "Ignored the invitation and did not respond to the RSVP request. Ignored phone ca",
+          "text": "Ignored the invitation and did not respond to the RSVP request. Ignored phone calls from family.",
+          "canonical_text": "Ignored the invitation and did not respond to the RSVP request. Ignored phone calls from family.",
+          "layer": "dataset_grounded",
+          "source_dataset": "Patient_Psi_CM_Dataset",
+          "source_case_ids": [
+            "1-1"
+          ]
+        }
+      ],
+      "ontology_links": {
+        "history::the_patient_has_a_history_of_substance_abuse_and_has_been_th_8b5efd10cb": [
+          {
+            "relation": "associated_with_topic",
+            "target": {
+              "id": "body_image",
+              "layer": "ontology",
+              "type": "sub_topic",
+              "label": "Body image distress",
+              "aliases": [
+                "appearance shame",
+                "body shame"
+              ]
+            },
+            "weight": 0.6
+          },
+          {
+            "relation": "associated_with_topic",
+            "target": {
+              "id": "family_neglect",
+              "layer": "ontology",
+              "type": "sub_topic",
+              "label": "Family neglect",
+              "aliases": [
+                "emotionally neglected",
+                "ignored at home"
+              ]
+            },
+            "weight": 0.6
+          },
+          {
+            "relation": "associated_with_topic",
+            "target": {
+              "id": "trauma_victimization",
+              "layer": "ontology",
+              "type": "sub_topic",
+              "label": "Victimization",
+              "aliases": [
+                "abused",
+                "targeted",
+                "victimized"
+              ]
+            },
+            "weight": 0.6
+          }
+        ],
+        "core_belief::i_am_out_of_control_4d46341320": [
+          {
+            "relation": "instance_of",
+            "target": {
+              "id": "loss_of_control",
+              "layer": "ontology",
+              "type": "core_belief_cluster",
+              "label": "Loss Of Control",
+              "description": "Belief that urges, emotions, or behavior cannot be contained."
+            },
+            "weight": 0.95
+          }
+        ],
+        "core_belief::i_am_trapped_07290235d1": [
+          {
+            "relation": "instance_of",
+            "target": {
+              "id": "helplessness",
+              "layer": "ontology",
+              "type": "core_belief_cluster",
+              "label": "Helplessness",
+              "description": "Sense of weakness, incompetence, entrapment, or inability to cope."
+            },
+            "weight": 0.95
+          }
+        ],
+        "core_belief::i_am_undesirable_unwanted_c6ea6577ec": [
+          {
+            "relation": "instance_of",
+            "target": {
+              "id": "unlovability",
+              "layer": "ontology",
+              "type": "core_belief_cluster",
+              "label": "Unlovability",
+              "description": "Sense of being rejected, unwanted, alone, or impossible to love."
+            },
+            "weight": 0.95
+          }
+        ],
+        "core_belief::i_am_unlovable_d133e5f46c": [
+          {
+            "relation": "instance_of",
+            "target": {
+              "id": "unlovability",
+              "layer": "ontology",
+              "type": "core_belief_cluster",
+              "label": "Unlovability",
+              "description": "Sense of being rejected, unwanted, alone, or impossible to love."
+            },
+            "weight": 0.95
+          }
+        ],
+        "intermediate_belief::default_helpless_i_m_just_not_very_good_at_handling_stress_a_93e7637f78": [
+          {
+            "relation": "instance_of",
+            "target": {
+              "id": "avoidance_rule",
+              "layer": "ontology",
+              "type": "intermediate_belief_type",
+              "label": "Avoidance Rule",
+              "description": "Rule that avoidance is necessary to stay safe or cope."
+            },
+            "weight": 0.75
+          },
+          {
+            "relation": "instance_of",
+            "target": {
+              "id": "control_rule",
+              "layer": "ontology",
+              "type": "intermediate_belief_type",
+              "label": "Control Rule",
+              "description": "Rule that strict control is necessary to prevent collapse or harm."
+            },
+            "weight": 0.75
+          },
+          {
+            "relation": "instance_of",
+            "target": {
+              "id": "rejection_rule",
+              "layer": "ontology",
+              "type": "intermediate_belief_type",
+              "label": "Rejection Rule",
+              "description": "Conditional belief that authenticity or neediness leads to rejection."
+            },
+            "weight": 0.75
+          }
+        ],
+        "intermediate_belief::depression_helpless_there_s_nothing_i_can_do_to_change_my_si_4d6a6dd515": [
+          {
+            "relation": "instance_of",
+            "target": {
+              "id": "control_rule",
+              "layer": "ontology",
+              "type": "intermediate_belief_type",
+              "label": "Control Rule",
+              "description": "Rule that strict control is necessary to prevent collapse or harm."
+            },
+            "weight": 0.75
+          },
+          {
+            "relation": "instance_of",
+            "target": {
+              "id": "hopelessness_rule",
+              "layer": "ontology",
+              "type": "intermediate_belief_type",
+              "label": "Hopelessness Rule",
+              "description": "Assumption that change is futile or effort will fail."
+            },
+            "weight": 0.75
+          }
+        ],
+        "coping::the_patient_has_adopted_avoidance_as_a_coping_strategy_by_di_b008e93f66": [
+          {
+            "relation": "instance_of",
+            "target": {
+              "id": "activity_scheduling",
+              "layer": "ontology",
+              "type": "coping_type",
+              "label": "Activity Scheduling",
+              "description": "Using structured pleasant or mastery activities adaptively."
+            },
+            "weight": 0.7
+          },
+          {
+            "relation": "instance_of",
+            "target": {
+              "id": "avoidance",
+              "layer": "ontology",
+              "type": "coping_type",
+              "label": "Avoidance",
+              "description": "Staying away from people, places, feelings, or tasks."
+            },
+            "weight": 0.7
+          },
+          {
+            "relation": "instance_of",
+            "target": {
+              "id": "overplanning",
+              "layer": "ontology",
+              "type": "coping_type",
+              "label": "Overplanning",
+              "description": "Relying on planning or preparation to reduce uncertainty."
+            },
+            "weight": 0.7
+          }
+        ],
+        "automatic_thought::it_will_be_stressful_and_negative_people_will_ask_me_questio_053c195a04": [
+          {
+            "relation": "associated_with_topic",
+            "target": {
+              "id": "stress_overload",
+              "layer": "ontology",
+              "type": "sub_topic",
+              "label": "Stress overload",
+              "aliases": [
+                "overwhelmed",
+                "pressure",
+                "stress"
+              ]
+            },
+            "weight": 0.65
+          }
+        ],
+        "emotion::anxious_worried_fearful_scared_tense_9e40a41a9b": [
+          {
+            "relation": "instance_of",
+            "target": {
+              "id": "anxiety",
+              "layer": "ontology",
+              "type": "emotion_cluster",
+              "label": "Anxiety",
+              "description": "Fear, worry, dread, or threat sensitivity."
+            },
+            "weight": 0.8
+          },
+          {
+            "relation": "instance_of",
+            "target": {
+              "id": "fear",
+              "layer": "ontology",
+              "type": "emotion_cluster",
+              "label": "Fear",
+              "description": "Immediate threat, alarm, or acute vulnerability."
+            },
+            "weight": 0.8
+          }
+        ],
+        "emotion::sad_down_lonely_unhappy_d4edca2ce3": [
+          {
+            "relation": "instance_of",
+            "target": {
+              "id": "loneliness",
+              "layer": "ontology",
+              "type": "emotion_cluster",
+              "label": "Loneliness",
+              "description": "Isolation, disconnection, or unmet attachment need."
+            },
+            "weight": 0.8
+          },
+          {
+            "relation": "instance_of",
+            "target": {
+              "id": "sadness",
+              "layer": "ontology",
+              "type": "emotion_cluster",
+              "label": "Sadness",
+              "description": "Loss, grief, low mood, or discouragement."
+            },
+            "weight": 0.8
+          }
+        ],
+        "behavior::ignored_the_invitation_and_did_not_respond_to_the_rsvp_reque_1509a0bbdd": [
+          {
+            "relation": "instance_of",
+            "target": {
+              "id": "isolation",
+              "layer": "ontology",
+              "type": "behavior_pattern",
+              "label": "Isolation",
+              "description": "Reducing contact and closing off from support or closeness."
+            },
+            "weight": 0.7
+          },
+          {
+            "relation": "instance_of",
+            "target": {
+              "id": "social_avoidance",
+              "layer": "ontology",
+              "type": "behavior_pattern",
+              "label": "Social Avoidance",
+              "description": "Avoiding exposure, gatherings, or interpersonal risk."
+            },
+            "weight": 0.7
+          }
+        ]
+      }
+    },
+    {
+      "case_record": {
+        "id": "case::43-2",
+        "type": "case_record",
+        "label": "Skyler 43-2",
+        "layer": "dataset_grounded",
+        "patient_name": "Skyler",
+        "patient_group": "43",
+        "source_dataset": "Patient_Psi_CM_Dataset",
+        "source_case_ids": [
+          "43-2"
+        ],
+        "case_id": "43-2",
+        "style_traits": [
+          "plain",
+          "verbose",
+          "go off on tangents",
+          "hostile",
+          "guarded",
+          "ingratiating"
+        ]
+      },
+      "history": [
+        {
+          "id": "history::the_client_has_had_experiences_of_feeling_unheard_and_emotio_8f786feb19",
+          "type": "history_statement",
+          "label": "The client has had experiences of feeling unheard and emotionally invalidated si",
+          "text": "The client has had experiences of feeling unheard and emotionally invalidated since a young age, such as the recollection of being chastised for crying as a child. They have struggled with depression. Their interactions with Edson and others may have reactivated these historical feelings of invalidation.",
+          "canonical_text": "The client has had experiences of feeling unheard and emotionally invalidated since a young age, such as the recollection of being chastised for crying as a child. They have struggled with depression. Their interactions with Edson and others may have reactivated these historical feelings of invalidation.",
+          "layer": "dataset_grounded",
+          "source_dataset": "Patient_Psi_CM_Dataset",
+          "source_case_ids": [
+            "43-1",
+            "43-2"
+          ]
+        }
+      ],
+      "core_beliefs": [
+        {
+          "id": "core_belief::i_am_bound_to_be_abandoned_c47e7bbed0",
+          "type": "core_belief_statement",
+          "label": "I am bound to be abandoned.",
+          "text": "I am bound to be abandoned.",
+          "canonical_text": "I am bound to be abandoned.",
+          "layer": "dataset_grounded",
+          "source_dataset": "Patient_Psi_CM_Dataset",
+          "source_case_ids": [
+            "10-2",
+            "10-3",
+            "17-1",
+            "17-2",
+            "17-3",
+            "2-1",
+            "2-2",
+            "2-3",
+            "21-1",
+            "21-2",
+            "22-1",
+            "22-2",
+            "23-1",
+            "23-2",
+            "23-3",
+            "24-1",
+            "24-2",
+            "24-3",
+            "27-1",
+            "27-2",
+            "33-1",
+            "33-2",
+            "37-1",
+            "37-2",
+            "4-2",
+            "43-1",
+            "43-2",
+            "45-1",
+            "45-2",
+            "9-1",
+            "9-2",
+            "9-3"
+          ],
+          "belief_family": "unlovable"
+        },
+        {
+          "id": "core_belief::i_am_bound_to_be_alone_88b9395be3",
+          "type": "core_belief_statement",
+          "label": "I am bound to be alone.",
+          "text": "I am bound to be alone.",
+          "canonical_text": "I am bound to be alone.",
+          "layer": "dataset_grounded",
+          "source_dataset": "Patient_Psi_CM_Dataset",
+          "source_case_ids": [
+            "10-2",
+            "10-3",
+            "11-1",
+            "17-1",
+            "17-2",
+            "17-3",
+            "2-1",
+            "2-2",
+            "2-3",
+            "27-2",
+            "29-2",
+            "31-1",
+            "31-2",
+            "33-1",
+            "33-2",
+            "38-1",
+            "38-2",
+            "39-1",
+            "39-2",
+            "43-1",
+            "43-2",
+            "44-1",
+            "44-2",
+            "45-1",
+            "45-2",
+            "8-1",
+            "8-2",
+            "9-1",
+            "9-2",
+            "9-3"
+          ],
+          "belief_family": "unlovable"
+        },
+        {
+          "id": "core_belief::i_am_bound_to_be_rejected_06b26aef64",
+          "type": "core_belief_statement",
+          "label": "I am bound to be rejected.",
+          "text": "I am bound to be rejected.",
+          "canonical_text": "I am bound to be rejected.",
+          "layer": "dataset_grounded",
+          "source_dataset": "Patient_Psi_CM_Dataset",
+          "source_case_ids": [
+            "27-1",
+            "30-1",
+            "30-2",
+            "32-1",
+            "32-2",
+            "34-1",
+            "35-2",
+            "37-1",
+            "37-2",
+            "41-1",
+            "41-2",
+            "43-1",
+            "43-2",
+            "45-1",
+            "45-2",
+            "46-1",
+            "46-2",
+            "47-1",
+            "47-2",
+            "50-1",
+            "50-2"
+          ],
+          "belief_family": "unlovable"
+        },
+        {
+          "id": "core_belief::i_am_undesirable_unwanted_c6ea6577ec",
+          "type": "core_belief_statement",
+          "label": "I am undesirable, unwanted.",
+          "text": "I am undesirable, unwanted.",
+          "canonical_text": "I am undesirable, unwanted.",
+          "layer": "dataset_grounded",
+          "source_dataset": "Patient_Psi_CM_Dataset",
+          "source_case_ids": [
+            "1-1",
+            "11-1",
+            "17-1",
+            "17-2",
+            "17-3",
+            "2-1",
+            "2-2",
+            "2-3",
+            "21-1",
+            "21-2",
+            "24-1",
+            "24-2",
+            "24-3",
+            "29-2",
+            "36-1",
+            "36-2",
+            "4-2",
+            "40-1",
+            "40-2",
+            "40-3",
+            "42-1",
+            "42-2",
+            "43-1",
+            "43-2",
+            "48-1",
+            "48-2",
+            "5-1",
+            "5-2",
+            "9-1",
+            "9-2",
+            "9-3"
+          ],
+          "belief_family": "unlovable"
+        },
+        {
+          "id": "core_belief::i_am_unlovable_d133e5f46c",
+          "type": "core_belief_statement",
+          "label": "I am unlovable.",
+          "text": "I am unlovable.",
+          "canonical_text": "I am unlovable.",
+          "layer": "dataset_grounded",
+          "source_dataset": "Patient_Psi_CM_Dataset",
+          "source_case_ids": [
+            "1-1",
+            "10-2",
+            "10-3",
+            "11-1",
+            "17-1",
+            "17-2",
+            "17-3",
+            "2-1",
+            "2-2",
+            "2-3",
+            "21-1",
+            "21-2",
+            "22-1",
+            "22-2",
+            "23-1",
+            "23-2",
+            "23-3",
+            "26-1",
+            "27-1",
+            "27-2",
+            "30-1",
+            "30-2",
+            "31-1",
+            "32-1",
+            "32-2",
+            "33-1",
+            "33-2",
+            "34-1",
+            "35-2",
+            "36-1",
+            "36-2",
+            "37-1",
+            "37-2",
+            "38-1",
+            "38-2",
+            "39-1",
+            "39-2",
+            "4-2",
+            "40-1",
+            "40-2",
+            "40-3",
+            "41-1",
+            "41-2",
+            "42-1",
+            "42-2",
+            "43-1",
+            "43-2",
+            "44-1",
+            "44-2",
+            "45-1",
+            "45-2",
+            "46-1",
+            "46-2",
+            "47-1",
+            "47-2",
+            "48-1",
+            "48-2",
+            "50-1",
+            "50-2"
+          ],
+          "belief_family": "unlovable"
+        }
+      ],
+      "intermediate_beliefs": [
+        {
+          "id": "intermediate_belief::default_people_will_not_find_me_worth_their_time_if_someone_9eda2313e4",
+          "type": "intermediate_belief_statement",
+          "label": "People will not find me worth their time. If someone does not reach out to me, i",
+          "text": "People will not find me worth their time. If someone does not reach out to me, it means they do not value me. If I am not explicitly included, I am unwanted. My worth is contingent on others' acceptance.",
+          "canonical_text": "People will not find me worth their time. If someone does not reach out to me, it means they do not value me. If I am not explicitly included, I am unwanted. My worth is contingent on others' acceptance.",
+          "layer": "dataset_grounded",
+          "source_dataset": "Patient_Psi_CM_Dataset",
+          "source_case_ids": [
+            "43-1",
+            "43-2"
+          ],
+          "variant": "default"
+        },
+        {
+          "id": "intermediate_belief::depression_when_i_am_depressed_no_one_will_want_to_be_around_004da14f15",
+          "type": "intermediate_belief_statement",
+          "label": "When I am depressed, no one will want to be around me. If I'm not perfect, peopl",
+          "text": "When I am depressed, no one will want to be around me. If I'm not perfect, people will reject me. My value to friends is conditional on my ability to be socially available and upbeat.",
+          "canonical_text": "When I am depressed, no one will want to be around me. If I'm not perfect, people will reject me. My value to friends is conditional on my ability to be socially available and upbeat.",
+          "layer": "dataset_grounded",
+          "source_dataset": "Patient_Psi_CM_Dataset",
+          "source_case_ids": [
+            "43-1",
+            "43-2"
+          ],
+          "variant": "depression"
+        }
+      ],
+      "coping_strategies": [
+        {
+          "id": "coping::the_client_uses_avoidance_like_declining_invitations_or_rebu_a1a5d0250f",
+          "type": "coping_strategy_statement",
+          "label": "The client uses avoidance like declining invitations or rebuffing attempts to in",
+          "text": "The client uses avoidance like declining invitations or rebuffing attempts to interact (such as Edson's dinner invitation) as a protective measure. They seek affirmation from others to combat feelings of rejection but also distance themselves from situations where they could potentially feel hurt.",
+          "canonical_text": "The client uses avoidance like declining invitations or rebuffing attempts to interact (such as Edson's dinner invitation) as a protective measure. They seek affirmation from others to combat feelings of rejection but also distance themselves from situations where they could potentially feel hurt.",
+          "layer": "dataset_grounded",
+          "source_dataset": "Patient_Psi_CM_Dataset",
+          "source_case_ids": [
+            "43-1",
+            "43-2"
+          ]
+        }
+      ],
+      "situation": [
+        {
+          "id": "situation::not_being_invited_by_a_friend_for_a_dinner_with_other_friend_ee7b8f6469",
+          "type": "situation_statement",
+          "label": "Not being invited by a friend for a dinner with other friends.",
+          "text": "Not being invited by a friend for a dinner with other friends.",
+          "canonical_text": "Not being invited by a friend for a dinner with other friends.",
+          "layer": "dataset_grounded",
+          "source_dataset": "Patient_Psi_CM_Dataset",
+          "source_case_ids": [
+            "43-2"
+          ]
+        }
+      ],
+      "automatic_thought": [
+        {
+          "id": "automatic_thought::my_friends_don_t_want_me_around_i_am_forgotten_and_excluded_1c703302b1",
+          "type": "automatic_thought_statement",
+          "label": "My friends don't want me around, I am forgotten and excluded.",
+          "text": "My friends don't want me around, I am forgotten and excluded.",
+          "canonical_text": "My friends don't want me around, I am forgotten and excluded.",
+          "layer": "dataset_grounded",
+          "source_dataset": "Patient_Psi_CM_Dataset",
+          "source_case_ids": [
+            "43-2"
+          ]
+        }
+      ],
+      "emotions": [
+        {
+          "id": "emotion::hurt_7ee201fb09",
+          "type": "emotion_statement",
+          "label": "hurt",
+          "text": "hurt",
+          "canonical_text": "hurt",
+          "layer": "dataset_grounded",
+          "source_dataset": "Patient_Psi_CM_Dataset",
+          "source_case_ids": [
+            "10-2",
+            "17-3",
+            "22-1",
+            "22-2",
+            "23-1",
+            "23-2",
+            "25-3",
+            "27-2",
+            "33-1",
+            "33-2",
+            "38-1",
+            "40-1",
+            "40-2",
+            "40-3",
+            "43-1",
+            "43-2",
+            "44-1",
+            "44-2",
+            "45-2",
+            "48-1",
+            "48-2"
+          ]
+        },
+        {
+          "id": "emotion::sad_down_lonely_unhappy_d4edca2ce3",
+          "type": "emotion_statement",
+          "label": "sad, down, lonely, unhappy",
+          "text": "sad, down, lonely, unhappy",
+          "canonical_text": "sad, down, lonely, unhappy",
+          "layer": "dataset_grounded",
+          "source_dataset": "Patient_Psi_CM_Dataset",
+          "source_case_ids": [
+            "1-1",
+            "10-3",
+            "11-1",
+            "13-1",
+            "15-1",
+            "15-2",
+            "17-1",
+            "17-2",
+            "17-3",
+            "18-1",
+            "18-2",
+            "19-1",
+            "19-2",
+            "20-2",
+            "21-1",
+            "21-2",
+            "23-1",
+            "24-1",
+            "24-3",
+            "25-1",
+            "25-3",
+            "27-1",
+            "28-1",
+            "28-2",
+            "29-2",
+            "3-2",
+            "30-1",
+            "30-2",
+            "31-1",
+            "31-2",
+            "33-1",
+            "33-2",
+            "34-1",
+            "35-2",
+            "36-2",
+            "4-2",
+            "40-1",
+            "42-2",
+            "43-2",
+            "44-1",
+            "46-1",
+            "46-2",
+            "47-2",
+            "48-1",
+            "48-2",
+            "49-2",
+            "50-2",
+            "7-1",
+            "9-1",
+            "9-3"
+          ]
+        }
+      ],
+      "behavior": [
+        {
+          "id": "behavior::expresses_hurt_feelings_to_friend_internalizes_the_situation_b24f8b5480",
+          "type": "behavior_statement",
+          "label": "Expresses hurt feelings to friend, internalizes the situation as a rejection.",
+          "text": "Expresses hurt feelings to friend, internalizes the situation as a rejection.",
+          "canonical_text": "Expresses hurt feelings to friend, internalizes the situation as a rejection.",
+          "layer": "dataset_grounded",
+          "source_dataset": "Patient_Psi_CM_Dataset",
+          "source_case_ids": [
+            "43-2"
+          ]
+        }
+      ],
+      "ontology_links": {
+        "history::the_client_has_had_experiences_of_feeling_unheard_and_emotio_8f786feb19": [
+          {
+            "relation": "associated_with_topic",
+            "target": {
+              "id": "depression_symptoms",
+              "layer": "ontology",
+              "type": "sub_topic",
+              "label": "Depression symptoms",
+              "aliases": [
+                "depressed mood",
+                "depression",
+                "low mood"
+              ]
+            },
+            "weight": 0.6
+          }
+        ],
+        "core_belief::i_am_bound_to_be_abandoned_c47e7bbed0": [
+          {
+            "relation": "instance_of",
+            "target": {
+              "id": "abandonment",
+              "layer": "ontology",
+              "type": "core_belief_cluster",
+              "label": "Abandonment",
+              "description": "Expectation of being left, dropped, or emotionally deserted."
+            },
+            "weight": 0.95
+          }
+        ],
+        "core_belief::i_am_bound_to_be_alone_88b9395be3": [
+          {
+            "relation": "instance_of",
+            "target": {
+              "id": "abandonment",
+              "layer": "ontology",
+              "type": "core_belief_cluster",
+              "label": "Abandonment",
+              "description": "Expectation of being left, dropped, or emotionally deserted."
+            },
+            "weight": 0.95
+          }
+        ],
+        "core_belief::i_am_bound_to_be_rejected_06b26aef64": [
+          {
+            "relation": "instance_of",
+            "target": {
+              "id": "unlovability",
+              "layer": "ontology",
+              "type": "core_belief_cluster",
+              "label": "Unlovability",
+              "description": "Sense of being rejected, unwanted, alone, or impossible to love."
+            },
+            "weight": 0.95
+          }
+        ],
+        "core_belief::i_am_undesirable_unwanted_c6ea6577ec": [
+          {
+            "relation": "instance_of",
+            "target": {
+              "id": "unlovability",
+              "layer": "ontology",
+              "type": "core_belief_cluster",
+              "label": "Unlovability",
+              "description": "Sense of being rejected, unwanted, alone, or impossible to love."
+            },
+            "weight": 0.95
+          }
+        ],
+        "core_belief::i_am_unlovable_d133e5f46c": [
+          {
+            "relation": "instance_of",
+            "target": {
+              "id": "unlovability",
+              "layer": "ontology",
+              "type": "core_belief_cluster",
+              "label": "Unlovability",
+              "description": "Sense of being rejected, unwanted, alone, or impossible to love."
+            },
+            "weight": 0.95
+          }
+        ],
+        "intermediate_belief::depression_when_i_am_depressed_no_one_will_want_to_be_around_004da14f15": [
+          {
+            "relation": "instance_of",
+            "target": {
+              "id": "perfectionism_rule",
+              "layer": "ontology",
+              "type": "intermediate_belief_type",
+              "label": "Perfectionism Rule",
+              "description": "Rule that mistakes or imperfection are intolerable."
+            },
+            "weight": 0.75
+          },
+          {
+            "relation": "instance_of",
+            "target": {
+              "id": "rejection_rule",
+              "layer": "ontology",
+              "type": "intermediate_belief_type",
+              "label": "Rejection Rule",
+              "description": "Conditional belief that authenticity or neediness leads to rejection."
+            },
+            "weight": 0.75
+          }
+        ],
+        "coping::the_client_uses_avoidance_like_declining_invitations_or_rebu_a1a5d0250f": [
+          {
+            "relation": "instance_of",
+            "target": {
+              "id": "avoidance",
+              "layer": "ontology",
+              "type": "coping_type",
+              "label": "Avoidance",
+              "description": "Staying away from people, places, feelings, or tasks."
+            },
+            "weight": 0.7
+          },
+          {
+            "relation": "instance_of",
+            "target": {
+              "id": "withdrawal",
+              "layer": "ontology",
+              "type": "coping_type",
+              "label": "Withdrawal",
+              "description": "Pulling back from contact, support, or engagement."
+            },
+            "weight": 0.7
+          }
+        ],
+        "emotion::sad_down_lonely_unhappy_d4edca2ce3": [
+          {
+            "relation": "instance_of",
+            "target": {
+              "id": "loneliness",
+              "layer": "ontology",
+              "type": "emotion_cluster",
+              "label": "Loneliness",
+              "description": "Isolation, disconnection, or unmet attachment need."
+            },
+            "weight": 0.8
+          },
+          {
+            "relation": "instance_of",
+            "target": {
+              "id": "sadness",
+              "layer": "ontology",
+              "type": "emotion_cluster",
+              "label": "Sadness",
+              "description": "Loss, grief, low mood, or discouragement."
+            },
+            "weight": 0.8
+          }
+        ]
+      }
+    },
+    {
+      "case_record": {
+        "id": "case::32-1",
+        "type": "case_record",
+        "label": "Leo 32-1",
+        "layer": "dataset_grounded",
+        "patient_name": "Leo",
+        "patient_group": "32",
+        "source_dataset": "Patient_Psi_CM_Dataset",
+        "source_case_ids": [
+          "32-1"
+        ],
+        "case_id": "32-1",
+        "style_traits": [
+          "plain",
+          "verbose",
+          "go off on tangents",
+          "hostile",
+          "guarded",
+          "ingratiating"
+        ]
+      },
+      "history": [
+        {
+          "id": "history::the_client_has_a_history_of_complicated_family_dynamics_and_d62252b85b",
+          "type": "history_statement",
+          "label": "The client has a history of complicated family dynamics and struggles with relat",
+          "text": "The client has a history of complicated family dynamics and struggles with relationships within his family. He expresses feelings of disconnection and discomfort around his parents and feels slighted or judged by them, leading to detachment. Past issues related to his mother's illness and his parents' support of his education have generated feelings of guilt and frustration. The client also hints at possible issues with his mother's behavior towards him and possibly others (mentions of her being 'broken' and a past affair).",
+          "canonical_text": "The client has a history of complicated family dynamics and struggles with relationships within his family. He expresses feelings of disconnection and discomfort around his parents and feels slighted or judged by them, leading to detachment. Past issues related to his mother's illness and his parents' support of his education have generated feelings of guilt and frustration. The client also hints at possible issues with his mother's behavior towards him and possibly others (mentions of her being 'broken' and a past affair).",
+          "layer": "dataset_grounded",
+          "source_dataset": "Patient_Psi_CM_Dataset",
+          "source_case_ids": [
+            "32-1",
+            "32-2"
+          ]
+        }
+      ],
+      "core_beliefs": [
+        {
+          "id": "core_belief::i_am_a_failure_loser_dc50baadc3",
+          "type": "core_belief_statement",
+          "label": "I am a failure, loser.",
+          "text": "I am a failure, loser.",
+          "canonical_text": "I am a failure, loser.",
+          "layer": "dataset_grounded",
+          "source_dataset": "Patient_Psi_CM_Dataset",
+          "source_case_ids": [
+            "12-1",
+            "12-2",
+            "14-1",
+            "14-2",
+            "16-1",
+            "16-2",
+            "18-1",
+            "18-2",
+            "19-1",
+            "19-2",
+            "24-1",
+            "24-2",
+            "24-3",
+            "25-1",
+            "25-2",
+            "25-3",
+            "28-1",
+            "28-2",
+            "3-1",
+            "3-2",
+            "32-1",
+            "32-2",
+            "42-1",
+            "42-2",
+            "6-1",
+            "6-2"
+          ],
+          "belief_family": "helpless"
+        },
+        {
+          "id": "core_belief::i_am_bound_to_be_rejected_06b26aef64",
+          "type": "core_belief_statement",
+          "label": "I am bound to be rejected.",
+          "text": "I am bound to be rejected.",
+          "canonical_text": "I am bound to be rejected.",
+          "layer": "dataset_grounded",
+          "source_dataset": "Patient_Psi_CM_Dataset",
+          "source_case_ids": [
+            "27-1",
+            "30-1",
+            "30-2",
+            "32-1",
+            "32-2",
+            "34-1",
+            "35-2",
+            "37-1",
+            "37-2",
+            "41-1",
+            "41-2",
+            "43-1",
+            "43-2",
+            "45-1",
+            "45-2",
+            "46-1",
+            "46-2",
+            "47-1",
+            "47-2",
+            "50-1",
+            "50-2"
+          ],
+          "belief_family": "unlovable"
+        },
+        {
+          "id": "core_belief::i_am_unlovable_d133e5f46c",
+          "type": "core_belief_statement",
+          "label": "I am unlovable.",
+          "text": "I am unlovable.",
+          "canonical_text": "I am unlovable.",
+          "layer": "dataset_grounded",
+          "source_dataset": "Patient_Psi_CM_Dataset",
+          "source_case_ids": [
+            "1-1",
+            "10-2",
+            "10-3",
+            "11-1",
+            "17-1",
+            "17-2",
+            "17-3",
+            "2-1",
+            "2-2",
+            "2-3",
+            "21-1",
+            "21-2",
+            "22-1",
+            "22-2",
+            "23-1",
+            "23-2",
+            "23-3",
+            "26-1",
+            "27-1",
+            "27-2",
+            "30-1",
+            "30-2",
+            "31-1",
+            "32-1",
+            "32-2",
+            "33-1",
+            "33-2",
+            "34-1",
+            "35-2",
+            "36-1",
+            "36-2",
+            "37-1",
+            "37-2",
+            "38-1",
+            "38-2",
+            "39-1",
+            "39-2",
+            "4-2",
+            "40-1",
+            "40-2",
+            "40-3",
+            "41-1",
+            "41-2",
+            "42-1",
+            "42-2",
+            "43-1",
+            "43-2",
+            "44-1",
+            "44-2",
+            "45-1",
+            "45-2",
+            "46-1",
+            "46-2",
+            "47-1",
+            "47-2",
+            "48-1",
+            "48-2",
+            "50-1",
+            "50-2"
+          ],
+          "belief_family": "unlovable"
+        },
+        {
+          "id": "core_belief::i_am_worthless_waste_ede962d33c",
+          "type": "core_belief_statement",
+          "label": "I am worthless, waste.",
+          "text": "I am worthless, waste.",
+          "canonical_text": "I am worthless, waste.",
+          "layer": "dataset_grounded",
+          "source_dataset": "Patient_Psi_CM_Dataset",
+          "source_case_ids": [
+            "13-1",
+            "13-2",
+            "15-1",
+            "15-2",
+            "18-1",
+            "18-2",
+            "29-1",
+            "32-1",
+            "32-2",
+            "5-1",
+            "5-2",
+            "7-1",
+            "7-2"
+          ],
+          "belief_family": "worthless"
+        }
+      ],
+      "intermediate_beliefs": [
+        {
+          "id": "intermediate_belief::default_i_must_be_acknowledged_and_recognized_by_my_parents_5642d80f0b",
+          "type": "intermediate_belief_statement",
+          "label": "I must be acknowledged and recognized by my parents to demonstrate my worth. [du",
+          "text": "I must be acknowledged and recognized by my parents to demonstrate my worth. [during depression] My parents see me as incompetent and a failure. My accomplishments can never get acknowledged by them, therefore I'm worthless and failing.",
+          "canonical_text": "I must be acknowledged and recognized by my parents to demonstrate my worth. [during depression] My parents see me as incompetent and a failure. My accomplishments can never get acknowledged by them, therefore I'm worthless and failing.",
+          "layer": "dataset_grounded",
+          "source_dataset": "Patient_Psi_CM_Dataset",
+          "source_case_ids": [
+            "32-1",
+            "32-2"
+          ],
+          "variant": "default"
+        }
+      ],
+      "coping_strategies": [
+        {
+          "id": "coping::the_client_copes_by_detaching_from_his_family_cutting_off_re_71d832958b",
+          "type": "coping_strategy_statement",
+          "label": "The client copes by detaching from his family, cutting off relationships when fe",
+          "text": "The client copes by detaching from his family, cutting off relationships when feeling slighted, and trying to maintain control over his life and interactions. He also has a tendency to 'test' relationships through causing hurt, to validate his personal significance and the authenticity of the connection.",
+          "canonical_text": "The client copes by detaching from his family, cutting off relationships when feeling slighted, and trying to maintain control over his life and interactions. He also has a tendency to 'test' relationships through causing hurt, to validate his personal significance and the authenticity of the connection.",
+          "layer": "dataset_grounded",
+          "source_dataset": "Patient_Psi_CM_Dataset",
+          "source_case_ids": [
+            "32-1",
+            "32-2"
+          ]
+        }
+      ],
+      "situation": [
+        {
+          "id": "situation::visiting_his_parents_for_a_father_s_day_family_gathering_ove_18fa727867",
+          "type": "situation_statement",
+          "label": "Visiting his parents for a Father's Day family gathering over lunch.",
+          "text": "Visiting his parents for a Father's Day family gathering over lunch.",
+          "canonical_text": "Visiting his parents for a Father's Day family gathering over lunch.",
+          "layer": "dataset_grounded",
+          "source_dataset": "Patient_Psi_CM_Dataset",
+          "source_case_ids": [
+            "32-1"
+          ]
+        }
+      ],
+      "automatic_thought": [
+        {
+          "id": "automatic_thought::family_interactions_will_inevitably_lead_to_judgment_any_eng_741e55b583",
+          "type": "automatic_thought_statement",
+          "label": "Family interactions will inevitably lead to judgment; any engagement with family",
+          "text": "Family interactions will inevitably lead to judgment; any engagement with family members will be uncomfortable; they will belittle me.",
+          "canonical_text": "Family interactions will inevitably lead to judgment; any engagement with family members will be uncomfortable; they will belittle me.",
+          "layer": "dataset_grounded",
+          "source_dataset": "Patient_Psi_CM_Dataset",
+          "source_case_ids": [
+            "32-1"
+          ]
+        }
+      ],
+      "emotions": [
+        {
+          "id": "emotion::anxious_worried_fearful_scared_tense_9e40a41a9b",
+          "type": "emotion_statement",
+          "label": "anxious, worried, fearful, scared, tense",
+          "text": "anxious, worried, fearful, scared, tense",
+          "canonical_text": "anxious, worried, fearful, scared, tense",
+          "layer": "dataset_grounded",
+          "source_dataset": "Patient_Psi_CM_Dataset",
+          "source_case_ids": [
+            "1-1",
+            "1-2",
+            "10-1",
+            "10-3",
+            "12-1",
+            "12-2",
+            "13-2",
+            "14-1",
+            "14-2",
+            "16-1",
+            "16-2",
+            "17-1",
+            "17-2",
+            "19-1",
+            "19-2",
+            "2-1",
+            "2-2",
+            "2-3",
+            "20-1",
+            "20-2",
+            "21-1",
+            "21-2",
+            "23-2",
+            "23-3",
+            "24-1",
+            "24-2",
+            "24-3",
+            "26-1",
+            "27-1",
+            "28-1",
+            "29-1",
+            "3-1",
+            "3-2",
+            "31-1",
+            "31-2",
+            "32-1",
+            "32-2",
+            "36-1",
+            "38-2",
+            "39-1",
+            "39-2",
+            "4-1",
+            "4-2",
+            "40-2",
+            "41-1",
+            "41-2",
+            "42-1",
+            "45-1",
+            "46-1",
+            "47-1",
+            "49-1",
+            "5-1",
+            "5-2",
+            "50-1",
+            "50-2",
+            "6-2",
+            "7-2",
+            "8-1",
+            "8-2",
+            "9-1"
+          ]
+        },
+        {
+          "id": "emotion::disappointed_7469961612",
+          "type": "emotion_statement",
+          "label": "disappointed",
+          "text": "disappointed",
+          "canonical_text": "disappointed",
+          "layer": "dataset_grounded",
+          "source_dataset": "Patient_Psi_CM_Dataset",
+          "source_case_ids": [
+            "11-1",
+            "11-2",
+            "12-1",
+            "12-2",
+            "15-1",
+            "15-2",
+            "17-1",
+            "17-3",
+            "22-1",
+            "22-2",
+            "25-2",
+            "27-1",
+            "28-2",
+            "32-1",
+            "32-2",
+            "43-1",
+            "44-2",
+            "47-2",
+            "7-1"
+          ]
+        }
+      ],
+      "behavior": [
+        {
+          "id": "behavior::tries_to_think_of_excuses_to_not_show_up_purposefully_ignore_84329c190d",
+          "type": "behavior_statement",
+          "label": "Tries to think of excuses to not show up; purposefully ignores texts from family",
+          "text": "Tries to think of excuses to not show up; purposefully ignores texts from family about the gathering.",
+          "canonical_text": "Tries to think of excuses to not show up; purposefully ignores texts from family about the gathering.",
+          "layer": "dataset_grounded",
+          "source_dataset": "Patient_Psi_CM_Dataset",
+          "source_case_ids": [
+            "32-1"
+          ]
+        }
+      ],
+      "ontology_links": {
+        "history::the_client_has_a_history_of_complicated_family_dynamics_and_d62252b85b": [
+          {
+            "relation": "associated_with_topic",
+            "target": {
+              "id": "defectiveness_theme",
+              "layer": "ontology",
+              "type": "sub_topic",
+              "label": "Defectiveness theme",
+              "aliases": [
+                "broken",
+                "defective"
+              ]
+            },
+            "weight": 0.6
+          },
+          {
+            "relation": "associated_with_topic",
+            "target": {
+              "id": "medical_illness",
+              "layer": "ontology",
+              "type": "sub_topic",
+              "label": "Medical illness",
+              "aliases": [
+                "illness",
+                "medical condition"
+              ]
+            },
+            "weight": 0.6
+          }
+        ],
+        "core_belief::i_am_a_failure_loser_dc50baadc3": [
+          {
+            "relation": "instance_of",
+            "target": {
+              "id": "failure_identity",
+              "layer": "ontology",
+              "type": "core_belief_cluster",
+              "label": "Failure Identity",
+              "description": "Identity-level conviction of being a failure or loser."
+            },
+            "weight": 0.95
+          }
+        ],
+        "core_belief::i_am_bound_to_be_rejected_06b26aef64": [
+          {
+            "relation": "instance_of",
+            "target": {
+              "id": "unlovability",
+              "layer": "ontology",
+              "type": "core_belief_cluster",
+              "label": "Unlovability",
+              "description": "Sense of being rejected, unwanted, alone, or impossible to love."
+            },
+            "weight": 0.95
+          }
+        ],
+        "core_belief::i_am_unlovable_d133e5f46c": [
+          {
+            "relation": "instance_of",
+            "target": {
+              "id": "unlovability",
+              "layer": "ontology",
+              "type": "core_belief_cluster",
+              "label": "Unlovability",
+              "description": "Sense of being rejected, unwanted, alone, or impossible to love."
+            },
+            "weight": 0.95
+          }
+        ],
+        "core_belief::i_am_worthless_waste_ede962d33c": [
+          {
+            "relation": "instance_of",
+            "target": {
+              "id": "worthlessness",
+              "layer": "ontology",
+              "type": "core_belief_cluster",
+              "label": "Worthlessness",
+              "description": "Sense of having no value, goodness, or right to matter."
+            },
+            "weight": 0.95
+          }
+        ],
+        "intermediate_belief::default_i_must_be_acknowledged_and_recognized_by_my_parents_5642d80f0b": [
+          {
+            "relation": "instance_of",
+            "target": {
+              "id": "perfectionism_rule",
+              "layer": "ontology",
+              "type": "intermediate_belief_type",
+              "label": "Perfectionism Rule",
+              "description": "Rule that mistakes or imperfection are intolerable."
+            },
+            "weight": 0.75
+          }
+        ],
+        "coping::the_client_copes_by_detaching_from_his_family_cutting_off_re_71d832958b": [
+          {
+            "relation": "instance_of",
+            "target": {
+              "id": "substance_use_coping",
+              "layer": "ontology",
+              "type": "coping_type",
+              "label": "Substance Use Coping",
+              "description": "Using substances to alter mood, avoid pain, or escape."
+            },
+            "weight": 0.7
+          }
+        ],
+        "emotion::anxious_worried_fearful_scared_tense_9e40a41a9b": [
+          {
+            "relation": "instance_of",
+            "target": {
+              "id": "anxiety",
+              "layer": "ontology",
+              "type": "emotion_cluster",
+              "label": "Anxiety",
+              "description": "Fear, worry, dread, or threat sensitivity."
+            },
+            "weight": 0.8
+          },
+          {
+            "relation": "instance_of",
+            "target": {
+              "id": "fear",
+              "layer": "ontology",
+              "type": "emotion_cluster",
+              "label": "Fear",
+              "description": "Immediate threat, alarm, or acute vulnerability."
+            },
+            "weight": 0.8
+          }
+        ]
+      }
+    },
+    {
+      "case_record": {
+        "id": "case::24-1",
+        "type": "case_record",
+        "label": "Evan 24-1",
+        "layer": "dataset_grounded",
+        "patient_name": "Evan",
+        "patient_group": "24",
+        "source_dataset": "Patient_Psi_CM_Dataset",
+        "source_case_ids": [
+          "24-1"
+        ],
+        "case_id": "24-1",
+        "style_traits": [
+          "plain",
+          "verbose",
+          "go off on tangents",
+          "hostile",
+          "guarded"
+        ]
+      },
+      "history": [
+        {
+          "id": "history::the_patient_has_a_history_of_experiencing_feelings_of_inadeq_3c48946e59",
+          "type": "history_statement",
+          "label": "The patient has a history of experiencing feelings of inadequacy, performance pr",
+          "text": "The patient has a history of experiencing feelings of inadequacy, performance pressure, and social disappointment. He recalls past instances where he tried to put on a performance to meet others' expectations and hide his vulnerability. He recently encountered an incident that caused one of his businesses to fail, which resulted in financial difficulty.",
+          "canonical_text": "The patient has a history of experiencing feelings of inadequacy, performance pressure, and social disappointment. He recalls past instances where he tried to put on a performance to meet others' expectations and hide his vulnerability. He recently encountered an incident that caused one of his businesses to fail, which resulted in financial difficulty.",
+          "layer": "dataset_grounded",
+          "source_dataset": "Patient_Psi_CM_Dataset",
+          "source_case_ids": [
+            "24-1",
+            "24-2",
+            "24-3"
+          ]
+        }
+      ],
+      "core_beliefs": [
+        {
+          "id": "core_belief::i_am_a_failure_loser_dc50baadc3",
+          "type": "core_belief_statement",
+          "label": "I am a failure, loser.",
+          "text": "I am a failure, loser.",
+          "canonical_text": "I am a failure, loser.",
+          "layer": "dataset_grounded",
+          "source_dataset": "Patient_Psi_CM_Dataset",
+          "source_case_ids": [
+            "12-1",
+            "12-2",
+            "14-1",
+            "14-2",
+            "16-1",
+            "16-2",
+            "18-1",
+            "18-2",
+            "19-1",
+            "19-2",
+            "24-1",
+            "24-2",
+            "24-3",
+            "25-1",
+            "25-2",
+            "25-3",
+            "28-1",
+            "28-2",
+            "3-1",
+            "3-2",
+            "32-1",
+            "32-2",
+            "42-1",
+            "42-2",
+            "6-1",
+            "6-2"
+          ],
+          "belief_family": "helpless"
+        },
+        {
+          "id": "core_belief::i_am_bound_to_be_abandoned_c47e7bbed0",
+          "type": "core_belief_statement",
+          "label": "I am bound to be abandoned.",
+          "text": "I am bound to be abandoned.",
+          "canonical_text": "I am bound to be abandoned.",
+          "layer": "dataset_grounded",
+          "source_dataset": "Patient_Psi_CM_Dataset",
+          "source_case_ids": [
+            "10-2",
+            "10-3",
+            "17-1",
+            "17-2",
+            "17-3",
+            "2-1",
+            "2-2",
+            "2-3",
+            "21-1",
+            "21-2",
+            "22-1",
+            "22-2",
+            "23-1",
+            "23-2",
+            "23-3",
+            "24-1",
+            "24-2",
+            "24-3",
+            "27-1",
+            "27-2",
+            "33-1",
+            "33-2",
+            "37-1",
+            "37-2",
+            "4-2",
+            "43-1",
+            "43-2",
+            "45-1",
+            "45-2",
+            "9-1",
+            "9-2",
+            "9-3"
+          ],
+          "belief_family": "unlovable"
+        },
+        {
+          "id": "core_belief::i_am_helpless_baffbe080a",
+          "type": "core_belief_statement",
+          "label": "I am helpless.",
+          "text": "I am helpless.",
+          "canonical_text": "I am helpless.",
+          "layer": "dataset_grounded",
+          "source_dataset": "Patient_Psi_CM_Dataset",
+          "source_case_ids": [
+            "10-1",
+            "10-2",
+            "10-3",
+            "11-1",
+            "11-2",
+            "12-1",
+            "12-2",
+            "14-1",
+            "14-2",
+            "15-1",
+            "15-2",
+            "18-1",
+            "18-2",
+            "19-1",
+            "19-2",
+            "20-1",
+            "20-2",
+            "21-1",
+            "21-2",
+            "22-1",
+            "22-2",
+            "23-1",
+            "23-2",
+            "23-3",
+            "24-1",
+            "24-2",
+            "24-3",
+            "26-1",
+            "27-1",
+            "27-2",
+            "3-1",
+            "30-1",
+            "30-2",
+            "31-1",
+            "31-2",
+            "38-1",
+            "38-2",
+            "4-1",
+            "4-2",
+            "41-1",
+            "41-2",
+            "44-1",
+            "44-2",
+            "50-1",
+            "50-2",
+            "6-1",
+            "6-2"
+          ],
+          "belief_family": "helpless"
+        },
+        {
+          "id": "core_belief::i_am_incompetent_cc689f4426",
+          "type": "core_belief_statement",
+          "label": "I am incompetent.",
+          "text": "I am incompetent.",
+          "canonical_text": "I am incompetent.",
+          "layer": "dataset_grounded",
+          "source_dataset": "Patient_Psi_CM_Dataset",
+          "source_case_ids": [
+            "10-1",
+            "11-1",
+            "11-2",
+            "12-1",
+            "12-2",
+            "14-1",
+            "14-2",
+            "15-1",
+            "15-2",
+            "16-1",
+            "16-2",
+            "18-1",
+            "18-2",
+            "19-1",
+            "19-2",
+            "20-1",
+            "20-2",
+            "24-1",
+            "24-2",
+            "24-3",
+            "25-1",
+            "25-2",
+            "25-3",
+            "27-1",
+            "28-1",
+            "28-2",
+            "3-1",
+            "3-2",
+            "40-1",
+            "40-2",
+            "40-3",
+            "41-1",
+            "41-2",
+            "42-1",
+            "42-2",
+            "47-1",
+            "47-2",
+            "6-1",
+            "6-2",
+            "9-1"
+          ],
+          "belief_family": "helpless"
+        },
+        {
+          "id": "core_belief::i_am_powerless_weak_vulnerable_8f54a79a9f",
+          "type": "core_belief_statement",
+          "label": "I am powerless, weak, vulnerable.",
+          "text": "I am powerless, weak, vulnerable.",
+          "canonical_text": "I am powerless, weak, vulnerable.",
+          "layer": "dataset_grounded",
+          "source_dataset": "Patient_Psi_CM_Dataset",
+          "source_case_ids": [
+            "10-1",
+            "11-1",
+            "11-2",
+            "17-1",
+            "17-2",
+            "17-3",
+            "2-1",
+            "2-3",
+            "20-1",
+            "20-2",
+            "21-1",
+            "21-2",
+            "23-1",
+            "23-2",
+            "23-3",
+            "24-1",
+            "24-2",
+            "24-3",
+            "25-1",
+            "25-2",
+            "25-3",
+            "26-1",
+            "27-1",
+            "27-2",
+            "28-1",
+            "28-2",
+            "29-1",
+            "29-2",
+            "30-1",
+            "30-2",
+            "31-1",
+            "31-2",
+            "34-1",
+            "35-2",
+            "39-1",
+            "39-2",
+            "4-1",
+            "4-2",
+            "44-1",
+            "44-2",
+            "45-1",
+            "45-2",
+            "46-1",
+            "46-2",
+            "49-1",
+            "49-2",
+            "8-1",
+            "8-2"
+          ],
+          "belief_family": "helpless"
+        },
+        {
+          "id": "core_belief::i_am_undesirable_unwanted_c6ea6577ec",
+          "type": "core_belief_statement",
+          "label": "I am undesirable, unwanted.",
+          "text": "I am undesirable, unwanted.",
+          "canonical_text": "I am undesirable, unwanted.",
+          "layer": "dataset_grounded",
+          "source_dataset": "Patient_Psi_CM_Dataset",
+          "source_case_ids": [
+            "1-1",
+            "11-1",
+            "17-1",
+            "17-2",
+            "17-3",
+            "2-1",
+            "2-2",
+            "2-3",
+            "21-1",
+            "21-2",
+            "24-1",
+            "24-2",
+            "24-3",
+            "29-2",
+            "36-1",
+            "36-2",
+            "4-2",
+            "40-1",
+            "40-2",
+            "40-3",
+            "42-1",
+            "42-2",
+            "43-1",
+            "43-2",
+            "48-1",
+            "48-2",
+            "5-1",
+            "5-2",
+            "9-1",
+            "9-2",
+            "9-3"
+          ],
+          "belief_family": "unlovable"
+        }
+      ],
+      "intermediate_beliefs": [
+        {
+          "id": "intermediate_belief::default_i_must_meet_others_expectations_expressing_weaknesse_f9a55ef0cb",
+          "type": "intermediate_belief_statement",
+          "label": "I must meet others' expectations. Expressing weaknesses or asking for help is fr",
+          "text": "I must meet others' expectations. Expressing weaknesses or asking for help is frowned upon and not beneficial. I need to have a facade of control or a performance to be accepted or to interact socially. Discussing problems is pointless and signs of weakness must be hidden, otherwise nobody likes me and I will be abandoned.",
+          "canonical_text": "I must meet others' expectations. Expressing weaknesses or asking for help is frowned upon and not beneficial. I need to have a facade of control or a performance to be accepted or to interact socially. Discussing problems is pointless and signs of weakness must be hidden, otherwise nobody likes me and I will be abandoned.",
+          "layer": "dataset_grounded",
+          "source_dataset": "Patient_Psi_CM_Dataset",
+          "source_case_ids": [
+            "24-1",
+            "24-2",
+            "24-3"
+          ],
+          "variant": "default"
+        },
+        {
+          "id": "intermediate_belief::depression_if_i_m_failing_to_meet_expectations_or_showing_my_cad039e4ec",
+          "type": "intermediate_belief_statement",
+          "label": "If I'm failing to meet expectations, or showing my vulnerability and weakeness, ",
+          "text": "If I'm failing to meet expectations, or showing my vulnerability and weakeness, people will know I'm just a weak person and a failure. I will eventually be unwanted and abandoned.",
+          "canonical_text": "If I'm failing to meet expectations, or showing my vulnerability and weakeness, people will know I'm just a weak person and a failure. I will eventually be unwanted and abandoned.",
+          "layer": "dataset_grounded",
+          "source_dataset": "Patient_Psi_CM_Dataset",
+          "source_case_ids": [
+            "24-1",
+            "24-2",
+            "24-3"
+          ],
+          "variant": "depression"
+        }
+      ],
+      "coping_strategies": [
+        {
+          "id": "coping::the_patient_uses_avoidance_e_g_not_attending_gatherings_supp_fdebcd55cf",
+          "type": "coping_strategy_statement",
+          "label": "The patient uses avoidance (e.g., not attending gatherings), suppression of emot",
+          "text": "The patient uses avoidance (e.g., not attending gatherings), suppression of emotions, and intellectualization as coping methods. He also engages in counterproductive self-talk, pseudo-performances in social interactions, and rationalization to avoid showing vulnerability. He also uses grandiosity and masculinity to cover up his insecurities.",
+          "canonical_text": "The patient uses avoidance (e.g., not attending gatherings), suppression of emotions, and intellectualization as coping methods. He also engages in counterproductive self-talk, pseudo-performances in social interactions, and rationalization to avoid showing vulnerability. He also uses grandiosity and masculinity to cover up his insecurities.",
+          "layer": "dataset_grounded",
+          "source_dataset": "Patient_Psi_CM_Dataset",
+          "source_case_ids": [
+            "24-1",
+            "24-2",
+            "24-3"
+          ]
+        }
+      ],
+      "situation": [
+        {
+          "id": "situation::being_invited_to_visit_his_sister_but_currently_being_financ_498dd862cd",
+          "type": "situation_statement",
+          "label": "Being invited to visit his sister but currently being financially unstable.",
+          "text": "Being invited to visit his sister but currently being financially unstable.",
+          "canonical_text": "Being invited to visit his sister but currently being financially unstable.",
+          "layer": "dataset_grounded",
+          "source_dataset": "Patient_Psi_CM_Dataset",
+          "source_case_ids": [
+            "24-1"
+          ]
+        }
+      ],
+      "automatic_thought": [
+        {
+          "id": "automatic_thought::i_can_t_afford_it_and_it_would_be_admitting_weakness_to_tell_9d35853c4a",
+          "type": "automatic_thought_statement",
+          "label": "I can't afford it, and it would be admitting weakness to tell the truth. Going w",
+          "text": "I can't afford it, and it would be admitting weakness to tell the truth. Going would show support but it's just too stressful for me. I can't let them know I don't have enough money.",
+          "canonical_text": "I can't afford it, and it would be admitting weakness to tell the truth. Going would show support but it's just too stressful for me. I can't let them know I don't have enough money.",
+          "layer": "dataset_grounded",
+          "source_dataset": "Patient_Psi_CM_Dataset",
+          "source_case_ids": [
+            "24-1"
+          ]
+        }
+      ],
+      "emotions": [
+        {
+          "id": "emotion::anxious_worried_fearful_scared_tense_9e40a41a9b",
+          "type": "emotion_statement",
+          "label": "anxious, worried, fearful, scared, tense",
+          "text": "anxious, worried, fearful, scared, tense",
+          "canonical_text": "anxious, worried, fearful, scared, tense",
+          "layer": "dataset_grounded",
+          "source_dataset": "Patient_Psi_CM_Dataset",
+          "source_case_ids": [
+            "1-1",
+            "1-2",
+            "10-1",
+            "10-3",
+            "12-1",
+            "12-2",
+            "13-2",
+            "14-1",
+            "14-2",
+            "16-1",
+            "16-2",
+            "17-1",
+            "17-2",
+            "19-1",
+            "19-2",
+            "2-1",
+            "2-2",
+            "2-3",
+            "20-1",
+            "20-2",
+            "21-1",
+            "21-2",
+            "23-2",
+            "23-3",
+            "24-1",
+            "24-2",
+            "24-3",
+            "26-1",
+            "27-1",
+            "28-1",
+            "29-1",
+            "3-1",
+            "3-2",
+            "31-1",
+            "31-2",
+            "32-1",
+            "32-2",
+            "36-1",
+            "38-2",
+            "39-1",
+            "39-2",
+            "4-1",
+            "4-2",
+            "40-2",
+            "41-1",
+            "41-2",
+            "42-1",
+            "45-1",
+            "46-1",
+            "47-1",
+            "49-1",
+            "5-1",
+            "5-2",
+            "50-1",
+            "50-2",
+            "6-2",
+            "7-2",
+            "8-1",
+            "8-2",
+            "9-1"
+          ]
+        },
+        {
+          "id": "emotion::sad_down_lonely_unhappy_d4edca2ce3",
+          "type": "emotion_statement",
+          "label": "sad, down, lonely, unhappy",
+          "text": "sad, down, lonely, unhappy",
+          "canonical_text": "sad, down, lonely, unhappy",
+          "layer": "dataset_grounded",
+          "source_dataset": "Patient_Psi_CM_Dataset",
+          "source_case_ids": [
+            "1-1",
+            "10-3",
+            "11-1",
+            "13-1",
+            "15-1",
+            "15-2",
+            "17-1",
+            "17-2",
+            "17-3",
+            "18-1",
+            "18-2",
+            "19-1",
+            "19-2",
+            "20-2",
+            "21-1",
+            "21-2",
+            "23-1",
+            "24-1",
+            "24-3",
+            "25-1",
+            "25-3",
+            "27-1",
+            "28-1",
+            "28-2",
+            "29-2",
+            "3-2",
+            "30-1",
+            "30-2",
+            "31-1",
+            "31-2",
+            "33-1",
+            "33-2",
+            "34-1",
+            "35-2",
+            "36-2",
+            "4-2",
+            "40-1",
+            "42-2",
+            "43-2",
+            "44-1",
+            "46-1",
+            "46-2",
+            "47-2",
+            "48-1",
+            "48-2",
+            "49-2",
+            "50-2",
+            "7-1",
+            "9-1",
+            "9-3"
+          ]
+        }
+      ],
+      "behavior": [
+        {
+          "id": "behavior::declines_sister_s_invitation_and_lies_to_her_about_the_reaso_6a658293ee",
+          "type": "behavior_statement",
+          "label": "Declines sister's invitation and lies to her about the reason, ruminates on fina",
+          "text": "Declines sister's invitation and lies to her about the reason, ruminates on financial instability. Lies about purchasing a designer watch to family, to cover up his financial issues.",
+          "canonical_text": "Declines sister's invitation and lies to her about the reason, ruminates on financial instability. Lies about purchasing a designer watch to family, to cover up his financial issues.",
+          "layer": "dataset_grounded",
+          "source_dataset": "Patient_Psi_CM_Dataset",
+          "source_case_ids": [
+            "24-1"
+          ]
+        }
+      ],
+      "ontology_links": {
+        "history::the_patient_has_a_history_of_experiencing_feelings_of_inadeq_3c48946e59": [
+          {
+            "relation": "associated_with_topic",
+            "target": {
+              "id": "performance_pressure",
+              "layer": "ontology",
+              "type": "sub_topic",
+              "label": "Performance pressure",
+              "aliases": [
+                "academic pressure",
+                "pressure to perform"
+              ]
+            },
+            "weight": 0.6
+          },
+          {
+            "relation": "associated_with_topic",
+            "target": {
+              "id": "stress_overload",
+              "layer": "ontology",
+              "type": "sub_topic",
+              "label": "Stress overload",
+              "aliases": [
+                "overwhelmed",
+                "pressure",
+                "stress"
+              ]
+            },
+            "weight": 0.6
+          }
+        ],
+        "core_belief::i_am_a_failure_loser_dc50baadc3": [
+          {
+            "relation": "instance_of",
+            "target": {
+              "id": "failure_identity",
+              "layer": "ontology",
+              "type": "core_belief_cluster",
+              "label": "Failure Identity",
+              "description": "Identity-level conviction of being a failure or loser."
+            },
+            "weight": 0.95
+          }
+        ],
+        "core_belief::i_am_bound_to_be_abandoned_c47e7bbed0": [
+          {
+            "relation": "instance_of",
+            "target": {
+              "id": "abandonment",
+              "layer": "ontology",
+              "type": "core_belief_cluster",
+              "label": "Abandonment",
+              "description": "Expectation of being left, dropped, or emotionally deserted."
+            },
+            "weight": 0.95
+          }
+        ],
+        "core_belief::i_am_helpless_baffbe080a": [
+          {
+            "relation": "instance_of",
+            "target": {
+              "id": "helplessness",
+              "layer": "ontology",
+              "type": "core_belief_cluster",
+              "label": "Helplessness",
+              "description": "Sense of weakness, incompetence, entrapment, or inability to cope."
+            },
+            "weight": 0.95
+          }
+        ],
+        "core_belief::i_am_incompetent_cc689f4426": [
+          {
+            "relation": "instance_of",
+            "target": {
+              "id": "helplessness",
+              "layer": "ontology",
+              "type": "core_belief_cluster",
+              "label": "Helplessness",
+              "description": "Sense of weakness, incompetence, entrapment, or inability to cope."
+            },
+            "weight": 0.95
+          }
+        ],
+        "core_belief::i_am_powerless_weak_vulnerable_8f54a79a9f": [
+          {
+            "relation": "instance_of",
+            "target": {
+              "id": "helplessness",
+              "layer": "ontology",
+              "type": "core_belief_cluster",
+              "label": "Helplessness",
+              "description": "Sense of weakness, incompetence, entrapment, or inability to cope."
+            },
+            "weight": 0.95
+          }
+        ],
+        "core_belief::i_am_undesirable_unwanted_c6ea6577ec": [
+          {
+            "relation": "instance_of",
+            "target": {
+              "id": "unlovability",
+              "layer": "ontology",
+              "type": "core_belief_cluster",
+              "label": "Unlovability",
+              "description": "Sense of being rejected, unwanted, alone, or impossible to love."
+            },
+            "weight": 0.95
+          }
+        ],
+        "intermediate_belief::default_i_must_meet_others_expectations_expressing_weaknesse_f9a55ef0cb": [
+          {
+            "relation": "instance_of",
+            "target": {
+              "id": "control_rule",
+              "layer": "ontology",
+              "type": "intermediate_belief_type",
+              "label": "Control Rule",
+              "description": "Rule that strict control is necessary to prevent collapse or harm."
+            },
+            "weight": 0.75
+          },
+          {
+            "relation": "instance_of",
+            "target": {
+              "id": "rejection_rule",
+              "layer": "ontology",
+              "type": "intermediate_belief_type",
+              "label": "Rejection Rule",
+              "description": "Conditional belief that authenticity or neediness leads to rejection."
+            },
+            "weight": 0.75
+          }
+        ],
+        "coping::the_patient_uses_avoidance_e_g_not_attending_gatherings_supp_fdebcd55cf": [
+          {
+            "relation": "instance_of",
+            "target": {
+              "id": "avoidance",
+              "layer": "ontology",
+              "type": "coping_type",
+              "label": "Avoidance",
+              "description": "Staying away from people, places, feelings, or tasks."
+            },
+            "weight": 0.7
+          },
+          {
+            "relation": "instance_of",
+            "target": {
+              "id": "suppression",
+              "layer": "ontology",
+              "type": "coping_type",
+              "label": "Suppression",
+              "description": "Pushing thoughts, needs, or feelings down."
+            },
+            "weight": 0.7
+          }
+        ],
+        "automatic_thought::i_can_t_afford_it_and_it_would_be_admitting_weakness_to_tell_9d35853c4a": [
+          {
+            "relation": "associated_with_topic",
+            "target": {
+              "id": "stress_overload",
+              "layer": "ontology",
+              "type": "sub_topic",
+              "label": "Stress overload",
+              "aliases": [
+                "overwhelmed",
+                "pressure",
+                "stress"
+              ]
+            },
+            "weight": 0.65
+          }
+        ],
+        "emotion::anxious_worried_fearful_scared_tense_9e40a41a9b": [
+          {
+            "relation": "instance_of",
+            "target": {
+              "id": "anxiety",
+              "layer": "ontology",
+              "type": "emotion_cluster",
+              "label": "Anxiety",
+              "description": "Fear, worry, dread, or threat sensitivity."
+            },
+            "weight": 0.8
+          },
+          {
+            "relation": "instance_of",
+            "target": {
+              "id": "fear",
+              "layer": "ontology",
+              "type": "emotion_cluster",
+              "label": "Fear",
+              "description": "Immediate threat, alarm, or acute vulnerability."
+            },
+            "weight": 0.8
+          }
+        ],
+        "emotion::sad_down_lonely_unhappy_d4edca2ce3": [
+          {
+            "relation": "instance_of",
+            "target": {
+              "id": "loneliness",
+              "layer": "ontology",
+              "type": "emotion_cluster",
+              "label": "Loneliness",
+              "description": "Isolation, disconnection, or unmet attachment need."
+            },
+            "weight": 0.8
+          },
+          {
+            "relation": "instance_of",
+            "target": {
+              "id": "sadness",
+              "layer": "ontology",
+              "type": "emotion_cluster",
+              "label": "Sadness",
+              "description": "Loss, grief, low mood, or discouragement."
+            },
+            "weight": 0.8
+          }
+        ]
+      }
+    },
+    {
+      "case_record": {
+        "id": "case::1-2",
+        "type": "case_record",
+        "label": "Alex 1-2",
+        "layer": "dataset_grounded",
+        "patient_name": "Alex",
+        "patient_group": "1",
+        "source_dataset": "Patient_Psi_CM_Dataset",
+        "source_case_ids": [
+          "1-2"
+        ],
+        "case_id": "1-2",
+        "style_traits": [
+          "plain",
+          "verbose",
+          "go off on tangents",
+          "hostile",
+          "guarded",
+          "ingratiating"
+        ]
+      },
+      "history": [
+        {
+          "id": "history::the_patient_has_a_history_of_substance_abuse_and_has_been_th_8b5efd10cb",
+          "type": "history_statement",
+          "label": "The patient has a history of substance abuse and has been through rehab to overc",
+          "text": "The patient has a history of substance abuse and has been through rehab to overcome it. He has had issues with his family, particularly with his mother, where he has felt rejected and emotionally neglected. He has struggled with obesity since childhood, which has affected his self-esteem and body image. He also has a history of being victimized and bullied due to his weight.",
+          "canonical_text": "The patient has a history of substance abuse and has been through rehab to overcome it. He has had issues with his family, particularly with his mother, where he has felt rejected and emotionally neglected. He has struggled with obesity since childhood, which has affected his self-esteem and body image. He also has a history of being victimized and bullied due to his weight.",
+          "layer": "dataset_grounded",
+          "source_dataset": "Patient_Psi_CM_Dataset",
+          "source_case_ids": [
+            "1-1",
+            "1-2",
+            "1-3"
+          ]
+        }
+      ],
+      "core_beliefs": [
+        {
+          "id": "core_belief::i_am_out_of_control_4d46341320",
+          "type": "core_belief_statement",
+          "label": "I am out of control.",
+          "text": "I am out of control.",
+          "canonical_text": "I am out of control.",
+          "layer": "dataset_grounded",
+          "source_dataset": "Patient_Psi_CM_Dataset",
+          "source_case_ids": [
+            "1-1",
+            "1-2",
+            "1-3",
+            "16-1",
+            "16-2",
+            "23-1",
+            "23-2",
+            "23-3",
+            "26-1",
+            "29-1",
+            "29-2",
+            "36-1",
+            "36-2",
+            "38-1",
+            "38-2",
+            "39-1",
+            "39-2",
+            "40-1",
+            "40-2",
+            "40-3",
+            "41-1",
+            "41-2",
+            "42-1",
+            "42-2",
+            "45-1",
+            "45-2",
+            "47-1",
+            "47-2",
+            "48-1",
+            "48-2",
+            "49-1",
+            "49-2",
+            "50-1",
+            "50-2"
+          ],
+          "belief_family": "helpless"
+        },
+        {
+          "id": "core_belief::i_am_trapped_07290235d1",
+          "type": "core_belief_statement",
+          "label": "I am trapped.",
+          "text": "I am trapped.",
+          "canonical_text": "I am trapped.",
+          "layer": "dataset_grounded",
+          "source_dataset": "Patient_Psi_CM_Dataset",
+          "source_case_ids": [
+            "1-1",
+            "1-2",
+            "1-3",
+            "11-1",
+            "11-2",
+            "15-1",
+            "15-2",
+            "17-2",
+            "2-1",
+            "2-2",
+            "2-3",
+            "20-1",
+            "20-2",
+            "21-1",
+            "21-2",
+            "22-1",
+            "22-2",
+            "23-1",
+            "23-2",
+            "23-3",
+            "26-1",
+            "3-1",
+            "33-1",
+            "33-2",
+            "34-1",
+            "35-2",
+            "38-1",
+            "38-2",
+            "39-1",
+            "39-2",
+            "4-1",
+            "4-2",
+            "40-1",
+            "40-2",
+            "40-3",
+            "48-1",
+            "48-2",
+            "49-1",
+            "49-2"
+          ],
+          "belief_family": "helpless"
+        }
+      ],
+      "intermediate_beliefs": [
+        {
+          "id": "intermediate_belief::default_helpless_i_m_just_not_very_good_at_handling_stress_a_5d15a0ffb3",
+          "type": "intermediate_belief_statement",
+          "label": "Helpless: I'm just not very good at handling stress and I have poor self-control",
+          "text": "Helpless: I'm just not very good at handling stress and I have poor self-control, which is why I need to not put myself in stressful situations.",
+          "canonical_text": "Helpless: I'm just not very good at handling stress and I have poor self-control, which is why I need to not put myself in stressful situations.",
+          "layer": "dataset_grounded",
+          "source_dataset": "Patient_Psi_CM_Dataset",
+          "source_case_ids": [
+            "1-2",
+            "1-3"
+          ],
+          "variant": "default"
+        },
+        {
+          "id": "intermediate_belief::depression_helpless_there_s_nothing_i_can_do_to_change_my_si_277ba4cb4c",
+          "type": "intermediate_belief_statement",
+          "label": "Helpless: There's nothing I can do to change my situation. I cannot control myse",
+          "text": "Helpless: There's nothing I can do to change my situation. I cannot control myself. So why stay clean anyway?",
+          "canonical_text": "Helpless: There's nothing I can do to change my situation. I cannot control myself. So why stay clean anyway?",
+          "layer": "dataset_grounded",
+          "source_dataset": "Patient_Psi_CM_Dataset",
+          "source_case_ids": [
+            "1-2"
+          ],
+          "variant": "depression"
+        }
+      ],
+      "coping_strategies": [
+        {
+          "id": "coping::the_patient_turns_to_substances_as_a_coping_strategy_to_esca_14bec9308d",
+          "type": "coping_strategy_statement",
+          "label": "The patient turns to substances as a coping strategy to escape his feelings. He ",
+          "text": "The patient turns to substances as a coping strategy to escape his feelings. He has been staying at his girlfriend's place to avoid his parents' influence and the associated stress. He also uses yelling and stepping away from situations to manage his low self esteem.",
+          "canonical_text": "The patient turns to substances as a coping strategy to escape his feelings. He has been staying at his girlfriend's place to avoid his parents' influence and the associated stress. He also uses yelling and stepping away from situations to manage his low self esteem.",
+          "layer": "dataset_grounded",
+          "source_dataset": "Patient_Psi_CM_Dataset",
+          "source_case_ids": [
+            "1-2"
+          ]
+        }
+      ],
+      "situation": [
+        {
+          "id": "situation::i_missed_my_alarm_and_work_up_late_for_work_ef030d91f7",
+          "type": "situation_statement",
+          "label": "I missed my alarm and work up late for work.",
+          "text": "I missed my alarm and work up late for work.",
+          "canonical_text": "I missed my alarm and work up late for work.",
+          "layer": "dataset_grounded",
+          "source_dataset": "Patient_Psi_CM_Dataset",
+          "source_case_ids": [
+            "1-2"
+          ]
+        }
+      ],
+      "automatic_thought": [
+        {
+          "id": "automatic_thought::why_can_t_i_even_do_this_little_this_right_my_whole_day_is_w_1b33534ae8",
+          "type": "automatic_thought_statement",
+          "label": "Why can't I even do this little this right? My whole day is written off now, I m",
+          "text": "Why can't I even do this little this right? My whole day is written off now, I might as well not do anything.",
+          "canonical_text": "Why can't I even do this little this right? My whole day is written off now, I might as well not do anything.",
+          "layer": "dataset_grounded",
+          "source_dataset": "Patient_Psi_CM_Dataset",
+          "source_case_ids": [
+            "1-2"
+          ]
+        }
+      ],
+      "emotions": [
+        {
+          "id": "emotion::angry_mad_irritated_annoyed_142c55cd2f",
+          "type": "emotion_statement",
+          "label": "angry, mad, irritated, annoyed",
+          "text": "angry, mad, irritated, annoyed",
+          "canonical_text": "angry, mad, irritated, annoyed",
+          "layer": "dataset_grounded",
+          "source_dataset": "Patient_Psi_CM_Dataset",
+          "source_case_ids": [
+            "1-2",
+            "1-3",
+            "10-2",
+            "11-2",
+            "14-1",
+            "15-2",
+            "19-1",
+            "20-1",
+            "22-1",
+            "22-2",
+            "23-2",
+            "25-2",
+            "25-3",
+            "28-2",
+            "33-1",
+            "37-1",
+            "37-2",
+            "38-1",
+            "45-2",
+            "48-1",
+            "48-2",
+            "9-2"
+          ]
+        },
+        {
+          "id": "emotion::anxious_worried_fearful_scared_tense_9e40a41a9b",
+          "type": "emotion_statement",
+          "label": "anxious, worried, fearful, scared, tense",
+          "text": "anxious, worried, fearful, scared, tense",
+          "canonical_text": "anxious, worried, fearful, scared, tense",
+          "layer": "dataset_grounded",
+          "source_dataset": "Patient_Psi_CM_Dataset",
+          "source_case_ids": [
+            "1-1",
+            "1-2",
+            "10-1",
+            "10-3",
+            "12-1",
+            "12-2",
+            "13-2",
+            "14-1",
+            "14-2",
+            "16-1",
+            "16-2",
+            "17-1",
+            "17-2",
+            "19-1",
+            "19-2",
+            "2-1",
+            "2-2",
+            "2-3",
+            "20-1",
+            "20-2",
+            "21-1",
+            "21-2",
+            "23-2",
+            "23-3",
+            "24-1",
+            "24-2",
+            "24-3",
+            "26-1",
+            "27-1",
+            "28-1",
+            "29-1",
+            "3-1",
+            "3-2",
+            "31-1",
+            "31-2",
+            "32-1",
+            "32-2",
+            "36-1",
+            "38-2",
+            "39-1",
+            "39-2",
+            "4-1",
+            "4-2",
+            "40-2",
+            "41-1",
+            "41-2",
+            "42-1",
+            "45-1",
+            "46-1",
+            "47-1",
+            "49-1",
+            "5-1",
+            "5-2",
+            "50-1",
+            "50-2",
+            "6-2",
+            "7-2",
+            "8-1",
+            "8-2",
+            "9-1"
+          ]
+        }
+      ],
+      "behavior": [
+        {
+          "id": "behavior::called_in_sick_got_drunk_in_the_morning_and_had_a_fight_with_509c35af94",
+          "type": "behavior_statement",
+          "label": "Called in sick. Got drunk in the morning and had a fight with girlfriend.",
+          "text": "Called in sick. Got drunk in the morning and had a fight with girlfriend.",
+          "canonical_text": "Called in sick. Got drunk in the morning and had a fight with girlfriend.",
+          "layer": "dataset_grounded",
+          "source_dataset": "Patient_Psi_CM_Dataset",
+          "source_case_ids": [
+            "1-2"
+          ]
+        }
+      ],
+      "ontology_links": {
+        "history::the_patient_has_a_history_of_substance_abuse_and_has_been_th_8b5efd10cb": [
+          {
+            "relation": "associated_with_topic",
+            "target": {
+              "id": "body_image",
+              "layer": "ontology",
+              "type": "sub_topic",
+              "label": "Body image distress",
+              "aliases": [
+                "appearance shame",
+                "body shame"
+              ]
+            },
+            "weight": 0.6
+          },
+          {
+            "relation": "associated_with_topic",
+            "target": {
+              "id": "family_neglect",
+              "layer": "ontology",
+              "type": "sub_topic",
+              "label": "Family neglect",
+              "aliases": [
+                "emotionally neglected",
+                "ignored at home"
+              ]
+            },
+            "weight": 0.6
+          },
+          {
+            "relation": "associated_with_topic",
+            "target": {
+              "id": "trauma_victimization",
+              "layer": "ontology",
+              "type": "sub_topic",
+              "label": "Victimization",
+              "aliases": [
+                "abused",
+                "targeted",
+                "victimized"
+              ]
+            },
+            "weight": 0.6
+          }
+        ],
+        "core_belief::i_am_out_of_control_4d46341320": [
+          {
+            "relation": "instance_of",
+            "target": {
+              "id": "loss_of_control",
+              "layer": "ontology",
+              "type": "core_belief_cluster",
+              "label": "Loss Of Control",
+              "description": "Belief that urges, emotions, or behavior cannot be contained."
+            },
+            "weight": 0.95
+          }
+        ],
+        "core_belief::i_am_trapped_07290235d1": [
+          {
+            "relation": "instance_of",
+            "target": {
+              "id": "helplessness",
+              "layer": "ontology",
+              "type": "core_belief_cluster",
+              "label": "Helplessness",
+              "description": "Sense of weakness, incompetence, entrapment, or inability to cope."
+            },
+            "weight": 0.95
+          }
+        ],
+        "intermediate_belief::default_helpless_i_m_just_not_very_good_at_handling_stress_a_5d15a0ffb3": [
+          {
+            "relation": "instance_of",
+            "target": {
+              "id": "avoidance_rule",
+              "layer": "ontology",
+              "type": "intermediate_belief_type",
+              "label": "Avoidance Rule",
+              "description": "Rule that avoidance is necessary to stay safe or cope."
+            },
+            "weight": 0.75
+          },
+          {
+            "relation": "instance_of",
+            "target": {
+              "id": "control_rule",
+              "layer": "ontology",
+              "type": "intermediate_belief_type",
+              "label": "Control Rule",
+              "description": "Rule that strict control is necessary to prevent collapse or harm."
+            },
+            "weight": 0.75
+          }
+        ],
+        "intermediate_belief::depression_helpless_there_s_nothing_i_can_do_to_change_my_si_277ba4cb4c": [
+          {
+            "relation": "instance_of",
+            "target": {
+              "id": "control_rule",
+              "layer": "ontology",
+              "type": "intermediate_belief_type",
+              "label": "Control Rule",
+              "description": "Rule that strict control is necessary to prevent collapse or harm."
+            },
+            "weight": 0.75
+          },
+          {
+            "relation": "instance_of",
+            "target": {
+              "id": "hopelessness_rule",
+              "layer": "ontology",
+              "type": "intermediate_belief_type",
+              "label": "Hopelessness Rule",
+              "description": "Assumption that change is futile or effort will fail."
+            },
+            "weight": 0.75
+          }
+        ],
+        "coping::the_patient_turns_to_substances_as_a_coping_strategy_to_esca_14bec9308d": [
+          {
+            "relation": "instance_of",
+            "target": {
+              "id": "avoidance",
+              "layer": "ontology",
+              "type": "coping_type",
+              "label": "Avoidance",
+              "description": "Staying away from people, places, feelings, or tasks."
+            },
+            "weight": 0.7
+          },
+          {
+            "relation": "instance_of",
+            "target": {
+              "id": "escape",
+              "layer": "ontology",
+              "type": "coping_type",
+              "label": "Escape",
+              "description": "Using distraction, fantasy, or numbing to leave distress."
+            },
+            "weight": 0.7
+          },
+          {
+            "relation": "instance_of",
+            "target": {
+              "id": "substance_use_coping",
+              "layer": "ontology",
+              "type": "coping_type",
+              "label": "Substance Use Coping",
+              "description": "Using substances to alter mood, avoid pain, or escape."
+            },
+            "weight": 0.7
+          }
+        ],
+        "emotion::angry_mad_irritated_annoyed_142c55cd2f": [
+          {
+            "relation": "instance_of",
+            "target": {
+              "id": "anger",
+              "layer": "ontology",
+              "type": "emotion_cluster",
+              "label": "Anger",
+              "description": "Frustration, resentment, irritation, or rage."
+            },
+            "weight": 0.8
+          },
+          {
+            "relation": "instance_of",
+            "target": {
+              "id": "irritability",
+              "layer": "ontology",
+              "type": "emotion_cluster",
+              "label": "Irritability",
+              "description": "Low frustration tolerance, agitation, or touchiness."
+            },
+            "weight": 0.8
+          }
+        ],
+        "emotion::anxious_worried_fearful_scared_tense_9e40a41a9b": [
+          {
+            "relation": "instance_of",
+            "target": {
+              "id": "anxiety",
+              "layer": "ontology",
+              "type": "emotion_cluster",
+              "label": "Anxiety",
+              "description": "Fear, worry, dread, or threat sensitivity."
+            },
+            "weight": 0.8
+          },
+          {
+            "relation": "instance_of",
+            "target": {
+              "id": "fear",
+              "layer": "ontology",
+              "type": "emotion_cluster",
+              "label": "Fear",
+              "description": "Immediate threat, alarm, or acute vulnerability."
+            },
+            "weight": 0.8
+          }
+        ],
+        "behavior::called_in_sick_got_drunk_in_the_morning_and_had_a_fight_with_509c35af94": [
+          {
+            "relation": "instance_of",
+            "target": {
+              "id": "relapse_behavior",
+              "layer": "ontology",
+              "type": "behavior_pattern",
+              "label": "Relapse Behavior",
+              "description": "Returning to addictive or high-risk coping patterns."
+            },
+            "weight": 0.7
+          }
+        ]
+      }
+    }
+  ],
+  "prompt_context": "Retrieved hybrid graph context:\n- Top matched nodes: Alex's cousin invited him to attend his upcoming wedding. (situation_statement), Not being invited by a friend for a dinner with other friends. (situation_statement), It will be stressful and negative; people will ask me questions I cannot answer  (automatic_thought_statement), Family interactions will inevitably lead to judgment; any engagement with family (automatic_thought_statement), Being invited to visit his sister but currently being financially unstable. (situation_statement)\n- Candidate case matches:\n  - Alex 1-1 (score=0.4879) via Alex's cousin invited him to attend his upcoming wedding.\n  - Skyler 43-2 (score=0.4256) via Not being invited by a friend for a dinner with other friends.\n  - Leo 32-1 (score=0.4115) via Family interactions will inevitably lead to judgment; any engagement with family\n- Top case profile: Alex 1-1\n- Situation examples: Alex's cousin invited him to attend his upcoming wedding.\n- Automatic thought examples: It will be stressful and negative; people will ask me questions I cannot answer or don't want to answer; my mum would be ashamed of me and critical of me as always; They don't want me there anyway, nobody likes me in this family.\n- Emotion examples: anxious, worried, fearful, scared, tense | sad, down, lonely, unhappy\n- Behavior examples: Ignored the invitation and did not respond to the RSVP request. Ignored phone calls from family.\n- Possible history: The patient has a history of substance abuse and has been through rehab to overcome it. He has had issues with his family, particularly with his mother, where he has felt rejected and emotionally neglected. He has struggled with obesity since childhood, which has affected his self-esteem and body image. He also has a history of being victimized and bullied due to his weight.\n- Possible core beliefs: I am out of control. | I am trapped.\n- Possible intermediate beliefs: Helpless: I'm just not very good at handling stress and I have poor self-control, which is why I need to not put myself in stressful situations. Unlovable: If I show my true self, people will reject me the way my mother rejected me. | Helpless: There's nothing I can do to change my situation. I cannot control myself. Unlovable: I don't deserve to be happy, so why even try to stay clean?\n- Possible coping: The patient has adopted avoidance as a coping strategy by distancing himself from his family to reduce exposure to negativity and conflict. He has started scheduling pleasant activities and planning his day ahead of time in order to maintain a sense of control over his emotions and circumstances."
+}

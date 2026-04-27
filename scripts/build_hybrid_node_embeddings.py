@@ -17,6 +17,7 @@ DEFAULT_GRAPH_PATH = ROOT_DIR / "data" / "hybrid_topic_graph" / "hybrid_topic_gr
 DEFAULT_OUTPUT_PATH = ROOT_DIR / "data" / "hybrid_topic_graph" / "node_embeddings.json"
 
 DEFAULT_NODE_TYPES = {
+    "style_trait",
     "history_statement",
     "core_belief_statement",
     "intermediate_belief_statement",
@@ -115,6 +116,14 @@ def build_node_text(
         )
         if parent_topics:
             lines.append(f"Parent topics: {', '.join(parent_topics)}")
+        return "\n".join(lines)
+
+    if node["type"] == "style_trait":
+        linked_cases = labels_for_relation(
+            node["id"], "has_style_trait", incoming.get(node["id"], []), nodes_by_id, source_side=True
+        )
+        if linked_cases:
+            lines.append(f"Observed in cases: {', '.join(linked_cases[:10])}")
         return "\n".join(lines)
 
     associated_topics = labels_for_relation(

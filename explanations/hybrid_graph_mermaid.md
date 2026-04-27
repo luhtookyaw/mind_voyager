@@ -16,6 +16,7 @@ graph TD
     C[case_record]
     E[external_episode]
 
+    T[style_trait]
     H[history_statement]
     CBS[core_belief_statement]
     IBS[intermediate_belief_statement]
@@ -43,6 +44,7 @@ graph TD
 
   P -->|has_case_record| C
   C -->|has_external_episode| E
+  C -->|has_style_trait| T
 
   C -->|has_history| H
   C -->|has_core_belief| CBS
