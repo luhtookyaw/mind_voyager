@@ -1,0 +1,178 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://mind-voyager.local/schemas/hybrid_topic_graph.schema.json",
+  "title": "MindVoyager Hybrid Topic Graph",
+  "type": "object",
+  "required": [
+    "metadata",
+    "nodes",
+    "edges"
+  ],
+  "properties": {
+    "metadata": {
+      "type": "object",
+      "required": [
+        "name",
+        "description",
+        "node_count",
+        "edge_count"
+      ],
+      "properties": {
+        "name": {
+          "type": "string"
+        },
+        "description": {
+          "type": "string"
+        },
+        "node_count": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "edge_count": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "dataset_path": {
+          "type": "string"
+        },
+        "base_ontology_name": {
+          "type": "string"
+        },
+        "layer_counts": {
+          "type": "object",
+          "additionalProperties": {
+            "type": "integer",
+            "minimum": 0
+          }
+        }
+      },
+      "additionalProperties": true
+    },
+    "nodes": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/node"
+      }
+    },
+    "edges": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/edge"
+      }
+    }
+  },
+  "$defs": {
+    "node": {
+      "type": "object",
+      "required": [
+        "id",
+        "type",
+        "label",
+        "layer"
+      ],
+      "properties": {
+        "id": {
+          "type": "string"
+        },
+        "type": {
+          "type": "string"
+        },
+        "label": {
+          "type": "string"
+        },
+        "layer": {
+          "type": "string",
+          "enum": [
+            "ontology",
+            "dataset_grounded",
+            "bridge"
+          ]
+        },
+        "description": {
+          "type": "string"
+        },
+        "text": {
+          "type": "string"
+        },
+        "canonical_text": {
+          "type": "string"
+        },
+        "source_dataset": {
+          "type": "string"
+        },
+        "source_case_ids": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "patient_name": {
+          "type": "string"
+        },
+        "patient_group": {
+          "type": "string"
+        },
+        "belief_family": {
+          "type": "string"
+        },
+        "variant": {
+          "type": "string"
+        },
+        "aliases": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "prompt_templates": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      },
+      "additionalProperties": true
+    },
+    "edge": {
+      "type": "object",
+      "required": [
+        "source",
+        "target",
+        "relation",
+        "weight",
+        "layer"
+      ],
+      "properties": {
+        "source": {
+          "type": "string"
+        },
+        "target": {
+          "type": "string"
+        },
+        "relation": {
+          "type": "string"
+        },
+        "weight": {
+          "type": "number"
+        },
+        "layer": {
+          "type": "string",
+          "enum": [
+            "ontology",
+            "dataset_grounded",
+            "bridge",
+            "causal"
+          ]
+        },
+        "source_case_ids": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      },
+      "additionalProperties": true
+    }
+  },
+  "additionalProperties": false
+}

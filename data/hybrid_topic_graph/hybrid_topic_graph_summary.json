@@ -1,0 +1,74 @@
+{
+  "metadata": {
+    "name": "mind_voyager_hybrid_topic_graph",
+    "description": "Hybrid graph that keeps the generalized CBT ontology and adds Patient-psi-grounded statement nodes, case records, external episodes, and causal/bridge edges for dataset expansion and retrieval.",
+    "node_count": 1012,
+    "edge_count": 4649,
+    "dataset_path": "/Users/luhtookyaw/Desktop/StageTherapy/mind_voyager/data/Patient_Psi_CM_Dataset.json",
+    "base_ontology_name": "mind_voyager_generalized_topic_graph",
+    "layer_counts": {
+      "dataset_grounded": 844,
+      "ontology": 168
+    }
+  },
+  "node_types": {
+    "core_belief_cluster": 10,
+    "sub_topic": 84,
+    "prompt_type": 12,
+    "coping_type": 14,
+    "super_topic": 16,
+    "emotion_cluster": 10,
+    "behavior_pattern": 12,
+    "automatic_thought_statement": 106,
+    "intermediate_belief_type": 10,
+    "behavior_statement": 106,
+    "case_record": 106,
+    "coping_strategy_statement": 68,
+    "core_belief_statement": 17,
+    "emotion_statement": 9,
+    "external_episode": 106,
+    "history_statement": 51,
+    "intermediate_belief_statement": 119,
+    "patient_profile": 50,
+    "situation_statement": 106
+  },
+  "node_layers": {
+    "ontology": 168,
+    "dataset_grounded": 844
+  },
+  "edge_relations": {
+    "suggests_prompt_type": 348,
+    "leads_to": 22,
+    "associated_with": 490,
+    "evokes": 163,
+    "manifests_as": 166,
+    "contains": 84,
+    "influences_behavior": 106,
+    "evokes_emotion": 205,
+    "associated_with_topic": 97,
+    "maintained_by": 25,
+    "instance_of": 194,
+    "has_coping_strategy": 106,
+    "has_core_belief": 453,
+    "has_external_episode": 106,
+    "has_history": 106,
+    "has_intermediate_belief_default": 106,
+    "has_intermediate_belief_depression": 90,
+    "manifests_as_behavior": 106,
+    "belief_expressed_as": 514,
+    "has_automatic_thought": 106,
+    "has_behavior": 106,
+    "has_emotion": 205,
+    "has_situation": 106,
+    "history_supports_belief": 231,
+    "intermediate_shapes_thought": 196,
+    "has_case_record": 106,
+    "triggers_automatic_thought": 106
+  },
+  "edge_layers": {
+    "ontology": 1298,
+    "causal": 1464,
+    "bridge": 291,
+    "dataset_grounded": 1596
+  }
+}
