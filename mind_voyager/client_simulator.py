@@ -8,13 +8,14 @@ from dataclasses import dataclass, field
 from pathlib import Path
 from typing import Any
 
-from llm import call_llm, call_llm_messages
+from llm import call_llm
 
 
 ROOT = Path(__file__).resolve().parent.parent
 PROMPTS_DIR = ROOT / "mind_voyager" / "prompts"
 DEFAULT_DATASET = ROOT / "data" / "Patient_Psi_CM_Dataset.json"
 DEFAULT_TRANSCRIPT_DIR = ROOT / "transcripts"
+HISTORY_WINDOW_SIZE = 12
 
 
 @dataclass(frozen=True)
@@ -180,12 +181,32 @@ def default_transcript_path(state: SimulatorState) -> Path:
     )
 
 
-def transcript_text(dialogue: list[dict[str, str]]) -> str:
+def transcript_text(
+    dialogue: list[dict[str, str]],
+    window_size: int | None = None,
+) -> str:
+    entries = dialogue
+    if window_size is not None and window_size > 0:
+        entries = dialogue[-window_size:]
+    if not entries:
+        return "(No prior dialogue yet.)"
+
     lines = []
-    for turn in dialogue:
+    for turn in entries:
         role = "Therapist" if turn["role"] == "user" else "Client"
         lines.append(f"{role}: {turn['content']}")
     return "\n".join(lines)
+
+
+def render_client_user_prompt(
+    dialogue: list[dict[str, str]],
+    window_size: int = HISTORY_WINDOW_SIZE,
+) -> str:
+    template = load_prompt("client_user_prompt.txt")
+    return template.format(
+        dialogue_history=transcript_text(dialogue, window_size=window_size),
+        history_window_size=window_size,
+    )
 
 
 def parse_first_rating(text: str) -> int | None:
@@ -276,8 +297,12 @@ def maybe_update_state(state: SimulatorState, judge_model: str) -> dict[str, str
 
 
 def generate_client_reply(state: SimulatorState, model: str) -> str:
-    messages = [{"role": "system", "content": render_client_system_prompt(state)}, *state.dialogue]
-    return call_llm_messages(messages=messages, temperature=0.3, model=model).strip()
+    return call_llm(
+        system_prompt=render_client_system_prompt(state),
+        user_prompt=render_client_user_prompt(state.dialogue, window_size=HISTORY_WINDOW_SIZE),
+        temperature=0.3,
+        model=model,
+    ).strip()
 
 
 def save_transcript(

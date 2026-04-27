@@ -5,19 +5,25 @@ import json
 from pathlib import Path
 from typing import Any
 
-from groq_req import call_groq_messages
-from llm import call_llm, call_llm_messages
+from llm import call_llm
 from mind_voyager.client_simulator import (
-    ClientCase,
     DEFAULT_DATASET,
     DIFFICULTIES,
+    HISTORY_WINDOW_SIZE,
     SimulatorState,
     ensure_api_key,
+    render_client_user_prompt,
     load_case,
     load_prompt,
     format_judge_status,
     maybe_update_state,
     render_client_system_prompt,
+)
+from mind_voyager.therapist_simulator import (
+    generate_therapist_reply,
+    latest_client_utterance,
+    render_retrieval_therapist_prompt,
+    render_therapist_prompt,
 )
 from scripts.retrieve_topic_graph import (
     DEFAULT_GRAPH_PATH,
@@ -32,44 +38,6 @@ NO_RETRIEVAL_CONTEXT = (
     "No retrieved graph context is available for this turn. "
     "Use general reflective exploration based only on the conversation."
 )
-
-
-def render_therapist_prompt(case: ClientCase) -> str:
-    prompt = load_prompt("therapist_prompt.txt").strip()
-    case_context = (
-        "\n\nCase context:\n"
-        f"- Client name: {case.name}"
-    )
-    return f"{prompt}{case_context}"
-
-
-def render_retrieval_therapist_prompt(case: ClientCase, retrieved_context: str) -> str:
-    prompt = load_prompt("retrieval_therapist_prompt.txt").strip()
-    prompt = prompt.replace("{{RETRIEVED_CCD_CONTEXT}}", retrieved_context)
-    case_context = (
-        "\n\nCase context:\n"
-        f"- Client name: {case.name}"
-    )
-    return f"{prompt}{case_context}"
-
-
-def generate_therapist_reply(
-    therapist_prompt: str,
-    transcript: list[dict[str, str]],
-    model: str,
-    provider: str,
-) -> str:
-    messages = [{"role": "system", "content": therapist_prompt}, *transcript]
-    if provider == "groq":
-        return call_groq_messages(messages=messages, temperature=0.3, model=model).strip()
-    return call_llm_messages(messages=messages, temperature=0.3, model=model).strip()
-
-
-def latest_client_utterance(transcript: list[dict[str, str]]) -> str | None:
-    for item in reversed(transcript):
-        if item["role"] == "user":
-            return item["content"]
-    return None
 
 
 def retrieve_context_for_therapist(
@@ -102,8 +70,9 @@ def generate_masked_client_reply(
     state: SimulatorState,
     client_model: str,
 ) -> str:
-    return call_llm_messages(
-        messages=[{"role": "system", "content": render_client_system_prompt(state)}, *state.dialogue],
+    return call_llm(
+        system_prompt=render_client_system_prompt(state),
+        user_prompt=render_client_user_prompt(state.dialogue, window_size=HISTORY_WINDOW_SIZE),
         temperature=0.3,
         model=client_model,
     ).strip()
