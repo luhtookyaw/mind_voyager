@@ -1,0 +1,310 @@
+{
+  "case_id": "8-2",
+  "client_name": "Ramona",
+  "client_mode": "masked",
+  "difficulty": "normal",
+  "openness_interval": 2,
+  "therapist_provider": "openai",
+  "therapist_model": "gpt-4o-mini",
+  "therapist_prompt_mode": "baseline",
+  "client_model": "gpt-4o-mini",
+  "moderator_enabled": false,
+  "moderator_model": "gpt-4o-mini",
+  "max_turns": 25,
+  "therapist_turns": 25,
+  "stop_reason": "max_turns",
+  "transcript": [
+    {
+      "turn": 1,
+      "speaker": "therapist",
+      "content": "Hi Ramona, I'm glad you're here today. What feels most important for you to talk about right now?"
+    },
+    {
+      "turn": 1,
+      "speaker": "client",
+      "content": "Ramona: Well, I suppose there's a lot on my mind, but it's hard to pinpoint just one thing, you know? I mean, sometimes it feels like everything just piles up, and I get overwhelmed. Like, I don't know if I should talk about what happened with Ivan or maybe something else entirely. It's just... complicated. I don't want to dive into things that might just make me feel worse, you know? So, I guess I'm just trying to figure out where to start."
+    },
+    {
+      "turn": 2,
+      "speaker": "therapist",
+      "content": "Therapist: It sounds like you're feeling a bit overwhelmed with everything that's on your mind, and it's understandable that you're hesitant to dive into something that might make you feel worse. You mentioned Ivan\u2014would you like to explore what happened with him, or is there something else that feels more pressing for you right now?"
+    },
+    {
+      "turn": 2,
+      "speaker": "client",
+      "content": "Ramona: Well, I mean, Ivan is definitely a part of it, but it\u2019s just... I don\u2019t know. It\u2019s like, I want to talk about it, but then I think, what if it just brings up all those feelings again? Like, I don\u2019t want to feel anxious or scared, you know? But at the same time, I can\u2019t just ignore it. It\u2019s just frustrating because I feel like I should be able to handle this better, but here I am, stuck in my head. It\u2019s like a loop, and I can\u2019t quite break free from it. So, I guess I\u2019m just trying to figure out if talking about Ivan will help or if it\u2019ll just make things worse."
+    },
+    {
+      "turn": 3,
+      "speaker": "therapist",
+      "content": "Therapist: It sounds like you're caught in a tough spot between wanting to address what happened with Ivan and the fear of feeling anxious or scared again. That loop you mentioned\u2014can you tell me more about what thoughts or feelings come up for you when you think about talking about him?"
+    },
+    {
+      "turn": 3,
+      "speaker": "client",
+      "content": "Ramona: Well, when I think about talking about Ivan, it\u2019s like a whole mix of things, you know? I start to feel that tightness in my chest, and my mind races with all these what-ifs. Like, what if I say something wrong? What if he gets defensive? Or worse, what if I end up feeling vulnerable and exposed? It\u2019s just... I don\u2019t know, it feels like opening a can of worms, and I\u2019m not sure I\u2019m ready for that. I mean, I want to be strong and handle it, but then I think about how I\u2019ve felt in the past, and it just makes me hesitate. It\u2019s like I\u2019m stuck between wanting to be brave and wanting to protect myself."
+    },
+    {
+      "turn": 4,
+      "speaker": "therapist",
+      "content": "Therapist: It sounds like there's a real tension for you between wanting to be brave and feeling the need to protect yourself. That tightness in your chest and the racing thoughts about what could go wrong seem to create a lot of fear around the idea of discussing Ivan. Can you share more about what you've felt in the past that makes you hesitate now?"
+    },
+    {
+      "turn": 4,
+      "speaker": "client",
+      "content": "Ramona: Well, I mean, it\u2019s hard to put into words, really. There have been times when I thought I could handle things, but then it just... backfired, you know? Like, I opened up, and instead of feeling understood, I felt judged or dismissed. It\u2019s like every time I try to be vulnerable, I end up regretting it. I remember one time, I thought I could trust someone, and it just... it didn\u2019t go well. I felt so exposed and raw afterward, and I don\u2019t want to go through that again. So, when I think about talking to Ivan, I can\u2019t help but remember those moments. It\u2019s like a part of me wants to scream, \u201cJust keep it all inside!\u201d But then, I also think maybe if I don\u2019t say anything, it\u2019ll just keep eating away at me. It\u2019s frustrating, really."
+    },
+    {
+      "turn": 5,
+      "speaker": "therapist",
+      "content": "Therapist: It sounds like you've had some really difficult experiences in the past that have left you feeling hesitant to open up again. The fear of being judged or dismissed seems to weigh heavily on you, and I can understand why that would make you want to keep everything inside. It\u2019s a tough balance between wanting to protect yourself and the desire to express what you're feeling. Can you tell me more about that moment when you felt so exposed and raw? What was it like for you afterward?"
+    },
+    {
+      "turn": 5,
+      "speaker": "client",
+      "content": "Ramona: Well, it was just... it felt like I had laid everything out on the table, you know? I thought I was being brave, but then the reaction I got was just so cold. I remember feeling this wave of shame wash over me, like I had made a huge mistake by trusting someone with my feelings. It was like I was standing there, completely vulnerable, and instead of support, I got this sense of judgment. I felt so small and insignificant, like my feelings didn\u2019t matter at all. Afterward, I just wanted to crawl into a hole and disappear. It\u2019s like I had opened this door to my heart, and instead of warmth, I got a blast of icy air. So, when I think about talking to Ivan, I can\u2019t help but feel that same fear creeping back in. What if it\u2019s like that again? What if I end up regretting it? It\u2019s just... exhausting to think about."
+    },
+    {
+      "turn": 6,
+      "speaker": "therapist",
+      "content": "Therapist: It sounds like that experience really shook you and left a lasting impact. The feelings of shame and insignificance you described must have been incredibly painful, and it makes sense that those memories would resurface when considering talking to Ivan. It\u2019s understandable to feel exhausted by the thought of potentially facing that kind of reaction again. How do you think those past experiences shape the way you approach vulnerability now?"
+    },
+    {
+      "turn": 6,
+      "speaker": "client",
+      "content": "Ramona: Well, I guess it makes me really cautious, you know? I mean, I want to be open and honest, but I also feel like I have to tiptoe around my feelings. It\u2019s like I\u2019m always weighing the risks and benefits in my head, trying to figure out if it\u2019s worth it to share anything at all. Sometimes, I think I\u2019d rather just keep things to myself than risk feeling that way again. It\u2019s frustrating because I know that being vulnerable can lead to connection, but then I remember how painful it can be, and it just makes me want to shut down. I don\u2019t want to feel like I\u2019m putting myself out there only to be met with coldness again. So, I guess I end up holding back a lot, even when I really want to say something. It\u2019s like I\u2019m stuck in this cycle of wanting to connect but being terrified of the fallout."
+    },
+    {
+      "turn": 7,
+      "speaker": "therapist",
+      "content": "Therapist: It sounds like you're navigating a really challenging cycle between wanting to connect and the fear of being met with coldness again. That caution you feel makes sense given your past experiences, and it\u2019s understandable that you\u2019d want to protect yourself from that pain. I hear you saying that you want to be open, but the fear of potential rejection holds you back. Can you share more about what it feels like when you hold back? What emotions come up for you in those moments?"
+    },
+    {
+      "turn": 7,
+      "speaker": "client",
+      "content": "Ramona: Well, when I hold back, it\u2019s like this heavy weight just settles in my chest, you know? I feel this mix of frustration and sadness, like I\u2019m carrying around this burden that I can\u2019t quite let go of. It\u2019s almost like I\u2019m stuck in this limbo where I want to express myself, but I can\u2019t find the words or the courage to do it. I start to feel isolated, like I\u2019m in my own little bubble while everyone else is out there connecting. And then there\u2019s this nagging voice in my head that tells me I\u2019m not doing enough, that I should be stronger or braver. It\u2019s exhausting, really. I want to reach out, but then I just end up feeling more alone, and it\u2019s like this cycle just keeps repeating itself. It\u2019s frustrating because I know I have things to say, but I just can\u2019t seem to get them out."
+    },
+    {
+      "turn": 8,
+      "speaker": "therapist",
+      "content": "Therapist: It sounds like holding back creates a lot of emotional heaviness for you, mixing frustration, sadness, and a sense of isolation. That nagging voice telling you to be stronger or braver must add to the pressure you feel. It\u2019s understandable to want to express yourself but feel stuck in that cycle. When you think about breaking that cycle, what do you imagine it might look like for you?"
+    },
+    {
+      "turn": 8,
+      "speaker": "client",
+      "content": "Ramona: Well, breaking that cycle... I guess it would mean feeling more comfortable sharing my thoughts without that constant fear hanging over me. I imagine it would feel like a weight lifting, you know? Like I could finally breathe without that tightness in my chest. Maybe I could express myself and not worry so much about how it would be received. I think it would be nice to feel a sense of connection instead of isolation, like I could be honest and still be accepted. But then, there's always that little voice in my head that says, \"What if it doesn\u2019t go that way?\" So, it\u2019s hard to picture it clearly. I want to believe it\u2019s possible, but I guess I\u2019m just not sure how to get there. It feels like a long road ahead, and I\u2019m not sure if I\u2019m ready to take the first step."
+    },
+    {
+      "turn": 9,
+      "speaker": "therapist",
+      "content": "Therapist: It sounds like you have a beautiful vision of what breaking that cycle could look like\u2014feeling lighter, more connected, and accepted. Yet, that little voice of doubt makes it hard to fully embrace that possibility. It\u2019s understandable to feel uncertain about taking that first step, especially when the past has made you cautious. What do you think might help you feel a bit more ready to explore that first step, even if it feels small?"
+    },
+    {
+      "turn": 9,
+      "speaker": "client",
+      "content": "Client: Ramona: Well, I suppose... maybe it would help to start with smaller steps, you know? Like, just testing the waters a bit. I mean, if I could find a way to express something that feels less risky, maybe that would ease some of that pressure. I think having a safe space to share my thoughts without the fear of judgment would make a difference. It\u2019s like dipping my toes in instead of jumping right into the deep end. But then, I worry that even those small steps might feel overwhelming. It\u2019s just hard to know where to begin. I guess I need to remind myself that it\u2019s okay to take it slow, but that voice in my head keeps pushing me to be braver than I feel. It\u2019s a bit of a tug-of-war, really."
+    },
+    {
+      "turn": 10,
+      "speaker": "therapist",
+      "content": "Therapist: It sounds like starting with smaller steps feels like a more manageable way to approach vulnerability for you. Testing the waters and finding a safe space to express yourself could help ease some of that pressure. I hear you acknowledging the need to take it slow, even as that voice pushes you to be braver. What do you think might help you quiet that voice a bit, or at least make it less overwhelming as you consider taking those small steps?"
+    },
+    {
+      "turn": 10,
+      "speaker": "client",
+      "content": "Ramona: Well, I think maybe it would help to remind myself that it\u2019s okay to feel scared and that I don\u2019t have to rush into anything. I mean, I could try to focus on the fact that small steps are still steps, right? Maybe even writing down my thoughts before sharing them could help me feel a bit more prepared. It\u2019s like having a little safety net, you know? And I guess talking to someone I trust about how I\u2019m feeling could also help quiet that voice a bit. But then, there\u2019s always that worry that even those small things might not be enough. It\u2019s just... I don\u2019t know, it feels like I\u2019m constantly battling with myself. I want to believe I can do it, but then that doubt creeps in and makes it hard to see the way forward."
+    },
+    {
+      "turn": 11,
+      "speaker": "therapist",
+      "content": "Therapist: It sounds like you have some thoughtful ideas about how to approach those small steps, like reminding yourself that it\u2019s okay to feel scared and using writing as a safety net. It\u2019s understandable to still feel that doubt creeping in, especially when you\u2019re trying to navigate this internal battle. I hear you wanting to believe in your ability to move forward, but the uncertainty can be really challenging. Can you share more about what that doubt feels like for you? What does it say to you when it shows up?"
+    },
+    {
+      "turn": 11,
+      "speaker": "client",
+      "content": "Ramona: Well, that doubt... it feels like this heavy cloud just hanging over me, you know? It whispers things like, \u201cYou\u2019re not strong enough for this,\u201d or \u201cWhat if you fail?\u201d It\u2019s like a constant reminder of all the times I\u2019ve struggled or felt rejected in the past. It makes me second-guess myself, like I\u2019m not allowed to hope for something better. Sometimes, it even feels like it\u2019s mocking me, saying I should just stay quiet and safe instead of risking the chance of being hurt again. It\u2019s frustrating because I know I want to push through that, but it just feels so loud and overwhelming at times. I guess it\u2019s like this internal battle where part of me wants to break free, but that doubt keeps pulling me back, making me question if I really can."
+    },
+    {
+      "turn": 12,
+      "speaker": "therapist",
+      "content": "Therapist: It sounds like that doubt creates a really heavy and oppressive atmosphere for you, almost like a constant companion that reminds you of past struggles and makes you question your strength. I can hear how frustrating it is to feel that internal battle, where part of you longs for freedom and connection, while the doubt pulls you back into safety. When you think about that heavy cloud of doubt, what do you wish it would say instead? What would a more supportive voice sound like for you?"
+    },
+    {
+      "turn": 12,
+      "speaker": "client",
+      "content": "Ramona: Oh, that\u2019s a tough one. I guess if that cloud of doubt could say something different, it would be more like, \u201cYou\u2019ve made it through tough times before, and you can do it again.\u201d Or maybe, \u201cIt\u2019s okay to take your time; every step counts, no matter how small.\u201d I think I\u2019d want it to remind me that vulnerability doesn\u2019t always lead to pain and that it\u2019s okay to hope for connection. It would be nice if it could just acknowledge that it\u2019s scary but also that I deserve to feel safe and loved. I mean, I know I have the strength to try, even if it feels daunting. It\u2019s just hard to hear that voice sometimes when the doubt feels so loud. I wish I could drown it out with something more encouraging, you know?"
+    },
+    {
+      "turn": 13,
+      "speaker": "therapist",
+      "content": "Therapist: It sounds like you have a deep desire for that supportive voice to remind you of your resilience and the validity of your feelings. Acknowledging that vulnerability can lead to connection, rather than just pain, is a powerful perspective. It\u2019s understandable that the louder doubt makes it hard to hear those encouraging thoughts. When you think about nurturing that more supportive voice, what small actions or practices do you think could help amplify it in your daily life?"
+    },
+    {
+      "turn": 13,
+      "speaker": "client",
+      "content": "Ramona: Well, I think one small action could be starting a journal where I write down those positive affirmations or reminders about my strength and resilience. It might help to have something tangible to look back on when that doubt creeps in. I could also try setting aside a few moments each day to just breathe and reflect on what I\u2019m grateful for, you know? Maybe even talking to Ivan about how I\u2019m feeling could help, too\u2014like sharing those thoughts with someone who cares. It\u2019s just... I guess I worry about how he might react, but having that conversation could be a step toward feeling more connected. I just need to remind myself that it\u2019s okay to take these things one day at a time. But then, there\u2019s always that nagging fear of being vulnerable and what that might bring. It\u2019s like I want to believe in those small actions, but the doubt still lingers."
+    },
+    {
+      "turn": 14,
+      "speaker": "therapist",
+      "content": "Therapist: It sounds like you have some meaningful ideas for nurturing that supportive voice, like starting a journal and taking moments for gratitude. It\u2019s great that you\u2019re considering sharing your feelings with Ivan, even though there\u2019s that worry about vulnerability and his reaction. It\u2019s completely natural to feel that fear when opening up to someone. As you think about these actions, what do you think might help you manage that fear of vulnerability, especially when you\u2019re taking those first steps?"
+    },
+    {
+      "turn": 14,
+      "speaker": "client",
+      "content": "Ramona: Well, I think managing that fear might start with reminding myself that vulnerability doesn\u2019t always lead to negative outcomes. I mean, I could try to focus on the possibility that opening up could actually bring us closer together instead of pushing us apart. Maybe I could practice some self-compassion, like telling myself it\u2019s okay to feel scared and that everyone has their own struggles. I could also visualize how I want the conversation with Ivan to go, imagining a positive outcome instead of the worst-case scenario. It might help to have a few phrases ready in my mind to express how I\u2019m feeling, so I don\u2019t feel so lost in the moment. But, you know, even with all that, there\u2019s still that little voice saying, \u201cWhat if he doesn\u2019t understand?\u201d It\u2019s just... I guess I have to keep reminding myself that taking those small steps is part of the process, even if it feels daunting."
+    },
+    {
+      "turn": 15,
+      "speaker": "therapist",
+      "content": "Therapist: It sounds like you\u2019re really working to shift your perspective on vulnerability, focusing on the potential for connection rather than fear. I hear you wanting to practice self-compassion and prepare for the conversation with Ivan, which can be really helpful. That little voice of doubt still seems to linger, though, reminding you of the risks involved. When you think about that voice saying, \u201cWhat if he doesn\u2019t understand?\u201d how does that impact your feelings about opening up to him?"
+    },
+    {
+      "turn": 15,
+      "speaker": "client",
+      "content": "Ramona: Well, when that voice pops up, it definitely makes me feel more hesitant. It\u2019s like a weight on my chest, reminding me of all the times I\u2019ve felt misunderstood or dismissed. I start to second-guess whether it\u2019s even worth the risk of opening up. I mean, I want to believe that he\u2019ll be supportive, but that doubt just makes it hard to trust that he\u2019ll react the way I hope he will. It\u2019s frustrating because I know he\u2019s been trying to be more considerate, but that little voice just keeps whispering, \u201cWhat if he doesn\u2019t get it?\u201d It makes me want to retreat and keep everything bottled up instead of taking that leap. I guess it\u2019s just this constant push and pull between wanting to connect and fearing that I\u2019ll be hurt again. It\u2019s exhausting, really."
+    },
+    {
+      "turn": 16,
+      "speaker": "therapist",
+      "content": "Therapist: It sounds like that doubt really weighs heavily on you, making it difficult to trust in Ivan's support and causing you to hesitate when it comes to opening up. I can hear how that push and pull between wanting to connect and fearing hurt is exhausting for you. It\u2019s understandable to feel that way, especially when past experiences linger in your mind. When you think about those times you felt misunderstood or dismissed, what do you think you needed in those moments that might help you now as you consider sharing with Ivan?"
+    },
+    {
+      "turn": 16,
+      "speaker": "client",
+      "content": "Ramona: You know, looking back, I think what I really needed in those moments was validation. Just someone to say, \u201cI see you, and your feelings matter.\u201d It would have helped to have someone really listen without judgment, to let me know it was okay to feel what I was feeling. I guess I wanted reassurance that I wasn\u2019t alone in my struggles, that it was okay to be vulnerable and that my experiences were valid. I think that\u2019s what I\u2019m hoping for with Ivan, too\u2014just that he can understand where I\u2019m coming from and not dismiss my feelings. But then, there\u2019s that nagging worry that I might not get that response, and it makes me want to hold back. It\u2019s like I\u2019m caught between wanting to express myself and fearing that it won\u2019t be received the way I need it to be. It\u2019s just... I wish I could feel more certain about how he might react."
+    },
+    {
+      "turn": 17,
+      "speaker": "therapist",
+      "content": "Therapist: It sounds like validation and understanding are really important to you, especially when you\u2019re feeling vulnerable. I can hear how much you long for that reassurance from Ivan, to feel seen and accepted in your struggles. It\u2019s tough to navigate that uncertainty about how he might respond, especially when past experiences have left you feeling dismissed. As you think about this desire for validation, what do you think would help you communicate that need to Ivan in a way that feels safe for you?"
+    },
+    {
+      "turn": 17,
+      "speaker": "client",
+      "content": "Ramona: Well, I think it might help to start by being honest about my feelings right from the beginning. I could say something like, \u201cI really need you to hear me out and understand where I\u2019m coming from.\u201d Maybe I could express how important it is for me to feel validated and that I\u2019m sharing this because I want to strengthen our connection, not because I\u2019m trying to push him away. I could also ask him to just listen without jumping in with solutions or judgments right away. It might feel safer to set those expectations upfront, so he knows what I need in that moment. But then, there\u2019s still that fear of how he might react to me laying it all out there. I guess I just have to remind myself that being clear about my needs is a step toward building trust, even if it feels a bit scary. It\u2019s just... I wish I could shake off that worry and feel more confident about it all."
+    },
+    {
+      "turn": 18,
+      "speaker": "therapist",
+      "content": "Therapist: It sounds like you have a thoughtful approach to communicating your needs with Ivan, emphasizing honesty and setting clear expectations for the conversation. I can see how that clarity could help create a safer space for both of you. Yet, that lingering fear of how he might react still feels challenging. When you think about that fear, what do you think it\u2019s telling you about your needs or hopes for this conversation?"
+    },
+    {
+      "turn": 18,
+      "speaker": "client",
+      "content": "Client: Ramona: You know, I think that fear is really just a reflection of how much I want this to go well. It\u2019s like a reminder that I care deeply about our connection and that I really hope he\u2019ll be there for me in the way I need. But at the same time, it\u2019s also telling me that I\u2019m still carrying those past wounds, and it makes me question whether I can truly trust him to respond the way I hope. I guess it highlights my need for reassurance, not just from him but also from myself\u2014that it\u2019s okay to be vulnerable and that I deserve to be heard and understood. It\u2019s frustrating because I want to believe in the possibility of a positive outcome, but that fear just keeps pulling me back. I want to feel confident that I can express myself without the weight of that doubt hanging over me. It\u2019s just... I wish I could find a way to balance that fear with the hope I have for our relationship."
+    },
+    {
+      "turn": 19,
+      "speaker": "therapist",
+      "content": "Therapist: It sounds like that fear really underscores how much you value your connection with Ivan and your desire for reassurance, both from him and yourself. It\u2019s understandable to feel torn between wanting to express yourself and the weight of past experiences that make trust difficult. Balancing that fear with hope is a delicate process. As you reflect on this, what do you think might help you nurture that hope, even in the face of uncertainty?"
+    },
+    {
+      "turn": 19,
+      "speaker": "client",
+      "content": "Ramona: Well, I think nurturing that hope might start with reminding myself of the progress we've made together. I mean, there have been moments where Ivan has shown he can be supportive and understanding, and I need to hold onto those memories instead of letting the fear overshadow them. Maybe I could also try to focus on the small victories, like when I do share something and it goes well, instead of fixating on the potential negatives. It might help to visualize those positive interactions more often, you know? I could also lean into my own strengths, like the fact that I\u2019m working on being more open and honest, which is a big step for me. It\u2019s just... I guess I have to keep reminding myself that hope doesn\u2019t mean ignoring the fear; it\u2019s about acknowledging it and still choosing to move forward. But, honestly, it can feel like such a balancing act, and I just wish it didn\u2019t have to be so complicated."
+    },
+    {
+      "turn": 20,
+      "speaker": "therapist",
+      "content": "Therapist: It sounds like you\u2019re really trying to cultivate hope by reflecting on the positive moments with Ivan and recognizing your own progress in being more open. Acknowledging that hope and fear can coexist is a significant insight. I can see how it feels like a balancing act for you, and it\u2019s understandable to wish it were simpler. When you think about those small victories and the strengths you\u2019re leaning into, how do you feel about taking those steps forward, even if it feels complicated?"
+    },
+    {
+      "turn": 20,
+      "speaker": "client",
+      "content": "Ramona: Well, I think when I focus on those small victories, it does give me a bit of a boost, you know? It\u2019s like a little reminder that I\u2019m capable of moving forward, even if it feels messy. I mean, I can feel a flicker of hope when I think about how I\u2019ve managed to express myself in the past, even if it was just a little bit. But then, there\u2019s still that nagging worry that creeps in, making me question if I can keep that momentum going. It\u2019s almost like I\u2019m walking a tightrope\u2014one step forward, and then I feel like I might stumble back. I guess I just need to keep reminding myself that it\u2019s okay to take it one step at a time. But, honestly, the thought of having to navigate all those feelings and uncertainties can be a bit overwhelming. I just wish I could feel more assured that I won\u2019t fall off that tightrope."
+    },
+    {
+      "turn": 21,
+      "speaker": "therapist",
+      "content": "Therapist: It sounds like those small victories do provide you with a sense of capability and hope, even if the journey feels a bit precarious at times. I can hear how the tightrope metaphor captures the delicate balance you\u2019re navigating between progress and the fear of stumbling. It\u2019s completely understandable to feel overwhelmed by the uncertainties that come with this process. As you think about taking it one step at a time, what do you think might help you feel more grounded or supported as you move forward?"
+    },
+    {
+      "turn": 21,
+      "speaker": "client",
+      "content": "Ramona: You know, I think finding ways to ground myself could really help. Maybe I could establish some routines or practices that remind me to stay present, like journaling my thoughts or even just taking a few deep breaths before I talk to Ivan. It might also be helpful to have a support system in place, like talking to a friend who understands what I\u2019m going through. Just having someone to bounce ideas off of or to remind me of my progress could make a difference. I guess I need to create a little safety net for myself, so when those fears start to creep in, I have something to lean on. It\u2019s just... I wish I didn\u2019t have to rely on so many external things to feel steady. It feels like I should be able to do this on my own, but I know that\u2019s not always realistic."
+    },
+    {
+      "turn": 22,
+      "speaker": "therapist",
+      "content": "Therapist: It sounds like you\u2019re recognizing the importance of grounding practices and a support system to help you navigate those fears and uncertainties. Creating a safety net for yourself feels like a proactive step, even if it can be challenging to rely on external support. It\u2019s completely normal to seek out resources and connections as you work through these feelings. When you think about those routines or practices, which one feels the most accessible or appealing to start with?"
+    },
+    {
+      "turn": 22,
+      "speaker": "client",
+      "content": "Ramona: Well, I think journaling might be the most accessible for me to start with. It\u2019s something I can do on my own time, and it feels like a safe space to really unpack my thoughts and feelings without any pressure. I can write down what I\u2019m feeling in the moment, maybe even jot down those small victories or positive interactions with Ivan. It might help me process things more clearly and remind myself of my progress. Plus, I can always look back on it later when I\u2019m feeling uncertain, which could be comforting. I guess it\u2019s just a matter of making it a regular part of my routine. But, you know, I still worry about whether I\u2019ll stick to it or if it will really help. It\u2019s like I want to believe it will make a difference, but that doubt lingers."
+    },
+    {
+      "turn": 23,
+      "speaker": "therapist",
+      "content": "Therapist: It sounds like journaling feels like a safe and accessible way for you to process your thoughts and reflect on your progress. I can see how it could serve as both a tool for clarity and a source of comfort when doubts arise. It\u2019s completely natural to have concerns about sticking to a new routine or whether it will be effective. When you think about those doubts, what do you think they reveal about your hopes for this journaling practice or your journey overall?"
+    },
+    {
+      "turn": 23,
+      "speaker": "client",
+      "content": "Ramona: You know, those doubts really highlight how much I want this to work for me. It\u2019s like I\u2019m hoping that journaling can be a way to solidify my progress and give me a clearer perspective on my feelings. But at the same time, that fear of not following through or not seeing the results I want just makes me question if I\u2019m capable of making this change. I guess it\u2019s a reflection of my desire for stability and reassurance in my journey. I want to believe that I can create a routine that helps me feel more grounded, but that nagging voice in my head keeps reminding me of past failures or times when I didn\u2019t stick to something. It\u2019s frustrating because I really want to embrace this opportunity for growth, but I just wish I could silence that doubt and feel more confident in my ability to follow through. It\u2019s like I\u2019m caught between wanting to take that leap and being held back by my own fears."
+    },
+    {
+      "turn": 24,
+      "speaker": "therapist",
+      "content": "Therapist: It sounds like those doubts are really tied to your deep desire for stability and reassurance as you embark on this journey of growth. It\u2019s understandable to feel frustrated when past experiences weigh on your confidence. Acknowledging that tension between wanting to leap forward and feeling held back by fear is an important step. As you think about this struggle, what do you think might help you navigate those doubts and find a way to embrace the opportunity for growth, even if it feels uncertain?"
+    },
+    {
+      "turn": 24,
+      "speaker": "client",
+      "content": "Ramona: You know, I think maybe it could help to remind myself that it\u2019s okay to have doubts and that they don\u2019t define my ability to move forward. I mean, everyone has moments of uncertainty, right? Maybe I could try to reframe those doubts as just part of the process instead of seeing them as roadblocks. It might also be beneficial to set some small, achievable goals for my journaling practice, like just writing for a few minutes a day instead of expecting myself to do it perfectly. That way, I can celebrate those little wins without putting too much pressure on myself. I guess I just need to be kinder to myself and recognize that growth isn\u2019t always linear. It\u2019s just... I wish I could shake off that feeling of being stuck sometimes, but I\u2019m starting to see that it\u2019s all part of the journey, even if it feels messy."
+    },
+    {
+      "turn": 25,
+      "speaker": "therapist",
+      "content": "Therapist: It sounds like you\u2019re beginning to find a more compassionate perspective toward your doubts, recognizing that they\u2019re a natural part of the journey rather than a barrier. Setting small, achievable goals for your journaling practice seems like a gentle way to approach this without overwhelming yourself. I can sense that you\u2019re striving to be kinder to yourself and to embrace the messiness of growth. When you think about celebrating those little wins, how do you envision acknowledging your progress along the way?"
+    },
+    {
+      "turn": 25,
+      "speaker": "client",
+      "content": "Ramona: Well, I think acknowledging my progress could be as simple as taking a moment to reflect on what I\u2019ve written in my journal. Maybe I could set aside a specific time each week to look back at those entries and recognize the small victories, even if they seem minor. I could also reward myself in little ways, like treating myself to something nice or doing something I enjoy after I\u2019ve completed a few journaling sessions. It\u2019s like giving myself permission to celebrate those moments, no matter how small. I guess I just want to create a habit of recognizing that I\u2019m making strides, even if they\u2019re not always obvious. But, you know, there\u2019s still that part of me that worries I might not be consistent with it, and I just wish I could feel more confident in my ability to stick with it. It\u2019s like I want to believe I can do this, but that doubt keeps creeping in."
+    }
+  ],
+  "judge_model": "gpt-4o-mini",
+  "mediator_events": [
+    "Openness judge rated 3/5 and updated prompt openness.",
+    "Openness judge output: **Rating:** 3\n\n**Key Examples:**\n1. **Emotional State:** \"Well, I suppose there's a lot on my mind, but it's hard to pinpoint just one thing, you know? I mean, sometimes it feels like everything just piles up, and I get overwhelmed.\"\n2. **Current Openness:** \"I don't want to dive into things that might just make me feel worse, you know? So, I guess I'm just trying to figure out where to start.\"\n\n**Progression:** The client\u2019s most recent interactions indicate a growing awareness of their emotional state, particularly the feeling of being overwhelmed. This marks a significant change from earlier sessions where the client may have provided more factual responses with limited emotional depth. In the latest exchanges, there is a blend of emotional expression and acknowledgment of their struggles, suggesting that the client is beginning to engage more deeply with their feelings and thoughts.\n\n**Turning Point:** The client\u2019s emotional depth shifted during this session when they began expressing feelings of being overwhelmed and the complexity of their thoughts regarding Ivan. This moment signifies a transition from a more guarded stance to a willingness to explore their emotions, even if they are hesitant about diving into potentially painful topics. The acknowledgment of their emotional state and the desire to find a starting point for discussion reflects a deeper level of self-reflection and engagement than previously observed.",
+    "Exploration judge rated 2/5; internal elements remain masked.",
+    "Exploration judge output: [Rating]: 2 (High Facilitation)\n\n[Justification]: The therapist's question is clear and relevant, encouraging the client to think more deeply about their feelings of overwhelm and the situation with Ivan. However, while the therapist does provide an opportunity for the client to explore their thoughts, the question primarily expands on the client's existing feelings without significantly challenging their thought patterns or introducing new perspectives. The therapist acknowledges the client's hesitance and offers a choice, which is supportive but does not push the client towards deeper self-reflection or a transformative insight.",
+    "Openness judge rated 3/5 and updated prompt openness.",
+    "Openness judge output: **Rating: 3 (ENGAGED EXPLORATION)**\n\n**Key Examples:**\n1. \"It\u2019s just frustrating because I feel like I should be able to handle this better, but here I am, stuck in my head.\"\n2. \"I\u2019m stuck between wanting to be brave and wanting to protect myself.\"\n\n**Progression:** In the most recent interactions, Ramona demonstrates a notable increase in emotional expression and self-reflection compared to earlier exchanges. She articulates her feelings of being overwhelmed and the internal conflict between wanting to address her issues with Ivan and the fear of emotional vulnerability. This marks a significant change from earlier in the session, where her responses were more hesitant and fact-based. The depth of her emotional vocabulary has expanded, indicating a growing comfort in exploring her feelings.\n\n**Turning Point:** The client\u2019s emotional depth shifted when she began expressing her internal struggle with wanting to be brave while also feeling the need to protect herself. This moment highlighted her vulnerability and willingness to engage with her emotions, suggesting a deeper level of self-awareness and a stronger connection with the therapeutic process.",
+    "Exploration judge rated 3/5; internal elements remain masked.",
+    "Exploration judge output: [Rating]: 3 (Very High Facilitation \u2013 Deep Exploration Begins)\n\n[Justification]: The Therapist asked insightful and thought-provoking questions that encouraged the client to analyze their feelings and thoughts about discussing Ivan. By acknowledging the client's feelings of being overwhelmed and the tension between bravery and self-protection, the Therapist facilitated deeper self-reflection. The question about what the client has felt in the past that contributes to their hesitation was particularly effective in prompting the client to explore the emotional depth behind their experiences. While the questions did not completely shift the client's perspective, they did begin to uncover underlying patterns and fears, which is indicative of very high facilitation.",
+    "Openness judge rated 3/5 and updated prompt openness.",
+    "Openness judge output: **Rating: 3 (ENGAGED EXPLORATION)**\n\n**Key Examples:**\n1. **Emotional State:** \"It\u2019s like I want to talk about it, but then I think, what if it just brings up all those feelings again? Like, I don\u2019t want to feel anxious or scared, you know?\"\n2. **Current Openness:** \"I remember feeling this wave of shame wash over me, like I had made a huge mistake by trusting someone with my feelings.\"\n\n**Progression:** The client\u2019s most recent interactions demonstrate a notable increase in emotional expression and self-reflection. Initially, Ramona appeared hesitant and overwhelmed, struggling to pinpoint her feelings. However, she has begun to articulate her emotions more clearly, discussing the tightness in her chest and the racing thoughts that accompany her anxiety about opening up. This marks a significant change from earlier exchanges where her responses were more factual and less emotionally nuanced.\n\n**Turning Point:** The client\u2019s emotional depth shifted during her reflection on past experiences of vulnerability, particularly when she described feeling \"exposed and raw\" after opening up to someone who judged her. This moment of vulnerability allowed her to connect her past feelings of shame and insignificance to her current hesitance to discuss her feelings about Ivan. This self-awareness indicates a deeper engagement with her emotions and a willingness to explore the complexities of her feelings, which is a significant step forward in her therapeutic journey.",
+    "Exploration judge rated 3/5; internal elements remain masked.",
+    "Exploration judge output: [Rating]: 3 (Very High Facilitation \u2013 Deep Exploration Begins)\n\n[Justification]: The therapist asked insightful and thought-provoking questions that helped the client analyze the root causes of their hesitation to discuss Ivan. By encouraging Ramona to delve into her feelings of vulnerability, fear, and past experiences, the therapist facilitated a deeper exploration of her emotional landscape. The questions prompted Ramona to reflect on her past experiences and how they influence her current feelings, leading to a more profound understanding of her internal struggles. While the questions did not completely shift Ramona's perspective, they did encourage higher-level self-reflection and exploration of her emotions, indicating a very high level of facilitation.",
+    "Openness judge rated 4/5 and updated prompt openness.",
+    "Openness judge output: **Rating: 4 (DEEP ENGAGEMENT)**\n\n**Key Examples:**\n1. \"It\u2019s like I want to talk about it, but then I think, what if it just brings up all those feelings again? Like, I don\u2019t want to feel anxious or scared, you know?\"\n2. \"When I hold back, it\u2019s like this heavy weight just settles in my chest, you know? I feel this mix of frustration and sadness, like I\u2019m carrying around this burden that I can\u2019t quite let go of.\"\n\n**Progression:**\nThe client's most recent interactions demonstrate a significant emotional depth, particularly in their willingness to articulate feelings of anxiety, fear, and frustration. This marks a notable change from earlier in the session, where the client exhibited hesitance and a more defensive stance. The client is now expressing complex emotions and reflecting on their past experiences with vulnerability, indicating a deeper level of engagement and self-reflection.\n\n**Turning Point:**\nThe client's emotional depth shifted notably when they began to articulate their feelings of shame and insignificance from past experiences. This moment occurred when they shared, \"I remember feeling this wave of shame wash over me, like I had made a huge mistake by trusting someone with my feelings.\" This expression of vulnerability led to a more open dialogue and a stronger therapeutic alliance, allowing for a natural flow of conversation that reflects their current emotional state. The client is now actively exploring their feelings and fears, which enhances the rapport with the therapist and indicates a readiness to engage more deeply in the therapeutic process.",
+    "Exploration judge rated 3/5; internal elements remain masked.",
+    "Exploration judge output: [Rating]: 3 (Very High Facilitation \u2013 Deep Exploration Begins)\n\n[Justification]: The therapist's questions effectively encouraged the client to delve into their feelings and experiences related to vulnerability and past trauma. The therapist's inquiries prompted the client to analyze the root causes of their hesitation and fear, leading to a deeper understanding of their emotional state. The exploration of the client's feelings of shame, insignificance, and the tension between wanting to connect and the fear of rejection facilitated significant self-reflection. However, while the therapist's questions were insightful and led to a deeper exploration, they did not fully challenge the client's existing thought patterns or introduce completely new perspectives that would lead to a major breakthrough. Thus, the facilitation is rated as \"Very High\" but not at the level of \"Even Higher Facilitation\" or \"Profound Breakthrough.\"",
+    "Openness judge rated 3/5 and updated prompt openness.",
+    "Openness judge output: **Rating: 3 (ENGAGED EXPLORATION)**\n\n**Key Examples:**\n1. \"It\u2019s just frustrating because I know that being vulnerable can lead to connection, but then I remember how painful it can be, and it just makes me want to shut down.\"\n2. \"I guess it would mean feeling more comfortable sharing my thoughts without that constant fear hanging over me. I imagine it would feel like a weight lifting, you know?\"\n\n**Progression:**\nIn the most recent exchanges, Ramona demonstrates a notable increase in emotional expression and self-reflection. She articulates her feelings of frustration and sadness regarding vulnerability, indicating a deeper level of emotional engagement compared to earlier in the session. Initially, her responses were more hesitant and factual, but she has progressed to sharing complex emotions and thoughts about her experiences with Ivan and her past. This shift marks a significant change from earlier moments where she struggled to pinpoint her feelings and was more focused on the fear of opening up.\n\n**Turning Point:**\nA notable turning point occurred when Ramona described her past experience of feeling judged after being vulnerable. This moment of reflection allowed her to articulate the emotional weight she carries and the internal conflict between wanting to connect and the fear of rejection. This acknowledgment of her feelings and the subsequent exploration of her desire to take small steps towards vulnerability signifies a shift towards deeper emotional processing and engagement with the therapeutic process.",
+    "Exploration judge rated 4/5 and revealed internal cognitive elements.",
+    "Exploration judge output: [Rating]: 4 (Even Higher Facilitation \u2013 Strong Transformational Potential)\n\n[Justification]: The therapist asked strategic and open-ended questions that encouraged the client to explore their feelings of vulnerability and fear of judgment in depth. The therapist's inquiries prompted the client to reflect on their past experiences, the emotions tied to those experiences, and how they influence their current behavior. By asking about the feelings associated with holding back and what breaking the cycle might look like, the therapist helped the client uncover deeper insights about their emotional state and the barriers they face. This line of questioning challenged the client to think critically about their patterns of behavior and consider new perspectives on vulnerability and connection. The conversation facilitated a clear shift in self-awareness, particularly as the client began to articulate a desire for smaller, manageable steps toward vulnerability. Overall, the therapist's approach demonstrated strong transformational potential, pushing the client to explore complex emotions and consider actionable steps forward.",
+    "Openness judge rated 4/5 and updated prompt openness.",
+    "Openness judge output: **Rating: 4 (DEEP ENGAGEMENT)**\n\n**Key Examples:**\n1. \"It\u2019s like I\u2019m stuck in this limbo where I want to express myself, but I can\u2019t find the words or the courage to do it. I start to feel isolated, like I\u2019m in my own little bubble while everyone else is out there connecting.\"\n2. \"Well, breaking that cycle... I guess it would mean feeling more comfortable sharing my thoughts without that constant fear hanging over me. I imagine it would feel like a weight lifting, you know?\"\n\n**Progression:**\nIn the most recent interactions, Ramona demonstrates a significant emotional depth and openness that marks a clear progression from earlier stages. Initially, her dialogue was characterized by hesitance and a focus on the complexities of her feelings, but she has since moved into a space of deeper self-reflection and emotional expression. Her acknowledgment of feeling isolated and the desire to break the cycle of fear indicates a growing comfort with vulnerability and a willingness to explore her emotions more thoroughly. This shift reflects a strong therapeutic alliance, as she is now able to articulate her feelings of frustration and sadness more clearly, showing a consistent emotional depth.\n\n**Turning Point:**\nA notable turning point occurred when Ramona began to articulate her feelings of isolation and the internal struggle she faces between wanting to connect and fearing rejection. This moment marked a shift from merely discussing her fears to expressing the emotional weight of those fears, allowing for a more authentic exploration of her vulnerabilities. Her willingness to consider small steps towards vulnerability, alongside her recognition of the heavy cloud of doubt, illustrates a significant increase in her emotional openness and self-awareness.",
+    "Openness judge rated 4/5 and updated prompt openness.",
+    "Openness judge output: **Rating: 4 (DEEP ENGAGEMENT)**\n\n**Key Examples:**\n1. \"It\u2019s like I want to talk about it, but then I think, what if it just brings up all those feelings again? Like, I don\u2019t want to feel anxious or scared, you know?\"\n2. \"I guess if that cloud of doubt could say something different, it would be more like, 'You\u2019ve made it through tough times before, and you can do it again.'\"\n\n**Progression:** The client\u2019s most recent interactions demonstrate a significant increase in emotional depth and self-reflection. Initially, Ramona expressed feelings of being overwhelmed and hesitant to delve into her emotions, but as the session progressed, she articulated her fears and vulnerabilities with greater clarity. This shift indicates a deeper engagement with her feelings and a growing comfort in sharing them with the therapist. The client has moved from a place of uncertainty and fear to a more nuanced understanding of her emotional landscape, showcasing a willingness to explore her vulnerabilities and the impact of past experiences on her current state.\n\n**Turning Point:** The client\u2019s emotional depth shifted notably when she began to articulate the specific feelings associated with her past experiences of vulnerability, particularly when she stated, \"I felt so exposed and raw afterward.\" This moment marked a transition from general feelings of anxiety to a more profound exploration of her emotional pain and the fear of being judged. It was a pivotal moment where she began to connect her past experiences with her current hesitations, allowing for a deeper therapeutic engagement.",
+    "Openness judge rated 4/5 and updated prompt openness.",
+    "Openness judge output: **Rating: 4 (DEEP ENGAGEMENT)**\n\n**Key Examples:**\n1. **Emotional Depth:** \"Well, when I hold back, it\u2019s like this heavy weight just settles in my chest, you know? I feel this mix of frustration and sadness, like I\u2019m carrying around this burden that I can\u2019t quite let go of.\"\n2. **Openness and Vulnerability:** \"I guess if that cloud of doubt could say something different, it would be more like, 'You\u2019ve made it through tough times before, and you can do it again.' Or maybe, 'It\u2019s okay to take your time; every step counts, no matter how small.'\"\n\n**Progression:** The client has shown a significant increase in emotional depth and self-reflection throughout the session. Initially, Ramona expressed feelings of being overwhelmed and hesitant to dive into her emotions, indicating a defensive stance. However, as the session progressed, she began to articulate her feelings of frustration, sadness, and isolation more clearly. This shift demonstrates a growing comfort with the therapist and a willingness to explore her vulnerabilities, marking a notable change from her earlier hesitance.\n\n**Turning Point:** The turning point in Ramona's emotional depth occurred when she shared her experiences of feeling judged and dismissed in the past. This moment allowed her to connect her current fears about vulnerability with her past experiences, leading to a more profound understanding of her emotional landscape. Her ability to articulate the heaviness of doubt and the desire for connection indicates a strong therapeutic alliance and a willingness to engage in deeper self-exploration.",
+    "Openness judge rated 4/5 and updated prompt openness.",
+    "Openness judge output: **Rating: 4 (DEEP ENGAGEMENT)**\n\n**Key Examples:**\n1. \"It\u2019s like I want to talk about it, but then I think, what if it just brings up all those feelings again? Like, I don\u2019t want to feel anxious or scared, you know?\"\n2. \"You know, looking back, I think what I really needed in those moments was validation. Just someone to say, 'I see you, and your feelings matter.'\"\n\n**Progression:**\nThe client\u2019s most recent interactions demonstrate a significant emotional depth, particularly in their willingness to articulate fears and past experiences that contribute to their current hesitance in being vulnerable. The client has moved from a state of confusion and avoidance regarding their feelings about Ivan to a more open exploration of those emotions, showing a clear progression in their engagement level. They are now expressing a desire for validation and understanding, indicating a deeper level of self-reflection and emotional expression than earlier in the session.\n\n**Turning Point:**\nThe client\u2019s emotional depth shifted notably when they began to articulate their need for validation and understanding, particularly in their statement about needing someone to acknowledge their feelings. This moment marked a transition from merely expressing fear to actively seeking connection and support, demonstrating an authentic vulnerability that enhances the therapeutic alliance. The client is now more engaged in the process, indicating a readiness to explore their feelings further and consider the possibility of taking small steps toward vulnerability.",
+    "Openness judge rated 4/5 and updated prompt openness.",
+    "Openness judge output: **Rating: 4 (DEEP ENGAGEMENT)**\n\n**Key Examples:**\n1. \"It feels like I should be able to handle this better, but here I am, stuck in my head.\"\n2. \"I guess it makes me really cautious, you know? I mean, I want to be open and honest, but I also feel like I have to tiptoe around my feelings.\"\n\n**Progression:**\nIn the most recent exchanges, Ramona demonstrates a significant emotional depth and vulnerability that indicates a strong therapeutic alliance. She articulates her feelings of being overwhelmed and the tension between her desire to connect and her fear of being hurt. This marks a notable shift from earlier in the session when her responses were more tentative and focused on the complexities of her situation without delving deeply into her emotions. The current exchanges reflect a willingness to explore her feelings more openly, indicating a deeper engagement with the therapeutic process.\n\n**Turning Point:**\nA notable turning point occurred when Ramona began to articulate her past experiences of vulnerability and the fear they instilled in her. For instance, when she shared, \"I felt so exposed and raw afterward,\" she transitioned from discussing her fears to expressing the emotional weight of her past experiences. This moment marked a shift towards authentic vulnerability, allowing her to explore her needs for validation and understanding in her relationship with Ivan. The depth of her self-reflection and emotional expression has significantly increased, showcasing her growth in the therapeutic space.",
+    "Openness judge rated 4/5 and updated prompt openness.",
+    "Openness judge output: **Rating: 4 (DEEP ENGAGEMENT)**\n\n**Key Examples:**\n1. **Emotional Depth:** \"It\u2019s like I want to believe in those small actions, but the doubt still lingers.\" This statement reflects a significant level of self-awareness and emotional complexity, indicating the client is grappling with their feelings of hope and fear.\n   \n2. **Vulnerability:** \"I guess I need to remind myself that it\u2019s okay to take it slow, but that voice in my head keeps pushing me to be braver than I feel.\" This shows the client\u2019s willingness to acknowledge their internal struggles and the pressure they feel, demonstrating authentic vulnerability.\n\n**Progression:**\nThe client\u2019s most recent interactions reveal a marked increase in emotional depth and self-reflection compared to earlier exchanges. Initially, Ramona expressed feelings of being overwhelmed and hesitant, primarily focusing on her fears and past experiences. However, in the latest exchanges, she articulates her feelings with greater clarity, exploring the nuances of her emotional state, such as the tension between wanting to connect and fearing vulnerability. This progression indicates a deepening of her emotional engagement and a stronger therapeutic alliance with the therapist.\n\n**Turning Point:**\nA notable turning point occurred when the client began to articulate her needs for validation and understanding. For instance, when she stated, \"I think what I really needed in those moments was validation. Just someone to say, 'I see you, and your feelings matter,'\" it marked a shift from merely discussing her fears to expressing a desire for connection and support. This moment of clarity allowed her to explore her feelings more openly, demonstrating a significant increase in emotional depth and self-reflection.",
+    "Openness judge rated 4/5 and updated prompt openness.",
+    "Openness judge output: **Rating: 4 (DEEP ENGAGEMENT)**\n\n**Key Examples:**\n1. \"It\u2019s like I want to believe in those small actions, but the doubt still lingers.\" \n2. \"You know, looking back, I think what I really needed in those moments was validation. Just someone to say, 'I see you, and your feelings matter.'\"\n\n**Progression:** The client\u2019s recent interactions reveal a significant increase in emotional depth and self-reflection. They have moved from a place of hesitance and fear to articulating their needs for validation and connection. This shift marks a notable change from earlier in the session, where their responses were more guarded and focused on the fear of vulnerability. The client is now actively exploring their feelings and articulating their desires for connection and understanding, indicating a deeper emotional engagement with the therapeutic process.\n\n**Turning Point:** The client\u2019s emotional depth shifted notably during the exchange where they expressed their need for validation and understanding, stating, \"I see you, and your feelings matter.\" This moment highlighted their vulnerability and desire for connection, moving beyond mere apprehension to a more profound exploration of their emotional landscape. This shift illustrates their growing comfort with the therapist and willingness to engage in deeper self-exploration, marking a significant turning point in their emotional openness."
+  ],
+  "moderator_events": [],
+  "retrieval_events": [],
+  "final_openness_score": 4,
+  "final_visible_experience_count": 1,
+  "internal_revealed": true
+}

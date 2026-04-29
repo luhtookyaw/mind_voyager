@@ -1,0 +1,65 @@
+{
+  "aggregate": {
+    "num_sessions": 1,
+    "edss": {
+      "situation": 0.4560192162815034,
+      "automatic_thought": 0.5728189598384092,
+      "emotion": 0.5508649625576171,
+      "behavior": 0.2589335603156419,
+      "average": 0.4596591747482929
+    },
+    "idss": {
+      "relevant_history": 0.6564013687096366,
+      "core_beliefs": 0.6280025387923032,
+      "intermediate_beliefs": 0.4204459739380686,
+      "coping_strategies": 0.5520072539844044,
+      "average": 0.5642142838561032
+    }
+  },
+  "sessions": [
+    {
+      "file": "/home/lu/Thesis/mind_voyager/outputs/random10_comparison/retrieval/hard/session_2-1.json",
+      "case_id": "2-1",
+      "client_mode": "masked",
+      "difficulty": "hard",
+      "predicted_external_diagram": {
+        "situation": "Blaise feels pressure to meet parents' expectations and worries about their reaction if not going along with their wishes.",
+        "automatic_thought": "What if they get angry? Or worse, what if they just stop talking to me?",
+        "emotion": "anxiety, frustration, guilt",
+        "behavior": "Blaise ends up nodding along, even if it doesn\u2019t feel right."
+      },
+      "ground_truth_external_diagram": {
+        "situation": "Talk with parents about wedding list and encounter some disagreements on inviting certain family members.",
+        "automatic_thought": "If I do not make compromise to them, they will be angry. If they are angry they will abandon me.",
+        "emotion": "anxious, worried, fearful, scared, tense",
+        "behavior": "Pretend to be happy with parents' suggestions. Go along with parents wishes. Decreased sleep. Worry and perseveration."
+      },
+      "predicted_internal_diagram": {
+        "relevant_history": "The client reports feeling pressure to meet their parents' expectations and fears their reaction if they express their true desires, leading to anxiety, frustration, and guilt. They feel isolated and unable to express themselves, fearing confrontation and potential disappointment from their parents. The client also struggles with feelings of unlovability and inadequacy, believing they are not worthy of love or connection, which affects their ability to reach out for support.",
+        "core_beliefs": "I am not enough | I am not worthy of love or connection | I am unlovable",
+        "intermediate_beliefs": "If I express what I really want, it could lead to a big argument and disappointment. | If I don't get the response I'm hoping for, it might reinforce that feeling of being unlovable or unwanted. | The client believes that deeper connections often take time to develop and that vulnerability is part of building trust.",
+        "coping_strategies": "The client copes by trying to keep the peace with their parents, avoiding confrontation, and nodding along even when it doesn't feel right. They also consider setting small, achievable goals and using visual reminders to acknowledge moments of connection and appreciation. The client is exploring self-compassion and authenticity to navigate fears of vulnerability and is considering reaching out to friends for support."
+      },
+      "ground_truth_internal_diagram": {
+        "relevant_history": "Patient has been experiencing frustration, anxiety, and anger related to familial relationships. This is significantly influenced by a conversation regarding his wedding list with his parents, leading to insights about his feelings and actions similar to his father's pattern of seeking approval and unconditional love from family members who do not provide it.",
+        "core_beliefs": "I am powerless, weak, vulnerable. | I am trapped. | I am unlovable. | I am undesirable, unwanted. | I am bound to be abandoned. | I am bound to be alone.",
+        "intermediate_beliefs": "Patient holds the belief that one must continuously seek familial approval and support to feel safe and valued. Patient also believes that investing in unhealthy familial relationships is necessary despite ongoing distress and frustration.\nDepressive variant: During periods of low mood, the patient likely adopts more polarized views on family loyalty and support, feeling an increased sense of obligation to pursue approval, which exacerbates feelings of helplessness and rejection.",
+        "coping_strategies": "Patient tends to engage in conversations with family members about emotional support and seeks to change family dynamics, though this is often met with resistance."
+      },
+      "edss": {
+        "situation": 0.4560192162815034,
+        "automatic_thought": 0.5728189598384092,
+        "emotion": 0.5508649625576171,
+        "behavior": 0.2589335603156419,
+        "average": 0.4596591747482929
+      },
+      "idss": {
+        "relevant_history": 0.6564013687096366,
+        "core_beliefs": 0.6280025387923032,
+        "intermediate_beliefs": 0.4204459739380686,
+        "coping_strategies": 0.5520072539844044,
+        "average": 0.5642142838561032
+      }
+    }
+  ]
+}

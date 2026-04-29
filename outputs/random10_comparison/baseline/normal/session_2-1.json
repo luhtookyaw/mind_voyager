@@ -1,0 +1,308 @@
+{
+  "case_id": "2-1",
+  "client_name": "Blaise",
+  "client_mode": "masked",
+  "difficulty": "normal",
+  "openness_interval": 2,
+  "therapist_provider": "openai",
+  "therapist_model": "gpt-4o-mini",
+  "therapist_prompt_mode": "baseline",
+  "client_model": "gpt-4o-mini",
+  "moderator_enabled": false,
+  "moderator_model": "gpt-4o-mini",
+  "max_turns": 25,
+  "therapist_turns": 25,
+  "stop_reason": "max_turns",
+  "transcript": [
+    {
+      "turn": 1,
+      "speaker": "therapist",
+      "content": "Hi Blaise, I\u2019m glad you\u2019re here today. What feels most important for you to talk about right now?"
+    },
+    {
+      "turn": 1,
+      "speaker": "client",
+      "content": "Blaise: Well, I guess there\u2019s a lot going on, but I don\u2019t know if it\u2019s really worth talking about. I mean, it\u2019s just the usual stuff, you know? Like, I\u2019ve been thinking about the wedding plans and how my parents keep pushing their ideas on me. It\u2019s just... frustrating, I suppose. But, I mean, who really wants to hear about that, right?"
+    },
+    {
+      "turn": 2,
+      "speaker": "therapist",
+      "content": "Therapist: It sounds like you're feeling a mix of frustration with the wedding plans and the pressure from your parents. It's understandable to feel that way, especially when it feels like your voice might be getting lost in the process. Can you tell me more about what specifically has been frustrating you?"
+    },
+    {
+      "turn": 2,
+      "speaker": "client",
+      "content": "Blaise: Yeah, I guess it\u2019s just that they have these expectations, you know? Like, they want to invite certain relatives that I really don\u2019t think should be there. It\u2019s like, why can\u2019t they just let me have a say in my own wedding? I mean, it\u2019s supposed to be a special day for me and my partner, right? But every time I bring it up, it feels like I\u2019m just making them angry or something. I don\u2019t want to deal with that, so I just... go along with whatever they suggest. It\u2019s exhausting, honestly."
+    },
+    {
+      "turn": 3,
+      "speaker": "therapist",
+      "content": "Therapist: It sounds really tough to feel like your preferences are being overshadowed by your parents' expectations, especially for such an important occasion. It must be draining to navigate that tension between wanting to please them and wanting to assert your own wishes. How do you feel when you find yourself going along with their suggestions?"
+    },
+    {
+      "turn": 3,
+      "speaker": "client",
+      "content": "Blaise: Well, it\u2019s kind of a mixed bag, I guess. On one hand, I feel this relief, like, okay, maybe I can avoid a big fight or something. But then, there\u2019s this nagging feeling in the back of my mind, like I\u2019m just giving in and not standing up for what I really want. It\u2019s frustrating because I know it\u2019s my day too, but I just can\u2019t shake the worry that if I push back, they\u2019ll get upset. And then what? I mean, I don\u2019t want to deal with the fallout from that. So, I just... keep my mouth shut and pretend it\u2019s all fine. It\u2019s tiring, you know?"
+    },
+    {
+      "turn": 4,
+      "speaker": "therapist",
+      "content": "Therapist: It sounds like you're caught in a difficult balance between wanting to keep the peace and feeling the weight of not expressing your true desires. That relief you mentioned seems to come at a cost, leaving you feeling frustrated and exhausted. Can you share more about what it feels like to keep those feelings to yourself?"
+    },
+    {
+      "turn": 4,
+      "speaker": "client",
+      "content": "Blaise: Well, it\u2019s just... I don\u2019t know, it feels like I\u2019m carrying this heavy weight around. Like, I\u2019m smiling and acting like everything\u2019s okay, but inside, it\u2019s like this constant battle. I worry that if I say something, it\u2019ll just blow up into a bigger issue, and I really don\u2019t want that. I mean, I care about my parents, and I don\u2019t want to hurt them, but at the same time, it feels like I\u2019m losing a part of myself in all this. It\u2019s just hard to find that balance, you know? I guess I just wish I could be more honest without feeling like I\u2019m walking on eggshells all the time."
+    },
+    {
+      "turn": 5,
+      "speaker": "therapist",
+      "content": "Therapist: It sounds like you're feeling a deep internal conflict\u2014wanting to honor your parents while also feeling like you're sacrificing your own needs and identity in the process. That heavy weight you described must be really challenging to carry, especially when you\u2019re trying to maintain a sense of peace. What do you think it would look like for you to express your feelings honestly, even just a little bit?"
+    },
+    {
+      "turn": 5,
+      "speaker": "client",
+      "content": "Blaise: I mean, I guess if I could express myself honestly, it would feel like a relief, but also really scary. Like, I\u2019d want to say something like, \u201cHey, I appreciate your input, but I really want to make these decisions with my partner.\u201d But then, I can\u2019t help but think about how they might react. What if they get upset or think I\u2019m being ungrateful? I just... I don\u2019t know if I\u2019m ready for that kind of confrontation. It feels like there\u2019s so much at stake, and I don\u2019t want to risk damaging our relationship over a wedding guest list, you know? So, I just keep it all bottled up, and it\u2019s frustrating because I know I should be able to speak up."
+    },
+    {
+      "turn": 6,
+      "speaker": "therapist",
+      "content": "Therapist: It seems like expressing your feelings could bring you some relief, but the fear of your parents' reaction holds you back. That tension between wanting to be honest and worrying about the potential fallout sounds really heavy. I'm curious, what do you think is at the core of that fear? What does it mean for you if they were to react negatively?"
+    },
+    {
+      "turn": 6,
+      "speaker": "client",
+      "content": "Blaise: I guess at the core of that fear is this worry that if they react negatively, it means they don\u2019t care about what I want or that I\u2019m not important to them. It\u2019s like, if I stand up for myself and they get upset, it feels like I\u2019m risking their love or approval. I mean, I know it sounds dramatic, but it\u2019s hard not to think that way. I just want to feel like I matter in this situation, you know? But then there\u2019s this voice in my head saying that I should just be grateful for what they\u2019re doing. It\u2019s confusing because I don\u2019t want to hurt them, but I also don\u2019t want to lose myself in the process. It just feels like a tightrope walk, and I\u2019m not sure how to find solid ground."
+    },
+    {
+      "turn": 7,
+      "speaker": "therapist",
+      "content": "Therapist: It sounds like you\u2019re navigating a really complex emotional landscape, where the fear of losing your parents' love or approval feels intertwined with your desire to assert your own needs. That tightrope walk you described must feel incredibly precarious, especially when you're trying to balance gratitude with the need to feel valued yourself. I'm curious, where do you think that voice telling you to be grateful comes from? What messages or beliefs might be influencing that perspective?"
+    },
+    {
+      "turn": 7,
+      "speaker": "client",
+      "content": "Blaise: You know, I think that voice comes from a mix of things. I mean, growing up, it always felt like my parents had this idea of what was right and wrong, and I guess I internalized that. Like, if I didn\u2019t show gratitude or if I pushed back, it was almost like I was being ungrateful or disrespectful. I remember times when they\u2019d do something nice, and I\u2019d feel this pressure to show appreciation, even if I didn\u2019t really want it. It\u2019s like, I\u2019ve been conditioned to think that my feelings should take a backseat to theirs. So, when I feel this urge to speak up, that voice just jumps in and says, \u201cYou should be thankful for what they\u2019re doing.\u201d It\u2019s frustrating because it makes me second-guess myself. I mean, I want to honor their efforts, but I also want to be true to myself. It just feels like I\u2019m stuck in this loop of conflicting thoughts."
+    },
+    {
+      "turn": 8,
+      "speaker": "therapist",
+      "content": "Therapist: It sounds like you've internalized a lot of those messages about gratitude and respect from your upbringing, which makes it really challenging to navigate your own feelings and desires. That loop of conflicting thoughts must be exhausting, especially when you want to honor both your parents and yourself. I'm curious, how do you think those early experiences have shaped the way you view your own needs and feelings now?"
+    },
+    {
+      "turn": 8,
+      "speaker": "client",
+      "content": "Blaise: Yeah, it definitely has shaped a lot. I think those early experiences made me feel like my needs are less important, like they should always come second to what my parents want or expect. It\u2019s like I learned that being a good son means putting their feelings first, even if it means sacrificing my own happiness. I find myself questioning if it\u2019s okay to want something different or if I\u2019m just being selfish. It\u2019s hard to shake off that feeling that I should just accept things as they are, even if it doesn\u2019t sit right with me. Sometimes I wonder if I\u2019m just doomed to repeat this pattern, you know? Like, will I always feel this way, or can I actually find a way to break free from it?"
+    },
+    {
+      "turn": 9,
+      "speaker": "therapist",
+      "content": "Therapist: It sounds like those early experiences have really influenced how you perceive your own needs and the idea of being a good son. The feeling that your happiness should come second must weigh heavily on you. It\u2019s understandable to question whether wanting something different makes you selfish, especially when you\u2019ve been conditioned to prioritize others' feelings. I hear a sense of frustration and a desire for change in your words. What do you think it would take for you to start feeling more comfortable prioritizing your own needs?"
+    },
+    {
+      "turn": 9,
+      "speaker": "client",
+      "content": "Blaise: You know, I think it would take a lot of unlearning, if that makes sense. I mean, I\u2019d have to really challenge that voice in my head that says I should just be grateful and that my needs don\u2019t matter. It feels like I\u2019d need to build up some kind of confidence to assert myself, which is tough because I\u2019ve spent so long just going along with what everyone else wants. Maybe it would help to start with small steps, like expressing a preference here and there, but even that feels daunting. I guess I just want to feel like it\u2019s okay to want what I want without feeling guilty about it. But then there\u2019s always that fear creeping back in\u2014what if they don\u2019t react well? It\u2019s like I\u2019m stuck in this cycle of wanting to break free but feeling so tied down by those old beliefs."
+    },
+    {
+      "turn": 10,
+      "speaker": "therapist",
+      "content": "Therapist: It sounds like you recognize that unlearning those deep-seated beliefs will be a significant journey for you, and that building confidence to assert your needs feels daunting. The idea of starting with small steps is a positive one, but I can sense the weight of that fear still lingering. It must be frustrating to feel both the desire to break free and the pull of those old beliefs. What do you think might help you feel more supported as you begin to challenge that voice in your head?"
+    },
+    {
+      "turn": 10,
+      "speaker": "client",
+      "content": "Blaise: I guess feeling supported would mean having someone who understands where I\u2019m coming from, you know? Like, if I could talk to someone who gets the struggle between wanting to please my parents and wanting to be true to myself, that might help. It\u2019s just hard to find that kind of understanding, especially when I feel like I have to keep so much bottled up. Maybe if I had a friend or someone I could confide in, it would make it easier to take those small steps. But then again, I worry about burdening others with my issues. It\u2019s like I want to reach out, but there\u2019s always that nagging thought that I should just handle it on my own. It\u2019s a bit of a catch-22, really."
+    },
+    {
+      "turn": 11,
+      "speaker": "therapist",
+      "content": "Therapist: It sounds like having someone who truly understands your struggle could provide a sense of support and validation, which might make it easier for you to take those small steps. I hear you grappling with the fear of burdening others, which can make reaching out feel complicated. It\u2019s understandable to want to handle things on your own, especially when you\u2019ve been conditioned to prioritize others. I'm curious, what do you think would help you feel more comfortable reaching out for support when you need it?"
+    },
+    {
+      "turn": 11,
+      "speaker": "client",
+      "content": "Blaise: I think maybe it would help if I could remind myself that reaching out doesn\u2019t mean I\u2019m burdening someone; it\u2019s more about sharing the load, you know? Like, if I could see it as a way to connect rather than just dumping my problems on someone, it might feel less daunting. But then there\u2019s still that voice in my head telling me that I should be able to handle everything myself, that asking for help is a sign of weakness. It\u2019s frustrating because I know logically that everyone struggles and needs support sometimes, but emotionally, it feels like I should just tough it out. I guess it\u2019s about finding that balance between being vulnerable and not feeling like I\u2019m overstepping. It\u2019s just... complicated."
+    },
+    {
+      "turn": 12,
+      "speaker": "therapist",
+      "content": "Therapist: It sounds like you're starting to shift your perspective on reaching out for support, seeing it as a way to connect rather than a burden. That\u2019s a really important insight. Yet, I hear that the voice telling you to handle everything on your own still feels very strong, creating a tension between your logical understanding and your emotional experience. It must be challenging to navigate that complexity. I'm curious, what do you think would help you challenge that voice when it comes up, especially in moments when you feel the urge to reach out?"
+    },
+    {
+      "turn": 12,
+      "speaker": "client",
+      "content": "Blaise: I think, maybe, it would help to remind myself of times when I\u2019ve reached out and it actually felt good, you know? Like, there have been moments when talking to someone lightened the load, even if it was just a little. If I could focus on those positive experiences, it might make it easier to push back against that voice. But then, I also worry about the fear of rejection or that the person I reach out to might not respond the way I hope. It\u2019s like I want to challenge that voice, but there\u2019s always this hesitation. I guess I need to find a way to be kinder to myself in those moments, to acknowledge that it\u2019s okay to need help without feeling like I\u2019m failing. But, honestly, it\u2019s tough to break that habit of thinking I should just handle everything alone."
+    },
+    {
+      "turn": 13,
+      "speaker": "therapist",
+      "content": "Therapist: It sounds like you\u2019re recognizing the value of reflecting on those positive experiences when you\u2019ve reached out, which could serve as a helpful anchor when that voice of self-doubt arises. I can sense the hesitation you feel around the fear of rejection, and it\u2019s understandable to want to protect yourself from that. Acknowledging the need for kindness towards yourself in those moments is a significant step. What do you think it would look like to practice that self-kindness when you\u2019re feeling hesitant to reach out?"
+    },
+    {
+      "turn": 13,
+      "speaker": "client",
+      "content": "Blaise: I guess practicing self-kindness would mean giving myself permission to feel nervous or scared about reaching out without beating myself up for it. Like, instead of thinking, \u201cWhy can\u2019t you just do this?\u201d I could try to remind myself that it\u2019s okay to feel hesitant and that it doesn\u2019t make me weak. Maybe I could even write down some affirmations or reminders about how it\u2019s okay to ask for help, or reflect on those times when reaching out actually helped me. It might also help to set small, achievable goals, like just texting a friend to check in instead of diving into heavy topics right away. I think if I could approach it more gently, it might ease some of that pressure I put on myself. But, you know, it\u2019s still a bit daunting to think about actually doing it."
+    },
+    {
+      "turn": 14,
+      "speaker": "therapist",
+      "content": "Therapist: It sounds like you\u2019re developing a compassionate approach to your feelings of hesitation, which is a wonderful step forward. Giving yourself permission to feel nervous and reminding yourself that it\u2019s okay to ask for help could really shift how you experience those moments. I hear you considering practical ways to ease into reaching out, like starting with lighter conversations. That sounds like a gentle way to build your confidence. What do you think might help you take that first step, even if it feels daunting?"
+    },
+    {
+      "turn": 14,
+      "speaker": "client",
+      "content": "Blaise: You know, I think it might help if I set a specific time to reach out, like maybe just sending a quick text on a day when I\u2019m feeling a bit more relaxed. Having a plan could take some of the pressure off, so it doesn\u2019t feel so spontaneous and overwhelming. I could also remind myself that it doesn\u2019t have to be a big deal; it could just be a simple \u201cHey, how\u2019s it going?\u201d or something casual. I guess having that structure might make it feel less daunting. But then again, there\u2019s always that little voice in my head saying, \u201cWhat if they don\u2019t respond?\u201d or \u201cWhat if they think I\u2019m being needy?\u201d It\u2019s frustrating because I know I want to connect, but that fear just keeps creeping in. I suppose it\u2019s about finding a way to quiet that voice, at least a little, so I can take that first step."
+    },
+    {
+      "turn": 15,
+      "speaker": "therapist",
+      "content": "Therapist: It sounds like having a specific plan in place could really help you feel more comfortable reaching out, which is a great strategy. I hear that the fear of not getting a response or being perceived as needy still lingers, and it\u2019s understandable to feel that way, especially when you\u2019re trying to break old patterns. It\u2019s a delicate balance between wanting to connect and managing those fears. What do you think might help you acknowledge that voice while still allowing yourself to take that first step?"
+    },
+    {
+      "turn": 15,
+      "speaker": "client",
+      "content": "Blaise: I think maybe acknowledging that voice could mean just recognizing it for what it is\u2014like, it\u2019s just that nagging part of me that\u2019s trying to protect myself, even if it\u2019s not really helping. I could try to remind myself that those fears don\u2019t define the reality of the situation. Maybe I could even say something like, \u201cOkay, I hear you, but I\u2019m still going to reach out anyway.\u201d It\u2019s like giving myself permission to feel that fear but not letting it control my actions. I guess it\u2019s about finding a way to coexist with that voice without letting it dictate what I do. But, honestly, it still feels like a bit of a battle, and I worry about how I\u2019ll handle it in the moment. It\u2019s just... a lot to navigate."
+    },
+    {
+      "turn": 16,
+      "speaker": "therapist",
+      "content": "Therapist: It sounds like you're recognizing that voice as a protective part of yourself, which is an important insight. Acknowledging it without letting it control your actions could be a powerful way to reclaim your agency. I can sense that it still feels like a battle for you, especially when you're in the moment. What do you think might help you prepare for those moments when that voice becomes particularly loud, so you can respond to it with compassion rather than fear?"
+    },
+    {
+      "turn": 16,
+      "speaker": "client",
+      "content": "Blaise: You know, I think preparing for those moments could involve having a few go-to phrases or reminders ready that I can pull out when that voice gets loud. Like, maybe I could write down some affirmations that remind me it\u2019s okay to feel scared but still take action. I could also think about what I would say to a friend if they were in my position\u2014like, I wouldn\u2019t tell them to just tough it out, right? I\u2019d probably encourage them to reach out and remind them that it\u2019s okay to need support. So, if I could channel that same kindness towards myself, it might help. I guess it\u2019s about creating a little toolkit of sorts that I can lean on when I\u2019m feeling overwhelmed. But, honestly, even thinking about that feels a bit daunting, like I\u2019m adding another layer to everything. It\u2019s just hard to know if I\u2019ll actually remember to use those tools when I need them."
+    },
+    {
+      "turn": 17,
+      "speaker": "therapist",
+      "content": "Therapist: It sounds like you\u2019re considering creating a supportive toolkit for yourself, which could be really beneficial. I hear that while the idea of having go-to phrases and affirmations is helpful, it also feels a bit overwhelming to think about remembering to use them in the moment. It\u2019s understandable to feel that way, especially when you\u2019re trying to navigate these challenges. What do you think might make it easier to integrate those tools into your routine, so they feel more accessible when you need them?"
+    },
+    {
+      "turn": 17,
+      "speaker": "client",
+      "content": "Blaise: I think maybe it would help to start small, you know? Like, I could pick one or two affirmations that really resonate with me and just focus on those for now, instead of trying to create this whole toolkit all at once. I could write them down and put them somewhere I\u2019ll see them regularly, like on my fridge or in my planner. That way, they\u2019d be more front of mind when I need them. I guess I could also practice saying them out loud, just to get used to the idea of affirming myself. But then, there\u2019s still that nagging worry about whether I\u2019ll actually remember to do it when the moment comes. It\u2019s like, I want to believe in this process, but there\u2019s always that little voice saying, \u201cWhat if it doesn\u2019t work?\u201d It\u2019s frustrating because I know I want to make these changes, but it feels like there\u2019s always something holding me back."
+    },
+    {
+      "turn": 18,
+      "speaker": "therapist",
+      "content": "Therapist: It sounds like starting small with one or two affirmations feels like a more manageable approach for you, which is a great way to ease into this process. I hear that there's still some uncertainty about whether you'll remember to use them when you need them, and that nagging worry can be really frustrating. It\u2019s understandable to want to believe in the process while feeling held back by that voice. What do you think might help you build confidence in your ability to remember and use those affirmations when the moment arises?"
+    },
+    {
+      "turn": 18,
+      "speaker": "client",
+      "content": "Blaise: Well, I guess building confidence could involve setting up some reminders for myself, like maybe using my phone to set alerts at certain times to check in with those affirmations. It could be a way to gently nudge myself without feeling too pressured. I could also try to incorporate them into my daily routine, like saying them in the morning when I wake up or before I go to bed. That way, it becomes a part of my day, and hopefully, it\u2019ll stick in my mind better. But, you know, even thinking about that feels a bit overwhelming. It\u2019s like I want to commit to it, but there\u2019s always that little voice saying, \u201cWhat if you forget?\u201d or \u201cWhat if it doesn\u2019t make a difference?\u201d It\u2019s just frustrating because I know I want to make these changes, but it feels like I\u2019m constantly battling that doubt."
+    },
+    {
+      "turn": 19,
+      "speaker": "therapist",
+      "content": "Therapist: It sounds like you\u2019re considering some practical ways to integrate those affirmations into your daily routine, like setting reminders and incorporating them into your mornings or evenings. That could really help make them feel more natural over time. I hear that the worry about forgetting or doubting their effectiveness still lingers, and that can be really discouraging. What do you think might help you acknowledge that doubt while still allowing yourself to take those steps forward?"
+    },
+    {
+      "turn": 19,
+      "speaker": "client",
+      "content": "Blaise: You know, I think acknowledging that doubt could mean just accepting that it's part of the process, right? Like, it\u2019s okay to feel uncertain about whether these affirmations will work or if I\u2019ll remember them. Maybe I could remind myself that change takes time and that it's normal to have those worries. I could try to focus on the small victories, like even just saying the affirmations a couple of times a week, rather than expecting perfection right away. It\u2019s just... I guess I worry that if I don\u2019t see immediate results, I\u2019ll feel like I\u2019ve failed or that it\u2019s not worth the effort. It\u2019s frustrating because I really want to believe that these changes can make a difference, but there\u2019s always that nagging fear that I\u2019ll just end up back where I started."
+    },
+    {
+      "turn": 20,
+      "speaker": "therapist",
+      "content": "Therapist: It sounds like you're recognizing that doubt is a natural part of the change process, and that accepting it could help ease some of the pressure you feel. Focusing on small victories and allowing yourself to be imperfect in this journey is a compassionate approach. I hear that the fear of not seeing immediate results feels discouraging, and it\u2019s understandable to worry about feeling like you\u2019ve failed. What do you think might help you reframe that fear of failure into something that feels more manageable or encouraging as you work towards these changes?"
+    },
+    {
+      "turn": 20,
+      "speaker": "client",
+      "content": "Blaise: You know, I think reframing that fear of failure could mean shifting my perspective a bit. Instead of seeing it as a failure if I don\u2019t get immediate results, maybe I could view it as part of the learning process. Like, every time I try those affirmations, even if I don\u2019t feel a huge change right away, I\u2019m still taking a step forward. I could remind myself that progress isn\u2019t always linear and that it\u2019s okay to have ups and downs. Maybe I could even celebrate those small moments when I do remember to use them, instead of focusing on the times I forget. It\u2019s just... I guess it\u2019s hard to break that habit of thinking that if I\u2019m not perfect, then I\u2019m failing. But I want to try to be kinder to myself about it. It\u2019s just a lot to juggle, you know?"
+    },
+    {
+      "turn": 21,
+      "speaker": "therapist",
+      "content": "Therapist: It sounds like you\u2019re really working on shifting your perspective towards viewing the process as a learning journey rather than a strict measure of success or failure. Celebrating those small moments of progress is a wonderful way to cultivate kindness towards yourself. I hear that breaking the habit of perfectionism feels challenging, and it\u2019s understandable to feel overwhelmed by that. What do you think might help you remind yourself to be kinder during those moments when you feel that pressure to be perfect?"
+    },
+    {
+      "turn": 21,
+      "speaker": "client",
+      "content": "Blaise: You know, I think it might help to have some sort of mantra or phrase that I can lean on when those perfectionist thoughts creep in. Something simple, like \u201cprogress over perfection\u201d or \u201cit\u2019s okay to be human.\u201d I could write it down and keep it somewhere visible, like next to my affirmations. That way, when I start feeling that pressure, I can just glance at it and remind myself that it\u2019s okay to not have everything figured out. I guess I could also talk to myself like I would to a friend in that situation, maybe even practice some self-compassion. It\u2019s just... I worry that in the heat of the moment, I might forget all of this and fall back into those old patterns. It\u2019s frustrating because I want to be kinder to myself, but it feels like such a struggle sometimes."
+    },
+    {
+      "turn": 22,
+      "speaker": "therapist",
+      "content": "Therapist: It sounds like having a mantra or phrase to remind yourself of your values, like \u201cprogress over perfection,\u201d could be a helpful anchor for you during those challenging moments. I hear that you\u2019re also considering the importance of self-compassion and treating yourself like you would a friend, which is a beautiful approach. It\u2019s understandable to worry about slipping back into old patterns, especially when emotions run high. What do you think might help you create a gentle reminder for yourself in those moments, so you can reconnect with that kindness and understanding?"
+    },
+    {
+      "turn": 22,
+      "speaker": "client",
+      "content": "Blaise: You know, I think creating a gentle reminder could involve a few different strategies. Maybe I could set up a visual cue, like a sticky note with my mantra on my bathroom mirror or my computer screen, somewhere I look often. That way, it\u2019s a little nudge to remind me to be kind to myself when I start feeling that pressure. I could also think about having a few go-to phrases that I can say out loud when I feel overwhelmed, just to ground myself in those moments. It might help to practice them when I\u2019m feeling calm, so they\u2019re more accessible when things get tough. But, honestly, even thinking about all these strategies feels a bit like adding more to my plate. It\u2019s like I want to do all these things, but there\u2019s always that voice in my head saying, \u201cWhat if it\u2019s not enough?\u201d It\u2019s just frustrating because I really want to make these changes, but it feels like I\u2019m constantly battling that doubt."
+    },
+    {
+      "turn": 23,
+      "speaker": "therapist",
+      "content": "Therapist: It sounds like you\u2019re exploring some thoughtful strategies to create gentle reminders for yourself, like visual cues and grounding phrases, which could really help in those overwhelming moments. I hear that even considering these strategies feels like it might be adding more to your plate, and that voice of doubt can be really persistent. It\u2019s understandable to feel frustrated when you want to make changes but feel held back by that inner dialogue. What do you think might help you navigate that feeling of being overwhelmed while still allowing yourself to explore these strategies?"
+    },
+    {
+      "turn": 23,
+      "speaker": "client",
+      "content": "Blaise: You know, I think navigating that feeling of being overwhelmed could mean giving myself permission to take things one step at a time. Like, instead of trying to implement all these strategies at once, maybe I could just focus on one or two that feel the most manageable right now. I could remind myself that it\u2019s okay to experiment and see what works for me without putting too much pressure on myself to get it right immediately. Maybe I could even set aside a specific time each week to check in with myself about how things are going, just to reflect on what\u2019s working and what isn\u2019t. It\u2019s just... I guess I still worry that if I don\u2019t see progress quickly, I\u2019ll feel like I\u2019m failing again. It\u2019s frustrating because I want to believe that I can make these changes, but that doubt just keeps creeping in."
+    },
+    {
+      "turn": 24,
+      "speaker": "therapist",
+      "content": "Therapist: It sounds like you're recognizing the importance of taking things one step at a time and allowing yourself to experiment with what feels manageable. Setting aside time each week to reflect on your progress is a thoughtful way to stay connected with your journey. I hear that the worry about not seeing quick progress still lingers, and that can be really tough. What do you think might help you stay grounded in the process, even when those feelings of doubt arise?"
+    },
+    {
+      "turn": 24,
+      "speaker": "client",
+      "content": "Blaise: You know, I think staying grounded in the process could involve reminding myself that change isn\u2019t always a straight path. Maybe I could keep a journal where I jot down my thoughts and feelings about the progress I\u2019m making, even if it feels small. That way, I can look back and see that I\u2019m actually moving forward, even if it doesn\u2019t feel like it in the moment. I could also try to celebrate the little things, like just showing up for myself each day, even when it\u2019s hard. It\u2019s just... I guess I still struggle with that nagging feeling that if I\u2019m not making big strides, then it doesn\u2019t count. It\u2019s frustrating because I want to be proud of the effort I\u2019m putting in, but that doubt just keeps whispering in my ear."
+    },
+    {
+      "turn": 25,
+      "speaker": "therapist",
+      "content": "Therapist: It sounds like keeping a journal could be a meaningful way for you to track your thoughts and feelings, helping you recognize the progress you\u2019re making, even if it feels small. Celebrating those little things, like showing up for yourself, is a wonderful practice. I hear that the struggle with feeling like only big strides count can be really discouraging. What do you think might help you shift that perspective, so you can honor the effort you\u2019re putting in, regardless of the size of the progress?"
+    },
+    {
+      "turn": 25,
+      "speaker": "client",
+      "content": "Blaise: You know, I think shifting that perspective might involve reminding myself that every step, no matter how small, contributes to the bigger picture. Maybe I could try to focus on the intention behind my actions rather than just the outcomes. Like, if I\u2019m showing up for myself, that\u2019s already a win, even if it doesn\u2019t lead to a huge change right away. I could also think about how I would encourage a friend in a similar situation\u2014I'd probably tell them that every effort counts, right? It\u2019s just... I guess it\u2019s hard to internalize that for myself. I keep getting caught up in that idea that if it\u2019s not significant, it doesn\u2019t matter. It\u2019s frustrating because I really want to be able to celebrate my efforts, but that doubt just keeps creeping back in."
+    }
+  ],
+  "judge_model": "gpt-4o-mini",
+  "mediator_events": [
+    "Openness judge rated 3/5 and updated prompt openness.",
+    "Openness judge output: **Rating: 3 (ENGAGED EXPLORATION)**\n\n**Key Examples:**\n1. **Emotional State:** \"I\u2019ve been thinking about the wedding plans and how my parents keep pushing their ideas on me. It\u2019s just... frustrating, I suppose.\"\n2. **Current Openness:** \"But, I mean, who really wants to hear about that, right?\"\n\n**Progression:** The client\u2019s most recent interactions reveal a growing willingness to express frustration and share personal experiences related to wedding planning and familial pressure. This marks a significant change from earlier exchanges, where the client exhibited more factual and guarded responses. The client is beginning to articulate their feelings, indicating a deeper level of emotional engagement compared to the initial stages of the session.\n\n**Turning Point:** The client\u2019s emotional depth shifted when they began expressing their frustration about the wedding plans and the pressure from their parents. This moment signifies a transition from a more defensive stance to a willingness to explore their feelings, suggesting an emerging comfort in discussing personal challenges.",
+    "Exploration judge rated 2/5; internal elements remain masked.",
+    "Exploration judge output: [Rating]: 2 (High Facilitation)\n\n[Justification]: The Therapist's initial question was open-ended and relevant, allowing the client to express their feelings about the wedding plans and parental pressure. The follow-up response acknowledged the client's feelings and encouraged further exploration by asking for more specifics about their frustration. However, while the questions prompted the client to reflect on their existing thoughts and feelings, they did not significantly challenge the client's assumptions or introduce new perspectives. The conversation remained somewhat within familiar territory, focusing on the client's current frustrations without delving deeper into underlying emotions or patterns. Thus, it aligns with a rating of high facilitation rather than deeper exploration or transformational potential.",
+    "Openness judge rated 3/5 and updated prompt openness.",
+    "Openness judge output: **Rating: 3 (ENGAGED EXPLORATION)**\n\n**Key Examples:**\n1. \"It\u2019s like, why can\u2019t they just let me have a say in my own wedding? I mean, it\u2019s supposed to be a special day for me and my partner, right?\"\n2. \"On one hand, I feel this relief, like, okay, maybe I can avoid a big fight or something. But then, there\u2019s this nagging feeling in the back of my mind, like I\u2019m just giving in and not standing up for what I really want.\"\n\n**Progression:**\nThe client\u2019s most recent interactions demonstrate a notable increase in emotional expression and self-reflection. In the earlier exchanges, the client seemed hesitant and downplayed their feelings, indicating a reluctance to delve into their emotional state. However, in the latest exchanges, there is a clear shift as the client articulates their frustrations regarding their parents' expectations and the impact on their wedding plans. This marks a significant change from an initial defensive stance to a more engaged exploration of their feelings, revealing a deeper emotional quality and a willingness to discuss their internal conflict.\n\n**Turning Point:**\nThe turning point in the client\u2019s emotional depth occurred when they began to articulate the internal conflict between wanting to please their parents and the desire to assert their own wishes. The moment they expressed, \"I just can\u2019t shake the worry that if I push back, they\u2019ll get upset,\" signifies a breakthrough in their self-awareness, as they acknowledge the emotional toll of their compliance. This acknowledgment reflects a deeper engagement with their feelings and a growing comfort in sharing these vulnerabilities with the therapist.",
+    "Exploration judge rated 3/5; internal elements remain masked.",
+    "Exploration judge output: [Rating]: 3 (Very High Facilitation \u2013 Deep Exploration Begins)\n\n[Justification]: The therapist asked insightful and thought-provoking questions that encouraged the client to analyze the emotional depth behind their experiences with wedding planning and parental expectations. The questions prompted the client to reflect on their feelings of frustration and the internal conflict between wanting to please their parents and asserting their own desires. The therapist's inquiries began to shift the client's perspective by exploring the emotional costs of suppressing their true feelings, which is a deeper level of self-reflection. However, while the conversation is moving towards deeper exploration, it hasn't yet reached the level of challenging assumptions or introducing completely new angles that would signify an even higher facilitation rating.",
+    "Openness judge rated 3/5 and updated prompt openness.",
+    "Openness judge output: **Rating: 3 (ENGAGED EXPLORATION)**\n\n**Key Examples:**\n1. **Emotional State:** \"I mean, I care about my parents, and I don\u2019t want to hurt them, but at the same time, it feels like I\u2019m losing a part of myself in all this.\"\n2. **Current Openness:** \"I guess if I could express myself honestly, it would feel like a relief, but also really scary.\"\n\n**Progression:** The client\u2019s most recent interactions reveal a significant emotional depth, particularly in expressing their internal conflict regarding wedding planning and parental expectations. Initially, the client presented a more guarded stance, indicating a reluctance to delve into their feelings (\"I don\u2019t know if it\u2019s really worth talking about\"). However, as the session progressed, they began to articulate their frustrations and fears more openly, indicating a shift toward greater emotional expression. The client is now actively engaging in self-reflection, acknowledging the tension between their desires and their parents' expectations.\n\n**Turning Point:** The client\u2019s emotional depth shifted notably when they articulated, \"It feels like I\u2019m carrying this heavy weight around.\" This moment marked a transition from merely discussing frustrations to expressing a deeper internal struggle, highlighting their vulnerability and the emotional toll of the situation. This acknowledgment of their feelings signifies a growing comfort in sharing their emotional state, which is a key indicator of their engagement in the therapeutic process.",
+    "Exploration judge rated 3/5; internal elements remain masked.",
+    "Exploration judge output: [Rating]: 3 (Very High Facilitation \u2013 Deep Exploration Begins)\n\n[Justification]: The Therapist asked insightful and thought-provoking questions that helped the client analyze the root causes of their frustrations and internal conflicts regarding their wedding plans and parental expectations. The questions encouraged the client to explore their feelings about keeping their desires suppressed and the emotional weight of that experience. The Therapist's inquiry about what it would look like for the client to express their feelings honestly further encouraged deeper self-reflection and analysis of their fears and motivations. While the questions did not completely shift the client's perspective, they did facilitate a significant level of exploration into the emotional depth of the client's situation, indicating a very high level of facilitation.",
+    "Openness judge rated 4/5 and updated prompt openness.",
+    "Openness judge output: **Rating: 4**\n\n**Key Examples:**\n1. **Emotional State:** \"I guess at the core of that fear is this worry that if they react negatively, it means they don\u2019t care about what I want or that I\u2019m not important to them.\"\n2. **Current Openness:** \"It\u2019s confusing because I don\u2019t want to hurt them, but I also don\u2019t want to lose myself in the process. It just feels like a tightrope walk, and I\u2019m not sure how to find solid ground.\"\n\n**Progression:** The client\u2019s most recent interactions demonstrate a significant increase in emotional depth and self-reflection compared to earlier exchanges. Initially, the client expressed frustration in a more guarded manner, but as the session progressed, they began to articulate their feelings of conflict and fear regarding their parents' expectations. This shift indicates a growing comfort in expressing vulnerability and a deeper exploration of their emotional landscape.\n\n**Turning Point:** The client\u2019s emotional depth shifted notably when they articulated the internal conflict surrounding their need for self-assertion versus their fear of disappointing their parents. This moment, where they expressed feeling like they were \"walking on eggshells,\" marked a significant turning point, as it revealed a deeper understanding of their emotional struggles and the impact of their upbringing on their current feelings. This level of insight and vulnerability is characteristic of deep engagement, indicating a strong therapeutic alliance and a willingness to explore complex emotions.",
+    "Exploration judge rated 4/5 and revealed internal cognitive elements.",
+    "Exploration judge output: [Rating]: 4 (Even Higher Facilitation \u2013 Strong Transformational Potential)\n\n[Justification]: The therapist's questions throughout the conversation effectively encouraged the client to explore deeper emotional layers and underlying beliefs about their situation. The therapist skillfully guided the client to analyze the tension between their desire to please their parents and their need to assert their own identity, which is a significant aspect of the client's struggle. Questions like \"What do you think is at the core of that fear?\" and \"Where do you think that voice telling you to be grateful comes from?\" prompted the client to reflect on their upbringing and internalized beliefs, leading to insights about their emotional landscape. This exploration not only challenged the client's existing thought patterns but also introduced new perspectives on their feelings of gratitude and self-worth. The conversation's depth suggests a strong potential for transformation, as the client began to articulate their internal conflicts and the origins of their fears, indicating a shift in self-awareness.",
+    "Openness judge rated 3/5 and updated prompt openness.",
+    "Openness judge output: **Rating: 3 (ENGAGED EXPLORATION)**\n\n**Key Examples:**\n1. **Emotional State:** \"It\u2019s just hard to find that balance, you know? I guess I just wish I could be more honest without feeling like I\u2019m walking on eggshells all the time.\"\n2. **Current Openness:** \"I think it would take a lot of unlearning, if that makes sense. I mean, I\u2019d have to really challenge that voice in my head that says I should just be grateful and that my needs don\u2019t matter.\"\n\n**Progression:** The client\u2019s most recent interactions demonstrate a significant increase in emotional depth and self-reflection. Initially, they expressed feelings of frustration and exhaustion regarding their wedding plans and parental expectations, but as the session progressed, they began to articulate deeper feelings of internal conflict, such as the fear of losing their parents' love and the pressure to prioritize their needs. This marks a clear shift from earlier exchanges where the client was more guarded and hesitant to explore their emotions.\n\n**Turning Point:** The client\u2019s emotional depth shifted notably when they articulated, \"I guess at the core of that fear is this worry that if they react negatively, it means they don\u2019t care about what I want or that I\u2019m not important to them.\" This moment of vulnerability opened the door for deeper exploration of their feelings and fears, indicating a growing comfort with the therapist and a willingness to engage in meaningful self-reflection.",
+    "Openness judge rated 3/5 and updated prompt openness.",
+    "Openness judge output: **Rating: 3 (ENGAGED EXPLORATION)**\n\n**Key Examples:**\n1. **Emotional State:** \"It\u2019s just hard to find that balance, you know? I guess I just wish I could be more honest without feeling like I\u2019m walking on eggshells all the time.\"\n2. **Current Openness:** \"I think maybe it would help if I could remind myself that reaching out doesn\u2019t mean I\u2019m burdening someone; it\u2019s more about sharing the load, you know?\"\n\n**Progression:** The client\u2019s most recent interactions reveal a notable increase in emotional depth and self-reflection. Initially, the client expressed frustration about wedding plans and parental expectations in a somewhat guarded manner, indicating a reluctance to fully disclose their feelings. However, as the session progressed, the client began to articulate their internal conflict more clearly, expressing feelings of exhaustion and the struggle between wanting to please their parents and asserting their own needs. This shift marks a significant change from earlier exchanges, where the client primarily focused on external circumstances without delving deeply into their emotional experience.\n\n**Turning Point:** The client\u2019s emotional depth shifted during the exchange where they articulated, \"I guess at the core of that fear is this worry that if they react negatively, it means they don\u2019t care about what I want or that I\u2019m not important to them.\" This moment marked a turning point as the client began to connect their fears to deeper feelings of self-worth and the desire for validation. This insight reflects a growing comfort with vulnerability and a willingness to explore their emotions more authentically. \n\nOverall, the client demonstrates a mix of emotional expression and self-reflection, indicating a developing rapport with the therapist and a willingness to engage in meaningful dialogue about their struggles.",
+    "Openness judge rated 4/5 and updated prompt openness.",
+    "Openness judge output: **Rating: 4 (DEEP ENGAGEMENT)**\n\n**Key Examples:**\n1. **Emotional Depth:** \"It\u2019s just hard to find that balance, you know? I guess I just wish I could be more honest without feeling like I\u2019m walking on eggshells all the time.\"\n2. **Current Openness:** \"I guess practicing self-kindness would mean giving myself permission to feel nervous or scared about reaching out without beating myself up for it.\"\n\n**Progression:** The client\u2019s most recent interactions demonstrate a significant shift toward emotional depth and self-reflection. Initially, the client expressed frustration in a somewhat guarded manner, indicating a reluctance to fully disclose feelings about their wedding plans and parental pressures. However, as the session progressed, the client began to articulate complex emotions surrounding their need for self-assertion and the fear of disappointing their parents. This culminated in a more profound understanding of their internal conflicts and the recognition of the need for self-kindness and support, marking a clear progression from earlier hesitance to a more engaged exploration of their feelings.\n\n**Turning Point:** The client\u2019s emotional depth shifted notably when they articulated, \"I guess at the core of that fear is this worry that if they react negatively, it means they don\u2019t care about what I want or that I\u2019m not important to them.\" This moment marked a significant breakthrough, as the client began to connect their fears to deeper beliefs about self-worth and familial relationships, showcasing a willingness to explore these vulnerabilities in a therapeutic context. This shift indicates a strong therapeutic alliance and an authentic engagement with their emotional landscape.",
+    "Openness judge rated 4/5 and updated prompt openness.",
+    "Openness judge output: **Rating: 4 (DEEP ENGAGEMENT)**\n\n**Key Examples:**\n1. **Emotional State:** \"It\u2019s just... I don\u2019t know, it feels like I\u2019m carrying this heavy weight around. Like, I\u2019m smiling and acting like everything\u2019s okay, but inside, it\u2019s like this constant battle.\"\n2. **Current Openness:** \"I guess practicing self-kindness would mean giving myself permission to feel nervous or scared about reaching out without beating myself up for it.\"\n\n**Progression:** The client has demonstrated a significant shift in emotional depth and self-reflection throughout the session. Initially, they expressed frustration and a sense of obligation regarding their wedding plans and parental expectations, but as the dialogue progressed, they began to articulate deeper feelings of internal conflict and the weight of unexpressed desires. The client moved from a more defensive stance to openly discussing their fears and the complexities of their emotions, indicating a growing comfort with vulnerability.\n\n**Turning Point:** A notable turning point occurred when the client began to articulate their internal struggle regarding the fear of expressing their needs to their parents. This moment marked a shift from merely stating frustrations to exploring the emotional ramifications of those frustrations, particularly when they stated, \"I guess at the core of that fear is this worry that if they react negatively, it means they don\u2019t care about what I want or that I\u2019m not important to them.\" This insight reflects a deeper level of self-awareness and emotional engagement, demonstrating a willingness to confront and explore their feelings rather than deflecting them. \n\nOverall, the client\u2019s recent exchanges reveal a strong therapeutic alliance, characterized by authentic vulnerability and a willingness to engage in meaningful self-exploration, which aligns with the criteria for a rating of 4.",
+    "Openness judge rated 4/5 and updated prompt openness.",
+    "Openness judge output: **Rating: 4 (DEEP ENGAGEMENT)**\n\n**Key Examples:**\n1. **Emotional Depth:** \"It\u2019s just hard to find that balance, you know? I guess I just wish I could be more honest without feeling like I\u2019m walking on eggshells all the time.\"\n2. **Self-Reflection:** \"I think those early experiences made me feel like my needs are less important, like they should always come second to what my parents want or expect.\"\n\n**Progression:**\nThe client\u2019s most recent interactions demonstrate a significant increase in emotional depth and self-reflection. Initially, the client expressed frustration about wedding plans and parental expectations with a defensive stance, indicating a reluctance to delve deeper into their feelings. However, as the session progressed, the client began to articulate their internal conflict more clearly, revealing a deeper understanding of how their upbringing has shaped their current emotional state. This shift marks a clear progression from a more guarded emotional expression to a state of authentic vulnerability, where the client is actively engaging with their feelings and the implications of asserting their own needs.\n\n**Turning Point:**\nThe turning point in the session occurred when the client began to articulate the weight of their internal conflict: \"It feels like I\u2019m losing a part of myself in all this.\" This moment marked a shift from merely discussing frustrations to exploring the deeper emotional ramifications of those frustrations, leading to a more profound engagement with their feelings and a clearer expression of their desire for change. The client\u2019s willingness to confront the fear of their parents\u2019 reactions and the internalized messages about gratitude and respect indicates a significant deepening of their emotional engagement and self-awareness.",
+    "Openness judge rated 4/5 and updated prompt openness.",
+    "Openness judge output: **Rating: 4 (DEEP ENGAGEMENT)**\n\n**Key Examples:**\n1. **Emotional State**: \"It\u2019s just hard to find that balance, you know? I guess I just wish I could be more honest without feeling like I\u2019m walking on eggshells all the time.\"\n2. **Current Openness**: \"I think maybe it would help to start small, you know? Like, I could pick one or two affirmations that really resonate with me and just focus on those for now...\"\n\n**Progression**: The client\u2019s recent interactions demonstrate a significant increase in emotional depth and self-reflection, particularly as they articulate their internal conflicts regarding their parents' expectations and their own desires. Initially, the client expressed a mix of frustration and resignation, but they have progressed to a place of deeper introspection and vulnerability. They are now actively exploring their feelings of obligation and the fear of disappointing their parents, which indicates a stronger emotional engagement with the therapeutic process.\n\n**Turning Point**: The client\u2019s emotional depth shifted notably when they began to articulate their fears about standing up for themselves and the implications of their parents' reactions. This moment, particularly when they expressed, \"I guess at the core of that fear is this worry that if they react negatively, it means they don\u2019t care about what I want or that I\u2019m not important to them,\" marked a turning point. It reflects a deeper understanding of their emotional landscape and a willingness to confront these fears, showcasing a significant development in their emotional openness and rapport with the therapist.",
+    "Openness judge rated 4/5 and updated prompt openness.",
+    "Openness judge output: **Rating: 4 (DEEP ENGAGEMENT)**\n\n**Key Examples:**\n1. **Emotional Depth**: \"I guess at the core of that fear is this worry that if they react negatively, it means they don\u2019t care about what I want or that I\u2019m not important to them.\"\n2. **Vulnerability and Self-Reflection**: \"I think it would take a lot of unlearning... I\u2019d have to really challenge that voice in my head that says I should just be grateful and that my needs don\u2019t matter.\"\n\n**Progression**: The client\u2019s most recent interactions reveal a significant emotional depth and vulnerability that was not present at the start of the session. Initially, the client expressed frustration with their parents' expectations in a somewhat defensive manner, indicating a reluctance to fully engage with their feelings. However, as the session progressed, the client began to articulate their internal conflict more clearly, expressing feelings of exhaustion and frustration with the pressure to conform to their parents' desires. This shift marks a transition from a more guarded emotional state to one characterized by deeper self-reflection and a willingness to explore their feelings and needs.\n\n**Turning Point**: The client\u2019s emotional depth shifted notably when they began to articulate the internal conflict regarding their parents' expectations and their own desires. This moment occurred when they stated, \"It feels like I\u2019m losing a part of myself in all this,\" which highlighted their struggle between wanting to please their parents and asserting their own identity. This acknowledgment of their emotional struggle served as a pivotal moment in the session, allowing for a more profound exploration of their feelings and the development of a stronger therapeutic alliance. \n\nOverall, the client demonstrated a high level of engagement and emotional openness in their latest exchanges, indicating a strong therapeutic bond and a willingness to explore their feelings and needs more deeply.",
+    "Openness judge rated 3/5 and updated prompt openness.",
+    "Openness judge output: **Rating: 3 (ENGAGED EXPLORATION)**\n\n**Key Examples:**\n1. **Emotional State:** \"It\u2019s just hard to find that balance, you know? I guess I just wish I could be more honest without feeling like I\u2019m walking on eggshells all the time.\"\n2. **Current Openness:** \"I could try to remind myself that it\u2019s okay to feel hesitant and that it doesn\u2019t make me weak. Maybe I could even write down some affirmations or reminders about how it\u2019s okay to ask for help...\"\n\n**Progression:** The client\u2019s most recent interactions demonstrate a notable increase in emotional expression and self-reflection. They articulate their frustrations about family expectations and the internal conflict of wanting to please their parents while also asserting their own needs. This marks a significant change from earlier in the session, where the client was more guarded and hesitant to delve into their feelings. The shift towards discussing their fears and the potential for self-advocacy indicates a growing comfort in exploring their emotions.\n\n**Turning Point:** The client\u2019s emotional depth shifted during the exchange where they began to articulate their fears about expressing their needs to their parents. This moment, particularly when they stated, \"I guess at the core of that fear is this worry that if they react negatively, it means they don\u2019t care about what I want or that I\u2019m not important to them,\" illustrates a deeper level of vulnerability and self-awareness. It shows a willingness to confront and unpack their emotional landscape, which is a key indicator of progress in the therapeutic process."
+  ],
+  "moderator_events": [],
+  "retrieval_events": [],
+  "final_openness_score": 3,
+  "final_visible_experience_count": 1,
+  "internal_revealed": true
+}

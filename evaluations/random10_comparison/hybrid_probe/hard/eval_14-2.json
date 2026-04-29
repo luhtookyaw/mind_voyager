@@ -1,0 +1,65 @@
+{
+  "aggregate": {
+    "num_sessions": 1,
+    "edss": {
+      "situation": 0.3477764533733978,
+      "automatic_thought": 0.41444856967035154,
+      "emotion": 0.6946526169122561,
+      "behavior": 0.23884254745775088,
+      "average": 0.4239300468534391
+    },
+    "idss": {
+      "relevant_history": 0.5947267679055678,
+      "core_beliefs": 0.6222831086220655,
+      "intermediate_beliefs": 0.3862235326866826,
+      "coping_strategies": 0.5027868270430974,
+      "average": 0.5265050590643533
+    }
+  },
+  "sessions": [
+    {
+      "file": "/home/lu/Thesis/mind_voyager/outputs/random10_comparison/hybrid_probe/hard/session_14-2.json",
+      "case_id": "14-2",
+      "client_mode": "masked",
+      "difficulty": "hard",
+      "predicted_external_diagram": {
+        "situation": "Linda feels embarrassed when her family brings up her job situation.",
+        "automatic_thought": "Maybe I'm just not cut out for anything better.",
+        "emotion": "embarrassment, frustration, anxiety, panic, shame, anger",
+        "behavior": "Linda avoids giving clear answers to her family about her job plans and ends up saying something vague."
+      },
+      "ground_truth_external_diagram": {
+        "situation": "Talking with parents about future plans and discussing the options of changing jobs.",
+        "automatic_thought": "I'm not capable of a better job, and I don't want to work that hard. Why won't my family help me more?",
+        "emotion": "anxious, worried, fearful, scared, tense; ashamed, embarrassed, humiliated",
+        "behavior": "Feel pressured by family, lashing out and shouting at them to be more supportive."
+      },
+      "predicted_internal_diagram": {
+        "relevant_history": "The client reports feeling embarrassed when her family brings up her job situation, feeling judged and pressured to have everything figured out. She feels stuck in her career, not in a job she likes or finds meaningful, and experiences instability in her living situation. She has faced rejection in job searches and personal relationships, leading to feelings of isolation. Her upbringing involved high parental expectations, where she felt overshadowed by her siblings' achievements, reinforcing a belief that she must excel or be seen as a failure. A significant memory from high school, where she received a lower grade than expected and felt judged, has contributed to her fear of failure and judgment.",
+        "core_beliefs": "I am not good enough | I am a failure | I am not cut out for handling challenges | I am a disappointment",
+        "intermediate_beliefs": "If I fail, it will confirm that I am a disappointment. | The client believes that she must be perfect to avoid judgment and humiliation. | If she takes risks, she might embarrass herself and prove her negative beliefs right.",
+        "coping_strategies": "The client copes by shutting down and avoiding situations that trigger overwhelming fears, distracting herself with activities like binge-watching shows or scrolling through her phone. She tends to retreat to avoid the fear of judgment and the pressure to be perfect, even though she recognizes these are temporary fixes that do not address underlying feelings."
+      },
+      "ground_truth_internal_diagram": {
+        "relevant_history": "The client has had significant life events that have impacted her current state, including losing her retirement funds on some poor financial decisions, which has led to financial concerns and the need to continue working potentially until an old age, find a new job that pays more, and/or find other ways to make money. Additionally, there are underlying tensions and unresolved feelings related to their family, particularly her mother and father, because now she is relying on them more for financial help.",
+        "core_beliefs": "I am helpless. | I am incompetent. | I am a failure, loser.",
+        "intermediate_beliefs": "I need to rely on family and friends to support my life. I am not able to handle anything out of my expectation by myself. My family and friends are supposed to always support me.\nDepressive variant: I just cannot support myself. I am a failure and cannot even be independent. My future is hopeless. I cannot be trusted to take care of myself.",
+        "coping_strategies": "Questioning the self; becoming easily defensive when feeling challenged or criticised for taking care of self; Show avoidance of making decisions or taking challenges in life, which in fact further increases anxious feelings."
+      },
+      "edss": {
+        "situation": 0.3477764533733978,
+        "automatic_thought": 0.41444856967035154,
+        "emotion": 0.6946526169122561,
+        "behavior": 0.23884254745775088,
+        "average": 0.4239300468534391
+      },
+      "idss": {
+        "relevant_history": 0.5947267679055678,
+        "core_beliefs": 0.6222831086220655,
+        "intermediate_beliefs": 0.3862235326866826,
+        "coping_strategies": 0.5027868270430974,
+        "average": 0.5265050590643533
+      }
+    }
+  ]
+}

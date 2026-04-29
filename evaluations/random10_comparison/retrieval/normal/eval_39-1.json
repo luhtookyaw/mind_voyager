@@ -1,0 +1,65 @@
+{
+  "aggregate": {
+    "num_sessions": 1,
+    "edss": {
+      "situation": 0.5152324886437851,
+      "automatic_thought": 0.40519477580273094,
+      "emotion": 0.7018295056804265,
+      "behavior": 0.41628075997793895,
+      "average": 0.5096343825262204
+    },
+    "idss": {
+      "relevant_history": 0.7492879926900894,
+      "core_beliefs": 0.5364138119846038,
+      "intermediate_beliefs": 0.5369015438690403,
+      "coping_strategies": 0.4866277307173212,
+      "average": 0.5773077698152637
+    }
+  },
+  "sessions": [
+    {
+      "file": "/home/lu/Thesis/mind_voyager/outputs/random10_comparison/retrieval/normal/session_39-1.json",
+      "case_id": "39-1",
+      "client_mode": "masked",
+      "difficulty": "normal",
+      "predicted_external_diagram": {
+        "situation": "Sydney is worried about her stomach issues and whether she is doing everything wrong.",
+        "automatic_thought": "Maybe I\u2019m not doing enough. What if I\u2019m missing something important? I\u2019m not capable of handling this. I\u2019m letting myself down.",
+        "emotion": "tense, worry, frustration, anxiety, guilt, exhaustion, fear, pressure, frustration",
+        "behavior": "Sydney tries to follow the advice given but second-guesses herself, sticks to a routine like meal prepping, sets reminders on her phone, and considers creating rituals around self-care."
+      },
+      "ground_truth_external_diagram": {
+        "situation": "Experiencing stomach issues and concerned about the healing process.",
+        "automatic_thought": "My stomach problems might not heal; I might not have control over the situation; there could be something else preventing healing.",
+        "emotion": "anxious, worried, fearful, scared, tense",
+        "behavior": "Seeking medical reassurance, ruminating on health, avoiding certain foods, trying to follow medical advice despite anxiety"
+      },
+      "predicted_internal_diagram": {
+        "relevant_history": "The client reports ongoing stomach issues that cause significant worry and frustration, leading to feelings of not being in control of their own body. They express a history of second-guessing themselves and feeling exhausted by a cycle of self-doubt and anxiety. The client also mentions a tendency to compare their situation to others, which exacerbates feelings of inadequacy. They struggle with balancing responsibilities and self-care, often feeling guilty for prioritizing themselves amidst various demands.",
+        "core_beliefs": "I am not capable of handling this | I am letting myself down | I am not doing enough | I am not enough | I am not measuring up",
+        "intermediate_beliefs": "If I can't figure out what's wrong with my stomach, then I'm not capable | If I take a moment for myself, then I'm letting expectations down | The client believes that setbacks are normal but struggles to fully embrace this | The client believes that self-care is necessary but feels guilty for prioritizing it",
+        "coping_strategies": "The client copes by trying to follow medical advice and maintaining routines like meal prepping and setting aside time to relax. They attempt to remind themselves that setbacks are normal and practice self-compassion by acknowledging their feelings without judgment. The client considers using reminders and rituals to incorporate self-care into their routine, such as setting reminders on their phone, creating a mantra, and reflecting on daily accomplishments. They also explore the idea of treating self-care as an essential part of productivity rather than a luxury."
+      },
+      "ground_truth_internal_diagram": {
+        "relevant_history": "The client indicates a history of suffering from anxiety-related stomachaches and experiencing stress-induced physical symptoms. The client also has a past of struggling with their weight, sexuality, and academic performance until a positive transformation occurred in college. Additionally, the client has experienced feelings of not being in control and engaging in patterns of behavior where they seek control in relationships.",
+        "core_beliefs": "I am powerless, weak, vulnerable. | I am trapped. | I am out of control. | I am unlovable. | I am bound to be alone.",
+        "intermediate_beliefs": "If I am not in control, something bad will happen. I need to know the reasons for my symptoms to feel calm. My happiness is directly tied to my physical health and being in a desirable state.\nDepressive variant: When feeling unwell or scared about health, the client obsesses over the causes of their symptoms and fears the worst outcomes, signaling a heightened state of worry and preoccupation with health issues.",
+        "coping_strategies": "Attempting to maintain a sense of control over situations, environments, and relationships; seeking reassurance through understanding causes of physical symptoms; exercising for stress release; using social interactions to distract from anxiety."
+      },
+      "edss": {
+        "situation": 0.5152324886437851,
+        "automatic_thought": 0.40519477580273094,
+        "emotion": 0.7018295056804265,
+        "behavior": 0.41628075997793895,
+        "average": 0.5096343825262204
+      },
+      "idss": {
+        "relevant_history": 0.7492879926900894,
+        "core_beliefs": 0.5364138119846038,
+        "intermediate_beliefs": 0.5369015438690403,
+        "coping_strategies": 0.4866277307173212,
+        "average": 0.5773077698152637
+      }
+    }
+  ]
+}

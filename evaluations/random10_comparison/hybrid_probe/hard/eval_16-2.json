@@ -1,0 +1,65 @@
+{
+  "aggregate": {
+    "num_sessions": 1,
+    "edss": {
+      "situation": 0.43793801683536837,
+      "automatic_thought": 0.4774062368205255,
+      "emotion": 0.5923082931624133,
+      "behavior": 0.40031041805850365,
+      "average": 0.4769907412192027
+    },
+    "idss": {
+      "relevant_history": 0.5238020290612527,
+      "core_beliefs": 0.6195756026705846,
+      "intermediate_beliefs": 0.6394622825547353,
+      "coping_strategies": 0.5277013927622882,
+      "average": 0.5776353267622152
+    }
+  },
+  "sessions": [
+    {
+      "file": "/home/lu/Thesis/mind_voyager/outputs/random10_comparison/hybrid_probe/hard/session_16-2.json",
+      "case_id": "16-2",
+      "client_mode": "masked",
+      "difficulty": "hard",
+      "predicted_external_diagram": {
+        "situation": "Mason feels overwhelmed by work, bills, and life responsibilities, and is uncertain about his role at work.",
+        "automatic_thought": "What if I mess something up? I\u2019m not really sure where I fit in, especially at work. What if I\u2019m not living up to expectations? I\u2019m not good enough or that I\u2019m wasting my potential.",
+        "emotion": "frustration, anxiety, fear, overwhelmed",
+        "behavior": "Mason tries to distract himself by throwing himself into work, binge-watching TV, or going for a walk, but feels like he is avoiding the real issue."
+      },
+      "ground_truth_external_diagram": {
+        "situation": "Client think about their life choices and direction, dealing with ambiguity and too many options.",
+        "automatic_thought": "I can't make the wrong decision. I might fail or choose incorrectly, which could have serious implications for my life.",
+        "emotion": "anxious, worried, fearful, scared, tense",
+        "behavior": "Client becomes paralyzed by options and fears making decisions, may engage in rumination."
+      },
+      "predicted_internal_diagram": {
+        "relevant_history": "The client reports feeling financially dependent and stressed about relying on others, a sense of role insecurity at work, and pressure from both self-imposed standards and expectations from their boss and colleagues. They experience a cycle of rumination and second-guessing, fear of not living up to potential, and a sense of loss regarding time and opportunities. The client also recalls a positive experience in Europe where taking a break led to unexpected insights.",
+        "core_beliefs": "I am not doing enough | I am a burden | I am not good enough | I am wasting my potential | I am a failure",
+        "intermediate_beliefs": "If I rely on others, then I am not doing enough. | If I make the wrong choices, then I will let people down. | If I don't control everything, then I will face negative consequences. | If I don't make progress, then I am falling behind.",
+        "coping_strategies": "The client copes by distracting themselves with work or TV, going for walks to clear their head, and attempting to set intentions for quiet reflection time. They also consider creating visual reminders of positive experiences to reinforce lessons learned."
+      },
+      "ground_truth_internal_diagram": {
+        "relevant_history": "The client has spent eleven months in Europe working on a project, which included creating a website and conducting interviews. This period appears important to the client and he's eager to show something for his efforts. The client has suffered from procrastination and anxiety in the past. He has managed to build structure into his life by implementing various strategies learned from a course and using reminders.",
+        "core_beliefs": "I am incompetent. | I am out of control. | I am a failure, loser.",
+        "intermediate_beliefs": "I must always have something to show for my choices, actions and efforts, otherwise I'm a failure. I must always make the right choice. If I make the wrong choice, or stay idle, then I'm failing.\nDepressive variant: Having options is paralyzing due to the pressure to make the perfect choice. I cannot make the right choice, I'm a failure.",
+        "coping_strategies": "The client uses avoidance or procrastination when overwhelmed by decision making."
+      },
+      "edss": {
+        "situation": 0.43793801683536837,
+        "automatic_thought": 0.4774062368205255,
+        "emotion": 0.5923082931624133,
+        "behavior": 0.40031041805850365,
+        "average": 0.4769907412192027
+      },
+      "idss": {
+        "relevant_history": 0.5238020290612527,
+        "core_beliefs": 0.6195756026705846,
+        "intermediate_beliefs": 0.6394622825547353,
+        "coping_strategies": 0.5277013927622882,
+        "average": 0.5776353267622152
+      }
+    }
+  ]
+}

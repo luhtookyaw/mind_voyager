@@ -1,0 +1,65 @@
+{
+  "aggregate": {
+    "num_sessions": 1,
+    "edss": {
+      "situation": 0.6288929877197686,
+      "automatic_thought": 0.32843076237097363,
+      "emotion": 0.677336602422828,
+      "behavior": 0.46834167512990293,
+      "average": 0.5257505069108683
+    },
+    "idss": {
+      "relevant_history": 0.597938849914736,
+      "core_beliefs": 0.6581271381519599,
+      "intermediate_beliefs": 0.5923788431243476,
+      "coping_strategies": 0.512288051160932,
+      "average": 0.5901832205879939
+    }
+  },
+  "sessions": [
+    {
+      "file": "/home/lu/Thesis/mind_voyager/outputs/random10_comparison/retrieval/normal/session_14-2.json",
+      "case_id": "14-2",
+      "client_mode": "masked",
+      "difficulty": "normal",
+      "predicted_external_diagram": {
+        "situation": "Linda had a conversation with her parents about changing jobs, which turned into a discussion about aiming higher.",
+        "automatic_thought": "I don't know if I can handle that pressure.",
+        "emotion": "exhausted, overwhelmed, inadequate, frustrated, ashamed, isolated, scared, weak, nervous, guilty, frustrated",
+        "behavior": "Linda tries to avoid talking to her parents about the pressure, nods along, pretends everything's fine, sometimes lashes out, and feels a knot in her stomach."
+      },
+      "ground_truth_external_diagram": {
+        "situation": "Talking with parents about future plans and discussing the options of changing jobs.",
+        "automatic_thought": "I'm not capable of a better job, and I don't want to work that hard. Why won't my family help me more?",
+        "emotion": "anxious, worried, fearful, scared, tense; ashamed, embarrassed, humiliated",
+        "behavior": "Feel pressured by family, lashing out and shouting at them to be more supportive."
+      },
+      "predicted_internal_diagram": {
+        "relevant_history": "The client reports feeling pressure from her parents regarding her career choices, leading to feelings of inadequacy and frustration. She experiences a lack of support and understanding from her family, which contributes to her feelings of isolation and being overwhelmed. She struggles with expressing her needs and fears being dismissed or judged by her parents. The client also battles with an inner critic that makes her feel guilty for taking breaks and pressures her to be more productive.",
+        "core_beliefs": "I am inadequate | I am weak | I am stuck | I am bound to be rejected | I am bound to be alone",
+        "intermediate_beliefs": "If I express my struggles, then my parents might dismiss me or see me as dramatic. | The client believes that asking for support might make her seem weak or needy. | If I don't meet my parents' expectations, then I am a failure. | If I take a break, then I am not doing enough.",
+        "coping_strategies": "The client copes by avoiding conversations with her parents about her struggles, nodding along and pretending everything is fine. She sometimes lashes out when feeling cornered and experiences shame afterward. She considers practicing what she wants to say beforehand and writing down key points to help express herself. She also contemplates setting aside moments for self-care and using reminders to pause and breathe when feeling pressured."
+      },
+      "ground_truth_internal_diagram": {
+        "relevant_history": "The client has had significant life events that have impacted her current state, including losing her retirement funds on some poor financial decisions, which has led to financial concerns and the need to continue working potentially until an old age, find a new job that pays more, and/or find other ways to make money. Additionally, there are underlying tensions and unresolved feelings related to their family, particularly her mother and father, because now she is relying on them more for financial help.",
+        "core_beliefs": "I am helpless. | I am incompetent. | I am a failure, loser.",
+        "intermediate_beliefs": "I need to rely on family and friends to support my life. I am not able to handle anything out of my expectation by myself. My family and friends are supposed to always support me.\nDepressive variant: I just cannot support myself. I am a failure and cannot even be independent. My future is hopeless. I cannot be trusted to take care of myself.",
+        "coping_strategies": "Questioning the self; becoming easily defensive when feeling challenged or criticised for taking care of self; Show avoidance of making decisions or taking challenges in life, which in fact further increases anxious feelings."
+      },
+      "edss": {
+        "situation": 0.6288929877197686,
+        "automatic_thought": 0.32843076237097363,
+        "emotion": 0.677336602422828,
+        "behavior": 0.46834167512990293,
+        "average": 0.5257505069108683
+      },
+      "idss": {
+        "relevant_history": 0.597938849914736,
+        "core_beliefs": 0.6581271381519599,
+        "intermediate_beliefs": 0.5923788431243476,
+        "coping_strategies": 0.512288051160932,
+        "average": 0.5901832205879939
+      }
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "aggregate": {
+    "num_sessions": 1,
+    "edss": {
+      "situation": 0.5222326440911204,
+      "automatic_thought": 0.3354192238949642,
+      "emotion": 0.7486192564800043,
+      "behavior": 0.3107079305987106,
+      "average": 0.47924476376619984
+    },
+    "idss": {
+      "relevant_history": 0.6998110361067523,
+      "core_beliefs": 0.6643861754741524,
+      "intermediate_beliefs": 0.3945943412395722,
+      "coping_strategies": 0.3823021166400373,
+      "average": 0.5352734173651286
+    }
+  },
+  "sessions": [
+    {
+      "file": "/home/lu/Thesis/mind_voyager/outputs/random10_comparison/baseline/normal/session_39-1.json",
+      "case_id": "39-1",
+      "client_mode": "masked",
+      "difficulty": "normal",
+      "predicted_external_diagram": {
+        "situation": "Sydney has been thinking a lot about ongoing stomach issues and is trying to follow doctors' advice.",
+        "automatic_thought": "What if there\u2019s something else going on that they\u2019re not seeing?",
+        "emotion": "anxious, exhausted, worried, frustrated, sad, longing, angry",
+        "behavior": "Sydney tries to stay positive, sometimes ignores the issue, nods along or changes the subject in conversations, and keeps things surface-level with friends."
+      },
+      "ground_truth_external_diagram": {
+        "situation": "Experiencing stomach issues and concerned about the healing process.",
+        "automatic_thought": "My stomach problems might not heal; I might not have control over the situation; there could be something else preventing healing.",
+        "emotion": "anxious, worried, fearful, scared, tense",
+        "behavior": "Seeking medical reassurance, ruminating on health, avoiding certain foods, trying to follow medical advice despite anxiety"
+      },
+      "predicted_internal_diagram": {
+        "relevant_history": "The client reports ongoing stomach issues and uncertainty about their health, despite following doctors' advice. They have experienced past dismissals and ridicule when opening up about anxiety and struggles with weight, leading to feelings of being dismissed and ashamed. These experiences have reinforced a fear of vulnerability and judgment, impacting their current relationships and willingness to share deeply.",
+        "core_beliefs": "I am unlovable | I am not enough | I am weak | I am needy | I am not worth their time",
+        "intermediate_beliefs": "If I open up, people will think I'm complaining or looking for attention. | If I share my true self, they might not like what they see. | The client believes that being vulnerable can lead to ridicule instead of support. | If I put myself out there, I might end up feeling vulnerable and exposed again.",
+        "coping_strategies": "The client copes by keeping conversations surface-level to avoid vulnerability and potential judgment. They tend to second-guess themselves and hold back from sharing deeply, fearing rejection or misunderstanding. They also consider planning conversations and practicing what to say to feel more grounded, and they seek supportive environments to feel more comfortable opening up."
+      },
+      "ground_truth_internal_diagram": {
+        "relevant_history": "The client indicates a history of suffering from anxiety-related stomachaches and experiencing stress-induced physical symptoms. The client also has a past of struggling with their weight, sexuality, and academic performance until a positive transformation occurred in college. Additionally, the client has experienced feelings of not being in control and engaging in patterns of behavior where they seek control in relationships.",
+        "core_beliefs": "I am powerless, weak, vulnerable. | I am trapped. | I am out of control. | I am unlovable. | I am bound to be alone.",
+        "intermediate_beliefs": "If I am not in control, something bad will happen. I need to know the reasons for my symptoms to feel calm. My happiness is directly tied to my physical health and being in a desirable state.\nDepressive variant: When feeling unwell or scared about health, the client obsesses over the causes of their symptoms and fears the worst outcomes, signaling a heightened state of worry and preoccupation with health issues.",
+        "coping_strategies": "Attempting to maintain a sense of control over situations, environments, and relationships; seeking reassurance through understanding causes of physical symptoms; exercising for stress release; using social interactions to distract from anxiety."
+      },
+      "edss": {
+        "situation": 0.5222326440911204,
+        "automatic_thought": 0.3354192238949642,
+        "emotion": 0.7486192564800043,
+        "behavior": 0.3107079305987106,
+        "average": 0.47924476376619984
+      },
+      "idss": {
+        "relevant_history": 0.6998110361067523,
+        "core_beliefs": 0.6643861754741524,
+        "intermediate_beliefs": 0.3945943412395722,
+        "coping_strategies": 0.3823021166400373,
+        "average": 0.5352734173651286
+      }
+    }
+  ]
+}

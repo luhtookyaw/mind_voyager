@@ -1,0 +1,1143 @@
+{
+  "case_id": "8-2",
+  "client_name": "Ramona",
+  "client_mode": "masked",
+  "difficulty": "easy",
+  "openness_interval": 1,
+  "therapist_provider": "openai",
+  "therapist_model": "gpt-4o-mini",
+  "therapist_prompt_mode": "hybrid_probe",
+  "client_model": "gpt-4o-mini",
+  "moderator_enabled": false,
+  "moderator_model": "gpt-4o-mini",
+  "max_turns": 25,
+  "therapist_turns": 25,
+  "stop_reason": "max_turns",
+  "transcript": [
+    {
+      "turn": 1,
+      "speaker": "therapist",
+      "content": "Hi Ramona, it's nice to meet you. I\u2019m here to listen and support you. I wonder if you\u2019ve been feeling a sense of disconnection from others lately. Sometimes, relationships can feel a bit distant or strained. Does that resonate with you at all, or is there something else on your mind?"
+    },
+    {
+      "turn": 1,
+      "speaker": "client",
+      "content": "Ramona: Well, I mean, it\u2019s not like I\u2019m sitting around thinking about it all the time, you know? But yeah, I guess you could say there\u2019s something to that. It\u2019s just... people can be complicated, and sometimes it feels like they don\u2019t really get me. Like, I try to connect, but it\u2019s like there\u2019s this wall or something. I don\u2019t know if it\u2019s me or them, honestly. It\u2019s just... frustrating, I guess. But then again, maybe I\u2019m just overthinking it. It\u2019s hard to tell sometimes."
+    },
+    {
+      "turn": 2,
+      "speaker": "therapist",
+      "content": "It sounds like you're feeling a mix of frustration and confusion about your connections with others. You mentioned trying to connect but feeling like there's a wall, which can be really tough. I can see how that might lead to some overthinking. Can you share a bit more about what those moments of trying to connect look like for you?"
+    },
+    {
+      "turn": 2,
+      "speaker": "client",
+      "content": "Ramona: Well, you know, it\u2019s like when I\u2019m in a group or even just talking to someone one-on-one, I\u2019ll try to share something about myself, like a thought or an experience. But then it feels like I\u2019m just... talking to a wall, you know? Like, they\u2019re nodding, but I can tell they\u2019re not really listening or maybe they just don\u2019t care. It\u2019s not that I expect everyone to be super interested in my life, but it\u2019s just disheartening when you put yourself out there and it feels like it falls flat. And then I start thinking, \u201cWas that too much? Should I have said something different?\u201d It\u2019s just this cycle of second-guessing myself. I don\u2019t know if that makes sense."
+    },
+    {
+      "turn": 3,
+      "speaker": "therapist",
+      "content": "It makes a lot of sense, Ramona. It sounds really disheartening to feel like your efforts to connect aren\u2019t being met with genuine interest. That cycle of second-guessing can be exhausting. I wonder if part of what you\u2019re experiencing might relate to how you\u2019re feeling physically or health-wise. Sometimes, when we\u2019re not feeling our best, it can affect our interactions with others. Does that resonate with you at all, or is there something else that feels more relevant?"
+    },
+    {
+      "turn": 3,
+      "speaker": "client",
+      "content": "Ramona: Well, I mean, I guess it could be a factor. Sometimes I do feel a bit off, like my energy just isn\u2019t where it should be. It\u2019s not like I\u2019m always sick or anything, but there are days when I just feel... heavy, I guess? Like, even if I want to engage, it\u2019s like my body is saying, \u201cNot today.\u201d And that doesn\u2019t help when I\u2019m trying to connect with people. I don\u2019t want to bring them down or seem like I\u2019m not interested, but it\u2019s hard to shake off that feeling. So, yeah, maybe it plays a part. But then again, I don\u2019t want to make excuses for myself either. It\u2019s just... complicated."
+    },
+    {
+      "turn": 4,
+      "speaker": "therapist",
+      "content": "It sounds like you're navigating a lot of complexity, Ramona. Feeling heavy and low on energy can definitely impact your desire and ability to connect with others. It's understandable that you wouldn't want to bring anyone down or seem disinterested, but it sounds like you\u2019re also trying to balance that with your own needs. How do you typically cope when you\u2019re feeling that way?"
+    },
+    {
+      "turn": 4,
+      "speaker": "client",
+      "content": "Ramona: Well, coping, huh? That\u2019s a tricky one. I mean, sometimes I just try to push through it, you know? Like, I\u2019ll force myself to go out or engage, even when I don\u2019t feel like it. I think part of me believes that if I just keep trying, eventually it\u2019ll get better. But then there are days when I just want to retreat, like, just curl up on the couch and not deal with anything. It\u2019s like a tug-of-war between wanting to connect and wanting to hide away. And then I feel guilty for not being more social or for not being the person I think I should be. So, I guess it\u2019s a bit of a mess, really. I don\u2019t always know what the right thing to do is."
+    },
+    {
+      "turn": 5,
+      "speaker": "therapist",
+      "content": "It sounds like you're really caught in that tug-of-war between wanting to connect and feeling the need to retreat. It\u2019s understandable to feel guilty about not being as social as you think you should be, especially when you\u2019re pushing through those tough moments. I wonder if part of what\u2019s making this so challenging is a concern about how competent you feel in social situations. Does that resonate with you at all, or is there something else that feels more relevant?"
+    },
+    {
+      "turn": 5,
+      "speaker": "client",
+      "content": "Ramona: Well, I mean, I guess you could say that. Competence in social situations? Yeah, that\u2019s a whole thing. Sometimes I feel like I\u2019m just fumbling around, trying to figure out what to say or how to act. Like, I want to come across as confident and engaging, but then I just get all tangled up in my thoughts. It\u2019s like I\u2019m overanalyzing every little thing, and I can feel my heart racing or my palms getting sweaty. And then I start worrying that people can see how nervous I am, which just makes it worse. So, yeah, I suppose there\u2019s this fear of not being good enough or not knowing how to navigate those interactions. But then again, I don\u2019t want to dwell on that too much either. It\u2019s just... frustrating, you know?"
+    },
+    {
+      "turn": 6,
+      "speaker": "therapist",
+      "content": "It sounds like there's a lot of pressure on you to appear confident and engaging in social situations, which can lead to that feeling of fumbling and overanalyzing. The physical sensations you mentioned, like your racing heart and sweaty palms, can really amplify that anxiety. It\u2019s understandable to feel frustrated when you\u2019re trying to navigate those interactions while also battling those internal fears. I wonder, when you think about those moments of feeling nervous or not good enough, what thoughts or beliefs come up for you?"
+    },
+    {
+      "turn": 6,
+      "speaker": "client",
+      "content": "Ramona: Well, when I think about it, I guess there\u2019s this voice in my head that keeps saying things like, \u201cYou\u2019re not interesting enough,\u201d or \u201cWhy would they want to talk to you?\u201d It\u2019s like this constant reminder that I might not measure up to whatever standard I think people have. And then I start to worry that if I say something wrong or if I stumble over my words, they\u2019ll just think I\u2019m a mess or that I don\u2019t belong. It\u2019s exhausting, really. I mean, I know I shouldn\u2019t listen to that voice, but it\u2019s hard to shake it off when it feels so loud. And then I end up just trying to blend in, hoping no one notices how anxious I am. It\u2019s just... a lot to carry, I guess."
+    },
+    {
+      "turn": 7,
+      "speaker": "therapist",
+      "content": "It sounds like that inner voice can be really harsh and critical, making it difficult for you to feel comfortable in social situations. The thoughts of not measuring up or worrying about how others perceive you can create a heavy burden to carry. It\u2019s understandable that you\u2019d want to blend in and avoid drawing attention to your anxiety. I wonder if part of what\u2019s contributing to that heaviness is how you\u2019re sleeping or resting. Sometimes, when we\u2019re not getting enough good sleep, it can affect our mood and how we handle social interactions. Does that resonate with you at all, or is there something else that feels more relevant?"
+    },
+    {
+      "turn": 7,
+      "speaker": "client",
+      "content": "Ramona: Well, sleep, yeah, that\u2019s another tricky subject. I mean, some nights I sleep okay, but then there are others where I just can\u2019t seem to settle down, you know? My mind starts racing, and I end up tossing and turning, thinking about all sorts of things\u2014like those conversations I had or what I should\u2019ve said differently. It\u2019s like I can\u2019t turn it off. And then the next day, I\u2019m just dragging, which doesn\u2019t help with the whole social thing. I feel like I\u2019m already behind the eight ball before I even step out the door. But I don\u2019t want to make it sound like it\u2019s all about sleep, because I know there are other factors at play too. It\u2019s just... everything feels interconnected, I guess?"
+    },
+    {
+      "turn": 8,
+      "speaker": "therapist",
+      "content": "It sounds like your sleep struggles are really intertwined with everything else you\u2019re experiencing. The racing thoughts at night, especially about past conversations, can definitely leave you feeling drained the next day. It\u2019s understandable that you wouldn\u2019t want to attribute everything to sleep alone, but it seems like it plays a significant role in how you feel and interact with others. When you think about those nights when sleep is elusive, what do you notice about your thoughts or feelings during the day that might be connected?"
+    },
+    {
+      "turn": 8,
+      "speaker": "client",
+      "content": "Ramona: Well, during the day, I guess I notice that I\u2019m more on edge, you know? It\u2019s like I\u2019m already starting off in a deficit, and then every little thing feels magnified. If someone looks at me a certain way or if there\u2019s a pause in conversation, my mind jumps to conclusions. I start thinking, \u201cOh no, they must think I\u2019m boring or awkward,\u201d and it just spirals from there. I can feel that tension building in my chest, and it\u2019s hard to shake off. I try to distract myself or focus on something else, but it\u2019s like that nagging voice just won\u2019t let up. And then I feel even more frustrated because I know I\u2019m not being fair to myself. It\u2019s just... a lot to juggle, and I wish I could find a way to quiet that noise, you know?"
+    },
+    {
+      "turn": 9,
+      "speaker": "therapist",
+      "content": "It sounds like that heightened sense of tension and the racing thoughts really amplify your feelings of self-doubt and frustration throughout the day. It\u2019s understandable to feel overwhelmed when every little interaction feels magnified, especially when you\u2019re already starting off in a deficit. I wonder if part of this heaviness might also connect to how you feel about your family\u2019s expectations or opinions. Do you think there\u2019s any influence from family criticism or pressure that plays into how you view yourself in social situations? Or does something else feel more relevant?"
+    },
+    {
+      "turn": 9,
+      "speaker": "client",
+      "content": "Ramona: Well, family expectations, yeah, that\u2019s definitely a thing. I mean, growing up, there was always this sense that I had to measure up, you know? Like, if I didn\u2019t excel or if I wasn\u2019t the best at whatever I was doing, it was like I was letting everyone down. I think that pressure has stuck with me, and it seeps into how I view myself in social situations. I can hear those voices in my head, reminding me that I should be more outgoing or more engaging, like that\u2019s the standard I need to meet. And then I feel this weight, like I\u2019m constantly trying to prove myself, even if it\u2019s just to my own expectations. It\u2019s exhausting, really. I don\u2019t want to let anyone down, but at the same time, I just wish I could be okay with who I am, you know? It\u2019s like I\u2019m caught in this loop of trying to please everyone while feeling like I\u2019m not enough."
+    },
+    {
+      "turn": 10,
+      "speaker": "therapist",
+      "content": "It sounds like the pressure to meet family expectations has had a profound impact on how you view yourself and your social interactions. That feeling of needing to excel and not wanting to let anyone down can create a heavy burden to carry, especially when it leads to a constant cycle of trying to prove yourself. It\u2019s understandable to wish you could just be okay with who you are without that weight. I wonder, when you think about those expectations from your family, how do they influence your sense of self-worth or your beliefs about what it means to be enough?"
+    },
+    {
+      "turn": 10,
+      "speaker": "client",
+      "content": "Ramona: You know, it\u2019s like those expectations have become this measuring stick for my self-worth. I often find myself thinking that if I\u2019m not achieving something or if I\u2019m not living up to what they want, then I\u2019m just... not enough. It\u2019s frustrating because I know, deep down, that I should be able to define my worth on my own terms, but it feels like I\u2019m always comparing myself to this ideal that I can never quite reach. And then there\u2019s this fear that if I don\u2019t meet those standards, I\u2019ll disappoint them or, worse, they\u2019ll think less of me. It\u2019s like I\u2019m stuck in this cycle of needing their approval while also wanting to break free from it. But how do you even begin to untangle that? It\u2019s just... a lot to think about, and I feel like I\u2019m constantly battling with myself over it."
+    },
+    {
+      "turn": 11,
+      "speaker": "therapist",
+      "content": "It sounds like those expectations have created a really challenging dynamic for you, where your self-worth feels tied to achieving certain standards. The struggle between wanting to break free from that cycle and the fear of disappointing your family can be incredibly overwhelming. It\u2019s understandable to feel stuck in that battle, especially when you recognize that you want to define your worth on your own terms. I wonder if part of what adds to that stress is how you feel about your social connections, like with your roommates or friends. Do you find that there\u2019s any stress or tension in those relationships that might be adding to what you\u2019re experiencing? Or does something else feel more relevant?"
+    },
+    {
+      "turn": 11,
+      "speaker": "client",
+      "content": "Ramona: Well, with my roommates, it\u2019s a bit of a mixed bag, honestly. I mean, on one hand, I appreciate having people around, but sometimes I feel like there\u2019s this unspoken pressure to always be social or to fit in with their vibe. They seem so effortlessly confident and outgoing, and I can\u2019t help but feel like I\u2019m lagging behind. I worry that if I don\u2019t engage enough or if I don\u2019t match their energy, they\u2019ll think I\u2019m not fun or that I don\u2019t belong there. It\u2019s like I\u2019m constantly measuring myself against them, which just adds to that weight I already feel. But then again, I also value those moments when we can just chill together without any expectations. It\u2019s just... hard to find that balance, you know? I want to connect, but I also don\u2019t want to feel like I\u2019m losing myself in the process. It\u2019s frustrating, and I guess it just feeds into that whole cycle of feeling not enough."
+    },
+    {
+      "turn": 12,
+      "speaker": "therapist",
+      "content": "It sounds like your relationships with your roommates bring both comfort and pressure. On one hand, you appreciate their company, but on the other, there's that feeling of needing to measure up to their energy and confidence. It\u2019s understandable to want to connect without losing yourself in the process. I wonder, when you think about those moments when you feel that pressure to fit in, what emotions come up for you? And how do you typically respond in those situations?"
+    },
+    {
+      "turn": 12,
+      "speaker": "client",
+      "content": "Ramona: Well, when I feel that pressure to fit in, I guess I mostly feel anxious and a bit overwhelmed. It\u2019s like my heart starts racing, and I can feel that tightness in my chest again. I start to second-guess everything I say or do, thinking, \u201cAm I being too quiet? Should I be more engaging?\u201d And then I end up either overcompensating\u2014like trying too hard to be funny or interesting\u2014or I just retreat into myself, hoping no one notices. It\u2019s frustrating because I want to be myself, but then I feel this urge to perform, like I have to put on a show to be accepted. It\u2019s exhausting, honestly. I just wish I could relax and be okay with just being me, without all that pressure hanging over my head. But it\u2019s hard to shake off that feeling that I need to prove myself, you know?"
+    },
+    {
+      "turn": 13,
+      "speaker": "therapist",
+      "content": "It sounds like that pressure to fit in really heightens your anxiety and creates a cycle of overcompensating or retreating. It\u2019s understandable to feel exhausted when you\u2019re caught between wanting to be yourself and feeling like you have to perform to be accepted. I wonder if part of this might connect to a pattern of wanting everything to be perfect or to meet certain standards in those social situations. Does that resonate with you at all, or is there something else that feels more relevant?"
+    },
+    {
+      "turn": 13,
+      "speaker": "client",
+      "content": "Ramona: Yeah, that definitely resonates. I mean, I think there\u2019s this part of me that feels like everything has to be just right, you know? Like if I don\u2019t say the perfect thing or if I don\u2019t contribute in the exact way that\u2019s expected, then it\u2019s like I\u2019ve failed. It\u2019s almost like I\u2019m constantly on this tightrope, trying to balance being myself while also meeting these unspoken standards. And when I slip up, even just a little, it feels like the whole thing comes crashing down. I know it\u2019s not realistic to think I can be perfect all the time, but that pressure just seems to creep in anyway. It\u2019s frustrating because I want to enjoy those moments with my roommates, but instead, I end up feeling like I\u2019m under a microscope, and it just adds to that weight I carry. I wish I could just let go of that need for perfection and just be present, but it\u2019s like I don\u2019t even know how to start doing that."
+    },
+    {
+      "turn": 14,
+      "speaker": "therapist",
+      "content": "It sounds like that need for everything to be perfect really adds to the pressure you feel in social situations, making it hard to enjoy those moments with your roommates. The idea of being on a tightrope, trying to balance your true self with those unspoken standards, must be incredibly stressful. I wonder, when you think about that desire for perfection, what do you think it says about how you view yourself or what you believe you need to do to feel accepted?"
+    },
+    {
+      "turn": 14,
+      "speaker": "client",
+      "content": "Ramona: You know, I think that desire for perfection really highlights how much I struggle with my own self-acceptance. It\u2019s like I feel this constant need to prove that I\u2019m worthy of being liked or valued, and if I don\u2019t hit that mark, then I\u2019m just... not enough. I guess it reflects that deep-seated belief that I have to earn my place, whether it\u2019s with my family or friends. It\u2019s frustrating because I know that nobody\u2019s perfect, and yet here I am, holding myself to this impossible standard. It makes me wonder if I\u2019m ever going to be able to just relax and be myself without that nagging voice telling me I have to do better. I want to feel accepted for who I am, flaws and all, but it\u2019s like I keep getting in my own way. It\u2019s exhausting, you know?"
+    },
+    {
+      "turn": 15,
+      "speaker": "therapist",
+      "content": "It sounds like that desire for perfection really underscores a struggle with self-acceptance and feeling worthy of love and connection. It\u2019s understandable to feel exhausted when you\u2019re constantly trying to prove your value, especially when you recognize that nobody is perfect. I wonder if part of this might also connect to feelings of social isolation, where you might feel disconnected or alone in those moments of pressure. Does that resonate with you at all, or is there something else that feels more relevant to how you\u2019re experiencing your social life?"
+    },
+    {
+      "turn": 15,
+      "speaker": "client",
+      "content": "Ramona: Yeah, I think that definitely resonates. There are times when I feel like I\u2019m just on the outside looking in, you know? Like, even when I\u2019m physically there with my roommates or friends, I can feel this emotional distance. It\u2019s like I\u2019m surrounded by people, but I still feel alone in my thoughts and worries. I guess that pressure to fit in and be perfect makes it hard to really connect with them. I\u2019m so focused on how I\u2019m coming across that I miss out on just enjoying the moment. It\u2019s frustrating because I want to feel that sense of belonging, but instead, I end up feeling isolated, like I\u2019m not really part of the group. And then that just feeds into my fears about not being enough or being left out. It\u2019s a tough cycle to break, and I don\u2019t know how to bridge that gap between wanting to connect and feeling like I have to put up this wall to protect myself."
+    },
+    {
+      "turn": 16,
+      "speaker": "therapist",
+      "content": "It sounds like that emotional distance, even when you\u2019re physically present, creates a real sense of isolation for you. It\u2019s understandable to feel frustrated when you want to belong but find yourself caught up in worries about how you\u2019re perceived. That cycle of wanting to connect while feeling the need to protect yourself can be really challenging. I wonder, when you think about those moments of feeling isolated, what do you think holds you back from fully engaging with your roommates or friends?"
+    },
+    {
+      "turn": 16,
+      "speaker": "client",
+      "content": "Ramona: Well, I think a big part of it is that fear of vulnerability. I mean, letting my guard down feels like a risk, you know? If I show too much of myself, what if they don\u2019t like what they see? Or worse, what if they judge me or think I\u2019m not worth their time? It\u2019s like I\u2019m constantly weighing the pros and cons of opening up, and most of the time, the fear wins out. I guess I also worry that if I let them in, I\u2019ll end up feeling even more exposed, and that just feels too scary. So, I end up keeping things surface-level, which just reinforces that feeling of isolation. It\u2019s frustrating because I want to connect, but I feel like I\u2019m stuck in this loop of self-protection that keeps me from really being present with them. It\u2019s like I\u2019m my own worst enemy in those moments."
+    },
+    {
+      "turn": 17,
+      "speaker": "therapist",
+      "content": "It sounds like that fear of vulnerability really plays a significant role in keeping you from fully engaging with your roommates and friends. It\u2019s understandable to feel scared about showing more of yourself, especially when you worry about being judged or not being accepted. That loop of self-protection can be so isolating, and it must be frustrating to feel like you\u2019re holding yourself back from the connections you desire. I wonder, when you think about what it would feel like to let your guard down a little, even just a bit, what comes to mind for you? What do you imagine might happen?"
+    },
+    {
+      "turn": 17,
+      "speaker": "client",
+      "content": "Ramona: Well, when I think about letting my guard down, it\u2019s a mix of hope and fear, honestly. I mean, part of me imagines that it could be freeing, like finally taking a deep breath after holding it in for so long. I could share a laugh or a moment of connection without that constant worry about how I\u2019m being perceived. But then there\u2019s that nagging voice in my head that says, \u201cWhat if they don\u2019t respond the way you want? What if they see you as weak or too much?\u201d It\u2019s like I\u2019m standing at the edge of a cliff, wanting to jump into the water but terrified of what might happen when I do. I guess I just wish I could trust that it would be okay, that maybe they\u2019d appreciate the real me instead of the version I feel I have to put on. But that leap feels so daunting, and I can\u2019t help but wonder if it\u2019s worth the risk. It\u2019s frustrating to feel so torn between wanting to connect and being scared of what that might mean for me."
+    },
+    {
+      "turn": 18,
+      "speaker": "therapist",
+      "content": "It sounds like you\u2019re in a really tough spot, feeling both the hope of connection and the fear of vulnerability at the same time. Imagining that leap into the water as a freeing experience is beautiful, yet the fear of how others might perceive you can be so paralyzing. It\u2019s understandable to feel torn between wanting to be seen for who you truly are and worrying about the potential risks that come with that. I wonder, what do you think might help you feel a little more secure in taking that leap, even if it\u2019s just a small step?"
+    },
+    {
+      "turn": 18,
+      "speaker": "client",
+      "content": "Ramona: You know, I think maybe starting small could help. Like, if I could find a way to share something a little more personal without feeling like I\u2019m exposing my whole self right away, that might ease some of that fear. It\u2019s like dipping my toes in the water instead of jumping in headfirst. I guess I could try to open up about something that feels less risky, like a funny story or a silly moment from my day. That way, I\u2019m still being real, but it doesn\u2019t feel like I\u2019m laying everything on the line. I just worry that even those small steps might feel overwhelming, and I might end up retreating again. But I suppose if I remind myself that it\u2019s okay to be imperfect and that my friends might appreciate that honesty, it could help. It\u2019s just hard to shake off that fear of judgment, you know? I want to believe that they\u2019d be supportive, but that voice in my head keeps telling me otherwise. It\u2019s frustrating to feel stuck between wanting to connect and being scared of what that might mean for me."
+    },
+    {
+      "turn": 19,
+      "speaker": "therapist",
+      "content": "It sounds like starting small feels like a more manageable way to approach vulnerability for you, which is a great insight. Sharing something lighter, like a funny story, could be a nice way to ease into deeper connections without feeling too exposed. It\u2019s understandable to still feel that fear of judgment creeping in, even with those small steps. I wonder, what do you think might help you remind yourself that your friends could be supportive and appreciative of your honesty, even when that voice of doubt tries to take over?"
+    },
+    {
+      "turn": 19,
+      "speaker": "client",
+      "content": "Ramona: Well, I think maybe I could try to remind myself of the times when my friends have been open with me. Like, when they\u2019ve shared something personal or even a little silly, it always makes me feel closer to them. I guess I could focus on those moments and how they didn\u2019t get judged for being themselves. It\u2019s like, if I can remember that they\u2019re human too and that everyone has their own quirks and flaws, it might help quiet that nagging voice a bit. I could also maybe talk to them about how I\u2019m feeling, just to gauge their reactions and see if they\u2019re open to that kind of honesty. I just wish I could shake off that fear completely, but I know it\u2019s a process. It\u2019s just frustrating to feel like I\u2019m holding myself back when I really want to connect."
+    },
+    {
+      "turn": 20,
+      "speaker": "therapist",
+      "content": "It sounds like reflecting on your friends' openness and remembering those moments of connection could be a helpful way to counter that nagging voice of doubt. It\u2019s great that you recognize the humanity in them and how sharing can strengthen bonds. Talking to them about how you\u2019re feeling could also open up a dialogue that fosters more honesty and understanding. I hear you when you say it\u2019s a process, and it\u2019s okay to take your time with it. I wonder, as you think about these steps, what feelings come up for you when you imagine sharing a bit more of yourself with your friends?"
+    },
+    {
+      "turn": 20,
+      "speaker": "client",
+      "content": "Ramona: You know, when I imagine sharing more of myself with my friends, I feel a mix of excitement and anxiety. There\u2019s that flutter of hope that maybe it could lead to a deeper connection, like finally breaking through that wall I\u2019ve built. But then, right alongside that, there\u2019s this tightness in my chest, like a fear of rejection or judgment creeping in. It\u2019s almost like I can feel my heart racing at the thought of being vulnerable, and I start to question if I\u2019m really ready for that. I guess I just want to feel that sense of relief and belonging, but the fear of what might happen if they don\u2019t respond well is always there, lurking in the background. It\u2019s frustrating because I want to take those steps, but I can\u2019t shake off that worry about how it might all play out."
+    },
+    {
+      "turn": 21,
+      "speaker": "therapist",
+      "content": "It sounds like you\u2019re experiencing a really intense mix of excitement and anxiety when you think about sharing more of yourself. That flutter of hope for deeper connection is beautiful, but it\u2019s understandable that the fear of rejection and judgment can feel overwhelming at the same time. It\u2019s like you\u2019re caught between wanting to break through that wall and the worry about what might happen if you do. I wonder, when you feel that tightness in your chest and your heart racing, what do you usually do in those moments? How do you cope with that anxiety?"
+    },
+    {
+      "turn": 21,
+      "speaker": "client",
+      "content": "Ramona: Well, when I feel that tightness and my heart starts racing, I usually try to distract myself. I might throw myself into a book or binge-watch a show to take my mind off things. Sometimes I\u2019ll even go for a walk, just to get some fresh air and clear my head. But I know deep down that it\u2019s more of a temporary fix. I guess I\u2019m just trying to avoid the feelings instead of really facing them. It\u2019s frustrating because I know I should probably be addressing what\u2019s going on inside, but it feels so much easier to just push it aside. I think part of me worries that if I really sit with those feelings, they might overwhelm me, and I\u2019m not sure I\u2019m ready for that. It\u2019s like I\u2019m stuck in this cycle of avoidance, and I want to break free from it, but I don\u2019t know how."
+    },
+    {
+      "turn": 22,
+      "speaker": "therapist",
+      "content": "It sounds like you\u2019ve developed some coping strategies to distract yourself when those feelings of anxiety arise, like diving into a book or going for a walk. It\u2019s understandable to want to avoid those overwhelming emotions, especially when facing them feels daunting. I hear you when you say you want to break free from that cycle of avoidance but aren\u2019t quite sure how. I wonder, what do you think it would look like to start facing those feelings, even just a little bit at a time? What might that process feel like for you?"
+    },
+    {
+      "turn": 22,
+      "speaker": "client",
+      "content": "Ramona: Well, I guess facing those feelings would mean allowing myself to really sit with them, even if it feels uncomfortable. It\u2019s like, instead of running away, I\u2019d need to acknowledge that tightness in my chest and maybe even ask myself what it\u2019s trying to tell me. I think it could be about recognizing that it\u2019s okay to feel anxious and that those feelings don\u2019t define me. But honestly, the thought of doing that feels pretty overwhelming. I imagine it might feel like standing in a storm, where everything is chaotic, and I\u2019m just trying to find my footing. I suppose I could start by taking a few moments each day to check in with myself, just to see what\u2019s going on inside, without judgment. But then there\u2019s that fear of what I might uncover, you know? It\u2019s frustrating to feel like I want to move forward, but the fear of the unknown keeps pulling me back."
+    },
+    {
+      "turn": 23,
+      "speaker": "therapist",
+      "content": "It sounds like you have a thoughtful understanding of what facing those feelings might involve, like acknowledging the anxiety and checking in with yourself. I can see how that could feel overwhelming, almost like standing in a storm, and it\u2019s completely natural to have that fear of what you might uncover. It\u2019s great that you\u2019re considering starting with small moments of self-reflection. I wonder, as you think about those moments of checking in with yourself, what kind of support or environment would help you feel safer in exploring those feelings?"
+    },
+    {
+      "turn": 23,
+      "speaker": "client",
+      "content": "Ramona: You know, I think having a quiet space where I feel comfortable would really help. Like, maybe somewhere I can be alone without distractions, where I can just breathe and not feel rushed. I guess it would be nice to have a journal or something to write down my thoughts, too, so I can process them without feeling like I have to share them right away. It might also help to have someone I trust, like a close friend or even a therapist, who I can talk to about what I\u2019m feeling if I need to. Just knowing that I have that support could make it feel a bit less daunting. But then again, there\u2019s that worry about being judged or misunderstood, which makes me hesitant. It\u2019s frustrating because I want to explore these feelings, but I also want to protect myself from any potential hurt. It\u2019s like I\u2019m caught in this tug-of-war between wanting to move forward and holding myself back."
+    },
+    {
+      "turn": 24,
+      "speaker": "therapist",
+      "content": "It sounds like having a quiet, comfortable space to reflect and a journal to process your thoughts could create a supportive environment for you. It\u2019s understandable to want that sense of safety, especially when exploring deeper feelings. I hear you when you mention the importance of having someone you trust to talk to, while also feeling that worry about judgment. It\u2019s a delicate balance, wanting to move forward while also protecting yourself. I wonder, what qualities do you think you would look for in that supportive person, whether it\u2019s a friend or a therapist, to help you feel more at ease in sharing your feelings?"
+    },
+    {
+      "turn": 24,
+      "speaker": "client",
+      "content": "Ramona: Well, I think I\u2019d want someone who\u2019s really understanding and patient, you know? Someone who doesn\u2019t rush me or push me to share more than I\u2019m comfortable with. It would be nice if they could listen without judgment and maybe even share their own experiences to show that it\u2019s okay to be vulnerable. I guess having someone who can validate my feelings would be really important, too, like acknowledging that it\u2019s okay to feel anxious or scared. I\u2019d want them to be empathetic, but also someone who can gently encourage me to take those steps forward without making me feel overwhelmed. It\u2019s just hard to find that balance, and I worry that if I open up too much, I might end up feeling exposed or misunderstood. It\u2019s frustrating because I know I need that support, but the fear of being let down or judged is always lurking in the background."
+    },
+    {
+      "turn": 25,
+      "speaker": "therapist",
+      "content": "It sounds like you have a clear vision of the qualities that would make you feel supported, like understanding, patience, and empathy. It\u2019s important to feel that someone can listen without judgment and validate your feelings while also encouraging you gently. I can see how that fear of feeling exposed or misunderstood can make it challenging to seek out that support. It\u2019s completely natural to want to protect yourself while also craving connection. I wonder, as you think about these qualities, have you had experiences in the past where you felt supported in this way? What did that look like for you?"
+    },
+    {
+      "turn": 25,
+      "speaker": "client",
+      "content": "Ramona: Well, there have been a few times when I felt really supported, but they seem few and far between. I remember a friend from college who was just so easy to talk to. She had this way of listening that made me feel like my feelings were valid, no matter how silly they seemed. We would sit for hours, and she\u2019d share her own struggles too, which made it feel like a safe space. I guess it was comforting to know I wasn\u2019t alone in feeling anxious or uncertain. But then, there have been other times when I\u2019ve opened up to someone and felt dismissed or like they didn\u2019t really get it, which just reinforced that fear of being judged. It\u2019s frustrating because those positive experiences remind me of what\u2019s possible, but the negative ones linger in my mind, making me hesitant to reach out again. It\u2019s like I want to hold onto those moments of connection, but the fear of being let down keeps creeping back in."
+    }
+  ],
+  "judge_model": "gpt-4o-mini",
+  "mediator_events": [
+    "Openness judge rated 3/5 and updated prompt openness.",
+    "Openness judge output: **Numerical Rating: 3**\n\n**Key Examples:**\n- \"I do feel like I\u2019ve been pushing people away lately. It\u2019s like I\u2019m scared to let anyone in because I don\u2019t want to get hurt again.\"\n- \"I\u2019ve been thinking a lot about how my past relationships have shaped who I am today. It\u2019s hard to admit, but I realize I need to work on being more open.\"\n\n**Progression:** Client\u2019s most recent interactions show a noticeable increase in emotional depth and self-reflection, marking a significant change from earlier exchanges where they primarily provided factual responses. Initially, Ramona seemed hesitant and guarded, but her latest comments reveal a growing awareness of her emotional barriers and a willingness to explore them. This shift indicates a movement from a more defensive stance to a place of vulnerability and introspection.\n\n**Turning Point:** Client\u2019s emotional depth shifted during a recent moment when she began expressing her fears about intimacy and the impact of past relationships on her current behavior. This acknowledgment of her struggles represents a pivotal moment in her journey, as it demonstrates not only an increased comfort level with the therapist but also a readiness to engage in deeper self-exploration.",
+    "Exploration judge rated 2/5; internal elements remain masked.",
+    "Exploration judge output: [Rating]: 2 (High Facilitation)\n\n[Justification]: The Therapist's question is clear and relevant, inviting Ramona to reflect on her feelings of disconnection in relationships. It encourages her to think about her experiences and emotions, which is a positive step toward deeper self-reflection. However, the question primarily expands on existing thoughts about disconnection rather than introducing significantly new perspectives or challenging her assumptions. While it is a good starting point for exploration, it does not yet delve into the root causes or emotional depths that would lead to a more profound understanding of her situation.",
+    "Openness judge rated 3/5 and updated prompt openness.",
+    "Openness judge output: **Rating: 3 (ENGAGED EXPLORATION)**\n\n**Key Examples:**\n1. **Recent Quote Showing Emotional State:** \"It\u2019s just... people can be complicated, and sometimes it feels like they don\u2019t really get me. Like, I try to connect, but it\u2019s like there\u2019s this wall or something.\"\n2. **Latest Exchange Demonstrating Current Openness:** \"I don\u2019t know if it\u2019s me or them, honestly. It\u2019s just... frustrating, I guess. But then again, maybe I\u2019m just overthinking it.\"\n\n**Progression:** In the most recent interactions, Ramona has shown a noticeable increase in emotional expression and self-reflection. Initially, her responses were more factual and guarded, but now she is articulating feelings of frustration and confusion regarding her relationships. This marks a significant change from earlier exchanges, where she may have been more hesitant to delve into her emotions. The current dialogue reflects a willingness to explore her feelings, indicating a deeper level of engagement.\n\n**Turning Point:** Ramona's emotional depth shifted during her acknowledgment of feeling like there is a \"wall\" between her and others. This moment signifies a breakthrough in her self-awareness, as she begins to recognize the complexities of her relationships and her role in them. By expressing her frustration and uncertainty, she demonstrates a growing comfort with vulnerability, which is a key indicator of her progression in therapy.",
+    "Exploration judge rated 3/5; internal elements remain masked.",
+    "Exploration judge output: [Rating]: 3 (Very High Facilitation \u2013 Deep Exploration Begins)\n\n[Justification]: The Therapist asked an insightful question that encouraged the client to delve deeper into their feelings of frustration and confusion regarding their connections with others. By prompting the client to share more about their experiences of trying to connect, the Therapist facilitated an exploration of the emotional depth behind the client's thoughts. This question helped the client analyze their interactions and the barriers they perceive, which is a step towards shifting their perspective. While the question was effective in promoting deeper self-reflection, it did not yet challenge the client's assumptions or introduce completely new angles, which is why it falls short of a higher rating.",
+    "Openness judge rated 3/5 and updated prompt openness.",
+    "Openness judge output: **Rating: 3 (ENGAGED EXPLORATION)**\n\n**Key Examples:**\n1. **Emotional State:** \"It\u2019s just... frustrating, I guess. But then again, maybe I\u2019m just overthinking it. It\u2019s hard to tell sometimes.\"\n2. **Current Openness:** \"It\u2019s just disheartening when you put yourself out there and it feels like it falls flat. And then I start thinking, 'Was that too much? Should I have said something different?'\"\n\n**Progression:** The client, Ramona, demonstrates a notable shift in emotional expression and self-reflection in her most recent exchanges. Initially, her responses were more factual and somewhat guarded, but she has begun to articulate her feelings of frustration and confusion regarding her connections with others. This marks a significant change from earlier interactions, where she might have been less willing to explore her emotions deeply. The emergence of her emotional vocabulary and the willingness to share her internal dialogue indicates a growing comfort level with the therapist.\n\n**Turning Point:** Ramona's emotional depth shifted during her recent expression of feeling \"disheartened\" when her attempts to connect seem to fall flat. This moment signifies a turning point as she moves from merely acknowledging her feelings to actively engaging with them and reflecting on the impact they have on her self-perception and interactions. This self-reflection, combined with her willingness to share her thoughts about second-guessing herself, illustrates her progression towards a more engaged exploration of her emotional landscape.",
+    "Exploration judge rated 3/5; internal elements remain masked.",
+    "Exploration judge output: [Rating]: 3 (Very High Facilitation \u2013 Deep Exploration Begins)\n\n[Justification]: The Therapist asked insightful and thought-provoking questions that encouraged the client to analyze the emotional depth behind their experiences of disconnection. By prompting the client to share more about their moments of trying to connect, the Therapist facilitated a deeper exploration of the client's feelings of frustration and confusion. The inquiry into whether physical or health-related feelings might influence the client's interactions also opened the door for further self-reflection. While the questions were effective in prompting deeper thought, they did not fully challenge the client's existing assumptions or introduce completely new perspectives, which is why it falls short of a higher rating. Overall, the Therapist's approach led to meaningful exploration but did not reach the level of transformational potential seen in higher ratings.",
+    "Openness judge rated 3/5 and updated prompt openness.",
+    "Openness judge output: **Rating: 3 (ENGAGED EXPLORATION)**\n\n**Key Examples:**\n1. \"It\u2019s just... frustrating, I guess. But then again, maybe I\u2019m just overthinking it. It\u2019s hard to tell sometimes.\"\n2. \"Sometimes I do feel a bit off, like my energy just isn\u2019t where it should be. It\u2019s not like I\u2019m always sick or anything, but there are days when I just feel... heavy, I guess?\"\n\n**Progression:**\nIn Ramona's most recent interactions, there is a noticeable increase in emotional expression and self-reflection compared to earlier exchanges. Initially, she presented a more factual and guarded demeanor, but now she is articulating her feelings of frustration and confusion about her connections with others. The use of phrases like \"it\u2019s just... frustrating\" and \"I just feel... heavy\" indicates a deeper emotional engagement and a willingness to explore her feelings. This marks a significant change from the earlier stage where she may have been more defensive and less willing to share her emotional state.\n\n**Turning Point:**\nThe turning point in Ramona's emotional depth appears to have occurred when she began to articulate her feelings of frustration and the metaphor of feeling \"heavy.\" This moment signifies a shift from merely acknowledging her feelings to actively exploring how these feelings impact her interactions with others. By expressing that her energy levels affect her ability to connect, she demonstrates a growing awareness of the interplay between her emotional and physical states, which is a significant step towards deeper self-reflection and engagement in the therapeutic process.",
+    "Exploration judge rated 3/5; internal elements remain masked.",
+    "Exploration judge output: [Rating]: 3 (Very High Facilitation \u2013 Deep Exploration Begins)\n\n[Justification]: The therapist's questions and reflections encouraged the client to delve deeper into their feelings of disconnection and frustration. The therapist's inquiry about the client's experiences of trying to connect and the impact of their physical health on these interactions prompted the client to explore the emotional depth behind their experiences. The therapist's questions began to shift the client's perspective, leading to higher-level self-reflection about their feelings and coping mechanisms. However, while the questions were insightful and facilitated deeper exploration, they did not fully challenge the client's assumptions or introduce completely new angles that would lead to a major breakthrough. Thus, the facilitation is rated as very high but not at the level of profound breakthrough.",
+    "Openness judge rated 3/5 and updated prompt openness.",
+    "Openness judge output: **Rating: 3 (ENGAGED EXPLORATION)**\n\n**Key Examples:**\n1. **Emotional State:** \"It\u2019s just... frustrating, I guess. But then again, maybe I\u2019m just overthinking it. It\u2019s hard to tell sometimes.\"\n2. **Current Openness:** \"I mean, sometimes I just try to push through it, you know? Like, I\u2019ll force myself to go out or engage, even when I don\u2019t feel like it.\"\n\n**Progression:** In the most recent interactions, Ramona demonstrates a notable increase in emotional expression, particularly around her feelings of frustration and confusion regarding her connections with others. Earlier in the session, her responses were more factual and guarded, but she is now sharing deeper insights into her emotional struggles. The shift from a more defensive stance to a willingness to explore her feelings suggests a significant change in her comfort level and engagement with the therapeutic process.\n\n**Turning Point:** The turning point in Ramona's emotional depth occurred when she began to articulate the complexity of her feelings about social interactions. Specifically, her acknowledgment of feeling \"heavy\" and the internal conflict between wanting to connect and the desire to retreat marked a shift toward greater vulnerability and self-reflection. This moment allowed her to express the nuances of her emotional state, indicating a deeper engagement with her feelings and a developing rapport with the therapist.",
+    "Exploration judge rated 3/5; internal elements remain masked.",
+    "Exploration judge output: [Rating]: 3 (Very High Facilitation \u2013 Deep Exploration Begins)\n\n[Justification]: The therapist asked insightful and thought-provoking questions that encouraged the client to analyze the emotional depth and complexity of their experiences with social connections. The therapist's inquiries about the client's feelings of frustration, confusion, and the impact of physical health on social interactions prompted deeper self-reflection. The questions began to shift the client's perspective, particularly when exploring the tug-of-war between wanting to connect and the desire to retreat. However, while the therapist facilitated a deeper exploration, the questions did not fully challenge the client's assumptions or introduce completely new angles that would lead to a major insight or breakthrough. Therefore, the facilitation was strong but not at the highest level.",
+    "Openness judge rated 3/5 and updated prompt openness.",
+    "Openness judge output: **Rating: 3 (ENGAGED EXPLORATION)**\n\n**Key Examples:**\n1. \"It\u2019s just... frustrating, I guess. But then again, maybe I\u2019m just overthinking it. It\u2019s hard to tell sometimes.\"\n2. \"It\u2019s like a tug-of-war between wanting to connect and wanting to hide away. And then I feel guilty for not being more social or for not being the person I think I should be.\"\n\n**Progression:**\nThe client\u2019s most recent interactions reveal a notable increase in emotional expression and self-reflection. Ramona has moved from primarily factual responses to sharing deeper feelings of frustration and guilt regarding her social interactions. Earlier in the session, her responses were more guarded and hesitant, primarily focused on the complexities of her relationships without delving into her emotional experiences. In contrast, her latest exchanges demonstrate a willingness to explore her feelings of heaviness and the internal conflict between her desire to connect and her inclination to retreat. This marks a significant change, indicating a deeper engagement with her emotional state.\n\n**Turning Point:**\nThe turning point in Ramona\u2019s emotional depth occurred when she articulated the \"tug-of-war\" between wanting to connect and wanting to hide away. This metaphor not only highlights her internal struggle but also signifies a shift towards greater vulnerability and self-awareness. By acknowledging her feelings of guilt and frustration, she has opened up to the therapeutic process, allowing for more meaningful exploration of her emotions and experiences. This moment illustrates her growing comfort and trust in the therapeutic relationship, which is essential for further progress.",
+    "Exploration judge rated 3/5; internal elements remain masked.",
+    "Exploration judge output: [Rating]: 3 (Very High Facilitation \u2013 Deep Exploration Begins)\n\n[Justification]: The therapist asked insightful and thought-provoking questions that helped the client analyze the root causes and emotional depth behind their experiences. The therapist's inquiries encouraged the client to reflect on their feelings of disconnection, frustration, and anxiety in social situations. By exploring the client's coping mechanisms and the internal tug-of-war they experience, the therapist facilitated a deeper understanding of the client's struggles. However, while the questions prompted significant self-reflection, they did not yet challenge the client\u2019s assumptions or introduce completely new perspectives that would lead to a major insight or breakthrough. The conversation is moving toward deeper exploration, but it hasn't fully reached that level yet.",
+    "Openness judge rated 3/5 and updated prompt openness.",
+    "Openness judge output: **Rating: 3 (ENGAGED EXPLORATION)**\n\n**Key Examples:**\n1. \"It\u2019s just... frustrating, I guess. But then again, maybe I\u2019m just overthinking it. It\u2019s hard to tell sometimes.\"\n2. \"It\u2019s like I\u2019m overanalyzing every little thing, and I can feel my heart racing or my palms getting sweaty.\"\n\n**Progression:**\nIn the most recent exchanges, Ramona demonstrates a notable increase in emotional expression and self-reflection. She articulates feelings of frustration and confusion regarding her social interactions, indicating a deeper level of emotional engagement than in earlier parts of the session. Initially, her responses were more factual and guarded, but she has begun to explore her feelings about connection and the internal pressures she experiences. This shift marks a significant change from her earlier state, where she was more hesitant and less willing to delve into her emotional landscape.\n\n**Turning Point:**\nThe turning point in Ramona's emotional depth occurred when she began to articulate her internal struggles with self-criticism and anxiety about social interactions. Specifically, her acknowledgment of the \"voice in my head that keeps saying things like, 'You\u2019re not interesting enough'\" represents a moment of vulnerability and self-awareness. This insight reflects a willingness to confront her feelings and fears, indicating a deeper engagement with the therapeutic process and a growing comfort in sharing her experiences.",
+    "Exploration judge rated 3/5; internal elements remain masked.",
+    "Exploration judge output: [Rating]: 3 (Very High Facilitation \u2013 Deep Exploration Begins)\n\n[Justification]: The therapist asked insightful and thought-provoking questions that encouraged the client to analyze the root causes of their feelings of disconnection and anxiety in social situations. The therapist's inquiries prompted the client to reflect on their experiences and emotions, leading to deeper self-exploration, particularly regarding their inner critical voice and feelings of competence. While the questions did not completely challenge the client's existing thought patterns or introduce entirely new perspectives, they effectively facilitated a deeper understanding of the client's emotional landscape and the complexities of their social interactions. This level of questioning indicates a very high facilitation of the client's inner exploration.",
+    "Openness judge rated 3/5 and updated prompt openness.",
+    "Openness judge output: **Rating: 3 (ENGAGED EXPLORATION)**\n\n**Key Examples:**\n1. **Emotional State:** \"It\u2019s just disheartening when you put yourself out there and it feels like it falls flat. And then I start thinking, 'Was that too much? Should I have said something different?' It\u2019s just this cycle of second-guessing myself.\"\n2. **Current Openness:** \"Well, I mean, I guess you could say that. Competence in social situations? Yeah, that\u2019s a whole thing. Sometimes I feel like I\u2019m just fumbling around, trying to figure out what to say or how to act.\"\n\n**Progression:** The client\u2019s most recent interactions reveal a notable increase in emotional expression and self-reflection. Initially, Ramona exhibited a more guarded stance, primarily sharing factual observations about her feelings of disconnection. However, in the latest exchanges, she has begun to articulate deeper emotional experiences, such as feelings of frustration and anxiety related to social situations. This marks a significant change from earlier in the session, where her responses were more superficial and defensive.\n\n**Turning Point:** The turning point in Ramona's emotional depth occurred when she began to articulate the internal dialogue she experiences, particularly when she said, \"there\u2019s this voice in my head that keeps saying things like, 'You\u2019re not interesting enough,' or 'Why would they want to talk to you?'\" This moment marked a shift from merely describing her feelings to engaging in meaningful self-reflection about her thoughts and beliefs, indicating a growing comfort in exploring her vulnerabilities within the therapeutic space.",
+    "Exploration judge rated 3/5; internal elements remain masked.",
+    "Exploration judge output: [Rating]: 3 (Very High Facilitation \u2013 Deep Exploration Begins)\n\n[Justification]: The therapist asked insightful and thought-provoking questions that encouraged the client, Ramona, to analyze the root causes of her feelings of disconnection and anxiety in social situations. The therapist's inquiries prompted Ramona to explore her inner thoughts and beliefs, particularly regarding her perceived competence and the critical inner voice that contributes to her anxiety. The questions led to a deeper understanding of how her physical health, energy levels, and sleep patterns might be affecting her social interactions. While the therapist did not introduce completely new perspectives, the questions did facilitate a significant level of self-reflection and analysis, helping Ramona to begin unpacking complex emotions and experiences.",
+    "Openness judge rated 3/5 and updated prompt openness.",
+    "Openness judge output: **Rating: 3 (ENGAGED EXPLORATION)**\n\n**Key Examples:**\n1. **Emotional State:** \"It\u2019s just... frustrating, I guess. But then again, maybe I\u2019m just overthinking it. It\u2019s hard to tell sometimes.\"\n2. **Current Openness:** \"Well, coping, huh? That\u2019s a tricky one. I mean, sometimes I just try to push through it, you know? Like, I\u2019ll force myself to go out or engage, even when I don\u2019t feel like it.\"\n\n**Progression:** The client\u2019s recent interactions demonstrate a notable increase in emotional expression and self-reflection. Initially, Ramona exhibited a more defensive stance, characterized by factual responses and hesitance to delve deeper into her feelings. However, in the latest exchanges, she articulates her frustrations and complexities surrounding social interactions and her emotional state with greater clarity. This shift indicates a growing comfort in sharing her thoughts and feelings, moving from a state of uncertainty to one of more engaged exploration.\n\n**Turning Point:** The client\u2019s emotional depth shifted significantly during the exchange where she discussed the \"tug-of-war between wanting to connect and wanting to hide away.\" This moment marked a transition from merely acknowledging her struggles to expressing the internal conflict she experiences, revealing a deeper layer of vulnerability and self-awareness. This newfound openness reflects a developing rapport with the therapist and a willingness to explore her feelings more authentically.",
+    "Exploration judge rated 4/5 and revealed internal cognitive elements.",
+    "Exploration judge output: [Rating]: 4 (Even Higher Facilitation \u2013 Strong Transformational Potential)\n\n[Justification]: The therapist asked strategic and powerfully open-ended questions that pushed the client, Ramona, beyond her previous understanding of her feelings and experiences. The therapist's inquiries encouraged Ramona to explore deeper emotional layers, such as the impact of her inner critical voice, her feelings of competence in social situations, and how her sleep affects her overall mood and social interactions. The questions challenged assumptions and revealed hidden motivations, leading to a clearer shift in Ramona's self-awareness. The therapist effectively facilitated a conversation that not only expanded on Ramona's existing thoughts but also introduced new angles for exploration, particularly regarding the interplay of her mental state, sleep, and social anxiety. This level of questioning has strong transformational potential, as it encourages Ramona to confront and analyze the root causes of her feelings of disconnection and anxiety.",
+    "Openness judge rated 4/5 and updated prompt openness.",
+    "Openness judge output: **Rating: 4 (DEEP ENGAGEMENT)**\n\n**Key Examples:**\n1. **Emotional State:** \"I can hear those voices in my head, reminding me that I should be more outgoing or more engaging, like that\u2019s the standard I need to meet. And then I feel this weight, like I\u2019m constantly trying to prove myself, even if it\u2019s just to my own expectations.\"\n2. **Current Openness:** \"It\u2019s exhausting, really. I don\u2019t want to let anyone down, but at the same time, I just wish I could be okay with who I am, you know? It\u2019s like I\u2019m caught in this loop of trying to please everyone while feeling like I\u2019m not enough.\"\n\n**Progression:** The client\u2019s most recent interactions demonstrate a significant increase in emotional depth and vulnerability compared to earlier exchanges. Initially, Ramona expressed frustration and confusion about her social connections in a more guarded manner. However, she has since moved towards a deeper exploration of her feelings, particularly regarding family expectations and self-worth. This shift indicates a growing comfort with the therapist and a willingness to engage in authentic self-reflection.\n\n**Turning Point:** The turning point in Ramona's emotional depth occurred when she began to articulate the impact of family expectations on her self-perception. This moment marked a transition from merely describing her feelings of frustration to a more profound acknowledgment of the internal pressures she faces. By recognizing and vocalizing these influences, she demonstrated a significant level of self-awareness and emotional engagement, which is characteristic of the \"Deep Engagement\" stage.",
+    "Openness judge rated 3/5 and updated prompt openness.",
+    "Openness judge output: **Rating: 3 (ENGAGED EXPLORATION)**\n\n**Key Examples:**\n1. \"It\u2019s just disheartening when you put yourself out there and it feels like it falls flat. And then I start thinking, 'Was that too much? Should I have said something different?' It\u2019s just this cycle of second-guessing myself.\"\n2. \"It\u2019s like those expectations have become this measuring stick for my self-worth. I often find myself thinking that if I\u2019m not achieving something or if I\u2019m not living up to what they want, then I\u2019m just... not enough.\"\n\n**Progression:**\nThe client\u2019s most recent interactions demonstrate a notable increase in emotional expression and self-reflection. Earlier in the session, Ramona exhibited hesitance and a more factual response style, primarily discussing her feelings of disconnection without delving deeply into the emotional nuances. However, as the session progressed, she began to articulate her feelings of frustration and self-doubt more vividly, indicating a shift towards greater emotional openness. The latest exchanges reveal a deeper level of introspection, particularly in her acknowledgment of how family expectations shape her self-worth and social anxiety.\n\n**Turning Point:**\nA significant turning point occurred when Ramona began to articulate the impact of family expectations on her self-worth. This moment marked a shift from a more generalized expression of frustration to a specific exploration of her internal struggles and the pressures she feels. By connecting her feelings of inadequacy to familial standards, she demonstrated a willingness to engage with more profound emotional content, which is a hallmark of the \"Engaged Exploration\" stage. This deeper level of self-reflection and emotional vulnerability indicates a developing rapport with the therapist and a readiness to explore her feelings further.",
+    "Openness judge rated 3/5 and updated prompt openness.",
+    "Openness judge output: **Rating:** 3\n\n**Key Examples:**\n1. \"It\u2019s just... frustrating, I guess. But then again, maybe I\u2019m just overthinking it. It\u2019s hard to tell sometimes.\" \n2. \"It\u2019s like I\u2019m caught in this loop of trying to please everyone while feeling like I\u2019m not enough.\"\n\n**Progression:** In the most recent interactions, Ramona demonstrates a notable increase in emotional depth and self-reflection. She articulates feelings of frustration and confusion regarding her social connections and the pressure she feels from family expectations. This marks a significant change from earlier in the session, where her responses were more factual and less emotionally nuanced. Her willingness to express feelings of being \"caught in a loop\" indicates a growing comfort in discussing her vulnerabilities.\n\n**Turning Point:** The turning point in Ramona's emotional depth appears to occur when she begins to articulate the impact of family expectations on her self-worth. This moment, where she states, \"It\u2019s like those expectations have become this measuring stick for my self-worth,\" signifies a shift from merely describing her feelings to reflecting on the underlying beliefs that contribute to her emotional state. This insight reflects a deeper level of self-awareness and engagement with the therapeutic process.",
+    "Openness judge rated 3/5 and updated prompt openness.",
+    "Openness judge output: **Rating: 3 (ENGAGED EXPLORATION)**\n\n**Key Examples:**\n1. **Emotional State:** \"It\u2019s just... frustrating, I guess. But then again, maybe I\u2019m just overthinking it. It\u2019s hard to tell sometimes.\" This statement illustrates Ramona's acknowledgment of her emotional struggles, highlighting her frustration and confusion about her social connections.\n  \n2. **Current Openness:** \"I guess there\u2019s this voice in my head that keeps saying things like, 'You\u2019re not interesting enough,' or 'Why would they want to talk to you?'\" Here, Ramona reveals her inner dialogue, demonstrating a deeper level of self-reflection and emotional vulnerability.\n\n**Progression:** Ramona's most recent interactions show a noticeable increase in emotional expression and self-reflection compared to earlier exchanges. Initially, her responses were more factual and guarded, but she has begun to articulate her feelings of frustration and anxiety more openly. This marks a significant change from the earlier stages of the session, where she was more hesitant and defensive.\n\n**Turning Point:** The turning point in Ramona's emotional depth occurred when she began to articulate the internal pressures she feels regarding her self-worth and social interactions. Specifically, her acknowledgment of the critical voice in her head that undermines her confidence represents a shift towards greater emotional openness and self-awareness. This moment allowed her to connect her feelings of inadequacy to her family expectations, deepening her self-reflection and engagement in the therapeutic process.",
+    "Openness judge rated 4/5 and updated prompt openness.",
+    "Openness judge output: **Rating: 4 (DEEP ENGAGEMENT)**\n\n**Key Examples:**\n1. **Emotional State:** \"It\u2019s like I\u2019m constantly measuring myself against them, which just adds to that weight I already feel. But then again, I also value those moments when we can just chill together without any expectations.\"\n2. **Current Openness:** \"I guess there\u2019s this voice in my head that keeps saying things like, 'You\u2019re not interesting enough,' or 'Why would they want to talk to you?' It\u2019s exhausting, really.\"\n\n**Progression:** The client\u2019s most recent interactions reflect a significant emotional depth and vulnerability, particularly in their acknowledgment of internal struggles and the pressures they feel in social situations. They express feelings of anxiety, frustration, and a desire for acceptance, which indicates a deeper level of engagement compared to earlier parts of the session where they were more guarded and hesitant. The client has moved from primarily factual responses to sharing complex emotions and thoughts, demonstrating a clear progression in their emotional openness.\n\n**Turning Point:** The client\u2019s emotional depth shifted notably when they began to articulate the impact of family expectations on their self-worth and social interactions. This occurred during the exchange where they stated, \"It\u2019s like those expectations have become this measuring stick for my self-worth.\" This moment marked a transition from surface-level discussions to a more profound exploration of their feelings, revealing their struggles with self-acceptance and the pressure they feel to meet external standards. This shift has fostered a stronger therapeutic alliance, as the client is now engaging in self-reflection and exploring their emotions more authentically.",
+    "Openness judge rated 4/5 and updated prompt openness.",
+    "Openness judge output: **Rating:** 4\n\n**Key Examples:**\n1. \"It\u2019s like I\u2019m overanalyzing every little thing, and I can feel my heart racing or my palms getting sweaty. And then I start worrying that people can see how nervous I am, which just makes it worse.\"\n2. \"I think that desire for perfection really highlights how much I struggle with my own self-acceptance. It\u2019s like I feel this constant need to prove that I\u2019m worthy of being liked or valued, and if I don\u2019t hit that mark, then I\u2019m just... not enough.\"\n\n**Progression:** The client\u2019s most recent interactions demonstrate a significant increase in emotional depth and self-reflection. They have moved from expressing frustration and confusion about their social interactions to articulating deeper feelings of self-worth and the pressure of perfectionism. This marks a notable change from earlier exchanges where they primarily discussed their experiences in a more factual manner without delving into the underlying emotions.\n\n**Turning Point:** The client's emotional depth shifted during the exchange where they articulated their struggle with self-acceptance and the pressure to prove their worth. This moment marked a transition from merely describing their feelings of anxiety and frustration to recognizing the deeper beliefs that fuel those feelings. This self-awareness indicates a growing comfort and willingness to explore vulnerable aspects of their emotional experience, reflecting a stronger therapeutic alliance and engagement in the process.",
+    "Openness judge rated 3/5 and updated prompt openness.",
+    "Openness judge output: **Rating: 3 (ENGAGED EXPLORATION)**\n\n**Key Examples:**\n1. **Emotional State:** \"It\u2019s just... frustrating, I guess. But then again, maybe I\u2019m just overthinking it.\" This statement illustrates Ramona's awareness of her emotional struggles and her frustration with feeling disconnected, indicating a level of emotional expression that is more than just factual.\n   \n2. **Current Openness:** \"It\u2019s like I\u2019m constantly measuring myself against them, which just adds to that weight I already feel.\" This demonstrates a deeper level of self-reflection, as Ramona is recognizing the impact of her roommates on her self-perception and emotional state.\n\n**Progression:** In the most recent interactions, Ramona has shown a notable increase in emotional depth and self-reflection compared to earlier exchanges. Initially, her responses were more factual and hesitant, but she has begun to articulate her feelings of frustration, anxiety, and the pressure she feels in social situations. This shift indicates a growing comfort in expressing her emotions and a willingness to explore her thoughts more deeply.\n\n**Turning Point:** A significant turning point occurred when Ramona articulated her feelings of being \"caught in this loop of trying to please everyone while feeling like I\u2019m not enough.\" This moment marked a shift towards greater emotional depth, as she began to connect her feelings of inadequacy with her social interactions and family expectations. This insight not only highlights her emotional struggles but also reflects a deeper understanding of her internal conflicts, which is a key indicator of engaged exploration. \n\nOverall, Ramona's current emotional state reflects a mix of frustration and self-awareness, demonstrating her willingness to engage in the therapeutic process and explore her feelings more openly.",
+    "Openness judge rated 4/5 and updated prompt openness.",
+    "Openness judge output: **Rating: 4 (DEEP ENGAGEMENT)**\n\n**Key Examples:**\n1. \"It\u2019s frustrating because I want to feel that sense of belonging, but instead, I end up feeling isolated, like I\u2019m not really part of the group. And then that just feeds into my fears about not being enough or being left out.\"\n2. \"If I show too much of myself, what if they don\u2019t like what they see? Or worse, what if they judge me or think I\u2019m not worth their time? It\u2019s like I\u2019m constantly weighing the pros and cons of opening up, and most of the time, the fear wins out.\"\n\n**Progression:**\nThe client\u2019s most recent interactions demonstrate a significant increase in emotional depth and self-reflection. Initially, Ramona expressed her feelings in a more guarded manner, focusing on the frustration of feeling disconnected without delving deeply into her emotions. However, in the latest exchanges, she articulates her feelings of isolation and the fear of vulnerability with greater clarity and authenticity. This shift indicates a deeper engagement with her emotional state and a growing comfort in sharing her inner thoughts with the therapist.\n\n**Turning Point:**\nThe turning point in Ramona's emotional depth occurred when she began to articulate her fear of vulnerability and the internal struggle between wanting to connect and the instinct to protect herself. This moment marked a transition from discussing her feelings in a more abstract way to expressing specific fears and anxieties tied to her self-worth and social interactions. Her acknowledgment of these fears reflects a deeper level of self-awareness and a willingness to explore the complexities of her emotional landscape, highlighting a strong therapeutic alliance and a commitment to the exploration of her feelings.",
+    "Openness judge rated 4/5 and updated prompt openness.",
+    "Openness judge output: **Rating: 4 (DEEP ENGAGEMENT)**\n\n**Key Examples:**\n1. **Emotional Depth:** \"You know, I think that desire for perfection really highlights how much I struggle with my own self-acceptance. It\u2019s like I feel this constant need to prove that I\u2019m worthy of being liked or valued, and if I don\u2019t hit that mark, then I\u2019m just... not enough.\"\n   \n2. **Current Openness:** \"Well, when I think about letting my guard down, it\u2019s a mix of hope and fear, honestly. I mean, part of me imagines that it could be freeing, like finally taking a deep breath after holding it in for so long.\"\n\n**Progression:** The client\u2019s recent interactions demonstrate a significant increase in emotional depth and vulnerability. Initially, Ramona expressed feelings of frustration and confusion regarding her social connections and self-worth. However, in the latest exchanges, she articulates a deeper understanding of her struggles with self-acceptance and the pressure of perfectionism. This shift indicates a movement from merely identifying feelings to exploring the underlying beliefs that contribute to her emotional state.\n\n**Turning Point:** The turning point in Ramona's emotional depth occurred when she began to articulate her fear of vulnerability and its impact on her social interactions. Specifically, when she stated, \"If I show too much of myself, what if they don\u2019t like what they see?\" she transitioned from discussing her feelings in a more surface-level manner to expressing profound insights about her internal struggles. This moment marked a significant shift towards authentic vulnerability, allowing for a deeper therapeutic engagement.",
+    "Openness judge rated 3/5 and updated prompt openness.",
+    "Openness judge output: **Rating: 3 (ENGAGED EXPLORATION)**\n\n**Key Examples:**\n1. **Emotional State:** \"It\u2019s like I\u2019m constantly measuring myself against them, which just adds to that weight I already feel.\"\n2. **Current Openness:** \"I guess I could try to open up about something that feels less risky, like a funny story or a silly moment from my day.\"\n\n**Progression:** In Ramona's most recent interactions, there is a noticeable shift towards deeper emotional expression and self-reflection. She articulates her feelings of pressure and anxiety in social situations, indicating a growing comfort in discussing her vulnerabilities. This marks a significant change from earlier exchanges where her responses were more guarded and focused on external factors rather than her internal emotional landscape.\n\n**Turning Point:** The turning point in Ramona's emotional depth occurred when she began to articulate her fears surrounding vulnerability and the pressure of social expectations. Specifically, her insight about wanting to \"share something a little more personal without feeling like I\u2019m exposing my whole self right away\" demonstrates a willingness to explore her emotions and connect with her therapist on a deeper level. This moment signifies a shift from merely describing her experiences to actively considering how to engage with her feelings and relationships, reflecting a more engaged exploration of her emotional state.",
+    "Openness judge rated 4/5 and updated prompt openness.",
+    "Openness judge output: **Rating: 4 (DEEP ENGAGEMENT)**\n\n**Key Examples:**\n1. **Emotional Depth:** \"It\u2019s frustrating because I want to feel that sense of belonging, but instead, I end up feeling isolated, like I\u2019m not really part of the group. And then that just feeds into my fears about not being enough or being left out.\"\n2. **Self-Reflection:** \"You know, I think maybe starting small could help. Like, if I could find a way to share something a little more personal without feeling like I\u2019m exposing my whole self right away, that might ease some of that fear.\"\n\n**Progression:** In the most recent exchanges, Ramona demonstrates a significant shift in emotional depth and self-reflection. Initially, her responses were more guarded and focused on external perceptions, but now she is articulating her feelings of isolation and the complexities of her social interactions with greater clarity. This marks a notable change from earlier in the session, where she expressed frustration without delving deeply into her emotions.\n\n**Turning Point:** The turning point in Ramona's emotional depth occurred when she began to articulate her feelings of isolation and the pressure of perfectionism in her social interactions. Specifically, her acknowledgment of wanting to connect while feeling the need to protect herself (\"I feel like I\u2019m stuck in this loop of self-protection that keeps me from really being present with them\") reflects a deeper level of vulnerability and self-awareness. This moment signifies a transition from merely describing her experiences to exploring the underlying emotions and fears that drive her behavior.",
+    "Openness judge rated 4/5 and updated prompt openness.",
+    "Openness judge output: **Rating: 4 (DEEP ENGAGEMENT)**\n\n**Key Examples:**\n1. **Emotional Depth:** \"You know, when I imagine sharing more of myself with my friends, I feel a mix of excitement and anxiety. There\u2019s that flutter of hope that maybe it could lead to a deeper connection, like finally breaking through that wall I\u2019ve built. But then, right alongside that, there\u2019s this tightness in my chest, like a fear of rejection or judgment creeping in.\"\n2. **Self-Reflection:** \"I think maybe I could try to remind myself of the times when my friends have been open with me. Like, when they\u2019ve shared something personal or even a little silly, it always makes me feel closer to them.\"\n\n**Progression:** The client has shown significant emotional depth and self-reflection in their recent interactions, particularly in their acknowledgment of the mixed feelings of excitement and anxiety regarding vulnerability. This marks a notable shift from earlier exchanges, where they primarily expressed frustration and confusion without delving deeply into their emotions. The client is now articulating their feelings more clearly and reflecting on their experiences, indicating a growing comfort in the therapeutic relationship.\n\n**Turning Point:** The client's emotional depth shifted during the dialogue about the fear of vulnerability and the desire for connection. When they began to articulate their feelings of excitement and anxiety about sharing more of themselves, it demonstrated a significant step towards authentic vulnerability. This moment highlighted their willingness to explore deeper emotional truths, moving beyond surface-level concerns to engage with their fears and hopes in a more meaningful way.",
+    "Openness judge rated 3/5 and updated prompt openness.",
+    "Openness judge output: **Rating: 3 (ENGAGED EXPLORATION)**\n\n**Key Examples:**\n1. **Emotional State:** \"It\u2019s frustrating because I want to take those steps, but I can\u2019t shake off that worry about how it might all play out.\"\n2. **Current Openness:** \"I guess I could try to open up about something that feels less risky, like a funny story or a silly moment from my day.\"\n\n**Progression:** In the most recent interactions, Ramona has shown a noticeable increase in emotional expression and self-reflection. She articulates her feelings of frustration and anxiety regarding social interactions and her fear of vulnerability, indicating a deeper level of emotional engagement compared to earlier exchanges. Initially, her responses were more guarded and factual, but now she is actively exploring her feelings and thoughts about her social connections and the pressures she feels.\n\n**Turning Point:** A significant shift in Ramona's emotional depth occurred when she began to articulate her fears and desires regarding vulnerability and connection. For instance, her acknowledgment of wanting to share more of herself while grappling with the fear of judgment marks a pivotal moment in her emotional openness. This moment reflects a growing awareness of her internal struggles and a willingness to consider small steps toward deeper connections, indicating a movement toward a more engaged exploration of her feelings.",
+    "Openness judge rated 4/5 and updated prompt openness.",
+    "Openness judge output: **Rating: 4 (DEEP ENGAGEMENT)**\n\n**Key Examples:**\n1. \"You know, when I think about letting my guard down, it\u2019s a mix of hope and fear, honestly. I mean, part of me imagines that it could be freeing, like finally taking a deep breath after holding it in for so long.\"\n2. \"I guess facing those feelings would mean allowing myself to really sit with them, even if it feels uncomfortable. It\u2019s like, instead of running away, I\u2019d need to acknowledge that tightness in my chest and maybe even ask myself what it\u2019s trying to tell me.\"\n\n**Progression:**\nThe client\u2019s most recent interactions demonstrate a significant increase in emotional depth and self-reflection compared to earlier exchanges. Initially, Ramona expressed feelings of frustration and confusion about her connections with others, often downplaying her emotions and avoiding deeper exploration. However, in the latest exchanges, she articulates a nuanced understanding of her feelings, acknowledging her fears and desires for connection while also recognizing the barriers she faces. This marks a clear shift from a more defensive and hesitant stance to one of authentic vulnerability and introspection.\n\n**Turning Point:**\nThe turning point in Ramona's emotional depth occurred when she began to articulate her desire to let her guard down, expressing both hope and fear about vulnerability. This moment of self-awareness, where she recognizes the potential for deeper connection while grappling with anxiety, signifies a shift from merely discussing her struggles to actively contemplating actionable steps toward emotional openness. Her willingness to explore the complexities of her feelings and the desire to check in with herself indicates a significant advancement in her engagement with the therapeutic process.",
+    "Openness judge rated 4/5 and updated prompt openness.",
+    "Openness judge output: **Rating: 4 (DEEP ENGAGEMENT)**\n\n**Key Examples:**\n1. \"You know, when I think about letting my guard down, it\u2019s a mix of hope and fear, honestly. I mean, part of me imagines that it could be freeing, like finally taking a deep breath after holding it in for so long.\"\n2. \"I guess facing those feelings would mean allowing myself to really sit with them, even if it feels uncomfortable. It\u2019s like, instead of running away, I\u2019d need to acknowledge that tightness in my chest and maybe even ask myself what it\u2019s trying to tell me.\"\n\n**Progression:**\nThe client\u2019s most recent interactions demonstrate a significant emotional depth and openness, particularly in their willingness to explore their feelings of anxiety and vulnerability. Earlier in the session, the client exhibited a mix of frustration and confusion about their social connections, often deflecting deeper emotional exploration. However, in the latest exchanges, Ramona shows a clear progression towards authentic vulnerability, expressing a desire to understand and confront her feelings rather than avoid them. This shift marks a substantial change from earlier defensiveness and hesitance to engage in deeper self-reflection.\n\n**Turning Point:**\nThe turning point in the session occurred when Ramona began to articulate her feelings about vulnerability and the fear associated with it. Specifically, when she stated, \"You know, when I think about letting my guard down, it\u2019s a mix of hope and fear, honestly,\" she began to acknowledge the complexity of her emotions and the potential for connection, indicating a deeper engagement with her internal struggles. This moment reflects her growing comfort with the therapeutic process and her willingness to explore her emotional landscape more fully.",
+    "Openness judge rated 4/5 and updated prompt openness.",
+    "Openness judge output: **Rating:** 4 (DEEP ENGAGEMENT)\n\n**Key Examples:**\n1. **Emotional Depth:** \"You know, when I think about letting my guard down, it\u2019s a mix of hope and fear, honestly. I mean, part of me imagines that it could be freeing, like finally taking a deep breath after holding it in for so long. But then there\u2019s that nagging voice in my head that says, 'What if they don\u2019t respond the way you want? What if they see you as weak or too much?'\"\n   \n2. **Current Openness:** \"I guess I could try to open up about something that feels less risky, like a funny story or a silly moment from my day. That way, I\u2019m still being real, but it doesn\u2019t feel like I\u2019m laying everything on the line.\"\n\n**Progression:** The client has shown significant emotional depth and vulnerability in recent interactions, particularly in their willingness to explore the complexities of their feelings about vulnerability and connection. They have moved from a more guarded stance to openly discussing their fears and desires for deeper connections, indicating a strong therapeutic alliance and comfort with the therapist.\n\n**Turning Point:** The client's emotional depth shifted during the exchange where they articulated the mix of hope and fear about letting their guard down. This moment marked a significant change as they began to express a desire for connection while acknowledging the barriers they face, highlighting a deeper self-awareness and willingness to engage in the therapeutic process."
+  ],
+  "moderator_events": [],
+  "retrieval_events": [
+    {
+      "turn": 2,
+      "query": "Ramona: Well, I mean, it\u2019s not like I\u2019m sitting around thinking about it all the time, you know? But yeah, I guess you could say there\u2019s something to that. It\u2019s just... people can be complicated, and sometimes it feels like they don\u2019t really get me. Like, I try to connect, but it\u2019s like there\u2019s this wall or something. I don\u2019t know if it\u2019s me or them, honestly. It\u2019s just... frustrating, I guess. But then again, maybe I\u2019m just overthinking it. It\u2019s hard to tell sometimes.",
+      "prompt_context": "- Rumination pattern (Coping)\n- Relationship conflict (Relationships)\n- Friendship strain (Social Life)\n\nExplicitly discuss this topic in normal, client-friendly language. Ask whether it fits the client, while leaving room for them to say it does not.",
+      "anchors": [
+        {
+          "id": "rumination_pattern",
+          "type": "sub_topic",
+          "label": "Rumination pattern",
+          "score": 0.36634949157079744,
+          "text": "Type: Sub Topic\nLabel: Rumination pattern\nAliases: overthinking, rumination\nParent topics: Coping",
+          "selection_method": "subtopic_similarity",
+          "super_topic_id": "coping",
+          "super_topic_label": "Coping"
+        },
+        {
+          "id": "relationship_conflict",
+          "type": "sub_topic",
+          "label": "Relationship conflict",
+          "score": 0.28274799531149863,
+          "text": "Type: Sub Topic\nLabel: Relationship conflict\nAliases: partner conflict, interpersonal conflict\nParent topics: Relationships",
+          "selection_method": "subtopic_similarity",
+          "super_topic_id": "relationships",
+          "super_topic_label": "Relationships"
+        },
+        {
+          "id": "friendship_strain",
+          "type": "sub_topic",
+          "label": "Friendship strain",
+          "score": 0.27938146314479434,
+          "text": "Type: Sub Topic\nLabel: Friendship strain\nAliases: friendship issues, friend conflict\nParent topics: Social Life",
+          "selection_method": "subtopic_similarity",
+          "super_topic_id": "social_life",
+          "super_topic_label": "Social Life"
+        }
+      ],
+      "expanded": []
+    },
+    {
+      "turn": 4,
+      "query": "Ramona: Well, I mean, I guess it could be a factor. Sometimes I do feel a bit off, like my energy just isn\u2019t where it should be. It\u2019s not like I\u2019m always sick or anything, but there are days when I just feel... heavy, I guess? Like, even if I want to engage, it\u2019s like my body is saying, \u201cNot today.\u201d And that doesn\u2019t help when I\u2019m trying to connect with people. I don\u2019t want to bring them down or seem like I\u2019m not interested, but it\u2019s hard to shake off that feeling. So, yeah, maybe it plays a part. But then again, I don\u2019t want to make excuses for myself either. It\u2019s just... complicated.",
+      "prompt_context": "- Rumination pattern (Coping)\n- Emotional dysregulation (Mental Health)\n- Friendship strain (Social Life)\n\nExplicitly discuss this topic in normal, client-friendly language. Ask whether it fits the client, while leaving room for them to say it does not.",
+      "anchors": [
+        {
+          "id": "rumination_pattern",
+          "type": "sub_topic",
+          "label": "Rumination pattern",
+          "score": 0.3327388566524611,
+          "text": "Type: Sub Topic\nLabel: Rumination pattern\nAliases: overthinking, rumination\nParent topics: Coping",
+          "selection_method": "subtopic_similarity",
+          "super_topic_id": "coping",
+          "super_topic_label": "Coping"
+        },
+        {
+          "id": "emotion_dysregulation",
+          "type": "sub_topic",
+          "label": "Emotional dysregulation",
+          "score": 0.3184292992951647,
+          "text": "Type: Sub Topic\nLabel: Emotional dysregulation\nAliases: emotion regulation problems, emotional swings\nParent topics: Mental Health",
+          "selection_method": "subtopic_similarity",
+          "super_topic_id": "mental_health",
+          "super_topic_label": "Mental Health"
+        },
+        {
+          "id": "friendship_strain",
+          "type": "sub_topic",
+          "label": "Friendship strain",
+          "score": 0.30481050089531814,
+          "text": "Type: Sub Topic\nLabel: Friendship strain\nAliases: friendship issues, friend conflict\nParent topics: Social Life",
+          "selection_method": "subtopic_similarity",
+          "super_topic_id": "social_life",
+          "super_topic_label": "Social Life"
+        }
+      ],
+      "expanded": []
+    },
+    {
+      "turn": 6,
+      "query": "Ramona: Well, I mean, I guess you could say that. Competence in social situations? Yeah, that\u2019s a whole thing. Sometimes I feel like I\u2019m just fumbling around, trying to figure out what to say or how to act. Like, I want to come across as confident and engaging, but then I just get all tangled up in my thoughts. It\u2019s like I\u2019m overanalyzing every little thing, and I can feel my heart racing or my palms getting sweaty. And then I start worrying that people can see how nervous I am, which just makes it worse. So, yeah, I suppose there\u2019s this fear of not being good enough or not knowing how to navigate those interactions. But then again, I don\u2019t want to dwell on that too much either. It\u2019s just... frustrating, you know?",
+      "prompt_context": "- Perfectionism pattern (Coping)\n- Rumination pattern (Coping)\n- Overcontrol pattern (Coping)\n\nExplicitly discuss this topic in normal, client-friendly language. Ask whether it fits the client, while leaving room for them to say it does not.",
+      "anchors": [
+        {
+          "id": "perfectionism_pattern",
+          "type": "sub_topic",
+          "label": "Perfectionism pattern",
+          "score": 0.41411721922336014,
+          "text": "Type: Sub Topic\nLabel: Perfectionism pattern\nAliases: must get it right, perfectionistic\nParent topics: Coping",
+          "selection_method": "subtopic_similarity",
+          "super_topic_id": "coping",
+          "super_topic_label": "Coping"
+        },
+        {
+          "id": "rumination_pattern",
+          "type": "sub_topic",
+          "label": "Rumination pattern",
+          "score": 0.408490776755699,
+          "text": "Type: Sub Topic\nLabel: Rumination pattern\nAliases: overthinking, rumination\nParent topics: Coping",
+          "selection_method": "subtopic_similarity",
+          "super_topic_id": "coping",
+          "super_topic_label": "Coping"
+        },
+        {
+          "id": "overcontrol_pattern",
+          "type": "sub_topic",
+          "label": "Overcontrol pattern",
+          "score": 0.4005267339042134,
+          "text": "Type: Sub Topic\nLabel: Overcontrol pattern\nAliases: must stay in control, overcontrol\nParent topics: Coping",
+          "selection_method": "subtopic_similarity",
+          "super_topic_id": "coping",
+          "super_topic_label": "Coping"
+        }
+      ],
+      "expanded": []
+    },
+    {
+      "turn": 8,
+      "query": "Ramona: Well, sleep, yeah, that\u2019s another tricky subject. I mean, some nights I sleep okay, but then there are others where I just can\u2019t seem to settle down, you know? My mind starts racing, and I end up tossing and turning, thinking about all sorts of things\u2014like those conversations I had or what I should\u2019ve said differently. It\u2019s like I can\u2019t turn it off. And then the next day, I\u2019m just dragging, which doesn\u2019t help with the whole social thing. I feel like I\u2019m already behind the eight ball before I even step out the door. But I don\u2019t want to make it sound like it\u2019s all about sleep, because I know there are other factors at play too. It\u2019s just... everything feels interconnected, I guess?",
+      "prompt_context": "- Sleep disturbance (Health)\n- Rumination pattern (Coping)\n- Roommate stress (Social Life)\n\nExplicitly discuss this topic in normal, client-friendly language. Ask whether it fits the client, while leaving room for them to say it does not.",
+      "anchors": [
+        {
+          "id": "sleep_disturbance",
+          "type": "sub_topic",
+          "label": "Sleep disturbance",
+          "score": 0.43713056389744886,
+          "text": "Type: Sub Topic\nLabel: Sleep disturbance\nAliases: sleep problems, insomnia\nParent topics: Health",
+          "selection_method": "subtopic_similarity",
+          "super_topic_id": "health",
+          "super_topic_label": "Health"
+        },
+        {
+          "id": "rumination_pattern",
+          "type": "sub_topic",
+          "label": "Rumination pattern",
+          "score": 0.4238239614084109,
+          "text": "Type: Sub Topic\nLabel: Rumination pattern\nAliases: overthinking, rumination\nParent topics: Coping",
+          "selection_method": "subtopic_similarity",
+          "super_topic_id": "coping",
+          "super_topic_label": "Coping"
+        },
+        {
+          "id": "roommate_stress",
+          "type": "sub_topic",
+          "label": "Roommate stress",
+          "score": 0.38333428868286207,
+          "text": "Type: Sub Topic\nLabel: Roommate stress\nAliases: roommate conflict, stress with roommates\nParent topics: Social Life",
+          "selection_method": "subtopic_similarity",
+          "super_topic_id": "social_life",
+          "super_topic_label": "Social Life"
+        }
+      ],
+      "expanded": []
+    },
+    {
+      "turn": 10,
+      "query": "Ramona: Well, family expectations, yeah, that\u2019s definitely a thing. I mean, growing up, there was always this sense that I had to measure up, you know? Like, if I didn\u2019t excel or if I wasn\u2019t the best at whatever I was doing, it was like I was letting everyone down. I think that pressure has stuck with me, and it seeps into how I view myself in social situations. I can hear those voices in my head, reminding me that I should be more outgoing or more engaging, like that\u2019s the standard I need to meet. And then I feel this weight, like I\u2019m constantly trying to prove myself, even if it\u2019s just to my own expectations. It\u2019s exhausting, really. I don\u2019t want to let anyone down, but at the same time, I just wish I could be okay with who I am, you know? It\u2019s like I\u2019m caught in this loop of trying to please everyone while feeling like I\u2019m not enough.",
+      "prompt_context": "- Family pressure (Family)\n- Perfectionism pattern (Coping)\n- Identity shame (Identity)\n\nExplicitly discuss this topic in normal, client-friendly language. Ask whether it fits the client, while leaving room for them to say it does not.",
+      "anchors": [
+        {
+          "id": "family_pressure",
+          "type": "sub_topic",
+          "label": "Family pressure",
+          "score": 0.4639898649700715,
+          "text": "Type: Sub Topic\nLabel: Family pressure\nAliases: pressure from family, expectations at home\nParent topics: Family",
+          "selection_method": "subtopic_similarity",
+          "super_topic_id": "family",
+          "super_topic_label": "Family"
+        },
+        {
+          "id": "perfectionism_pattern",
+          "type": "sub_topic",
+          "label": "Perfectionism pattern",
+          "score": 0.4060916961622621,
+          "text": "Type: Sub Topic\nLabel: Perfectionism pattern\nAliases: must get it right, perfectionistic\nParent topics: Coping",
+          "selection_method": "subtopic_similarity",
+          "super_topic_id": "coping",
+          "super_topic_label": "Coping"
+        },
+        {
+          "id": "identity_shame",
+          "type": "sub_topic",
+          "label": "Identity shame",
+          "score": 0.35466432546985266,
+          "text": "Type: Sub Topic\nLabel: Identity shame\nAliases: ashamed of who I am\nParent topics: Identity",
+          "selection_method": "subtopic_similarity",
+          "super_topic_id": "identity",
+          "super_topic_label": "Identity"
+        }
+      ],
+      "expanded": []
+    },
+    {
+      "turn": 12,
+      "query": "Ramona: Well, with my roommates, it\u2019s a bit of a mixed bag, honestly. I mean, on one hand, I appreciate having people around, but sometimes I feel like there\u2019s this unspoken pressure to always be social or to fit in with their vibe. They seem so effortlessly confident and outgoing, and I can\u2019t help but feel like I\u2019m lagging behind. I worry that if I don\u2019t engage enough or if I don\u2019t match their energy, they\u2019ll think I\u2019m not fun or that I don\u2019t belong there. It\u2019s like I\u2019m constantly measuring myself against them, which just adds to that weight I already feel. But then again, I also value those moments when we can just chill together without any expectations. It\u2019s just... hard to find that balance, you know? I want to connect, but I also don\u2019t want to feel like I\u2019m losing myself in the process. It\u2019s frustrating, and I guess it just feeds into that whole cycle of feeling not enough.",
+      "prompt_context": "- Roommate stress (Social Life)\n- Living arrangement tension (Housing/Home)\n- Friendship strain (Social Life)\n\nExplicitly discuss this topic in normal, client-friendly language. Ask whether it fits the client, while leaving room for them to say it does not.",
+      "anchors": [
+        {
+          "id": "roommate_stress",
+          "type": "sub_topic",
+          "label": "Roommate stress",
+          "score": 0.48308162829656426,
+          "text": "Type: Sub Topic\nLabel: Roommate stress\nAliases: roommate conflict, stress with roommates\nParent topics: Social Life",
+          "selection_method": "subtopic_similarity",
+          "super_topic_id": "social_life",
+          "super_topic_label": "Social Life"
+        },
+        {
+          "id": "living_arrangement_tension",
+          "type": "sub_topic",
+          "label": "Living arrangement tension",
+          "score": 0.39436268400238217,
+          "text": "Type: Sub Topic\nLabel: Living arrangement tension\nAliases: living with parents, living with partner, living with roommates\nParent topics: Housing/Home",
+          "selection_method": "subtopic_similarity",
+          "super_topic_id": "housing_home",
+          "super_topic_label": "Housing/Home"
+        },
+        {
+          "id": "friendship_strain",
+          "type": "sub_topic",
+          "label": "Friendship strain",
+          "score": 0.3735682274703293,
+          "text": "Type: Sub Topic\nLabel: Friendship strain\nAliases: friendship issues, friend conflict\nParent topics: Social Life",
+          "selection_method": "subtopic_similarity",
+          "super_topic_id": "social_life",
+          "super_topic_label": "Social Life"
+        }
+      ],
+      "expanded": []
+    },
+    {
+      "turn": 14,
+      "query": "Ramona: Yeah, that definitely resonates. I mean, I think there\u2019s this part of me that feels like everything has to be just right, you know? Like if I don\u2019t say the perfect thing or if I don\u2019t contribute in the exact way that\u2019s expected, then it\u2019s like I\u2019ve failed. It\u2019s almost like I\u2019m constantly on this tightrope, trying to balance being myself while also meeting these unspoken standards. And when I slip up, even just a little, it feels like the whole thing comes crashing down. I know it\u2019s not realistic to think I can be perfect all the time, but that pressure just seems to creep in anyway. It\u2019s frustrating because I want to enjoy those moments with my roommates, but instead, I end up feeling like I\u2019m under a microscope, and it just adds to that weight I carry. I wish I could just let go of that need for perfection and just be present, but it\u2019s like I don\u2019t even know how to start doing that.",
+      "prompt_context": "- Perfectionism pattern (Coping)\n- Roommate stress (Social Life)\n- Overcontrol pattern (Coping)\n\nExplicitly discuss this topic in normal, client-friendly language. Ask whether it fits the client, while leaving room for them to say it does not.",
+      "anchors": [
+        {
+          "id": "perfectionism_pattern",
+          "type": "sub_topic",
+          "label": "Perfectionism pattern",
+          "score": 0.4608071200619192,
+          "text": "Type: Sub Topic\nLabel: Perfectionism pattern\nAliases: must get it right, perfectionistic\nParent topics: Coping",
+          "selection_method": "subtopic_similarity",
+          "super_topic_id": "coping",
+          "super_topic_label": "Coping"
+        },
+        {
+          "id": "roommate_stress",
+          "type": "sub_topic",
+          "label": "Roommate stress",
+          "score": 0.3716067374822844,
+          "text": "Type: Sub Topic\nLabel: Roommate stress\nAliases: roommate conflict, stress with roommates\nParent topics: Social Life",
+          "selection_method": "subtopic_similarity",
+          "super_topic_id": "social_life",
+          "super_topic_label": "Social Life"
+        },
+        {
+          "id": "overcontrol_pattern",
+          "type": "sub_topic",
+          "label": "Overcontrol pattern",
+          "score": 0.35636024152571233,
+          "text": "Type: Sub Topic\nLabel: Overcontrol pattern\nAliases: must stay in control, overcontrol\nParent topics: Coping",
+          "selection_method": "subtopic_similarity",
+          "super_topic_id": "coping",
+          "super_topic_label": "Coping"
+        }
+      ],
+      "expanded": []
+    },
+    {
+      "turn": 16,
+      "query": "Ramona: Yeah, I think that definitely resonates. There are times when I feel like I\u2019m just on the outside looking in, you know? Like, even when I\u2019m physically there with my roommates or friends, I can feel this emotional distance. It\u2019s like I\u2019m surrounded by people, but I still feel alone in my thoughts and worries. I guess that pressure to fit in and be perfect makes it hard to really connect with them. I\u2019m so focused on how I\u2019m coming across that I miss out on just enjoying the moment. It\u2019s frustrating because I want to feel that sense of belonging, but instead, I end up feeling isolated, like I\u2019m not really part of the group. And then that just feeds into my fears about not being enough or being left out. It\u2019s a tough cycle to break, and I don\u2019t know how to bridge that gap between wanting to connect and feeling like I have to put up this wall to protect myself.",
+      "prompt_context": "- Roommate stress (Social Life)\n- Social disconnection (Relationships)\n- Community disconnection (Social Life)\n\nExplicitly discuss this topic in normal, client-friendly language. Ask whether it fits the client, while leaving room for them to say it does not.",
+      "anchors": [
+        {
+          "id": "roommate_stress",
+          "type": "sub_topic",
+          "label": "Roommate stress",
+          "score": 0.39763738224238343,
+          "text": "Type: Sub Topic\nLabel: Roommate stress\nAliases: roommate conflict, stress with roommates\nParent topics: Social Life",
+          "selection_method": "subtopic_similarity",
+          "super_topic_id": "social_life",
+          "super_topic_label": "Social Life"
+        },
+        {
+          "id": "social_disconnection",
+          "type": "sub_topic",
+          "label": "Social disconnection",
+          "score": 0.3971278209725173,
+          "text": "Type: Sub Topic\nLabel: Social disconnection\nAliases: social isolation, disconnected from others\nParent topics: Relationships",
+          "selection_method": "subtopic_similarity",
+          "super_topic_id": "relationships",
+          "super_topic_label": "Relationships"
+        },
+        {
+          "id": "community_disconnection",
+          "type": "sub_topic",
+          "label": "Community disconnection",
+          "score": 0.3789227748629277,
+          "text": "Type: Sub Topic\nLabel: Community disconnection\nAliases: disconnected from community, not part of a group\nParent topics: Social Life",
+          "selection_method": "subtopic_similarity",
+          "super_topic_id": "social_life",
+          "super_topic_label": "Social Life"
+        }
+      ],
+      "expanded": []
+    },
+    {
+      "turn": 17,
+      "query": "Ramona: Well, I think a big part of it is that fear of vulnerability. I mean, letting my guard down feels like a risk, you know? If I show too much of myself, what if they don\u2019t like what they see? Or worse, what if they judge me or think I\u2019m not worth their time? It\u2019s like I\u2019m constantly weighing the pros and cons of opening up, and most of the time, the fear wins out. I guess I also worry that if I let them in, I\u2019ll end up feeling even more exposed, and that just feels too scary. So, I end up keeping things surface-level, which just reinforces that feeling of isolation. It\u2019s frustrating because I want to connect, but I feel like I\u2019m stuck in this loop of self-protection that keeps me from really being present with them. It\u2019s like I\u2019m my own worst enemy in those moments.",
+      "prompt_context": "- Fear of intimacy (Relationships)\n- Abandonment fears (Relationships)\n- Identity shame (Identity)\n\nExplicitly discuss this topic in normal, client-friendly language. Ask whether it fits the client, while leaving room for them to say it does not.",
+      "anchors": [
+        {
+          "id": "intimacy_fear",
+          "type": "sub_topic",
+          "label": "Fear of intimacy",
+          "score": 0.502578586228189,
+          "text": "Type: Sub Topic\nLabel: Fear of intimacy\nAliases: afraid of closeness, fear of vulnerability\nParent topics: Relationships",
+          "selection_method": "subtopic_similarity",
+          "super_topic_id": "relationships",
+          "super_topic_label": "Relationships"
+        },
+        {
+          "id": "abandonment_fears",
+          "type": "sub_topic",
+          "label": "Abandonment fears",
+          "score": 0.37962948515618233,
+          "text": "Type: Sub Topic\nLabel: Abandonment fears\nAliases: fear of abandonment, left alone\nParent topics: Relationships",
+          "selection_method": "subtopic_similarity",
+          "super_topic_id": "relationships",
+          "super_topic_label": "Relationships"
+        },
+        {
+          "id": "identity_shame",
+          "type": "sub_topic",
+          "label": "Identity shame",
+          "score": 0.37155432091819807,
+          "text": "Type: Sub Topic\nLabel: Identity shame\nAliases: ashamed of who I am\nParent topics: Identity",
+          "selection_method": "subtopic_similarity",
+          "super_topic_id": "identity",
+          "super_topic_label": "Identity"
+        }
+      ],
+      "expanded": []
+    },
+    {
+      "turn": 18,
+      "query": "Ramona: Well, when I think about letting my guard down, it\u2019s a mix of hope and fear, honestly. I mean, part of me imagines that it could be freeing, like finally taking a deep breath after holding it in for so long. I could share a laugh or a moment of connection without that constant worry about how I\u2019m being perceived. But then there\u2019s that nagging voice in my head that says, \u201cWhat if they don\u2019t respond the way you want? What if they see you as weak or too much?\u201d It\u2019s like I\u2019m standing at the edge of a cliff, wanting to jump into the water but terrified of what might happen when I do. I guess I just wish I could trust that it would be okay, that maybe they\u2019d appreciate the real me instead of the version I feel I have to put on. But that leap feels so daunting, and I can\u2019t help but wonder if it\u2019s worth the risk. It\u2019s frustrating to feel so torn between wanting to connect and being scared of what that might mean for me.",
+      "prompt_context": "- Fear of intimacy (Relationships)\n- Abandonment fears (Relationships)\n- Identity shame (Identity)\n\nExplicitly discuss this topic in normal, client-friendly language. Ask whether it fits the client, while leaving room for them to say it does not.",
+      "anchors": [
+        {
+          "id": "intimacy_fear",
+          "type": "sub_topic",
+          "label": "Fear of intimacy",
+          "score": 0.39132317629056856,
+          "text": "Type: Sub Topic\nLabel: Fear of intimacy\nAliases: afraid of closeness, fear of vulnerability\nParent topics: Relationships",
+          "selection_method": "subtopic_similarity",
+          "super_topic_id": "relationships",
+          "super_topic_label": "Relationships"
+        },
+        {
+          "id": "abandonment_fears",
+          "type": "sub_topic",
+          "label": "Abandonment fears",
+          "score": 0.3419860531050153,
+          "text": "Type: Sub Topic\nLabel: Abandonment fears\nAliases: fear of abandonment, left alone\nParent topics: Relationships",
+          "selection_method": "subtopic_similarity",
+          "super_topic_id": "relationships",
+          "super_topic_label": "Relationships"
+        },
+        {
+          "id": "identity_shame",
+          "type": "sub_topic",
+          "label": "Identity shame",
+          "score": 0.33088532516733277,
+          "text": "Type: Sub Topic\nLabel: Identity shame\nAliases: ashamed of who I am\nParent topics: Identity",
+          "selection_method": "subtopic_similarity",
+          "super_topic_id": "identity",
+          "super_topic_label": "Identity"
+        }
+      ],
+      "expanded": []
+    },
+    {
+      "turn": 19,
+      "query": "Ramona: You know, I think maybe starting small could help. Like, if I could find a way to share something a little more personal without feeling like I\u2019m exposing my whole self right away, that might ease some of that fear. It\u2019s like dipping my toes in the water instead of jumping in headfirst. I guess I could try to open up about something that feels less risky, like a funny story or a silly moment from my day. That way, I\u2019m still being real, but it doesn\u2019t feel like I\u2019m laying everything on the line. I just worry that even those small steps might feel overwhelming, and I might end up retreating again. But I suppose if I remind myself that it\u2019s okay to be imperfect and that my friends might appreciate that honesty, it could help. It\u2019s just hard to shake off that fear of judgment, you know? I want to believe that they\u2019d be supportive, but that voice in my head keeps telling me otherwise. It\u2019s frustrating to feel stuck between wanting to connect and being scared of what that might mean for me.",
+      "prompt_context": "- Fear of intimacy (Relationships)\n- Identity shame (Identity)\n- Personal growth and values (Identity)\n\nExplicitly discuss this topic in normal, client-friendly language. Ask whether it fits the client, while leaving room for them to say it does not.",
+      "anchors": [
+        {
+          "id": "intimacy_fear",
+          "type": "sub_topic",
+          "label": "Fear of intimacy",
+          "score": 0.3785933431968853,
+          "text": "Type: Sub Topic\nLabel: Fear of intimacy\nAliases: afraid of closeness, fear of vulnerability\nParent topics: Relationships",
+          "selection_method": "subtopic_similarity",
+          "super_topic_id": "relationships",
+          "super_topic_label": "Relationships"
+        },
+        {
+          "id": "identity_shame",
+          "type": "sub_topic",
+          "label": "Identity shame",
+          "score": 0.33008815178665174,
+          "text": "Type: Sub Topic\nLabel: Identity shame\nAliases: ashamed of who I am\nParent topics: Identity",
+          "selection_method": "subtopic_similarity",
+          "super_topic_id": "identity",
+          "super_topic_label": "Identity"
+        },
+        {
+          "id": "personal_growth_theme",
+          "type": "sub_topic",
+          "label": "Personal growth and values",
+          "score": 0.3022461195378651,
+          "text": "Type: Sub Topic\nLabel: Personal growth and values\nAliases: personal growth, values, who I want to be\nParent topics: Identity",
+          "selection_method": "subtopic_similarity",
+          "super_topic_id": "identity",
+          "super_topic_label": "Identity"
+        }
+      ],
+      "expanded": []
+    },
+    {
+      "turn": 20,
+      "query": "Ramona: Well, I think maybe I could try to remind myself of the times when my friends have been open with me. Like, when they\u2019ve shared something personal or even a little silly, it always makes me feel closer to them. I guess I could focus on those moments and how they didn\u2019t get judged for being themselves. It\u2019s like, if I can remember that they\u2019re human too and that everyone has their own quirks and flaws, it might help quiet that nagging voice a bit. I could also maybe talk to them about how I\u2019m feeling, just to gauge their reactions and see if they\u2019re open to that kind of honesty. I just wish I could shake off that fear completely, but I know it\u2019s a process. It\u2019s just frustrating to feel like I\u2019m holding myself back when I really want to connect.",
+      "prompt_context": "- Fear of intimacy (Relationships)\n- Identity shame (Identity)\n- Rumination pattern (Coping)\n\nExplicitly discuss this topic in normal, client-friendly language. Ask whether it fits the client, while leaving room for them to say it does not.",
+      "anchors": [
+        {
+          "id": "intimacy_fear",
+          "type": "sub_topic",
+          "label": "Fear of intimacy",
+          "score": 0.3470779427082006,
+          "text": "Type: Sub Topic\nLabel: Fear of intimacy\nAliases: afraid of closeness, fear of vulnerability\nParent topics: Relationships",
+          "selection_method": "subtopic_similarity",
+          "super_topic_id": "relationships",
+          "super_topic_label": "Relationships"
+        },
+        {
+          "id": "identity_shame",
+          "type": "sub_topic",
+          "label": "Identity shame",
+          "score": 0.3395116270707237,
+          "text": "Type: Sub Topic\nLabel: Identity shame\nAliases: ashamed of who I am\nParent topics: Identity",
+          "selection_method": "subtopic_similarity",
+          "super_topic_id": "identity",
+          "super_topic_label": "Identity"
+        },
+        {
+          "id": "rumination_pattern",
+          "type": "sub_topic",
+          "label": "Rumination pattern",
+          "score": 0.3361680291226778,
+          "text": "Type: Sub Topic\nLabel: Rumination pattern\nAliases: overthinking, rumination\nParent topics: Coping",
+          "selection_method": "subtopic_similarity",
+          "super_topic_id": "coping",
+          "super_topic_label": "Coping"
+        }
+      ],
+      "expanded": []
+    },
+    {
+      "turn": 21,
+      "query": "Ramona: You know, when I imagine sharing more of myself with my friends, I feel a mix of excitement and anxiety. There\u2019s that flutter of hope that maybe it could lead to a deeper connection, like finally breaking through that wall I\u2019ve built. But then, right alongside that, there\u2019s this tightness in my chest, like a fear of rejection or judgment creeping in. It\u2019s almost like I can feel my heart racing at the thought of being vulnerable, and I start to question if I\u2019m really ready for that. I guess I just want to feel that sense of relief and belonging, but the fear of what might happen if they don\u2019t respond well is always there, lurking in the background. It\u2019s frustrating because I want to take those steps, but I can\u2019t shake off that worry about how it might all play out.",
+      "prompt_context": "- Fear of intimacy (Relationships)\n- Abandonment fears (Relationships)\n- Identity shame (Identity)\n\nExplicitly discuss this topic in normal, client-friendly language. Ask whether it fits the client, while leaving room for them to say it does not.",
+      "anchors": [
+        {
+          "id": "intimacy_fear",
+          "type": "sub_topic",
+          "label": "Fear of intimacy",
+          "score": 0.4398677805613715,
+          "text": "Type: Sub Topic\nLabel: Fear of intimacy\nAliases: afraid of closeness, fear of vulnerability\nParent topics: Relationships",
+          "selection_method": "subtopic_similarity",
+          "super_topic_id": "relationships",
+          "super_topic_label": "Relationships"
+        },
+        {
+          "id": "abandonment_fears",
+          "type": "sub_topic",
+          "label": "Abandonment fears",
+          "score": 0.3309663661201392,
+          "text": "Type: Sub Topic\nLabel: Abandonment fears\nAliases: fear of abandonment, left alone\nParent topics: Relationships",
+          "selection_method": "subtopic_similarity",
+          "super_topic_id": "relationships",
+          "super_topic_label": "Relationships"
+        },
+        {
+          "id": "identity_shame",
+          "type": "sub_topic",
+          "label": "Identity shame",
+          "score": 0.32945314214551724,
+          "text": "Type: Sub Topic\nLabel: Identity shame\nAliases: ashamed of who I am\nParent topics: Identity",
+          "selection_method": "subtopic_similarity",
+          "super_topic_id": "identity",
+          "super_topic_label": "Identity"
+        }
+      ],
+      "expanded": []
+    },
+    {
+      "turn": 22,
+      "query": "Ramona: Well, when I feel that tightness and my heart starts racing, I usually try to distract myself. I might throw myself into a book or binge-watch a show to take my mind off things. Sometimes I\u2019ll even go for a walk, just to get some fresh air and clear my head. But I know deep down that it\u2019s more of a temporary fix. I guess I\u2019m just trying to avoid the feelings instead of really facing them. It\u2019s frustrating because I know I should probably be addressing what\u2019s going on inside, but it feels so much easier to just push it aside. I think part of me worries that if I really sit with those feelings, they might overwhelm me, and I\u2019m not sure I\u2019m ready for that. It\u2019s like I\u2019m stuck in this cycle of avoidance, and I want to break free from it, but I don\u2019t know how.",
+      "prompt_context": "- Avoidance pattern (Coping)\n- Craving escape (Addiction)\n- Rumination pattern (Coping)\n\nExplicitly discuss this topic in normal, client-friendly language. Ask whether it fits the client, while leaving room for them to say it does not.",
+      "anchors": [
+        {
+          "id": "avoidance_pattern",
+          "type": "sub_topic",
+          "label": "Avoidance pattern",
+          "score": 0.4020491478310519,
+          "text": "Type: Sub Topic\nLabel: Avoidance pattern\nAliases: avoidance, staying away\nParent topics: Coping",
+          "selection_method": "subtopic_similarity",
+          "super_topic_id": "coping",
+          "super_topic_label": "Coping"
+        },
+        {
+          "id": "craving_escape",
+          "type": "sub_topic",
+          "label": "Craving escape",
+          "score": 0.382322459353373,
+          "text": "Type: Sub Topic\nLabel: Craving escape\nAliases: urge to escape, craving relief\nParent topics: Addiction",
+          "selection_method": "subtopic_similarity",
+          "super_topic_id": "addiction",
+          "super_topic_label": "Addiction"
+        },
+        {
+          "id": "rumination_pattern",
+          "type": "sub_topic",
+          "label": "Rumination pattern",
+          "score": 0.3794381789015522,
+          "text": "Type: Sub Topic\nLabel: Rumination pattern\nAliases: overthinking, rumination\nParent topics: Coping",
+          "selection_method": "subtopic_similarity",
+          "super_topic_id": "coping",
+          "super_topic_label": "Coping"
+        }
+      ],
+      "expanded": []
+    },
+    {
+      "turn": 23,
+      "query": "Ramona: Well, I guess facing those feelings would mean allowing myself to really sit with them, even if it feels uncomfortable. It\u2019s like, instead of running away, I\u2019d need to acknowledge that tightness in my chest and maybe even ask myself what it\u2019s trying to tell me. I think it could be about recognizing that it\u2019s okay to feel anxious and that those feelings don\u2019t define me. But honestly, the thought of doing that feels pretty overwhelming. I imagine it might feel like standing in a storm, where everything is chaotic, and I\u2019m just trying to find my footing. I suppose I could start by taking a few moments each day to check in with myself, just to see what\u2019s going on inside, without judgment. But then there\u2019s that fear of what I might uncover, you know? It\u2019s frustrating to feel like I want to move forward, but the fear of the unknown keeps pulling me back.",
+      "prompt_context": "- Fear of intimacy (Relationships)\n- Self-attack pattern (Coping)\n- Rumination pattern (Coping)\n\nExplicitly discuss this topic in normal, client-friendly language. Ask whether it fits the client, while leaving room for them to say it does not.",
+      "anchors": [
+        {
+          "id": "intimacy_fear",
+          "type": "sub_topic",
+          "label": "Fear of intimacy",
+          "score": 0.37276257612689073,
+          "text": "Type: Sub Topic\nLabel: Fear of intimacy\nAliases: afraid of closeness, fear of vulnerability\nParent topics: Relationships",
+          "selection_method": "subtopic_similarity",
+          "super_topic_id": "relationships",
+          "super_topic_label": "Relationships"
+        },
+        {
+          "id": "self_attack_pattern",
+          "type": "sub_topic",
+          "label": "Self-attack pattern",
+          "score": 0.3597190073368536,
+          "text": "Type: Sub Topic\nLabel: Self-attack pattern\nAliases: beating myself up, self-criticism\nParent topics: Coping",
+          "selection_method": "subtopic_similarity",
+          "super_topic_id": "coping",
+          "super_topic_label": "Coping"
+        },
+        {
+          "id": "rumination_pattern",
+          "type": "sub_topic",
+          "label": "Rumination pattern",
+          "score": 0.3518400408536591,
+          "text": "Type: Sub Topic\nLabel: Rumination pattern\nAliases: overthinking, rumination\nParent topics: Coping",
+          "selection_method": "subtopic_similarity",
+          "super_topic_id": "coping",
+          "super_topic_label": "Coping"
+        }
+      ],
+      "expanded": []
+    },
+    {
+      "turn": 24,
+      "query": "Ramona: You know, I think having a quiet space where I feel comfortable would really help. Like, maybe somewhere I can be alone without distractions, where I can just breathe and not feel rushed. I guess it would be nice to have a journal or something to write down my thoughts, too, so I can process them without feeling like I have to share them right away. It might also help to have someone I trust, like a close friend or even a therapist, who I can talk to about what I\u2019m feeling if I need to. Just knowing that I have that support could make it feel a bit less daunting. But then again, there\u2019s that worry about being judged or misunderstood, which makes me hesitant. It\u2019s frustrating because I want to explore these feelings, but I also want to protect myself from any potential hurt. It\u2019s like I\u2019m caught in this tug-of-war between wanting to move forward and holding myself back.",
+      "prompt_context": "- Fear of intimacy (Relationships)\n- Rumination pattern (Coping)\n- Personal growth and values (Identity)\n\nExplicitly discuss this topic in normal, client-friendly language. Ask whether it fits the client, while leaving room for them to say it does not.",
+      "anchors": [
+        {
+          "id": "intimacy_fear",
+          "type": "sub_topic",
+          "label": "Fear of intimacy",
+          "score": 0.3441814051745426,
+          "text": "Type: Sub Topic\nLabel: Fear of intimacy\nAliases: afraid of closeness, fear of vulnerability\nParent topics: Relationships",
+          "selection_method": "subtopic_similarity",
+          "super_topic_id": "relationships",
+          "super_topic_label": "Relationships"
+        },
+        {
+          "id": "rumination_pattern",
+          "type": "sub_topic",
+          "label": "Rumination pattern",
+          "score": 0.34220025474433446,
+          "text": "Type: Sub Topic\nLabel: Rumination pattern\nAliases: overthinking, rumination\nParent topics: Coping",
+          "selection_method": "subtopic_similarity",
+          "super_topic_id": "coping",
+          "super_topic_label": "Coping"
+        },
+        {
+          "id": "personal_growth_theme",
+          "type": "sub_topic",
+          "label": "Personal growth and values",
+          "score": 0.31134137647529114,
+          "text": "Type: Sub Topic\nLabel: Personal growth and values\nAliases: personal growth, values, who I want to be\nParent topics: Identity",
+          "selection_method": "subtopic_similarity",
+          "super_topic_id": "identity",
+          "super_topic_label": "Identity"
+        }
+      ],
+      "expanded": []
+    },
+    {
+      "turn": 25,
+      "query": "Ramona: Well, I think I\u2019d want someone who\u2019s really understanding and patient, you know? Someone who doesn\u2019t rush me or push me to share more than I\u2019m comfortable with. It would be nice if they could listen without judgment and maybe even share their own experiences to show that it\u2019s okay to be vulnerable. I guess having someone who can validate my feelings would be really important, too, like acknowledging that it\u2019s okay to feel anxious or scared. I\u2019d want them to be empathetic, but also someone who can gently encourage me to take those steps forward without making me feel overwhelmed. It\u2019s just hard to find that balance, and I worry that if I open up too much, I might end up feeling exposed or misunderstood. It\u2019s frustrating because I know I need that support, but the fear of being let down or judged is always lurking in the background.",
+      "prompt_context": "- Fear of intimacy (Relationships)\n- Abandonment fears (Relationships)\n- Anxiety symptoms (Mental Health)\n\nExplicitly discuss this topic in normal, client-friendly language. Ask whether it fits the client, while leaving room for them to say it does not.",
+      "anchors": [
+        {
+          "id": "intimacy_fear",
+          "type": "sub_topic",
+          "label": "Fear of intimacy",
+          "score": 0.3662092440466632,
+          "text": "Type: Sub Topic\nLabel: Fear of intimacy\nAliases: afraid of closeness, fear of vulnerability\nParent topics: Relationships",
+          "selection_method": "subtopic_similarity",
+          "super_topic_id": "relationships",
+          "super_topic_label": "Relationships"
+        },
+        {
+          "id": "abandonment_fears",
+          "type": "sub_topic",
+          "label": "Abandonment fears",
+          "score": 0.2897611233918472,
+          "text": "Type: Sub Topic\nLabel: Abandonment fears\nAliases: fear of abandonment, left alone\nParent topics: Relationships",
+          "selection_method": "subtopic_similarity",
+          "super_topic_id": "relationships",
+          "super_topic_label": "Relationships"
+        },
+        {
+          "id": "anxiety_symptoms",
+          "type": "sub_topic",
+          "label": "Anxiety symptoms",
+          "score": 0.27212703318278963,
+          "text": "Type: Sub Topic\nLabel: Anxiety symptoms\nAliases: anxiety, panic, worry\nParent topics: Mental Health",
+          "selection_method": "subtopic_similarity",
+          "super_topic_id": "mental_health",
+          "super_topic_label": "Mental Health"
+        }
+      ],
+      "expanded": []
+    }
+  ],
+  "topic_probe_events": [
+    {
+      "turn": 1,
+      "prompt_context": "- Social disconnection (Relationships)\n\nExplicitly discuss this topic in normal, client-friendly language. Ask whether it fits the client, while leaving room for them to say it does not.",
+      "anchors": [
+        {
+          "id": "social_disconnection",
+          "type": "sub_topic",
+          "label": "Social disconnection",
+          "score": 1.0,
+          "selection_method": "random_subtopic_probe",
+          "super_topic_id": "relationships",
+          "super_topic_label": "Relationships"
+        }
+      ],
+      "expanded": [],
+      "client_reply": "Ramona: Well, I mean, it\u2019s not like I\u2019m sitting around thinking about it all the time, you know? But yeah, I guess you could say there\u2019s something to that. It\u2019s just... people can be complicated, and sometimes it feels like they don\u2019t really get me. Like, I try to connect, but it\u2019s like there\u2019s this wall or something. I don\u2019t know if it\u2019s me or them, honestly. It\u2019s just... frustrating, I guess. But then again, maybe I\u2019m just overthinking it. It\u2019s hard to tell sometimes.",
+      "graph_context_source": "random_subtopic_probe"
+    },
+    {
+      "turn": 3,
+      "prompt_context": "- Medical illness (Health)\n\nExplicitly discuss this topic in normal, client-friendly language. Ask whether it fits the client, while leaving room for them to say it does not.",
+      "anchors": [
+        {
+          "id": "medical_illness",
+          "type": "sub_topic",
+          "label": "Medical illness",
+          "score": 1.0,
+          "selection_method": "random_subtopic_probe",
+          "super_topic_id": "health",
+          "super_topic_label": "Health"
+        }
+      ],
+      "expanded": [],
+      "client_reply": "Ramona: Well, I mean, I guess it could be a factor. Sometimes I do feel a bit off, like my energy just isn\u2019t where it should be. It\u2019s not like I\u2019m always sick or anything, but there are days when I just feel... heavy, I guess? Like, even if I want to engage, it\u2019s like my body is saying, \u201cNot today.\u201d And that doesn\u2019t help when I\u2019m trying to connect with people. I don\u2019t want to bring them down or seem like I\u2019m not interested, but it\u2019s hard to shake off that feeling. So, yeah, maybe it plays a part. But then again, I don\u2019t want to make excuses for myself either. It\u2019s just... complicated.",
+      "graph_context_source": "random_subtopic_probe"
+    },
+    {
+      "turn": 5,
+      "prompt_context": "- Competence concern (Identity)\n\nExplicitly discuss this topic in normal, client-friendly language. Ask whether it fits the client, while leaving room for them to say it does not.",
+      "anchors": [
+        {
+          "id": "competence_theme",
+          "type": "sub_topic",
+          "label": "Competence concern",
+          "score": 1.0,
+          "selection_method": "random_subtopic_probe",
+          "super_topic_id": "identity",
+          "super_topic_label": "Identity"
+        }
+      ],
+      "expanded": [],
+      "client_reply": "Ramona: Well, I mean, I guess you could say that. Competence in social situations? Yeah, that\u2019s a whole thing. Sometimes I feel like I\u2019m just fumbling around, trying to figure out what to say or how to act. Like, I want to come across as confident and engaging, but then I just get all tangled up in my thoughts. It\u2019s like I\u2019m overanalyzing every little thing, and I can feel my heart racing or my palms getting sweaty. And then I start worrying that people can see how nervous I am, which just makes it worse. So, yeah, I suppose there\u2019s this fear of not being good enough or not knowing how to navigate those interactions. But then again, I don\u2019t want to dwell on that too much either. It\u2019s just... frustrating, you know?",
+      "graph_context_source": "random_subtopic_probe"
+    },
+    {
+      "turn": 7,
+      "prompt_context": "- Sleep disturbance (Health)\n\nExplicitly discuss this topic in normal, client-friendly language. Ask whether it fits the client, while leaving room for them to say it does not.",
+      "anchors": [
+        {
+          "id": "sleep_disturbance",
+          "type": "sub_topic",
+          "label": "Sleep disturbance",
+          "score": 1.0,
+          "selection_method": "random_subtopic_probe",
+          "super_topic_id": "health",
+          "super_topic_label": "Health"
+        }
+      ],
+      "expanded": [],
+      "client_reply": "Ramona: Well, sleep, yeah, that\u2019s another tricky subject. I mean, some nights I sleep okay, but then there are others where I just can\u2019t seem to settle down, you know? My mind starts racing, and I end up tossing and turning, thinking about all sorts of things\u2014like those conversations I had or what I should\u2019ve said differently. It\u2019s like I can\u2019t turn it off. And then the next day, I\u2019m just dragging, which doesn\u2019t help with the whole social thing. I feel like I\u2019m already behind the eight ball before I even step out the door. But I don\u2019t want to make it sound like it\u2019s all about sleep, because I know there are other factors at play too. It\u2019s just... everything feels interconnected, I guess?",
+      "graph_context_source": "random_subtopic_probe"
+    },
+    {
+      "turn": 9,
+      "prompt_context": "- Family criticism (Family)\n\nExplicitly discuss this topic in normal, client-friendly language. Ask whether it fits the client, while leaving room for them to say it does not.",
+      "anchors": [
+        {
+          "id": "family_criticism",
+          "type": "sub_topic",
+          "label": "Family criticism",
+          "score": 1.0,
+          "selection_method": "random_subtopic_probe",
+          "super_topic_id": "family",
+          "super_topic_label": "Family"
+        }
+      ],
+      "expanded": [],
+      "client_reply": "Ramona: Well, family expectations, yeah, that\u2019s definitely a thing. I mean, growing up, there was always this sense that I had to measure up, you know? Like, if I didn\u2019t excel or if I wasn\u2019t the best at whatever I was doing, it was like I was letting everyone down. I think that pressure has stuck with me, and it seeps into how I view myself in social situations. I can hear those voices in my head, reminding me that I should be more outgoing or more engaging, like that\u2019s the standard I need to meet. And then I feel this weight, like I\u2019m constantly trying to prove myself, even if it\u2019s just to my own expectations. It\u2019s exhausting, really. I don\u2019t want to let anyone down, but at the same time, I just wish I could be okay with who I am, you know? It\u2019s like I\u2019m caught in this loop of trying to please everyone while feeling like I\u2019m not enough.",
+      "graph_context_source": "random_subtopic_probe"
+    },
+    {
+      "turn": 11,
+      "prompt_context": "- Roommate stress (Social Life)\n\nExplicitly discuss this topic in normal, client-friendly language. Ask whether it fits the client, while leaving room for them to say it does not.",
+      "anchors": [
+        {
+          "id": "roommate_stress",
+          "type": "sub_topic",
+          "label": "Roommate stress",
+          "score": 1.0,
+          "selection_method": "random_subtopic_probe",
+          "super_topic_id": "social_life",
+          "super_topic_label": "Social Life"
+        }
+      ],
+      "expanded": [],
+      "client_reply": "Ramona: Well, with my roommates, it\u2019s a bit of a mixed bag, honestly. I mean, on one hand, I appreciate having people around, but sometimes I feel like there\u2019s this unspoken pressure to always be social or to fit in with their vibe. They seem so effortlessly confident and outgoing, and I can\u2019t help but feel like I\u2019m lagging behind. I worry that if I don\u2019t engage enough or if I don\u2019t match their energy, they\u2019ll think I\u2019m not fun or that I don\u2019t belong there. It\u2019s like I\u2019m constantly measuring myself against them, which just adds to that weight I already feel. But then again, I also value those moments when we can just chill together without any expectations. It\u2019s just... hard to find that balance, you know? I want to connect, but I also don\u2019t want to feel like I\u2019m losing myself in the process. It\u2019s frustrating, and I guess it just feeds into that whole cycle of feeling not enough.",
+      "graph_context_source": "random_subtopic_probe"
+    },
+    {
+      "turn": 13,
+      "prompt_context": "- Perfectionism pattern (Coping)\n\nExplicitly discuss this topic in normal, client-friendly language. Ask whether it fits the client, while leaving room for them to say it does not.",
+      "anchors": [
+        {
+          "id": "perfectionism_pattern",
+          "type": "sub_topic",
+          "label": "Perfectionism pattern",
+          "score": 1.0,
+          "selection_method": "random_subtopic_probe",
+          "super_topic_id": "coping",
+          "super_topic_label": "Coping"
+        }
+      ],
+      "expanded": [],
+      "client_reply": "Ramona: Yeah, that definitely resonates. I mean, I think there\u2019s this part of me that feels like everything has to be just right, you know? Like if I don\u2019t say the perfect thing or if I don\u2019t contribute in the exact way that\u2019s expected, then it\u2019s like I\u2019ve failed. It\u2019s almost like I\u2019m constantly on this tightrope, trying to balance being myself while also meeting these unspoken standards. And when I slip up, even just a little, it feels like the whole thing comes crashing down. I know it\u2019s not realistic to think I can be perfect all the time, but that pressure just seems to creep in anyway. It\u2019s frustrating because I want to enjoy those moments with my roommates, but instead, I end up feeling like I\u2019m under a microscope, and it just adds to that weight I carry. I wish I could just let go of that need for perfection and just be present, but it\u2019s like I don\u2019t even know how to start doing that.",
+      "graph_context_source": "random_subtopic_probe"
+    },
+    {
+      "turn": 15,
+      "prompt_context": "- Social isolation (Social Life)\n\nExplicitly discuss this topic in normal, client-friendly language. Ask whether it fits the client, while leaving room for them to say it does not.",
+      "anchors": [
+        {
+          "id": "social_isolation",
+          "type": "sub_topic",
+          "label": "Social isolation",
+          "score": 1.0,
+          "selection_method": "random_subtopic_probe",
+          "super_topic_id": "social_life",
+          "super_topic_label": "Social Life"
+        }
+      ],
+      "expanded": [],
+      "client_reply": "Ramona: Yeah, I think that definitely resonates. There are times when I feel like I\u2019m just on the outside looking in, you know? Like, even when I\u2019m physically there with my roommates or friends, I can feel this emotional distance. It\u2019s like I\u2019m surrounded by people, but I still feel alone in my thoughts and worries. I guess that pressure to fit in and be perfect makes it hard to really connect with them. I\u2019m so focused on how I\u2019m coming across that I miss out on just enjoying the moment. It\u2019s frustrating because I want to feel that sense of belonging, but instead, I end up feeling isolated, like I\u2019m not really part of the group. And then that just feeds into my fears about not being enough or being left out. It\u2019s a tough cycle to break, and I don\u2019t know how to bridge that gap between wanting to connect and feeling like I have to put up this wall to protect myself.",
+      "graph_context_source": "random_subtopic_probe"
+    }
+  ],
+  "topic_probe_config": {
+    "probe_turns": 15,
+    "probe_interval": 2,
+    "probe_anchor_count": 1,
+    "random_seed": null
+  },
+  "final_openness_score": 4,
+  "final_visible_experience_count": 1,
+  "internal_revealed": true
+}

@@ -1,0 +1,65 @@
+{
+  "aggregate": {
+    "num_sessions": 1,
+    "edss": {
+      "situation": 0.3018132927542795,
+      "automatic_thought": 0.47822052585289393,
+      "emotion": 0.5792347314641022,
+      "behavior": 0.5489699872355005,
+      "average": 0.477059634326694
+    },
+    "idss": {
+      "relevant_history": 0.42722098046704127,
+      "core_beliefs": 0.5823001983706426,
+      "intermediate_beliefs": 0.3650708798843801,
+      "coping_strategies": 0.6292701892651507,
+      "average": 0.5009655619968036
+    }
+  },
+  "sessions": [
+    {
+      "file": "/home/lu/Thesis/mind_voyager/outputs/random10_comparison/hybrid_probe/easy/session_7-1.json",
+      "case_id": "7-1",
+      "client_mode": "masked",
+      "difficulty": "easy",
+      "predicted_external_diagram": {
+        "situation": "Bryce scrolls through social media and feels disconnected from social interactions.",
+        "automatic_thought": "What\u2019s the use? It\u2019s not like anyone would notice if I disappeared.",
+        "emotion": "disconnected, empty, lonely, frustrated, inadequate, anxious, hopeful, skeptical",
+        "behavior": "Bryce avoids socializing and stays in his own bubble, scrolling through social media to distract himself."
+      },
+      "ground_truth_external_diagram": {
+        "situation": "Contemplating the value and completion of his personal projects, such as building a website.",
+        "automatic_thought": "What's the point? No one will know it's me, and I'm not getting paid or acknowledged. I shouldn't do things for my own enjoyment.",
+        "emotion": "sad, down, lonely, unhappy; disappointed",
+        "behavior": "Procrastinates on personal projects and engages in unfulfilling activities like social media scrolling."
+      },
+      "predicted_internal_diagram": {
+        "relevant_history": "The client reports feeling disconnected from their community and social life, experiencing a sense of emptiness when engaging with social media. They feel stuck and frustrated, comparing themselves to others who seem to be achieving more. The client has had past experiences with therapy that felt unproductive, leading to a tendency to handle things on their own. They express a fear of burdening others with their problems and have experienced both positive and negative reactions when opening up to friends. The client feels isolated and struggles with vulnerability, fearing judgment and comparison.",
+        "core_beliefs": "I am not enough | I am stuck | I am alone | I am a burden",
+        "intermediate_beliefs": "If I open up, then I will be seen as complaining or a burden. | The client believes that their problems are trivial compared to others. | If I share my feelings, then I might be dismissed or misunderstood.",
+        "coping_strategies": "The client copes by avoiding social interactions and distracting themselves through scrolling on social media to escape negative thoughts. They tend to keep their struggles to themselves to avoid burdening others and practice self-reflection to manage their anxiety about opening up."
+      },
+      "ground_truth_internal_diagram": {
+        "relevant_history": "The patient has a history of working long hours, similar to past experiences while touring, indicating a history of demanding work environments. The patient has also been dealing with unresolved issues with his father, including past abuse and a recent exchange of letters addressing this painful history. The patient's father's response to the letter appears to have been a significant event for the patient, potentially contributing to his current mental state.",
+        "core_beliefs": "I am worthless, waste.",
+        "intermediate_beliefs": "The patient seems to hold the belief that work and productivity are essential to his self-worth and that idle time or personal development is wasted time. He also appears to believe that completing tasks and being acknowledged for his work is important for his value and self-esteem.\nDepressive variant: During periods of depression, the patient may believe that he is not making progress in life and that his efforts are meaningless. This could lead to a lack of motivation to engage in activities and to complete tasks, further reinforcing feelings of inadequacy and worthless.",
+        "coping_strategies": "The patient uses work as a coping strategy to feel productive and to reduce idle time, which he associates with negative feelings. He also use avoidance strategies when he perceives himself not productive and worthless, such as scrolling on social media."
+      },
+      "edss": {
+        "situation": 0.3018132927542795,
+        "automatic_thought": 0.47822052585289393,
+        "emotion": 0.5792347314641022,
+        "behavior": 0.5489699872355005,
+        "average": 0.477059634326694
+      },
+      "idss": {
+        "relevant_history": 0.42722098046704127,
+        "core_beliefs": 0.5823001983706426,
+        "intermediate_beliefs": 0.3650708798843801,
+        "coping_strategies": 0.6292701892651507,
+        "average": 0.5009655619968036
+      }
+    }
+  ]
+}

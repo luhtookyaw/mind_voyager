@@ -1,0 +1,65 @@
+{
+  "aggregate": {
+    "num_sessions": 1,
+    "edss": {
+      "situation": 0.33852066986990337,
+      "automatic_thought": 0.31485816270855305,
+      "emotion": 0.74996294419971,
+      "behavior": 0.28872208204363314,
+      "average": 0.4230159647054499
+    },
+    "idss": {
+      "relevant_history": 0.3921610890433817,
+      "core_beliefs": 0.5757811384320636,
+      "intermediate_beliefs": 0.4948208661881621,
+      "coping_strategies": 0.5533964995930322,
+      "average": 0.5040398983141599
+    }
+  },
+  "sessions": [
+    {
+      "file": "/home/lu/Thesis/mind_voyager/outputs/random10_comparison/retrieval/hard/session_8-2.json",
+      "case_id": "8-2",
+      "client_mode": "masked",
+      "difficulty": "hard",
+      "predicted_external_diagram": {
+        "situation": "Ramona is at home trying to relax but can't because she is always thinking about what could go wrong or how someone might react.",
+        "automatic_thought": "I can't even relax at home because I'm always thinking about what could go wrong or how someone might react.",
+        "emotion": "tense, frustrated, anxious",
+        "behavior": "Ramona tries to push away her thoughts, distracts herself with TV or scrolling through her phone, and sometimes does deep breathing or goes for a walk."
+      },
+      "ground_truth_external_diagram": {
+        "situation": "Ivan touching the patient in a way that reminds her of the past assault, triggering fear and uncertainty about his intent.",
+        "automatic_thought": "Is he going to hurt me again? Can I trust him not to repeat the past? I will get hurt. I can't trust him.",
+        "emotion": "anxious, worried, fearful, scared, tense",
+        "behavior": "Confronting Ivan and discussing the incident, feeling a mix of hope and fear. Passive or aggressive confrontation to Ivan. Not assertive."
+      },
+      "predicted_internal_diagram": {
+        "relevant_history": "The client reports feeling overwhelmed by life, with everything piling up and a constant sense of walking on eggshells. She experiences a nagging worry about how people might react to her and feels stuck in a loop of self-doubt and anxiety. She has a history of second-guessing herself and fearing that she is not good enough, which affects her interactions and relationships. She desires genuine connections but fears rejection and feels like she is not worth knowing.",
+        "core_beliefs": "I am not good enough | I am bound to be alone | I am not worth knowing",
+        "intermediate_beliefs": "If I let myself enjoy good moments too much, I'll end up disappointed. | If I can't be my true self, then I must not be worthy of love or friendship. | The client believes that taking a break doesn't mean she's being lazy or failing.",
+        "coping_strategies": "The client copes by trying to push away racing thoughts, distracting herself with TV or her phone, and using deep breathing. She also attempts to reach out to friends, though she second-guesses herself afterward. She considers journaling positive moments and setting reminders to help her focus on self-care and positive affirmations."
+      },
+      "ground_truth_internal_diagram": {
+        "relevant_history": "The patient has experienced a traumatic incident involving a sexual assault by her partner, Ivan. This has led to a complex dynamic in their relationship, where trust and intimacy are significant issues. The patient has been working through these issues and has seen some improvement in the relationship dynamics, as Ivan has been making efforts to be more considerate and reestablish trust.",
+        "core_beliefs": "I am powerless, weak, vulnerable. | I am a victim. | I am bound to be alone.",
+        "intermediate_beliefs": "If I'm not in control, something bad will happen. I must be vigilant at all times to prevent being hurt again. People close to me may hurt me if I let my guard down.\nDepressive variant: My efforts to rebuild trust may be futile. I might never be able to feel safe or loved again. I am at risk of being hurt even when things seem to be improving.",
+        "coping_strategies": "The patient uses vigilance and control as a coping strategy to ensure her safety and prevent further harm. She also engages in open communication and scheduled conversations with Ivan as a way to cope with trust issues in their relationship."
+      },
+      "edss": {
+        "situation": 0.33852066986990337,
+        "automatic_thought": 0.31485816270855305,
+        "emotion": 0.74996294419971,
+        "behavior": 0.28872208204363314,
+        "average": 0.4230159647054499
+      },
+      "idss": {
+        "relevant_history": 0.3921610890433817,
+        "core_beliefs": 0.5757811384320636,
+        "intermediate_beliefs": 0.4948208661881621,
+        "coping_strategies": 0.5533964995930322,
+        "average": 0.5040398983141599
+      }
+    }
+  ]
+}

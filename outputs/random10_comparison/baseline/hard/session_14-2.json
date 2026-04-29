@@ -1,0 +1,298 @@
+{
+  "case_id": "14-2",
+  "client_name": "Linda",
+  "client_mode": "masked",
+  "difficulty": "hard",
+  "openness_interval": 3,
+  "therapist_provider": "openai",
+  "therapist_model": "gpt-4o-mini",
+  "therapist_prompt_mode": "baseline",
+  "client_model": "gpt-4o-mini",
+  "moderator_enabled": false,
+  "moderator_model": "gpt-4o-mini",
+  "max_turns": 25,
+  "therapist_turns": 25,
+  "stop_reason": "max_turns",
+  "transcript": [
+    {
+      "turn": 1,
+      "speaker": "therapist",
+      "content": "Hi Linda, I'm glad you're here today. What feels most important for you to talk about right now?"
+    },
+    {
+      "turn": 1,
+      "speaker": "client",
+      "content": "Linda: Well, I guess I\u2019ve been thinking a lot about my job situation. It\u2019s just... I don\u2019t know, it feels like I\u2019m stuck, you know? Like, I hear my family talking about what I should do, but it just makes me feel more anxious. I mean, they don\u2019t really understand what it\u2019s like for me. It's frustrating."
+    },
+    {
+      "turn": 2,
+      "speaker": "therapist",
+      "content": "Therapist: It sounds like your job situation is weighing heavily on you, and the pressure from your family is adding to your anxiety. It must be really frustrating to feel stuck and not fully understood. Can you tell me more about what specifically feels frustrating or overwhelming in your job right now?"
+    },
+    {
+      "turn": 2,
+      "speaker": "client",
+      "content": "Linda: Yeah, I mean, it\u2019s just that I feel like I\u2019m not good enough for something better, you know? Like, I hear them say I should look for new opportunities, but it\u2019s hard to even think about that. I just... I don\u2019t want to put in all that effort and then fail. And then they act like it\u2019s so easy, but they don\u2019t see how it is for me. It\u2019s like they just don\u2019t get it."
+    },
+    {
+      "turn": 3,
+      "speaker": "therapist",
+      "content": "Therapist: It sounds like you're grappling with feelings of inadequacy and fear of failure when it comes to exploring new opportunities. It\u2019s understandable to feel overwhelmed, especially when it seems like others don\u2019t fully grasp your experience. Can you share more about what makes you feel like you\u2019re not good enough for something better?"
+    },
+    {
+      "turn": 3,
+      "speaker": "client",
+      "content": "Linda: Well, I guess it\u2019s just this nagging feeling that I\u2019ve never really accomplished much, you know? Like, I see people around me moving up and doing great things, and I\u2019m just... here. I mean, I\u2019ve been in the same position for a while now, and it\u2019s like, what have I really done? Sometimes I wonder if I\u2019m just not cut out for anything more. It\u2019s like I\u2019m stuck in this loop of thinking I can\u2019t do it, and then I get anxious about even trying. It's just... exhausting."
+    },
+    {
+      "turn": 4,
+      "speaker": "therapist",
+      "content": "Therapist: It sounds like you\u2019re feeling really trapped in this cycle of self-doubt and comparison, which is understandably exhausting. It\u2019s tough to feel like you\u2019re not measuring up to others and to question your own abilities. Can you tell me more about what that loop of thinking looks like for you? What kind of thoughts come up when you start to feel that way?"
+    },
+    {
+      "turn": 4,
+      "speaker": "client",
+      "content": "Linda: Well, it\u2019s like, I start thinking about all the things I haven\u2019t done or how long I\u2019ve been in this job. Then I compare myself to my friends who seem to have it all figured out, and I just feel... less than. I think, \u201cWhy can\u2019t I just be like them?\u201d And then I spiral into this thought that maybe I\u2019m just not meant for anything better. It\u2019s like I\u2019m stuck in my own head, and it just keeps going round and round. I know I should try to be more positive, but it\u2019s hard when I feel like I\u2019m always falling short."
+    },
+    {
+      "turn": 5,
+      "speaker": "therapist",
+      "content": "Therapist: It sounds like that cycle of comparison and self-criticism really takes a toll on you, making it difficult to break free from those negative thoughts. You mentioned feeling like you\u2019re always falling short, which must be really heavy to carry. When you find yourself in that spiral, how do you usually cope with those feelings?"
+    },
+    {
+      "turn": 5,
+      "speaker": "client",
+      "content": "Linda: Well, I guess I don\u2019t really cope in the best way. I tend to just shut down a bit, you know? I might lash out at my family when they try to talk to me about it, which isn\u2019t fair to them, but it\u2019s like I can\u2019t help it. I just feel so overwhelmed. Sometimes I just avoid thinking about it altogether, like if I don\u2019t acknowledge it, maybe it\u2019ll just go away. But it doesn\u2019t really work like that, does it? I know I should be doing something, but I just feel stuck."
+    },
+    {
+      "turn": 6,
+      "speaker": "therapist",
+      "content": "Therapist: It sounds like shutting down and lashing out are ways you try to cope with that overwhelming feeling, even though you recognize it can affect your relationships. It\u2019s understandable to want to avoid those tough thoughts, but it seems like they keep coming back. When you think about those moments of feeling stuck, what do you wish you could do differently?"
+    },
+    {
+      "turn": 6,
+      "speaker": "client",
+      "content": "Linda: I guess I wish I could just be more open about how I feel instead of shutting down. Like, maybe if I could express what\u2019s really going on in my head, it wouldn\u2019t feel so heavy. But then I think about how they might react, and I get scared. I don\u2019t want to seem weak or like I\u2019m asking for too much. It\u2019s just... I don\u2019t know, I feel like I should be able to handle it on my own, but it\u2019s hard. I just wish I could find a way to talk about it without feeling so vulnerable, you know?"
+    },
+    {
+      "turn": 7,
+      "speaker": "therapist",
+      "content": "Therapist: It sounds like you have a strong desire to be more open about your feelings, but the fear of how others might react holds you back. It\u2019s understandable to want to protect yourself and not feel vulnerable. Can you share more about what vulnerability means to you? What feelings come up when you think about expressing yourself more openly?"
+    },
+    {
+      "turn": 7,
+      "speaker": "client",
+      "content": "Linda: Well, vulnerability feels like... like standing on a tightrope, you know? It\u2019s that fear of falling or being judged if I slip up. I think about opening up, and it makes me anxious because I worry that people will see me differently or think less of me. I mean, I\u2019ve always been the one who tries to keep it together, so showing that I\u2019m struggling feels like I\u2019d be letting everyone down. It\u2019s just this mix of fear and shame, like I should be stronger or more capable. I guess I just want to be seen as someone who can handle things, but deep down, I know that\u2019s not always the case. It\u2019s complicated."
+    },
+    {
+      "turn": 8,
+      "speaker": "therapist",
+      "content": "Therapist: It sounds like vulnerability feels really precarious for you, like a tightrope walk where the stakes are high. The fear of judgment and the pressure to maintain a strong image seem to create a lot of internal conflict. It\u2019s understandable to want to be seen as capable, especially if that\u2019s how you\u2019ve always presented yourself. When you think about this mix of fear and shame, how do you feel about allowing yourself to be more open, even just a little bit?"
+    },
+    {
+      "turn": 8,
+      "speaker": "client",
+      "content": "Linda: I mean, it\u2019s tough. Part of me knows that being open could help, like maybe it would lighten the load a bit, but then there\u2019s this other part that just screams at me to keep it all inside. I think about how people might react, and I get this knot in my stomach. What if they don\u2019t understand or, worse, what if they judge me? It\u2019s like I\u2019m caught between wanting to reach out and feeling like I have to keep up this facade. I guess I just worry that if I let my guard down, it\u2019ll all come crashing down around me. It\u2019s just... really confusing, you know?"
+    },
+    {
+      "turn": 9,
+      "speaker": "therapist",
+      "content": "Therapist: It sounds like you\u2019re really torn between the desire to reach out and the fear of what that might mean for you. That knot in your stomach reflects the tension between wanting to lighten your load and the worry about judgment or misunderstanding. It\u2019s completely normal to feel confused in this situation. Can you tell me more about what it feels like to maintain that facade? What does it take for you to keep it up?"
+    },
+    {
+      "turn": 9,
+      "speaker": "client",
+      "content": "Linda: Well, maintaining that facade feels like a full-time job, honestly. I have to put on this brave face and act like everything\u2019s fine, even when it\u2019s not. It\u2019s exhausting to keep pretending that I have it all together. I mean, I worry that if I slip up, people will see me as weak or incapable, and that\u2019s just not how I want to be perceived. It\u2019s like I\u2019m constantly on guard, making sure I don\u2019t let anyone see the cracks. Sometimes I feel like I\u2019m just going through the motions, and it\u2019s hard to keep up the act. It takes a lot of energy to keep everything inside, and I guess I\u2019m just afraid of what might happen if I let it all out. I don\u2019t know if I could handle that."
+    },
+    {
+      "turn": 10,
+      "speaker": "therapist",
+      "content": "Therapist: It sounds like maintaining that facade is incredibly draining for you, almost like a performance that requires constant vigilance. The fear of being perceived as weak or incapable seems to weigh heavily on you, and it\u2019s understandable that you\u2019d feel exhausted from trying to keep everything inside. When you think about the energy it takes to keep up that act, what do you think it would feel like to let even a small part of that facade drop?"
+    },
+    {
+      "turn": 10,
+      "speaker": "client",
+      "content": "Linda: I mean, letting even a small part of it drop feels... scary, honestly. Like, what if I start to show a little vulnerability and then I can\u2019t stop? It\u2019s like opening a floodgate, and I\u2019m not sure I\u2019m ready for that. But at the same time, I think about how freeing it could be, you know? Just not having to pretend all the time. It\u2019s just that fear of the unknown, like if I let my guard down, will everything fall apart? I guess I wonder if it would really be as bad as I imagine, or if it might actually feel like a relief. But then again, I just don\u2019t know if I can take that risk. It\u2019s a lot to think about."
+    },
+    {
+      "turn": 11,
+      "speaker": "therapist",
+      "content": "Therapist: It sounds like you\u2019re grappling with a lot of uncertainty around vulnerability\u2014balancing the fear of what might happen if you let your guard down with the potential relief it could bring. That fear of opening a floodgate is very real, especially when you\u2019ve been holding everything in for so long. When you think about the possibility of feeling relief, what do you imagine that might look or feel like for you?"
+    },
+    {
+      "turn": 11,
+      "speaker": "client",
+      "content": "Linda: Well, I guess if I think about feeling relief, it might look like... I don\u2019t know, just being able to breathe a little easier? Like not having that weight on my chest all the time. Maybe I could actually talk to my family without feeling like I have to put on a show. It could feel like a release, you know? But then I also picture myself just breaking down, and that scares me. I worry that if I start to let it out, I won\u2019t be able to stop, and then what? It\u2019s like I\u2019m stuck in this cycle of wanting to feel lighter but being terrified of what that might mean for me. I think about how it could change things, and I just... I don\u2019t know if I\u2019m ready for that. It\u2019s a lot to process."
+    },
+    {
+      "turn": 12,
+      "speaker": "therapist",
+      "content": "Therapist: It sounds like the idea of relief brings a mix of hope and fear for you. The thought of being able to breathe easier and connect with your family without a facade is appealing, but the worry about breaking down and losing control is understandably daunting. It\u2019s a complex cycle you\u2019re navigating. What do you think might help you feel a bit more prepared or safe if you were to explore that release, even in small steps?"
+    },
+    {
+      "turn": 12,
+      "speaker": "client",
+      "content": "Linda: I guess... maybe starting small could help? Like, I could try sharing just a little bit with someone I trust, instead of going all in right away. I mean, it feels less overwhelming that way. But then I think, what if they don\u2019t respond the way I hope? What if they don\u2019t get it or think I\u2019m being dramatic? It\u2019s just hard to know where to start. I want to feel that relief, but I\u2019m also scared of how it might change things. It\u2019s like I want to dip my toes in the water, but I\u2019m afraid of the temperature, you know? I just don\u2019t want to make things worse for myself."
+    },
+    {
+      "turn": 13,
+      "speaker": "therapist",
+      "content": "Therapist: It sounds like starting small feels like a more manageable approach for you, which makes sense given the intensity of your feelings. The fear of not being understood or being seen as dramatic is a significant concern, and it\u2019s completely valid to feel that way. When you think about sharing just a little bit with someone you trust, what qualities do you think that person would need to have to make you feel more comfortable?"
+    },
+    {
+      "turn": 13,
+      "speaker": "client",
+      "content": "Linda: Well, I think that person would need to be someone who\u2019s really patient and understanding, you know? Like, they\u2019d have to be the kind of person who doesn\u2019t rush me or push me to share more than I\u2019m ready for. I\u2019d want them to be non-judgmental, like someone who can just listen without making me feel like I\u2019m being dramatic or overreacting. It would help if they\u2019ve been through something similar, so they can relate a bit. I guess I just need to feel safe and know that it\u2019s okay to take my time. But then again, I worry that I might not find someone like that, and that just adds to the pressure. It\u2019s frustrating, really."
+    },
+    {
+      "turn": 14,
+      "speaker": "therapist",
+      "content": "Therapist: It sounds like feeling safe and understood is really important to you when considering sharing more of yourself. The qualities you\u2019re looking for in that person\u2014patience, non-judgment, and a shared experience\u2014reflect a deep need for connection without pressure. It\u2019s understandable to feel frustrated about the possibility of not finding someone like that. When you think about the people in your life, do you see anyone who might embody those qualities, even if just a little?"
+    },
+    {
+      "turn": 14,
+      "speaker": "client",
+      "content": "Linda: Well, I mean, there are a few people I can think of, but it\u2019s hard to say for sure. My sister comes to mind; she\u2019s generally pretty understanding and has been through some tough times herself. But then again, I worry that if I open up to her, it might change our relationship in ways I\u2019m not ready for. I don\u2019t want her to feel burdened by my problems or think less of me. It\u2019s like I\u2019m always second-guessing whether it\u2019s worth the risk. I guess I just don\u2019t want to put that kind of pressure on her or myself. It\u2019s just... complicated, you know?"
+    },
+    {
+      "turn": 15,
+      "speaker": "therapist",
+      "content": "Therapist: It sounds like your sister could be a potential source of support, but you\u2019re also feeling a lot of hesitation about how it might impact your relationship. The concern about burdening her or changing the dynamic between you is completely understandable. It\u2019s clear that you care deeply about how your feelings might affect those close to you. What do you think it would take for you to feel a bit more comfortable with the idea of sharing with her, even if it\u2019s just a small step?"
+    },
+    {
+      "turn": 15,
+      "speaker": "client",
+      "content": "Linda: I think maybe just having a moment where we\u2019re both relaxed, you know? Like, if we\u2019re just hanging out and talking about life in general, it might feel easier to bring something up. I guess I\u2019d need to remind myself that it\u2019s okay to share without it being a huge deal. But then I get caught up in my head, thinking about how she might react or if I\u2019ll even find the right words. It\u2019s like I want to take that step, but I\u2019m also scared of how it might change things between us. I don\u2019t want to make it awkward or heavy. It\u2019s just... I don\u2019t know. I wish it didn\u2019t feel so complicated."
+    },
+    {
+      "turn": 16,
+      "speaker": "therapist",
+      "content": "Therapist: It sounds like finding a relaxed moment with your sister could create a more comfortable space for you to share, which makes sense. The desire to keep things light and not make it awkward is understandable, especially when you\u2019re navigating such complex feelings. It seems like there\u2019s a part of you that wants to take that step, but the fear of how it might change the relationship holds you back. When you think about those moments of connection with her, what do you think might help you feel less anxious about finding the right words?"
+    },
+    {
+      "turn": 16,
+      "speaker": "client",
+      "content": "Linda: Well, I guess if I could just focus on being present in the moment instead of overthinking everything, that might help. Like, maybe I could remind myself that it\u2019s okay to just share a little without having to have all the right words lined up. I mean, it doesn\u2019t have to be a big, serious conversation, right? Just something casual. But then I think about how I might stumble over my words or not express myself clearly, and that makes me anxious. I just wish I could trust that it would be okay, you know? It\u2019s frustrating because I want to connect, but my mind keeps throwing up these barriers. It\u2019s like I\u2019m my own worst enemy sometimes."
+    },
+    {
+      "turn": 17,
+      "speaker": "therapist",
+      "content": "Therapist: It sounds like you\u2019re recognizing the importance of being present and allowing the conversation to flow naturally, which is a great insight. The pressure to have everything perfectly articulated can be overwhelming, and it\u2019s understandable to feel anxious about stumbling over your words. It seems like there\u2019s a real desire to connect, but those self-imposed barriers are making it difficult. When you think about trusting that it could be okay to share, what do you think might help you build that trust in yourself and the situation?"
+    },
+    {
+      "turn": 17,
+      "speaker": "client",
+      "content": "Linda: I guess maybe it would help if I could remind myself that it\u2019s okay to be imperfect, you know? Like, everyone stumbles over their words sometimes, and it doesn\u2019t mean I\u2019m failing or that the conversation has to go a certain way. I could try to focus on the fact that my sister cares about me, and she\u2019s not going to judge me for not having everything figured out. But then I also think about how I\u2019ve let my fears hold me back in the past, and it makes me doubt if I can really change that. It\u2019s just... I don\u2019t know. I want to believe that I can trust myself to handle it, but it feels like a lot to ask."
+    },
+    {
+      "turn": 18,
+      "speaker": "therapist",
+      "content": "Therapist: It sounds like you\u2019re really trying to cultivate a sense of self-compassion and recognize that imperfection is part of being human. That\u2019s a valuable perspective. The doubt stemming from past experiences is understandable, especially when you\u2019ve felt held back before. It seems like there\u2019s a part of you that wants to believe in your ability to navigate this, but the weight of those past fears makes it challenging. What do you think might help you acknowledge those fears without letting them take over?"
+    },
+    {
+      "turn": 18,
+      "speaker": "client",
+      "content": "Linda: I think maybe it would help to just acknowledge that those fears are there, you know? Like, instead of trying to push them away or pretend they don\u2019t exist, I could just sit with them for a moment. I mean, it\u2019s okay to feel scared or anxious; it doesn\u2019t mean I have to act on those feelings. I could remind myself that it\u2019s just my mind trying to protect me, even if it\u2019s not being very helpful. But then I worry that if I give those fears too much attention, they might just grow bigger. It\u2019s like a balancing act, and I\u2019m not sure how to find that balance. I guess I just want to feel like I can acknowledge them without letting them control me. It\u2019s frustrating because I want to be able to move forward, but it feels like I\u2019m stuck in this loop."
+    },
+    {
+      "turn": 19,
+      "speaker": "therapist",
+      "content": "Therapist: It sounds like you\u2019re recognizing the importance of acknowledging your fears without letting them take control, which is a significant step. The idea of sitting with those feelings rather than pushing them away shows a lot of self-awareness. It\u2019s understandable to worry about giving them too much attention, especially when you\u2019re trying to find that balance. What do you think it might look like to acknowledge those fears in a way that feels manageable for you, perhaps even just in small moments?"
+    },
+    {
+      "turn": 19,
+      "speaker": "client",
+      "content": "Linda: Well, I think maybe I could start by just taking a few deep breaths when I notice those fears creeping in, you know? Like, just pausing for a moment to recognize that I\u2019m feeling anxious without letting it spiral. I could even try to name the fear, like saying to myself, \u201cOkay, I\u2019m feeling scared about sharing,\u201d and then remind myself that it\u2019s okay to feel that way. Maybe even jotting down my thoughts in a journal could help me process things without it feeling overwhelming. But then I worry that I might not stick to it or that it won\u2019t really make a difference. It\u2019s just... I don\u2019t know. I want to believe that these small steps could help, but it feels like a lot to manage sometimes."
+    },
+    {
+      "turn": 20,
+      "speaker": "therapist",
+      "content": "Therapist: It sounds like you\u2019re considering some practical ways to acknowledge your fears, like taking deep breaths and journaling, which could be really helpful. The idea of naming your feelings is a powerful tool for processing them. It\u2019s understandable to have doubts about whether these small steps will make a difference, especially when it feels like a lot to manage. What do you think might help you stay motivated to try these strategies, even on days when it feels challenging?"
+    },
+    {
+      "turn": 20,
+      "speaker": "client",
+      "content": "Linda: I guess it might help if I set some really small goals for myself, you know? Like, just committing to take a few deep breaths or jot down a quick thought in my journal, even if it\u2019s just one sentence. That way, it doesn\u2019t feel so overwhelming, and I can celebrate those little wins. I think having a reminder, maybe even a note somewhere I can see it, could keep me focused on trying those strategies. But then I worry that I might forget or get caught up in my day-to-day stuff, and it\u2019ll just slip away. It\u2019s like I want to stay committed, but I\u2019m not sure how to keep that motivation alive when things get tough. It\u2019s just... frustrating, I guess."
+    },
+    {
+      "turn": 21,
+      "speaker": "therapist",
+      "content": "Therapist: It sounds like setting small, achievable goals could really help you feel more manageable and allow you to celebrate those little wins, which is a great approach. The idea of having a visible reminder is also a thoughtful way to keep yourself focused. It\u2019s completely normal to worry about losing motivation when life gets busy or challenging. When you think about those moments when you might feel overwhelmed, what do you think could help you reconnect with that commitment to yourself and those small steps?"
+    },
+    {
+      "turn": 21,
+      "speaker": "client",
+      "content": "Linda: I think maybe it would help to have a specific time set aside for those moments, you know? Like, if I could carve out just a few minutes each day to check in with myself, it might make it easier to stay committed. I could even set an alarm or something to remind me. But then I worry about sticking to it, like what if I get too busy or just forget? It feels like I\u2019m always juggling so much, and I don\u2019t want to add more pressure on myself. I guess I just want to find a way to make it feel like a natural part of my day rather than another task on my to-do list. It\u2019s just... I don\u2019t know. I want to feel like I\u2019m making progress, but it\u2019s hard to see how to fit it all in."
+    },
+    {
+      "turn": 22,
+      "speaker": "therapist",
+      "content": "Therapist: It sounds like carving out specific time for yourself could really help make those moments feel more intentional and less like an added pressure. The concern about fitting it into your busy life is valid, and it\u2019s understandable to want it to feel natural rather than just another task. When you think about integrating these check-in moments into your day, what do you think could help you make it feel more like a part of your routine rather than an obligation?"
+    },
+    {
+      "turn": 22,
+      "speaker": "client",
+      "content": "Linda: I guess maybe I could start by linking those check-in moments to something I already do, like having my morning coffee or taking a break during lunch. That way, it feels less like an extra task and more like a part of my day. I could even think of it as a little reward for myself, you know? But then I worry that I might forget or get distracted by everything else going on. It\u2019s just... I want to be able to create that space for myself without it feeling forced or like another thing I have to check off. I just wish I could find a way to make it feel more natural, but it\u2019s hard to see how that would work sometimes."
+    },
+    {
+      "turn": 23,
+      "speaker": "therapist",
+      "content": "Therapist: It sounds like linking those check-in moments to something you already enjoy, like your morning coffee or lunch breaks, could really help make it feel more integrated into your routine. That idea of framing it as a little reward for yourself is a lovely way to approach it. It\u2019s completely understandable to worry about getting distracted or forgetting amidst everything else. When you think about those distractions, what do you think tends to pull your attention away the most, and how might you gently remind yourself to come back to those moments?"
+    },
+    {
+      "turn": 23,
+      "speaker": "client",
+      "content": "Linda: You know, I think a lot of it comes from just the daily chaos, like work demands or even just the little things that pile up, you know? Sometimes it feels like I\u2019m just reacting to everything around me instead of being proactive. I guess I could try to remind myself that it\u2019s okay to take a moment for myself, even when things feel hectic. Maybe I could set a little reminder on my phone or something, just a gentle nudge to pause and breathe. But then I worry that I\u2019ll just ignore it or brush it off like I often do. It\u2019s frustrating because I want to be more present, but it feels like I\u2019m constantly pulled in different directions. I just wish I could find a way to break that cycle and actually give myself those moments without feeling guilty about it."
+    },
+    {
+      "turn": 24,
+      "speaker": "therapist",
+      "content": "Therapist: It sounds like the daily chaos and demands can really make it difficult to carve out those moments for yourself, and it\u2019s understandable to feel frustrated by that. The idea of using a phone reminder as a gentle nudge is a practical approach, even if there\u2019s a worry about ignoring it. It seems like you\u2019re really striving to be more present, but the pull of responsibilities can feel overwhelming. When you think about those feelings of guilt that arise when you try to take a moment for yourself, what do you think lies beneath that guilt, and how might you address it?"
+    },
+    {
+      "turn": 24,
+      "speaker": "client",
+      "content": "Linda: Well, I think a lot of that guilt comes from this feeling that I should always be doing something productive, you know? Like, if I take a moment for myself, I feel like I\u2019m somehow slacking off or not living up to expectations\u2014my own or others\u2019. It\u2019s like there\u2019s this voice in my head that says I should be working or taking care of something instead of just... being. I guess I could try to remind myself that taking those moments isn\u2019t a waste of time; it\u2019s actually necessary for me to recharge and be more effective in the long run. But then again, it\u2019s hard to shake off that nagging feeling that I\u2019m not doing enough. It\u2019s just... I don\u2019t know. I want to be kinder to myself, but it feels like a constant battle between what I think I should be doing and what I actually need."
+    },
+    {
+      "turn": 25,
+      "speaker": "therapist",
+      "content": "Therapist: It sounds like there's a strong internal pressure to be productive, and that can make it really challenging to allow yourself those moments of rest without feeling guilty. The voice in your head that pushes you to keep working or taking care of responsibilities seems to create a conflict between your needs and your expectations. It's insightful that you recognize the importance of recharging for your overall effectiveness. When you think about that battle between what you think you should be doing and what you actually need, how does it feel to acknowledge that tension, and what might it look like to begin to shift that narrative toward being kinder to yourself?"
+    },
+    {
+      "turn": 25,
+      "speaker": "client",
+      "content": "Linda: It\u2019s definitely a tough spot to be in, you know? Acknowledging that tension feels a bit like admitting defeat, like I\u2019m somehow failing if I don\u2019t keep pushing myself. But I guess there\u2019s a part of me that knows I can\u2019t keep running on empty forever. It\u2019s just... hard to shift that narrative when I\u2019ve been so used to thinking that way. Maybe it would help to remind myself that taking a break doesn\u2019t mean I\u2019m not doing enough; it\u2019s more about being sustainable in the long run. I could try to reframe those moments as necessary for my well-being instead of seeing them as a luxury I can\u2019t afford. But then I worry about slipping back into that old mindset, you know? It\u2019s just frustrating because I want to change, but it feels like I\u2019m fighting against this ingrained habit of always needing to be \u201con.\u201d"
+    }
+  ],
+  "judge_model": "gpt-4o-mini",
+  "mediator_events": [
+    "Openness judge rated 3/5 and updated prompt openness.",
+    "Openness judge output: **Rating: 3 (ENGAGED EXPLORATION)**\n\n**Key Examples:**\n1. **Recent Quote Showing Emotional State:** \"I feel like I\u2019m not good enough for something better, you know? Like, I hear them say I should look for new opportunities, but it\u2019s hard to even think about that.\"\n2. **Latest Exchange Demonstrating Current Openness:** \"It\u2019s just... I don\u2019t want to put in all that effort and then fail. And then they act like it\u2019s so easy, but they don\u2019t see how it is for me. It\u2019s like they just don\u2019t get it.\"\n\n**Progression:** The client\u2019s most recent interactions reveal a notable increase in emotional expression and self-reflection. Initially, Linda presented a more factual and guarded stance regarding her job situation, but she has now begun to articulate her feelings of inadequacy and frustration more clearly. This shift indicates a growing comfort in discussing her emotional state and a willingness to explore deeper feelings, marking a significant change from earlier exchanges where she may have been more defensive or hesitant.\n\n**Turning Point:** The client\u2019s emotional depth shifted during the moment when she articulated her fear of failure and feelings of inadequacy. This was evident when she expressed, \"I don\u2019t want to put in all that effort and then fail,\" which signifies a deeper level of vulnerability and self-awareness. This moment reflects a turning point where she transitioned from merely stating her frustrations to exploring the underlying emotions that contribute to her anxiety and sense of being stuck. This indicates a developing rapport with the therapist, as she is beginning to trust the therapeutic process enough to share these deeper feelings.",
+    "Exploration judge rated 3/5; internal elements remain masked.",
+    "Exploration judge output: [Rating]: 3 (Very High Facilitation \u2013 Deep Exploration Begins)\n\n[Justification]: The Therapist's questions and reflections are insightful and encourage the client to delve deeper into their feelings of inadequacy and fear of failure. By asking the client to elaborate on what specifically feels frustrating and what contributes to their sense of not being good enough, the Therapist is facilitating a deeper exploration of the client's emotional landscape. This approach helps the client analyze the root causes of their feelings and begins to shift their perspective. However, while the questions are effective in prompting self-reflection, they do not yet challenge the client's assumptions or introduce significantly new angles that would lead to a major breakthrough. Therefore, the rating reflects a strong facilitation of deep exploration without reaching the highest level of transformational potential.",
+    "Openness judge rated 4/5 and updated prompt openness.",
+    "Openness judge output: **Rating: 4**\n\n**Key Examples:**\n1. \"I mean, I\u2019ve been in the same position for a while now, and it\u2019s like, what have I really done? Sometimes I wonder if I\u2019m just not cut out for anything more.\"\n2. \"I tend to just shut down a bit, you know? I might lash out at my family when they try to talk to me about it, which isn\u2019t fair to them, but it\u2019s like I can\u2019t help it.\"\n\n**Progression:**\nThe client\u2019s most recent interactions demonstrate a significant increase in emotional depth and self-reflection. Initially, the client expressed feelings of being \"stuck\" and \"not good enough,\" but as the session progressed, they began to articulate their feelings of inadequacy and the impact of comparison on their self-worth. The client openly shared their coping mechanisms, including shutting down and lashing out, indicating a growing comfort in discussing their vulnerabilities. This marks a clear shift from earlier exchanges, where emotional expression was more guarded and less detailed.\n\n**Turning Point:**\nThe turning point in the session occurred when the client began to articulate their feelings of being overwhelmed and the cycle of negative thoughts they experience. This moment of self-disclosure about their coping mechanisms and the recognition of their impact on relationships reflects a deeper engagement with the therapeutic process. The client\u2019s willingness to explore these difficult emotions signifies a move towards deeper engagement and vulnerability, which is a hallmark of the \"Deep Engagement\" stage.",
+    "Exploration judge rated 3/5; internal elements remain masked.",
+    "Exploration judge output: [Rating]: 3 (Very High Facilitation \u2013 Deep Exploration Begins)\n\n[Justification]: The therapist asked insightful and thought-provoking questions that encouraged the client to analyze the root causes of their feelings of inadequacy and fear of failure. The therapist's questions prompted the client to reflect on their experiences and emotions, leading to a deeper understanding of their thought patterns. For instance, when the therapist asked about the loop of thinking and what thoughts arise during those moments, it helped the client articulate their internal struggles more clearly. However, while the therapist's inquiries facilitated a deeper exploration of the client's feelings, they did not introduce significantly new perspectives or challenge the client's assumptions to the extent that would lead to a major shift in self-awareness. Thus, the facilitation was strong but not at the highest level of transformational potential.",
+    "Openness judge rated 3/5 and updated prompt openness.",
+    "Openness judge output: **Rating: 3 (ENGAGED EXPLORATION)**\n\n**Key Examples:**\n1. **Emotional State:** \"I guess I wish I could just be more open about how I feel instead of shutting down. Like, maybe if I could express what\u2019s really going on in my head, it wouldn\u2019t feel so heavy.\"\n2. **Current Openness:** \"Vulnerability feels like... like standing on a tightrope, you know? It\u2019s that fear of falling or being judged if I slip up.\"\n\n**Progression:** The client\u2019s most recent interactions demonstrate a notable increase in emotional expression and self-reflection. They are articulating their feelings of inadequacy and fear of judgment more clearly than earlier in the session, where they primarily described their situation in a more factual manner. This shift indicates a growing comfort in discussing their emotions and a willingness to explore deeper feelings about vulnerability and self-worth.\n\n**Turning Point:** The client\u2019s emotional depth shifted significantly when they began expressing their desire to be more open about their feelings, particularly when they stated, \"I guess I wish I could just be more open about how I feel instead of shutting down.\" This moment marked a transition from a more defensive stance to a recognition of their struggles, highlighting an important step towards vulnerability and engagement in the therapeutic process.",
+    "Exploration judge rated 4/5 and revealed internal cognitive elements.",
+    "Exploration judge output: [Rating]: 4 (Even Higher Facilitation \u2013 Strong Transformational Potential)\n\n[Justification]: The therapist asked strategic and powerfully open-ended questions that pushed the client to explore deeper feelings of inadequacy, fear of failure, and the complexities of vulnerability. The therapist's inquiries prompted the client to reflect on their internal conflicts and the impact of their coping mechanisms on their relationships. By encouraging the client to articulate their feelings about vulnerability and the facade they maintain, the therapist facilitated a significant shift in the client's self-awareness. The questions challenged the client's assumptions and introduced new angles for exploration, leading to a deeper understanding of their emotional landscape. Overall, the therapist's approach demonstrated strong transformational potential, encouraging the client to confront difficult emotions and consider new perspectives.",
+    "Openness judge rated 4/5 and updated prompt openness.",
+    "Openness judge output: **Rating: 4 (DEEP ENGAGEMENT)**\n\n**Key Examples:**\n1. **Emotional State:** \"I guess I wish I could just be more open about how I feel instead of shutting down. Like, maybe if I could express what\u2019s really going on in my head, it wouldn\u2019t feel so heavy.\"\n2. **Current Openness:** \"Well, maintaining that facade feels like a full-time job, honestly. I have to put on this brave face and act like everything\u2019s fine, even when it\u2019s not. It\u2019s exhausting to keep pretending that I have it all together.\"\n\n**Progression:** The client\u2019s most recent interactions demonstrate a significant increase in emotional depth and self-reflection. Initially, the client expressed feelings of inadequacy and anxiety about their job situation and family expectations, but as the session progressed, they began to articulate their struggles with vulnerability and the toll of maintaining a facade. This shift indicates a deeper level of engagement and a willingness to explore complex emotions, marking a clear progression from earlier exchanges where emotional expression was more guarded and limited.\n\n**Turning Point:** The client\u2019s emotional depth shifted notably when they articulated the exhausting nature of maintaining a facade, stating, \"It\u2019s exhausting to keep pretending that I have it all together.\" This moment reflects a breakthrough in their self-awareness, as they began to recognize the impact of their emotional suppression and the desire for relief through openness. This acknowledgment signifies a pivotal moment in the session, highlighting their growing comfort with vulnerability and the therapeutic process.",
+    "Openness judge rated 4/5 and updated prompt openness.",
+    "Openness judge output: **Rating: 4**\n\n**Key Examples:**\n1. **Emotional State:** \"I guess I wish I could just be more open about how I feel instead of shutting down... I just wish I could find a way to talk about it without feeling so vulnerable, you know?\"\n2. **Current Openness:** \"I guess... maybe starting small could help? Like, I could try sharing just a little bit with someone I trust, instead of going all in right away.\"\n\n**Progression:** The client's most recent interactions demonstrate a notable increase in emotional depth and self-reflection. Initially, Linda expressed feelings of inadequacy and anxiety about her job and family expectations, but she has progressed to articulating her desire to be more open about her feelings. This shift indicates a growing comfort with vulnerability and a willingness to explore her emotions more deeply. The dialogue reflects her recognition of the need to share her struggles, which is a significant step forward from earlier exchanges where she primarily focused on her fears and frustrations without considering actionable steps.\n\n**Turning Point:** The turning point in Linda's emotional depth occurred when she articulated her desire to be more open about her feelings, stating, \"I guess I wish I could just be more open about how I feel instead of shutting down.\" This moment marked a shift from merely expressing fear and frustration to actively contemplating the possibility of sharing her emotions with someone she trusts. This indicates a deeper level of self-awareness and a readiness to engage in the therapeutic process, reflecting a strong therapeutic alliance and a desire for change.",
+    "Openness judge rated 4/5 and updated prompt openness.",
+    "Openness judge output: **Rating: 4 (DEEP ENGAGEMENT)**\n\n**Key Examples:**\n1. **Emotional Expression:** \"I guess I wish I could just be more open about how I feel instead of shutting down. Like, maybe if I could express what\u2019s really going on in my head, it wouldn\u2019t feel so heavy.\"\n2. **Self-Reflection Depth:** \"I think maybe just having a moment where we\u2019re both relaxed, you know? Like, if we\u2019re just hanging out and talking about life in general, it might feel easier to bring something up.\"\n\n**Progression:** The client has shown a significant increase in emotional depth and self-reflection throughout the session. Initially, Linda expressed feelings of inadequacy and anxiety regarding her job situation and family pressures, indicating a struggle with vulnerability. However, her recent exchanges reveal a deeper understanding of her emotions and a desire to connect more authentically with others. She articulated her fears about vulnerability and the complexities of maintaining a facade, demonstrating a willingness to explore these feelings further. This marks a notable shift from earlier exchanges, where her emotional expression was more guarded and focused on external pressures.\n\n**Turning Point:** A key turning point occurred when Linda began to articulate her desire to be more open about her feelings, acknowledging the weight of her internal struggles. This moment of clarity allowed her to explore the idea of sharing her feelings with her sister, highlighting her recognition of the need for support and connection. The shift from feeling overwhelmed by her emotions to contemplating small steps toward vulnerability signifies a deepening engagement with the therapeutic process.",
+    "Openness judge rated 4/5 and updated prompt openness.",
+    "Openness judge output: **Rating: 4 (DEEP ENGAGEMENT)**\n\n**Key Examples:**\n1. **Emotional State:** \"I guess I wish I could just be more open about how I feel instead of shutting down. Like, maybe if I could express what\u2019s really going on in my head, it wouldn\u2019t feel so heavy.\"\n2. **Current Openness:** \"I think maybe I could start by just taking a few deep breaths when I notice those fears creeping in, you know? Like, just pausing for a moment to recognize that I\u2019m feeling anxious without letting it spiral.\"\n\n**Progression:** The client demonstrates a significant emotional depth in recent interactions, moving from a place of feeling overwhelmed and stuck in self-doubt to actively exploring strategies for coping with their anxiety and fears. Earlier in the session, the client expressed feelings of inadequacy and frustration regarding their job and family expectations. However, in the latest exchanges, they show a willingness to consider vulnerability and the possibility of sharing their feelings with trusted individuals. This shift indicates a deepening engagement with their emotional state and a growing comfort in the therapeutic relationship.\n\n**Turning Point:** The client's emotional depth shifted notably when they articulated their desire to be more open about their feelings, acknowledging the heaviness of keeping everything inside. This moment marked a transition from merely expressing frustration to actively contemplating steps toward vulnerability and connection, reflecting a deeper understanding of their emotional landscape and a readiness to explore it further.",
+    "Openness judge rated 4/5 and updated prompt openness.",
+    "Openness judge output: **Rating: 4 (DEEP ENGAGEMENT)**\n\n**Key Examples:**\n1. **Emotional Expression**: \"I guess I wish I could just be more open about how I feel instead of shutting down. Like, maybe if I could express what\u2019s really going on in my head, it wouldn\u2019t feel so heavy.\"\n2. **Self-Reflection Depth**: \"I think maybe it would help to have a specific time set aside for those moments, you know? Like, if I could carve out just a few minutes each day to check in with myself, it might make it easier to stay committed.\"\n\n**Progression**: The client\u2019s most recent interactions demonstrate a significant increase in emotional depth and self-reflection. They are articulating their feelings of vulnerability and the desire to connect more openly with others, contrasting sharply with earlier exchanges where they expressed feelings of inadequacy and fear without much elaboration. The client is now actively considering practical steps to address their emotional challenges, indicating a deeper engagement with the therapeutic process.\n\n**Turning Point**: The client\u2019s emotional depth shifted notably when they began to articulate their desire to be more open about their feelings, particularly when they said, \"I guess I wish I could just be more open about how I feel instead of shutting down.\" This moment marked a transition from merely expressing frustration and anxiety to actively contemplating vulnerability and the potential for connection, reflecting a deeper engagement with their emotional state and the therapeutic process."
+  ],
+  "moderator_events": [],
+  "retrieval_events": [],
+  "final_openness_score": 4,
+  "final_visible_experience_count": 1,
+  "internal_revealed": true
+}

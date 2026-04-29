@@ -1,0 +1,65 @@
+{
+  "aggregate": {
+    "num_sessions": 1,
+    "edss": {
+      "situation": 0.7278368148537206,
+      "automatic_thought": 0.437222203816276,
+      "emotion": 0.7214330310765888,
+      "behavior": 0.3391602324417805,
+      "average": 0.5564130705470915
+    },
+    "idss": {
+      "relevant_history": 0.5434459030507578,
+      "core_beliefs": 0.5265708687276562,
+      "intermediate_beliefs": 0.45818453574579027,
+      "coping_strategies": 0.5179661132059117,
+      "average": 0.511541855182529
+    }
+  },
+  "sessions": [
+    {
+      "file": "/home/lu/Thesis/mind_voyager/outputs/random10_comparison/baseline/hard/session_6-2.json",
+      "case_id": "6-2",
+      "client_mode": "masked",
+      "difficulty": "hard",
+      "predicted_external_diagram": {
+        "situation": "Daisy received an unexpected balance on her insurance claim.",
+        "automatic_thought": "I should have been more careful or something.",
+        "emotion": "overwhelmed, anxious, frustrated, guilty, shame, fear",
+        "behavior": "Daisy tends to shut down, overthink, avoid looking at her budget or opening bills, procrastinate, and miss deadlines."
+      },
+      "ground_truth_external_diagram": {
+        "situation": "Receiving an insurance claim with an unexpected balance.",
+        "automatic_thought": "I have failed at managing my finances independently. I should have checked with the insurance company.",
+        "emotion": "anxious, worried, fearful, scared, tense; guilty",
+        "behavior": "Expressing guilt and concern to the therapist about the payment discrepancy and the potential financial burden. Self criticism."
+      },
+      "predicted_internal_diagram": {
+        "relevant_history": "The client reports feeling overwhelmed by an unexpected balance on an insurance claim, which has shaken their sense of control over finances. They have been trying to manage finances better but now question their efforts and worry about their budget and ability to pay bills. The client feels anxious about adulting and doubts their ability to handle finances without surprises. They experience a cycle of avoidance, overthinking, and procrastination, leading to missed deadlines and increased anxiety. The client struggles with an inner critic that reminds them of past mistakes, leading to feelings of shame and frustration. They express a desire to be more proactive and to find small wins to build confidence but fear failure and doubt their reliability.",
+        "core_beliefs": "I am not cut out for this whole adulting thing | I am always one step behind | I am not capable of making good decisions | I am not reliable | I am stuck in this place | I am going to let myself down again",
+        "intermediate_beliefs": "If I could just get a handle on my budget, then maybe I wouldn\u2019t feel so anxious | The client believes that making mistakes is part of the process but feels pressure to get it right | If I could remind myself that everyone has their own pace, then it might help quiet the inner critic | The client believes that reaching out for support is a sign of strength, not weakness",
+        "coping_strategies": "The client tends to shut down and avoid facing situations when feeling frustrated or doubtful, leading to overthinking and feeling stuck. They avoid looking at their budget or opening bills to protect themselves from anxiety, which builds up over time. The client wishes to break tasks into smaller, manageable pieces but doubts their ability to follow through. They consider practicing affirmations and setting reminders to reinforce positive self-talk but worry about their effectiveness."
+      },
+      "ground_truth_internal_diagram": {
+        "relevant_history": "The patient is a 28-year-old student who has been trying to assert independence and self-sufficiency, particularly in financial matters, after returning from Egypt. The patient has previously relied on parents for support but is now attempting to take on more adult responsibilities such as paying bills, managing finances, and dealing with health insurance on her own for the first time. The patient's brother is still financially dependent on their parents, which the patient is consciously trying to avoid for herself.",
+        "core_beliefs": "I am incompetent. | I am helpless. | I am needy. | I am a failure, loser.",
+        "intermediate_beliefs": "I must do everything independently to prove that I am a capable adult and to avoid being a burden or like my brother.\nDepressive variant: I have failed at independence and self-sufficiency, and I need to ask for help which makes me feel incompetent.",
+        "coping_strategies": "The patient attempts to handle situations independently without relying on others, particularly parents. The patient also aims to budget and handle finances alone, which is a form of asserting control and self-reliance."
+      },
+      "edss": {
+        "situation": 0.7278368148537206,
+        "automatic_thought": 0.437222203816276,
+        "emotion": 0.7214330310765888,
+        "behavior": 0.3391602324417805,
+        "average": 0.5564130705470915
+      },
+      "idss": {
+        "relevant_history": 0.5434459030507578,
+        "core_beliefs": 0.5265708687276562,
+        "intermediate_beliefs": 0.45818453574579027,
+        "coping_strategies": 0.5179661132059117,
+        "average": 0.511541855182529
+      }
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "aggregate": {
+    "num_sessions": 1,
+    "edss": {
+      "situation": 0.5622431050005139,
+      "automatic_thought": 0.6044501473307218,
+      "emotion": 0.5872624848821654,
+      "behavior": 0.4372311547672355,
+      "average": 0.5477967229951591
+    },
+    "idss": {
+      "relevant_history": 0.43101605792301656,
+      "core_beliefs": 0.5565892545797612,
+      "intermediate_beliefs": 0.5309993191251685,
+      "coping_strategies": 0.5515731331604655,
+      "average": 0.517544441197103
+    }
+  },
+  "sessions": [
+    {
+      "file": "/home/lu/Thesis/mind_voyager/outputs/random10_comparison/retrieval/hard/session_16-2.json",
+      "case_id": "16-2",
+      "client_mode": "masked",
+      "difficulty": "hard",
+      "predicted_external_diagram": {
+        "situation": "Mason is feeling overwhelmed by the many choices in life, such as work, relationships, and day-to-day decisions.",
+        "automatic_thought": "I have to get it right; if I make a mistake, it could really mess things up.",
+        "emotion": "overwhelmed, anxious, frustrated",
+        "behavior": "Mason distracts himself by binge-watching shows or scrolling through his phone to avoid thinking about his worries."
+      },
+      "ground_truth_external_diagram": {
+        "situation": "Client think about their life choices and direction, dealing with ambiguity and too many options.",
+        "automatic_thought": "I can't make the wrong decision. I might fail or choose incorrectly, which could have serious implications for my life.",
+        "emotion": "anxious, worried, fearful, scared, tense",
+        "behavior": "Client becomes paralyzed by options and fears making decisions, may engage in rumination."
+      },
+      "predicted_internal_diagram": {
+        "relevant_history": "The client reports feeling overwhelmed by the numerous choices in life, particularly regarding work, relationships, and day-to-day decisions. The client experiences pressure to make the right choices and fears the consequences of making mistakes, which leads to overthinking and a fear of disappointing others or facing regret.",
+        "core_beliefs": "I am stuck | I am overwhelmed | I am not good at balancing my emotions | I should be more in control",
+        "intermediate_beliefs": "If I make a mistake, it could really mess things up. | The client believes that they have to get it right to avoid disappointment and regret. | If I miss a day of mindfulness, I might give up altogether. | If I don't capture my emotions perfectly, I might miss something important.",
+        "coping_strategies": "The client copes by distracting themselves through binge-watching shows or scrolling through their phone to temporarily escape overwhelming thoughts. They also consider writing down worries, setting a timer for mindfulness exercises, and reflecting on past successes to manage anxiety and pressure. The client is exploring ways to honor emotions without feeling overwhelmed, such as setting aside specific times for reflection and using casual notes to capture feelings."
+      },
+      "ground_truth_internal_diagram": {
+        "relevant_history": "The client has spent eleven months in Europe working on a project, which included creating a website and conducting interviews. This period appears important to the client and he's eager to show something for his efforts. The client has suffered from procrastination and anxiety in the past. He has managed to build structure into his life by implementing various strategies learned from a course and using reminders.",
+        "core_beliefs": "I am incompetent. | I am out of control. | I am a failure, loser.",
+        "intermediate_beliefs": "I must always have something to show for my choices, actions and efforts, otherwise I'm a failure. I must always make the right choice. If I make the wrong choice, or stay idle, then I'm failing.\nDepressive variant: Having options is paralyzing due to the pressure to make the perfect choice. I cannot make the right choice, I'm a failure.",
+        "coping_strategies": "The client uses avoidance or procrastination when overwhelmed by decision making."
+      },
+      "edss": {
+        "situation": 0.5622431050005139,
+        "automatic_thought": 0.6044501473307218,
+        "emotion": 0.5872624848821654,
+        "behavior": 0.4372311547672355,
+        "average": 0.5477967229951591
+      },
+      "idss": {
+        "relevant_history": 0.43101605792301656,
+        "core_beliefs": 0.5565892545797612,
+        "intermediate_beliefs": 0.5309993191251685,
+        "coping_strategies": 0.5515731331604655,
+        "average": 0.517544441197103
+      }
+    }
+  ]
+}

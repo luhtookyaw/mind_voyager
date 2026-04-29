@@ -1,0 +1,65 @@
+{
+  "aggregate": {
+    "num_sessions": 1,
+    "edss": {
+      "situation": 0.2768377105230241,
+      "automatic_thought": 0.3804641889272668,
+      "emotion": 0.6350186907975091,
+      "behavior": 0.5300259474417677,
+      "average": 0.4555866344223919
+    },
+    "idss": {
+      "relevant_history": 0.3703987177388839,
+      "core_beliefs": 0.5425921746900266,
+      "intermediate_beliefs": 0.5661091923692861,
+      "coping_strategies": 0.5877456109892732,
+      "average": 0.5167114239468675
+    }
+  },
+  "sessions": [
+    {
+      "file": "/home/lu/Thesis/mind_voyager/outputs/random10_comparison/retrieval/normal/session_7-1.json",
+      "case_id": "7-1",
+      "client_mode": "masked",
+      "difficulty": "normal",
+      "predicted_external_diagram": {
+        "situation": "Bryce is in a therapy session discussing feelings of disconnection and indifference.",
+        "automatic_thought": "It's not like it matters much, right? Just another day, I suppose.",
+        "emotion": "disconnected, indifferent, lonely, heavy, inadequate, frustrated, sad, angry, envious, disappointed, overwhelmed, lost, trapped, guilty",
+        "behavior": "Bryce keeps feelings to himself and scrolls through social media as a distraction."
+      },
+      "ground_truth_external_diagram": {
+        "situation": "Contemplating the value and completion of his personal projects, such as building a website.",
+        "automatic_thought": "What's the point? No one will know it's me, and I'm not getting paid or acknowledged. I shouldn't do things for my own enjoyment.",
+        "emotion": "sad, down, lonely, unhappy; disappointed",
+        "behavior": "Procrastinates on personal projects and engages in unfulfilling activities like social media scrolling."
+      },
+      "predicted_internal_diagram": {
+        "relevant_history": "The client reports feeling disconnected and indifferent about their feelings, expressing a sense of hopelessness and loneliness. They feel like they are just existing and not part of life, experiencing frustration and inadequacy when comparing themselves to others. The client struggles with self-worth, feeling unworthy of effort and fearing failure, which leads to a cycle of self-doubt and feeling trapped in their own head.",
+        "core_beliefs": "I am not worth the effort | I am inadequate | I am not capable of handling challenges | I am not meant to succeed or be happy | I am not measuring up | I am falling short | I am not good enough",
+        "intermediate_beliefs": "The client believes that if they can't figure out what they want or how to express their feelings, then there's no point in trying. They think that if they try and fail, it will add another layer of disappointment. The client believes that taking a break might mean they are failing or being lazy, and that they should always be doing something to avoid falling behind.",
+        "coping_strategies": "The client tends to keep their thoughts and feelings to themselves, feeling it's easier not to deal with them. They use social media as a distraction, although it often leaves them feeling worse. The client considers journaling to acknowledge small accomplishments but worries about focusing on negatives. They contemplate setting alarms to remind themselves to take breaks and view them as acts of self-care, though they fear ignoring these reminders."
+      },
+      "ground_truth_internal_diagram": {
+        "relevant_history": "The patient has a history of working long hours, similar to past experiences while touring, indicating a history of demanding work environments. The patient has also been dealing with unresolved issues with his father, including past abuse and a recent exchange of letters addressing this painful history. The patient's father's response to the letter appears to have been a significant event for the patient, potentially contributing to his current mental state.",
+        "core_beliefs": "I am worthless, waste.",
+        "intermediate_beliefs": "The patient seems to hold the belief that work and productivity are essential to his self-worth and that idle time or personal development is wasted time. He also appears to believe that completing tasks and being acknowledged for his work is important for his value and self-esteem.\nDepressive variant: During periods of depression, the patient may believe that he is not making progress in life and that his efforts are meaningless. This could lead to a lack of motivation to engage in activities and to complete tasks, further reinforcing feelings of inadequacy and worthless.",
+        "coping_strategies": "The patient uses work as a coping strategy to feel productive and to reduce idle time, which he associates with negative feelings. He also use avoidance strategies when he perceives himself not productive and worthless, such as scrolling on social media."
+      },
+      "edss": {
+        "situation": 0.2768377105230241,
+        "automatic_thought": 0.3804641889272668,
+        "emotion": 0.6350186907975091,
+        "behavior": 0.5300259474417677,
+        "average": 0.4555866344223919
+      },
+      "idss": {
+        "relevant_history": 0.3703987177388839,
+        "core_beliefs": 0.5425921746900266,
+        "intermediate_beliefs": 0.5661091923692861,
+        "coping_strategies": 0.5877456109892732,
+        "average": 0.5167114239468675
+      }
+    }
+  ]
+}

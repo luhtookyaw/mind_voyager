@@ -1,0 +1,65 @@
+{
+  "aggregate": {
+    "num_sessions": 1,
+    "edss": {
+      "situation": 0.249487276395211,
+      "automatic_thought": 0.37951468281426814,
+      "emotion": 0.8220809299640982,
+      "behavior": 0.3007747861065651,
+      "average": 0.4379644188200356
+    },
+    "idss": {
+      "relevant_history": 0.4910793529978867,
+      "core_beliefs": 0.6516773352420342,
+      "intermediate_beliefs": 0.5213755012407438,
+      "coping_strategies": 0.6496899822048375,
+      "average": 0.5784555429213756
+    }
+  },
+  "sessions": [
+    {
+      "file": "/home/lu/Thesis/mind_voyager/outputs/random10_comparison/hybrid_probe/normal/session_41-1.json",
+      "case_id": "41-1",
+      "client_mode": "masked",
+      "difficulty": "normal",
+      "predicted_external_diagram": {
+        "situation": "Quinn feels anxious about the legal system and its complexities.",
+        "automatic_thought": "What if I accidentally do something wrong or get caught up in something I didn\u2019t mean to?",
+        "emotion": "anxious, overwhelmed, fearful, frustrated, guilty",
+        "behavior": "Quinn tries to stick to a routine, focusing on work and manageable tasks, and avoids thinking about overwhelming issues."
+      },
+      "ground_truth_external_diagram": {
+        "situation": "Being late to appointments and gatherings, such as therapy sessions and lunches with friends.",
+        "automatic_thought": "I'm not in control of my time, and I always mess things up by being late.",
+        "emotion": "anxious, worried, fearful, scared, tense; guilty",
+        "behavior": "Continues to procrastinate and is unable to leave on time."
+      },
+      "predicted_internal_diagram": {
+        "relevant_history": "The client reports feeling anxious about the legal system, describing it as overwhelming and complicated, with a fear of losing control. They express concerns about custody and family matters, which add to their stress. The client has developed a strong sense of independence, often relying on themselves and feeling hesitant to reach out for support due to fear of vulnerability and adding to chaos. They struggle with self-image, feeling inadequate and comparing themselves to others, which contributes to their anxiety and self-doubt. At work, they feel pressure to prove themselves and take on a caretaker role in relationships, often neglecting their own needs. Financial independence is tied to their sense of self-worth, adding pressure to be productive and useful. The client grew up in an environment where being busy and accomplishing things was celebrated, which has influenced their belief that self-worth is tied to productivity.",
+        "core_beliefs": "I am not good enough | I am inadequate | I am not worth much if I am not productive | I am scared of vulnerability | I am scared of losing control",
+        "intermediate_beliefs": "If I am not constantly productive or useful, then I am not worth much. | If I let go of control, things could spiral out of hand. | If I reach out for support, it might not go well, or they might not understand. | If I take time for myself, I might feel guilty or like I wasted it.",
+        "coping_strategies": "The client copes by sticking to a routine, focusing on manageable tasks like work, chores, and watching TV to avoid thinking about overwhelming issues. They try to distract themselves from overthinking and ruminating by keeping busy. The client also takes on a caretaker role in relationships, helping others to feel better about themselves, but often neglects their own needs. They express a desire to incorporate small affirmations and reminders into their daily routine to reinforce positive self-worth, despite feeling anxious about not following through."
+      },
+      "ground_truth_internal_diagram": {
+        "relevant_history": "The client has a history involving a complicated relationship with an individual named Cricket, who has exhibited questionable behavior and influenced the client's social circle. Their friends seem to have mental health challenges, and they often take on a caretaking or protective role, particularly regarding a friend named Lucy with medical issues.",
+        "core_beliefs": "I am incompetent. | I am helpless. | I am out of control. | I am unlovable. | I am bound to be rejected.",
+        "intermediate_beliefs": "It's important for me to be on time and productive, but I can't seem to control my procrastination or punctuality. I must not get involved in my friends' dramatic situations, but I can't help feeling protective.\nDepressive variant: My environment is consistently negative, possibly affecting my mood. If I expose myself or engage with Cricket, it will have negative outcomes, and it's better to avoid confrontation.",
+        "coping_strategies": "The client uses avoidance in confronting their grief and engages in overcommitment to helping others to compliment their inner grief and distress."
+      },
+      "edss": {
+        "situation": 0.249487276395211,
+        "automatic_thought": 0.37951468281426814,
+        "emotion": 0.8220809299640982,
+        "behavior": 0.3007747861065651,
+        "average": 0.4379644188200356
+      },
+      "idss": {
+        "relevant_history": 0.4910793529978867,
+        "core_beliefs": 0.6516773352420342,
+        "intermediate_beliefs": 0.5213755012407438,
+        "coping_strategies": 0.6496899822048375,
+        "average": 0.5784555429213756
+      }
+    }
+  ]
+}

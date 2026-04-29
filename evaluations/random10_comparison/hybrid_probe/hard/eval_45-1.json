@@ -1,0 +1,65 @@
+{
+  "aggregate": {
+    "num_sessions": 1,
+    "edss": {
+      "situation": 0.44359955328046413,
+      "automatic_thought": 0.40130222050371317,
+      "emotion": 0.6508712360172946,
+      "behavior": 0.5326383284420839,
+      "average": 0.507102834560889
+    },
+    "idss": {
+      "relevant_history": 0.5661304043533029,
+      "core_beliefs": 0.6310045355644033,
+      "intermediate_beliefs": 0.43913233485067815,
+      "coping_strategies": 0.6781128551865593,
+      "average": 0.5785950324887359
+    }
+  },
+  "sessions": [
+    {
+      "file": "/home/lu/Thesis/mind_voyager/outputs/random10_comparison/hybrid_probe/hard/session_45-1.json",
+      "case_id": "45-1",
+      "client_mode": "masked",
+      "difficulty": "hard",
+      "predicted_external_diagram": {
+        "situation": "Jordan feels overwhelmed with work and worries about missing things, leading to tasks piling up.",
+        "automatic_thought": "What if you missed something?",
+        "emotion": "worn out, overwhelmed, anxious, frustrated, scared, isolated, apprehensive, exhausted",
+        "behavior": "Jordan avoids looking at work due to fear of finding mistakes and procrastinates instead of facing tasks."
+      },
+      "ground_truth_external_diagram": {
+        "situation": "Difficulty with organizing and processing work results due to the fear of making mistakes.",
+        "automatic_thought": "I am afraid that I am forgetting or overlooking something important in my work.",
+        "emotion": "anxious, worried, fearful, scared, tense",
+        "behavior": "Procrastination and avoidance of task completion, leading to emotional distress and reduced productivity."
+      },
+      "predicted_internal_diagram": {
+        "relevant_history": "The client reports feeling overwhelmed and second-guessing themselves at work, with a fear of being seen as incompetent. They have a history of high parental expectations, feeling the need to prove themselves, and internalizing the idea that being strong means not showing weakness or vulnerability. The client also mentions feeling isolated at work and having a fear of judgment from colleagues. They express a struggle with the idea of seeking help, feeling conditioned to handle everything alone, and fearing that asking for help is a sign of failure.",
+        "core_beliefs": "I am not good enough | I am a burden | I am weak if I need help | I am trapped by expectations",
+        "intermediate_beliefs": "If I ask for help, then I am admitting defeat. | If I show vulnerability, then I will be judged or rejected. | The client believes that they should be able to handle everything on their own. | If I don't meet expectations, then I am failing.",
+        "coping_strategies": "The client copes by distracting themselves with activities like binge-watching shows or scrolling through their phone, avoiding work due to fear of finding mistakes, and procrastinating. They also consider journaling as a way to express their thoughts without the pressure of someone else's reaction. The client struggles with reaching out for support due to fear of judgment and second-guessing themselves."
+      },
+      "ground_truth_internal_diagram": {
+        "relevant_history": "The client has a history of developing friendships that potentially evolve into romantic relationships. They have gone through experiences where expressing their opinions, especially when angry, has led to social discord and the potential loss of friendships, which they find deeply unsettling. Additionally, the client has a complex relationship with their parents, marked by negative feelings, love, and obligation.",
+        "core_beliefs": "I am powerless, weak, vulnerable. | I am out of control. | I am unlovable. | I am bound to be rejected. | I am bound to be abandoned. | I am bound to be alone.",
+        "intermediate_beliefs": "The client holds beliefs that they must restrain their own opinions and expressions of anger to preserve relationships, fearing that if they express discontent or negative emotions, it may lead to social isolation or being disliked by others.\nDepressive variant: During periods of distress, the client believes that expressing their opinions will alienate them, and they also worry that by not expressing themselves, they will become uninteresting to others, which could lead to the deterioration of their social relationships.",
+        "coping_strategies": "The client utilizes avoidance and suppression of their thoughts and feelings as a coping mechanism to prevent conflict or rejection. They have also demonstrated a pattern of seeking comfort and reassurance from their partner after experiencing distress."
+      },
+      "edss": {
+        "situation": 0.44359955328046413,
+        "automatic_thought": 0.40130222050371317,
+        "emotion": 0.6508712360172946,
+        "behavior": 0.5326383284420839,
+        "average": 0.507102834560889
+      },
+      "idss": {
+        "relevant_history": 0.5661304043533029,
+        "core_beliefs": 0.6310045355644033,
+        "intermediate_beliefs": 0.43913233485067815,
+        "coping_strategies": 0.6781128551865593,
+        "average": 0.5785950324887359
+      }
+    }
+  ]
+}

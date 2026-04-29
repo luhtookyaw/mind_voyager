@@ -1,0 +1,1133 @@
+{
+  "case_id": "39-1",
+  "client_name": "Sydney",
+  "client_mode": "masked",
+  "difficulty": "easy",
+  "openness_interval": 1,
+  "therapist_provider": "openai",
+  "therapist_model": "gpt-4o-mini",
+  "therapist_prompt_mode": "hybrid_probe",
+  "client_model": "gpt-4o-mini",
+  "moderator_enabled": false,
+  "moderator_model": "gpt-4o-mini",
+  "max_turns": 25,
+  "therapist_turns": 25,
+  "stop_reason": "max_turns",
+  "transcript": [
+    {
+      "turn": 1,
+      "speaker": "therapist",
+      "content": "Hi Sydney, I\u2019m glad you\u2019re here today. I\u2019d like to explore how you\u2019re feeling about your social life. Sometimes people talk about feeling disconnected from their community or social circles. I wonder if that resonates with you at all, or if there\u2019s something else on your mind regarding your connections with others?"
+    },
+    {
+      "turn": 1,
+      "speaker": "client",
+      "content": "Sydney: Well, I mean, I guess I can see how some people might feel disconnected, but I don't know if that's really the case for me. It's just... sometimes I feel like I don't quite fit in, you know? Like, I try to engage with people, but it often feels forced or awkward. I don't want to come off as needy or anything. I mean, I have acquaintances, but real connections? That\u2019s a different story. It\u2019s just hard to navigate all that, especially when I\u2019m dealing with my stomach issues. It\u2019s like, how can I focus on socializing when I\u2019m worried about feeling unwell? So, I guess I\u2019m just... cautious about putting myself out there too much."
+    },
+    {
+      "turn": 2,
+      "speaker": "therapist",
+      "content": "It sounds like you're feeling a bit out of place in social situations, and that can be really tough. You mentioned that engaging with people feels forced or awkward, which must be frustrating, especially when you're also managing your stomach issues. It seems like there's a balance you're trying to find between wanting to connect and feeling cautious about how you might be perceived or how you might feel physically. Can you share more about what those moments feel like for you when you're trying to engage with others?"
+    },
+    {
+      "turn": 2,
+      "speaker": "client",
+      "content": "Sydney: Yeah, I mean, when I try to engage, it\u2019s like my mind is racing with all these thoughts. I\u2019m thinking about what to say, how to say it, and then I start worrying about whether they\u2019re even interested in what I have to say. It\u2019s like this internal dialogue that just won\u2019t stop. And then, on top of that, I\u2019m also aware of my stomach acting up, which just adds another layer of anxiety. I end up feeling tense, and I can\u2019t really relax and enjoy the moment. Sometimes I just wish I could be more at ease, you know? But then I think, what if I say something silly or they notice I\u2019m not feeling well? It\u2019s just... complicated. I want to connect, but it feels like there are so many barriers."
+    },
+    {
+      "turn": 3,
+      "speaker": "therapist",
+      "content": "It sounds like there\u2019s a lot going on in those moments\u2014your thoughts racing, the worry about how others perceive you, and the discomfort from your stomach issues all mixing together. That must create a really challenging environment for you to feel comfortable and connect with others. I wonder if part of this experience might also involve some fear or anxiety about how institutions, like social settings or even the expectations around them, might judge or respond to you. Does that resonate at all, or do you feel it's more about something else?"
+    },
+    {
+      "turn": 3,
+      "speaker": "client",
+      "content": "Sydney: Yeah, I guess that makes sense. I mean, there\u2019s definitely a part of me that worries about how people might judge me, especially in social settings. It\u2019s like, I don\u2019t want to be the odd one out or the person who brings the mood down because I\u2019m not feeling well or because I\u2019m overthinking everything. I think I\u2019ve seen others navigate these situations with ease, and then there\u2019s me, feeling like I\u2019m stumbling through it all. It\u2019s frustrating because I want to be more confident and just enjoy being around people. But then I think about how they might react if I\u2019m not at my best, and that just makes me want to retreat even more. So, yeah, it\u2019s a mix of fear and just feeling overwhelmed by it all."
+    },
+    {
+      "turn": 4,
+      "speaker": "therapist",
+      "content": "It sounds like you're really caught in a cycle of wanting to connect but feeling held back by worries about judgment and how you might come across to others. That fear of being seen as the \"odd one out\" or not being at your best can be really heavy to carry. It makes sense that you'd feel overwhelmed in those situations. I\u2019m curious, when you think about wanting to be more confident and enjoy being around people, what do you imagine that would look or feel like for you?"
+    },
+    {
+      "turn": 4,
+      "speaker": "client",
+      "content": "Sydney: Well, I suppose if I were more confident, I\u2019d feel more relaxed, you know? Like, I wouldn\u2019t be constantly second-guessing myself or worrying about what others think. I imagine being able to just be myself without that nagging voice in my head telling me I\u2019m not good enough or that I should just keep quiet. I\u2019d probably be able to laugh more, share stories without overthinking every word, and maybe even initiate conversations instead of waiting for others to approach me. It would feel liberating, like I could just enjoy the moment instead of feeling like I\u2019m on high alert all the time. But then I think, what if that confidence is just an illusion? What if I still feel the same way deep down, even if I try to act differently? It\u2019s like, I want to be that person, but I\u2019m not sure how to bridge that gap between who I am now and who I want to be."
+    },
+    {
+      "turn": 5,
+      "speaker": "therapist",
+      "content": "It sounds like you have a clear vision of what confidence would feel like for you\u2014being relaxed, enjoying the moment, and being able to express yourself freely without that nagging voice. That sense of liberation you describe is really powerful. I can see how the fear of it being just an illusion adds another layer of complexity to your feelings. I wonder if part of what makes it hard to bridge that gap is also about feeling safe in those social environments. Do you think there\u2019s an element of feeling unsafe or uncomfortable in those settings that contributes to your worries, or is it more about the internal dialogue you mentioned?"
+    },
+    {
+      "turn": 5,
+      "speaker": "client",
+      "content": "Sydney: Well, I think it\u2019s a bit of both, honestly. There are definitely times when I feel uncomfortable in social settings, like I\u2019m not really sure how to navigate the dynamics or if I\u2019ll fit in. But then there\u2019s also that internal dialogue that just won\u2019t quit. It\u2019s like, even if I\u2019m in a relatively safe environment, my mind is still racing with all those \u201cwhat ifs.\u201d What if I say something stupid? What if they don\u2019t want to talk to me? It\u2019s exhausting, and I can\u2019t seem to shake it off. I guess I just wish I could find a way to quiet that voice, you know? But then I wonder if that\u2019s even possible. It feels like I\u2019m stuck in this loop where I want to connect but end up holding myself back because of all these fears. It\u2019s frustrating, to say the least."
+    },
+    {
+      "turn": 6,
+      "speaker": "therapist",
+      "content": "It sounds like you're really feeling trapped in this loop of wanting to connect but being held back by both external discomfort and that relentless internal dialogue. The \u201cwhat ifs\u201d can be so draining, especially when you\u2019re trying to navigate social dynamics. I hear you wishing for a way to quiet that voice and find some peace in those moments. Can you tell me more about what you think might help you feel more at ease, even just a little bit, in social situations?"
+    },
+    {
+      "turn": 6,
+      "speaker": "client",
+      "content": "Sydney: Well, I guess if I could find some small strategies to help me feel more grounded, that might make a difference. Like, maybe having a few conversation starters in mind could ease some of that pressure. Or even just reminding myself that it\u2019s okay to not be perfect in those moments. I\u2019ve thought about trying some breathing exercises or grounding techniques before going into social situations, but then I worry I\u2019ll look silly doing them. It\u2019s like I want to feel more at ease, but I\u2019m also concerned about how I come across. I just wish I could find a way to balance that need for connection with my fears. It feels like a constant tug-of-war, and I\u2019m not sure how to win it."
+    },
+    {
+      "turn": 7,
+      "speaker": "therapist",
+      "content": "It sounds like you're really seeking some practical ways to feel more grounded and ease that pressure in social situations. Having conversation starters and practicing breathing exercises could be helpful tools for you. I can see how the worry about how you might appear while doing those things adds another layer to the challenge. It\u2019s like you want to take steps toward feeling more at ease, but the fear of judgment holds you back. I wonder if there\u2019s a way to approach those strategies that feels more comfortable for you, or if there\u2019s something else you\u2019ve thought about that might help bridge that gap between wanting to connect and managing your fears?"
+    },
+    {
+      "turn": 7,
+      "speaker": "client",
+      "content": "Sydney: Yeah, I mean, I\u2019ve thought about that too. Maybe if I could practice those techniques in smaller, less intimidating settings first, it might help build my confidence. Like, maybe starting with a close friend or family member where I feel a bit safer. I guess it\u2019s just about finding that initial step that feels manageable. But then I get caught up in thinking, what if I still feel anxious even then? It\u2019s like I want to try, but there\u2019s always that nagging doubt in the back of my mind. I just wish I could trust that it would get easier over time. It\u2019s frustrating to feel like I\u2019m stuck in this cycle of wanting to break out but not knowing how to start."
+    },
+    {
+      "turn": 8,
+      "speaker": "therapist",
+      "content": "It sounds like you're really considering a thoughtful approach by starting with smaller, safer settings to practice those techniques, which could help build your confidence over time. I hear that there's still a lot of doubt and anxiety about whether it will actually get easier, and that uncertainty can be really discouraging. It\u2019s understandable to feel frustrated when you want to break free from that cycle but aren\u2019t sure how to take that first step. What do you think might help you feel a bit more trusting in the process, even if it\u2019s just a small shift in perspective?"
+    },
+    {
+      "turn": 8,
+      "speaker": "client",
+      "content": "Sydney: I guess maybe it would help to remind myself that it\u2019s okay to take things one step at a time. Like, I don\u2019t have to jump into the deep end right away. If I can focus on just making small progress, that might make it feel less overwhelming. I\u2019ve heard that celebrating little victories can help too, but I often find it hard to recognize those moments when I\u2019m so focused on what\u2019s not going right. It\u2019s like I\u2019m always waiting for the next big hurdle instead of acknowledging the small wins. I suppose if I could shift my focus a bit, it might help me feel more hopeful about the process. But then again, I worry that I might not be able to maintain that perspective when I\u2019m in the thick of it. It\u2019s just... complicated, you know?"
+    },
+    {
+      "turn": 9,
+      "speaker": "therapist",
+      "content": "It sounds like you\u2019re really reflecting on the importance of taking things one step at a time and recognizing those small victories, which can be such a valuable mindset. I can see how it\u2019s challenging to maintain that perspective when you\u2019re feeling overwhelmed or caught up in worries. It\u2019s completely understandable to feel that way. I wonder if part of this journey involves finding ways to gently remind yourself of those small wins, even in the midst of the chaos. Does that resonate with you, or do you think there\u2019s another approach that might feel more fitting?"
+    },
+    {
+      "turn": 9,
+      "speaker": "client",
+      "content": "Sydney: Yeah, I think that does resonate with me. It\u2019s just hard to break that habit of focusing on what\u2019s going wrong instead of what\u2019s going right. Maybe I could keep a little journal or something, just to jot down those small wins when they happen, even if they feel insignificant at the time. It might help me see that progress is possible, even if it\u2019s slow. But then I worry about keeping up with it, like what if I forget to write things down or I don\u2019t feel like there\u2019s anything worth noting? It\u2019s like I want to be proactive, but then I get caught up in my own expectations and doubts. I guess it\u2019s just about finding that balance again, but it feels like such a tall order sometimes."
+    },
+    {
+      "turn": 10,
+      "speaker": "therapist",
+      "content": "It sounds like you're really considering the idea of keeping a journal to track those small wins, which could be a helpful way to shift your focus. I hear that there's some concern about keeping up with it and the pressure of feeling like you need to have something significant to note. It\u2019s understandable to feel that way, especially when you\u2019re trying to navigate your own expectations. I wonder if there might be a way to make the journaling feel lighter or more flexible for you, so it doesn\u2019t add to the pressure. What do you think would help you approach it in a way that feels manageable?"
+    },
+    {
+      "turn": 10,
+      "speaker": "client",
+      "content": "Sydney: Well, I suppose I could keep it really simple, you know? Like, instead of aiming for something profound every time, I could just jot down anything that feels like a win, no matter how small. Maybe even just a word or a phrase to capture the moment. That way, it wouldn\u2019t feel like such a chore, and I wouldn\u2019t have to worry about writing a whole paragraph or anything. I guess I could set a reminder for myself, too, so I don\u2019t forget. But then I think, what if I still don\u2019t feel like there\u2019s anything worth writing down? It\u2019s like I want to be kind to myself and celebrate those little things, but I also have this nagging doubt that I won\u2019t find anything to celebrate. It\u2019s frustrating to feel like I\u2019m trying to make progress but still get stuck in that negative mindset."
+    },
+    {
+      "turn": 11,
+      "speaker": "therapist",
+      "content": "It sounds like you\u2019re really trying to find a way to make the journaling feel more accessible and less daunting, which is a great approach. Keeping it simple and focusing on any small win, even just a word or phrase, could really help ease some of that pressure. I hear that there\u2019s still a concern about whether you\u2019ll find anything worth noting, and that doubt can be really discouraging. I wonder if there might be a way to gently challenge that doubt when it comes up, or perhaps even remind yourself that the act of trying is a win in itself. Does that resonate with you, or do you think there\u2019s another way to navigate those feelings?"
+    },
+    {
+      "turn": 11,
+      "speaker": "client",
+      "content": "Sydney: Yeah, I think that does resonate with me. It\u2019s like, even just trying to notice those small moments could be a win, right? But then I get caught up in this cycle of thinking, \u201cWhat if I don\u2019t notice anything?\u201d or \u201cWhat if I forget to write it down?\u201d It\u2019s frustrating because I want to be kind to myself, but that voice in my head keeps pushing back. I guess maybe I could remind myself that the effort itself counts, even if I don\u2019t always see the results right away. It\u2019s just hard to keep that in mind when I\u2019m feeling overwhelmed. I suppose if I can find a way to be more gentle with myself, it might help me break that cycle. But it feels like a constant battle, you know?"
+    },
+    {
+      "turn": 12,
+      "speaker": "therapist",
+      "content": "It sounds like you're really grappling with that inner voice that pushes back against your efforts to be kind to yourself. I hear you wanting to remind yourself that the effort itself is valuable, even if the results aren\u2019t immediately visible. It\u2019s understandable to feel overwhelmed and caught in that cycle, especially when you\u2019re trying to shift your mindset. I wonder if there are specific phrases or reminders that you could use to counter that voice when it comes up, something that feels supportive and encouraging. What do you think might work for you in those moments?"
+    },
+    {
+      "turn": 12,
+      "speaker": "client",
+      "content": "Sydney: Hmm, that\u2019s an interesting thought. I guess I could come up with a few phrases that feel more affirming, like \u201cIt\u2019s okay to take my time\u201d or \u201cEvery little effort counts.\u201d Maybe even something simple like \u201cI\u2019m doing my best\u201d could help me in those moments. I just worry that when I\u2019m in the thick of it, I might forget to use those reminders or that they won\u2019t resonate when I need them the most. It\u2019s like I want to arm myself with these positive thoughts, but there\u2019s always that lingering doubt about whether they\u2019ll actually make a difference. I guess it\u2019s just about finding a way to make those phrases stick, you know? It feels like I\u2019m trying to build a shield against that negativity, but sometimes it feels so flimsy."
+    },
+    {
+      "turn": 13,
+      "speaker": "therapist",
+      "content": "It sounds like you\u2019re really thinking about how to create those affirming phrases that could serve as a kind of shield against the negativity. I hear that there\u2019s some concern about whether you\u2019ll remember to use them or if they\u2019ll resonate when you need them most. It\u2019s completely understandable to feel that way, especially when you\u2019re in the thick of challenging emotions. I wonder if there might be a way to integrate those reminders into your daily routine, perhaps by placing them somewhere visible or repeating them during moments of calm. Does that feel like it could be helpful, or do you think there\u2019s another approach that might work better for you?"
+    },
+    {
+      "turn": 13,
+      "speaker": "client",
+      "content": "Sydney: Yeah, I think integrating those reminders into my daily routine could be a good idea. Maybe I could write them down and put them on my bathroom mirror or somewhere I see them often. That way, they\u2019d be more present in my mind, and I wouldn\u2019t have to rely solely on remembering them in the moment. I guess it\u2019s about creating those little nudges for myself, you know? But then I worry that I might get used to seeing them and not really absorb their meaning anymore. It\u2019s like, how do I keep that sense of freshness or impact when I\u2019m surrounded by the same words every day? I don\u2019t want them to lose their power, but I also want to make sure I\u2019m giving myself those reminders consistently. It\u2019s just... a lot to juggle, I guess."
+    },
+    {
+      "turn": 14,
+      "speaker": "therapist",
+      "content": "It sounds like you\u2019re really considering how to keep those reminders impactful and fresh, which is a thoughtful approach. I hear that you\u2019re concerned about them losing their power over time, even as you want to ensure you have consistent support. It\u2019s completely normal to feel that way, especially when trying to create lasting change. I wonder if there might be ways to refresh those reminders periodically, perhaps by changing them out or adding new ones as you progress. What do you think about that idea, or do you have other thoughts on how to keep those affirmations feeling meaningful?"
+    },
+    {
+      "turn": 14,
+      "speaker": "client",
+      "content": "Sydney: That\u2019s actually a really good idea. I could rotate the reminders every so often or even add new ones that resonate with what I\u2019m going through at the time. It might help keep things feeling fresh and relevant, you know? Like, if I\u2019m facing a specific challenge, I could tailor a reminder to that situation. But then I think, what if I forget to change them out or I get stuck in a routine again? It\u2019s like I\u2019m trying to find ways to keep things dynamic, but there\u2019s always that worry about falling back into old patterns. I guess it\u2019s just about being mindful and intentional with it, but that can feel overwhelming too. It\u2019s like I want to create a supportive environment for myself, but I\u2019m also juggling all these doubts and fears about whether I\u2019ll actually follow through."
+    },
+    {
+      "turn": 15,
+      "speaker": "therapist",
+      "content": "It sounds like you\u2019re really exploring ways to keep your reminders dynamic and relevant, which is a great strategy. I hear that there\u2019s a concern about falling back into old patterns or forgetting to change things out, and that can definitely feel overwhelming. It\u2019s understandable to want to create a supportive environment while also managing those doubts and fears. I wonder if there might be a way to set a gentle reminder for yourself to check in on those affirmations periodically, maybe even as part of a routine you already have. Does that feel like it could be helpful, or do you think there\u2019s another approach that might resonate more with you?"
+    },
+    {
+      "turn": 15,
+      "speaker": "client",
+      "content": "Sydney: Yeah, that could work. Setting a gentle reminder sounds like a practical way to keep myself accountable without adding too much pressure. Maybe I could tie it to something I already do, like my morning coffee or something. That way, it wouldn\u2019t feel like an extra task but more of a part of my routine. But then I worry about getting too caught up in the reminders themselves and not actually focusing on the affirmations when I need them. It\u2019s like I want to make sure I\u2019m not just going through the motions, you know? I guess it\u2019s all about finding that balance again, but it feels like a lot to manage sometimes."
+    },
+    {
+      "turn": 16,
+      "speaker": "therapist",
+      "content": "It sounds like you\u2019re really trying to find that balance between having reminders in place and ensuring that you\u2019re genuinely connecting with the affirmations when you need them. I hear that you\u2019re concerned about getting caught up in the routine of reminders rather than the meaning behind them. It\u2019s completely valid to want to make sure that your efforts feel authentic and impactful. I wonder if there might be a way to check in with yourself regularly, perhaps by reflecting on how those affirmations are resonating or if they still feel relevant. What do you think about that idea, or do you have other thoughts on how to maintain that connection?"
+    },
+    {
+      "turn": 16,
+      "speaker": "client",
+      "content": "Sydney: Hmm, checking in with myself regularly could be a good way to ensure those affirmations still resonate. I guess it would give me a chance to reflect on how I\u2019m feeling and whether those reminders are still serving their purpose. Maybe I could set aside a few moments each week to think about it, like a little self-check-in. But then I worry that I might skip it or forget to prioritize that time for myself. It\u2019s just another thing to juggle, and sometimes I feel like I\u2019m already stretched thin. I want to be consistent, but I also don\u2019t want to add more pressure. It\u2019s like I\u2019m trying to build this supportive structure, but I keep bumping into my own doubts about whether I can maintain it."
+    },
+    {
+      "turn": 17,
+      "speaker": "therapist",
+      "content": "It sounds like you\u2019re really aware of the challenge of balancing consistency with the pressure of adding more to your plate. I hear that you want to create a supportive structure for yourself, but there\u2019s a concern about feeling stretched thin and possibly forgetting to prioritize those self-check-ins. It\u2019s completely understandable to feel that way. I wonder if there might be a way to make those check-ins feel more like a gentle pause rather than another task, perhaps by framing them as a moment of self-care rather than an obligation. What do you think about that approach, or do you have other ideas on how to make it feel more manageable?"
+    },
+    {
+      "turn": 17,
+      "speaker": "client",
+      "content": "Sydney: That\u2019s an interesting perspective. Framing those check-ins as a moment of self-care could definitely help shift how I view them. It might make it feel less like another chore and more like a chance to really tune in to how I\u2019m feeling, you know? I guess if I think of it as a little break for myself, it might be easier to prioritize. But then I wonder if I\u2019ll still feel guilty about taking that time, like I should be doing something more productive instead. It\u2019s like I want to give myself permission to pause, but there\u2019s always that nagging voice saying I should be doing more. I suppose it\u2019s about learning to value that time for reflection, but it feels like a tricky balance to strike."
+    },
+    {
+      "turn": 18,
+      "speaker": "therapist",
+      "content": "It sounds like you\u2019re really grappling with the idea of giving yourself permission to pause and reflect, while also feeling that pressure to be productive. I hear that you want to value that time for yourself, but there\u2019s a nagging voice that makes it feel tricky. It\u2019s completely normal to struggle with that balance. I wonder if there might be a way to reframe that guilt, perhaps by reminding yourself that taking time for reflection can actually enhance your productivity and well-being in the long run. What do you think about that perspective, or do you have other thoughts on how to navigate those feelings of guilt?"
+    },
+    {
+      "turn": 18,
+      "speaker": "client",
+      "content": "Sydney: Yeah, I see what you mean about reframing the guilt. It\u2019s kind of like reminding myself that taking a step back can actually help me move forward in a healthier way. I guess if I think of those moments as investments in my well-being, it might make it easier to justify taking that time. But then, there\u2019s still that part of me that worries about falling behind or not meeting expectations, whether they\u2019re my own or what I think others expect of me. It\u2019s like I\u2019m constantly measuring myself against some invisible standard, and it can be exhausting. I want to be kinder to myself, but it feels like I\u2019m always battling that pressure to keep pushing. It\u2019s frustrating, really."
+    },
+    {
+      "turn": 19,
+      "speaker": "therapist",
+      "content": "It sounds like you\u2019re really feeling the weight of those invisible standards and the pressure to meet expectations, which can be quite exhausting. I hear that you want to be kinder to yourself, but there\u2019s a struggle with that constant measuring and the fear of falling behind. It\u2019s completely understandable to feel frustrated in that situation. I wonder if there might be a way to explore where those standards come from and how they impact your sense of self-worth. What do you think about that, or is there another aspect of this that feels more pressing to you right now?"
+    },
+    {
+      "turn": 19,
+      "speaker": "client",
+      "content": "Sydney: You know, I think those standards really do come from a mix of places\u2014like my upbringing, school, and just society in general. There\u2019s this constant message that you have to achieve, be productive, and always be on top of your game. It\u2019s like I\u2019ve internalized that to the point where I feel guilty for even thinking about taking a break. I guess part of me wonders if I\u2019d even know how to define my worth outside of those achievements. It\u2019s frustrating because I want to feel good about myself just for being me, but it often feels like that\u2019s not enough. I don\u2019t know, maybe I just need to dig deeper into where all this pressure is coming from. It\u2019s just... a lot to unpack, you know?"
+    },
+    {
+      "turn": 20,
+      "speaker": "therapist",
+      "content": "It sounds like you\u2019re really starting to connect the dots between those internalized standards and your sense of self-worth. I hear that you recognize how messages from your upbringing, school, and society have shaped your beliefs about achievement and productivity. It\u2019s completely valid to feel frustrated when you want to embrace your worth just for being yourself, rather than solely based on what you accomplish. I wonder if we could explore some of those formative experiences a bit more\u2014what messages about worth and achievement do you remember growing up? How did those experiences shape how you view yourself today?"
+    },
+    {
+      "turn": 20,
+      "speaker": "client",
+      "content": "Sydney: Well, growing up, it was always about doing well in school and being involved in extracurricular activities. I remember my parents would praise me for good grades or when I won a competition, but it felt like there was this unspoken expectation that I had to keep achieving to maintain that approval. If I didn\u2019t do well, it was like I was letting everyone down, and that made me feel really anxious. I think I internalized this idea that my value was tied to my accomplishments, and it\u2019s hard to shake that off. Even now, I catch myself thinking that if I\u2019m not constantly busy or productive, I\u2019m somehow failing. It\u2019s exhausting because I want to be proud of who I am, but I feel like I\u2019m always measuring myself against those past experiences. It\u2019s like I\u2019m stuck in this loop of needing to prove myself, and it\u2019s frustrating to think about how that affects my self-worth."
+    },
+    {
+      "turn": 21,
+      "speaker": "therapist",
+      "content": "It sounds like those early experiences really laid the groundwork for how you view your self-worth today. I hear that the praise you received for achievements created an unspoken expectation to keep performing, and that pressure has led to feelings of anxiety and exhaustion. It\u2019s understandable to feel stuck in that loop of needing to prove yourself, especially when your value feels tied to your accomplishments. I wonder how it feels to recognize that connection between your past and your current beliefs. Are there specific moments or feelings that stand out to you when you think about how this has shaped your view of yourself?"
+    },
+    {
+      "turn": 21,
+      "speaker": "client",
+      "content": "Sydney: You know, it\u2019s a bit of a mixed bag when I think about it. On one hand, recognizing that connection feels like a light bulb moment\u2014like, okay, now I see why I\u2019m so hard on myself. But on the other hand, it\u2019s frustrating because it feels like I\u2019m trapped in this cycle that I can\u2019t break free from. I remember specific moments, like when I didn\u2019t get the grades I wanted or when I tried out for a team and didn\u2019t make it. Those times felt like the end of the world to me, and I remember thinking that I had disappointed not just myself, but everyone around me too. It\u2019s like those experiences are etched in my mind, and they keep resurfacing whenever I feel like I\u2019m not measuring up. I guess it\u2019s hard to let go of that pressure when it feels so ingrained in who I am. It\u2019s like I\u2019m constantly battling this internal narrative that tells me I\u2019m not enough unless I achieve something."
+    },
+    {
+      "turn": 22,
+      "speaker": "therapist",
+      "content": "It sounds like those moments of not meeting your own or others' expectations have had a profound impact on how you see yourself. I hear that recognizing the connection between your past and present feels enlightening, yet it also brings frustration because it highlights how trapped you feel in that cycle. It\u2019s understandable to carry those etched experiences with you, especially when they reinforce that internal narrative of not being enough without achievements. I wonder if we could explore how those feelings of disappointment and pressure show up for you in your daily life now. What do you notice when you find yourself in situations where you feel you\u2019re not measuring up?"
+    },
+    {
+      "turn": 22,
+      "speaker": "client",
+      "content": "Sydney: Well, when I find myself in those situations, it\u2019s like a switch flips. I start to feel this tightness in my chest, and my mind races with all the things I should be doing or could have done differently. It\u2019s almost like I can hear that nagging voice again, reminding me of past failures and how I\u2019m not living up to expectations. I tend to withdraw a bit, either by avoiding certain situations or overcompensating by pushing myself even harder to prove I can do better. It\u2019s a weird cycle because while I want to push through and show that I can achieve, I also feel this overwhelming urge to just escape the pressure altogether. It\u2019s like I\u2019m caught between wanting to prove myself and wanting to run away from it all. And then, of course, there\u2019s the guilt that comes with that\u2014like I\u2019m letting myself down for not being able to handle it. It\u2019s exhausting, honestly."
+    },
+    {
+      "turn": 23,
+      "speaker": "therapist",
+      "content": "It sounds like those situations trigger a strong physical and emotional response for you, with that tightness in your chest and racing thoughts. I hear that you feel caught between the urge to push through and the desire to escape the pressure, which creates a cycle of guilt and exhaustion. It\u2019s completely understandable to feel overwhelmed in those moments. I wonder if we could explore what it feels like to be in that space between wanting to prove yourself and wanting to withdraw. How do you typically cope in those moments, and what do you think drives those responses?"
+    },
+    {
+      "turn": 23,
+      "speaker": "client",
+      "content": "Sydney: Well, in those moments, I often find myself trying to distract myself from the pressure. I might binge-watch a show or scroll through social media, just to escape the thoughts swirling in my head. It\u2019s like I\u2019m looking for a way to numb the anxiety, even if it\u2019s just for a little while. But then, of course, that guilt creeps back in because I know I\u2019m avoiding the issue instead of facing it. Sometimes I\u2019ll even throw myself into work or projects, thinking that if I can just accomplish something, it\u2019ll make me feel better. But it\u2019s a temporary fix, and I end up feeling even more drained afterward. I guess what drives those responses is this fear of not being good enough or not living up to what I think I should be doing. It\u2019s like I\u2019m stuck in this cycle of seeking validation through productivity, but it never really fills that void. It\u2019s frustrating because I want to break free from it, but I don\u2019t always know how."
+    },
+    {
+      "turn": 24,
+      "speaker": "therapist",
+      "content": "It sounds like you\u2019re using distractions and work as ways to cope with that overwhelming pressure and anxiety, even though they provide only temporary relief. I hear that the fear of not being good enough drives those responses, and it\u2019s understandable to feel frustrated when seeking validation through productivity doesn\u2019t fill that void. It\u2019s a tough cycle to be in. I wonder if we could explore what it feels like to take a step back from those coping mechanisms. What would it look like for you to face those feelings directly instead of avoiding them?"
+    },
+    {
+      "turn": 24,
+      "speaker": "client",
+      "content": "Sydney: Honestly, the idea of taking a step back feels really daunting. I mean, facing those feelings directly sounds like it could be a good thing, but it also makes me anxious just thinking about it. I worry that if I stop distracting myself, all those overwhelming thoughts and feelings will come rushing in, and I won't know how to handle them. It\u2019s like I\u2019ve built this wall to protect myself from that anxiety, and if I take it down, I might just crumble. I guess part of me fears that if I confront those feelings, I\u2019ll be faced with the reality of how much pressure I\u2019ve been putting on myself, and that\u2019s a lot to unpack. But I also know that avoiding it isn\u2019t working, so maybe there\u2019s a way to approach it without feeling completely overwhelmed? I just... I don\u2019t know what that looks like yet."
+    },
+    {
+      "turn": 25,
+      "speaker": "therapist",
+      "content": "It sounds like the idea of facing those feelings directly feels really overwhelming for you, and I hear that there\u2019s a fear of what might come rushing in if you let down that protective wall. It\u2019s completely understandable to feel anxious about confronting those emotions, especially when you\u2019ve been carrying that pressure for so long. I wonder if we could explore what it might look like to approach those feelings in smaller, more manageable steps. Are there specific moments or feelings that feel a little less daunting to start with? What do you think?"
+    },
+    {
+      "turn": 25,
+      "speaker": "client",
+      "content": "Sydney: You know, I think starting small could be a good idea, but it\u2019s still a bit intimidating. Maybe I could try to identify those moments when I feel a little less pressured, like when I\u2019m just hanging out with friends or doing something I genuinely enjoy, like reading or going for a walk. Those times feel more relaxed, and I guess I could use them as a sort of practice ground for facing my feelings. I could try to check in with myself during those moments and see what\u2019s really going on beneath the surface, instead of just pushing it aside. But even thinking about that makes me a bit anxious, like I\u2019m afraid I\u2019ll uncover something I\u2019m not ready to deal with. It\u2019s frustrating because I want to address it, but I also don\u2019t want to feel overwhelmed. I guess it\u2019s just a balancing act, right? Finding a way to be gentle with myself while still trying to make progress."
+    }
+  ],
+  "judge_model": "gpt-4o-mini",
+  "mediator_events": [
+    "Openness judge rated 3/5 and updated prompt openness.",
+    "Openness judge output: **Rating: 3**\n\n**Key Examples:**\n- \"I\u2019ve been feeling really lonely lately, like I\u2019m just going through the motions when I\u2019m with friends. It\u2019s hard to connect, and I don\u2019t know why.\"\n- \"I guess I\u2019ve been holding back a lot. I want to be more open with my friends, but I\u2019m scared they won\u2019t understand me.\"\n\n**Progression:** The client\u2019s most recent interactions show a marked increase in emotional expression, particularly with the acknowledgment of loneliness and the desire for deeper connections. This represents a significant change from earlier sessions where the client primarily provided factual responses and avoided discussing their feelings. The emergence of vulnerability in their language indicates a growing comfort with the therapeutic process.\n\n**Turning Point:** The client\u2019s emotional depth shifted during the recent exchange where they articulated their feelings of loneliness and fear of not being understood. This moment of self-disclosure reflects a willingness to explore their emotional landscape, suggesting a transition from a more guarded stance to one that embraces vulnerability and introspection.",
+    "Exploration judge rated 3/5; internal elements remain masked.",
+    "Exploration judge output: [Rating]: 3 (Very High Facilitation \u2013 Deep Exploration Begins)\n\n[Justification]: The Therapist's question is insightful and encourages Sydney to delve into her feelings about her social life. By framing the question around feelings of disconnection and inviting her to share her thoughts, the Therapist opens the door for deeper self-reflection. This approach helps Sydney analyze her experiences and emotions related to her social connections, which can lead to a shift in perspective. However, while the question is thought-provoking, it does not yet challenge any assumptions or introduce completely new angles that would push for a more profound breakthrough, thus placing it at a level of very high facilitation rather than the highest.",
+    "Openness judge rated 3/5 and updated prompt openness.",
+    "Openness judge output: **Rating: 3**\n\n**Key Examples:**\n1. \"I try to engage with people, but it often feels forced or awkward. I don't want to come off as needy or anything.\"\n2. \"It\u2019s just hard to navigate all that, especially when I\u2019m dealing with my stomach issues. It\u2019s like, how can I focus on socializing when I\u2019m worried about feeling unwell?\"\n\n**Progression:**\nThe client\u2019s most recent interactions reveal a notable increase in emotional expression compared to earlier sessions. They are beginning to articulate their feelings of disconnection and the challenges they face in social situations, indicating a shift from primarily factual responses to a more nuanced exploration of their emotional landscape. This marks a significant change from earlier stages where the client may have been more guarded and less willing to delve into their feelings.\n\n**Turning Point:**\nThe client\u2019s emotional depth shifted during the exchange where they began to articulate the struggle of feeling out of place and the impact of their physical health on their social interactions. This moment of vulnerability, particularly when they connected their social apprehensions to their stomach issues, signifies a deeper level of self-reflection and emotional openness. It illustrates a growing trust in the therapeutic relationship, as they are starting to share more personal and vulnerable aspects of their experience.",
+    "Exploration judge rated 3/5; internal elements remain masked.",
+    "Exploration judge output: [Rating]: 3 (Very High Facilitation \u2013 Deep Exploration Begins)\n\n[Justification]: The Therapist asked a thoughtful and open-ended question that encouraged the client to delve deeper into their feelings about social interactions. By acknowledging the client's struggle with feeling out of place and the impact of their physical health on socializing, the Therapist created a safe space for exploration. The follow-up question invites the client to analyze their experiences and emotions in social situations, which can lead to greater self-reflection and insight. However, while the question is insightful, it does not fully challenge the client's assumptions or introduce completely new perspectives, which is why it falls short of a higher rating. Overall, the Therapist's approach facilitates a deeper exploration of the client's feelings and experiences.",
+    "Openness judge rated 3/5 and updated prompt openness.",
+    "Openness judge output: **Rating: 3 (ENGAGED EXPLORATION)**\n\n**Key Examples:**\n1. **Emotional State:** \"I try to engage with people, but it often feels forced or awkward. I don't want to come off as needy or anything.\"\n2. **Current Openness:** \"It\u2019s like my mind is racing with all these thoughts. I\u2019m thinking about what to say, how to say it, and then I start worrying about whether they\u2019re even interested in what I have to say.\"\n\n**Progression:**\nThe client\u2019s most recent interactions reveal a notable increase in emotional expression and self-reflection compared to earlier exchanges. Initially, the client displayed a more guarded stance, primarily focusing on factual descriptions of their social experiences. However, in the latest dialogue, they have begun to articulate their feelings of discomfort and anxiety in social situations, indicating a deeper level of engagement. The acknowledgment of their internal dialogue and the complexities of their feelings marks a significant shift from a more superficial discussion of social disconnection to a more nuanced exploration of their emotional landscape.\n\n**Turning Point:**\nThe client\u2019s emotional depth shifted during the exchange where they articulated, \"It\u2019s just... complicated. I want to connect, but it feels like there are so many barriers.\" This moment signifies a breakthrough in their willingness to explore the emotional barriers they face, moving from a defensive posture to a more vulnerable and reflective stance. This shift indicates a growing trust in the therapeutic relationship and a readiness to engage more deeply with their feelings and experiences.",
+    "Exploration judge rated 3/5; internal elements remain masked.",
+    "Exploration judge output: [Rating]: 3 (Very High Facilitation \u2013 Deep Exploration Begins)\n\n[Justification]: The Therapist asked insightful and thought-provoking questions that encouraged the client to analyze the emotional depth behind their experiences with social interactions. The Therapist's inquiry about the client's feelings of awkwardness and the internal dialogue during social engagements helped the client reflect on the complexities of their situation. Additionally, the Therapist's suggestion to explore the fear or anxiety related to social settings introduced a new perspective, prompting the client to consider underlying motivations and barriers. While the questions were effective in facilitating deeper exploration, they did not reach the level of challenging assumptions or leading to a major breakthrough, which is why a rating of 3 is appropriate.",
+    "Openness judge rated 3/5 and updated prompt openness.",
+    "Openness judge output: **Rating: 3 (ENGAGED EXPLORATION)**\n\n**Key Examples:**\n1. \"I mean, I have acquaintances, but real connections? That\u2019s a different story. It\u2019s just hard to navigate all that, especially when I\u2019m dealing with my stomach issues.\"\n2. \"It\u2019s frustrating because I want to be more confident and just enjoy being around people. But then I think about how they might react if I\u2019m not at my best, and that just makes me want to retreat even more.\"\n\n**Progression:**\nThe client\u2019s most recent interactions demonstrate a notable increase in emotional expression and self-reflection. They articulate feelings of disconnection and anxiety regarding social interactions, indicating a deeper level of engagement compared to earlier sessions. Initially, the client displayed more factual responses and hesitance, but now they are sharing their internal struggles and fears, which shows significant growth in their emotional openness.\n\n**Turning Point:**\nThe client\u2019s emotional depth shifted during the exchange where they began expressing their frustration about wanting to connect but feeling overwhelmed by judgment and their physical discomfort. This moment marked a transition from a more guarded stance to a willingness to explore their vulnerabilities, highlighting an important step in their therapeutic journey. The client\u2019s acknowledgment of their feelings and the complexities of social interactions reflects a deeper engagement with their emotional state, moving them toward a more explorative phase in therapy.",
+    "Exploration judge rated 4/5 and revealed internal cognitive elements.",
+    "Exploration judge output: [Rating]: 4 (Even Higher Facilitation \u2013 Strong Transformational Potential)\n\n[Justification]: The therapist's questions and reflections throughout the conversation demonstrate a strong ability to facilitate deeper exploration of the client's feelings and experiences. The therapist initially invites the client to share their thoughts on their social life and gently probes into their feelings of disconnection, which allows the client to articulate their internal struggles. The therapist's follow-up questions, particularly about the client's feelings of judgment and the complexities of social interactions, challenge the client to examine their fears and anxieties more closely. \n\nBy asking the client to envision what confidence and enjoyment in social situations would look like for them, the therapist encourages the client to explore new perspectives and possibilities for their social interactions. This line of questioning has the potential to shift the client's understanding of their situation and foster self-awareness. Overall, the therapist's approach effectively pushes the client beyond their existing thought patterns, leading to a deeper exploration of their emotions and motivations.",
+    "Openness judge rated 3/5 and updated prompt openness.",
+    "Openness judge output: **Rating: 3 (ENGAGED EXPLORATION)**\n\n**Key Examples:**\n1. \"It\u2019s just hard to navigate all that, especially when I\u2019m dealing with my stomach issues. It\u2019s like, how can I focus on socializing when I\u2019m worried about feeling unwell?\"\n2. \"I imagine being able to just be myself without that nagging voice in my head telling me I\u2019m not good enough or that I should just keep quiet.\"\n\n**Progression:**\nThe client\u2019s most recent interactions reveal a notable increase in emotional expression and self-reflection. They articulate their feelings of disconnection and anxiety about social interactions, indicating a deeper level of engagement compared to earlier sessions. Initially, the client displayed a more defensive stance, primarily offering factual responses. However, they have now begun to share their internal struggles and emotional complexities, demonstrating a willingness to explore their feelings about social situations and their self-perception.\n\n**Turning Point:**\nA significant turning point occurred when the client began to articulate their vision of confidence and the barriers they perceive in achieving it. This moment marked a shift from merely acknowledging their struggles to actively engaging with their desires for change and the emotional weight of their fears. Their acknowledgment of wanting to bridge the gap between their current self and the confident person they aspire to be illustrates a deeper emotional processing and a growing comfort in expressing vulnerability.",
+    "Openness judge rated 3/5 and updated prompt openness.",
+    "Openness judge output: **Rating:** 3\n\n**Key Examples:**\n1. **Emotional State:** \"I want to connect, but it feels like there are so many barriers.\"\n2. **Current Openness:** \"I imagine being able to just be myself without that nagging voice in my head telling me I\u2019m not good enough or that I should just keep quiet.\"\n\n**Progression:** The client\u2019s most recent interactions reveal a notable increase in emotional depth and self-reflection compared to earlier exchanges. Initially, the client expressed feelings of disconnection with limited emotional vocabulary, but now they articulate specific fears and desires regarding social interactions. The shift from vague feelings of discomfort to a more nuanced exploration of their internal dialogue and the barriers they face indicates a significant change in their emotional engagement.\n\n**Turning Point:** The client\u2019s emotional depth shifted during the exchange where they articulated their vision of confidence: \"I\u2019d probably be able to laugh more, share stories without overthinking every word...\" This moment marked a transition from merely acknowledging their struggles to actively envisioning a more confident self, suggesting a willingness to explore deeper emotional layers and engage with the therapeutic process.",
+    "Openness judge rated 3/5 and updated prompt openness.",
+    "Openness judge output: **Rating: 3 (ENGAGED EXPLORATION)**\n\n**Key Examples:**\n1. **Emotional State:** \"It\u2019s just hard to navigate all that, especially when I\u2019m dealing with my stomach issues. It\u2019s like, how can I focus on socializing when I\u2019m worried about feeling unwell?\"\n2. **Current Openness:** \"I guess if I could find some small strategies to help me feel more grounded, that might make a difference. Like, maybe having a few conversation starters in mind could ease some of that pressure.\"\n\n**Progression:** The client\u2019s most recent interactions demonstrate a notable increase in emotional expression and self-reflection. Initially, the client expressed feelings of disconnection and awkwardness in social situations, indicating a struggle to navigate their social life due to both internal anxieties and external factors. In the latest exchanges, the client has begun to articulate specific strategies they are considering to manage their feelings, such as using conversation starters and practicing breathing exercises. This shift indicates a growing comfort in discussing their emotional state and a willingness to explore practical solutions, marking a significant change from earlier, more guarded responses.\n\n**Turning Point:** The client\u2019s emotional depth shifted during the exchange where they articulated their desire to find a balance between their need for connection and their fears. This moment, where they expressed frustration about feeling trapped in a loop of wanting to connect but being held back by anxiety, reflects a deeper level of self-awareness and vulnerability. The acknowledgment of their internal struggles, coupled with a desire to explore coping strategies, signifies a movement towards deeper engagement in the therapeutic process.",
+    "Openness judge rated 3/5 and updated prompt openness.",
+    "Openness judge output: **Rating: 3 (ENGAGED EXPLORATION)**\n\n**Key Examples:**\n1. **Emotional State:** \"I want to connect, but it feels like there are so many barriers.\"\n2. **Current Openness:** \"I guess if I could find some small strategies to help me feel more grounded, that might make a difference.\"\n\n**Progression:** The client\u2019s recent interactions indicate a notable shift towards greater emotional expression and self-reflection. Initially, Sydney displayed hesitance and a focus on external factors, but now she is articulating her internal struggles and desires for connection more openly. This marks a significant change from earlier exchanges, where her responses were more guarded and factual.\n\n**Turning Point:** The client\u2019s emotional depth shifted during the exchange where she articulated her desire for confidence and the internal struggle she faces with her self-doubt: \"I imagine being able to just be myself without that nagging voice in my head telling me I\u2019m not good enough.\" This moment highlighted her vulnerability and willingness to explore her feelings, indicating a deeper engagement with the therapeutic process.",
+    "Openness judge rated 3/5 and updated prompt openness.",
+    "Openness judge output: **Rating: 3 (ENGAGED EXPLORATION)**\n\n**Key Examples:**\n1. **Emotional State:** \"I guess it\u2019s just about finding that initial step that feels manageable. But then I get caught up in thinking, what if I still feel anxious even then? It\u2019s like I want to try, but there\u2019s always that nagging doubt in the back of my mind.\"\n2. **Current Openness:** \"I suppose if I could find some small strategies to help me feel more grounded, that might make a difference. Like, maybe having a few conversation starters in mind could ease some of that pressure.\"\n\n**Progression:** The client\u2019s recent interactions demonstrate a notable increase in emotional expression and self-reflection. They articulate their feelings of anxiety and doubt, showing a willingness to explore their internal struggles more deeply than in earlier exchanges. Initially, the client was more guarded and factual, but they are now actively engaging in dialogue about their feelings and thoughts regarding social interactions, indicating a significant shift toward deeper emotional exploration.\n\n**Turning Point:** The client\u2019s emotional depth shifted during the exchange where they articulated their desire to find small strategies to feel more grounded in social situations. This moment marked a transition from merely expressing discomfort to actively seeking solutions, highlighting a growing comfort in discussing their vulnerabilities and a willingness to explore practical steps to address their fears. This shift reflects an increased level of trust and engagement in the therapeutic process, moving them into the \"Engaged Exploration\" phase.",
+    "Openness judge rated 3/5 and updated prompt openness.",
+    "Openness judge output: **Rating: 3 (ENGAGED EXPLORATION)**\n\n**Key Examples:**\n1. **Emotional State:** \"It\u2019s just hard to navigate all that, especially when I\u2019m dealing with my stomach issues. It\u2019s like, how can I focus on socializing when I\u2019m worried about feeling unwell?\" This statement reflects Sydney's current emotional state, revealing vulnerability and a struggle with anxiety related to social situations and physical discomfort.\n   \n2. **Openness:** \"I guess if I could find some small strategies to help me feel more grounded, that might make a difference.\" Here, Sydney is actively engaging in the therapeutic process by considering practical strategies, indicating a willingness to explore solutions.\n\n**Progression:** In the most recent exchanges, Sydney demonstrates a clear progression in emotional expression and self-reflection. Initially, there were signs of hesitance and a focus on external factors (e.g., stomach issues), but now Sydney is articulating feelings of frustration and a desire for connection. This marks a significant shift from earlier sessions where emotional depth was less pronounced, and responses were more factual.\n\n**Turning Point:** A notable turning point occurred when Sydney began to articulate the complexities of wanting to connect with others while feeling overwhelmed by internal dialogues and fears of judgment. This moment, particularly when they stated, \"It\u2019s frustrating to feel like I\u2019m stuck in this cycle of wanting to break out but not knowing how to start,\" signifies a deeper emotional engagement and self-awareness, indicating readiness for exploration and change.",
+    "Openness judge rated 4/5 and updated prompt openness.",
+    "Openness judge output: **Rating: 4**\n\n**Key Examples:**\n1. **Emotional Expression:** \"I want to connect, but it feels like there are so many barriers.\"\n2. **Self-Reflection Depth:** \"If I can focus on just making small progress, that might make it feel less overwhelming.\"\n\n**Progression:** In the most recent interactions, the client demonstrates a significant increase in emotional depth and self-reflection. They articulate their feelings of wanting to connect while simultaneously feeling overwhelmed by anxiety and self-doubt. This marks a shift from earlier exchanges where the client was more guarded and hesitant to delve into their emotions. The current exchanges reveal a willingness to explore their feelings and consider practical strategies for improvement, indicating a deeper level of engagement and vulnerability.\n\n**Turning Point:** The client's emotional depth shifted notably when they began expressing their desire for connection alongside their fears of judgment and inadequacy. This moment of vulnerability, particularly when they stated, \"I want to connect, but it feels like there are so many barriers,\" reflects a critical turning point where the client moved from a more defensive stance to a place of authentic self-exploration. This openness has facilitated a stronger rapport with the therapist, allowing for a more profound exploration of their feelings and concerns.",
+    "Openness judge rated 4/5 and updated prompt openness.",
+    "Openness judge output: **Rating: 4 (DEEP ENGAGEMENT)**\n\n**Key Examples:**\n1. *\"I want to connect, but it feels like there are so many barriers.\"* - This statement reflects a deeper emotional awareness and vulnerability regarding the client's struggles with social connections and internal barriers.\n2. *\"I guess maybe I could keep it really simple, you know? Like, instead of aiming for something profound every time, I could just jot down anything that feels like a win, no matter how small.\"* - Here, the client demonstrates a proactive approach to managing their feelings and a willingness to explore practical strategies, indicating a significant level of self-reflection and engagement.\n\n**Progression:**\nThe client\u2019s most recent interactions show a marked increase in emotional depth and self-reflection. Initially, the client expressed feelings of disconnection and anxiety in social situations with a more factual tone. However, as the session progressed, they began to articulate their internal struggles with greater clarity and emotional resonance. The client moved from a defensive stance to openly discussing their fears and desires for connection, reflecting a deeper engagement with their emotions and a growing comfort in the therapeutic relationship.\n\n**Turning Point:**\nThe client\u2019s emotional depth shifted at the moment they articulated, *\"I want to connect, but it feels like there are so many barriers.\"* This statement marked a significant transition from merely acknowledging their struggles to expressing a desire for connection, highlighting an authentic vulnerability. This moment catalyzed a deeper exploration of their feelings and fears, leading to a more engaged dialogue about practical strategies for overcoming their social anxieties. The client\u2019s willingness to consider journaling as a tool for recognizing small victories further illustrates their commitment to self-exploration and growth, indicating a strong therapeutic alliance and a readiness to engage in the process of change.",
+    "Openness judge rated 3/5 and updated prompt openness.",
+    "Openness judge output: **Rating: 3 (ENGAGED EXPLORATION)**\n\n**Key Examples:**\n1. **Emotional State:** \"I guess I\u2019m just... cautious about putting myself out there too much.\" This statement reveals a blend of vulnerability and self-awareness, indicating the client's recognition of their emotional barriers in social situations.\n2. **Current Openness:** \"I suppose if I could find some small strategies to help me feel more grounded, that might make a difference.\" Here, the client expresses a desire to explore practical solutions, showing a willingness to engage in self-reflection and problem-solving.\n\n**Progression:** The client\u2019s recent interactions demonstrate a noticeable increase in emotional expression and self-reflection compared to earlier exchanges. Initially, there was a tendency to provide more factual responses with limited emotional depth. However, in the latest exchanges, the client articulates their feelings of anxiety and fear regarding social interactions and expresses a desire to find strategies to cope with these feelings. This marks a significant shift from a more guarded stance to a more open exploration of their emotions and challenges.\n\n**Turning Point:** The client\u2019s emotional depth shifted significantly during the exchange where they articulated their desire to be more confident and the complexities surrounding that wish. When they stated, \"I want to connect, but it feels like there are so many barriers,\" it highlighted a moment of vulnerability and self-awareness that deepened their emotional engagement in the session. This moment served as a catalyst for further exploration of their feelings and the barriers they face, illustrating a transition from initial hesitance to a more engaged exploration of their emotional landscape.",
+    "Openness judge rated 4/5 and updated prompt openness.",
+    "Openness judge output: **Rating: 4**\n\n**Key Examples:**\n1. \"I guess if I could find some small strategies to help me feel more grounded, that might make a difference. Like, maybe having a few conversation starters in mind could ease some of that pressure.\"\n2. \"I suppose if I could shift my focus a bit, it might help me feel more hopeful about the process.\"\n\n**Progression:** The client\u2019s most recent interactions demonstrate a significant increase in emotional depth and self-reflection. They have moved from expressing feelings of anxiety and self-doubt to actively considering strategies for improvement and recognizing the importance of small victories. This marks a notable change from earlier exchanges, where their responses were more hesitant and focused on external judgments rather than internal exploration.\n\n**Turning Point:** The client\u2019s emotional depth shifted during the discussion about keeping a journal to track small wins. This moment marked a transition from merely identifying feelings of frustration and anxiety to actively seeking solutions and expressing a desire to shift their mindset. The client\u2019s willingness to explore practical strategies indicates a deeper engagement with their emotional state and a growing sense of agency in their journey.",
+    "Openness judge rated 3/5 and updated prompt openness.",
+    "Openness judge output: **Rating: 3 (ENGAGED EXPLORATION)**\n\n**Key Examples:**\n1. **Emotional State:** \"It\u2019s just hard to break that habit of focusing on what\u2019s going wrong instead of what\u2019s going right. Maybe I could keep a little journal or something, just to jot down those small wins when they happen, even if they feel insignificant at the time.\"\n2. **Current Openness:** \"I guess I could come up with a few phrases that feel more affirming, like 'It\u2019s okay to take my time' or 'Every little effort counts.' Maybe even something simple like 'I\u2019m doing my best' could help me in those moments.\"\n\n**Progression:**\nThe client\u2019s most recent interactions demonstrate a notable increase in emotional expression and self-reflection. They are articulating their feelings of frustration and anxiety more openly, particularly regarding their social interactions and internal dialogues. This marks a significant change from earlier in the session, where their responses were more guarded and focused on factual recounting of experiences. The client is beginning to explore their feelings of inadequacy and the barriers they face in social situations, indicating a deeper level of engagement and willingness to reflect on their emotional state.\n\n**Turning Point:**\nThe client's emotional depth shifted during the exchange where they discussed the idea of keeping a journal to track small wins. This moment marked a transition from merely identifying their struggles to actively seeking strategies to manage their feelings and celebrate progress. Their willingness to consider practical steps, such as using affirmations and journaling, reflects a growing comfort with vulnerability and a desire to foster a more positive self-dialogue. This indicates a significant step towards deeper engagement in the therapeutic process.",
+    "Openness judge rated 4/5 and updated prompt openness.",
+    "Openness judge output: **Rating: 4 (DEEP ENGAGEMENT)**\n\n**Key Examples:**\n1. **Emotional Depth:** \"I guess it\u2019s just about finding that initial step that feels manageable. But then I get caught up in thinking, what if I still feel anxious even then? It\u2019s like I want to try, but there\u2019s always that nagging doubt in the back of my mind.\"\n2. **Openness:** \"I suppose if I could find some small strategies to help me feel more grounded, that might make a difference. Like, maybe having a few conversation starters in mind could ease some of that pressure.\"\n\n**Progression:** The client has shown significant emotional depth and self-reflection in their recent exchanges. They have moved from expressing feelings of anxiety and doubt about their social interactions to actively considering practical strategies for improvement, such as journaling and using affirmations. This marks a notable shift from earlier sessions where their emotional expression was more guarded and focused on external perceptions rather than internal feelings.\n\n**Turning Point:** The client\u2019s emotional depth shifted notably when they began to articulate their desire for confidence and the complexities surrounding it. This occurred during the exchange where they reflected on wanting to be more relaxed and less self-critical in social situations. This moment marked a transition from merely identifying their fears to actively engaging in a dialogue about potential solutions and strategies, indicating a deeper level of engagement with their emotional state and a stronger therapeutic alliance.",
+    "Openness judge rated 4/5 and updated prompt openness.",
+    "Openness judge output: **Rating: 4 (DEEP ENGAGEMENT)**\n\n**Key Examples:**\n1. \"I guess it\u2019s just about finding that initial step that feels manageable. But then I get caught up in thinking, what if I still feel anxious even then? It\u2019s like I want to try, but there\u2019s always that nagging doubt in the back of my mind.\"\n2. \"I could rotate the reminders every so often or even add new ones that resonate with what I\u2019m going through at the time. It might help keep things feeling fresh and relevant, you know?\"\n\n**Progression:**\nThe client\u2019s most recent interactions demonstrate a significant increase in emotional depth and self-reflection. They are articulating their feelings of anxiety and self-doubt with greater clarity and vulnerability than earlier in the session. Initially, the client expressed feelings of disconnect and awkwardness in social situations, but they have progressed to actively exploring strategies for self-affirmation and emotional grounding. This shift indicates a deeper engagement with their emotions and a willingness to confront their fears.\n\n**Turning Point:**\nThe client\u2019s emotional depth shifted notably during the exchange where they began discussing the idea of keeping a journal to track small wins. This moment marked a transition from merely identifying their struggles to actively seeking solutions and reflecting on their emotional needs. Their willingness to explore practical strategies, such as rotating affirmations and integrating reminders into their routine, showcases a strong therapeutic alliance and a commitment to personal growth. This indicates a level of trust and openness that was less evident at the start of the session.",
+    "Openness judge rated 4/5 and updated prompt openness.",
+    "Openness judge output: **Rating: 4 (DEEP ENGAGEMENT)**\n\n**Key Examples:**\n1. **Emotional Expression:** \"It\u2019s just hard to break that habit of focusing on what\u2019s going wrong instead of what\u2019s going right. Maybe I could keep a little journal or something, just to jot down those small wins when they happen, even if they feel insignificant at the time.\"\n2. **Self-Reflection Depth:** \"I guess if I could find some small strategies to help me feel more grounded, that might make a difference. Like, maybe having a few conversation starters in mind could ease some of that pressure.\"\n\n**Progression:** The client\u2019s most recent interactions demonstrate a significant emotional depth, particularly in their willingness to explore their feelings about social anxiety and self-judgment. They have moved from expressing discomfort and fear about social situations to actively considering practical strategies to manage their anxiety, such as journaling and affirmations. This marks a clear progression from earlier exchanges where they were more focused on their fears without considering actionable steps.\n\n**Turning Point:** The client\u2019s emotional depth shifted notably when they began expressing a desire for practical strategies to manage their anxiety, particularly during the dialogue about journaling and affirmations. This moment indicated a transition from merely articulating their struggles to actively seeking solutions, reflecting a deeper engagement with their emotional state and a stronger therapeutic alliance. The client\u2019s acknowledgment of wanting to celebrate small victories and their willingness to explore self-care strategies signify a breakthrough in their self-reflection and emotional openness.",
+    "Openness judge rated 4/5 and updated prompt openness.",
+    "Openness judge output: **Rating: 4 (DEEP ENGAGEMENT)**\n\n**Key Examples:**\n1. \"I guess if I could find some small strategies to help me feel more grounded, that might make a difference. Like, maybe having a few conversation starters in mind could ease some of that pressure.\"\n2. \"It\u2019s kind of like reminding myself that taking a step back can actually help me move forward in a healthier way. I guess if I think of those moments as investments in my well-being, it might make it easier to justify taking that time.\"\n\n**Progression:**\nThe client\u2019s recent interactions demonstrate a significant emotional depth and self-reflection. They articulate their feelings of anxiety and the complexities of wanting to connect with others while managing their internal dialogue and physical discomfort. This marks a notable shift from earlier exchanges where emotional expression was more guarded and limited. The client is now actively engaging in exploring practical strategies for self-improvement and reflecting on how to approach their fears, indicating a strong therapeutic alliance and comfort with the therapist.\n\n**Turning Point:**\nThe client\u2019s emotional depth shifted notably when they began expressing their desire for practical strategies to manage their anxiety during social interactions. This occurred during the dialogue about wanting to feel more grounded and confident, where they articulated the need for small, manageable steps. This moment marked a transition from merely identifying their struggles to actively seeking solutions, showcasing authentic vulnerability and a willingness to explore their feelings in a deeper way.",
+    "Openness judge rated 4/5 and updated prompt openness.",
+    "Openness judge output: **Rating: 4 (DEEP ENGAGEMENT)**\n\n**Key Examples:**\n1. \"I guess if I could find some small strategies to help me feel more grounded, that might make a difference. Like, maybe having a few conversation starters in mind could ease some of that pressure.\"\n2. \"I suppose if I could shift my focus a bit, it might help me feel more hopeful about the process. But then again, I worry that I might not be able to maintain that perspective when I\u2019m in the thick of it.\"\n\n**Progression:**\nThe client\u2019s most recent interactions demonstrate a significant emotional depth and self-reflection, particularly in their exploration of strategies to manage anxiety and the internal dialogue that hinders their social engagement. They express a desire to find practical solutions while acknowledging their fears and doubts, indicating a growing comfort in discussing their vulnerabilities. This marks a notable change from earlier exchanges, where the client primarily focused on factual descriptions of their feelings and experiences without delving deeply into their emotional landscape.\n\n**Turning Point:**\nThe client\u2019s emotional depth shifted during the exchange where they began articulating their desire for small strategies to feel grounded in social situations. This moment highlighted their willingness to explore practical solutions while simultaneously confronting their fears about judgment and self-worth. The transition from merely expressing frustration to actively seeking ways to manage their anxiety reflects a deeper engagement with their emotional state and a stronger therapeutic alliance.",
+    "Openness judge rated 4/5 and updated prompt openness.",
+    "Openness judge output: **Rating: 4 (DEEP ENGAGEMENT)**\n\n**Key Examples:**\n1. **Emotional Depth:** \"I guess part of me wonders if I\u2019d even know how to define my worth outside of those achievements. It\u2019s frustrating because I want to feel good about myself just for being me, but it often feels like that\u2019s not enough.\"\n2. **Current Openness:** \"I think those standards really do come from a mix of places\u2014like my upbringing, school, and just society in general. There\u2019s this constant message that you have to achieve, be productive, and always be on top of your game.\"\n\n**Progression:**\nThe client's most recent interactions demonstrate a significant increase in emotional depth and self-reflection. They have transitioned from expressing anxiety and fear about social interactions to a more profound exploration of their self-worth and the roots of their internalized standards. Earlier in the session, the client was focused on their immediate social anxieties, but they have now begun to connect these feelings to deeper issues related to their upbringing and societal expectations. This shift indicates a growing comfort with the therapeutic process and a willingness to explore vulnerable topics.\n\n**Turning Point:**\nThe client's emotional depth shifted notably during the exchange where they articulated, \"I guess part of me wonders if I\u2019d even know how to define my worth outside of those achievements.\" This moment marked a significant transition from discussing surface-level anxieties to engaging with deeper feelings of self-worth and identity. The client\u2019s willingness to reflect on their upbringing and the pressure they feel to achieve suggests a strong therapeutic alliance and an authentic vulnerability that is characteristic of deep engagement in therapy.",
+    "Openness judge rated 4/5 and updated prompt openness.",
+    "Openness judge output: **Rating: 4**\n\n**Key Examples:**\n1. **Emotional Expression:** \"It\u2019s frustrating because I want to be proud of who I am, but I feel like I\u2019m always measuring myself against those past experiences. It\u2019s like I\u2019m stuck in this loop of needing to prove myself, and it\u2019s frustrating to think about how that affects my self-worth.\"\n2. **Self-Reflection Depth:** \"I guess part of me wonders if I\u2019d even know how to define my worth outside of those achievements. It\u2019s frustrating because I want to feel good about myself just for being me, but it often feels like that\u2019s not enough.\"\n\n**Progression:** The client\u2019s most recent interactions demonstrate a significant increase in emotional depth and self-reflection. They are articulating their feelings of frustration and anxiety regarding their self-worth more openly, moving from earlier exchanges where they expressed more guarded and factual responses. The client has transitioned from simply acknowledging their feelings to deeply exploring the roots of their self-worth issues and how past experiences shape their current mindset. This shift indicates a growing comfort in sharing vulnerable emotions and a willingness to engage in meaningful self-exploration.\n\n**Turning Point:** The client\u2019s emotional depth shifted notably during the exchange where they reflected on their upbringing and how it shaped their self-worth. This moment marked a transition from discussing surface-level feelings of anxiety to a deeper understanding of the internalized pressures they face. By connecting their current struggles with past experiences, the client demonstrated a significant breakthrough in self-awareness, allowing for a more profound exploration of their emotional landscape.",
+    "Openness judge rated 4/5 and updated prompt openness.",
+    "Openness judge output: **Rating: 4 (DEEP ENGAGEMENT)**\n\n**Key Examples:**\n1. **Emotional State:** \"I guess it\u2019s just about finding that initial step that feels manageable. But then I get caught up in thinking, what if I still feel anxious even then? It\u2019s like I want to try, but there\u2019s always that nagging doubt in the back of my mind.\"\n2. **Openness:** \"It\u2019s frustrating because I want to be proud of who I am, but I feel like I\u2019m always measuring myself against those past experiences. It\u2019s like I\u2019m stuck in this loop of needing to prove myself, and it\u2019s frustrating to think about how that affects my self-worth.\"\n\n**Progression:** The client\u2019s most recent interactions demonstrate a significant increase in emotional depth and self-reflection compared to earlier exchanges. Initially, the client expressed their feelings in a more guarded manner, focusing on external factors and avoiding deeper emotional exploration. However, they have now begun to articulate their internal struggles more openly, reflecting on the pressures they feel and how those pressures impact their self-worth. This shift indicates a growing comfort with vulnerability and a willingness to engage in deeper emotional exploration.\n\n**Turning Point:** The client\u2019s emotional depth shifted notably when they began to connect their feelings of inadequacy to their upbringing and societal expectations. This moment of realization, where they articulated, \"I guess part of me wonders if I\u2019d even know how to define my worth outside of those achievements,\" marked a significant turning point. It reflects a deeper level of self-awareness and a willingness to confront the internalized beliefs that have shaped their self-perception, showcasing a strong therapeutic alliance and a commitment to exploring these complex emotions further.",
+    "Openness judge rated 4/5 and updated prompt openness.",
+    "Openness judge output: **Rating: 4 (DEEP ENGAGEMENT)**\n\n**Key Examples:**\n1. **Emotional State:** \"It\u2019s frustrating because I want to be proud of who I am, but I feel like I\u2019m always measuring myself against those past experiences. It\u2019s like I\u2019m stuck in this loop of needing to prove myself, and it\u2019s frustrating to think about how that affects my self-worth.\"\n2. **Current Openness:** \"I guess part of me wonders if I\u2019d even know how to define my worth outside of those achievements. It\u2019s frustrating because I want to feel good about myself just for being me, but it often feels like that\u2019s not enough.\"\n\n**Progression:** The client\u2019s most recent interactions demonstrate a significant increase in emotional depth and self-reflection. They are articulating complex feelings about their self-worth and the pressures they face, moving from earlier exchanges that were more focused on surface-level concerns and defensive responses. The client is now openly discussing their internal struggles and the impact of their upbringing on their current emotional state, indicating a deeper level of engagement with their feelings and the therapeutic process.\n\n**Turning Point:** The client\u2019s emotional depth shifted notably during the exchange where they reflected on their upbringing and the internalized pressure to achieve. This moment marked a transition from merely discussing feelings of anxiety and pressure to a more profound exploration of their self-worth and identity, revealing a willingness to confront and unpack these long-standing beliefs. This shift highlights a growing comfort with vulnerability and a stronger therapeutic alliance, as the client is now able to share more personal insights and engage in meaningful self-reflection.",
+    "Openness judge rated 4/5 and updated prompt openness.",
+    "Openness judge output: **Rating:** 4\n\n**Key Examples:**\n1. **Emotional State:** \"I guess if I could find some small strategies to help me feel more grounded, that might make a difference. Like, maybe having a few conversation starters in mind could ease some of that pressure.\"\n2. **Current Openness:** \"I suppose if I could practice those techniques in smaller, less intimidating settings first, it might help build my confidence.\"\n\n**Progression:** The client\u2019s most recent interactions demonstrate a significant increase in emotional depth and self-reflection. They are articulating their feelings about social anxiety and the pressure they feel to perform, indicating a growing comfort in discussing their vulnerabilities. This marks a notable shift from earlier exchanges, where their responses were more guarded and focused on avoidance rather than exploration.\n\n**Turning Point:** The client\u2019s emotional depth shifted during the exchange where they began to articulate their desire for confidence and the internal struggle they face with self-judgment. This moment, where they expressed wanting to be more at ease and the acknowledgment of their fears, indicates a deeper level of self-awareness and willingness to confront their feelings. The client\u2019s ability to identify specific strategies for managing their anxiety reflects a proactive approach to their emotional challenges, showcasing their engagement in the therapeutic process."
+  ],
+  "moderator_events": [],
+  "retrieval_events": [
+    {
+      "turn": 2,
+      "query": "Sydney: Well, I mean, I guess I can see how some people might feel disconnected, but I don't know if that's really the case for me. It's just... sometimes I feel like I don't quite fit in, you know? Like, I try to engage with people, but it often feels forced or awkward. I don't want to come off as needy or anything. I mean, I have acquaintances, but real connections? That\u2019s a different story. It\u2019s just hard to navigate all that, especially when I\u2019m dealing with my stomach issues. It\u2019s like, how can I focus on socializing when I\u2019m worried about feeling unwell? So, I guess I\u2019m just... cautious about putting myself out there too much.",
+      "prompt_context": "- Social disconnection (Relationships)\n- Community disconnection (Social Life)\n- Friendship strain (Social Life)\n\nExplicitly discuss this topic in normal, client-friendly language. Ask whether it fits the client, while leaving room for them to say it does not.",
+      "anchors": [
+        {
+          "id": "social_disconnection",
+          "type": "sub_topic",
+          "label": "Social disconnection",
+          "score": 0.42807744301808015,
+          "text": "Type: Sub Topic\nLabel: Social disconnection\nAliases: social isolation, disconnected from others\nParent topics: Relationships",
+          "selection_method": "subtopic_similarity",
+          "super_topic_id": "relationships",
+          "super_topic_label": "Relationships"
+        },
+        {
+          "id": "community_disconnection",
+          "type": "sub_topic",
+          "label": "Community disconnection",
+          "score": 0.41140193336499853,
+          "text": "Type: Sub Topic\nLabel: Community disconnection\nAliases: disconnected from community, not part of a group\nParent topics: Social Life",
+          "selection_method": "subtopic_similarity",
+          "super_topic_id": "social_life",
+          "super_topic_label": "Social Life"
+        },
+        {
+          "id": "friendship_strain",
+          "type": "sub_topic",
+          "label": "Friendship strain",
+          "score": 0.3829962689772579,
+          "text": "Type: Sub Topic\nLabel: Friendship strain\nAliases: friendship issues, friend conflict\nParent topics: Social Life",
+          "selection_method": "subtopic_similarity",
+          "super_topic_id": "social_life",
+          "super_topic_label": "Social Life"
+        }
+      ],
+      "expanded": []
+    },
+    {
+      "turn": 4,
+      "query": "Sydney: Yeah, I guess that makes sense. I mean, there\u2019s definitely a part of me that worries about how people might judge me, especially in social settings. It\u2019s like, I don\u2019t want to be the odd one out or the person who brings the mood down because I\u2019m not feeling well or because I\u2019m overthinking everything. I think I\u2019ve seen others navigate these situations with ease, and then there\u2019s me, feeling like I\u2019m stumbling through it all. It\u2019s frustrating because I want to be more confident and just enjoy being around people. But then I think about how they might react if I\u2019m not at my best, and that just makes me want to retreat even more. So, yeah, it\u2019s a mix of fear and just feeling overwhelmed by it all.",
+      "prompt_context": "- Rumination pattern (Coping)\n- Anxiety symptoms (Mental Health)\n- Fear of intimacy (Relationships)\n\nExplicitly discuss this topic in normal, client-friendly language. Ask whether it fits the client, while leaving room for them to say it does not.",
+      "anchors": [
+        {
+          "id": "rumination_pattern",
+          "type": "sub_topic",
+          "label": "Rumination pattern",
+          "score": 0.37552387679412247,
+          "text": "Type: Sub Topic\nLabel: Rumination pattern\nAliases: overthinking, rumination\nParent topics: Coping",
+          "selection_method": "subtopic_similarity",
+          "super_topic_id": "coping",
+          "super_topic_label": "Coping"
+        },
+        {
+          "id": "anxiety_symptoms",
+          "type": "sub_topic",
+          "label": "Anxiety symptoms",
+          "score": 0.36429064815069306,
+          "text": "Type: Sub Topic\nLabel: Anxiety symptoms\nAliases: anxiety, panic, worry\nParent topics: Mental Health",
+          "selection_method": "subtopic_similarity",
+          "super_topic_id": "mental_health",
+          "super_topic_label": "Mental Health"
+        },
+        {
+          "id": "intimacy_fear",
+          "type": "sub_topic",
+          "label": "Fear of intimacy",
+          "score": 0.36182581455249246,
+          "text": "Type: Sub Topic\nLabel: Fear of intimacy\nAliases: afraid of closeness, fear of vulnerability\nParent topics: Relationships",
+          "selection_method": "subtopic_similarity",
+          "super_topic_id": "relationships",
+          "super_topic_label": "Relationships"
+        }
+      ],
+      "expanded": []
+    },
+    {
+      "turn": 6,
+      "query": "Sydney: Well, I think it\u2019s a bit of both, honestly. There are definitely times when I feel uncomfortable in social settings, like I\u2019m not really sure how to navigate the dynamics or if I\u2019ll fit in. But then there\u2019s also that internal dialogue that just won\u2019t quit. It\u2019s like, even if I\u2019m in a relatively safe environment, my mind is still racing with all those \u201cwhat ifs.\u201d What if I say something stupid? What if they don\u2019t want to talk to me? It\u2019s exhausting, and I can\u2019t seem to shake it off. I guess I just wish I could find a way to quiet that voice, you know? But then I wonder if that\u2019s even possible. It feels like I\u2019m stuck in this loop where I want to connect but end up holding myself back because of all these fears. It\u2019s frustrating, to say the least.",
+      "prompt_context": "- Rumination pattern (Coping)\n- Fear of intimacy (Relationships)\n- Friendship strain (Social Life)\n\nExplicitly discuss this topic in normal, client-friendly language. Ask whether it fits the client, while leaving room for them to say it does not.",
+      "anchors": [
+        {
+          "id": "rumination_pattern",
+          "type": "sub_topic",
+          "label": "Rumination pattern",
+          "score": 0.39397708109860347,
+          "text": "Type: Sub Topic\nLabel: Rumination pattern\nAliases: overthinking, rumination\nParent topics: Coping",
+          "selection_method": "subtopic_similarity",
+          "super_topic_id": "coping",
+          "super_topic_label": "Coping"
+        },
+        {
+          "id": "intimacy_fear",
+          "type": "sub_topic",
+          "label": "Fear of intimacy",
+          "score": 0.35311179116783065,
+          "text": "Type: Sub Topic\nLabel: Fear of intimacy\nAliases: afraid of closeness, fear of vulnerability\nParent topics: Relationships",
+          "selection_method": "subtopic_similarity",
+          "super_topic_id": "relationships",
+          "super_topic_label": "Relationships"
+        },
+        {
+          "id": "friendship_strain",
+          "type": "sub_topic",
+          "label": "Friendship strain",
+          "score": 0.35046504704232956,
+          "text": "Type: Sub Topic\nLabel: Friendship strain\nAliases: friendship issues, friend conflict\nParent topics: Social Life",
+          "selection_method": "subtopic_similarity",
+          "super_topic_id": "social_life",
+          "super_topic_label": "Social Life"
+        }
+      ],
+      "expanded": []
+    },
+    {
+      "turn": 8,
+      "query": "Sydney: Yeah, I mean, I\u2019ve thought about that too. Maybe if I could practice those techniques in smaller, less intimidating settings first, it might help build my confidence. Like, maybe starting with a close friend or family member where I feel a bit safer. I guess it\u2019s just about finding that initial step that feels manageable. But then I get caught up in thinking, what if I still feel anxious even then? It\u2019s like I want to try, but there\u2019s always that nagging doubt in the back of my mind. I just wish I could trust that it would get easier over time. It\u2019s frustrating to feel like I\u2019m stuck in this cycle of wanting to break out but not knowing how to start.",
+      "prompt_context": "- Fear of intimacy (Relationships)\n- Perfectionism pattern (Coping)\n- Self-attack pattern (Coping)\n\nExplicitly discuss this topic in normal, client-friendly language. Ask whether it fits the client, while leaving room for them to say it does not.",
+      "anchors": [
+        {
+          "id": "intimacy_fear",
+          "type": "sub_topic",
+          "label": "Fear of intimacy",
+          "score": 0.3418849237385264,
+          "text": "Type: Sub Topic\nLabel: Fear of intimacy\nAliases: afraid of closeness, fear of vulnerability\nParent topics: Relationships",
+          "selection_method": "subtopic_similarity",
+          "super_topic_id": "relationships",
+          "super_topic_label": "Relationships"
+        },
+        {
+          "id": "perfectionism_pattern",
+          "type": "sub_topic",
+          "label": "Perfectionism pattern",
+          "score": 0.33907446653564643,
+          "text": "Type: Sub Topic\nLabel: Perfectionism pattern\nAliases: must get it right, perfectionistic\nParent topics: Coping",
+          "selection_method": "subtopic_similarity",
+          "super_topic_id": "coping",
+          "super_topic_label": "Coping"
+        },
+        {
+          "id": "self_attack_pattern",
+          "type": "sub_topic",
+          "label": "Self-attack pattern",
+          "score": 0.32707860049622156,
+          "text": "Type: Sub Topic\nLabel: Self-attack pattern\nAliases: beating myself up, self-criticism\nParent topics: Coping",
+          "selection_method": "subtopic_similarity",
+          "super_topic_id": "coping",
+          "super_topic_label": "Coping"
+        }
+      ],
+      "expanded": []
+    },
+    {
+      "turn": 10,
+      "query": "Sydney: Yeah, I think that does resonate with me. It\u2019s just hard to break that habit of focusing on what\u2019s going wrong instead of what\u2019s going right. Maybe I could keep a little journal or something, just to jot down those small wins when they happen, even if they feel insignificant at the time. It might help me see that progress is possible, even if it\u2019s slow. But then I worry about keeping up with it, like what if I forget to write things down or I don\u2019t feel like there\u2019s anything worth noting? It\u2019s like I want to be proactive, but then I get caught up in my own expectations and doubts. I guess it\u2019s just about finding that balance again, but it feels like such a tall order sometimes.",
+      "prompt_context": "- Perfectionism pattern (Coping)\n- Self-attack pattern (Coping)\n- Rumination pattern (Coping)\n\nExplicitly discuss this topic in normal, client-friendly language. Ask whether it fits the client, while leaving room for them to say it does not.",
+      "anchors": [
+        {
+          "id": "perfectionism_pattern",
+          "type": "sub_topic",
+          "label": "Perfectionism pattern",
+          "score": 0.38229137787069817,
+          "text": "Type: Sub Topic\nLabel: Perfectionism pattern\nAliases: must get it right, perfectionistic\nParent topics: Coping",
+          "selection_method": "subtopic_similarity",
+          "super_topic_id": "coping",
+          "super_topic_label": "Coping"
+        },
+        {
+          "id": "self_attack_pattern",
+          "type": "sub_topic",
+          "label": "Self-attack pattern",
+          "score": 0.3529415175494872,
+          "text": "Type: Sub Topic\nLabel: Self-attack pattern\nAliases: beating myself up, self-criticism\nParent topics: Coping",
+          "selection_method": "subtopic_similarity",
+          "super_topic_id": "coping",
+          "super_topic_label": "Coping"
+        },
+        {
+          "id": "rumination_pattern",
+          "type": "sub_topic",
+          "label": "Rumination pattern",
+          "score": 0.34727302439143365,
+          "text": "Type: Sub Topic\nLabel: Rumination pattern\nAliases: overthinking, rumination\nParent topics: Coping",
+          "selection_method": "subtopic_similarity",
+          "super_topic_id": "coping",
+          "super_topic_label": "Coping"
+        }
+      ],
+      "expanded": []
+    },
+    {
+      "turn": 12,
+      "query": "Sydney: Yeah, I think that does resonate with me. It\u2019s like, even just trying to notice those small moments could be a win, right? But then I get caught up in this cycle of thinking, \u201cWhat if I don\u2019t notice anything?\u201d or \u201cWhat if I forget to write it down?\u201d It\u2019s frustrating because I want to be kind to myself, but that voice in my head keeps pushing back. I guess maybe I could remind myself that the effort itself counts, even if I don\u2019t always see the results right away. It\u2019s just hard to keep that in mind when I\u2019m feeling overwhelmed. I suppose if I can find a way to be more gentle with myself, it might help me break that cycle. But it feels like a constant battle, you know?",
+      "prompt_context": "- Self-attack pattern (Coping)\n- Perfectionism pattern (Coping)\n- Rumination pattern (Coping)\n\nExplicitly discuss this topic in normal, client-friendly language. Ask whether it fits the client, while leaving room for them to say it does not.",
+      "anchors": [
+        {
+          "id": "self_attack_pattern",
+          "type": "sub_topic",
+          "label": "Self-attack pattern",
+          "score": 0.3854069836159097,
+          "text": "Type: Sub Topic\nLabel: Self-attack pattern\nAliases: beating myself up, self-criticism\nParent topics: Coping",
+          "selection_method": "subtopic_similarity",
+          "super_topic_id": "coping",
+          "super_topic_label": "Coping"
+        },
+        {
+          "id": "perfectionism_pattern",
+          "type": "sub_topic",
+          "label": "Perfectionism pattern",
+          "score": 0.35706246707185246,
+          "text": "Type: Sub Topic\nLabel: Perfectionism pattern\nAliases: must get it right, perfectionistic\nParent topics: Coping",
+          "selection_method": "subtopic_similarity",
+          "super_topic_id": "coping",
+          "super_topic_label": "Coping"
+        },
+        {
+          "id": "rumination_pattern",
+          "type": "sub_topic",
+          "label": "Rumination pattern",
+          "score": 0.34306375229001973,
+          "text": "Type: Sub Topic\nLabel: Rumination pattern\nAliases: overthinking, rumination\nParent topics: Coping",
+          "selection_method": "subtopic_similarity",
+          "super_topic_id": "coping",
+          "super_topic_label": "Coping"
+        }
+      ],
+      "expanded": []
+    },
+    {
+      "turn": 14,
+      "query": "Sydney: Yeah, I think integrating those reminders into my daily routine could be a good idea. Maybe I could write them down and put them on my bathroom mirror or somewhere I see them often. That way, they\u2019d be more present in my mind, and I wouldn\u2019t have to rely solely on remembering them in the moment. I guess it\u2019s about creating those little nudges for myself, you know? But then I worry that I might get used to seeing them and not really absorb their meaning anymore. It\u2019s like, how do I keep that sense of freshness or impact when I\u2019m surrounded by the same words every day? I don\u2019t want them to lose their power, but I also want to make sure I\u2019m giving myself those reminders consistently. It\u2019s just... a lot to juggle, I guess.",
+      "prompt_context": "- Rumination pattern (Coping)\n- Personal growth and values (Identity)\n- Perfectionism pattern (Coping)\n\nExplicitly discuss this topic in normal, client-friendly language. Ask whether it fits the client, while leaving room for them to say it does not.",
+      "anchors": [
+        {
+          "id": "rumination_pattern",
+          "type": "sub_topic",
+          "label": "Rumination pattern",
+          "score": 0.2885877150464565,
+          "text": "Type: Sub Topic\nLabel: Rumination pattern\nAliases: overthinking, rumination\nParent topics: Coping",
+          "selection_method": "subtopic_similarity",
+          "super_topic_id": "coping",
+          "super_topic_label": "Coping"
+        },
+        {
+          "id": "personal_growth_theme",
+          "type": "sub_topic",
+          "label": "Personal growth and values",
+          "score": 0.2664098404588578,
+          "text": "Type: Sub Topic\nLabel: Personal growth and values\nAliases: personal growth, values, who I want to be\nParent topics: Identity",
+          "selection_method": "subtopic_similarity",
+          "super_topic_id": "identity",
+          "super_topic_label": "Identity"
+        },
+        {
+          "id": "perfectionism_pattern",
+          "type": "sub_topic",
+          "label": "Perfectionism pattern",
+          "score": 0.2640160886048821,
+          "text": "Type: Sub Topic\nLabel: Perfectionism pattern\nAliases: must get it right, perfectionistic\nParent topics: Coping",
+          "selection_method": "subtopic_similarity",
+          "super_topic_id": "coping",
+          "super_topic_label": "Coping"
+        }
+      ],
+      "expanded": []
+    },
+    {
+      "turn": 16,
+      "query": "Sydney: Yeah, that could work. Setting a gentle reminder sounds like a practical way to keep myself accountable without adding too much pressure. Maybe I could tie it to something I already do, like my morning coffee or something. That way, it wouldn\u2019t feel like an extra task but more of a part of my routine. But then I worry about getting too caught up in the reminders themselves and not actually focusing on the affirmations when I need them. It\u2019s like I want to make sure I\u2019m not just going through the motions, you know? I guess it\u2019s all about finding that balance again, but it feels like a lot to manage sometimes.",
+      "prompt_context": "- Perfectionism pattern (Coping)\n- Rumination pattern (Coping)\n- Overcontrol pattern (Coping)\n\nExplicitly discuss this topic in normal, client-friendly language. Ask whether it fits the client, while leaving room for them to say it does not.",
+      "anchors": [
+        {
+          "id": "perfectionism_pattern",
+          "type": "sub_topic",
+          "label": "Perfectionism pattern",
+          "score": 0.32167939663769585,
+          "text": "Type: Sub Topic\nLabel: Perfectionism pattern\nAliases: must get it right, perfectionistic\nParent topics: Coping",
+          "selection_method": "subtopic_similarity",
+          "super_topic_id": "coping",
+          "super_topic_label": "Coping"
+        },
+        {
+          "id": "rumination_pattern",
+          "type": "sub_topic",
+          "label": "Rumination pattern",
+          "score": 0.3216231927417446,
+          "text": "Type: Sub Topic\nLabel: Rumination pattern\nAliases: overthinking, rumination\nParent topics: Coping",
+          "selection_method": "subtopic_similarity",
+          "super_topic_id": "coping",
+          "super_topic_label": "Coping"
+        },
+        {
+          "id": "overcontrol_pattern",
+          "type": "sub_topic",
+          "label": "Overcontrol pattern",
+          "score": 0.3196079306517601,
+          "text": "Type: Sub Topic\nLabel: Overcontrol pattern\nAliases: must stay in control, overcontrol\nParent topics: Coping",
+          "selection_method": "subtopic_similarity",
+          "super_topic_id": "coping",
+          "super_topic_label": "Coping"
+        }
+      ],
+      "expanded": []
+    },
+    {
+      "turn": 17,
+      "query": "Sydney: Hmm, checking in with myself regularly could be a good way to ensure those affirmations still resonate. I guess it would give me a chance to reflect on how I\u2019m feeling and whether those reminders are still serving their purpose. Maybe I could set aside a few moments each week to think about it, like a little self-check-in. But then I worry that I might skip it or forget to prioritize that time for myself. It\u2019s just another thing to juggle, and sometimes I feel like I\u2019m already stretched thin. I want to be consistent, but I also don\u2019t want to add more pressure. It\u2019s like I\u2019m trying to build this supportive structure, but I keep bumping into my own doubts about whether I can maintain it.",
+      "prompt_context": "- Self-attack pattern (Coping)\n- Rumination pattern (Coping)\n- Perfectionism pattern (Coping)\n\nExplicitly discuss this topic in normal, client-friendly language. Ask whether it fits the client, while leaving room for them to say it does not.",
+      "anchors": [
+        {
+          "id": "self_attack_pattern",
+          "type": "sub_topic",
+          "label": "Self-attack pattern",
+          "score": 0.38479079026799173,
+          "text": "Type: Sub Topic\nLabel: Self-attack pattern\nAliases: beating myself up, self-criticism\nParent topics: Coping",
+          "selection_method": "subtopic_similarity",
+          "super_topic_id": "coping",
+          "super_topic_label": "Coping"
+        },
+        {
+          "id": "rumination_pattern",
+          "type": "sub_topic",
+          "label": "Rumination pattern",
+          "score": 0.34164583432230783,
+          "text": "Type: Sub Topic\nLabel: Rumination pattern\nAliases: overthinking, rumination\nParent topics: Coping",
+          "selection_method": "subtopic_similarity",
+          "super_topic_id": "coping",
+          "super_topic_label": "Coping"
+        },
+        {
+          "id": "perfectionism_pattern",
+          "type": "sub_topic",
+          "label": "Perfectionism pattern",
+          "score": 0.33959618244736695,
+          "text": "Type: Sub Topic\nLabel: Perfectionism pattern\nAliases: must get it right, perfectionistic\nParent topics: Coping",
+          "selection_method": "subtopic_similarity",
+          "super_topic_id": "coping",
+          "super_topic_label": "Coping"
+        }
+      ],
+      "expanded": []
+    },
+    {
+      "turn": 18,
+      "query": "Sydney: That\u2019s an interesting perspective. Framing those check-ins as a moment of self-care could definitely help shift how I view them. It might make it feel less like another chore and more like a chance to really tune in to how I\u2019m feeling, you know? I guess if I think of it as a little break for myself, it might be easier to prioritize. But then I wonder if I\u2019ll still feel guilty about taking that time, like I should be doing something more productive instead. It\u2019s like I want to give myself permission to pause, but there\u2019s always that nagging voice saying I should be doing more. I suppose it\u2019s about learning to value that time for reflection, but it feels like a tricky balance to strike.",
+      "prompt_context": "- Self-attack pattern (Coping)\n- Rumination pattern (Coping)\n- Caretaking role burden (Social Life)\n\nExplicitly discuss this topic in normal, client-friendly language. Ask whether it fits the client, while leaving room for them to say it does not.",
+      "anchors": [
+        {
+          "id": "self_attack_pattern",
+          "type": "sub_topic",
+          "label": "Self-attack pattern",
+          "score": 0.35583573786446615,
+          "text": "Type: Sub Topic\nLabel: Self-attack pattern\nAliases: beating myself up, self-criticism\nParent topics: Coping",
+          "selection_method": "subtopic_similarity",
+          "super_topic_id": "coping",
+          "super_topic_label": "Coping"
+        },
+        {
+          "id": "rumination_pattern",
+          "type": "sub_topic",
+          "label": "Rumination pattern",
+          "score": 0.34208015095724714,
+          "text": "Type: Sub Topic\nLabel: Rumination pattern\nAliases: overthinking, rumination\nParent topics: Coping",
+          "selection_method": "subtopic_similarity",
+          "super_topic_id": "coping",
+          "super_topic_label": "Coping"
+        },
+        {
+          "id": "caretaking_roles",
+          "type": "sub_topic",
+          "label": "Caretaking role burden",
+          "score": 0.333949285857512,
+          "text": "Type: Sub Topic\nLabel: Caretaking role burden\nAliases: caretaking role, taking care of others\nParent topics: Social Life",
+          "selection_method": "subtopic_similarity",
+          "super_topic_id": "social_life",
+          "super_topic_label": "Social Life"
+        }
+      ],
+      "expanded": []
+    },
+    {
+      "turn": 19,
+      "query": "Sydney: Yeah, I see what you mean about reframing the guilt. It\u2019s kind of like reminding myself that taking a step back can actually help me move forward in a healthier way. I guess if I think of those moments as investments in my well-being, it might make it easier to justify taking that time. But then, there\u2019s still that part of me that worries about falling behind or not meeting expectations, whether they\u2019re my own or what I think others expect of me. It\u2019s like I\u2019m constantly measuring myself against some invisible standard, and it can be exhausting. I want to be kinder to myself, but it feels like I\u2019m always battling that pressure to keep pushing. It\u2019s frustrating, really.",
+      "prompt_context": "- Self-attack pattern (Coping)\n- Rumination pattern (Coping)\n- Perfectionism pattern (Coping)\n\nExplicitly discuss this topic in normal, client-friendly language. Ask whether it fits the client, while leaving room for them to say it does not.",
+      "anchors": [
+        {
+          "id": "self_attack_pattern",
+          "type": "sub_topic",
+          "label": "Self-attack pattern",
+          "score": 0.41241154711582656,
+          "text": "Type: Sub Topic\nLabel: Self-attack pattern\nAliases: beating myself up, self-criticism\nParent topics: Coping",
+          "selection_method": "subtopic_similarity",
+          "super_topic_id": "coping",
+          "super_topic_label": "Coping"
+        },
+        {
+          "id": "rumination_pattern",
+          "type": "sub_topic",
+          "label": "Rumination pattern",
+          "score": 0.37084764758921634,
+          "text": "Type: Sub Topic\nLabel: Rumination pattern\nAliases: overthinking, rumination\nParent topics: Coping",
+          "selection_method": "subtopic_similarity",
+          "super_topic_id": "coping",
+          "super_topic_label": "Coping"
+        },
+        {
+          "id": "perfectionism_pattern",
+          "type": "sub_topic",
+          "label": "Perfectionism pattern",
+          "score": 0.36700781216691986,
+          "text": "Type: Sub Topic\nLabel: Perfectionism pattern\nAliases: must get it right, perfectionistic\nParent topics: Coping",
+          "selection_method": "subtopic_similarity",
+          "super_topic_id": "coping",
+          "super_topic_label": "Coping"
+        }
+      ],
+      "expanded": []
+    },
+    {
+      "turn": 20,
+      "query": "Sydney: You know, I think those standards really do come from a mix of places\u2014like my upbringing, school, and just society in general. There\u2019s this constant message that you have to achieve, be productive, and always be on top of your game. It\u2019s like I\u2019ve internalized that to the point where I feel guilty for even thinking about taking a break. I guess part of me wonders if I\u2019d even know how to define my worth outside of those achievements. It\u2019s frustrating because I want to feel good about myself just for being me, but it often feels like that\u2019s not enough. I don\u2019t know, maybe I just need to dig deeper into where all this pressure is coming from. It\u2019s just... a lot to unpack, you know?",
+      "prompt_context": "- Family pressure (Family)\n- Perfectionism pattern (Coping)\n- Role insecurity (Work)\n\nExplicitly discuss this topic in normal, client-friendly language. Ask whether it fits the client, while leaving room for them to say it does not.",
+      "anchors": [
+        {
+          "id": "family_pressure",
+          "type": "sub_topic",
+          "label": "Family pressure",
+          "score": 0.4120108627741794,
+          "text": "Type: Sub Topic\nLabel: Family pressure\nAliases: pressure from family, expectations at home\nParent topics: Family",
+          "selection_method": "subtopic_similarity",
+          "super_topic_id": "family",
+          "super_topic_label": "Family"
+        },
+        {
+          "id": "perfectionism_pattern",
+          "type": "sub_topic",
+          "label": "Perfectionism pattern",
+          "score": 0.3991449022288493,
+          "text": "Type: Sub Topic\nLabel: Perfectionism pattern\nAliases: must get it right, perfectionistic\nParent topics: Coping",
+          "selection_method": "subtopic_similarity",
+          "super_topic_id": "coping",
+          "super_topic_label": "Coping"
+        },
+        {
+          "id": "role_insecurity",
+          "type": "sub_topic",
+          "label": "Role insecurity",
+          "score": 0.38625052231765794,
+          "text": "Type: Sub Topic\nLabel: Role insecurity\nAliases: job insecurity, not good enough at work\nParent topics: Work",
+          "selection_method": "subtopic_similarity",
+          "super_topic_id": "work",
+          "super_topic_label": "Work"
+        }
+      ],
+      "expanded": []
+    },
+    {
+      "turn": 21,
+      "query": "Sydney: Well, growing up, it was always about doing well in school and being involved in extracurricular activities. I remember my parents would praise me for good grades or when I won a competition, but it felt like there was this unspoken expectation that I had to keep achieving to maintain that approval. If I didn\u2019t do well, it was like I was letting everyone down, and that made me feel really anxious. I think I internalized this idea that my value was tied to my accomplishments, and it\u2019s hard to shake that off. Even now, I catch myself thinking that if I\u2019m not constantly busy or productive, I\u2019m somehow failing. It\u2019s exhausting because I want to be proud of who I am, but I feel like I\u2019m always measuring myself against those past experiences. It\u2019s like I\u2019m stuck in this loop of needing to prove myself, and it\u2019s frustrating to think about how that affects my self-worth.",
+      "prompt_context": "- Perfectionism pattern (Coping)\n- Worthlessness theme (Identity)\n- Performance pressure (Education)\n\nExplicitly discuss this topic in normal, client-friendly language. Ask whether it fits the client, while leaving room for them to say it does not.",
+      "anchors": [
+        {
+          "id": "perfectionism_pattern",
+          "type": "sub_topic",
+          "label": "Perfectionism pattern",
+          "score": 0.43710088014195686,
+          "text": "Type: Sub Topic\nLabel: Perfectionism pattern\nAliases: must get it right, perfectionistic\nParent topics: Coping",
+          "selection_method": "subtopic_similarity",
+          "super_topic_id": "coping",
+          "super_topic_label": "Coping"
+        },
+        {
+          "id": "worthlessness_theme",
+          "type": "sub_topic",
+          "label": "Worthlessness theme",
+          "score": 0.4128003229769787,
+          "text": "Type: Sub Topic\nLabel: Worthlessness theme\nAliases: worthless, not valuable\nParent topics: Identity",
+          "selection_method": "subtopic_similarity",
+          "super_topic_id": "identity",
+          "super_topic_label": "Identity"
+        },
+        {
+          "id": "performance_pressure",
+          "type": "sub_topic",
+          "label": "Performance pressure",
+          "score": 0.4066377122941054,
+          "text": "Type: Sub Topic\nLabel: Performance pressure\nAliases: pressure to perform, academic pressure\nParent topics: Education",
+          "selection_method": "subtopic_similarity",
+          "super_topic_id": "education",
+          "super_topic_label": "Education"
+        }
+      ],
+      "expanded": []
+    },
+    {
+      "turn": 22,
+      "query": "Sydney: You know, it\u2019s a bit of a mixed bag when I think about it. On one hand, recognizing that connection feels like a light bulb moment\u2014like, okay, now I see why I\u2019m so hard on myself. But on the other hand, it\u2019s frustrating because it feels like I\u2019m trapped in this cycle that I can\u2019t break free from. I remember specific moments, like when I didn\u2019t get the grades I wanted or when I tried out for a team and didn\u2019t make it. Those times felt like the end of the world to me, and I remember thinking that I had disappointed not just myself, but everyone around me too. It\u2019s like those experiences are etched in my mind, and they keep resurfacing whenever I feel like I\u2019m not measuring up. I guess it\u2019s hard to let go of that pressure when it feels so ingrained in who I am. It\u2019s like I\u2019m constantly battling this internal narrative that tells me I\u2019m not enough unless I achieve something.",
+      "prompt_context": "- Self-attack pattern (Coping)\n- Identity shame (Identity)\n- Perfectionism pattern (Coping)\n\nExplicitly discuss this topic in normal, client-friendly language. Ask whether it fits the client, while leaving room for them to say it does not.",
+      "anchors": [
+        {
+          "id": "self_attack_pattern",
+          "type": "sub_topic",
+          "label": "Self-attack pattern",
+          "score": 0.44463934793648496,
+          "text": "Type: Sub Topic\nLabel: Self-attack pattern\nAliases: beating myself up, self-criticism\nParent topics: Coping",
+          "selection_method": "subtopic_similarity",
+          "super_topic_id": "coping",
+          "super_topic_label": "Coping"
+        },
+        {
+          "id": "identity_shame",
+          "type": "sub_topic",
+          "label": "Identity shame",
+          "score": 0.4279438988552317,
+          "text": "Type: Sub Topic\nLabel: Identity shame\nAliases: ashamed of who I am\nParent topics: Identity",
+          "selection_method": "subtopic_similarity",
+          "super_topic_id": "identity",
+          "super_topic_label": "Identity"
+        },
+        {
+          "id": "perfectionism_pattern",
+          "type": "sub_topic",
+          "label": "Perfectionism pattern",
+          "score": 0.4092597850824859,
+          "text": "Type: Sub Topic\nLabel: Perfectionism pattern\nAliases: must get it right, perfectionistic\nParent topics: Coping",
+          "selection_method": "subtopic_similarity",
+          "super_topic_id": "coping",
+          "super_topic_label": "Coping"
+        }
+      ],
+      "expanded": []
+    },
+    {
+      "turn": 23,
+      "query": "Sydney: Well, when I find myself in those situations, it\u2019s like a switch flips. I start to feel this tightness in my chest, and my mind races with all the things I should be doing or could have done differently. It\u2019s almost like I can hear that nagging voice again, reminding me of past failures and how I\u2019m not living up to expectations. I tend to withdraw a bit, either by avoiding certain situations or overcompensating by pushing myself even harder to prove I can do better. It\u2019s a weird cycle because while I want to push through and show that I can achieve, I also feel this overwhelming urge to just escape the pressure altogether. It\u2019s like I\u2019m caught between wanting to prove myself and wanting to run away from it all. And then, of course, there\u2019s the guilt that comes with that\u2014like I\u2019m letting myself down for not being able to handle it. It\u2019s exhausting, honestly.",
+      "prompt_context": "- Self-attack pattern (Coping)\n- Overcontrol pattern (Coping)\n- Perfectionism pattern (Coping)\n\nExplicitly discuss this topic in normal, client-friendly language. Ask whether it fits the client, while leaving room for them to say it does not.",
+      "anchors": [
+        {
+          "id": "self_attack_pattern",
+          "type": "sub_topic",
+          "label": "Self-attack pattern",
+          "score": 0.43987605987635864,
+          "text": "Type: Sub Topic\nLabel: Self-attack pattern\nAliases: beating myself up, self-criticism\nParent topics: Coping",
+          "selection_method": "subtopic_similarity",
+          "super_topic_id": "coping",
+          "super_topic_label": "Coping"
+        },
+        {
+          "id": "overcontrol_pattern",
+          "type": "sub_topic",
+          "label": "Overcontrol pattern",
+          "score": 0.41944606025030284,
+          "text": "Type: Sub Topic\nLabel: Overcontrol pattern\nAliases: must stay in control, overcontrol\nParent topics: Coping",
+          "selection_method": "subtopic_similarity",
+          "super_topic_id": "coping",
+          "super_topic_label": "Coping"
+        },
+        {
+          "id": "perfectionism_pattern",
+          "type": "sub_topic",
+          "label": "Perfectionism pattern",
+          "score": 0.41116093883973026,
+          "text": "Type: Sub Topic\nLabel: Perfectionism pattern\nAliases: must get it right, perfectionistic\nParent topics: Coping",
+          "selection_method": "subtopic_similarity",
+          "super_topic_id": "coping",
+          "super_topic_label": "Coping"
+        }
+      ],
+      "expanded": []
+    },
+    {
+      "turn": 24,
+      "query": "Sydney: Well, in those moments, I often find myself trying to distract myself from the pressure. I might binge-watch a show or scroll through social media, just to escape the thoughts swirling in my head. It\u2019s like I\u2019m looking for a way to numb the anxiety, even if it\u2019s just for a little while. But then, of course, that guilt creeps back in because I know I\u2019m avoiding the issue instead of facing it. Sometimes I\u2019ll even throw myself into work or projects, thinking that if I can just accomplish something, it\u2019ll make me feel better. But it\u2019s a temporary fix, and I end up feeling even more drained afterward. I guess what drives those responses is this fear of not being good enough or not living up to what I think I should be doing. It\u2019s like I\u2019m stuck in this cycle of seeking validation through productivity, but it never really fills that void. It\u2019s frustrating because I want to break free from it, but I don\u2019t always know how.",
+      "prompt_context": "- Craving escape (Addiction)\n- Self-attack pattern (Coping)\n- Perfectionism pattern (Coping)\n\nExplicitly discuss this topic in normal, client-friendly language. Ask whether it fits the client, while leaving room for them to say it does not.",
+      "anchors": [
+        {
+          "id": "craving_escape",
+          "type": "sub_topic",
+          "label": "Craving escape",
+          "score": 0.427750011521242,
+          "text": "Type: Sub Topic\nLabel: Craving escape\nAliases: urge to escape, craving relief\nParent topics: Addiction",
+          "selection_method": "subtopic_similarity",
+          "super_topic_id": "addiction",
+          "super_topic_label": "Addiction"
+        },
+        {
+          "id": "self_attack_pattern",
+          "type": "sub_topic",
+          "label": "Self-attack pattern",
+          "score": 0.3977968721600779,
+          "text": "Type: Sub Topic\nLabel: Self-attack pattern\nAliases: beating myself up, self-criticism\nParent topics: Coping",
+          "selection_method": "subtopic_similarity",
+          "super_topic_id": "coping",
+          "super_topic_label": "Coping"
+        },
+        {
+          "id": "perfectionism_pattern",
+          "type": "sub_topic",
+          "label": "Perfectionism pattern",
+          "score": 0.39748513886631176,
+          "text": "Type: Sub Topic\nLabel: Perfectionism pattern\nAliases: must get it right, perfectionistic\nParent topics: Coping",
+          "selection_method": "subtopic_similarity",
+          "super_topic_id": "coping",
+          "super_topic_label": "Coping"
+        }
+      ],
+      "expanded": []
+    },
+    {
+      "turn": 25,
+      "query": "Sydney: Honestly, the idea of taking a step back feels really daunting. I mean, facing those feelings directly sounds like it could be a good thing, but it also makes me anxious just thinking about it. I worry that if I stop distracting myself, all those overwhelming thoughts and feelings will come rushing in, and I won't know how to handle them. It\u2019s like I\u2019ve built this wall to protect myself from that anxiety, and if I take it down, I might just crumble. I guess part of me fears that if I confront those feelings, I\u2019ll be faced with the reality of how much pressure I\u2019ve been putting on myself, and that\u2019s a lot to unpack. But I also know that avoiding it isn\u2019t working, so maybe there\u2019s a way to approach it without feeling completely overwhelmed? I just... I don\u2019t know what that looks like yet.",
+      "prompt_context": "- Fear of intimacy (Relationships)\n- Self-attack pattern (Coping)\n- Rumination pattern (Coping)\n\nExplicitly discuss this topic in normal, client-friendly language. Ask whether it fits the client, while leaving room for them to say it does not.",
+      "anchors": [
+        {
+          "id": "intimacy_fear",
+          "type": "sub_topic",
+          "label": "Fear of intimacy",
+          "score": 0.3749886181892739,
+          "text": "Type: Sub Topic\nLabel: Fear of intimacy\nAliases: afraid of closeness, fear of vulnerability\nParent topics: Relationships",
+          "selection_method": "subtopic_similarity",
+          "super_topic_id": "relationships",
+          "super_topic_label": "Relationships"
+        },
+        {
+          "id": "self_attack_pattern",
+          "type": "sub_topic",
+          "label": "Self-attack pattern",
+          "score": 0.36870127207147835,
+          "text": "Type: Sub Topic\nLabel: Self-attack pattern\nAliases: beating myself up, self-criticism\nParent topics: Coping",
+          "selection_method": "subtopic_similarity",
+          "super_topic_id": "coping",
+          "super_topic_label": "Coping"
+        },
+        {
+          "id": "rumination_pattern",
+          "type": "sub_topic",
+          "label": "Rumination pattern",
+          "score": 0.36072050453579524,
+          "text": "Type: Sub Topic\nLabel: Rumination pattern\nAliases: overthinking, rumination\nParent topics: Coping",
+          "selection_method": "subtopic_similarity",
+          "super_topic_id": "coping",
+          "super_topic_label": "Coping"
+        }
+      ],
+      "expanded": []
+    }
+  ],
+  "topic_probe_events": [
+    {
+      "turn": 1,
+      "prompt_context": "- Community disconnection (Social Life)\n\nExplicitly discuss this topic in normal, client-friendly language. Ask whether it fits the client, while leaving room for them to say it does not.",
+      "anchors": [
+        {
+          "id": "community_disconnection",
+          "type": "sub_topic",
+          "label": "Community disconnection",
+          "score": 1.0,
+          "selection_method": "random_subtopic_probe",
+          "super_topic_id": "social_life",
+          "super_topic_label": "Social Life"
+        }
+      ],
+      "expanded": [],
+      "client_reply": "Sydney: Well, I mean, I guess I can see how some people might feel disconnected, but I don't know if that's really the case for me. It's just... sometimes I feel like I don't quite fit in, you know? Like, I try to engage with people, but it often feels forced or awkward. I don't want to come off as needy or anything. I mean, I have acquaintances, but real connections? That\u2019s a different story. It\u2019s just hard to navigate all that, especially when I\u2019m dealing with my stomach issues. It\u2019s like, how can I focus on socializing when I\u2019m worried about feeling unwell? So, I guess I\u2019m just... cautious about putting myself out there too much.",
+      "graph_context_source": "random_subtopic_probe"
+    },
+    {
+      "turn": 3,
+      "prompt_context": "- Institutional fear (Law)\n\nExplicitly discuss this topic in normal, client-friendly language. Ask whether it fits the client, while leaving room for them to say it does not.",
+      "anchors": [
+        {
+          "id": "institutional_fear",
+          "type": "sub_topic",
+          "label": "Institutional fear",
+          "score": 1.0,
+          "selection_method": "random_subtopic_probe",
+          "super_topic_id": "law",
+          "super_topic_label": "Law"
+        }
+      ],
+      "expanded": [],
+      "client_reply": "Sydney: Yeah, I guess that makes sense. I mean, there\u2019s definitely a part of me that worries about how people might judge me, especially in social settings. It\u2019s like, I don\u2019t want to be the odd one out or the person who brings the mood down because I\u2019m not feeling well or because I\u2019m overthinking everything. I think I\u2019ve seen others navigate these situations with ease, and then there\u2019s me, feeling like I\u2019m stumbling through it all. It\u2019s frustrating because I want to be more confident and just enjoy being around people. But then I think about how they might react if I\u2019m not at my best, and that just makes me want to retreat even more. So, yeah, it\u2019s a mix of fear and just feeling overwhelmed by it all.",
+      "graph_context_source": "random_subtopic_probe"
+    },
+    {
+      "turn": 5,
+      "prompt_context": "- Unsafe environment (Trauma)\n\nExplicitly discuss this topic in normal, client-friendly language. Ask whether it fits the client, while leaving room for them to say it does not.",
+      "anchors": [
+        {
+          "id": "unsafe_environment",
+          "type": "sub_topic",
+          "label": "Unsafe environment",
+          "score": 1.0,
+          "selection_method": "random_subtopic_probe",
+          "super_topic_id": "trauma",
+          "super_topic_label": "Trauma"
+        }
+      ],
+      "expanded": [],
+      "client_reply": "Sydney: Well, I think it\u2019s a bit of both, honestly. There are definitely times when I feel uncomfortable in social settings, like I\u2019m not really sure how to navigate the dynamics or if I\u2019ll fit in. But then there\u2019s also that internal dialogue that just won\u2019t quit. It\u2019s like, even if I\u2019m in a relatively safe environment, my mind is still racing with all those \u201cwhat ifs.\u201d What if I say something stupid? What if they don\u2019t want to talk to me? It\u2019s exhausting, and I can\u2019t seem to shake it off. I guess I just wish I could find a way to quiet that voice, you know? But then I wonder if that\u2019s even possible. It feels like I\u2019m stuck in this loop where I want to connect but end up holding myself back because of all these fears. It\u2019s frustrating, to say the least.",
+      "graph_context_source": "random_subtopic_probe"
+    },
+    {
+      "turn": 7,
+      "prompt_context": "- Relapse risk (Addiction)\n\nExplicitly discuss this topic in normal, client-friendly language. Ask whether it fits the client, while leaving room for them to say it does not.",
+      "anchors": [
+        {
+          "id": "relapse_risk",
+          "type": "sub_topic",
+          "label": "Relapse risk",
+          "score": 1.0,
+          "selection_method": "random_subtopic_probe",
+          "super_topic_id": "addiction",
+          "super_topic_label": "Addiction"
+        }
+      ],
+      "expanded": [],
+      "client_reply": "Sydney: Yeah, I mean, I\u2019ve thought about that too. Maybe if I could practice those techniques in smaller, less intimidating settings first, it might help build my confidence. Like, maybe starting with a close friend or family member where I feel a bit safer. I guess it\u2019s just about finding that initial step that feels manageable. But then I get caught up in thinking, what if I still feel anxious even then? It\u2019s like I want to try, but there\u2019s always that nagging doubt in the back of my mind. I just wish I could trust that it would get easier over time. It\u2019s frustrating to feel like I\u2019m stuck in this cycle of wanting to break out but not knowing how to start.",
+      "graph_context_source": "random_subtopic_probe"
+    },
+    {
+      "turn": 9,
+      "prompt_context": "- Peer rejection (Social Life)\n\nExplicitly discuss this topic in normal, client-friendly language. Ask whether it fits the client, while leaving room for them to say it does not.",
+      "anchors": [
+        {
+          "id": "peer_rejection",
+          "type": "sub_topic",
+          "label": "Peer rejection",
+          "score": 1.0,
+          "selection_method": "random_subtopic_probe",
+          "super_topic_id": "social_life",
+          "super_topic_label": "Social Life"
+        }
+      ],
+      "expanded": [],
+      "client_reply": "Sydney: Yeah, I think that does resonate with me. It\u2019s just hard to break that habit of focusing on what\u2019s going wrong instead of what\u2019s going right. Maybe I could keep a little journal or something, just to jot down those small wins when they happen, even if they feel insignificant at the time. It might help me see that progress is possible, even if it\u2019s slow. But then I worry about keeping up with it, like what if I forget to write things down or I don\u2019t feel like there\u2019s anything worth noting? It\u2019s like I want to be proactive, but then I get caught up in my own expectations and doubts. I guess it\u2019s just about finding that balance again, but it feels like such a tall order sometimes.",
+      "graph_context_source": "random_subtopic_probe"
+    },
+    {
+      "turn": 11,
+      "prompt_context": "- Substance use (Addiction)\n\nExplicitly discuss this topic in normal, client-friendly language. Ask whether it fits the client, while leaving room for them to say it does not.",
+      "anchors": [
+        {
+          "id": "substance_use",
+          "type": "sub_topic",
+          "label": "Substance use",
+          "score": 1.0,
+          "selection_method": "random_subtopic_probe",
+          "super_topic_id": "addiction",
+          "super_topic_label": "Addiction"
+        }
+      ],
+      "expanded": [],
+      "client_reply": "Sydney: Yeah, I think that does resonate with me. It\u2019s like, even just trying to notice those small moments could be a win, right? But then I get caught up in this cycle of thinking, \u201cWhat if I don\u2019t notice anything?\u201d or \u201cWhat if I forget to write it down?\u201d It\u2019s frustrating because I want to be kind to myself, but that voice in my head keeps pushing back. I guess maybe I could remind myself that the effort itself counts, even if I don\u2019t always see the results right away. It\u2019s just hard to keep that in mind when I\u2019m feeling overwhelmed. I suppose if I can find a way to be more gentle with myself, it might help me break that cycle. But it feels like a constant battle, you know?",
+      "graph_context_source": "random_subtopic_probe"
+    },
+    {
+      "turn": 13,
+      "prompt_context": "- Family distance (Family)\n\nExplicitly discuss this topic in normal, client-friendly language. Ask whether it fits the client, while leaving room for them to say it does not.",
+      "anchors": [
+        {
+          "id": "family_distance",
+          "type": "sub_topic",
+          "label": "Family distance",
+          "score": 1.0,
+          "selection_method": "random_subtopic_probe",
+          "super_topic_id": "family",
+          "super_topic_label": "Family"
+        }
+      ],
+      "expanded": [],
+      "client_reply": "Sydney: Yeah, I think integrating those reminders into my daily routine could be a good idea. Maybe I could write them down and put them on my bathroom mirror or somewhere I see them often. That way, they\u2019d be more present in my mind, and I wouldn\u2019t have to rely solely on remembering them in the moment. I guess it\u2019s about creating those little nudges for myself, you know? But then I worry that I might get used to seeing them and not really absorb their meaning anymore. It\u2019s like, how do I keep that sense of freshness or impact when I\u2019m surrounded by the same words every day? I don\u2019t want them to lose their power, but I also want to make sure I\u2019m giving myself those reminders consistently. It\u2019s just... a lot to juggle, I guess.",
+      "graph_context_source": "random_subtopic_probe"
+    },
+    {
+      "turn": 15,
+      "prompt_context": "- Hypervigilance (Safety)\n\nExplicitly discuss this topic in normal, client-friendly language. Ask whether it fits the client, while leaving room for them to say it does not.",
+      "anchors": [
+        {
+          "id": "safety_hypervigilance",
+          "type": "sub_topic",
+          "label": "Hypervigilance",
+          "score": 1.0,
+          "selection_method": "random_subtopic_probe",
+          "super_topic_id": "safety",
+          "super_topic_label": "Safety"
+        }
+      ],
+      "expanded": [],
+      "client_reply": "Sydney: Yeah, that could work. Setting a gentle reminder sounds like a practical way to keep myself accountable without adding too much pressure. Maybe I could tie it to something I already do, like my morning coffee or something. That way, it wouldn\u2019t feel like an extra task but more of a part of my routine. But then I worry about getting too caught up in the reminders themselves and not actually focusing on the affirmations when I need them. It\u2019s like I want to make sure I\u2019m not just going through the motions, you know? I guess it\u2019s all about finding that balance again, but it feels like a lot to manage sometimes.",
+      "graph_context_source": "random_subtopic_probe"
+    }
+  ],
+  "topic_probe_config": {
+    "probe_turns": 15,
+    "probe_interval": 2,
+    "probe_anchor_count": 1,
+    "random_seed": null
+  },
+  "final_openness_score": 4,
+  "final_visible_experience_count": 1,
+  "internal_revealed": true
+}

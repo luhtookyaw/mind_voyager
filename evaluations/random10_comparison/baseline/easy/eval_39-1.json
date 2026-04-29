@@ -1,0 +1,65 @@
+{
+  "aggregate": {
+    "num_sessions": 1,
+    "edss": {
+      "situation": 0.5081707569147136,
+      "automatic_thought": 0.4144556192469769,
+      "emotion": 0.7047272609139271,
+      "behavior": 0.40554121696614565,
+      "average": 0.5082237135104408
+    },
+    "idss": {
+      "relevant_history": 0.6800083292831962,
+      "core_beliefs": 0.5995318152374755,
+      "intermediate_beliefs": 0.4904532408173275,
+      "coping_strategies": 0.5791176336549921,
+      "average": 0.5872777547482478
+    }
+  },
+  "sessions": [
+    {
+      "file": "/home/lu/Thesis/mind_voyager/outputs/random10_comparison/baseline/easy/session_39-1.json",
+      "case_id": "39-1",
+      "client_mode": "masked",
+      "difficulty": "easy",
+      "predicted_external_diagram": {
+        "situation": "Sydney is experiencing overwhelming stomach issues and is trying to follow dietary advice.",
+        "automatic_thought": "What if I\u2019m not doing it right? What if it\u2019s something worse?",
+        "emotion": "anxious, overwhelmed, frustrated, isolated, lonely, guilty, low, inadequate, exhausted, apprehensive, excited",
+        "behavior": "Sydney avoids foods she used to enjoy and makes excuses to not go out or skip gatherings."
+      },
+      "ground_truth_external_diagram": {
+        "situation": "Experiencing stomach issues and concerned about the healing process.",
+        "automatic_thought": "My stomach problems might not heal; I might not have control over the situation; there could be something else preventing healing.",
+        "emotion": "anxious, worried, fearful, scared, tense",
+        "behavior": "Seeking medical reassurance, ruminating on health, avoiding certain foods, trying to follow medical advice despite anxiety"
+      },
+      "predicted_internal_diagram": {
+        "relevant_history": "The client reports experiencing overwhelming stomach issues and anxiety about whether they are doing enough to help themselves. They feel isolated due to avoiding foods they used to enjoy and have a fear of being judged or misunderstood by friends, leading to feelings of loneliness and guilt for not reaching out. The client also struggles with self-doubt and feelings of inadequacy, worrying about letting friends down and not being the person they used to be.",
+        "core_beliefs": "I am not good enough | I am a burden | I am inadequate",
+        "intermediate_beliefs": "If I don't handle my stomach issues perfectly, then I am failing. | If I reach out to friends, then I might be judged or misunderstood. | The client believes that they should be able to handle their issues better.",
+        "coping_strategies": "The client copes by trying to be proactive about their diet, avoiding foods they used to enjoy, making excuses to not go out, and convincing themselves it's easier to stay home. They also consider writing affirmations, keeping a journal, and setting small, achievable goals to manage their anxiety and self-doubt."
+      },
+      "ground_truth_internal_diagram": {
+        "relevant_history": "The client indicates a history of suffering from anxiety-related stomachaches and experiencing stress-induced physical symptoms. The client also has a past of struggling with their weight, sexuality, and academic performance until a positive transformation occurred in college. Additionally, the client has experienced feelings of not being in control and engaging in patterns of behavior where they seek control in relationships.",
+        "core_beliefs": "I am powerless, weak, vulnerable. | I am trapped. | I am out of control. | I am unlovable. | I am bound to be alone.",
+        "intermediate_beliefs": "If I am not in control, something bad will happen. I need to know the reasons for my symptoms to feel calm. My happiness is directly tied to my physical health and being in a desirable state.\nDepressive variant: When feeling unwell or scared about health, the client obsesses over the causes of their symptoms and fears the worst outcomes, signaling a heightened state of worry and preoccupation with health issues.",
+        "coping_strategies": "Attempting to maintain a sense of control over situations, environments, and relationships; seeking reassurance through understanding causes of physical symptoms; exercising for stress release; using social interactions to distract from anxiety."
+      },
+      "edss": {
+        "situation": 0.5081707569147136,
+        "automatic_thought": 0.4144556192469769,
+        "emotion": 0.7047272609139271,
+        "behavior": 0.40554121696614565,
+        "average": 0.5082237135104408
+      },
+      "idss": {
+        "relevant_history": 0.6800083292831962,
+        "core_beliefs": 0.5995318152374755,
+        "intermediate_beliefs": 0.4904532408173275,
+        "coping_strategies": 0.5791176336549921,
+        "average": 0.5872777547482478
+      }
+    }
+  ]
+}

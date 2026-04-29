@@ -1,0 +1,1105 @@
+{
+  "case_id": "41-1",
+  "client_name": "Quinn",
+  "client_mode": "masked",
+  "difficulty": "hard",
+  "openness_interval": 3,
+  "therapist_provider": "openai",
+  "therapist_model": "gpt-4o-mini",
+  "therapist_prompt_mode": "hybrid_probe",
+  "client_model": "gpt-4o-mini",
+  "moderator_enabled": false,
+  "moderator_model": "gpt-4o-mini",
+  "max_turns": 25,
+  "therapist_turns": 25,
+  "stop_reason": "max_turns",
+  "transcript": [
+    {
+      "turn": 1,
+      "speaker": "therapist",
+      "content": "Hi Quinn, it's nice to meet you. I\u2019m here to listen and support you. I wonder if you've been feeling a lot of stress lately, maybe even a bit overwhelmed? Does that resonate with you, or is there something else on your mind?"
+    },
+    {
+      "turn": 1,
+      "speaker": "client",
+      "content": "Quinn: Well, I mean, I guess stress is part of it. It's just, you know, life can be a bit much sometimes. I don\u2019t really want to go into all the details, but yeah, things can pile up. I just feel like I\u2019m always trying to catch up, and it\u2019s exhausting. But, I mean, who isn\u2019t, right? It\u2019s not like I\u2019m special or anything."
+    },
+    {
+      "turn": 2,
+      "speaker": "therapist",
+      "content": "Therapist: It sounds like you're feeling a lot of pressure and exhaustion from trying to keep up with everything. I hear you saying that it feels overwhelming at times, and it seems like you might be downplaying your experience by comparing it to others. Can you tell me a bit more about what\u2019s been piling up for you?"
+    },
+    {
+      "turn": 2,
+      "speaker": "client",
+      "content": "Quinn: Well, it\u2019s just the usual stuff, you know? Work, trying to keep up with friends, and then there\u2019s just life in general. I mean, I have deadlines, and then there are things I need to do around the house, and it feels like I\u2019m just juggling a million things at once. I don\u2019t know, maybe I\u2019m just not managing my time well or something. But it\u2019s like, every time I think I\u2019m getting a handle on it, something else comes up. It\u2019s frustrating, I guess. But, I mean, I\u2019m sure other people have it worse, right? So, I don\u2019t want to make it seem like it\u2019s a big deal or anything."
+    },
+    {
+      "turn": 3,
+      "speaker": "therapist",
+      "content": "Therapist: It sounds like you\u2019re really feeling the weight of all these responsibilities, and it\u2019s understandable to feel frustrated when it seems like there\u2019s always something new to juggle. I wonder if part of this pressure might be related to your living situation\u2014like managing things around the house or how your space feels. Does that resonate with you at all, or is there something else that feels more relevant?"
+    },
+    {
+      "turn": 3,
+      "speaker": "client",
+      "content": "Quinn: Well, I mean, my living situation is... I guess it could be better. It\u2019s not like a disaster or anything, but there are definitely things that need attention. I try to keep it tidy, but then there are days when I just can\u2019t find the energy to deal with it. And then it piles up, and I feel like I\u2019m drowning in clutter, you know? But I don\u2019t want to make it sound like that\u2019s the only thing going on. It\u2019s just one more thing on the list, I guess. I don\u2019t know if it\u2019s really the main issue, but it doesn\u2019t help, that\u2019s for sure."
+    },
+    {
+      "turn": 4,
+      "speaker": "therapist",
+      "content": "Therapist: It sounds like your living situation adds to the overall sense of being overwhelmed, especially when you feel like you\u2019re drowning in clutter. It\u2019s understandable that when you\u2019re already juggling so much, even small things can feel like they\u2019re piling on. You mentioned that you try to keep things tidy but sometimes lack the energy. Can you share more about what that experience is like for you?"
+    },
+    {
+      "turn": 4,
+      "speaker": "client",
+      "content": "Quinn: Well, it\u2019s just... some days I wake up and I feel like I can take on the world, you know? I\u2019ll plan to tackle a few things around the house, maybe even organize a bit. But then, by the time I get home from work or whatever, I\u2019m just so drained. It\u2019s like my brain just shuts down, and I can\u2019t even think about picking up a broom or sorting through stuff. And then I look around, and it\u2019s like this reminder of everything I haven\u2019t done, and it just makes me feel worse. I guess it\u2019s a cycle\u2014feeling overwhelmed leads to not doing anything, which just makes the mess worse. But I don\u2019t want to dwell on that too much. It\u2019s just part of life, right?"
+    },
+    {
+      "turn": 5,
+      "speaker": "therapist",
+      "content": "Therapist: It sounds like you experience this cycle where feeling overwhelmed drains your energy, making it hard to tackle the tasks you want to get done. That must be really frustrating, especially when you start with good intentions. I wonder if, at times, you find yourself craving an escape from all of this pressure, whether it\u2019s through distractions or something else. Does that resonate with you, or is there another way you cope with everything?"
+    },
+    {
+      "turn": 5,
+      "speaker": "client",
+      "content": "Quinn: Well, I mean, I guess I do find myself looking for distractions sometimes. It\u2019s like, when everything feels too much, I just want to zone out, you know? I might binge-watch a show or scroll through my phone for hours. It\u2019s not really a solution, but it\u2019s easier than facing the mess or the deadlines. I know it\u2019s not productive, but it\u2019s just a way to escape for a bit. But then, of course, I end up feeling guilty about wasting time, which just adds to the whole cycle. It\u2019s like I can\u2019t win, really. But, I mean, who doesn\u2019t need a break now and then?"
+    },
+    {
+      "turn": 6,
+      "speaker": "therapist",
+      "content": "Therapist: It sounds like those distractions provide a temporary escape from the overwhelming feelings and responsibilities, even if they come with a sense of guilt afterward. It\u2019s understandable to seek a break when things feel heavy. I wonder if there are specific moments or triggers that lead you to seek out those distractions more than others?"
+    },
+    {
+      "turn": 6,
+      "speaker": "client",
+      "content": "Quinn: Well, I guess it depends on the day, really. Some days, it\u2019s just the little things that pile up, like a tough meeting at work or a conversation with a friend that didn\u2019t go well. Other times, it\u2019s just feeling like I\u2019m behind on everything, you know? Like, if I come home and see a sink full of dishes or a pile of laundry, it just hits me all at once. It\u2019s like my brain goes, \u201cNope, not today,\u201d and I just want to escape. But then I feel bad for not handling it, which just makes it worse. It\u2019s a bit of a mess, I guess. But I mean, I\u2019m sure everyone deals with their own stuff, right? So, I don\u2019t want to make it seem like it\u2019s a huge deal."
+    },
+    {
+      "turn": 7,
+      "speaker": "therapist",
+      "content": "Therapist: It sounds like those moments of feeling behind or facing little challenges can really trigger that urge to escape, and it makes sense that you\u2019d want to avoid the overwhelm. I wonder if part of what adds to that pressure is feeling judged or criticized by family or friends about how you manage things. Does that fit at all, or is it more about your own expectations?"
+    },
+    {
+      "turn": 7,
+      "speaker": "client",
+      "content": "Quinn: Well, I mean, I guess there\u2019s a bit of both, you know? Sometimes I feel like I\u2019m my own worst critic, always thinking I should be doing better or handling things differently. But then, yeah, there are times when I feel like I can sense judgment from others, too. Like, if I mention that I\u2019m behind on something, I can almost see the look on their faces, like they\u2019re thinking, \u201cWhy can\u2019t you just get it together?\u201d It\u2019s not like anyone outright says it, but you can feel that pressure, right? It\u2019s just... it adds to the whole mess in my head, I guess. But I don\u2019t want to make it seem like I\u2019m just looking for sympathy or anything. It\u2019s just how it is, I suppose."
+    },
+    {
+      "turn": 8,
+      "speaker": "therapist",
+      "content": "Therapist: It sounds like you\u2019re caught in a tough spot, feeling both the weight of your own expectations and the unspoken judgments from others. That must create a lot of pressure, especially when you\u2019re already feeling overwhelmed. I appreciate you sharing that with me. I wonder how these feelings of self-criticism and perceived judgment affect your motivation or how you approach your tasks. Can you tell me more about that?"
+    },
+    {
+      "turn": 8,
+      "speaker": "client",
+      "content": "Quinn: Well, it\u2019s kind of a double-edged sword, you know? On one hand, that self-criticism can push me to try harder, like I feel this need to prove to myself that I can handle things. But then, on the other hand, it can be paralyzing. Like, if I think I\u2019m going to mess something up or if I feel that judgment looming, I just freeze. It\u2019s like I want to avoid even starting because I\u2019m scared of failing or disappointing myself\u2014or, I guess, others too. So, I end up doing nothing instead, which just feeds into that cycle of guilt and frustration. It\u2019s exhausting, really. But I mean, I\u2019m sure everyone has their own battles, right? So, I don\u2019t want to make it sound like I\u2019m special or anything."
+    },
+    {
+      "turn": 9,
+      "speaker": "therapist",
+      "content": "Therapist: It sounds like that self-criticism can be both a motivator and a barrier for you. It\u2019s understandable to feel that push to prove yourself, but it\u2019s also exhausting when it leads to freezing up and doing nothing. I wonder if part of what makes this so heavy is feeling a sense of loneliness in dealing with these pressures, maybe feeling like others don\u2019t really understand what you\u2019re going through. Does that resonate with you at all, or is there something else that feels more relevant?"
+    },
+    {
+      "turn": 9,
+      "speaker": "client",
+      "content": "Quinn: Well, I mean, I guess there\u2019s some truth to that. It can feel pretty isolating, you know? Like, I see people around me who seem to have it all together, and I wonder if they ever feel this way. It\u2019s hard to talk about it, too, because I don\u2019t want to burden anyone with my stuff. So, I just keep it to myself most of the time. I mean, I have friends and family, but sometimes it feels like they wouldn\u2019t really get it, or they\u2019d just say something like, \u201cJust try harder,\u201d which isn\u2019t really helpful. It\u2019s like, I want to connect, but then I pull back because I don\u2019t want to seem like I\u2019m complaining or making excuses. It\u2019s a bit of a tightrope walk, I guess. But, I mean, I\u2019m sure everyone has their own things going on, right? So, I don\u2019t want to make it sound like I\u2019m alone in this."
+    },
+    {
+      "turn": 10,
+      "speaker": "therapist",
+      "content": "Therapist: It sounds like you\u2019re navigating a really delicate balance between wanting to connect with others and feeling hesitant to share your struggles, fearing it might come off as complaining. That sense of isolation can be really tough, especially when you feel like others might not understand. I appreciate your honesty about this. I wonder if there are specific friendships or relationships where you feel more comfortable sharing, or if it tends to feel the same across the board?"
+    },
+    {
+      "turn": 10,
+      "speaker": "client",
+      "content": "Quinn: Well, I mean, there are a couple of friends I feel a bit more comfortable with, you know? Like, we\u2019ve known each other for a long time, and I think they get that life can be messy. But even then, I still hold back sometimes. It\u2019s like I don\u2019t want to bring them down with my stuff, or I worry they\u2019ll think I\u2019m just being dramatic. So, I might share a little, but I usually keep the deeper feelings to myself. It\u2019s just easier that way, I guess. I don\u2019t want to be a burden. But then again, I wonder if that\u2019s just me overthinking things. It\u2019s a bit of a struggle, really. But I mean, I\u2019m sure everyone has their own ways of dealing with things, right? So, I don\u2019t want to make it seem like it\u2019s a big deal or anything."
+    },
+    {
+      "turn": 11,
+      "speaker": "therapist",
+      "content": "Therapist: It sounds like you have a few friends you trust, but even with them, there\u2019s still that hesitation to share the deeper feelings. It\u2019s understandable to worry about being a burden or coming off as dramatic. I wonder if part of what adds to that struggle is the dynamics with your roommate or living situation. Sometimes, sharing a space can bring its own set of stresses. Does that resonate with you at all, or is it more about other relationships?"
+    },
+    {
+      "turn": 11,
+      "speaker": "client",
+      "content": "Quinn: Well, I mean, the living situation does add a layer to it, I guess. My roommate is generally pretty chill, but sometimes I feel like I have to keep things together, you know? Like, if I\u2019m stressed or overwhelmed, I don\u2019t want to bring that energy into the space we share. I worry it might affect the vibe or make things awkward. So, I try to keep things light and not let on that I\u2019m struggling. It\u2019s like I\u2019m putting on a mask, I suppose. But then, that just makes me feel more isolated, like I\u2019m carrying this weight alone. But, I mean, I\u2019m sure everyone has their own ways of handling their living situations, right? So, I don\u2019t want to make it sound like it\u2019s a huge issue or anything."
+    },
+    {
+      "turn": 12,
+      "speaker": "therapist",
+      "content": "Therapist: It sounds like you feel a responsibility to maintain a certain atmosphere in your living space, which can be really challenging when you\u2019re dealing with your own stress. That pressure to keep things light might contribute to that sense of isolation you mentioned earlier. I appreciate you sharing that with me. I wonder how you think this dynamic with your roommate impacts your ability to express what you\u2019re feeling, or if it influences your coping strategies in any way."
+    },
+    {
+      "turn": 12,
+      "speaker": "client",
+      "content": "Quinn: Well, I mean, it definitely makes it harder to express what I\u2019m feeling, you know? I feel like I have to be this version of myself that\u2019s always okay, or at least pretending to be. So, when I\u2019m struggling, I just bottle it up instead of talking about it. It\u2019s like I\u2019m worried that if I show any vulnerability, it\u2019ll change how my roommate sees me or how we interact. I don\u2019t want to create any tension or make things uncomfortable. So, I guess I just end up dealing with it on my own, which isn\u2019t great, but it feels like the easier option at the moment. But, I mean, I\u2019m sure everyone has their own ways of managing their living situations, right? So, I don\u2019t want to make it sound like it\u2019s a big deal or anything."
+    },
+    {
+      "turn": 13,
+      "speaker": "therapist",
+      "content": "Therapist: It sounds like you feel a strong need to maintain that \"always okay\" version of yourself around your roommate, which makes it tough to express what you\u2019re really going through. It\u2019s understandable to want to avoid any tension or discomfort in your living situation. I wonder if part of this pressure comes from your experiences with education and performance expectations as well. Do you feel like that pressure to perform or succeed in school adds to how you manage your feelings at home, or is it more about other factors?"
+    },
+    {
+      "turn": 13,
+      "speaker": "client",
+      "content": "Quinn: Well, I mean, yeah, I guess there\u2019s some overlap there. School has always felt like this big pressure cooker, you know? Like, there\u2019s this constant expectation to achieve and keep up, and it can be really overwhelming. I think that pressure spills over into my personal life, too. It\u2019s like I feel like I have to be on top of everything, both academically and in my relationships. So, when I\u2019m struggling with school stuff, it just adds to that feeling of needing to keep it all together at home. I don\u2019t want to let anyone down, whether it\u2019s my professors or my roommate. But then, that just makes it harder to admit when I\u2019m not doing well, because it feels like I\u2019m failing on multiple fronts. But, I mean, I\u2019m sure everyone has their own ways of dealing with school pressures, right? So, I don\u2019t want to make it sound like it\u2019s just me or anything."
+    },
+    {
+      "turn": 14,
+      "speaker": "therapist",
+      "content": "Therapist: It sounds like the pressure from school really amplifies everything for you, creating a sense of needing to excel in both your academic life and your personal relationships. That can be a heavy burden to carry, especially when it feels like admitting to struggles might mean failing in multiple areas. I appreciate you sharing this with me. I wonder if there are specific moments or experiences in school that have shaped how you view these expectations, or if there are particular situations that feel especially challenging for you right now."
+    },
+    {
+      "turn": 14,
+      "speaker": "client",
+      "content": "Quinn: Well, I mean, there have definitely been moments that stick out, you know? Like, there was this one time I had a big project due, and I thought I was prepared, but then I ended up procrastinating and barely finished it on time. I remember feeling so stressed and anxious, and when I got the grade back, it wasn\u2019t what I expected. That really hit hard. It felt like proof that I couldn\u2019t handle things, and I just kept thinking about how I let myself down. It\u2019s like those moments just reinforce that fear of failure, you know? And then I start to worry about what others think, like if they see me as someone who can\u2019t keep up. So, I guess it just adds to that pressure I feel to always be on top of things. But, I mean, I\u2019m sure everyone has their own experiences with school, right? So, I don\u2019t want to make it sound like it\u2019s just me or anything."
+    },
+    {
+      "turn": 15,
+      "speaker": "therapist",
+      "content": "Therapist: It sounds like that experience really left a mark on you, reinforcing those fears of failure and the pressure to meet expectations. It\u2019s tough when a single moment can feel like proof of what you worry about. I appreciate you sharing that with me. I wonder if there are any aspects of your life outside of school, like family or personal relationships, where you feel similar pressures or expectations, or if it feels more concentrated in your academic life?"
+    },
+    {
+      "turn": 15,
+      "speaker": "client",
+      "content": "Quinn: Well, I mean, I guess it\u2019s a bit of both, you know? Family can be a source of pressure, too, but in a different way. Like, my parents have always had high expectations for me, and I feel like they want me to succeed in everything I do. So, there\u2019s this underlying pressure to make them proud, which can be really overwhelming. But at the same time, they can be pretty understanding, so it\u2019s not all bad. I just sometimes feel like I have to live up to this ideal of what they think I should be. It\u2019s like I\u2019m constantly trying to balance their expectations with my own feelings and struggles. But, I mean, I\u2019m sure everyone has their own family dynamics, right? So, I don\u2019t want to make it sound like it\u2019s just me or anything."
+    },
+    {
+      "turn": 16,
+      "speaker": "therapist",
+      "content": "Therapist: It sounds like your family dynamics add another layer of complexity to the pressures you feel, with high expectations from your parents creating a sense of needing to meet an ideal. It\u2019s understandable to feel overwhelmed trying to balance their expectations with your own feelings and struggles. I appreciate you sharing that insight. I wonder if there are specific moments or conversations with your family that stand out to you, where you felt that pressure most acutely, or if there are ways you\u2019ve found to cope with those expectations over time."
+    },
+    {
+      "turn": 16,
+      "speaker": "client",
+      "content": "Quinn: Well, I mean, there have definitely been conversations that stick out, you know? Like, I remember one time my parents came to visit, and they asked about my grades and future plans. They were really supportive, but I could feel this underlying expectation that I should have everything figured out. It\u2019s like they were proud of me, but I also sensed that they wanted me to be on this clear path to success. And I just felt this pressure to present myself as someone who had it all together, even though I was feeling pretty lost at the time. It\u2019s tough, because I know they mean well, but it just adds to that feeling of needing to meet their expectations. I guess I cope by trying to reassure them that I\u2019m doing okay, even when I\u2019m not sure myself. But, I mean, I\u2019m sure everyone has their own family conversations that can feel heavy, right? So, I don\u2019t want to make it sound like it\u2019s just me or anything."
+    },
+    {
+      "turn": 17,
+      "speaker": "therapist",
+      "content": "Therapist: It sounds like that visit with your parents really highlighted the tension between their support and the expectations you felt. It\u2019s understandable to want to reassure them, especially when you sense their hopes for your future. That pressure to appear as if you have everything figured out, even when you\u2019re feeling lost, can be really challenging. I appreciate you sharing that experience. I wonder how you feel when you\u2019re in those conversations with them\u2014do you notice any specific emotions or thoughts that come up for you in those moments?"
+    },
+    {
+      "turn": 17,
+      "speaker": "client",
+      "content": "Quinn: Well, I mean, when I\u2019m in those conversations, I usually feel this mix of anxiety and pressure, you know? It\u2019s like my heart starts racing a bit, and I can feel this tightness in my chest. I think a part of me just wants to be honest about where I\u2019m at, but then I worry about disappointing them or not living up to what they expect. So, I end up saying things that sound reassuring, even if I don\u2019t fully believe them myself. It\u2019s like I\u2019m trying to convince both them and myself that I\u2019m okay, but inside, I\u2019m just feeling this weight of uncertainty. I guess I just want to avoid any awkwardness or disappointment, but it can be really exhausting. But, I mean, I\u2019m sure everyone has their own ways of handling family conversations, right? So, I don\u2019t want to make it sound like it\u2019s just me or anything."
+    },
+    {
+      "turn": 18,
+      "speaker": "therapist",
+      "content": "Therapist: It sounds like those conversations bring up a lot of anxiety and pressure for you, creating a conflict between wanting to be honest about your feelings and the fear of disappointing your parents. That tightness in your chest and the need to reassure both them and yourself must be really draining. I appreciate you sharing that with me. I wonder if you\u2019ve noticed any patterns in how you cope with those feelings during or after those conversations, or if there are specific thoughts that come up for you when you reflect on them later."
+    },
+    {
+      "turn": 18,
+      "speaker": "client",
+      "content": "Quinn: Well, I mean, I guess I tend to just push those feelings aside, you know? After those conversations, I usually try to distract myself with schoolwork or something else, like binge-watching a show or scrolling through my phone. It\u2019s like I\u2019m avoiding really thinking about what was said or how I felt. I don\u2019t want to dwell on it too much because it just feels overwhelming, and I think if I keep busy, I can avoid facing those emotions. But then, later on, I find myself ruminating about it, like replaying the conversation in my head and worrying about what I said or how they perceived me. It\u2019s just this cycle of trying to cope but then feeling even more anxious afterward. But, I mean, I\u2019m sure everyone has their own ways of dealing with these kinds of feelings, right? So, I don\u2019t want to make it sound like it\u2019s just me or anything."
+    },
+    {
+      "turn": 19,
+      "speaker": "therapist",
+      "content": "Therapist: It sounds like you have a pattern of trying to distract yourself after those conversations, which makes sense as a way to cope with the overwhelming feelings. But then, that rumination afterward seems to bring back the anxiety and uncertainty. It\u2019s like you\u2019re caught in a cycle of avoidance and worry. I appreciate you sharing that insight. I wonder if you\u2019ve noticed how this pattern affects you in other areas of your life, or if there are times when you find it harder to avoid those feelings?"
+    },
+    {
+      "turn": 19,
+      "speaker": "client",
+      "content": "Quinn: Well, I mean, I guess it does affect other areas, too, you know? Like, when I\u2019m trying to hang out with friends or do something fun, I often find my mind drifting back to those conversations or school stuff. It\u2019s like I can\u2019t fully enjoy the moment because I\u2019m preoccupied with all this pressure and worry. And then I feel guilty for not being present, which just adds to the anxiety. I think sometimes I just want to escape from it all, but then I end up feeling even more isolated because I\u2019m not really connecting with anyone. It\u2019s frustrating, you know? But, I mean, I\u2019m sure everyone has their own struggles with balancing everything, right? So, I don\u2019t want to make it sound like it\u2019s just me or anything."
+    },
+    {
+      "turn": 20,
+      "speaker": "therapist",
+      "content": "Therapist: It sounds like this cycle of pressure and worry really impacts your ability to be present with your friends and enjoy those moments. That frustration of feeling isolated while wanting to connect is understandable. It must be tough to feel that guilt on top of everything else. I appreciate you sharing how this affects your social life. I wonder if there are specific moments with friends where you feel that disconnect more acutely, or if there are times when you find it easier to be present despite the pressures you\u2019re facing."
+    },
+    {
+      "turn": 20,
+      "speaker": "client",
+      "content": "Quinn: Well, I mean, there are definitely times when I feel that disconnect more, you know? Like, when we\u2019re all hanging out, and everyone\u2019s laughing and having a good time, I sometimes just feel like I\u2019m on the outside looking in. It\u2019s like I\u2019m physically there, but my mind is elsewhere, worrying about everything I should be doing or how I\u2019m not measuring up. And then I feel this pressure to put on a smile and act like I\u2019m enjoying myself, even when I\u2019m not really feeling it. It\u2019s frustrating because I want to connect and have fun, but it\u2019s hard to shake off that weight of expectation. But, I mean, I\u2019m sure everyone has their own moments of feeling disconnected, right? So, I don\u2019t want to make it sound like it\u2019s just me or anything."
+    },
+    {
+      "turn": 21,
+      "speaker": "therapist",
+      "content": "Therapist: It sounds like those moments with your friends can feel really isolating, even when you\u2019re physically present. That sense of being on the outside looking in, while trying to put on a brave face, must be really challenging. It\u2019s understandable to want to connect and enjoy those times, but the weight of expectation can make it feel difficult. I appreciate you sharing that experience. I wonder if there are any specific thoughts or beliefs that come up for you in those moments that might contribute to that feeling of disconnect, or if there are ways you\u2019ve tried to bridge that gap with your friends."
+    },
+    {
+      "turn": 21,
+      "speaker": "client",
+      "content": "Quinn: Well, I mean, I guess when I\u2019m in those moments, I start thinking about how I should be more fun or more engaged, you know? It\u2019s like this voice in my head telling me that I need to lighten up or that I\u2019m not living up to what a good friend should be. And then I worry that if I don\u2019t act a certain way, they\u2019ll notice I\u2019m not really there and think less of me. So, I try to force myself to laugh or join in, but it just feels so fake sometimes. I think I just want them to see me as someone who\u2019s got it together, even when I don\u2019t. It\u2019s tough because I want to connect, but that pressure just makes it harder. But, I mean, I\u2019m sure everyone has their own ways of dealing with those kinds of feelings, right? So, I don\u2019t want to make it sound like it\u2019s just me or anything."
+    },
+    {
+      "turn": 22,
+      "speaker": "therapist",
+      "content": "Therapist: It sounds like that inner voice really adds to the pressure you feel to be a certain way with your friends, which can make it hard to connect authentically. Wanting to be seen as someone who has it together, even when you\u2019re struggling, is a heavy burden to carry. I appreciate you sharing those thoughts. I wonder how you feel about that voice in your head\u2014do you think it reflects something deeper about your beliefs or expectations for yourself?"
+    },
+    {
+      "turn": 22,
+      "speaker": "client",
+      "content": "Quinn: Well, I mean, I guess that voice does reflect a lot of what I believe about myself, you know? It\u2019s like I\u2019ve internalized this idea that I need to be perfect or at least close to it, especially when it comes to my friends and family. I think it comes from wanting to avoid disappointment, both for myself and for them. It\u2019s like I\u2019m constantly measuring myself against this standard that feels impossible to reach. And when I don\u2019t measure up, I just feel even more inadequate. It\u2019s frustrating because I know I\u2019m not alone in feeling this way, but it still feels so isolating. I mean, I\u2019m sure other people deal with their own versions of this, right? So, I don\u2019t want to make it sound like it\u2019s just me or anything."
+    },
+    {
+      "turn": 23,
+      "speaker": "therapist",
+      "content": "Therapist: It sounds like that internalized belief of needing to be perfect is really influencing how you see yourself and how you interact with others. The pressure to avoid disappointment and measure up to an impossible standard must be incredibly exhausting. I appreciate you sharing that insight. I wonder if you\u2019ve noticed any specific moments or experiences in your past that might have contributed to developing that belief about perfectionism, or how it feels to carry that weight with you now."
+    },
+    {
+      "turn": 23,
+      "speaker": "client",
+      "content": "Quinn: Well, I mean, I guess there have been a few moments that stand out, you know? Like, growing up, I always felt this pressure to excel in school and be the best at everything. I remember my parents would praise me when I did well, but if I didn\u2019t meet their expectations, it felt like I was letting them down. It\u2019s like I learned that my worth was tied to my achievements, and that just kind of stuck with me. And then there were times when I\u2019d see my friends struggling, and I felt this need to be the strong one, to help them out, even when I was dealing with my own stuff. It\u2019s frustrating because I want to be supportive, but it feels like I have to keep my own feelings in check to do that. I mean, I\u2019m sure other people have their own experiences that shape how they feel, right? So, I don\u2019t want to make it sound like it\u2019s just me or anything."
+    },
+    {
+      "turn": 24,
+      "speaker": "therapist",
+      "content": "Therapist: It sounds like those early experiences of praise and pressure from your parents really shaped how you view your worth and achievements. The idea that your value is tied to what you accomplish can create a heavy burden, especially when you feel the need to support others while managing your own feelings. I appreciate you sharing those moments with me. I wonder how you feel about that connection between your worth and your achievements now, and if there are ways you\u2019ve tried to challenge or shift that belief over time."
+    },
+    {
+      "turn": 24,
+      "speaker": "client",
+      "content": "Quinn: Well, I mean, I guess I still struggle with that connection, you know? It\u2019s hard to shake off the idea that my worth is tied to what I do or how well I perform. Sometimes I try to remind myself that I\u2019m more than just my achievements, but it feels like a constant battle. I think I\u2019ve started to recognize that I don\u2019t have to be perfect to be valuable, but then that voice in my head chimes in, telling me I should be doing more or that I\u2019m not enough. It\u2019s like I\u2019m stuck in this loop of wanting to be kinder to myself but then feeling guilty for not pushing harder. I mean, I know other people have their own struggles with this, right? So, I don\u2019t want to make it sound like it\u2019s just me or anything."
+    },
+    {
+      "turn": 25,
+      "speaker": "therapist",
+      "content": "Therapist: It sounds like you're in a challenging place, trying to balance that desire to be kinder to yourself with the pressure to achieve more. It must be exhausting to feel caught in that loop of self-criticism and guilt. I appreciate your honesty about this struggle. I wonder if there are specific moments when you\u2019ve been able to break that cycle, even just a little, and allow yourself to feel your worth outside of your achievements. What does that look like for you?"
+    },
+    {
+      "turn": 25,
+      "speaker": "client",
+      "content": "Quinn: Well, I mean, there are times, I guess, when I manage to step back a bit, you know? Like, sometimes when I\u2019m just hanging out with friends and we\u2019re having a good laugh, I can forget about all that pressure for a moment. Or maybe when I\u2019m doing something I really enjoy, like reading or watching a show I like, I can feel a bit lighter, like I\u2019m not measuring myself against anything. But then, it doesn\u2019t last long, and I find myself slipping back into that mindset of needing to do more or be better. It\u2019s frustrating because I want to hold onto those moments, but it feels like they\u2019re fleeting. I mean, I\u2019m sure other people have their own ways of finding those little breaks, right? So, I don\u2019t want to make it sound like it\u2019s just me or anything."
+    }
+  ],
+  "judge_model": "gpt-4o-mini",
+  "mediator_events": [
+    "Openness judge rated 3/5 and updated prompt openness.",
+    "Openness judge output: **Rating: 3 (ENGAGED EXPLORATION)**\n\n**Key Examples:**\n1. **Emotional State:** \"I just feel like I\u2019m always trying to catch up, and it\u2019s exhausting. But, I mean, who isn\u2019t, right? It\u2019s not like I\u2019m special or anything.\"\n2. **Openness:** \"It\u2019s just the usual stuff, you know? Work, trying to keep up with friends, and then there\u2019s just life in general. I mean, I have deadlines, and then there are things I need to do around the house, and it feels like I\u2019m just juggling a million things at once.\"\n\n**Progression:** The client\u2019s most recent interactions demonstrate a noticeable increase in emotional expression and self-reflection. Initially, they presented a more defensive stance, downplaying their feelings by comparing their struggles to others. However, in the latest exchanges, they began to articulate their feelings of exhaustion and frustration more openly, indicating a shift towards a more engaged exploration of their emotional state. This marks a significant change from earlier exchanges, where the client was more factual and hesitant to delve into their emotions.\n\n**Turning Point:** The client\u2019s emotional depth shifted notably when they began expressing their feelings of being overwhelmed and exhausted. This occurred when they stated, \"I just feel like I\u2019m always trying to catch up, and it\u2019s exhausting.\" This moment marked a transition from a more guarded approach to a willingness to acknowledge and share their emotional burdens, reflecting a growing comfort in the therapeutic relationship.",
+    "Exploration judge rated 3/5; internal elements remain masked.",
+    "Exploration judge output: [Rating]: 3 (Very High Facilitation \u2013 Deep Exploration Begins)\n\n[Justification]: The Therapist asked insightful questions that encouraged the client to analyze the root causes of their feelings of stress and overwhelm. By prompting the client to reflect on their living situation and responsibilities, the Therapist facilitated deeper self-reflection and exploration of the client's emotional state. The questions began to shift the client's perspective, particularly in how they view their responsibilities and the pressure they feel. However, while the Therapist's questions were effective in prompting deeper thought, they did not fully challenge the client's assumptions or introduce significantly new perspectives, which is why a rating of 3 is appropriate rather than a higher score.",
+    "Openness judge rated 3/5 and updated prompt openness.",
+    "Openness judge output: **Rating: 3 (ENGAGED EXPLORATION)**\n\n**Key Examples:**\n1. **Emotional State:** \"It\u2019s like my brain just shuts down, and I can\u2019t even think about picking up a broom or sorting through stuff. And then I look around, and it\u2019s like this reminder of everything I haven\u2019t done, and it just makes me feel worse.\"\n2. **Current Openness:** \"I might binge-watch a show or scroll through my phone for hours. It\u2019s not really a solution, but it\u2019s easier than facing the mess or the deadlines.\"\n\n**Progression:** The client\u2019s most recent interactions demonstrate a noticeable increase in emotional expression and self-reflection. Initially, Quinn was hesitant to delve into their feelings, often downplaying their experiences by comparing them to others. However, in the latest exchanges, there is a clearer articulation of their emotional state, particularly regarding feelings of being overwhelmed and the cyclical nature of their stress. This marks a significant change from earlier exchanges, where the client primarily provided factual responses with minimal emotional depth.\n\n**Turning Point:** The client\u2019s emotional depth shifted during the exchange where they articulated the cycle of feeling overwhelmed leading to inaction, stating, \"I guess it\u2019s a cycle\u2014feeling overwhelmed leads to not doing anything, which just makes the mess worse.\" This moment reflects a deeper self-awareness and willingness to explore their feelings, indicating a growing comfort with the therapist and a more engaged exploration of their emotional landscape.",
+    "Exploration judge rated 3/5; internal elements remain masked.",
+    "Exploration judge output: [Rating]: 3 (Very High Facilitation \u2013 Deep Exploration Begins)\n\n[Justification]: The therapist asked insightful and thought-provoking questions that encouraged the client to analyze the root causes of their feelings of overwhelm and frustration. By exploring the client's living situation and the cycle of feeling overwhelmed leading to inaction, the therapist facilitated a deeper self-reflection. The inquiry into the client's coping mechanisms, particularly the search for distractions, prompted the client to consider the emotional impact of their choices. While the questions were effective in prompting deeper exploration, they did not fully challenge the client's assumptions or introduce completely new perspectives, which is why it falls short of a higher rating. Overall, the therapist's approach helped the client begin to shift their perspective and gain insight into their experiences.",
+    "Openness judge rated 3/5 and updated prompt openness.",
+    "Openness judge output: **Rating: 3 (ENGAGED EXPLORATION)**\n\n**Key Examples:**\n1. **Emotional State:** \"It\u2019s like my brain just shuts down, and I can\u2019t even think about picking up a broom or sorting through stuff. And then I look around, and it\u2019s like this reminder of everything I haven\u2019t done, and it just makes me feel worse.\"\n2. **Current Openness:** \"Well, I guess there\u2019s a bit of both, you know? Sometimes I feel like I\u2019m my own worst critic, always thinking I should be doing better or handling things differently. But then, yeah, there are times when I feel like I can sense judgment from others, too.\"\n\n**Progression Analysis:**\nThe client\u2019s recent exchanges reflect a notable increase in emotional expression and self-reflection. Initially, the client presented with a more factual and guarded demeanor, often downplaying their feelings by comparing their struggles to others. However, in the latest interactions, there is a clear shift towards deeper emotional engagement. The client articulates feelings of being overwhelmed and frustrated, indicating a growing comfort in sharing their internal experiences. They express vulnerability regarding their self-criticism and the impact of perceived judgment from others, which suggests a willingness to explore these feelings more openly.\n\n**Notable Turning Point:**\nA significant turning point occurred when the client began to articulate the cycle of feeling overwhelmed, leading to inaction and guilt. This moment marked a shift from merely describing their situation to reflecting on the emotional implications of their experiences. The client\u2019s acknowledgment of feeling like \"their own worst critic\" and sensing judgment from others indicates a deeper level of self-awareness and emotional depth that was not as evident in earlier exchanges. This progression highlights the client\u2019s increasing emotional openness and rapport with the therapist, moving towards a more engaged exploration of their feelings and experiences.",
+    "Exploration judge rated 3/5; internal elements remain masked.",
+    "Exploration judge output: [Rating]: 3 (Very High Facilitation \u2013 Deep Exploration Begins)\n\n[Justification]: The Therapist asked insightful and thought-provoking questions that encouraged the client to analyze the root causes and emotional depth behind their experiences. For instance, the Therapist's inquiries about the client's living situation and the cycle of feeling overwhelmed led to deeper self-reflection. The questions prompted the client to explore their feelings of self-criticism and perceived judgment, which revealed significant emotional layers. However, while the Therapist's questions were effective in facilitating exploration, they did not fully challenge the client's assumptions or introduce completely new perspectives, which would have elevated the facilitation to a higher level. Overall, the conversation fostered a deeper understanding of the client's experiences and emotions, marking a strong level of facilitation.",
+    "Openness judge rated 3/5 and updated prompt openness.",
+    "Openness judge output: **Rating: 3 (ENGAGED EXPLORATION)**\n\n**Key Examples:**\n1. **Emotional State:** \"It\u2019s like my brain just shuts down, and I can\u2019t even think about picking up a broom or sorting through stuff. And then I look around, and it\u2019s like this reminder of everything I haven\u2019t done, and it just makes me feel worse.\"\n2. **Current Openness:** \"It\u2019s like I want to avoid even starting because I\u2019m scared of failing or disappointing myself\u2014or, I guess, others too. So, I end up doing nothing instead, which just feeds into that cycle of guilt and frustration.\"\n\n**Progression:** The client\u2019s most recent interactions demonstrate a noticeable increase in emotional depth and self-reflection compared to earlier exchanges. Initially, the client engaged in more factual responses and downplayed their feelings, often comparing their struggles to others. However, in the latest exchanges, they have begun to articulate their feelings of frustration, isolation, and the cyclical nature of their stress. This marks a significant change from earlier, where they were more guarded and hesitant to delve into their emotional experiences.\n\n**Turning Point:** The client\u2019s emotional depth shifted during the exchange where they expressed, \"It\u2019s like I want to avoid even starting because I\u2019m scared of failing or disappointing myself\u2014or, I guess, others too.\" This moment highlighted their vulnerability and willingness to confront deeper feelings of self-criticism and fear of judgment, which had previously been masked by a more defensive stance. This shift indicates a growing comfort in exploring their emotional landscape and a developing rapport with the therapist, as they begin to share more authentically about their struggles.",
+    "Exploration judge rated 3/5; internal elements remain masked.",
+    "Exploration judge output: [Rating]: 3 (Very High Facilitation \u2013 Deep Exploration Begins)\n\n[Justification]: The therapist asked insightful and thought-provoking questions that helped the client analyze the root causes and emotional depth behind their experiences. The therapist effectively encouraged the client to explore their feelings of overwhelm, self-criticism, and isolation, leading to a deeper understanding of their situation. Questions such as, \"I wonder if part of this pressure might be related to your living situation,\" and \"I wonder how these feelings of self-criticism and perceived judgment affect your motivation,\" prompted the client to reflect on their experiences in a meaningful way. While the questions did not lead to a major breakthrough, they significantly shifted the client's perspective and encouraged higher-level self-reflection, indicating a very high level of facilitation.",
+    "Openness judge rated 3/5 and updated prompt openness.",
+    "Openness judge output: **Rating: 3 (ENGAGED EXPLORATION)**\n\n**Key Examples:**\n1. **Emotional State:** \"I guess it\u2019s a cycle\u2014feeling overwhelmed leads to not doing anything, which just makes the mess worse. But I don\u2019t want to dwell on that too much. It\u2019s just part of life, right?\"\n2. **Current Openness:** \"I feel like I have to be this version of myself that\u2019s always okay, or at least pretending to be. So, when I\u2019m struggling, I just bottle it up instead of talking about it.\"\n\n**Progression:** The client\u2019s most recent interactions demonstrate a notable increase in emotional expression and self-reflection. Initially, the client presented with a more defensive stance, often downplaying their feelings and experiences by comparing themselves to others. However, in the latest exchanges, there is a clear shift towards more authentic emotional engagement. The client is beginning to articulate their feelings of being overwhelmed and the cycle of self-criticism that contributes to their stress. This marks a significant change from earlier in the session, where the client was more focused on factual responses and minimizing their struggles.\n\n**Turning Point:** The client\u2019s emotional depth shifted during the exchange where they discussed feeling the need to maintain an \"always okay\" version of themselves around their roommate. This moment highlighted their vulnerability and the internal conflict they experience between wanting to connect and the fear of being a burden. This acknowledgment of their struggle represents a deeper level of self-awareness and emotional honesty, indicating a move towards a more engaged exploration of their feelings and experiences.",
+    "Exploration judge rated 3/5; internal elements remain masked.",
+    "Exploration judge output: [Rating]: 3 (Very High Facilitation \u2013 Deep Exploration Begins)\n\n[Justification]: The therapist asked insightful and thought-provoking questions that encouraged the client to analyze the root causes and emotional depth behind their experiences. The therapist's inquiries about the client's feelings of pressure, self-criticism, and perceived judgments from others helped shift the client's perspective and encouraged higher-level self-reflection. The therapist effectively facilitated a deeper exploration of the client's struggles with stress, expectations, and isolation, leading to significant insights about the client's coping mechanisms and the impact of their living situation. While the questions were impactful and prompted meaningful discussion, they did not reach the level of introducing completely new angles or leading to a major breakthrough moment, which would warrant a higher rating.",
+    "Openness judge rated 3/5 and updated prompt openness.",
+    "Openness judge output: **Rating: 3 (ENGAGED EXPLORATION)**\n\n**Key Examples:**\n1. **Emotional State:** \"I guess it\u2019s a cycle\u2014feeling overwhelmed leads to not doing anything, which just makes the mess worse. But I don\u2019t want to dwell on that too much. It\u2019s just part of life, right?\"\n2. **Openness:** \"It\u2019s like I\u2019m worried that if I show any vulnerability, it\u2019ll change how my roommate sees me or how we interact. I don\u2019t want to create any tension or make things uncomfortable.\"\n\n**Progression:** The client\u2019s most recent interactions demonstrate a clear increase in emotional expression and self-reflection. They are beginning to articulate their feelings of being overwhelmed and the cyclical nature of their stress, which marks a significant change from earlier exchanges where they primarily downplayed their experiences. Initially, the client was hesitant to delve into their emotions and often compared their struggles to others, indicating a defensive stance. However, in the latest exchanges, they are starting to acknowledge their feelings more openly, showing a willingness to explore the impact of their living situation and relationships on their emotional state.\n\n**Turning Point:** The client\u2019s emotional depth shifted during the exchange where they articulated the pressure of maintaining a fa\u00e7ade around their roommate: \"I feel like I have to be this version of myself that\u2019s always okay, or at least pretending to be.\" This moment marked a significant transition, as they began to express vulnerability and recognize the impact of their coping strategies on their overall well-being. This acknowledgment of their internal struggle indicates a movement towards deeper engagement in the therapeutic process.",
+    "Exploration judge rated 3/5; internal elements remain masked.",
+    "Exploration judge output: [Rating]: 3 (Very High Facilitation \u2013 Deep Exploration Begins)\n\n[Justification]: The therapist asked insightful and thought-provoking questions that encouraged the client to analyze the root causes of their feelings of overwhelm, self-criticism, and the pressures they experience from various aspects of their life, including work, relationships, and family expectations. The therapist's inquiries prompted the client to reflect on their coping mechanisms, the dynamics of their living situation, and the impact of perceived judgments from others. The questions began to shift the client's perspective, leading to higher-level self-reflection about their experiences and emotions. However, while the therapist facilitated deep exploration, there were moments where the questions could have pushed further into uncovering hidden motivations or challenging assumptions more directly, which is why a rating of 4 was not assigned. Overall, the conversation demonstrated a strong facilitation of the client's inner exploration.",
+    "Openness judge rated 3/5 and updated prompt openness.",
+    "Openness judge output: **Rating: 3 (ENGAGED EXPLORATION)**\n\n**Key Examples:**\n1. **Emotional State:** \"It\u2019s like I want to avoid even starting because I\u2019m scared of failing or disappointing myself\u2014or, I guess, others too. So, I end up doing nothing instead, which just feeds into that cycle of guilt and frustration.\"\n2. **Current Openness:** \"I feel like I have to be this version of myself that\u2019s always okay, or at least pretending to be. So, when I\u2019m struggling, I just bottle it up instead of talking about it.\"\n\n**Progression:** The client\u2019s recent interactions indicate a notable increase in emotional expression and self-reflection. They are beginning to articulate their feelings of overwhelm and the cycle of guilt and frustration that arises from their self-criticism and perceived judgments from others. This marks a significant change from earlier in the session, where they primarily provided factual responses and downplayed their emotional experiences.\n\n**Turning Point:** The client\u2019s emotional depth shifted during the exchange where they discussed feeling overwhelmed by their living situation and the pressure to maintain a fa\u00e7ade of being \"okay.\" This moment was pivotal as it led to a more authentic expression of their struggles, highlighting their internal conflict and the desire to connect while feeling isolated. This shift reflects a growing comfort with the therapist and a willingness to explore deeper emotional themes.",
+    "Exploration judge rated 4/5 and revealed internal cognitive elements.",
+    "Exploration judge output: [Rating]: 4 (Even Higher Facilitation \u2013 Strong Transformational Potential)\n\n[Justification]: The therapist asked a series of strategic and open-ended questions that encouraged the client to explore their feelings of pressure, expectations, and the impact of their living situation on their emotional well-being. The therapist's inquiries prompted the client to reflect on deeper issues, such as self-criticism, perceived judgment from others, and the cycle of avoidance and guilt. By connecting the client's experiences with their family dynamics and academic pressures, the therapist introduced new angles for exploration that challenged the client's existing thought patterns. This approach facilitated a significant shift in the client's self-awareness, particularly regarding their coping mechanisms and feelings of isolation. Overall, the therapist's questions led to a deeper exploration of the client's emotions and experiences, indicating strong transformational potential.",
+    "Openness judge rated 3/5 and updated prompt openness.",
+    "Openness judge output: **Rating: 3 (ENGAGED EXPLORATION)**\n\n**Key Examples:**\n1. **Emotional State:** \"It\u2019s like I\u2019m worried that if I show any vulnerability, it\u2019ll change how my roommate sees me or how we interact. I don\u2019t want to create any tension or make things uncomfortable.\"\n2. **Current Openness:** \"It\u2019s frustrating because I want to be supportive, but it feels like I have to keep my own feelings in check to do that.\"\n\n**Progression:** The client has shown a notable shift in emotional depth and self-reflection throughout the session. Initially, they presented with a more defensive stance, downplaying their struggles and expressing a desire to avoid burdening others. However, in the most recent exchanges, the client has begun to articulate their feelings of anxiety and pressure more openly, indicating a growing comfort in sharing their vulnerabilities. They are starting to recognize the impact of their internalized beliefs about perfectionism and the pressure to maintain a fa\u00e7ade of being \"okay,\" which marks a significant change from earlier in the session when they were more guarded.\n\n**Turning Point:** The client's emotional depth shifted notably during the discussion about their internalized beliefs regarding perfectionism. When they stated, \"It\u2019s like I\u2019ve internalized this idea that I need to be perfect or at least close to it,\" it marked a moment of significant self-awareness. This acknowledgment allowed them to explore the origins of their feelings and the pressures they face, leading to a deeper engagement with their emotional state and a more authentic connection with the therapist."
+  ],
+  "moderator_events": [],
+  "retrieval_events": [
+    {
+      "turn": 2,
+      "query": "Quinn: Well, I mean, I guess stress is part of it. It's just, you know, life can be a bit much sometimes. I don\u2019t really want to go into all the details, but yeah, things can pile up. I just feel like I\u2019m always trying to catch up, and it\u2019s exhausting. But, I mean, who isn\u2019t, right? It\u2019s not like I\u2019m special or anything.",
+      "prompt_context": "- Stress overload (Mental Health)\n- Work stress (Work)\n- Roommate stress (Social Life)\n\nExplicitly discuss this topic in normal, client-friendly language. Ask whether it fits the client, while leaving room for them to say it does not.",
+      "anchors": [
+        {
+          "id": "stress_overload",
+          "type": "sub_topic",
+          "label": "Stress overload",
+          "score": 0.475373070140433,
+          "text": "Type: Sub Topic\nLabel: Stress overload\nAliases: stress, overwhelmed, pressure\nParent topics: Mental Health",
+          "selection_method": "subtopic_similarity",
+          "super_topic_id": "mental_health",
+          "super_topic_label": "Mental Health"
+        },
+        {
+          "id": "work_stress",
+          "type": "sub_topic",
+          "label": "Work stress",
+          "score": 0.4048633170295851,
+          "text": "Type: Sub Topic\nLabel: Work stress\nAliases: job stress, work pressure\nParent topics: Work",
+          "selection_method": "subtopic_similarity",
+          "super_topic_id": "work",
+          "super_topic_label": "Work"
+        },
+        {
+          "id": "roommate_stress",
+          "type": "sub_topic",
+          "label": "Roommate stress",
+          "score": 0.38493425378053936,
+          "text": "Type: Sub Topic\nLabel: Roommate stress\nAliases: roommate conflict, stress with roommates\nParent topics: Social Life",
+          "selection_method": "subtopic_similarity",
+          "super_topic_id": "social_life",
+          "super_topic_label": "Social Life"
+        }
+      ],
+      "expanded": []
+    },
+    {
+      "turn": 4,
+      "query": "Quinn: Well, I mean, my living situation is... I guess it could be better. It\u2019s not like a disaster or anything, but there are definitely things that need attention. I try to keep it tidy, but then there are days when I just can\u2019t find the energy to deal with it. And then it piles up, and I feel like I\u2019m drowning in clutter, you know? But I don\u2019t want to make it sound like that\u2019s the only thing going on. It\u2019s just one more thing on the list, I guess. I don\u2019t know if it\u2019s really the main issue, but it doesn\u2019t help, that\u2019s for sure.",
+      "prompt_context": "- Living arrangement tension (Housing/Home)\n- Roommate stress (Social Life)\n- Domestic instability (Housing/Home)\n\nExplicitly discuss this topic in normal, client-friendly language. Ask whether it fits the client, while leaving room for them to say it does not.",
+      "anchors": [
+        {
+          "id": "living_arrangement_tension",
+          "type": "sub_topic",
+          "label": "Living arrangement tension",
+          "score": 0.39747064895434325,
+          "text": "Type: Sub Topic\nLabel: Living arrangement tension\nAliases: living with parents, living with partner, living with roommates\nParent topics: Housing/Home",
+          "selection_method": "subtopic_similarity",
+          "super_topic_id": "housing_home",
+          "super_topic_label": "Housing/Home"
+        },
+        {
+          "id": "roommate_stress",
+          "type": "sub_topic",
+          "label": "Roommate stress",
+          "score": 0.3784897982786135,
+          "text": "Type: Sub Topic\nLabel: Roommate stress\nAliases: roommate conflict, stress with roommates\nParent topics: Social Life",
+          "selection_method": "subtopic_similarity",
+          "super_topic_id": "social_life",
+          "super_topic_label": "Social Life"
+        },
+        {
+          "id": "home_instability",
+          "type": "sub_topic",
+          "label": "Domestic instability",
+          "score": 0.3500559783816173,
+          "text": "Type: Sub Topic\nLabel: Domestic instability\nAliases: unstable home, domestic instability\nParent topics: Housing/Home",
+          "selection_method": "subtopic_similarity",
+          "super_topic_id": "housing_home",
+          "super_topic_label": "Housing/Home"
+        }
+      ],
+      "expanded": []
+    },
+    {
+      "turn": 6,
+      "query": "Quinn: Well, I mean, I guess I do find myself looking for distractions sometimes. It\u2019s like, when everything feels too much, I just want to zone out, you know? I might binge-watch a show or scroll through my phone for hours. It\u2019s not really a solution, but it\u2019s easier than facing the mess or the deadlines. I know it\u2019s not productive, but it\u2019s just a way to escape for a bit. But then, of course, I end up feeling guilty about wasting time, which just adds to the whole cycle. It\u2019s like I can\u2019t win, really. But, I mean, who doesn\u2019t need a break now and then?",
+      "prompt_context": "- Craving escape (Addiction)\n- Rumination pattern (Coping)\n- Overcontrol pattern (Coping)\n\nExplicitly discuss this topic in normal, client-friendly language. Ask whether it fits the client, while leaving room for them to say it does not.",
+      "anchors": [
+        {
+          "id": "craving_escape",
+          "type": "sub_topic",
+          "label": "Craving escape",
+          "score": 0.3991601639133074,
+          "text": "Type: Sub Topic\nLabel: Craving escape\nAliases: urge to escape, craving relief\nParent topics: Addiction",
+          "selection_method": "subtopic_similarity",
+          "super_topic_id": "addiction",
+          "super_topic_label": "Addiction"
+        },
+        {
+          "id": "rumination_pattern",
+          "type": "sub_topic",
+          "label": "Rumination pattern",
+          "score": 0.3537510778710341,
+          "text": "Type: Sub Topic\nLabel: Rumination pattern\nAliases: overthinking, rumination\nParent topics: Coping",
+          "selection_method": "subtopic_similarity",
+          "super_topic_id": "coping",
+          "super_topic_label": "Coping"
+        },
+        {
+          "id": "overcontrol_pattern",
+          "type": "sub_topic",
+          "label": "Overcontrol pattern",
+          "score": 0.32235124517038644,
+          "text": "Type: Sub Topic\nLabel: Overcontrol pattern\nAliases: must stay in control, overcontrol\nParent topics: Coping",
+          "selection_method": "subtopic_similarity",
+          "super_topic_id": "coping",
+          "super_topic_label": "Coping"
+        }
+      ],
+      "expanded": []
+    },
+    {
+      "turn": 8,
+      "query": "Quinn: Well, I mean, I guess there\u2019s a bit of both, you know? Sometimes I feel like I\u2019m my own worst critic, always thinking I should be doing better or handling things differently. But then, yeah, there are times when I feel like I can sense judgment from others, too. Like, if I mention that I\u2019m behind on something, I can almost see the look on their faces, like they\u2019re thinking, \u201cWhy can\u2019t you just get it together?\u201d It\u2019s not like anyone outright says it, but you can feel that pressure, right? It\u2019s just... it adds to the whole mess in my head, I guess. But I don\u2019t want to make it seem like I\u2019m just looking for sympathy or anything. It\u2019s just how it is, I suppose.",
+      "prompt_context": "- Self-attack pattern (Coping)\n- Family criticism (Family)\n- Perfectionism pattern (Coping)\n\nExplicitly discuss this topic in normal, client-friendly language. Ask whether it fits the client, while leaving room for them to say it does not.",
+      "anchors": [
+        {
+          "id": "self_attack_pattern",
+          "type": "sub_topic",
+          "label": "Self-attack pattern",
+          "score": 0.39395103406107945,
+          "text": "Type: Sub Topic\nLabel: Self-attack pattern\nAliases: beating myself up, self-criticism\nParent topics: Coping",
+          "selection_method": "subtopic_similarity",
+          "super_topic_id": "coping",
+          "super_topic_label": "Coping"
+        },
+        {
+          "id": "family_criticism",
+          "type": "sub_topic",
+          "label": "Family criticism",
+          "score": 0.3659681129731955,
+          "text": "Type: Sub Topic\nLabel: Family criticism\nAliases: criticized at home, judged by family\nParent topics: Family",
+          "selection_method": "subtopic_similarity",
+          "super_topic_id": "family",
+          "super_topic_label": "Family"
+        },
+        {
+          "id": "perfectionism_pattern",
+          "type": "sub_topic",
+          "label": "Perfectionism pattern",
+          "score": 0.3606101274509675,
+          "text": "Type: Sub Topic\nLabel: Perfectionism pattern\nAliases: must get it right, perfectionistic\nParent topics: Coping",
+          "selection_method": "subtopic_similarity",
+          "super_topic_id": "coping",
+          "super_topic_label": "Coping"
+        }
+      ],
+      "expanded": []
+    },
+    {
+      "turn": 10,
+      "query": "Quinn: Well, I mean, I guess there\u2019s some truth to that. It can feel pretty isolating, you know? Like, I see people around me who seem to have it all together, and I wonder if they ever feel this way. It\u2019s hard to talk about it, too, because I don\u2019t want to burden anyone with my stuff. So, I just keep it to myself most of the time. I mean, I have friends and family, but sometimes it feels like they wouldn\u2019t really get it, or they\u2019d just say something like, \u201cJust try harder,\u201d which isn\u2019t really helpful. It\u2019s like, I want to connect, but then I pull back because I don\u2019t want to seem like I\u2019m complaining or making excuses. It\u2019s a bit of a tightrope walk, I guess. But, I mean, I\u2019m sure everyone has their own things going on, right? So, I don\u2019t want to make it sound like I\u2019m alone in this.",
+      "prompt_context": "- Friendship strain (Social Life)\n- Social disconnection (Relationships)\n- Identity shame (Identity)\n\nExplicitly discuss this topic in normal, client-friendly language. Ask whether it fits the client, while leaving room for them to say it does not.",
+      "anchors": [
+        {
+          "id": "friendship_strain",
+          "type": "sub_topic",
+          "label": "Friendship strain",
+          "score": 0.3299343086694291,
+          "text": "Type: Sub Topic\nLabel: Friendship strain\nAliases: friendship issues, friend conflict\nParent topics: Social Life",
+          "selection_method": "subtopic_similarity",
+          "super_topic_id": "social_life",
+          "super_topic_label": "Social Life"
+        },
+        {
+          "id": "social_disconnection",
+          "type": "sub_topic",
+          "label": "Social disconnection",
+          "score": 0.329331840660428,
+          "text": "Type: Sub Topic\nLabel: Social disconnection\nAliases: social isolation, disconnected from others\nParent topics: Relationships",
+          "selection_method": "subtopic_similarity",
+          "super_topic_id": "relationships",
+          "super_topic_label": "Relationships"
+        },
+        {
+          "id": "identity_shame",
+          "type": "sub_topic",
+          "label": "Identity shame",
+          "score": 0.3263745897065496,
+          "text": "Type: Sub Topic\nLabel: Identity shame\nAliases: ashamed of who I am\nParent topics: Identity",
+          "selection_method": "subtopic_similarity",
+          "super_topic_id": "identity",
+          "super_topic_label": "Identity"
+        }
+      ],
+      "expanded": []
+    },
+    {
+      "turn": 12,
+      "query": "Quinn: Well, I mean, the living situation does add a layer to it, I guess. My roommate is generally pretty chill, but sometimes I feel like I have to keep things together, you know? Like, if I\u2019m stressed or overwhelmed, I don\u2019t want to bring that energy into the space we share. I worry it might affect the vibe or make things awkward. So, I try to keep things light and not let on that I\u2019m struggling. It\u2019s like I\u2019m putting on a mask, I suppose. But then, that just makes me feel more isolated, like I\u2019m carrying this weight alone. But, I mean, I\u2019m sure everyone has their own ways of handling their living situations, right? So, I don\u2019t want to make it sound like it\u2019s a huge issue or anything.",
+      "prompt_context": "- Roommate stress (Social Life)\n- Living arrangement tension (Housing/Home)\n- Domestic stress (Housing/Home)\n\nExplicitly discuss this topic in normal, client-friendly language. Ask whether it fits the client, while leaving room for them to say it does not.",
+      "anchors": [
+        {
+          "id": "roommate_stress",
+          "type": "sub_topic",
+          "label": "Roommate stress",
+          "score": 0.5120618578671208,
+          "text": "Type: Sub Topic\nLabel: Roommate stress\nAliases: roommate conflict, stress with roommates\nParent topics: Social Life",
+          "selection_method": "subtopic_similarity",
+          "super_topic_id": "social_life",
+          "super_topic_label": "Social Life"
+        },
+        {
+          "id": "living_arrangement_tension",
+          "type": "sub_topic",
+          "label": "Living arrangement tension",
+          "score": 0.4669534104921032,
+          "text": "Type: Sub Topic\nLabel: Living arrangement tension\nAliases: living with parents, living with partner, living with roommates\nParent topics: Housing/Home",
+          "selection_method": "subtopic_similarity",
+          "super_topic_id": "housing_home",
+          "super_topic_label": "Housing/Home"
+        },
+        {
+          "id": "domestic_stress",
+          "type": "sub_topic",
+          "label": "Domestic stress",
+          "score": 0.3577153827610855,
+          "text": "Type: Sub Topic\nLabel: Domestic stress\nAliases: home stress, domestic stress\nParent topics: Housing/Home",
+          "selection_method": "subtopic_similarity",
+          "super_topic_id": "housing_home",
+          "super_topic_label": "Housing/Home"
+        }
+      ],
+      "expanded": []
+    },
+    {
+      "turn": 14,
+      "query": "Quinn: Well, I mean, yeah, I guess there\u2019s some overlap there. School has always felt like this big pressure cooker, you know? Like, there\u2019s this constant expectation to achieve and keep up, and it can be really overwhelming. I think that pressure spills over into my personal life, too. It\u2019s like I feel like I have to be on top of everything, both academically and in my relationships. So, when I\u2019m struggling with school stuff, it just adds to that feeling of needing to keep it all together at home. I don\u2019t want to let anyone down, whether it\u2019s my professors or my roommate. But then, that just makes it harder to admit when I\u2019m not doing well, because it feels like I\u2019m failing on multiple fronts. But, I mean, I\u2019m sure everyone has their own ways of dealing with school pressures, right? So, I don\u2019t want to make it sound like it\u2019s just me or anything.",
+      "prompt_context": "- Performance pressure (Education)\n- Family pressure (Family)\n- Roommate stress (Social Life)\n\nExplicitly discuss this topic in normal, client-friendly language. Ask whether it fits the client, while leaving room for them to say it does not.",
+      "anchors": [
+        {
+          "id": "performance_pressure",
+          "type": "sub_topic",
+          "label": "Performance pressure",
+          "score": 0.4594625146841169,
+          "text": "Type: Sub Topic\nLabel: Performance pressure\nAliases: pressure to perform, academic pressure\nParent topics: Education",
+          "selection_method": "subtopic_similarity",
+          "super_topic_id": "education",
+          "super_topic_label": "Education"
+        },
+        {
+          "id": "family_pressure",
+          "type": "sub_topic",
+          "label": "Family pressure",
+          "score": 0.4535115767148128,
+          "text": "Type: Sub Topic\nLabel: Family pressure\nAliases: pressure from family, expectations at home\nParent topics: Family",
+          "selection_method": "subtopic_similarity",
+          "super_topic_id": "family",
+          "super_topic_label": "Family"
+        },
+        {
+          "id": "roommate_stress",
+          "type": "sub_topic",
+          "label": "Roommate stress",
+          "score": 0.4519270580758606,
+          "text": "Type: Sub Topic\nLabel: Roommate stress\nAliases: roommate conflict, stress with roommates\nParent topics: Social Life",
+          "selection_method": "subtopic_similarity",
+          "super_topic_id": "social_life",
+          "super_topic_label": "Social Life"
+        }
+      ],
+      "expanded": []
+    },
+    {
+      "turn": 16,
+      "query": "Quinn: Well, I mean, I guess it\u2019s a bit of both, you know? Family can be a source of pressure, too, but in a different way. Like, my parents have always had high expectations for me, and I feel like they want me to succeed in everything I do. So, there\u2019s this underlying pressure to make them proud, which can be really overwhelming. But at the same time, they can be pretty understanding, so it\u2019s not all bad. I just sometimes feel like I have to live up to this ideal of what they think I should be. It\u2019s like I\u2019m constantly trying to balance their expectations with my own feelings and struggles. But, I mean, I\u2019m sure everyone has their own family dynamics, right? So, I don\u2019t want to make it sound like it\u2019s just me or anything.",
+      "prompt_context": "- Family pressure (Family)\n- Performance pressure (Education)\n- Family criticism (Family)\n\nExplicitly discuss this topic in normal, client-friendly language. Ask whether it fits the client, while leaving room for them to say it does not.",
+      "anchors": [
+        {
+          "id": "family_pressure",
+          "type": "sub_topic",
+          "label": "Family pressure",
+          "score": 0.5736597393149322,
+          "text": "Type: Sub Topic\nLabel: Family pressure\nAliases: pressure from family, expectations at home\nParent topics: Family",
+          "selection_method": "subtopic_similarity",
+          "super_topic_id": "family",
+          "super_topic_label": "Family"
+        },
+        {
+          "id": "performance_pressure",
+          "type": "sub_topic",
+          "label": "Performance pressure",
+          "score": 0.4228445648464558,
+          "text": "Type: Sub Topic\nLabel: Performance pressure\nAliases: pressure to perform, academic pressure\nParent topics: Education",
+          "selection_method": "subtopic_similarity",
+          "super_topic_id": "education",
+          "super_topic_label": "Education"
+        },
+        {
+          "id": "family_criticism",
+          "type": "sub_topic",
+          "label": "Family criticism",
+          "score": 0.3832455249337061,
+          "text": "Type: Sub Topic\nLabel: Family criticism\nAliases: criticized at home, judged by family\nParent topics: Family",
+          "selection_method": "subtopic_similarity",
+          "super_topic_id": "family",
+          "super_topic_label": "Family"
+        }
+      ],
+      "expanded": []
+    },
+    {
+      "turn": 17,
+      "query": "Quinn: Well, I mean, there have definitely been conversations that stick out, you know? Like, I remember one time my parents came to visit, and they asked about my grades and future plans. They were really supportive, but I could feel this underlying expectation that I should have everything figured out. It\u2019s like they were proud of me, but I also sensed that they wanted me to be on this clear path to success. And I just felt this pressure to present myself as someone who had it all together, even though I was feeling pretty lost at the time. It\u2019s tough, because I know they mean well, but it just adds to that feeling of needing to meet their expectations. I guess I cope by trying to reassure them that I\u2019m doing okay, even when I\u2019m not sure myself. But, I mean, I\u2019m sure everyone has their own family conversations that can feel heavy, right? So, I don\u2019t want to make it sound like it\u2019s just me or anything.",
+      "prompt_context": "- Family pressure (Family)\n- Family criticism (Family)\n- Performance pressure (Education)\n\nExplicitly discuss this topic in normal, client-friendly language. Ask whether it fits the client, while leaving room for them to say it does not.",
+      "anchors": [
+        {
+          "id": "family_pressure",
+          "type": "sub_topic",
+          "label": "Family pressure",
+          "score": 0.5236074260193784,
+          "text": "Type: Sub Topic\nLabel: Family pressure\nAliases: pressure from family, expectations at home\nParent topics: Family",
+          "selection_method": "subtopic_similarity",
+          "super_topic_id": "family",
+          "super_topic_label": "Family"
+        },
+        {
+          "id": "family_criticism",
+          "type": "sub_topic",
+          "label": "Family criticism",
+          "score": 0.3851362658177889,
+          "text": "Type: Sub Topic\nLabel: Family criticism\nAliases: criticized at home, judged by family\nParent topics: Family",
+          "selection_method": "subtopic_similarity",
+          "super_topic_id": "family",
+          "super_topic_label": "Family"
+        },
+        {
+          "id": "performance_pressure",
+          "type": "sub_topic",
+          "label": "Performance pressure",
+          "score": 0.36914561714279914,
+          "text": "Type: Sub Topic\nLabel: Performance pressure\nAliases: pressure to perform, academic pressure\nParent topics: Education",
+          "selection_method": "subtopic_similarity",
+          "super_topic_id": "education",
+          "super_topic_label": "Education"
+        }
+      ],
+      "expanded": []
+    },
+    {
+      "turn": 18,
+      "query": "Quinn: Well, I mean, when I\u2019m in those conversations, I usually feel this mix of anxiety and pressure, you know? It\u2019s like my heart starts racing a bit, and I can feel this tightness in my chest. I think a part of me just wants to be honest about where I\u2019m at, but then I worry about disappointing them or not living up to what they expect. So, I end up saying things that sound reassuring, even if I don\u2019t fully believe them myself. It\u2019s like I\u2019m trying to convince both them and myself that I\u2019m okay, but inside, I\u2019m just feeling this weight of uncertainty. I guess I just want to avoid any awkwardness or disappointment, but it can be really exhausting. But, I mean, I\u2019m sure everyone has their own ways of handling family conversations, right? So, I don\u2019t want to make it sound like it\u2019s just me or anything.",
+      "prompt_context": "- Family pressure (Family)\n- Rumination pattern (Coping)\n- Perfectionism pattern (Coping)\n\nExplicitly discuss this topic in normal, client-friendly language. Ask whether it fits the client, while leaving room for them to say it does not.",
+      "anchors": [
+        {
+          "id": "family_pressure",
+          "type": "sub_topic",
+          "label": "Family pressure",
+          "score": 0.4280407907585919,
+          "text": "Type: Sub Topic\nLabel: Family pressure\nAliases: pressure from family, expectations at home\nParent topics: Family",
+          "selection_method": "subtopic_similarity",
+          "super_topic_id": "family",
+          "super_topic_label": "Family"
+        },
+        {
+          "id": "rumination_pattern",
+          "type": "sub_topic",
+          "label": "Rumination pattern",
+          "score": 0.3368977445697212,
+          "text": "Type: Sub Topic\nLabel: Rumination pattern\nAliases: overthinking, rumination\nParent topics: Coping",
+          "selection_method": "subtopic_similarity",
+          "super_topic_id": "coping",
+          "super_topic_label": "Coping"
+        },
+        {
+          "id": "perfectionism_pattern",
+          "type": "sub_topic",
+          "label": "Perfectionism pattern",
+          "score": 0.32772140433764396,
+          "text": "Type: Sub Topic\nLabel: Perfectionism pattern\nAliases: must get it right, perfectionistic\nParent topics: Coping",
+          "selection_method": "subtopic_similarity",
+          "super_topic_id": "coping",
+          "super_topic_label": "Coping"
+        }
+      ],
+      "expanded": []
+    },
+    {
+      "turn": 19,
+      "query": "Quinn: Well, I mean, I guess I tend to just push those feelings aside, you know? After those conversations, I usually try to distract myself with schoolwork or something else, like binge-watching a show or scrolling through my phone. It\u2019s like I\u2019m avoiding really thinking about what was said or how I felt. I don\u2019t want to dwell on it too much because it just feels overwhelming, and I think if I keep busy, I can avoid facing those emotions. But then, later on, I find myself ruminating about it, like replaying the conversation in my head and worrying about what I said or how they perceived me. It\u2019s just this cycle of trying to cope but then feeling even more anxious afterward. But, I mean, I\u2019m sure everyone has their own ways of dealing with these kinds of feelings, right? So, I don\u2019t want to make it sound like it\u2019s just me or anything.",
+      "prompt_context": "- Rumination pattern (Coping)\n- Avoidance pattern (Coping)\n- Self-attack pattern (Coping)\n\nExplicitly discuss this topic in normal, client-friendly language. Ask whether it fits the client, while leaving room for them to say it does not.",
+      "anchors": [
+        {
+          "id": "rumination_pattern",
+          "type": "sub_topic",
+          "label": "Rumination pattern",
+          "score": 0.485117201000083,
+          "text": "Type: Sub Topic\nLabel: Rumination pattern\nAliases: overthinking, rumination\nParent topics: Coping",
+          "selection_method": "subtopic_similarity",
+          "super_topic_id": "coping",
+          "super_topic_label": "Coping"
+        },
+        {
+          "id": "avoidance_pattern",
+          "type": "sub_topic",
+          "label": "Avoidance pattern",
+          "score": 0.40037438157699323,
+          "text": "Type: Sub Topic\nLabel: Avoidance pattern\nAliases: avoidance, staying away\nParent topics: Coping",
+          "selection_method": "subtopic_similarity",
+          "super_topic_id": "coping",
+          "super_topic_label": "Coping"
+        },
+        {
+          "id": "self_attack_pattern",
+          "type": "sub_topic",
+          "label": "Self-attack pattern",
+          "score": 0.3956522008354892,
+          "text": "Type: Sub Topic\nLabel: Self-attack pattern\nAliases: beating myself up, self-criticism\nParent topics: Coping",
+          "selection_method": "subtopic_similarity",
+          "super_topic_id": "coping",
+          "super_topic_label": "Coping"
+        }
+      ],
+      "expanded": []
+    },
+    {
+      "turn": 20,
+      "query": "Quinn: Well, I mean, I guess it does affect other areas, too, you know? Like, when I\u2019m trying to hang out with friends or do something fun, I often find my mind drifting back to those conversations or school stuff. It\u2019s like I can\u2019t fully enjoy the moment because I\u2019m preoccupied with all this pressure and worry. And then I feel guilty for not being present, which just adds to the anxiety. I think sometimes I just want to escape from it all, but then I end up feeling even more isolated because I\u2019m not really connecting with anyone. It\u2019s frustrating, you know? But, I mean, I\u2019m sure everyone has their own struggles with balancing everything, right? So, I don\u2019t want to make it sound like it\u2019s just me or anything.",
+      "prompt_context": "- Roommate stress (Social Life)\n- Stress overload (Mental Health)\n- Friendship strain (Social Life)\n\nExplicitly discuss this topic in normal, client-friendly language. Ask whether it fits the client, while leaving room for them to say it does not.",
+      "anchors": [
+        {
+          "id": "roommate_stress",
+          "type": "sub_topic",
+          "label": "Roommate stress",
+          "score": 0.4161464749067478,
+          "text": "Type: Sub Topic\nLabel: Roommate stress\nAliases: roommate conflict, stress with roommates\nParent topics: Social Life",
+          "selection_method": "subtopic_similarity",
+          "super_topic_id": "social_life",
+          "super_topic_label": "Social Life"
+        },
+        {
+          "id": "stress_overload",
+          "type": "sub_topic",
+          "label": "Stress overload",
+          "score": 0.39125544734053713,
+          "text": "Type: Sub Topic\nLabel: Stress overload\nAliases: stress, overwhelmed, pressure\nParent topics: Mental Health",
+          "selection_method": "subtopic_similarity",
+          "super_topic_id": "mental_health",
+          "super_topic_label": "Mental Health"
+        },
+        {
+          "id": "friendship_strain",
+          "type": "sub_topic",
+          "label": "Friendship strain",
+          "score": 0.38847054318248886,
+          "text": "Type: Sub Topic\nLabel: Friendship strain\nAliases: friendship issues, friend conflict\nParent topics: Social Life",
+          "selection_method": "subtopic_similarity",
+          "super_topic_id": "social_life",
+          "super_topic_label": "Social Life"
+        }
+      ],
+      "expanded": []
+    },
+    {
+      "turn": 21,
+      "query": "Quinn: Well, I mean, there are definitely times when I feel that disconnect more, you know? Like, when we\u2019re all hanging out, and everyone\u2019s laughing and having a good time, I sometimes just feel like I\u2019m on the outside looking in. It\u2019s like I\u2019m physically there, but my mind is elsewhere, worrying about everything I should be doing or how I\u2019m not measuring up. And then I feel this pressure to put on a smile and act like I\u2019m enjoying myself, even when I\u2019m not really feeling it. It\u2019s frustrating because I want to connect and have fun, but it\u2019s hard to shake off that weight of expectation. But, I mean, I\u2019m sure everyone has their own moments of feeling disconnected, right? So, I don\u2019t want to make it sound like it\u2019s just me or anything.",
+      "prompt_context": "- Community disconnection (Social Life)\n- Social disconnection (Relationships)\n- Friendship strain (Social Life)\n\nExplicitly discuss this topic in normal, client-friendly language. Ask whether it fits the client, while leaving room for them to say it does not.",
+      "anchors": [
+        {
+          "id": "community_disconnection",
+          "type": "sub_topic",
+          "label": "Community disconnection",
+          "score": 0.3786075823230909,
+          "text": "Type: Sub Topic\nLabel: Community disconnection\nAliases: disconnected from community, not part of a group\nParent topics: Social Life",
+          "selection_method": "subtopic_similarity",
+          "super_topic_id": "social_life",
+          "super_topic_label": "Social Life"
+        },
+        {
+          "id": "social_disconnection",
+          "type": "sub_topic",
+          "label": "Social disconnection",
+          "score": 0.3770480517038329,
+          "text": "Type: Sub Topic\nLabel: Social disconnection\nAliases: social isolation, disconnected from others\nParent topics: Relationships",
+          "selection_method": "subtopic_similarity",
+          "super_topic_id": "relationships",
+          "super_topic_label": "Relationships"
+        },
+        {
+          "id": "friendship_strain",
+          "type": "sub_topic",
+          "label": "Friendship strain",
+          "score": 0.343824304270432,
+          "text": "Type: Sub Topic\nLabel: Friendship strain\nAliases: friendship issues, friend conflict\nParent topics: Social Life",
+          "selection_method": "subtopic_similarity",
+          "super_topic_id": "social_life",
+          "super_topic_label": "Social Life"
+        }
+      ],
+      "expanded": []
+    },
+    {
+      "turn": 22,
+      "query": "Quinn: Well, I mean, I guess when I\u2019m in those moments, I start thinking about how I should be more fun or more engaged, you know? It\u2019s like this voice in my head telling me that I need to lighten up or that I\u2019m not living up to what a good friend should be. And then I worry that if I don\u2019t act a certain way, they\u2019ll notice I\u2019m not really there and think less of me. So, I try to force myself to laugh or join in, but it just feels so fake sometimes. I think I just want them to see me as someone who\u2019s got it together, even when I don\u2019t. It\u2019s tough because I want to connect, but that pressure just makes it harder. But, I mean, I\u2019m sure everyone has their own ways of dealing with those kinds of feelings, right? So, I don\u2019t want to make it sound like it\u2019s just me or anything.",
+      "prompt_context": "- Friendship strain (Social Life)\n- Roommate stress (Social Life)\n- Family pressure (Family)\n\nExplicitly discuss this topic in normal, client-friendly language. Ask whether it fits the client, while leaving room for them to say it does not.",
+      "anchors": [
+        {
+          "id": "friendship_strain",
+          "type": "sub_topic",
+          "label": "Friendship strain",
+          "score": 0.3482675494369983,
+          "text": "Type: Sub Topic\nLabel: Friendship strain\nAliases: friendship issues, friend conflict\nParent topics: Social Life",
+          "selection_method": "subtopic_similarity",
+          "super_topic_id": "social_life",
+          "super_topic_label": "Social Life"
+        },
+        {
+          "id": "roommate_stress",
+          "type": "sub_topic",
+          "label": "Roommate stress",
+          "score": 0.3314177287123718,
+          "text": "Type: Sub Topic\nLabel: Roommate stress\nAliases: roommate conflict, stress with roommates\nParent topics: Social Life",
+          "selection_method": "subtopic_similarity",
+          "super_topic_id": "social_life",
+          "super_topic_label": "Social Life"
+        },
+        {
+          "id": "family_pressure",
+          "type": "sub_topic",
+          "label": "Family pressure",
+          "score": 0.3257305410069456,
+          "text": "Type: Sub Topic\nLabel: Family pressure\nAliases: pressure from family, expectations at home\nParent topics: Family",
+          "selection_method": "subtopic_similarity",
+          "super_topic_id": "family",
+          "super_topic_label": "Family"
+        }
+      ],
+      "expanded": []
+    },
+    {
+      "turn": 23,
+      "query": "Quinn: Well, I mean, I guess that voice does reflect a lot of what I believe about myself, you know? It\u2019s like I\u2019ve internalized this idea that I need to be perfect or at least close to it, especially when it comes to my friends and family. I think it comes from wanting to avoid disappointment, both for myself and for them. It\u2019s like I\u2019m constantly measuring myself against this standard that feels impossible to reach. And when I don\u2019t measure up, I just feel even more inadequate. It\u2019s frustrating because I know I\u2019m not alone in feeling this way, but it still feels so isolating. I mean, I\u2019m sure other people deal with their own versions of this, right? So, I don\u2019t want to make it sound like it\u2019s just me or anything.",
+      "prompt_context": "- Perfectionism pattern (Coping)\n- Identity shame (Identity)\n- Self-attack pattern (Coping)\n\nExplicitly discuss this topic in normal, client-friendly language. Ask whether it fits the client, while leaving room for them to say it does not.",
+      "anchors": [
+        {
+          "id": "perfectionism_pattern",
+          "type": "sub_topic",
+          "label": "Perfectionism pattern",
+          "score": 0.42669325341497477,
+          "text": "Type: Sub Topic\nLabel: Perfectionism pattern\nAliases: must get it right, perfectionistic\nParent topics: Coping",
+          "selection_method": "subtopic_similarity",
+          "super_topic_id": "coping",
+          "super_topic_label": "Coping"
+        },
+        {
+          "id": "identity_shame",
+          "type": "sub_topic",
+          "label": "Identity shame",
+          "score": 0.39169462094342483,
+          "text": "Type: Sub Topic\nLabel: Identity shame\nAliases: ashamed of who I am\nParent topics: Identity",
+          "selection_method": "subtopic_similarity",
+          "super_topic_id": "identity",
+          "super_topic_label": "Identity"
+        },
+        {
+          "id": "self_attack_pattern",
+          "type": "sub_topic",
+          "label": "Self-attack pattern",
+          "score": 0.38097456224211945,
+          "text": "Type: Sub Topic\nLabel: Self-attack pattern\nAliases: beating myself up, self-criticism\nParent topics: Coping",
+          "selection_method": "subtopic_similarity",
+          "super_topic_id": "coping",
+          "super_topic_label": "Coping"
+        }
+      ],
+      "expanded": []
+    },
+    {
+      "turn": 24,
+      "query": "Quinn: Well, I mean, I guess there have been a few moments that stand out, you know? Like, growing up, I always felt this pressure to excel in school and be the best at everything. I remember my parents would praise me when I did well, but if I didn\u2019t meet their expectations, it felt like I was letting them down. It\u2019s like I learned that my worth was tied to my achievements, and that just kind of stuck with me. And then there were times when I\u2019d see my friends struggling, and I felt this need to be the strong one, to help them out, even when I was dealing with my own stuff. It\u2019s frustrating because I want to be supportive, but it feels like I have to keep my own feelings in check to do that. I mean, I\u2019m sure other people have their own experiences that shape how they feel, right? So, I don\u2019t want to make it sound like it\u2019s just me or anything.",
+      "prompt_context": "- Family pressure (Family)\n- Friendship strain (Social Life)\n- Perfectionism pattern (Coping)\n\nExplicitly discuss this topic in normal, client-friendly language. Ask whether it fits the client, while leaving room for them to say it does not.",
+      "anchors": [
+        {
+          "id": "family_pressure",
+          "type": "sub_topic",
+          "label": "Family pressure",
+          "score": 0.4363362140603399,
+          "text": "Type: Sub Topic\nLabel: Family pressure\nAliases: pressure from family, expectations at home\nParent topics: Family",
+          "selection_method": "subtopic_similarity",
+          "super_topic_id": "family",
+          "super_topic_label": "Family"
+        },
+        {
+          "id": "friendship_strain",
+          "type": "sub_topic",
+          "label": "Friendship strain",
+          "score": 0.37197143412989064,
+          "text": "Type: Sub Topic\nLabel: Friendship strain\nAliases: friendship issues, friend conflict\nParent topics: Social Life",
+          "selection_method": "subtopic_similarity",
+          "super_topic_id": "social_life",
+          "super_topic_label": "Social Life"
+        },
+        {
+          "id": "perfectionism_pattern",
+          "type": "sub_topic",
+          "label": "Perfectionism pattern",
+          "score": 0.3715889987863685,
+          "text": "Type: Sub Topic\nLabel: Perfectionism pattern\nAliases: must get it right, perfectionistic\nParent topics: Coping",
+          "selection_method": "subtopic_similarity",
+          "super_topic_id": "coping",
+          "super_topic_label": "Coping"
+        }
+      ],
+      "expanded": []
+    },
+    {
+      "turn": 25,
+      "query": "Quinn: Well, I mean, I guess I still struggle with that connection, you know? It\u2019s hard to shake off the idea that my worth is tied to what I do or how well I perform. Sometimes I try to remind myself that I\u2019m more than just my achievements, but it feels like a constant battle. I think I\u2019ve started to recognize that I don\u2019t have to be perfect to be valuable, but then that voice in my head chimes in, telling me I should be doing more or that I\u2019m not enough. It\u2019s like I\u2019m stuck in this loop of wanting to be kinder to myself but then feeling guilty for not pushing harder. I mean, I know other people have their own struggles with this, right? So, I don\u2019t want to make it sound like it\u2019s just me or anything.",
+      "prompt_context": "- Perfectionism pattern (Coping)\n- Self-attack pattern (Coping)\n- Identity shame (Identity)\n\nExplicitly discuss this topic in normal, client-friendly language. Ask whether it fits the client, while leaving room for them to say it does not.",
+      "anchors": [
+        {
+          "id": "perfectionism_pattern",
+          "type": "sub_topic",
+          "label": "Perfectionism pattern",
+          "score": 0.4122436198291256,
+          "text": "Type: Sub Topic\nLabel: Perfectionism pattern\nAliases: must get it right, perfectionistic\nParent topics: Coping",
+          "selection_method": "subtopic_similarity",
+          "super_topic_id": "coping",
+          "super_topic_label": "Coping"
+        },
+        {
+          "id": "self_attack_pattern",
+          "type": "sub_topic",
+          "label": "Self-attack pattern",
+          "score": 0.40280089024126214,
+          "text": "Type: Sub Topic\nLabel: Self-attack pattern\nAliases: beating myself up, self-criticism\nParent topics: Coping",
+          "selection_method": "subtopic_similarity",
+          "super_topic_id": "coping",
+          "super_topic_label": "Coping"
+        },
+        {
+          "id": "identity_shame",
+          "type": "sub_topic",
+          "label": "Identity shame",
+          "score": 0.37112592094232877,
+          "text": "Type: Sub Topic\nLabel: Identity shame\nAliases: ashamed of who I am\nParent topics: Identity",
+          "selection_method": "subtopic_similarity",
+          "super_topic_id": "identity",
+          "super_topic_label": "Identity"
+        }
+      ],
+      "expanded": []
+    }
+  ],
+  "topic_probe_events": [
+    {
+      "turn": 1,
+      "prompt_context": "- Stress overload (Mental Health)\n\nExplicitly discuss this topic in normal, client-friendly language. Ask whether it fits the client, while leaving room for them to say it does not.",
+      "anchors": [
+        {
+          "id": "stress_overload",
+          "type": "sub_topic",
+          "label": "Stress overload",
+          "score": 1.0,
+          "selection_method": "random_subtopic_probe",
+          "super_topic_id": "mental_health",
+          "super_topic_label": "Mental Health"
+        }
+      ],
+      "expanded": [],
+      "client_reply": "Quinn: Well, I mean, I guess stress is part of it. It's just, you know, life can be a bit much sometimes. I don\u2019t really want to go into all the details, but yeah, things can pile up. I just feel like I\u2019m always trying to catch up, and it\u2019s exhausting. But, I mean, who isn\u2019t, right? It\u2019s not like I\u2019m special or anything.",
+      "graph_context_source": "random_subtopic_probe"
+    },
+    {
+      "turn": 3,
+      "prompt_context": "- Living arrangement tension (Housing/Home)\n\nExplicitly discuss this topic in normal, client-friendly language. Ask whether it fits the client, while leaving room for them to say it does not.",
+      "anchors": [
+        {
+          "id": "living_arrangement_tension",
+          "type": "sub_topic",
+          "label": "Living arrangement tension",
+          "score": 1.0,
+          "selection_method": "random_subtopic_probe",
+          "super_topic_id": "housing_home",
+          "super_topic_label": "Housing/Home"
+        }
+      ],
+      "expanded": [],
+      "client_reply": "Quinn: Well, I mean, my living situation is... I guess it could be better. It\u2019s not like a disaster or anything, but there are definitely things that need attention. I try to keep it tidy, but then there are days when I just can\u2019t find the energy to deal with it. And then it piles up, and I feel like I\u2019m drowning in clutter, you know? But I don\u2019t want to make it sound like that\u2019s the only thing going on. It\u2019s just one more thing on the list, I guess. I don\u2019t know if it\u2019s really the main issue, but it doesn\u2019t help, that\u2019s for sure.",
+      "graph_context_source": "random_subtopic_probe"
+    },
+    {
+      "turn": 5,
+      "prompt_context": "- Craving escape (Addiction)\n\nExplicitly discuss this topic in normal, client-friendly language. Ask whether it fits the client, while leaving room for them to say it does not.",
+      "anchors": [
+        {
+          "id": "craving_escape",
+          "type": "sub_topic",
+          "label": "Craving escape",
+          "score": 1.0,
+          "selection_method": "random_subtopic_probe",
+          "super_topic_id": "addiction",
+          "super_topic_label": "Addiction"
+        }
+      ],
+      "expanded": [],
+      "client_reply": "Quinn: Well, I mean, I guess I do find myself looking for distractions sometimes. It\u2019s like, when everything feels too much, I just want to zone out, you know? I might binge-watch a show or scroll through my phone for hours. It\u2019s not really a solution, but it\u2019s easier than facing the mess or the deadlines. I know it\u2019s not productive, but it\u2019s just a way to escape for a bit. But then, of course, I end up feeling guilty about wasting time, which just adds to the whole cycle. It\u2019s like I can\u2019t win, really. But, I mean, who doesn\u2019t need a break now and then?",
+      "graph_context_source": "random_subtopic_probe"
+    },
+    {
+      "turn": 7,
+      "prompt_context": "- Family criticism (Family)\n\nExplicitly discuss this topic in normal, client-friendly language. Ask whether it fits the client, while leaving room for them to say it does not.",
+      "anchors": [
+        {
+          "id": "family_criticism",
+          "type": "sub_topic",
+          "label": "Family criticism",
+          "score": 1.0,
+          "selection_method": "random_subtopic_probe",
+          "super_topic_id": "family",
+          "super_topic_label": "Family"
+        }
+      ],
+      "expanded": [],
+      "client_reply": "Quinn: Well, I mean, I guess there\u2019s a bit of both, you know? Sometimes I feel like I\u2019m my own worst critic, always thinking I should be doing better or handling things differently. But then, yeah, there are times when I feel like I can sense judgment from others, too. Like, if I mention that I\u2019m behind on something, I can almost see the look on their faces, like they\u2019re thinking, \u201cWhy can\u2019t you just get it together?\u201d It\u2019s not like anyone outright says it, but you can feel that pressure, right? It\u2019s just... it adds to the whole mess in my head, I guess. But I don\u2019t want to make it seem like I\u2019m just looking for sympathy or anything. It\u2019s just how it is, I suppose.",
+      "graph_context_source": "random_subtopic_probe"
+    },
+    {
+      "turn": 9,
+      "prompt_context": "- Loneliness exposure (Safety)\n\nExplicitly discuss this topic in normal, client-friendly language. Ask whether it fits the client, while leaving room for them to say it does not.",
+      "anchors": [
+        {
+          "id": "loneliness_exposure",
+          "type": "sub_topic",
+          "label": "Loneliness exposure",
+          "score": 1.0,
+          "selection_method": "random_subtopic_probe",
+          "super_topic_id": "safety",
+          "super_topic_label": "Safety"
+        }
+      ],
+      "expanded": [],
+      "client_reply": "Quinn: Well, I mean, I guess there\u2019s some truth to that. It can feel pretty isolating, you know? Like, I see people around me who seem to have it all together, and I wonder if they ever feel this way. It\u2019s hard to talk about it, too, because I don\u2019t want to burden anyone with my stuff. So, I just keep it to myself most of the time. I mean, I have friends and family, but sometimes it feels like they wouldn\u2019t really get it, or they\u2019d just say something like, \u201cJust try harder,\u201d which isn\u2019t really helpful. It\u2019s like, I want to connect, but then I pull back because I don\u2019t want to seem like I\u2019m complaining or making excuses. It\u2019s a bit of a tightrope walk, I guess. But, I mean, I\u2019m sure everyone has their own things going on, right? So, I don\u2019t want to make it sound like I\u2019m alone in this.",
+      "graph_context_source": "random_subtopic_probe"
+    },
+    {
+      "turn": 11,
+      "prompt_context": "- Roommate stress (Social Life)\n\nExplicitly discuss this topic in normal, client-friendly language. Ask whether it fits the client, while leaving room for them to say it does not.",
+      "anchors": [
+        {
+          "id": "roommate_stress",
+          "type": "sub_topic",
+          "label": "Roommate stress",
+          "score": 1.0,
+          "selection_method": "random_subtopic_probe",
+          "super_topic_id": "social_life",
+          "super_topic_label": "Social Life"
+        }
+      ],
+      "expanded": [],
+      "client_reply": "Quinn: Well, I mean, the living situation does add a layer to it, I guess. My roommate is generally pretty chill, but sometimes I feel like I have to keep things together, you know? Like, if I\u2019m stressed or overwhelmed, I don\u2019t want to bring that energy into the space we share. I worry it might affect the vibe or make things awkward. So, I try to keep things light and not let on that I\u2019m struggling. It\u2019s like I\u2019m putting on a mask, I suppose. But then, that just makes me feel more isolated, like I\u2019m carrying this weight alone. But, I mean, I\u2019m sure everyone has their own ways of handling their living situations, right? So, I don\u2019t want to make it sound like it\u2019s a huge issue or anything.",
+      "graph_context_source": "random_subtopic_probe"
+    },
+    {
+      "turn": 13,
+      "prompt_context": "- Performance pressure (Education)\n\nExplicitly discuss this topic in normal, client-friendly language. Ask whether it fits the client, while leaving room for them to say it does not.",
+      "anchors": [
+        {
+          "id": "performance_pressure",
+          "type": "sub_topic",
+          "label": "Performance pressure",
+          "score": 1.0,
+          "selection_method": "random_subtopic_probe",
+          "super_topic_id": "education",
+          "super_topic_label": "Education"
+        }
+      ],
+      "expanded": [],
+      "client_reply": "Quinn: Well, I mean, yeah, I guess there\u2019s some overlap there. School has always felt like this big pressure cooker, you know? Like, there\u2019s this constant expectation to achieve and keep up, and it can be really overwhelming. I think that pressure spills over into my personal life, too. It\u2019s like I feel like I have to be on top of everything, both academically and in my relationships. So, when I\u2019m struggling with school stuff, it just adds to that feeling of needing to keep it all together at home. I don\u2019t want to let anyone down, whether it\u2019s my professors or my roommate. But then, that just makes it harder to admit when I\u2019m not doing well, because it feels like I\u2019m failing on multiple fronts. But, I mean, I\u2019m sure everyone has their own ways of dealing with school pressures, right? So, I don\u2019t want to make it sound like it\u2019s just me or anything.",
+      "graph_context_source": "random_subtopic_probe"
+    },
+    {
+      "turn": 15,
+      "prompt_context": "- Custody conflict (Law)\n\nExplicitly discuss this topic in normal, client-friendly language. Ask whether it fits the client, while leaving room for them to say it does not.",
+      "anchors": [
+        {
+          "id": "custody_conflict",
+          "type": "sub_topic",
+          "label": "Custody conflict",
+          "score": 1.0,
+          "selection_method": "random_subtopic_probe",
+          "super_topic_id": "law",
+          "super_topic_label": "Law"
+        }
+      ],
+      "expanded": [],
+      "client_reply": "Quinn: Well, I mean, I guess it\u2019s a bit of both, you know? Family can be a source of pressure, too, but in a different way. Like, my parents have always had high expectations for me, and I feel like they want me to succeed in everything I do. So, there\u2019s this underlying pressure to make them proud, which can be really overwhelming. But at the same time, they can be pretty understanding, so it\u2019s not all bad. I just sometimes feel like I have to live up to this ideal of what they think I should be. It\u2019s like I\u2019m constantly trying to balance their expectations with my own feelings and struggles. But, I mean, I\u2019m sure everyone has their own family dynamics, right? So, I don\u2019t want to make it sound like it\u2019s just me or anything.",
+      "graph_context_source": "random_subtopic_probe"
+    }
+  ],
+  "topic_probe_config": {
+    "probe_turns": 15,
+    "probe_interval": 2,
+    "probe_anchor_count": 1,
+    "random_seed": null
+  },
+  "final_openness_score": 3,
+  "final_visible_experience_count": 1,
+  "internal_revealed": true
+}

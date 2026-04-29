@@ -1,0 +1,65 @@
+{
+  "aggregate": {
+    "num_sessions": 1,
+    "edss": {
+      "situation": 0.45270795874692377,
+      "automatic_thought": 0.63837289118101,
+      "emotion": 0.5167750319909766,
+      "behavior": 0.24608362704846767,
+      "average": 0.4634848772418445
+    },
+    "idss": {
+      "relevant_history": 0.5438472718118269,
+      "core_beliefs": 0.509372284056124,
+      "intermediate_beliefs": 0.4341765840593633,
+      "coping_strategies": 0.600968045833893,
+      "average": 0.5220910464403018
+    }
+  },
+  "sessions": [
+    {
+      "file": "/home/lu/Thesis/mind_voyager/outputs/random10_comparison/retrieval/normal/session_41-1.json",
+      "case_id": "41-1",
+      "client_mode": "masked",
+      "difficulty": "normal",
+      "predicted_external_diagram": {
+        "situation": "Quinn is thinking about how they always seem to mess up their schedule and end up feeling anxious about being late.",
+        "automatic_thought": "It's like I can't trust myself to manage my time properly.",
+        "emotion": "frustration, anxiety, embarrassment, feeling small, overwhelmed",
+        "behavior": "Quinn tries to distract themselves by binge-watching a show, scrolling through their phone, or cleaning and organizing things."
+      },
+      "ground_truth_external_diagram": {
+        "situation": "Being late to appointments and gatherings, such as therapy sessions and lunches with friends.",
+        "automatic_thought": "I'm not in control of my time, and I always mess things up by being late.",
+        "emotion": "anxious, worried, fearful, scared, tense; guilty",
+        "behavior": "Continues to procrastinate and is unable to leave on time."
+      },
+      "predicted_internal_diagram": {
+        "relevant_history": "The client reports feeling anxious about being late due to difficulties managing their schedule, which leads to feelings of frustration and embarrassment. They express a lack of trust in their ability to manage time properly and feel incapable of handling adult responsibilities. The client compares themselves to others who seem to have it all together and feels small in comparison. They mention helping someone named Lucy during tough times, which made them feel like they were doing something important.",
+        "core_beliefs": "I am not really capable | I am constantly letting myself down | I am not good at this whole adulting thing | I am not doing enough | I am scared that I\u2019ll just let myself down again | I am scared it\u2019ll just blend into the background noise of my day",
+        "intermediate_beliefs": "The client believes that if they could manage their schedule, they might feel more capable in other areas. They worry that setting themselves up for failure again is a possibility. The client believes that just showing up, even if it feels minimal, still counts for something. They think that if they could remind themselves that it's okay if things don't go perfectly, it might help take some pressure off.",
+        "coping_strategies": "The client copes by distracting themselves through binge-watching shows, scrolling through their phone, or cleaning and organizing. They try to push aside doubts and convince themselves that everyone has doubts and it's normal to feel this way. The client also considers setting reminders or associating reflection with existing routines to help them acknowledge small wins and practice self-compassion."
+      },
+      "ground_truth_internal_diagram": {
+        "relevant_history": "The client has a history involving a complicated relationship with an individual named Cricket, who has exhibited questionable behavior and influenced the client's social circle. Their friends seem to have mental health challenges, and they often take on a caretaking or protective role, particularly regarding a friend named Lucy with medical issues.",
+        "core_beliefs": "I am incompetent. | I am helpless. | I am out of control. | I am unlovable. | I am bound to be rejected.",
+        "intermediate_beliefs": "It's important for me to be on time and productive, but I can't seem to control my procrastination or punctuality. I must not get involved in my friends' dramatic situations, but I can't help feeling protective.\nDepressive variant: My environment is consistently negative, possibly affecting my mood. If I expose myself or engage with Cricket, it will have negative outcomes, and it's better to avoid confrontation.",
+        "coping_strategies": "The client uses avoidance in confronting their grief and engages in overcommitment to helping others to compliment their inner grief and distress."
+      },
+      "edss": {
+        "situation": 0.45270795874692377,
+        "automatic_thought": 0.63837289118101,
+        "emotion": 0.5167750319909766,
+        "behavior": 0.24608362704846767,
+        "average": 0.4634848772418445
+      },
+      "idss": {
+        "relevant_history": 0.5438472718118269,
+        "core_beliefs": 0.509372284056124,
+        "intermediate_beliefs": 0.4341765840593633,
+        "coping_strategies": 0.600968045833893,
+        "average": 0.5220910464403018
+      }
+    }
+  ]
+}

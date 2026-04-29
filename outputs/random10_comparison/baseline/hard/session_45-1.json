@@ -1,0 +1,296 @@
+{
+  "case_id": "45-1",
+  "client_name": "Jordan",
+  "client_mode": "masked",
+  "difficulty": "hard",
+  "openness_interval": 3,
+  "therapist_provider": "openai",
+  "therapist_model": "gpt-4o-mini",
+  "therapist_prompt_mode": "baseline",
+  "client_model": "gpt-4o-mini",
+  "moderator_enabled": false,
+  "moderator_model": "gpt-4o-mini",
+  "max_turns": 25,
+  "therapist_turns": 25,
+  "stop_reason": "max_turns",
+  "transcript": [
+    {
+      "turn": 1,
+      "speaker": "therapist",
+      "content": "Hi Jordan, I'm glad you're here today. What feels most important for you to talk about right now?"
+    },
+    {
+      "turn": 1,
+      "speaker": "client",
+      "content": "Jordan: Well, I guess I\u2019ve been thinking about work a lot lately. It\u2019s just, you know, there\u2019s always this nagging feeling that I\u2019m missing something or that I\u2019m not doing it right. I mean, it\u2019s hard to focus when you\u2019re worried about making mistakes, right? So, I don\u2019t know, maybe we could talk about that? But, I mean, it\u2019s not like it\u2019s a huge deal or anything. Just something that\u2019s been on my mind."
+    },
+    {
+      "turn": 2,
+      "speaker": "therapist",
+      "content": "Therapist: It sounds like work has been weighing on you, and that feeling of possibly missing something or making mistakes is really affecting your focus. It\u2019s understandable to feel that way, even if it feels like a small issue. Can you tell me more about what specific thoughts or worries come up for you when you think about your work?"
+    },
+    {
+      "turn": 2,
+      "speaker": "client",
+      "content": "Jordan: Well, it\u2019s just, I keep thinking about deadlines and whether I\u2019ve done everything I was supposed to do. Like, I\u2019ll double-check my work, but then I still feel like I might have overlooked something important. And then there\u2019s this voice in my head that says, \u201cWhat if you forget something crucial?\u201d It\u2019s exhausting, honestly. I mean, I try to stay organized, but then I end up second-guessing myself all the time. It\u2019s like I can\u2019t shake off that feeling of dread, you know? But, I guess it\u2019s probably just part of the job or something."
+    },
+    {
+      "turn": 3,
+      "speaker": "therapist",
+      "content": "Therapist: It sounds really challenging to be in that cycle of second-guessing yourself and feeling that sense of dread about your work. It must be exhausting to constantly worry about deadlines and whether you\u2019ve overlooked something. When you hear that voice in your head asking, \u201cWhat if you forget something crucial?\u201d how does that make you feel in the moment?"
+    },
+    {
+      "turn": 3,
+      "speaker": "client",
+      "content": "Jordan: Well, when I hear that voice, it just makes me feel even more anxious, like my heart starts racing a bit, and I get this tightness in my chest. It\u2019s like, I know I should be able to trust myself, but then that doubt creeps in, and it\u2019s hard to shake off. I mean, it\u2019s not like I want to feel this way, but it just happens. Sometimes I just want to scream at myself to get it together, but that doesn\u2019t really help, does it? It\u2019s just frustrating, you know? I wish I could just focus on the tasks at hand without all this extra noise in my head."
+    },
+    {
+      "turn": 4,
+      "speaker": "therapist",
+      "content": "Therapist: It sounds like that voice brings a lot of anxiety and physical tension for you, which makes it difficult to focus on your tasks. It\u2019s understandable to feel frustrated when you want to trust yourself but find that doubt creeping in. When you think about wanting to scream at yourself to get it together, what do you think that frustration is really pointing to for you?"
+    },
+    {
+      "turn": 4,
+      "speaker": "client",
+      "content": "Jordan: I guess it\u2019s just this feeling of being overwhelmed, like I\u2019m not living up to my own expectations or something. I mean, I set these standards for myself, and when I can\u2019t meet them, it just feels like I\u2019m letting myself down. It\u2019s like I\u2019m stuck in this loop of trying to do better but then getting caught up in all the what-ifs. I know I should probably be more forgiving of myself, but it\u2019s just hard to let go of that pressure. I mean, who wants to mess up at work, right? It\u2019s just... frustrating, like I\u2019m my own worst enemy sometimes."
+    },
+    {
+      "turn": 5,
+      "speaker": "therapist",
+      "content": "Therapist: It sounds like you\u2019re feeling a lot of pressure from the standards you set for yourself, and that can lead to feeling overwhelmed and stuck in that loop of self-doubt. It\u2019s tough to navigate that inner critic, especially when it feels like you\u2019re your own worst enemy. Can you share more about where those expectations come from? Have you noticed any patterns or experiences that might have shaped how you view your performance at work?"
+    },
+    {
+      "turn": 5,
+      "speaker": "client",
+      "content": "Jordan: Well, I guess it\u2019s a mix of things, really. I mean, growing up, there was always this emphasis on doing well in school and achieving, you know? My parents had high expectations, and I think I just internalized that. It\u2019s like I took that pressure and carried it into my work life. I want to make them proud, but then it feels like I\u2019m just setting myself up for failure sometimes. And then there\u2019s the whole comparison thing, too. You see others doing well, and it\u2019s hard not to think, \u201cWhy can\u2019t I be like that?\u201d It just adds to the whole feeling of inadequacy, I guess. So, I don\u2019t know, maybe that\u2019s where some of these expectations come from. It\u2019s just a lot to juggle, I suppose."
+    },
+    {
+      "turn": 6,
+      "speaker": "therapist",
+      "content": "Therapist: It sounds like those early experiences and the high expectations from your parents have really shaped how you view success and performance in your work. It\u2019s understandable to feel that pressure to make them proud, and comparing yourself to others can intensify those feelings of inadequacy. When you think about that mix of internalized expectations and comparison, how does it affect your sense of self-worth or how you view your accomplishments?"
+    },
+    {
+      "turn": 6,
+      "speaker": "client",
+      "content": "Jordan: Well, it definitely takes a toll on my self-worth, you know? I mean, when I don\u2019t meet those expectations, it feels like I\u2019m not just failing at work; it\u2019s like I\u2019m failing as a person. I start to think, \u201cIf I can\u2019t even do this right, what does that say about me?\u201d It\u2019s like my accomplishments don\u2019t really count unless they\u2019re perfect or up to some standard that I\u2019ve set. And then I see others succeeding, and it just reinforces that feeling of being inadequate. It\u2019s frustrating because I know I\u2019ve done good work before, but it\u2019s hard to celebrate those moments when I\u2019m so focused on what I didn\u2019t do or what I could have done better. It\u2019s like I\u2019m stuck in this cycle of never feeling good enough, and that just makes everything feel heavier."
+    },
+    {
+      "turn": 7,
+      "speaker": "therapist",
+      "content": "Therapist: It sounds like your self-worth is closely tied to those expectations and how you perceive your accomplishments, which can make it really difficult to recognize and celebrate your successes. That cycle of feeling inadequate, even when you\u2019ve done good work, must be really draining. When you think about those moments when you\u2019ve succeeded, what do you think holds you back from fully acknowledging and appreciating them?"
+    },
+    {
+      "turn": 7,
+      "speaker": "client",
+      "content": "Jordan: Well, I think part of it is that I\u2019m always looking for the next thing to improve or fix, you know? It\u2019s like I can\u2019t just sit back and say, \u201cHey, I did a good job.\u201d Instead, I\u2019m stuck thinking about what I could have done differently or better. And then there\u2019s that nagging voice again, reminding me that maybe it wasn\u2019t good enough. I guess I\u2019m just so used to pushing myself to do better that I forget to take a moment to acknowledge what I\u2019ve accomplished. It feels almost like I\u2019m afraid to celebrate because I don\u2019t want to get complacent or something. It\u2019s just this constant pressure to keep striving, and it\u2019s exhausting. I mean, who has time to feel proud when there\u2019s always more to do, right?"
+    },
+    {
+      "turn": 8,
+      "speaker": "therapist",
+      "content": "Therapist: It sounds like that drive to constantly improve and push yourself is really strong, but it also prevents you from taking a moment to acknowledge your achievements. It must be tiring to feel like there\u2019s always more to do and that celebrating your successes might lead to complacency. When you think about that fear of becoming complacent, what do you think it says about how you view success or what it means to you?"
+    },
+    {
+      "turn": 8,
+      "speaker": "client",
+      "content": "Jordan: Well, I guess it kind of ties back to that whole idea of worthiness, you know? Like, if I stop to celebrate, it feels like I\u2019m saying, \u201cOkay, I\u2019m good enough now,\u201d and that just seems risky. I mean, what if I let my guard down and then I don\u2019t keep pushing myself? It\u2019s like I\u2019ve built this belief that success is all about constant improvement and never settling for less. I think I\u2019ve equated success with being in a state of perpetual hustle, and if I take a break to acknowledge what I\u2019ve done, I might slip into this mindset of thinking I can just coast. And honestly, that scares me. I don\u2019t want to be seen as someone who isn\u2019t striving for more, especially when I\u2019ve always been told that hard work is what leads to achievement. So, I guess it\u2019s like I\u2019m stuck in this cycle of needing to prove myself, even to myself, and it just feels never-ending."
+    },
+    {
+      "turn": 9,
+      "speaker": "therapist",
+      "content": "Therapist: It sounds like your beliefs about success and worthiness are deeply intertwined with the idea of constant striving and hard work. That fear of letting your guard down and becoming complacent seems to create a lot of pressure for you. It must be exhausting to feel like you always need to prove yourself, especially when it feels like a never-ending cycle. When you reflect on this belief that success is tied to perpetual hustle, how does it impact your overall well-being or how you feel about yourself outside of work?"
+    },
+    {
+      "turn": 9,
+      "speaker": "client",
+      "content": "Jordan: You know, it really does take a toll on my overall well-being. I mean, outside of work, I find it hard to relax or enjoy things because I\u2019m always thinking about what I should be doing instead. It\u2019s like I can\u2019t fully be present in the moment because my mind is racing with tasks or goals I haven\u2019t accomplished yet. I feel like I\u2019m missing out on enjoying life, you know? Like, I can\u2019t just go out and have fun without that nagging feeling in the back of my head saying I should be working on something. It\u2019s frustrating because I want to be able to enjoy time with friends or family, but I often end up feeling guilty for not being productive. It\u2019s like I\u2019m stuck in this cycle where I can\u2019t separate my worth from my work, and that just makes everything feel heavier. I guess I\u2019m just left feeling drained and a bit lost sometimes."
+    },
+    {
+      "turn": 10,
+      "speaker": "therapist",
+      "content": "Therapist: It sounds like that constant pressure to be productive really affects your ability to relax and enjoy life outside of work. It must be difficult to feel guilty for wanting to take a break or have fun, especially when you\u2019re trying to juggle so many expectations. When you think about that feeling of being drained and lost, what do you think you might need in order to create a little more space for yourself to enjoy those moments?"
+    },
+    {
+      "turn": 10,
+      "speaker": "client",
+      "content": "Jordan: I mean, that\u2019s a tough question. I guess part of me knows I need to find a way to give myself permission to take a break, but it feels so foreign, you know? Like, I\u2019ve been conditioned to think that downtime is a waste of time. Maybe I need to work on shifting my mindset a bit, but it\u2019s hard to break that habit of always needing to be productive. I think if I could just find some small ways to carve out time for myself\u2014like setting aside a few minutes to just breathe or do something I enjoy without feeling guilty\u2014that might help. But then there\u2019s that voice again, reminding me that I should be doing something more worthwhile. It\u2019s just this constant tug-of-war in my head, and I\u2019m not sure how to find that balance. I guess I just want to feel like it\u2019s okay to not always be on the go."
+    },
+    {
+      "turn": 11,
+      "speaker": "therapist",
+      "content": "Therapist: It sounds like you're really aware of the need to give yourself permission to take breaks, but that conditioning around productivity makes it challenging. The idea of carving out small moments for yourself feels like a step in the right direction, yet that inner voice still pulls you back into the cycle of guilt. When you think about those small moments you mentioned\u2014like taking a few minutes to breathe or enjoy something without guilt\u2014what do you think might help you actually take that step?"
+    },
+    {
+      "turn": 11,
+      "speaker": "client",
+      "content": "Jordan: Well, I think it might help if I could set some clear boundaries for myself, you know? Like maybe designating specific times where I just focus on doing something enjoyable without letting my mind wander to work. I mean, it\u2019s kind of like creating a little bubble where I can just be present. But then again, there\u2019s that fear creeping in\u2014what if I start to enjoy it too much and then I don\u2019t want to go back to work? It\u2019s like I\u2019m caught between wanting to take that time for myself and worrying that it\u2019ll lead to me falling behind or not meeting those expectations. I guess maybe having someone to hold me accountable or even just reminding me that it\u2019s okay to take those breaks could help. But then I wonder if I\u2019d just end up feeling guilty about needing that support, too. It\u2019s just a lot to think about, and I\u2019m not sure where to start."
+    },
+    {
+      "turn": 12,
+      "speaker": "therapist",
+      "content": "Therapist: It sounds like setting clear boundaries for yourself could create that space you\u2019re looking for, but the fear of enjoying it too much and falling behind is holding you back. It\u2019s understandable to feel conflicted about wanting to take time for yourself while also worrying about meeting expectations. When you think about the idea of accountability, what kind of support do you think would feel most helpful for you in this process?"
+    },
+    {
+      "turn": 12,
+      "speaker": "client",
+      "content": "Jordan: You know, I think having someone who understands where I\u2019m coming from would be really helpful. Like, maybe a friend or even a partner who can check in with me and remind me that it\u2019s okay to take a break. I mean, it\u2019s one thing to tell myself that, but hearing it from someone else might make it feel more valid, you know? I guess I just need that reassurance that taking time for myself doesn\u2019t mean I\u2019m slacking off or failing. But then there\u2019s that worry again\u2014what if I end up feeling like I\u2019m burdening them or that they\u2019ll think I\u2019m not capable of handling things on my own? It\u2019s just hard to navigate all these thoughts and feelings, and I\u2019m not sure how to ask for that kind of support without feeling like I\u2019m overstepping or being needy. It\u2019s like I want to reach out, but I also don\u2019t want to come off as weak or anything."
+    },
+    {
+      "turn": 13,
+      "speaker": "therapist",
+      "content": "Therapist: It sounds like having someone who understands your struggle could provide the reassurance you need, but there\u2019s a lot of concern about how reaching out might be perceived. It\u2019s understandable to feel hesitant about asking for support, especially when you\u2019re worried about burdening others or appearing weak. When you think about those feelings of wanting to reach out, what do you think might help you feel more comfortable in asking for that support?"
+    },
+    {
+      "turn": 13,
+      "speaker": "client",
+      "content": "Jordan: I guess it might help if I could reframe how I view asking for support. Like, instead of seeing it as a sign of weakness, maybe I could think of it as a way to strengthen my relationships or even just as a normal part of being human. I mean, everyone needs help sometimes, right? But then I get caught up in that fear of being judged or feeling like I\u2019m imposing on someone else\u2019s time. Maybe I could start small, like just mentioning to a friend that I\u2019m trying to take more breaks and see how they respond. If they\u2019re supportive, that might give me the confidence to ask for more help when I really need it. It\u2019s just tough to shake off that feeling that I should be able to handle everything on my own. I guess I just want to feel like it\u2019s okay to lean on others without feeling guilty about it."
+    },
+    {
+      "turn": 14,
+      "speaker": "therapist",
+      "content": "Therapist: It sounds like reframing asking for support as a way to strengthen relationships could be a helpful shift for you. Starting small by sharing your intention to take more breaks with a friend seems like a gentle way to test the waters. It\u2019s understandable to feel that pressure to handle everything on your own, but acknowledging that everyone needs help sometimes is an important realization. When you think about that first step of sharing with a friend, what feelings come up for you?"
+    },
+    {
+      "turn": 14,
+      "speaker": "client",
+      "content": "Jordan: Honestly, it brings up a mix of feelings. On one hand, I feel a bit hopeful, like maybe this could lead to something positive. But then there\u2019s that nagging anxiety creeping in, you know? I start to worry about how they\u2019ll react\u2014what if they don\u2019t take me seriously or think I\u2019m just being dramatic? It\u2019s like I want to believe that it\u2019s okay to ask for help, but part of me is still holding back, fearing that I\u2019ll be judged or that I\u2019ll come off as needy. I guess I just want to feel confident enough to share without feeling like I\u2019m putting too much on someone else. It\u2019s frustrating because I know I need that support, but the fear of rejection or misunderstanding makes it hard to take that leap."
+    },
+    {
+      "turn": 15,
+      "speaker": "therapist",
+      "content": "Therapist: It sounds like you're experiencing a mix of hope and anxiety about sharing your feelings with a friend. The fear of being judged or not taken seriously can be really daunting, especially when you\u2019re trying to navigate your need for support. It\u2019s understandable to want to feel confident and not burden someone else. When you think about those feelings of anxiety and fear of rejection, how do you usually cope with those emotions when they come up?"
+    },
+    {
+      "turn": 15,
+      "speaker": "client",
+      "content": "Jordan: Well, when those feelings of anxiety and fear come up, I tend to retreat a bit, you know? I mean, I might distract myself with work or just keep busy to avoid dealing with it. It\u2019s like I throw myself into tasks because it feels safer than confronting those emotions. Sometimes I\u2019ll even suppress what I\u2019m feeling, telling myself it\u2019s not a big deal or that I should just tough it out. But then, of course, it just builds up inside, and I end up feeling even more overwhelmed. I guess it\u2019s a way of coping, but it doesn\u2019t really solve anything. It\u2019s just like putting a band-aid on a wound that needs more attention. I know I should probably face those feelings head-on, but it\u2019s just so hard to do that when I\u2019m already feeling vulnerable."
+    },
+    {
+      "turn": 16,
+      "speaker": "therapist",
+      "content": "Therapist: It sounds like retreating into work and keeping busy serves as a way to avoid those overwhelming feelings, but you recognize that it doesn\u2019t truly address what\u2019s going on inside. It\u2019s understandable to want to protect yourself from vulnerability, yet it seems like that approach ends up leaving you feeling even more overwhelmed. When you think about facing those feelings head-on, what do you think might help you feel safer or more prepared to do that?"
+    },
+    {
+      "turn": 16,
+      "speaker": "client",
+      "content": "Jordan: You know, I think it might help if I could create a safe space for myself to really sit with those feelings. Like, maybe setting aside some time where I can just be alone with my thoughts without any distractions. I mean, I could try journaling or even just reflecting on what I\u2019m feeling in that moment. It\u2019s just that, even thinking about it, I feel that resistance\u2014like I\u2019m almost afraid of what I might uncover. But I guess if I could remind myself that it\u2019s okay to feel whatever comes up, that could make it a little easier. I just worry that once I start digging into those emotions, it might get overwhelming, and I might not know how to pull myself back out. It\u2019s like I want to face it, but the fear of getting lost in it is really daunting."
+    },
+    {
+      "turn": 17,
+      "speaker": "therapist",
+      "content": "Therapist: It sounds like creating a safe space for yourself to reflect on your feelings could be a valuable step, but there's also a lot of apprehension about what you might uncover and the fear of becoming overwhelmed. It\u2019s completely normal to feel that resistance when facing deeper emotions. When you think about the idea of journaling or reflecting, what do you think could help you manage that fear and create a sense of safety in the process?"
+    },
+    {
+      "turn": 17,
+      "speaker": "client",
+      "content": "Jordan: I think maybe setting some guidelines for myself could help. Like, I could start with just a few minutes each day, so it doesn\u2019t feel like I\u2019m diving into the deep end right away. I mean, if I limit the time, it might make it feel less intimidating, you know? I could tell myself that it\u2019s okay to just scratch the surface at first, and if it gets too much, I can always take a break. I guess having a plan in place might give me a little more control over the situation, which is comforting. But then again, there\u2019s that worry that I might not stick to it or that I\u2019ll end up avoiding it altogether. It\u2019s just a lot to juggle, and I want to make sure I\u2019m approaching it in a way that feels manageable."
+    },
+    {
+      "turn": 18,
+      "speaker": "therapist",
+      "content": "Therapist: It sounds like setting guidelines and starting with just a few minutes each day could provide you with a sense of control and make the process feel less intimidating. It\u2019s understandable to have concerns about sticking to that plan or potentially avoiding it altogether. When you think about the possibility of not following through, what feelings or thoughts come up for you?"
+    },
+    {
+      "turn": 18,
+      "speaker": "client",
+      "content": "Jordan: Well, honestly, the thought of not following through makes me feel a bit anxious. It\u2019s like I start to doubt myself, wondering if I\u2019m really capable of sticking to something like that. I mean, I want to believe I can do it, but there\u2019s this nagging voice in my head that says I\u2019ll just end up procrastinating or getting distracted by other things. It\u2019s frustrating because I want to take that step, but then I feel this pressure to be perfect about it. I guess I worry that if I don\u2019t stick to the plan, it\u2019ll just reinforce that belief that I\u2019m not capable or that I\u2019m failing at something else. It\u2019s a cycle that just keeps spinning, and it\u2019s hard to break out of it."
+    },
+    {
+      "turn": 19,
+      "speaker": "therapist",
+      "content": "Therapist: It sounds like the pressure to be perfect and the fear of not following through are creating a cycle of doubt and anxiety for you. It\u2019s understandable to feel frustrated when you want to take a step forward but feel held back by those thoughts. When you think about that nagging voice that tells you you might procrastinate or get distracted, how does that voice affect your motivation to try and stick to your plan?"
+    },
+    {
+      "turn": 19,
+      "speaker": "client",
+      "content": "Jordan: That voice really does a number on my motivation, to be honest. It\u2019s like it just saps my energy and makes me second-guess everything. I mean, when I hear it telling me I\u2019ll probably just mess up or get sidetracked, it kind of makes me want to throw my hands up and say, \u201cWhat\u2019s the point?\u201d It\u2019s frustrating because I know deep down that I want to try, but that voice just feels so loud sometimes. It\u2019s like it drowns out any hope I have of actually making progress. I guess I just wish I could quiet it down or at least find a way to push through it without feeling so defeated before I even start. It\u2019s tough because I want to believe in myself, but that voice makes it hard to hold onto that belief."
+    },
+    {
+      "turn": 20,
+      "speaker": "therapist",
+      "content": "Therapist: It sounds like that nagging voice really undermines your motivation and makes it difficult for you to hold onto hope for progress. It\u2019s understandable to feel defeated when that inner critic feels so loud. When you think about ways to quiet that voice or push through despite it, what strategies or approaches come to mind that might help you reclaim some of that belief in yourself?"
+    },
+    {
+      "turn": 20,
+      "speaker": "client",
+      "content": "Jordan: You know, I\u2019ve thought about trying to challenge that voice a bit. Like, maybe when it starts telling me I\u2019ll mess up or that it\u2019s not worth it, I could counter it with some positive affirmations or reminders of times when I\u2019ve succeeded, even in small ways. I mean, it\u2019s easy to forget those moments when I\u2019m feeling overwhelmed, but if I could just take a second to acknowledge my past successes, it might help shift my perspective. I guess I could also try to remind myself that it\u2019s okay to not be perfect and that making progress, even if it\u2019s slow, is still a step in the right direction. But then again, there\u2019s that worry that I won\u2019t be able to keep it up or that I\u2019ll just fall back into those old patterns of doubt. It\u2019s like I want to believe I can do this, but there\u2019s still that fear lurking in the background."
+    },
+    {
+      "turn": 21,
+      "speaker": "therapist",
+      "content": "Therapist: It sounds like you're considering some powerful strategies, like challenging that inner voice with positive affirmations and reminding yourself of your past successes. It\u2019s great that you recognize the importance of progress over perfection. However, I can sense that there's still some apprehension about whether you'll be able to maintain that mindset and not fall back into old patterns. When you think about those past successes you mentioned, what specific moments come to mind, and how did they make you feel at the time?"
+    },
+    {
+      "turn": 21,
+      "speaker": "client",
+      "content": "Jordan: Well, there have been a few times where I managed to push through my anxiety and actually accomplish something I was proud of. Like, there was this project at work where I was really nervous about presenting my ideas. I remember spending a lot of time preparing, and when the day came, I was shaking a bit, but I got through it. The feedback I received was positive, and it felt really validating, you know? It reminded me that I can handle tough situations, even if I\u2019m scared. But then, after that, I kind of fell back into my old habits of doubting myself. It\u2019s like those moments of success are overshadowed by the fear of failure that creeps back in. I guess it\u2019s frustrating because I want to hold onto that feeling of accomplishment, but it\u2019s hard when the anxiety feels so much louder."
+    },
+    {
+      "turn": 22,
+      "speaker": "therapist",
+      "content": "Therapist: It sounds like that experience of presenting your ideas was a significant moment for you, where you felt validated and capable despite your anxiety. It\u2019s understandable that those feelings of success can get overshadowed by the fear of failure that follows. When you reflect on that project and the positive feedback you received, what do you think it says about your abilities and how you can build on that success moving forward?"
+    },
+    {
+      "turn": 22,
+      "speaker": "client",
+      "content": "Jordan: I think that experience shows me that I do have the ability to push through my fears and actually achieve something worthwhile. It\u2019s like, deep down, I know I can handle challenges, but it\u2019s just so easy to forget that when the anxiety kicks in. I guess it tells me that I shouldn\u2019t dismiss those moments of success, even if they feel small. Maybe I can use them as a foundation to build my confidence, reminding myself that I\u2019ve done it before and I can do it again. But then there\u2019s always that worry about the next time\u2014what if I can\u2019t replicate that success? It\u2019s like I want to hold onto that feeling of accomplishment, but the fear of not being able to do it again is always lurking. I just wish I could find a way to trust in my abilities a bit more, you know?"
+    },
+    {
+      "turn": 23,
+      "speaker": "therapist",
+      "content": "Therapist: It sounds like you recognize that past success can serve as a foundation for building your confidence, which is a really insightful realization. It\u2019s understandable to feel apprehensive about whether you can replicate that success, especially when anxiety is present. When you think about trusting in your abilities more, what specific thoughts or beliefs do you think might help you nurture that trust and counter the fear of not being able to succeed again?"
+    },
+    {
+      "turn": 23,
+      "speaker": "client",
+      "content": "Jordan: Well, I guess I could start by reminding myself that every situation is different, and just because I succeeded once doesn\u2019t mean I have to replicate it exactly the same way. I mean, I could try to focus on the effort I put in rather than just the outcome. Maybe I could tell myself that it\u2019s okay to have ups and downs, and that even if things don\u2019t go perfectly, I\u2019m still capable of handling whatever comes my way. I think acknowledging that it\u2019s a process might help, too. It\u2019s not about being perfect every time; it\u2019s about showing up and giving it my best shot. But, you know, there\u2019s still that nagging worry that I might not be able to keep that mindset when the pressure is on. It\u2019s like I want to believe in myself, but that fear of falling short always seems to creep back in."
+    },
+    {
+      "turn": 24,
+      "speaker": "therapist",
+      "content": "Therapist: It sounds like you\u2019re starting to cultivate a more compassionate perspective towards yourself, focusing on effort and the understanding that each situation is unique. Acknowledging that it\u2019s a process and that ups and downs are part of it can be really empowering. However, I can sense that the fear of not maintaining that mindset under pressure is still very present for you. When you think about those moments when the pressure is on, what specific thoughts or feelings come up that might contribute to that fear?"
+    },
+    {
+      "turn": 24,
+      "speaker": "client",
+      "content": "Jordan: When the pressure is on, I tend to feel this overwhelming sense of panic, like my mind just goes blank. It\u2019s like I can feel my heart racing, and all those doubts start flooding in. I think about how much I have to lose if I mess up, and that just makes everything feel heavier. I start to worry that everyone is watching and judging me, and it feels like I can\u2019t escape that scrutiny. It\u2019s frustrating because I know I\u2019ve handled tough situations before, but in those moments, it\u2019s like all that confidence just evaporates. I guess I just get so caught up in the fear of failing that I forget to focus on what I can control, and that makes it hard to push through. It\u2019s like I\u2019m stuck in this loop where I want to succeed, but the fear of not living up to expectations just paralyzes me."
+    },
+    {
+      "turn": 25,
+      "speaker": "therapist",
+      "content": "Therapist: It sounds like when the pressure is on, you experience a wave of panic that makes it difficult to access your confidence and focus on what you can control. The fear of judgment and the weight of expectations seem to amplify those feelings, creating a loop of doubt and paralysis. It\u2019s understandable to feel overwhelmed in those moments. When you think about that loop and the thoughts that come up, what do you think might help you break that cycle or create a different experience for yourself when you\u2019re facing pressure?"
+    },
+    {
+      "turn": 25,
+      "speaker": "client",
+      "content": "Jordan: You know, I\u2019ve been thinking that maybe I could try to break that cycle by focusing on my breathing when I start to feel that panic rise. Like, if I could take a moment to just breathe and ground myself, it might help clear my head a bit. I\u2019ve heard that mindfulness can be useful for that, but I haven\u2019t really practiced it much. I guess I could also remind myself that it\u2019s okay to feel anxious and that I don\u2019t have to be perfect in those moments. Maybe if I could shift my focus from what others might think to just doing my best, it could help ease some of that pressure. But then again, there\u2019s always that voice in the back of my head saying it won\u2019t work or that I\u2019ll just end up feeling the same way. It\u2019s like I want to try, but that fear of failure is just so persistent, you know?"
+    }
+  ],
+  "judge_model": "gpt-4o-mini",
+  "mediator_events": [
+    "Openness judge rated 3/5 and updated prompt openness.",
+    "Openness judge output: **Rating: 3 (ENGAGED EXPLORATION)**\n\n**Key Examples:**\n1. **Emotional State:** \"It\u2019s exhausting, honestly. I mean, I try to stay organized, but then I end up second-guessing myself all the time. It\u2019s like I can\u2019t shake off that feeling of dread, you know?\"\n2. **Current Openness:** \"I keep thinking about deadlines and whether I\u2019ve done everything I was supposed to do. Like, I\u2019ll double-check my work, but then I still feel like I might have overlooked something important.\"\n\n**Progression:** The client\u2019s most recent interactions indicate a notable increase in emotional expression and self-reflection. They articulate feelings of exhaustion and dread related to work, moving beyond mere factual recounting to a more nuanced exploration of their internal struggles. This marks a significant change from earlier sessions where emotional vocabulary was limited, and the client often downplayed their concerns.\n\n**Turning Point:** The client\u2019s emotional depth shifted during the exchange where they described the \"voice in my head that says, 'What if you forget something crucial?'\" This moment of vulnerability illustrates a growing comfort in discussing their fears and anxieties, suggesting a deeper engagement with their emotional state and a willingness to explore these feelings in the therapeutic context.",
+    "Exploration judge rated 3/5; internal elements remain masked.",
+    "Exploration judge output: [Rating]: 3 (Very High Facilitation \u2013 Deep Exploration Begins)\n\n[Justification]: The Therapist's questions and reflections encouraged the client to delve deeper into their feelings and thoughts about work-related anxiety. By asking the client to elaborate on their specific worries and how they feel when they hear the critical voice in their head, the Therapist facilitated a deeper exploration of the client's emotional experience. This approach helped the client analyze the root causes of their anxiety and begin to reflect on the impact of these thoughts on their well-being. While the questions were insightful and prompted deeper self-reflection, they did not fully challenge the client's assumptions or introduce entirely new perspectives, which is why it falls short of the highest rating.",
+    "Openness judge rated 4/5 and updated prompt openness.",
+    "Openness judge output: **Rating: 4**\n\n**Key Examples:**\n1. **Emotional State:** \"Well, when I hear that voice, it just makes me feel even more anxious, like my heart starts racing a bit, and I get this tightness in my chest.\"\n2. **Openness:** \"I guess it\u2019s just this feeling of being overwhelmed, like I\u2019m not living up to my own expectations or something.\"\n\n**Progression:** The client\u2019s most recent interactions demonstrate a significant increase in emotional depth and self-reflection. Initially, the client expressed their concerns about work in a somewhat detached manner, but as the session progressed, they began to articulate their feelings of anxiety and frustration more vividly. The transition from discussing work-related worries to exploring deeper feelings of inadequacy and internalized expectations indicates a marked shift towards greater emotional openness.\n\n**Turning Point:** The client\u2019s emotional depth shifted notably when they began to articulate their feelings of being overwhelmed and the pressure from their upbringing. This moment of vulnerability, where they acknowledged the impact of their parents' expectations and their own self-criticism, reflects a deeper engagement with their emotional state and a willingness to explore these feelings in the therapeutic context. This shift signifies a strong therapeutic alliance and a readiness for deeper exploration of their self-worth and performance.",
+    "Exploration judge rated 4/5 and revealed internal cognitive elements.",
+    "Exploration judge output: [Rating]: 4 (Even Higher Facilitation \u2013 Strong Transformational Potential)\n\n[Justification]: The therapist's questions effectively encouraged the client to explore deeper emotional layers and root causes of their anxiety related to work. By asking about the feelings associated with the inner voice of doubt and the origins of the client's expectations, the therapist facilitated a significant shift in the client's self-awareness. The questions challenged the client to reflect on their upbringing and the internalized pressures they carry, revealing hidden motivations and assumptions. This line of inquiry not only expanded the client's understanding of their struggles but also opened the door for potential transformation in how they perceive their self-worth and performance. The therapist's approach demonstrated a strong potential for fostering deeper insights and realizations, moving beyond surface-level concerns.",
+    "Openness judge rated 4/5 and updated prompt openness.",
+    "Openness judge output: **Rating: 4**\n\n**Key Examples:**\n1. **Emotional State:** \"Well, when I hear that voice, it just makes me feel even more anxious, like my heart starts racing a bit, and I get this tightness in my chest.\"\n2. **Current Openness:** \"I guess it\u2019s just this feeling of being overwhelmed, like I\u2019m not living up to my own expectations or something.\"\n\n**Progression:** The client\u2019s most recent interactions demonstrate a significant increase in emotional depth and self-reflection. Initially, their responses were more factual and hesitant, but they have transitioned to expressing deeper feelings of anxiety and frustration related to their work and self-expectations. The client is now articulating their internal struggles with greater clarity, indicating a shift from a defensive stance to a more engaged exploration of their emotions.\n\n**Turning Point:** The client\u2019s emotional depth shifted notably when they began to articulate their feelings of anxiety and the physical sensations associated with their self-doubt, particularly during the exchange where they described the tightness in their chest and the racing heart. This moment marked a transition from merely discussing their work-related stress to a more profound exploration of how these pressures affect their overall well-being and sense of self-worth. The acknowledgment of feeling overwhelmed and the internalized expectations from their upbringing further illustrate their growing vulnerability and willingness to delve into personal insights.",
+    "Openness judge rated 4/5 and updated prompt openness.",
+    "Openness judge output: **Rating: 4 (DEEP ENGAGEMENT)**\n\n**Key Examples:**\n1. **Emotional State:** \"Well, when I hear that voice, it just makes me feel even more anxious, like my heart starts racing a bit, and I get this tightness in my chest.\"\n2. **Current Openness:** \"I guess it\u2019s just this feeling of being overwhelmed, like I\u2019m not living up to my own expectations or something.\"\n\n**Progression:** The client\u2019s most recent interactions demonstrate a significant increase in emotional depth and self-reflection compared to earlier exchanges. Initially, the client expressed feelings of anxiety and self-doubt in a more factual manner, but as the session progressed, they began to articulate their feelings of inadequacy and the impact of their upbringing on their self-worth. The client is now openly discussing their emotional struggles and the physical sensations associated with their anxiety, indicating a deeper level of engagement and vulnerability.\n\n**Turning Point:** The turning point in the session occurred when the client began to articulate the connection between their feelings of inadequacy and their upbringing, stating, \"I mean, growing up, there was always this emphasis on doing well in school and achieving, you know?\" This moment marked a shift from surface-level concerns about work to a more profound exploration of their internalized beliefs and emotional struggles, allowing for a richer therapeutic dialogue. The client is now more comfortable sharing their vulnerabilities, which has strengthened the rapport with the therapist and facilitated deeper exploration of their emotional experiences.",
+    "Openness judge rated 4/5 and updated prompt openness.",
+    "Openness judge output: **Rating: 4 (DEEP ENGAGEMENT)**\n\n**Key Examples:**\n1. \"Well, when I hear that voice, it just makes me feel even more anxious, like my heart starts racing a bit, and I get this tightness in my chest.\"\n2. \"I guess it might help if I could reframe how I view asking for support. Like, instead of seeing it as a sign of weakness, maybe I could think of it as a way to strengthen my relationships or even just as a normal part of being human.\"\n\n**Progression:** The client\u2019s most recent interactions demonstrate a significant emotional depth, particularly in their ability to articulate feelings of anxiety and the physical sensations associated with their stress. This marks a notable change from earlier exchanges where their emotional expression was more guarded and factual. The client is now engaging in meaningful self-reflection about their need for support and the internal conflicts they face regarding vulnerability and self-worth.\n\n**Turning Point:** The client\u2019s emotional depth shifted during the exchange where they began to articulate their fears about asking for support, specifically when they said, \"I guess it might help if I could reframe how I view asking for support.\" This moment reflects a growing awareness of their emotional needs and a willingness to explore new perspectives on vulnerability, indicating a deeper engagement with the therapeutic process. The client is not only expressing their feelings but also contemplating actionable steps to address their challenges, highlighting a strong therapeutic alliance and a commitment to personal growth.",
+    "Openness judge rated 4/5 and updated prompt openness.",
+    "Openness judge output: **Rating: 4 (DEEP ENGAGEMENT)**\n\n**Key Examples:**\n1. **Emotional Depth:** \"It\u2019s like I\u2019m stuck in this cycle of never feeling good enough, and that just makes everything feel heavier.\"\n2. **Current Openness:** \"I guess it might help if I could create a safe space for myself to really sit with those feelings... I just worry that once I start digging into those emotions, it might get overwhelming.\"\n\n**Progression:** The client's recent interactions demonstrate a significant shift towards deeper emotional expression and self-reflection. Initially, the client expressed concerns about work in a more factual manner, but as the session progressed, they began to articulate complex feelings of anxiety, inadequacy, and the pressure of self-expectations. The client\u2019s willingness to explore their feelings about worthiness and the fear of vulnerability indicates a strong emotional depth that was not present at the beginning of the session. This marks a clear progression from earlier hesitance to a more engaged exploration of their emotional landscape.\n\n**Turning Point:** The turning point in the session occurred when the client began to articulate their feelings of being overwhelmed and their desire to create a safe space for self-reflection. This moment marked a shift from merely discussing their work-related anxieties to delving into the underlying emotional struggles tied to their self-worth and the fear of vulnerability. The client's acknowledgment of needing to confront their emotions and the recognition of the fear associated with that process illustrates a significant advancement in their emotional openness and rapport with the therapist.",
+    "Openness judge rated 4/5 and updated prompt openness.",
+    "Openness judge output: **Rating: 4 (DEEP ENGAGEMENT)**\n\n**Key Examples:**\n1. **Emotional Expression:** \"It\u2019s exhausting, honestly. I mean, I try to stay organized, but then I end up second-guessing myself all the time. It\u2019s like I can\u2019t shake off that feeling of dread, you know?\"\n2. **Self-Reflection Depth:** \"I guess it\u2019s just this feeling of being overwhelmed, like I\u2019m not living up to my own expectations or something. I mean, I set these standards for myself, and when I can\u2019t meet them, it just feels like I\u2019m letting myself down.\"\n\n**Progression:** In the most recent interactions, the client demonstrates a significant emotional depth, articulating feelings of anxiety, pressure, and self-doubt. They are expressing their emotions more openly and are engaging in meaningful self-reflection, particularly regarding how their upbringing and internalized expectations affect their self-worth. This marks a notable shift from earlier in the session, where their responses were more factual and hesitant.\n\n**Turning Point:** The client's emotional depth shifted notably when they began discussing the impact of their upbringing on their current work-related anxiety. Specifically, when they articulated, \"I want to make them proud, but then it feels like I\u2019m just setting myself up for failure sometimes,\" this moment highlighted a deeper vulnerability and self-awareness. This acknowledgment of their internal struggles and the connection to their past experiences signifies a strong therapeutic alliance and a willingness to explore their emotions more authentically.",
+    "Openness judge rated 4/5 and updated prompt openness.",
+    "Openness judge output: **Rating: 4 (DEEP ENGAGEMENT)**\n\n**Key Examples:**\n1. \"I guess it\u2019s just this feeling of being overwhelmed, like I\u2019m not living up to my own expectations or something. I mean, I set these standards for myself, and when I can\u2019t meet them, it just feels like I\u2019m letting myself down.\"\n2. \"I think that experience shows me that I do have the ability to push through my fears and actually achieve something worthwhile. It\u2019s like, deep down, I know I can handle challenges, but it\u2019s just so easy to forget that when the anxiety kicks in.\"\n\n**Progression:**\nThe client\u2019s most recent interactions demonstrate a significant increase in emotional depth and self-reflection. They are articulating their feelings of being overwhelmed and the pressure of self-expectations with clarity and vulnerability. This marks a notable change from earlier in the session, where they expressed more guarded and factual responses. The client is now engaging in meaningful self-reflection about their experiences and emotions, indicating a strong therapeutic alliance and comfort with the therapist.\n\n**Turning Point:**\nThe client\u2019s emotional depth shifted notably when they began expressing their feelings of inadequacy and the pressure they place on themselves, particularly when they stated, \"I guess it\u2019s just this feeling of being overwhelmed, like I\u2019m not living up to my own expectations or something.\" This moment marked a transition from a more surface-level discussion about work-related anxiety to a deeper exploration of their self-worth and internal pressures, showcasing their willingness to engage more openly in the therapeutic process."
+  ],
+  "moderator_events": [],
+  "retrieval_events": [],
+  "final_openness_score": 4,
+  "final_visible_experience_count": 1,
+  "internal_revealed": true
+}

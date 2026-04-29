@@ -1,0 +1,1097 @@
+{
+  "case_id": "13-1",
+  "client_name": "Yvette",
+  "client_mode": "masked",
+  "difficulty": "hard",
+  "openness_interval": 3,
+  "therapist_provider": "openai",
+  "therapist_model": "gpt-4o-mini",
+  "therapist_prompt_mode": "hybrid_probe",
+  "client_model": "gpt-4o-mini",
+  "moderator_enabled": false,
+  "moderator_model": "gpt-4o-mini",
+  "max_turns": 25,
+  "therapist_turns": 25,
+  "stop_reason": "max_turns",
+  "transcript": [
+    {
+      "turn": 1,
+      "speaker": "therapist",
+      "content": "Hi Yvette, I'm glad you're here today. I\u2019d like to explore something that might be on your mind. Sometimes, people can feel like they\u2019ve been through tough situations where they didn\u2019t have control, which can leave them feeling hurt or victimized. I wonder if that resonates with you at all, or if there\u2019s something else that feels more relevant to what you\u2019re experiencing?"
+    },
+    {
+      "turn": 1,
+      "speaker": "client",
+      "content": "Yvette: Well, um, I suppose I can see how that might apply to me, but it\u2019s not like I want to dwell on it too much. I mean, there are always things that happen, right? Like, with my aunt, for instance. I think about her a lot, and there were things I wish I could have done differently. But, you know, it\u2019s just how life goes sometimes. I don\u2019t know if I\u2019d call myself a victim or anything, though. It\u2019s just... complicated, I guess."
+    },
+    {
+      "turn": 2,
+      "speaker": "therapist",
+      "content": "Therapist: It sounds like your aunt's situation has been weighing on your mind, and you have some mixed feelings about it. You mentioned wishing you could have done things differently, which suggests there might be some regret or perhaps a sense of responsibility there. I appreciate you sharing that it feels complicated. Can you tell me more about what specifically comes up for you when you think about her?"
+    },
+    {
+      "turn": 2,
+      "speaker": "client",
+      "content": "Yvette: Well, um, it\u2019s just that, you know, I keep thinking about the last time I saw her. I didn\u2019t really understand what she wanted from me, and I feel like I let her down. I mean, she had this request, and I didn\u2019t follow through. It\u2019s like, I keep replaying it in my head, thinking maybe if I had just done things differently, she would have felt better or something. But then again, I know life is messy, and we can\u2019t always get it right. It\u2019s just hard to shake off that feeling, I guess."
+    },
+    {
+      "turn": 3,
+      "speaker": "therapist",
+      "content": "Therapist: It sounds like that last interaction with your aunt really sticks with you, and you\u2019re grappling with feelings of letting her down. It\u2019s understandable to replay those moments in your mind, especially when you care about someone. I wonder if part of what makes this challenging is thinking about how you were treated or perceived during that time, maybe even feeling misunderstood or unsupported. Does that resonate with you at all, or is there something else that feels more fitting?"
+    },
+    {
+      "turn": 3,
+      "speaker": "client",
+      "content": "Client: Yvette: Yeah, I suppose that does make sense. I mean, I often feel like I\u2019m just not good enough, you know? Like, I try my best, but it never seems to be enough. With my aunt, I think I just wanted to be there for her, but I didn\u2019t really understand what she needed. And it\u2019s frustrating because I keep wondering if she felt alone or if I could have done something to make her feel better. I guess it\u2019s just hard to think about how I might have let her down, and it makes me feel... well, sad, I guess. But I also know that life is complicated, and we can\u2019t always be perfect. It\u2019s just a lot to think about, really."
+    },
+    {
+      "turn": 4,
+      "speaker": "therapist",
+      "content": "Therapist: It sounds like you're carrying a heavy weight of feeling like you\u2019re not good enough, especially when it comes to your relationship with your aunt. It\u2019s clear that you really wanted to support her, and it\u2019s tough to reconcile those feelings of sadness and frustration with the understanding that life is complicated. I appreciate your honesty in sharing this. Can you tell me more about how these feelings of not being enough show up in other areas of your life?"
+    },
+    {
+      "turn": 4,
+      "speaker": "client",
+      "content": "Yvette: Well, um, I guess it\u2019s not just with my aunt; it kind of spills over into other parts of my life too. Like, at work, for instance. I try really hard to do my job well, but sometimes I feel like I\u2019m just not meeting expectations, you know? I mean, I put in the effort, but there are moments when I think, \u201cWhat if I\u2019m just not cut out for this?\u201d It\u2019s like I\u2019m always second-guessing myself, and that can be really tiring. And then there are friendships too. I worry that I\u2019m not being a good friend, like maybe I\u2019m not reaching out enough or being supportive in the right ways. It\u2019s just this nagging feeling that I could always be doing more, and it can be overwhelming at times. But, um, I guess I try to remind myself that everyone has their struggles, and it\u2019s okay to not be perfect. It\u2019s just... easier said than done, I suppose."
+    },
+    {
+      "turn": 5,
+      "speaker": "therapist",
+      "content": "Therapist: It sounds like this feeling of not being enough really extends into various aspects of your life, from work to friendships. It must be exhausting to constantly second-guess yourself and feel that pressure to do more. I wonder if part of this is tied to feeling safe or supported in those environments. Sometimes, when we don\u2019t feel secure, it can amplify those feelings of inadequacy. Does that resonate with you at all, or do you think there\u2019s something else at play?"
+    },
+    {
+      "turn": 5,
+      "speaker": "client",
+      "content": "Yvette: Well, um, I guess that makes sense. I mean, I do sometimes feel like I\u2019m walking on eggshells, you know? Like, at work, I\u2019m always trying to read the room and make sure I\u2019m not stepping on anyone\u2019s toes. It\u2019s like I\u2019m constantly worried about how others perceive me, and that can make it hard to just focus on my tasks. And with friends, I often feel like I have to be the one reaching out or making plans, or else I worry they\u2019ll think I don\u2019t care. I suppose that pressure to be perfect or to always be there for others can make it feel less safe, like I\u2019m always on guard. It\u2019s just... a lot to juggle, I guess. I know I shouldn\u2019t feel that way, but it\u2019s hard to shake off those thoughts."
+    },
+    {
+      "turn": 6,
+      "speaker": "therapist",
+      "content": "Therapist: It sounds like you\u2019re really navigating a lot of pressure to meet expectations, both at work and in your friendships. Feeling like you have to constantly read the room and be the one to reach out can definitely create a sense of unease. It\u2019s understandable that this would make you feel less safe and more on guard. I appreciate you sharing that with me. I wonder, when you think about this pressure to be perfect and always be there for others, what beliefs or thoughts come to mind about yourself in those moments?"
+    },
+    {
+      "turn": 6,
+      "speaker": "client",
+      "content": "Yvette: Well, um, I guess when I think about that pressure, I start to feel like I\u2019m not really worthy of being liked or appreciated, you know? Like, if I\u2019m not doing enough or being the perfect friend or employee, then maybe people won\u2019t want to be around me. It\u2019s like this constant fear that if I slip up, it\u2019ll all fall apart, and I\u2019ll end up alone or disappointing everyone. I mean, I know it\u2019s probably not true, but those thoughts just kind of creep in and take over sometimes. It\u2019s frustrating because I want to be genuine and just be myself, but then I get caught up in this cycle of feeling like I have to prove myself. It\u2019s just... exhausting, I guess."
+    },
+    {
+      "turn": 7,
+      "speaker": "therapist",
+      "content": "Therapist: It sounds like there\u2019s a deep-rooted belief that your worth is tied to how much you do for others, and that can create a lot of pressure and fear of disappointing people. It\u2019s understandable to feel exhausted by that cycle of needing to prove yourself. I wonder if part of this burden comes from feeling like you have to take care of others, perhaps even more than you take care of yourself. Does that resonate with you at all, or do you see it differently?"
+    },
+    {
+      "turn": 7,
+      "speaker": "client",
+      "content": "Yvette: Well, um, yeah, I think that does resonate with me. I mean, I often find myself prioritizing others\u2019 needs over my own, you know? Like, I\u2019ll drop what I\u2019m doing if a friend needs help or if there\u2019s something going on at work that requires my attention. It\u2019s like I feel this obligation to be there for everyone else, and sometimes I forget to check in with myself. I guess I just want to be seen as reliable and supportive, but then I end up feeling drained. It\u2019s a bit of a balancing act, I suppose. I know I should take care of myself too, but it\u2019s hard to shift that focus when I feel like there\u2019s so much at stake. It\u2019s just... a lot to think about, really."
+    },
+    {
+      "turn": 8,
+      "speaker": "therapist",
+      "content": "Therapist: It sounds like you really do prioritize being there for others, sometimes at the expense of your own needs. That sense of obligation to be reliable and supportive can be quite overwhelming, especially when it leaves you feeling drained. I appreciate your honesty in sharing this balancing act you\u2019re navigating. I wonder, when you think about taking care of yourself in the midst of all this, what thoughts or feelings come up for you?"
+    },
+    {
+      "turn": 8,
+      "speaker": "client",
+      "content": "Yvette: Well, um, when I think about taking care of myself, I guess I feel a bit guilty, you know? Like, I shouldn\u2019t be focusing on my own needs when there are others who might need me more. It\u2019s like I have this voice in my head that says, \u201cYou should be doing more for them,\u201d and then I end up pushing my own needs aside. I mean, I know logically that self-care is important, but emotionally it feels like I\u2019m being selfish if I take time for myself. It\u2019s frustrating because I want to feel okay about prioritizing my own well-being, but then I get caught in this cycle of feeling like I\u2019m letting others down. It\u2019s just... a lot to navigate, I suppose."
+    },
+    {
+      "turn": 9,
+      "speaker": "therapist",
+      "content": "Therapist: It sounds like there's a real struggle between wanting to take care of yourself and feeling guilty about it, as if focusing on your own needs means you\u2019re letting others down. That can create a lot of inner conflict. I wonder if part of this feeling comes from a sense of needing to be on high alert, almost like you\u2019re always watching for signs that someone might need you. Does that sense of being on guard resonate with you at all, or do you see it differently?"
+    },
+    {
+      "turn": 9,
+      "speaker": "client",
+      "content": "Yvette: Well, um, yeah, I think that does resonate with me. I mean, I feel like I\u2019m always scanning the environment, you know? Like, I\u2019m trying to pick up on any cues that someone might need help or support. It\u2019s like this instinct I have to be there for others, but it can be really draining. Sometimes I wonder if I\u2019m just overthinking things, but then I think, \u201cWhat if I miss something important?\u201d It\u2019s like I have this fear of not being there when someone needs me, and that makes it hard to relax or focus on my own needs. I guess it\u2019s just this constant juggling act, and it can feel really heavy at times."
+    },
+    {
+      "turn": 10,
+      "speaker": "therapist",
+      "content": "Therapist: It sounds like you have this strong instinct to be attuned to others' needs, which can feel like a heavy responsibility to carry. That fear of missing something important seems to keep you in a state of vigilance, making it difficult to relax and prioritize yourself. I appreciate you sharing how this juggling act feels for you. I wonder, when you think about this instinct to care for others, what do you think drives it? Is there a deeper belief or experience that comes to mind?"
+    },
+    {
+      "turn": 10,
+      "speaker": "client",
+      "content": "Yvette: Well, um, I guess when I think about it, I feel like it might come from my upbringing, you know? Like, I always felt this pressure to take care of others, especially in my family. It was like there was this unspoken expectation that I had to be the responsible one, the one who held everything together. I mean, I loved my family, but it often felt like my needs were secondary. So, I guess I just got used to putting others first, thinking that if I didn\u2019t, I\u2019d be letting everyone down. It\u2019s hard to shake that feeling, even now. I just want to be seen as someone who\u2019s dependable, but it can feel like a lot to carry sometimes. I don\u2019t know if that makes sense, but it\u2019s just... something I\u2019ve been thinking about."
+    },
+    {
+      "turn": 11,
+      "speaker": "therapist",
+      "content": "Therapist: It makes a lot of sense, Yvette. It sounds like that expectation from your upbringing has really shaped how you view your role in relationships, making you feel responsible for holding everything together. It\u2019s understandable that this would create a lot of pressure and make it hard to prioritize your own needs. I wonder if, in addition to that sense of responsibility, you ever feel a sense of burnout from constantly being in that caretaker role? Does that resonate with you, or do you see it differently?"
+    },
+    {
+      "turn": 11,
+      "speaker": "client",
+      "content": "Yvette: Well, um, yeah, I think burnout is definitely something I experience. I mean, there are days when I just feel completely exhausted, like I\u2019ve given everything I have to everyone else, and there\u2019s nothing left for me. It\u2019s like I\u2019m running on empty, you know? I try to keep pushing through because I don\u2019t want to let anyone down, but then I end up feeling overwhelmed and just... drained. I know I should take breaks or say no sometimes, but it\u2019s hard to do that when I feel like I have to keep being there for others. It\u2019s just this cycle that keeps repeating, and I guess I\u2019m starting to realize how much it affects me. It\u2019s just... a lot to handle, really."
+    },
+    {
+      "turn": 12,
+      "speaker": "therapist",
+      "content": "Therapist: It sounds like you\u2019re really feeling the weight of that burnout, running on empty while trying to meet everyone else's needs. That cycle of pushing through despite feeling overwhelmed can be incredibly tough to break. I appreciate you sharing how much this affects you. When you think about the toll it takes on you, what emotions come up for you? Do you feel anger, sadness, frustration, or something else?"
+    },
+    {
+      "turn": 12,
+      "speaker": "client",
+      "content": "Yvette: Well, um, I think when I really sit with it, I feel a mix of sadness and frustration, you know? It\u2019s like I\u2019m sad because I want to be there for others, but at the same time, I\u2019m frustrated with myself for not being able to find that balance. I mean, I know I can\u2019t keep going like this, but it\u2019s hard to change when I feel so tied to those expectations. Sometimes I even feel a bit angry, but it\u2019s mostly directed at myself for not being stronger or more capable of handling everything. It\u2019s just... a lot of conflicting emotions swirling around, and it\u2019s hard to make sense of it all. I guess I just wish it didn\u2019t have to be this way, but it feels like I\u2019m stuck in this pattern."
+    },
+    {
+      "turn": 13,
+      "speaker": "therapist",
+      "content": "Therapist: It sounds like you're experiencing a lot of conflicting emotions\u2014sadness for wanting to support others, frustration with yourself for feeling overwhelmed, and even some anger directed inward. That\u2019s a heavy mix to carry. I wonder if part of this struggle also involves dynamics within your family, especially given the expectations you mentioned earlier. Do you find that there are conflicts or tensions with family members that contribute to how you feel about your role as a caretaker? Does that resonate with you, or is there something else that feels more relevant?"
+    },
+    {
+      "turn": 13,
+      "speaker": "client",
+      "content": "Yvette: Well, um, yeah, I think there are definitely some dynamics in my family that play into all of this. I mean, there\u2019s this unspoken competition, you know? Like, everyone feels the need to prove themselves, and it often feels like I have to be the one who steps up the most. It\u2019s like if I don\u2019t, then I\u2019m not living up to what\u2019s expected of me. I love my family, but sometimes it feels like there\u2019s this pressure to always be the one who holds everything together, and that can create tension. I guess I worry that if I don\u2019t meet those expectations, I\u2019ll disappoint them or they\u2019ll think less of me. It\u2019s just... a lot to navigate, really. I want to be supportive, but it can feel like I\u2019m losing myself in the process."
+    },
+    {
+      "turn": 14,
+      "speaker": "therapist",
+      "content": "Therapist: It sounds like that unspoken competition within your family adds another layer of pressure, making you feel like you have to constantly prove yourself and meet those expectations. It\u2019s understandable that this creates tension and makes you worry about disappointing them. I appreciate you sharing how this dynamic affects you. When you think about that pressure to hold everything together, how does it impact your sense of self or your own identity? Do you feel like you have a clear sense of who you are outside of those expectations?"
+    },
+    {
+      "turn": 14,
+      "speaker": "client",
+      "content": "Yvette: Well, um, that\u2019s a tough question, you know? I mean, I think a lot of my identity is tied up in being the caretaker and the one who\u2019s dependable. It\u2019s like, when I think about who I am, I often see myself through that lens of responsibility. But then, when I try to step back and consider what I actually enjoy or what makes me happy, it feels a bit foggy, like I\u2019m not sure anymore. I guess I\u2019ve spent so much time focusing on meeting everyone else\u2019s needs that I\u2019ve kind of lost sight of my own interests and desires. It\u2019s frustrating because I want to feel like I have my own identity, but it\u2019s hard when I feel like I\u2019m constantly in this role. Sometimes I wonder if I even know what I want outside of all that, and that thought just adds to the confusion. It\u2019s just... a lot to think about, really."
+    },
+    {
+      "turn": 15,
+      "speaker": "therapist",
+      "content": "Therapist: It sounds like you\u2019re feeling a bit lost when it comes to your own identity, especially since so much of it has been shaped by your role as a caretaker. That fogginess around your own interests and desires must be really frustrating, especially when you want to reconnect with what makes you happy. I wonder if part of this journey involves thinking about your health and well-being, too. Have you noticed any impact on your physical health or well-being from carrying this heavy responsibility? Does that resonate with you, or is there something else that feels more relevant?"
+    },
+    {
+      "turn": 15,
+      "speaker": "client",
+      "content": "Yvette: Well, um, yeah, I think it definitely resonates with me. I mean, I\u2019ve noticed that I often feel physically drained, like my energy just dips so low sometimes. There are days when I wake up and I\u2019m already tired, and I think that\u2019s not really normal, right? I guess I\u2019ve been so focused on taking care of everyone else that I haven\u2019t really paid attention to how it\u2019s affecting me physically. I sometimes get headaches or feel a bit run down, and I know it\u2019s probably because I\u2019m not taking care of myself like I should. It\u2019s just hard to prioritize my own health when I feel like there\u2019s so much to do for others. I mean, I know I should be more mindful of that, but it\u2019s like I keep pushing it aside, thinking I can handle it. But deep down, I know it\u2019s starting to catch up with me, and that\u2019s a bit scary, honestly. It\u2019s just... a lot to juggle, and I wish I could find a way to balance it all better."
+    },
+    {
+      "turn": 16,
+      "speaker": "therapist",
+      "content": "Therapist: It sounds like you're really feeling the physical toll of all that responsibility, with low energy and headaches becoming a sign of how much you're pushing yourself. It\u2019s understandable to feel scared about how this is affecting your health, especially when you\u2019re trying to juggle so much for others. I appreciate you sharing that with me. When you think about the idea of finding a better balance, what comes to mind for you? Are there any small changes or thoughts that feel possible to explore?"
+    },
+    {
+      "turn": 16,
+      "speaker": "client",
+      "content": "Yvette: Well, um, I guess when I think about finding a better balance, it feels a bit overwhelming, you know? I mean, part of me knows I need to start small, like maybe setting aside a little time for myself each week, but then I worry about what that would mean for everyone else. It\u2019s like I\u2019m stuck in this mindset where taking time for myself feels selfish, and I don\u2019t want to let anyone down. I\u2019ve thought about maybe saying no to a few things, but then I get anxious about disappointing people or feeling like I\u2019m not doing enough. It\u2019s just... I don\u2019t know, it feels like a tightrope walk between wanting to care for myself and feeling that pressure to be there for others. I guess I just wish I could find a way to make it feel okay to prioritize my own needs without all that guilt weighing me down. It\u2019s just... a lot to think about, really."
+    },
+    {
+      "turn": 17,
+      "speaker": "therapist",
+      "content": "Therapist: It sounds like you're caught in a really challenging tug-of-war between wanting to take care of yourself and feeling that pressure to be there for others. That sense of guilt around prioritizing your own needs can be really heavy. I appreciate your honesty about how overwhelming it feels to even think about making changes. When you imagine setting aside time for yourself, what kind of activities or moments do you think might help you recharge? Or is there something specific that feels like it could be a good starting point?"
+    },
+    {
+      "turn": 17,
+      "speaker": "client",
+      "content": "Client: Yvette: Well, um, I think when I imagine taking some time for myself, I picture things like maybe reading a book or going for a walk in the park. You know, just simple things that I used to enjoy but haven\u2019t really made time for lately. I think being outdoors would help clear my mind a bit, and reading always used to be a way for me to escape and relax. But then I start to think about how I\u2019d feel if I took that time\u2014like, would I be letting someone down? It\u2019s frustrating because I know those little moments could really help me recharge, but the guilt just creeps in and makes it hard to commit to them. It\u2019s like I\u2019m stuck in this cycle of wanting to do something good for myself but feeling like I can\u2019t. I guess I just wish it didn\u2019t feel so complicated, you know?"
+    },
+    {
+      "turn": 18,
+      "speaker": "therapist",
+      "content": "Therapist: It sounds like you have some clear ideas about activities that could help you recharge, like reading or spending time outdoors, which is wonderful. Yet, the guilt and fear of letting others down make it difficult to commit to those moments. That cycle of wanting to care for yourself but feeling held back by those feelings can be really tough. I appreciate you sharing that struggle. When you think about those feelings of guilt, what do you think they say about your beliefs or expectations around self-care?"
+    },
+    {
+      "turn": 18,
+      "speaker": "client",
+      "content": "Yvette: Well, um, I think the guilt really highlights how deeply ingrained those beliefs are, you know? It\u2019s like I\u2019ve internalized this idea that taking care of myself is somehow wrong or selfish, and that if I\u2019m not constantly available for others, then I\u2019m failing them in some way. I guess it reflects that pressure I feel to always be the one who holds everything together, like if I step back even a little, everything might fall apart. It\u2019s frustrating because I know logically that self-care is important, but emotionally, it feels like I\u2019m betraying my role or letting people down. I just wish I could shift that mindset and see that taking care of myself doesn\u2019t mean I\u2019m abandoning anyone. It\u2019s just... a lot to unpack, really."
+    },
+    {
+      "turn": 19,
+      "speaker": "therapist",
+      "content": "Therapist: It sounds like you\u2019ve really tapped into some deep beliefs about self-care and responsibility, feeling that taking time for yourself equates to failing others. That internal conflict between what you know is important and how you emotionally perceive it must be really challenging to navigate. I appreciate you sharing that with me. If you could imagine a different perspective on self-care\u2014one where it feels more like a necessary part of being there for others rather than a betrayal\u2014what might that look like for you?"
+    },
+    {
+      "turn": 19,
+      "speaker": "client",
+      "content": "Yvette: Well, um, that\u2019s an interesting thought, you know? I think if I could see self-care as something that actually helps me be better for others, it might change how I feel about it. Like, maybe if I took that time to recharge, I\u2019d be more present and able to support my family instead of feeling so drained all the time. I guess I could think of it as filling up my own cup so that I have more to give, rather than seeing it as taking away from them. But then, there\u2019s still that nagging voice in my head that worries about what others might think or if they\u2019ll feel neglected. It\u2019s just... a lot to consider, really. I mean, I want to believe that taking care of myself could be a good thing, but it feels like a big shift from how I\u2019ve always thought about it. It\u2019s just... complicated, you know?"
+    },
+    {
+      "turn": 20,
+      "speaker": "therapist",
+      "content": "Therapist: It sounds like you\u2019re beginning to see a potential shift in how you could view self-care\u2014as something that actually enhances your ability to support others rather than detracts from it. That\u2019s a meaningful perspective to explore. Yet, I can sense that the worry about how others might perceive your self-care still lingers, making it feel complicated. I appreciate your openness in sharing that. When you think about that nagging voice, what do you think it\u2019s trying to protect you from?"
+    },
+    {
+      "turn": 20,
+      "speaker": "client",
+      "content": "Yvette: Well, um, I think that nagging voice is really trying to protect me from, you know, disappointing others or feeling like I\u2019m not living up to their expectations. It\u2019s like it\u2019s whispering that if I take time for myself, then I\u2019m somehow being selfish or neglectful, and that just feels so heavy. I guess it\u2019s rooted in this fear of being seen as someone who doesn\u2019t care enough or isn\u2019t doing enough for the people I love. It\u2019s frustrating because I know deep down that I want to be there for them, but I also want to be able to take care of myself, too. It\u2019s like this constant battle between wanting to be a good person and feeling like I have to sacrifice my own needs to prove that I am. I just wish I could quiet that voice and find a way to feel okay about prioritizing myself without all that guilt weighing me down. It\u2019s just... a lot to think about, really."
+    },
+    {
+      "turn": 21,
+      "speaker": "therapist",
+      "content": "Therapist: It sounds like that nagging voice is really tied to your desire to meet the expectations of others and to be seen as caring and responsible. It must be exhausting to feel that pressure to prove your worth through self-sacrifice. I appreciate you sharing those feelings with me. When you think about the idea of being a \"good person,\" what does that mean to you? Are there specific qualities or actions that you associate with that identity?"
+    },
+    {
+      "turn": 21,
+      "speaker": "client",
+      "content": "Yvette: Well, um, when I think about being a \"good person,\" it feels like there are so many layers to it, you know? I guess I associate it with being reliable and always being there for others, like being the one they can count on no matter what. I think of qualities like kindness, selflessness, and putting others' needs before my own. It\u2019s like I\u2019ve built this image in my mind of what a good person looks like, and it often feels like I have to live up to that standard. I mean, I want to be someone who makes a difference in the lives of the people I care about, but sometimes it feels like I\u2019m sacrificing my own happiness to do that. It\u2019s just... I don\u2019t know, it feels like there\u2019s this pressure to always be the best version of myself for everyone else, and it gets overwhelming. I just wish I could find a way to be a good person without feeling like I have to give up so much of myself in the process. It\u2019s complicated, really."
+    },
+    {
+      "turn": 22,
+      "speaker": "therapist",
+      "content": "Therapist: It sounds like you have a very clear and perhaps rigid image of what being a \"good person\" entails, with qualities like reliability and selflessness at the forefront. That pressure to always be the best version of yourself for others can be incredibly overwhelming, especially when it feels like it comes at the cost of your own happiness. I appreciate you sharing that complexity. When you think about this image of a good person, do you feel there\u2019s room for self-care and personal happiness within that definition, or does it feel like they\u2019re in conflict?"
+    },
+    {
+      "turn": 22,
+      "speaker": "client",
+      "content": "Yvette: Well, um, that\u2019s a tough question, you know? I think, in theory, there should be room for self-care and personal happiness in that definition of a good person, but it often feels like they\u2019re at odds with each other. Like, if I prioritize my own happiness, I worry that it means I\u2019m not being as good or as reliable for others. It\u2019s like I\u2019ve convinced myself that being a good person means putting everyone else first, and that leaves little space for me to think about what I want or need. I guess I just struggle with the idea that I can be both\u2014someone who cares for others and also takes care of myself. It feels like I\u2019m trying to fit two conflicting identities into one, and that\u2019s where it gets complicated. I just wish I could find a way to blend those parts of myself without feeling like I\u2019m failing at either one. It\u2019s just... a lot to navigate, really."
+    },
+    {
+      "turn": 23,
+      "speaker": "therapist",
+      "content": "Therapist: It sounds like you\u2019re really grappling with the idea of balancing those two identities\u2014being someone who cares for others while also honoring your own needs. That conflict between wanting to be reliable and feeling like you have to sacrifice your own happiness can create a lot of tension. I appreciate your honesty in sharing that struggle. If you could envision a way to integrate self-care into your identity as a good person, what might that look like for you? How could you start to redefine what it means to be both caring and true to yourself?"
+    },
+    {
+      "turn": 23,
+      "speaker": "client",
+      "content": "Yvette: Well, um, that\u2019s a really interesting question, you know? I think if I could envision a way to integrate self-care into being a good person, it might look like setting aside specific times for myself without feeling guilty about it. Like, maybe I could schedule a little time each week just for me\u2014whether it\u2019s reading or going for that walk in the park. I think I\u2019d have to remind myself that taking that time doesn\u2019t mean I\u2019m neglecting others; it just means I\u2019m recharging so I can be more present for them. I guess it would involve changing how I view my responsibilities, seeing them as something I can still fulfill while also honoring my own needs. It\u2019s like finding that balance where I can be there for others and still be true to myself. But, you know, I think it\u2019s going to take some practice to really believe that I deserve that time and that it\u2019s okay to prioritize myself without feeling like I\u2019m doing something wrong. It\u2019s just... a lot to think about, really."
+    },
+    {
+      "turn": 24,
+      "speaker": "therapist",
+      "content": "Therapist: It sounds like you\u2019re starting to form a vision of how you could create that balance between self-care and being there for others. Scheduling time for yourself and reminding yourself that it\u2019s not neglecting your responsibilities is a significant step. I appreciate you sharing that insight. As you think about putting this into practice, what feelings or thoughts come up for you about actually taking that time for yourself?"
+    },
+    {
+      "turn": 24,
+      "speaker": "client",
+      "content": "Yvette: Well, um, when I think about actually taking that time for myself, I feel a mix of excitement and, you know, a bit of anxiety. It\u2019s like, on one hand, I\u2019m really looking forward to having that space to do something just for me, like reading or going for a walk, and it feels refreshing to think about. But then, there\u2019s that nagging worry creeping in, like, what if I\u2019m not doing enough for others while I\u2019m taking that time? I guess I fear that if I step away, even for a little bit, it might lead to someone feeling abandoned or like I\u2019m not fulfilling my role. It\u2019s just... a lot of conflicting emotions, really. I want to embrace the idea of self-care, but it feels like there\u2019s this weight of guilt that comes with it. I just wish I could shake that feeling and really allow myself to enjoy that time without all the second-guessing. It\u2019s complicated, you know?"
+    },
+    {
+      "turn": 25,
+      "speaker": "therapist",
+      "content": "Therapist: It sounds like you\u2019re experiencing a real tug-of-war between excitement for self-care and anxiety about how it might impact others. That mix of emotions\u2014looking forward to that time for yourself while also feeling guilty\u2014can be really challenging to navigate. I appreciate your honesty in sharing that. When you think about the guilt that comes up, what do you think it\u2019s saying about your beliefs or values around self-care and your role in supporting others?"
+    },
+    {
+      "turn": 25,
+      "speaker": "client",
+      "content": "Yvette: Well, um, I think the guilt really highlights how deeply ingrained those beliefs are in me, you know? It\u2019s like it\u2019s saying that my worth is tied to how much I do for others and that taking time for myself somehow diminishes that. I guess it reflects this idea that if I\u2019m not constantly available or helpful, then I\u2019m failing in my role as a good person. It feels like I\u2019ve built this whole identity around being the one who takes care of everyone else, and stepping away from that feels like I\u2019m letting people down. I mean, I know logically that everyone needs a break, but emotionally, it\u2019s just so hard to reconcile that with my sense of duty. It\u2019s frustrating because I want to believe that I can be both\u2014someone who cares for others and someone who also deserves care. But that guilt just keeps pulling me back, making it feel like I\u2019m being selfish for even considering it. It\u2019s just... a lot to unpack, really."
+    }
+  ],
+  "judge_model": "gpt-4o-mini",
+  "mediator_events": [
+    "Openness judge rated 3/5 and updated prompt openness.",
+    "Openness judge output: **Rating: 3 (ENGAGED EXPLORATION)**\n\n**Key Examples:**\n1. \"I keep thinking about the last time I saw her. I didn\u2019t really understand what she wanted from me, and I feel like I let her down.\"\n2. \"It\u2019s just hard to shake off that feeling, I guess.\"\n\n**Progression:**\nThe client, Yvette, demonstrates a notable progression in emotional expression and self-reflection in her recent interactions. Initially, she approached the topic with some hesitation, indicating a reluctance to delve deeply into her feelings. However, as the session progressed, she began to articulate her feelings of regret and responsibility regarding her aunt's situation. This shift marks a significant change from earlier exchanges, where her responses were more guarded and factual. In her latest statements, Yvette exhibits a deeper emotional quality by acknowledging her feelings of letting her aunt down and recognizing the complexity of her emotions, which indicates a growing comfort in sharing her vulnerabilities.\n\n**Turning Point:**\nYvette's emotional depth shifted during her reflection on the last interaction with her aunt. This moment, where she expressed her feelings of letting her aunt down and replaying the situation in her mind, signifies a turning point in her engagement with the therapeutic process. It highlights her willingness to explore her emotions more openly and to confront the complexities of her feelings, moving beyond a defensive stance to a more engaged exploration of her emotional landscape. This openness suggests a developing rapport with the therapist and a readiness to engage in deeper self-reflection.",
+    "Exploration judge rated 3/5; internal elements remain masked.",
+    "Exploration judge output: [Rating]: 3 (Very High Facilitation \u2013 Deep Exploration Begins)\n\n[Justification]: The Therapist asked insightful and thought-provoking questions that encouraged the client to analyze the emotional depth behind her experiences with her aunt. By acknowledging the client's feelings of regret and responsibility, the Therapist facilitated a deeper exploration of the client's thoughts and emotions. The Therapist's inquiry about the client's feelings of being misunderstood or unsupported introduced a new angle for reflection, prompting the client to consider aspects of her experience that she had not fully articulated. While the conversation did not reach a major breakthrough, it effectively began to shift the client's perspective and encouraged higher-level self-reflection, thus fitting the criteria for a \"Very High Facilitation\" rating.",
+    "Openness judge rated 3/5 and updated prompt openness.",
+    "Openness judge output: **Rating: 3 (ENGAGED EXPLORATION)**\n\n**Key Examples:**\n1. **Emotional State:** \"I often feel like I\u2019m just not good enough, you know? Like, I try my best, but it never seems to be enough.\"\n2. **Current Openness:** \"I guess it\u2019s not just with my aunt; it kind of spills over into other parts of my life too. Like, at work, for instance. I try really hard to do my job well, but sometimes I feel like I\u2019m just not meeting expectations.\"\n\n**Progression:**\nThe client\u2019s most recent interactions demonstrate a clear progression in emotional depth and self-reflection. Initially, Yvette expressed a reluctance to delve into her feelings, stating, \"I suppose I can see how that might apply to me, but it\u2019s not like I want to dwell on it too much.\" However, as the session progressed, she began to articulate her feelings of inadequacy and regret more openly, particularly regarding her relationship with her aunt and how those feelings extend into her work and friendships. This shift marks a significant change from earlier hesitance to a more engaged exploration of her emotions.\n\n**Turning Point:**\nThe turning point in Yvette's emotional depth occurred when she began to express her feelings of not being good enough and the pressure she feels in various aspects of her life. This moment of vulnerability, where she acknowledges the complexity of her emotions and the impact they have on her relationships, signifies a move towards deeper self-reflection and engagement in the therapeutic process. The dialogue reflects her willingness to explore these feelings further, indicating a developing rapport with the therapist and a growing comfort in sharing her emotional experiences.",
+    "Exploration judge rated 3/5; internal elements remain masked.",
+    "Exploration judge output: [Rating]: 3 (Very High Facilitation \u2013 Deep Exploration Begins)\n\n[Justification]: The therapist asked insightful and thought-provoking questions that encouraged the client to analyze the emotional depth behind their feelings of inadequacy and the complexities of their relationships, particularly with their aunt. The therapist's questions prompted the client to explore their feelings of regret and responsibility, leading to deeper self-reflection about how these feelings manifest in other areas of their life, such as work and friendships. While the therapist's inquiries did facilitate a meaningful exploration of the client's experiences and emotions, they did not fully challenge the client's assumptions or introduce completely new perspectives that would lead to a significant shift in self-awareness. Therefore, the facilitation is rated as \"Very High\" but not at the highest level.",
+    "Openness judge rated 3/5 and updated prompt openness.",
+    "Openness judge output: **Rating: 3 (ENGAGED EXPLORATION)**\n\n**Key Examples:**\n1. \"I mean, I often feel like I\u2019m just not good enough, you know? Like, I try my best, but it never seems to be enough.\"\n2. \"I guess when I think about that pressure, I start to feel like I\u2019m not really worthy of being liked or appreciated, you know?\"\n\n**Progression:**\nThe client\u2019s most recent interactions reflect a significant emotional depth, particularly in expressing feelings of inadequacy and the pressure to meet expectations. This marks a notable change from earlier exchanges, where the client was more guarded and hesitant to delve into emotional territory. In the latest exchanges, Yvette articulates her struggles with self-worth and the impact of her relationships on her emotional state, indicating a growing comfort in sharing her vulnerabilities. The dialogue showcases her willingness to explore complex feelings, suggesting a shift from a more defensive stance to one of engaged exploration.\n\n**Turning Point:**\nThe client\u2019s emotional depth shifted during the exchange where she articulated her feelings of not being good enough and the guilt associated with prioritizing her own needs over others. This moment marked a transition from merely acknowledging her struggles to actively reflecting on their implications in her life. By expressing these feelings openly, Yvette demonstrated a willingness to engage more deeply with her emotional experiences, which is a key indicator of her current state of openness and rapport with the therapist.",
+    "Exploration judge rated 4/5 and revealed internal cognitive elements.",
+    "Exploration judge output: [Rating]: 4 (Even Higher Facilitation \u2013 Strong Transformational Potential)\n\n[Justification]: The therapist asked strategic and open-ended questions that encouraged the client to explore their feelings of inadequacy and the pressure they place on themselves to meet the needs of others. The questions challenged the client's assumptions about self-care and worthiness, prompting deeper self-reflection about their beliefs and emotional responses. For instance, the therapist's inquiry about the client's thoughts and feelings regarding self-care led to significant insights about guilt and obligation. This line of questioning pushed the client to examine their motivations and the impact of their beliefs on their well-being, indicating a clear shift in self-awareness. Overall, the therapist's facilitation was powerful and transformative, helping the client to uncover deeper emotional layers and reconsider their perspectives on self-worth and care for others.",
+    "Openness judge rated 4/5 and updated prompt openness.",
+    "Openness judge output: **Rating: 4**\n\n**Key Examples:**\n1. \"I guess when I think about taking care of myself, I feel a bit guilty, you know? Like, I shouldn\u2019t be focusing on my own needs when there are others who might need me more.\"\n2. \"I mean, there are days when I just feel completely exhausted, like I\u2019ve given everything I have to everyone else, and there\u2019s nothing left for me.\"\n\n**Progression:** The client\u2019s most recent interactions demonstrate a significant increase in emotional depth and self-reflection. Initially, Yvette expressed her feelings in a more guarded manner, indicating a reluctance to delve deeply into her emotions. However, in the latest exchanges, she openly discusses feelings of guilt and exhaustion, revealing a greater level of vulnerability and insight into her emotional state. This marks a notable change from earlier in the session, where her responses were more surface-level and defensive.\n\n**Turning Point:** The client\u2019s emotional depth shifted during the exchange where she articulated her feelings of guilt about prioritizing her own needs. This moment marked a transition from a more factual recounting of her experiences to a deeper exploration of her emotions and the pressures she feels. It was a pivotal moment that allowed her to acknowledge the toll of her caretaker role and the resulting burnout, showcasing her growing comfort and trust in the therapeutic relationship.",
+    "Openness judge rated 4/5 and updated prompt openness.",
+    "Openness judge output: **Rating: 4 (DEEP ENGAGEMENT)**\n\n**Key Examples:**\n1. **Emotional Depth:** \"I guess when I think about that pressure, I start to feel like I\u2019m not really worthy of being liked or appreciated, you know? Like, if I\u2019m not doing enough or being the perfect friend or employee, then maybe people won\u2019t want to be around me.\"\n2. **Current Openness:** \"I mean, I often find myself prioritizing others\u2019 needs over my own, you know? Like, I\u2019ll drop what I\u2019m doing if a friend needs help or if there\u2019s something going on at work that requires my attention.\"\n\n**Progression:** The client has demonstrated significant emotional depth in their recent exchanges, particularly in expressing feelings of inadequacy and the burden of caretaking responsibilities. This marks a notable shift from earlier interactions where emotional expression was more guarded and limited. The client is now articulating complex feelings of sadness, frustration, and guilt, indicating a deeper level of self-reflection and engagement with their emotional state.\n\n**Turning Point:** A pivotal moment occurred when the client began to articulate their feelings of guilt associated with self-care, stating, \"I guess I feel a bit guilty, you know? Like, I shouldn\u2019t be focusing on my own needs when there are others who might need me more.\" This moment highlighted the client's increasing vulnerability and willingness to explore their emotional landscape, leading to a richer dialogue about their identity and the pressures they face.",
+    "Openness judge rated 4/5 and updated prompt openness.",
+    "Openness judge output: **Rating: 4 (DEEP ENGAGEMENT)**\n\n**Key Examples:**\n1. **Emotional Depth:** \"I feel a mix of sadness and frustration, you know? It\u2019s like I\u2019m sad because I want to be there for others, but at the same time, I\u2019m frustrated with myself for not being able to find that balance.\"\n2. **Current Openness:** \"I guess I just want to be seen as someone who\u2019s dependable, but then it can feel like I\u2019m losing myself in the process.\"\n\n**Progression:** The client\u2019s most recent interactions demonstrate a significant emotional depth and openness, particularly in expressing complex feelings of sadness, frustration, and guilt regarding their caretaker role and the impact it has on their identity and well-being. This marks a notable shift from earlier exchanges, where the client was more guarded and focused on factual recounting of experiences. The current exchanges reflect a deeper engagement with their emotions and a willingness to explore the underlying beliefs that drive their behavior.\n\n**Turning Point:** The client\u2019s emotional depth shifted during the exchange where they articulated their feelings of guilt around self-care: \"I feel a bit guilty, you know? Like, I shouldn\u2019t be focusing on my own needs when there are others who might need me more.\" This moment marked a transition from simply acknowledging their struggles to actively reflecting on the emotional implications of their caretaker role, indicating a deeper level of self-awareness and vulnerability. The client is now able to articulate not just their feelings but also the conflicts and pressures that contribute to their emotional state, fostering a stronger therapeutic alliance and engagement in the process.",
+    "Openness judge rated 4/5 and updated prompt openness.",
+    "Openness judge output: **Rating: 4 (DEEP ENGAGEMENT)**\n\n**Key Examples:**\n1. \"I guess when I think about taking care of myself, I feel a bit guilty, you know? Like, I shouldn\u2019t be focusing on my own needs when there are others who might need me more.\"\n2. \"It\u2019s like I\u2019ve internalized this idea that taking care of myself is somehow wrong or selfish, and that if I\u2019m not constantly available for others, then I\u2019m failing them in some way.\"\n\n**Progression:**\nThe client\u2019s most recent interactions demonstrate a significant emotional depth, particularly in their exploration of guilt and responsibility regarding self-care. They articulate complex feelings of sadness, frustration, and internal conflict, which indicate a deeper level of self-reflection compared to earlier exchanges. Initially, the client displayed hesitance and a more superficial emotional engagement, but they have progressed to a place where they are openly discussing their struggles with self-worth and the pressures they feel from familial expectations. This marks a clear shift from a more guarded stance to one of authentic vulnerability.\n\n**Turning Point:**\nThe client\u2019s emotional depth shifted notably during the exchange where they began to articulate their feelings of guilt associated with self-care. This moment was pivotal as it revealed their internal struggle between wanting to support others and the recognition of their own needs. The acknowledgment of these conflicting emotions allowed for a more profound exploration of their identity and the expectations they feel, indicating a significant step in their therapeutic journey.",
+    "Openness judge rated 4/5 and updated prompt openness.",
+    "Openness judge output: **Rating: 4 (DEEP ENGAGEMENT)**\n\n**Key Examples:**\n1. \"I guess I just want to be seen as someone who\u2019s dependable, but then I end up feeling drained. It\u2019s a bit of a balancing act, I suppose.\"\n2. \"I think if I could envision a way to integrate self-care into being a good person, it might look like setting aside specific times for myself without feeling guilty about it.\"\n\n**Progression:**\nThe client\u2019s most recent interactions reveal a significant emotional depth, particularly in their acknowledgment of feeling drained and the internal conflict surrounding self-care. They articulate a clear understanding of their needs and the toll that their caretaking role has taken on them. This marks a notable shift from earlier in the session when their responses were more guarded and focused on external expectations. The client is now engaging in meaningful self-reflection, recognizing the necessity of self-care and the guilt associated with it, indicating a deeper level of emotional engagement and vulnerability.\n\n**Turning Point:**\nThe client\u2019s emotional depth shifted notably when they began to articulate their feelings of guilt and the internal struggle between wanting to care for themselves and feeling obligated to meet others' needs. This moment of clarity, particularly when they expressed, \"I think if I could envision a way to integrate self-care into being a good person,\" reflects a significant turning point in their emotional openness. It indicates a movement towards integrating their own needs into their identity, showcasing a deeper understanding of their emotional landscape and a willingness to explore solutions. This progression highlights the development of a strong therapeutic alliance, as the client feels safe enough to explore these complex feelings."
+  ],
+  "moderator_events": [],
+  "retrieval_events": [
+    {
+      "turn": 2,
+      "query": "Yvette: Well, um, I suppose I can see how that might apply to me, but it\u2019s not like I want to dwell on it too much. I mean, there are always things that happen, right? Like, with my aunt, for instance. I think about her a lot, and there were things I wish I could have done differently. But, you know, it\u2019s just how life goes sometimes. I don\u2019t know if I\u2019d call myself a victim or anything, though. It\u2019s just... complicated, I guess.",
+      "prompt_context": "- Victimization (Trauma)\n- Rumination pattern (Coping)\n- Identity shame (Identity)\n\nExplicitly discuss this topic in normal, client-friendly language. Ask whether it fits the client, while leaving room for them to say it does not.",
+      "anchors": [
+        {
+          "id": "trauma_victimization",
+          "type": "sub_topic",
+          "label": "Victimization",
+          "score": 0.38736813884306437,
+          "text": "Type: Sub Topic\nLabel: Victimization\nAliases: victimized, abused, targeted\nParent topics: Trauma",
+          "selection_method": "subtopic_similarity",
+          "super_topic_id": "trauma",
+          "super_topic_label": "Trauma"
+        },
+        {
+          "id": "rumination_pattern",
+          "type": "sub_topic",
+          "label": "Rumination pattern",
+          "score": 0.3400852667240909,
+          "text": "Type: Sub Topic\nLabel: Rumination pattern\nAliases: overthinking, rumination\nParent topics: Coping",
+          "selection_method": "subtopic_similarity",
+          "super_topic_id": "coping",
+          "super_topic_label": "Coping"
+        },
+        {
+          "id": "identity_shame",
+          "type": "sub_topic",
+          "label": "Identity shame",
+          "score": 0.31898835669995085,
+          "text": "Type: Sub Topic\nLabel: Identity shame\nAliases: ashamed of who I am\nParent topics: Identity",
+          "selection_method": "subtopic_similarity",
+          "super_topic_id": "identity",
+          "super_topic_label": "Identity"
+        }
+      ],
+      "expanded": []
+    },
+    {
+      "turn": 4,
+      "query": "Client: Yvette: Yeah, I suppose that does make sense. I mean, I often feel like I\u2019m just not good enough, you know? Like, I try my best, but it never seems to be enough. With my aunt, I think I just wanted to be there for her, but I didn\u2019t really understand what she needed. And it\u2019s frustrating because I keep wondering if she felt alone or if I could have done something to make her feel better. I guess it\u2019s just hard to think about how I might have let her down, and it makes me feel... well, sad, I guess. But I also know that life is complicated, and we can\u2019t always be perfect. It\u2019s just a lot to think about, really.",
+      "prompt_context": "- Perfectionism pattern (Coping)\n- Role insecurity (Work)\n- Family neglect (Family)\n\nExplicitly discuss this topic in normal, client-friendly language. Ask whether it fits the client, while leaving room for them to say it does not.",
+      "anchors": [
+        {
+          "id": "perfectionism_pattern",
+          "type": "sub_topic",
+          "label": "Perfectionism pattern",
+          "score": 0.3670784588620941,
+          "text": "Type: Sub Topic\nLabel: Perfectionism pattern\nAliases: must get it right, perfectionistic\nParent topics: Coping",
+          "selection_method": "subtopic_similarity",
+          "super_topic_id": "coping",
+          "super_topic_label": "Coping"
+        },
+        {
+          "id": "role_insecurity",
+          "type": "sub_topic",
+          "label": "Role insecurity",
+          "score": 0.3600803164411305,
+          "text": "Type: Sub Topic\nLabel: Role insecurity\nAliases: job insecurity, not good enough at work\nParent topics: Work",
+          "selection_method": "subtopic_similarity",
+          "super_topic_id": "work",
+          "super_topic_label": "Work"
+        },
+        {
+          "id": "family_neglect",
+          "type": "sub_topic",
+          "label": "Family neglect",
+          "score": 0.33943660864771263,
+          "text": "Type: Sub Topic\nLabel: Family neglect\nAliases: emotionally neglected, ignored at home\nParent topics: Family",
+          "selection_method": "subtopic_similarity",
+          "super_topic_id": "family",
+          "super_topic_label": "Family"
+        }
+      ],
+      "expanded": []
+    },
+    {
+      "turn": 6,
+      "query": "Yvette: Well, um, I guess that makes sense. I mean, I do sometimes feel like I\u2019m walking on eggshells, you know? Like, at work, I\u2019m always trying to read the room and make sure I\u2019m not stepping on anyone\u2019s toes. It\u2019s like I\u2019m constantly worried about how others perceive me, and that can make it hard to just focus on my tasks. And with friends, I often feel like I have to be the one reaching out or making plans, or else I worry they\u2019ll think I don\u2019t care. I suppose that pressure to be perfect or to always be there for others can make it feel less safe, like I\u2019m always on guard. It\u2019s just... a lot to juggle, I guess. I know I shouldn\u2019t feel that way, but it\u2019s hard to shake off those thoughts.",
+      "prompt_context": "- Role insecurity (Work)\n- Perfectionism pattern (Coping)\n- Family pressure (Family)\n\nExplicitly discuss this topic in normal, client-friendly language. Ask whether it fits the client, while leaving room for them to say it does not.",
+      "anchors": [
+        {
+          "id": "role_insecurity",
+          "type": "sub_topic",
+          "label": "Role insecurity",
+          "score": 0.4092656546951952,
+          "text": "Type: Sub Topic\nLabel: Role insecurity\nAliases: job insecurity, not good enough at work\nParent topics: Work",
+          "selection_method": "subtopic_similarity",
+          "super_topic_id": "work",
+          "super_topic_label": "Work"
+        },
+        {
+          "id": "perfectionism_pattern",
+          "type": "sub_topic",
+          "label": "Perfectionism pattern",
+          "score": 0.3942685632763876,
+          "text": "Type: Sub Topic\nLabel: Perfectionism pattern\nAliases: must get it right, perfectionistic\nParent topics: Coping",
+          "selection_method": "subtopic_similarity",
+          "super_topic_id": "coping",
+          "super_topic_label": "Coping"
+        },
+        {
+          "id": "family_pressure",
+          "type": "sub_topic",
+          "label": "Family pressure",
+          "score": 0.39006087008354146,
+          "text": "Type: Sub Topic\nLabel: Family pressure\nAliases: pressure from family, expectations at home\nParent topics: Family",
+          "selection_method": "subtopic_similarity",
+          "super_topic_id": "family",
+          "super_topic_label": "Family"
+        }
+      ],
+      "expanded": []
+    },
+    {
+      "turn": 8,
+      "query": "Yvette: Well, um, yeah, I think that does resonate with me. I mean, I often find myself prioritizing others\u2019 needs over my own, you know? Like, I\u2019ll drop what I\u2019m doing if a friend needs help or if there\u2019s something going on at work that requires my attention. It\u2019s like I feel this obligation to be there for everyone else, and sometimes I forget to check in with myself. I guess I just want to be seen as reliable and supportive, but then I end up feeling drained. It\u2019s a bit of a balancing act, I suppose. I know I should take care of myself too, but it\u2019s hard to shift that focus when I feel like there\u2019s so much at stake. It\u2019s just... a lot to think about, really.",
+      "prompt_context": "- Caretaking role burden (Social Life)\n- Overcontrol pattern (Coping)\n- Family pressure (Family)\n\nExplicitly discuss this topic in normal, client-friendly language. Ask whether it fits the client, while leaving room for them to say it does not.",
+      "anchors": [
+        {
+          "id": "caretaking_roles",
+          "type": "sub_topic",
+          "label": "Caretaking role burden",
+          "score": 0.426431591870823,
+          "text": "Type: Sub Topic\nLabel: Caretaking role burden\nAliases: caretaking role, taking care of others\nParent topics: Social Life",
+          "selection_method": "subtopic_similarity",
+          "super_topic_id": "social_life",
+          "super_topic_label": "Social Life"
+        },
+        {
+          "id": "overcontrol_pattern",
+          "type": "sub_topic",
+          "label": "Overcontrol pattern",
+          "score": 0.3314179353272392,
+          "text": "Type: Sub Topic\nLabel: Overcontrol pattern\nAliases: must stay in control, overcontrol\nParent topics: Coping",
+          "selection_method": "subtopic_similarity",
+          "super_topic_id": "coping",
+          "super_topic_label": "Coping"
+        },
+        {
+          "id": "family_pressure",
+          "type": "sub_topic",
+          "label": "Family pressure",
+          "score": 0.32939177288836435,
+          "text": "Type: Sub Topic\nLabel: Family pressure\nAliases: pressure from family, expectations at home\nParent topics: Family",
+          "selection_method": "subtopic_similarity",
+          "super_topic_id": "family",
+          "super_topic_label": "Family"
+        }
+      ],
+      "expanded": []
+    },
+    {
+      "turn": 10,
+      "query": "Yvette: Well, um, yeah, I think that does resonate with me. I mean, I feel like I\u2019m always scanning the environment, you know? Like, I\u2019m trying to pick up on any cues that someone might need help or support. It\u2019s like this instinct I have to be there for others, but it can be really draining. Sometimes I wonder if I\u2019m just overthinking things, but then I think, \u201cWhat if I miss something important?\u201d It\u2019s like I have this fear of not being there when someone needs me, and that makes it hard to relax or focus on my own needs. I guess it\u2019s just this constant juggling act, and it can feel really heavy at times.",
+      "prompt_context": "- Rumination pattern (Coping)\n- Caretaking role burden (Social Life)\n- Overcontrol pattern (Coping)\n\nExplicitly discuss this topic in normal, client-friendly language. Ask whether it fits the client, while leaving room for them to say it does not.",
+      "anchors": [
+        {
+          "id": "rumination_pattern",
+          "type": "sub_topic",
+          "label": "Rumination pattern",
+          "score": 0.3790461806654007,
+          "text": "Type: Sub Topic\nLabel: Rumination pattern\nAliases: overthinking, rumination\nParent topics: Coping",
+          "selection_method": "subtopic_similarity",
+          "super_topic_id": "coping",
+          "super_topic_label": "Coping"
+        },
+        {
+          "id": "caretaking_roles",
+          "type": "sub_topic",
+          "label": "Caretaking role burden",
+          "score": 0.376628628441629,
+          "text": "Type: Sub Topic\nLabel: Caretaking role burden\nAliases: caretaking role, taking care of others\nParent topics: Social Life",
+          "selection_method": "subtopic_similarity",
+          "super_topic_id": "social_life",
+          "super_topic_label": "Social Life"
+        },
+        {
+          "id": "overcontrol_pattern",
+          "type": "sub_topic",
+          "label": "Overcontrol pattern",
+          "score": 0.3649005681728047,
+          "text": "Type: Sub Topic\nLabel: Overcontrol pattern\nAliases: must stay in control, overcontrol\nParent topics: Coping",
+          "selection_method": "subtopic_similarity",
+          "super_topic_id": "coping",
+          "super_topic_label": "Coping"
+        }
+      ],
+      "expanded": []
+    },
+    {
+      "turn": 12,
+      "query": "Yvette: Well, um, yeah, I think burnout is definitely something I experience. I mean, there are days when I just feel completely exhausted, like I\u2019ve given everything I have to everyone else, and there\u2019s nothing left for me. It\u2019s like I\u2019m running on empty, you know? I try to keep pushing through because I don\u2019t want to let anyone down, but then I end up feeling overwhelmed and just... drained. I know I should take breaks or say no sometimes, but it\u2019s hard to do that when I feel like I have to keep being there for others. It\u2019s just this cycle that keeps repeating, and I guess I\u2019m starting to realize how much it affects me. It\u2019s just... a lot to handle, really.",
+      "prompt_context": "- Burnout (Work)\n- Stress overload (Mental Health)\n- Caretaking role burden (Social Life)\n\nExplicitly discuss this topic in normal, client-friendly language. Ask whether it fits the client, while leaving room for them to say it does not.",
+      "anchors": [
+        {
+          "id": "burnout",
+          "type": "sub_topic",
+          "label": "Burnout",
+          "score": 0.5050006580424637,
+          "text": "Type: Sub Topic\nLabel: Burnout\nAliases: burned out, depleted by work\nParent topics: Work",
+          "selection_method": "subtopic_similarity",
+          "super_topic_id": "work",
+          "super_topic_label": "Work"
+        },
+        {
+          "id": "stress_overload",
+          "type": "sub_topic",
+          "label": "Stress overload",
+          "score": 0.3988966105707395,
+          "text": "Type: Sub Topic\nLabel: Stress overload\nAliases: stress, overwhelmed, pressure\nParent topics: Mental Health",
+          "selection_method": "subtopic_similarity",
+          "super_topic_id": "mental_health",
+          "super_topic_label": "Mental Health"
+        },
+        {
+          "id": "caretaking_roles",
+          "type": "sub_topic",
+          "label": "Caretaking role burden",
+          "score": 0.3256244686133772,
+          "text": "Type: Sub Topic\nLabel: Caretaking role burden\nAliases: caretaking role, taking care of others\nParent topics: Social Life",
+          "selection_method": "subtopic_similarity",
+          "super_topic_id": "social_life",
+          "super_topic_label": "Social Life"
+        }
+      ],
+      "expanded": []
+    },
+    {
+      "turn": 14,
+      "query": "Yvette: Well, um, yeah, I think there are definitely some dynamics in my family that play into all of this. I mean, there\u2019s this unspoken competition, you know? Like, everyone feels the need to prove themselves, and it often feels like I have to be the one who steps up the most. It\u2019s like if I don\u2019t, then I\u2019m not living up to what\u2019s expected of me. I love my family, but sometimes it feels like there\u2019s this pressure to always be the one who holds everything together, and that can create tension. I guess I worry that if I don\u2019t meet those expectations, I\u2019ll disappoint them or they\u2019ll think less of me. It\u2019s just... a lot to navigate, really. I want to be supportive, but it can feel like I\u2019m losing myself in the process.",
+      "prompt_context": "- Family pressure (Family)\n- Family conflict (Family)\n- Family criticism (Family)\n\nExplicitly discuss this topic in normal, client-friendly language. Ask whether it fits the client, while leaving room for them to say it does not.",
+      "anchors": [
+        {
+          "id": "family_pressure",
+          "type": "sub_topic",
+          "label": "Family pressure",
+          "score": 0.5008304146639577,
+          "text": "Type: Sub Topic\nLabel: Family pressure\nAliases: pressure from family, expectations at home\nParent topics: Family",
+          "selection_method": "subtopic_similarity",
+          "super_topic_id": "family",
+          "super_topic_label": "Family"
+        },
+        {
+          "id": "family_conflict",
+          "type": "sub_topic",
+          "label": "Family conflict",
+          "score": 0.4057700951933556,
+          "text": "Type: Sub Topic\nLabel: Family conflict\nAliases: arguments, conflict at home\nParent topics: Family",
+          "selection_method": "subtopic_similarity",
+          "super_topic_id": "family",
+          "super_topic_label": "Family"
+        },
+        {
+          "id": "family_criticism",
+          "type": "sub_topic",
+          "label": "Family criticism",
+          "score": 0.38739577724327967,
+          "text": "Type: Sub Topic\nLabel: Family criticism\nAliases: criticized at home, judged by family\nParent topics: Family",
+          "selection_method": "subtopic_similarity",
+          "super_topic_id": "family",
+          "super_topic_label": "Family"
+        }
+      ],
+      "expanded": []
+    },
+    {
+      "turn": 16,
+      "query": "Yvette: Well, um, yeah, I think it definitely resonates with me. I mean, I\u2019ve noticed that I often feel physically drained, like my energy just dips so low sometimes. There are days when I wake up and I\u2019m already tired, and I think that\u2019s not really normal, right? I guess I\u2019ve been so focused on taking care of everyone else that I haven\u2019t really paid attention to how it\u2019s affecting me physically. I sometimes get headaches or feel a bit run down, and I know it\u2019s probably because I\u2019m not taking care of myself like I should. It\u2019s just hard to prioritize my own health when I feel like there\u2019s so much to do for others. I mean, I know I should be more mindful of that, but it\u2019s like I keep pushing it aside, thinking I can handle it. But deep down, I know it\u2019s starting to catch up with me, and that\u2019s a bit scary, honestly. It\u2019s just... a lot to juggle, and I wish I could find a way to balance it all better.",
+      "prompt_context": "- Stress overload (Mental Health)\n- Caretaking role burden (Social Life)\n- Burnout (Work)\n\nExplicitly discuss this topic in normal, client-friendly language. Ask whether it fits the client, while leaving room for them to say it does not.",
+      "anchors": [
+        {
+          "id": "stress_overload",
+          "type": "sub_topic",
+          "label": "Stress overload",
+          "score": 0.3672481630922991,
+          "text": "Type: Sub Topic\nLabel: Stress overload\nAliases: stress, overwhelmed, pressure\nParent topics: Mental Health",
+          "selection_method": "subtopic_similarity",
+          "super_topic_id": "mental_health",
+          "super_topic_label": "Mental Health"
+        },
+        {
+          "id": "caretaking_roles",
+          "type": "sub_topic",
+          "label": "Caretaking role burden",
+          "score": 0.3609203728858696,
+          "text": "Type: Sub Topic\nLabel: Caretaking role burden\nAliases: caretaking role, taking care of others\nParent topics: Social Life",
+          "selection_method": "subtopic_similarity",
+          "super_topic_id": "social_life",
+          "super_topic_label": "Social Life"
+        },
+        {
+          "id": "burnout",
+          "type": "sub_topic",
+          "label": "Burnout",
+          "score": 0.3246026533895264,
+          "text": "Type: Sub Topic\nLabel: Burnout\nAliases: burned out, depleted by work\nParent topics: Work",
+          "selection_method": "subtopic_similarity",
+          "super_topic_id": "work",
+          "super_topic_label": "Work"
+        }
+      ],
+      "expanded": []
+    },
+    {
+      "turn": 17,
+      "query": "Yvette: Well, um, I guess when I think about finding a better balance, it feels a bit overwhelming, you know? I mean, part of me knows I need to start small, like maybe setting aside a little time for myself each week, but then I worry about what that would mean for everyone else. It\u2019s like I\u2019m stuck in this mindset where taking time for myself feels selfish, and I don\u2019t want to let anyone down. I\u2019ve thought about maybe saying no to a few things, but then I get anxious about disappointing people or feeling like I\u2019m not doing enough. It\u2019s just... I don\u2019t know, it feels like a tightrope walk between wanting to care for myself and feeling that pressure to be there for others. I guess I just wish I could find a way to make it feel okay to prioritize my own needs without all that guilt weighing me down. It\u2019s just... a lot to think about, really.",
+      "prompt_context": "- Caretaking role burden (Social Life)\n- Stress overload (Mental Health)\n- Rumination pattern (Coping)\n\nExplicitly discuss this topic in normal, client-friendly language. Ask whether it fits the client, while leaving room for them to say it does not.",
+      "anchors": [
+        {
+          "id": "caretaking_roles",
+          "type": "sub_topic",
+          "label": "Caretaking role burden",
+          "score": 0.366669882757035,
+          "text": "Type: Sub Topic\nLabel: Caretaking role burden\nAliases: caretaking role, taking care of others\nParent topics: Social Life",
+          "selection_method": "subtopic_similarity",
+          "super_topic_id": "social_life",
+          "super_topic_label": "Social Life"
+        },
+        {
+          "id": "stress_overload",
+          "type": "sub_topic",
+          "label": "Stress overload",
+          "score": 0.34634571257153624,
+          "text": "Type: Sub Topic\nLabel: Stress overload\nAliases: stress, overwhelmed, pressure\nParent topics: Mental Health",
+          "selection_method": "subtopic_similarity",
+          "super_topic_id": "mental_health",
+          "super_topic_label": "Mental Health"
+        },
+        {
+          "id": "rumination_pattern",
+          "type": "sub_topic",
+          "label": "Rumination pattern",
+          "score": 0.34045548868411046,
+          "text": "Type: Sub Topic\nLabel: Rumination pattern\nAliases: overthinking, rumination\nParent topics: Coping",
+          "selection_method": "subtopic_similarity",
+          "super_topic_id": "coping",
+          "super_topic_label": "Coping"
+        }
+      ],
+      "expanded": []
+    },
+    {
+      "turn": 18,
+      "query": "Client: Yvette: Well, um, I think when I imagine taking some time for myself, I picture things like maybe reading a book or going for a walk in the park. You know, just simple things that I used to enjoy but haven\u2019t really made time for lately. I think being outdoors would help clear my mind a bit, and reading always used to be a way for me to escape and relax. But then I start to think about how I\u2019d feel if I took that time\u2014like, would I be letting someone down? It\u2019s frustrating because I know those little moments could really help me recharge, but the guilt just creeps in and makes it hard to commit to them. It\u2019s like I\u2019m stuck in this cycle of wanting to do something good for myself but feeling like I can\u2019t. I guess I just wish it didn\u2019t feel so complicated, you know?",
+      "prompt_context": "- Rumination pattern (Coping)\n- Craving escape (Addiction)\n- Self-attack pattern (Coping)\n\nExplicitly discuss this topic in normal, client-friendly language. Ask whether it fits the client, while leaving room for them to say it does not.",
+      "anchors": [
+        {
+          "id": "rumination_pattern",
+          "type": "sub_topic",
+          "label": "Rumination pattern",
+          "score": 0.34805521653089605,
+          "text": "Type: Sub Topic\nLabel: Rumination pattern\nAliases: overthinking, rumination\nParent topics: Coping",
+          "selection_method": "subtopic_similarity",
+          "super_topic_id": "coping",
+          "super_topic_label": "Coping"
+        },
+        {
+          "id": "craving_escape",
+          "type": "sub_topic",
+          "label": "Craving escape",
+          "score": 0.3435668732410821,
+          "text": "Type: Sub Topic\nLabel: Craving escape\nAliases: urge to escape, craving relief\nParent topics: Addiction",
+          "selection_method": "subtopic_similarity",
+          "super_topic_id": "addiction",
+          "super_topic_label": "Addiction"
+        },
+        {
+          "id": "self_attack_pattern",
+          "type": "sub_topic",
+          "label": "Self-attack pattern",
+          "score": 0.3347556242268532,
+          "text": "Type: Sub Topic\nLabel: Self-attack pattern\nAliases: beating myself up, self-criticism\nParent topics: Coping",
+          "selection_method": "subtopic_similarity",
+          "super_topic_id": "coping",
+          "super_topic_label": "Coping"
+        }
+      ],
+      "expanded": []
+    },
+    {
+      "turn": 19,
+      "query": "Yvette: Well, um, I think the guilt really highlights how deeply ingrained those beliefs are, you know? It\u2019s like I\u2019ve internalized this idea that taking care of myself is somehow wrong or selfish, and that if I\u2019m not constantly available for others, then I\u2019m failing them in some way. I guess it reflects that pressure I feel to always be the one who holds everything together, like if I step back even a little, everything might fall apart. It\u2019s frustrating because I know logically that self-care is important, but emotionally, it feels like I\u2019m betraying my role or letting people down. I just wish I could shift that mindset and see that taking care of myself doesn\u2019t mean I\u2019m abandoning anyone. It\u2019s just... a lot to unpack, really.",
+      "prompt_context": "- Caretaking role burden (Social Life)\n- Identity shame (Identity)\n- Self-attack pattern (Coping)\n\nExplicitly discuss this topic in normal, client-friendly language. Ask whether it fits the client, while leaving room for them to say it does not.",
+      "anchors": [
+        {
+          "id": "caretaking_roles",
+          "type": "sub_topic",
+          "label": "Caretaking role burden",
+          "score": 0.4499314782625432,
+          "text": "Type: Sub Topic\nLabel: Caretaking role burden\nAliases: caretaking role, taking care of others\nParent topics: Social Life",
+          "selection_method": "subtopic_similarity",
+          "super_topic_id": "social_life",
+          "super_topic_label": "Social Life"
+        },
+        {
+          "id": "identity_shame",
+          "type": "sub_topic",
+          "label": "Identity shame",
+          "score": 0.3875387777290821,
+          "text": "Type: Sub Topic\nLabel: Identity shame\nAliases: ashamed of who I am\nParent topics: Identity",
+          "selection_method": "subtopic_similarity",
+          "super_topic_id": "identity",
+          "super_topic_label": "Identity"
+        },
+        {
+          "id": "self_attack_pattern",
+          "type": "sub_topic",
+          "label": "Self-attack pattern",
+          "score": 0.3822512252404889,
+          "text": "Type: Sub Topic\nLabel: Self-attack pattern\nAliases: beating myself up, self-criticism\nParent topics: Coping",
+          "selection_method": "subtopic_similarity",
+          "super_topic_id": "coping",
+          "super_topic_label": "Coping"
+        }
+      ],
+      "expanded": []
+    },
+    {
+      "turn": 20,
+      "query": "Yvette: Well, um, that\u2019s an interesting thought, you know? I think if I could see self-care as something that actually helps me be better for others, it might change how I feel about it. Like, maybe if I took that time to recharge, I\u2019d be more present and able to support my family instead of feeling so drained all the time. I guess I could think of it as filling up my own cup so that I have more to give, rather than seeing it as taking away from them. But then, there\u2019s still that nagging voice in my head that worries about what others might think or if they\u2019ll feel neglected. It\u2019s just... a lot to consider, really. I mean, I want to believe that taking care of myself could be a good thing, but it feels like a big shift from how I\u2019ve always thought about it. It\u2019s just... complicated, you know?",
+      "prompt_context": "- Caretaking role burden (Social Life)\n- Rumination pattern (Coping)\n- Personal growth and values (Identity)\n\nExplicitly discuss this topic in normal, client-friendly language. Ask whether it fits the client, while leaving room for them to say it does not.",
+      "anchors": [
+        {
+          "id": "caretaking_roles",
+          "type": "sub_topic",
+          "label": "Caretaking role burden",
+          "score": 0.43004703121714993,
+          "text": "Type: Sub Topic\nLabel: Caretaking role burden\nAliases: caretaking role, taking care of others\nParent topics: Social Life",
+          "selection_method": "subtopic_similarity",
+          "super_topic_id": "social_life",
+          "super_topic_label": "Social Life"
+        },
+        {
+          "id": "rumination_pattern",
+          "type": "sub_topic",
+          "label": "Rumination pattern",
+          "score": 0.3473537098293009,
+          "text": "Type: Sub Topic\nLabel: Rumination pattern\nAliases: overthinking, rumination\nParent topics: Coping",
+          "selection_method": "subtopic_similarity",
+          "super_topic_id": "coping",
+          "super_topic_label": "Coping"
+        },
+        {
+          "id": "personal_growth_theme",
+          "type": "sub_topic",
+          "label": "Personal growth and values",
+          "score": 0.333850700098659,
+          "text": "Type: Sub Topic\nLabel: Personal growth and values\nAliases: personal growth, values, who I want to be\nParent topics: Identity",
+          "selection_method": "subtopic_similarity",
+          "super_topic_id": "identity",
+          "super_topic_label": "Identity"
+        }
+      ],
+      "expanded": []
+    },
+    {
+      "turn": 21,
+      "query": "Yvette: Well, um, I think that nagging voice is really trying to protect me from, you know, disappointing others or feeling like I\u2019m not living up to their expectations. It\u2019s like it\u2019s whispering that if I take time for myself, then I\u2019m somehow being selfish or neglectful, and that just feels so heavy. I guess it\u2019s rooted in this fear of being seen as someone who doesn\u2019t care enough or isn\u2019t doing enough for the people I love. It\u2019s frustrating because I know deep down that I want to be there for them, but I also want to be able to take care of myself, too. It\u2019s like this constant battle between wanting to be a good person and feeling like I have to sacrifice my own needs to prove that I am. I just wish I could quiet that voice and find a way to feel okay about prioritizing myself without all that guilt weighing me down. It\u2019s just... a lot to think about, really.",
+      "prompt_context": "- Caretaking role burden (Social Life)\n- Family pressure (Family)\n- Perfectionism pattern (Coping)\n\nExplicitly discuss this topic in normal, client-friendly language. Ask whether it fits the client, while leaving room for them to say it does not.",
+      "anchors": [
+        {
+          "id": "caretaking_roles",
+          "type": "sub_topic",
+          "label": "Caretaking role burden",
+          "score": 0.3625382839163987,
+          "text": "Type: Sub Topic\nLabel: Caretaking role burden\nAliases: caretaking role, taking care of others\nParent topics: Social Life",
+          "selection_method": "subtopic_similarity",
+          "super_topic_id": "social_life",
+          "super_topic_label": "Social Life"
+        },
+        {
+          "id": "family_pressure",
+          "type": "sub_topic",
+          "label": "Family pressure",
+          "score": 0.362101692149505,
+          "text": "Type: Sub Topic\nLabel: Family pressure\nAliases: pressure from family, expectations at home\nParent topics: Family",
+          "selection_method": "subtopic_similarity",
+          "super_topic_id": "family",
+          "super_topic_label": "Family"
+        },
+        {
+          "id": "perfectionism_pattern",
+          "type": "sub_topic",
+          "label": "Perfectionism pattern",
+          "score": 0.3513575013827644,
+          "text": "Type: Sub Topic\nLabel: Perfectionism pattern\nAliases: must get it right, perfectionistic\nParent topics: Coping",
+          "selection_method": "subtopic_similarity",
+          "super_topic_id": "coping",
+          "super_topic_label": "Coping"
+        }
+      ],
+      "expanded": []
+    },
+    {
+      "turn": 22,
+      "query": "Yvette: Well, um, when I think about being a \"good person,\" it feels like there are so many layers to it, you know? I guess I associate it with being reliable and always being there for others, like being the one they can count on no matter what. I think of qualities like kindness, selflessness, and putting others' needs before my own. It\u2019s like I\u2019ve built this image in my mind of what a good person looks like, and it often feels like I have to live up to that standard. I mean, I want to be someone who makes a difference in the lives of the people I care about, but sometimes it feels like I\u2019m sacrificing my own happiness to do that. It\u2019s just... I don\u2019t know, it feels like there\u2019s this pressure to always be the best version of myself for everyone else, and it gets overwhelming. I just wish I could find a way to be a good person without feeling like I have to give up so much of myself in the process. It\u2019s complicated, really.",
+      "prompt_context": "- Personal growth and values (Identity)\n- Perfectionism pattern (Coping)\n- Caretaking role burden (Social Life)\n\nExplicitly discuss this topic in normal, client-friendly language. Ask whether it fits the client, while leaving room for them to say it does not.",
+      "anchors": [
+        {
+          "id": "personal_growth_theme",
+          "type": "sub_topic",
+          "label": "Personal growth and values",
+          "score": 0.36637942340058577,
+          "text": "Type: Sub Topic\nLabel: Personal growth and values\nAliases: personal growth, values, who I want to be\nParent topics: Identity",
+          "selection_method": "subtopic_similarity",
+          "super_topic_id": "identity",
+          "super_topic_label": "Identity"
+        },
+        {
+          "id": "perfectionism_pattern",
+          "type": "sub_topic",
+          "label": "Perfectionism pattern",
+          "score": 0.3396014503278207,
+          "text": "Type: Sub Topic\nLabel: Perfectionism pattern\nAliases: must get it right, perfectionistic\nParent topics: Coping",
+          "selection_method": "subtopic_similarity",
+          "super_topic_id": "coping",
+          "super_topic_label": "Coping"
+        },
+        {
+          "id": "caretaking_roles",
+          "type": "sub_topic",
+          "label": "Caretaking role burden",
+          "score": 0.3145939811369398,
+          "text": "Type: Sub Topic\nLabel: Caretaking role burden\nAliases: caretaking role, taking care of others\nParent topics: Social Life",
+          "selection_method": "subtopic_similarity",
+          "super_topic_id": "social_life",
+          "super_topic_label": "Social Life"
+        }
+      ],
+      "expanded": []
+    },
+    {
+      "turn": 23,
+      "query": "Yvette: Well, um, that\u2019s a tough question, you know? I think, in theory, there should be room for self-care and personal happiness in that definition of a good person, but it often feels like they\u2019re at odds with each other. Like, if I prioritize my own happiness, I worry that it means I\u2019m not being as good or as reliable for others. It\u2019s like I\u2019ve convinced myself that being a good person means putting everyone else first, and that leaves little space for me to think about what I want or need. I guess I just struggle with the idea that I can be both\u2014someone who cares for others and also takes care of myself. It feels like I\u2019m trying to fit two conflicting identities into one, and that\u2019s where it gets complicated. I just wish I could find a way to blend those parts of myself without feeling like I\u2019m failing at either one. It\u2019s just... a lot to navigate, really.",
+      "prompt_context": "- Personal growth and values (Identity)\n- Caretaking role burden (Social Life)\n- Perfectionism pattern (Coping)\n\nExplicitly discuss this topic in normal, client-friendly language. Ask whether it fits the client, while leaving room for them to say it does not.",
+      "anchors": [
+        {
+          "id": "personal_growth_theme",
+          "type": "sub_topic",
+          "label": "Personal growth and values",
+          "score": 0.3706750395448844,
+          "text": "Type: Sub Topic\nLabel: Personal growth and values\nAliases: personal growth, values, who I want to be\nParent topics: Identity",
+          "selection_method": "subtopic_similarity",
+          "super_topic_id": "identity",
+          "super_topic_label": "Identity"
+        },
+        {
+          "id": "caretaking_roles",
+          "type": "sub_topic",
+          "label": "Caretaking role burden",
+          "score": 0.36815093865133786,
+          "text": "Type: Sub Topic\nLabel: Caretaking role burden\nAliases: caretaking role, taking care of others\nParent topics: Social Life",
+          "selection_method": "subtopic_similarity",
+          "super_topic_id": "social_life",
+          "super_topic_label": "Social Life"
+        },
+        {
+          "id": "perfectionism_pattern",
+          "type": "sub_topic",
+          "label": "Perfectionism pattern",
+          "score": 0.3460730136103808,
+          "text": "Type: Sub Topic\nLabel: Perfectionism pattern\nAliases: must get it right, perfectionistic\nParent topics: Coping",
+          "selection_method": "subtopic_similarity",
+          "super_topic_id": "coping",
+          "super_topic_label": "Coping"
+        }
+      ],
+      "expanded": []
+    },
+    {
+      "turn": 24,
+      "query": "Yvette: Well, um, that\u2019s a really interesting question, you know? I think if I could envision a way to integrate self-care into being a good person, it might look like setting aside specific times for myself without feeling guilty about it. Like, maybe I could schedule a little time each week just for me\u2014whether it\u2019s reading or going for that walk in the park. I think I\u2019d have to remind myself that taking that time doesn\u2019t mean I\u2019m neglecting others; it just means I\u2019m recharging so I can be more present for them. I guess it would involve changing how I view my responsibilities, seeing them as something I can still fulfill while also honoring my own needs. It\u2019s like finding that balance where I can be there for others and still be true to myself. But, you know, I think it\u2019s going to take some practice to really believe that I deserve that time and that it\u2019s okay to prioritize myself without feeling like I\u2019m doing something wrong. It\u2019s just... a lot to think about, really.",
+      "prompt_context": "- Caretaking role burden (Social Life)\n- Personal growth and values (Identity)\n- Self-attack pattern (Coping)\n\nExplicitly discuss this topic in normal, client-friendly language. Ask whether it fits the client, while leaving room for them to say it does not.",
+      "anchors": [
+        {
+          "id": "caretaking_roles",
+          "type": "sub_topic",
+          "label": "Caretaking role burden",
+          "score": 0.36871999463596145,
+          "text": "Type: Sub Topic\nLabel: Caretaking role burden\nAliases: caretaking role, taking care of others\nParent topics: Social Life",
+          "selection_method": "subtopic_similarity",
+          "super_topic_id": "social_life",
+          "super_topic_label": "Social Life"
+        },
+        {
+          "id": "personal_growth_theme",
+          "type": "sub_topic",
+          "label": "Personal growth and values",
+          "score": 0.36602533659602676,
+          "text": "Type: Sub Topic\nLabel: Personal growth and values\nAliases: personal growth, values, who I want to be\nParent topics: Identity",
+          "selection_method": "subtopic_similarity",
+          "super_topic_id": "identity",
+          "super_topic_label": "Identity"
+        },
+        {
+          "id": "self_attack_pattern",
+          "type": "sub_topic",
+          "label": "Self-attack pattern",
+          "score": 0.3117283603882175,
+          "text": "Type: Sub Topic\nLabel: Self-attack pattern\nAliases: beating myself up, self-criticism\nParent topics: Coping",
+          "selection_method": "subtopic_similarity",
+          "super_topic_id": "coping",
+          "super_topic_label": "Coping"
+        }
+      ],
+      "expanded": []
+    },
+    {
+      "turn": 25,
+      "query": "Yvette: Well, um, when I think about actually taking that time for myself, I feel a mix of excitement and, you know, a bit of anxiety. It\u2019s like, on one hand, I\u2019m really looking forward to having that space to do something just for me, like reading or going for a walk, and it feels refreshing to think about. But then, there\u2019s that nagging worry creeping in, like, what if I\u2019m not doing enough for others while I\u2019m taking that time? I guess I fear that if I step away, even for a little bit, it might lead to someone feeling abandoned or like I\u2019m not fulfilling my role. It\u2019s just... a lot of conflicting emotions, really. I want to embrace the idea of self-care, but it feels like there\u2019s this weight of guilt that comes with it. I just wish I could shake that feeling and really allow myself to enjoy that time without all the second-guessing. It\u2019s complicated, you know?",
+      "prompt_context": "- Caretaking role burden (Social Life)\n- Rumination pattern (Coping)\n- Self-attack pattern (Coping)\n\nExplicitly discuss this topic in normal, client-friendly language. Ask whether it fits the client, while leaving room for them to say it does not.",
+      "anchors": [
+        {
+          "id": "caretaking_roles",
+          "type": "sub_topic",
+          "label": "Caretaking role burden",
+          "score": 0.3689339873413484,
+          "text": "Type: Sub Topic\nLabel: Caretaking role burden\nAliases: caretaking role, taking care of others\nParent topics: Social Life",
+          "selection_method": "subtopic_similarity",
+          "super_topic_id": "social_life",
+          "super_topic_label": "Social Life"
+        },
+        {
+          "id": "rumination_pattern",
+          "type": "sub_topic",
+          "label": "Rumination pattern",
+          "score": 0.33371383692963624,
+          "text": "Type: Sub Topic\nLabel: Rumination pattern\nAliases: overthinking, rumination\nParent topics: Coping",
+          "selection_method": "subtopic_similarity",
+          "super_topic_id": "coping",
+          "super_topic_label": "Coping"
+        },
+        {
+          "id": "self_attack_pattern",
+          "type": "sub_topic",
+          "label": "Self-attack pattern",
+          "score": 0.3306503311286966,
+          "text": "Type: Sub Topic\nLabel: Self-attack pattern\nAliases: beating myself up, self-criticism\nParent topics: Coping",
+          "selection_method": "subtopic_similarity",
+          "super_topic_id": "coping",
+          "super_topic_label": "Coping"
+        }
+      ],
+      "expanded": []
+    }
+  ],
+  "topic_probe_events": [
+    {
+      "turn": 1,
+      "prompt_context": "- Victimization (Trauma)\n\nExplicitly discuss this topic in normal, client-friendly language. Ask whether it fits the client, while leaving room for them to say it does not.",
+      "anchors": [
+        {
+          "id": "trauma_victimization",
+          "type": "sub_topic",
+          "label": "Victimization",
+          "score": 1.0,
+          "selection_method": "random_subtopic_probe",
+          "super_topic_id": "trauma",
+          "super_topic_label": "Trauma"
+        }
+      ],
+      "expanded": [],
+      "client_reply": "Yvette: Well, um, I suppose I can see how that might apply to me, but it\u2019s not like I want to dwell on it too much. I mean, there are always things that happen, right? Like, with my aunt, for instance. I think about her a lot, and there were things I wish I could have done differently. But, you know, it\u2019s just how life goes sometimes. I don\u2019t know if I\u2019d call myself a victim or anything, though. It\u2019s just... complicated, I guess.",
+      "graph_context_source": "random_subtopic_probe"
+    },
+    {
+      "turn": 3,
+      "prompt_context": "- School bullying (Education)\n\nExplicitly discuss this topic in normal, client-friendly language. Ask whether it fits the client, while leaving room for them to say it does not.",
+      "anchors": [
+        {
+          "id": "school_bullying",
+          "type": "sub_topic",
+          "label": "School bullying",
+          "score": 1.0,
+          "selection_method": "random_subtopic_probe",
+          "super_topic_id": "education",
+          "super_topic_label": "Education"
+        }
+      ],
+      "expanded": [],
+      "client_reply": "Client: Yvette: Yeah, I suppose that does make sense. I mean, I often feel like I\u2019m just not good enough, you know? Like, I try my best, but it never seems to be enough. With my aunt, I think I just wanted to be there for her, but I didn\u2019t really understand what she needed. And it\u2019s frustrating because I keep wondering if she felt alone or if I could have done something to make her feel better. I guess it\u2019s just hard to think about how I might have let her down, and it makes me feel... well, sad, I guess. But I also know that life is complicated, and we can\u2019t always be perfect. It\u2019s just a lot to think about, really.",
+      "graph_context_source": "random_subtopic_probe"
+    },
+    {
+      "turn": 5,
+      "prompt_context": "- Unsafe environment (Trauma)\n\nExplicitly discuss this topic in normal, client-friendly language. Ask whether it fits the client, while leaving room for them to say it does not.",
+      "anchors": [
+        {
+          "id": "unsafe_environment",
+          "type": "sub_topic",
+          "label": "Unsafe environment",
+          "score": 1.0,
+          "selection_method": "random_subtopic_probe",
+          "super_topic_id": "trauma",
+          "super_topic_label": "Trauma"
+        }
+      ],
+      "expanded": [],
+      "client_reply": "Yvette: Well, um, I guess that makes sense. I mean, I do sometimes feel like I\u2019m walking on eggshells, you know? Like, at work, I\u2019m always trying to read the room and make sure I\u2019m not stepping on anyone\u2019s toes. It\u2019s like I\u2019m constantly worried about how others perceive me, and that can make it hard to just focus on my tasks. And with friends, I often feel like I have to be the one reaching out or making plans, or else I worry they\u2019ll think I don\u2019t care. I suppose that pressure to be perfect or to always be there for others can make it feel less safe, like I\u2019m always on guard. It\u2019s just... a lot to juggle, I guess. I know I shouldn\u2019t feel that way, but it\u2019s hard to shake off those thoughts.",
+      "graph_context_source": "random_subtopic_probe"
+    },
+    {
+      "turn": 7,
+      "prompt_context": "- Caretaking role burden (Social Life)\n\nExplicitly discuss this topic in normal, client-friendly language. Ask whether it fits the client, while leaving room for them to say it does not.",
+      "anchors": [
+        {
+          "id": "caretaking_roles",
+          "type": "sub_topic",
+          "label": "Caretaking role burden",
+          "score": 1.0,
+          "selection_method": "random_subtopic_probe",
+          "super_topic_id": "social_life",
+          "super_topic_label": "Social Life"
+        }
+      ],
+      "expanded": [],
+      "client_reply": "Yvette: Well, um, yeah, I think that does resonate with me. I mean, I often find myself prioritizing others\u2019 needs over my own, you know? Like, I\u2019ll drop what I\u2019m doing if a friend needs help or if there\u2019s something going on at work that requires my attention. It\u2019s like I feel this obligation to be there for everyone else, and sometimes I forget to check in with myself. I guess I just want to be seen as reliable and supportive, but then I end up feeling drained. It\u2019s a bit of a balancing act, I suppose. I know I should take care of myself too, but it\u2019s hard to shift that focus when I feel like there\u2019s so much at stake. It\u2019s just... a lot to think about, really.",
+      "graph_context_source": "random_subtopic_probe"
+    },
+    {
+      "turn": 9,
+      "prompt_context": "- Hypervigilance (Safety)\n\nExplicitly discuss this topic in normal, client-friendly language. Ask whether it fits the client, while leaving room for them to say it does not.",
+      "anchors": [
+        {
+          "id": "safety_hypervigilance",
+          "type": "sub_topic",
+          "label": "Hypervigilance",
+          "score": 1.0,
+          "selection_method": "random_subtopic_probe",
+          "super_topic_id": "safety",
+          "super_topic_label": "Safety"
+        }
+      ],
+      "expanded": [],
+      "client_reply": "Yvette: Well, um, yeah, I think that does resonate with me. I mean, I feel like I\u2019m always scanning the environment, you know? Like, I\u2019m trying to pick up on any cues that someone might need help or support. It\u2019s like this instinct I have to be there for others, but it can be really draining. Sometimes I wonder if I\u2019m just overthinking things, but then I think, \u201cWhat if I miss something important?\u201d It\u2019s like I have this fear of not being there when someone needs me, and that makes it hard to relax or focus on my own needs. I guess it\u2019s just this constant juggling act, and it can feel really heavy at times.",
+      "graph_context_source": "random_subtopic_probe"
+    },
+    {
+      "turn": 11,
+      "prompt_context": "- Burnout (Work)\n\nExplicitly discuss this topic in normal, client-friendly language. Ask whether it fits the client, while leaving room for them to say it does not.",
+      "anchors": [
+        {
+          "id": "burnout",
+          "type": "sub_topic",
+          "label": "Burnout",
+          "score": 1.0,
+          "selection_method": "random_subtopic_probe",
+          "super_topic_id": "work",
+          "super_topic_label": "Work"
+        }
+      ],
+      "expanded": [],
+      "client_reply": "Yvette: Well, um, yeah, I think burnout is definitely something I experience. I mean, there are days when I just feel completely exhausted, like I\u2019ve given everything I have to everyone else, and there\u2019s nothing left for me. It\u2019s like I\u2019m running on empty, you know? I try to keep pushing through because I don\u2019t want to let anyone down, but then I end up feeling overwhelmed and just... drained. I know I should take breaks or say no sometimes, but it\u2019s hard to do that when I feel like I have to keep being there for others. It\u2019s just this cycle that keeps repeating, and I guess I\u2019m starting to realize how much it affects me. It\u2019s just... a lot to handle, really.",
+      "graph_context_source": "random_subtopic_probe"
+    },
+    {
+      "turn": 13,
+      "prompt_context": "- Family conflict (Family)\n\nExplicitly discuss this topic in normal, client-friendly language. Ask whether it fits the client, while leaving room for them to say it does not.",
+      "anchors": [
+        {
+          "id": "family_conflict",
+          "type": "sub_topic",
+          "label": "Family conflict",
+          "score": 1.0,
+          "selection_method": "random_subtopic_probe",
+          "super_topic_id": "family",
+          "super_topic_label": "Family"
+        }
+      ],
+      "expanded": [],
+      "client_reply": "Yvette: Well, um, yeah, I think there are definitely some dynamics in my family that play into all of this. I mean, there\u2019s this unspoken competition, you know? Like, everyone feels the need to prove themselves, and it often feels like I have to be the one who steps up the most. It\u2019s like if I don\u2019t, then I\u2019m not living up to what\u2019s expected of me. I love my family, but sometimes it feels like there\u2019s this pressure to always be the one who holds everything together, and that can create tension. I guess I worry that if I don\u2019t meet those expectations, I\u2019ll disappoint them or they\u2019ll think less of me. It\u2019s just... a lot to navigate, really. I want to be supportive, but it can feel like I\u2019m losing myself in the process.",
+      "graph_context_source": "random_subtopic_probe"
+    },
+    {
+      "turn": 15,
+      "prompt_context": "- Medical illness (Health)\n\nExplicitly discuss this topic in normal, client-friendly language. Ask whether it fits the client, while leaving room for them to say it does not.",
+      "anchors": [
+        {
+          "id": "medical_illness",
+          "type": "sub_topic",
+          "label": "Medical illness",
+          "score": 1.0,
+          "selection_method": "random_subtopic_probe",
+          "super_topic_id": "health",
+          "super_topic_label": "Health"
+        }
+      ],
+      "expanded": [],
+      "client_reply": "Yvette: Well, um, yeah, I think it definitely resonates with me. I mean, I\u2019ve noticed that I often feel physically drained, like my energy just dips so low sometimes. There are days when I wake up and I\u2019m already tired, and I think that\u2019s not really normal, right? I guess I\u2019ve been so focused on taking care of everyone else that I haven\u2019t really paid attention to how it\u2019s affecting me physically. I sometimes get headaches or feel a bit run down, and I know it\u2019s probably because I\u2019m not taking care of myself like I should. It\u2019s just hard to prioritize my own health when I feel like there\u2019s so much to do for others. I mean, I know I should be more mindful of that, but it\u2019s like I keep pushing it aside, thinking I can handle it. But deep down, I know it\u2019s starting to catch up with me, and that\u2019s a bit scary, honestly. It\u2019s just... a lot to juggle, and I wish I could find a way to balance it all better.",
+      "graph_context_source": "random_subtopic_probe"
+    }
+  ],
+  "topic_probe_config": {
+    "probe_turns": 15,
+    "probe_interval": 2,
+    "probe_anchor_count": 1,
+    "random_seed": null
+  },
+  "final_openness_score": 4,
+  "final_visible_experience_count": 1,
+  "internal_revealed": true
+}

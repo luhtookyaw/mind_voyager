@@ -1,0 +1,65 @@
+{
+  "aggregate": {
+    "num_sessions": 1,
+    "edss": {
+      "situation": 0.551639362389179,
+      "automatic_thought": 0.40703151367406193,
+      "emotion": 0.7843012892959912,
+      "behavior": 0.25055187431459525,
+      "average": 0.49838100991845685
+    },
+    "idss": {
+      "relevant_history": 0.4880291719104186,
+      "core_beliefs": 0.4752720668587213,
+      "intermediate_beliefs": 0.33923082008364014,
+      "coping_strategies": 0.4485602338106595,
+      "average": 0.4377730731658599
+    }
+  },
+  "sessions": [
+    {
+      "file": "/home/lu/Thesis/mind_voyager/outputs/random10_comparison/retrieval/hard/session_6-2.json",
+      "case_id": "6-2",
+      "client_mode": "masked",
+      "difficulty": "hard",
+      "predicted_external_diagram": {
+        "situation": "Daisy is worried about an insurance claim and the balance, feeling like she should have done more to keep track of it.",
+        "automatic_thought": "I should have been more organized or something, right?",
+        "emotion": "anxious, frustrated, overwhelmed, guilty, apprehensive, hopeful",
+        "behavior": "Daisy tends to keep it all inside and distracts herself with TV or phone, but considers talking about it more with someone or writing things down."
+      },
+      "ground_truth_external_diagram": {
+        "situation": "Receiving an insurance claim with an unexpected balance.",
+        "automatic_thought": "I have failed at managing my finances independently. I should have checked with the insurance company.",
+        "emotion": "anxious, worried, fearful, scared, tense; guilty",
+        "behavior": "Expressing guilt and concern to the therapist about the payment discrepancy and the potential financial burden. Self criticism."
+      },
+      "predicted_internal_diagram": {
+        "relevant_history": "The client reports feeling anxious about managing an insurance claim and financial balance, expressing frustration over not being more organized and feeling like they are failing. They mention a tendency to overthink in hopes of finding solutions, which leads to increased anxiety. The client compares themselves to others who seem to manage without issues and feels like they are falling behind. They tend to keep their feelings inside, avoid discussing them, and distract themselves with activities like watching TV or scrolling through their phone, which leads to feelings of guilt for not addressing the problem. The client expresses a desire to open up more but fears being vulnerable and burdening others. They are considering reaching out to supportive people in their life and writing down positive experiences to help manage anxiety.",
+        "core_beliefs": "I am failing | I should be able to handle these things without it turning into a big deal | I am falling behind | I am scared of how it might feel to open up | I am battling against my own mind",
+        "intermediate_beliefs": "If I overthink it, maybe I can find a solution | If I talk about it, it\u2019ll just make it more real | If I remind myself that it\u2019s okay to be vulnerable, it might help | If I can just take a moment to acknowledge even the smallest things, maybe it could help shift how I see myself",
+        "coping_strategies": "The client tends to keep their feelings inside and distract themselves with activities like watching TV or scrolling through their phone. They are considering writing down positive reminders and setting aside time to reflect on positive experiences as a way to manage anxiety and build a more positive relationship with themselves. They also plan to use positive affirmations and create a ritual of self-acknowledgment to reinforce their efforts."
+      },
+      "ground_truth_internal_diagram": {
+        "relevant_history": "The patient is a 28-year-old student who has been trying to assert independence and self-sufficiency, particularly in financial matters, after returning from Egypt. The patient has previously relied on parents for support but is now attempting to take on more adult responsibilities such as paying bills, managing finances, and dealing with health insurance on her own for the first time. The patient's brother is still financially dependent on their parents, which the patient is consciously trying to avoid for herself.",
+        "core_beliefs": "I am incompetent. | I am helpless. | I am needy. | I am a failure, loser.",
+        "intermediate_beliefs": "I must do everything independently to prove that I am a capable adult and to avoid being a burden or like my brother.\nDepressive variant: I have failed at independence and self-sufficiency, and I need to ask for help which makes me feel incompetent.",
+        "coping_strategies": "The patient attempts to handle situations independently without relying on others, particularly parents. The patient also aims to budget and handle finances alone, which is a form of asserting control and self-reliance."
+      },
+      "edss": {
+        "situation": 0.551639362389179,
+        "automatic_thought": 0.40703151367406193,
+        "emotion": 0.7843012892959912,
+        "behavior": 0.25055187431459525,
+        "average": 0.49838100991845685
+      },
+      "idss": {
+        "relevant_history": 0.4880291719104186,
+        "core_beliefs": 0.4752720668587213,
+        "intermediate_beliefs": 0.33923082008364014,
+        "coping_strategies": 0.4485602338106595,
+        "average": 0.4377730731658599
+      }
+    }
+  ]
+}

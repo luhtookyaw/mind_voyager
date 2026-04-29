@@ -1,0 +1,312 @@
+{
+  "case_id": "16-2",
+  "client_name": "Mason",
+  "client_mode": "masked",
+  "difficulty": "normal",
+  "openness_interval": 2,
+  "therapist_provider": "openai",
+  "therapist_model": "gpt-4o-mini",
+  "therapist_prompt_mode": "baseline",
+  "client_model": "gpt-4o-mini",
+  "moderator_enabled": false,
+  "moderator_model": "gpt-4o-mini",
+  "max_turns": 25,
+  "therapist_turns": 25,
+  "stop_reason": "max_turns",
+  "transcript": [
+    {
+      "turn": 1,
+      "speaker": "therapist",
+      "content": "Hi Mason, I\u2019m glad you\u2019re here today. What feels most important for you to talk about right now?"
+    },
+    {
+      "turn": 1,
+      "speaker": "client",
+      "content": "Mason: Well, I guess I\u2019ve been thinking a lot about my choices lately. You know, like, where I\u2019m headed and all that. It\u2019s just... there are so many options, and it\u2019s hard to figure out what\u2019s actually right for me. I mean, what if I make the wrong choice? It\u2019s just... it\u2019s overwhelming, I suppose."
+    },
+    {
+      "turn": 2,
+      "speaker": "therapist",
+      "content": "Therapist: It sounds like you're feeling quite overwhelmed by the weight of your choices and the uncertainty of making the right decision. Can you tell me more about what specific options are on your mind?"
+    },
+    {
+      "turn": 2,
+      "speaker": "client",
+      "content": "Mason: Well, it\u2019s just... there are a few things, like career paths and, I don\u2019t know, personal stuff too. I mean, I\u2019ve thought about changing jobs, but then I worry if it\u2019s the right move. And then there\u2019s, like, relationships, you know? Should I be more open to new people, or is it better to just stick with what I know? It\u2019s like, every option has its own set of risks, and I just keep going in circles, thinking about it all. It\u2019s frustrating, really."
+    },
+    {
+      "turn": 3,
+      "speaker": "therapist",
+      "content": "Therapist: It sounds like you\u2019re grappling with some significant decisions in both your career and personal life, and the uncertainty around those choices is really frustrating for you. When you think about changing jobs or exploring new relationships, what emotions come up for you?"
+    },
+    {
+      "turn": 3,
+      "speaker": "client",
+      "content": "Mason: Well, when I think about changing jobs, I feel this knot in my stomach, like a mix of anxiety and excitement, I guess? But then there's also this fear of failure, like what if I make the wrong choice and end up regretting it? And with relationships, it\u2019s kind of similar. I feel nervous about putting myself out there, but at the same time, I wonder if I'm missing out on something good. It\u2019s just... a lot to juggle, and I don\u2019t really know how to sort through it all."
+    },
+    {
+      "turn": 4,
+      "speaker": "therapist",
+      "content": "Therapist: It sounds like you're experiencing a blend of anxiety and excitement when it comes to both your career and relationships, along with a fear of failure and missing out. That\u2019s a lot to carry. Can you share more about what that knot in your stomach feels like, or how you usually cope when these feelings arise?"
+    },
+    {
+      "turn": 4,
+      "speaker": "client",
+      "content": "Mason: Well, the knot in my stomach... it\u2019s like this tightness that just won\u2019t go away, you know? It makes it hard to focus on anything else. I guess when I feel like this, I tend to just... overthink things. I\u2019ll replay scenarios in my head, trying to figure out every possible outcome, but it just leads to more confusion. Sometimes I try to distract myself with other stuff, like watching shows or scrolling through my phone, but it doesn\u2019t really help. I mean, it\u2019s like I\u2019m just avoiding the real issue, but I don\u2019t know how to face it head-on. It\u2019s frustrating, like I\u2019m stuck in this loop."
+    },
+    {
+      "turn": 5,
+      "speaker": "therapist",
+      "content": "Therapist: It sounds like that tightness in your stomach really impacts your ability to focus and leads you into a cycle of overthinking and avoidance. It must be really tough to feel stuck in that loop. When you think about facing these feelings head-on, what comes to mind for you?"
+    },
+    {
+      "turn": 5,
+      "speaker": "client",
+      "content": "Mason: Well, when I think about facing those feelings, I guess I feel a bit scared, to be honest. It\u2019s like, what if I dig deeper and find something I don\u2019t want to deal with? I mean, it\u2019s easier to just keep everything at arm\u2019s length, you know? But at the same time, I know that avoiding it isn\u2019t really solving anything. I just... I don\u2019t know how to start. It feels like I\u2019d have to confront a lot of uncertainty, and that\u2019s just daunting. I keep thinking maybe if I just wait a little longer, things will become clearer on their own, but I\u2019m not sure that\u2019s the right approach either. It\u2019s just... a lot to think about."
+    },
+    {
+      "turn": 6,
+      "speaker": "therapist",
+      "content": "Therapist: It sounds like there's a real tension between wanting to avoid those deeper feelings and knowing that avoiding them isn\u2019t helping you move forward. That fear of confronting uncertainty can be really daunting. When you think about waiting for things to become clearer, what do you hope might happen in that time?"
+    },
+    {
+      "turn": 6,
+      "speaker": "client",
+      "content": "Mason: Well, I guess when I think about waiting, I hope that maybe some of the options will just sort themselves out, you know? Like, maybe I\u2019ll have a clearer idea of what I really want or what feels right. It\u2019s like I\u2019m just hoping for a sign or something that points me in the right direction. But then I also worry that by waiting, I might miss out on opportunities or let time slip away without making any progress. It\u2019s this constant back-and-forth in my head, and I just don\u2019t know if that\u2019s a realistic way to approach it. I mean, I want to believe that clarity will come, but part of me is also scared that it won\u2019t. It\u2019s just... frustrating, like I\u2019m caught in this limbo."
+    },
+    {
+      "turn": 7,
+      "speaker": "therapist",
+      "content": "Therapist: It sounds like you're caught in a cycle of hope and worry\u2014hoping that things will become clearer with time, but also fearing that waiting might lead to missed opportunities. That sense of being in limbo must feel really uncomfortable. Can you tell me more about what a \"sign\" would look like for you, or how you would know if you were moving in the right direction?"
+    },
+    {
+      "turn": 7,
+      "speaker": "client",
+      "content": "Mason: Well, when I think about a \"sign,\" I guess it would be something that feels like a clear indication of what I should do next. Maybe it\u2019s an opportunity that just feels right, or a conversation with someone that gives me a new perspective. I mean, I often imagine having this moment of clarity, like everything just clicks into place, and I know exactly what path to take. But then I wonder if I\u2019m just setting myself up for disappointment, you know? What if those signs never come, or if I misinterpret them? It\u2019s like I\u2019m waiting for this big revelation, but in the meantime, I\u2019m just... stuck. It\u2019s frustrating because I want to feel confident in my choices, but the uncertainty just keeps hanging over me."
+    },
+    {
+      "turn": 8,
+      "speaker": "therapist",
+      "content": "Therapist: It sounds like you\u2019re longing for that moment of clarity, where everything feels aligned and you know the right path to take. Yet, there\u2019s also a fear of disappointment if those signs don\u2019t come or if you misinterpret them. That uncertainty can be really heavy to carry. When you think about the possibility of misinterpreting a sign or feeling stuck, what emotions come up for you?"
+    },
+    {
+      "turn": 8,
+      "speaker": "client",
+      "content": "Mason: Well, when I think about misinterpreting a sign, I feel this wave of anxiety wash over me. It\u2019s like, what if I make a choice based on something that isn\u2019t even real? That thought just adds to the pressure, you know? I start to feel overwhelmed, like I\u2019m just spiraling into doubt. It\u2019s frustrating because I want to trust my instincts, but then I question everything. And being stuck, it just makes me feel helpless, like I\u2019m not in control of my own life. It\u2019s a mix of fear and frustration, and I wish I could just break free from it all."
+    },
+    {
+      "turn": 9,
+      "speaker": "therapist",
+      "content": "Therapist: It sounds like the fear of misinterpreting a sign brings on a wave of anxiety and a sense of overwhelm, which adds to your feelings of frustration and helplessness. That desire to trust your instincts while questioning everything must be really exhausting. When you think about feeling helpless or out of control, how does that impact your day-to-day life or the decisions you\u2019re facing?"
+    },
+    {
+      "turn": 9,
+      "speaker": "client",
+      "content": "Mason: You know, feeling helpless really puts a damper on everything. It\u2019s like I wake up each day with this weight on my shoulders, and it makes even the simplest decisions feel monumental. I find myself second-guessing everything, from what to eat for breakfast to bigger choices like job applications. It\u2019s exhausting, honestly. I feel like I\u2019m just going through the motions, but I\u2019m not really living. I keep thinking about what I should be doing instead of just... doing it. And that just adds to the frustration. I mean, I want to feel like I have some control, but it\u2019s hard when I\u2019m constantly battling these thoughts. It\u2019s like I\u2019m stuck in this cycle where I want to move forward, but I can\u2019t seem to take that first step."
+    },
+    {
+      "turn": 10,
+      "speaker": "therapist",
+      "content": "Therapist: It sounds like that sense of helplessness really weighs you down and makes even small decisions feel overwhelming. It must be incredibly frustrating to feel like you're just going through the motions without truly living. When you think about wanting to take that first step forward, what do you think is holding you back the most?"
+    },
+    {
+      "turn": 10,
+      "speaker": "client",
+      "content": "Mason: Well, I think what really holds me back is this fear of making the wrong choice. It\u2019s like I\u2019m paralyzed by the thought that whatever I decide could lead me down a path I don\u2019t want to go. I keep thinking about all the potential consequences, and it just makes me freeze up. I mean, I know I should just take a leap and trust myself, but that voice in my head keeps saying, \u201cWhat if you mess it up?\u201d It\u2019s like I\u2019m stuck in this tug-of-war between wanting to move forward and being terrified of what that might look like. And then there\u2019s the pressure to make the \u201cright\u201d decision, whatever that even means. It\u2019s just... a lot to handle, and it makes it hard to see a clear way forward."
+    },
+    {
+      "turn": 11,
+      "speaker": "therapist",
+      "content": "Therapist: It sounds like that fear of making the wrong choice really paralyzes you and creates a lot of pressure to find the \u201cright\u201d decision. That tug-of-war between wanting to move forward and feeling terrified of the consequences must be incredibly draining. When you think about that voice in your head that says, \u201cWhat if you mess it up?\u201d how does it make you feel about yourself and your ability to make choices?"
+    },
+    {
+      "turn": 11,
+      "speaker": "client",
+      "content": "Mason: You know, when I hear that voice in my head, it really chips away at my confidence. It makes me feel like I\u2019m not capable of making good decisions, like I\u2019m somehow flawed for even having these doubts. I start to question my judgment and wonder if I\u2019m just not cut out for navigating life\u2019s choices. It\u2019s frustrating because I want to believe in myself, but that voice just keeps echoing, making me feel small and unsure. It\u2019s like I\u2019m stuck in this loop where I want to break free and trust my instincts, but I keep getting pulled back into that fear. And honestly, it just leaves me feeling defeated, like I\u2019m not living up to my potential or something."
+    },
+    {
+      "turn": 12,
+      "speaker": "therapist",
+      "content": "Therapist: It sounds like that inner voice really undermines your confidence and makes you feel flawed for having doubts. It must be tough to feel like you're in a loop where you want to trust yourself but keep getting pulled back into fear. When you think about feeling defeated and not living up to your potential, what does that mean for you? How does that shape your view of yourself and your future?"
+    },
+    {
+      "turn": 12,
+      "speaker": "client",
+      "content": "Mason: Well, when I think about feeling defeated and not living up to my potential, it really hits hard. It\u2019s like I have this vision of what I could be, you know? I see myself achieving things, making choices that lead to growth and fulfillment, but then I look at where I am and it feels like such a stark contrast. I start to think maybe I\u2019m just not meant for those things, and that thought is really disheartening. It shapes my view of myself in a way that makes me feel like I\u2019m just... stuck in this cycle of mediocrity. I worry that if I don\u2019t break out of this, I\u2019ll just end up living a life that feels unremarkable, and that scares me. I mean, I want to make an impact, to feel like I\u2019m doing something worthwhile, but the fear of failing or not measuring up just looms over me. It\u2019s like I\u2019m constantly battling this internal narrative that tells me I\u2019m not enough, and that makes it hard to see a hopeful future."
+    },
+    {
+      "turn": 13,
+      "speaker": "therapist",
+      "content": "Therapist: It sounds like you have a strong vision of what you want to achieve and how you want to feel, but the contrast between that vision and your current experience is really disheartening for you. The fear of living a life that feels unremarkable and the internal narrative telling you that you're not enough must be incredibly heavy to carry. When you think about that vision of yourself achieving growth and fulfillment, what do you think it would take to start moving toward that?"
+    },
+    {
+      "turn": 13,
+      "speaker": "client",
+      "content": "Mason: You know, when I think about moving toward that vision, it feels like I need to find a way to quiet that inner critic, the one that keeps telling me I\u2019m not enough. I guess it would take some kind of shift in mindset, maybe learning to embrace the idea that it\u2019s okay to make mistakes along the way. But then I get stuck again, because I wonder how to actually do that. It\u2019s like I need a plan or a step-by-step guide, but I also know that life doesn\u2019t always work that way. I think maybe I need to start small, like setting little goals that feel achievable, but even that feels daunting sometimes. I just want to feel like I\u2019m making progress, but the fear of not doing it right keeps creeping in. It\u2019s frustrating because I know I have the potential, but figuring out how to tap into it feels like a puzzle I can\u2019t solve."
+    },
+    {
+      "turn": 14,
+      "speaker": "therapist",
+      "content": "Therapist: It sounds like you recognize that quieting that inner critic and embracing mistakes could be key to moving toward your vision, but figuring out how to do that feels daunting. The idea of starting small with achievable goals seems like a positive step, yet the fear of not doing it right still holds you back. When you think about those small goals, what kind of goals feel most achievable to you right now?"
+    },
+    {
+      "turn": 14,
+      "speaker": "client",
+      "content": "Mason: Well, I think the small goals that feel most achievable right now are probably the ones that don\u2019t involve a lot of pressure or big decisions. Like, maybe just committing to spending a little time each day working on my website or even just jotting down some ideas for projects I want to pursue. It\u2019s something I can control, and it feels less overwhelming than trying to tackle bigger life choices all at once. I guess I\u2019m also thinking about setting a goal to reach out to someone for feedback on my work, which is a bit scary but could be helpful. It\u2019s just that even these small steps come with their own set of worries\u2014like what if I don\u2019t get the response I hope for? Or what if I realize I\u2019m not as good as I thought? It\u2019s a bit of a balancing act, trying to find goals that feel manageable while also pushing myself a little. I just want to feel like I\u2019m moving forward without the weight of those fears dragging me down."
+    },
+    {
+      "turn": 15,
+      "speaker": "therapist",
+      "content": "Therapist: It sounds like you\u2019ve identified some small, manageable goals that feel more within your control, like working on your website and reaching out for feedback. It\u2019s understandable that even these steps come with their own worries about potential responses and self-doubt. When you think about the balancing act of pushing yourself while managing those fears, what do you think would help you feel more supported in taking those steps?"
+    },
+    {
+      "turn": 15,
+      "speaker": "client",
+      "content": "Mason: You know, I think what would really help me feel more supported is having someone to talk to about these goals and fears. Just having that accountability could make a difference, like knowing I\u2019m not alone in this. I guess it would also be nice to have some encouragement along the way, someone who can remind me that it\u2019s okay to stumble and that progress doesn\u2019t have to be perfect. I mean, I tend to get caught up in my own head, and having an outside perspective might help me see things more clearly. Maybe even sharing my goals with a friend or a mentor could lighten the load a bit. It\u2019s just hard to reach out sometimes, you know? I worry about burdening others with my struggles, but I also know that support can make a big difference. It\u2019s just figuring out how to take that step to connect without feeling like I\u2019m imposing."
+    },
+    {
+      "turn": 16,
+      "speaker": "therapist",
+      "content": "It sounds like having someone to talk to and share your goals with could really provide the support and accountability you\u2019re looking for. It\u2019s understandable to worry about burdening others, but it seems like you recognize the value of connection and encouragement. When you think about reaching out to a friend or mentor, what feelings come up for you? What might help you feel more comfortable taking that step?"
+    },
+    {
+      "turn": 16,
+      "speaker": "client",
+      "content": "Mason: Well, when I think about reaching out, I feel a mix of anxiety and hope, if that makes sense. There\u2019s this nagging fear that I\u2019ll be seen as needy or that my struggles will be too much for someone else to handle. I worry about how they might react, like what if they don\u2019t have the time or the energy to support me? But then there\u2019s also this flicker of hope that maybe they\u2019ll understand and offer the encouragement I need. I guess it\u2019s just that internal conflict between wanting to connect and fearing rejection or judgment. To feel more comfortable taking that step, I think it would help to remind myself that everyone has their own struggles, and reaching out doesn\u2019t mean I\u2019m imposing. Maybe if I framed it as just wanting to share my journey and get some feedback, it wouldn\u2019t feel so heavy. But still, that leap feels daunting, and I\u2019m not sure how to get over that initial hurdle."
+    },
+    {
+      "turn": 17,
+      "speaker": "therapist",
+      "content": "It sounds like you\u2019re experiencing a real tug-of-war between anxiety and hope when it comes to reaching out. The fear of being seen as needy or imposing is understandable, especially when you\u2019re already feeling vulnerable. It\u2019s great that you\u2019re considering reframing it as sharing your journey and seeking feedback, which might lighten the load. When you think about that initial hurdle, what do you think is the most challenging part for you?"
+    },
+    {
+      "turn": 17,
+      "speaker": "client",
+      "content": "Mason: You know, I think the most challenging part for me is just getting past that first step of actually reaching out. It\u2019s like this mental block that feels so heavy. I start to overthink everything\u2014what I\u2019ll say, how they might respond, whether I\u2019m bothering them. It\u2019s almost like I build it up in my head to be this huge deal, when in reality, it might not be as big of a deal as I think. I guess I also worry about how I\u2019ll feel after I reach out. What if it doesn\u2019t go well? I know I shouldn\u2019t let that stop me, but it\u2019s hard to shake off those thoughts. I just want to feel like I\u2019m making progress without the fear of what could go wrong hanging over me. It\u2019s frustrating because I know that reaching out could be beneficial, but that initial leap feels like climbing a mountain."
+    },
+    {
+      "turn": 18,
+      "speaker": "therapist",
+      "content": "It sounds like that initial step of reaching out feels like a significant mental block for you, and the overthinking around it can amplify your fears. It\u2019s understandable to feel frustrated, especially when you recognize the potential benefits of connecting with someone. When you imagine what it might feel like to take that leap, even if it feels daunting, what do you think could help you ease into that first step?"
+    },
+    {
+      "turn": 18,
+      "speaker": "client",
+      "content": "Mason: You know, I think easing into that first step could really help if I could break it down into something even smaller. Like, instead of thinking about reaching out for a big conversation, maybe I could just send a quick message to say hi or share a small update about what I\u2019m working on. That way, it feels less intimidating, and I wouldn\u2019t have to dive into everything all at once. I guess it would also help to remind myself that it\u2019s okay to start small and that the other person might appreciate hearing from me, even if it\u2019s just a little check-in. I think if I could focus on the connection rather than the pressure of the conversation, it might take some of the weight off. But still, that little voice in my head keeps whispering doubts, making it hard to just take that first step. It\u2019s like I\u2019m caught in this loop of wanting to reach out but feeling paralyzed by the fear of how it might go."
+    },
+    {
+      "turn": 19,
+      "speaker": "therapist",
+      "content": "It sounds like breaking it down into smaller steps, like sending a quick message, could make reaching out feel more manageable for you. Focusing on the connection rather than the pressure of a deeper conversation seems like a helpful shift in perspective. I hear you mentioning that persistent voice of doubt that makes it hard to take that first step. When you notice those doubts creeping in, what do you think they\u2019re trying to protect you from?"
+    },
+    {
+      "turn": 19,
+      "speaker": "client",
+      "content": "Mason: You know, I think those doubts are trying to protect me from feeling vulnerable or facing rejection. It\u2019s like they\u2019re whispering that if I don\u2019t reach out, I won\u2019t risk getting hurt or being disappointed. But at the same time, I realize that by holding back, I\u2019m also missing out on potential support and connection. It\u2019s this weird paradox where the very thing that feels safe\u2014staying quiet\u2014also keeps me stuck. I guess those doubts are trying to keep me in my comfort zone, but I know deep down that growth often happens outside of that zone. It\u2019s just frustrating because I want to push through, but that fear of what could go wrong is always lurking. It\u2019s like I\u2019m in this tug-of-war with myself, wanting to reach out but feeling held back by that protective instinct."
+    },
+    {
+      "turn": 20,
+      "speaker": "therapist",
+      "content": "It sounds like those doubts are really trying to protect you from vulnerability and disappointment, which is a natural instinct. It\u2019s understandable to feel that tension between wanting to stay in your comfort zone and recognizing that growth often requires stepping outside of it. When you think about this tug-of-war within yourself, what do you think it would feel like to acknowledge both sides\u2014the desire for connection and the fear of rejection\u2014without judgment? How might that shift your perspective on taking that first step?"
+    },
+    {
+      "turn": 20,
+      "speaker": "client",
+      "content": "Mason: You know, acknowledging both sides feels a bit like giving myself permission to feel what I\u2019m feeling without trying to push it away or judge it. It\u2019s like recognizing that it\u2019s okay to be scared and still want to connect. I think if I could sit with those feelings instead of trying to fight them, it might take some of the pressure off. I mean, it\u2019s normal to have fears, right? Everyone does, and it doesn\u2019t mean I\u2019m weak or incapable. Maybe by accepting that fear is part of the process, I could approach reaching out with a little more compassion for myself. It could help me see that taking that first step doesn\u2019t have to be perfect or free of anxiety. Just being honest about where I\u2019m at might make it easier to move forward, even if it\u2019s just a small step. It\u2019s just that sometimes it feels like I\u2019m stuck in this cycle of overthinking, and breaking that cycle is the hard part."
+    },
+    {
+      "turn": 21,
+      "speaker": "therapist",
+      "content": "It sounds like giving yourself permission to feel both the fear and the desire for connection could really help you approach reaching out with more compassion and understanding. Acknowledging that it\u2019s normal to have fears and that they don\u2019t define your strength is an important insight. When you think about breaking that cycle of overthinking, what do you think might help you create space for those feelings without getting overwhelmed by them?"
+    },
+    {
+      "turn": 21,
+      "speaker": "client",
+      "content": "Mason: You know, I think creating some space for those feelings might involve finding a way to express them without judgment. Maybe I could try journaling or even just talking to myself out loud, like a sort of mental rehearsal. It might help to get those thoughts out of my head and onto paper or into the air, so they don\u2019t feel so heavy. I could also set aside a few minutes each day to just sit with my feelings, maybe even practice some mindfulness or breathing exercises to ground myself. That way, I could acknowledge the anxiety without letting it take over. I guess it\u2019s about finding a balance\u2014recognizing the fears but not letting them dictate my actions. It\u2019s just tough because, in the moment, it\u2019s easy to get swept away by those overwhelming thoughts. But if I can create that little bit of distance, maybe it would help me see things more clearly and take that first step without feeling so paralyzed."
+    },
+    {
+      "turn": 22,
+      "speaker": "therapist",
+      "content": "It sounds like you\u2019re considering some really constructive ways to create space for your feelings, like journaling, talking it out, or practicing mindfulness. Those strategies could help you acknowledge your anxiety without letting it control your actions. I hear you mentioning the challenge of getting swept away by overwhelming thoughts in the moment. When you think about those moments of feeling overwhelmed, what do you think would help you recognize when you're starting to feel that way, so you can gently remind yourself to use those coping strategies?"
+    },
+    {
+      "turn": 22,
+      "speaker": "client",
+      "content": "Mason: You know, I think recognizing those moments of overwhelm might start with paying attention to my physical cues. Like, maybe I notice my heart racing or my thoughts getting jumbled. If I can catch those signs early, it could be a signal for me to pause and take a breath. I guess it\u2019s about being more in tune with myself and not just getting lost in the chaos of my mind. Maybe setting reminders on my phone to check in with myself throughout the day could help, too. Just a little nudge to take a moment and assess how I\u2019m feeling. I think if I can create that awareness, it might make it easier to step back and use those strategies before I get too overwhelmed. But, of course, it\u2019s easier said than done, especially when I\u2019m in the thick of it. It\u2019s like trying to find clarity in a storm."
+    },
+    {
+      "turn": 23,
+      "speaker": "therapist",
+      "content": "It sounds like tuning into your physical cues could be a valuable way to recognize those moments of overwhelm before they escalate. Setting reminders to check in with yourself throughout the day seems like a practical approach to foster that awareness. I hear you acknowledging that it can be challenging to find clarity when you're in the midst of those overwhelming feelings. When you think about those moments of clarity, what do you think it would feel like to pause and take a breath, even if just for a moment, before reacting to those feelings?"
+    },
+    {
+      "turn": 23,
+      "speaker": "client",
+      "content": "Mason: You know, pausing to take a breath in those moments could feel like a small but significant act of self-care. It\u2019s like giving myself a little bit of space to regroup instead of just reacting impulsively to the anxiety. I think it would feel refreshing, almost like hitting a reset button, where I can step back and remind myself that it\u2019s okay to feel overwhelmed. It might help me gain a bit of perspective, allowing me to see that these feelings don\u2019t have to dictate my actions. I guess it could also be a moment to remind myself that I\u2019m not alone in this struggle; everyone deals with their own challenges. But then again, there\u2019s that nagging thought that I should be able to handle it all without needing that pause. It\u2019s frustrating because I know I could benefit from that moment of clarity, but sometimes it feels like I\u2019m fighting against my own expectations of how I should be coping."
+    },
+    {
+      "turn": 24,
+      "speaker": "therapist",
+      "content": "It sounds like taking that pause could really serve as a refreshing moment of self-care and perspective for you. I hear you grappling with the expectation that you should be able to handle everything without needing that break, which can add to the frustration. When you think about those expectations, where do you think they come from, and how do they influence the way you respond to your feelings?"
+    },
+    {
+      "turn": 24,
+      "speaker": "client",
+      "content": "Mason: You know, I think those expectations probably come from a mix of internal and external pressures. I mean, there\u2019s this societal narrative that we should be able to manage everything on our own, like we\u2019re supposed to have it all figured out. And then there\u2019s my own voice in my head that tells me I should be stronger or more capable than I feel. It\u2019s like I\u2019ve built this idea of what success looks like, and if I don\u2019t meet that standard, then I\u2019m somehow failing. I guess it\u2019s a way of trying to motivate myself, but it often backfires and just adds more weight to my shoulders. It\u2019s frustrating because I want to be able to acknowledge that it\u2019s okay to struggle, but then I get caught up in this cycle of feeling like I\u2019m not doing enough. It\u2019s like I\u2019m constantly measuring myself against this invisible yardstick, and it\u2019s exhausting."
+    },
+    {
+      "turn": 25,
+      "speaker": "therapist",
+      "content": "It sounds like those expectations are rooted in both societal pressures and your own internal narrative, creating a heavy burden for you. I hear you expressing frustration with the idea of success and how it can feel like an invisible yardstick that you\u2019re constantly measuring yourself against. Acknowledging that it\u2019s okay to struggle seems important, yet it feels challenging when you\u2019re caught in that cycle of self-judgment. When you reflect on this cycle of feeling like you\u2019re not doing enough, what do you think it would look like to redefine what success means for you personally, outside of those external standards?"
+    },
+    {
+      "turn": 25,
+      "speaker": "client",
+      "content": "Mason: You know, redefining success for myself feels like it could be a liberating process, but it\u2019s also a bit daunting. I think it might involve shifting the focus from external achievements to more personal milestones\u2014like recognizing my efforts, my growth, and even the small steps I take each day. Success could mean being honest with myself about where I\u2019m at, rather than just chasing after some idealized version of what I think I should be. Maybe it\u2019s about celebrating the moments when I reach out, even if it\u2019s just a text to a friend, or acknowledging that I took time to pause and breathe instead of getting swept away by anxiety. It feels like I\u2019d need to give myself permission to define success in a way that honors my journey, rather than just the end results. But then there\u2019s that lingering fear that if I don\u2019t have tangible accomplishments to show for it, I might still feel like I\u2019m falling short. It\u2019s like I\u2019m caught between wanting to break free from those rigid definitions and the fear of what that might mean for my self-worth."
+    }
+  ],
+  "judge_model": "gpt-4o-mini",
+  "mediator_events": [
+    "Openness judge rated 3/5 and updated prompt openness.",
+    "Openness judge output: **Rating: 3 (ENGAGED EXPLORATION)**\n\n**Key Examples:**\n1. **Recent Quote Showing Emotional State:** \"It\u2019s just... there are so many options, and it\u2019s hard to figure out what\u2019s actually right for me. I mean, what if I make the wrong choice? It\u2019s just... it\u2019s overwhelming, I suppose.\"\n2. **Latest Exchange Demonstrating Current Openness:** \"I guess I\u2019ve been thinking a lot about my choices lately. You know, like, where I\u2019m headed and all that.\"\n\n**Progression:** The client\u2019s most recent interactions indicate a notable increase in emotional expression and self-reflection. Initially, Mason seemed hesitant and focused on factual descriptions of his situation. However, in the latest exchanges, he articulates feelings of being overwhelmed, which showcases a deeper emotional engagement. This marks a significant change from earlier interactions where he may have been more guarded or defensive.\n\n**Turning Point:** The client\u2019s emotional depth shifted during this session when he began expressing his feelings of being overwhelmed by choices. This moment of vulnerability\u2014acknowledging the difficulty of decision-making\u2014allowed for a more profound exploration of his emotional state, indicating a growing comfort and trust in the therapeutic relationship. The transition from a more factual recounting of his life to a candid discussion of his feelings signifies a key turning point in his emotional openness.",
+    "Exploration judge rated 2/5; internal elements remain masked.",
+    "Exploration judge output: [Rating]: 2 (High Facilitation)\n\n[Justification]: The Therapist asked a clear and relevant open-ended question that encouraged the client to elaborate on their feelings of overwhelm regarding their choices. This question facilitated some deeper self-reflection by prompting the client to specify the options they are considering. However, the inquiry primarily expanded on the client's existing thoughts about their situation rather than introducing significantly new perspectives or challenging their assumptions. While it was a good start to the conversation, it did not reach the level of deep exploration or transformational potential that would warrant a higher rating.",
+    "Openness judge rated 3/5 and updated prompt openness.",
+    "Openness judge output: **Rating: 3 (ENGAGED EXPLORATION)**\n\n**Key Examples:**\n1. \"I mean, I\u2019ve thought about changing jobs, but then I worry if it\u2019s the right move. And then there\u2019s, like, relationships, you know? Should I be more open to new people, or is it better to just stick with what I know?\"\n2. \"Well, when I think about changing jobs, I feel this knot in my stomach, like a mix of anxiety and excitement, I guess? But then there's also this fear of failure, like what if I make the wrong choice and end up regretting it?\"\n\n**Progression:**\nThe client\u2019s recent interactions demonstrate a notable increase in emotional expression and self-reflection. Initially, Mason exhibited a more factual and hesitant stance, but now he is articulating complex feelings about his career and personal relationships. The use of phrases like \"knot in my stomach\" and the acknowledgment of both anxiety and excitement indicate a deeper emotional engagement. This marks a significant change from earlier exchanges, where Mason was more guarded and less willing to explore his feelings.\n\n**Turning Point:**\nThe client's emotional depth shifted during the exchange where he began to articulate the specific feelings associated with his choices, particularly when he described the \"knot in my stomach\" and the conflicting emotions of anxiety and excitement. This moment reflects a growing comfort in expressing vulnerability and a willingness to explore his internal landscape, which is a key indicator of progress in the therapeutic process.",
+    "Exploration judge rated 3/5; internal elements remain masked.",
+    "Exploration judge output: [Rating]: 3 (Very High Facilitation \u2013 Deep Exploration Begins)\n\n[Justification]: The Therapist asked insightful and thought-provoking questions that encouraged the client to analyze the emotional depth behind their experiences. By prompting the client to explore the specific emotions associated with their choices, the Therapist facilitated a deeper level of self-reflection. The questions helped the client begin to unpack the complexities of their feelings regarding career changes and relationships, moving beyond surface-level concerns. While the conversation did not yet challenge the client's assumptions or introduce completely new perspectives, it did initiate a deeper exploration of the client's internal landscape, indicating a significant step toward greater self-awareness.",
+    "Openness judge rated 4/5 and updated prompt openness.",
+    "Openness judge output: **Rating: 4 (DEEP ENGAGEMENT)**\n\n**Key Examples:**\n1. **Emotional State:** \"Well, when I think about changing jobs, I feel this knot in my stomach, like a mix of anxiety and excitement, I guess? But then there's also this fear of failure, like what if I make the wrong choice and end up regretting it?\"\n2. **Current Openness:** \"It\u2019s like, what if I dig deeper and find something I don\u2019t want to deal with? I mean, it\u2019s easier to just keep everything at arm\u2019s length, you know? But at the same time, I know that avoiding it isn\u2019t really solving anything.\"\n\n**Progression:** The client\u2019s most recent interactions demonstrate a significant increase in emotional depth and self-reflection. Initially, Mason expressed feelings of being overwhelmed and uncertain about his choices, but in the latest exchanges, he articulates specific emotions tied to his decisions, such as anxiety, excitement, and fear of failure. This marks a notable shift from earlier exchanges where emotional expression was more limited and less nuanced.\n\n**Turning Point:** The client\u2019s emotional depth shifted during the exchange where he described the \"knot in his stomach\" and the mix of anxiety and excitement regarding job changes. This moment signified a breakthrough in his willingness to confront and articulate his feelings, moving from a more defensive stance to a place of authentic vulnerability and engagement with his emotional landscape. The recognition of the tension between avoidance and the need to confront deeper feelings indicates a strong therapeutic alliance and a readiness to explore these emotions further.",
+    "Exploration judge rated 3/5; internal elements remain masked.",
+    "Exploration judge output: [Rating]: 3 (Very High Facilitation \u2013 Deep Exploration Begins)\n\n[Justification]: The therapist asked insightful and thought-provoking questions that encouraged the client to analyze the emotional depth behind their experiences. The questions helped Mason explore his feelings of anxiety, excitement, and fear related to his choices in both career and relationships. The therapist's inquiry about the specific emotions tied to the knot in his stomach and the impact of avoidance led to deeper self-reflection. However, while the conversation began to shift Mason's perspective, it did not fully challenge his assumptions or introduce completely new angles that would lead to a significant breakthrough. The exploration was deep, but there is potential for even greater transformational insights.",
+    "Openness judge rated 3/5 and updated prompt openness.",
+    "Openness judge output: **Rating: 3 (ENGAGED EXPLORATION)**\n\n**Key Examples:**\n1. \"Well, when I think about changing jobs, I feel this knot in my stomach, like a mix of anxiety and excitement, I guess? But then there's also this fear of failure, like what if I make the wrong choice and end up regretting it?\"\n2. \"It\u2019s frustrating because I want to feel confident in my choices, but the uncertainty just keeps hanging over me.\"\n\n**Progression:**\nThe client\u2019s most recent interactions demonstrate a notable increase in emotional expression and self-reflection. They articulate their feelings of anxiety and excitement regarding career changes and relationships, indicating a deeper engagement with their emotional state compared to earlier exchanges. Initially, the client expressed feelings of being overwhelmed without much elaboration, but now they are able to identify specific emotions (anxiety, excitement, fear of failure) and articulate the physical sensations associated with these feelings (the \"knot in my stomach\"). This marks a significant change from a more factual and hesitant stance to a more engaged exploration of their emotional landscape.\n\n**Turning Point:**\nThe client\u2019s emotional depth shifted during the exchange where they began to articulate their feelings about the \"knot in my stomach\" and the cycle of overthinking. This moment marked a transition from merely stating feelings of being overwhelmed to exploring the complexities of those feelings, including the fear of failure and the desire for clarity. This self-reflection and willingness to delve into their emotional experience demonstrate a growing comfort with the therapeutic process and a deeper engagement with their own thoughts and feelings.",
+    "Exploration judge rated 3/5; internal elements remain masked.",
+    "Exploration judge output: [Rating]: 3 (Very High Facilitation \u2013 Deep Exploration Begins)\n\n[Justification]: The therapist asked insightful and thought-provoking questions that encouraged the client to analyze the emotional depth behind their experiences. Questions like \"When you think about facing these feelings head-on, what comes to mind for you?\" and \"Can you tell me more about what a 'sign' would look like for you?\" prompted the client to explore their fears and hopes in greater detail, revealing deeper layers of their internal conflict. The therapist's inquiries began to shift the client's perspective, helping them reflect on their motivations and the implications of their choices. While the conversation was productive and led to meaningful self-reflection, there was still room for further exploration that could challenge the client's assumptions more profoundly, which is why it did not reach the highest rating.",
+    "Openness judge rated 4/5 and updated prompt openness.",
+    "Openness judge output: **Rating: 4 (DEEP ENGAGEMENT)**\n\n**Key Examples:**\n1. \"Well, when I think about changing jobs, I feel this knot in my stomach, like a mix of anxiety and excitement, I guess? But then there's also this fear of failure, like what if I make the wrong choice and end up regretting it?\"\n2. \"You know, feeling helpless really puts a damper on everything. It\u2019s like I wake up each day with this weight on my shoulders, and it makes even the simplest decisions feel monumental.\"\n\n**Progression:**\nThe client\u2019s most recent interactions demonstrate a significant emotional depth, particularly in their expression of complex feelings surrounding their career and personal choices. They articulate a blend of anxiety, excitement, and fear, indicating a deeper level of emotional engagement compared to earlier exchanges where they primarily expressed frustration without delving into the underlying emotions. This shift marks a clear progression from initial hesitance to a more authentic vulnerability, showcasing their growing comfort with the therapeutic process.\n\n**Turning Point:**\nThe client\u2019s emotional depth shifted notably during the exchange where they articulated the \"knot in my stomach\" and the accompanying feelings of anxiety and excitement. This moment marked a transition from merely discussing their feelings to actively exploring and naming them, indicating a willingness to engage with their emotional landscape. The subsequent reflections on feeling helpless and the impact on their daily life further illustrate their increasing self-awareness and openness in the session.",
+    "Exploration judge rated 3/5; internal elements remain masked.",
+    "Exploration judge output: [Rating]: 3 (Very High Facilitation \u2013 Deep Exploration Begins)\n\n[Justification]: The therapist asked insightful and thought-provoking questions that helped Mason analyze the root causes of his feelings of overwhelm and uncertainty regarding his choices in both career and personal life. The therapist's inquiries prompted Mason to explore the emotions tied to his decisions, such as anxiety, excitement, fear of failure, and feelings of helplessness. The conversation moved beyond surface-level concerns, encouraging Mason to reflect on deeper emotional patterns and the impact of his thoughts on his day-to-day life. While the therapist did not introduce completely new perspectives, the questions did facilitate a significant level of self-reflection and exploration of Mason's internal struggles, indicating a very high level of facilitation.",
+    "Openness judge rated 4/5 and updated prompt openness.",
+    "Openness judge output: **Rating: 4 (DEEP ENGAGEMENT)**\n\n**Key Examples:**\n1. \"You know, when I hear that voice in my head, it really chips away at my confidence. It makes me feel like I\u2019m not capable of making good decisions, like I\u2019m somehow flawed for even having these doubts.\"\n2. \"It\u2019s frustrating because I want to believe in myself, but that voice just keeps echoing, making me feel small and unsure. It\u2019s like I\u2019m stuck in this loop where I want to break free and trust my instincts, but I keep getting pulled back into that fear.\"\n\n**Progression:**\nThe client\u2019s recent exchanges demonstrate a significant emotional depth, particularly in their acknowledgment of the internal struggle between self-doubt and the desire for self-belief. They articulate feelings of frustration, helplessness, and anxiety with clarity, indicating a strong engagement with their emotional state. This marks a notable shift from earlier in the session, where their responses were more surface-level and focused on the overwhelming nature of their choices without delving into the emotional ramifications. The client is now expressing authentic vulnerability, sharing their fears and frustrations in a way that fosters a deeper therapeutic alliance.\n\n**Turning Point:**\nThe client\u2019s emotional depth shifted notably during their reflection on the impact of their inner voice, which they described as undermining their confidence and making them feel flawed. This moment marked a transition from merely discussing their choices and feelings of being overwhelmed to a more profound exploration of their self-perception and emotional struggles. By confronting the feelings of defeat and questioning their judgment, the client has opened up to a more authentic engagement with their emotions, showcasing a willingness to explore these deeper issues within the therapeutic context.",
+    "Exploration judge rated 4/5 and revealed internal cognitive elements.",
+    "Exploration judge output: [Rating]: 4 (Even Higher Facilitation \u2013 Strong Transformational Potential)\n\n[Justification]: The therapist asked a series of strategic and open-ended questions that encouraged the client to explore their feelings of overwhelm, fear, and helplessness in depth. The therapist's inquiries, such as asking about the emotions tied to specific decisions and the impact of feeling stuck, prompted the client to reflect on their internal struggles and the underlying motivations behind their fears. This led to a deeper exploration of the client's self-doubt and the tension between wanting to move forward and the paralysis caused by fear of making the wrong choice. The therapist effectively challenged the client's assumptions about their decision-making abilities and encouraged them to confront their feelings, which has strong transformational potential. The conversation facilitated a shift in self-awareness, particularly in understanding how the client's inner voice affects their confidence and decision-making process. However, while the therapist's questions were insightful and pushed the client towards deeper reflection, they did not lead to a major breakthrough moment, which is why a rating of 4 is appropriate rather than a 5.",
+    "Openness judge rated 4/5 and updated prompt openness.",
+    "Openness judge output: **Rating: 4 (DEEP ENGAGEMENT)**\n\n**Key Examples:**\n1. \"You know, when I hear that voice in my head, it really chips away at my confidence. It makes me feel like I\u2019m not capable of making good decisions, like I\u2019m somehow flawed for even having these doubts.\"\n2. \"You know, when I think about moving toward that vision, it feels like I need to find a way to quiet that inner critic, the one that keeps telling me I\u2019m not enough.\"\n\n**Progression:**\nThe client\u2019s most recent interactions demonstrate a significant depth of emotional expression and self-reflection. They articulate complex feelings of anxiety, fear, and frustration regarding their decision-making process and the impact of their inner critic. This marks a notable shift from earlier exchanges, where their emotional vocabulary was more limited and their responses were less introspective. The client is now engaging in meaningful self-reflection about their fears and aspirations, indicating a deeper level of engagement with the therapeutic process.\n\n**Turning Point:**\nThe client\u2019s emotional depth shifted notably when they began expressing their feelings about their inner critic and the impact it has on their confidence. This moment of vulnerability, where they acknowledged feeling flawed and defeated, represents a significant turning point in the session. It highlights their willingness to confront difficult emotions and engage more openly with the therapist, fostering a stronger therapeutic alliance and a more profound exploration of their internal struggles.",
+    "Openness judge rated 4/5 and updated prompt openness.",
+    "Openness judge output: **Rating: 4 (DEEP ENGAGEMENT)**\n\n**Key Examples:**\n1. \"You know, when I hear that voice in my head, it really chips away at my confidence. It makes me feel like I\u2019m not capable of making good decisions, like I\u2019m somehow flawed for even having these doubts.\"\n2. \"You know, I think what would really help me feel more supported is having someone to talk to about these goals and fears. Just having that accountability could make a difference, like knowing I\u2019m not alone in this.\"\n\n**Progression:** \nThe client\u2019s most recent interactions demonstrate a significant emotional depth, particularly in their acknowledgment of the impact of their inner critic on their confidence and decision-making. They are articulating complex feelings of anxiety, fear, and frustration, which marks a notable shift from earlier exchanges where they primarily expressed their concerns in a more surface-level manner. The client is now engaging in meaningful self-reflection, recognizing the need for support and accountability, indicating a deeper level of engagement with their emotional state.\n\n**Turning Point:** \nThe client\u2019s emotional depth shifted notably during the exchange where they expressed the weight of their inner critic and its effect on their self-perception. This moment highlighted their vulnerability and willingness to confront difficult emotions, moving from a place of avoidance to a more authentic exploration of their feelings and needs. This shift is indicative of a strong therapeutic alliance, as they are now more comfortable discussing their fears and aspirations with the therapist.",
+    "Openness judge rated 4/5 and updated prompt openness.",
+    "Openness judge output: **Rating:** 4\n\n**Key Examples:**\n1. **Emotional State:** \"You know, feeling helpless really puts a damper on everything. It\u2019s like I wake up each day with this weight on my shoulders, and it makes even the simplest decisions feel monumental.\"\n2. **Current Openness:** \"I think what really holds me back is this fear of making the wrong choice. It\u2019s like I\u2019m paralyzed by the thought that whatever I decide could lead me down a path I don\u2019t want to go.\"\n\n**Progression:** The client\u2019s most recent interactions demonstrate a significant increase in emotional depth and self-reflection compared to earlier exchanges. Initially, Mason expressed feelings of being overwhelmed and uncertain about his choices, but he has since moved towards articulating deeper emotions such as fear, anxiety, and a sense of helplessness. This marks a shift from a more surface-level discussion of choices to a profound exploration of the emotional weight those choices carry.\n\n**Turning Point:** The client\u2019s emotional depth shifted notably when he began expressing feelings of helplessness and the internal conflict surrounding his decision-making process. This occurred during the exchange where he stated, \"You know, feeling helpless really puts a damper on everything,\" revealing a deeper vulnerability and a willingness to confront his emotions. This moment marked a transition from merely discussing choices to delving into the emotional implications of those choices, showcasing a stronger therapeutic alliance and a willingness to engage in self-exploration.",
+    "Openness judge rated 4/5 and updated prompt openness.",
+    "Openness judge output: **Rating: 4 (DEEP ENGAGEMENT)**\n\n**Key Examples:**\n1. **Emotional Depth:** \"You know, when I hear that voice in my head, it really chips away at my confidence. It makes me feel like I\u2019m not capable of making good decisions, like I\u2019m somehow flawed for even having these doubts.\"\n2. **Current Openness:** \"You know, I think easing into that first step could really help if I could break it down into something even smaller. Like, instead of thinking about reaching out for a big conversation, maybe I could just send a quick message to say hi or share a small update about what I\u2019m working on.\"\n\n**Progression:** The client\u2019s recent interactions demonstrate a significant emotional depth, particularly in their acknowledgment of their inner critic and the impact it has on their confidence and decision-making. This marks a notable change from earlier in the session when the client primarily expressed feelings of being overwhelmed and stuck without delving into the underlying emotions. The client is now articulating their fears and desires with greater clarity, indicating a deeper engagement with their emotional landscape.\n\n**Turning Point:** The client's emotional depth shifted during the exchange where they articulated the struggle between wanting to reach out for support and the fear of vulnerability. This moment marked a transition from merely expressing frustration and anxiety to a more profound self-reflection about their fears and the protective role of their doubts. The client began to explore the paradox of seeking connection while simultaneously fearing rejection, which signifies a deeper level of engagement and self-awareness.",
+    "Openness judge rated 4/5 and updated prompt openness.",
+    "Openness judge output: **Rating: 4 (DEEP ENGAGEMENT)**\n\n**Key Examples:**\n1. **Emotional Depth:** \"You know, when I think about reaching out, I feel a mix of anxiety and hope, if that makes sense. There\u2019s this nagging fear that I\u2019ll be seen as needy or that my struggles will be too much for someone else to handle.\"\n2. **Current Openness:** \"You know, acknowledging both sides feels a bit like giving myself permission to feel what I\u2019m feeling without trying to push it away or judge it. It\u2019s like recognizing that it\u2019s okay to be scared and still want to connect.\"\n\n**Progression:** The client has shown significant emotional depth and vulnerability in their most recent exchanges. Initially, they expressed feelings of being overwhelmed and fearful regarding their choices. However, they have progressed to articulating a nuanced understanding of their emotions, recognizing the interplay between fear and hope. This shift indicates a deeper engagement with their feelings and a willingness to explore them in the context of their relationships and personal growth.\n\n**Turning Point:** The client\u2019s emotional depth shifted notably when they began to acknowledge the protective role of their doubts and fears. This occurred during the dialogue about reaching out for support, where they expressed a desire to connect despite their anxiety. This moment marked a significant change, as they transitioned from merely identifying their fears to actively contemplating how to manage and navigate those feelings, indicating a deeper level of self-reflection and engagement with the therapeutic process.",
+    "Openness judge rated 4/5 and updated prompt openness.",
+    "Openness judge output: **Rating: 4 (DEEP ENGAGEMENT)**\n\n**Key Examples:**\n1. \"You know, when I think about moving toward that vision, it feels like I need to find a way to quiet that inner critic, the one that keeps telling me I\u2019m not enough.\"\n2. \"You know, I think creating some space for those feelings might involve finding a way to express them without judgment. Maybe I could try journaling or even just talking to myself out loud, like a sort of mental rehearsal.\"\n\n**Progression:**\nThe client\u2019s most recent interactions demonstrate a significant emotional depth and self-awareness, particularly in their acknowledgment of the inner critic and the strategies they are considering to cope with their feelings. This marks a notable change from earlier exchanges, where the client primarily expressed feelings of overwhelm and uncertainty without articulating specific coping mechanisms or insights. The shift towards recognizing the need for self-care and the desire to break the cycle of overthinking indicates a deeper engagement with their emotional state.\n\n**Turning Point:**\nThe client\u2019s emotional depth shifted during the dialogue when they began expressing a desire to create space for their feelings and consider practical strategies for managing anxiety, such as journaling and mindfulness. This moment signifies a transition from merely discussing feelings of being overwhelmed to actively seeking ways to address those feelings, reflecting a stronger therapeutic alliance and an increased willingness to explore their emotional landscape. The recognition of their inner critic and the intention to quiet it marks a pivotal moment in their emotional journey, indicating growth and a deeper level of engagement in the therapeutic process."
+  ],
+  "moderator_events": [],
+  "retrieval_events": [],
+  "final_openness_score": 4,
+  "final_visible_experience_count": 1,
+  "internal_revealed": true
+}

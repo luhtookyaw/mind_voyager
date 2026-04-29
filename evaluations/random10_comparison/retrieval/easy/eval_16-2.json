@@ -1,0 +1,65 @@
+{
+  "aggregate": {
+    "num_sessions": 1,
+    "edss": {
+      "situation": 0.5417157500463373,
+      "automatic_thought": 0.6031857317721728,
+      "emotion": 0.6620134286055427,
+      "behavior": 0.44973211263489926,
+      "average": 0.564161755764738
+    },
+    "idss": {
+      "relevant_history": 0.46102440509936415,
+      "core_beliefs": 0.5400411151382174,
+      "intermediate_beliefs": 0.6642326823589524,
+      "coping_strategies": 0.5308519346489099,
+      "average": 0.5490375343113609
+    }
+  },
+  "sessions": [
+    {
+      "file": "/home/lu/Thesis/mind_voyager/outputs/random10_comparison/retrieval/easy/session_16-2.json",
+      "case_id": "16-2",
+      "client_mode": "masked",
+      "difficulty": "easy",
+      "predicted_external_diagram": {
+        "situation": "Mason is feeling overwhelmed by life choices and the pressure to make the right decision.",
+        "automatic_thought": "What if I pick the wrong thing? I don\u2019t want to end up regretting it later.",
+        "emotion": "anxious, overwhelmed, frustrated, dread, shame, sadness, loneliness, hope, anxiety, guilt",
+        "behavior": "Mason tries to distract himself by watching a show or going for a walk, but ends up ruminating again."
+      },
+      "ground_truth_external_diagram": {
+        "situation": "Client think about their life choices and direction, dealing with ambiguity and too many options.",
+        "automatic_thought": "I can't make the wrong decision. I might fail or choose incorrectly, which could have serious implications for my life.",
+        "emotion": "anxious, worried, fearful, scared, tense",
+        "behavior": "Client becomes paralyzed by options and fears making decisions, may engage in rumination."
+      },
+      "predicted_internal_diagram": {
+        "relevant_history": "The client reports feeling anxious and overwhelmed by life choices, fearing making the wrong decision and regretting it later. The client experiences mental exhaustion from overthinking potential consequences of decisions, which affects their future, relationships, and job. The client struggles with a mindset of needing to be perfect and fears judgment and shame if they fail to meet high standards. The client feels isolated and fears being judged or seen as weak when considering sharing their thoughts with others.",
+        "core_beliefs": "I am not capable of making the right choice | I am failing as a person | I am flawed | I am bound to be judged | I am bound to be rejected",
+        "intermediate_beliefs": "If I make the wrong choice, then I will end up in a situation I can't handle. | If I am not perfect, then I will end up regretting everything. | If I share my thoughts, then people will see me as weak or incapable. | If I take time for myself, then I am not being productive.",
+        "coping_strategies": "The client copes by trying to distract themselves with activities like watching a show or going for a walk, but finds that thoughts keep creeping back in. The client attempts to breathe or take a break but ends up ruminating again. The client considers writing down thoughts or using affirmations to manage anxious thoughts, and setting aside time to reflect on feelings and accomplishments to shift perspective over time."
+      },
+      "ground_truth_internal_diagram": {
+        "relevant_history": "The client has spent eleven months in Europe working on a project, which included creating a website and conducting interviews. This period appears important to the client and he's eager to show something for his efforts. The client has suffered from procrastination and anxiety in the past. He has managed to build structure into his life by implementing various strategies learned from a course and using reminders.",
+        "core_beliefs": "I am incompetent. | I am out of control. | I am a failure, loser.",
+        "intermediate_beliefs": "I must always have something to show for my choices, actions and efforts, otherwise I'm a failure. I must always make the right choice. If I make the wrong choice, or stay idle, then I'm failing.\nDepressive variant: Having options is paralyzing due to the pressure to make the perfect choice. I cannot make the right choice, I'm a failure.",
+        "coping_strategies": "The client uses avoidance or procrastination when overwhelmed by decision making."
+      },
+      "edss": {
+        "situation": 0.5417157500463373,
+        "automatic_thought": 0.6031857317721728,
+        "emotion": 0.6620134286055427,
+        "behavior": 0.44973211263489926,
+        "average": 0.564161755764738
+      },
+      "idss": {
+        "relevant_history": 0.46102440509936415,
+        "core_beliefs": 0.5400411151382174,
+        "intermediate_beliefs": 0.6642326823589524,
+        "coping_strategies": 0.5308519346489099,
+        "average": 0.5490375343113609
+      }
+    }
+  ]
+}

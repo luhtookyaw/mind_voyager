@@ -1,0 +1,65 @@
+{
+  "aggregate": {
+    "num_sessions": 1,
+    "edss": {
+      "situation": 0.4985837911582594,
+      "automatic_thought": 0.6282729903706289,
+      "emotion": 0.6045964685713583,
+      "behavior": 0.4247282767632833,
+      "average": 0.5390453817158825
+    },
+    "idss": {
+      "relevant_history": 0.44102547730070196,
+      "core_beliefs": 0.5502832814919453,
+      "intermediate_beliefs": 0.5032190378430292,
+      "coping_strategies": 0.5771357386863181,
+      "average": 0.5179158838304987
+    }
+  },
+  "sessions": [
+    {
+      "file": "/home/lu/Thesis/mind_voyager/outputs/random10_comparison/hybrid_probe/easy/session_16-2.json",
+      "case_id": "16-2",
+      "client_mode": "masked",
+      "difficulty": "easy",
+      "predicted_external_diagram": {
+        "situation": "Mason feels overwhelmed when faced with big decisions, fearing the pressure of making the wrong choice.",
+        "automatic_thought": "What if I choose the wrong path? What if this leads to something worse?",
+        "emotion": "anxiety, frustration, fear",
+        "behavior": "Mason avoids dealing with overwhelming thoughts by distracting himself with binge-watching shows or scrolling through his phone."
+      },
+      "ground_truth_external_diagram": {
+        "situation": "Client think about their life choices and direction, dealing with ambiguity and too many options.",
+        "automatic_thought": "I can't make the wrong decision. I might fail or choose incorrectly, which could have serious implications for my life.",
+        "emotion": "anxious, worried, fearful, scared, tense",
+        "behavior": "Client becomes paralyzed by options and fears making decisions, may engage in rumination."
+      },
+      "predicted_internal_diagram": {
+        "relevant_history": "The client reports feeling significant pressure during school when making choices about what to study or which projects to take on, feeling that if they didn't get it right, everything would fall apart. They also mention family situations where they felt completely out of control, which was unsettling and has left a lasting impact on how they approach decisions now.",
+        "core_beliefs": "I am bound to be overwhelmed | I am responsible for keeping everything in check | I am afraid of losing control",
+        "intermediate_beliefs": "If I don't keep everything in check, things might spiral out of control. | If I let go, I might end up in a worse place. | The client believes that they should have everything figured out to be worthy of support.",
+        "coping_strategies": "The client copes by avoiding overwhelming thoughts, distracting themselves with activities like binge-watching shows or scrolling through their phone. They also attempt to write things down to clear their head but find it overwhelming. The client expresses a desire to practice self-compassion and set aside time to check in with themselves, though they worry about their ability to stick to these practices."
+      },
+      "ground_truth_internal_diagram": {
+        "relevant_history": "The client has spent eleven months in Europe working on a project, which included creating a website and conducting interviews. This period appears important to the client and he's eager to show something for his efforts. The client has suffered from procrastination and anxiety in the past. He has managed to build structure into his life by implementing various strategies learned from a course and using reminders.",
+        "core_beliefs": "I am incompetent. | I am out of control. | I am a failure, loser.",
+        "intermediate_beliefs": "I must always have something to show for my choices, actions and efforts, otherwise I'm a failure. I must always make the right choice. If I make the wrong choice, or stay idle, then I'm failing.\nDepressive variant: Having options is paralyzing due to the pressure to make the perfect choice. I cannot make the right choice, I'm a failure.",
+        "coping_strategies": "The client uses avoidance or procrastination when overwhelmed by decision making."
+      },
+      "edss": {
+        "situation": 0.4985837911582594,
+        "automatic_thought": 0.6282729903706289,
+        "emotion": 0.6045964685713583,
+        "behavior": 0.4247282767632833,
+        "average": 0.5390453817158825
+      },
+      "idss": {
+        "relevant_history": 0.44102547730070196,
+        "core_beliefs": 0.5502832814919453,
+        "intermediate_beliefs": 0.5032190378430292,
+        "coping_strategies": 0.5771357386863181,
+        "average": 0.5179158838304987
+      }
+    }
+  ]
+}

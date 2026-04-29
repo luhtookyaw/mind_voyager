@@ -1,0 +1,65 @@
+{
+  "aggregate": {
+    "num_sessions": 1,
+    "edss": {
+      "situation": 0.35402638008093473,
+      "automatic_thought": 0.09770675433961233,
+      "emotion": 0.6066875622258953,
+      "behavior": 0.3281581089071109,
+      "average": 0.3466447013883883
+    },
+    "idss": {
+      "relevant_history": 0.4553742668355251,
+      "core_beliefs": 0.9102153526619599,
+      "intermediate_beliefs": 0.5002590867185887,
+      "coping_strategies": 0.7111894854579507,
+      "average": 0.644259547918506
+    }
+  },
+  "sessions": [
+    {
+      "file": "/home/lu/Thesis/mind_voyager/outputs/random10_comparison/baseline/normal/session_41-1.json",
+      "case_id": "41-1",
+      "client_mode": "masked",
+      "difficulty": "normal",
+      "predicted_external_diagram": {
+        "situation": "Quinn realizes they are going to be late while getting ready.",
+        "automatic_thought": "Great, here we go again.",
+        "emotion": "panic, guilt, anxiety, frustration",
+        "behavior": "Quinn scrambles to get ready, feels a knot in their stomach, and worries about explaining themselves."
+      },
+      "ground_truth_external_diagram": {
+        "situation": "Being late to appointments and gatherings, such as therapy sessions and lunches with friends.",
+        "automatic_thought": "I'm not in control of my time, and I always mess things up by being late.",
+        "emotion": "anxious, worried, fearful, scared, tense; guilty",
+        "behavior": "Continues to procrastinate and is unable to leave on time."
+      },
+      "predicted_internal_diagram": {
+        "relevant_history": "The client reports feeling overwhelmed by daily responsibilities and bigger life concerns, leading to a sense of juggling thoughts and wanting to escape. They mention a fear of failure and not measuring up, influenced by expectations from upbringing and societal pressures. The client feels inadequate when comparing themselves to friends who seem to have it all together. They express a desire for genuine connection but fear rejection, leading to wearing a mask around others and feeling isolated. The client has attempted to establish new habits in the past, such as a regular exercise routine, by starting small and building from there.",
+        "core_beliefs": "I am incompetent | I am unlovable | I am bound to be rejected",
+        "intermediate_beliefs": "If I\u2019m not doing well or if I\u2019m late, it means I\u2019m failing somehow. | The client believes that they have to prove themselves in work or relationships. | If I show my true self, people will back away.",
+        "coping_strategies": "The client copes by zoning out and getting lost in tasks or distractions like scrolling through their phone or binge-watching shows to escape overwhelming feelings. They also tend to shut down and drift away from pressure, avoiding tasks and responsibilities. The client tries to overcompensate in social situations by being supportive or helpful to mask their struggles. They are considering using affirmations, journaling, and reaching out to friends for support as new strategies to manage their fears and build self-compassion."
+      },
+      "ground_truth_internal_diagram": {
+        "relevant_history": "The client has a history involving a complicated relationship with an individual named Cricket, who has exhibited questionable behavior and influenced the client's social circle. Their friends seem to have mental health challenges, and they often take on a caretaking or protective role, particularly regarding a friend named Lucy with medical issues.",
+        "core_beliefs": "I am incompetent. | I am helpless. | I am out of control. | I am unlovable. | I am bound to be rejected.",
+        "intermediate_beliefs": "It's important for me to be on time and productive, but I can't seem to control my procrastination or punctuality. I must not get involved in my friends' dramatic situations, but I can't help feeling protective.\nDepressive variant: My environment is consistently negative, possibly affecting my mood. If I expose myself or engage with Cricket, it will have negative outcomes, and it's better to avoid confrontation.",
+        "coping_strategies": "The client uses avoidance in confronting their grief and engages in overcommitment to helping others to compliment their inner grief and distress."
+      },
+      "edss": {
+        "situation": 0.35402638008093473,
+        "automatic_thought": 0.09770675433961233,
+        "emotion": 0.6066875622258953,
+        "behavior": 0.3281581089071109,
+        "average": 0.3466447013883883
+      },
+      "idss": {
+        "relevant_history": 0.4553742668355251,
+        "core_beliefs": 0.9102153526619599,
+        "intermediate_beliefs": 0.5002590867185887,
+        "coping_strategies": 0.7111894854579507,
+        "average": 0.644259547918506
+      }
+    }
+  ]
+}

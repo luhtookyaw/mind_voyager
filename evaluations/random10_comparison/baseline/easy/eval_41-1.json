@@ -1,0 +1,65 @@
+{
+  "aggregate": {
+    "num_sessions": 1,
+    "edss": {
+      "situation": 0.5156405795174036,
+      "automatic_thought": 0.2588737164673728,
+      "emotion": 0.6752242022321924,
+      "behavior": 0.5448222461892298,
+      "average": 0.49864018610154964
+    },
+    "idss": {
+      "relevant_history": 0.7046902556156184,
+      "core_beliefs": 0.6705130854299485,
+      "intermediate_beliefs": 0.42326567195162196,
+      "coping_strategies": 0.6061446454276304,
+      "average": 0.6011534146062048
+    }
+  },
+  "sessions": [
+    {
+      "file": "/home/lu/Thesis/mind_voyager/outputs/random10_comparison/baseline/easy/session_41-1.json",
+      "case_id": "41-1",
+      "client_mode": "masked",
+      "difficulty": "easy",
+      "predicted_external_diagram": {
+        "situation": "Quinn had a lunch with a friend last week and was late.",
+        "automatic_thought": "Here we go again, I\u2019m going to disappoint someone.",
+        "emotion": "frustrating, exhausted, worry, anxious, dread, panic, scared, guilt, relief, terror, overwhelmed, frustrated",
+        "behavior": "Quinn tries to plan ahead but still ends up being late."
+      },
+      "ground_truth_external_diagram": {
+        "situation": "Being late to appointments and gatherings, such as therapy sessions and lunches with friends.",
+        "automatic_thought": "I'm not in control of my time, and I always mess things up by being late.",
+        "emotion": "anxious, worried, fearful, scared, tense; guilty",
+        "behavior": "Continues to procrastinate and is unable to leave on time."
+      },
+      "predicted_internal_diagram": {
+        "relevant_history": "The client reports feeling a need to be the responsible one from a young age, which has shaped their current approach to commitments. They mention having friends, especially Lucy, who rely on them, adding to the pressure. The client also references the influence of someone named Cricket, which makes them question everything. They express a fear of being seen as weak or incapable and describe a history of internalizing the idea that they must always be strong and dependable.",
+        "core_beliefs": "I am not good enough | I am bound to let everyone down | I am bound to be seen as weak or incapable",
+        "intermediate_beliefs": "If I can\u2019t keep my commitments, then people will see me as unreliable. | The client believes that their worth is tied to their ability to meet expectations. | If I let go even a little, everything will fall apart.",
+        "coping_strategies": "The client copes by trying to plan ahead and be organized, although they feel it doesn't always work. They also consider setting aside time for self-reflection and using affirmations to manage self-doubt. The client expresses a desire to create a self-care ritual and to remind themselves that it's okay to take a step back when needed."
+      },
+      "ground_truth_internal_diagram": {
+        "relevant_history": "The client has a history involving a complicated relationship with an individual named Cricket, who has exhibited questionable behavior and influenced the client's social circle. Their friends seem to have mental health challenges, and they often take on a caretaking or protective role, particularly regarding a friend named Lucy with medical issues.",
+        "core_beliefs": "I am incompetent. | I am helpless. | I am out of control. | I am unlovable. | I am bound to be rejected.",
+        "intermediate_beliefs": "It's important for me to be on time and productive, but I can't seem to control my procrastination or punctuality. I must not get involved in my friends' dramatic situations, but I can't help feeling protective.\nDepressive variant: My environment is consistently negative, possibly affecting my mood. If I expose myself or engage with Cricket, it will have negative outcomes, and it's better to avoid confrontation.",
+        "coping_strategies": "The client uses avoidance in confronting their grief and engages in overcommitment to helping others to compliment their inner grief and distress."
+      },
+      "edss": {
+        "situation": 0.5156405795174036,
+        "automatic_thought": 0.2588737164673728,
+        "emotion": 0.6752242022321924,
+        "behavior": 0.5448222461892298,
+        "average": 0.49864018610154964
+      },
+      "idss": {
+        "relevant_history": 0.7046902556156184,
+        "core_beliefs": 0.6705130854299485,
+        "intermediate_beliefs": 0.42326567195162196,
+        "coping_strategies": 0.6061446454276304,
+        "average": 0.6011534146062048
+      }
+    }
+  ]
+}

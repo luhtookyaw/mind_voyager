@@ -1,0 +1,65 @@
+{
+  "aggregate": {
+    "num_sessions": 1,
+    "edss": {
+      "situation": 0.48887814051306255,
+      "automatic_thought": 0.40387490277833404,
+      "emotion": 0.5757364568924886,
+      "behavior": 0.29918870826607114,
+      "average": 0.4419195521124891
+    },
+    "idss": {
+      "relevant_history": 0.7314824622411308,
+      "core_beliefs": 0.6137703314284395,
+      "intermediate_beliefs": 0.6898345307079697,
+      "coping_strategies": 0.6230361578193099,
+      "average": 0.6645308705492124
+    }
+  },
+  "sessions": [
+    {
+      "file": "/home/lu/Thesis/mind_voyager/outputs/random10_comparison/hybrid_probe/easy/session_13-1.json",
+      "case_id": "13-1",
+      "client_mode": "masked",
+      "difficulty": "easy",
+      "predicted_external_diagram": {
+        "situation": "Yvette is reflecting on her feelings of guilt and responsibility towards her aunt and how these feelings affect her interactions at work and with her family.",
+        "automatic_thought": "What if I had done this differently? What if I had just been there more? You should have done better. Why can\u2019t you just speak up? What will people think? You\u2019re being irresponsible! If I\u2019m not constantly there for them, what does that say about me?",
+        "emotion": "uneasy, sad, guilt, anxious, lost, worthlessness, hope, anxiety, fear, terrified, confused",
+        "behavior": "Yvette avoids conflicts, goes along with others to keep the peace, overcommits to tasks, and feels guilty when considering taking time for herself."
+      },
+      "ground_truth_external_diagram": {
+        "situation": "Thinking about experiences with her aunt and not meeting her aunt's last request.",
+        "automatic_thought": "I didn't do what she wanted me to do, I failed her, and this can never be made up with. I am a bad person.",
+        "emotion": "sad, down, lonely, unhappy; ashamed, embarrassed, humiliated; guilty",
+        "behavior": "Keep ruminating about the past between her and her aunt."
+      },
+      "predicted_internal_diagram": {
+        "relevant_history": "The client reports feeling a sense of responsibility and guilt regarding her aunt, wishing she had been more present and fearing she let her down. She also experiences pressure at work, feeling like she is not doing enough and is letting people down. The client feels excluded at work, echoing feelings of not doing enough to connect with her aunt. She has a history of internalizing feelings of failure and inadequacy, stemming from school experiences where her worth was tied to academic success. Family dynamics have also contributed to her feeling the need to be a peacemaker and responsible for holding things together. The client struggles with prioritizing her own well-being, feeling guilty for taking time for herself due to family messages about selflessness.",
+        "core_beliefs": "I am not good enough | I am not worthy of being part of the group | I am a failure | I am not worthy of love or respect | I am a burden | I am not good enough for them",
+        "intermediate_beliefs": "If I don't meet expectations, then I am not worthy of being part of the group. | If I speak up or express my needs, then it might push people away. | If I take time for myself, then I am being selfish and neglecting my responsibilities. | The client believes that success is tied to her value as a person. | If I am not constantly available for others, then I am failing them.",
+        "coping_strategies": "The client tends to avoid conflicts to maintain peace, often putting her own feelings aside. She copes by overcommitting to tasks to prove her worth and earn approval, leading to feelings of being drained and resentful. She also engages in self-criticism, battling with an inner voice that is harsh and critical. Occasionally, she takes short walks or reads to lift some weight off, but guilt quickly returns, overshadowing enjoyment."
+      },
+      "ground_truth_internal_diagram": {
+        "relevant_history": "The patient has a significant life event of her aunt passing away without the patient fulfilling her aunt's last request. The patient was also not able to be with her aunt when she passed, which causes her persistent guilt. The patient was very close to her aunt, seeing her as the mother she wished she had, and her death has left a lasting impact. The patient also has a pattern of taking care of others at her own expense, and struggles with recognizing her own needs and allowing herself to experience fun and enjoyment.",
+        "core_beliefs": "I am worthless, waste. | I am immoral. | I am bad - dangerous, toxic, evil.",
+        "intermediate_beliefs": "I am responsible for others and must fulfill others' expectations to validate my purpose in life. If I'm not meeting the needs of others, I'm a worthless person.\nDepressive variant: I'm not meeting others' expectations. When I feel overwhelmed by my responsibilities, I'm a bad person and always hurting others like what I did to my aunt. It's shameful to think of prioritizing my own needs over others.",
+        "coping_strategies": "The patient uses avoidance in confronting her grief and engages in overcommitment to helping others to compliment her inner grief and distress."
+      },
+      "edss": {
+        "situation": 0.48887814051306255,
+        "automatic_thought": 0.40387490277833404,
+        "emotion": 0.5757364568924886,
+        "behavior": 0.29918870826607114,
+        "average": 0.4419195521124891
+      },
+      "idss": {
+        "relevant_history": 0.7314824622411308,
+        "core_beliefs": 0.6137703314284395,
+        "intermediate_beliefs": 0.6898345307079697,
+        "coping_strategies": 0.6230361578193099,
+        "average": 0.6645308705492124
+      }
+    }
+  ]
+}

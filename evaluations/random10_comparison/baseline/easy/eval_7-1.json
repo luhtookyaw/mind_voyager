@@ -1,0 +1,65 @@
+{
+  "aggregate": {
+    "num_sessions": 1,
+    "edss": {
+      "situation": 0.6411945712035607,
+      "automatic_thought": 0.6336070241207259,
+      "emotion": 0.37042837200208034,
+      "behavior": 0.3928170774005327,
+      "average": 0.5095117611817249
+    },
+    "idss": {
+      "relevant_history": 0.508104329575744,
+      "core_beliefs": 0.5113091078090671,
+      "intermediate_beliefs": 0.47459927525047907,
+      "coping_strategies": 0.46263257404661445,
+      "average": 0.48916132167047616
+    }
+  },
+  "sessions": [
+    {
+      "file": "/home/lu/Thesis/mind_voyager/outputs/random10_comparison/baseline/easy/session_7-1.json",
+      "case_id": "7-1",
+      "client_mode": "masked",
+      "difficulty": "easy",
+      "predicted_external_diagram": {
+        "situation": "Bryce is thinking about his projects, particularly a website he wanted to build, and feels it's a lot of effort for something that no one will notice.",
+        "automatic_thought": "What\u2019s the point, really? It just feels like a lot of effort for something that no one will even notice. Maybe I\u2019m just wasting my time.",
+        "emotion": "futility, frustration, guilt, inadequacy, anxiety, hope, relief",
+        "behavior": "Bryce ends up not doing anything at all due to feeling stuck in a loop of overthinking and fear of not measuring up."
+      },
+      "ground_truth_external_diagram": {
+        "situation": "Contemplating the value and completion of his personal projects, such as building a website.",
+        "automatic_thought": "What's the point? No one will know it's me, and I'm not getting paid or acknowledged. I shouldn't do things for my own enjoyment.",
+        "emotion": "sad, down, lonely, unhappy; disappointed",
+        "behavior": "Procrastinates on personal projects and engages in unfulfilling activities like social media scrolling."
+      },
+      "predicted_internal_diagram": {
+        "relevant_history": "The client reports that their father was always tough on them with high expectations, leading to feelings of inadequacy and criticism rather than encouragement. This has contributed to their current self-doubt and fear of not meeting expectations.",
+        "core_beliefs": "I am not good enough | I am inadequate | I am not capable of making a real impact",
+        "intermediate_beliefs": "If I can't do it perfectly, then I shouldn't do it at all. | The client believes that if their efforts don't lead to immediate results or feedback, then they have wasted their time. | The client believes that reaching out for support might burden others.",
+        "coping_strategies": "The client tends to overthink and analyze every detail before starting a project, leading to analysis paralysis. They also consider writing down affirmations and reminders to counteract negative self-talk and are exploring the idea of reaching out for support, despite fears of rejection."
+      },
+      "ground_truth_internal_diagram": {
+        "relevant_history": "The patient has a history of working long hours, similar to past experiences while touring, indicating a history of demanding work environments. The patient has also been dealing with unresolved issues with his father, including past abuse and a recent exchange of letters addressing this painful history. The patient's father's response to the letter appears to have been a significant event for the patient, potentially contributing to his current mental state.",
+        "core_beliefs": "I am worthless, waste.",
+        "intermediate_beliefs": "The patient seems to hold the belief that work and productivity are essential to his self-worth and that idle time or personal development is wasted time. He also appears to believe that completing tasks and being acknowledged for his work is important for his value and self-esteem.\nDepressive variant: During periods of depression, the patient may believe that he is not making progress in life and that his efforts are meaningless. This could lead to a lack of motivation to engage in activities and to complete tasks, further reinforcing feelings of inadequacy and worthless.",
+        "coping_strategies": "The patient uses work as a coping strategy to feel productive and to reduce idle time, which he associates with negative feelings. He also use avoidance strategies when he perceives himself not productive and worthless, such as scrolling on social media."
+      },
+      "edss": {
+        "situation": 0.6411945712035607,
+        "automatic_thought": 0.6336070241207259,
+        "emotion": 0.37042837200208034,
+        "behavior": 0.3928170774005327,
+        "average": 0.5095117611817249
+      },
+      "idss": {
+        "relevant_history": 0.508104329575744,
+        "core_beliefs": 0.5113091078090671,
+        "intermediate_beliefs": 0.47459927525047907,
+        "coping_strategies": 0.46263257404661445,
+        "average": 0.48916132167047616
+      }
+    }
+  ]
+}

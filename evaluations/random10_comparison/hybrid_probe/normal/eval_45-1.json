@@ -1,0 +1,65 @@
+{
+  "aggregate": {
+    "num_sessions": 1,
+    "edss": {
+      "situation": 0.39103568809056644,
+      "automatic_thought": 0.5238587615895715,
+      "emotion": 0.6936000171121421,
+      "behavior": 0.33311531535424316,
+      "average": 0.4854024455366308
+    },
+    "idss": {
+      "relevant_history": 0.5459488788238379,
+      "core_beliefs": 0.9010294001559173,
+      "intermediate_beliefs": 0.5373325079357482,
+      "coping_strategies": 0.6335641060386018,
+      "average": 0.6544687232385262
+    }
+  },
+  "sessions": [
+    {
+      "file": "/home/lu/Thesis/mind_voyager/outputs/random10_comparison/hybrid_probe/normal/session_45-1.json",
+      "case_id": "45-1",
+      "client_mode": "masked",
+      "difficulty": "normal",
+      "predicted_external_diagram": {
+        "situation": "Jordan is trying to manage feelings of anxiety and pressure while living with roommates and dealing with work tasks.",
+        "automatic_thought": "What if I forgot to do that one thing that could mess everything up?",
+        "emotion": "overwhelming, anxious, tense, frustrated, powerless, vulnerable, hopeful, anxious",
+        "behavior": "Jordan keeps busy with work to avoid feelings, retreats to a quiet spot to create a bubble, and struggles with sleep due to racing thoughts."
+      },
+      "ground_truth_external_diagram": {
+        "situation": "Difficulty with organizing and processing work results due to the fear of making mistakes.",
+        "automatic_thought": "I am afraid that I am forgetting or overlooking something important in my work.",
+        "emotion": "anxious, worried, fearful, scared, tense",
+        "behavior": "Procrastination and avoidance of task completion, leading to emotional distress and reduced productivity."
+      },
+      "predicted_internal_diagram": {
+        "relevant_history": "The client reports feeling overwhelmed by loss and prefers to focus on the present to avoid those feelings. They cope by keeping busy with work and other activities to avoid feelings of anxiety and loss of control. The client experiences anxiety about missing important tasks and feels a sense of powerlessness and self-doubt, stemming from past experiences where they felt they dropped the ball on important matters. They also express concerns about living with roommates, feeling pressure to manage their own responsibilities while being a good roommate. The client struggles with sleep due to racing thoughts about unfinished tasks and worries about deadlines. They have had negative experiences in the past when sharing feelings, leading to a reluctance to open up again.",
+        "core_beliefs": "I am powerless, weak, vulnerable | I am bound to be rejected | I am unlovable",
+        "intermediate_beliefs": "If I don't keep busy, then I will be overwhelmed by my feelings. | If I open up to others, then they might think I'm weak or dramatic. | The client believes that they should be able to handle things on their own without burdening others.",
+        "coping_strategies": "The client copes by keeping busy with work and other activities to avoid feelings of anxiety and loss. They tend to retreat and find quiet spaces to recharge when feeling overwhelmed, but worry about being distant from roommates. The client also tries to wind down by reading or listening to something calming, but struggles with racing thoughts that impact their sleep."
+      },
+      "ground_truth_internal_diagram": {
+        "relevant_history": "The client has a history of developing friendships that potentially evolve into romantic relationships. They have gone through experiences where expressing their opinions, especially when angry, has led to social discord and the potential loss of friendships, which they find deeply unsettling. Additionally, the client has a complex relationship with their parents, marked by negative feelings, love, and obligation.",
+        "core_beliefs": "I am powerless, weak, vulnerable. | I am out of control. | I am unlovable. | I am bound to be rejected. | I am bound to be abandoned. | I am bound to be alone.",
+        "intermediate_beliefs": "The client holds beliefs that they must restrain their own opinions and expressions of anger to preserve relationships, fearing that if they express discontent or negative emotions, it may lead to social isolation or being disliked by others.\nDepressive variant: During periods of distress, the client believes that expressing their opinions will alienate them, and they also worry that by not expressing themselves, they will become uninteresting to others, which could lead to the deterioration of their social relationships.",
+        "coping_strategies": "The client utilizes avoidance and suppression of their thoughts and feelings as a coping mechanism to prevent conflict or rejection. They have also demonstrated a pattern of seeking comfort and reassurance from their partner after experiencing distress."
+      },
+      "edss": {
+        "situation": 0.39103568809056644,
+        "automatic_thought": 0.5238587615895715,
+        "emotion": 0.6936000171121421,
+        "behavior": 0.33311531535424316,
+        "average": 0.4854024455366308
+      },
+      "idss": {
+        "relevant_history": 0.5459488788238379,
+        "core_beliefs": 0.9010294001559173,
+        "intermediate_beliefs": 0.5373325079357482,
+        "coping_strategies": 0.6335641060386018,
+        "average": 0.6544687232385262
+      }
+    }
+  ]
+}

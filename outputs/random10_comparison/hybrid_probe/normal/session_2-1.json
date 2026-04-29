@@ -1,0 +1,1109 @@
+{
+  "case_id": "2-1",
+  "client_name": "Blaise",
+  "client_mode": "masked",
+  "difficulty": "normal",
+  "openness_interval": 2,
+  "therapist_provider": "openai",
+  "therapist_model": "gpt-4o-mini",
+  "therapist_prompt_mode": "hybrid_probe",
+  "client_model": "gpt-4o-mini",
+  "moderator_enabled": false,
+  "moderator_model": "gpt-4o-mini",
+  "max_turns": 25,
+  "therapist_turns": 25,
+  "stop_reason": "max_turns",
+  "transcript": [
+    {
+      "turn": 1,
+      "speaker": "therapist",
+      "content": "I'm glad to be here with you, Blaise. As we talk about what's on your mind, I wonder if you've been feeling any weight around the idea of relationship rejection. It can be such a tough experience to navigate. Does that resonate with you at all, or is there something else that feels more relevant?"
+    },
+    {
+      "turn": 1,
+      "speaker": "client",
+      "content": "Blaise: Well, I mean, rejection is... it's not exactly a walk in the park, is it? But, I guess it's not like I'm sitting around thinking about it all the time. I\u2019ve got other things to worry about, like planning this wedding and dealing with my parents. They have their ideas about who should be invited, and it\u2019s like, I don\u2019t want to upset anyone, you know? So, I guess that\u2019s more on my mind right now than anything else."
+    },
+    {
+      "turn": 2,
+      "speaker": "therapist",
+      "content": "Therapist: It sounds like you\u2019re feeling a lot of pressure with the wedding planning and your parents' expectations. Balancing what you want with the desire to keep everyone happy can be really challenging. Can you share a bit more about how that\u2019s affecting you right now?"
+    },
+    {
+      "turn": 2,
+      "speaker": "client",
+      "content": "Blaise: Yeah, it\u2019s just... I feel like I\u2019m stuck in the middle sometimes. Like, I want to have a nice wedding, but then my parents come in with their list of people they think should be there, and it\u2019s like, do I really want to invite Uncle Joe who I haven\u2019t seen in years? But if I don\u2019t, I can just picture their faces, you know? It\u2019s exhausting. I mean, I want to be happy about this whole thing, but instead, I\u2019m just worried about making everyone else happy. It\u2019s like, where do I even fit into all of this?"
+    },
+    {
+      "turn": 3,
+      "speaker": "therapist",
+      "content": "Therapist: It sounds really overwhelming to feel caught between your own desires and your parents' expectations. That sense of wanting to please everyone while also trying to find your own place in this can create a lot of tension. I wonder if part of what\u2019s making this so heavy is a feeling of needing to stay alert to everyone\u2019s reactions, almost like you\u2019re on high alert for any potential conflict or disappointment. Does that resonate with you at all, or is there something else that feels more fitting?"
+    },
+    {
+      "turn": 3,
+      "speaker": "client",
+      "content": "Blaise: Yeah, I guess that makes sense. I mean, it\u2019s like I\u2019m always trying to read the room, you know? Like, if I say something they don\u2019t like, it\u2019s going to blow up into a big deal. I just keep thinking about how they might react, and it makes me second-guess everything. I want to enjoy this time, but instead, I\u2019m just... tense. It\u2019s hard to focus on what I really want when I\u2019m so worried about their feelings. I just wish it could be simpler, but it never is, is it?"
+    },
+    {
+      "turn": 4,
+      "speaker": "therapist",
+      "content": "Therapist: It sounds like you're feeling a lot of tension and pressure from trying to anticipate your parents' reactions, which makes it hard for you to focus on what you truly want for your wedding. That constant need to read the room and worry about their feelings seems to be taking away from your ability to enjoy this special time. I can see how that would be really frustrating. What do you think would help you feel more at ease in this situation, or is there something specific that feels particularly challenging right now?"
+    },
+    {
+      "turn": 4,
+      "speaker": "client",
+      "content": "Blaise: Well, I mean, I guess it would help if I could just be honest with them about how I feel. But then there's this whole fear of them getting upset, you know? Like, I don\u2019t want to be the bad guy in this. It\u2019s just... I keep thinking about how they might react, and it makes me hesitate. I wish I could just say, \u201cHey, this is my day too,\u201d without worrying about the fallout. But every time I think about it, I just end up feeling more anxious. It\u2019s like I\u2019m stuck in this loop of wanting to stand my ground but also wanting to keep the peace. It\u2019s really frustrating."
+    },
+    {
+      "turn": 5,
+      "speaker": "therapist",
+      "content": "Therapist: It sounds like you're really caught in a tough spot between wanting to express your feelings and the fear of upsetting your parents. That desire to stand your ground while also wanting to maintain harmony can create a lot of inner conflict. I wonder if part of this pressure might also be tied to how stable or secure your home environment feels right now, especially with all the wedding planning and family dynamics. Does that resonate with you at all, or is there something else that feels more relevant to your experience?"
+    },
+    {
+      "turn": 5,
+      "speaker": "client",
+      "content": "Blaise: I mean, yeah, I guess that makes sense. It\u2019s just... home feels a bit chaotic right now, you know? I want everything to go smoothly, but it\u2019s like there\u2019s this constant tension in the air. I keep thinking about how everyone\u2019s going to react to the wedding, and it\u2019s like, I can\u2019t even enjoy the planning. I just want to feel secure and excited, but instead, I\u2019m just... on edge. It\u2019s hard to think about what I want when I\u2019m so focused on keeping the peace at home. I just wish it didn\u2019t feel so complicated."
+    },
+    {
+      "turn": 6,
+      "speaker": "therapist",
+      "content": "Therapist: It sounds like the chaos and tension at home are really affecting your ability to enjoy the wedding planning. That feeling of being on edge and focused on keeping the peace can make it hard to connect with your own excitement and desires. I can see how that would be frustrating. Can you share more about what it would look like for you to feel secure and excited during this time? What would that experience be like for you?"
+    },
+    {
+      "turn": 6,
+      "speaker": "client",
+      "content": "Blaise: Well, I think if I could just have a moment where I feel like my voice actually matters, that would help a lot. Like, if I could sit down with my parents and just lay everything out without them getting defensive or upset, it would be nice to feel heard. I imagine it would feel freeing, you know? Just to say, \u201cThis is what I want, and it\u2019s okay for me to want that.\u201d But then I worry that it\u2019ll turn into a whole thing, and I\u2019ll end up feeling worse. I just want to be able to enjoy picking out flowers or tasting cake without this cloud hanging over me. It\u2019s like I\u2019m missing out on the fun because I\u2019m too busy worrying about the fallout."
+    },
+    {
+      "turn": 7,
+      "speaker": "therapist",
+      "content": "Therapist: It sounds like having that open, honest conversation with your parents could really help you feel heard and free to express what you want for your wedding. The idea of being able to enjoy the little things, like picking out flowers or tasting cake, without that cloud of worry is so important. I wonder if part of what makes this so tough is a desire to escape from that pressure and just enjoy the moment. Does that feeling of wanting to escape resonate with you at all, or is there something else that feels more fitting?"
+    },
+    {
+      "turn": 7,
+      "speaker": "client",
+      "content": "Blaise: Yeah, I guess that makes sense. I mean, who wouldn\u2019t want to escape from all this pressure, right? It\u2019s just... I keep thinking about how nice it would be to just enjoy the little things without this weight on my shoulders. But then there\u2019s this nagging feeling that if I let go even a little, something will go wrong. It\u2019s like I\u2019m stuck in this cycle of wanting to be present and enjoy the moment, but I can\u2019t shake off the worry. I just want to feel like I can breathe and not have to constantly think about how my choices might upset someone. It\u2019s like I\u2019m in this tug-of-war with myself, and it\u2019s exhausting."
+    },
+    {
+      "turn": 8,
+      "speaker": "therapist",
+      "content": "Therapist: It sounds incredibly exhausting to feel that constant tug-of-war within yourself, wanting to be present and enjoy the moment while also carrying the weight of worry about upsetting others. That fear of letting go and something going wrong seems to keep you in a cycle of tension. I wonder if there are specific moments or situations where you feel that pressure the most, or perhaps times when you\u2019ve been able to momentarily step away from that worry and enjoy something?"
+    },
+    {
+      "turn": 8,
+      "speaker": "client",
+      "content": "Blaise: Well, I mean, there are moments, I guess. Like, when I\u2019m just hanging out with my fianc\u00e9, we can laugh about silly things, and for a little while, it feels like the pressure fades. But then, as soon as I think about the wedding or my parents, it all comes rushing back. It\u2019s like I can\u2019t fully let myself enjoy those moments because I know there\u2019s this big thing looming over me. I just wish I could hold onto that feeling of lightness, you know? But it\u2019s hard when I keep thinking about how everything I do could upset someone. I just want to find a way to have more of those light moments without the constant worry creeping back in."
+    },
+    {
+      "turn": 9,
+      "speaker": "therapist",
+      "content": "Therapist: It sounds like those moments with your fianc\u00e9 bring you a sense of lightness and joy, even if they\u2019re fleeting. It must be tough to have that pressure come rushing back as soon as you think about the wedding or your parents. I wonder if part of what\u2019s contributing to that heaviness is a sense of burnout from all the emotional labor you're putting into this situation. Does that idea of feeling burned out from trying to manage everything resonate with you, or is there something else that feels more relevant?"
+    },
+    {
+      "turn": 9,
+      "speaker": "client",
+      "content": "Blaise: Yeah, I think burnout is definitely part of it. I mean, it\u2019s like I\u2019m constantly juggling all these emotions and expectations, and it\u2019s wearing me down. I want to be excited about the wedding, but instead, I feel like I\u2019m just trying to keep everything from falling apart. It\u2019s exhausting to always be on guard, you know? I just wish I could take a break from all this pressure and not feel like I have to manage everyone else\u2019s feelings all the time. It\u2019s like I\u2019m carrying this weight that I didn\u2019t even ask for, and it\u2019s hard to find a moment to just breathe. I guess I just want to feel lighter, but it\u2019s tough when it feels like there\u2019s always something looming over me."
+    },
+    {
+      "turn": 10,
+      "speaker": "therapist",
+      "content": "Therapist: It sounds like the emotional juggling act and the weight of managing everyone else's feelings is really taking a toll on you, contributing to that sense of burnout. The desire to feel lighter and take a break from the pressure is completely understandable. I wonder if there are any small ways you might be able to carve out moments for yourself, even amidst all this chaos. What do you think about that idea?"
+    },
+    {
+      "turn": 10,
+      "speaker": "client",
+      "content": "Blaise: I mean, I guess there could be small ways to find some space for myself, but it feels tricky. Like, I could try to set aside a little time just for me, maybe to go for a walk or something. But then I worry that if I take that time, I\u2019ll be neglecting something important, like the wedding planning or my parents\u2019 feelings. It\u2019s like I can\u2019t shake off that guilt. I know I should prioritize myself, but it feels selfish when there\u2019s so much going on. I just don\u2019t want to add to the chaos or make anyone feel like I\u2019m not invested in this whole thing. It\u2019s frustrating because I know I need those moments, but the thought of stepping away feels like a risk."
+    },
+    {
+      "turn": 11,
+      "speaker": "therapist",
+      "content": "Therapist: It sounds like even the idea of taking time for yourself brings up a lot of guilt and worry about neglecting important things. That feeling of wanting to prioritize your own needs while also being concerned about how it might affect others can be really challenging. I wonder if part of this struggle is tied to feeling like you have to be everything for everyone else, which can lead to that sense of risk when thinking about stepping away. Does that resonate with you, or is there another angle to this that feels more fitting?"
+    },
+    {
+      "turn": 11,
+      "speaker": "client",
+      "content": "Blaise: Yeah, that definitely resonates. It\u2019s like I\u2019ve taken on this role where I feel responsible for everyone\u2019s happiness, and if I step back even a little, I worry it\u2019ll all come crashing down. I mean, I know it\u2019s not my job to hold everything together, but it feels like if I don\u2019t, then who will? I guess I\u2019ve just gotten so used to putting others first that the idea of prioritizing myself feels foreign, almost like I\u2019m betraying something. It\u2019s frustrating because I want to be there for my family and enjoy this time, but I also want to feel like I matter in all of this. It\u2019s just hard to find that balance, you know?"
+    },
+    {
+      "turn": 12,
+      "speaker": "therapist",
+      "content": "Therapist: It sounds like you\u2019ve really internalized this sense of responsibility for others\u2019 happiness, which makes it difficult to prioritize your own needs without feeling like you\u2019re betraying something important. That struggle to find balance between being there for your family and feeling like you matter in this process is a heavy burden to carry. I wonder if there are any past experiences or messages that might have shaped this belief that you need to hold everything together for others. Would you be open to exploring that a bit?"
+    },
+    {
+      "turn": 12,
+      "speaker": "client",
+      "content": "Blaise: Well, I suppose there are a few things that come to mind. Growing up, it always felt like my family had this unspoken expectation that I needed to be the peacemaker. I remember times when there were arguments or tension, and I\u2019d step in to try to smooth things over, thinking that if I could just make everyone happy, then everything would be okay. It\u2019s like I learned early on that my value was tied to how well I could manage everyone else\u2019s feelings. And I guess that\u2019s stuck with me, you know? Even now, when I think about my wedding, it feels like I have to keep that role alive, or else things might spiral out of control. It\u2019s just frustrating because I want to be excited about my own life, but I keep getting pulled back into that dynamic."
+    },
+    {
+      "turn": 13,
+      "speaker": "therapist",
+      "content": "Therapist: It sounds like that role of being the peacemaker has been deeply ingrained in you from a young age, and it makes sense that you would feel the pressure to maintain it, especially during such a significant time like your wedding. The idea that your value is tied to managing others' feelings can be a heavy weight to carry. I wonder how it feels to recognize that connection between your past experiences and the way you approach your current situation. Does that bring up any thoughts or feelings for you?"
+    },
+    {
+      "turn": 13,
+      "speaker": "client",
+      "content": "Blaise: It\u2019s definitely eye-opening to think about how much that role has shaped my life. I mean, part of me understands why I fell into it\u2014wanting to keep the peace and make everyone happy seemed like the right thing to do. But now, it feels like I\u2019m trapped in this cycle where my own happiness gets pushed aside. It\u2019s frustrating because I want to enjoy my wedding and this time in my life, but I keep getting pulled back into that peacemaker role. It\u2019s like I can\u2019t break free from it, and I worry that if I don\u2019t keep managing everything, it\u2019ll all fall apart. I guess it makes me feel a bit resentful, too, because I want to feel like I matter just as much as everyone else. It\u2019s hard to reconcile those feelings with the expectation that I have to be the one to hold it all together."
+    },
+    {
+      "turn": 14,
+      "speaker": "therapist",
+      "content": "Therapist: It sounds like you're experiencing a real conflict between wanting to embrace your own happiness and feeling trapped by the expectations of being the peacemaker. That sense of resentment and the fear of everything falling apart if you step back must be incredibly challenging to navigate. I wonder if there are moments when you\u2019ve felt a shift in that dynamic, even just a little, where you were able to prioritize your own feelings or needs. What do you think about that?"
+    },
+    {
+      "turn": 14,
+      "speaker": "client",
+      "content": "Blaise: You know, there have been a few moments, but they feel so fleeting. Like, there was this one time when I decided to take a weekend trip with my fianc\u00e9, just the two of us. It felt amazing to step away from everything and just focus on us for a bit. But then, as soon as we got back, I was hit with all the wedding planning and family expectations again. It\u2019s like I can\u2019t hold onto that feeling of freedom for long before I\u2019m pulled back into the chaos. I guess I just keep thinking that if I take too much time for myself, it\u2019ll all come crashing down, and I\u2019ll be letting everyone down. It\u2019s frustrating because I want to find those moments more often, but it feels like every time I try, I\u2019m reminded of all the responsibilities waiting for me."
+    },
+    {
+      "turn": 15,
+      "speaker": "therapist",
+      "content": "Therapist: It sounds like that weekend trip was a refreshing escape for you, but it also highlights how quickly the pressures come rushing back. The struggle to hold onto those moments of freedom while feeling the weight of responsibilities can be really disheartening. I wonder if part of what makes it so tough to find those moments is the ongoing stress from work as well. Does work stress play a role in how you\u2019re feeling about everything right now, or is it more about the family and wedding planning?"
+    },
+    {
+      "turn": 15,
+      "speaker": "client",
+      "content": "Blaise: Yeah, work stress definitely adds another layer to everything. It\u2019s like I\u2019m constantly juggling deadlines and expectations there, too. Some days, it feels like I\u2019m just running on empty, trying to keep up with everything. When I get home, I\u2019m already drained, and then I have to dive into family stuff and wedding planning. It\u2019s overwhelming, honestly. I think that\u2019s part of why I feel so guilty about wanting time for myself\u2014I\u2019m already stretched so thin, and I worry that if I take a break, I won\u2019t be able to catch up. It\u2019s like I\u2019m in this never-ending cycle of trying to please everyone, and it just leaves me feeling more exhausted. I want to be present for my job, my family, and my fianc\u00e9, but it feels like there\u2019s never enough of me to go around."
+    },
+    {
+      "turn": 16,
+      "speaker": "therapist",
+      "content": "Therapist: It sounds like the combination of work stress and family expectations is creating a really intense pressure cooker for you. That feeling of being stretched thin and the fear of falling behind if you take a break must be incredibly exhausting. It\u2019s understandable that you would feel guilty about wanting time for yourself when it seems like there\u2019s so much to manage. I wonder if there are specific moments at work or in your family life that feel particularly overwhelming right now. Can you share more about that?"
+    },
+    {
+      "turn": 16,
+      "speaker": "client",
+      "content": "Blaise: Yeah, there are definitely specific moments that stand out. At work, it\u2019s like every project has a tight deadline, and I feel this constant pressure to deliver. I remember last week, I had this big presentation, and I was so stressed about it that I barely slept the night before. I ended up working late to make sure everything was perfect, but even then, I felt like I was just barely scraping by. And then, when I got home, my parents called to discuss the wedding plans, and it felt like I was just shifting gears from one high-pressure situation to another. It\u2019s like I can\u2019t catch my breath. I want to do well at work, but then I come home and have to deal with family dynamics that just drain me even more. It\u2019s frustrating because I want to be able to enjoy my job and my family, but it feels like I\u2019m just surviving instead of really living."
+    },
+    {
+      "turn": 17,
+      "speaker": "therapist",
+      "content": "Therapist: It sounds like those high-pressure moments at work, like the presentation, really take a toll on you, especially when you have to transition straight into family discussions right after. That feeling of just surviving rather than truly living must be incredibly frustrating. I wonder how you cope with that stress when it builds up, or if there are any small ways you try to find relief amidst all the demands. What do you think?"
+    },
+    {
+      "turn": 17,
+      "speaker": "client",
+      "content": "Blaise: Well, I guess I try to find little ways to cope, but it often feels like a drop in the bucket. Sometimes I\u2019ll go for a walk or listen to music to clear my head, but those moments are usually short-lived. I often find myself just pushing through, thinking that if I can just get through the next task or conversation, things will calm down. But then, it\u2019s like I\u2019m just delaying the inevitable. I know I should probably be more proactive about finding ways to manage my stress, but it\u2019s hard to prioritize that when I feel like I\u2019m constantly in crisis mode. I guess I just keep hoping that once the wedding is over or once this project at work wraps up, I\u2019ll finally have a chance to breathe. But then, there\u2019s always something else waiting around the corner. It\u2019s frustrating because I want to feel more in control, but it often feels like I\u2019m just reacting to everything instead of taking charge of my own well-being."
+    },
+    {
+      "turn": 18,
+      "speaker": "therapist",
+      "content": "Therapist: It sounds like you\u2019re caught in a cycle of reacting to stress rather than feeling like you have the space to take charge of your well-being. Those brief moments of coping, like going for a walk or listening to music, seem to provide some relief, but they don\u2019t feel like enough to counterbalance the ongoing demands. I can see how the hope that things will calm down after the wedding or a work project can feel like a mirage, always just out of reach. I wonder if there are any deeper beliefs or fears that come up for you when you think about taking more time for yourself, especially in the midst of all this chaos?"
+    },
+    {
+      "turn": 18,
+      "speaker": "client",
+      "content": "Blaise: You know, when I think about taking more time for myself, there\u2019s this nagging fear that creeps in. It\u2019s like I worry that if I step away, even for a moment, everything will unravel. I keep thinking about how my family might react\u2014like they\u2019ll see me as being selfish or not committed enough to the wedding or to them. It\u2019s almost like I feel this obligation to be available and present all the time, and if I\u2019m not, I might disappoint them or let them down. There\u2019s also this underlying belief that if I don\u2019t keep pushing through, I\u2019ll be seen as weak or incapable. It\u2019s frustrating because I know I need to take care of myself, but that fear of judgment and the pressure to maintain my role just keeps me stuck. I guess it\u2019s hard to shake off those thoughts when they\u2019ve been part of my life for so long."
+    },
+    {
+      "turn": 19,
+      "speaker": "therapist",
+      "content": "Therapist: It sounds like there\u2019s a deep-rooted fear of judgment and disappointment that makes it really difficult for you to prioritize your own needs. The obligation to always be available and present for your family, along with the belief that taking a break might be seen as weakness, creates a heavy burden. It\u2019s understandable that these thoughts would keep you feeling stuck, especially when they\u2019ve been part of your life for so long. I wonder if there are specific experiences from your past that might have contributed to these beliefs about being available or pushing through, or how you learned to view self-care in relation to your responsibilities. What comes to mind for you?"
+    },
+    {
+      "turn": 19,
+      "speaker": "client",
+      "content": "Blaise: You know, when I think about it, I can trace some of these beliefs back to my childhood. My parents always emphasized the importance of family loyalty and being there for one another, which I get\u2014it\u2019s a nice value to have. But it often felt like there was this unspoken rule that you had to put everyone else first, no matter what. I remember times when I wanted to do something for myself, but it was always about making sure everyone else was happy or taken care of first. It\u2019s like I learned that my worth was tied to how much I could do for others. I guess that\u2019s why I feel so guilty about wanting to take time for myself now. It\u2019s hard to shake off that conditioning, especially when it feels like I\u2019m betraying those family values if I prioritize my own needs. It\u2019s frustrating because I want to break free from that cycle, but it feels like I\u2019m constantly battling against these ingrained beliefs."
+    },
+    {
+      "turn": 20,
+      "speaker": "therapist",
+      "content": "Therapist: It sounds like your childhood experiences have really shaped how you view your worth and responsibilities. The emphasis on family loyalty and putting others first seems to have created a strong sense of obligation that makes it difficult for you to prioritize your own needs without feeling guilty. It\u2019s understandable that breaking free from those ingrained beliefs would feel like a significant challenge. I wonder if there are moments when you\u2019ve felt a sense of conflict between honoring those family values and recognizing your own needs. How do you navigate that tension when it arises?"
+    },
+    {
+      "turn": 20,
+      "speaker": "client",
+      "content": "Blaise: Yeah, that tension is definitely something I feel often. There are moments when I catch myself wanting to say no to something or take a step back, but then I hear that voice in my head reminding me of those family values. It\u2019s like I\u2019m torn between wanting to honor my own needs and not wanting to let anyone down. I remember a time recently when I had the chance to go on a short trip with my fianc\u00e9, but I ended up canceling because my parents needed help with something. I felt this pull to be there for them, but at the same time, I was disappointed in myself for not prioritizing what I wanted. It\u2019s frustrating because I know I should be able to find a balance, but it often feels like I\u2019m stuck in this cycle of obligation. I guess I just keep hoping that one day I\u2019ll find a way to break free from that guilt and feel okay about putting myself first, but it\u2019s hard to see how that could happen when I\u2019ve been conditioned this way for so long."
+    },
+    {
+      "turn": 21,
+      "speaker": "therapist",
+      "content": "Therapist: It sounds like that moment of having to cancel the trip really highlighted the struggle between your own desires and the obligations you feel towards your family. The disappointment in yourself for not prioritizing what you wanted must be really tough to sit with. It\u2019s understandable to hope for a way to break free from that guilt, especially when it feels so ingrained. I wonder if there are small steps you might consider taking to explore what it feels like to prioritize your own needs, even in little ways, while still honoring those family values. What do you think about that?"
+    },
+    {
+      "turn": 21,
+      "speaker": "client",
+      "content": "Blaise: You know, I\u2019ve thought about that, and it\u2019s a bit daunting. I mean, the idea of taking small steps sounds good in theory, but I worry about how my family would react. Like, if I were to say no to something or take a little time for myself, would they see it as me not caring? It\u2019s hard to imagine doing that without feeling guilty. But at the same time, I know I can\u2019t keep going like this. I guess maybe I could start with something really small, like carving out a few minutes each day just for myself, but even that feels like a challenge. It\u2019s frustrating because I want to feel empowered to make those choices, but that voice in my head keeps reminding me of my obligations. I just don\u2019t want to disappoint anyone, you know? It\u2019s like I\u2019m stuck in this tug-of-war between what I want and what I feel I should do."
+    },
+    {
+      "turn": 22,
+      "speaker": "therapist",
+      "content": "Therapist: It sounds like even the thought of taking small steps for yourself feels daunting because of the fear of how your family might perceive it. That tug-of-war between your own desires and the obligations you feel is really challenging. It\u2019s understandable to want to avoid disappointing anyone, especially when those family values have been so deeply ingrained. I wonder if there are any specific thoughts or feelings that come up for you when you consider carving out those few minutes each day for yourself. What do you notice in those moments?"
+    },
+    {
+      "turn": 22,
+      "speaker": "client",
+      "content": "Blaise: Well, when I think about those few minutes for myself, I feel this mix of anxiety and guilt. It\u2019s like my mind starts racing with thoughts about what I should be doing instead\u2014like I could be helping my parents or working on something for the wedding. I also worry that if I take that time, it\u2019ll somehow be seen as me being selfish or not committed enough. It\u2019s frustrating because I know logically that everyone needs a break, but emotionally, it feels like I\u2019m betraying my family\u2019s expectations. I guess there\u2019s this part of me that feels like I don\u2019t deserve that time, like I have to earn it by being available for everyone else first. It\u2019s a heavy weight to carry, and it makes even the thought of taking a small step feel overwhelming."
+    },
+    {
+      "turn": 23,
+      "speaker": "therapist",
+      "content": "Therapist: It sounds like the anxiety and guilt really weigh heavily on you when you think about taking even a few minutes for yourself. The racing thoughts about what you should be doing instead and the fear of being seen as selfish seem to create a lot of internal conflict. It\u2019s understandable to feel that way, especially when you\u2019ve been conditioned to prioritize others\u2019 needs over your own. I wonder if there are any moments in your life where you felt you were able to balance your own needs with your family\u2019s expectations, or perhaps times when you felt more at ease with prioritizing yourself. What comes to mind?"
+    },
+    {
+      "turn": 23,
+      "speaker": "client",
+      "content": "Blaise: You know, there have been a couple of times where I felt like I managed to find that balance, but they were few and far between. I remember a time when I took a weekend to myself to just relax and recharge. It was a bit of a spontaneous decision, and I felt guilty at first, but once I was there, I actually enjoyed it. I was able to disconnect from all the obligations and just focus on what I wanted to do. But then, as soon as I got back, I felt this wave of guilt wash over me for having taken that time. It was like I had to justify it to my family, explaining why I needed that break. So, while I had that moment of peace, it quickly turned into a reminder of how hard it is to prioritize myself without feeling that weight of expectation. I guess it\u2019s just hard to hold onto those positive experiences when the guilt comes rushing back so quickly."
+    },
+    {
+      "turn": 24,
+      "speaker": "therapist",
+      "content": "Therapist: It sounds like that weekend away was a rare opportunity for you to recharge and enjoy some time for yourself, but the guilt that followed really overshadowed that experience. It\u2019s understandable to feel that way, especially when the expectations from your family are so strong. It seems like those moments of peace are fleeting, and the pressure to justify your self-care can make it hard to fully embrace them. I wonder what it would be like to explore those feelings of guilt further. What do you think is at the core of that guilt when you take time for yourself?"
+    },
+    {
+      "turn": 24,
+      "speaker": "client",
+      "content": "Blaise: You know, when I really think about it, the guilt seems to stem from this deep-seated belief that my value is tied to my availability and how much I can do for others. It\u2019s like, if I take time for myself, I\u2019m somehow neglecting my responsibilities or not living up to those family values that were drilled into me. I feel like I\u2019m letting my family down, and that\u2019s a heavy burden to carry. It\u2019s frustrating because I know that everyone needs time for themselves, but I can\u2019t shake the feeling that I\u2019m being selfish for wanting that. I guess it\u2019s just hard to reconcile the idea that taking care of myself doesn\u2019t mean I care any less about them. It\u2019s like there\u2019s this constant battle in my mind, and the guilt just makes it all the more complicated."
+    },
+    {
+      "turn": 25,
+      "speaker": "therapist",
+      "content": "Therapist: It sounds like that belief about your value being tied to your availability is really at the heart of the guilt you feel when considering self-care. The idea that taking time for yourself equates to neglecting your responsibilities or letting your family down must create a lot of internal conflict. It\u2019s understandable to feel frustrated by that, especially when you recognize that self-care doesn\u2019t diminish your care for others. I wonder if there are ways you could begin to challenge that belief, perhaps by reflecting on times when you\u2019ve seen others take care of themselves without it impacting their relationships. What do you think about that?"
+    },
+    {
+      "turn": 25,
+      "speaker": "client",
+      "content": "Blaise: You know, I\u2019ve thought about that too. I see friends or even family members who take time for themselves, and it doesn\u2019t seem to affect their relationships negatively. In fact, sometimes they come back feeling more energized and present. But then I get stuck in my own head, thinking that those examples don\u2019t apply to me. It\u2019s like I\u2019m in this bubble where I feel like my situation is different, and I have to uphold this standard of always being available. I guess I could try to remind myself that self-care doesn\u2019t mean I\u2019m abandoning my family or my responsibilities. But it\u2019s just so hard to shift that mindset when it feels so ingrained. I worry that if I start to challenge it, I might face backlash or disappointment from my family. It\u2019s like I\u2019m caught in this loop of wanting to change but feeling too afraid to take that leap."
+    }
+  ],
+  "judge_model": "gpt-4o-mini",
+  "mediator_events": [
+    "Openness judge rated 3/5 and updated prompt openness.",
+    "Openness judge output: **Rating: 3 (ENGAGED EXPLORATION)**\n\n**Key Examples:**\n1. **Emotional State:** \"Well, I mean, rejection is... it's not exactly a walk in the park, is it? But, I guess it's not like I'm sitting around thinking about it all the time.\"\n2. **Current Openness:** \"I\u2019ve got other things to worry about, like planning this wedding and dealing with my parents. They have their ideas about who should be invited, and it\u2019s like, I don\u2019t want to upset anyone, you know?\"\n\n**Progression:** The client\u2019s most recent interactions reveal a growing comfort in expressing their emotional state, particularly regarding the stress of wedding planning and familial expectations. This marks a significant change from earlier sessions where emotional expression was more guarded and limited. The client is beginning to articulate feelings of pressure and concern, indicating a deeper level of self-reflection and engagement with the therapeutic process.\n\n**Turning Point:** The client's emotional depth shifted notably during the exchange where they began to articulate the complexities of wedding planning and familial pressures. This moment highlighted a transition from a more defensive stance to a willingness to share personal concerns, showcasing a new emotional quality that reflects both vulnerability and an emerging trust in the therapeutic relationship.",
+    "Exploration judge rated 2/5; internal elements remain masked.",
+    "Exploration judge output: [Rating]: 2 (High Facilitation)\n\n[Justification]: The Therapist asked clear and relevant questions that encouraged the client to reflect on their feelings regarding relationship rejection and the pressures of wedding planning. The questions were open-ended and allowed the client to expand on their thoughts, particularly about the challenges of balancing personal desires with family expectations. However, while the questions prompted some deeper reflection, they primarily built on the client's existing thoughts rather than introducing significantly new perspectives or challenging assumptions. Therefore, the facilitation was effective but did not reach the level of deep exploration or transformational potential.",
+    "Openness judge rated 3/5 and updated prompt openness.",
+    "Openness judge output: **Rating: 3 (ENGAGED EXPLORATION)**\n\n**Key Examples:**\n1. \"I want to be happy about this whole thing, but instead, I\u2019m just worried about making everyone else happy. It\u2019s like, where do I even fit into all of this?\"\n2. \"I just keep thinking about how they might react, and it makes me second-guess everything. I want to enjoy this time, but instead, I\u2019m just... tense.\"\n\n**Progression:**\nIn the most recent exchanges, the client demonstrates a noticeable increase in emotional expression and self-reflection. They articulate feelings of tension and pressure related to wedding planning and parental expectations, indicating a deeper level of engagement compared to earlier parts of the session. The client\u2019s use of phrases like \"I want to be happy\" and \"I\u2019m just worried about making everyone else happy\" reflects a growing awareness of their emotional state and the conflict between their desires and external pressures. This marks a significant shift from earlier exchanges, where the client was more focused on factual descriptions and less on their emotional experience.\n\n**Turning Point:**\nThe client\u2019s emotional depth shifted notably when they began expressing their feelings of being \"stuck in the middle\" and their desire for simplicity amidst the complexity of family dynamics. This moment of vulnerability, where they acknowledge their tension and the difficulty of prioritizing their own happiness, represents a key turning point in their emotional openness. It highlights a movement from a more defensive stance to a willingness to explore and articulate their internal struggles, indicating a stronger therapeutic alliance and engagement with the therapeutic process.",
+    "Exploration judge rated 3/5; internal elements remain masked.",
+    "Exploration judge output: [Rating]: 3 (Very High Facilitation \u2013 Deep Exploration Begins)\n\n[Justification]: The therapist's questions and reflections effectively encouraged the client to delve deeper into their feelings about the wedding planning and their parents' expectations. By acknowledging the client's tension and the pressure they feel, the therapist facilitated a discussion that began to uncover the emotional depth behind the client's experiences. The therapist's inquiry about the client's feelings of being on \"high alert\" for potential conflict was particularly insightful, prompting the client to reflect on their emotional state and how it affects their ability to enjoy the wedding planning process. While the conversation did not yet lead to a major breakthrough or a complete shift in perspective, it did initiate a deeper exploration of the client's internal struggles, which is indicative of very high facilitation.",
+    "Openness judge rated 3/5 and updated prompt openness.",
+    "Openness judge output: **Rating: 3 (ENGAGED EXPLORATION)**\n\n**Key Examples:**\n1. **Emotional State:** \"I just want to feel secure and excited, but instead, I\u2019m just... on edge. It\u2019s hard to think about what I want when I\u2019m so focused on keeping the peace at home.\"\n2. **Current Openness:** \"I guess it would help if I could just be honest with them about how I feel. But then there's this whole fear of them getting upset, you know? Like, I don\u2019t want to be the bad guy in this.\"\n\n**Progression:** The client\u2019s most recent interactions demonstrate a notable increase in emotional expression and self-reflection, particularly around the pressures of wedding planning and family dynamics. Earlier in the session, the client displayed a more guarded stance, primarily focusing on external factors without delving into their feelings. However, in the latest exchanges, the client articulates feelings of anxiety and frustration, indicating a deeper engagement with their emotional state. This marks a significant change from earlier, where they were more factual and less introspective.\n\n**Turning Point:** The client\u2019s emotional depth shifted when they began expressing their desire to be honest with their parents about their feelings, coupled with the fear of upsetting them. This moment signifies a transition from merely discussing the logistics of wedding planning to exploring the emotional ramifications of those logistics, highlighting a growing comfort in sharing their vulnerabilities. The client's acknowledgment of feeling \"on edge\" and the desire for security and excitement indicates a deeper level of self-awareness and emotional processing that was less evident at the beginning of the session.",
+    "Exploration judge rated 3/5; internal elements remain masked.",
+    "Exploration judge output: [Rating]: 3 (Very High Facilitation \u2013 Deep Exploration Begins)\n\n[Justification]: The Therapist asked insightful and thought-provoking questions that helped the client analyze the root causes of their feelings of tension and pressure regarding wedding planning and family expectations. The Therapist's inquiries encouraged the client to reflect on their emotional state and the impact of their parents' expectations on their own desires. The questions prompted the client to explore deeper feelings of anxiety and conflict, leading to a more profound self-reflection about their situation. However, while the Therapist's questions were effective in facilitating exploration, they did not fully challenge the client's assumptions or introduce completely new perspectives that would lead to a significant shift in self-awareness. Thus, the facilitation was strong but not at the highest transformational level.",
+    "Openness judge rated 3/5 and updated prompt openness.",
+    "Openness judge output: **Rating: 3 (ENGAGED EXPLORATION)**\n\n**Key Examples:**\n1. **Emotional State:** \"I just want to feel secure and excited, but instead, I\u2019m just... on edge. It\u2019s hard to think about what I want when I\u2019m so focused on keeping the peace at home.\"\n2. **Current Openness:** \"I think if I could just have a moment where I feel like my voice actually matters, that would help a lot. Like, if I could sit down with my parents and just lay everything out without them getting defensive or upset, it would be nice to feel heard.\"\n\n**Progression:** The client\u2019s recent interactions demonstrate a notable increase in emotional expression and self-reflection. Initially, the client presented a more factual and guarded stance, primarily discussing the pressures of wedding planning without delving deeply into their feelings. However, in the latest exchanges, the client articulates feelings of being \"on edge\" and expresses a desire for their voice to be heard, indicating a shift towards greater emotional depth and vulnerability. This marks a significant change from earlier exchanges where the client was more focused on external pressures rather than their internal emotional landscape.\n\n**Turning Point:** The client\u2019s emotional depth shifted during the exchange where they stated, \"I just want to feel secure and excited, but instead, I\u2019m just... on edge.\" This moment reflects a breakthrough in their willingness to acknowledge and articulate their feelings of anxiety and frustration, moving beyond surface-level concerns to express deeper emotional truths. This shift indicates a growing comfort with the therapist and a willingness to explore their feelings more openly.",
+    "Exploration judge rated 3/5; internal elements remain masked.",
+    "Exploration judge output: [Rating]: 3 (Very High Facilitation \u2013 Deep Exploration Begins)\n\n[Justification]: The therapist engaged in a thoughtful dialogue that encouraged the client to explore the emotional depth of their experiences related to wedding planning and family dynamics. The therapist's questions prompted the client to analyze their feelings of tension, pressure, and the desire for self-expression, which helped uncover the root causes of their anxiety. The therapist's inquiries began to shift the client's perspective, particularly when discussing the conflict between their desires and their parents' expectations. However, while the therapist facilitated deep exploration, the questions did not fully challenge the client's assumptions or introduce significantly new perspectives that would lead to a major breakthrough. Thus, the facilitation was rated as very high, as it effectively encouraged self-reflection and deeper understanding without reaching the level of profound insight or transformation.",
+    "Openness judge rated 3/5 and updated prompt openness.",
+    "Openness judge output: **Rating: 3 (ENGAGED EXPLORATION)**\n\n**Key Examples:**\n1. **Emotional State:** \"It\u2019s exhausting to always be on guard, you know? I just wish I could take a break from all this pressure and not feel like I have to manage everyone else\u2019s feelings all the time.\"\n2. **Current Openness:** \"I just want to find a way to have more of those light moments without the constant worry creeping back in.\"\n\n**Progression:** The client\u2019s most recent interactions reveal a notable increase in emotional expression and self-reflection. Initially, the client displayed a more defensive stance, focusing on external pressures related to wedding planning and parental expectations. However, in the latest exchanges, they articulate feelings of exhaustion and a desire for emotional relief, indicating a deeper engagement with their internal experience. This shift from merely describing situations to expressing feelings of burnout and the longing for lightness marks a significant change from earlier interactions, where emotional depth was minimal.\n\n**Turning Point:** The client\u2019s emotional depth shifted during the exchange where they articulated their feelings of being \"caught in a tug-of-war\" and expressed a desire to enjoy moments without the weight of worry. This moment of vulnerability, where they acknowledged their internal struggle and the impact of external pressures, signifies a breakthrough in their emotional openness. It demonstrates a willingness to explore their feelings more deeply, moving beyond surface-level concerns to address the emotional turmoil they are experiencing.",
+    "Exploration judge rated 4/5 and revealed internal cognitive elements.",
+    "Exploration judge output: [Rating]: 4 (Even Higher Facilitation \u2013 Strong Transformational Potential)\n\n[Justification]: The therapist asked strategic and powerfully open-ended questions that encouraged the client to explore their feelings of pressure, tension, and burnout related to wedding planning and family expectations. The therapist's inquiries prompted the client to reflect on their desires and fears, leading to deeper self-awareness about their emotional state and the impact of their parents' expectations. By asking about specific moments of pressure and the desire for lightness, the therapist challenged the client to consider their own needs and how to navigate the situation more effectively. This approach introduced new angles for the client to consider, facilitating a shift in perspective and encouraging them to think about actionable steps toward feeling more at ease. Overall, the therapist's questions demonstrated strong transformational potential by pushing the client to explore their inner conflicts and desires more deeply.",
+    "Openness judge rated 4/5 and updated prompt openness.",
+    "Openness judge output: **Rating: 4 (DEEP ENGAGEMENT)**\n\n**Key Examples:**\n1. \"I just wish I could hold onto that feeling of lightness, you know? But it\u2019s hard when I keep thinking about how everything I do could upset someone.\"\n2. \"It\u2019s like I\u2019ve taken on this role where I feel responsible for everyone\u2019s happiness, and if I step back even a little, I worry it\u2019ll all come crashing down.\"\n\n**Progression:**\nThe client\u2019s most recent interactions demonstrate a significant increase in emotional depth and self-reflection. They articulate their feelings of tension and burnout, revealing a nuanced understanding of their emotional landscape. This marks a notable shift from earlier exchanges, where the client primarily expressed factual concerns about wedding planning and parental expectations. The current dialogue reflects a deeper engagement with their internal struggles, showcasing their vulnerability and the complexities of their emotions.\n\n**Turning Point:**\nThe client\u2019s emotional depth shifted notably during the exchange where they expressed, \"I just want to feel like I can breathe and not have to constantly think about how my choices might upset someone.\" This moment highlighted their internal conflict and desire for self-advocacy, indicating a willingness to explore their feelings more openly. This breakthrough in emotional expression has led to a more profound engagement with the therapist, fostering a stronger therapeutic alliance and allowing for more meaningful exploration of their needs and desires.",
+    "Openness judge rated 4/5 and updated prompt openness.",
+    "Openness judge output: **Rating: 4 (DEEP ENGAGEMENT)**\n\n**Key Examples:**\n1. \"I just want to feel like I can breathe and not have to constantly think about how my choices might upset someone. It\u2019s like I\u2019m in this tug-of-war with myself, and it\u2019s exhausting.\"\n2. \"It\u2019s definitely eye-opening to think about how much that role has shaped my life. I mean, part of me understands why I fell into it\u2014wanting to keep the peace and make everyone happy seemed like the right thing to do. But now, it feels like I\u2019m trapped in this cycle where my own happiness gets pushed aside.\"\n\n**Progression:**\nThe client\u2019s recent interactions demonstrate a significant emotional depth and vulnerability, particularly in their reflections on the pressures they feel regarding their wedding and family dynamics. They articulate feelings of tension, burnout, and the struggle between their own desires and the expectations placed upon them. This marks a clear progression from earlier exchanges, where their emotional expression was more guarded and focused on external pressures rather than their internal experience. The client is now engaging in meaningful self-reflection, recognizing how their past roles have shaped their current emotional state, which indicates a strong therapeutic alliance and a willingness to explore deeper emotional truths.\n\n**Turning Point:**\nThe client's emotional depth shifted notably during the exchange where they connected their current feelings of being overwhelmed to their childhood role as the peacemaker. This moment of insight\u2014realizing that their value has been tied to managing others' feelings\u2014allowed them to articulate a deeper sense of frustration and resentment, highlighting their desire for personal happiness. This breakthrough moment not only illustrates their growing self-awareness but also fosters a more profound engagement with the therapeutic process, as they begin to explore the implications of this realization on their current life and relationships.",
+    "Openness judge rated 4/5 and updated prompt openness.",
+    "Openness judge output: **Rating: 4 (DEEP ENGAGEMENT)**\n\n**Key Examples:**\n1. **Emotional State:** \"It\u2019s exhausting to always be on guard, you know? I just wish I could take a break from all this pressure and not feel like I have to manage everyone else\u2019s feelings all the time. It\u2019s like I\u2019m carrying this weight that I didn\u2019t even ask for, and it\u2019s hard to find a moment to just breathe.\"\n2. **Current Openness:** \"I guess I\u2019ve just gotten so used to putting others first that the idea of prioritizing myself feels foreign, almost like I\u2019m betraying something. It\u2019s frustrating because I want to be there for my family and enjoy this time, but I also want to feel like I matter in all of this.\"\n\n**Progression:** The client\u2019s most recent interactions demonstrate a significant increase in emotional depth and self-reflection. They are expressing feelings of exhaustion and the weight of responsibility, indicating a deeper awareness of their emotional state compared to earlier exchanges, where they primarily focused on external pressures and obligations. This shift marks a move from a more guarded emotional expression to a willingness to explore their feelings of resentment and the desire for self-advocacy.\n\n**Turning Point:** The client's emotional depth shifted notably when they began to articulate the internal conflict between their desire to please others and the need to prioritize their own happiness. This moment occurred during the exchange where they reflected on their role as a peacemaker, stating, \"It\u2019s like I\u2019ve taken on this role where I feel responsible for everyone\u2019s happiness, and if I step back even a little, I worry it\u2019ll all come crashing down.\" This acknowledgment of their past experiences and how they shape their current feelings represents a breakthrough in their self-awareness and emotional openness.",
+    "Openness judge rated 4/5 and updated prompt openness.",
+    "Openness judge output: **Rating: 4 (DEEP ENGAGEMENT)**\n\n**Key Examples:**\n1. **Emotional Depth:** \"It\u2019s like I\u2019m in this tug-of-war with myself, and it\u2019s exhausting.\" This statement reflects the client's internal struggle and emotional burden, showcasing a deeper level of vulnerability and self-awareness.\n2. **Current Openness:** \"I guess I\u2019ve just gotten so used to putting others first that the idea of prioritizing myself feels foreign, almost like I\u2019m betraying something.\" This illustrates the client's recognition of their patterns and the emotional conflict they experience, indicating a significant level of self-reflection.\n\n**Progression:** The client's most recent interactions demonstrate a notable shift towards deeper emotional engagement. Initially, there were signs of tension and a focus on external pressures, but the client has progressed to articulating their internal conflicts and desires more openly. They are now expressing feelings of exhaustion and frustration regarding their role as a peacemaker, indicating a growing comfort in sharing their emotional state with the therapist. This marks a significant change from earlier exchanges, where the client was more focused on external factors and less on their internal emotional landscape.\n\n**Turning Point:** The client's emotional depth shifted during the exchange where they articulated, \"I just want to feel like I can breathe and not have to constantly think about how my choices might upset someone.\" This moment highlighted their desire for personal space and the recognition of their emotional exhaustion, allowing for a more profound exploration of their feelings and needs. This turning point reflects a deeper understanding of their emotional state and a willingness to engage with the complexities of their situation, contributing to a stronger therapeutic alliance.",
+    "Openness judge rated 4/5 and updated prompt openness.",
+    "Openness judge output: **Rating: 4 (DEEP ENGAGEMENT)**\n\n**Key Examples:**\n1. \"I just want to feel like I can breathe and not have to constantly think about how my choices might upset someone. It\u2019s like I\u2019m in this tug-of-war with myself, and it\u2019s exhausting.\"\n2. \"It\u2019s like I learned early on that my value was tied to how well I could manage everyone else\u2019s feelings. And I guess that\u2019s stuck with me, you know?\"\n\n**Progression:**\nThe client\u2019s most recent interactions reveal a significant emotional depth and vulnerability, particularly in their acknowledgment of the internal struggle between their own desires and the expectations placed upon them by their family. They articulate feelings of exhaustion and frustration, indicating a deeper level of self-reflection and emotional expression compared to earlier exchanges. Initially, the client displayed a more defensive stance, focusing on external pressures without delving into their emotional responses. However, they have now moved towards a more profound engagement with their feelings, recognizing the impact of their upbringing on their current struggles and expressing a desire to break free from these patterns.\n\n**Turning Point:**\nThe client\u2019s emotional depth shifted notably during the exchange where they reflected on their childhood experiences and the unspoken family rules regarding loyalty and self-sacrifice. This moment marked a pivotal point in their emotional openness, as they began to connect their past conditioning to their present feelings of guilt and obligation. By articulating this connection, the client demonstrated a willingness to explore their emotions more authentically, contributing to a stronger therapeutic alliance and a clearer understanding of their internal conflicts.",
+    "Openness judge rated 3/5 and updated prompt openness.",
+    "Openness judge output: **Rating: 3 (ENGAGED EXPLORATION)**\n\n**Key Examples:**\n1. **Emotional State:** \"I just want to feel like I can breathe and not have to constantly think about how my choices might upset someone. It\u2019s like I\u2019m in this tug-of-war with myself, and it\u2019s exhausting.\"\n2. **Current Openness:** \"I guess I just keep hoping that one day I\u2019ll find a way to break free from that guilt and feel okay about putting myself first, but it\u2019s hard to see how that could happen when I\u2019ve been conditioned this way for so long.\"\n\n**Progression:**\nIn the most recent exchanges, Blaise demonstrates a notable increase in emotional expression and self-reflection compared to earlier parts of the session. Initially, Blaise's responses were more factual and focused on external pressures, such as wedding planning and family expectations. However, as the session progressed, Blaise began to articulate deeper feelings of exhaustion, guilt, and the desire for self-advocacy. This shift indicates a growing comfort in exploring personal emotions and a willingness to engage in meaningful dialogue about their struggles.\n\n**Turning Point:**\nA significant turning point occurred when Blaise reflected on their childhood experiences and how they shaped their current beliefs about obligation and self-worth. This moment of insight allowed Blaise to connect past experiences with present feelings, leading to a deeper understanding of their emotional state. The acknowledgment of feeling trapped in the peacemaker role and the desire to break free from it marked a shift towards more profound emotional exploration and vulnerability.",
+    "Openness judge rated 4/5 and updated prompt openness.",
+    "Openness judge output: **Rating: 4 (DEEP ENGAGEMENT)**\n\n**Key Examples:**\n1. **Emotional Expression:** \"It\u2019s exhausting to always be on guard, you know? I just wish I could take a break from all this pressure and not feel like I have to manage everyone else\u2019s feelings all the time.\"\n2. **Self-Reflection Depth:** \"I guess I\u2019ve just gotten so used to putting others first that the idea of prioritizing myself feels foreign, almost like I\u2019m betraying something.\"\n\n**Progression:** The client\u2019s most recent interactions demonstrate a significant increase in emotional depth and self-reflection compared to earlier exchanges. Initially, the client expressed feelings of pressure and obligation in a more surface-level manner, often deflecting deeper emotional exploration. However, in the latest exchanges, the client articulates feelings of exhaustion, guilt, and the desire for self-advocacy with greater clarity and vulnerability. This marks a notable shift from a more defensive stance to a more open and engaged exploration of their emotional landscape.\n\n**Turning Point:** The client\u2019s emotional depth shifted during the exchange where they reflected on their childhood experiences and the ingrained belief that their worth is tied to managing others' feelings. This moment of insight allowed the client to connect past experiences with their current struggles, revealing a deeper understanding of their emotional state and the challenges they face in prioritizing their own needs. This breakthrough moment signifies a growing awareness of their internal conflicts and a willingness to explore the complexities of their feelings, indicating a strong therapeutic alliance and a commitment to self-exploration."
+  ],
+  "moderator_events": [],
+  "retrieval_events": [
+    {
+      "turn": 2,
+      "query": "Blaise: Well, I mean, rejection is... it's not exactly a walk in the park, is it? But, I guess it's not like I'm sitting around thinking about it all the time. I\u2019ve got other things to worry about, like planning this wedding and dealing with my parents. They have their ideas about who should be invited, and it\u2019s like, I don\u2019t want to upset anyone, you know? So, I guess that\u2019s more on my mind right now than anything else.",
+      "prompt_context": "- Relationship rejection (Relationships)\n- Family rejection (Family)\n- Peer rejection (Social Life)\n\nExplicitly discuss this topic in normal, client-friendly language. Ask whether it fits the client, while leaving room for them to say it does not.",
+      "anchors": [
+        {
+          "id": "relationship_rejection",
+          "type": "sub_topic",
+          "label": "Relationship rejection",
+          "score": 0.40060312278388926,
+          "text": "Type: Sub Topic\nLabel: Relationship rejection\nAliases: rejected by partner, romantic rejection\nParent topics: Relationships",
+          "selection_method": "subtopic_similarity",
+          "super_topic_id": "relationships",
+          "super_topic_label": "Relationships"
+        },
+        {
+          "id": "family_rejection",
+          "type": "sub_topic",
+          "label": "Family rejection",
+          "score": 0.36962208194254403,
+          "text": "Type: Sub Topic\nLabel: Family rejection\nAliases: rejected by family, not accepted\nParent topics: Family",
+          "selection_method": "subtopic_similarity",
+          "super_topic_id": "family",
+          "super_topic_label": "Family"
+        },
+        {
+          "id": "peer_rejection",
+          "type": "sub_topic",
+          "label": "Peer rejection",
+          "score": 0.35973767954724895,
+          "text": "Type: Sub Topic\nLabel: Peer rejection\nAliases: peer rejection, rejected by peers\nParent topics: Social Life",
+          "selection_method": "subtopic_similarity",
+          "super_topic_id": "social_life",
+          "super_topic_label": "Social Life"
+        }
+      ],
+      "expanded": []
+    },
+    {
+      "turn": 4,
+      "query": "Blaise: Yeah, I guess that makes sense. I mean, it\u2019s like I\u2019m always trying to read the room, you know? Like, if I say something they don\u2019t like, it\u2019s going to blow up into a big deal. I just keep thinking about how they might react, and it makes me second-guess everything. I want to enjoy this time, but instead, I\u2019m just... tense. It\u2019s hard to focus on what I really want when I\u2019m so worried about their feelings. I just wish it could be simpler, but it never is, is it?",
+      "prompt_context": "- Rumination pattern (Coping)\n- Overcontrol pattern (Coping)\n- Perfectionism pattern (Coping)\n\nExplicitly discuss this topic in normal, client-friendly language. Ask whether it fits the client, while leaving room for them to say it does not.",
+      "anchors": [
+        {
+          "id": "rumination_pattern",
+          "type": "sub_topic",
+          "label": "Rumination pattern",
+          "score": 0.3721627699527707,
+          "text": "Type: Sub Topic\nLabel: Rumination pattern\nAliases: overthinking, rumination\nParent topics: Coping",
+          "selection_method": "subtopic_similarity",
+          "super_topic_id": "coping",
+          "super_topic_label": "Coping"
+        },
+        {
+          "id": "overcontrol_pattern",
+          "type": "sub_topic",
+          "label": "Overcontrol pattern",
+          "score": 0.3615178952723659,
+          "text": "Type: Sub Topic\nLabel: Overcontrol pattern\nAliases: must stay in control, overcontrol\nParent topics: Coping",
+          "selection_method": "subtopic_similarity",
+          "super_topic_id": "coping",
+          "super_topic_label": "Coping"
+        },
+        {
+          "id": "perfectionism_pattern",
+          "type": "sub_topic",
+          "label": "Perfectionism pattern",
+          "score": 0.34697216258851826,
+          "text": "Type: Sub Topic\nLabel: Perfectionism pattern\nAliases: must get it right, perfectionistic\nParent topics: Coping",
+          "selection_method": "subtopic_similarity",
+          "super_topic_id": "coping",
+          "super_topic_label": "Coping"
+        }
+      ],
+      "expanded": []
+    },
+    {
+      "turn": 6,
+      "query": "Blaise: I mean, yeah, I guess that makes sense. It\u2019s just... home feels a bit chaotic right now, you know? I want everything to go smoothly, but it\u2019s like there\u2019s this constant tension in the air. I keep thinking about how everyone\u2019s going to react to the wedding, and it\u2019s like, I can\u2019t even enjoy the planning. I just want to feel secure and excited, but instead, I\u2019m just... on edge. It\u2019s hard to think about what I want when I\u2019m so focused on keeping the peace at home. I just wish it didn\u2019t feel so complicated.",
+      "prompt_context": "- Family pressure (Family)\n- Family conflict (Family)\n- Domestic stress (Housing/Home)\n\nExplicitly discuss this topic in normal, client-friendly language. Ask whether it fits the client, while leaving room for them to say it does not.",
+      "anchors": [
+        {
+          "id": "family_pressure",
+          "type": "sub_topic",
+          "label": "Family pressure",
+          "score": 0.37659950175834206,
+          "text": "Type: Sub Topic\nLabel: Family pressure\nAliases: pressure from family, expectations at home\nParent topics: Family",
+          "selection_method": "subtopic_similarity",
+          "super_topic_id": "family",
+          "super_topic_label": "Family"
+        },
+        {
+          "id": "family_conflict",
+          "type": "sub_topic",
+          "label": "Family conflict",
+          "score": 0.3698748458605684,
+          "text": "Type: Sub Topic\nLabel: Family conflict\nAliases: arguments, conflict at home\nParent topics: Family",
+          "selection_method": "subtopic_similarity",
+          "super_topic_id": "family",
+          "super_topic_label": "Family"
+        },
+        {
+          "id": "domestic_stress",
+          "type": "sub_topic",
+          "label": "Domestic stress",
+          "score": 0.3663882863545752,
+          "text": "Type: Sub Topic\nLabel: Domestic stress\nAliases: home stress, domestic stress\nParent topics: Housing/Home",
+          "selection_method": "subtopic_similarity",
+          "super_topic_id": "housing_home",
+          "super_topic_label": "Housing/Home"
+        }
+      ],
+      "expanded": []
+    },
+    {
+      "turn": 8,
+      "query": "Blaise: Yeah, I guess that makes sense. I mean, who wouldn\u2019t want to escape from all this pressure, right? It\u2019s just... I keep thinking about how nice it would be to just enjoy the little things without this weight on my shoulders. But then there\u2019s this nagging feeling that if I let go even a little, something will go wrong. It\u2019s like I\u2019m stuck in this cycle of wanting to be present and enjoy the moment, but I can\u2019t shake off the worry. I just want to feel like I can breathe and not have to constantly think about how my choices might upset someone. It\u2019s like I\u2019m in this tug-of-war with myself, and it\u2019s exhausting.",
+      "prompt_context": "- Overcontrol pattern (Coping)\n- Stress overload (Mental Health)\n- Family pressure (Family)\n\nExplicitly discuss this topic in normal, client-friendly language. Ask whether it fits the client, while leaving room for them to say it does not.",
+      "anchors": [
+        {
+          "id": "overcontrol_pattern",
+          "type": "sub_topic",
+          "label": "Overcontrol pattern",
+          "score": 0.40422934601977106,
+          "text": "Type: Sub Topic\nLabel: Overcontrol pattern\nAliases: must stay in control, overcontrol\nParent topics: Coping",
+          "selection_method": "subtopic_similarity",
+          "super_topic_id": "coping",
+          "super_topic_label": "Coping"
+        },
+        {
+          "id": "stress_overload",
+          "type": "sub_topic",
+          "label": "Stress overload",
+          "score": 0.38636301802818335,
+          "text": "Type: Sub Topic\nLabel: Stress overload\nAliases: stress, overwhelmed, pressure\nParent topics: Mental Health",
+          "selection_method": "subtopic_similarity",
+          "super_topic_id": "mental_health",
+          "super_topic_label": "Mental Health"
+        },
+        {
+          "id": "family_pressure",
+          "type": "sub_topic",
+          "label": "Family pressure",
+          "score": 0.37805428268066715,
+          "text": "Type: Sub Topic\nLabel: Family pressure\nAliases: pressure from family, expectations at home\nParent topics: Family",
+          "selection_method": "subtopic_similarity",
+          "super_topic_id": "family",
+          "super_topic_label": "Family"
+        }
+      ],
+      "expanded": []
+    },
+    {
+      "turn": 10,
+      "query": "Blaise: Yeah, I think burnout is definitely part of it. I mean, it\u2019s like I\u2019m constantly juggling all these emotions and expectations, and it\u2019s wearing me down. I want to be excited about the wedding, but instead, I feel like I\u2019m just trying to keep everything from falling apart. It\u2019s exhausting to always be on guard, you know? I just wish I could take a break from all this pressure and not feel like I have to manage everyone else\u2019s feelings all the time. It\u2019s like I\u2019m carrying this weight that I didn\u2019t even ask for, and it\u2019s hard to find a moment to just breathe. I guess I just want to feel lighter, but it\u2019s tough when it feels like there\u2019s always something looming over me.",
+      "prompt_context": "- Stress overload (Mental Health)\n- Burnout (Work)\n- Family pressure (Family)\n\nExplicitly discuss this topic in normal, client-friendly language. Ask whether it fits the client, while leaving room for them to say it does not.",
+      "anchors": [
+        {
+          "id": "stress_overload",
+          "type": "sub_topic",
+          "label": "Stress overload",
+          "score": 0.4225099555781438,
+          "text": "Type: Sub Topic\nLabel: Stress overload\nAliases: stress, overwhelmed, pressure\nParent topics: Mental Health",
+          "selection_method": "subtopic_similarity",
+          "super_topic_id": "mental_health",
+          "super_topic_label": "Mental Health"
+        },
+        {
+          "id": "burnout",
+          "type": "sub_topic",
+          "label": "Burnout",
+          "score": 0.40995384869020757,
+          "text": "Type: Sub Topic\nLabel: Burnout\nAliases: burned out, depleted by work\nParent topics: Work",
+          "selection_method": "subtopic_similarity",
+          "super_topic_id": "work",
+          "super_topic_label": "Work"
+        },
+        {
+          "id": "family_pressure",
+          "type": "sub_topic",
+          "label": "Family pressure",
+          "score": 0.36031096968413895,
+          "text": "Type: Sub Topic\nLabel: Family pressure\nAliases: pressure from family, expectations at home\nParent topics: Family",
+          "selection_method": "subtopic_similarity",
+          "super_topic_id": "family",
+          "super_topic_label": "Family"
+        }
+      ],
+      "expanded": []
+    },
+    {
+      "turn": 12,
+      "query": "Blaise: Yeah, that definitely resonates. It\u2019s like I\u2019ve taken on this role where I feel responsible for everyone\u2019s happiness, and if I step back even a little, I worry it\u2019ll all come crashing down. I mean, I know it\u2019s not my job to hold everything together, but it feels like if I don\u2019t, then who will? I guess I\u2019ve just gotten so used to putting others first that the idea of prioritizing myself feels foreign, almost like I\u2019m betraying something. It\u2019s frustrating because I want to be there for my family and enjoy this time, but I also want to feel like I matter in all of this. It\u2019s just hard to find that balance, you know?",
+      "prompt_context": "- Caretaking role burden (Social Life)\n- Family pressure (Family)\n- Role insecurity (Work)\n\nExplicitly discuss this topic in normal, client-friendly language. Ask whether it fits the client, while leaving room for them to say it does not.",
+      "anchors": [
+        {
+          "id": "caretaking_roles",
+          "type": "sub_topic",
+          "label": "Caretaking role burden",
+          "score": 0.3942326425841437,
+          "text": "Type: Sub Topic\nLabel: Caretaking role burden\nAliases: caretaking role, taking care of others\nParent topics: Social Life",
+          "selection_method": "subtopic_similarity",
+          "super_topic_id": "social_life",
+          "super_topic_label": "Social Life"
+        },
+        {
+          "id": "family_pressure",
+          "type": "sub_topic",
+          "label": "Family pressure",
+          "score": 0.3700372239840901,
+          "text": "Type: Sub Topic\nLabel: Family pressure\nAliases: pressure from family, expectations at home\nParent topics: Family",
+          "selection_method": "subtopic_similarity",
+          "super_topic_id": "family",
+          "super_topic_label": "Family"
+        },
+        {
+          "id": "role_insecurity",
+          "type": "sub_topic",
+          "label": "Role insecurity",
+          "score": 0.3539523322030633,
+          "text": "Type: Sub Topic\nLabel: Role insecurity\nAliases: job insecurity, not good enough at work\nParent topics: Work",
+          "selection_method": "subtopic_similarity",
+          "super_topic_id": "work",
+          "super_topic_label": "Work"
+        }
+      ],
+      "expanded": []
+    },
+    {
+      "turn": 14,
+      "query": "Blaise: It\u2019s definitely eye-opening to think about how much that role has shaped my life. I mean, part of me understands why I fell into it\u2014wanting to keep the peace and make everyone happy seemed like the right thing to do. But now, it feels like I\u2019m trapped in this cycle where my own happiness gets pushed aside. It\u2019s frustrating because I want to enjoy my wedding and this time in my life, but I keep getting pulled back into that peacemaker role. It\u2019s like I can\u2019t break free from it, and I worry that if I don\u2019t keep managing everything, it\u2019ll all fall apart. I guess it makes me feel a bit resentful, too, because I want to feel like I matter just as much as everyone else. It\u2019s hard to reconcile those feelings with the expectation that I have to be the one to hold it all together.",
+      "prompt_context": "- Caretaking role burden (Social Life)\n- Family pressure (Family)\n- Role insecurity (Work)\n\nExplicitly discuss this topic in normal, client-friendly language. Ask whether it fits the client, while leaving room for them to say it does not.",
+      "anchors": [
+        {
+          "id": "caretaking_roles",
+          "type": "sub_topic",
+          "label": "Caretaking role burden",
+          "score": 0.36202985289534817,
+          "text": "Type: Sub Topic\nLabel: Caretaking role burden\nAliases: caretaking role, taking care of others\nParent topics: Social Life",
+          "selection_method": "subtopic_similarity",
+          "super_topic_id": "social_life",
+          "super_topic_label": "Social Life"
+        },
+        {
+          "id": "family_pressure",
+          "type": "sub_topic",
+          "label": "Family pressure",
+          "score": 0.3550282409902119,
+          "text": "Type: Sub Topic\nLabel: Family pressure\nAliases: pressure from family, expectations at home\nParent topics: Family",
+          "selection_method": "subtopic_similarity",
+          "super_topic_id": "family",
+          "super_topic_label": "Family"
+        },
+        {
+          "id": "role_insecurity",
+          "type": "sub_topic",
+          "label": "Role insecurity",
+          "score": 0.3545591831151707,
+          "text": "Type: Sub Topic\nLabel: Role insecurity\nAliases: job insecurity, not good enough at work\nParent topics: Work",
+          "selection_method": "subtopic_similarity",
+          "super_topic_id": "work",
+          "super_topic_label": "Work"
+        }
+      ],
+      "expanded": []
+    },
+    {
+      "turn": 16,
+      "query": "Blaise: Yeah, work stress definitely adds another layer to everything. It\u2019s like I\u2019m constantly juggling deadlines and expectations there, too. Some days, it feels like I\u2019m just running on empty, trying to keep up with everything. When I get home, I\u2019m already drained, and then I have to dive into family stuff and wedding planning. It\u2019s overwhelming, honestly. I think that\u2019s part of why I feel so guilty about wanting time for myself\u2014I\u2019m already stretched so thin, and I worry that if I take a break, I won\u2019t be able to catch up. It\u2019s like I\u2019m in this never-ending cycle of trying to please everyone, and it just leaves me feeling more exhausted. I want to be present for my job, my family, and my fianc\u00e9, but it feels like there\u2019s never enough of me to go around.",
+      "prompt_context": "- Stress overload (Mental Health)\n- Work stress (Work)\n- Family pressure (Family)\n\nExplicitly discuss this topic in normal, client-friendly language. Ask whether it fits the client, while leaving room for them to say it does not.",
+      "anchors": [
+        {
+          "id": "stress_overload",
+          "type": "sub_topic",
+          "label": "Stress overload",
+          "score": 0.45224861421432183,
+          "text": "Type: Sub Topic\nLabel: Stress overload\nAliases: stress, overwhelmed, pressure\nParent topics: Mental Health",
+          "selection_method": "subtopic_similarity",
+          "super_topic_id": "mental_health",
+          "super_topic_label": "Mental Health"
+        },
+        {
+          "id": "work_stress",
+          "type": "sub_topic",
+          "label": "Work stress",
+          "score": 0.436175072518498,
+          "text": "Type: Sub Topic\nLabel: Work stress\nAliases: job stress, work pressure\nParent topics: Work",
+          "selection_method": "subtopic_similarity",
+          "super_topic_id": "work",
+          "super_topic_label": "Work"
+        },
+        {
+          "id": "family_pressure",
+          "type": "sub_topic",
+          "label": "Family pressure",
+          "score": 0.4013000164657259,
+          "text": "Type: Sub Topic\nLabel: Family pressure\nAliases: pressure from family, expectations at home\nParent topics: Family",
+          "selection_method": "subtopic_similarity",
+          "super_topic_id": "family",
+          "super_topic_label": "Family"
+        }
+      ],
+      "expanded": []
+    },
+    {
+      "turn": 17,
+      "query": "Blaise: Yeah, there are definitely specific moments that stand out. At work, it\u2019s like every project has a tight deadline, and I feel this constant pressure to deliver. I remember last week, I had this big presentation, and I was so stressed about it that I barely slept the night before. I ended up working late to make sure everything was perfect, but even then, I felt like I was just barely scraping by. And then, when I got home, my parents called to discuss the wedding plans, and it felt like I was just shifting gears from one high-pressure situation to another. It\u2019s like I can\u2019t catch my breath. I want to do well at work, but then I come home and have to deal with family dynamics that just drain me even more. It\u2019s frustrating because I want to be able to enjoy my job and my family, but it feels like I\u2019m just surviving instead of really living.",
+      "prompt_context": "- Work stress (Work)\n- Family pressure (Family)\n- Stress overload (Mental Health)\n\nExplicitly discuss this topic in normal, client-friendly language. Ask whether it fits the client, while leaving room for them to say it does not.",
+      "anchors": [
+        {
+          "id": "work_stress",
+          "type": "sub_topic",
+          "label": "Work stress",
+          "score": 0.48390640451668027,
+          "text": "Type: Sub Topic\nLabel: Work stress\nAliases: job stress, work pressure\nParent topics: Work",
+          "selection_method": "subtopic_similarity",
+          "super_topic_id": "work",
+          "super_topic_label": "Work"
+        },
+        {
+          "id": "family_pressure",
+          "type": "sub_topic",
+          "label": "Family pressure",
+          "score": 0.4820874570503012,
+          "text": "Type: Sub Topic\nLabel: Family pressure\nAliases: pressure from family, expectations at home\nParent topics: Family",
+          "selection_method": "subtopic_similarity",
+          "super_topic_id": "family",
+          "super_topic_label": "Family"
+        },
+        {
+          "id": "stress_overload",
+          "type": "sub_topic",
+          "label": "Stress overload",
+          "score": 0.452736382910565,
+          "text": "Type: Sub Topic\nLabel: Stress overload\nAliases: stress, overwhelmed, pressure\nParent topics: Mental Health",
+          "selection_method": "subtopic_similarity",
+          "super_topic_id": "mental_health",
+          "super_topic_label": "Mental Health"
+        }
+      ],
+      "expanded": []
+    },
+    {
+      "turn": 18,
+      "query": "Blaise: Well, I guess I try to find little ways to cope, but it often feels like a drop in the bucket. Sometimes I\u2019ll go for a walk or listen to music to clear my head, but those moments are usually short-lived. I often find myself just pushing through, thinking that if I can just get through the next task or conversation, things will calm down. But then, it\u2019s like I\u2019m just delaying the inevitable. I know I should probably be more proactive about finding ways to manage my stress, but it\u2019s hard to prioritize that when I feel like I\u2019m constantly in crisis mode. I guess I just keep hoping that once the wedding is over or once this project at work wraps up, I\u2019ll finally have a chance to breathe. But then, there\u2019s always something else waiting around the corner. It\u2019s frustrating because I want to feel more in control, but it often feels like I\u2019m just reacting to everything instead of taking charge of my own well-being.",
+      "prompt_context": "- Stress overload (Mental Health)\n- Work stress (Work)\n- Overcontrol pattern (Coping)\n\nExplicitly discuss this topic in normal, client-friendly language. Ask whether it fits the client, while leaving room for them to say it does not.",
+      "anchors": [
+        {
+          "id": "stress_overload",
+          "type": "sub_topic",
+          "label": "Stress overload",
+          "score": 0.4344754296649042,
+          "text": "Type: Sub Topic\nLabel: Stress overload\nAliases: stress, overwhelmed, pressure\nParent topics: Mental Health",
+          "selection_method": "subtopic_similarity",
+          "super_topic_id": "mental_health",
+          "super_topic_label": "Mental Health"
+        },
+        {
+          "id": "work_stress",
+          "type": "sub_topic",
+          "label": "Work stress",
+          "score": 0.3939420357835045,
+          "text": "Type: Sub Topic\nLabel: Work stress\nAliases: job stress, work pressure\nParent topics: Work",
+          "selection_method": "subtopic_similarity",
+          "super_topic_id": "work",
+          "super_topic_label": "Work"
+        },
+        {
+          "id": "overcontrol_pattern",
+          "type": "sub_topic",
+          "label": "Overcontrol pattern",
+          "score": 0.3869062604365804,
+          "text": "Type: Sub Topic\nLabel: Overcontrol pattern\nAliases: must stay in control, overcontrol\nParent topics: Coping",
+          "selection_method": "subtopic_similarity",
+          "super_topic_id": "coping",
+          "super_topic_label": "Coping"
+        }
+      ],
+      "expanded": []
+    },
+    {
+      "turn": 19,
+      "query": "Blaise: You know, when I think about taking more time for myself, there\u2019s this nagging fear that creeps in. It\u2019s like I worry that if I step away, even for a moment, everything will unravel. I keep thinking about how my family might react\u2014like they\u2019ll see me as being selfish or not committed enough to the wedding or to them. It\u2019s almost like I feel this obligation to be available and present all the time, and if I\u2019m not, I might disappoint them or let them down. There\u2019s also this underlying belief that if I don\u2019t keep pushing through, I\u2019ll be seen as weak or incapable. It\u2019s frustrating because I know I need to take care of myself, but that fear of judgment and the pressure to maintain my role just keeps me stuck. I guess it\u2019s hard to shake off those thoughts when they\u2019ve been part of my life for so long.",
+      "prompt_context": "- Family pressure (Family)\n- Role insecurity (Work)\n- Perfectionism pattern (Coping)\n\nExplicitly discuss this topic in normal, client-friendly language. Ask whether it fits the client, while leaving room for them to say it does not.",
+      "anchors": [
+        {
+          "id": "family_pressure",
+          "type": "sub_topic",
+          "label": "Family pressure",
+          "score": 0.429708036287221,
+          "text": "Type: Sub Topic\nLabel: Family pressure\nAliases: pressure from family, expectations at home\nParent topics: Family",
+          "selection_method": "subtopic_similarity",
+          "super_topic_id": "family",
+          "super_topic_label": "Family"
+        },
+        {
+          "id": "role_insecurity",
+          "type": "sub_topic",
+          "label": "Role insecurity",
+          "score": 0.4083798711329096,
+          "text": "Type: Sub Topic\nLabel: Role insecurity\nAliases: job insecurity, not good enough at work\nParent topics: Work",
+          "selection_method": "subtopic_similarity",
+          "super_topic_id": "work",
+          "super_topic_label": "Work"
+        },
+        {
+          "id": "perfectionism_pattern",
+          "type": "sub_topic",
+          "label": "Perfectionism pattern",
+          "score": 0.40701538361052697,
+          "text": "Type: Sub Topic\nLabel: Perfectionism pattern\nAliases: must get it right, perfectionistic\nParent topics: Coping",
+          "selection_method": "subtopic_similarity",
+          "super_topic_id": "coping",
+          "super_topic_label": "Coping"
+        }
+      ],
+      "expanded": []
+    },
+    {
+      "turn": 20,
+      "query": "Blaise: You know, when I think about it, I can trace some of these beliefs back to my childhood. My parents always emphasized the importance of family loyalty and being there for one another, which I get\u2014it\u2019s a nice value to have. But it often felt like there was this unspoken rule that you had to put everyone else first, no matter what. I remember times when I wanted to do something for myself, but it was always about making sure everyone else was happy or taken care of first. It\u2019s like I learned that my worth was tied to how much I could do for others. I guess that\u2019s why I feel so guilty about wanting to take time for myself now. It\u2019s hard to shake off that conditioning, especially when it feels like I\u2019m betraying those family values if I prioritize my own needs. It\u2019s frustrating because I want to break free from that cycle, but it feels like I\u2019m constantly battling against these ingrained beliefs.",
+      "prompt_context": "- Family pressure (Family)\n- Personal growth and values (Identity)\n- Identity shame (Identity)\n\nExplicitly discuss this topic in normal, client-friendly language. Ask whether it fits the client, while leaving room for them to say it does not.",
+      "anchors": [
+        {
+          "id": "family_pressure",
+          "type": "sub_topic",
+          "label": "Family pressure",
+          "score": 0.43873048969357054,
+          "text": "Type: Sub Topic\nLabel: Family pressure\nAliases: pressure from family, expectations at home\nParent topics: Family",
+          "selection_method": "subtopic_similarity",
+          "super_topic_id": "family",
+          "super_topic_label": "Family"
+        },
+        {
+          "id": "personal_growth_theme",
+          "type": "sub_topic",
+          "label": "Personal growth and values",
+          "score": 0.40802925776753596,
+          "text": "Type: Sub Topic\nLabel: Personal growth and values\nAliases: personal growth, values, who I want to be\nParent topics: Identity",
+          "selection_method": "subtopic_similarity",
+          "super_topic_id": "identity",
+          "super_topic_label": "Identity"
+        },
+        {
+          "id": "identity_shame",
+          "type": "sub_topic",
+          "label": "Identity shame",
+          "score": 0.3652084534647882,
+          "text": "Type: Sub Topic\nLabel: Identity shame\nAliases: ashamed of who I am\nParent topics: Identity",
+          "selection_method": "subtopic_similarity",
+          "super_topic_id": "identity",
+          "super_topic_label": "Identity"
+        }
+      ],
+      "expanded": []
+    },
+    {
+      "turn": 21,
+      "query": "Blaise: Yeah, that tension is definitely something I feel often. There are moments when I catch myself wanting to say no to something or take a step back, but then I hear that voice in my head reminding me of those family values. It\u2019s like I\u2019m torn between wanting to honor my own needs and not wanting to let anyone down. I remember a time recently when I had the chance to go on a short trip with my fianc\u00e9, but I ended up canceling because my parents needed help with something. I felt this pull to be there for them, but at the same time, I was disappointed in myself for not prioritizing what I wanted. It\u2019s frustrating because I know I should be able to find a balance, but it often feels like I\u2019m stuck in this cycle of obligation. I guess I just keep hoping that one day I\u2019ll find a way to break free from that guilt and feel okay about putting myself first, but it\u2019s hard to see how that could happen when I\u2019ve been conditioned this way for so long.",
+      "prompt_context": "- Family pressure (Family)\n- Overcontrol pattern (Coping)\n- Relationship conflict (Relationships)\n\nExplicitly discuss this topic in normal, client-friendly language. Ask whether it fits the client, while leaving room for them to say it does not.",
+      "anchors": [
+        {
+          "id": "family_pressure",
+          "type": "sub_topic",
+          "label": "Family pressure",
+          "score": 0.4646262611028873,
+          "text": "Type: Sub Topic\nLabel: Family pressure\nAliases: pressure from family, expectations at home\nParent topics: Family",
+          "selection_method": "subtopic_similarity",
+          "super_topic_id": "family",
+          "super_topic_label": "Family"
+        },
+        {
+          "id": "overcontrol_pattern",
+          "type": "sub_topic",
+          "label": "Overcontrol pattern",
+          "score": 0.38089120183502795,
+          "text": "Type: Sub Topic\nLabel: Overcontrol pattern\nAliases: must stay in control, overcontrol\nParent topics: Coping",
+          "selection_method": "subtopic_similarity",
+          "super_topic_id": "coping",
+          "super_topic_label": "Coping"
+        },
+        {
+          "id": "relationship_conflict",
+          "type": "sub_topic",
+          "label": "Relationship conflict",
+          "score": 0.3705193156305172,
+          "text": "Type: Sub Topic\nLabel: Relationship conflict\nAliases: partner conflict, interpersonal conflict\nParent topics: Relationships",
+          "selection_method": "subtopic_similarity",
+          "super_topic_id": "relationships",
+          "super_topic_label": "Relationships"
+        }
+      ],
+      "expanded": []
+    },
+    {
+      "turn": 22,
+      "query": "Blaise: You know, I\u2019ve thought about that, and it\u2019s a bit daunting. I mean, the idea of taking small steps sounds good in theory, but I worry about how my family would react. Like, if I were to say no to something or take a little time for myself, would they see it as me not caring? It\u2019s hard to imagine doing that without feeling guilty. But at the same time, I know I can\u2019t keep going like this. I guess maybe I could start with something really small, like carving out a few minutes each day just for myself, but even that feels like a challenge. It\u2019s frustrating because I want to feel empowered to make those choices, but that voice in my head keeps reminding me of my obligations. I just don\u2019t want to disappoint anyone, you know? It\u2019s like I\u2019m stuck in this tug-of-war between what I want and what I feel I should do.",
+      "prompt_context": "- Family pressure (Family)\n- Overcontrol pattern (Coping)\n- Perfectionism pattern (Coping)\n\nExplicitly discuss this topic in normal, client-friendly language. Ask whether it fits the client, while leaving room for them to say it does not.",
+      "anchors": [
+        {
+          "id": "family_pressure",
+          "type": "sub_topic",
+          "label": "Family pressure",
+          "score": 0.3774277476824035,
+          "text": "Type: Sub Topic\nLabel: Family pressure\nAliases: pressure from family, expectations at home\nParent topics: Family",
+          "selection_method": "subtopic_similarity",
+          "super_topic_id": "family",
+          "super_topic_label": "Family"
+        },
+        {
+          "id": "overcontrol_pattern",
+          "type": "sub_topic",
+          "label": "Overcontrol pattern",
+          "score": 0.3441306094094924,
+          "text": "Type: Sub Topic\nLabel: Overcontrol pattern\nAliases: must stay in control, overcontrol\nParent topics: Coping",
+          "selection_method": "subtopic_similarity",
+          "super_topic_id": "coping",
+          "super_topic_label": "Coping"
+        },
+        {
+          "id": "perfectionism_pattern",
+          "type": "sub_topic",
+          "label": "Perfectionism pattern",
+          "score": 0.3418214068816658,
+          "text": "Type: Sub Topic\nLabel: Perfectionism pattern\nAliases: must get it right, perfectionistic\nParent topics: Coping",
+          "selection_method": "subtopic_similarity",
+          "super_topic_id": "coping",
+          "super_topic_label": "Coping"
+        }
+      ],
+      "expanded": []
+    },
+    {
+      "turn": 23,
+      "query": "Blaise: Well, when I think about those few minutes for myself, I feel this mix of anxiety and guilt. It\u2019s like my mind starts racing with thoughts about what I should be doing instead\u2014like I could be helping my parents or working on something for the wedding. I also worry that if I take that time, it\u2019ll somehow be seen as me being selfish or not committed enough. It\u2019s frustrating because I know logically that everyone needs a break, but emotionally, it feels like I\u2019m betraying my family\u2019s expectations. I guess there\u2019s this part of me that feels like I don\u2019t deserve that time, like I have to earn it by being available for everyone else first. It\u2019s a heavy weight to carry, and it makes even the thought of taking a small step feel overwhelming.",
+      "prompt_context": "- Family pressure (Family)\n- Role insecurity (Work)\n- Rumination pattern (Coping)\n\nExplicitly discuss this topic in normal, client-friendly language. Ask whether it fits the client, while leaving room for them to say it does not.",
+      "anchors": [
+        {
+          "id": "family_pressure",
+          "type": "sub_topic",
+          "label": "Family pressure",
+          "score": 0.40118691456958694,
+          "text": "Type: Sub Topic\nLabel: Family pressure\nAliases: pressure from family, expectations at home\nParent topics: Family",
+          "selection_method": "subtopic_similarity",
+          "super_topic_id": "family",
+          "super_topic_label": "Family"
+        },
+        {
+          "id": "role_insecurity",
+          "type": "sub_topic",
+          "label": "Role insecurity",
+          "score": 0.37232821890968015,
+          "text": "Type: Sub Topic\nLabel: Role insecurity\nAliases: job insecurity, not good enough at work\nParent topics: Work",
+          "selection_method": "subtopic_similarity",
+          "super_topic_id": "work",
+          "super_topic_label": "Work"
+        },
+        {
+          "id": "rumination_pattern",
+          "type": "sub_topic",
+          "label": "Rumination pattern",
+          "score": 0.3534297937813585,
+          "text": "Type: Sub Topic\nLabel: Rumination pattern\nAliases: overthinking, rumination\nParent topics: Coping",
+          "selection_method": "subtopic_similarity",
+          "super_topic_id": "coping",
+          "super_topic_label": "Coping"
+        }
+      ],
+      "expanded": []
+    },
+    {
+      "turn": 24,
+      "query": "Blaise: You know, there have been a couple of times where I felt like I managed to find that balance, but they were few and far between. I remember a time when I took a weekend to myself to just relax and recharge. It was a bit of a spontaneous decision, and I felt guilty at first, but once I was there, I actually enjoyed it. I was able to disconnect from all the obligations and just focus on what I wanted to do. But then, as soon as I got back, I felt this wave of guilt wash over me for having taken that time. It was like I had to justify it to my family, explaining why I needed that break. So, while I had that moment of peace, it quickly turned into a reminder of how hard it is to prioritize myself without feeling that weight of expectation. I guess it\u2019s just hard to hold onto those positive experiences when the guilt comes rushing back so quickly.",
+      "prompt_context": "- Self-attack pattern (Coping)\n- Family pressure (Family)\n- Rumination pattern (Coping)\n\nExplicitly discuss this topic in normal, client-friendly language. Ask whether it fits the client, while leaving room for them to say it does not.",
+      "anchors": [
+        {
+          "id": "self_attack_pattern",
+          "type": "sub_topic",
+          "label": "Self-attack pattern",
+          "score": 0.31293126414790023,
+          "text": "Type: Sub Topic\nLabel: Self-attack pattern\nAliases: beating myself up, self-criticism\nParent topics: Coping",
+          "selection_method": "subtopic_similarity",
+          "super_topic_id": "coping",
+          "super_topic_label": "Coping"
+        },
+        {
+          "id": "family_pressure",
+          "type": "sub_topic",
+          "label": "Family pressure",
+          "score": 0.31078325185131683,
+          "text": "Type: Sub Topic\nLabel: Family pressure\nAliases: pressure from family, expectations at home\nParent topics: Family",
+          "selection_method": "subtopic_similarity",
+          "super_topic_id": "family",
+          "super_topic_label": "Family"
+        },
+        {
+          "id": "rumination_pattern",
+          "type": "sub_topic",
+          "label": "Rumination pattern",
+          "score": 0.30712823425837893,
+          "text": "Type: Sub Topic\nLabel: Rumination pattern\nAliases: overthinking, rumination\nParent topics: Coping",
+          "selection_method": "subtopic_similarity",
+          "super_topic_id": "coping",
+          "super_topic_label": "Coping"
+        }
+      ],
+      "expanded": []
+    },
+    {
+      "turn": 25,
+      "query": "Blaise: You know, when I really think about it, the guilt seems to stem from this deep-seated belief that my value is tied to my availability and how much I can do for others. It\u2019s like, if I take time for myself, I\u2019m somehow neglecting my responsibilities or not living up to those family values that were drilled into me. I feel like I\u2019m letting my family down, and that\u2019s a heavy burden to carry. It\u2019s frustrating because I know that everyone needs time for themselves, but I can\u2019t shake the feeling that I\u2019m being selfish for wanting that. I guess it\u2019s just hard to reconcile the idea that taking care of myself doesn\u2019t mean I care any less about them. It\u2019s like there\u2019s this constant battle in my mind, and the guilt just makes it all the more complicated.",
+      "prompt_context": "- Family pressure (Family)\n- Identity shame (Identity)\n- Caretaking role burden (Social Life)\n\nExplicitly discuss this topic in normal, client-friendly language. Ask whether it fits the client, while leaving room for them to say it does not.",
+      "anchors": [
+        {
+          "id": "family_pressure",
+          "type": "sub_topic",
+          "label": "Family pressure",
+          "score": 0.4031548228721391,
+          "text": "Type: Sub Topic\nLabel: Family pressure\nAliases: pressure from family, expectations at home\nParent topics: Family",
+          "selection_method": "subtopic_similarity",
+          "super_topic_id": "family",
+          "super_topic_label": "Family"
+        },
+        {
+          "id": "identity_shame",
+          "type": "sub_topic",
+          "label": "Identity shame",
+          "score": 0.37645215695339157,
+          "text": "Type: Sub Topic\nLabel: Identity shame\nAliases: ashamed of who I am\nParent topics: Identity",
+          "selection_method": "subtopic_similarity",
+          "super_topic_id": "identity",
+          "super_topic_label": "Identity"
+        },
+        {
+          "id": "caretaking_roles",
+          "type": "sub_topic",
+          "label": "Caretaking role burden",
+          "score": 0.3711951355228693,
+          "text": "Type: Sub Topic\nLabel: Caretaking role burden\nAliases: caretaking role, taking care of others\nParent topics: Social Life",
+          "selection_method": "subtopic_similarity",
+          "super_topic_id": "social_life",
+          "super_topic_label": "Social Life"
+        }
+      ],
+      "expanded": []
+    }
+  ],
+  "topic_probe_events": [
+    {
+      "turn": 1,
+      "prompt_context": "- Relationship rejection (Relationships)\n\nExplicitly discuss this topic in normal, client-friendly language. Ask whether it fits the client, while leaving room for them to say it does not.",
+      "anchors": [
+        {
+          "id": "relationship_rejection",
+          "type": "sub_topic",
+          "label": "Relationship rejection",
+          "score": 1.0,
+          "selection_method": "random_subtopic_probe",
+          "super_topic_id": "relationships",
+          "super_topic_label": "Relationships"
+        }
+      ],
+      "expanded": [],
+      "client_reply": "Blaise: Well, I mean, rejection is... it's not exactly a walk in the park, is it? But, I guess it's not like I'm sitting around thinking about it all the time. I\u2019ve got other things to worry about, like planning this wedding and dealing with my parents. They have their ideas about who should be invited, and it\u2019s like, I don\u2019t want to upset anyone, you know? So, I guess that\u2019s more on my mind right now than anything else.",
+      "graph_context_source": "random_subtopic_probe"
+    },
+    {
+      "turn": 3,
+      "prompt_context": "- Hypervigilance (Safety)\n\nExplicitly discuss this topic in normal, client-friendly language. Ask whether it fits the client, while leaving room for them to say it does not.",
+      "anchors": [
+        {
+          "id": "safety_hypervigilance",
+          "type": "sub_topic",
+          "label": "Hypervigilance",
+          "score": 1.0,
+          "selection_method": "random_subtopic_probe",
+          "super_topic_id": "safety",
+          "super_topic_label": "Safety"
+        }
+      ],
+      "expanded": [],
+      "client_reply": "Blaise: Yeah, I guess that makes sense. I mean, it\u2019s like I\u2019m always trying to read the room, you know? Like, if I say something they don\u2019t like, it\u2019s going to blow up into a big deal. I just keep thinking about how they might react, and it makes me second-guess everything. I want to enjoy this time, but instead, I\u2019m just... tense. It\u2019s hard to focus on what I really want when I\u2019m so worried about their feelings. I just wish it could be simpler, but it never is, is it?",
+      "graph_context_source": "random_subtopic_probe"
+    },
+    {
+      "turn": 5,
+      "prompt_context": "- Domestic instability (Housing/Home)\n\nExplicitly discuss this topic in normal, client-friendly language. Ask whether it fits the client, while leaving room for them to say it does not.",
+      "anchors": [
+        {
+          "id": "home_instability",
+          "type": "sub_topic",
+          "label": "Domestic instability",
+          "score": 1.0,
+          "selection_method": "random_subtopic_probe",
+          "super_topic_id": "housing_home",
+          "super_topic_label": "Housing/Home"
+        }
+      ],
+      "expanded": [],
+      "client_reply": "Blaise: I mean, yeah, I guess that makes sense. It\u2019s just... home feels a bit chaotic right now, you know? I want everything to go smoothly, but it\u2019s like there\u2019s this constant tension in the air. I keep thinking about how everyone\u2019s going to react to the wedding, and it\u2019s like, I can\u2019t even enjoy the planning. I just want to feel secure and excited, but instead, I\u2019m just... on edge. It\u2019s hard to think about what I want when I\u2019m so focused on keeping the peace at home. I just wish it didn\u2019t feel so complicated.",
+      "graph_context_source": "random_subtopic_probe"
+    },
+    {
+      "turn": 7,
+      "prompt_context": "- Craving escape (Addiction)\n\nExplicitly discuss this topic in normal, client-friendly language. Ask whether it fits the client, while leaving room for them to say it does not.",
+      "anchors": [
+        {
+          "id": "craving_escape",
+          "type": "sub_topic",
+          "label": "Craving escape",
+          "score": 1.0,
+          "selection_method": "random_subtopic_probe",
+          "super_topic_id": "addiction",
+          "super_topic_label": "Addiction"
+        }
+      ],
+      "expanded": [],
+      "client_reply": "Blaise: Yeah, I guess that makes sense. I mean, who wouldn\u2019t want to escape from all this pressure, right? It\u2019s just... I keep thinking about how nice it would be to just enjoy the little things without this weight on my shoulders. But then there\u2019s this nagging feeling that if I let go even a little, something will go wrong. It\u2019s like I\u2019m stuck in this cycle of wanting to be present and enjoy the moment, but I can\u2019t shake off the worry. I just want to feel like I can breathe and not have to constantly think about how my choices might upset someone. It\u2019s like I\u2019m in this tug-of-war with myself, and it\u2019s exhausting.",
+      "graph_context_source": "random_subtopic_probe"
+    },
+    {
+      "turn": 9,
+      "prompt_context": "- Burnout (Work)\n\nExplicitly discuss this topic in normal, client-friendly language. Ask whether it fits the client, while leaving room for them to say it does not.",
+      "anchors": [
+        {
+          "id": "burnout",
+          "type": "sub_topic",
+          "label": "Burnout",
+          "score": 1.0,
+          "selection_method": "random_subtopic_probe",
+          "super_topic_id": "work",
+          "super_topic_label": "Work"
+        }
+      ],
+      "expanded": [],
+      "client_reply": "Blaise: Yeah, I think burnout is definitely part of it. I mean, it\u2019s like I\u2019m constantly juggling all these emotions and expectations, and it\u2019s wearing me down. I want to be excited about the wedding, but instead, I feel like I\u2019m just trying to keep everything from falling apart. It\u2019s exhausting to always be on guard, you know? I just wish I could take a break from all this pressure and not feel like I have to manage everyone else\u2019s feelings all the time. It\u2019s like I\u2019m carrying this weight that I didn\u2019t even ask for, and it\u2019s hard to find a moment to just breathe. I guess I just want to feel lighter, but it\u2019s tough when it feels like there\u2019s always something looming over me.",
+      "graph_context_source": "random_subtopic_probe"
+    },
+    {
+      "turn": 11,
+      "prompt_context": "- Betrayal (Relationships)\n\nExplicitly discuss this topic in normal, client-friendly language. Ask whether it fits the client, while leaving room for them to say it does not.",
+      "anchors": [
+        {
+          "id": "betrayal",
+          "type": "sub_topic",
+          "label": "Betrayal",
+          "score": 1.0,
+          "selection_method": "random_subtopic_probe",
+          "super_topic_id": "relationships",
+          "super_topic_label": "Relationships"
+        }
+      ],
+      "expanded": [],
+      "client_reply": "Blaise: Yeah, that definitely resonates. It\u2019s like I\u2019ve taken on this role where I feel responsible for everyone\u2019s happiness, and if I step back even a little, I worry it\u2019ll all come crashing down. I mean, I know it\u2019s not my job to hold everything together, but it feels like if I don\u2019t, then who will? I guess I\u2019ve just gotten so used to putting others first that the idea of prioritizing myself feels foreign, almost like I\u2019m betraying something. It\u2019s frustrating because I want to be there for my family and enjoy this time, but I also want to feel like I matter in all of this. It\u2019s just hard to find that balance, you know?",
+      "graph_context_source": "random_subtopic_probe"
+    },
+    {
+      "turn": 13,
+      "prompt_context": "- Chronic condition (Health)\n\nExplicitly discuss this topic in normal, client-friendly language. Ask whether it fits the client, while leaving room for them to say it does not.",
+      "anchors": [
+        {
+          "id": "chronic_condition",
+          "type": "sub_topic",
+          "label": "Chronic condition",
+          "score": 1.0,
+          "selection_method": "random_subtopic_probe",
+          "super_topic_id": "health",
+          "super_topic_label": "Health"
+        }
+      ],
+      "expanded": [],
+      "client_reply": "Blaise: It\u2019s definitely eye-opening to think about how much that role has shaped my life. I mean, part of me understands why I fell into it\u2014wanting to keep the peace and make everyone happy seemed like the right thing to do. But now, it feels like I\u2019m trapped in this cycle where my own happiness gets pushed aside. It\u2019s frustrating because I want to enjoy my wedding and this time in my life, but I keep getting pulled back into that peacemaker role. It\u2019s like I can\u2019t break free from it, and I worry that if I don\u2019t keep managing everything, it\u2019ll all fall apart. I guess it makes me feel a bit resentful, too, because I want to feel like I matter just as much as everyone else. It\u2019s hard to reconcile those feelings with the expectation that I have to be the one to hold it all together.",
+      "graph_context_source": "random_subtopic_probe"
+    },
+    {
+      "turn": 15,
+      "prompt_context": "- Work stress (Work)\n\nExplicitly discuss this topic in normal, client-friendly language. Ask whether it fits the client, while leaving room for them to say it does not.",
+      "anchors": [
+        {
+          "id": "work_stress",
+          "type": "sub_topic",
+          "label": "Work stress",
+          "score": 1.0,
+          "selection_method": "random_subtopic_probe",
+          "super_topic_id": "work",
+          "super_topic_label": "Work"
+        }
+      ],
+      "expanded": [],
+      "client_reply": "Blaise: Yeah, work stress definitely adds another layer to everything. It\u2019s like I\u2019m constantly juggling deadlines and expectations there, too. Some days, it feels like I\u2019m just running on empty, trying to keep up with everything. When I get home, I\u2019m already drained, and then I have to dive into family stuff and wedding planning. It\u2019s overwhelming, honestly. I think that\u2019s part of why I feel so guilty about wanting time for myself\u2014I\u2019m already stretched so thin, and I worry that if I take a break, I won\u2019t be able to catch up. It\u2019s like I\u2019m in this never-ending cycle of trying to please everyone, and it just leaves me feeling more exhausted. I want to be present for my job, my family, and my fianc\u00e9, but it feels like there\u2019s never enough of me to go around.",
+      "graph_context_source": "random_subtopic_probe"
+    }
+  ],
+  "topic_probe_config": {
+    "probe_turns": 15,
+    "probe_interval": 2,
+    "probe_anchor_count": 1,
+    "random_seed": null
+  },
+  "final_openness_score": 4,
+  "final_visible_experience_count": 1,
+  "internal_revealed": true
+}

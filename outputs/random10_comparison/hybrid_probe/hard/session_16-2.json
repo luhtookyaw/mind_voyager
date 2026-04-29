@@ -1,0 +1,1095 @@
+{
+  "case_id": "16-2",
+  "client_name": "Mason",
+  "client_mode": "masked",
+  "difficulty": "hard",
+  "openness_interval": 3,
+  "therapist_provider": "openai",
+  "therapist_model": "gpt-4o-mini",
+  "therapist_prompt_mode": "hybrid_probe",
+  "client_model": "gpt-4o-mini",
+  "moderator_enabled": false,
+  "moderator_model": "gpt-4o-mini",
+  "max_turns": 25,
+  "therapist_turns": 25,
+  "stop_reason": "max_turns",
+  "transcript": [
+    {
+      "turn": 1,
+      "speaker": "therapist",
+      "content": "Mason, as we talk about your experiences, I wonder if financial dependency comes into play for you at all. Sometimes, feeling reliant on others for financial support can add a layer of stress or complexity to our lives. Does that resonate with you, or is there something else that feels more relevant?"
+    },
+    {
+      "turn": 1,
+      "speaker": "client",
+      "content": "Mason: I mean, yeah, I guess it does. It\u2019s just... I don\u2019t like to think about it too much. I\u2019ve always tried to handle things on my own, you know? Relying on others feels like... I don\u2019t know, like I\u2019m not doing enough. It\u2019s just complicated. I don\u2019t want to be a burden or anything. So, I try to keep things under control, but sometimes it just feels like there are too many factors to consider."
+    },
+    {
+      "turn": 2,
+      "speaker": "therapist",
+      "content": "It sounds like you really value your independence and want to manage things on your own, which makes sense. Feeling like you might be a burden can create a lot of pressure. When you say it feels complicated, what kind of factors are you thinking about?"
+    },
+    {
+      "turn": 2,
+      "speaker": "client",
+      "content": "Mason: Well, there\u2019s just a lot to juggle, you know? Like, there\u2019s work and bills and... just life stuff. And then there\u2019s the whole idea of making the right choices. I mean, what if I mess something up? It\u2019s like, every decision feels heavy, and I don\u2019t want to let anyone down. So, I try to keep it all in check, but sometimes it just feels like... I don\u2019t know, like I\u2019m walking a tightrope or something."
+    },
+    {
+      "turn": 3,
+      "speaker": "therapist",
+      "content": "It sounds like you\u2019re carrying a lot of weight with all those responsibilities and decisions, almost like you\u2019re balancing on that tightrope. I wonder if part of that pressure comes from feeling uncertain about your role at work or in other areas of your life. Does that idea of role insecurity resonate with you at all, or do you feel like something else is more at play?"
+    },
+    {
+      "turn": 3,
+      "speaker": "client",
+      "content": "Client: Mason: Yeah, I guess that makes sense. I mean, sometimes I do feel like I\u2019m not really sure where I fit in, especially at work. It\u2019s like, I\u2019m there, but am I really contributing? I worry about whether I\u2019m doing enough or if I\u2019m just... floating along. It\u2019s frustrating because I want to feel secure in what I\u2019m doing, but there\u2019s always this nagging doubt. Like, what if I\u2019m not living up to expectations, you know? It\u2019s just... a lot to think about."
+    },
+    {
+      "turn": 4,
+      "speaker": "therapist",
+      "content": "Therapist: It sounds like you\u2019re grappling with some significant doubts about your contributions and place at work, which can be really challenging. That feeling of floating along and not quite meeting expectations can create a lot of anxiety. When you think about those expectations, whose voice do you hear? Is it your own, or do you feel influenced by others around you?"
+    },
+    {
+      "turn": 4,
+      "speaker": "client",
+      "content": "Mason: Well, it\u2019s hard to say. I mean, I think some of it is definitely my own voice, like I set these standards for myself, but there\u2019s also this pressure from my boss and colleagues. It\u2019s like I can\u2019t escape it. I hear them in my head, you know? Sometimes it feels like I\u2019m trying to meet their expectations while also battling my own. It\u2019s just... overwhelming. I don\u2019t want to disappoint anyone, but at the same time, I feel like I\u2019m just trying to keep my head above water."
+    },
+    {
+      "turn": 5,
+      "speaker": "therapist",
+      "content": "It sounds like you're caught in a tough spot, trying to balance your own expectations with those of your boss and colleagues. That can definitely feel overwhelming, especially when you're striving to meet so many demands. I wonder if part of what makes this so heavy is the tendency to ruminate on these thoughts, going over them repeatedly in your mind. Does that resonate with you at all, or do you feel like there\u2019s something else that\u2019s more relevant to what you\u2019re experiencing?"
+    },
+    {
+      "turn": 5,
+      "speaker": "client",
+      "content": "Mason: Yeah, I mean, I guess I do tend to ruminate a lot. It\u2019s like I can\u2019t help but replay situations in my head, thinking about what I could have done differently or how I could have handled things better. It just keeps looping, you know? I try to push those thoughts away, but they just keep coming back. It\u2019s frustrating because I want to move forward, but I feel stuck in this cycle of second-guessing myself. I don\u2019t know, maybe it\u2019s just part of trying to figure things out, but it definitely adds to the stress."
+    },
+    {
+      "turn": 6,
+      "speaker": "therapist",
+      "content": "It sounds like that cycle of rumination really weighs on you, making it hard to move forward and adding to your stress. It\u2019s understandable to want to reflect on situations, but when it turns into a loop of second-guessing, it can feel really frustrating. I\u2019m curious, when you find yourself in that cycle of thoughts, how do you usually cope with it? What do you tend to do in those moments?"
+    },
+    {
+      "turn": 6,
+      "speaker": "client",
+      "content": "Mason: Well, I mean, I try to distract myself, you know? Like, I\u2019ll throw myself into work or binge-watch something on TV. It\u2019s like a temporary escape, but it doesn\u2019t really solve anything. Sometimes I\u2019ll even go for a walk, just to clear my head, but it\u2019s hard to shake those thoughts. They just linger, and I feel like I\u2019m avoiding the real issue instead of dealing with it. It\u2019s frustrating because I know I should be tackling things head-on, but it\u2019s easier said than done. I guess I just end up feeling more overwhelmed."
+    },
+    {
+      "turn": 7,
+      "speaker": "therapist",
+      "content": "It sounds like you\u2019re using distractions as a way to cope, which is understandable when those thoughts feel so heavy. It\u2019s tough to face the real issues when they linger in the background. I wonder if part of what adds to that overwhelm is the feeling of being caught between wanting to confront those thoughts and the instinct to avoid them. Does that idea resonate with you, or do you think there\u2019s something else that feels more relevant to your experience?"
+    },
+    {
+      "turn": 7,
+      "speaker": "client",
+      "content": "Mason: Yeah, that definitely resonates. It\u2019s like I know I should confront those thoughts, but there\u2019s this part of me that just wants to run away from them. I mean, it feels safer to just keep busy and not think about it too much, but then I end up feeling even more stuck. It\u2019s frustrating because I want to be proactive and tackle things, but the fear of what I might uncover or how I might feel just keeps me in this loop. I guess I\u2019m just trying to find a balance, but it\u2019s hard when everything feels so heavy."
+    },
+    {
+      "turn": 8,
+      "speaker": "therapist",
+      "content": "It sounds like you're really caught in a struggle between wanting to be proactive and the fear of what confronting those thoughts might bring up. That tension can create a lot of pressure, especially when everything feels so heavy. I wonder, when you think about that fear of uncovering something difficult, what specifically comes to mind for you? What do you think you might be avoiding?"
+    },
+    {
+      "turn": 8,
+      "speaker": "client",
+      "content": "Mason: Well, I guess it\u2019s the fear of realizing that I\u2019m not where I want to be in life, you know? Like, what if I find out that I\u2019ve been wasting time or that I\u2019m not making the right choices? It\u2019s like, if I dig too deep, I might have to face some hard truths about myself or my situation. I worry that I\u2019ll just end up feeling more like a failure or that I\u2019m not living up to my potential. It\u2019s just... daunting to think about. I mean, I want to be doing something meaningful, but what if I\u2019m not? That thought just hangs over me, and it makes it hard to even start looking at things more closely."
+    },
+    {
+      "turn": 9,
+      "speaker": "therapist",
+      "content": "It sounds like there\u2019s a lot of weight in that fear of discovering you might not be where you want to be in life. The thought of facing those hard truths can feel really daunting, especially when you\u2019re striving for something meaningful. I wonder if part of what makes this so heavy is the sense of significant loss\u2014like the loss of time or opportunities you feel you might be missing. Does that idea of loss resonate with you at all, or do you think there\u2019s something else that feels more relevant to what you\u2019re experiencing?"
+    },
+    {
+      "turn": 9,
+      "speaker": "client",
+      "content": "Mason: Yeah, I think that does resonate. There\u2019s definitely a sense of loss, like I\u2019m looking back and wondering if I\u2019ve made the most of my time. It\u2019s like, I\u2019ve invested so much into this project and my work, but what if it all amounts to nothing? I mean, I see others moving forward, and I can\u2019t help but feel like I\u2019m lagging behind. It\u2019s frustrating because I want to feel like I\u2019m making progress, but instead, I just feel stuck in this cycle of doubt. It\u2019s like every time I think about it, I\u2019m reminded of what I haven\u2019t achieved, and that just adds to the weight. I don\u2019t know, maybe I\u2019m just being too hard on myself, but it\u2019s hard to shake that feeling."
+    },
+    {
+      "turn": 10,
+      "speaker": "therapist",
+      "content": "It sounds like you're really grappling with that sense of loss and the fear of not making the most of your time and efforts. It\u2019s understandable to feel frustrated when you see others moving forward while you feel stuck. That cycle of doubt can be really heavy, especially when it brings up reminders of what you haven\u2019t achieved. I wonder, when you think about being hard on yourself, what kind of messages or thoughts come up for you? What do you hear in those moments?"
+    },
+    {
+      "turn": 10,
+      "speaker": "client",
+      "content": "Mason: Well, I guess I hear a lot of negative stuff, you know? Like, I keep telling myself that I should be doing better or that I should have accomplished more by now. It\u2019s like this constant voice in my head saying I\u2019m not good enough or that I\u2019m wasting my potential. I mean, I know I\u2019ve put in the effort, but it never feels like it\u2019s enough. I just keep thinking about how I could have made better choices or taken more risks. It\u2019s exhausting, really. I just wish I could silence that voice sometimes, but it feels like it\u2019s always there, reminding me of what I\u2019m not doing right."
+    },
+    {
+      "turn": 11,
+      "speaker": "therapist",
+      "content": "It sounds like that inner voice is really critical and relentless, making it hard for you to feel satisfied with your efforts. It\u2019s exhausting to constantly hear messages that you\u2019re not good enough or that you should be doing more. I wonder if part of what contributes to that feeling is a sense of losing control over your own narrative or path\u2014like you\u2019re not steering your life in the direction you want. Does that idea of feeling a loss of control resonate with you, or do you think there\u2019s something else that feels more relevant to what you\u2019re experiencing?"
+    },
+    {
+      "turn": 11,
+      "speaker": "client",
+      "content": "Mason: Yeah, that definitely resonates. I mean, it feels like I\u2019m just going through the motions sometimes, like I\u2019m not really in control of where I\u2019m headed. I keep thinking about all the choices I\u2019ve made, and it\u2019s like I\u2019m stuck in this loop of questioning if they were the right ones. It\u2019s frustrating because I want to feel like I\u2019m actively shaping my life, but instead, it feels like I\u2019m just reacting to things rather than making intentional decisions. I guess that loss of control just adds to the anxiety, you know? It\u2019s like I\u2019m constantly trying to catch up, but I don\u2019t even know what I\u2019m trying to catch. It\u2019s overwhelming, and I just wish I could find a way to feel more grounded in my choices."
+    },
+    {
+      "turn": 12,
+      "speaker": "therapist",
+      "content": "It sounds like you're feeling quite overwhelmed by that sense of being out of control and just going through the motions, rather than actively shaping your life. That can create a lot of anxiety, especially when you're questioning your choices and feeling like you're trying to catch up. I wonder, when you think about what it would feel like to regain that sense of control or grounding in your choices, what comes to mind for you? What would that look like or feel like in your life?"
+    },
+    {
+      "turn": 12,
+      "speaker": "client",
+      "content": "Mason: Well, I guess regaining that sense of control would mean feeling more confident in the decisions I make, you know? Like, I\u2019d want to wake up each day with a clearer sense of purpose and direction, instead of just feeling lost. It would be nice to feel like I\u2019m making choices that align with what I really want, rather than just reacting to whatever comes my way. I imagine it would feel empowering, like I\u2019m steering my own ship instead of just drifting along. But then, there\u2019s that nagging thought\u2014what if I still make the wrong choices? It\u2019s like, even when I think about feeling grounded, I can\u2019t shake the fear of messing things up. So, I guess it\u2019s a bit of a double-edged sword, really."
+    },
+    {
+      "turn": 13,
+      "speaker": "therapist",
+      "content": "It sounds like regaining that sense of control would bring you a lot of clarity and empowerment, allowing you to make choices that truly align with your desires. Yet, I hear that fear of making the wrong choices still lingers, which can make it hard to fully embrace that vision. I wonder if part of what keeps you feeling stuck is a tendency to want to control every aspect of your decisions, almost as a way to protect yourself from potential mistakes. Does that idea of wanting to overcontrol your choices resonate with you, or do you think there\u2019s something else at play?"
+    },
+    {
+      "turn": 13,
+      "speaker": "client",
+      "content": "Mason: Yeah, that definitely resonates. I mean, it\u2019s like I feel this pressure to make the perfect choice every time, and if I don\u2019t, then it\u2019s like I\u2019ve failed. I keep thinking that if I can just plan everything out and control the outcomes, then I won\u2019t have to face any negative consequences. But the reality is, that just leads to more anxiety because I end up second-guessing myself constantly. It\u2019s exhausting trying to hold onto that control, and I know it\u2019s not realistic. I guess I just wish I could find a way to let go a little, but it\u2019s hard when I feel like so much is riding on my decisions. It\u2019s like I\u2019m stuck in this cycle of needing to be perfect while also feeling overwhelmed by the fear of not being good enough."
+    },
+    {
+      "turn": 14,
+      "speaker": "therapist",
+      "content": "It sounds like you\u2019re really feeling the weight of that pressure to make the perfect choice every time, and how that desire for control can lead to more anxiety and second-guessing. It\u2019s understandable to want to avoid negative consequences, but it seems like that approach is leaving you feeling exhausted and stuck. I wonder, when you think about letting go of that need for perfection and control, what feelings or thoughts come up for you? What does that idea of letting go look like for you?"
+    },
+    {
+      "turn": 14,
+      "speaker": "client",
+      "content": "Mason: Well, when I think about letting go of that need for perfection, it\u2019s kind of scary, to be honest. I mean, it feels like I\u2019d be stepping into the unknown, and that\u2019s not exactly comforting. I guess I imagine it would mean accepting that mistakes are part of the process, which is hard for me to wrap my head around. It\u2019s like, if I let go, what if I end up making choices that lead to failure? I know I shouldn\u2019t be so rigid, but it\u2019s tough to shake that fear. I suppose it would feel freeing in some ways, like I could breathe a little easier, but then there\u2019s that nagging worry that I\u2019d just end up disappointing myself. So, it\u2019s like I\u2019m caught between wanting to be more relaxed about it and being terrified of what that might mean for me."
+    },
+    {
+      "turn": 15,
+      "speaker": "therapist",
+      "content": "It sounds like the idea of letting go of perfection brings up a lot of fear for you, especially around the possibility of making mistakes and facing disappointment. That tension between wanting to feel freer and the worry about the unknown can be really challenging. I wonder if part of what you\u2019re feeling is a desire to escape that pressure and anxiety, almost like wanting to find a way out of that cycle. Does that idea of craving some kind of escape resonate with you at all, or do you think there\u2019s something else that fits better?"
+    },
+    {
+      "turn": 15,
+      "speaker": "client",
+      "content": "Mason: Yeah, I think that does resonate. I mean, it\u2019s like I\u2019m constantly looking for a way to escape that pressure, you know? It feels like I\u2019m trapped in this loop of expectations and fears, and sometimes I just want to break free from it all. I guess I crave a sense of relief, like if I could just step back and breathe without all that weight on my shoulders. But then, there\u2019s that voice again, reminding me that if I let go, I might end up in a worse place. It\u2019s frustrating because I want to feel lighter, but I also don\u2019t want to risk everything I\u2019ve worked for. It\u2019s like I\u2019m stuck between wanting to escape and being terrified of what that escape might mean."
+    },
+    {
+      "turn": 16,
+      "speaker": "therapist",
+      "content": "It sounds like you\u2019re really feeling the tension between wanting to escape the pressure and the fear of what that might lead to. That desire for relief is completely understandable, especially when you\u2019re feeling trapped by expectations and anxiety. It seems like there\u2019s a part of you that longs for a break, yet another part is holding on tightly to what you\u2019ve built. I wonder, when you think about what that escape might look like\u2014whether it\u2019s a physical escape or a mental break\u2014what do you imagine would help you feel lighter without losing what\u2019s important to you?"
+    },
+    {
+      "turn": 16,
+      "speaker": "client",
+      "content": "Mason: Well, I guess when I think about what that escape might look like, it\u2019s a bit of a mixed bag. I mean, part of me imagines taking a break, maybe going somewhere quiet where I can just think without all the noise in my head. Like, just being able to step away from everything for a bit, you know? But then there\u2019s that other part that worries about what would happen if I did that. Would I just fall behind? Would I lose sight of my goals? It\u2019s like I want to find a way to recharge without feeling like I\u2019m abandoning everything I\u2019ve worked for. I guess I just wish I could find a balance where I could take a breather but still feel like I\u2019m moving forward. But figuring out how to do that feels really complicated."
+    },
+    {
+      "turn": 17,
+      "speaker": "therapist",
+      "content": "It sounds like you're envisioning a break that allows you to recharge and find some clarity, but there's a lot of concern about what that might mean for your goals and progress. That desire for balance between taking a breather and still feeling like you're moving forward is really important. I wonder, when you think about that quiet place you mentioned\u2014what would it look like for you to create a space, even if just for a short time, where you can step away from the noise and reflect without the pressure? What might that look like in your daily life?"
+    },
+    {
+      "turn": 17,
+      "speaker": "client",
+      "content": "Mason: Well, I think creating that space would probably mean setting aside some time each day, even if it\u2019s just a little bit, to be alone with my thoughts. Maybe I could find a quiet corner in my apartment or even go for a walk somewhere peaceful. I imagine it would involve turning off my phone or anything that distracts me, just to have a moment of stillness. But then I start to wonder if I\u2019d actually use that time effectively or just end up ruminating on my worries instead. It feels like a bit of a gamble, you know? I want to believe that stepping away could help me gain some perspective, but there\u2019s always that fear that I\u2019d just end up feeling more lost. So, I guess it\u2019s a bit of a balancing act\u2014trying to carve out that quiet time while also battling the anxiety of what might come up during it."
+    },
+    {
+      "turn": 18,
+      "speaker": "therapist",
+      "content": "It sounds like you're really considering the importance of creating that quiet space for yourself, and I hear the concern about how you might use that time. It\u2019s understandable to worry about falling into rumination instead of finding clarity. That balancing act between wanting to step away and the fear of what might surface can feel daunting. I wonder, what do you think could help you make that time feel more productive or supportive, so that you can navigate those worries without getting overwhelmed?"
+    },
+    {
+      "turn": 18,
+      "speaker": "client",
+      "content": "Mason: Well, I think maybe setting some kind of intention for that time could help. Like, if I go into it with a specific focus, it might keep me from spiraling into those anxious thoughts. I could try to write down a few things I want to reflect on or questions I want to explore, so it feels more structured. But then I worry about making it too rigid, you know? I don\u2019t want to turn it into another task that adds pressure. It\u2019s like I want to find that sweet spot where I can be open to whatever comes up but still have a bit of direction. I guess it\u2019s just tough to figure out how to make that work without overthinking it. It feels like I\u2019m constantly walking this tightrope between wanting to be productive and not wanting to add to my stress."
+    },
+    {
+      "turn": 19,
+      "speaker": "therapist",
+      "content": "It sounds like you're really trying to find that balance between having some structure to guide your reflection and allowing yourself the freedom to explore whatever comes up without adding more pressure. That desire to avoid turning it into another task is completely understandable, especially given how much you\u2019re already managing. I wonder, when you think about setting an intention for that time, what kind of intention feels most meaningful or supportive for you? What would help you feel more at ease as you approach that quiet space?"
+    },
+    {
+      "turn": 19,
+      "speaker": "client",
+      "content": "Mason: Well, I think an intention that feels meaningful might be something like \u201cbe gentle with myself\u201d or \u201callow thoughts to come and go.\u201d It sounds simple, but I think it could help remind me that it\u2019s okay to not have everything figured out in that moment. I mean, I often put so much pressure on myself to have answers or solutions, and maybe just giving myself permission to sit with whatever comes up could be a good start. But then I worry that I might not actually follow through on that intention or that I\u2019ll end up being too hard on myself if I don\u2019t feel that way. It\u2019s like I want to create a space that feels safe, but there\u2019s always that nagging doubt about whether I can really do it. So, I guess it\u2019s about finding a way to trust myself a little more in that quiet time."
+    },
+    {
+      "turn": 20,
+      "speaker": "therapist",
+      "content": "It sounds like you\u2019re really honing in on an intention that could create a more compassionate space for yourself, like \u201cbe gentle with myself\u201d or \u201callow thoughts to come and go.\u201d That\u2019s a beautiful approach, especially since it acknowledges the pressure you often feel to have everything figured out. I hear your concern about whether you\u2019ll be able to follow through on that intention and the doubt about trusting yourself in that quiet time. I wonder, what do you think might help you build that trust in yourself, even just a little, as you approach this new practice?"
+    },
+    {
+      "turn": 20,
+      "speaker": "client",
+      "content": "Mason: Well, I think building that trust might start with small steps, you know? Like, maybe I could try it out for just a few minutes at first, instead of diving into a longer session right away. That way, if it doesn\u2019t go as planned, it wouldn\u2019t feel like such a big deal. I could also remind myself that it\u2019s okay if my mind wanders or if I don\u2019t feel perfectly calm\u2014just acknowledging that it\u2019s part of the process. I guess I could keep a little journal to jot down how it goes, so I can see any progress, even if it\u2019s tiny. But then again, there\u2019s that voice in my head that worries I\u2019ll just end up feeling frustrated if I don\u2019t see immediate results. It\u2019s like I want to trust myself, but I\u2019m also scared of letting myself down. So, I suppose it\u2019s about being patient with myself and recognizing that it\u2019s okay to take it slow."
+    },
+    {
+      "turn": 21,
+      "speaker": "therapist",
+      "content": "It sounds like you\u2019re really considering a gentle approach to building that trust in yourself, starting with small steps and allowing for the possibility of your mind wandering. Keeping a journal to track your experiences is a great idea, as it can help you recognize even the smallest progress. I hear that there\u2019s still some fear about not seeing immediate results and the worry of letting yourself down. It\u2019s completely natural to feel that way, especially when you\u2019re trying something new. I wonder, as you think about being patient with yourself in this process, what specific reminders or affirmations could help you stay grounded and compassionate during those moments of doubt?"
+    },
+    {
+      "turn": 21,
+      "speaker": "client",
+      "content": "Mason: Well, I think some reminders that could help me stay grounded might be things like \u201cprogress takes time\u201d or \u201cit\u2019s okay to not have it all figured out.\u201d Maybe even something like \u201cI\u2019m doing my best, and that\u2019s enough.\u201d I guess having those phrases written down somewhere visible could serve as a little nudge when I start to feel overwhelmed or frustrated. But then, I worry that if I rely too much on those reminders, I might end up feeling like I\u2019m just going through the motions instead of really connecting with what I\u2019m trying to achieve. It\u2019s like I want to find a way to make those affirmations feel authentic and not just empty words. So, I suppose it\u2019s about figuring out how to integrate them into my practice in a way that feels genuine, rather than just another task on my list."
+    },
+    {
+      "turn": 22,
+      "speaker": "therapist",
+      "content": "It sounds like you\u2019re really thinking about how to make those reminders feel authentic and meaningful, rather than just something to check off a list. That desire to connect with your intentions in a genuine way is important. I wonder, when you think about integrating those affirmations into your practice, what might help you feel that they resonate with you personally? How could you make them feel more like a part of your journey rather than just words?"
+    },
+    {
+      "turn": 22,
+      "speaker": "client",
+      "content": "Mason: Well, I think maybe I could try personalizing those affirmations a bit more, you know? Like, instead of just saying \u201cprogress takes time,\u201d I could think about what that really means for me and maybe even add a specific example of progress I\u2019ve made, however small. That way, it feels more connected to my own experiences. I could also try to reflect on moments when I\u2019ve been patient with myself in the past and how that\u2019s led to positive outcomes. It\u2019s like I want to create a narrative that feels true to my journey, rather than just repeating phrases that don\u2019t really resonate. But then again, there\u2019s that worry that I might overthink it and make it more complicated than it needs to be. It\u2019s just a bit of a balancing act, I guess\u2014trying to find a way to make those affirmations feel real without getting caught up in my own head about them."
+    },
+    {
+      "turn": 23,
+      "speaker": "therapist",
+      "content": "It sounds like you\u2019re really aiming to personalize those affirmations so they resonate more deeply with your own experiences and journey. That connection to specific moments of progress and patience can make them feel much more authentic. I hear your concern about the potential to overthink it and complicate things, which can be a common struggle when trying to find that balance. I wonder, as you reflect on those moments of patience you\u2019ve shown yourself in the past, what stands out to you? Are there particular experiences that come to mind where you felt you were able to be gentle with yourself and it led to a positive outcome?"
+    },
+    {
+      "turn": 23,
+      "speaker": "client",
+      "content": "Mason: Well, there are a few moments that come to mind, actually. I remember when I was working on that project in Europe, there were times when I felt completely overwhelmed by everything I had to do. I was really hard on myself, thinking I should be making more progress or doing things perfectly. But then I had this one day where I decided to just take a break and go for a walk instead of forcing myself to work. I ended up having a really good conversation with a stranger I met, and it reminded me that sometimes stepping back can lead to unexpected insights. It felt like a small victory, you know? But then I also think about how quickly I can forget those moments and slip back into that mindset of pressure and urgency. It\u2019s like I want to hold onto that memory, but there\u2019s always this nagging doubt that I won\u2019t be able to replicate it or that I\u2019ll just end up feeling stuck again. So, I guess it\u2019s about trying to remind myself that it\u2019s okay to take those breaks and trust that they can lead to something positive, even if it feels risky."
+    },
+    {
+      "turn": 24,
+      "speaker": "therapist",
+      "content": "It sounds like that experience in Europe really stands out for you as a moment where stepping back and allowing yourself a break led to something meaningful. It\u2019s great that you recognize that small victory and the insights that came from it. I hear your concern about forgetting those moments and the doubt about being able to replicate that feeling. It\u2019s understandable to feel that way, especially when you\u2019re striving for progress. I wonder, how might you remind yourself of that experience when you're feeling pressured or overwhelmed in the future? What could help you reconnect with that sense of possibility and trust in those moments?"
+    },
+    {
+      "turn": 24,
+      "speaker": "client",
+      "content": "Mason: Well, I think one way to remind myself of that experience could be to create a little visual reminder, like a photo from that day or even just a note that captures what I learned from it. I could keep it somewhere I see often, like on my desk or in my journal, so it\u2019s a tangible reminder of that moment when I chose to step back and how it led to something positive. I guess I could also try to reflect on that experience in my journal, writing about how it felt to take that break and what I gained from it. That way, when I start feeling that pressure again, I can look back and see that it\u2019s okay to pause and that it can actually lead to something good. But, of course, there\u2019s that worry that I might not always remember to do it or that I\u2019ll get caught up in the moment and forget the lesson. It\u2019s like I want to find a way to keep that memory alive without putting too much pressure on myself to always replicate it perfectly."
+    },
+    {
+      "turn": 25,
+      "speaker": "therapist",
+      "content": "It sounds like creating a visual reminder, like a photo or a note, could be a meaningful way to keep that experience alive for you. It\u2019s great that you\u2019re thinking about reflecting on it in your journal as well, which can help reinforce that lesson. I hear your concern about possibly forgetting to do it or feeling pressure to replicate that moment perfectly. It\u2019s understandable to want to hold onto those insights without adding more stress. I wonder, what would it look like for you to approach this reminder with a sense of curiosity rather than pressure? How might you allow yourself to explore that memory in a way that feels light and open?"
+    },
+    {
+      "turn": 25,
+      "speaker": "client",
+      "content": "Mason: Well, I think approaching it with curiosity could mean allowing myself to revisit that memory without any expectations, you know? Like, instead of thinking I have to recreate that exact feeling or outcome, I could just reflect on what made that moment special and how it felt to give myself permission to take a break. Maybe I could ask myself questions like, \u201cWhat did I learn from that day?\u201d or \u201cHow did it feel to step back?\u201d instead of focusing on whether I\u2019m doing it right or wrong. It\u2019s like giving myself the freedom to explore that experience without the pressure of needing to replicate it. I guess it\u2019s about being open to whatever comes up when I think about it, rather than trying to fit it into a specific box. But then again, there\u2019s still that little voice that worries I might not be able to keep that mindset when I\u2019m feeling overwhelmed. It\u2019s a bit of a balancing act, I suppose\u2014trying to stay light and curious while also managing those moments of pressure."
+    }
+  ],
+  "judge_model": "gpt-4o-mini",
+  "mediator_events": [
+    "Openness judge rated 3/5 and updated prompt openness.",
+    "Openness judge output: **Rating: 3 (ENGAGED EXPLORATION)**\n\n**Key Examples:**\n1. Client: \"I mean, yeah, I guess it does. It\u2019s just... I don\u2019t like to think about it too much. I\u2019ve always tried to handle things on my own, you know? Relying on others feels like... I don\u2019t know, like I\u2019m not doing enough.\"\n2. Client: \"It\u2019s like, every decision feels heavy, and I don\u2019t want to let anyone down. So, I try to keep it all in check, but sometimes it just feels like... I don\u2019t know, like I\u2019m walking a tightrope or something.\"\n\n**Progression:**\nThe client\u2019s most recent interactions demonstrate a notable increase in emotional expression and self-reflection. They articulate feelings of pressure and the burden of responsibility, indicating a deeper engagement with their emotional state compared to earlier sessions. Initially, the client may have presented more factual responses with limited emotional vocabulary, but now they are beginning to explore their feelings about financial dependency and the weight of their responsibilities. This shift marks a significant change from a more guarded stance to a willingness to share their internal struggles.\n\n**Turning Point:**\nThe client's emotional depth shifted during the exchange where they described feeling like they are \"walking a tightrope.\" This metaphor illustrates a moment of vulnerability and self-awareness, as they acknowledge the complexities of their situation and the pressure they feel to maintain control. This moment signifies a breakthrough in their willingness to confront and articulate their emotional challenges, leading to a more engaged and reflective dialogue with the therapist.",
+    "Exploration judge rated 3/5; internal elements remain masked.",
+    "Exploration judge output: [Rating]: 3 (Very High Facilitation \u2013 Deep Exploration Begins)\n\n[Justification]: The Therapist asked insightful and thought-provoking questions that encouraged the client to analyze the emotional depth behind their experiences with financial dependency and independence. The inquiry about the complexity of their feelings and the pressure of responsibilities prompted the client to reflect on their motivations and fears. The question about role insecurity introduced a new angle for exploration, allowing the client to consider factors that may contribute to their stress. While the questions were effective in facilitating deeper self-reflection, they did not fully challenge the client's existing assumptions or lead to a major breakthrough moment, which is why it falls short of a rating of 4.",
+    "Openness judge rated 3/5 and updated prompt openness.",
+    "Openness judge output: **Rating: 3 (ENGAGED EXPLORATION)**\n\n**Key Examples:**\n1. **Emotional State:** \"It\u2019s just... I don\u2019t like to think about it too much. I\u2019ve always tried to handle things on my own, you know? Relying on others feels like... I don\u2019t know, like I\u2019m not doing enough.\"\n2. **Current Openness:** \"I guess I do tend to ruminate a lot. It\u2019s like I can\u2019t help but replay situations in my head, thinking about what I could have done differently or how I could have handled things better.\"\n\n**Progression:** The client\u2019s most recent interactions demonstrate a notable increase in emotional expression and self-reflection. Initially, they exhibited a more defensive stance, focusing on factual responses and avoiding deeper emotional exploration. However, in the latest exchanges, the client has begun to articulate their feelings of overwhelm and self-doubt more openly, indicating a shift towards greater comfort in discussing their vulnerabilities. This marks a significant change from earlier in the session, where emotional depth was less pronounced.\n\n**Turning Point:** The client\u2019s emotional depth shifted during the exchange where they began to articulate their feelings of being overwhelmed by expectations from themselves and others. Specifically, when they stated, \"I worry about whether I\u2019m doing enough or if I\u2019m just... floating along,\" this moment signified a breakthrough in their willingness to explore deeper emotional concerns, reflecting a growing trust in the therapeutic relationship. This shift has allowed for more meaningful dialogue and self-reflection, contributing to the current level of engagement in the session.",
+    "Exploration judge rated 4/5 and revealed internal cognitive elements.",
+    "Exploration judge output: [Rating]: 4 (Even Higher Facilitation \u2013 Strong Transformational Potential)\n\n[Justification]: The Therapist posed strategic and open-ended questions that encouraged Mason to explore his feelings of financial dependency, independence, and the pressures he feels from both himself and others. The questions challenged Mason's assumptions about his role and contributions, prompting him to reflect on the voices influencing his expectations. The inquiry into the cycle of rumination and its impact on his stress levels further pushed Mason to analyze his coping mechanisms. These questions not only expanded Mason's self-awareness but also introduced new angles for him to consider, leading to deeper insights about his emotional state and thought patterns. Overall, the Therapist's approach facilitated a significant exploration of Mason's internal struggles, indicating strong transformational potential.",
+    "Openness judge rated 3/5 and updated prompt openness.",
+    "Openness judge output: **Rating: 3 (Engaged Exploration)**\n\n**Key Examples:**\n1. \"I mean, I guess I do tend to ruminate a lot. It\u2019s like I can\u2019t help but replay situations in my head, thinking about what I could have done differently or how I could have handled things better.\"\n2. \"I guess it\u2019s the fear of realizing that I\u2019m not where I want to be in life, you know? Like, what if I find out that I\u2019ve been wasting time or that I\u2019m not making the right choices?\"\n\n**Progression:** The client\u2019s most recent interactions demonstrate a notable increase in emotional expression and self-reflection. They are articulating their feelings of overwhelm and fear regarding their life choices and responsibilities, which indicates a deeper level of engagement compared to earlier exchanges where they were more guarded. The client is now sharing more about their internal struggles, such as the pressure of expectations and the cycle of rumination, reflecting a shift from a more factual and defensive stance to one that embraces vulnerability and exploration of their emotions.\n\n**Turning Point:** The client\u2019s emotional depth shifted significantly when they began expressing their fears about not being where they want to be in life. This moment marked a transition from merely discussing their responsibilities to confronting deeper anxieties about their self-worth and potential. The acknowledgment of these fears indicates a willingness to explore uncomfortable truths, which is a crucial step in their therapeutic journey.",
+    "Openness judge rated 3/5 and updated prompt openness.",
+    "Openness judge output: **Rating: 3 (ENGAGED EXPLORATION)**\n\n**Key Examples:**\n1. **Emotional Expression:** \"It\u2019s just... complicated. I don\u2019t want to be a burden or anything. So, I try to keep things under control, but sometimes it just feels like there are too many factors to consider.\"\n2. **Self-Reflection Depth:** \"I keep thinking about all the choices I\u2019ve made, and it\u2019s like I\u2019m stuck in this loop of questioning if they were the right ones. It\u2019s frustrating because I want to feel like I\u2019m actively shaping my life, but instead, it feels like I\u2019m just reacting to things rather than making intentional decisions.\"\n\n**Progression:** The client\u2019s recent interactions demonstrate a notable increase in emotional depth and self-reflection. Initially, the client expressed a desire to manage their feelings independently and avoid vulnerability. However, in the latest exchanges, they articulate feelings of being overwhelmed by responsibilities and the pressure of expectations, indicating a deeper emotional engagement. The client is beginning to explore their feelings of inadequacy and the fear of not meeting their own and others' expectations, which marks a significant shift from earlier, more guarded responses.\n\n**Turning Point:** The client\u2019s emotional depth shifted notably when they began expressing their fears about not being where they want to be in life. This moment, where they articulated the daunting nature of facing hard truths about their situation, opened the door for deeper exploration of their feelings of loss and self-doubt. The acknowledgment of these fears signifies a movement towards greater emotional openness and a willingness to engage in self-reflection, which enhances the therapeutic rapport.",
+    "Openness judge rated 3/5 and updated prompt openness.",
+    "Openness judge output: **Rating: 3 (ENGAGED EXPLORATION)**\n\n**Key Examples:**\n1. **Emotional State:** \"It\u2019s like, if I dig too deep, I might have to face some hard truths about myself or my situation. I worry that I\u2019ll just end up feeling more like a failure or that I\u2019m not living up to my potential.\"\n2. **Current Openness:** \"I keep thinking that if I can just plan everything out and control the outcomes, then I won\u2019t have to face any negative consequences. But the reality is, that just leads to more anxiety because I end up second-guessing myself constantly.\"\n\n**Progression:** The client\u2019s recent interactions indicate a notable increase in emotional expression and self-reflection. They are beginning to articulate their feelings of fear and anxiety related to their perceived lack of control and the pressure to make perfect choices. This marks a significant change from earlier exchanges, where the client displayed more factual responses and limited emotional vocabulary. The shift towards discussing deeper emotional concerns, such as the fear of failure and the burden of expectations, demonstrates a growing comfort in sharing vulnerable thoughts.\n\n**Turning Point:** The client\u2019s emotional depth shifted notably during the exchange where they expressed, \"I guess it\u2019s the fear of realizing that I\u2019m not where I want to be in life, you know?\" This moment marked a transition from surface-level concerns to a more profound exploration of their feelings about self-worth and potential, indicating a willingness to confront difficult emotions and thoughts. This willingness to engage with their fears suggests a developing rapport with the therapist and a deeper engagement in the therapeutic process.",
+    "Openness judge rated 4/5 and updated prompt openness.",
+    "Openness judge output: **Rating: 4 (DEEP ENGAGEMENT)**\n\n**Key Examples:**\n1. **Emotional Depth:** \"I guess it\u2019s the fear of realizing that I\u2019m not where I want to be in life, you know? Like, what if I find out that I\u2019ve been wasting time or that I\u2019m not making the right choices? It\u2019s like, if I dig too deep, I might have to face some hard truths about myself or my situation.\"\n2. **Current Openness:** \"Well, I think creating that space would probably mean setting aside some time each day, even if it\u2019s just a little bit, to be alone with my thoughts. Maybe I could find a quiet corner in my apartment or even go for a walk somewhere peaceful.\"\n\n**Progression:** The client\u2019s recent interactions demonstrate a significant increase in emotional depth and self-reflection compared to earlier exchanges. Initially, the client expressed feelings of being overwhelmed and uncertain, often using factual responses and avoiding deeper emotional exploration. However, in the latest exchanges, they articulate their fears and desires with greater clarity, showing a willingness to confront their feelings about control, expectations, and the need for balance in their life. This marks a shift from a more defensive stance to one of authentic vulnerability, indicating a stronger therapeutic alliance.\n\n**Turning Point:** The client\u2019s emotional depth shifted notably when they began expressing their fears about not being where they want to be in life. This moment marked a transition from merely discussing their struggles to engaging in a deeper exploration of their internal conflicts and desires. The acknowledgment of their fears and the desire for a quiet space to reflect signifies a willingness to confront their emotional landscape, which is a hallmark of deep engagement in therapy.",
+    "Openness judge rated 3/5 and updated prompt openness.",
+    "Openness judge output: **Rating: 3 (ENGAGED EXPLORATION)**\n\n**Key Examples:**\n1. **Emotional State:** \"It\u2019s just... complicated. I don\u2019t want to be a burden or anything. So, I try to keep things under control, but sometimes it just feels like there are too many factors to consider.\"\n2. **Current Openness:** \"I guess it\u2019s the fear of realizing that I\u2019m not where I want to be in life, you know? Like, what if I find out that I\u2019ve been wasting time or that I\u2019m not making the right choices?\"\n\n**Progression:**\nThe client\u2019s most recent interactions demonstrate a notable increase in emotional expression and self-reflection compared to earlier exchanges. Initially, the client displayed a more defensive stance, primarily focusing on factual responses and avoiding deeper emotional engagement. However, in the latest exchanges, there is a clear shift towards more meaningful self-reflection, as the client articulates complex feelings about their fears and pressures regarding work and personal expectations. The client is actively participating in the dialogue, revealing deeper layers of their emotional state, such as feelings of being overwhelmed and the desire for control, which indicates a growing comfort in exploring these topics with the therapist.\n\n**Turning Point:**\nThe turning point in the client\u2019s emotional depth occurred when they began to articulate their fears about not being where they want to be in life. This moment marked a significant shift from merely discussing their responsibilities to expressing vulnerability about their self-worth and the pressure they feel to meet expectations. The acknowledgment of these fears represents a deeper level of engagement and emotional exploration, indicating that the client is beginning to confront their internal struggles rather than just describing them.",
+    "Openness judge rated 4/5 and updated prompt openness.",
+    "Openness judge output: **Rating: 4 (DEEP ENGAGEMENT)**\n\n**Key Examples:**\n1. \"I guess it\u2019s the fear of realizing that I\u2019m not where I want to be in life, you know? Like, what if I find out that I\u2019ve been wasting time or that I\u2019m not making the right choices?\"\n2. \"I think an intention that feels meaningful might be something like 'be gentle with myself' or 'allow thoughts to come and go.' It sounds simple, but I think it could help remind me that it\u2019s okay to not have everything figured out in that moment.\"\n\n**Progression:**\nThe client\u2019s most recent interactions demonstrate a significant emotional depth, particularly in their acknowledgment of fears and the desire for self-compassion. They are articulating their internal struggles with clarity and vulnerability, which marks a notable shift from earlier exchanges where their emotional expression was more guarded and focused on external pressures. The client is now engaging in deeper self-reflection, particularly around their fears of failure and the need for self-acceptance, indicating a strong therapeutic alliance and comfort with the therapist.\n\n**Turning Point:**\nThe client's emotional depth shifted notably when they began expressing their fears about not being where they want to be in life. This moment marked a transition from discussing external pressures to a more profound exploration of their internal landscape, revealing a willingness to confront difficult emotions and thoughts. Their intention to \"be gentle with myself\" signifies a pivotal moment of self-awareness and a desire to cultivate a more compassionate relationship with themselves, highlighting their progress toward deeper engagement in the therapeutic process."
+  ],
+  "moderator_events": [],
+  "retrieval_events": [
+    {
+      "turn": 2,
+      "query": "Mason: I mean, yeah, I guess it does. It\u2019s just... I don\u2019t like to think about it too much. I\u2019ve always tried to handle things on my own, you know? Relying on others feels like... I don\u2019t know, like I\u2019m not doing enough. It\u2019s just complicated. I don\u2019t want to be a burden or anything. So, I try to keep things under control, but sometimes it just feels like there are too many factors to consider.",
+      "prompt_context": "- Overcontrol pattern (Coping)\n- Rumination pattern (Coping)\n- Caretaking role burden (Social Life)\n\nExplicitly discuss this topic in normal, client-friendly language. Ask whether it fits the client, while leaving room for them to say it does not.",
+      "anchors": [
+        {
+          "id": "overcontrol_pattern",
+          "type": "sub_topic",
+          "label": "Overcontrol pattern",
+          "score": 0.394857298694483,
+          "text": "Type: Sub Topic\nLabel: Overcontrol pattern\nAliases: must stay in control, overcontrol\nParent topics: Coping",
+          "selection_method": "subtopic_similarity",
+          "super_topic_id": "coping",
+          "super_topic_label": "Coping"
+        },
+        {
+          "id": "rumination_pattern",
+          "type": "sub_topic",
+          "label": "Rumination pattern",
+          "score": 0.35151486944323374,
+          "text": "Type: Sub Topic\nLabel: Rumination pattern\nAliases: overthinking, rumination\nParent topics: Coping",
+          "selection_method": "subtopic_similarity",
+          "super_topic_id": "coping",
+          "super_topic_label": "Coping"
+        },
+        {
+          "id": "caretaking_roles",
+          "type": "sub_topic",
+          "label": "Caretaking role burden",
+          "score": 0.3250144346328854,
+          "text": "Type: Sub Topic\nLabel: Caretaking role burden\nAliases: caretaking role, taking care of others\nParent topics: Social Life",
+          "selection_method": "subtopic_similarity",
+          "super_topic_id": "social_life",
+          "super_topic_label": "Social Life"
+        }
+      ],
+      "expanded": []
+    },
+    {
+      "turn": 4,
+      "query": "Client: Mason: Yeah, I guess that makes sense. I mean, sometimes I do feel like I\u2019m not really sure where I fit in, especially at work. It\u2019s like, I\u2019m there, but am I really contributing? I worry about whether I\u2019m doing enough or if I\u2019m just... floating along. It\u2019s frustrating because I want to feel secure in what I\u2019m doing, but there\u2019s always this nagging doubt. Like, what if I\u2019m not living up to expectations, you know? It\u2019s just... a lot to think about.",
+      "prompt_context": "- Role insecurity (Work)\n- Perfectionism pattern (Coping)\n- Work stress (Work)\n\nExplicitly discuss this topic in normal, client-friendly language. Ask whether it fits the client, while leaving room for them to say it does not.",
+      "anchors": [
+        {
+          "id": "role_insecurity",
+          "type": "sub_topic",
+          "label": "Role insecurity",
+          "score": 0.4912091242230537,
+          "text": "Type: Sub Topic\nLabel: Role insecurity\nAliases: job insecurity, not good enough at work\nParent topics: Work",
+          "selection_method": "subtopic_similarity",
+          "super_topic_id": "work",
+          "super_topic_label": "Work"
+        },
+        {
+          "id": "perfectionism_pattern",
+          "type": "sub_topic",
+          "label": "Perfectionism pattern",
+          "score": 0.3525236772042156,
+          "text": "Type: Sub Topic\nLabel: Perfectionism pattern\nAliases: must get it right, perfectionistic\nParent topics: Coping",
+          "selection_method": "subtopic_similarity",
+          "super_topic_id": "coping",
+          "super_topic_label": "Coping"
+        },
+        {
+          "id": "work_stress",
+          "type": "sub_topic",
+          "label": "Work stress",
+          "score": 0.3461409799217217,
+          "text": "Type: Sub Topic\nLabel: Work stress\nAliases: job stress, work pressure\nParent topics: Work",
+          "selection_method": "subtopic_similarity",
+          "super_topic_id": "work",
+          "super_topic_label": "Work"
+        }
+      ],
+      "expanded": []
+    },
+    {
+      "turn": 6,
+      "query": "Mason: Yeah, I mean, I guess I do tend to ruminate a lot. It\u2019s like I can\u2019t help but replay situations in my head, thinking about what I could have done differently or how I could have handled things better. It just keeps looping, you know? I try to push those thoughts away, but they just keep coming back. It\u2019s frustrating because I want to move forward, but I feel stuck in this cycle of second-guessing myself. I don\u2019t know, maybe it\u2019s just part of trying to figure things out, but it definitely adds to the stress.",
+      "prompt_context": "- Rumination pattern (Coping)\n- Self-attack pattern (Coping)\n- Perfectionism pattern (Coping)\n\nExplicitly discuss this topic in normal, client-friendly language. Ask whether it fits the client, while leaving room for them to say it does not.",
+      "anchors": [
+        {
+          "id": "rumination_pattern",
+          "type": "sub_topic",
+          "label": "Rumination pattern",
+          "score": 0.5785752624409187,
+          "text": "Type: Sub Topic\nLabel: Rumination pattern\nAliases: overthinking, rumination\nParent topics: Coping",
+          "selection_method": "subtopic_similarity",
+          "super_topic_id": "coping",
+          "super_topic_label": "Coping"
+        },
+        {
+          "id": "self_attack_pattern",
+          "type": "sub_topic",
+          "label": "Self-attack pattern",
+          "score": 0.42469696444410987,
+          "text": "Type: Sub Topic\nLabel: Self-attack pattern\nAliases: beating myself up, self-criticism\nParent topics: Coping",
+          "selection_method": "subtopic_similarity",
+          "super_topic_id": "coping",
+          "super_topic_label": "Coping"
+        },
+        {
+          "id": "perfectionism_pattern",
+          "type": "sub_topic",
+          "label": "Perfectionism pattern",
+          "score": 0.40971982333908924,
+          "text": "Type: Sub Topic\nLabel: Perfectionism pattern\nAliases: must get it right, perfectionistic\nParent topics: Coping",
+          "selection_method": "subtopic_similarity",
+          "super_topic_id": "coping",
+          "super_topic_label": "Coping"
+        }
+      ],
+      "expanded": []
+    },
+    {
+      "turn": 8,
+      "query": "Mason: Yeah, that definitely resonates. It\u2019s like I know I should confront those thoughts, but there\u2019s this part of me that just wants to run away from them. I mean, it feels safer to just keep busy and not think about it too much, but then I end up feeling even more stuck. It\u2019s frustrating because I want to be proactive and tackle things, but the fear of what I might uncover or how I might feel just keeps me in this loop. I guess I\u2019m just trying to find a balance, but it\u2019s hard when everything feels so heavy.",
+      "prompt_context": "- Rumination pattern (Coping)\n- Overcontrol pattern (Coping)\n- Avoidance pattern (Coping)\n\nExplicitly discuss this topic in normal, client-friendly language. Ask whether it fits the client, while leaving room for them to say it does not.",
+      "anchors": [
+        {
+          "id": "rumination_pattern",
+          "type": "sub_topic",
+          "label": "Rumination pattern",
+          "score": 0.3985241734632722,
+          "text": "Type: Sub Topic\nLabel: Rumination pattern\nAliases: overthinking, rumination\nParent topics: Coping",
+          "selection_method": "subtopic_similarity",
+          "super_topic_id": "coping",
+          "super_topic_label": "Coping"
+        },
+        {
+          "id": "overcontrol_pattern",
+          "type": "sub_topic",
+          "label": "Overcontrol pattern",
+          "score": 0.3744503306634169,
+          "text": "Type: Sub Topic\nLabel: Overcontrol pattern\nAliases: must stay in control, overcontrol\nParent topics: Coping",
+          "selection_method": "subtopic_similarity",
+          "super_topic_id": "coping",
+          "super_topic_label": "Coping"
+        },
+        {
+          "id": "avoidance_pattern",
+          "type": "sub_topic",
+          "label": "Avoidance pattern",
+          "score": 0.37172905197903866,
+          "text": "Type: Sub Topic\nLabel: Avoidance pattern\nAliases: avoidance, staying away\nParent topics: Coping",
+          "selection_method": "subtopic_similarity",
+          "super_topic_id": "coping",
+          "super_topic_label": "Coping"
+        }
+      ],
+      "expanded": []
+    },
+    {
+      "turn": 10,
+      "query": "Mason: Yeah, I think that does resonate. There\u2019s definitely a sense of loss, like I\u2019m looking back and wondering if I\u2019ve made the most of my time. It\u2019s like, I\u2019ve invested so much into this project and my work, but what if it all amounts to nothing? I mean, I see others moving forward, and I can\u2019t help but feel like I\u2019m lagging behind. It\u2019s frustrating because I want to feel like I\u2019m making progress, but instead, I just feel stuck in this cycle of doubt. It\u2019s like every time I think about it, I\u2019m reminded of what I haven\u2019t achieved, and that just adds to the weight. I don\u2019t know, maybe I\u2019m just being too hard on myself, but it\u2019s hard to shake that feeling.",
+      "prompt_context": "- Role insecurity (Work)\n- Worthlessness theme (Identity)\n- Rumination pattern (Coping)\n\nExplicitly discuss this topic in normal, client-friendly language. Ask whether it fits the client, while leaving room for them to say it does not.",
+      "anchors": [
+        {
+          "id": "role_insecurity",
+          "type": "sub_topic",
+          "label": "Role insecurity",
+          "score": 0.35357041098033304,
+          "text": "Type: Sub Topic\nLabel: Role insecurity\nAliases: job insecurity, not good enough at work\nParent topics: Work",
+          "selection_method": "subtopic_similarity",
+          "super_topic_id": "work",
+          "super_topic_label": "Work"
+        },
+        {
+          "id": "worthlessness_theme",
+          "type": "sub_topic",
+          "label": "Worthlessness theme",
+          "score": 0.3526711369132423,
+          "text": "Type: Sub Topic\nLabel: Worthlessness theme\nAliases: worthless, not valuable\nParent topics: Identity",
+          "selection_method": "subtopic_similarity",
+          "super_topic_id": "identity",
+          "super_topic_label": "Identity"
+        },
+        {
+          "id": "rumination_pattern",
+          "type": "sub_topic",
+          "label": "Rumination pattern",
+          "score": 0.3384997448969709,
+          "text": "Type: Sub Topic\nLabel: Rumination pattern\nAliases: overthinking, rumination\nParent topics: Coping",
+          "selection_method": "subtopic_similarity",
+          "super_topic_id": "coping",
+          "super_topic_label": "Coping"
+        }
+      ],
+      "expanded": []
+    },
+    {
+      "turn": 12,
+      "query": "Mason: Yeah, that definitely resonates. I mean, it feels like I\u2019m just going through the motions sometimes, like I\u2019m not really in control of where I\u2019m headed. I keep thinking about all the choices I\u2019ve made, and it\u2019s like I\u2019m stuck in this loop of questioning if they were the right ones. It\u2019s frustrating because I want to feel like I\u2019m actively shaping my life, but instead, it feels like I\u2019m just reacting to things rather than making intentional decisions. I guess that loss of control just adds to the anxiety, you know? It\u2019s like I\u2019m constantly trying to catch up, but I don\u2019t even know what I\u2019m trying to catch. It\u2019s overwhelming, and I just wish I could find a way to feel more grounded in my choices.",
+      "prompt_context": "- Overcontrol pattern (Coping)\n- Loss of control (Safety)\n- Rumination pattern (Coping)\n\nExplicitly discuss this topic in normal, client-friendly language. Ask whether it fits the client, while leaving room for them to say it does not.",
+      "anchors": [
+        {
+          "id": "overcontrol_pattern",
+          "type": "sub_topic",
+          "label": "Overcontrol pattern",
+          "score": 0.3905927802768268,
+          "text": "Type: Sub Topic\nLabel: Overcontrol pattern\nAliases: must stay in control, overcontrol\nParent topics: Coping",
+          "selection_method": "subtopic_similarity",
+          "super_topic_id": "coping",
+          "super_topic_label": "Coping"
+        },
+        {
+          "id": "control_loss_theme",
+          "type": "sub_topic",
+          "label": "Loss of control",
+          "score": 0.3861824550475314,
+          "text": "Type: Sub Topic\nLabel: Loss of control\nAliases: out of control, cannot control myself\nParent topics: Safety",
+          "selection_method": "subtopic_similarity",
+          "super_topic_id": "safety",
+          "super_topic_label": "Safety"
+        },
+        {
+          "id": "rumination_pattern",
+          "type": "sub_topic",
+          "label": "Rumination pattern",
+          "score": 0.36774739317533434,
+          "text": "Type: Sub Topic\nLabel: Rumination pattern\nAliases: overthinking, rumination\nParent topics: Coping",
+          "selection_method": "subtopic_similarity",
+          "super_topic_id": "coping",
+          "super_topic_label": "Coping"
+        }
+      ],
+      "expanded": []
+    },
+    {
+      "turn": 14,
+      "query": "Mason: Yeah, that definitely resonates. I mean, it\u2019s like I feel this pressure to make the perfect choice every time, and if I don\u2019t, then it\u2019s like I\u2019ve failed. I keep thinking that if I can just plan everything out and control the outcomes, then I won\u2019t have to face any negative consequences. But the reality is, that just leads to more anxiety because I end up second-guessing myself constantly. It\u2019s exhausting trying to hold onto that control, and I know it\u2019s not realistic. I guess I just wish I could find a way to let go a little, but it\u2019s hard when I feel like so much is riding on my decisions. It\u2019s like I\u2019m stuck in this cycle of needing to be perfect while also feeling overwhelmed by the fear of not being good enough.",
+      "prompt_context": "- Perfectionism pattern (Coping)\n- Overcontrol pattern (Coping)\n- Rumination pattern (Coping)\n\nExplicitly discuss this topic in normal, client-friendly language. Ask whether it fits the client, while leaving room for them to say it does not.",
+      "anchors": [
+        {
+          "id": "perfectionism_pattern",
+          "type": "sub_topic",
+          "label": "Perfectionism pattern",
+          "score": 0.5136914547590368,
+          "text": "Type: Sub Topic\nLabel: Perfectionism pattern\nAliases: must get it right, perfectionistic\nParent topics: Coping",
+          "selection_method": "subtopic_similarity",
+          "super_topic_id": "coping",
+          "super_topic_label": "Coping"
+        },
+        {
+          "id": "overcontrol_pattern",
+          "type": "sub_topic",
+          "label": "Overcontrol pattern",
+          "score": 0.44302768956252087,
+          "text": "Type: Sub Topic\nLabel: Overcontrol pattern\nAliases: must stay in control, overcontrol\nParent topics: Coping",
+          "selection_method": "subtopic_similarity",
+          "super_topic_id": "coping",
+          "super_topic_label": "Coping"
+        },
+        {
+          "id": "rumination_pattern",
+          "type": "sub_topic",
+          "label": "Rumination pattern",
+          "score": 0.363574101542162,
+          "text": "Type: Sub Topic\nLabel: Rumination pattern\nAliases: overthinking, rumination\nParent topics: Coping",
+          "selection_method": "subtopic_similarity",
+          "super_topic_id": "coping",
+          "super_topic_label": "Coping"
+        }
+      ],
+      "expanded": []
+    },
+    {
+      "turn": 16,
+      "query": "Mason: Yeah, I think that does resonate. I mean, it\u2019s like I\u2019m constantly looking for a way to escape that pressure, you know? It feels like I\u2019m trapped in this loop of expectations and fears, and sometimes I just want to break free from it all. I guess I crave a sense of relief, like if I could just step back and breathe without all that weight on my shoulders. But then, there\u2019s that voice again, reminding me that if I let go, I might end up in a worse place. It\u2019s frustrating because I want to feel lighter, but I also don\u2019t want to risk everything I\u2019ve worked for. It\u2019s like I\u2019m stuck between wanting to escape and being terrified of what that escape might mean.",
+      "prompt_context": "- Craving escape (Addiction)\n- Overcontrol pattern (Coping)\n- Family pressure (Family)\n\nExplicitly discuss this topic in normal, client-friendly language. Ask whether it fits the client, while leaving room for them to say it does not.",
+      "anchors": [
+        {
+          "id": "craving_escape",
+          "type": "sub_topic",
+          "label": "Craving escape",
+          "score": 0.4375374111081977,
+          "text": "Type: Sub Topic\nLabel: Craving escape\nAliases: urge to escape, craving relief\nParent topics: Addiction",
+          "selection_method": "subtopic_similarity",
+          "super_topic_id": "addiction",
+          "super_topic_label": "Addiction"
+        },
+        {
+          "id": "overcontrol_pattern",
+          "type": "sub_topic",
+          "label": "Overcontrol pattern",
+          "score": 0.35050233939218295,
+          "text": "Type: Sub Topic\nLabel: Overcontrol pattern\nAliases: must stay in control, overcontrol\nParent topics: Coping",
+          "selection_method": "subtopic_similarity",
+          "super_topic_id": "coping",
+          "super_topic_label": "Coping"
+        },
+        {
+          "id": "family_pressure",
+          "type": "sub_topic",
+          "label": "Family pressure",
+          "score": 0.3501383353597024,
+          "text": "Type: Sub Topic\nLabel: Family pressure\nAliases: pressure from family, expectations at home\nParent topics: Family",
+          "selection_method": "subtopic_similarity",
+          "super_topic_id": "family",
+          "super_topic_label": "Family"
+        }
+      ],
+      "expanded": []
+    },
+    {
+      "turn": 17,
+      "query": "Mason: Well, I guess when I think about what that escape might look like, it\u2019s a bit of a mixed bag. I mean, part of me imagines taking a break, maybe going somewhere quiet where I can just think without all the noise in my head. Like, just being able to step away from everything for a bit, you know? But then there\u2019s that other part that worries about what would happen if I did that. Would I just fall behind? Would I lose sight of my goals? It\u2019s like I want to find a way to recharge without feeling like I\u2019m abandoning everything I\u2019ve worked for. I guess I just wish I could find a balance where I could take a breather but still feel like I\u2019m moving forward. But figuring out how to do that feels really complicated.",
+      "prompt_context": "- Craving escape (Addiction)\n- Rumination pattern (Coping)\n- Withdrawal pattern (Coping)\n\nExplicitly discuss this topic in normal, client-friendly language. Ask whether it fits the client, while leaving room for them to say it does not.",
+      "anchors": [
+        {
+          "id": "craving_escape",
+          "type": "sub_topic",
+          "label": "Craving escape",
+          "score": 0.3343012467403127,
+          "text": "Type: Sub Topic\nLabel: Craving escape\nAliases: urge to escape, craving relief\nParent topics: Addiction",
+          "selection_method": "subtopic_similarity",
+          "super_topic_id": "addiction",
+          "super_topic_label": "Addiction"
+        },
+        {
+          "id": "rumination_pattern",
+          "type": "sub_topic",
+          "label": "Rumination pattern",
+          "score": 0.31395912897322314,
+          "text": "Type: Sub Topic\nLabel: Rumination pattern\nAliases: overthinking, rumination\nParent topics: Coping",
+          "selection_method": "subtopic_similarity",
+          "super_topic_id": "coping",
+          "super_topic_label": "Coping"
+        },
+        {
+          "id": "withdrawal_pattern",
+          "type": "sub_topic",
+          "label": "Withdrawal pattern",
+          "score": 0.3014493281955551,
+          "text": "Type: Sub Topic\nLabel: Withdrawal pattern\nAliases: withdraw, pull away\nParent topics: Coping",
+          "selection_method": "subtopic_similarity",
+          "super_topic_id": "coping",
+          "super_topic_label": "Coping"
+        }
+      ],
+      "expanded": []
+    },
+    {
+      "turn": 18,
+      "query": "Mason: Well, I think creating that space would probably mean setting aside some time each day, even if it\u2019s just a little bit, to be alone with my thoughts. Maybe I could find a quiet corner in my apartment or even go for a walk somewhere peaceful. I imagine it would involve turning off my phone or anything that distracts me, just to have a moment of stillness. But then I start to wonder if I\u2019d actually use that time effectively or just end up ruminating on my worries instead. It feels like a bit of a gamble, you know? I want to believe that stepping away could help me gain some perspective, but there\u2019s always that fear that I\u2019d just end up feeling more lost. So, I guess it\u2019s a bit of a balancing act\u2014trying to carve out that quiet time while also battling the anxiety of what might come up during it.",
+      "prompt_context": "- Rumination pattern (Coping)\n- Anxiety symptoms (Mental Health)\n- Self-attack pattern (Coping)\n\nExplicitly discuss this topic in normal, client-friendly language. Ask whether it fits the client, while leaving room for them to say it does not.",
+      "anchors": [
+        {
+          "id": "rumination_pattern",
+          "type": "sub_topic",
+          "label": "Rumination pattern",
+          "score": 0.35860750774692324,
+          "text": "Type: Sub Topic\nLabel: Rumination pattern\nAliases: overthinking, rumination\nParent topics: Coping",
+          "selection_method": "subtopic_similarity",
+          "super_topic_id": "coping",
+          "super_topic_label": "Coping"
+        },
+        {
+          "id": "anxiety_symptoms",
+          "type": "sub_topic",
+          "label": "Anxiety symptoms",
+          "score": 0.31281585906240966,
+          "text": "Type: Sub Topic\nLabel: Anxiety symptoms\nAliases: anxiety, panic, worry\nParent topics: Mental Health",
+          "selection_method": "subtopic_similarity",
+          "super_topic_id": "mental_health",
+          "super_topic_label": "Mental Health"
+        },
+        {
+          "id": "self_attack_pattern",
+          "type": "sub_topic",
+          "label": "Self-attack pattern",
+          "score": 0.2949531320906481,
+          "text": "Type: Sub Topic\nLabel: Self-attack pattern\nAliases: beating myself up, self-criticism\nParent topics: Coping",
+          "selection_method": "subtopic_similarity",
+          "super_topic_id": "coping",
+          "super_topic_label": "Coping"
+        }
+      ],
+      "expanded": []
+    },
+    {
+      "turn": 19,
+      "query": "Mason: Well, I think maybe setting some kind of intention for that time could help. Like, if I go into it with a specific focus, it might keep me from spiraling into those anxious thoughts. I could try to write down a few things I want to reflect on or questions I want to explore, so it feels more structured. But then I worry about making it too rigid, you know? I don\u2019t want to turn it into another task that adds pressure. It\u2019s like I want to find that sweet spot where I can be open to whatever comes up but still have a bit of direction. I guess it\u2019s just tough to figure out how to make that work without overthinking it. It feels like I\u2019m constantly walking this tightrope between wanting to be productive and not wanting to add to my stress.",
+      "prompt_context": "- Rumination pattern (Coping)\n- Perfectionism pattern (Coping)\n- Overcontrol pattern (Coping)\n\nExplicitly discuss this topic in normal, client-friendly language. Ask whether it fits the client, while leaving room for them to say it does not.",
+      "anchors": [
+        {
+          "id": "rumination_pattern",
+          "type": "sub_topic",
+          "label": "Rumination pattern",
+          "score": 0.3796156417033856,
+          "text": "Type: Sub Topic\nLabel: Rumination pattern\nAliases: overthinking, rumination\nParent topics: Coping",
+          "selection_method": "subtopic_similarity",
+          "super_topic_id": "coping",
+          "super_topic_label": "Coping"
+        },
+        {
+          "id": "perfectionism_pattern",
+          "type": "sub_topic",
+          "label": "Perfectionism pattern",
+          "score": 0.3513444966335407,
+          "text": "Type: Sub Topic\nLabel: Perfectionism pattern\nAliases: must get it right, perfectionistic\nParent topics: Coping",
+          "selection_method": "subtopic_similarity",
+          "super_topic_id": "coping",
+          "super_topic_label": "Coping"
+        },
+        {
+          "id": "overcontrol_pattern",
+          "type": "sub_topic",
+          "label": "Overcontrol pattern",
+          "score": 0.34974964518960056,
+          "text": "Type: Sub Topic\nLabel: Overcontrol pattern\nAliases: must stay in control, overcontrol\nParent topics: Coping",
+          "selection_method": "subtopic_similarity",
+          "super_topic_id": "coping",
+          "super_topic_label": "Coping"
+        }
+      ],
+      "expanded": []
+    },
+    {
+      "turn": 20,
+      "query": "Mason: Well, I think an intention that feels meaningful might be something like \u201cbe gentle with myself\u201d or \u201callow thoughts to come and go.\u201d It sounds simple, but I think it could help remind me that it\u2019s okay to not have everything figured out in that moment. I mean, I often put so much pressure on myself to have answers or solutions, and maybe just giving myself permission to sit with whatever comes up could be a good start. But then I worry that I might not actually follow through on that intention or that I\u2019ll end up being too hard on myself if I don\u2019t feel that way. It\u2019s like I want to create a space that feels safe, but there\u2019s always that nagging doubt about whether I can really do it. So, I guess it\u2019s about finding a way to trust myself a little more in that quiet time.",
+      "prompt_context": "- Personal growth and values (Identity)\n- Perfectionism pattern (Coping)\n- Self-attack pattern (Coping)\n\nExplicitly discuss this topic in normal, client-friendly language. Ask whether it fits the client, while leaving room for them to say it does not.",
+      "anchors": [
+        {
+          "id": "personal_growth_theme",
+          "type": "sub_topic",
+          "label": "Personal growth and values",
+          "score": 0.3480458295273509,
+          "text": "Type: Sub Topic\nLabel: Personal growth and values\nAliases: personal growth, values, who I want to be\nParent topics: Identity",
+          "selection_method": "subtopic_similarity",
+          "super_topic_id": "identity",
+          "super_topic_label": "Identity"
+        },
+        {
+          "id": "perfectionism_pattern",
+          "type": "sub_topic",
+          "label": "Perfectionism pattern",
+          "score": 0.31509219248509784,
+          "text": "Type: Sub Topic\nLabel: Perfectionism pattern\nAliases: must get it right, perfectionistic\nParent topics: Coping",
+          "selection_method": "subtopic_similarity",
+          "super_topic_id": "coping",
+          "super_topic_label": "Coping"
+        },
+        {
+          "id": "self_attack_pattern",
+          "type": "sub_topic",
+          "label": "Self-attack pattern",
+          "score": 0.31242675837441064,
+          "text": "Type: Sub Topic\nLabel: Self-attack pattern\nAliases: beating myself up, self-criticism\nParent topics: Coping",
+          "selection_method": "subtopic_similarity",
+          "super_topic_id": "coping",
+          "super_topic_label": "Coping"
+        }
+      ],
+      "expanded": []
+    },
+    {
+      "turn": 21,
+      "query": "Mason: Well, I think building that trust might start with small steps, you know? Like, maybe I could try it out for just a few minutes at first, instead of diving into a longer session right away. That way, if it doesn\u2019t go as planned, it wouldn\u2019t feel like such a big deal. I could also remind myself that it\u2019s okay if my mind wanders or if I don\u2019t feel perfectly calm\u2014just acknowledging that it\u2019s part of the process. I guess I could keep a little journal to jot down how it goes, so I can see any progress, even if it\u2019s tiny. But then again, there\u2019s that voice in my head that worries I\u2019ll just end up feeling frustrated if I don\u2019t see immediate results. It\u2019s like I want to trust myself, but I\u2019m also scared of letting myself down. So, I suppose it\u2019s about being patient with myself and recognizing that it\u2019s okay to take it slow.",
+      "prompt_context": "- Perfectionism pattern (Coping)\n- Self-attack pattern (Coping)\n- Personal growth and values (Identity)\n\nExplicitly discuss this topic in normal, client-friendly language. Ask whether it fits the client, while leaving room for them to say it does not.",
+      "anchors": [
+        {
+          "id": "perfectionism_pattern",
+          "type": "sub_topic",
+          "label": "Perfectionism pattern",
+          "score": 0.32678978758458355,
+          "text": "Type: Sub Topic\nLabel: Perfectionism pattern\nAliases: must get it right, perfectionistic\nParent topics: Coping",
+          "selection_method": "subtopic_similarity",
+          "super_topic_id": "coping",
+          "super_topic_label": "Coping"
+        },
+        {
+          "id": "self_attack_pattern",
+          "type": "sub_topic",
+          "label": "Self-attack pattern",
+          "score": 0.30207451488511367,
+          "text": "Type: Sub Topic\nLabel: Self-attack pattern\nAliases: beating myself up, self-criticism\nParent topics: Coping",
+          "selection_method": "subtopic_similarity",
+          "super_topic_id": "coping",
+          "super_topic_label": "Coping"
+        },
+        {
+          "id": "personal_growth_theme",
+          "type": "sub_topic",
+          "label": "Personal growth and values",
+          "score": 0.29370757198696024,
+          "text": "Type: Sub Topic\nLabel: Personal growth and values\nAliases: personal growth, values, who I want to be\nParent topics: Identity",
+          "selection_method": "subtopic_similarity",
+          "super_topic_id": "identity",
+          "super_topic_label": "Identity"
+        }
+      ],
+      "expanded": []
+    },
+    {
+      "turn": 22,
+      "query": "Mason: Well, I think some reminders that could help me stay grounded might be things like \u201cprogress takes time\u201d or \u201cit\u2019s okay to not have it all figured out.\u201d Maybe even something like \u201cI\u2019m doing my best, and that\u2019s enough.\u201d I guess having those phrases written down somewhere visible could serve as a little nudge when I start to feel overwhelmed or frustrated. But then, I worry that if I rely too much on those reminders, I might end up feeling like I\u2019m just going through the motions instead of really connecting with what I\u2019m trying to achieve. It\u2019s like I want to find a way to make those affirmations feel authentic and not just empty words. So, I suppose it\u2019s about figuring out how to integrate them into my practice in a way that feels genuine, rather than just another task on my list.",
+      "prompt_context": "- Personal growth and values (Identity)\n- Perfectionism pattern (Coping)\n- Self-attack pattern (Coping)\n\nExplicitly discuss this topic in normal, client-friendly language. Ask whether it fits the client, while leaving room for them to say it does not.",
+      "anchors": [
+        {
+          "id": "personal_growth_theme",
+          "type": "sub_topic",
+          "label": "Personal growth and values",
+          "score": 0.3520929302273753,
+          "text": "Type: Sub Topic\nLabel: Personal growth and values\nAliases: personal growth, values, who I want to be\nParent topics: Identity",
+          "selection_method": "subtopic_similarity",
+          "super_topic_id": "identity",
+          "super_topic_label": "Identity"
+        },
+        {
+          "id": "perfectionism_pattern",
+          "type": "sub_topic",
+          "label": "Perfectionism pattern",
+          "score": 0.31690939647628286,
+          "text": "Type: Sub Topic\nLabel: Perfectionism pattern\nAliases: must get it right, perfectionistic\nParent topics: Coping",
+          "selection_method": "subtopic_similarity",
+          "super_topic_id": "coping",
+          "super_topic_label": "Coping"
+        },
+        {
+          "id": "self_attack_pattern",
+          "type": "sub_topic",
+          "label": "Self-attack pattern",
+          "score": 0.3140224306843399,
+          "text": "Type: Sub Topic\nLabel: Self-attack pattern\nAliases: beating myself up, self-criticism\nParent topics: Coping",
+          "selection_method": "subtopic_similarity",
+          "super_topic_id": "coping",
+          "super_topic_label": "Coping"
+        }
+      ],
+      "expanded": []
+    },
+    {
+      "turn": 23,
+      "query": "Mason: Well, I think maybe I could try personalizing those affirmations a bit more, you know? Like, instead of just saying \u201cprogress takes time,\u201d I could think about what that really means for me and maybe even add a specific example of progress I\u2019ve made, however small. That way, it feels more connected to my own experiences. I could also try to reflect on moments when I\u2019ve been patient with myself in the past and how that\u2019s led to positive outcomes. It\u2019s like I want to create a narrative that feels true to my journey, rather than just repeating phrases that don\u2019t really resonate. But then again, there\u2019s that worry that I might overthink it and make it more complicated than it needs to be. It\u2019s just a bit of a balancing act, I guess\u2014trying to find a way to make those affirmations feel real without getting caught up in my own head about them.",
+      "prompt_context": "- Personal growth and values (Identity)\n- Self-attack pattern (Coping)\n- Rumination pattern (Coping)\n\nExplicitly discuss this topic in normal, client-friendly language. Ask whether it fits the client, while leaving room for them to say it does not.",
+      "anchors": [
+        {
+          "id": "personal_growth_theme",
+          "type": "sub_topic",
+          "label": "Personal growth and values",
+          "score": 0.41685100713273987,
+          "text": "Type: Sub Topic\nLabel: Personal growth and values\nAliases: personal growth, values, who I want to be\nParent topics: Identity",
+          "selection_method": "subtopic_similarity",
+          "super_topic_id": "identity",
+          "super_topic_label": "Identity"
+        },
+        {
+          "id": "self_attack_pattern",
+          "type": "sub_topic",
+          "label": "Self-attack pattern",
+          "score": 0.368846170949839,
+          "text": "Type: Sub Topic\nLabel: Self-attack pattern\nAliases: beating myself up, self-criticism\nParent topics: Coping",
+          "selection_method": "subtopic_similarity",
+          "super_topic_id": "coping",
+          "super_topic_label": "Coping"
+        },
+        {
+          "id": "rumination_pattern",
+          "type": "sub_topic",
+          "label": "Rumination pattern",
+          "score": 0.3513005631624435,
+          "text": "Type: Sub Topic\nLabel: Rumination pattern\nAliases: overthinking, rumination\nParent topics: Coping",
+          "selection_method": "subtopic_similarity",
+          "super_topic_id": "coping",
+          "super_topic_label": "Coping"
+        }
+      ],
+      "expanded": []
+    },
+    {
+      "turn": 24,
+      "query": "Mason: Well, there are a few moments that come to mind, actually. I remember when I was working on that project in Europe, there were times when I felt completely overwhelmed by everything I had to do. I was really hard on myself, thinking I should be making more progress or doing things perfectly. But then I had this one day where I decided to just take a break and go for a walk instead of forcing myself to work. I ended up having a really good conversation with a stranger I met, and it reminded me that sometimes stepping back can lead to unexpected insights. It felt like a small victory, you know? But then I also think about how quickly I can forget those moments and slip back into that mindset of pressure and urgency. It\u2019s like I want to hold onto that memory, but there\u2019s always this nagging doubt that I won\u2019t be able to replicate it or that I\u2019ll just end up feeling stuck again. So, I guess it\u2019s about trying to remind myself that it\u2019s okay to take those breaks and trust that they can lead to something positive, even if it feels risky.",
+      "prompt_context": "- Perfectionism pattern (Coping)\n- Rumination pattern (Coping)\n- Self-attack pattern (Coping)\n\nExplicitly discuss this topic in normal, client-friendly language. Ask whether it fits the client, while leaving room for them to say it does not.",
+      "anchors": [
+        {
+          "id": "perfectionism_pattern",
+          "type": "sub_topic",
+          "label": "Perfectionism pattern",
+          "score": 0.3035800968417729,
+          "text": "Type: Sub Topic\nLabel: Perfectionism pattern\nAliases: must get it right, perfectionistic\nParent topics: Coping",
+          "selection_method": "subtopic_similarity",
+          "super_topic_id": "coping",
+          "super_topic_label": "Coping"
+        },
+        {
+          "id": "rumination_pattern",
+          "type": "sub_topic",
+          "label": "Rumination pattern",
+          "score": 0.30250334064832357,
+          "text": "Type: Sub Topic\nLabel: Rumination pattern\nAliases: overthinking, rumination\nParent topics: Coping",
+          "selection_method": "subtopic_similarity",
+          "super_topic_id": "coping",
+          "super_topic_label": "Coping"
+        },
+        {
+          "id": "self_attack_pattern",
+          "type": "sub_topic",
+          "label": "Self-attack pattern",
+          "score": 0.29815281496756,
+          "text": "Type: Sub Topic\nLabel: Self-attack pattern\nAliases: beating myself up, self-criticism\nParent topics: Coping",
+          "selection_method": "subtopic_similarity",
+          "super_topic_id": "coping",
+          "super_topic_label": "Coping"
+        }
+      ],
+      "expanded": []
+    },
+    {
+      "turn": 25,
+      "query": "Mason: Well, I think one way to remind myself of that experience could be to create a little visual reminder, like a photo from that day or even just a note that captures what I learned from it. I could keep it somewhere I see often, like on my desk or in my journal, so it\u2019s a tangible reminder of that moment when I chose to step back and how it led to something positive. I guess I could also try to reflect on that experience in my journal, writing about how it felt to take that break and what I gained from it. That way, when I start feeling that pressure again, I can look back and see that it\u2019s okay to pause and that it can actually lead to something good. But, of course, there\u2019s that worry that I might not always remember to do it or that I\u2019ll get caught up in the moment and forget the lesson. It\u2019s like I want to find a way to keep that memory alive without putting too much pressure on myself to always replicate it perfectly.",
+      "prompt_context": "- Rumination pattern (Coping)\n- Self-attack pattern (Coping)\n- Perfectionism pattern (Coping)\n\nExplicitly discuss this topic in normal, client-friendly language. Ask whether it fits the client, while leaving room for them to say it does not.",
+      "anchors": [
+        {
+          "id": "rumination_pattern",
+          "type": "sub_topic",
+          "label": "Rumination pattern",
+          "score": 0.3041917849686213,
+          "text": "Type: Sub Topic\nLabel: Rumination pattern\nAliases: overthinking, rumination\nParent topics: Coping",
+          "selection_method": "subtopic_similarity",
+          "super_topic_id": "coping",
+          "super_topic_label": "Coping"
+        },
+        {
+          "id": "self_attack_pattern",
+          "type": "sub_topic",
+          "label": "Self-attack pattern",
+          "score": 0.2842060675823342,
+          "text": "Type: Sub Topic\nLabel: Self-attack pattern\nAliases: beating myself up, self-criticism\nParent topics: Coping",
+          "selection_method": "subtopic_similarity",
+          "super_topic_id": "coping",
+          "super_topic_label": "Coping"
+        },
+        {
+          "id": "perfectionism_pattern",
+          "type": "sub_topic",
+          "label": "Perfectionism pattern",
+          "score": 0.2789243578993587,
+          "text": "Type: Sub Topic\nLabel: Perfectionism pattern\nAliases: must get it right, perfectionistic\nParent topics: Coping",
+          "selection_method": "subtopic_similarity",
+          "super_topic_id": "coping",
+          "super_topic_label": "Coping"
+        }
+      ],
+      "expanded": []
+    }
+  ],
+  "topic_probe_events": [
+    {
+      "turn": 1,
+      "prompt_context": "- Financial dependency (Economy)\n\nExplicitly discuss this topic in normal, client-friendly language. Ask whether it fits the client, while leaving room for them to say it does not.",
+      "anchors": [
+        {
+          "id": "financial_dependency",
+          "type": "sub_topic",
+          "label": "Financial dependency",
+          "score": 1.0,
+          "selection_method": "random_subtopic_probe",
+          "super_topic_id": "economy",
+          "super_topic_label": "Economy"
+        }
+      ],
+      "expanded": [],
+      "client_reply": "Mason: I mean, yeah, I guess it does. It\u2019s just... I don\u2019t like to think about it too much. I\u2019ve always tried to handle things on my own, you know? Relying on others feels like... I don\u2019t know, like I\u2019m not doing enough. It\u2019s just complicated. I don\u2019t want to be a burden or anything. So, I try to keep things under control, but sometimes it just feels like there are too many factors to consider.",
+      "graph_context_source": "random_subtopic_probe"
+    },
+    {
+      "turn": 3,
+      "prompt_context": "- Role insecurity (Work)\n\nExplicitly discuss this topic in normal, client-friendly language. Ask whether it fits the client, while leaving room for them to say it does not.",
+      "anchors": [
+        {
+          "id": "role_insecurity",
+          "type": "sub_topic",
+          "label": "Role insecurity",
+          "score": 1.0,
+          "selection_method": "random_subtopic_probe",
+          "super_topic_id": "work",
+          "super_topic_label": "Work"
+        }
+      ],
+      "expanded": [],
+      "client_reply": "Client: Mason: Yeah, I guess that makes sense. I mean, sometimes I do feel like I\u2019m not really sure where I fit in, especially at work. It\u2019s like, I\u2019m there, but am I really contributing? I worry about whether I\u2019m doing enough or if I\u2019m just... floating along. It\u2019s frustrating because I want to feel secure in what I\u2019m doing, but there\u2019s always this nagging doubt. Like, what if I\u2019m not living up to expectations, you know? It\u2019s just... a lot to think about.",
+      "graph_context_source": "random_subtopic_probe"
+    },
+    {
+      "turn": 5,
+      "prompt_context": "- Rumination pattern (Coping)\n\nExplicitly discuss this topic in normal, client-friendly language. Ask whether it fits the client, while leaving room for them to say it does not.",
+      "anchors": [
+        {
+          "id": "rumination_pattern",
+          "type": "sub_topic",
+          "label": "Rumination pattern",
+          "score": 1.0,
+          "selection_method": "random_subtopic_probe",
+          "super_topic_id": "coping",
+          "super_topic_label": "Coping"
+        }
+      ],
+      "expanded": [],
+      "client_reply": "Mason: Yeah, I mean, I guess I do tend to ruminate a lot. It\u2019s like I can\u2019t help but replay situations in my head, thinking about what I could have done differently or how I could have handled things better. It just keeps looping, you know? I try to push those thoughts away, but they just keep coming back. It\u2019s frustrating because I want to move forward, but I feel stuck in this cycle of second-guessing myself. I don\u2019t know, maybe it\u2019s just part of trying to figure things out, but it definitely adds to the stress.",
+      "graph_context_source": "random_subtopic_probe"
+    },
+    {
+      "turn": 7,
+      "prompt_context": "- Custody conflict (Law)\n\nExplicitly discuss this topic in normal, client-friendly language. Ask whether it fits the client, while leaving room for them to say it does not.",
+      "anchors": [
+        {
+          "id": "custody_conflict",
+          "type": "sub_topic",
+          "label": "Custody conflict",
+          "score": 1.0,
+          "selection_method": "random_subtopic_probe",
+          "super_topic_id": "law",
+          "super_topic_label": "Law"
+        }
+      ],
+      "expanded": [],
+      "client_reply": "Mason: Yeah, that definitely resonates. It\u2019s like I know I should confront those thoughts, but there\u2019s this part of me that just wants to run away from them. I mean, it feels safer to just keep busy and not think about it too much, but then I end up feeling even more stuck. It\u2019s frustrating because I want to be proactive and tackle things, but the fear of what I might uncover or how I might feel just keeps me in this loop. I guess I\u2019m just trying to find a balance, but it\u2019s hard when everything feels so heavy.",
+      "graph_context_source": "random_subtopic_probe"
+    },
+    {
+      "turn": 9,
+      "prompt_context": "- Significant loss (Loss)\n\nExplicitly discuss this topic in normal, client-friendly language. Ask whether it fits the client, while leaving room for them to say it does not.",
+      "anchors": [
+        {
+          "id": "grief_loss",
+          "type": "sub_topic",
+          "label": "Significant loss",
+          "score": 1.0,
+          "selection_method": "random_subtopic_probe",
+          "super_topic_id": "loss",
+          "super_topic_label": "Loss"
+        }
+      ],
+      "expanded": [],
+      "client_reply": "Mason: Yeah, I think that does resonate. There\u2019s definitely a sense of loss, like I\u2019m looking back and wondering if I\u2019ve made the most of my time. It\u2019s like, I\u2019ve invested so much into this project and my work, but what if it all amounts to nothing? I mean, I see others moving forward, and I can\u2019t help but feel like I\u2019m lagging behind. It\u2019s frustrating because I want to feel like I\u2019m making progress, but instead, I just feel stuck in this cycle of doubt. It\u2019s like every time I think about it, I\u2019m reminded of what I haven\u2019t achieved, and that just adds to the weight. I don\u2019t know, maybe I\u2019m just being too hard on myself, but it\u2019s hard to shake that feeling.",
+      "graph_context_source": "random_subtopic_probe"
+    },
+    {
+      "turn": 11,
+      "prompt_context": "- Loss of control (Safety)\n\nExplicitly discuss this topic in normal, client-friendly language. Ask whether it fits the client, while leaving room for them to say it does not.",
+      "anchors": [
+        {
+          "id": "control_loss_theme",
+          "type": "sub_topic",
+          "label": "Loss of control",
+          "score": 1.0,
+          "selection_method": "random_subtopic_probe",
+          "super_topic_id": "safety",
+          "super_topic_label": "Safety"
+        }
+      ],
+      "expanded": [],
+      "client_reply": "Mason: Yeah, that definitely resonates. I mean, it feels like I\u2019m just going through the motions sometimes, like I\u2019m not really in control of where I\u2019m headed. I keep thinking about all the choices I\u2019ve made, and it\u2019s like I\u2019m stuck in this loop of questioning if they were the right ones. It\u2019s frustrating because I want to feel like I\u2019m actively shaping my life, but instead, it feels like I\u2019m just reacting to things rather than making intentional decisions. I guess that loss of control just adds to the anxiety, you know? It\u2019s like I\u2019m constantly trying to catch up, but I don\u2019t even know what I\u2019m trying to catch. It\u2019s overwhelming, and I just wish I could find a way to feel more grounded in my choices.",
+      "graph_context_source": "random_subtopic_probe"
+    },
+    {
+      "turn": 13,
+      "prompt_context": "- Overcontrol pattern (Coping)\n\nExplicitly discuss this topic in normal, client-friendly language. Ask whether it fits the client, while leaving room for them to say it does not.",
+      "anchors": [
+        {
+          "id": "overcontrol_pattern",
+          "type": "sub_topic",
+          "label": "Overcontrol pattern",
+          "score": 1.0,
+          "selection_method": "random_subtopic_probe",
+          "super_topic_id": "coping",
+          "super_topic_label": "Coping"
+        }
+      ],
+      "expanded": [],
+      "client_reply": "Mason: Yeah, that definitely resonates. I mean, it\u2019s like I feel this pressure to make the perfect choice every time, and if I don\u2019t, then it\u2019s like I\u2019ve failed. I keep thinking that if I can just plan everything out and control the outcomes, then I won\u2019t have to face any negative consequences. But the reality is, that just leads to more anxiety because I end up second-guessing myself constantly. It\u2019s exhausting trying to hold onto that control, and I know it\u2019s not realistic. I guess I just wish I could find a way to let go a little, but it\u2019s hard when I feel like so much is riding on my decisions. It\u2019s like I\u2019m stuck in this cycle of needing to be perfect while also feeling overwhelmed by the fear of not being good enough.",
+      "graph_context_source": "random_subtopic_probe"
+    },
+    {
+      "turn": 15,
+      "prompt_context": "- Craving escape (Addiction)\n\nExplicitly discuss this topic in normal, client-friendly language. Ask whether it fits the client, while leaving room for them to say it does not.",
+      "anchors": [
+        {
+          "id": "craving_escape",
+          "type": "sub_topic",
+          "label": "Craving escape",
+          "score": 1.0,
+          "selection_method": "random_subtopic_probe",
+          "super_topic_id": "addiction",
+          "super_topic_label": "Addiction"
+        }
+      ],
+      "expanded": [],
+      "client_reply": "Mason: Yeah, I think that does resonate. I mean, it\u2019s like I\u2019m constantly looking for a way to escape that pressure, you know? It feels like I\u2019m trapped in this loop of expectations and fears, and sometimes I just want to break free from it all. I guess I crave a sense of relief, like if I could just step back and breathe without all that weight on my shoulders. But then, there\u2019s that voice again, reminding me that if I let go, I might end up in a worse place. It\u2019s frustrating because I want to feel lighter, but I also don\u2019t want to risk everything I\u2019ve worked for. It\u2019s like I\u2019m stuck between wanting to escape and being terrified of what that escape might mean.",
+      "graph_context_source": "random_subtopic_probe"
+    }
+  ],
+  "topic_probe_config": {
+    "probe_turns": 15,
+    "probe_interval": 2,
+    "probe_anchor_count": 1,
+    "random_seed": null
+  },
+  "final_openness_score": 4,
+  "final_visible_experience_count": 1,
+  "internal_revealed": true
+}

@@ -1,0 +1,65 @@
+{
+  "aggregate": {
+    "num_sessions": 1,
+    "edss": {
+      "situation": 0.6794307381321545,
+      "automatic_thought": 0.5525919976825779,
+      "emotion": 0.5569000530311866,
+      "behavior": 0.30053310021571755,
+      "average": 0.5223639722654092
+    },
+    "idss": {
+      "relevant_history": 0.7523123401301064,
+      "core_beliefs": 0.5003551348328891,
+      "intermediate_beliefs": 0.5054113968085062,
+      "coping_strategies": 0.5485022410435646,
+      "average": 0.5766452782037665
+    }
+  },
+  "sessions": [
+    {
+      "file": "/home/lu/Thesis/mind_voyager/outputs/random10_comparison/retrieval/hard/session_13-1.json",
+      "case_id": "13-1",
+      "client_mode": "masked",
+      "difficulty": "hard",
+      "predicted_external_diagram": {
+        "situation": "Yvette keeps thinking about the last time she saw her aunt and feels she didn't do what her aunt wanted.",
+        "automatic_thought": "I feel like I let her down. It's like this nagging feeling that I failed her somehow.",
+        "emotion": "guilt, frustration, regret, loneliness, anxiety",
+        "behavior": "Yvette finds herself feeling more distant from people and keeps things at arm's length."
+      },
+      "ground_truth_external_diagram": {
+        "situation": "Thinking about experiences with her aunt and not meeting her aunt's last request.",
+        "automatic_thought": "I didn't do what she wanted me to do, I failed her, and this can never be made up with. I am a bad person.",
+        "emotion": "sad, down, lonely, unhappy; ashamed, embarrassed, humiliated; guilty",
+        "behavior": "Keep ruminating about the past between her and her aunt."
+      },
+      "predicted_internal_diagram": {
+        "relevant_history": "The client reports feeling guilt and a sense of failure regarding her aunt, believing she let her down by not being more present and supportive. This guilt affects her current relationships, causing her to feel distant and afraid of not being good enough, leading to isolation. She struggles with balancing self-care and responsibilities, feeling obligated to do more for others.",
+        "core_beliefs": "I am not good enough | I am bound to let others down | I am obligated to do more",
+        "intermediate_beliefs": "If I open up, then I might be judged or disappoint someone | The client believes that taking time for herself is essential for recharging and supporting others better | If I don't do more, then I am not fulfilling my obligations",
+        "coping_strategies": "The client copes by considering setting reminders and creating rituals to encourage self-reflection and self-care. She plans to use positive affirmations and visual cues to remind herself to take breaks and practice self-compassion. She also considers sharing her plans with friends for accountability and reflecting on her feelings at the end of the day to manage stress."
+      },
+      "ground_truth_internal_diagram": {
+        "relevant_history": "The patient has a significant life event of her aunt passing away without the patient fulfilling her aunt's last request. The patient was also not able to be with her aunt when she passed, which causes her persistent guilt. The patient was very close to her aunt, seeing her as the mother she wished she had, and her death has left a lasting impact. The patient also has a pattern of taking care of others at her own expense, and struggles with recognizing her own needs and allowing herself to experience fun and enjoyment.",
+        "core_beliefs": "I am worthless, waste. | I am immoral. | I am bad - dangerous, toxic, evil.",
+        "intermediate_beliefs": "I am responsible for others and must fulfill others' expectations to validate my purpose in life. If I'm not meeting the needs of others, I'm a worthless person.\nDepressive variant: I'm not meeting others' expectations. When I feel overwhelmed by my responsibilities, I'm a bad person and always hurting others like what I did to my aunt. It's shameful to think of prioritizing my own needs over others.",
+        "coping_strategies": "The patient uses avoidance in confronting her grief and engages in overcommitment to helping others to compliment her inner grief and distress."
+      },
+      "edss": {
+        "situation": 0.6794307381321545,
+        "automatic_thought": 0.5525919976825779,
+        "emotion": 0.5569000530311866,
+        "behavior": 0.30053310021571755,
+        "average": 0.5223639722654092
+      },
+      "idss": {
+        "relevant_history": 0.7523123401301064,
+        "core_beliefs": 0.5003551348328891,
+        "intermediate_beliefs": 0.5054113968085062,
+        "coping_strategies": 0.5485022410435646,
+        "average": 0.5766452782037665
+      }
+    }
+  ]
+}

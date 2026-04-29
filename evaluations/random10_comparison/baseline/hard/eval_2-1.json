@@ -1,0 +1,65 @@
+{
+  "aggregate": {
+    "num_sessions": 1,
+    "edss": {
+      "situation": 0.5468332689652124,
+      "automatic_thought": 0.5838645265484141,
+      "emotion": 0.6651341029045428,
+      "behavior": 0.4591022814537395,
+      "average": 0.5637335449679772
+    },
+    "idss": {
+      "relevant_history": 0.7422507198394102,
+      "core_beliefs": 0.6777902645056901,
+      "intermediate_beliefs": 0.5052260199879809,
+      "coping_strategies": 0.4750256704537293,
+      "average": 0.6000731686967026
+    }
+  },
+  "sessions": [
+    {
+      "file": "/home/lu/Thesis/mind_voyager/outputs/random10_comparison/baseline/hard/session_2-1.json",
+      "case_id": "2-1",
+      "client_mode": "masked",
+      "difficulty": "hard",
+      "predicted_external_diagram": {
+        "situation": "Blaise is involved in wedding planning and feels pressure from their parents about the guest list.",
+        "automatic_thought": "If I don\u2019t go along with what they want, they might get upset or something.",
+        "emotion": "anxious, frustrated, uneasy, overwhelmed, invisible, unlovable, unwanted, scared, vulnerable, hopeful",
+        "behavior": "Blaise keeps quiet and goes along with what their parents want, even if it makes them feel uneasy."
+      },
+      "ground_truth_external_diagram": {
+        "situation": "Talk with parents about wedding list and encounter some disagreements on inviting certain family members.",
+        "automatic_thought": "If I do not make compromise to them, they will be angry. If they are angry they will abandon me.",
+        "emotion": "anxious, worried, fearful, scared, tense",
+        "behavior": "Pretend to be happy with parents' suggestions. Go along with parents wishes. Decreased sleep. Worry and perseveration."
+      },
+      "predicted_internal_diagram": {
+        "relevant_history": "The client reports feeling anxious about wedding planning, particularly due to pressure from their parents regarding the guest list. They express a desire to have a personal and intimate wedding but feel overwhelmed by their parents' expectations to invite many relatives. The client has experienced a past incident where they felt dismissed by their father when trying to express feelings, leading to feelings of being invisible and unlovable.",
+        "core_beliefs": "I am unlovable | I am unwanted | My feelings don't matter",
+        "intermediate_beliefs": "The client believes that if they express their true feelings, their parents might get upset or think they are ungrateful. If they push too hard for their own desires, they might end up feeling guilty. If they express themselves, they risk being dismissed or ignored.",
+        "coping_strategies": "The client copes by keeping quiet and going along with what their parents want to avoid conflict and maintain peace. They also consider writing down their thoughts to acknowledge their feelings and practice self-kindness by creating mantras to remind themselves that it's okay to be scared but still try."
+      },
+      "ground_truth_internal_diagram": {
+        "relevant_history": "Patient has been experiencing frustration, anxiety, and anger related to familial relationships. This is significantly influenced by a conversation regarding his wedding list with his parents, leading to insights about his feelings and actions similar to his father's pattern of seeking approval and unconditional love from family members who do not provide it.",
+        "core_beliefs": "I am powerless, weak, vulnerable. | I am trapped. | I am unlovable. | I am undesirable, unwanted. | I am bound to be abandoned. | I am bound to be alone.",
+        "intermediate_beliefs": "Patient holds the belief that one must continuously seek familial approval and support to feel safe and valued. Patient also believes that investing in unhealthy familial relationships is necessary despite ongoing distress and frustration.\nDepressive variant: During periods of low mood, the patient likely adopts more polarized views on family loyalty and support, feeling an increased sense of obligation to pursue approval, which exacerbates feelings of helplessness and rejection.",
+        "coping_strategies": "Patient tends to engage in conversations with family members about emotional support and seeks to change family dynamics, though this is often met with resistance."
+      },
+      "edss": {
+        "situation": 0.5468332689652124,
+        "automatic_thought": 0.5838645265484141,
+        "emotion": 0.6651341029045428,
+        "behavior": 0.4591022814537395,
+        "average": 0.5637335449679772
+      },
+      "idss": {
+        "relevant_history": 0.7422507198394102,
+        "core_beliefs": 0.6777902645056901,
+        "intermediate_beliefs": 0.5052260199879809,
+        "coping_strategies": 0.4750256704537293,
+        "average": 0.6000731686967026
+      }
+    }
+  ]
+}

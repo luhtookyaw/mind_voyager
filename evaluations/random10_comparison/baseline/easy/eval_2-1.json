@@ -1,0 +1,65 @@
+{
+  "aggregate": {
+    "num_sessions": 1,
+    "edss": {
+      "situation": 0.5962254525892614,
+      "automatic_thought": 0.5688992446513909,
+      "emotion": 0.6682158513011236,
+      "behavior": 0.3698384347366242,
+      "average": 0.5507947458196
+    },
+    "idss": {
+      "relevant_history": 0.7451057665875107,
+      "core_beliefs": 0.41705568061506265,
+      "intermediate_beliefs": 0.5008839970974023,
+      "coping_strategies": 0.5904675979845724,
+      "average": 0.563378260571137
+    }
+  },
+  "sessions": [
+    {
+      "file": "/home/lu/Thesis/mind_voyager/outputs/random10_comparison/baseline/easy/session_2-1.json",
+      "case_id": "2-1",
+      "client_mode": "masked",
+      "difficulty": "easy",
+      "predicted_external_diagram": {
+        "situation": "Blaise is experiencing a lot of back and forth with their parents about the wedding guest list.",
+        "automatic_thought": "If I don\u2019t go along with what they want, it\u2019s going to cause some kind of fallout.",
+        "emotion": "worry, anxiety, frustration, guilt, excitement, fear",
+        "behavior": "Blaise finds themselves second-guessing every decision and compromising on things they care about to avoid conflict."
+      },
+      "ground_truth_external_diagram": {
+        "situation": "Talk with parents about wedding list and encounter some disagreements on inviting certain family members.",
+        "automatic_thought": "If I do not make compromise to them, they will be angry. If they are angry they will abandon me.",
+        "emotion": "anxious, worried, fearful, scared, tense",
+        "behavior": "Pretend to be happy with parents' suggestions. Go along with parents wishes. Decreased sleep. Worry and perseveration."
+      },
+      "predicted_internal_diagram": {
+        "relevant_history": "The client reports ongoing tension with their parents regarding the wedding guest list, fearing disappointment and fallout if they don't comply with their parents' wishes. The client has a history of prioritizing family harmony over personal desires, stemming from an upbringing where disagreement was seen as a big deal. This has led to a pattern of silencing personal passions to avoid conflict, as seen in a past experience where the client abandoned a career path due to parental disapproval.",
+        "core_beliefs": "I am responsible for keeping the peace | I am at risk of losing support if I assert myself | I am not allowed to prioritize my happiness over others' feelings",
+        "intermediate_beliefs": "If I express my true desires, then I will disappoint my parents and create conflict. | The client believes that maintaining family harmony is more important than personal happiness. | If I assert my needs, then I risk losing my parents' support and love.",
+        "coping_strategies": "The client tends to compromise on personal desires to avoid conflict and maintain family harmony. They second-guess decisions and prioritize their parents' expectations over their own happiness, leading to feelings of anxiety and frustration. The client also considers practicing conversations and seeking support from trusted individuals to manage fear and build confidence in expressing their needs."
+      },
+      "ground_truth_internal_diagram": {
+        "relevant_history": "Patient has been experiencing frustration, anxiety, and anger related to familial relationships. This is significantly influenced by a conversation regarding his wedding list with his parents, leading to insights about his feelings and actions similar to his father's pattern of seeking approval and unconditional love from family members who do not provide it.",
+        "core_beliefs": "I am powerless, weak, vulnerable. | I am trapped. | I am unlovable. | I am undesirable, unwanted. | I am bound to be abandoned. | I am bound to be alone.",
+        "intermediate_beliefs": "Patient holds the belief that one must continuously seek familial approval and support to feel safe and valued. Patient also believes that investing in unhealthy familial relationships is necessary despite ongoing distress and frustration.\nDepressive variant: During periods of low mood, the patient likely adopts more polarized views on family loyalty and support, feeling an increased sense of obligation to pursue approval, which exacerbates feelings of helplessness and rejection.",
+        "coping_strategies": "Patient tends to engage in conversations with family members about emotional support and seeks to change family dynamics, though this is often met with resistance."
+      },
+      "edss": {
+        "situation": 0.5962254525892614,
+        "automatic_thought": 0.5688992446513909,
+        "emotion": 0.6682158513011236,
+        "behavior": 0.3698384347366242,
+        "average": 0.5507947458196
+      },
+      "idss": {
+        "relevant_history": 0.7451057665875107,
+        "core_beliefs": 0.41705568061506265,
+        "intermediate_beliefs": 0.5008839970974023,
+        "coping_strategies": 0.5904675979845724,
+        "average": 0.563378260571137
+      }
+    }
+  ]
+}

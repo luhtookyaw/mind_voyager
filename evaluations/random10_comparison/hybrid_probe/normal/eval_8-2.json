@@ -1,0 +1,65 @@
+{
+  "aggregate": {
+    "num_sessions": 1,
+    "edss": {
+      "situation": 0.47684546818503387,
+      "automatic_thought": 0.28897170250643306,
+      "emotion": 0.551144879343631,
+      "behavior": 0.2831659123735593,
+      "average": 0.4000319906021643
+    },
+    "idss": {
+      "relevant_history": 0.2861159070140585,
+      "core_beliefs": 0.8507843084703407,
+      "intermediate_beliefs": 0.4269221324137844,
+      "coping_strategies": 0.5521267830658134,
+      "average": 0.5289872827409993
+    }
+  },
+  "sessions": [
+    {
+      "file": "/home/lu/Thesis/mind_voyager/outputs/random10_comparison/hybrid_probe/normal/session_8-2.json",
+      "case_id": "8-2",
+      "client_mode": "masked",
+      "difficulty": "normal",
+      "predicted_external_diagram": {
+        "situation": "Ramona feels on edge even in a room full of people, worrying about the unexpected and things that remind her of the past.",
+        "automatic_thought": "What if something goes wrong?",
+        "emotion": "fear, anxiety, frustration, guilt, disappointment, isolation, exhaustion",
+        "behavior": "Ramona avoids situations that might trigger her feelings, second-guesses her words and actions, and puts her own needs aside to please others."
+      },
+      "ground_truth_external_diagram": {
+        "situation": "Ivan touching the patient in a way that reminds her of the past assault, triggering fear and uncertainty about his intent.",
+        "automatic_thought": "Is he going to hurt me again? Can I trust him not to repeat the past? I will get hurt. I can't trust him.",
+        "emotion": "anxious, worried, fearful, scared, tense",
+        "behavior": "Confronting Ivan and discussing the incident, feeling a mix of hope and fear. Passive or aggressive confrontation to Ivan. Not assertive."
+      },
+      "predicted_internal_diagram": {
+        "relevant_history": "The client reports growing up with pressure to be perfect and meet expectations, feeling like nothing was ever good enough, and hearing comments that made her feel she had to prove herself. She internalized the idea that her worth was tied to her accomplishments and how much she could do for others. In school, she felt the need to excel and make everyone proud, reinforcing the belief that her value was tied to her productivity and helpfulness. In her current relationships, she constantly tries to please others, fearing disappointment or rejection if she doesn't meet their expectations.",
+        "core_beliefs": "I am powerless | I am weak | I am not good enough | I am bound to be rejected | I am bound to be alone",
+        "intermediate_beliefs": "The client believes that if she doesn't meet expectations, then she is failing. If she doesn't please others, they will be disappointed or reject her. If she takes time for herself, she will be letting people down or things will fall apart. If she is not being useful or helpful, then she is not worthy of taking a break or enjoying something for herself.",
+        "coping_strategies": "The client copes by avoiding situations that might trigger feelings of fear or anxiety, leading to temporary relief but followed by disappointment or guilt. She tends to second-guess herself in social situations, trying to avoid potential backlash, and often puts her own needs aside to ensure others are happy. She also considers setting aside time for hobbies and journaling as potential strategies to prioritize her own happiness."
+      },
+      "ground_truth_internal_diagram": {
+        "relevant_history": "The patient has experienced a traumatic incident involving a sexual assault by her partner, Ivan. This has led to a complex dynamic in their relationship, where trust and intimacy are significant issues. The patient has been working through these issues and has seen some improvement in the relationship dynamics, as Ivan has been making efforts to be more considerate and reestablish trust.",
+        "core_beliefs": "I am powerless, weak, vulnerable. | I am a victim. | I am bound to be alone.",
+        "intermediate_beliefs": "If I'm not in control, something bad will happen. I must be vigilant at all times to prevent being hurt again. People close to me may hurt me if I let my guard down.\nDepressive variant: My efforts to rebuild trust may be futile. I might never be able to feel safe or loved again. I am at risk of being hurt even when things seem to be improving.",
+        "coping_strategies": "The patient uses vigilance and control as a coping strategy to ensure her safety and prevent further harm. She also engages in open communication and scheduled conversations with Ivan as a way to cope with trust issues in their relationship."
+      },
+      "edss": {
+        "situation": 0.47684546818503387,
+        "automatic_thought": 0.28897170250643306,
+        "emotion": 0.551144879343631,
+        "behavior": 0.2831659123735593,
+        "average": 0.4000319906021643
+      },
+      "idss": {
+        "relevant_history": 0.2861159070140585,
+        "core_beliefs": 0.8507843084703407,
+        "intermediate_beliefs": 0.4269221324137844,
+        "coping_strategies": 0.5521267830658134,
+        "average": 0.5289872827409993
+      }
+    }
+  ]
+}

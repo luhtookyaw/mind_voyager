@@ -1,0 +1,65 @@
+{
+  "aggregate": {
+    "num_sessions": 1,
+    "edss": {
+      "situation": 0.4923960580135538,
+      "automatic_thought": 0.3930621995525996,
+      "emotion": 0.7654243958573883,
+      "behavior": 0.48311813459615627,
+      "average": 0.5335001970049245
+    },
+    "idss": {
+      "relevant_history": 0.643231995614858,
+      "core_beliefs": 0.6149085866729507,
+      "intermediate_beliefs": 0.4350553150840265,
+      "coping_strategies": 0.4895692323904068,
+      "average": 0.5456912824405605
+    }
+  },
+  "sessions": [
+    {
+      "file": "/home/lu/Thesis/mind_voyager/outputs/random10_comparison/baseline/hard/session_14-2.json",
+      "case_id": "14-2",
+      "client_mode": "masked",
+      "difficulty": "hard",
+      "predicted_external_diagram": {
+        "situation": "Linda hears her family talking about what she should do regarding her job situation.",
+        "automatic_thought": "I feel like I\u2019m not good enough for something better.",
+        "emotion": "anxious, frustrated, overwhelmed, inadequate, exhausted, scared, shame, fear, confused, hopeful, guilty",
+        "behavior": "Linda tends to shut down and sometimes lashes out at her family when they try to talk to her about her job situation."
+      },
+      "ground_truth_external_diagram": {
+        "situation": "Talking with parents about future plans and discussing the options of changing jobs.",
+        "automatic_thought": "I'm not capable of a better job, and I don't want to work that hard. Why won't my family help me more?",
+        "emotion": "anxious, worried, fearful, scared, tense; ashamed, embarrassed, humiliated",
+        "behavior": "Feel pressured by family, lashing out and shouting at them to be more supportive."
+      },
+      "predicted_internal_diagram": {
+        "relevant_history": "The client reports feeling stuck in her job and experiencing pressure from her family to seek new opportunities, which adds to her anxiety. She feels inadequate and fears failure, believing she hasn't accomplished much compared to her peers. She has been in the same job position for a while and struggles with self-doubt and comparison to others. The client also experiences fear and shame around vulnerability, worrying about judgment and maintaining a facade of strength. She desires to be more open but fears the impact on her relationships, particularly with her sister.",
+        "core_beliefs": "I am not good enough | I am inadequate | I am bound to fail | I am weak if I show vulnerability | I am not meant for anything better",
+        "intermediate_beliefs": "If I try and fail, then I will confirm that I am not good enough. | If I show vulnerability, then people will judge me or think less of me. | The client believes that taking a break means she is not doing enough.",
+        "coping_strategies": "The client copes by shutting down and lashing out at her family when overwhelmed. She avoids thinking about her problems, hoping they will go away. She maintains a facade of having it all together, which is exhausting. She considers starting small by sharing with someone she trusts and setting small goals for self-care, like taking deep breaths or journaling."
+      },
+      "ground_truth_internal_diagram": {
+        "relevant_history": "The client has had significant life events that have impacted her current state, including losing her retirement funds on some poor financial decisions, which has led to financial concerns and the need to continue working potentially until an old age, find a new job that pays more, and/or find other ways to make money. Additionally, there are underlying tensions and unresolved feelings related to their family, particularly her mother and father, because now she is relying on them more for financial help.",
+        "core_beliefs": "I am helpless. | I am incompetent. | I am a failure, loser.",
+        "intermediate_beliefs": "I need to rely on family and friends to support my life. I am not able to handle anything out of my expectation by myself. My family and friends are supposed to always support me.\nDepressive variant: I just cannot support myself. I am a failure and cannot even be independent. My future is hopeless. I cannot be trusted to take care of myself.",
+        "coping_strategies": "Questioning the self; becoming easily defensive when feeling challenged or criticised for taking care of self; Show avoidance of making decisions or taking challenges in life, which in fact further increases anxious feelings."
+      },
+      "edss": {
+        "situation": 0.4923960580135538,
+        "automatic_thought": 0.3930621995525996,
+        "emotion": 0.7654243958573883,
+        "behavior": 0.48311813459615627,
+        "average": 0.5335001970049245
+      },
+      "idss": {
+        "relevant_history": 0.643231995614858,
+        "core_beliefs": 0.6149085866729507,
+        "intermediate_beliefs": 0.4350553150840265,
+        "coping_strategies": 0.4895692323904068,
+        "average": 0.5456912824405605
+      }
+    }
+  ]
+}

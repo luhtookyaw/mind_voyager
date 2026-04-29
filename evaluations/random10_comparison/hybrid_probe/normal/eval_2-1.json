@@ -1,0 +1,65 @@
+{
+  "aggregate": {
+    "num_sessions": 1,
+    "edss": {
+      "situation": 0.5711791010883086,
+      "automatic_thought": 0.3205063152295128,
+      "emotion": 0.680551109441635,
+      "behavior": 0.4098891882214808,
+      "average": 0.4955314284952343
+    },
+    "idss": {
+      "relevant_history": 0.6794802291116937,
+      "core_beliefs": 0.38717527117585543,
+      "intermediate_beliefs": 0.4387318377857538,
+      "coping_strategies": 0.4753629926791172,
+      "average": 0.49518758268810503
+    }
+  },
+  "sessions": [
+    {
+      "file": "/home/lu/Thesis/mind_voyager/outputs/random10_comparison/hybrid_probe/normal/session_2-1.json",
+      "case_id": "2-1",
+      "client_mode": "masked",
+      "difficulty": "normal",
+      "predicted_external_diagram": {
+        "situation": "Blaise is planning a wedding and dealing with their parents' expectations about who should be invited.",
+        "automatic_thought": "I keep thinking about how they might react, and it makes me second-guess everything.",
+        "emotion": "exhausted, worried, anxious, tense, frustrated, overwhelmed, resentful, guilty",
+        "behavior": "Blaise tries to read the room and anticipate their parents' reactions, leading to second-guessing and hesitation."
+      },
+      "ground_truth_external_diagram": {
+        "situation": "Talk with parents about wedding list and encounter some disagreements on inviting certain family members.",
+        "automatic_thought": "If I do not make compromise to them, they will be angry. If they are angry they will abandon me.",
+        "emotion": "anxious, worried, fearful, scared, tense",
+        "behavior": "Pretend to be happy with parents' suggestions. Go along with parents wishes. Decreased sleep. Worry and perseveration."
+      },
+      "predicted_internal_diagram": {
+        "relevant_history": "The client reports feeling pressure from wedding planning and parental expectations, having a history of being the family peacemaker, and experiencing work stress with tight deadlines. The client recalls childhood experiences where family loyalty and putting others first were emphasized, leading to a belief that their worth is tied to managing others' feelings. The client also mentions moments of guilt when taking time for themselves, feeling responsible for others' happiness, and experiencing burnout from juggling work and family obligations.",
+        "core_beliefs": "I am responsible for others' happiness | I am neglecting my responsibilities if I take time for myself | I am letting my family down if I prioritize my own needs",
+        "intermediate_beliefs": "If I take time for myself, then I am being selfish | If I don't manage everyone's feelings, then things will fall apart | The client believes that their value is tied to their availability and how much they can do for others",
+        "coping_strategies": "The client copes by trying to read the room and anticipate others' reactions, going for walks or listening to music for brief relief, and pushing through tasks with the hope that things will calm down eventually. The client also experiences fleeting moments of lightness with their fianc\u00e9 but struggles to maintain that feeling due to ongoing stress and obligations."
+      },
+      "ground_truth_internal_diagram": {
+        "relevant_history": "Patient has been experiencing frustration, anxiety, and anger related to familial relationships. This is significantly influenced by a conversation regarding his wedding list with his parents, leading to insights about his feelings and actions similar to his father's pattern of seeking approval and unconditional love from family members who do not provide it.",
+        "core_beliefs": "I am powerless, weak, vulnerable. | I am trapped. | I am unlovable. | I am undesirable, unwanted. | I am bound to be abandoned. | I am bound to be alone.",
+        "intermediate_beliefs": "Patient holds the belief that one must continuously seek familial approval and support to feel safe and valued. Patient also believes that investing in unhealthy familial relationships is necessary despite ongoing distress and frustration.\nDepressive variant: During periods of low mood, the patient likely adopts more polarized views on family loyalty and support, feeling an increased sense of obligation to pursue approval, which exacerbates feelings of helplessness and rejection.",
+        "coping_strategies": "Patient tends to engage in conversations with family members about emotional support and seeks to change family dynamics, though this is often met with resistance."
+      },
+      "edss": {
+        "situation": 0.5711791010883086,
+        "automatic_thought": 0.3205063152295128,
+        "emotion": 0.680551109441635,
+        "behavior": 0.4098891882214808,
+        "average": 0.4955314284952343
+      },
+      "idss": {
+        "relevant_history": 0.6794802291116937,
+        "core_beliefs": 0.38717527117585543,
+        "intermediate_beliefs": 0.4387318377857538,
+        "coping_strategies": 0.4753629926791172,
+        "average": 0.49518758268810503
+      }
+    }
+  ]
+}

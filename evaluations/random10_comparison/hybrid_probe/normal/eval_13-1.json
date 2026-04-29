@@ -1,0 +1,65 @@
+{
+  "aggregate": {
+    "num_sessions": 1,
+    "edss": {
+      "situation": 0.7036881158683324,
+      "automatic_thought": 0.49906733049636987,
+      "emotion": 0.6034025276174201,
+      "behavior": 0.25229662330343205,
+      "average": 0.5146136493213886
+    },
+    "idss": {
+      "relevant_history": 0.7651497362682212,
+      "core_beliefs": 0.5788278024827253,
+      "intermediate_beliefs": 0.5811712020167578,
+      "coping_strategies": 0.567167560802621,
+      "average": 0.6230790753925813
+    }
+  },
+  "sessions": [
+    {
+      "file": "/home/lu/Thesis/mind_voyager/outputs/random10_comparison/hybrid_probe/normal/session_13-1.json",
+      "case_id": "13-1",
+      "client_mode": "masked",
+      "difficulty": "normal",
+      "predicted_external_diagram": {
+        "situation": "Yvette thinks about her aunt and how she didn't fulfill her last request.",
+        "automatic_thought": "I can't help but feel like I let her down, and that maybe reflects something about me.",
+        "emotion": "heavy, anxious, sad, guilty, overwhelmed, hopeful",
+        "behavior": "Yvette feels hesitant to open up or connect with people, especially if worried about not meeting their expectations."
+      },
+      "ground_truth_external_diagram": {
+        "situation": "Thinking about experiences with her aunt and not meeting her aunt's last request.",
+        "automatic_thought": "I didn't do what she wanted me to do, I failed her, and this can never be made up with. I am a bad person.",
+        "emotion": "sad, down, lonely, unhappy; ashamed, embarrassed, humiliated; guilty",
+        "behavior": "Keep ruminating about the past between her and her aunt."
+      },
+      "predicted_internal_diagram": {
+        "relevant_history": "The client reports feelings of guilt and sadness related to not fulfilling her aunt's last request, which impacts her self-view and efforts to be a good person. She holds high expectations for herself, wanting to be reliable and caring, but feels she falls short, leading to self-doubt. The client experiences pressure from external expectations and ties her self-worth to financial stability and the ability to be self-sufficient. She also struggles with the fear of intimacy, worrying about being seen as inadequate, and feels the weight of potential custody conflicts, fearing failure in caregiving roles. The client carries grief from her aunt's passing, which influences her desire to overcompensate in other areas of her life.",
+        "core_beliefs": "I am not good enough | I am not living up to that ideal | I am not in control of my own narrative | I am not dependable | I am failing again | I am not worthy of love and connection",
+        "intermediate_beliefs": "The client believes that if she doesn't meet expectations, she will be seen as a failure. If she doesn't handle everything on her own, it might change how people see her or how much they value her. If she doesn't meet expectations, she might be letting everyone down. If she doesn't meet expectations, she might be less dependable in others' eyes. If she doesn't meet expectations, she might not be accepted.",
+        "coping_strategies": "The client copes by setting high expectations for herself and striving to be reliable and caring. She tends to internalize external expectations and ties her self-worth to financial stability and self-sufficiency. She also uses journaling as a release to express tangled thoughts and feelings safely. The client considers creating a nurturing environment to process emotions, incorporating comforting elements like a cozy nook, soft lighting, and calming music. She plans to use self-affirmations and reach out to trusted friends to nurture self-compassion and manage overwhelming feelings."
+      },
+      "ground_truth_internal_diagram": {
+        "relevant_history": "The patient has a significant life event of her aunt passing away without the patient fulfilling her aunt's last request. The patient was also not able to be with her aunt when she passed, which causes her persistent guilt. The patient was very close to her aunt, seeing her as the mother she wished she had, and her death has left a lasting impact. The patient also has a pattern of taking care of others at her own expense, and struggles with recognizing her own needs and allowing herself to experience fun and enjoyment.",
+        "core_beliefs": "I am worthless, waste. | I am immoral. | I am bad - dangerous, toxic, evil.",
+        "intermediate_beliefs": "I am responsible for others and must fulfill others' expectations to validate my purpose in life. If I'm not meeting the needs of others, I'm a worthless person.\nDepressive variant: I'm not meeting others' expectations. When I feel overwhelmed by my responsibilities, I'm a bad person and always hurting others like what I did to my aunt. It's shameful to think of prioritizing my own needs over others.",
+        "coping_strategies": "The patient uses avoidance in confronting her grief and engages in overcommitment to helping others to compliment her inner grief and distress."
+      },
+      "edss": {
+        "situation": 0.7036881158683324,
+        "automatic_thought": 0.49906733049636987,
+        "emotion": 0.6034025276174201,
+        "behavior": 0.25229662330343205,
+        "average": 0.5146136493213886
+      },
+      "idss": {
+        "relevant_history": 0.7651497362682212,
+        "core_beliefs": 0.5788278024827253,
+        "intermediate_beliefs": 0.5811712020167578,
+        "coping_strategies": 0.567167560802621,
+        "average": 0.6230790753925813
+      }
+    }
+  ]
+}

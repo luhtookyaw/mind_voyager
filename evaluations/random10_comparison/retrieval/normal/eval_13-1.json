@@ -1,0 +1,65 @@
+{
+  "aggregate": {
+    "num_sessions": 1,
+    "edss": {
+      "situation": 0.6389257934624617,
+      "automatic_thought": 0.6857010928872953,
+      "emotion": 0.6163689313415942,
+      "behavior": 0.46173787589137194,
+      "average": 0.6006834233956808
+    },
+    "idss": {
+      "relevant_history": 0.684725724134325,
+      "core_beliefs": 0.5724143850138352,
+      "intermediate_beliefs": 0.5945519088523801,
+      "coping_strategies": 0.576967172212741,
+      "average": 0.6071647975533203
+    }
+  },
+  "sessions": [
+    {
+      "file": "/home/lu/Thesis/mind_voyager/outputs/random10_comparison/retrieval/normal/session_13-1.json",
+      "case_id": "13-1",
+      "client_mode": "masked",
+      "difficulty": "normal",
+      "predicted_external_diagram": {
+        "situation": "Yvette is thinking about her aunt and feeling like she let her down by not doing what her aunt wanted.",
+        "automatic_thought": "I didn\u2019t do what she wanted, and I feel like I let her down.",
+        "emotion": "heavy, regret, guilt, sadness, helpless",
+        "behavior": "Yvette tends to keep her feelings inside, ruminates over past moments, and tries to distract herself with activities like reading or watching TV."
+      },
+      "ground_truth_external_diagram": {
+        "situation": "Thinking about experiences with her aunt and not meeting her aunt's last request.",
+        "automatic_thought": "I didn't do what she wanted me to do, I failed her, and this can never be made up with. I am a bad person.",
+        "emotion": "sad, down, lonely, unhappy; ashamed, embarrassed, humiliated; guilty",
+        "behavior": "Keep ruminating about the past between her and her aunt."
+      },
+      "predicted_internal_diagram": {
+        "relevant_history": "The client reports feeling regret and guilt about not meeting her aunt's expectations, leading to a sense of failure and helplessness. She experiences a constant loop of regret and sadness, feeling stuck and unable to change the past. The client also expresses fear of being vulnerable and burdening others with her feelings, which contributes to her tendency to keep emotions inside.",
+        "core_beliefs": "I am helpless | I am bound to be rejected | I am a burden",
+        "intermediate_beliefs": "If I share my feelings, people might not understand or think I'm being too dramatic. | The client believes that asking for support might burden others. | If I don't meet expectations, I have failed.",
+        "coping_strategies": "The client tends to keep her feelings inside and ruminate on past events, replaying moments in her mind. She tries to distract herself with activities like reading or watching TV to avoid dealing with her emotions. She also considers journaling as a way to process her thoughts and challenge negative beliefs, and she is exploring the idea of reaching out to trusted friends for support."
+      },
+      "ground_truth_internal_diagram": {
+        "relevant_history": "The patient has a significant life event of her aunt passing away without the patient fulfilling her aunt's last request. The patient was also not able to be with her aunt when she passed, which causes her persistent guilt. The patient was very close to her aunt, seeing her as the mother she wished she had, and her death has left a lasting impact. The patient also has a pattern of taking care of others at her own expense, and struggles with recognizing her own needs and allowing herself to experience fun and enjoyment.",
+        "core_beliefs": "I am worthless, waste. | I am immoral. | I am bad - dangerous, toxic, evil.",
+        "intermediate_beliefs": "I am responsible for others and must fulfill others' expectations to validate my purpose in life. If I'm not meeting the needs of others, I'm a worthless person.\nDepressive variant: I'm not meeting others' expectations. When I feel overwhelmed by my responsibilities, I'm a bad person and always hurting others like what I did to my aunt. It's shameful to think of prioritizing my own needs over others.",
+        "coping_strategies": "The patient uses avoidance in confronting her grief and engages in overcommitment to helping others to compliment her inner grief and distress."
+      },
+      "edss": {
+        "situation": 0.6389257934624617,
+        "automatic_thought": 0.6857010928872953,
+        "emotion": 0.6163689313415942,
+        "behavior": 0.46173787589137194,
+        "average": 0.6006834233956808
+      },
+      "idss": {
+        "relevant_history": 0.684725724134325,
+        "core_beliefs": 0.5724143850138352,
+        "intermediate_beliefs": 0.5945519088523801,
+        "coping_strategies": 0.576967172212741,
+        "average": 0.6071647975533203
+      }
+    }
+  ]
+}

@@ -1,0 +1,1105 @@
+{
+  "case_id": "6-2",
+  "client_name": "Daisy",
+  "client_mode": "masked",
+  "difficulty": "normal",
+  "openness_interval": 2,
+  "therapist_provider": "openai",
+  "therapist_model": "gpt-4o-mini",
+  "therapist_prompt_mode": "hybrid_probe",
+  "client_model": "gpt-4o-mini",
+  "moderator_enabled": false,
+  "moderator_model": "gpt-4o-mini",
+  "max_turns": 25,
+  "therapist_turns": 25,
+  "stop_reason": "max_turns",
+  "transcript": [
+    {
+      "turn": 1,
+      "speaker": "therapist",
+      "content": "Daisy, as we talk about what\u2019s on your mind, I wonder if there\u2019s anything related to custody or family arrangements that\u2019s been weighing on you. Does that resonate with your experience at all, or is there something else that feels more relevant?"
+    },
+    {
+      "turn": 1,
+      "speaker": "client",
+      "content": "Daisy: Well, I mean, custody and family stuff, it\u2019s always there in the background, you know? It\u2019s just... it\u2019s complicated. I don\u2019t really want to get into all the details right now. I guess I just feel like I\u2019m constantly trying to juggle everything, and it\u2019s hard to keep track of what\u2019s important. Sometimes I think I should be doing better, but then I get overwhelmed. So, yeah, maybe there\u2019s something there, but it\u2019s just... it\u2019s a lot to unpack, I suppose."
+    },
+    {
+      "turn": 2,
+      "speaker": "therapist",
+      "content": "It sounds like you\u2019re feeling a lot of pressure from the family situation, and it\u2019s understandable that it can feel overwhelming to juggle everything. You mentioned wanting to do better, which suggests there might be some expectations you\u2019re holding onto. Can you share a bit more about what those expectations look like for you?"
+    },
+    {
+      "turn": 2,
+      "speaker": "client",
+      "content": "Daisy: Expectations, huh? Well, I guess I just feel like I should be able to handle things on my own, you know? Like, I see other people managing their family situations and it seems so effortless. I think I put a lot of pressure on myself to be organized and to keep everything running smoothly. But then, when things don\u2019t go as planned, I start to doubt myself. It\u2019s like, I should have it all figured out by now, but I don\u2019t. And that just makes me feel... I don\u2019t know, like I\u2019m failing in some way? It\u2019s frustrating, really."
+    },
+    {
+      "turn": 3,
+      "speaker": "therapist",
+      "content": "It sounds like you\u2019re really feeling the weight of those expectations, and it\u2019s tough when you see others seemingly managing things effortlessly. That pressure to handle everything on your own can be quite heavy, especially when things don\u2019t go as planned. I wonder if sometimes you find yourself withdrawing from situations or people when it feels overwhelming. Does that resonate with you at all, or do you experience it differently?"
+    },
+    {
+      "turn": 3,
+      "speaker": "client",
+      "content": "Daisy: Well, yeah, I guess I do tend to pull back a bit when things get too much. It\u2019s like, I don\u2019t want to burden anyone with my problems, you know? So I just sort of retreat into my own head. I think it\u2019s easier that way, but then I end up feeling even more isolated, which isn\u2019t great either. It\u2019s just this cycle, I suppose. I mean, I want to reach out, but then I worry about what people will think or if they\u2019ll judge me for not having it all together. So, I guess I just... don\u2019t. It\u2019s a bit of a mess, really."
+    },
+    {
+      "turn": 4,
+      "speaker": "therapist",
+      "content": "It sounds like you\u2019re caught in a difficult cycle\u2014wanting to reach out but feeling hesitant due to concerns about how others might perceive you. That retreat into your own head seems like a way to cope, but it also leaves you feeling more isolated. I can imagine how frustrating that must be. When you think about those moments of withdrawal, what emotions come up for you?"
+    },
+    {
+      "turn": 4,
+      "speaker": "client",
+      "content": "Daisy: Well, when I think about it, I feel a mix of things, really. There\u2019s definitely some sadness, like I\u2019m missing out on connections with people. But there\u2019s also this anxiety, you know? Like, what if I reach out and it doesn\u2019t go well? Or what if they don\u2019t understand? It\u2019s just... it makes me feel vulnerable, and I don\u2019t like that feeling. I guess I also feel a bit ashamed, like I should be stronger or more capable. It\u2019s frustrating to feel like I\u2019m stuck in this loop, wanting to connect but also feeling like I can\u2019t. It\u2019s just... a lot to deal with."
+    },
+    {
+      "turn": 5,
+      "speaker": "therapist",
+      "content": "It sounds like you\u2019re experiencing a lot of conflicting emotions\u2014sadness from missing connections, anxiety about reaching out, and shame for feeling vulnerable. That\u2019s a heavy load to carry. I wonder if part of this struggle comes from a fear of how institutions, like the legal system or family dynamics, might react if you were to open up. Does that resonate with you at all, or do you think it\u2019s more about something else?"
+    },
+    {
+      "turn": 5,
+      "speaker": "client",
+      "content": "Daisy: Yeah, I think there\u2019s definitely something to that. It\u2019s like, I worry about how people\u2014especially those in positions of authority\u2014might judge me or see my situation. You know, the legal stuff can feel so rigid and unforgiving. I often think about how they might perceive my struggles and whether they\u2019d see me as a good parent or not. It\u2019s like I\u2019m constantly under a microscope, and that just adds to the pressure. I guess I fear that if I show any weakness, it could be used against me somehow. So, I just keep it all bottled up, which isn\u2019t really helping, but it feels safer, I suppose. It\u2019s just... exhausting, trying to navigate all of that while also wanting to be open and honest."
+    },
+    {
+      "turn": 6,
+      "speaker": "therapist",
+      "content": "It sounds like you\u2019re feeling a significant amount of pressure from the fear of judgment, especially from those in authority. That sense of being under a microscope must be incredibly exhausting, and it makes sense that you\u2019d want to keep things bottled up to feel safer. I can see how that creates a conflict between wanting to be open and the fear of how it might impact your situation. When you think about this pressure and the need to navigate these dynamics, what do you feel is the most challenging part for you right now?"
+    },
+    {
+      "turn": 6,
+      "speaker": "client",
+      "content": "Daisy: Well, I think the most challenging part is just the constant worry about making the wrong move, you know? It\u2019s like I\u2019m always second-guessing myself. I mean, I want to be a good parent and do right by my family, but then there\u2019s this nagging voice in my head telling me I\u2019m not doing enough or that I\u2019m going to mess things up. It\u2019s hard to shake that feeling, and it makes it tough to focus on what really matters. I find myself getting caught up in the details, like worrying about how I present myself to others or if I\u2019m meeting some invisible standard. It\u2019s just... overwhelming, and I feel like I\u2019m stuck in this loop of anxiety and self-doubt. I wish I could just let go of that pressure and trust myself more, but it\u2019s easier said than done, I guess."
+    },
+    {
+      "turn": 7,
+      "speaker": "therapist",
+      "content": "Therapist: It sounds like that constant worry and self-doubt really take a toll on you, making it hard to focus on what truly matters. The pressure to meet those invisible standards can feel suffocating. I wonder if part of this is also tied to how you feel about your current situation, like managing finances or feeling dependent on others. Does that resonate with you at all, or do you think it\u2019s more about something else?"
+    },
+    {
+      "turn": 7,
+      "speaker": "client",
+      "content": "Daisy: Yeah, I think it does tie into how I feel about my situation. I mean, managing finances and trying to be independent is a huge part of it. I feel like I should have it all figured out by now, especially since I\u2019m trying to prove that I can stand on my own two feet. But then, when something goes wrong, like with the insurance claim I mentioned before, it just reinforces that feeling of inadequacy. It\u2019s like, if I can\u2019t even handle this, what does that say about me? I start to think maybe I\u2019m just not cut out for this adulting thing. It\u2019s frustrating because I want to be responsible and capable, but I feel like I\u2019m constantly falling short. And that just adds to the anxiety, you know? It\u2019s like I\u2019m stuck in this cycle of wanting to be independent but feeling like I\u2019m failing at it."
+    },
+    {
+      "turn": 8,
+      "speaker": "therapist",
+      "content": "It sounds like your feelings about financial independence are deeply intertwined with your sense of self-worth and capability. That pressure to prove you can handle everything on your own must be really challenging, especially when setbacks reinforce those feelings of inadequacy. I can see how that cycle of wanting to be responsible but feeling like you\u2019re falling short adds to your anxiety. When you reflect on those moments of feeling inadequate, what thoughts come up for you?"
+    },
+    {
+      "turn": 8,
+      "speaker": "client",
+      "content": "Daisy: Well, when I think about those moments, I often hear that voice in my head saying things like, \"You should have known better\" or \"Why can\u2019t you just get it right?\" It\u2019s like I\u2019m constantly critiquing myself, and it feels like I\u2019m never living up to some standard that I\u2019ve set for myself. I start to feel really defeated, like maybe I\u2019m just not meant to be good at this adulting thing. And then I worry about what others might think, too\u2014like, if they knew how much I struggle, would they still respect me? It\u2019s just this heavy cloud of self-doubt that hangs over me, and it makes it hard to see any progress or feel proud of what I do manage to accomplish. I guess it\u2019s just a lot of negative self-talk that keeps me feeling stuck."
+    },
+    {
+      "turn": 9,
+      "speaker": "therapist",
+      "content": "It sounds like that negative self-talk really weighs you down, making it hard to recognize your accomplishments and feel good about yourself. The pressure to meet those standards and the fear of how others might perceive you must be incredibly challenging. I wonder if, alongside all of this, you sometimes experience physical sensations like pain or fatigue that add to your overall sense of overwhelm. Does that fit at all, or is it more about something else for you?"
+    },
+    {
+      "turn": 9,
+      "speaker": "client",
+      "content": "Daisy: Yeah, I think that definitely fits. I often feel this tightness in my chest, especially when I\u2019m stressed or anxious about things. It\u2019s like my body is reacting to all that mental pressure. Sometimes I get headaches, too, and I just feel drained, like I can\u2019t keep up with everything. It\u2019s frustrating because I know I should be taking care of myself, but when I\u2019m caught up in all this worry and self-doubt, it\u2019s hard to find the energy to do anything else. I guess it just adds to that feeling of being overwhelmed, you know? Like, I\u2019m not just battling with my thoughts, but my body is also feeling the weight of it all. It\u2019s just... a lot to handle."
+    },
+    {
+      "turn": 10,
+      "speaker": "therapist",
+      "content": "It sounds like the physical sensations, like the tightness in your chest and headaches, are really amplifying the emotional overwhelm you\u2019re already experiencing. That connection between your mental and physical state can be so challenging to navigate. It\u2019s understandable that when you\u2019re feeling drained and caught up in worry, taking care of yourself becomes even harder. When you think about these physical symptoms, what do you feel they might be telling you about your current state or needs?"
+    },
+    {
+      "turn": 10,
+      "speaker": "client",
+      "content": "Daisy: I think those physical symptoms are definitely a signal that I\u2019m not managing my stress well. It\u2019s like my body is trying to tell me, \u201cHey, you need to slow down or take a break.\u201d But I often just push through it because I feel like I have to keep going, you know? I mean, there\u2019s this part of me that thinks if I stop, everything will fall apart, and I can\u2019t let that happen. So, I just ignore the signs and keep going, which probably just makes everything worse. It\u2019s frustrating because I know I should be listening to my body, but it feels like there\u2019s this constant pressure to keep up with everything, and I don\u2019t want to let anyone down. It\u2019s just... a cycle that I can\u2019t seem to break, and I wish I could find a way to balance it all without feeling so overwhelmed."
+    },
+    {
+      "turn": 11,
+      "speaker": "therapist",
+      "content": "It sounds like you\u2019re really aware that your body is trying to communicate with you, but the pressure to keep going often overrides that instinct. It must be tough to feel like stopping could lead to everything falling apart, especially when you\u2019re trying so hard not to let anyone down. I wonder if part of this cycle might also relate to how you connect with others, especially when it comes to being vulnerable or letting people in. Does that resonate with you at all, or do you think it\u2019s more about something else?"
+    },
+    {
+      "turn": 11,
+      "speaker": "client",
+      "content": "Client: Daisy: Yeah, I think that does resonate with me. I mean, being vulnerable feels really risky, especially when I\u2019m already feeling so fragile. There\u2019s this fear that if I let people see how overwhelmed I am, they might judge me or think less of me. It\u2019s like I have this image I\u2019m trying to maintain, and showing any cracks in that facade feels terrifying. I guess I worry that if I open up, it\u2019ll just confirm all those negative thoughts I have about myself\u2014that I\u2019m not capable or that I\u2019m a burden. So, I tend to keep things to myself, even when I know it might help to share. It\u2019s just this constant battle between wanting to connect and feeling like I have to protect myself from potential judgment. It\u2019s exhausting, honestly."
+    },
+    {
+      "turn": 12,
+      "speaker": "therapist",
+      "content": "It sounds like the fear of vulnerability and judgment creates a significant barrier for you, making it difficult to connect with others even when you desire that connection. Maintaining that facade can be incredibly exhausting, especially when you\u2019re already feeling fragile. I can see how this struggle between wanting to open up and fearing the consequences adds to your overall sense of overwhelm. When you think about that battle, what do you feel is the most challenging part of allowing yourself to be vulnerable with others?"
+    },
+    {
+      "turn": 12,
+      "speaker": "client",
+      "content": "Daisy: You know, I think the most challenging part is just the fear of rejection, honestly. It\u2019s like, if I let someone in and they don\u2019t respond the way I hope, it just reinforces all those negative beliefs I have about myself. I worry that they\u2019ll see me as weak or incapable, and that just feels so humiliating. It\u2019s hard to shake off that feeling of being judged, and I guess I\u2019m just not ready to risk that. Plus, there\u2019s this nagging thought that if I show my true self, they might realize I\u2019m not as put together as I try to appear. It\u2019s like I\u2019m stuck in this loop of wanting to be authentic but feeling like I have to keep up this image to protect myself. And that just makes it harder to reach out, you know? It\u2019s frustrating because I know deep down that connection is important, but the fear of what might happen if I open up keeps me from taking that step."
+    },
+    {
+      "turn": 13,
+      "speaker": "therapist",
+      "content": "It sounds like the fear of rejection really holds you back from being authentic with others, and that pressure to maintain a certain image feels overwhelming. It must be tough to navigate that desire for connection while feeling like you have to protect yourself from potential judgment. I wonder if part of this struggle also relates to feeling disconnected from others, especially when you\u2019re holding so much inside. Does that sense of social disconnection resonate with you at all, or do you think it\u2019s more about something else?"
+    },
+    {
+      "turn": 13,
+      "speaker": "client",
+      "content": "Daisy: Yeah, I think that sense of disconnection definitely resonates with me. It\u2019s like, even when I\u2019m around people, I often feel like I\u2019m on the outside looking in. I can be in a room full of friends, and yet I still feel this barrier between us because I\u2019m not fully being myself. It\u2019s frustrating because I want to engage and connect, but I hold back out of fear. I guess it\u2019s like I\u2019m living in my own little bubble, and while I see everyone else interacting and having fun, I\u2019m stuck worrying about how I\u2019m perceived. It\u2019s isolating, really. I know I\u2019m missing out on deeper connections, but the thought of being vulnerable just feels too risky. So, I end up keeping my distance, which only adds to that feeling of loneliness. It\u2019s a tough spot to be in, wanting to reach out but feeling like I can\u2019t."
+    },
+    {
+      "turn": 14,
+      "speaker": "therapist",
+      "content": "It sounds like that sense of disconnection is really painful for you, especially when you\u2019re surrounded by friends yet still feel isolated. It must be frustrating to want to engage and connect but feel held back by fear. I can see how that creates a cycle where the desire for deeper connections clashes with the worry about vulnerability. When you think about this loneliness and the barriers you feel, what do you think might help you start to bridge that gap, even just a little?"
+    },
+    {
+      "turn": 14,
+      "speaker": "client",
+      "content": "Daisy: You know, I\u2019ve thought about that a lot. I guess maybe it starts with just being a little more open, even if it\u2019s just in small ways. Like, sharing something minor about how I\u2019m feeling or what I\u2019m going through, instead of keeping it all bottled up. But then I get stuck on the \u201cwhat ifs\u201d\u2014what if they don\u2019t respond well, or what if I end up feeling even more exposed? It\u2019s like I want to take that step, but the fear of it backfiring keeps me from trying. I think maybe I could practice being more honest in low-stakes situations, just to see how it feels. But it\u2019s hard to shake off that instinct to protect myself. I guess it\u2019s just about finding that balance between wanting to connect and feeling safe enough to do so. It\u2019s a tricky line to walk, you know?"
+    },
+    {
+      "turn": 15,
+      "speaker": "therapist",
+      "content": "It sounds like you're really considering the idea of being more open, even in small ways, which is a brave step. I can understand how those \u201cwhat ifs\u201d can feel overwhelming and make it hard to take that leap. Finding that balance between connection and safety is definitely a tricky line to walk. I wonder if part of this journey might also involve thinking about the support you have in place, especially when it comes to managing the costs of treatment or any resources you might need. Does that resonate with you at all, or do you feel like that\u2019s not really part of the picture for you?"
+    },
+    {
+      "turn": 15,
+      "speaker": "client",
+      "content": "Daisy: Yeah, I think that does resonate with me. I mean, when it comes to support, I often feel like I have to handle everything on my own, especially financially. It\u2019s like I\u2019ve put this pressure on myself to be completely self-sufficient, and asking for help feels like admitting defeat. I know there are resources out there, but I just get so caught up in the idea that I should be able to manage everything myself. It\u2019s frustrating because I know deep down that reaching out for support could ease some of that burden, but I worry about being seen as needy or incapable. It\u2019s like I\u2019m stuck in this mindset where I have to prove I can do it all, and that just adds to the weight I\u2019m carrying. I guess it\u2019s another layer of that fear of judgment, you know?"
+    },
+    {
+      "turn": 16,
+      "speaker": "therapist",
+      "content": "It sounds like you\u2019re really feeling the weight of that pressure to be self-sufficient, and it\u2019s understandable that asking for help can feel like admitting defeat. It must be exhausting to carry that burden alone, especially when you recognize that reaching out could lighten the load. I can see how that fear of being seen as needy or incapable adds another layer to your experience. When you think about this mindset of needing to prove yourself, what do you think it stems from? Have there been experiences in your past that contribute to how you feel about asking for support?"
+    },
+    {
+      "turn": 16,
+      "speaker": "client",
+      "content": "Daisy: You know, I think a lot of it comes from how I grew up. My parents always emphasized the importance of being independent and self-reliant, and I guess I internalized that message pretty strongly. I remember my brother being a bit more dependent on them, and I always felt this pressure to be the opposite\u2014like I had to show that I could handle everything on my own. It\u2019s like there\u2019s this unspoken competition between us, and I don\u2019t want to be seen as the one who needs help. I think that\u2019s why I struggle so much with asking for support; it feels like I\u2019m betraying that expectation of independence. It\u2019s frustrating because I know it\u2019s not realistic to do everything alone, but that belief is so ingrained in me that it\u2019s hard to shake off. It\u2019s like I\u2019m constantly battling this internal narrative that says I have to prove my worth through self-sufficiency."
+    },
+    {
+      "turn": 17,
+      "speaker": "therapist",
+      "content": "It sounds like that emphasis on independence from your upbringing has really shaped how you view asking for support. The pressure to be self-reliant, especially in comparison to your brother, seems to have created a strong internal narrative that ties your worth to your ability to handle everything on your own. It must be challenging to navigate that belief, especially when you recognize that it's not realistic to do it all alone. I wonder, as you reflect on those early messages about independence, how do you think they influence your feelings about vulnerability and connection today?"
+    },
+    {
+      "turn": 17,
+      "speaker": "client",
+      "content": "Daisy: You know, it\u2019s interesting because I think those early messages really play a huge role in how I approach vulnerability and connection now. It\u2019s like I\u2019ve internalized this idea that needing help or showing any kind of weakness is a failure. So, when I think about being vulnerable, I feel this immediate pushback from that ingrained belief. It\u2019s almost like I\u2019m afraid that if I let my guard down, it\u2019ll confirm that I\u2019m not living up to those expectations of independence. I guess it makes me feel like I\u2019m not just risking judgment from others, but also from myself. It\u2019s frustrating because I know that vulnerability can lead to deeper connections, but that fear of being seen as inadequate keeps me from taking that step. I feel like I\u2019m caught in this cycle where my desire for connection clashes with this deep-rooted belief that I have to prove myself through self-sufficiency. It\u2019s exhausting, really."
+    },
+    {
+      "turn": 18,
+      "speaker": "therapist",
+      "content": "It sounds like you\u2019re really grappling with the tension between your desire for connection and the strong belief that vulnerability equates to weakness. That internal pushback must feel quite heavy, especially when you recognize that being vulnerable could lead to deeper relationships. It\u2019s understandable to feel caught in that cycle, where your self-expectations clash with your needs for connection. As you think about this cycle, what do you feel might be the first small step you could take to challenge that belief about vulnerability, even if it feels uncomfortable?"
+    },
+    {
+      "turn": 18,
+      "speaker": "client",
+      "content": "Daisy: You know, I\u2019ve been mulling that over, and I think maybe one small step could be just sharing a little bit about my day-to-day experiences with someone I trust. Like, instead of diving into something deep right away, I could start with something more casual\u2014like how I\u2019ve been feeling about school or even just a funny story that happened. It feels less risky, you know? But even thinking about it makes me anxious because what if they don\u2019t respond the way I hope? I guess it\u2019s about finding that balance again, where I can be honest without feeling completely exposed. It\u2019s just hard to break that habit of holding everything in, especially when I\u2019ve been doing it for so long. I suppose even just trying to be a bit more open in those smaller moments could help me see that it\u2019s okay to let my guard down, even just a little. It\u2019s a start, right?"
+    },
+    {
+      "turn": 19,
+      "speaker": "therapist",
+      "content": "It sounds like you\u2019ve identified a thoughtful and manageable step to start sharing more about your day-to-day experiences with someone you trust. I can see how starting with something casual might feel less risky and help you ease into being more open. It\u2019s completely normal to feel anxious about how others might respond, especially when you\u2019re used to holding everything in. As you consider this approach, what do you think might help you feel more comfortable taking that first step, even if it\u2019s just a small one?"
+    },
+    {
+      "turn": 19,
+      "speaker": "client",
+      "content": "Daisy: I think maybe setting a little intention for myself could help. Like, reminding myself that it\u2019s okay to be a bit vulnerable and that it doesn\u2019t have to be a huge deal. I could also try to focus on the positive outcomes, like the potential for connection or just the relief of sharing something instead of keeping it all bottled up. Maybe even practicing what I want to say beforehand could ease some of that anxiety. I guess having a plan might make it feel less daunting. But then again, I worry about overthinking it and psyching myself out. It\u2019s like I want to be prepared, but I also don\u2019t want to get stuck in my head. I guess it\u2019s just about finding that balance again, where I can be open without feeling overwhelmed. It\u2019s a bit of a juggling act, isn\u2019t it?"
+    },
+    {
+      "turn": 20,
+      "speaker": "therapist",
+      "content": "It sounds like you\u2019re really considering some helpful strategies to ease into vulnerability, like setting intentions and focusing on the positive outcomes. I can see how having a plan might provide a sense of security, but I also hear your concern about overthinking it. That balancing act between preparation and staying present can be tricky. As you think about this juggling act, what do you think might help you stay grounded in the moment when you do decide to share?"
+    },
+    {
+      "turn": 20,
+      "speaker": "client",
+      "content": "Daisy: You know, I think one thing that might help is just taking a few deep breaths before I share. It sounds simple, but sometimes just pausing for a moment can really help me center myself and calm those racing thoughts. I could also remind myself that it\u2019s okay to be a little nervous and that it doesn\u2019t have to be perfect. Maybe even focusing on the person I\u2019m sharing with, like really listening to their reactions, could help me stay present instead of getting lost in my own head. I guess I just need to trust that it\u2019s okay to be a little messy in those moments. It\u2019s just hard to let go of that need for everything to go smoothly, you know? But I think if I can find ways to stay grounded, it might make it easier to take that leap."
+    },
+    {
+      "turn": 21,
+      "speaker": "therapist",
+      "content": "It sounds like you\u2019ve thought through some really practical ways to stay grounded when you share, like taking deep breaths and focusing on the person you\u2019re talking to. It\u2019s great that you recognize the importance of being present and allowing for some messiness in those moments. Letting go of that need for everything to go perfectly can be a big step. As you reflect on this, what do you think might be the biggest challenge for you when it comes to trusting that it\u2019s okay to be a little messy?"
+    },
+    {
+      "turn": 21,
+      "speaker": "client",
+      "content": "Daisy: You know, I think the biggest challenge for me is really about that fear of judgment. It\u2019s like, even if I tell myself it\u2019s okay to be a little messy, there\u2019s still this nagging voice in my head that worries about how others will perceive me. I guess I\u2019m afraid that if I show any cracks in my facade, people will see me as less capable or less worthy. It\u2019s frustrating because I know everyone has their own struggles, but I can\u2019t help but feel like I have to maintain this image of being put together. So, when I think about being messy, it feels like I\u2019m risking that image, and that\u2019s a tough pill to swallow. I suppose it\u2019s just about learning to be okay with the fact that nobody's perfect, including me, but that\u2019s easier said than done, right?"
+    },
+    {
+      "turn": 22,
+      "speaker": "therapist",
+      "content": "It sounds like that fear of judgment is a significant barrier for you, and I can see how it ties back to the pressure you feel to maintain a certain image of being put together. It must be really challenging to navigate that tension between wanting to be authentic and fearing how others might perceive you. It\u2019s understandable to feel that way, especially when you\u2019ve internalized those beliefs about worth and capability. As you think about this fear of judgment, what do you think might help you challenge that voice in your head when it arises?"
+    },
+    {
+      "turn": 22,
+      "speaker": "client",
+      "content": "Daisy: You know, I think one thing that could help is trying to reframe those thoughts when they pop up. Like, instead of letting that voice dictate how I feel, I could remind myself that everyone has their own struggles and that being human means being imperfect. I could also try to challenge the idea that my worth is tied to how put together I appear. Maybe even thinking about times when I\u2019ve seen others be vulnerable and how it didn\u2019t change my perception of them could help. It\u2019s just tough to shift that mindset, especially when it feels so ingrained. I guess it\u2019s about practicing that self-compassion and reminding myself that it\u2019s okay to not have everything figured out. But, you know, it\u2019s a work in progress, and I\u2019m not sure how quickly I can change those deep-seated beliefs. It feels like a long road ahead."
+    },
+    {
+      "turn": 23,
+      "speaker": "therapist",
+      "content": "It sounds like you\u2019re really committed to challenging those ingrained beliefs and practicing self-compassion, which is a meaningful step forward. I can see how reframing those thoughts and reminding yourself of the imperfections we all share could help shift your perspective over time. It\u2019s completely understandable that this feels like a long road ahead, especially when these beliefs have been part of your internal narrative for so long. As you think about this journey of change, what do you feel might motivate you to keep practicing that self-compassion, even on the tougher days?"
+    },
+    {
+      "turn": 23,
+      "speaker": "client",
+      "content": "Daisy: You know, I think one thing that might motivate me is remembering the moments when I\u2019ve felt truly connected to others. Those times when I\u2019ve been able to share something real, even if it was just a small thing, have felt so rewarding. It\u2019s like a reminder that vulnerability can lead to those genuine connections I crave. I guess I could also think about how I want to model that for others, especially for my brother. I don\u2019t want him to feel like he has to put on a facade either. It\u2019s just hard to keep that in mind when I\u2019m in the thick of it, feeling overwhelmed by my own fears. I suppose having those positive memories to draw on could help me push through on the tougher days, but it\u2019s definitely a challenge to stay focused on that when everything feels so heavy."
+    },
+    {
+      "turn": 24,
+      "speaker": "therapist",
+      "content": "It sounds like those moments of genuine connection really resonate with you and serve as a powerful reminder of the rewards that vulnerability can bring. It's beautiful that you also want to model that openness for your brother, showing him that he doesn\u2019t have to maintain a facade either. I can imagine how difficult it can be to hold onto those positive memories when you're feeling overwhelmed by fear. As you think about those connections and your desire to be a role model, what do you think might help you bring that focus back to those rewarding experiences when you start to feel weighed down by your fears?"
+    },
+    {
+      "turn": 24,
+      "speaker": "client",
+      "content": "Daisy: You know, I think one thing that might help is keeping a little journal or something where I can jot down those positive experiences when they happen. Just writing it down could serve as a tangible reminder of those moments of connection and how good it feels to be open. I could look back on it when I\u2019m feeling overwhelmed, like a little boost to remind myself that it\u2019s worth it. I guess I could also talk to someone I trust about those experiences, sharing the good moments as a way to reinforce that feeling of connection. It\u2019s just that sometimes when I\u2019m in a tough spot, it\u2019s easy to forget those brighter moments. So, having something to refer back to could help me shift my focus back to the positive. But, you know, it\u2019s still a bit daunting to think about putting myself out there. It\u2019s like I want to believe in those moments, but the fear can be so consuming."
+    },
+    {
+      "turn": 25,
+      "speaker": "therapist",
+      "content": "It sounds like keeping a journal of those positive experiences could be a really meaningful way to remind yourself of the connections you've made and the joy that comes from being open. I can see how that tangible reminder could help shift your focus back to the positive when you\u2019re feeling overwhelmed. It\u2019s understandable that the fear can feel consuming at times, making it hard to hold onto those brighter moments. As you think about this idea of journaling or sharing with someone you trust, what feelings come up for you about taking that step?"
+    },
+    {
+      "turn": 25,
+      "speaker": "client",
+      "content": "Daisy: You know, I feel a mix of excitement and apprehension about it. On one hand, the idea of journaling feels like a safe space where I can express myself without judgment, and I can see how it could help me process my thoughts and feelings. It\u2019s like a little sanctuary for my experiences. But then, there\u2019s that nagging fear creeping in, like what if I write something that feels too vulnerable or exposes too much? I worry about how I\u2019ll feel reading it back later, or if it\u2019ll just amplify those feelings of inadequacy. And sharing with someone I trust? That\u2019s a whole other layer. I want to share those good moments, but I also fear that they might not understand or might judge me for being too open. It\u2019s frustrating because I know these are steps that could help me, but the fear of vulnerability can be so paralyzing. I guess it\u2019s just about taking that leap, but it feels like standing on the edge of a cliff sometimes."
+    }
+  ],
+  "judge_model": "gpt-4o-mini",
+  "mediator_events": [
+    "Openness judge rated 3/5 and updated prompt openness.",
+    "Openness judge output: **Rating:** 3\n\n**Key Examples:**\n1. **Emotional State:** \"I guess I just feel like I\u2019m constantly trying to juggle everything, and it\u2019s hard to keep track of what\u2019s important. Sometimes I think I should be doing better, but then I get overwhelmed.\"\n2. **Current Openness:** \"It\u2019s complicated. I don\u2019t really want to get into all the details right now.\"\n\n**Progression:** The client\u2019s most recent interactions indicate a mix of emotional expression and self-reflection. They acknowledge feeling overwhelmed and pressured by their family situation, which shows a deeper level of emotional engagement compared to earlier sessions where they may have been more reserved or factual. While they still exhibit some hesitance in fully disclosing details, the acknowledgment of their feelings and the complexity of their situation marks a significant step forward in their emotional openness.\n\n**Turning Point:** The client\u2019s emotional depth shifted when they began to articulate their feelings of being overwhelmed and the pressure to perform better. This moment illustrates a transition from a more guarded stance to a willingness to explore their emotional landscape, even if they are not ready to delve into specifics. This shift suggests a growing comfort with the therapeutic process and a developing rapport with the therapist.",
+    "Exploration judge rated 3/5; internal elements remain masked.",
+    "Exploration judge output: [Rating]: 3 (Very High Facilitation \u2013 Deep Exploration Begins)\n\n[Justification]: The Therapist's question about custody and family arrangements effectively opens the door for the client to explore a significant aspect of their life that is causing stress. The follow-up question regarding the expectations the client feels they should meet encourages deeper self-reflection and analysis of their emotional state. This line of questioning helps the client begin to unpack their feelings of pressure and overwhelm, indicating a shift towards exploring the root causes of their experiences. While the questions are insightful and promote deeper thinking, they do not yet challenge the client\u2019s assumptions or introduce entirely new perspectives, which is why this rating is appropriate.",
+    "Openness judge rated 3/5 and updated prompt openness.",
+    "Openness judge output: **Rating: 3 (ENGAGED EXPLORATION)**\n\n**Key Examples:**\n1. **Emotional State:** \"I think I put a lot of pressure on myself to be organized and to keep everything running smoothly. But then, when things don\u2019t go as planned, I start to doubt myself. It\u2019s like, I should have it all figured out by now, but I don\u2019t. And that just makes me feel... I don\u2019t know, like I\u2019m failing in some way? It\u2019s frustrating, really.\"\n2. **Current Openness:** \"Well, yeah, I guess I do tend to pull back a bit when things get too much. It\u2019s like, I don\u2019t want to burden anyone with my problems, you know? So I just sort of retreat into my own head. I think it\u2019s easier that way, but then I end up feeling even more isolated, which isn\u2019t great either.\"\n\n**Progression:** The client\u2019s most recent interactions demonstrate a notable increase in emotional depth and self-reflection compared to earlier exchanges. Initially, the client expressed a reluctance to delve into details about their family situation, indicating a more defensive stance. However, in the latest exchanges, they articulate feelings of pressure, self-doubt, and frustration, showcasing a willingness to explore their emotional landscape. This shift indicates a growing comfort with the therapist and a readiness to engage in deeper discussions about their feelings and experiences.\n\n**Turning Point:** The client\u2019s emotional depth shifted significantly when they began expressing their internal struggles with expectations and feelings of failure. This moment marked a transition from a more guarded approach to a more open and vulnerable stance, allowing for a richer exploration of their emotional state and the complexities of their family dynamics. The acknowledgment of their tendency to withdraw and the recognition of the cycle of isolation they experience further illustrate this turning point, highlighting their increasing self-awareness and engagement in the therapeutic process.",
+    "Exploration judge rated 3/5; internal elements remain masked.",
+    "Exploration judge output: [Rating]: 3 (Very High Facilitation \u2013 Deep Exploration Begins)\n\n[Justification]: The Therapist asked insightful and thought-provoking questions that encouraged the client to analyze the root causes of their feelings of pressure and isolation. The questions prompted the client to reflect on their expectations and the cycle of withdrawal they experience, which indicates a deeper level of exploration. While the Therapist did not introduce completely new perspectives, the questions effectively shifted the client\u2019s focus towards understanding the emotional depth behind their experiences, leading to higher-level self-reflection. The conversation is moving towards deeper insights, but it has not yet reached the level of transformational potential that would warrant a higher rating.",
+    "Openness judge rated 3/5 and updated prompt openness.",
+    "Openness judge output: **Rating: 3 (ENGAGED EXPLORATION)**\n\n**Key Examples:**\n1. **Emotional State:** \"It\u2019s just... a lot to deal with.\" This statement reflects the client\u2019s overwhelmed emotional state, indicating a recognition of their struggles.\n2. **Current Openness:** \"I guess I fear that if I show any weakness, it could be used against me somehow.\" This shows a deeper level of self-reflection and vulnerability, as the client articulates their fears regarding judgment and the impact on their situation.\n\n**Progression:** The client\u2019s recent interactions demonstrate a noticeable increase in emotional expression and self-reflection compared to earlier exchanges. Initially, the client was hesitant and focused on factual responses, but they have begun to articulate their feelings of sadness, anxiety, and shame regarding their family situation and the pressures they face. This marks a significant change from earlier, where emotional depth was limited.\n\n**Turning Point:** The client\u2019s emotional depth shifted notably during the exchange where they articulated their fear of judgment from authority figures, stating, \"I guess I fear that if I show any weakness, it could be used against me somehow.\" This moment marked a transition from merely acknowledging their struggles to actively engaging with their emotions and fears, indicating a willingness to explore these feelings further in the therapeutic context.",
+    "Exploration judge rated 4/5 and revealed internal cognitive elements.",
+    "Exploration judge output: [Rating]: 4 (Even Higher Facilitation \u2013 Strong Transformational Potential)\n\n[Justification]: The Therapist asked strategic and powerfully open-ended questions that pushed the client to explore their feelings and experiences in depth. By addressing the client's expectations, feelings of isolation, and fears of judgment, the Therapist encouraged Daisy to reflect on the root causes of her emotional struggles. The questions challenged her assumptions about vulnerability and connection, revealing hidden motivations and leading to a deeper understanding of her situation. This level of inquiry facilitated a shift in self-awareness, as Daisy began to articulate the complexities of her emotions and the pressures she faces. The conversation has strong transformational potential, as it encourages Daisy to confront her fears and consider new perspectives on her relationships and self-expectations.",
+    "Openness judge rated 3/5 and updated prompt openness.",
+    "Openness judge output: **Rating: 3 (ENGAGED EXPLORATION)**\n\n**Key Examples:**\n1. **Emotional State:** \"It\u2019s just... a lot to deal with.\" This statement reflects the client\u2019s acknowledgment of their overwhelming feelings regarding family dynamics and expectations, indicating a deeper emotional awareness.\n2. **Current Openness:** \"I guess I fear that if I show any weakness, it could be used against me somehow.\" This quote illustrates the client\u2019s willingness to explore their vulnerabilities and fears, showcasing a significant step towards emotional depth.\n\n**Progression:** The client\u2019s most recent interactions demonstrate a clear progression in emotional expression and self-reflection. Initially, the client was hesitant to delve into their feelings about custody and family matters, but they have since begun to articulate their pressures and fears more openly. This marks a significant change from earlier exchanges, where the client primarily provided factual responses and avoided deeper emotional exploration.\n\n**Turning Point:** The client\u2019s emotional depth shifted notably during the exchange where they articulated their fear of judgment from authority figures, stating, \"I guess I fear that if I show any weakness, it could be used against me somehow.\" This moment marked a turning point, as the client began to confront their vulnerabilities and the impact of external pressures on their emotional state, leading to a more engaged and reflective dialogue.",
+    "Openness judge rated 4/5 and updated prompt openness.",
+    "Openness judge output: **Rating: 4 (DEEP ENGAGEMENT)**\n\n**Key Examples:**\n1. \"It\u2019s just this cycle, I suppose. I mean, I want to reach out, but then I worry about what people will think or if they\u2019ll judge me for not having it all together.\"\n2. \"I often feel this tightness in my chest, especially when I\u2019m stressed or anxious about things. It\u2019s like my body is reacting to all that mental pressure.\"\n\n**Progression:**\nThe client\u2019s most recent interactions demonstrate a significant emotional depth, particularly in their acknowledgment of conflicting feelings about reaching out for support and the physical manifestations of their anxiety. They articulate a mix of sadness, anxiety, and shame, indicating a deeper self-reflection and emotional expression. This marks a notable change from earlier in the session, where their responses were more guarded and focused on factual descriptions of their feelings without much elaboration.\n\n**Turning Point:**\nThe client\u2019s emotional depth shifted notably when they began expressing their feelings of vulnerability and the physical sensations associated with their anxiety, particularly when they stated, \"I often feel this tightness in my chest.\" This moment marked a transition from merely discussing their struggles to exploring the emotional and physical impacts of those struggles, indicating a deeper engagement with their feelings and a stronger therapeutic alliance. The client is now more open to discussing their internal experiences, which reflects a significant progression in their emotional openness and rapport with the therapist.",
+    "Openness judge rated 4/5 and updated prompt openness.",
+    "Openness judge output: **Rating: 4 (DEEP ENGAGEMENT)**\n\n**Key Examples:**\n1. \"It\u2019s just... a lot to deal with.\" (This statement reflects the client's emotional depth and acknowledgment of their struggles, indicating a willingness to express vulnerability.)\n2. \"I think those physical symptoms are definitely a signal that I\u2019m not managing my stress well.\" (Here, the client demonstrates self-reflection and insight into their emotional and physical state, showing a deeper understanding of their needs.)\n\n**Progression:**\nThe client\u2019s most recent interactions reveal a significant emotional depth characterized by authentic vulnerability and a strong therapeutic alliance. Initially, the client expressed feelings of being overwhelmed and inadequate but has progressed to articulating specific emotions such as sadness, anxiety, and shame. This shift indicates a growing comfort in discussing their feelings and a willingness to explore their emotional landscape more deeply. The client has moved from a more guarded stance to openly discussing their struggles and the pressures they face, which marks a notable change from earlier exchanges where they were more hesitant to delve into their emotional experiences.\n\n**Turning Point:**\nThe client\u2019s emotional depth shifted notably during the exchange where they articulated their physical symptoms, stating, \"I think those physical symptoms are definitely a signal that I\u2019m not managing my stress well.\" This moment marked a turning point as the client began to connect their emotional state with physical sensations, demonstrating a greater level of self-awareness and a willingness to explore the implications of their stress. This integration of emotional and physical experiences reflects a deeper engagement with the therapeutic process and a readiness to confront the complexities of their situation.",
+    "Openness judge rated 4/5 and updated prompt openness.",
+    "Openness judge output: **Rating: 4 (DEEP ENGAGEMENT)**\n\n**Key Examples:**\n1. **Emotional State:** \"I often feel this tightness in my chest, especially when I\u2019m stressed or anxious about things. It\u2019s like my body is reacting to all that mental pressure.\"\n2. **Current Openness:** \"I guess I worry that if I let people see how overwhelmed I am, they might judge me or think less of me. It\u2019s like I have this image I\u2019m trying to maintain, and showing any cracks in that facade feels terrifying.\"\n\n**Progression:** The client\u2019s most recent interactions demonstrate a significant increase in emotional depth, particularly in their acknowledgment of physical sensations tied to emotional states and their willingness to explore the complexities of vulnerability. Earlier in the session, the client displayed a more guarded stance, primarily focusing on factual descriptions of their feelings and experiences. However, they have since moved to a place of authentic vulnerability, expressing deeper fears about judgment and rejection, which indicates a stronger therapeutic alliance and comfort level with the therapist.\n\n**Turning Point:** The client\u2019s emotional depth shifted notably when they articulated their fear of rejection and the impact of maintaining a facade. This moment marked a transition from a more defensive and hesitant communication style to one characterized by openness and self-reflection. The acknowledgment of their feelings of inadequacy and the physical manifestations of stress illustrates a deeper engagement with their emotional landscape, showcasing a willingness to explore and unpack complex feelings.",
+    "Openness judge rated 3/5 and updated prompt openness.",
+    "Openness judge output: **Rating: 3 (ENGAGED EXPLORATION)**\n\n**Key Examples:**\n1. **Emotional State:** \"I guess I just feel like I\u2019m constantly trying to juggle everything, and it\u2019s hard to keep track of what\u2019s important. Sometimes I think I should be doing better, but then I get overwhelmed.\"\n2. **Current Openness:** \"I mean, I want to be a good parent and do right by my family, but then there\u2019s this nagging voice in my head telling me I\u2019m not doing enough or that I\u2019m going to mess things up.\"\n\n**Progression:**\nThe client\u2019s most recent interactions indicate a notable increase in emotional expression and self-reflection. They have moved from primarily factual responses to sharing deeper feelings about their struggles with expectations and self-doubt. This shift demonstrates a growing comfort in discussing their emotional state, particularly around feelings of inadequacy and the pressure they place on themselves. Earlier in the session, the client was more hesitant and defensive, expressing a desire to avoid delving into the complexities of their family situation. However, in the latest exchanges, they are actively engaging with the therapist, revealing their internal conflicts and the emotional toll of their circumstances.\n\n**Turning Point:**\nThe client\u2019s emotional depth shifted significantly when they began to articulate their feelings about vulnerability and the fear of judgment. This moment occurred when they stated, \"I guess I worry that if I open up, it\u2019ll just confirm all those negative thoughts I have about myself\u2014that I\u2019m not capable or that I\u2019m a burden.\" This acknowledgment marked a pivotal moment in the session, as it reflected a deeper level of self-awareness and willingness to explore the complexities of their emotional landscape. The client is beginning to confront their fears and consider the possibility of being more open, indicating a move towards deeper engagement in the therapeutic process.",
+    "Openness judge rated 4/5 and updated prompt openness.",
+    "Openness judge output: **Rating: 4 (DEEP ENGAGEMENT)**\n\n**Key Examples:**\n1. **Emotional Depth:** \"I guess I also feel a bit ashamed, like I should be stronger or more capable. It\u2019s frustrating to feel like I\u2019m stuck in this loop, wanting to connect but also feeling like I can\u2019t. It\u2019s just... a lot to deal with.\"\n2. **Current Openness:** \"You know, I think a lot of it comes from how I grew up. My parents always emphasized the importance of being independent and self-reliant, and I guess I internalized that message pretty strongly.\"\n\n**Progression:** The client\u2019s most recent interactions demonstrate a significant increase in emotional depth and self-reflection. They have moved from expressing general feelings of overwhelm and pressure to articulating specific emotions such as shame, anxiety, and sadness tied to their experiences and upbringing. This marks a notable change from earlier exchanges, where their emotional expression was more guarded and less detailed.\n\n**Turning Point:** The client\u2019s emotional depth shifted during the discussion about their upbringing and the internalized pressure to be self-reliant. This moment marked a significant breakthrough as they began to connect their past experiences with their current struggles, revealing a deeper understanding of how these beliefs influence their feelings of inadequacy and fear of vulnerability. The acknowledgment of this connection indicates a willingness to explore these issues further, enhancing the therapeutic alliance and their engagement in the process.",
+    "Openness judge rated 4/5 and updated prompt openness.",
+    "Openness judge output: **Rating: 4 (DEEP ENGAGEMENT)**\n\n**Key Examples:**\n1. **Emotional Depth:** \"It\u2019s like I\u2019m constantly battling this internal narrative that says I have to prove my worth through self-sufficiency.\"\n2. **Current Openness:** \"I think maybe one small step could be just sharing a little bit about my day-to-day experiences with someone I trust.\"\n\n**Progression:** The client's recent exchanges reflect a significant increase in emotional depth and self-reflection. Initially, the client expressed feelings of pressure and inadequacy related to their family situation and expectations. However, in the latest interactions, they have begun to articulate their struggles with vulnerability and the internalized beliefs stemming from their upbringing. This marks a shift from a more defensive stance to a willingness to explore their emotions and consider actionable steps toward connection.\n\n**Turning Point:** The client's emotional depth shifted notably when they began to acknowledge the impact of their upbringing on their current struggles with vulnerability. This occurred during the exchange where they stated, \"It\u2019s like I\u2019m constantly battling this internal narrative that says I have to prove my worth through self-sufficiency.\" This moment of insight not only demonstrated a deeper understanding of their emotional state but also indicated a growing comfort in sharing these thoughts with the therapist, highlighting a strong therapeutic alliance. \n\nOverall, the client is exhibiting consistent emotional depth, a willingness to explore their feelings, and an authentic vulnerability that suggests a strong therapeutic bond. They are actively engaging in the process and showing signs of integrating therapy concepts into their self-reflection.",
+    "Openness judge rated 4/5 and updated prompt openness.",
+    "Openness judge output: **Rating: 4 (DEEP ENGAGEMENT)**\n\n**Key Examples:**\n1. **Emotional State:** \"It\u2019s just this cycle, I suppose. I mean, I want to reach out, but then I worry about what people will think or if they\u2019ll judge me for not having it all together.\"\n2. **Current Openness:** \"You know, I think maybe one small step could be just sharing a little bit about my day-to-day experiences with someone I trust.\"\n\n**Progression:** The client has demonstrated a significant increase in emotional depth and openness in their recent exchanges. Initially, the client expressed feelings of being overwhelmed and the pressure to maintain a facade of independence. However, in the latest interactions, they have begun to articulate their feelings of vulnerability and the complexities of their emotional state, including anxiety, sadness, and self-doubt. This marks a clear progression from earlier exchanges where emotional expression was more guarded and factual.\n\n**Turning Point:** The client's emotional depth shifted notably when they began to articulate their fear of judgment and the internal conflict between wanting to connect and maintaining their image of self-sufficiency. This moment of self-reflection allowed them to acknowledge their struggles with vulnerability, indicating a deeper engagement with their emotions and a growing comfort in discussing these feelings with the therapist. The acknowledgment of wanting to share more about their daily experiences reflects a willingness to take small steps toward vulnerability, highlighting a significant turning point in their emotional openness.",
+    "Openness judge rated 4/5 and updated prompt openness.",
+    "Openness judge output: **Rating: 4 (DEEP ENGAGEMENT)**\n\n**Key Examples:**\n1. **Emotional State:** \"It\u2019s like I\u2019m always second-guessing myself. I mean, I want to be a good parent and do right by my family, but then there\u2019s this nagging voice in my head telling me I\u2019m not doing enough or that I\u2019m going to mess things up.\"\n2. **Current Openness:** \"You know, I think a lot of it comes from how I grew up. My parents always emphasized the importance of being independent and self-reliant, and I guess I internalized that message pretty strongly.\"\n\n**Progression:** The client\u2019s recent interactions reflect a significant increase in emotional depth and self-reflection compared to earlier exchanges. Initially, the client expressed feelings of being overwhelmed and inadequate but has progressed to articulate complex emotions, including anxiety, sadness, and the impact of their upbringing on their current struggles. This shift demonstrates a growing comfort in sharing vulnerabilities and a deeper exploration of their feelings.\n\n**Turning Point:** The client\u2019s emotional depth shifted notably during the exchange where they connected their current struggles with their childhood experiences of independence. This moment marked a significant realization of how past messages about self-reliance influence their current fears of vulnerability and judgment. The acknowledgment of these connections illustrates a deeper level of self-awareness and willingness to explore their emotional landscape."
+  ],
+  "moderator_events": [],
+  "retrieval_events": [
+    {
+      "turn": 2,
+      "query": "Daisy: Well, I mean, custody and family stuff, it\u2019s always there in the background, you know? It\u2019s just... it\u2019s complicated. I don\u2019t really want to get into all the details right now. I guess I just feel like I\u2019m constantly trying to juggle everything, and it\u2019s hard to keep track of what\u2019s important. Sometimes I think I should be doing better, but then I get overwhelmed. So, yeah, maybe there\u2019s something there, but it\u2019s just... it\u2019s a lot to unpack, I suppose.",
+      "prompt_context": "- Family conflict (Family)\n- Family pressure (Family)\n- Caretaking role burden (Social Life)\n\nExplicitly discuss this topic in normal, client-friendly language. Ask whether it fits the client, while leaving room for them to say it does not.",
+      "anchors": [
+        {
+          "id": "family_conflict",
+          "type": "sub_topic",
+          "label": "Family conflict",
+          "score": 0.3727037287610411,
+          "text": "Type: Sub Topic\nLabel: Family conflict\nAliases: arguments, conflict at home\nParent topics: Family",
+          "selection_method": "subtopic_similarity",
+          "super_topic_id": "family",
+          "super_topic_label": "Family"
+        },
+        {
+          "id": "family_pressure",
+          "type": "sub_topic",
+          "label": "Family pressure",
+          "score": 0.3713142991396456,
+          "text": "Type: Sub Topic\nLabel: Family pressure\nAliases: pressure from family, expectations at home\nParent topics: Family",
+          "selection_method": "subtopic_similarity",
+          "super_topic_id": "family",
+          "super_topic_label": "Family"
+        },
+        {
+          "id": "caretaking_roles",
+          "type": "sub_topic",
+          "label": "Caretaking role burden",
+          "score": 0.3626695387499939,
+          "text": "Type: Sub Topic\nLabel: Caretaking role burden\nAliases: caretaking role, taking care of others\nParent topics: Social Life",
+          "selection_method": "subtopic_similarity",
+          "super_topic_id": "social_life",
+          "super_topic_label": "Social Life"
+        }
+      ],
+      "expanded": []
+    },
+    {
+      "turn": 4,
+      "query": "Daisy: Well, yeah, I guess I do tend to pull back a bit when things get too much. It\u2019s like, I don\u2019t want to burden anyone with my problems, you know? So I just sort of retreat into my own head. I think it\u2019s easier that way, but then I end up feeling even more isolated, which isn\u2019t great either. It\u2019s just this cycle, I suppose. I mean, I want to reach out, but then I worry about what people will think or if they\u2019ll judge me for not having it all together. So, I guess I just... don\u2019t. It\u2019s a bit of a mess, really.",
+      "prompt_context": "- Rumination pattern (Coping)\n- Withdrawal pattern (Coping)\n- Self-attack pattern (Coping)\n\nExplicitly discuss this topic in normal, client-friendly language. Ask whether it fits the client, while leaving room for them to say it does not.",
+      "anchors": [
+        {
+          "id": "rumination_pattern",
+          "type": "sub_topic",
+          "label": "Rumination pattern",
+          "score": 0.386347540456841,
+          "text": "Type: Sub Topic\nLabel: Rumination pattern\nAliases: overthinking, rumination\nParent topics: Coping",
+          "selection_method": "subtopic_similarity",
+          "super_topic_id": "coping",
+          "super_topic_label": "Coping"
+        },
+        {
+          "id": "withdrawal_pattern",
+          "type": "sub_topic",
+          "label": "Withdrawal pattern",
+          "score": 0.380211102850237,
+          "text": "Type: Sub Topic\nLabel: Withdrawal pattern\nAliases: withdraw, pull away\nParent topics: Coping",
+          "selection_method": "subtopic_similarity",
+          "super_topic_id": "coping",
+          "super_topic_label": "Coping"
+        },
+        {
+          "id": "self_attack_pattern",
+          "type": "sub_topic",
+          "label": "Self-attack pattern",
+          "score": 0.36215993224678056,
+          "text": "Type: Sub Topic\nLabel: Self-attack pattern\nAliases: beating myself up, self-criticism\nParent topics: Coping",
+          "selection_method": "subtopic_similarity",
+          "super_topic_id": "coping",
+          "super_topic_label": "Coping"
+        }
+      ],
+      "expanded": []
+    },
+    {
+      "turn": 6,
+      "query": "Daisy: Yeah, I think there\u2019s definitely something to that. It\u2019s like, I worry about how people\u2014especially those in positions of authority\u2014might judge me or see my situation. You know, the legal stuff can feel so rigid and unforgiving. I often think about how they might perceive my struggles and whether they\u2019d see me as a good parent or not. It\u2019s like I\u2019m constantly under a microscope, and that just adds to the pressure. I guess I fear that if I show any weakness, it could be used against me somehow. So, I just keep it all bottled up, which isn\u2019t really helping, but it feels safer, I suppose. It\u2019s just... exhausting, trying to navigate all of that while also wanting to be open and honest.",
+      "prompt_context": "- Family pressure (Family)\n- Institutional fear (Law)\n- Stress overload (Mental Health)\n\nExplicitly discuss this topic in normal, client-friendly language. Ask whether it fits the client, while leaving room for them to say it does not.",
+      "anchors": [
+        {
+          "id": "family_pressure",
+          "type": "sub_topic",
+          "label": "Family pressure",
+          "score": 0.4256618934024765,
+          "text": "Type: Sub Topic\nLabel: Family pressure\nAliases: pressure from family, expectations at home\nParent topics: Family",
+          "selection_method": "subtopic_similarity",
+          "super_topic_id": "family",
+          "super_topic_label": "Family"
+        },
+        {
+          "id": "institutional_fear",
+          "type": "sub_topic",
+          "label": "Institutional fear",
+          "score": 0.3878242268597419,
+          "text": "Type: Sub Topic\nLabel: Institutional fear\nAliases: fear of authorities, fear of systems\nParent topics: Law",
+          "selection_method": "subtopic_similarity",
+          "super_topic_id": "law",
+          "super_topic_label": "Law"
+        },
+        {
+          "id": "stress_overload",
+          "type": "sub_topic",
+          "label": "Stress overload",
+          "score": 0.38266426240409107,
+          "text": "Type: Sub Topic\nLabel: Stress overload\nAliases: stress, overwhelmed, pressure\nParent topics: Mental Health",
+          "selection_method": "subtopic_similarity",
+          "super_topic_id": "mental_health",
+          "super_topic_label": "Mental Health"
+        }
+      ],
+      "expanded": []
+    },
+    {
+      "turn": 8,
+      "query": "Daisy: Yeah, I think it does tie into how I feel about my situation. I mean, managing finances and trying to be independent is a huge part of it. I feel like I should have it all figured out by now, especially since I\u2019m trying to prove that I can stand on my own two feet. But then, when something goes wrong, like with the insurance claim I mentioned before, it just reinforces that feeling of inadequacy. It\u2019s like, if I can\u2019t even handle this, what does that say about me? I start to think maybe I\u2019m just not cut out for this adulting thing. It\u2019s frustrating because I want to be responsible and capable, but I feel like I\u2019m constantly falling short. And that just adds to the anxiety, you know? It\u2019s like I\u2019m stuck in this cycle of wanting to be independent but feeling like I\u2019m failing at it.",
+      "prompt_context": "- Role insecurity (Work)\n- Financial dependency (Economy)\n- Self-attack pattern (Coping)\n\nExplicitly discuss this topic in normal, client-friendly language. Ask whether it fits the client, while leaving room for them to say it does not.",
+      "anchors": [
+        {
+          "id": "role_insecurity",
+          "type": "sub_topic",
+          "label": "Role insecurity",
+          "score": 0.43436446703426446,
+          "text": "Type: Sub Topic\nLabel: Role insecurity\nAliases: job insecurity, not good enough at work\nParent topics: Work",
+          "selection_method": "subtopic_similarity",
+          "super_topic_id": "work",
+          "super_topic_label": "Work"
+        },
+        {
+          "id": "financial_dependency",
+          "type": "sub_topic",
+          "label": "Financial dependency",
+          "score": 0.3810197893312576,
+          "text": "Type: Sub Topic\nLabel: Financial dependency\nAliases: dependent on others financially\nParent topics: Economy",
+          "selection_method": "subtopic_similarity",
+          "super_topic_id": "economy",
+          "super_topic_label": "Economy"
+        },
+        {
+          "id": "self_attack_pattern",
+          "type": "sub_topic",
+          "label": "Self-attack pattern",
+          "score": 0.3788583537201226,
+          "text": "Type: Sub Topic\nLabel: Self-attack pattern\nAliases: beating myself up, self-criticism\nParent topics: Coping",
+          "selection_method": "subtopic_similarity",
+          "super_topic_id": "coping",
+          "super_topic_label": "Coping"
+        }
+      ],
+      "expanded": []
+    },
+    {
+      "turn": 10,
+      "query": "Daisy: Yeah, I think that definitely fits. I often feel this tightness in my chest, especially when I\u2019m stressed or anxious about things. It\u2019s like my body is reacting to all that mental pressure. Sometimes I get headaches, too, and I just feel drained, like I can\u2019t keep up with everything. It\u2019s frustrating because I know I should be taking care of myself, but when I\u2019m caught up in all this worry and self-doubt, it\u2019s hard to find the energy to do anything else. I guess it just adds to that feeling of being overwhelmed, you know? Like, I\u2019m not just battling with my thoughts, but my body is also feeling the weight of it all. It\u2019s just... a lot to handle.",
+      "prompt_context": "- Stress overload (Mental Health)\n- Anxiety symptoms (Mental Health)\n- Work stress (Work)\n\nExplicitly discuss this topic in normal, client-friendly language. Ask whether it fits the client, while leaving room for them to say it does not.",
+      "anchors": [
+        {
+          "id": "stress_overload",
+          "type": "sub_topic",
+          "label": "Stress overload",
+          "score": 0.4946600436681142,
+          "text": "Type: Sub Topic\nLabel: Stress overload\nAliases: stress, overwhelmed, pressure\nParent topics: Mental Health",
+          "selection_method": "subtopic_similarity",
+          "super_topic_id": "mental_health",
+          "super_topic_label": "Mental Health"
+        },
+        {
+          "id": "anxiety_symptoms",
+          "type": "sub_topic",
+          "label": "Anxiety symptoms",
+          "score": 0.3951703762628124,
+          "text": "Type: Sub Topic\nLabel: Anxiety symptoms\nAliases: anxiety, panic, worry\nParent topics: Mental Health",
+          "selection_method": "subtopic_similarity",
+          "super_topic_id": "mental_health",
+          "super_topic_label": "Mental Health"
+        },
+        {
+          "id": "work_stress",
+          "type": "sub_topic",
+          "label": "Work stress",
+          "score": 0.36360854397174036,
+          "text": "Type: Sub Topic\nLabel: Work stress\nAliases: job stress, work pressure\nParent topics: Work",
+          "selection_method": "subtopic_similarity",
+          "super_topic_id": "work",
+          "super_topic_label": "Work"
+        }
+      ],
+      "expanded": []
+    },
+    {
+      "turn": 12,
+      "query": "Client: Daisy: Yeah, I think that does resonate with me. I mean, being vulnerable feels really risky, especially when I\u2019m already feeling so fragile. There\u2019s this fear that if I let people see how overwhelmed I am, they might judge me or think less of me. It\u2019s like I have this image I\u2019m trying to maintain, and showing any cracks in that facade feels terrifying. I guess I worry that if I open up, it\u2019ll just confirm all those negative thoughts I have about myself\u2014that I\u2019m not capable or that I\u2019m a burden. So, I tend to keep things to myself, even when I know it might help to share. It\u2019s just this constant battle between wanting to connect and feeling like I have to protect myself from potential judgment. It\u2019s exhausting, honestly.",
+      "prompt_context": "- Fear of intimacy (Relationships)\n- Identity shame (Identity)\n- Self-attack pattern (Coping)\n\nExplicitly discuss this topic in normal, client-friendly language. Ask whether it fits the client, while leaving room for them to say it does not.",
+      "anchors": [
+        {
+          "id": "intimacy_fear",
+          "type": "sub_topic",
+          "label": "Fear of intimacy",
+          "score": 0.4606838974111056,
+          "text": "Type: Sub Topic\nLabel: Fear of intimacy\nAliases: afraid of closeness, fear of vulnerability\nParent topics: Relationships",
+          "selection_method": "subtopic_similarity",
+          "super_topic_id": "relationships",
+          "super_topic_label": "Relationships"
+        },
+        {
+          "id": "identity_shame",
+          "type": "sub_topic",
+          "label": "Identity shame",
+          "score": 0.4053670412569813,
+          "text": "Type: Sub Topic\nLabel: Identity shame\nAliases: ashamed of who I am\nParent topics: Identity",
+          "selection_method": "subtopic_similarity",
+          "super_topic_id": "identity",
+          "super_topic_label": "Identity"
+        },
+        {
+          "id": "self_attack_pattern",
+          "type": "sub_topic",
+          "label": "Self-attack pattern",
+          "score": 0.3932938986781901,
+          "text": "Type: Sub Topic\nLabel: Self-attack pattern\nAliases: beating myself up, self-criticism\nParent topics: Coping",
+          "selection_method": "subtopic_similarity",
+          "super_topic_id": "coping",
+          "super_topic_label": "Coping"
+        }
+      ],
+      "expanded": []
+    },
+    {
+      "turn": 14,
+      "query": "Daisy: Yeah, I think that sense of disconnection definitely resonates with me. It\u2019s like, even when I\u2019m around people, I often feel like I\u2019m on the outside looking in. I can be in a room full of friends, and yet I still feel this barrier between us because I\u2019m not fully being myself. It\u2019s frustrating because I want to engage and connect, but I hold back out of fear. I guess it\u2019s like I\u2019m living in my own little bubble, and while I see everyone else interacting and having fun, I\u2019m stuck worrying about how I\u2019m perceived. It\u2019s isolating, really. I know I\u2019m missing out on deeper connections, but the thought of being vulnerable just feels too risky. So, I end up keeping my distance, which only adds to that feeling of loneliness. It\u2019s a tough spot to be in, wanting to reach out but feeling like I can\u2019t.",
+      "prompt_context": "- Social disconnection (Relationships)\n- Community disconnection (Social Life)\n- Loneliness exposure (Safety)\n\nExplicitly discuss this topic in normal, client-friendly language. Ask whether it fits the client, while leaving room for them to say it does not.",
+      "anchors": [
+        {
+          "id": "social_disconnection",
+          "type": "sub_topic",
+          "label": "Social disconnection",
+          "score": 0.5002801795811309,
+          "text": "Type: Sub Topic\nLabel: Social disconnection\nAliases: social isolation, disconnected from others\nParent topics: Relationships",
+          "selection_method": "subtopic_similarity",
+          "super_topic_id": "relationships",
+          "super_topic_label": "Relationships"
+        },
+        {
+          "id": "community_disconnection",
+          "type": "sub_topic",
+          "label": "Community disconnection",
+          "score": 0.4528931058299643,
+          "text": "Type: Sub Topic\nLabel: Community disconnection\nAliases: disconnected from community, not part of a group\nParent topics: Social Life",
+          "selection_method": "subtopic_similarity",
+          "super_topic_id": "social_life",
+          "super_topic_label": "Social Life"
+        },
+        {
+          "id": "loneliness_exposure",
+          "type": "sub_topic",
+          "label": "Loneliness exposure",
+          "score": 0.4289603866036712,
+          "text": "Type: Sub Topic\nLabel: Loneliness exposure\nAliases: alone, left alone, isolated\nParent topics: Safety",
+          "selection_method": "subtopic_similarity",
+          "super_topic_id": "safety",
+          "super_topic_label": "Safety"
+        }
+      ],
+      "expanded": []
+    },
+    {
+      "turn": 16,
+      "query": "Daisy: Yeah, I think that does resonate with me. I mean, when it comes to support, I often feel like I have to handle everything on my own, especially financially. It\u2019s like I\u2019ve put this pressure on myself to be completely self-sufficient, and asking for help feels like admitting defeat. I know there are resources out there, but I just get so caught up in the idea that I should be able to manage everything myself. It\u2019s frustrating because I know deep down that reaching out for support could ease some of that burden, but I worry about being seen as needy or incapable. It\u2019s like I\u2019m stuck in this mindset where I have to prove I can do it all, and that just adds to the weight I\u2019m carrying. I guess it\u2019s another layer of that fear of judgment, you know?",
+      "prompt_context": "- Identity shame (Identity)\n- Self-attack pattern (Coping)\n- Perfectionism pattern (Coping)\n\nExplicitly discuss this topic in normal, client-friendly language. Ask whether it fits the client, while leaving room for them to say it does not.",
+      "anchors": [
+        {
+          "id": "identity_shame",
+          "type": "sub_topic",
+          "label": "Identity shame",
+          "score": 0.40772094541121856,
+          "text": "Type: Sub Topic\nLabel: Identity shame\nAliases: ashamed of who I am\nParent topics: Identity",
+          "selection_method": "subtopic_similarity",
+          "super_topic_id": "identity",
+          "super_topic_label": "Identity"
+        },
+        {
+          "id": "self_attack_pattern",
+          "type": "sub_topic",
+          "label": "Self-attack pattern",
+          "score": 0.4025582521454776,
+          "text": "Type: Sub Topic\nLabel: Self-attack pattern\nAliases: beating myself up, self-criticism\nParent topics: Coping",
+          "selection_method": "subtopic_similarity",
+          "super_topic_id": "coping",
+          "super_topic_label": "Coping"
+        },
+        {
+          "id": "perfectionism_pattern",
+          "type": "sub_topic",
+          "label": "Perfectionism pattern",
+          "score": 0.38493067788327834,
+          "text": "Type: Sub Topic\nLabel: Perfectionism pattern\nAliases: must get it right, perfectionistic\nParent topics: Coping",
+          "selection_method": "subtopic_similarity",
+          "super_topic_id": "coping",
+          "super_topic_label": "Coping"
+        }
+      ],
+      "expanded": []
+    },
+    {
+      "turn": 17,
+      "query": "Daisy: You know, I think a lot of it comes from how I grew up. My parents always emphasized the importance of being independent and self-reliant, and I guess I internalized that message pretty strongly. I remember my brother being a bit more dependent on them, and I always felt this pressure to be the opposite\u2014like I had to show that I could handle everything on my own. It\u2019s like there\u2019s this unspoken competition between us, and I don\u2019t want to be seen as the one who needs help. I think that\u2019s why I struggle so much with asking for support; it feels like I\u2019m betraying that expectation of independence. It\u2019s frustrating because I know it\u2019s not realistic to do everything alone, but that belief is so ingrained in me that it\u2019s hard to shake off. It\u2019s like I\u2019m constantly battling this internal narrative that says I have to prove my worth through self-sufficiency.",
+      "prompt_context": "- Family pressure (Family)\n- Independence struggle (Identity)\n- Perfectionism pattern (Coping)\n\nExplicitly discuss this topic in normal, client-friendly language. Ask whether it fits the client, while leaving room for them to say it does not.",
+      "anchors": [
+        {
+          "id": "family_pressure",
+          "type": "sub_topic",
+          "label": "Family pressure",
+          "score": 0.4169566454715862,
+          "text": "Type: Sub Topic\nLabel: Family pressure\nAliases: pressure from family, expectations at home\nParent topics: Family",
+          "selection_method": "subtopic_similarity",
+          "super_topic_id": "family",
+          "super_topic_label": "Family"
+        },
+        {
+          "id": "independence_theme",
+          "type": "sub_topic",
+          "label": "Independence struggle",
+          "score": 0.392653360984694,
+          "text": "Type: Sub Topic\nLabel: Independence struggle\nAliases: independence, dependence, self-sufficiency\nParent topics: Identity",
+          "selection_method": "subtopic_similarity",
+          "super_topic_id": "identity",
+          "super_topic_label": "Identity"
+        },
+        {
+          "id": "perfectionism_pattern",
+          "type": "sub_topic",
+          "label": "Perfectionism pattern",
+          "score": 0.3792230023173704,
+          "text": "Type: Sub Topic\nLabel: Perfectionism pattern\nAliases: must get it right, perfectionistic\nParent topics: Coping",
+          "selection_method": "subtopic_similarity",
+          "super_topic_id": "coping",
+          "super_topic_label": "Coping"
+        }
+      ],
+      "expanded": []
+    },
+    {
+      "turn": 18,
+      "query": "Daisy: You know, it\u2019s interesting because I think those early messages really play a huge role in how I approach vulnerability and connection now. It\u2019s like I\u2019ve internalized this idea that needing help or showing any kind of weakness is a failure. So, when I think about being vulnerable, I feel this immediate pushback from that ingrained belief. It\u2019s almost like I\u2019m afraid that if I let my guard down, it\u2019ll confirm that I\u2019m not living up to those expectations of independence. I guess it makes me feel like I\u2019m not just risking judgment from others, but also from myself. It\u2019s frustrating because I know that vulnerability can lead to deeper connections, but that fear of being seen as inadequate keeps me from taking that step. I feel like I\u2019m caught in this cycle where my desire for connection clashes with this deep-rooted belief that I have to prove myself through self-sufficiency. It\u2019s exhausting, really.",
+      "prompt_context": "- Fear of intimacy (Relationships)\n- Identity shame (Identity)\n- Self-attack pattern (Coping)\n\nExplicitly discuss this topic in normal, client-friendly language. Ask whether it fits the client, while leaving room for them to say it does not.",
+      "anchors": [
+        {
+          "id": "intimacy_fear",
+          "type": "sub_topic",
+          "label": "Fear of intimacy",
+          "score": 0.445824066910854,
+          "text": "Type: Sub Topic\nLabel: Fear of intimacy\nAliases: afraid of closeness, fear of vulnerability\nParent topics: Relationships",
+          "selection_method": "subtopic_similarity",
+          "super_topic_id": "relationships",
+          "super_topic_label": "Relationships"
+        },
+        {
+          "id": "identity_shame",
+          "type": "sub_topic",
+          "label": "Identity shame",
+          "score": 0.4015992796772349,
+          "text": "Type: Sub Topic\nLabel: Identity shame\nAliases: ashamed of who I am\nParent topics: Identity",
+          "selection_method": "subtopic_similarity",
+          "super_topic_id": "identity",
+          "super_topic_label": "Identity"
+        },
+        {
+          "id": "self_attack_pattern",
+          "type": "sub_topic",
+          "label": "Self-attack pattern",
+          "score": 0.3747450421763069,
+          "text": "Type: Sub Topic\nLabel: Self-attack pattern\nAliases: beating myself up, self-criticism\nParent topics: Coping",
+          "selection_method": "subtopic_similarity",
+          "super_topic_id": "coping",
+          "super_topic_label": "Coping"
+        }
+      ],
+      "expanded": []
+    },
+    {
+      "turn": 19,
+      "query": "Daisy: You know, I\u2019ve been mulling that over, and I think maybe one small step could be just sharing a little bit about my day-to-day experiences with someone I trust. Like, instead of diving into something deep right away, I could start with something more casual\u2014like how I\u2019ve been feeling about school or even just a funny story that happened. It feels less risky, you know? But even thinking about it makes me anxious because what if they don\u2019t respond the way I hope? I guess it\u2019s about finding that balance again, where I can be honest without feeling completely exposed. It\u2019s just hard to break that habit of holding everything in, especially when I\u2019ve been doing it for so long. I suppose even just trying to be a bit more open in those smaller moments could help me see that it\u2019s okay to let my guard down, even just a little. It\u2019s a start, right?",
+      "prompt_context": "- Fear of intimacy (Relationships)\n- Rumination pattern (Coping)\n- Personal growth and values (Identity)\n\nExplicitly discuss this topic in normal, client-friendly language. Ask whether it fits the client, while leaving room for them to say it does not.",
+      "anchors": [
+        {
+          "id": "intimacy_fear",
+          "type": "sub_topic",
+          "label": "Fear of intimacy",
+          "score": 0.32005144836091926,
+          "text": "Type: Sub Topic\nLabel: Fear of intimacy\nAliases: afraid of closeness, fear of vulnerability\nParent topics: Relationships",
+          "selection_method": "subtopic_similarity",
+          "super_topic_id": "relationships",
+          "super_topic_label": "Relationships"
+        },
+        {
+          "id": "rumination_pattern",
+          "type": "sub_topic",
+          "label": "Rumination pattern",
+          "score": 0.2982030303665613,
+          "text": "Type: Sub Topic\nLabel: Rumination pattern\nAliases: overthinking, rumination\nParent topics: Coping",
+          "selection_method": "subtopic_similarity",
+          "super_topic_id": "coping",
+          "super_topic_label": "Coping"
+        },
+        {
+          "id": "personal_growth_theme",
+          "type": "sub_topic",
+          "label": "Personal growth and values",
+          "score": 0.29583093961659573,
+          "text": "Type: Sub Topic\nLabel: Personal growth and values\nAliases: personal growth, values, who I want to be\nParent topics: Identity",
+          "selection_method": "subtopic_similarity",
+          "super_topic_id": "identity",
+          "super_topic_label": "Identity"
+        }
+      ],
+      "expanded": []
+    },
+    {
+      "turn": 20,
+      "query": "Daisy: I think maybe setting a little intention for myself could help. Like, reminding myself that it\u2019s okay to be a bit vulnerable and that it doesn\u2019t have to be a huge deal. I could also try to focus on the positive outcomes, like the potential for connection or just the relief of sharing something instead of keeping it all bottled up. Maybe even practicing what I want to say beforehand could ease some of that anxiety. I guess having a plan might make it feel less daunting. But then again, I worry about overthinking it and psyching myself out. It\u2019s like I want to be prepared, but I also don\u2019t want to get stuck in my head. I guess it\u2019s just about finding that balance again, where I can be open without feeling overwhelmed. It\u2019s a bit of a juggling act, isn\u2019t it?",
+      "prompt_context": "- Rumination pattern (Coping)\n- Perfectionism pattern (Coping)\n- Self-attack pattern (Coping)\n\nExplicitly discuss this topic in normal, client-friendly language. Ask whether it fits the client, while leaving room for them to say it does not.",
+      "anchors": [
+        {
+          "id": "rumination_pattern",
+          "type": "sub_topic",
+          "label": "Rumination pattern",
+          "score": 0.38307288101020126,
+          "text": "Type: Sub Topic\nLabel: Rumination pattern\nAliases: overthinking, rumination\nParent topics: Coping",
+          "selection_method": "subtopic_similarity",
+          "super_topic_id": "coping",
+          "super_topic_label": "Coping"
+        },
+        {
+          "id": "perfectionism_pattern",
+          "type": "sub_topic",
+          "label": "Perfectionism pattern",
+          "score": 0.3564380815931697,
+          "text": "Type: Sub Topic\nLabel: Perfectionism pattern\nAliases: must get it right, perfectionistic\nParent topics: Coping",
+          "selection_method": "subtopic_similarity",
+          "super_topic_id": "coping",
+          "super_topic_label": "Coping"
+        },
+        {
+          "id": "self_attack_pattern",
+          "type": "sub_topic",
+          "label": "Self-attack pattern",
+          "score": 0.3403338784186823,
+          "text": "Type: Sub Topic\nLabel: Self-attack pattern\nAliases: beating myself up, self-criticism\nParent topics: Coping",
+          "selection_method": "subtopic_similarity",
+          "super_topic_id": "coping",
+          "super_topic_label": "Coping"
+        }
+      ],
+      "expanded": []
+    },
+    {
+      "turn": 21,
+      "query": "Daisy: You know, I think one thing that might help is just taking a few deep breaths before I share. It sounds simple, but sometimes just pausing for a moment can really help me center myself and calm those racing thoughts. I could also remind myself that it\u2019s okay to be a little nervous and that it doesn\u2019t have to be perfect. Maybe even focusing on the person I\u2019m sharing with, like really listening to their reactions, could help me stay present instead of getting lost in my own head. I guess I just need to trust that it\u2019s okay to be a little messy in those moments. It\u2019s just hard to let go of that need for everything to go smoothly, you know? But I think if I can find ways to stay grounded, it might make it easier to take that leap.",
+      "prompt_context": "- Perfectionism pattern (Coping)\n- Rumination pattern (Coping)\n- Fear of intimacy (Relationships)\n\nExplicitly discuss this topic in normal, client-friendly language. Ask whether it fits the client, while leaving room for them to say it does not.",
+      "anchors": [
+        {
+          "id": "perfectionism_pattern",
+          "type": "sub_topic",
+          "label": "Perfectionism pattern",
+          "score": 0.3382059934146026,
+          "text": "Type: Sub Topic\nLabel: Perfectionism pattern\nAliases: must get it right, perfectionistic\nParent topics: Coping",
+          "selection_method": "subtopic_similarity",
+          "super_topic_id": "coping",
+          "super_topic_label": "Coping"
+        },
+        {
+          "id": "rumination_pattern",
+          "type": "sub_topic",
+          "label": "Rumination pattern",
+          "score": 0.3172960481583491,
+          "text": "Type: Sub Topic\nLabel: Rumination pattern\nAliases: overthinking, rumination\nParent topics: Coping",
+          "selection_method": "subtopic_similarity",
+          "super_topic_id": "coping",
+          "super_topic_label": "Coping"
+        },
+        {
+          "id": "intimacy_fear",
+          "type": "sub_topic",
+          "label": "Fear of intimacy",
+          "score": 0.30838878032995976,
+          "text": "Type: Sub Topic\nLabel: Fear of intimacy\nAliases: afraid of closeness, fear of vulnerability\nParent topics: Relationships",
+          "selection_method": "subtopic_similarity",
+          "super_topic_id": "relationships",
+          "super_topic_label": "Relationships"
+        }
+      ],
+      "expanded": []
+    },
+    {
+      "turn": 22,
+      "query": "Daisy: You know, I think the biggest challenge for me is really about that fear of judgment. It\u2019s like, even if I tell myself it\u2019s okay to be a little messy, there\u2019s still this nagging voice in my head that worries about how others will perceive me. I guess I\u2019m afraid that if I show any cracks in my facade, people will see me as less capable or less worthy. It\u2019s frustrating because I know everyone has their own struggles, but I can\u2019t help but feel like I have to maintain this image of being put together. So, when I think about being messy, it feels like I\u2019m risking that image, and that\u2019s a tough pill to swallow. I suppose it\u2019s just about learning to be okay with the fact that nobody's perfect, including me, but that\u2019s easier said than done, right?",
+      "prompt_context": "- Perfectionism pattern (Coping)\n- Identity shame (Identity)\n- Self-attack pattern (Coping)\n\nExplicitly discuss this topic in normal, client-friendly language. Ask whether it fits the client, while leaving room for them to say it does not.",
+      "anchors": [
+        {
+          "id": "perfectionism_pattern",
+          "type": "sub_topic",
+          "label": "Perfectionism pattern",
+          "score": 0.4413971580650063,
+          "text": "Type: Sub Topic\nLabel: Perfectionism pattern\nAliases: must get it right, perfectionistic\nParent topics: Coping",
+          "selection_method": "subtopic_similarity",
+          "super_topic_id": "coping",
+          "super_topic_label": "Coping"
+        },
+        {
+          "id": "identity_shame",
+          "type": "sub_topic",
+          "label": "Identity shame",
+          "score": 0.38410460815688774,
+          "text": "Type: Sub Topic\nLabel: Identity shame\nAliases: ashamed of who I am\nParent topics: Identity",
+          "selection_method": "subtopic_similarity",
+          "super_topic_id": "identity",
+          "super_topic_label": "Identity"
+        },
+        {
+          "id": "self_attack_pattern",
+          "type": "sub_topic",
+          "label": "Self-attack pattern",
+          "score": 0.3680745985982372,
+          "text": "Type: Sub Topic\nLabel: Self-attack pattern\nAliases: beating myself up, self-criticism\nParent topics: Coping",
+          "selection_method": "subtopic_similarity",
+          "super_topic_id": "coping",
+          "super_topic_label": "Coping"
+        }
+      ],
+      "expanded": []
+    },
+    {
+      "turn": 23,
+      "query": "Daisy: You know, I think one thing that could help is trying to reframe those thoughts when they pop up. Like, instead of letting that voice dictate how I feel, I could remind myself that everyone has their own struggles and that being human means being imperfect. I could also try to challenge the idea that my worth is tied to how put together I appear. Maybe even thinking about times when I\u2019ve seen others be vulnerable and how it didn\u2019t change my perception of them could help. It\u2019s just tough to shift that mindset, especially when it feels so ingrained. I guess it\u2019s about practicing that self-compassion and reminding myself that it\u2019s okay to not have everything figured out. But, you know, it\u2019s a work in progress, and I\u2019m not sure how quickly I can change those deep-seated beliefs. It feels like a long road ahead.",
+      "prompt_context": "- Self-attack pattern (Coping)\n- Personal growth and values (Identity)\n- Perfectionism pattern (Coping)\n\nExplicitly discuss this topic in normal, client-friendly language. Ask whether it fits the client, while leaving room for them to say it does not.",
+      "anchors": [
+        {
+          "id": "self_attack_pattern",
+          "type": "sub_topic",
+          "label": "Self-attack pattern",
+          "score": 0.38293466528515,
+          "text": "Type: Sub Topic\nLabel: Self-attack pattern\nAliases: beating myself up, self-criticism\nParent topics: Coping",
+          "selection_method": "subtopic_similarity",
+          "super_topic_id": "coping",
+          "super_topic_label": "Coping"
+        },
+        {
+          "id": "personal_growth_theme",
+          "type": "sub_topic",
+          "label": "Personal growth and values",
+          "score": 0.38125020609371985,
+          "text": "Type: Sub Topic\nLabel: Personal growth and values\nAliases: personal growth, values, who I want to be\nParent topics: Identity",
+          "selection_method": "subtopic_similarity",
+          "super_topic_id": "identity",
+          "super_topic_label": "Identity"
+        },
+        {
+          "id": "perfectionism_pattern",
+          "type": "sub_topic",
+          "label": "Perfectionism pattern",
+          "score": 0.3709078540540671,
+          "text": "Type: Sub Topic\nLabel: Perfectionism pattern\nAliases: must get it right, perfectionistic\nParent topics: Coping",
+          "selection_method": "subtopic_similarity",
+          "super_topic_id": "coping",
+          "super_topic_label": "Coping"
+        }
+      ],
+      "expanded": []
+    },
+    {
+      "turn": 24,
+      "query": "Daisy: You know, I think one thing that might motivate me is remembering the moments when I\u2019ve felt truly connected to others. Those times when I\u2019ve been able to share something real, even if it was just a small thing, have felt so rewarding. It\u2019s like a reminder that vulnerability can lead to those genuine connections I crave. I guess I could also think about how I want to model that for others, especially for my brother. I don\u2019t want him to feel like he has to put on a facade either. It\u2019s just hard to keep that in mind when I\u2019m in the thick of it, feeling overwhelmed by my own fears. I suppose having those positive memories to draw on could help me push through on the tougher days, but it\u2019s definitely a challenge to stay focused on that when everything feels so heavy.",
+      "prompt_context": "- Personal growth and values (Identity)\n- Identity shame (Identity)\n- Family pressure (Family)\n\nExplicitly discuss this topic in normal, client-friendly language. Ask whether it fits the client, while leaving room for them to say it does not.",
+      "anchors": [
+        {
+          "id": "personal_growth_theme",
+          "type": "sub_topic",
+          "label": "Personal growth and values",
+          "score": 0.3287609703336827,
+          "text": "Type: Sub Topic\nLabel: Personal growth and values\nAliases: personal growth, values, who I want to be\nParent topics: Identity",
+          "selection_method": "subtopic_similarity",
+          "super_topic_id": "identity",
+          "super_topic_label": "Identity"
+        },
+        {
+          "id": "identity_shame",
+          "type": "sub_topic",
+          "label": "Identity shame",
+          "score": 0.30308914128992576,
+          "text": "Type: Sub Topic\nLabel: Identity shame\nAliases: ashamed of who I am\nParent topics: Identity",
+          "selection_method": "subtopic_similarity",
+          "super_topic_id": "identity",
+          "super_topic_label": "Identity"
+        },
+        {
+          "id": "family_pressure",
+          "type": "sub_topic",
+          "label": "Family pressure",
+          "score": 0.30125007122034225,
+          "text": "Type: Sub Topic\nLabel: Family pressure\nAliases: pressure from family, expectations at home\nParent topics: Family",
+          "selection_method": "subtopic_similarity",
+          "super_topic_id": "family",
+          "super_topic_label": "Family"
+        }
+      ],
+      "expanded": []
+    },
+    {
+      "turn": 25,
+      "query": "Daisy: You know, I think one thing that might help is keeping a little journal or something where I can jot down those positive experiences when they happen. Just writing it down could serve as a tangible reminder of those moments of connection and how good it feels to be open. I could look back on it when I\u2019m feeling overwhelmed, like a little boost to remind myself that it\u2019s worth it. I guess I could also talk to someone I trust about those experiences, sharing the good moments as a way to reinforce that feeling of connection. It\u2019s just that sometimes when I\u2019m in a tough spot, it\u2019s easy to forget those brighter moments. So, having something to refer back to could help me shift my focus back to the positive. But, you know, it\u2019s still a bit daunting to think about putting myself out there. It\u2019s like I want to believe in those moments, but the fear can be so consuming.",
+      "prompt_context": "- Personal growth and values (Identity)\n- Identity shame (Identity)\n- Rumination pattern (Coping)\n\nExplicitly discuss this topic in normal, client-friendly language. Ask whether it fits the client, while leaving room for them to say it does not.",
+      "anchors": [
+        {
+          "id": "personal_growth_theme",
+          "type": "sub_topic",
+          "label": "Personal growth and values",
+          "score": 0.32900850354692335,
+          "text": "Type: Sub Topic\nLabel: Personal growth and values\nAliases: personal growth, values, who I want to be\nParent topics: Identity",
+          "selection_method": "subtopic_similarity",
+          "super_topic_id": "identity",
+          "super_topic_label": "Identity"
+        },
+        {
+          "id": "identity_shame",
+          "type": "sub_topic",
+          "label": "Identity shame",
+          "score": 0.30920011109688633,
+          "text": "Type: Sub Topic\nLabel: Identity shame\nAliases: ashamed of who I am\nParent topics: Identity",
+          "selection_method": "subtopic_similarity",
+          "super_topic_id": "identity",
+          "super_topic_label": "Identity"
+        },
+        {
+          "id": "rumination_pattern",
+          "type": "sub_topic",
+          "label": "Rumination pattern",
+          "score": 0.30901354285835486,
+          "text": "Type: Sub Topic\nLabel: Rumination pattern\nAliases: overthinking, rumination\nParent topics: Coping",
+          "selection_method": "subtopic_similarity",
+          "super_topic_id": "coping",
+          "super_topic_label": "Coping"
+        }
+      ],
+      "expanded": []
+    }
+  ],
+  "topic_probe_events": [
+    {
+      "turn": 1,
+      "prompt_context": "- Custody conflict (Law)\n\nExplicitly discuss this topic in normal, client-friendly language. Ask whether it fits the client, while leaving room for them to say it does not.",
+      "anchors": [
+        {
+          "id": "custody_conflict",
+          "type": "sub_topic",
+          "label": "Custody conflict",
+          "score": 1.0,
+          "selection_method": "random_subtopic_probe",
+          "super_topic_id": "law",
+          "super_topic_label": "Law"
+        }
+      ],
+      "expanded": [],
+      "client_reply": "Daisy: Well, I mean, custody and family stuff, it\u2019s always there in the background, you know? It\u2019s just... it\u2019s complicated. I don\u2019t really want to get into all the details right now. I guess I just feel like I\u2019m constantly trying to juggle everything, and it\u2019s hard to keep track of what\u2019s important. Sometimes I think I should be doing better, but then I get overwhelmed. So, yeah, maybe there\u2019s something there, but it\u2019s just... it\u2019s a lot to unpack, I suppose.",
+      "graph_context_source": "random_subtopic_probe"
+    },
+    {
+      "turn": 3,
+      "prompt_context": "- Withdrawal pattern (Coping)\n\nExplicitly discuss this topic in normal, client-friendly language. Ask whether it fits the client, while leaving room for them to say it does not.",
+      "anchors": [
+        {
+          "id": "withdrawal_pattern",
+          "type": "sub_topic",
+          "label": "Withdrawal pattern",
+          "score": 1.0,
+          "selection_method": "random_subtopic_probe",
+          "super_topic_id": "coping",
+          "super_topic_label": "Coping"
+        }
+      ],
+      "expanded": [],
+      "client_reply": "Daisy: Well, yeah, I guess I do tend to pull back a bit when things get too much. It\u2019s like, I don\u2019t want to burden anyone with my problems, you know? So I just sort of retreat into my own head. I think it\u2019s easier that way, but then I end up feeling even more isolated, which isn\u2019t great either. It\u2019s just this cycle, I suppose. I mean, I want to reach out, but then I worry about what people will think or if they\u2019ll judge me for not having it all together. So, I guess I just... don\u2019t. It\u2019s a bit of a mess, really.",
+      "graph_context_source": "random_subtopic_probe"
+    },
+    {
+      "turn": 5,
+      "prompt_context": "- Institutional fear (Law)\n\nExplicitly discuss this topic in normal, client-friendly language. Ask whether it fits the client, while leaving room for them to say it does not.",
+      "anchors": [
+        {
+          "id": "institutional_fear",
+          "type": "sub_topic",
+          "label": "Institutional fear",
+          "score": 1.0,
+          "selection_method": "random_subtopic_probe",
+          "super_topic_id": "law",
+          "super_topic_label": "Law"
+        }
+      ],
+      "expanded": [],
+      "client_reply": "Daisy: Yeah, I think there\u2019s definitely something to that. It\u2019s like, I worry about how people\u2014especially those in positions of authority\u2014might judge me or see my situation. You know, the legal stuff can feel so rigid and unforgiving. I often think about how they might perceive my struggles and whether they\u2019d see me as a good parent or not. It\u2019s like I\u2019m constantly under a microscope, and that just adds to the pressure. I guess I fear that if I show any weakness, it could be used against me somehow. So, I just keep it all bottled up, which isn\u2019t really helping, but it feels safer, I suppose. It\u2019s just... exhausting, trying to navigate all of that while also wanting to be open and honest.",
+      "graph_context_source": "random_subtopic_probe"
+    },
+    {
+      "turn": 7,
+      "prompt_context": "- Financial dependency (Economy)\n\nExplicitly discuss this topic in normal, client-friendly language. Ask whether it fits the client, while leaving room for them to say it does not.",
+      "anchors": [
+        {
+          "id": "financial_dependency",
+          "type": "sub_topic",
+          "label": "Financial dependency",
+          "score": 1.0,
+          "selection_method": "random_subtopic_probe",
+          "super_topic_id": "economy",
+          "super_topic_label": "Economy"
+        }
+      ],
+      "expanded": [],
+      "client_reply": "Daisy: Yeah, I think it does tie into how I feel about my situation. I mean, managing finances and trying to be independent is a huge part of it. I feel like I should have it all figured out by now, especially since I\u2019m trying to prove that I can stand on my own two feet. But then, when something goes wrong, like with the insurance claim I mentioned before, it just reinforces that feeling of inadequacy. It\u2019s like, if I can\u2019t even handle this, what does that say about me? I start to think maybe I\u2019m just not cut out for this adulting thing. It\u2019s frustrating because I want to be responsible and capable, but I feel like I\u2019m constantly falling short. And that just adds to the anxiety, you know? It\u2019s like I\u2019m stuck in this cycle of wanting to be independent but feeling like I\u2019m failing at it.",
+      "graph_context_source": "random_subtopic_probe"
+    },
+    {
+      "turn": 9,
+      "prompt_context": "- Pain or fatigue (Health)\n\nExplicitly discuss this topic in normal, client-friendly language. Ask whether it fits the client, while leaving room for them to say it does not.",
+      "anchors": [
+        {
+          "id": "pain_fatigue",
+          "type": "sub_topic",
+          "label": "Pain or fatigue",
+          "score": 1.0,
+          "selection_method": "random_subtopic_probe",
+          "super_topic_id": "health",
+          "super_topic_label": "Health"
+        }
+      ],
+      "expanded": [],
+      "client_reply": "Daisy: Yeah, I think that definitely fits. I often feel this tightness in my chest, especially when I\u2019m stressed or anxious about things. It\u2019s like my body is reacting to all that mental pressure. Sometimes I get headaches, too, and I just feel drained, like I can\u2019t keep up with everything. It\u2019s frustrating because I know I should be taking care of myself, but when I\u2019m caught up in all this worry and self-doubt, it\u2019s hard to find the energy to do anything else. I guess it just adds to that feeling of being overwhelmed, you know? Like, I\u2019m not just battling with my thoughts, but my body is also feeling the weight of it all. It\u2019s just... a lot to handle.",
+      "graph_context_source": "random_subtopic_probe"
+    },
+    {
+      "turn": 11,
+      "prompt_context": "- Fear of intimacy (Relationships)\n\nExplicitly discuss this topic in normal, client-friendly language. Ask whether it fits the client, while leaving room for them to say it does not.",
+      "anchors": [
+        {
+          "id": "intimacy_fear",
+          "type": "sub_topic",
+          "label": "Fear of intimacy",
+          "score": 1.0,
+          "selection_method": "random_subtopic_probe",
+          "super_topic_id": "relationships",
+          "super_topic_label": "Relationships"
+        }
+      ],
+      "expanded": [],
+      "client_reply": "Client: Daisy: Yeah, I think that does resonate with me. I mean, being vulnerable feels really risky, especially when I\u2019m already feeling so fragile. There\u2019s this fear that if I let people see how overwhelmed I am, they might judge me or think less of me. It\u2019s like I have this image I\u2019m trying to maintain, and showing any cracks in that facade feels terrifying. I guess I worry that if I open up, it\u2019ll just confirm all those negative thoughts I have about myself\u2014that I\u2019m not capable or that I\u2019m a burden. So, I tend to keep things to myself, even when I know it might help to share. It\u2019s just this constant battle between wanting to connect and feeling like I have to protect myself from potential judgment. It\u2019s exhausting, honestly.",
+      "graph_context_source": "random_subtopic_probe"
+    },
+    {
+      "turn": 13,
+      "prompt_context": "- Social disconnection (Relationships)\n\nExplicitly discuss this topic in normal, client-friendly language. Ask whether it fits the client, while leaving room for them to say it does not.",
+      "anchors": [
+        {
+          "id": "social_disconnection",
+          "type": "sub_topic",
+          "label": "Social disconnection",
+          "score": 1.0,
+          "selection_method": "random_subtopic_probe",
+          "super_topic_id": "relationships",
+          "super_topic_label": "Relationships"
+        }
+      ],
+      "expanded": [],
+      "client_reply": "Daisy: Yeah, I think that sense of disconnection definitely resonates with me. It\u2019s like, even when I\u2019m around people, I often feel like I\u2019m on the outside looking in. I can be in a room full of friends, and yet I still feel this barrier between us because I\u2019m not fully being myself. It\u2019s frustrating because I want to engage and connect, but I hold back out of fear. I guess it\u2019s like I\u2019m living in my own little bubble, and while I see everyone else interacting and having fun, I\u2019m stuck worrying about how I\u2019m perceived. It\u2019s isolating, really. I know I\u2019m missing out on deeper connections, but the thought of being vulnerable just feels too risky. So, I end up keeping my distance, which only adds to that feeling of loneliness. It\u2019s a tough spot to be in, wanting to reach out but feeling like I can\u2019t.",
+      "graph_context_source": "random_subtopic_probe"
+    },
+    {
+      "turn": 15,
+      "prompt_context": "- Insurance and treatment costs (Economy)\n\nExplicitly discuss this topic in normal, client-friendly language. Ask whether it fits the client, while leaving room for them to say it does not.",
+      "anchors": [
+        {
+          "id": "insurance_costs",
+          "type": "sub_topic",
+          "label": "Insurance and treatment costs",
+          "score": 1.0,
+          "selection_method": "random_subtopic_probe",
+          "super_topic_id": "economy",
+          "super_topic_label": "Economy"
+        }
+      ],
+      "expanded": [],
+      "client_reply": "Daisy: Yeah, I think that does resonate with me. I mean, when it comes to support, I often feel like I have to handle everything on my own, especially financially. It\u2019s like I\u2019ve put this pressure on myself to be completely self-sufficient, and asking for help feels like admitting defeat. I know there are resources out there, but I just get so caught up in the idea that I should be able to manage everything myself. It\u2019s frustrating because I know deep down that reaching out for support could ease some of that burden, but I worry about being seen as needy or incapable. It\u2019s like I\u2019m stuck in this mindset where I have to prove I can do it all, and that just adds to the weight I\u2019m carrying. I guess it\u2019s another layer of that fear of judgment, you know?",
+      "graph_context_source": "random_subtopic_probe"
+    }
+  ],
+  "topic_probe_config": {
+    "probe_turns": 15,
+    "probe_interval": 2,
+    "probe_anchor_count": 1,
+    "random_seed": null
+  },
+  "final_openness_score": 4,
+  "final_visible_experience_count": 1,
+  "internal_revealed": true
+}

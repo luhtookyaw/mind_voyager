@@ -1,0 +1,65 @@
+{
+  "aggregate": {
+    "num_sessions": 1,
+    "edss": {
+      "situation": 0.4982453923144918,
+      "automatic_thought": 0.44469385876134043,
+      "emotion": 0.6161768625255891,
+      "behavior": 0.34848606917276254,
+      "average": 0.47690054569354595
+    },
+    "idss": {
+      "relevant_history": 0.6448409942635317,
+      "core_beliefs": 0.5887738150110455,
+      "intermediate_beliefs": 0.6355127370389984,
+      "coping_strategies": 0.5974700936015167,
+      "average": 0.616649409978773
+    }
+  },
+  "sessions": [
+    {
+      "file": "/home/lu/Thesis/mind_voyager/outputs/random10_comparison/baseline/easy/session_8-2.json",
+      "case_id": "8-2",
+      "client_mode": "masked",
+      "difficulty": "easy",
+      "predicted_external_diagram": {
+        "situation": "When someone gets too close or touches Ramona in a way that feels familiar.",
+        "automatic_thought": "Is this safe? Can I really trust them?",
+        "emotion": "fear, anxiety, frustration, exhaustion, hope, fear, anger, sadness, vulnerability, loneliness, isolation, guilt, longing, lost, overwhelmed, anxious, unsure, nervous, relief",
+        "behavior": "Ramona gets tense and worried, feels a knot in her stomach, heart starts racing, feels tightness in her chest, wants to escape, pulls back from connecting, overanalyzes words and actions, holds back from reaching out, sends a simple message to a friend."
+      },
+      "ground_truth_external_diagram": {
+        "situation": "Ivan touching the patient in a way that reminds her of the past assault, triggering fear and uncertainty about his intent.",
+        "automatic_thought": "Is he going to hurt me again? Can I trust him not to repeat the past? I will get hurt. I can't trust him.",
+        "emotion": "anxious, worried, fearful, scared, tense",
+        "behavior": "Confronting Ivan and discussing the incident, feeling a mix of hope and fear. Passive or aggressive confrontation to Ivan. Not assertive."
+      },
+      "predicted_internal_diagram": {
+        "relevant_history": "The client reports past experiences that make her question if she can trust anyone at all, particularly mentioning a significant impact from someone named Ivan who hurt her, leading to feelings of powerlessness and vulnerability. She experiences memories that resurface unexpectedly, causing anxiety and fear, especially when someone gets too close or touches her in a familiar way.",
+        "core_beliefs": "I am vulnerable and exposed | I am not worth their time or attention | I am going to embarrass myself | I am unworthy or not good enough",
+        "intermediate_beliefs": "If I keep people at a distance, then I won\u2019t have to worry about them betraying my trust or causing me pain. | The client believes that if she lets her guard down, she risks getting hurt again. | If I misinterpret their reaction, then I will feel embarrassed or rejected.",
+        "coping_strategies": "The client copes by building walls around herself to protect from potential hurt, keeping memories tucked away, and overanalyzing others' words and actions to look for signs of untrustworthiness. She also considers starting with casual conversations to test the waters and setting reminders to practice self-compassion."
+      },
+      "ground_truth_internal_diagram": {
+        "relevant_history": "The patient has experienced a traumatic incident involving a sexual assault by her partner, Ivan. This has led to a complex dynamic in their relationship, where trust and intimacy are significant issues. The patient has been working through these issues and has seen some improvement in the relationship dynamics, as Ivan has been making efforts to be more considerate and reestablish trust.",
+        "core_beliefs": "I am powerless, weak, vulnerable. | I am a victim. | I am bound to be alone.",
+        "intermediate_beliefs": "If I'm not in control, something bad will happen. I must be vigilant at all times to prevent being hurt again. People close to me may hurt me if I let my guard down.\nDepressive variant: My efforts to rebuild trust may be futile. I might never be able to feel safe or loved again. I am at risk of being hurt even when things seem to be improving.",
+        "coping_strategies": "The patient uses vigilance and control as a coping strategy to ensure her safety and prevent further harm. She also engages in open communication and scheduled conversations with Ivan as a way to cope with trust issues in their relationship."
+      },
+      "edss": {
+        "situation": 0.4982453923144918,
+        "automatic_thought": 0.44469385876134043,
+        "emotion": 0.6161768625255891,
+        "behavior": 0.34848606917276254,
+        "average": 0.47690054569354595
+      },
+      "idss": {
+        "relevant_history": 0.6448409942635317,
+        "core_beliefs": 0.5887738150110455,
+        "intermediate_beliefs": 0.6355127370389984,
+        "coping_strategies": 0.5974700936015167,
+        "average": 0.616649409978773
+      }
+    }
+  ]
+}

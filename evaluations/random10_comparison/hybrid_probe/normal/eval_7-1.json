@@ -1,0 +1,65 @@
+{
+  "aggregate": {
+    "num_sessions": 1,
+    "edss": {
+      "situation": 0.5517348386826363,
+      "automatic_thought": 0.5022554523265226,
+      "emotion": 0.5478337798852169,
+      "behavior": 0.6492898762392536,
+      "average": 0.5627784867834074
+    },
+    "idss": {
+      "relevant_history": 0.4800558828566173,
+      "core_beliefs": 0.5132257686019944,
+      "intermediate_beliefs": 0.38304822640342023,
+      "coping_strategies": 0.6877367854610293,
+      "average": 0.5160166658307653
+    }
+  },
+  "sessions": [
+    {
+      "file": "/home/lu/Thesis/mind_voyager/outputs/random10_comparison/hybrid_probe/normal/session_7-1.json",
+      "case_id": "7-1",
+      "client_mode": "masked",
+      "difficulty": "normal",
+      "predicted_external_diagram": {
+        "situation": "Bryce is thinking about unfinished projects and feeling like there's no point in completing them.",
+        "automatic_thought": "Why bother? It\u2019s not like anyone\u2019s waiting for me to finish a website or anything.",
+        "emotion": "pointless, frustrated, stuck, worse, disappointed, ordinary, overwhelmed",
+        "behavior": "Bryce ends up scrolling through social media instead of working on projects."
+      },
+      "ground_truth_external_diagram": {
+        "situation": "Contemplating the value and completion of his personal projects, such as building a website.",
+        "automatic_thought": "What's the point? No one will know it's me, and I'm not getting paid or acknowledged. I shouldn't do things for my own enjoyment.",
+        "emotion": "sad, down, lonely, unhappy; disappointed",
+        "behavior": "Procrastinates on personal projects and engages in unfulfilling activities like social media scrolling."
+      },
+      "predicted_internal_diagram": {
+        "relevant_history": "The client reports feeling a sense of pointlessness around unfinished personal projects, which were intended as a form of self-expression but now feel overshadowed by doubts about their value and visibility. The client experiences a cycle of feeling stuck and turning to distractions like social media, leading to feelings of wasted time. The client has a history of harsh feedback on something they were proud of, which felt like a punch to the gut and made them question their efforts. The client has experienced meaningful support from bandmates in the past, where they could share feelings without judgment, but also feels a pressure to handle things independently, fearing judgment or being a burden.",
+        "core_beliefs": "I am ordinary | I am not good enough | I am a burden | I am too much for others",
+        "intermediate_beliefs": "If I\u2019m going to spend my time on something, it should count for something. | If I let go of the pressure to make things matter, I might not do anything at all. | If I share my work, they might not care or think it\u2019s not good. | If I open up, it might lead to more vulnerability.",
+        "coping_strategies": "The client copes by scrolling through social media as a distraction from feelings of being stuck and wasting time. The client tends to keep things to themselves, building a protective wall around their work to avoid vulnerability and potential judgment. The client also considers setting reminders and sharing progress with someone they trust to help stay grounded and accountable."
+      },
+      "ground_truth_internal_diagram": {
+        "relevant_history": "The patient has a history of working long hours, similar to past experiences while touring, indicating a history of demanding work environments. The patient has also been dealing with unresolved issues with his father, including past abuse and a recent exchange of letters addressing this painful history. The patient's father's response to the letter appears to have been a significant event for the patient, potentially contributing to his current mental state.",
+        "core_beliefs": "I am worthless, waste.",
+        "intermediate_beliefs": "The patient seems to hold the belief that work and productivity are essential to his self-worth and that idle time or personal development is wasted time. He also appears to believe that completing tasks and being acknowledged for his work is important for his value and self-esteem.\nDepressive variant: During periods of depression, the patient may believe that he is not making progress in life and that his efforts are meaningless. This could lead to a lack of motivation to engage in activities and to complete tasks, further reinforcing feelings of inadequacy and worthless.",
+        "coping_strategies": "The patient uses work as a coping strategy to feel productive and to reduce idle time, which he associates with negative feelings. He also use avoidance strategies when he perceives himself not productive and worthless, such as scrolling on social media."
+      },
+      "edss": {
+        "situation": 0.5517348386826363,
+        "automatic_thought": 0.5022554523265226,
+        "emotion": 0.5478337798852169,
+        "behavior": 0.6492898762392536,
+        "average": 0.5627784867834074
+      },
+      "idss": {
+        "relevant_history": 0.4800558828566173,
+        "core_beliefs": 0.5132257686019944,
+        "intermediate_beliefs": 0.38304822640342023,
+        "coping_strategies": 0.6877367854610293,
+        "average": 0.5160166658307653
+      }
+    }
+  ]
+}

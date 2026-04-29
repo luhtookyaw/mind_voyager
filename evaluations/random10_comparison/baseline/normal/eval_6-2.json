@@ -1,0 +1,65 @@
+{
+  "aggregate": {
+    "num_sessions": 1,
+    "edss": {
+      "situation": 0.7278368148537206,
+      "automatic_thought": 0.34189663664697356,
+      "emotion": 0.6532718315127312,
+      "behavior": 0.19774009514670637,
+      "average": 0.48018634454003295
+    },
+    "idss": {
+      "relevant_history": 0.6779747833920832,
+      "core_beliefs": 0.6335821879071571,
+      "intermediate_beliefs": 0.6812491179556238,
+      "coping_strategies": 0.4666491432549979,
+      "average": 0.6148638081274655
+    }
+  },
+  "sessions": [
+    {
+      "file": "/home/lu/Thesis/mind_voyager/outputs/random10_comparison/baseline/normal/session_6-2.json",
+      "case_id": "6-2",
+      "client_mode": "masked",
+      "difficulty": "normal",
+      "predicted_external_diagram": {
+        "situation": "Daisy received an unexpected balance on her insurance claim.",
+        "automatic_thought": "I\u2019ve messed up somehow. What if I can\u2019t handle this?",
+        "emotion": "anxious, frustrated, overwhelmed",
+        "behavior": "Daisy tries to distract herself by keeping busy with work."
+      },
+      "ground_truth_external_diagram": {
+        "situation": "Receiving an insurance claim with an unexpected balance.",
+        "automatic_thought": "I have failed at managing my finances independently. I should have checked with the insurance company.",
+        "emotion": "anxious, worried, fearful, scared, tense; guilty",
+        "behavior": "Expressing guilt and concern to the therapist about the payment discrepancy and the potential financial burden. Self criticism."
+      },
+      "predicted_internal_diagram": {
+        "relevant_history": "The client reports feeling anxious about an unexpected balance on an insurance claim, which has led to concerns about financial management and the fear of not being able to pay bills. The client has been trying to manage finances independently and feels pressure from family expectations to be strong and self-sufficient, which has contributed to internalized beliefs about handling everything alone. The client also mentions a brother who relies on their parents, which influences their desire to be seen as independent.",
+        "core_beliefs": "I am not good enough | I am weak | I am incapable | I am bound to be rejected | I am bound to be misunderstood",
+        "intermediate_beliefs": "If I ask for help or show any sign of struggle, then I am failing at being an adult. | The client believes that if they share too much, others might see them as weak or incapable. | If I don't handle everything on my own, then I am not good enough.",
+        "coping_strategies": "The client copes by trying to distract themselves with work or other activities to avoid dealing with anxiety, but this often leads to more stress and overthinking. They also consider setting aside time to manage finances and reaching out to friends for support, though they worry about burdening others. The client is exploring mindfulness techniques, such as deep breathing and using physical reminders, to manage anxiety and encourage reaching out for connection."
+      },
+      "ground_truth_internal_diagram": {
+        "relevant_history": "The patient is a 28-year-old student who has been trying to assert independence and self-sufficiency, particularly in financial matters, after returning from Egypt. The patient has previously relied on parents for support but is now attempting to take on more adult responsibilities such as paying bills, managing finances, and dealing with health insurance on her own for the first time. The patient's brother is still financially dependent on their parents, which the patient is consciously trying to avoid for herself.",
+        "core_beliefs": "I am incompetent. | I am helpless. | I am needy. | I am a failure, loser.",
+        "intermediate_beliefs": "I must do everything independently to prove that I am a capable adult and to avoid being a burden or like my brother.\nDepressive variant: I have failed at independence and self-sufficiency, and I need to ask for help which makes me feel incompetent.",
+        "coping_strategies": "The patient attempts to handle situations independently without relying on others, particularly parents. The patient also aims to budget and handle finances alone, which is a form of asserting control and self-reliance."
+      },
+      "edss": {
+        "situation": 0.7278368148537206,
+        "automatic_thought": 0.34189663664697356,
+        "emotion": 0.6532718315127312,
+        "behavior": 0.19774009514670637,
+        "average": 0.48018634454003295
+      },
+      "idss": {
+        "relevant_history": 0.6779747833920832,
+        "core_beliefs": 0.6335821879071571,
+        "intermediate_beliefs": 0.6812491179556238,
+        "coping_strategies": 0.4666491432549979,
+        "average": 0.6148638081274655
+      }
+    }
+  ]
+}
