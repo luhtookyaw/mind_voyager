@@ -3,7 +3,6 @@ from __future__ import annotations
 import argparse
 import json
 from pathlib import Path
-from typing import Any
 
 from llm import call_llm
 from mind_voyager.client_simulator import (
@@ -21,49 +20,8 @@ from mind_voyager.client_simulator import (
 )
 from mind_voyager.therapist_simulator import (
     generate_therapist_reply,
-    latest_client_utterance,
-    render_retrieval_therapist_prompt,
     render_therapist_prompt,
 )
-from scripts.retrieve_topic_graph import (
-    DEFAULT_GRAPH_PATH,
-    DEFAULT_INDEX_PATH,
-    DEFAULT_RELATIONS,
-    build_type_limits,
-    retrieve_topic_graph_context,
-)
-
-
-NO_RETRIEVAL_CONTEXT = (
-    "No retrieved graph context is available for this turn. "
-    "Use general reflective exploration based only on the conversation."
-)
-
-
-def retrieve_context_for_therapist(
-    query: str | None,
-    graph_path: Path,
-    index_path: Path,
-) -> dict[str, Any] | None:
-    if not query or not query.strip():
-        return None
-    return retrieve_topic_graph_context(
-        query=query,
-        graph_path=graph_path,
-        index_path=index_path,
-        anchor_types=("sub_topic",),
-        anchor_top_k=3,
-        relation_filter=DEFAULT_RELATIONS,
-        per_anchor_limit=6,
-        type_limits=build_type_limits(
-            emotion_limit=2,
-            coping_limit=2,
-            behavior_limit=2,
-            intermediate_limit=2,
-            prompt_limit=2,
-            core_belief_limit=1,
-        ),
-    )
 
 
 def generate_masked_client_reply(
@@ -111,11 +69,9 @@ def run_simulation(
     client_model: str,
     judge_model: str,
     moderator_model: str,
+    embedding_model: str,
     max_turns: int,
     output: Path | None,
-    use_retrieval: bool,
-    graph_path: Path,
-    index_path: Path,
     use_moderator: bool,
 ) -> None:
     ensure_api_key()
@@ -132,54 +88,22 @@ def run_simulation(
     print(f"Therapist provider: {therapist_provider}")
     print(f"Therapist model: {therapist_model}")
     print(f"Client model: {client_model}")
-    print(f"Judge model: {judge_model}")
+    print("Reveal engine: deterministic field-level unlock")
     print(f"Moderator: {'enabled' if use_moderator else 'disabled'}")
     if use_moderator:
         print(f"Moderator model: {moderator_model}")
-    print(f"Graph retrieval: {'enabled' if use_retrieval else 'disabled'}")
     print()
 
     therapist_transcript: list[dict[str, str]] = []
-    state = SimulatorState(case=case, difficulty=difficulty)
+    state = SimulatorState(case=case, difficulty=difficulty, embedding_model=embedding_model)
 
     transcript_records: list[dict[str, str | int]] = []
     moderator_events: list[str] = []
-    retrieval_events: list[dict[str, Any]] = []
     stop_reason = "max_turns"
 
     for turn in range(1, max_turns + 1):
-        current_therapist_prompt = therapist_prompt
-        if use_retrieval:
-            query = latest_client_utterance(therapist_transcript)
-            retrieval = retrieve_context_for_therapist(
-                query=query,
-                graph_path=graph_path,
-                index_path=index_path,
-            )
-            retrieved_context = (
-                retrieval["prompt_context"] if retrieval is not None else NO_RETRIEVAL_CONTEXT
-            )
-            current_therapist_prompt = render_retrieval_therapist_prompt(
-                case=case,
-                retrieved_context=retrieved_context,
-            )
-            retrieval_event = {
-                "turn": turn,
-                "query": query,
-                "prompt_context": retrieved_context,
-            }
-            if retrieval is not None:
-                retrieval_event["anchors"] = retrieval["anchors"]
-                retrieval_event["expanded"] = retrieval["expanded"]
-            retrieval_events.append(retrieval_event)
-            if retrieval is not None:
-                anchor_labels = ", ".join(item["label"] for item in retrieval["anchors"])
-                print(f"Retrieval> anchors={anchor_labels}")
-            else:
-                print("Retrieval> no client utterance yet; using baseline opening guidance")
-
         therapist_reply = generate_therapist_reply(
-            therapist_prompt=current_therapist_prompt,
+            therapist_prompt=therapist_prompt,
             transcript=therapist_transcript,
             model=therapist_model,
             provider=therapist_provider,
@@ -192,8 +116,8 @@ def run_simulation(
 
         state.dialogue.append({"role": "user", "content": therapist_reply})
         state.therapist_turns += 1
-        judge_status = maybe_update_state(state, judge_model)
-        print(format_judge_status(state.therapist_turns, judge_status))
+        reveal_status = maybe_update_state(state, judge_model)
+        print(format_judge_status(state.therapist_turns, reveal_status))
         client_reply = generate_masked_client_reply(state=state, client_model=client_model)
         state.dialogue.append({"role": "assistant", "content": client_reply})
 
@@ -225,10 +149,10 @@ def run_simulation(
             "client_name": case.name,
             "client_mode": "masked",
             "difficulty": difficulty.name,
-            "openness_interval": difficulty.openness_interval,
+            "embedding_model": state.embedding_model,
             "therapist_provider": therapist_provider,
             "therapist_model": therapist_model,
-            "therapist_prompt_mode": "retrieval" if use_retrieval else "baseline",
+            "therapist_prompt_mode": "baseline",
             "client_model": client_model,
             "moderator_enabled": use_moderator,
             "moderator_model": moderator_model,
@@ -240,10 +164,10 @@ def run_simulation(
         payload["judge_model"] = judge_model
         payload["mediator_events"] = state.events
         payload["moderator_events"] = moderator_events
-        payload["retrieval_events"] = retrieval_events
-        payload["final_openness_score"] = state.current_openness_score
-        payload["final_visible_experience_count"] = state.visible_experience_count
-        payload["internal_revealed"] = state.internal_revealed
+        payload["revealed_fields"] = state.revealed_fields
+        payload["best_similarity_by_field"] = state.best_similarity_by_field
+        payload["reveal_events"] = state.reveal_events
+        payload["turn_similarity_events"] = state.turn_similarity_events
         output.parent.mkdir(parents=True, exist_ok=True)
         output.write_text(json.dumps(payload, indent=2))
         print(f"\nSaved transcript to {output}")
@@ -261,7 +185,7 @@ def build_arg_parser() -> argparse.ArgumentParser:
         "--difficulty",
         choices=sorted(DIFFICULTIES),
         default="normal",
-        help="Difficulty used for client openness/metacognition",
+        help="Difficulty used for per-field reveal thresholds",
     )
     parser.add_argument("--therapist-model", default="gpt-4o-mini", help="Therapist model")
     parser.add_argument(
@@ -274,27 +198,17 @@ def build_arg_parser() -> argparse.ArgumentParser:
     parser.add_argument("--judge-model", default="gpt-4o-mini", help="Mediator judge model")
     parser.add_argument("--moderator-model", default="gpt-4o-mini", help="Moderator model")
     parser.add_argument(
+        "--embedding-model",
+        default="text-embedding-3-small",
+        help="Embedding model used for therapist-to-CCD similarity scoring",
+    )
+    parser.add_argument(
         "--no-moderator",
         action="store_true",
         help="Disable moderator-based early stopping",
     )
     parser.add_argument("--max-turns", type=int, default=15, help="Maximum therapist turns")
     parser.add_argument("--output", help="Optional path to save the transcript as JSON")
-    parser.add_argument(
-        "--use-retrieval",
-        action="store_true",
-        help="Use topic-graph retrieval context in the therapist system prompt",
-    )
-    parser.add_argument(
-        "--topic-graph",
-        default=str(DEFAULT_GRAPH_PATH),
-        help="Path to topic_graph.json used with --use-retrieval",
-    )
-    parser.add_argument(
-        "--topic-index",
-        default=str(DEFAULT_INDEX_PATH),
-        help="Path to node_embeddings.json used with --use-retrieval",
-    )
     return parser
 
 
@@ -309,11 +223,9 @@ def main() -> None:
         client_model=args.client_model,
         judge_model=args.judge_model,
         moderator_model=args.moderator_model,
+        embedding_model=args.embedding_model,
         max_turns=args.max_turns,
         output=Path(args.output) if args.output else None,
-        use_retrieval=args.use_retrieval,
-        graph_path=Path(args.topic_graph),
-        index_path=Path(args.topic_index),
         use_moderator=not args.no_moderator,
     )
 

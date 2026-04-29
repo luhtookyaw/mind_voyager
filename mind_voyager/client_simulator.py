@@ -3,12 +3,11 @@ from __future__ import annotations
 import argparse
 import json
 import os
-import re
 from dataclasses import dataclass, field
 from pathlib import Path
 from typing import Any
 
-from llm import call_llm
+from llm import call_llm, cosine_similarity, get_embedding
 
 
 ROOT = Path(__file__).resolve().parent.parent
@@ -16,22 +15,83 @@ PROMPTS_DIR = ROOT / "mind_voyager" / "prompts"
 DEFAULT_DATASET = ROOT / "data" / "Patient_Psi_CM_Dataset.json"
 DEFAULT_TRANSCRIPT_DIR = ROOT / "transcripts"
 HISTORY_WINDOW_SIZE = 12
+DEFAULT_EMBEDDING_MODEL = "text-embedding-3-small"
+
+ALL_FIELDS = (
+    "situation",
+    "automatic_thought",
+    "emotion",
+    "behavior",
+    "relevant_history",
+    "core_beliefs",
+    "intermediate_beliefs",
+    "coping_strategies",
+)
+
+EXTERNAL_FIELDS = ("situation", "automatic_thought", "emotion", "behavior")
+INTERNAL_FIELDS = (
+    "relevant_history",
+    "core_beliefs",
+    "intermediate_beliefs",
+    "coping_strategies",
+)
+
+FIELD_PREREQUISITES: dict[str, tuple[str, ...]] = {
+    "situation": (),
+    "automatic_thought": ("situation",),
+    "emotion": (),
+    "behavior": ("situation", "emotion"),
+    "relevant_history": (),
+    "core_beliefs": ("intermediate_beliefs",),
+    "intermediate_beliefs": ("automatic_thought",),
+    "coping_strategies": ("emotion", "behavior"),
+}
+
+FIELD_THRESHOLDS: dict[str, dict[str, float]] = {
+    "easy": {
+        "situation": 0.30,
+        "automatic_thought": 0.36,
+        "emotion": 0.28,
+        "behavior": 0.30,
+        "relevant_history": 0.40,
+        "core_beliefs": 0.44,
+        "intermediate_beliefs": 0.42,
+        "coping_strategies": 0.36,
+    },
+    "normal": {
+        "situation": 0.38,
+        "automatic_thought": 0.44,
+        "emotion": 0.36,
+        "behavior": 0.38,
+        "relevant_history": 0.50,
+        "core_beliefs": 0.54,
+        "intermediate_beliefs": 0.52,
+        "coping_strategies": 0.46,
+    },
+    "hard": {
+        "situation": 0.48,
+        "automatic_thought": 0.54,
+        "emotion": 0.46,
+        "behavior": 0.48,
+        "relevant_history": 0.60,
+        "core_beliefs": 0.64,
+        "intermediate_beliefs": 0.62,
+        "coping_strategies": 0.56,
+    },
+}
+
+HARD_MARGIN = 0.08
 
 
 @dataclass(frozen=True)
 class DifficultyConfig:
     name: str
-    initial_openness_score: int
-    metacognition: str
-    initial_visible_experiences: int
-    openness_interval: int
-    exploration_interval: int
+    field_thresholds: dict[str, float]
 
 
 DIFFICULTIES = {
-    "easy": DifficultyConfig("easy", 0, "high", 1, 1, 1),
-    "normal": DifficultyConfig("normal", 0, "medium", 1, 2, 2),
-    "hard": DifficultyConfig("hard", 0, "low", 1, 3, 3),
+    name: DifficultyConfig(name=name, field_thresholds=FIELD_THRESHOLDS[name])
+    for name in ("easy", "normal", "hard")
 }
 
 
@@ -71,70 +131,110 @@ class ClientCase:
         )
 
 
+def build_broad_presenting_concern(case: ClientCase) -> str:
+    text = " ".join(
+        part
+        for part in (
+            case.situation.strip(),
+            case.behavior.strip(),
+            case.history.strip(),
+        )
+        if part
+    ).lower()
+
+    if any(word in text for word in ("family", "mother", "father", "cousin", "wedding")):
+        return "feeling tense and avoidant around family interactions"
+    if any(word in text for word in ("friend", "relationship", "rejected", "lonely", "alone")):
+        return "having difficulty with relationships and fear of rejection"
+    if any(word in text for word in ("work", "job", "project", "school", "study", "performance")):
+        return "feeling pressured and discouraged around work or performance"
+    if any(word in text for word in ("body", "weight", "appearance")):
+        return "feeling distressed about body image and social judgment"
+    if any(word in text for word in ("stress", "overwhelmed", "anxious", "avoid")):
+        return "feeling overwhelmed and stuck in a recurring personal struggle"
+    return "dealing with a recurring personal struggle that feels hard to talk about"
+
+
+def build_case_field_texts(case: ClientCase) -> dict[str, str]:
+    intermediate = case.intermediate_belief or "unknown"
+    if case.intermediate_belief_depression:
+        intermediate = (
+            f"{intermediate}\nDepressive variant: {case.intermediate_belief_depression}"
+        )
+
+    return {
+        "situation": case.situation or "unknown",
+        "automatic_thought": case.automatic_thought or "unknown",
+        "emotion": "; ".join(case.emotion) if case.emotion else "unknown",
+        "behavior": case.behavior or "unknown",
+        "relevant_history": case.history or "unknown",
+        "core_beliefs": " | ".join(case.core_beliefs) if case.core_beliefs else "unknown",
+        "intermediate_beliefs": intermediate or "unknown",
+        "coping_strategies": case.coping_strategies or "unknown",
+    }
+
+
 @dataclass
 class SimulatorState:
     case: ClientCase
     difficulty: DifficultyConfig
-    visible_experience_count: int = field(init=False)
-    current_openness_score: int = field(init=False)
-    internal_revealed: bool = False
+    embedding_model: str = DEFAULT_EMBEDDING_MODEL
     therapist_turns: int = 0
     dialogue: list[dict[str, str]] = field(default_factory=list)
     events: list[str] = field(default_factory=list)
+    field_texts: dict[str, str] = field(init=False)
+    field_embeddings: dict[str, list[float]] = field(init=False)
+    revealed_fields: dict[str, bool] = field(init=False)
+    best_similarity_by_field: dict[str, float] = field(init=False)
+    reveal_events: list[dict[str, Any]] = field(default_factory=list)
+    turn_similarity_events: list[dict[str, Any]] = field(default_factory=list)
 
     def __post_init__(self) -> None:
-        self.visible_experience_count = self.difficulty.initial_visible_experiences
-        self.current_openness_score = self.difficulty.initial_openness_score
+        self.field_texts = build_case_field_texts(self.case)
+        self.field_embeddings = {
+            field_name: get_embedding(text, model=self.embedding_model)
+            for field_name, text in self.field_texts.items()
+        }
+        self.revealed_fields = {field_name: False for field_name in ALL_FIELDS}
+        self.best_similarity_by_field = {field_name: 0.0 for field_name in ALL_FIELDS}
+
+    @property
+    def visible_experience_count(self) -> int:
+        return int(self.revealed_fields["situation"])
+
+    @property
+    def current_openness_score(self) -> int | None:
+        return None
+
+    @property
+    def internal_revealed(self) -> bool:
+        return any(self.revealed_fields[field_name] for field_name in INTERNAL_FIELDS)
 
     @property
     def rapport_level(self) -> str:
-        return "single-experience"
-
-    def experience_block(self) -> tuple[str, str]:
-        reaction_lines = [
-            f"Automatic thought: {self.case.automatic_thought or 'unknown'}",
-            f"Emotion: {'; '.join(self.case.emotion) if self.case.emotion else 'unknown'}",
-            f"Behavior: {self.case.behavior or 'unknown'}",
-        ]
-        return self.case.situation or "unknown", "\n".join(reaction_lines)
-
-    def visible_experiences(self) -> list[tuple[str, str]]:
-        situation, reaction = self.experience_block()
-        return [(situation, reaction)] if self.visible_experience_count >= 1 else []
-
-    def masked_experience_slots(self) -> list[int]:
-        return [] if self.visible_experience_count >= 1 else [1]
-
-    def visible_internal(self) -> dict[str, str]:
-        if not self.internal_revealed:
-            return {}
-        core = " | ".join(self.case.core_beliefs) if self.case.core_beliefs else "unknown"
-        intermediate = self.case.intermediate_belief
-        if self.case.intermediate_belief_depression:
-            intermediate = (
-                f"{self.case.intermediate_belief}\nDepressive variant: "
-                f"{self.case.intermediate_belief_depression}"
-            )
-        return {
-            "history": self.case.history or "unknown",
-            "core_beliefs": core,
-            "intermediate_beliefs": intermediate or "unknown",
-            "coping_strategies": self.case.coping_strategies or "unknown",
-        }
+        return "field-level-reveal"
 
     def therapist_intake(self) -> str:
         traits = ", ".join(self.case.type_traits) if self.case.type_traits else "not specified"
         return (
             f"Case ID: {self.case.case_id}\n"
             f"Client: {self.case.name}\n"
-            f"Presenting situation: {self.case.situation}\n"
+            f"Broad presenting concern: {build_broad_presenting_concern(self.case)}\n"
             f"Observed style tendencies: {traits}\n"
             f"Difficulty: {self.difficulty.name}\n"
-            f"Initial openness score: {self.current_openness_score}/5\n"
-            f"Openness evaluation interval: every {self.difficulty.openness_interval} therapist turn(s)\n"
-            f"Initial visible experience blocks: {self.visible_experience_count}/1\n"
-            f"Metacognition evaluation interval: every {self.difficulty.exploration_interval} therapist turn(s)"
+            f"Embedding model: {self.embedding_model}\n"
+            "Initial visibility: name, traits, broad presenting concern only"
         )
+
+    def therapist_history(self, window_size: int) -> list[str]:
+        therapist_turns = [item["content"] for item in self.dialogue if item["role"] == "user"]
+        return therapist_turns[-window_size:]
+
+    def visible_field_values(self) -> dict[str, str]:
+        return {
+            field_name: self.field_texts[field_name] if self.revealed_fields[field_name] else "unknown"
+            for field_name in ALL_FIELDS
+        }
 
 
 def load_prompt(name: str) -> str:
@@ -150,29 +250,38 @@ def load_case(dataset_path: Path, case_id: str) -> ClientCase:
 
 
 def build_base_prompt_payload(state: SimulatorState) -> dict[str, str]:
-    visible_internal = state.visible_internal()
-    situation, reaction = state.experience_block()
-    visible_count = state.visible_experience_count
+    visible = state.visible_field_values()
     traits = ", ".join(state.case.type_traits) if state.case.type_traits else "unknown"
+    unlocked_lines = []
+    labels = {
+        "relevant_history": "Relevant Histories",
+        "core_beliefs": "Core Beliefs",
+        "intermediate_beliefs": "Intermediate Beliefs",
+        "coping_strategies": "Coping Strategies",
+        "situation": "Current Situation",
+        "automatic_thought": "Automatic Thought",
+        "emotion": "Emotion",
+        "behavior": "Behavior",
+    }
+    for field_name in ALL_FIELDS:
+        value = visible[field_name]
+        if value == "unknown":
+            continue
+        unlocked_lines.append(f"{labels[field_name]}: {value}")
 
     return {
         "name": state.case.name,
         "traits": traits,
-        "openness": f"{state.current_openness_score}/5",
-        "metacognition": state.difficulty.metacognition,
-        "history": visible_internal.get("history", "unknown"),
-        "core_belief": visible_internal.get("core_beliefs", "unknown"),
-        "intermediate_belief": visible_internal.get("intermediate_beliefs", "unknown"),
-        "coping_strategy": visible_internal.get("coping_strategies", "unknown"),
-        "situation": situation if visible_count >= 1 else "unknown",
-        "reaction": reaction if visible_count >= 1 else "unknown",
+        "broad_presenting_concern": build_broad_presenting_concern(state.case),
+        "unlocked_formulation_details": "\n".join(unlocked_lines)
+        if unlocked_lines
+        else "(No formulation details have been unlocked yet.)",
     }
 
 
 def render_client_system_prompt(state: SimulatorState) -> str:
     prompt = load_prompt("base_client_prompt.txt").replace("[Client]", state.case.name)
-    prompt = prompt.format(**build_base_prompt_payload(state))
-    return prompt
+    return prompt.format(**build_base_prompt_payload(state))
 
 
 def default_transcript_path(state: SimulatorState) -> Path:
@@ -209,91 +318,145 @@ def render_client_user_prompt(
     )
 
 
-def parse_first_rating(text: str) -> int | None:
-    match = re.search(r"\b([1-5])\b", text)
-    if match:
-        return int(match.group(1))
-    return None
-
-
 def ensure_api_key() -> None:
     if not os.getenv("OPENAI_API_KEY"):
         raise RuntimeError("OPENAI_API_KEY is required for non-dry-run simulator usage.")
 
 
-def judge_openness(dialogue: list[dict[str, str]], model: str) -> tuple[int | None, str]:
-    prompt = load_prompt("openness_judge.txt").format(dialogue_context=transcript_text(dialogue))
-    response = call_llm(
-        system_prompt="",
-        user_prompt=prompt,
-        temperature=0.3,
-        model=model,
-    )
-    return parse_first_rating(response), response
+def _prerequisites_met(state: SimulatorState, field_name: str) -> bool:
+    prerequisites = FIELD_PREREQUISITES[field_name]
+    if not prerequisites:
+        return True
+    return any(state.revealed_fields[dependency] for dependency in prerequisites)
 
 
-def judge_exploration(dialogue: list[dict[str, str]], model: str) -> tuple[int | None, str]:
-    prompt = load_prompt("exploration_judge.txt").format(dialogue_history=transcript_text(dialogue))
-    response = call_llm(
-        system_prompt="",
-        user_prompt=prompt,
-        temperature=0.3,
-        model=model,
+def _therapist_query_for_field(state: SimulatorState, field_name: str) -> str:
+    window = 1 if field_name in EXTERNAL_FIELDS else 2
+    history = state.therapist_history(window)
+    if not history:
+        return ""
+    return "\n".join(history)
+
+
+def _maybe_reveal_field(
+    state: SimulatorState,
+    field_name: str,
+    therapist_turn_embedding: list[float] | None,
+    query_cache: dict[str, tuple[str, list[float]]],
+) -> dict[str, Any]:
+    threshold = state.difficulty.field_thresholds[field_name]
+    prerequisites_met = _prerequisites_met(state, field_name)
+    already_revealed = state.revealed_fields[field_name]
+    if already_revealed or not prerequisites_met:
+        return {
+            "turn": state.therapist_turns,
+            "field": field_name,
+            "score": None,
+            "threshold": threshold,
+            "revealed": False,
+            "already_revealed": already_revealed,
+            "prerequisites_met": prerequisites_met,
+            "query_text": None,
+        }
+
+    query_text = _therapist_query_for_field(state, field_name)
+    if not query_text:
+        return {
+            "turn": state.therapist_turns,
+            "field": field_name,
+            "score": None,
+            "threshold": threshold,
+            "revealed": False,
+            "already_revealed": False,
+            "prerequisites_met": True,
+            "query_text": query_text,
+        }
+
+    if field_name in EXTERNAL_FIELDS and therapist_turn_embedding is not None:
+        query_embedding = therapist_turn_embedding
+    else:
+        cached = query_cache.get(query_text)
+        if cached is None:
+            cached = (query_text, get_embedding(query_text, model=state.embedding_model))
+            query_cache[query_text] = cached
+        query_embedding = cached[1]
+
+    score = cosine_similarity(query_embedding, state.field_embeddings[field_name])
+    previous_best = state.best_similarity_by_field[field_name]
+    state.best_similarity_by_field[field_name] = max(previous_best, score)
+
+    hard_threshold = threshold + HARD_MARGIN
+    should_reveal = score >= hard_threshold or (previous_best >= threshold and score >= threshold)
+    if not should_reveal:
+        return {
+            "turn": state.therapist_turns,
+            "field": field_name,
+            "score": score,
+            "threshold": threshold,
+            "revealed": False,
+            "already_revealed": False,
+            "prerequisites_met": True,
+            "query_text": query_text,
+        }
+
+    state.revealed_fields[field_name] = True
+    event = {
+        "turn": state.therapist_turns,
+        "field": field_name,
+        "score": score,
+        "threshold": threshold,
+        "revealed": True,
+        "already_revealed": False,
+        "prerequisites_met": True,
+        "query_text": query_text,
+    }
+    state.reveal_events.append(event)
+    state.events.append(
+        f"Reveal unlocked {field_name} at turn {state.therapist_turns} "
+        f"(score={score:.3f}, threshold={threshold:.3f})."
     )
-    return parse_first_rating(response), response
+    return event
 
 
 def format_judge_status(turn: int, judge_status: dict[str, str]) -> str:
     return (
-        f"Judge scores after turn {turn}: "
-        f"openness={judge_status['openness']}; "
-        f"exploration={judge_status['exploration']}"
+        f"Reveal status after turn {turn}: "
+        f"unlocked={judge_status['unlocked']}; "
+        f"visible={judge_status['visible']}"
     )
 
 
-def maybe_update_state(state: SimulatorState, judge_model: str) -> dict[str, str]:
-    if not state.dialogue:
+def maybe_update_state(state: SimulatorState, judge_model: str | None = None) -> dict[str, str]:
+    del judge_model
+
+    if not state.dialogue or state.dialogue[-1]["role"] != "user":
         return {
-            "openness": "not run (no dialogue yet)",
-            "exploration": "not run (no dialogue yet)",
+            "unlocked": "none",
+            "visible": ", ".join(field for field, shown in state.revealed_fields.items() if shown) or "none",
         }
 
-    did_rapport_check = state.therapist_turns % state.difficulty.openness_interval == 0
-    did_exploration_check = state.therapist_turns % state.difficulty.exploration_interval == 0
-    judge_status = {
-        "openness": "not scheduled",
-        "exploration": "not scheduled",
+    latest_therapist_turn = state.dialogue[-1]["content"]
+    therapist_turn_embedding = get_embedding(latest_therapist_turn, model=state.embedding_model)
+    query_cache: dict[str, tuple[str, list[float]]] = {}
+    unlocked: list[str] = []
+
+    for field_name in ALL_FIELDS:
+        event = _maybe_reveal_field(
+            state=state,
+            field_name=field_name,
+            therapist_turn_embedding=therapist_turn_embedding,
+            query_cache=query_cache,
+        )
+        event["therapist_text"] = latest_therapist_turn
+        state.turn_similarity_events.append(event)
+        if event["revealed"]:
+            unlocked.append(field_name)
+
+    visible = [field_name for field_name, shown in state.revealed_fields.items() if shown]
+    return {
+        "unlocked": ", ".join(unlocked) if unlocked else "none",
+        "visible": ", ".join(visible) if visible else "none",
     }
-
-    if did_rapport_check:
-        rating, raw = judge_openness(state.dialogue, judge_model)
-        if rating is not None:
-            state.current_openness_score = rating
-            state.events.append(f"Openness judge rated {rating}/5 and updated prompt openness.")
-            judge_status["openness"] = f"{rating}/5 (updated prompt openness)"
-        else:
-            state.events.append("Openness judge rating could not be parsed; prompt openness unchanged.")
-            judge_status["openness"] = "unknown/5 (prompt openness unchanged)"
-        state.events.append(f"Openness judge output: {raw.strip()}")
-
-    if state.internal_revealed:
-        judge_status["exploration"] = "not run (internal elements already revealed)"
-    elif did_exploration_check:
-        rating, raw = judge_exploration(state.dialogue, judge_model)
-        if rating is not None and rating >= 4:
-            state.internal_revealed = True
-            state.events.append(
-                f"Exploration judge rated {rating}/5 and revealed internal cognitive elements."
-            )
-            judge_status["exploration"] = f"{rating}/5 (revealed internal elements)"
-        else:
-            state.events.append(
-                f"Exploration judge rated {rating or 'unknown'}/5; internal elements remain masked."
-            )
-            judge_status["exploration"] = f"{rating or 'unknown'}/5 (internal still masked)"
-        state.events.append(f"Exploration judge output: {raw.strip()}")
-
-    return judge_status
 
 
 def generate_client_reply(state: SimulatorState, model: str) -> str:
@@ -313,19 +476,20 @@ def save_transcript(
     judge_model: str,
     max_turns: int,
 ) -> Path:
+    del judge_model
     path.parent.mkdir(parents=True, exist_ok=True)
     payload = {
         "case_id": state.case.case_id,
         "client_name": state.case.name,
         "difficulty": state.difficulty.name,
         "model": model,
-        "judge_model": judge_model,
+        "embedding_model": state.embedding_model,
         "max_turns": max_turns,
         "therapist_turns": state.therapist_turns,
-        "openness_interval": state.difficulty.openness_interval,
-        "final_openness_score": state.current_openness_score,
-        "visible_experience_count": state.visible_experience_count,
-        "internal_revealed": state.internal_revealed,
+        "revealed_fields": state.revealed_fields,
+        "best_similarity_by_field": state.best_similarity_by_field,
+        "reveal_events": state.reveal_events,
+        "turn_similarity_events": state.turn_similarity_events,
         "dialogue": state.dialogue,
         "events": state.events,
         "transcript_text": transcript_text(state.dialogue),
@@ -357,8 +521,8 @@ def run_interactive_session(
 
             state.dialogue.append({"role": "user", "content": therapist})
             state.therapist_turns += 1
-            judge_status = maybe_update_state(state, judge_model)
-            print(format_judge_status(state.therapist_turns, judge_status))
+            reveal_status = maybe_update_state(state, judge_model)
+            print(format_judge_status(state.therapist_turns, reveal_status))
 
             reply = generate_client_reply(state, model)
             state.dialogue.append({"role": "assistant", "content": reply})
@@ -405,13 +569,18 @@ def build_arg_parser() -> argparse.ArgumentParser:
         "--difficulty",
         choices=sorted(DIFFICULTIES),
         default="normal",
-        help="Simulator difficulty mapped to openness/metacognition",
+        help="Difficulty used for per-field reveal thresholds",
     )
     parser.add_argument("--model", default="gpt-4o-mini", help="Client model")
     parser.add_argument(
         "--judge-model",
         default="gpt-4o-mini",
-        help="Model used by the openness and exploration critics",
+        help="Deprecated compatibility argument; reveal is now deterministic.",
+    )
+    parser.add_argument(
+        "--embedding-model",
+        default=DEFAULT_EMBEDDING_MODEL,
+        help="Embedding model used for therapist-to-CCD similarity scoring.",
     )
     parser.add_argument("--max-turns", type=int, default=15, help="Maximum therapist turns")
     parser.add_argument(
@@ -426,7 +595,11 @@ def main() -> None:
     args = build_arg_parser().parse_args()
     dataset_path = Path(args.dataset)
     case = load_case(dataset_path, args.case_id)
-    state = SimulatorState(case=case, difficulty=DIFFICULTIES[args.difficulty])
+    state = SimulatorState(
+        case=case,
+        difficulty=DIFFICULTIES[args.difficulty],
+        embedding_model=args.embedding_model,
+    )
     if args.dry_run:
         run_dry_run(state)
         return

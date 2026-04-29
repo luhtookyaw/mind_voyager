@@ -18,16 +18,6 @@ def render_therapist_prompt(case: ClientCase) -> str:
     return f"{prompt}{case_context}"
 
 
-def render_retrieval_therapist_prompt(case: ClientCase, retrieved_context: str) -> str:
-    prompt = load_prompt("retrieval_therapist_prompt.txt").strip()
-    prompt = prompt.replace("{{RETRIEVED_CCD_CONTEXT}}", retrieved_context)
-    case_context = (
-        "\n\nCase context:\n"
-        f"- Client name: {case.name}"
-    )
-    return f"{prompt}{case_context}"
-
-
 def therapist_dialogue_history_text(
     transcript: list[dict[str, str]],
     window_size: int = HISTORY_WINDOW_SIZE,
@@ -76,10 +66,3 @@ def generate_therapist_reply(
         temperature=0.3,
         model=model,
     ).strip()
-
-
-def latest_client_utterance(transcript: list[dict[str, str]]) -> str | None:
-    for item in reversed(transcript):
-        if item["role"] == "user":
-            return item["content"]
-    return None
