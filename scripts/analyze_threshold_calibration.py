@@ -2,6 +2,7 @@ from __future__ import annotations
 
 import argparse
 import json
+import sys
 from collections import defaultdict
 from pathlib import Path
 from statistics import mean, median
@@ -89,10 +90,11 @@ def summarize(events: list[dict[str, Any]]) -> dict[str, dict[str, dict[str, Any
     return summary
 
 
-def print_summary(summary: dict[str, dict[str, dict[str, Any]]]) -> None:
+def format_summary(summary: dict[str, dict[str, dict[str, Any]]]) -> str:
+    lines: list[str] = []
     for difficulty in DIFFICULTIES:
-        print(f"\n=== {difficulty.upper()} ===")
-        print(
+        lines.append(f"\n=== {difficulty.upper()} ===")
+        lines.append(
             f"{'Field':<24} {'N':>5} {'Scored':>7} {'Reveals':>8} "
             f"{'Rate':>7} {'Hits':>6} {'Blocked':>8} "
             f"{'Mean':>7} {'P75':>7} {'P90':>7} {'Max':>7}"
@@ -104,23 +106,25 @@ def print_summary(summary: dict[str, dict[str, dict[str, Any]]]) -> None:
             p75_score = "-" if stats["p75_score"] is None else f"{stats['p75_score']:.3f}"
             p90_score = "-" if stats["p90_score"] is None else f"{stats['p90_score']:.3f}"
             max_score = "-" if stats["max_score"] is None else f"{stats['max_score']:.3f}"
-            print(
+            lines.append(
                 f"{field:<24} {stats['events']:>5} {stats['scored_events']:>7} "
                 f"{stats['reveals']:>8} {rate:>7} {stats['threshold_hits']:>6} "
                 f"{stats['blocked_by_prereq']:>8} {mean_score:>7} "
                 f"{p75_score:>7} {p90_score:>7} {max_score:>7}"
             )
+    return "\n".join(lines)
 
 
-def print_examples(
+def format_examples(
     events: list[dict[str, Any]],
     limit: int,
     near_margin: float,
-) -> None:
+) -> str:
     by_field: dict[str, list[dict[str, Any]]] = defaultdict(list)
     for event in events:
         by_field[event["field"]].append(event)
 
+    lines: list[str] = []
     for field in FIELDS:
         scored = [row for row in by_field[field] if row["score"] is not None]
         highest = sorted(scored, key=lambda row: float(row["score"]), reverse=True)[:limit]
@@ -132,27 +136,60 @@ def print_examples(
         ]
         near = sorted(near, key=lambda row: float(row["score"]), reverse=True)[:limit]
 
-        print(f"\n=== FIELD EXAMPLES: {field} ===")
-        print("Top scoring questions:")
+        lines.append(f"\n=== FIELD EXAMPLES: {field} ===")
+        lines.append("Top scoring questions:")
         if not highest:
-            print("- none")
+            lines.append("- none")
         for row in highest:
-            print(
+            lines.append(
                 f"- [{row['difficulty']}] case={row['case_id']} turn={row['turn']} "
                 f"score={float(row['score']):.3f} threshold={float(row['threshold']):.3f} "
                 f"revealed={row['revealed']}"
             )
-            print(f"  Q: {row['therapist_text']}")
+            lines.append(f"  Q: {row['therapist_text']}")
 
-        print("Near-threshold non-reveals:")
+        lines.append("Near-threshold non-reveals:")
         if not near:
-            print("- none")
+            lines.append("- none")
         for row in near:
-            print(
+            lines.append(
                 f"- [{row['difficulty']}] case={row['case_id']} turn={row['turn']} "
                 f"score={float(row['score']):.3f} threshold={float(row['threshold']):.3f}"
             )
-            print(f"  Q: {row['therapist_text']}")
+            lines.append(f"  Q: {row['therapist_text']}")
+    return "\n".join(lines)
+
+
+def build_json_report(
+    events: list[dict[str, Any]],
+    summary: dict[str, dict[str, dict[str, Any]]],
+    limit: int,
+    near_margin: float,
+) -> dict[str, Any]:
+    by_field: dict[str, list[dict[str, Any]]] = defaultdict(list)
+    for event in events:
+        by_field[event["field"]].append(event)
+
+    examples: dict[str, dict[str, list[dict[str, Any]]]] = {}
+    for field in FIELDS:
+        scored = [row for row in by_field[field] if row["score"] is not None]
+        highest = sorted(scored, key=lambda row: float(row["score"]), reverse=True)[:limit]
+        near = [
+            row
+            for row in scored
+            if not row["revealed"]
+            and float(row["threshold"]) - near_margin <= float(row["score"]) < float(row["threshold"])
+        ]
+        near = sorted(near, key=lambda row: float(row["score"]), reverse=True)[:limit]
+        examples[field] = {
+            "top_scoring": highest,
+            "near_threshold_non_reveals": near,
+        }
+
+    return {
+        "summary": summary,
+        "examples": examples,
+    }
 
 
 def build_arg_parser() -> argparse.ArgumentParser:
@@ -176,6 +213,14 @@ def build_arg_parser() -> argparse.ArgumentParser:
         default=0.05,
         help="Score margin below threshold to treat as a near-threshold non-reveal.",
     )
+    parser.add_argument(
+        "--output",
+        help="Optional path to save the text report.",
+    )
+    parser.add_argument(
+        "--json-output",
+        help="Optional path to save the structured JSON report.",
+    )
     return parser
 
 
@@ -187,8 +232,29 @@ def main() -> None:
         raise SystemExit(f"No turn_similarity_events found under {root}")
 
     summary = summarize(events)
-    print_summary(summary)
-    print_examples(events, limit=args.examples_limit, near_margin=args.near_margin)
+    text_report = "\n".join(
+        [
+            format_summary(summary),
+            format_examples(events, limit=args.examples_limit, near_margin=args.near_margin),
+        ]
+    )
+    print(text_report)
+
+    if args.output:
+        output_path = Path(args.output)
+        output_path.parent.mkdir(parents=True, exist_ok=True)
+        output_path.write_text(text_report)
+
+    if args.json_output:
+        json_output_path = Path(args.json_output)
+        json_output_path.parent.mkdir(parents=True, exist_ok=True)
+        json_report = build_json_report(
+            events,
+            summary,
+            limit=args.examples_limit,
+            near_margin=args.near_margin,
+        )
+        json_output_path.write_text(json.dumps(json_report, indent=2))
 
 
 if __name__ == "__main__":

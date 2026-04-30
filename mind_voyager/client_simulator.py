@@ -17,6 +17,7 @@ DEFAULT_DATASET = ROOT / "data" / "Patient_Psi_CM_Dataset.json"
 DEFAULT_TRANSCRIPT_DIR = ROOT / "transcripts"
 HISTORY_WINDOW_SIZE = 12
 DEFAULT_EMBEDDING_MODEL = "text-embedding-3-small"
+DEFAULT_ONE_SHOT_MARGIN = 0.08
 
 ALL_FIELDS = (
     "situation",
@@ -80,9 +81,6 @@ FIELD_THRESHOLDS: dict[str, dict[str, float]] = {
         "coping_strategies": 0.56,
     },
 }
-
-HARD_MARGIN = 0.08
-
 
 @dataclass(frozen=True)
 class DifficultyConfig:
@@ -180,6 +178,10 @@ class SimulatorState:
     case: ClientCase
     difficulty: DifficultyConfig
     embedding_model: str = DEFAULT_EMBEDDING_MODEL
+    use_prerequisites: bool = False
+    enable_one_shot: bool = False
+    enable_two_hit: bool = False
+    one_shot_margin: float = DEFAULT_ONE_SHOT_MARGIN
     therapist_turns: int = 0
     dialogue: list[dict[str, str]] = field(default_factory=list)
     events: list[str] = field(default_factory=list)
@@ -224,6 +226,9 @@ class SimulatorState:
             f"Observed style tendencies: {traits}\n"
             f"Difficulty: {self.difficulty.name}\n"
             f"Embedding model: {self.embedding_model}\n"
+            f"Use prerequisites: {self.use_prerequisites}\n"
+            f"Reveal options: one_shot={self.enable_one_shot}, "
+            f"two_hit={self.enable_two_hit}, margin={self.one_shot_margin:.2f}\n"
             "Initial visibility: name, traits, broad presenting concern only"
         )
 
@@ -327,6 +332,8 @@ def ensure_api_key() -> None:
 
 
 def _prerequisites_met(state: SimulatorState, field_name: str) -> bool:
+    if not state.use_prerequisites:
+        return True
     prerequisites = FIELD_PREREQUISITES[field_name]
     if not prerequisites:
         return True
@@ -388,8 +395,14 @@ def _maybe_reveal_field(
     previous_best = state.best_similarity_by_field[field_name]
     state.best_similarity_by_field[field_name] = max(previous_best, score)
 
-    hard_threshold = threshold + HARD_MARGIN
-    should_reveal = score >= hard_threshold or (previous_best >= threshold and score >= threshold)
+    if state.enable_one_shot or state.enable_two_hit:
+        should_reveal = False
+        if state.enable_one_shot and score >= threshold + state.one_shot_margin:
+            should_reveal = True
+        if state.enable_two_hit and previous_best >= threshold and score >= threshold:
+            should_reveal = True
+    else:
+        should_reveal = score >= threshold
     if not should_reveal:
         return {
             "turn": state.therapist_turns,
@@ -399,6 +412,9 @@ def _maybe_reveal_field(
             "revealed": False,
             "already_revealed": False,
             "prerequisites_met": True,
+            "enable_one_shot": state.enable_one_shot,
+            "enable_two_hit": state.enable_two_hit,
+            "one_shot_margin": state.one_shot_margin,
             "query_text": query_text,
         }
 
@@ -411,6 +427,9 @@ def _maybe_reveal_field(
         "revealed": True,
         "already_revealed": False,
         "prerequisites_met": True,
+        "enable_one_shot": state.enable_one_shot,
+        "enable_two_hit": state.enable_two_hit,
+        "one_shot_margin": state.one_shot_margin,
         "query_text": query_text,
     }
     state.reveal_events.append(event)
@@ -487,6 +506,10 @@ def save_transcript(
         "difficulty": state.difficulty.name,
         "model": model,
         "embedding_model": state.embedding_model,
+        "use_prerequisites": state.use_prerequisites,
+        "enable_one_shot": state.enable_one_shot,
+        "enable_two_hit": state.enable_two_hit,
+        "one_shot_margin": state.one_shot_margin,
         "max_turns": max_turns,
         "therapist_turns": state.therapist_turns,
         "revealed_fields": state.revealed_fields,
@@ -585,6 +608,27 @@ def build_arg_parser() -> argparse.ArgumentParser:
         default=DEFAULT_EMBEDDING_MODEL,
         help="Embedding model used for therapist-to-CCD similarity scoring.",
     )
+    parser.add_argument(
+        "--use-prerequisites",
+        action="store_true",
+        help="Enable prerequisite gating before a field is eligible for scoring.",
+    )
+    parser.add_argument(
+        "--enable-one-shot",
+        action="store_true",
+        help="Require a single score to exceed threshold plus margin for one-shot reveal logic.",
+    )
+    parser.add_argument(
+        "--enable-two-hit",
+        action="store_true",
+        help="Require two threshold hits across turns for two-hit reveal logic.",
+    )
+    parser.add_argument(
+        "--one-shot-margin",
+        type=float,
+        default=DEFAULT_ONE_SHOT_MARGIN,
+        help="Extra margin above threshold required for one-shot reveal when enabled.",
+    )
     parser.add_argument("--max-turns", type=int, default=15, help="Maximum therapist turns")
     parser.add_argument(
         "--transcript-path",
@@ -602,6 +646,10 @@ def main() -> None:
         case=case,
         difficulty=DIFFICULTIES[args.difficulty],
         embedding_model=args.embedding_model,
+        use_prerequisites=args.use_prerequisites,
+        enable_one_shot=args.enable_one_shot,
+        enable_two_hit=args.enable_two_hit,
+        one_shot_margin=args.one_shot_margin,
     )
     if args.dry_run:
         run_dry_run(state)

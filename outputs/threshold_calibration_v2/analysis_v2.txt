@@ -1,0 +1,210 @@
+
+=== EASY ===
+Field                        N  Scored  Reveals    Rate   Hits  Blocked    Mean     P75     P90     Max
+situation                  250     146        6    0.02      6        0   0.192   0.232   0.276   0.409
+automatic_thought          250      67        2    0.01      2      140   0.232   0.260   0.294   0.406
+emotion                    250      46        9    0.04      9        0   0.198   0.205   0.320   0.430
+behavior                   250      64        8    0.03      8       31   0.210   0.258   0.321   0.444
+relevant_history           250      87        9    0.04      9        0   0.312   0.352   0.394   0.516
+core_beliefs               250      22        0    0.00      0      228   0.209   0.285   0.311   0.327
+intermediate_beliefs       250      23        1    0.00      1      205   0.309   0.334   0.410   0.473
+coping_strategies          250      54        9    0.04      9       31   0.314   0.340   0.400   0.454
+
+=== NORMAL ===
+Field                        N  Scored  Reveals    Rate   Hits  Blocked    Mean     P75     P90     Max
+situation                  250     182        3    0.01      3        0   0.207   0.261   0.304   0.409
+automatic_thought          250      51        1    0.00      1      179   0.258   0.296   0.352   0.463
+emotion                    250     137        6    0.02      6        0   0.219   0.270   0.320   0.398
+behavior                   250      94        3    0.01      3      105   0.249   0.310   0.352   0.417
+relevant_history           250     188        3    0.01      3        0   0.324   0.380   0.425   0.530
+core_beliefs               250       0        0    0.00      0      250       -       -       -       -
+intermediate_beliefs       250      21        0    0.00      0      229   0.399   0.431   0.437   0.445
+coping_strategies          250      96        1    0.00      1      131   0.366   0.399   0.423   0.485
+
+=== HARD ===
+Field                        N  Scored  Reveals    Rate   Hits  Blocked    Mean     P75     P90     Max
+situation                  250     250        0    0.00      0        0   0.232   0.280   0.356   0.449
+automatic_thought          250       0        0    0.00      0      250       -       -       -       -
+emotion                    250     235        1    0.00      1        0   0.246   0.299   0.337   0.476
+behavior                   250      16        0    0.00      0      234   0.298   0.310   0.342   0.359
+relevant_history           250     230        1    0.00      1        0   0.319   0.359   0.418   0.602
+core_beliefs               250       0        0    0.00      0      250       -       -       -       -
+intermediate_beliefs       250       0        0    0.00      0      250       -       -       -       -
+coping_strategies          250      16        0    0.00      0      234   0.328   0.353   0.365   0.367
+
+=== FIELD EXAMPLES: situation ===
+Top scoring questions:
+- [hard] case=8-1 turn=23 score=0.449 threshold=0.480 revealed=False
+  Q: It sounds like you’re really tuning into that fear and recognizing its protective intentions, even while acknowledging how it can hold you back. Finding that balance between listening to your fear and not letting it control you is a delicate process. When you think about the progress you’ve made so far, what are some specific moments or experiences that stand out to you as evidence of your strength and resilience?
+- [hard] case=8-1 turn=19 score=0.445 threshold=0.480 revealed=False
+  Q: It sounds like you’re identifying some really compassionate steps to help navigate those fears, like giving yourself permission to feel scared and celebrating your progress, no matter how small. Keeping a journal to track those moments could be a helpful way to reinforce your journey. It’s completely understandable to worry about falling back into old patterns, especially when you’re trying to create change. When you think about those moments when things get tough, what do you think might help you stay connected to that self-compassion and keep that momentum going?
+- [hard] case=2-1 turn=10 score=0.425 threshold=0.480 revealed=False
+  Q: Therapist: It sounds like your fears center around the possibility of not being accepted for who you truly are and the potential for conflict if you step outside the expected roles. The idea of being seen as rude or ungrateful is really heavy, especially when you’re trying to navigate family dynamics that can escalate quickly. It’s understandable to feel hesitant when you’re caught between wanting to be authentic and wanting to maintain peace. When you think about those fears, how do they influence your decisions or actions when you’re with your family?
+- [hard] case=8-1 turn=16 score=0.418 threshold=0.480 revealed=False
+  Q: It sounds like you're thinking through some thoughtful strategies to ease into those conversations, like starting with something light and practicing what you want to say. It’s completely natural to have concerns about how someone might respond, especially when you’re being vulnerable. That tension between wanting to connect and fearing disappointment can be really challenging. When you imagine yourself in that moment of sharing, what do you think might help you stay grounded and remind yourself of your intentions, even if the response isn’t what you hope for?
+- [hard] case=8-1 turn=18 score=0.411 threshold=0.480 revealed=False
+  Q: It sounds like you have a good understanding of that voice and its protective intentions, even if it feels heavy and exhausting at times. Acknowledging that it’s trying to keep you safe is an important step. The idea of reminding yourself that taking risks doesn’t define your worth is powerful, even if believing it fully is a challenge. When you think about breaking free from that loop of fear, what small, compassionate steps do you think you could take to gradually quiet that voice and create space for more self-acceptance?
+Near-threshold non-reveals:
+- [hard] case=8-1 turn=23 score=0.449 threshold=0.480
+  Q: It sounds like you’re really tuning into that fear and recognizing its protective intentions, even while acknowledging how it can hold you back. Finding that balance between listening to your fear and not letting it control you is a delicate process. When you think about the progress you’ve made so far, what are some specific moments or experiences that stand out to you as evidence of your strength and resilience?
+- [hard] case=8-1 turn=19 score=0.445 threshold=0.480
+  Q: It sounds like you’re identifying some really compassionate steps to help navigate those fears, like giving yourself permission to feel scared and celebrating your progress, no matter how small. Keeping a journal to track those moments could be a helpful way to reinforce your journey. It’s completely understandable to worry about falling back into old patterns, especially when you’re trying to create change. When you think about those moments when things get tough, what do you think might help you stay connected to that self-compassion and keep that momentum going?
+- [normal] case=8-1 turn=2 score=0.367 threshold=0.380
+  Q: Therapist: It sounds like you’re feeling quite overwhelmed by your relationships and the fear of rejection. That sense of being stuck and having a wall between you and others must be really frustrating. Can you tell me more about what that wall feels like for you?
+- [normal] case=6-1 turn=16 score=0.365 threshold=0.380
+  Q: Therapist: It sounds like having support from a friend could provide you with a sense of grounding and encouragement as you navigate this process. Yet, there's that persistent worry about burdening others, which makes reaching out feel complicated. It’s understandable to feel that push and pull. When you think about the possibility of sharing your experiences with someone, what do you think might help you feel more comfortable in reaching out for that support?
+- [normal] case=6-1 turn=17 score=0.344 threshold=0.380
+  Q: Therapist: It sounds like you’re finding some clarity in how to approach reaching out for support by framing it as a smaller, more manageable interaction. Choosing someone supportive feels like a key part of that process. Yet, the nagging feeling that you shouldn’t need to lean on anyone continues to hold you back, creating that cycle of wanting to reach out but feeling stuck. When you reflect on that desire to be strong and independent, what do you think it says about your beliefs around support and vulnerability?
+
+=== FIELD EXAMPLES: automatic_thought ===
+Top scoring questions:
+- [normal] case=8-1 turn=5 score=0.463 threshold=0.440 revealed=True
+  Q: Therapist: It sounds like that cycle of fear and overthinking really takes a toll on you, making it hard to be open and connect with others. The way those past experiences resurface in your current interactions must feel really overwhelming. When you think about that push and pull, what emotions come up for you in those moments?
+- [easy] case=8-1 turn=2 score=0.406 threshold=0.360 revealed=True
+  Q: Therapist: It sounds like you’re feeling a lot of tension around your relationships, almost like there’s a constant fear of rejection that leaves you feeling exhausted and isolated. You mentioned trying to connect with people but ending up feeling more alone, which must be really frustrating. Can you tell me more about what you think happens when you try to reach out to others?
+- [normal] case=3-1 turn=4 score=0.380 threshold=0.440 revealed=False
+  Q: Therapist: It sounds like you’re really grappling with feelings of inadequacy and that inner voice questioning your abilities. That constant battle with yourself can be exhausting. When you describe your work as feeling incomplete, what do you think that says about your expectations for yourself or your project?
+- [normal] case=3-1 turn=2 score=0.380 threshold=0.440 revealed=False
+  Q: Therapist: It sounds like you're carrying a heavy burden with all the pressure at work, and that feeling of discouragement can be really tough to navigate. You mentioned trying to keep up but feeling overwhelmed—can you share more about what specific aspects of your work are contributing to that pressure?
+- [easy] case=3-1 turn=5 score=0.377 threshold=0.360 revealed=True
+  Q: It sounds like the anxiety around your work is really impacting your ability to engage with it, leading to a cycle of procrastination and avoidance. You mentioned feeling a sense of dread when you think about diving into your project, which makes it hard to be productive. I can see how that creates a lot of internal conflict for you—wanting to work but also feeling scared of failing. How do you feel when you find yourself turning to painting or meditation as a way to escape that pressure?
+Near-threshold non-reveals:
+- [easy] case=3-1 turn=3 score=0.353 threshold=0.360
+  Q: It sounds like your PhD project is a major source of stress for you, and that the expectations—both from your advisors and yourself—are creating a cycle of anxiety and feeling stuck. I can hear how frustrating it must be to feel like you’re running in circles despite your efforts. What do you think is at the root of that pressure to meet those expectations?
+- [easy] case=3-1 turn=2 score=0.347 threshold=0.360
+  Q: Therapist: It sounds like you’re feeling a significant amount of pressure at work, and that it’s really weighing you down. You mentioned feeling discouraged and frustrated, especially when it seems like just when you start to manage things, more challenges arise. Can you tell me a bit more about what specific aspects of work are contributing to this feeling?
+- [easy] case=6-1 turn=22 score=0.337 threshold=0.360
+  Q: Therapist: It sounds like that fear of being a burden is really at the heart of your hesitation to reach out for support. I hear that you value independence and want to handle things on your own, yet you also recognize that everyone struggles and that asking for help is okay. That internal dialogue can create a lot of tension. When you think about those conflicting feelings, how do you feel about the idea of needing support from others, and what might it mean for you to allow yourself to lean on someone during tough times?
+- [easy] case=6-1 turn=23 score=0.325 threshold=0.360
+  Q: Therapist: It sounds like you’re really grappling with the idea of needing support and how it intersects with your sense of self-sufficiency. I hear that while leaning on someone could provide comfort, it also challenges that belief about needing to handle everything on your own. It’s understandable to feel uncomfortable with that, especially when it feels like a big step. When you reflect on what it means to you to be strong, how do you think that definition might shift if you allowed yourself to seek support during tough times?
+
+=== FIELD EXAMPLES: emotion ===
+Top scoring questions:
+- [hard] case=10-1 turn=10 score=0.476 threshold=0.460 revealed=True
+  Q: Therapist: It sounds like you're experiencing a real tug-of-war between anxiety and hope when you think about sharing something simple. The physical sensations you describe, like a racing heart and sweaty palms, really highlight how intense that fear can be. It’s understandable to feel frustrated by that heavy weight holding you back, especially when you have that desire to connect. When you imagine the worst-case scenario, what do you think that says about how you view yourself in those moments?
+- [easy] case=5-1 turn=2 score=0.430 threshold=0.280 revealed=True
+  Q: Therapist: It sounds really challenging to feel that tension around your family, especially when you care about them. You mentioned an urge to avoid them—can you tell me more about what happens during those interactions that makes you feel on edge?
+- [hard] case=5-1 turn=12 score=0.428 threshold=0.460 revealed=False
+  Q: Therapist: It sounds like that tightness in your chest really amplifies your worries about how your family might react, making it feel heavy and overwhelming. The fear of causing discomfort or tension seems to create a loop of hesitation for you. It’s understandable to want to avoid those awkward moments, especially when you’re seeking connection. When you think about those scenarios where you imagine their reactions, what do you think that reveals about your beliefs or expectations regarding your family's understanding of you?
+- [hard] case=5-1 turn=20 score=0.421 threshold=0.460 revealed=False
+  Q: Therapist: It sounds like you have some helpful strategies in mind for grounding yourself, like taking a moment to breathe and reminding yourself that anxiety is a normal part of the process. Thinking about the positive outcomes and having support from a friend could also provide a sense of reassurance. Yet, I hear that the worry about things not going as hoped still lingers, adding to the complexity of the situation. When you consider those strategies, what do you think might help you stay focused on the potential for connection rather than getting caught up in that nagging worry?
+- [hard] case=4-1 turn=16 score=0.402 threshold=0.460 revealed=False
+  Q: Therapist: It sounds like you're envisioning a more confident approach to situations, where you can face outcomes without that looming fear, which is a hopeful thought. Yet, the fear of not being able to handle things if they don’t go as planned still feels very present for you. It’s understandable to feel stuck between wanting to take those small risks and the weight of expectation that comes with it. When you think about those little risks you mentioned, what might be one small step you could take that feels manageable, even if it feels a bit scary?
+Near-threshold non-reveals:
+- [hard] case=5-1 turn=12 score=0.428 threshold=0.460
+  Q: Therapist: It sounds like that tightness in your chest really amplifies your worries about how your family might react, making it feel heavy and overwhelming. The fear of causing discomfort or tension seems to create a loop of hesitation for you. It’s understandable to want to avoid those awkward moments, especially when you’re seeking connection. When you think about those scenarios where you imagine their reactions, what do you think that reveals about your beliefs or expectations regarding your family's understanding of you?
+- [hard] case=5-1 turn=20 score=0.421 threshold=0.460
+  Q: Therapist: It sounds like you have some helpful strategies in mind for grounding yourself, like taking a moment to breathe and reminding yourself that anxiety is a normal part of the process. Thinking about the positive outcomes and having support from a friend could also provide a sense of reassurance. Yet, I hear that the worry about things not going as hoped still lingers, adding to the complexity of the situation. When you consider those strategies, what do you think might help you stay focused on the potential for connection rather than getting caught up in that nagging worry?
+- [normal] case=10-1 turn=3 score=0.349 threshold=0.360
+  Q: Therapist: It sounds like that weight of fear really impacts how you engage with others, making you feel isolated instead of connected. The overthinking and worry about judgment seem to create a lot of inner noise for you. When you mention wanting to relax and be yourself, what do you think stands in the way of that?
+- [normal] case=10-1 turn=7 score=0.348 threshold=0.360
+  Q: Therapist: It sounds like you’re feeling a bit stuck between wanting to express your feelings and worrying about how that might come across. The idea of talking it out seems like it could be a helpful step for you, but the fear of judgment is holding you back. What do you think it would feel like to share those feelings in a safe space, like here?
+- [normal] case=5-1 turn=3 score=0.340 threshold=0.360
+  Q: Therapist: It sounds really challenging to navigate those family dynamics, feeling that pressure to maintain a certain image while also experiencing discomfort inside. That knot in your stomach seems to signal a lot of tension. When you think about wanting to express your feelings, what do you think holds you back from doing that?
+
+=== FIELD EXAMPLES: behavior ===
+Top scoring questions:
+- [easy] case=6-1 turn=20 score=0.444 threshold=0.300 revealed=True
+  Q: Therapist: It sounds like you’re considering some meaningful ways to stay motivated, like writing down your reasons for wanting to challenge that critical voice and possibly sharing your goals with someone you trust. I hear that there’s a concern about burdening others or feeling like you might be asking for too much support. That balance between seeking help and maintaining independence can be tricky. When you think about sharing your goals with someone, what kind of support do you feel would be most helpful for you, and how might you communicate that to them?
+- [easy] case=3-1 turn=5 score=0.441 threshold=0.300 revealed=True
+  Q: It sounds like the anxiety around your work is really impacting your ability to engage with it, leading to a cycle of procrastination and avoidance. You mentioned feeling a sense of dread when you think about diving into your project, which makes it hard to be productive. I can see how that creates a lot of internal conflict for you—wanting to work but also feeling scared of failing. How do you feel when you find yourself turning to painting or meditation as a way to escape that pressure?
+- [normal] case=8-1 turn=5 score=0.417 threshold=0.380 revealed=True
+  Q: Therapist: It sounds like that cycle of fear and overthinking really takes a toll on you, making it hard to be open and connect with others. The way those past experiences resurface in your current interactions must feel really overwhelming. When you think about that push and pull, what emotions come up for you in those moments?
+- [normal] case=10-1 turn=16 score=0.402 threshold=0.380 revealed=True
+  Q: Therapist: It sounds like that pressure to do everything perfectly really holds you back from even starting those supportive practices. You want to improve and find ways to help yourself, but the expectation of immediate results creates a fear of failure that feels overwhelming. That must be really frustrating. When you think about that desire to try versus the fear of not doing it well enough, what do you notice about how that conflict affects your feelings or your choices?
+- [easy] case=4-1 turn=3 score=0.396 threshold=0.300 revealed=True
+  Q: Therapist: It sounds like there’s a lot of inner conflict when you think about reaching out—wanting connection but feeling worried about being a burden or not being received well. That must feel really heavy, especially when you’re already dealing with so much. When you think about that urge to connect, what emotions come up for you in those moments?
+Near-threshold non-reveals:
+- [normal] case=3-1 turn=14 score=0.376 threshold=0.380
+  Q: Therapist: It sounds like that voice really shapes your choices, leading you to prioritize productivity over what you genuinely want to explore or engage with. The rigidity it creates seems to limit your ability to be flexible and responsive to your own needs, which can feel quite frustrating. When you reflect on those moments where you choose the more productive path, what do you think you might be sacrificing in the process?
+- [normal] case=3-1 turn=12 score=0.375 threshold=0.380
+  Q: Therapist: It sounds like you have a thoughtful idea about setting aside time to explore your research in a more playful way, but the pressure of deadlines and expectations makes it difficult to fully embrace that. The tug-of-war between wanting to enjoy the process and feeling guilty for not being productive is really challenging. When you think about that voice in your head reminding you of what you should be doing, how does it make you feel, and what do you think it’s trying to communicate to you?
+- [normal] case=10-1 turn=14 score=0.373 threshold=0.380
+  Q: Therapist: It sounds like you’re recognizing the importance of confronting that nagging voice and reflecting on moments of acceptance, but there's also a lot of uncertainty about whether those moments will be enough to counter the negativity. It’s understandable to feel overwhelmed by the idea of breaking that ingrained cycle. When you think about needing support or practicing self-kindness, what kind of support do you imagine would be helpful for you in this process?
+- [normal] case=3-1 turn=15 score=0.365 threshold=0.380
+  Q: Therapist: It sounds like you're really aware of the trade-offs you're making when you prioritize productivity over exploration. Sacrificing curiosity and creativity for the comfort of sticking to what feels safe can feel quite limiting, especially when you recognize that engaging more genuinely with your research could lead to meaningful insights. When you think about those moments of inspiration that you’re missing out on, what do you think it would feel like to allow yourself to explore those ideas without the pressure of needing to produce something?
+- [normal] case=9-1 turn=11 score=0.359 threshold=0.380
+  Q: Therapist: It sounds like that fear brings a lot of physical sensations and racing thoughts, creating a heavy, suffocating feeling in your chest. It’s understandable to feel vulnerable and worry about being judged or rejected when you’re considering reaching out. That whirlwind of anxiety can be really powerful and make it hard to trust yourself in those moments. When you reflect on those feelings of being small or unworthy, what do you think they might be rooted in? Have you experienced similar feelings in the past that could be influencing how you feel now?
+
+=== FIELD EXAMPLES: relevant_history ===
+Top scoring questions:
+- [hard] case=2-1 turn=5 score=0.602 threshold=0.600 revealed=True
+  Q: Therapist: It sounds like there’s a lot of pressure to conform to expectations, which leads to that feeling of not being yourself and ultimately feeling drained and resentful. It must be really frustrating to want to connect with your family while feeling like you’re battling against an invisible wall. When you think about that pressure to fit into a mold, where do you think that expectation comes from?
+- [hard] case=2-1 turn=4 score=0.580 threshold=0.600 revealed=False
+  Q: Therapist: It sounds really overwhelming to feel that knot in your stomach and to have your mind racing with thoughts about how to engage. That sense of being on the outside looking in, combined with the feeling of being stuck in a bubble of tension, must be really exhausting for you. When you say you feel drained, what do you think contributes to that feeling during these family gatherings?
+- [hard] case=2-1 turn=3 score=0.573 threshold=0.600 revealed=False
+  Q: Therapist: It sounds like there’s a lot of pressure to maintain a cheerful facade during family gatherings, which makes you feel uncomfortable and disconnected. You mentioned feeling like you have to put on a mask, and that frustration of wanting to enjoy the time with your family but feeling unable to do so. Can you tell me more about what that discomfort feels like for you in those moments?
+- [normal] case=3-1 turn=3 score=0.530 threshold=0.500 revealed=True
+  Q: Therapist: It sounds like your PhD project is a significant source of stress for you, especially feeling stuck and comparing your progress to others. That can be really disheartening. When you think about feeling like you’re not doing enough, what thoughts or feelings come up for you?
+- [normal] case=2-1 turn=2 score=0.526 threshold=0.500 revealed=True
+  Q: Therapist: It sounds really challenging to feel that tension and conflict when it comes to your family. You want to connect with them, but at the same time, you feel this urge to avoid those situations. That knot in your stomach must be quite uncomfortable. Can you tell me more about what happens for you in those moments when you’re around them?
+Near-threshold non-reveals:
+- [hard] case=2-1 turn=4 score=0.580 threshold=0.600
+  Q: Therapist: It sounds really overwhelming to feel that knot in your stomach and to have your mind racing with thoughts about how to engage. That sense of being on the outside looking in, combined with the feeling of being stuck in a bubble of tension, must be really exhausting for you. When you say you feel drained, what do you think contributes to that feeling during these family gatherings?
+- [hard] case=2-1 turn=3 score=0.573 threshold=0.600
+  Q: Therapist: It sounds like there’s a lot of pressure to maintain a cheerful facade during family gatherings, which makes you feel uncomfortable and disconnected. You mentioned feeling like you have to put on a mask, and that frustration of wanting to enjoy the time with your family but feeling unable to do so. Can you tell me more about what that discomfort feels like for you in those moments?
+- [normal] case=7-1 turn=5 score=0.490 threshold=0.500
+  Q: Therapist: It sounds like those past experiences of sudden arguments have really shaped how you approach family gatherings now, creating a sense of anticipation for conflict that adds to your tension. It’s understandable to feel caught in that tug-of-war between wanting to be present and wanting to protect yourself from potential chaos. Can you share more about how those past blow-ups have influenced your feelings or behaviors in the present?
+- [normal] case=1-1 turn=25 score=0.471 threshold=0.500
+  Q: Therapist: It sounds like that weight is tied to the expectations and pressures you place on yourself, particularly in relation to your family. The fear of disappointing them or not feeling good enough adds to that tension and makes it challenging to be present and engaged. It’s understandable to feel caught in that battle between wanting to connect and feeling like you’re not measuring up. As you think about those expectations, what do you believe they say about how you see yourself or what you feel you need to achieve?
+- [normal] case=7-1 turn=4 score=0.468 threshold=0.500
+  Q: Therapist: It sounds like you’re carrying a lot of emotional weight in those family situations, constantly trying to gauge the atmosphere and manage the unspoken tension. That must be really draining. You mentioned wanting to connect with them, yet feeling held back by this pressure. Can you think of any specific experiences or patterns from the past that might contribute to this feeling of needing to tread carefully around your family?
+
+=== FIELD EXAMPLES: core_beliefs ===
+Top scoring questions:
+- [easy] case=8-1 turn=5 score=0.327 threshold=0.440 revealed=False
+  Q: Therapist: It sounds like the thought of being vulnerable brings up a lot of anxiety for you, almost like a wave that makes it hard to move forward. You mentioned feeling stuck in a loop of wanting to be open but being held back by past hurts. That must be really tough to experience. Can you tell me more about those past experiences that come to mind when you think about getting hurt? What do you remember feeling during those times?
+- [easy] case=8-1 turn=8 score=0.324 threshold=0.440 revealed=False
+  Q: Therapist: It sounds like you're feeling a lot of uncertainty about how to take that leap toward vulnerability, and the idea of needing to trust yourself first resonates deeply. The fear of potential disaster seems to hold a strong grip on you, making it hard to envision a way forward. I can see how that creates a sense of being trapped in a cycle of wanting safety while also craving connection. When you think about finding that reassurance you mentioned, what does that look like for you? What would it take for you to feel more secure in being vulnerable?
+- [easy] case=8-1 turn=4 score=0.312 threshold=0.440 revealed=False
+  Q: Therapist: It sounds like you’re really longing for a sense of ease and trust in your interactions, where you can be present without that fear of judgment or rejection. That push and pull you described—wanting to connect but feeling scared—must be really challenging to navigate. Can you share more about what it feels like when you think about letting your guard down? What comes up for you in those moments?
+- [easy] case=8-1 turn=6 score=0.303 threshold=0.440 revealed=False
+  Q: Therapist: It sounds like those past experiences of betrayal and disappointment have left a deep impact on you, creating a sense of confusion and hurt that makes it hard to trust again. I can see how replaying those moments would contribute to your hesitance in opening up to others, even though you crave connection. It must feel really frustrating to be caught in that battle between wanting to connect and fearing the pain of being hurt again. When you think about those feelings of disappointment and hurt, what do you notice about how they affect your current relationships or interactions?
+- [easy] case=8-1 turn=9 score=0.299 threshold=0.440 revealed=False
+  Q: Therapist: It sounds like you're looking for tangible experiences that can reassure you that vulnerability can lead to positive outcomes, rather than pain. I can understand how waiting for that sign or proof can feel frustrating and uncertain. It seems like there's a part of you that deeply desires to believe in the possibility of safety in openness, but the fear of potential backfire keeps you on edge. When you think about those moments where vulnerability could lead to connection, what small steps do you think you might be able to take to start testing that out, even if just a little?
+Near-threshold non-reveals:
+- none
+
+=== FIELD EXAMPLES: intermediate_beliefs ===
+Top scoring questions:
+- [easy] case=8-1 turn=3 score=0.473 threshold=0.420 revealed=True
+  Q: Therapist: It sounds like reaching out to others feels really vulnerable for you, and that overthinking takes away from the enjoyment of those moments. You mentioned a cycle of second-guessing and spiraling into negative thoughts about yourself. I can imagine that must feel quite heavy. When you think about those moments of connection, what do you wish could be different for you?
+- [normal] case=8-1 turn=8 score=0.445 threshold=0.520 revealed=False
+  Q: Therapist: That makes a lot of sense, Ramona. It sounds like the fear of vulnerability is a significant barrier for you, especially when it comes to deepening connections with others, like with Ivan. It must be really challenging to feel that push and pull between wanting to move forward and the fear that holds you back. Can you share more about what vulnerability means to you and why it feels so daunting?
+- [normal] case=8-1 turn=10 score=0.442 threshold=0.520 revealed=False
+  Q: Therapist: That makes a lot of sense, Ramona. It sounds like that inner voice filled with doubt really amplifies your fears and makes it difficult to imagine the potential positives of being vulnerable. The heaviness you feel in your chest seems to reflect the weight of those thoughts and fears. I appreciate you sharing this internal struggle with me. When you think about that voice telling you that you’re not worth the risk, where do you think that belief comes from?
+- [normal] case=8-1 turn=13 score=0.437 threshold=0.520 revealed=False
+  Q: Therapist: That makes a lot of sense, Ramona. It sounds like that wall serves a dual purpose for you—protecting you from past hurts while also keeping you from the closeness and love you desire. It must be really tough to feel that tension between safety and connection. When you think about the possibility of breaking down that wall, what emotions come up for you?
+- [normal] case=8-1 turn=14 score=0.433 threshold=0.520 revealed=False
+  Q: Therapist: That makes a lot of sense, Ramona. It sounds like you’re experiencing a real tug-of-war between hope and fear, which can be so exhausting. The tightness in your chest and racing heart seem to reflect just how intense those emotions are for you. When you imagine taking that leap, what do you think would help you feel more secure or supported in that moment?
+Near-threshold non-reveals:
+- [easy] case=3-1 turn=5 score=0.420 threshold=0.420
+  Q: It sounds like the anxiety around your work is really impacting your ability to engage with it, leading to a cycle of procrastination and avoidance. You mentioned feeling a sense of dread when you think about diving into your project, which makes it hard to be productive. I can see how that creates a lot of internal conflict for you—wanting to work but also feeling scared of failing. How do you feel when you find yourself turning to painting or meditation as a way to escape that pressure?
+- [easy] case=3-1 turn=6 score=0.418 threshold=0.420
+  Q: It sounds like painting and meditating provide you with a much-needed sense of relief and a way to express yourself, which is really valuable. Yet, I can hear how that guilt about not working on your project complicates things for you. It’s like you’re trying to take care of yourself, but the pressure to perform is always lurking in the background. How do you think you might balance those moments of self-care with the demands of your project?
+- [easy] case=8-1 turn=2 score=0.381 threshold=0.420
+  Q: Therapist: It sounds like you’re feeling a lot of tension around your relationships, almost like there’s a constant fear of rejection that leaves you feeling exhausted and isolated. You mentioned trying to connect with people but ending up feeling more alone, which must be really frustrating. Can you tell me more about what you think happens when you try to reach out to others?
+
+=== FIELD EXAMPLES: coping_strategies ===
+Top scoring questions:
+- [normal] case=2-1 turn=2 score=0.485 threshold=0.460 revealed=True
+  Q: Therapist: It sounds really challenging to feel that tension and conflict when it comes to your family. You want to connect with them, but at the same time, you feel this urge to avoid those situations. That knot in your stomach must be quite uncomfortable. Can you tell me more about what happens for you in those moments when you’re around them?
+- [easy] case=2-1 turn=2 score=0.454 threshold=0.360 revealed=True
+  Q: It sounds like you're experiencing a lot of tension and heaviness during family interactions, which is really tough. You mentioned feeling a knot in your stomach and a sense of confusion about wanting to connect but also feeling like you might be avoiding them. Can you tell me more about what specifically feels heavy or tense when you're around your family?
+- [normal] case=5-1 turn=20 score=0.443 threshold=0.460 revealed=False
+  Q: Therapist: It sounds like reflecting on past positive experiences could be a meaningful way to nurture that sense of hope and create a buffer against the anxiety. Keeping a journal of those moments might serve as a helpful reminder of times when things went better than expected, even if it feels challenging to access those memories in the moment. I hear that you’re looking for ways to build that “fortress of positivity,” which is a lovely metaphor. When you think about starting that journal, what would feel like a manageable first step for you?
+- [normal] case=5-1 turn=19 score=0.440 threshold=0.460 revealed=False
+  Q: Therapist: It sounds like there’s a delicate balance between holding onto that glimmer of hope for a positive response and being pulled back into the cycle of negative thoughts. It’s understandable to feel that tug-of-war, especially when the fears feel so strong. Finding a way to nurture that hope while managing the anxiety could be really valuable. When you think about ways to strengthen that sense of hope, what might help you hold onto it more firmly, even in the face of those fears?
+- [normal] case=10-1 turn=15 score=0.440 threshold=0.460 revealed=False
+  Q: Therapist: It sounds like having someone to talk to, whether a friend or a therapist, feels really important to you in sorting through these feelings and gaining a different perspective. That sense of connection could help alleviate some of the loneliness you’re experiencing. You also mentioned the idea of journaling or using exercises to practice self-kindness, but there’s a worry about sticking with it and the pressure to get it right. Can you share more about what makes you feel that pressure, and how it impacts your motivation to try those supportive practices?
+Near-threshold non-reveals:
+- [normal] case=5-1 turn=20 score=0.443 threshold=0.460
+  Q: Therapist: It sounds like reflecting on past positive experiences could be a meaningful way to nurture that sense of hope and create a buffer against the anxiety. Keeping a journal of those moments might serve as a helpful reminder of times when things went better than expected, even if it feels challenging to access those memories in the moment. I hear that you’re looking for ways to build that “fortress of positivity,” which is a lovely metaphor. When you think about starting that journal, what would feel like a manageable first step for you?
+- [normal] case=5-1 turn=19 score=0.440 threshold=0.460
+  Q: Therapist: It sounds like there’s a delicate balance between holding onto that glimmer of hope for a positive response and being pulled back into the cycle of negative thoughts. It’s understandable to feel that tug-of-war, especially when the fears feel so strong. Finding a way to nurture that hope while managing the anxiety could be really valuable. When you think about ways to strengthen that sense of hope, what might help you hold onto it more firmly, even in the face of those fears?
+- [normal] case=10-1 turn=15 score=0.440 threshold=0.460
+  Q: Therapist: It sounds like having someone to talk to, whether a friend or a therapist, feels really important to you in sorting through these feelings and gaining a different perspective. That sense of connection could help alleviate some of the loneliness you’re experiencing. You also mentioned the idea of journaling or using exercises to practice self-kindness, but there’s a worry about sticking with it and the pressure to get it right. Can you share more about what makes you feel that pressure, and how it impacts your motivation to try those supportive practices?
+- [normal] case=5-1 turn=10 score=0.439 threshold=0.460
+  Q: Therapist: It sounds like reassurance and validation are really important for you to feel more willing to take that step. You’re recognizing that it’s okay to express your feelings, even if it feels scary, and that things don’t have to go perfectly. That cycle of overthinking can be so challenging, especially when you’re trying to break free from it. When you think about what could help you feel more reassured or supported in those moments, what comes to mind?
+- [normal] case=1-1 turn=22 score=0.438 threshold=0.460
+  Q: Therapist: It sounds like you’re envisioning a calming space that could serve as a supportive reminder for you to take a moment for yourself and practice those phrases. Creating an inviting environment with comforting elements is a lovely idea. It’s completely understandable to feel uncertain about whether you’ll remember to use that space when you’re feeling tense. As you think about that potential challenge, what do you think might help you establish a connection to that space so it feels more accessible during those overwhelming moments?

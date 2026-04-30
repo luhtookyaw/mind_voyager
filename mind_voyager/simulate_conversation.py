@@ -70,6 +70,10 @@ def run_simulation(
     judge_model: str,
     moderator_model: str,
     embedding_model: str,
+    use_prerequisites: bool,
+    enable_one_shot: bool,
+    enable_two_hit: bool,
+    one_shot_margin: float,
     max_turns: int,
     output: Path | None,
     use_moderator: bool,
@@ -89,13 +93,26 @@ def run_simulation(
     print(f"Therapist model: {therapist_model}")
     print(f"Client model: {client_model}")
     print("Reveal engine: deterministic field-level unlock")
+    print(f"Use prerequisites: {use_prerequisites}")
+    print(
+        f"Reveal options: one_shot={enable_one_shot}, "
+        f"two_hit={enable_two_hit}, margin={one_shot_margin:.2f}"
+    )
     print(f"Moderator: {'enabled' if use_moderator else 'disabled'}")
     if use_moderator:
         print(f"Moderator model: {moderator_model}")
     print()
 
     therapist_transcript: list[dict[str, str]] = []
-    state = SimulatorState(case=case, difficulty=difficulty, embedding_model=embedding_model)
+    state = SimulatorState(
+        case=case,
+        difficulty=difficulty,
+        embedding_model=embedding_model,
+        use_prerequisites=use_prerequisites,
+        enable_one_shot=enable_one_shot,
+        enable_two_hit=enable_two_hit,
+        one_shot_margin=one_shot_margin,
+    )
 
     transcript_records: list[dict[str, str | int]] = []
     moderator_events: list[str] = []
@@ -150,6 +167,10 @@ def run_simulation(
             "client_mode": "masked",
             "difficulty": difficulty.name,
             "embedding_model": state.embedding_model,
+            "use_prerequisites": state.use_prerequisites,
+            "enable_one_shot": state.enable_one_shot,
+            "enable_two_hit": state.enable_two_hit,
+            "one_shot_margin": state.one_shot_margin,
             "therapist_provider": therapist_provider,
             "therapist_model": therapist_model,
             "therapist_prompt_mode": "baseline",
@@ -203,6 +224,27 @@ def build_arg_parser() -> argparse.ArgumentParser:
         help="Embedding model used for therapist-to-CCD similarity scoring",
     )
     parser.add_argument(
+        "--use-prerequisites",
+        action="store_true",
+        help="Enable prerequisite gating before a field is eligible for scoring.",
+    )
+    parser.add_argument(
+        "--enable-one-shot",
+        action="store_true",
+        help="Enable one-shot reveal logic using threshold plus margin.",
+    )
+    parser.add_argument(
+        "--enable-two-hit",
+        action="store_true",
+        help="Enable two-hit reveal logic requiring two threshold hits across turns.",
+    )
+    parser.add_argument(
+        "--one-shot-margin",
+        type=float,
+        default=0.08,
+        help="Extra margin above threshold required for one-shot reveal when enabled.",
+    )
+    parser.add_argument(
         "--no-moderator",
         action="store_true",
         help="Disable moderator-based early stopping",
@@ -224,6 +266,10 @@ def main() -> None:
         judge_model=args.judge_model,
         moderator_model=args.moderator_model,
         embedding_model=args.embedding_model,
+        use_prerequisites=args.use_prerequisites,
+        enable_one_shot=args.enable_one_shot,
+        enable_two_hit=args.enable_two_hit,
+        one_shot_margin=args.one_shot_margin,
         max_turns=args.max_turns,
         output=Path(args.output) if args.output else None,
         use_moderator=not args.no_moderator,

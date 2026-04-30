@@ -13,9 +13,14 @@ CLIENT_MODEL="gpt-4o-mini"
 JUDGE_MODEL="gpt-4o-mini"
 MODERATOR_MODEL="gpt-4o-mini"
 EMBEDDING_MODEL="text-embedding-3-small"
+USE_PREREQUISITES=0
+ENABLE_ONE_SHOT=0
+ENABLE_TWO_HIT=0
+ONE_SHOT_MARGIN=0.08
 MAX_TURNS=25
 CASE_COUNT=10
 USE_MODERATOR=0
+FORCE=0
 
 usage() {
   cat <<'EOF'
@@ -39,9 +44,14 @@ Options:
   --judge-model MODEL           Compatibility arg passed through (default: gpt-4o-mini)
   --moderator-model MODEL       Moderator model (default: gpt-4o-mini)
   --embedding-model MODEL       Embedding model (default: text-embedding-3-small)
-  --max-turns N                 Maximum therapist turns per session (default: 15)
+  --use-prerequisites          Enable prerequisite gating
+  --enable-one-shot             Enable one-shot reveal logic
+  --enable-two-hit              Enable two-hit reveal logic
+  --one-shot-margin VALUE       Margin above threshold for one-shot reveal (default: 0.08)
+  --max-turns N                 Maximum therapist turns per session (default: 25)
   --case-count N                Number of case ids to auto-select if none are provided (default: 10)
   --use-moderator               Enable moderator-based early stopping
+  --force                       Rerun sessions even if output files already exist
   --help                        Show this help text
 
 Examples:
@@ -87,6 +97,22 @@ while [[ $# -gt 0 ]]; do
       EMBEDDING_MODEL="$2"
       shift 2
       ;;
+    --use-prerequisites)
+      USE_PREREQUISITES=1
+      shift
+      ;;
+    --enable-one-shot)
+      ENABLE_ONE_SHOT=1
+      shift
+      ;;
+    --enable-two-hit)
+      ENABLE_TWO_HIT=1
+      shift
+      ;;
+    --one-shot-margin)
+      ONE_SHOT_MARGIN="$2"
+      shift 2
+      ;;
     --max-turns)
       MAX_TURNS="$2"
       shift 2
@@ -97,6 +123,10 @@ while [[ $# -gt 0 ]]; do
       ;;
     --use-moderator)
       USE_MODERATOR=1
+      shift
+      ;;
+    --force)
+      FORCE=1
       shift
       ;;
     --help|-h)
@@ -164,13 +194,20 @@ echo "Case ids (${#CASE_IDS[@]}): ${CASE_IDS[*]}"
 echo "Therapist model: $THERAPIST_MODEL"
 echo "Client model: $CLIENT_MODEL"
 echo "Embedding model: $EMBEDDING_MODEL"
+echo "Use prerequisites: $USE_PREREQUISITES"
+echo "Reveal options: one_shot=$ENABLE_ONE_SHOT two_hit=$ENABLE_TWO_HIT margin=$ONE_SHOT_MARGIN"
 echo "Max turns: $MAX_TURNS"
 echo "Moderator: $([[ "$USE_MODERATOR" -eq 1 ]] && echo enabled || echo disabled)"
+echo "Force rerun: $FORCE"
 echo
 
 for difficulty in easy normal hard; do
   for case_id in "${CASE_IDS[@]}"; do
     output_path="$OUTPUT_ROOT/$difficulty/session_${case_id}.json"
+    if [[ -f "$output_path" && "$FORCE" -eq 0 ]]; then
+      echo "Skipping [$difficulty][$case_id] because output already exists: $output_path"
+      continue
+    fi
     echo "Running [$difficulty][$case_id] -> $output_path"
 
     cmd=(
@@ -183,9 +220,23 @@ for difficulty in easy normal hard; do
       --client-model "$CLIENT_MODEL"
       --judge-model "$JUDGE_MODEL"
       --moderator-model "$MODERATOR_MODEL"
+      --embedding-model "$EMBEDDING_MODEL"
+      --one-shot-margin "$ONE_SHOT_MARGIN"
       --max-turns "$MAX_TURNS"
       --output "$output_path"
     )
+
+    if [[ "$USE_PREREQUISITES" -eq 1 ]]; then
+      cmd+=(--use-prerequisites)
+    fi
+
+    if [[ "$ENABLE_ONE_SHOT" -eq 1 ]]; then
+      cmd+=(--enable-one-shot)
+    fi
+
+    if [[ "$ENABLE_TWO_HIT" -eq 1 ]]; then
+      cmd+=(--enable-two-hit)
+    fi
 
     if [[ "$USE_MODERATOR" -eq 0 ]]; then
       cmd+=(--no-moderator)
