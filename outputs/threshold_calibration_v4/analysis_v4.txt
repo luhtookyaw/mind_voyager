@@ -1,0 +1,255 @@
+
+=== EASY ===
+Field                        N  Scored  Reveals    Rate   Hits  Blocked    Mean     P75     P90     Max  DiffIx
+situation                  500     181       15    0.03     15        0   0.205   0.232   0.276   0.452   0.509
+automatic_thought          500     207       13    0.03     13        0   0.188   0.216   0.264   0.486   0.523
+emotion                    500     202       15    0.03     15        0   0.185   0.225   0.272   0.431   0.513
+behavior                   500      81       19    0.04     19        0   0.214   0.297   0.358   0.559   0.481
+relevant_history           500      39       20    0.04     20        0   0.307   0.387   0.427   0.499   0.480
+core_beliefs               500     297       10    0.02     10        0   0.161   0.193   0.251   0.360   0.539
+intermediate_beliefs       500      50       20    0.04     20        0   0.254   0.335   0.369   0.414   0.480
+coping_strategies          500      51       20    0.04     20        0   0.270   0.341   0.389   0.486   0.480
+average                  500.0   138.5     16.5    0.03   16.5      0.0   0.223   0.278   0.326   0.461   0.501
+Difficulty ranking:
+1. core_beliefs: 0.539
+2. automatic_thought: 0.523
+3. emotion: 0.513
+4. situation: 0.509
+5. behavior: 0.481
+6. relevant_history: 0.480
+7. intermediate_beliefs: 0.480
+8. coping_strategies: 0.480
+
+=== NORMAL ===
+Field                        N  Scored  Reveals    Rate   Hits  Blocked    Mean     P75     P90     Max  DiffIx
+situation                  500     214       14    0.03     14        0   0.211   0.265   0.318   0.483   0.514
+automatic_thought          500     300       10    0.02     10        0   0.219   0.261   0.306   0.472   0.528
+emotion                    500     341        8    0.02      8        0   0.201   0.243   0.290   0.415   0.543
+behavior                   500     196       15    0.03     15        0   0.235   0.282   0.337   0.486   0.497
+relevant_history           500      59       20    0.04     20        0   0.316   0.389   0.435   0.528   0.480
+core_beliefs               500     435        4    0.01      4        0   0.178   0.230   0.282   0.385   0.555
+intermediate_beliefs       500      90       19    0.04     19        0   0.276   0.340   0.404   0.486   0.481
+coping_strategies          500      86       20    0.04     20        0   0.293   0.343   0.396   0.476   0.480
+average                  500.0   215.1     13.8    0.03   13.8      0.0   0.241   0.294   0.346   0.466   0.510
+Difficulty ranking:
+1. core_beliefs: 0.555
+2. emotion: 0.543
+3. automatic_thought: 0.528
+4. situation: 0.514
+5. behavior: 0.497
+6. intermediate_beliefs: 0.481
+7. relevant_history: 0.480
+8. coping_strategies: 0.480
+
+=== HARD ===
+Field                        N  Scored  Reveals    Rate   Hits  Blocked    Mean     P75     P90     Max  DiffIx
+situation                  500     255       12    0.02     12        0   0.213   0.253   0.327   0.513   0.543
+automatic_thought          500     389        5    0.01      5        0   0.216   0.266   0.312   0.492   0.561
+emotion                    500     460        3    0.01      3        0   0.215   0.274   0.312   0.465   0.563
+behavior                   500     274       13    0.03     13        0   0.247   0.301   0.351   0.536   0.524
+relevant_history           500      79       20    0.04     20        0   0.345   0.400   0.430   0.567   0.480
+core_beliefs               500     500        0    0.00      0        0   0.191   0.246   0.290   0.388   0.589
+intermediate_beliefs       500     107       20    0.04     20        0   0.320   0.391   0.416   0.505   0.480
+coping_strategies          500     125       20    0.04     20        0   0.321   0.379   0.419   0.530   0.480
+average                  500.0   273.6     11.6    0.02   11.6      0.0   0.259   0.314   0.357   0.500   0.527
+Difficulty ranking:
+1. core_beliefs: 0.589
+2. emotion: 0.563
+3. automatic_thought: 0.561
+4. situation: 0.543
+5. behavior: 0.524
+6. relevant_history: 0.480
+7. intermediate_beliefs: 0.480
+8. coping_strategies: 0.480
+
+=== FIELD EXAMPLES: situation ===
+Top scoring questions:
+- [hard] case=17-1 turn=2 score=0.513 threshold=0.400 revealed=True
+  Q: Therapist: It sounds like you’re feeling quite isolated when Amelia is busy, and even though you’re keeping yourself occupied with household tasks, it’s not fulfilling for you. I hear that you’re concerned about how to bring this up with her without feeling like you’re complaining or causing tension. That sounds really challenging. Can you tell me more about what it feels like when you think about talking to her?
+- [hard] case=2-1 turn=3 score=0.512 threshold=0.400 revealed=True
+  Q: It sounds like there’s a lot of pressure around expectations, especially regarding your wedding list, and that creates a cycle of wanting connection but feeling blocked from it. That must be really tough to navigate. Can you tell me more about the feelings that come up when you think about wanting their approval?
+- [normal] case=17-1 turn=2 score=0.483 threshold=0.350 revealed=True
+  Q: Thank you for sharing that, Sarah. It sounds like you’re feeling a mix of isolation and resentment regarding your relationship with Amelia, especially with her being so busy. You mentioned you haven’t brought this up with her because you’re concerned about her reaction and the potential impact on your relationship. That sounds really challenging. Can you tell me more about what it feels like to carry those feelings on your own?
+- [normal] case=6-1 turn=3 score=0.466 threshold=0.350 revealed=True
+  Q: Therapist: It sounds like you’re feeling a lot of tension between wanting to manage things on your own and recognizing that you might need some support. That struggle to accept help from your parents, along with the challenge of finding affordable therapy, seems to be adding to your sense of exhaustion. Can you tell me more about what accepting help would mean for you?
+- [hard] case=14-1 turn=4 score=0.455 threshold=0.400 revealed=True
+  Q: Therapist: It sounds like your financial situation is a significant source of frustration and regret for you, and it’s understandable that this would weigh heavily on you, especially in family gatherings. You mentioned feeling angry at yourself and also at your family for not stepping in when you needed help. Can you tell me more about what that anger feels like for you and how it shows up in those family interactions?
+Near-threshold non-reveals:
+- [hard] case=2-1 turn=2 score=0.400 threshold=0.400
+  Q: Therapist: It sounds like you're experiencing a lot of tension in your family interactions, and that’s leading to a desire to avoid them, even though you care about your family. That must be really frustrating for you. Can you share a bit more about what specifically feels pressuring or confusing in those moments?
+- [hard] case=12-1 turn=7 score=0.398 threshold=0.400
+  Q: Therapist: It sounds like the pressure to perform perfectly is really paralyzing for you, leading to procrastination and that constant state of doubt. It must be so disheartening to feel stuck in a cycle where you can’t enjoy the work you once loved. When you think about the moments when you freeze up or doubt your work, what emotions come up for you in those situations?
+- [hard] case=11-1 turn=1 score=0.392 threshold=0.400
+  Q: Hi Ian, I’m glad you’re here today. What feels most important for you to talk about right now?
+- [hard] case=6-1 turn=3 score=0.378 threshold=0.400
+  Q: Therapist: It sounds like you’re feeling a lot of pressure from your parents, which is making you feel trapped rather than supported. And on top of that, the worry about finding affordable therapy is adding to your sense of overwhelm. It’s understandable to feel like everything is swirling around when you’re facing so many challenges at once. Can you tell me more about how these pressures are affecting you day-to-day?
+- [hard] case=8-1 turn=2 score=0.377 threshold=0.400
+  Q: Therapist: It sounds like you’re experiencing a lot of tension between your desire for connection and the fear of rejection that holds you back. That must be really challenging and exhausting for you. Can you tell me more about what that fear feels like for you when you’re trying to connect with others?
+
+=== FIELD EXAMPLES: automatic_thought ===
+Top scoring questions:
+- [hard] case=14-1 turn=4 score=0.492 threshold=0.400 revealed=True
+  Q: Therapist: It sounds like your financial situation is a significant source of frustration and regret for you, and it’s understandable that this would weigh heavily on you, especially in family gatherings. You mentioned feeling angry at yourself and also at your family for not stepping in when you needed help. Can you tell me more about what that anger feels like for you and how it shows up in those family interactions?
+- [hard] case=6-1 turn=4 score=0.491 threshold=0.400 revealed=True
+  Q: Therapist: It sounds like you’re feeling really exhausted and caught in a tug-of-war between wanting to be independent and the pressure to accept help from your parents. That constant battle in your mind seems to be making it difficult for you to focus and feel at ease. Can you share more about what independence means to you and why it feels so important right now?
+- [easy] case=20-1 turn=2 score=0.486 threshold=0.300 revealed=True
+  Q: Therapist: It sounds like you're experiencing a lot of pressure at work, and that’s leading to feelings of self-doubt and discouragement. It must be really frustrating to feel overwhelmed like that. Can you tell me more about what specifically feels overwhelming for you right now?
+- [hard] case=20-1 turn=2 score=0.481 threshold=0.400 revealed=True
+  Q: Therapist: It sounds like you're carrying a heavy burden with that pressure at work, and it’s leading to a lot of self-doubt and discouragement. I can sense that it’s really weighing on you. Can you tell me more about what specific aspects of work are contributing to that feeling?
+- [normal] case=8-1 turn=2 score=0.472 threshold=0.350 revealed=True
+  Q: Therapist: It sounds like you’re feeling a real push and pull when it comes to your relationships—wanting to connect but being held back by that fear of rejection. That cycle of hesitation and isolation must be really tough to navigate. Can you tell me more about what that fear feels like for you?
+Near-threshold non-reveals:
+- [hard] case=3-1 turn=3 score=0.371 threshold=0.400
+  Q: Therapist: It sounds like your PhD project is a significant source of stress for you, especially with the feeling of being stuck and the looming deadlines. That cycle of pressure you mentioned can be really tough to navigate. When you think about hitting that wall while working, what emotions come up for you in those moments?
+- [hard] case=12-1 turn=11 score=0.369 threshold=0.400
+  Q: Therapist: It sounds like you have a beautiful vision of reconnecting with that sense of joy and collaboration, focusing on the process rather than the outcome. The idea of reaching out to your jazz group and finding new opportunities to create music together seems really meaningful. I can sense how much you long for those moments of shared creativity. When you think about taking that first step towards reaching out or exploring those opportunities, what feelings or thoughts come up for you?
+- [hard] case=14-1 turn=3 score=0.369 threshold=0.400
+  Q: Therapist: It sounds really challenging to feel that pressure to put on a cheerful front while carrying frustration and regret inside. It must be exhausting to feel like you’re pretending, especially when you sense that your family doesn’t fully understand what you’re going through. Can you share more about the specific frustrations or regrets that come up for you in those moments?
+- [hard] case=5-1 turn=17 score=0.362 threshold=0.400
+  Q: Therapist: It sounds like that fear of getting your hopes up and the past disappointments create a heavy weight that makes it difficult for you to embrace hope. The questioning of whether you deserve to feel hopeful adds another layer to that struggle. It’s understandable to want to protect yourself from potential pain, but it also sounds like you’re yearning for a way to break free from that cycle. When you think about that invisible weight holding you back, what do you think it would take for you to start feeling a little more open to the possibility of change?
+- [hard] case=18-1 turn=7 score=0.358 threshold=0.400
+  Q: Therapist: It sounds like this struggle with feeling like you're not good enough is deeply tied to your desire for your family's approval. That cycle of wanting to make them proud while feeling like you're falling short must be incredibly frustrating and heavy to carry. You mentioned knowing you’re capable of more, yet feeling stuck. Can you explore what that barrier feels like for you? What do you think holds you back from breaking through it?
+
+=== FIELD EXAMPLES: emotion ===
+Top scoring questions:
+- [hard] case=10-1 turn=16 score=0.465 threshold=0.400 revealed=True
+  Q: Therapist: It sounds like you're experiencing a real tug-of-war between hope and anxiety, which is completely understandable. That feeling of standing at the edge of a cliff, weighing the potential outcomes, must be really overwhelming. It’s clear that you want to take that step, but the fear of what might happen is holding you back. When you think about that mix of hope and anxiety, how do you usually cope with those feelings when they arise?
+- [hard] case=4-1 turn=3 score=0.446 threshold=0.400 revealed=True
+  Q: Therapist: It sounds really challenging to be in that state of constant worry, especially when you’re trying to enjoy your relationship. That feeling of being on edge and waiting for something to go wrong can be really draining. I wonder, when you think about those worries—like saying the wrong thing or pushing someone away—what do you think is at the root of those thoughts for you?
+- [easy] case=8-1 turn=3 score=0.431 threshold=0.300 revealed=True
+  Q: Therapist: It sounds like that fear really weighs on you, creating a lot of anxiety and making it difficult to be vulnerable. The “what if” scenarios seem to take over your thoughts, leading to that instinct to protect yourself. I can imagine how exhausting that must be. When you think about those past experiences that might have contributed to this fear, what comes to mind for you?
+- [hard] case=2-1 turn=16 score=0.419 threshold=0.400 revealed=True
+  Q: It sounds like the anxiety you’re feeling is quite intense, manifesting physically as a tight knot in your stomach and a racing heart. The scenarios you imagine, along with that nagging voice, seem to amplify your fear of rejection and disappointment. It’s understandable to feel frustrated by this push and pull between wanting to be brave and the fear of how it might turn out. Can you share more about what it feels like to navigate that back-and-forth in your mind? What thoughts or beliefs come up for you when you consider taking that step versus holding back?
+- [normal] case=4-1 turn=3 score=0.415 threshold=0.350 revealed=True
+  Q: Therapist: It sounds really challenging to feel that knot in your stomach and have your mind racing with those “what if” scenarios. It’s understandable to feel frustrated with yourself when you’re trying to find that balance between reaching out and wanting to retreat. When you think about being on that tightrope, what do you think might help you feel more stable or secure in those moments?
+Near-threshold non-reveals:
+- [hard] case=10-1 turn=4 score=0.397 threshold=0.400
+  Q: Therapist: It sounds incredibly tough to feel that knot of anxiety and frustration when all you want is to connect. That sense of being overwhelmed must make it really difficult to engage in those moments. When you think about that desire to connect versus the fear of messing up, what do you think might be at the root of that fear for you?
+- [hard] case=16-1 turn=12 score=0.393 threshold=0.400
+  Q: Therapist: It sounds like when that urge to push through arises, you experience a strong wave of anxiety, physical sensations like a racing heart, and a sense of being trapped in a frantic state. It must be really exhausting to feel that pressure to prove something while everything else fades away. I can see how that tunnel vision makes it difficult to consider taking a step back. What do you think might help you recognize those feelings of anxiety in the moment, so you can create a little space for yourself to pause, even when it feels challenging?
+- [hard] case=5-1 turn=11 score=0.387 threshold=0.400
+  Q: Therapist: It sounds like those past experiences have created a pattern of anxiety and caution for you, making it hard to trust that things could be different this time. That feeling of always being on guard must be really exhausting, especially when you’re trying to connect with your dad. When you reflect on those moments that triggered bigger reactions in the past, what do you notice about how they made you feel or what they led you to believe about yourself or your relationship with him?
+- [hard] case=14-1 turn=5 score=0.365 threshold=0.400
+  Q: Therapist: It sounds like that simmering anger creates a lot of tension for you, especially when you’re surrounded by your family. You want them to understand your struggles, but you feel stuck between wanting to express your feelings and fearing the potential fallout. It must be really difficult to hold all that in. How do you think that bottled-up anger affects your overall experience during those gatherings?
+- [hard] case=5-1 turn=3 score=0.362 threshold=0.400
+  Q: Therapist: It sounds really challenging to feel that knot in your stomach and restlessness while wanting to be engaged with your family. It’s understandable to feel frustrated with yourself for not being fully present. When you find your mind drifting to work or your website, what do you think that’s about?
+
+=== FIELD EXAMPLES: behavior ===
+Top scoring questions:
+- [easy] case=20-1 turn=2 score=0.559 threshold=0.300 revealed=True
+  Q: Therapist: It sounds like you're experiencing a lot of pressure at work, and that’s leading to feelings of self-doubt and discouragement. It must be really frustrating to feel overwhelmed like that. Can you tell me more about what specifically feels overwhelming for you right now?
+- [hard] case=20-1 turn=2 score=0.536 threshold=0.400 revealed=True
+  Q: Therapist: It sounds like you're carrying a heavy burden with that pressure at work, and it’s leading to a lot of self-doubt and discouragement. I can sense that it’s really weighing on you. Can you tell me more about what specific aspects of work are contributing to that feeling?
+- [hard] case=17-1 turn=2 score=0.530 threshold=0.400 revealed=True
+  Q: Therapist: It sounds like you’re feeling quite isolated when Amelia is busy, and even though you’re keeping yourself occupied with household tasks, it’s not fulfilling for you. I hear that you’re concerned about how to bring this up with her without feeling like you’re complaining or causing tension. That sounds really challenging. Can you tell me more about what it feels like when you think about talking to her?
+- [easy] case=17-1 turn=2 score=0.512 threshold=0.300 revealed=True
+  Q: It sounds like you're feeling quite isolated and maybe even a bit overwhelmed with the responsibilities at home while Amelia is busy with her program. I can sense that there's a struggle between wanting to support her and also needing to express your own feelings. Can you tell me more about what that fear of rejection feels like for you when you think about bringing this up with her?
+- [hard] case=13-1 turn=3 score=0.488 threshold=0.400 revealed=True
+  Q: Therapist: It sounds like your aunt's request and the feelings of guilt surrounding it are really weighing on you, especially during family gatherings. That cloud of emotion seems to add to your tension and makes it difficult to decide whether to engage or withdraw. It's understandable to feel conflicted in that situation. Can you share more about what your aunt's request was and how it impacts your feelings when you're with your family?
+Near-threshold non-reveals:
+- [hard] case=9-1 turn=3 score=0.385 threshold=0.400
+  Q: Therapist: It sounds like there's a real push and pull for you when it comes to connecting with others—wanting that connection but feeling caught in a cycle of worry and overthinking. That mix of excitement and dread must be really draining. When you find yourself replaying those conversations in your head, what kind of thoughts or feelings come up for you?
+- [hard] case=10-1 turn=16 score=0.384 threshold=0.400
+  Q: Therapist: It sounds like you're experiencing a real tug-of-war between hope and anxiety, which is completely understandable. That feeling of standing at the edge of a cliff, weighing the potential outcomes, must be really overwhelming. It’s clear that you want to take that step, but the fear of what might happen is holding you back. When you think about that mix of hope and anxiety, how do you usually cope with those feelings when they arise?
+- [hard] case=11-1 turn=2 score=0.383 threshold=0.400
+  Q: Therapist: It sounds like you're feeling a lot of tension between wanting to connect with others and the fear of being rejected. That must be really frustrating for you. Can you tell me more about what happens when you start to feel that fear?
+- [hard] case=2-1 turn=4 score=0.379 threshold=0.400
+  Q: It sounds like you're experiencing a really intense mix of anxiety and frustration when it comes to seeking your family's approval. That knot in your stomach seems to reflect the pressure you feel to meet their expectations, while also feeling angry about having to try so hard to be seen for who you truly are. It must be exhausting to be caught in that cycle of wanting to please them. Can you share more about what it feels like when you try to express your true self around them?
+- [hard] case=10-1 turn=3 score=0.370 threshold=0.400
+  Q: Therapist: It makes a lot of sense, Grace. It sounds like that weight of fear really impacts how you interact with others, creating a cycle of self-doubt and pressure. When you find yourself in those moments of second-guessing, what do you notice happening inside you emotionally?
+
+=== FIELD EXAMPLES: relevant_history ===
+Top scoring questions:
+- [hard] case=13-1 turn=3 score=0.567 threshold=0.400 revealed=True
+  Q: Therapist: It sounds like your aunt's request and the feelings of guilt surrounding it are really weighing on you, especially during family gatherings. That cloud of emotion seems to add to your tension and makes it difficult to decide whether to engage or withdraw. It's understandable to feel conflicted in that situation. Can you share more about what your aunt's request was and how it impacts your feelings when you're with your family?
+- [hard] case=2-1 turn=2 score=0.560 threshold=0.400 revealed=True
+  Q: Therapist: It sounds like you're experiencing a lot of tension in your family interactions, and that’s leading to a desire to avoid them, even though you care about your family. That must be really frustrating for you. Can you share a bit more about what specifically feels pressuring or confusing in those moments?
+- [normal] case=15-1 turn=2 score=0.528 threshold=0.350 revealed=True
+  Q: Therapist: It sounds like you’re feeling a lot of pressure at work, especially with the discussion about the culture that you wanted to be involved in. When your mentor asked you to meet with a client instead, it left you feeling discouraged and questioning the value of your input. That must be really frustrating and confusing for you. Can you tell me more about what that pressure feels like for you?
+- [hard] case=3-1 turn=3 score=0.526 threshold=0.400 revealed=True
+  Q: Therapist: It sounds like your PhD project is a significant source of stress for you, especially with the feeling of being stuck and the looming deadlines. That cycle of pressure you mentioned can be really tough to navigate. When you think about hitting that wall while working, what emotions come up for you in those moments?
+- [hard] case=15-1 turn=2 score=0.511 threshold=0.400 revealed=True
+  Q: Therapist: It sounds like you're feeling a lot of pressure from the situation at work, especially with the discussions about the culture and your desire to be involved. Missing out on that opportunity seems to have left you feeling weighed down. Can you tell me more about what that pressure feels like for you?
+Near-threshold non-reveals:
+- [hard] case=1-1 turn=5 score=0.399 threshold=0.400
+  Q: Therapist: It sounds like being at those gatherings feels really overwhelming for you, almost like you’re under a spotlight with that pressure to perform and the weight of your mum’s critical gaze. It must be tough to feel so small in those moments, especially when you want to engage but find it hard to enjoy yourself. What do you think it is about those interactions that makes you feel like you want to disappear?
+- [hard] case=8-1 turn=16 score=0.397 threshold=0.400
+  Q: Therapist: It sounds like you have a nuanced view of that instinct—it’s both a protector and a barrier in your journey toward connection. Recognizing its dual role must be quite complex and frustrating. When you think about finding a balance between appreciating that instinct and also wanting to break free from it, what do you think that balance might look like for you?
+- [hard] case=1-1 turn=3 score=0.396 threshold=0.400
+  Q: Therapist: It sounds like there’s a lot of pressure you feel from your family, especially around expectations and how they perceive you. That sense of needing to have everything figured out, combined with your mum’s critical attitude, seems to really heighten your tension. I can see why that would be frustrating and make you want to avoid those situations. How do you usually cope with those feelings when they come up?
+- [hard] case=8-1 turn=15 score=0.393 threshold=0.400
+  Q: Therapist: It sounds like that fear is really rooted in a desire to protect yourself from the pain of embarrassment and rejection, which makes a lot of sense given your past experiences. The tug-of-war between wanting to connect and the instinct to shield yourself must be quite exhausting. When you think about that instinct to protect yourself, how do you feel about its presence in your life? Do you see it as more of a friend or a foe in your journey toward connection?
+- [hard] case=10-1 turn=5 score=0.387 threshold=0.400
+  Q: Therapist: It sounds like that feeling of not being good enough really weighs heavily on you, especially when you’re trying to connect with others. The experience of getting close to someone and then feeling it fizzle out must be really painful and reinforces that fear of being unworthy. I can see how that push and pull creates a lot of inner conflict for you. When you reflect on those moments of feeling isolated, what thoughts or beliefs come up for you about yourself in those situations?
+
+=== FIELD EXAMPLES: core_beliefs ===
+Top scoring questions:
+- [hard] case=20-1 turn=5 score=0.388 threshold=0.400 revealed=False
+  Q: It sounds like you’ve had some tough experiences trying to advocate for yourself at work, and feeling dismissed can really amplify that sense of frustration and weakness. It’s understandable to feel caught in that conflict between wanting to stand up for yourself and fearing the outcome. When you think about those moments where you felt dismissed, what thoughts go through your mind about yourself or your abilities in those situations?
+- [hard] case=15-1 turn=5 score=0.387 threshold=0.400 revealed=False
+  Q: Therapist: It sounds really heavy to carry that sense of hopelessness and to question your own worth and abilities. That spiral of feeling disheartened and doubting yourself must be exhausting. When you think about not being “cut out for this” or not being “good enough,” how do those thoughts impact your day-to-day experience at work?
+- [normal] case=20-1 turn=3 score=0.385 threshold=0.350 revealed=True
+  Q: It sounds like you’re in a really tough spot, feeling criticized and like you have to take on blame for things that aren’t your responsibility. That must be incredibly frustrating and disheartening. When you say it makes you feel weak and powerless, can you share more about how that impacts your day-to-day experience at work?
+- [hard] case=1-1 turn=25 score=0.384 threshold=0.400 revealed=False
+  Q: Therapist: It sounds like those fears really take a toll on your sense of self-worth, leading you to feel like a burden and questioning whether you deserve to be heard. That exhaustion from being stuck in that loop of wanting to reach out but pulling back is palpable. I can see how deeply these past experiences shape your beliefs about yourself. When you think about wanting to feel more secure in who you are, what do you believe would help you start to shift that perspective? What might it look like to challenge those doubts?
+- [normal] case=17-1 turn=7 score=0.363 threshold=0.350 revealed=True
+  Q: It sounds like you're experiencing a real internal struggle, Sarah. The way you describe feeling torn between your desire for closeness and the fear of coming across as needy is really powerful. It’s understandable to feel unsettled when you’re caught in that tug-of-war with your feelings. Can you share more about what you think might help you navigate that space between wanting to reach out and holding back?
+Near-threshold non-reveals:
+- [hard] case=20-1 turn=5 score=0.388 threshold=0.400
+  Q: It sounds like you’ve had some tough experiences trying to advocate for yourself at work, and feeling dismissed can really amplify that sense of frustration and weakness. It’s understandable to feel caught in that conflict between wanting to stand up for yourself and fearing the outcome. When you think about those moments where you felt dismissed, what thoughts go through your mind about yourself or your abilities in those situations?
+- [hard] case=15-1 turn=5 score=0.387 threshold=0.400
+  Q: Therapist: It sounds really heavy to carry that sense of hopelessness and to question your own worth and abilities. That spiral of feeling disheartened and doubting yourself must be exhausting. When you think about not being “cut out for this” or not being “good enough,” how do those thoughts impact your day-to-day experience at work?
+- [hard] case=1-1 turn=25 score=0.384 threshold=0.400
+  Q: Therapist: It sounds like those fears really take a toll on your sense of self-worth, leading you to feel like a burden and questioning whether you deserve to be heard. That exhaustion from being stuck in that loop of wanting to reach out but pulling back is palpable. I can see how deeply these past experiences shape your beliefs about yourself. When you think about wanting to feel more secure in who you are, what do you believe would help you start to shift that perspective? What might it look like to challenge those doubts?
+- [hard] case=17-1 turn=9 score=0.362 threshold=0.400
+  Q: Therapist: It sounds like there’s a deep-rooted belief in you that your worth is tied to how available and supportive you are to others. You mentioned feeling that way since childhood, like you had to take care of things and be the reliable one. It’s understandable that stepping back for yourself would bring up feelings of guilt and fear of being perceived as selfish. That cycle of wanting to support others while also wanting to prioritize your own needs sounds really challenging. Can you share more about how that belief has shaped your relationships or your sense of self over the years?
+- [hard] case=6-1 turn=6 score=0.359 threshold=0.400
+  Q: Therapist: It sounds like the idea of failing at independence brings up a lot of anxiety and frustration for you. You’re worried that needing help would mean you’re not measuring up to your own expectations, and that feels like a huge step backward. That heavy weight you carry seems to be tied to how you view yourself and your capabilities. Can you tell me more about where those expectations come from? What do you think has shaped your beliefs about independence and success?
+
+=== FIELD EXAMPLES: intermediate_beliefs ===
+Top scoring questions:
+- [hard] case=2-1 turn=3 score=0.505 threshold=0.400 revealed=True
+  Q: It sounds like there’s a lot of pressure around expectations, especially regarding your wedding list, and that creates a cycle of wanting connection but feeling blocked from it. That must be really tough to navigate. Can you tell me more about the feelings that come up when you think about wanting their approval?
+- [normal] case=18-1 turn=4 score=0.486 threshold=0.350 revealed=True
+  Q: Therapist: It sounds like your mom's expectations and your experiences in college have created a lasting impact on how you feel about yourself, especially in family settings. The feeling of needing to prove yourself can be incredibly draining, especially when those old feelings resurface. I can see how that would make it hard to engage with your family without feeling overwhelmed. How do you usually cope when you find yourself in those situations?
+- [hard] case=6-1 turn=4 score=0.486 threshold=0.400 revealed=True
+  Q: Therapist: It sounds like you’re feeling really exhausted and caught in a tug-of-war between wanting to be independent and the pressure to accept help from your parents. That constant battle in your mind seems to be making it difficult for you to focus and feel at ease. Can you share more about what independence means to you and why it feels so important right now?
+- [normal] case=14-1 turn=3 score=0.477 threshold=0.350 revealed=True
+  Q: Therapist: It sounds like there’s a lot of pressure to maintain a certain image around your family, which adds to your discomfort. You mentioned feeling like you should be doing better, especially regarding your financial situation, and that reliance on them makes things feel even heavier. That must be a tough place to be in. Can you share more about how those thoughts about your financial decisions affect your feelings when you’re with your family?
+- [hard] case=15-1 turn=3 score=0.474 threshold=0.400 revealed=True
+  Q: Therapist: It sounds really challenging to feel that expectation to contribute while also feeling unheard and unsupported. That discouragement you mentioned seems to stem from wanting to find your place in the conversation but feeling pulled away at the same time. Can you share more about how this experience has affected your motivation or your feelings about your work overall?
+Near-threshold non-reveals:
+- [hard] case=5-1 turn=4 score=0.399 threshold=0.400
+  Q: Therapist: It makes a lot of sense that you would gravitate towards things that feel more manageable, like your work and projects, especially when family interactions feel unpredictable. It sounds like that uncertainty with your family creates a sense of discomfort for you. Can you share more about what specifically feels uncertain or challenging in those family interactions?
+- [hard] case=11-1 turn=16 score=0.398 threshold=0.400
+  Q: It sounds like those insecurities are really weighing on you, making it hard to feel like your feelings are valid enough to share. It’s understandable to worry about how others might perceive your struggles, especially when you’re seeking connection. That fear of being judged or overwhelming someone can create a sense of isolation. When you think about those feelings of wanting to connect but feeling held back, what do you think might help you begin to challenge those beliefs about your experiences being too much for others?
+- [hard] case=19-1 turn=5 score=0.395 threshold=0.400
+  Q: Therapist: It sounds like you’re feeling really uncertain about your own accomplishments and where you stand, especially with the recent changes in your job situation. It’s understandable that being laid off would shake your confidence and make it harder to celebrate what you have done. When you think about your job applications and the process of looking for work, how does that feel for you right now?
+- [hard] case=11-1 turn=17 score=0.394 threshold=0.400
+  Q: It sounds like you're starting to recognize that your struggles are part of a shared human experience, which could help you feel more comfortable reaching out. It’s a significant insight to think about giving yourself permission to be real and vulnerable without the weight of worry. I can hear that the overthinking still holds you back, creating that frustrating loop. When you notice yourself hesitating or overthinking, what do you think might help you gently shift your focus back to that idea of connection and support?
+- [hard] case=5-1 turn=13 score=0.394 threshold=0.400
+  Q: Therapist: It sounds like that internal dialogue really amplifies your feelings of isolation and keeps you from fully engaging in conversations with your dad. The fear of being dismissed or causing conflict seems to create a barrier for you. When you think about that cycle of wanting to be heard but feeling like you need to hold back, what do you think it would take for you to feel more comfortable expressing yourself, even just a little?
+
+=== FIELD EXAMPLES: coping_strategies ===
+Top scoring questions:
+- [hard] case=17-1 turn=2 score=0.530 threshold=0.400 revealed=True
+  Q: Therapist: It sounds like you’re feeling quite isolated when Amelia is busy, and even though you’re keeping yourself occupied with household tasks, it’s not fulfilling for you. I hear that you’re concerned about how to bring this up with her without feeling like you’re complaining or causing tension. That sounds really challenging. Can you tell me more about what it feels like when you think about talking to her?
+- [hard] case=2-1 turn=2 score=0.504 threshold=0.400 revealed=True
+  Q: Therapist: It sounds like you're experiencing a lot of tension in your family interactions, and that’s leading to a desire to avoid them, even though you care about your family. That must be really frustrating for you. Can you share a bit more about what specifically feels pressuring or confusing in those moments?
+- [easy] case=17-1 turn=2 score=0.486 threshold=0.300 revealed=True
+  Q: It sounds like you're feeling quite isolated and maybe even a bit overwhelmed with the responsibilities at home while Amelia is busy with her program. I can sense that there's a struggle between wanting to support her and also needing to express your own feelings. Can you tell me more about what that fear of rejection feels like for you when you think about bringing this up with her?
+- [normal] case=17-1 turn=2 score=0.476 threshold=0.350 revealed=True
+  Q: Thank you for sharing that, Sarah. It sounds like you’re feeling a mix of isolation and resentment regarding your relationship with Amelia, especially with her being so busy. You mentioned you haven’t brought this up with her because you’re concerned about her reaction and the potential impact on your relationship. That sounds really challenging. Can you tell me more about what it feels like to carry those feelings on your own?
+- [hard] case=1-1 turn=3 score=0.472 threshold=0.400 revealed=True
+  Q: Therapist: It sounds like there’s a lot of pressure you feel from your family, especially around expectations and how they perceive you. That sense of needing to have everything figured out, combined with your mum’s critical attitude, seems to really heighten your tension. I can see why that would be frustrating and make you want to avoid those situations. How do you usually cope with those feelings when they come up?
+Near-threshold non-reveals:
+- [hard] case=13-1 turn=6 score=0.399 threshold=0.400
+  Q: Therapist: It sounds like you have a strong desire to be a source of support and joy for your family, but the weight of your own feelings makes it difficult to show up in that way. It’s understandable to feel that pressure to be cheerful and engaged, especially when you want to be there for them. That sense of going through the motions must feel frustrating, especially when you care so much about your family. Can you tell me more about what it feels like when you’re trying to be that supportive person? What do you notice happening inside you during those moments?
+- [hard] case=13-1 turn=4 score=0.398 threshold=0.400
+  Q: Therapist: It sounds like that moment of feeling overwhelmed and freezing when your aunt needed you has left a lasting impact on you, creating a sense of regret and guilt that you carry into your family interactions. It’s understandable to feel like you’re stuck in that loop, especially when you worry about how your family might perceive your actions. That must be really heavy to bear. How do you think this guilt influences your feelings and behaviors when you’re around your family?
+- [hard] case=8-1 turn=15 score=0.397 threshold=0.400
+  Q: Therapist: It sounds like that fear is really rooted in a desire to protect yourself from the pain of embarrassment and rejection, which makes a lot of sense given your past experiences. The tug-of-war between wanting to connect and the instinct to shield yourself must be quite exhausting. When you think about that instinct to protect yourself, how do you feel about its presence in your life? Do you see it as more of a friend or a foe in your journey toward connection?
+- [hard] case=5-1 turn=4 score=0.394 threshold=0.400
+  Q: Therapist: It makes a lot of sense that you would gravitate towards things that feel more manageable, like your work and projects, especially when family interactions feel unpredictable. It sounds like that uncertainty with your family creates a sense of discomfort for you. Can you share more about what specifically feels uncertain or challenging in those family interactions?
+- [hard] case=9-1 turn=13 score=0.392 threshold=0.400
+  Q: Therapist: It sounds like you have a mix of feelings about your friendships—wanting to connect but feeling hesitant to let your guard down, especially with the friend who has shown kindness and patience. It’s understandable to worry about burdening someone or feeling like you’re not interesting enough. That hesitation can create a sense of loneliness, especially when you crave understanding. When you think about reaching out to that friend, what do you think might help you feel more comfortable in taking that step?
