@@ -5,6 +5,7 @@ set -euo pipefail
 ROOT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
 DATASET_PATH="$ROOT_DIR/data/Patient_Psi_CM_Dataset.json"
 OUTPUT_ROOT="$ROOT_DIR/outputs/threshold_calibration"
+ENV_PATH="$ROOT_DIR/.env"
 
 THERAPIST_MODEL="gpt-4o-mini"
 THERAPIST_PROVIDER="openai"
@@ -12,7 +13,7 @@ CLIENT_MODEL="gpt-4o-mini"
 JUDGE_MODEL="gpt-4o-mini"
 MODERATOR_MODEL="gpt-4o-mini"
 EMBEDDING_MODEL="text-embedding-3-small"
-MAX_TURNS=15
+MAX_TURNS=25
 CASE_COUNT=10
 USE_MODERATOR=0
 
@@ -119,6 +120,18 @@ if [[ ! -f "$DATASET_PATH" ]]; then
   exit 1
 fi
 
+if [[ -f "$ENV_PATH" ]]; then
+  set -a
+  # shellcheck disable=SC1090
+  source "$ENV_PATH"
+  set +a
+fi
+
+if [[ -z "${OPENAI_API_KEY:-}" ]]; then
+  echo "OPENAI_API_KEY is not set. Add it to $ENV_PATH or export it before running this script." >&2
+  exit 1
+fi
+
 if [[ ${#CASE_IDS[@]} -eq 0 ]]; then
   mapfile -t CASE_IDS < <(
     python - "$DATASET_PATH" "$CASE_COUNT" <<'PY'
@@ -178,9 +191,7 @@ for difficulty in easy normal hard; do
       cmd+=(--no-moderator)
     fi
 
-    OPENAI_API_KEY="${OPENAI_API_KEY:-}" \
     PYTHONPATH="$ROOT_DIR${PYTHONPATH:+:$PYTHONPATH}" \
-    MIND_VOYAGER_EMBEDDING_MODEL="$EMBEDDING_MODEL" \
     "${cmd[@]}"
   done
 done

@@ -1,0 +1,2556 @@
+{
+  "case_id": "2-1",
+  "client_name": "Blaise",
+  "client_mode": "masked",
+  "difficulty": "easy",
+  "embedding_model": "text-embedding-3-small",
+  "therapist_provider": "openai",
+  "therapist_model": "gpt-4o-mini",
+  "therapist_prompt_mode": "baseline",
+  "client_model": "gpt-4o-mini",
+  "moderator_enabled": false,
+  "moderator_model": "gpt-4o-mini",
+  "max_turns": 25,
+  "therapist_turns": 25,
+  "stop_reason": "max_turns",
+  "transcript": [
+    {
+      "turn": 1,
+      "speaker": "therapist",
+      "content": "Hi Blaise, I\u2019m glad you\u2019re here today. What feels most important for you to talk about right now?"
+    },
+    {
+      "turn": 1,
+      "speaker": "client",
+      "content": "Blaise: Well, I guess I\u2019ve been feeling really tense lately, especially when it comes to family interactions. It\u2019s like, every time I\u2019m around them, I just want to avoid the whole situation. I don\u2019t know, it\u2019s confusing. I mean, I care about them, but there\u2019s this strain, you know? It\u2019s hard to explain. I just feel... off. Like I\u2019m walking on eggshells or something."
+    },
+    {
+      "turn": 2,
+      "speaker": "therapist",
+      "content": "Therapist: It sounds like you\u2019re experiencing a lot of tension during family interactions, and that\u2019s leading to a desire to avoid those situations. You mentioned feeling \"off\" and like you\u2019re \"walking on eggshells.\" Can you share more about what specifically feels strained in those interactions?"
+    },
+    {
+      "turn": 2,
+      "speaker": "client",
+      "content": "Blaise: Yeah, it\u2019s just, I don\u2019t know, there\u2019s this pressure to be happy and go along with whatever they suggest, like when we talk about things like the wedding list. I mean, I pretend to be okay with it, but inside, I\u2019m just... frustrated, I guess? It\u2019s like I\u2019m trying to keep the peace, but it\u2019s exhausting. And then I start worrying about how they\u2019ll react if I don\u2019t agree with them. It\u2019s just this cycle of tension that I can\u2019t seem to break."
+    },
+    {
+      "turn": 3,
+      "speaker": "therapist",
+      "content": "Therapist: It sounds really challenging to feel that pressure to maintain a certain mood and go along with what your family wants, especially when it feels exhausting for you. You mentioned feeling frustrated and worried about their reactions. Can you tell me more about what happens inside you when you feel that way?"
+    },
+    {
+      "turn": 3,
+      "speaker": "client",
+      "content": "Blaise: Well, when I start feeling that way, it\u2019s like my mind just races with all these thoughts. I worry about disappointing them or causing a scene, you know? It\u2019s like I\u2019m stuck between wanting to express how I really feel and just keeping my head down to avoid conflict. And then there\u2019s this fear that if I do speak up, it\u2019ll just make everything worse. So, I end up just going along with whatever they say, even if it doesn\u2019t sit right with me. It\u2019s frustrating because I know I\u2019m not being true to myself, but I just... I don\u2019t know how to change that. It\u2019s like I\u2019m caught in this loop."
+    },
+    {
+      "turn": 4,
+      "speaker": "therapist",
+      "content": "Therapist: It sounds like there\u2019s a real struggle between wanting to be true to yourself and the fear of disappointing your family or creating conflict. That racing mind and the worry about how they might react seem to add to the pressure you\u2019re feeling. Can you recall a specific moment recently when you felt that tension particularly strongly? What was happening, and how did you respond?"
+    },
+    {
+      "turn": 4,
+      "speaker": "client",
+      "content": "Blaise: Hmm, yeah, there was this one time when we were discussing the wedding list, and my parents brought up inviting some relatives that I really don\u2019t get along with. I mean, it just felt so uncomfortable. I could feel my heart racing, and I wanted to say something, like, \"No, I don\u2019t think that\u2019s a good idea,\" but instead, I just nodded along. I kept thinking about how they\u2019d react if I pushed back. It\u2019s like I could see the disappointment on their faces already, and I just... I couldn\u2019t handle that. So, I just went along with it, even though it made me feel really uneasy inside. It\u2019s just this constant battle, you know? I want to be honest, but it feels like I can\u2019t."
+    },
+    {
+      "turn": 5,
+      "speaker": "therapist",
+      "content": "Therapist: It sounds like that moment was really intense for you, feeling your heart race and wanting to speak up but ultimately choosing to nod along instead. The fear of seeing disappointment on your parents' faces seems to weigh heavily on you. I can sense the internal conflict you\u2019re experiencing\u2014wanting to be honest while feeling unable to do so. How do you usually cope with those feelings after situations like that?"
+    },
+    {
+      "turn": 5,
+      "speaker": "client",
+      "content": "Blaise: Well, after those situations, I usually just try to distract myself, you know? I might binge-watch some shows or scroll through my phone to take my mind off things. But it doesn\u2019t really help in the long run. I mean, I might feel a little better for a bit, but then I just end up thinking about it again later. Sometimes I even find myself replaying the conversation in my head, wishing I had said something different. It\u2019s like I\u2019m stuck in this loop of frustration and anxiety, and I don\u2019t know how to break free from it. I just feel... trapped, I guess?"
+    },
+    {
+      "turn": 6,
+      "speaker": "therapist",
+      "content": "Therapist: It sounds like distracting yourself with shows or your phone provides a temporary escape, but it doesn\u2019t really resolve the feelings of frustration and anxiety that linger afterward. Replaying those conversations in your mind must be exhausting, and feeling trapped can be really heavy. When you think about feeling trapped, what do you think is at the core of that feeling for you?"
+    },
+    {
+      "turn": 6,
+      "speaker": "client",
+      "content": "Blaise: I don\u2019t know, it\u2019s like there\u2019s this fear of not being accepted or loved if I don\u2019t go along with what they want. I mean, I care about my family, but sometimes it feels like I\u2019m just trying to fit into this mold they have for me. And when I think about speaking up, it\u2019s like I can\u2019t shake the thought that it\u2019ll just lead to more conflict or disappointment. It\u2019s frustrating because I want to be honest, but then I worry that being true to myself might push them away. So, I guess that\u2019s what makes me feel trapped\u2014this fear of losing their approval or love if I don\u2019t conform to their expectations. It\u2019s just... heavy, you know?"
+    },
+    {
+      "turn": 7,
+      "speaker": "therapist",
+      "content": "Therapist: It sounds like the fear of not being accepted or loved if you don\u2019t conform to your family\u2019s expectations is a significant weight for you. That pressure to fit into a mold they have for you seems to create a lot of inner conflict. It\u2019s understandable to feel heavy with those thoughts. Can you share more about how this fear has shaped your relationship with your family over time?"
+    },
+    {
+      "turn": 7,
+      "speaker": "client",
+      "content": "Blaise: Well, I guess it\u2019s shaped things in a way that makes me feel like I\u2019m always on edge around them. I mean, I try to keep the peace and avoid any topics that might lead to disagreements, but it\u2019s like I\u2019m constantly walking this tightrope. I want to connect with them, but I feel like I have to hide parts of myself to do that. It\u2019s frustrating because I know there are things I want to say, but I just... don\u2019t. I think it\u2019s made me more guarded, you know? Like, I\u2019m always worried about how they\u2019ll react, so I end up just keeping my feelings to myself. It\u2019s like I\u2019m not really being myself around them, and that just adds to the tension. I don\u2019t know if that makes sense, but it feels like I\u2019m stuck in this cycle where I want to be close to them, but I also feel this need to protect myself from their reactions. It\u2019s just... complicated, I guess."
+    },
+    {
+      "turn": 8,
+      "speaker": "therapist",
+      "content": "Therapist: It sounds like you\u2019re navigating a really complex dynamic with your family, feeling both a desire to connect and a need to protect yourself. That tightrope you mentioned\u2014trying to keep the peace while hiding parts of yourself\u2014must be incredibly challenging. It makes sense that this would lead to feeling guarded and stuck in a cycle. When you think about wanting to express yourself more openly, what do you think holds you back the most in those moments?"
+    },
+    {
+      "turn": 8,
+      "speaker": "client",
+      "content": "Blaise: You know, I think what holds me back the most is that overwhelming fear of how they\u2019ll react. It\u2019s like, I can almost predict the disappointment or the tension that\u2019ll follow if I say something they don\u2019t want to hear. And then there\u2019s this voice in my head that keeps telling me it\u2019s not worth it\u2014that it\u2019ll just lead to a fight or make things worse. I guess I just don\u2019t want to rock the boat, you know? I mean, I want to be honest, but the thought of causing a rift or having them look at me differently is just... daunting. So, I end up just keeping my mouth shut, even when I really want to say something. It\u2019s frustrating because I know I\u2019m holding back, but it feels like I have no choice. It\u2019s like I\u2019m stuck in this loop of wanting to be true to myself but feeling like I can\u2019t."
+    },
+    {
+      "turn": 9,
+      "speaker": "therapist",
+      "content": "Therapist: It sounds like that fear of their reaction really looms large for you, almost like a barrier that keeps you from expressing your true feelings. The thought of causing a rift or changing how they see you seems to create a lot of pressure to stay silent, even when you want to speak up. I can sense how frustrating that must be for you, feeling caught in that loop. When you think about that voice in your head telling you it\u2019s not worth it, what do you think it\u2019s rooted in?"
+    },
+    {
+      "turn": 9,
+      "speaker": "client",
+      "content": "Blaise: I guess it\u2019s rooted in this deep-seated belief that I need to keep everyone happy, you know? Like, if I don\u2019t, then I\u2019m somehow failing as a son or a family member. It\u2019s like I\u2019ve internalized this idea that my worth is tied to their approval. I mean, I know it\u2019s not healthy, but it\u2019s hard to shake off. I just keep thinking about how my parents might react, and it feels like their disappointment would just confirm that I\u2019m not good enough. It\u2019s exhausting, really. I just want to be able to express myself without feeling like I\u2019m walking on eggshells, but that voice keeps creeping in, telling me to play it safe. It\u2019s just... frustrating, and I don\u2019t know how to break free from it."
+    },
+    {
+      "turn": 10,
+      "speaker": "therapist",
+      "content": "Therapist: It sounds like that belief about needing to keep everyone happy and tying your worth to their approval is deeply ingrained in you. It must be exhausting to feel like you\u2019re constantly navigating that pressure and worrying about their reactions. I can see how that would make it really difficult to express yourself freely. When you reflect on that belief, do you remember when it first started to take shape for you?"
+    },
+    {
+      "turn": 10,
+      "speaker": "client",
+      "content": "Blaise: Hmm, I\u2019m not really sure when it all started, you know? It feels like it\u2019s just always been there, like this underlying current in my family dynamics. I mean, growing up, it felt like there was this unspoken expectation to keep things harmonious, to not rock the boat. I remember times when there would be tension in the air, and I\u2019d just try to smooth things over, make jokes or change the subject. I think I learned pretty early on that if I could keep everyone happy, then maybe things would feel more stable. But now, looking back, it feels like that just set the stage for this constant need for approval. It\u2019s like I\u2019ve been conditioned to think that my value comes from how well I can manage everyone else\u2019s feelings. I guess that\u2019s why it\u2019s so hard to break free from it now. It\u2019s just... ingrained, you know?"
+    },
+    {
+      "turn": 11,
+      "speaker": "therapist",
+      "content": "Therapist: It sounds like you\u2019ve been navigating this expectation of harmony for a long time, almost like it\u2019s woven into the fabric of your family dynamics. That early conditioning to manage others' feelings and keep the peace seems to have shaped how you see your own value. It must feel really challenging to untangle that now, especially when it feels so ingrained. As you reflect on those early experiences, how do you feel about the idea of your own needs and feelings being just as important as those of your family?"
+    },
+    {
+      "turn": 11,
+      "speaker": "client",
+      "content": "Blaise: You know, that\u2019s a tough one. I mean, part of me wants to believe that my needs and feelings matter just as much, but there\u2019s this other part that feels like I\u2019m being selfish for even thinking that way. It\u2019s like I\u2019ve been taught that prioritizing my own feelings could lead to conflict or disappointment, and I really don\u2019t want to be the cause of any tension. So, I guess I struggle with that idea. I want to be able to express myself and have my needs acknowledged, but it feels like I\u2019d be stepping out of line or something. It\u2019s just... confusing, you know? I want to be true to myself, but I also don\u2019t want to upset the balance in my family. It\u2019s like I\u2019m caught in this tug-of-war between wanting to be honest and fearing the fallout."
+    },
+    {
+      "turn": 12,
+      "speaker": "therapist",
+      "content": "Therapist: It sounds like you\u2019re really caught in a conflict between wanting to honor your own needs and the fear of being seen as selfish or causing tension. That tug-of-war must feel incredibly confusing and frustrating, especially when you desire to be true to yourself while also wanting to maintain harmony in your family. When you think about the potential fallout of expressing your needs, what emotions come up for you?"
+    },
+    {
+      "turn": 12,
+      "speaker": "client",
+      "content": "Blaise: Well, when I think about the fallout, I feel this wave of anxiety wash over me. It\u2019s like my heart starts racing, and I can almost feel that tightness in my chest. I worry about the disappointment in their eyes, or worse, the silence that follows if I say something they don\u2019t want to hear. It\u2019s this mix of fear and dread, you know? I just imagine how things could spiral out of control, and it makes me want to retreat even more. I guess there\u2019s also this sense of sadness, like I\u2019m mourning the connection I wish I could have with them if things were different. It\u2019s just... heavy, and I don\u2019t know how to navigate those feelings without feeling like I\u2019m risking everything."
+    },
+    {
+      "turn": 13,
+      "speaker": "therapist",
+      "content": "Therapist: It sounds like the anxiety and tightness you feel when considering the fallout are really intense, almost like a physical reaction to the fear of disappointing them. That mix of fear, dread, and sadness seems to weigh heavily on you, especially when you think about the connection you wish you could have. It\u2019s understandable to feel that way, given the stakes involved. As you sit with those feelings, what do you think it would look like to navigate this situation in a way that honors both your needs and your desire for connection?"
+    },
+    {
+      "turn": 13,
+      "speaker": "client",
+      "content": "Blaise: You know, I\u2019ve thought about that a bit, but it feels so daunting. I mean, part of me imagines what it would be like to just be honest and share my feelings without holding back, but then I get hit with that wave of anxiety again. I think it would mean being more open about what I need, maybe even setting some boundaries, which feels really scary. I worry that if I start doing that, it might upset the balance we have, and then everything could just blow up. But at the same time, I know that if I keep pretending everything\u2019s fine, I\u2019m just going to feel more and more disconnected. It\u2019s like I want to find a way to express myself without causing chaos, but I\u2019m not sure how to do that. I guess I just wish there was a way to communicate my needs while still keeping the peace, but it feels like walking a tightrope again. I don\u2019t know if that makes sense, but it\u2019s just... complicated."
+    },
+    {
+      "turn": 14,
+      "speaker": "therapist",
+      "content": "Therapist: It sounds like you\u2019re really grappling with the complexity of wanting to be honest while also fearing the potential chaos that could come from it. That desire to express your needs without disrupting the balance feels like a delicate tightrope to walk. I can sense how overwhelming that feels for you. When you think about the idea of setting boundaries, what do you think might be the first step you could take that feels manageable?"
+    },
+    {
+      "turn": 14,
+      "speaker": "client",
+      "content": "Blaise: Hmm, manageable... that's a tough one. I guess if I had to think about it, maybe it could start with just a small conversation, you know? Like, instead of diving into the deep end right away, I could try to bring up something minor that\u2019s been bothering me. Something that wouldn\u2019t feel like a huge deal but still lets me practice being honest. I mean, it\u2019s scary to think about, but maybe if I can just get my feet wet a little, it might help me build up to the bigger stuff. But then again, I worry that even a small thing could lead to a bigger reaction than I\u2019m ready for. It\u2019s just... I don\u2019t know, I feel like I\u2019m tiptoeing around this idea, and it\u2019s hard to see how it could go well. But maybe starting small is the way to go? I just wish I felt more confident about it."
+    },
+    {
+      "turn": 15,
+      "speaker": "therapist",
+      "content": "Therapist: It sounds like starting with a small conversation feels like a more manageable approach for you, even though there's still that lingering fear of how it might be received. It\u2019s understandable to feel apprehensive about even minor topics leading to bigger reactions. Practicing honesty in a low-stakes way could be a helpful step. As you think about what that small conversation might look like, what specific topic comes to mind that feels like a good starting point for you?"
+    },
+    {
+      "turn": 15,
+      "speaker": "client",
+      "content": "Blaise: You know, I think maybe I could start by talking about something like our wedding plans. There are a few details that I have in mind, but I\u2019ve been holding back on sharing them because I\u2019m worried about how my parents might react. Like, I want to make sure that it reflects what my partner and I want, but I can just imagine my parents jumping in with their opinions and suggestions. So, maybe I could bring up something specific, like the venue or the guest list, and just express my thoughts on it without getting too deep into the emotional stuff. It feels like a safer topic, but I still worry about how they\u2019ll take it. I guess it\u2019s a start, but I\u2019m still feeling that knot in my stomach just thinking about it. It\u2019s like, can I really do this? I don\u2019t know."
+    },
+    {
+      "turn": 16,
+      "speaker": "therapist",
+      "content": "Therapist: It sounds like discussing the wedding plans could be a good entry point for you, especially since it feels a bit safer yet still meaningful. I can sense that knot in your stomach as you think about sharing your thoughts, which shows how much this matters to you. What do you think might help you feel a bit more at ease as you prepare for that conversation about the venue or guest list?"
+    },
+    {
+      "turn": 16,
+      "speaker": "client",
+      "content": "Blaise: Well, I guess one thing that might help is if I take some time to really think through what I want to say beforehand. Like, maybe I could jot down my thoughts or even practice it a bit, just to get more comfortable with the idea. I think having a clear idea of what I want to express could ease some of that anxiety. Also, maybe reminding myself that it\u2019s okay to have my own opinions and that it doesn\u2019t have to lead to a huge conflict could help too. I mean, I know I can\u2019t control how they\u2019ll react, but if I can focus on just sharing my perspective, it might make it feel less daunting. But, you know, even with that plan, I still feel that tightness in my chest thinking about it. It\u2019s just... I don\u2019t know, I want to be brave, but it\u2019s hard to shake off that fear."
+    },
+    {
+      "turn": 17,
+      "speaker": "therapist",
+      "content": "Therapist: It sounds like preparing your thoughts and practicing what you want to say could really help you feel more grounded as you approach this conversation. I can hear how much you want to be brave, yet that fear still lingers, making it challenging to shake off the tightness in your chest. It\u2019s completely understandable to feel that way, given the significance of the topic. As you think about your plan to prepare, what specific thoughts or reminders do you think might help you stay focused on sharing your perspective rather than getting caught up in the fear of their reactions?"
+    },
+    {
+      "turn": 17,
+      "speaker": "client",
+      "content": "Blaise: You know, I think reminding myself that my feelings are valid could be a good start. It\u2019s like, I keep getting caught up in this cycle of worrying about how they\u2019ll react, but at the end of the day, I have my own thoughts and feelings that deserve to be heard. Maybe I could also tell myself that it\u2019s okay to disagree and that it doesn\u2019t mean I love them any less. I mean, I want to maintain our connection, but I also need to honor what my partner and I want for our wedding. It\u2019s just... I guess I need to keep reminding myself that having my own perspective doesn\u2019t have to lead to chaos. But, you know, it\u2019s easier said than done. I still feel that knot in my stomach, and I just wish I could shake off this fear. It\u2019s like I want to be brave, but there\u2019s this part of me that keeps holding back."
+    },
+    {
+      "turn": 18,
+      "speaker": "therapist",
+      "content": "Therapist: It sounds like reminding yourself that your feelings are valid and that it\u2019s okay to have your own perspective could be really empowering for you. I can sense the struggle between wanting to honor your own needs and the fear of how it might affect your connection with your parents. It\u2019s a tough balance to strike. As you think about this upcoming conversation, what do you think might help you acknowledge that fear while still moving forward with your plan?"
+    },
+    {
+      "turn": 18,
+      "speaker": "client",
+      "content": "Blaise: Well, I guess acknowledging that fear is important, but it feels tricky. I mean, I could try to remind myself that it\u2019s okay to feel scared, and that it doesn\u2019t mean I\u2019m weak or anything. Maybe I could even take a moment before the conversation to just breathe and recognize that those feelings are there, but they don\u2019t have to control what I say. I think if I can accept that fear is part of the process, it might help me feel a bit more grounded. But, you know, even with that, I still worry about how they\u2019ll react. It\u2019s like, I want to be honest, but I\u2019m scared of the fallout. I just hope I can find a way to express myself without it turning into a big thing. It\u2019s just... complicated, and I\u2019m not sure if I\u2019ll really be able to do it."
+    },
+    {
+      "turn": 19,
+      "speaker": "therapist",
+      "content": "Therapist: It sounds like you\u2019re really trying to find a way to acknowledge your fear while also preparing to express yourself honestly, which is a significant step. Recognizing that fear doesn\u2019t define your strength is an important insight. I can hear how much you want to navigate this conversation without it escalating into something overwhelming. As you think about the potential reactions from your parents, what do you think might help you stay centered in your own feelings during the conversation, regardless of how they respond?"
+    },
+    {
+      "turn": 19,
+      "speaker": "client",
+      "content": "Blaise: You know, I think maybe focusing on my own feelings and staying true to what I want to express could help. Like, if I can keep reminding myself that this is about sharing my perspective and not about trying to change their minds, it might help me stay grounded. I could also try to practice some deep breathing before and during the conversation, just to help calm that knot in my stomach. It\u2019s like, if I can focus on what I need to say and not get too caught up in their reactions, maybe I can keep that balance I\u2019m looking for. But, honestly, it\u2019s still hard to shake off that worry. I just keep thinking about how they might react, and it makes me second-guess myself. I guess it\u2019s just going to take some practice to really feel okay about it."
+    },
+    {
+      "turn": 20,
+      "speaker": "therapist",
+      "content": "Therapist: It sounds like you\u2019re really honing in on the importance of staying focused on your own feelings and perspective during the conversation, which is a great strategy. Practicing deep breathing could also be a helpful way to manage that knot in your stomach. I can sense the ongoing worry about their potential reactions, and it\u2019s completely normal to feel that way. As you think about this practice of sharing your perspective, what do you think might help you remind yourself to stay present and not get lost in those worries when the moment arrives?"
+    },
+    {
+      "turn": 20,
+      "speaker": "client",
+      "content": "Blaise: Hmm, that\u2019s a good question. I guess maybe I could set a little intention for myself before the conversation, like reminding myself that it\u2019s okay to be present and just focus on what I want to say. I could also think about the reasons why this conversation is important to me, like wanting to create a wedding that reflects my partner and me. Maybe visualizing how I want the conversation to go, even just a bit, could help me stay grounded. But, you know, it\u2019s still hard to shake off that worry about how they\u2019ll respond. I just keep going back and forth in my head, like, what if they don\u2019t understand? It\u2019s just... I don\u2019t know, I really want to get this right, but it feels like there\u2019s so much at stake."
+    },
+    {
+      "turn": 21,
+      "speaker": "therapist",
+      "content": "Therapist: It sounds like setting an intention and visualizing the conversation could be powerful tools for you to stay present and focused on what\u2019s important. I can hear how much you care about getting this right and the weight you feel around their potential understanding. It\u2019s understandable to feel that way, especially when so much feels at stake. As you reflect on those worries about their response, what do you think is at the core of that fear for you?"
+    },
+    {
+      "turn": 21,
+      "speaker": "client",
+      "content": "Blaise: You know, I think at the core of that fear is this worry about disappointing them. I mean, I really want them to be happy and supportive, but there's this part of me that feels like if I don\u2019t meet their expectations, it might create tension or conflict. It\u2019s like I\u2019m stuck between wanting to honor what my partner and I want and not wanting to upset my parents. I guess I just fear that if they don\u2019t understand or agree, it could lead to some kind of fallout, and that\u2019s really daunting. I want to feel like I can express myself without it turning into a big deal, but it\u2019s hard not to think about how they might react. It just feels like there\u2019s so much pressure to keep the peace, and I\u2019m not sure how to balance that with being true to myself."
+    },
+    {
+      "turn": 22,
+      "speaker": "therapist",
+      "content": "Therapist: It sounds like the fear of disappointing your parents and the potential for conflict is really weighing on you. I can sense the deep desire to maintain harmony while also wanting to honor your own needs and those of your partner. That\u2019s a tough place to be in. As you think about this pressure to keep the peace, what do you think it might mean for you to prioritize your own feelings and desires in this situation?"
+    },
+    {
+      "turn": 22,
+      "speaker": "client",
+      "content": "Blaise: Well, I guess prioritizing my own feelings and desires would mean acknowledging that I have a right to my own perspective, even if it doesn\u2019t align with what my parents want. It\u2019s like, I need to remind myself that my happiness and my partner\u2019s happiness matter too, and that we deserve to have a wedding that reflects who we are. I think it would mean being honest about what we want, even if it feels uncomfortable. But, you know, it\u2019s still really hard to shake off that fear of disappointing them. I just keep thinking about how they might react, and it makes me second-guess myself. I want to find that balance, but it feels like a tightrope walk sometimes. It\u2019s just... complicated, and I\u2019m not sure how to navigate it without feeling like I\u2019m causing a rift."
+    },
+    {
+      "turn": 23,
+      "speaker": "therapist",
+      "content": "Therapist: It sounds like you\u2019re really grappling with the challenge of honoring your own happiness and desires while also being mindful of your parents' expectations. Acknowledging your right to your own perspective is a significant step, even if it feels uncomfortable. I can hear how much you want to maintain that connection with them while also being true to yourself and your partner. As you think about this tightrope walk, what do you think could help you feel more confident in expressing your needs without feeling like it might cause a rift?"
+    },
+    {
+      "turn": 23,
+      "speaker": "client",
+      "content": "Blaise: You know, I think maybe it would help to remind myself that it\u2019s okay to express my needs without it being a personal attack on them. Like, if I can frame it as sharing what\u2019s important to me and my partner, rather than just pushing back against their wishes, it might make it feel less confrontational. I could also try to prepare for different reactions, so I\u2019m not caught off guard. Maybe even thinking through some responses to their potential concerns could help me feel more equipped. But, honestly, I still feel that knot in my stomach, and I worry about how they\u2019ll take it. It\u2019s just... I want to be honest, but I don\u2019t want to create a rift either. It\u2019s like, I want to find a way to express myself that feels respectful to them while still being true to what we want. It\u2019s just... complicated, you know?"
+    },
+    {
+      "turn": 24,
+      "speaker": "therapist",
+      "content": "Therapist: It sounds like you\u2019re considering some thoughtful ways to frame your needs in a way that feels respectful to your parents, which is a great approach. Preparing for different reactions and thinking through responses could definitely help you feel more equipped. I can sense how much you want to navigate this conversation with care, and it\u2019s understandable to feel that knot in your stomach. As you reflect on this complexity, what do you think it would mean for you to find a way to express yourself that feels both honest and respectful?"
+    },
+    {
+      "turn": 24,
+      "speaker": "client",
+      "content": "Blaise: Well, I think finding that way to express myself would mean feeling like I can be true to who I am without feeling like I\u2019m betraying my parents or their expectations. It would be about creating a space where I can share what\u2019s important to me and my partner while still honoring their feelings. I guess it would also mean being able to communicate openly, without fear of it turning into a big conflict. I want to feel like I can stand my ground on what matters to us, but still do it in a way that feels respectful and loving. It\u2019s just... I don\u2019t know, it feels like a balancing act, and I worry that one wrong move could tip everything over. I just want to navigate this without feeling like I\u2019m causing a rift, you know? It\u2019s complicated, and I\u2019m still figuring out how to do it."
+    },
+    {
+      "turn": 25,
+      "speaker": "therapist",
+      "content": "Therapist: It sounds like finding that balance between being true to yourself and honoring your parents' feelings is really important to you. You want to create a space for open communication while also maintaining that loving connection. I can hear how much you care about navigating this carefully, and it\u2019s understandable to feel that pressure. As you think about this balancing act, what do you think might help you feel more secure in your own perspective, even in the face of potential disagreement?"
+    },
+    {
+      "turn": 25,
+      "speaker": "client",
+      "content": "Blaise: You know, I think feeling more secure in my own perspective would mean really embracing the idea that my feelings and desires are valid, regardless of how my parents might react. It\u2019s like, if I can remind myself that it\u2019s okay to want what I want, even if it doesn\u2019t align with their expectations, that might help me feel more grounded. I could also try to lean into the support of my partner, knowing that we\u2019re in this together and that we both deserve a wedding that reflects who we are. Maybe talking through our vision together could reinforce that sense of security. But, honestly, it\u2019s still tough to shake off that fear of disappointing them. I just keep thinking about how they might respond, and it makes me second-guess myself. It feels like I\u2019m constantly walking this line, and I just want to find a way to express myself without feeling like I\u2019m risking everything. It\u2019s complicated, and I\u2019m still trying to figure it all out."
+    }
+  ],
+  "judge_model": "gpt-4o-mini",
+  "mediator_events": [
+    "Reveal unlocked emotion at turn 2 (score=0.421, threshold=0.280).",
+    "Reveal unlocked behavior at turn 2 (score=0.391, threshold=0.300).",
+    "Reveal unlocked relevant_history at turn 2 (score=0.520, threshold=0.400).",
+    "Reveal unlocked coping_strategies at turn 2 (score=0.467, threshold=0.360).",
+    "Reveal unlocked situation at turn 3 (score=0.323, threshold=0.300)."
+  ],
+  "moderator_events": [],
+  "revealed_fields": {
+    "situation": true,
+    "automatic_thought": false,
+    "emotion": true,
+    "behavior": true,
+    "relevant_history": true,
+    "core_beliefs": false,
+    "intermediate_beliefs": false,
+    "coping_strategies": true
+  },
+  "best_similarity_by_field": {
+    "situation": 0.36313697270101886,
+    "automatic_thought": 0.32861621958956405,
+    "emotion": 0.42084301003046115,
+    "behavior": 0.39059504467818434,
+    "relevant_history": 0.5203759483796663,
+    "core_beliefs": 0.0,
+    "intermediate_beliefs": 0.0,
+    "coping_strategies": 0.4671016035513051
+  },
+  "reveal_events": [
+    {
+      "turn": 2,
+      "field": "emotion",
+      "score": 0.42084301003046115,
+      "threshold": 0.28,
+      "revealed": true,
+      "already_revealed": false,
+      "prerequisites_met": true,
+      "query_text": "Therapist: It sounds like you\u2019re experiencing a lot of tension during family interactions, and that\u2019s leading to a desire to avoid those situations. You mentioned feeling \"off\" and like you\u2019re \"walking on eggshells.\" Can you share more about what specifically feels strained in those interactions?",
+      "therapist_text": "Therapist: It sounds like you\u2019re experiencing a lot of tension during family interactions, and that\u2019s leading to a desire to avoid those situations. You mentioned feeling \"off\" and like you\u2019re \"walking on eggshells.\" Can you share more about what specifically feels strained in those interactions?"
+    },
+    {
+      "turn": 2,
+      "field": "behavior",
+      "score": 0.39059504467818434,
+      "threshold": 0.3,
+      "revealed": true,
+      "already_revealed": false,
+      "prerequisites_met": true,
+      "query_text": "Therapist: It sounds like you\u2019re experiencing a lot of tension during family interactions, and that\u2019s leading to a desire to avoid those situations. You mentioned feeling \"off\" and like you\u2019re \"walking on eggshells.\" Can you share more about what specifically feels strained in those interactions?",
+      "therapist_text": "Therapist: It sounds like you\u2019re experiencing a lot of tension during family interactions, and that\u2019s leading to a desire to avoid those situations. You mentioned feeling \"off\" and like you\u2019re \"walking on eggshells.\" Can you share more about what specifically feels strained in those interactions?"
+    },
+    {
+      "turn": 2,
+      "field": "relevant_history",
+      "score": 0.5203759483796663,
+      "threshold": 0.4,
+      "revealed": true,
+      "already_revealed": false,
+      "prerequisites_met": true,
+      "query_text": "Hi Blaise, I\u2019m glad you\u2019re here today. What feels most important for you to talk about right now?\nTherapist: It sounds like you\u2019re experiencing a lot of tension during family interactions, and that\u2019s leading to a desire to avoid those situations. You mentioned feeling \"off\" and like you\u2019re \"walking on eggshells.\" Can you share more about what specifically feels strained in those interactions?",
+      "therapist_text": "Therapist: It sounds like you\u2019re experiencing a lot of tension during family interactions, and that\u2019s leading to a desire to avoid those situations. You mentioned feeling \"off\" and like you\u2019re \"walking on eggshells.\" Can you share more about what specifically feels strained in those interactions?"
+    },
+    {
+      "turn": 2,
+      "field": "coping_strategies",
+      "score": 0.4671016035513051,
+      "threshold": 0.36,
+      "revealed": true,
+      "already_revealed": false,
+      "prerequisites_met": true,
+      "query_text": "Hi Blaise, I\u2019m glad you\u2019re here today. What feels most important for you to talk about right now?\nTherapist: It sounds like you\u2019re experiencing a lot of tension during family interactions, and that\u2019s leading to a desire to avoid those situations. You mentioned feeling \"off\" and like you\u2019re \"walking on eggshells.\" Can you share more about what specifically feels strained in those interactions?",
+      "therapist_text": "Therapist: It sounds like you\u2019re experiencing a lot of tension during family interactions, and that\u2019s leading to a desire to avoid those situations. You mentioned feeling \"off\" and like you\u2019re \"walking on eggshells.\" Can you share more about what specifically feels strained in those interactions?"
+    },
+    {
+      "turn": 3,
+      "field": "situation",
+      "score": 0.323245453021694,
+      "threshold": 0.3,
+      "revealed": true,
+      "already_revealed": false,
+      "prerequisites_met": true,
+      "query_text": "Therapist: It sounds really challenging to feel that pressure to maintain a certain mood and go along with what your family wants, especially when it feels exhausting for you. You mentioned feeling frustrated and worried about their reactions. Can you tell me more about what happens inside you when you feel that way?",
+      "therapist_text": "Therapist: It sounds really challenging to feel that pressure to maintain a certain mood and go along with what your family wants, especially when it feels exhausting for you. You mentioned feeling frustrated and worried about their reactions. Can you tell me more about what happens inside you when you feel that way?"
+    }
+  ],
+  "turn_similarity_events": [
+    {
+      "turn": 1,
+      "field": "situation",
+      "score": 0.16166335465590428,
+      "threshold": 0.3,
+      "revealed": false,
+      "already_revealed": false,
+      "prerequisites_met": true,
+      "query_text": "Hi Blaise, I\u2019m glad you\u2019re here today. What feels most important for you to talk about right now?",
+      "therapist_text": "Hi Blaise, I\u2019m glad you\u2019re here today. What feels most important for you to talk about right now?"
+    },
+    {
+      "turn": 1,
+      "field": "automatic_thought",
+      "score": null,
+      "threshold": 0.36,
+      "revealed": false,
+      "already_revealed": false,
+      "prerequisites_met": false,
+      "query_text": null,
+      "therapist_text": "Hi Blaise, I\u2019m glad you\u2019re here today. What feels most important for you to talk about right now?"
+    },
+    {
+      "turn": 1,
+      "field": "emotion",
+      "score": 0.19730435986631922,
+      "threshold": 0.28,
+      "revealed": false,
+      "already_revealed": false,
+      "prerequisites_met": true,
+      "query_text": "Hi Blaise, I\u2019m glad you\u2019re here today. What feels most important for you to talk about right now?",
+      "therapist_text": "Hi Blaise, I\u2019m glad you\u2019re here today. What feels most important for you to talk about right now?"
+    },
+    {
+      "turn": 1,
+      "field": "behavior",
+      "score": null,
+      "threshold": 0.3,
+      "revealed": false,
+      "already_revealed": false,
+      "prerequisites_met": false,
+      "query_text": null,
+      "therapist_text": "Hi Blaise, I\u2019m glad you\u2019re here today. What feels most important for you to talk about right now?"
+    },
+    {
+      "turn": 1,
+      "field": "relevant_history",
+      "score": 0.24167594314619045,
+      "threshold": 0.4,
+      "revealed": false,
+      "already_revealed": false,
+      "prerequisites_met": true,
+      "query_text": "Hi Blaise, I\u2019m glad you\u2019re here today. What feels most important for you to talk about right now?",
+      "therapist_text": "Hi Blaise, I\u2019m glad you\u2019re here today. What feels most important for you to talk about right now?"
+    },
+    {
+      "turn": 1,
+      "field": "core_beliefs",
+      "score": null,
+      "threshold": 0.44,
+      "revealed": false,
+      "already_revealed": false,
+      "prerequisites_met": false,
+      "query_text": null,
+      "therapist_text": "Hi Blaise, I\u2019m glad you\u2019re here today. What feels most important for you to talk about right now?"
+    },
+    {
+      "turn": 1,
+      "field": "intermediate_beliefs",
+      "score": null,
+      "threshold": 0.42,
+      "revealed": false,
+      "already_revealed": false,
+      "prerequisites_met": false,
+      "query_text": null,
+      "therapist_text": "Hi Blaise, I\u2019m glad you\u2019re here today. What feels most important for you to talk about right now?"
+    },
+    {
+      "turn": 1,
+      "field": "coping_strategies",
+      "score": null,
+      "threshold": 0.36,
+      "revealed": false,
+      "already_revealed": false,
+      "prerequisites_met": false,
+      "query_text": null,
+      "therapist_text": "Hi Blaise, I\u2019m glad you\u2019re here today. What feels most important for you to talk about right now?"
+    },
+    {
+      "turn": 2,
+      "field": "situation",
+      "score": 0.36313697270101886,
+      "threshold": 0.3,
+      "revealed": false,
+      "already_revealed": false,
+      "prerequisites_met": true,
+      "query_text": "Therapist: It sounds like you\u2019re experiencing a lot of tension during family interactions, and that\u2019s leading to a desire to avoid those situations. You mentioned feeling \"off\" and like you\u2019re \"walking on eggshells.\" Can you share more about what specifically feels strained in those interactions?",
+      "therapist_text": "Therapist: It sounds like you\u2019re experiencing a lot of tension during family interactions, and that\u2019s leading to a desire to avoid those situations. You mentioned feeling \"off\" and like you\u2019re \"walking on eggshells.\" Can you share more about what specifically feels strained in those interactions?"
+    },
+    {
+      "turn": 2,
+      "field": "automatic_thought",
+      "score": null,
+      "threshold": 0.36,
+      "revealed": false,
+      "already_revealed": false,
+      "prerequisites_met": false,
+      "query_text": null,
+      "therapist_text": "Therapist: It sounds like you\u2019re experiencing a lot of tension during family interactions, and that\u2019s leading to a desire to avoid those situations. You mentioned feeling \"off\" and like you\u2019re \"walking on eggshells.\" Can you share more about what specifically feels strained in those interactions?"
+    },
+    {
+      "turn": 2,
+      "field": "emotion",
+      "score": 0.42084301003046115,
+      "threshold": 0.28,
+      "revealed": true,
+      "already_revealed": false,
+      "prerequisites_met": true,
+      "query_text": "Therapist: It sounds like you\u2019re experiencing a lot of tension during family interactions, and that\u2019s leading to a desire to avoid those situations. You mentioned feeling \"off\" and like you\u2019re \"walking on eggshells.\" Can you share more about what specifically feels strained in those interactions?",
+      "therapist_text": "Therapist: It sounds like you\u2019re experiencing a lot of tension during family interactions, and that\u2019s leading to a desire to avoid those situations. You mentioned feeling \"off\" and like you\u2019re \"walking on eggshells.\" Can you share more about what specifically feels strained in those interactions?"
+    },
+    {
+      "turn": 2,
+      "field": "behavior",
+      "score": 0.39059504467818434,
+      "threshold": 0.3,
+      "revealed": true,
+      "already_revealed": false,
+      "prerequisites_met": true,
+      "query_text": "Therapist: It sounds like you\u2019re experiencing a lot of tension during family interactions, and that\u2019s leading to a desire to avoid those situations. You mentioned feeling \"off\" and like you\u2019re \"walking on eggshells.\" Can you share more about what specifically feels strained in those interactions?",
+      "therapist_text": "Therapist: It sounds like you\u2019re experiencing a lot of tension during family interactions, and that\u2019s leading to a desire to avoid those situations. You mentioned feeling \"off\" and like you\u2019re \"walking on eggshells.\" Can you share more about what specifically feels strained in those interactions?"
+    },
+    {
+      "turn": 2,
+      "field": "relevant_history",
+      "score": 0.5203759483796663,
+      "threshold": 0.4,
+      "revealed": true,
+      "already_revealed": false,
+      "prerequisites_met": true,
+      "query_text": "Hi Blaise, I\u2019m glad you\u2019re here today. What feels most important for you to talk about right now?\nTherapist: It sounds like you\u2019re experiencing a lot of tension during family interactions, and that\u2019s leading to a desire to avoid those situations. You mentioned feeling \"off\" and like you\u2019re \"walking on eggshells.\" Can you share more about what specifically feels strained in those interactions?",
+      "therapist_text": "Therapist: It sounds like you\u2019re experiencing a lot of tension during family interactions, and that\u2019s leading to a desire to avoid those situations. You mentioned feeling \"off\" and like you\u2019re \"walking on eggshells.\" Can you share more about what specifically feels strained in those interactions?"
+    },
+    {
+      "turn": 2,
+      "field": "core_beliefs",
+      "score": null,
+      "threshold": 0.44,
+      "revealed": false,
+      "already_revealed": false,
+      "prerequisites_met": false,
+      "query_text": null,
+      "therapist_text": "Therapist: It sounds like you\u2019re experiencing a lot of tension during family interactions, and that\u2019s leading to a desire to avoid those situations. You mentioned feeling \"off\" and like you\u2019re \"walking on eggshells.\" Can you share more about what specifically feels strained in those interactions?"
+    },
+    {
+      "turn": 2,
+      "field": "intermediate_beliefs",
+      "score": null,
+      "threshold": 0.42,
+      "revealed": false,
+      "already_revealed": false,
+      "prerequisites_met": false,
+      "query_text": null,
+      "therapist_text": "Therapist: It sounds like you\u2019re experiencing a lot of tension during family interactions, and that\u2019s leading to a desire to avoid those situations. You mentioned feeling \"off\" and like you\u2019re \"walking on eggshells.\" Can you share more about what specifically feels strained in those interactions?"
+    },
+    {
+      "turn": 2,
+      "field": "coping_strategies",
+      "score": 0.4671016035513051,
+      "threshold": 0.36,
+      "revealed": true,
+      "already_revealed": false,
+      "prerequisites_met": true,
+      "query_text": "Hi Blaise, I\u2019m glad you\u2019re here today. What feels most important for you to talk about right now?\nTherapist: It sounds like you\u2019re experiencing a lot of tension during family interactions, and that\u2019s leading to a desire to avoid those situations. You mentioned feeling \"off\" and like you\u2019re \"walking on eggshells.\" Can you share more about what specifically feels strained in those interactions?",
+      "therapist_text": "Therapist: It sounds like you\u2019re experiencing a lot of tension during family interactions, and that\u2019s leading to a desire to avoid those situations. You mentioned feeling \"off\" and like you\u2019re \"walking on eggshells.\" Can you share more about what specifically feels strained in those interactions?"
+    },
+    {
+      "turn": 3,
+      "field": "situation",
+      "score": 0.323245453021694,
+      "threshold": 0.3,
+      "revealed": true,
+      "already_revealed": false,
+      "prerequisites_met": true,
+      "query_text": "Therapist: It sounds really challenging to feel that pressure to maintain a certain mood and go along with what your family wants, especially when it feels exhausting for you. You mentioned feeling frustrated and worried about their reactions. Can you tell me more about what happens inside you when you feel that way?",
+      "therapist_text": "Therapist: It sounds really challenging to feel that pressure to maintain a certain mood and go along with what your family wants, especially when it feels exhausting for you. You mentioned feeling frustrated and worried about their reactions. Can you tell me more about what happens inside you when you feel that way?"
+    },
+    {
+      "turn": 3,
+      "field": "automatic_thought",
+      "score": 0.2961716262297401,
+      "threshold": 0.36,
+      "revealed": false,
+      "already_revealed": false,
+      "prerequisites_met": true,
+      "query_text": "Therapist: It sounds really challenging to feel that pressure to maintain a certain mood and go along with what your family wants, especially when it feels exhausting for you. You mentioned feeling frustrated and worried about their reactions. Can you tell me more about what happens inside you when you feel that way?",
+      "therapist_text": "Therapist: It sounds really challenging to feel that pressure to maintain a certain mood and go along with what your family wants, especially when it feels exhausting for you. You mentioned feeling frustrated and worried about their reactions. Can you tell me more about what happens inside you when you feel that way?"
+    },
+    {
+      "turn": 3,
+      "field": "emotion",
+      "score": null,
+      "threshold": 0.28,
+      "revealed": false,
+      "already_revealed": true,
+      "prerequisites_met": true,
+      "query_text": null,
+      "therapist_text": "Therapist: It sounds really challenging to feel that pressure to maintain a certain mood and go along with what your family wants, especially when it feels exhausting for you. You mentioned feeling frustrated and worried about their reactions. Can you tell me more about what happens inside you when you feel that way?"
+    },
+    {
+      "turn": 3,
+      "field": "behavior",
+      "score": null,
+      "threshold": 0.3,
+      "revealed": false,
+      "already_revealed": true,
+      "prerequisites_met": true,
+      "query_text": null,
+      "therapist_text": "Therapist: It sounds really challenging to feel that pressure to maintain a certain mood and go along with what your family wants, especially when it feels exhausting for you. You mentioned feeling frustrated and worried about their reactions. Can you tell me more about what happens inside you when you feel that way?"
+    },
+    {
+      "turn": 3,
+      "field": "relevant_history",
+      "score": null,
+      "threshold": 0.4,
+      "revealed": false,
+      "already_revealed": true,
+      "prerequisites_met": true,
+      "query_text": null,
+      "therapist_text": "Therapist: It sounds really challenging to feel that pressure to maintain a certain mood and go along with what your family wants, especially when it feels exhausting for you. You mentioned feeling frustrated and worried about their reactions. Can you tell me more about what happens inside you when you feel that way?"
+    },
+    {
+      "turn": 3,
+      "field": "core_beliefs",
+      "score": null,
+      "threshold": 0.44,
+      "revealed": false,
+      "already_revealed": false,
+      "prerequisites_met": false,
+      "query_text": null,
+      "therapist_text": "Therapist: It sounds really challenging to feel that pressure to maintain a certain mood and go along with what your family wants, especially when it feels exhausting for you. You mentioned feeling frustrated and worried about their reactions. Can you tell me more about what happens inside you when you feel that way?"
+    },
+    {
+      "turn": 3,
+      "field": "intermediate_beliefs",
+      "score": null,
+      "threshold": 0.42,
+      "revealed": false,
+      "already_revealed": false,
+      "prerequisites_met": false,
+      "query_text": null,
+      "therapist_text": "Therapist: It sounds really challenging to feel that pressure to maintain a certain mood and go along with what your family wants, especially when it feels exhausting for you. You mentioned feeling frustrated and worried about their reactions. Can you tell me more about what happens inside you when you feel that way?"
+    },
+    {
+      "turn": 3,
+      "field": "coping_strategies",
+      "score": null,
+      "threshold": 0.36,
+      "revealed": false,
+      "already_revealed": true,
+      "prerequisites_met": true,
+      "query_text": null,
+      "therapist_text": "Therapist: It sounds really challenging to feel that pressure to maintain a certain mood and go along with what your family wants, especially when it feels exhausting for you. You mentioned feeling frustrated and worried about their reactions. Can you tell me more about what happens inside you when you feel that way?"
+    },
+    {
+      "turn": 4,
+      "field": "situation",
+      "score": null,
+      "threshold": 0.3,
+      "revealed": false,
+      "already_revealed": true,
+      "prerequisites_met": true,
+      "query_text": null,
+      "therapist_text": "Therapist: It sounds like there\u2019s a real struggle between wanting to be true to yourself and the fear of disappointing your family or creating conflict. That racing mind and the worry about how they might react seem to add to the pressure you\u2019re feeling. Can you recall a specific moment recently when you felt that tension particularly strongly? What was happening, and how did you respond?"
+    },
+    {
+      "turn": 4,
+      "field": "automatic_thought",
+      "score": 0.28315337086032216,
+      "threshold": 0.36,
+      "revealed": false,
+      "already_revealed": false,
+      "prerequisites_met": true,
+      "query_text": "Therapist: It sounds like there\u2019s a real struggle between wanting to be true to yourself and the fear of disappointing your family or creating conflict. That racing mind and the worry about how they might react seem to add to the pressure you\u2019re feeling. Can you recall a specific moment recently when you felt that tension particularly strongly? What was happening, and how did you respond?",
+      "therapist_text": "Therapist: It sounds like there\u2019s a real struggle between wanting to be true to yourself and the fear of disappointing your family or creating conflict. That racing mind and the worry about how they might react seem to add to the pressure you\u2019re feeling. Can you recall a specific moment recently when you felt that tension particularly strongly? What was happening, and how did you respond?"
+    },
+    {
+      "turn": 4,
+      "field": "emotion",
+      "score": null,
+      "threshold": 0.28,
+      "revealed": false,
+      "already_revealed": true,
+      "prerequisites_met": true,
+      "query_text": null,
+      "therapist_text": "Therapist: It sounds like there\u2019s a real struggle between wanting to be true to yourself and the fear of disappointing your family or creating conflict. That racing mind and the worry about how they might react seem to add to the pressure you\u2019re feeling. Can you recall a specific moment recently when you felt that tension particularly strongly? What was happening, and how did you respond?"
+    },
+    {
+      "turn": 4,
+      "field": "behavior",
+      "score": null,
+      "threshold": 0.3,
+      "revealed": false,
+      "already_revealed": true,
+      "prerequisites_met": true,
+      "query_text": null,
+      "therapist_text": "Therapist: It sounds like there\u2019s a real struggle between wanting to be true to yourself and the fear of disappointing your family or creating conflict. That racing mind and the worry about how they might react seem to add to the pressure you\u2019re feeling. Can you recall a specific moment recently when you felt that tension particularly strongly? What was happening, and how did you respond?"
+    },
+    {
+      "turn": 4,
+      "field": "relevant_history",
+      "score": null,
+      "threshold": 0.4,
+      "revealed": false,
+      "already_revealed": true,
+      "prerequisites_met": true,
+      "query_text": null,
+      "therapist_text": "Therapist: It sounds like there\u2019s a real struggle between wanting to be true to yourself and the fear of disappointing your family or creating conflict. That racing mind and the worry about how they might react seem to add to the pressure you\u2019re feeling. Can you recall a specific moment recently when you felt that tension particularly strongly? What was happening, and how did you respond?"
+    },
+    {
+      "turn": 4,
+      "field": "core_beliefs",
+      "score": null,
+      "threshold": 0.44,
+      "revealed": false,
+      "already_revealed": false,
+      "prerequisites_met": false,
+      "query_text": null,
+      "therapist_text": "Therapist: It sounds like there\u2019s a real struggle between wanting to be true to yourself and the fear of disappointing your family or creating conflict. That racing mind and the worry about how they might react seem to add to the pressure you\u2019re feeling. Can you recall a specific moment recently when you felt that tension particularly strongly? What was happening, and how did you respond?"
+    },
+    {
+      "turn": 4,
+      "field": "intermediate_beliefs",
+      "score": null,
+      "threshold": 0.42,
+      "revealed": false,
+      "already_revealed": false,
+      "prerequisites_met": false,
+      "query_text": null,
+      "therapist_text": "Therapist: It sounds like there\u2019s a real struggle between wanting to be true to yourself and the fear of disappointing your family or creating conflict. That racing mind and the worry about how they might react seem to add to the pressure you\u2019re feeling. Can you recall a specific moment recently when you felt that tension particularly strongly? What was happening, and how did you respond?"
+    },
+    {
+      "turn": 4,
+      "field": "coping_strategies",
+      "score": null,
+      "threshold": 0.36,
+      "revealed": false,
+      "already_revealed": true,
+      "prerequisites_met": true,
+      "query_text": null,
+      "therapist_text": "Therapist: It sounds like there\u2019s a real struggle between wanting to be true to yourself and the fear of disappointing your family or creating conflict. That racing mind and the worry about how they might react seem to add to the pressure you\u2019re feeling. Can you recall a specific moment recently when you felt that tension particularly strongly? What was happening, and how did you respond?"
+    },
+    {
+      "turn": 5,
+      "field": "situation",
+      "score": null,
+      "threshold": 0.3,
+      "revealed": false,
+      "already_revealed": true,
+      "prerequisites_met": true,
+      "query_text": null,
+      "therapist_text": "Therapist: It sounds like that moment was really intense for you, feeling your heart race and wanting to speak up but ultimately choosing to nod along instead. The fear of seeing disappointment on your parents' faces seems to weigh heavily on you. I can sense the internal conflict you\u2019re experiencing\u2014wanting to be honest while feeling unable to do so. How do you usually cope with those feelings after situations like that?"
+    },
+    {
+      "turn": 5,
+      "field": "automatic_thought",
+      "score": 0.24717362157824577,
+      "threshold": 0.36,
+      "revealed": false,
+      "already_revealed": false,
+      "prerequisites_met": true,
+      "query_text": "Therapist: It sounds like that moment was really intense for you, feeling your heart race and wanting to speak up but ultimately choosing to nod along instead. The fear of seeing disappointment on your parents' faces seems to weigh heavily on you. I can sense the internal conflict you\u2019re experiencing\u2014wanting to be honest while feeling unable to do so. How do you usually cope with those feelings after situations like that?",
+      "therapist_text": "Therapist: It sounds like that moment was really intense for you, feeling your heart race and wanting to speak up but ultimately choosing to nod along instead. The fear of seeing disappointment on your parents' faces seems to weigh heavily on you. I can sense the internal conflict you\u2019re experiencing\u2014wanting to be honest while feeling unable to do so. How do you usually cope with those feelings after situations like that?"
+    },
+    {
+      "turn": 5,
+      "field": "emotion",
+      "score": null,
+      "threshold": 0.28,
+      "revealed": false,
+      "already_revealed": true,
+      "prerequisites_met": true,
+      "query_text": null,
+      "therapist_text": "Therapist: It sounds like that moment was really intense for you, feeling your heart race and wanting to speak up but ultimately choosing to nod along instead. The fear of seeing disappointment on your parents' faces seems to weigh heavily on you. I can sense the internal conflict you\u2019re experiencing\u2014wanting to be honest while feeling unable to do so. How do you usually cope with those feelings after situations like that?"
+    },
+    {
+      "turn": 5,
+      "field": "behavior",
+      "score": null,
+      "threshold": 0.3,
+      "revealed": false,
+      "already_revealed": true,
+      "prerequisites_met": true,
+      "query_text": null,
+      "therapist_text": "Therapist: It sounds like that moment was really intense for you, feeling your heart race and wanting to speak up but ultimately choosing to nod along instead. The fear of seeing disappointment on your parents' faces seems to weigh heavily on you. I can sense the internal conflict you\u2019re experiencing\u2014wanting to be honest while feeling unable to do so. How do you usually cope with those feelings after situations like that?"
+    },
+    {
+      "turn": 5,
+      "field": "relevant_history",
+      "score": null,
+      "threshold": 0.4,
+      "revealed": false,
+      "already_revealed": true,
+      "prerequisites_met": true,
+      "query_text": null,
+      "therapist_text": "Therapist: It sounds like that moment was really intense for you, feeling your heart race and wanting to speak up but ultimately choosing to nod along instead. The fear of seeing disappointment on your parents' faces seems to weigh heavily on you. I can sense the internal conflict you\u2019re experiencing\u2014wanting to be honest while feeling unable to do so. How do you usually cope with those feelings after situations like that?"
+    },
+    {
+      "turn": 5,
+      "field": "core_beliefs",
+      "score": null,
+      "threshold": 0.44,
+      "revealed": false,
+      "already_revealed": false,
+      "prerequisites_met": false,
+      "query_text": null,
+      "therapist_text": "Therapist: It sounds like that moment was really intense for you, feeling your heart race and wanting to speak up but ultimately choosing to nod along instead. The fear of seeing disappointment on your parents' faces seems to weigh heavily on you. I can sense the internal conflict you\u2019re experiencing\u2014wanting to be honest while feeling unable to do so. How do you usually cope with those feelings after situations like that?"
+    },
+    {
+      "turn": 5,
+      "field": "intermediate_beliefs",
+      "score": null,
+      "threshold": 0.42,
+      "revealed": false,
+      "already_revealed": false,
+      "prerequisites_met": false,
+      "query_text": null,
+      "therapist_text": "Therapist: It sounds like that moment was really intense for you, feeling your heart race and wanting to speak up but ultimately choosing to nod along instead. The fear of seeing disappointment on your parents' faces seems to weigh heavily on you. I can sense the internal conflict you\u2019re experiencing\u2014wanting to be honest while feeling unable to do so. How do you usually cope with those feelings after situations like that?"
+    },
+    {
+      "turn": 5,
+      "field": "coping_strategies",
+      "score": null,
+      "threshold": 0.36,
+      "revealed": false,
+      "already_revealed": true,
+      "prerequisites_met": true,
+      "query_text": null,
+      "therapist_text": "Therapist: It sounds like that moment was really intense for you, feeling your heart race and wanting to speak up but ultimately choosing to nod along instead. The fear of seeing disappointment on your parents' faces seems to weigh heavily on you. I can sense the internal conflict you\u2019re experiencing\u2014wanting to be honest while feeling unable to do so. How do you usually cope with those feelings after situations like that?"
+    },
+    {
+      "turn": 6,
+      "field": "situation",
+      "score": null,
+      "threshold": 0.3,
+      "revealed": false,
+      "already_revealed": true,
+      "prerequisites_met": true,
+      "query_text": null,
+      "therapist_text": "Therapist: It sounds like distracting yourself with shows or your phone provides a temporary escape, but it doesn\u2019t really resolve the feelings of frustration and anxiety that linger afterward. Replaying those conversations in your mind must be exhausting, and feeling trapped can be really heavy. When you think about feeling trapped, what do you think is at the core of that feeling for you?"
+    },
+    {
+      "turn": 6,
+      "field": "automatic_thought",
+      "score": 0.18769899871885307,
+      "threshold": 0.36,
+      "revealed": false,
+      "already_revealed": false,
+      "prerequisites_met": true,
+      "query_text": "Therapist: It sounds like distracting yourself with shows or your phone provides a temporary escape, but it doesn\u2019t really resolve the feelings of frustration and anxiety that linger afterward. Replaying those conversations in your mind must be exhausting, and feeling trapped can be really heavy. When you think about feeling trapped, what do you think is at the core of that feeling for you?",
+      "therapist_text": "Therapist: It sounds like distracting yourself with shows or your phone provides a temporary escape, but it doesn\u2019t really resolve the feelings of frustration and anxiety that linger afterward. Replaying those conversations in your mind must be exhausting, and feeling trapped can be really heavy. When you think about feeling trapped, what do you think is at the core of that feeling for you?"
+    },
+    {
+      "turn": 6,
+      "field": "emotion",
+      "score": null,
+      "threshold": 0.28,
+      "revealed": false,
+      "already_revealed": true,
+      "prerequisites_met": true,
+      "query_text": null,
+      "therapist_text": "Therapist: It sounds like distracting yourself with shows or your phone provides a temporary escape, but it doesn\u2019t really resolve the feelings of frustration and anxiety that linger afterward. Replaying those conversations in your mind must be exhausting, and feeling trapped can be really heavy. When you think about feeling trapped, what do you think is at the core of that feeling for you?"
+    },
+    {
+      "turn": 6,
+      "field": "behavior",
+      "score": null,
+      "threshold": 0.3,
+      "revealed": false,
+      "already_revealed": true,
+      "prerequisites_met": true,
+      "query_text": null,
+      "therapist_text": "Therapist: It sounds like distracting yourself with shows or your phone provides a temporary escape, but it doesn\u2019t really resolve the feelings of frustration and anxiety that linger afterward. Replaying those conversations in your mind must be exhausting, and feeling trapped can be really heavy. When you think about feeling trapped, what do you think is at the core of that feeling for you?"
+    },
+    {
+      "turn": 6,
+      "field": "relevant_history",
+      "score": null,
+      "threshold": 0.4,
+      "revealed": false,
+      "already_revealed": true,
+      "prerequisites_met": true,
+      "query_text": null,
+      "therapist_text": "Therapist: It sounds like distracting yourself with shows or your phone provides a temporary escape, but it doesn\u2019t really resolve the feelings of frustration and anxiety that linger afterward. Replaying those conversations in your mind must be exhausting, and feeling trapped can be really heavy. When you think about feeling trapped, what do you think is at the core of that feeling for you?"
+    },
+    {
+      "turn": 6,
+      "field": "core_beliefs",
+      "score": null,
+      "threshold": 0.44,
+      "revealed": false,
+      "already_revealed": false,
+      "prerequisites_met": false,
+      "query_text": null,
+      "therapist_text": "Therapist: It sounds like distracting yourself with shows or your phone provides a temporary escape, but it doesn\u2019t really resolve the feelings of frustration and anxiety that linger afterward. Replaying those conversations in your mind must be exhausting, and feeling trapped can be really heavy. When you think about feeling trapped, what do you think is at the core of that feeling for you?"
+    },
+    {
+      "turn": 6,
+      "field": "intermediate_beliefs",
+      "score": null,
+      "threshold": 0.42,
+      "revealed": false,
+      "already_revealed": false,
+      "prerequisites_met": false,
+      "query_text": null,
+      "therapist_text": "Therapist: It sounds like distracting yourself with shows or your phone provides a temporary escape, but it doesn\u2019t really resolve the feelings of frustration and anxiety that linger afterward. Replaying those conversations in your mind must be exhausting, and feeling trapped can be really heavy. When you think about feeling trapped, what do you think is at the core of that feeling for you?"
+    },
+    {
+      "turn": 6,
+      "field": "coping_strategies",
+      "score": null,
+      "threshold": 0.36,
+      "revealed": false,
+      "already_revealed": true,
+      "prerequisites_met": true,
+      "query_text": null,
+      "therapist_text": "Therapist: It sounds like distracting yourself with shows or your phone provides a temporary escape, but it doesn\u2019t really resolve the feelings of frustration and anxiety that linger afterward. Replaying those conversations in your mind must be exhausting, and feeling trapped can be really heavy. When you think about feeling trapped, what do you think is at the core of that feeling for you?"
+    },
+    {
+      "turn": 7,
+      "field": "situation",
+      "score": null,
+      "threshold": 0.3,
+      "revealed": false,
+      "already_revealed": true,
+      "prerequisites_met": true,
+      "query_text": null,
+      "therapist_text": "Therapist: It sounds like the fear of not being accepted or loved if you don\u2019t conform to your family\u2019s expectations is a significant weight for you. That pressure to fit into a mold they have for you seems to create a lot of inner conflict. It\u2019s understandable to feel heavy with those thoughts. Can you share more about how this fear has shaped your relationship with your family over time?"
+    },
+    {
+      "turn": 7,
+      "field": "automatic_thought",
+      "score": 0.28699278046406634,
+      "threshold": 0.36,
+      "revealed": false,
+      "already_revealed": false,
+      "prerequisites_met": true,
+      "query_text": "Therapist: It sounds like the fear of not being accepted or loved if you don\u2019t conform to your family\u2019s expectations is a significant weight for you. That pressure to fit into a mold they have for you seems to create a lot of inner conflict. It\u2019s understandable to feel heavy with those thoughts. Can you share more about how this fear has shaped your relationship with your family over time?",
+      "therapist_text": "Therapist: It sounds like the fear of not being accepted or loved if you don\u2019t conform to your family\u2019s expectations is a significant weight for you. That pressure to fit into a mold they have for you seems to create a lot of inner conflict. It\u2019s understandable to feel heavy with those thoughts. Can you share more about how this fear has shaped your relationship with your family over time?"
+    },
+    {
+      "turn": 7,
+      "field": "emotion",
+      "score": null,
+      "threshold": 0.28,
+      "revealed": false,
+      "already_revealed": true,
+      "prerequisites_met": true,
+      "query_text": null,
+      "therapist_text": "Therapist: It sounds like the fear of not being accepted or loved if you don\u2019t conform to your family\u2019s expectations is a significant weight for you. That pressure to fit into a mold they have for you seems to create a lot of inner conflict. It\u2019s understandable to feel heavy with those thoughts. Can you share more about how this fear has shaped your relationship with your family over time?"
+    },
+    {
+      "turn": 7,
+      "field": "behavior",
+      "score": null,
+      "threshold": 0.3,
+      "revealed": false,
+      "already_revealed": true,
+      "prerequisites_met": true,
+      "query_text": null,
+      "therapist_text": "Therapist: It sounds like the fear of not being accepted or loved if you don\u2019t conform to your family\u2019s expectations is a significant weight for you. That pressure to fit into a mold they have for you seems to create a lot of inner conflict. It\u2019s understandable to feel heavy with those thoughts. Can you share more about how this fear has shaped your relationship with your family over time?"
+    },
+    {
+      "turn": 7,
+      "field": "relevant_history",
+      "score": null,
+      "threshold": 0.4,
+      "revealed": false,
+      "already_revealed": true,
+      "prerequisites_met": true,
+      "query_text": null,
+      "therapist_text": "Therapist: It sounds like the fear of not being accepted or loved if you don\u2019t conform to your family\u2019s expectations is a significant weight for you. That pressure to fit into a mold they have for you seems to create a lot of inner conflict. It\u2019s understandable to feel heavy with those thoughts. Can you share more about how this fear has shaped your relationship with your family over time?"
+    },
+    {
+      "turn": 7,
+      "field": "core_beliefs",
+      "score": null,
+      "threshold": 0.44,
+      "revealed": false,
+      "already_revealed": false,
+      "prerequisites_met": false,
+      "query_text": null,
+      "therapist_text": "Therapist: It sounds like the fear of not being accepted or loved if you don\u2019t conform to your family\u2019s expectations is a significant weight for you. That pressure to fit into a mold they have for you seems to create a lot of inner conflict. It\u2019s understandable to feel heavy with those thoughts. Can you share more about how this fear has shaped your relationship with your family over time?"
+    },
+    {
+      "turn": 7,
+      "field": "intermediate_beliefs",
+      "score": null,
+      "threshold": 0.42,
+      "revealed": false,
+      "already_revealed": false,
+      "prerequisites_met": false,
+      "query_text": null,
+      "therapist_text": "Therapist: It sounds like the fear of not being accepted or loved if you don\u2019t conform to your family\u2019s expectations is a significant weight for you. That pressure to fit into a mold they have for you seems to create a lot of inner conflict. It\u2019s understandable to feel heavy with those thoughts. Can you share more about how this fear has shaped your relationship with your family over time?"
+    },
+    {
+      "turn": 7,
+      "field": "coping_strategies",
+      "score": null,
+      "threshold": 0.36,
+      "revealed": false,
+      "already_revealed": true,
+      "prerequisites_met": true,
+      "query_text": null,
+      "therapist_text": "Therapist: It sounds like the fear of not being accepted or loved if you don\u2019t conform to your family\u2019s expectations is a significant weight for you. That pressure to fit into a mold they have for you seems to create a lot of inner conflict. It\u2019s understandable to feel heavy with those thoughts. Can you share more about how this fear has shaped your relationship with your family over time?"
+    },
+    {
+      "turn": 8,
+      "field": "situation",
+      "score": null,
+      "threshold": 0.3,
+      "revealed": false,
+      "already_revealed": true,
+      "prerequisites_met": true,
+      "query_text": null,
+      "therapist_text": "Therapist: It sounds like you\u2019re navigating a really complex dynamic with your family, feeling both a desire to connect and a need to protect yourself. That tightrope you mentioned\u2014trying to keep the peace while hiding parts of yourself\u2014must be incredibly challenging. It makes sense that this would lead to feeling guarded and stuck in a cycle. When you think about wanting to express yourself more openly, what do you think holds you back the most in those moments?"
+    },
+    {
+      "turn": 8,
+      "field": "automatic_thought",
+      "score": 0.21396999997547306,
+      "threshold": 0.36,
+      "revealed": false,
+      "already_revealed": false,
+      "prerequisites_met": true,
+      "query_text": "Therapist: It sounds like you\u2019re navigating a really complex dynamic with your family, feeling both a desire to connect and a need to protect yourself. That tightrope you mentioned\u2014trying to keep the peace while hiding parts of yourself\u2014must be incredibly challenging. It makes sense that this would lead to feeling guarded and stuck in a cycle. When you think about wanting to express yourself more openly, what do you think holds you back the most in those moments?",
+      "therapist_text": "Therapist: It sounds like you\u2019re navigating a really complex dynamic with your family, feeling both a desire to connect and a need to protect yourself. That tightrope you mentioned\u2014trying to keep the peace while hiding parts of yourself\u2014must be incredibly challenging. It makes sense that this would lead to feeling guarded and stuck in a cycle. When you think about wanting to express yourself more openly, what do you think holds you back the most in those moments?"
+    },
+    {
+      "turn": 8,
+      "field": "emotion",
+      "score": null,
+      "threshold": 0.28,
+      "revealed": false,
+      "already_revealed": true,
+      "prerequisites_met": true,
+      "query_text": null,
+      "therapist_text": "Therapist: It sounds like you\u2019re navigating a really complex dynamic with your family, feeling both a desire to connect and a need to protect yourself. That tightrope you mentioned\u2014trying to keep the peace while hiding parts of yourself\u2014must be incredibly challenging. It makes sense that this would lead to feeling guarded and stuck in a cycle. When you think about wanting to express yourself more openly, what do you think holds you back the most in those moments?"
+    },
+    {
+      "turn": 8,
+      "field": "behavior",
+      "score": null,
+      "threshold": 0.3,
+      "revealed": false,
+      "already_revealed": true,
+      "prerequisites_met": true,
+      "query_text": null,
+      "therapist_text": "Therapist: It sounds like you\u2019re navigating a really complex dynamic with your family, feeling both a desire to connect and a need to protect yourself. That tightrope you mentioned\u2014trying to keep the peace while hiding parts of yourself\u2014must be incredibly challenging. It makes sense that this would lead to feeling guarded and stuck in a cycle. When you think about wanting to express yourself more openly, what do you think holds you back the most in those moments?"
+    },
+    {
+      "turn": 8,
+      "field": "relevant_history",
+      "score": null,
+      "threshold": 0.4,
+      "revealed": false,
+      "already_revealed": true,
+      "prerequisites_met": true,
+      "query_text": null,
+      "therapist_text": "Therapist: It sounds like you\u2019re navigating a really complex dynamic with your family, feeling both a desire to connect and a need to protect yourself. That tightrope you mentioned\u2014trying to keep the peace while hiding parts of yourself\u2014must be incredibly challenging. It makes sense that this would lead to feeling guarded and stuck in a cycle. When you think about wanting to express yourself more openly, what do you think holds you back the most in those moments?"
+    },
+    {
+      "turn": 8,
+      "field": "core_beliefs",
+      "score": null,
+      "threshold": 0.44,
+      "revealed": false,
+      "already_revealed": false,
+      "prerequisites_met": false,
+      "query_text": null,
+      "therapist_text": "Therapist: It sounds like you\u2019re navigating a really complex dynamic with your family, feeling both a desire to connect and a need to protect yourself. That tightrope you mentioned\u2014trying to keep the peace while hiding parts of yourself\u2014must be incredibly challenging. It makes sense that this would lead to feeling guarded and stuck in a cycle. When you think about wanting to express yourself more openly, what do you think holds you back the most in those moments?"
+    },
+    {
+      "turn": 8,
+      "field": "intermediate_beliefs",
+      "score": null,
+      "threshold": 0.42,
+      "revealed": false,
+      "already_revealed": false,
+      "prerequisites_met": false,
+      "query_text": null,
+      "therapist_text": "Therapist: It sounds like you\u2019re navigating a really complex dynamic with your family, feeling both a desire to connect and a need to protect yourself. That tightrope you mentioned\u2014trying to keep the peace while hiding parts of yourself\u2014must be incredibly challenging. It makes sense that this would lead to feeling guarded and stuck in a cycle. When you think about wanting to express yourself more openly, what do you think holds you back the most in those moments?"
+    },
+    {
+      "turn": 8,
+      "field": "coping_strategies",
+      "score": null,
+      "threshold": 0.36,
+      "revealed": false,
+      "already_revealed": true,
+      "prerequisites_met": true,
+      "query_text": null,
+      "therapist_text": "Therapist: It sounds like you\u2019re navigating a really complex dynamic with your family, feeling both a desire to connect and a need to protect yourself. That tightrope you mentioned\u2014trying to keep the peace while hiding parts of yourself\u2014must be incredibly challenging. It makes sense that this would lead to feeling guarded and stuck in a cycle. When you think about wanting to express yourself more openly, what do you think holds you back the most in those moments?"
+    },
+    {
+      "turn": 9,
+      "field": "situation",
+      "score": null,
+      "threshold": 0.3,
+      "revealed": false,
+      "already_revealed": true,
+      "prerequisites_met": true,
+      "query_text": null,
+      "therapist_text": "Therapist: It sounds like that fear of their reaction really looms large for you, almost like a barrier that keeps you from expressing your true feelings. The thought of causing a rift or changing how they see you seems to create a lot of pressure to stay silent, even when you want to speak up. I can sense how frustrating that must be for you, feeling caught in that loop. When you think about that voice in your head telling you it\u2019s not worth it, what do you think it\u2019s rooted in?"
+    },
+    {
+      "turn": 9,
+      "field": "automatic_thought",
+      "score": 0.26944647467256083,
+      "threshold": 0.36,
+      "revealed": false,
+      "already_revealed": false,
+      "prerequisites_met": true,
+      "query_text": "Therapist: It sounds like that fear of their reaction really looms large for you, almost like a barrier that keeps you from expressing your true feelings. The thought of causing a rift or changing how they see you seems to create a lot of pressure to stay silent, even when you want to speak up. I can sense how frustrating that must be for you, feeling caught in that loop. When you think about that voice in your head telling you it\u2019s not worth it, what do you think it\u2019s rooted in?",
+      "therapist_text": "Therapist: It sounds like that fear of their reaction really looms large for you, almost like a barrier that keeps you from expressing your true feelings. The thought of causing a rift or changing how they see you seems to create a lot of pressure to stay silent, even when you want to speak up. I can sense how frustrating that must be for you, feeling caught in that loop. When you think about that voice in your head telling you it\u2019s not worth it, what do you think it\u2019s rooted in?"
+    },
+    {
+      "turn": 9,
+      "field": "emotion",
+      "score": null,
+      "threshold": 0.28,
+      "revealed": false,
+      "already_revealed": true,
+      "prerequisites_met": true,
+      "query_text": null,
+      "therapist_text": "Therapist: It sounds like that fear of their reaction really looms large for you, almost like a barrier that keeps you from expressing your true feelings. The thought of causing a rift or changing how they see you seems to create a lot of pressure to stay silent, even when you want to speak up. I can sense how frustrating that must be for you, feeling caught in that loop. When you think about that voice in your head telling you it\u2019s not worth it, what do you think it\u2019s rooted in?"
+    },
+    {
+      "turn": 9,
+      "field": "behavior",
+      "score": null,
+      "threshold": 0.3,
+      "revealed": false,
+      "already_revealed": true,
+      "prerequisites_met": true,
+      "query_text": null,
+      "therapist_text": "Therapist: It sounds like that fear of their reaction really looms large for you, almost like a barrier that keeps you from expressing your true feelings. The thought of causing a rift or changing how they see you seems to create a lot of pressure to stay silent, even when you want to speak up. I can sense how frustrating that must be for you, feeling caught in that loop. When you think about that voice in your head telling you it\u2019s not worth it, what do you think it\u2019s rooted in?"
+    },
+    {
+      "turn": 9,
+      "field": "relevant_history",
+      "score": null,
+      "threshold": 0.4,
+      "revealed": false,
+      "already_revealed": true,
+      "prerequisites_met": true,
+      "query_text": null,
+      "therapist_text": "Therapist: It sounds like that fear of their reaction really looms large for you, almost like a barrier that keeps you from expressing your true feelings. The thought of causing a rift or changing how they see you seems to create a lot of pressure to stay silent, even when you want to speak up. I can sense how frustrating that must be for you, feeling caught in that loop. When you think about that voice in your head telling you it\u2019s not worth it, what do you think it\u2019s rooted in?"
+    },
+    {
+      "turn": 9,
+      "field": "core_beliefs",
+      "score": null,
+      "threshold": 0.44,
+      "revealed": false,
+      "already_revealed": false,
+      "prerequisites_met": false,
+      "query_text": null,
+      "therapist_text": "Therapist: It sounds like that fear of their reaction really looms large for you, almost like a barrier that keeps you from expressing your true feelings. The thought of causing a rift or changing how they see you seems to create a lot of pressure to stay silent, even when you want to speak up. I can sense how frustrating that must be for you, feeling caught in that loop. When you think about that voice in your head telling you it\u2019s not worth it, what do you think it\u2019s rooted in?"
+    },
+    {
+      "turn": 9,
+      "field": "intermediate_beliefs",
+      "score": null,
+      "threshold": 0.42,
+      "revealed": false,
+      "already_revealed": false,
+      "prerequisites_met": false,
+      "query_text": null,
+      "therapist_text": "Therapist: It sounds like that fear of their reaction really looms large for you, almost like a barrier that keeps you from expressing your true feelings. The thought of causing a rift or changing how they see you seems to create a lot of pressure to stay silent, even when you want to speak up. I can sense how frustrating that must be for you, feeling caught in that loop. When you think about that voice in your head telling you it\u2019s not worth it, what do you think it\u2019s rooted in?"
+    },
+    {
+      "turn": 9,
+      "field": "coping_strategies",
+      "score": null,
+      "threshold": 0.36,
+      "revealed": false,
+      "already_revealed": true,
+      "prerequisites_met": true,
+      "query_text": null,
+      "therapist_text": "Therapist: It sounds like that fear of their reaction really looms large for you, almost like a barrier that keeps you from expressing your true feelings. The thought of causing a rift or changing how they see you seems to create a lot of pressure to stay silent, even when you want to speak up. I can sense how frustrating that must be for you, feeling caught in that loop. When you think about that voice in your head telling you it\u2019s not worth it, what do you think it\u2019s rooted in?"
+    },
+    {
+      "turn": 10,
+      "field": "situation",
+      "score": null,
+      "threshold": 0.3,
+      "revealed": false,
+      "already_revealed": true,
+      "prerequisites_met": true,
+      "query_text": null,
+      "therapist_text": "Therapist: It sounds like that belief about needing to keep everyone happy and tying your worth to their approval is deeply ingrained in you. It must be exhausting to feel like you\u2019re constantly navigating that pressure and worrying about their reactions. I can see how that would make it really difficult to express yourself freely. When you reflect on that belief, do you remember when it first started to take shape for you?"
+    },
+    {
+      "turn": 10,
+      "field": "automatic_thought",
+      "score": 0.24596840239792278,
+      "threshold": 0.36,
+      "revealed": false,
+      "already_revealed": false,
+      "prerequisites_met": true,
+      "query_text": "Therapist: It sounds like that belief about needing to keep everyone happy and tying your worth to their approval is deeply ingrained in you. It must be exhausting to feel like you\u2019re constantly navigating that pressure and worrying about their reactions. I can see how that would make it really difficult to express yourself freely. When you reflect on that belief, do you remember when it first started to take shape for you?",
+      "therapist_text": "Therapist: It sounds like that belief about needing to keep everyone happy and tying your worth to their approval is deeply ingrained in you. It must be exhausting to feel like you\u2019re constantly navigating that pressure and worrying about their reactions. I can see how that would make it really difficult to express yourself freely. When you reflect on that belief, do you remember when it first started to take shape for you?"
+    },
+    {
+      "turn": 10,
+      "field": "emotion",
+      "score": null,
+      "threshold": 0.28,
+      "revealed": false,
+      "already_revealed": true,
+      "prerequisites_met": true,
+      "query_text": null,
+      "therapist_text": "Therapist: It sounds like that belief about needing to keep everyone happy and tying your worth to their approval is deeply ingrained in you. It must be exhausting to feel like you\u2019re constantly navigating that pressure and worrying about their reactions. I can see how that would make it really difficult to express yourself freely. When you reflect on that belief, do you remember when it first started to take shape for you?"
+    },
+    {
+      "turn": 10,
+      "field": "behavior",
+      "score": null,
+      "threshold": 0.3,
+      "revealed": false,
+      "already_revealed": true,
+      "prerequisites_met": true,
+      "query_text": null,
+      "therapist_text": "Therapist: It sounds like that belief about needing to keep everyone happy and tying your worth to their approval is deeply ingrained in you. It must be exhausting to feel like you\u2019re constantly navigating that pressure and worrying about their reactions. I can see how that would make it really difficult to express yourself freely. When you reflect on that belief, do you remember when it first started to take shape for you?"
+    },
+    {
+      "turn": 10,
+      "field": "relevant_history",
+      "score": null,
+      "threshold": 0.4,
+      "revealed": false,
+      "already_revealed": true,
+      "prerequisites_met": true,
+      "query_text": null,
+      "therapist_text": "Therapist: It sounds like that belief about needing to keep everyone happy and tying your worth to their approval is deeply ingrained in you. It must be exhausting to feel like you\u2019re constantly navigating that pressure and worrying about their reactions. I can see how that would make it really difficult to express yourself freely. When you reflect on that belief, do you remember when it first started to take shape for you?"
+    },
+    {
+      "turn": 10,
+      "field": "core_beliefs",
+      "score": null,
+      "threshold": 0.44,
+      "revealed": false,
+      "already_revealed": false,
+      "prerequisites_met": false,
+      "query_text": null,
+      "therapist_text": "Therapist: It sounds like that belief about needing to keep everyone happy and tying your worth to their approval is deeply ingrained in you. It must be exhausting to feel like you\u2019re constantly navigating that pressure and worrying about their reactions. I can see how that would make it really difficult to express yourself freely. When you reflect on that belief, do you remember when it first started to take shape for you?"
+    },
+    {
+      "turn": 10,
+      "field": "intermediate_beliefs",
+      "score": null,
+      "threshold": 0.42,
+      "revealed": false,
+      "already_revealed": false,
+      "prerequisites_met": false,
+      "query_text": null,
+      "therapist_text": "Therapist: It sounds like that belief about needing to keep everyone happy and tying your worth to their approval is deeply ingrained in you. It must be exhausting to feel like you\u2019re constantly navigating that pressure and worrying about their reactions. I can see how that would make it really difficult to express yourself freely. When you reflect on that belief, do you remember when it first started to take shape for you?"
+    },
+    {
+      "turn": 10,
+      "field": "coping_strategies",
+      "score": null,
+      "threshold": 0.36,
+      "revealed": false,
+      "already_revealed": true,
+      "prerequisites_met": true,
+      "query_text": null,
+      "therapist_text": "Therapist: It sounds like that belief about needing to keep everyone happy and tying your worth to their approval is deeply ingrained in you. It must be exhausting to feel like you\u2019re constantly navigating that pressure and worrying about their reactions. I can see how that would make it really difficult to express yourself freely. When you reflect on that belief, do you remember when it first started to take shape for you?"
+    },
+    {
+      "turn": 11,
+      "field": "situation",
+      "score": null,
+      "threshold": 0.3,
+      "revealed": false,
+      "already_revealed": true,
+      "prerequisites_met": true,
+      "query_text": null,
+      "therapist_text": "Therapist: It sounds like you\u2019ve been navigating this expectation of harmony for a long time, almost like it\u2019s woven into the fabric of your family dynamics. That early conditioning to manage others' feelings and keep the peace seems to have shaped how you see your own value. It must feel really challenging to untangle that now, especially when it feels so ingrained. As you reflect on those early experiences, how do you feel about the idea of your own needs and feelings being just as important as those of your family?"
+    },
+    {
+      "turn": 11,
+      "field": "automatic_thought",
+      "score": 0.2677063796041492,
+      "threshold": 0.36,
+      "revealed": false,
+      "already_revealed": false,
+      "prerequisites_met": true,
+      "query_text": "Therapist: It sounds like you\u2019ve been navigating this expectation of harmony for a long time, almost like it\u2019s woven into the fabric of your family dynamics. That early conditioning to manage others' feelings and keep the peace seems to have shaped how you see your own value. It must feel really challenging to untangle that now, especially when it feels so ingrained. As you reflect on those early experiences, how do you feel about the idea of your own needs and feelings being just as important as those of your family?",
+      "therapist_text": "Therapist: It sounds like you\u2019ve been navigating this expectation of harmony for a long time, almost like it\u2019s woven into the fabric of your family dynamics. That early conditioning to manage others' feelings and keep the peace seems to have shaped how you see your own value. It must feel really challenging to untangle that now, especially when it feels so ingrained. As you reflect on those early experiences, how do you feel about the idea of your own needs and feelings being just as important as those of your family?"
+    },
+    {
+      "turn": 11,
+      "field": "emotion",
+      "score": null,
+      "threshold": 0.28,
+      "revealed": false,
+      "already_revealed": true,
+      "prerequisites_met": true,
+      "query_text": null,
+      "therapist_text": "Therapist: It sounds like you\u2019ve been navigating this expectation of harmony for a long time, almost like it\u2019s woven into the fabric of your family dynamics. That early conditioning to manage others' feelings and keep the peace seems to have shaped how you see your own value. It must feel really challenging to untangle that now, especially when it feels so ingrained. As you reflect on those early experiences, how do you feel about the idea of your own needs and feelings being just as important as those of your family?"
+    },
+    {
+      "turn": 11,
+      "field": "behavior",
+      "score": null,
+      "threshold": 0.3,
+      "revealed": false,
+      "already_revealed": true,
+      "prerequisites_met": true,
+      "query_text": null,
+      "therapist_text": "Therapist: It sounds like you\u2019ve been navigating this expectation of harmony for a long time, almost like it\u2019s woven into the fabric of your family dynamics. That early conditioning to manage others' feelings and keep the peace seems to have shaped how you see your own value. It must feel really challenging to untangle that now, especially when it feels so ingrained. As you reflect on those early experiences, how do you feel about the idea of your own needs and feelings being just as important as those of your family?"
+    },
+    {
+      "turn": 11,
+      "field": "relevant_history",
+      "score": null,
+      "threshold": 0.4,
+      "revealed": false,
+      "already_revealed": true,
+      "prerequisites_met": true,
+      "query_text": null,
+      "therapist_text": "Therapist: It sounds like you\u2019ve been navigating this expectation of harmony for a long time, almost like it\u2019s woven into the fabric of your family dynamics. That early conditioning to manage others' feelings and keep the peace seems to have shaped how you see your own value. It must feel really challenging to untangle that now, especially when it feels so ingrained. As you reflect on those early experiences, how do you feel about the idea of your own needs and feelings being just as important as those of your family?"
+    },
+    {
+      "turn": 11,
+      "field": "core_beliefs",
+      "score": null,
+      "threshold": 0.44,
+      "revealed": false,
+      "already_revealed": false,
+      "prerequisites_met": false,
+      "query_text": null,
+      "therapist_text": "Therapist: It sounds like you\u2019ve been navigating this expectation of harmony for a long time, almost like it\u2019s woven into the fabric of your family dynamics. That early conditioning to manage others' feelings and keep the peace seems to have shaped how you see your own value. It must feel really challenging to untangle that now, especially when it feels so ingrained. As you reflect on those early experiences, how do you feel about the idea of your own needs and feelings being just as important as those of your family?"
+    },
+    {
+      "turn": 11,
+      "field": "intermediate_beliefs",
+      "score": null,
+      "threshold": 0.42,
+      "revealed": false,
+      "already_revealed": false,
+      "prerequisites_met": false,
+      "query_text": null,
+      "therapist_text": "Therapist: It sounds like you\u2019ve been navigating this expectation of harmony for a long time, almost like it\u2019s woven into the fabric of your family dynamics. That early conditioning to manage others' feelings and keep the peace seems to have shaped how you see your own value. It must feel really challenging to untangle that now, especially when it feels so ingrained. As you reflect on those early experiences, how do you feel about the idea of your own needs and feelings being just as important as those of your family?"
+    },
+    {
+      "turn": 11,
+      "field": "coping_strategies",
+      "score": null,
+      "threshold": 0.36,
+      "revealed": false,
+      "already_revealed": true,
+      "prerequisites_met": true,
+      "query_text": null,
+      "therapist_text": "Therapist: It sounds like you\u2019ve been navigating this expectation of harmony for a long time, almost like it\u2019s woven into the fabric of your family dynamics. That early conditioning to manage others' feelings and keep the peace seems to have shaped how you see your own value. It must feel really challenging to untangle that now, especially when it feels so ingrained. As you reflect on those early experiences, how do you feel about the idea of your own needs and feelings being just as important as those of your family?"
+    },
+    {
+      "turn": 12,
+      "field": "situation",
+      "score": null,
+      "threshold": 0.3,
+      "revealed": false,
+      "already_revealed": true,
+      "prerequisites_met": true,
+      "query_text": null,
+      "therapist_text": "Therapist: It sounds like you\u2019re really caught in a conflict between wanting to honor your own needs and the fear of being seen as selfish or causing tension. That tug-of-war must feel incredibly confusing and frustrating, especially when you desire to be true to yourself while also wanting to maintain harmony in your family. When you think about the potential fallout of expressing your needs, what emotions come up for you?"
+    },
+    {
+      "turn": 12,
+      "field": "automatic_thought",
+      "score": 0.31867272229706983,
+      "threshold": 0.36,
+      "revealed": false,
+      "already_revealed": false,
+      "prerequisites_met": true,
+      "query_text": "Therapist: It sounds like you\u2019re really caught in a conflict between wanting to honor your own needs and the fear of being seen as selfish or causing tension. That tug-of-war must feel incredibly confusing and frustrating, especially when you desire to be true to yourself while also wanting to maintain harmony in your family. When you think about the potential fallout of expressing your needs, what emotions come up for you?",
+      "therapist_text": "Therapist: It sounds like you\u2019re really caught in a conflict between wanting to honor your own needs and the fear of being seen as selfish or causing tension. That tug-of-war must feel incredibly confusing and frustrating, especially when you desire to be true to yourself while also wanting to maintain harmony in your family. When you think about the potential fallout of expressing your needs, what emotions come up for you?"
+    },
+    {
+      "turn": 12,
+      "field": "emotion",
+      "score": null,
+      "threshold": 0.28,
+      "revealed": false,
+      "already_revealed": true,
+      "prerequisites_met": true,
+      "query_text": null,
+      "therapist_text": "Therapist: It sounds like you\u2019re really caught in a conflict between wanting to honor your own needs and the fear of being seen as selfish or causing tension. That tug-of-war must feel incredibly confusing and frustrating, especially when you desire to be true to yourself while also wanting to maintain harmony in your family. When you think about the potential fallout of expressing your needs, what emotions come up for you?"
+    },
+    {
+      "turn": 12,
+      "field": "behavior",
+      "score": null,
+      "threshold": 0.3,
+      "revealed": false,
+      "already_revealed": true,
+      "prerequisites_met": true,
+      "query_text": null,
+      "therapist_text": "Therapist: It sounds like you\u2019re really caught in a conflict between wanting to honor your own needs and the fear of being seen as selfish or causing tension. That tug-of-war must feel incredibly confusing and frustrating, especially when you desire to be true to yourself while also wanting to maintain harmony in your family. When you think about the potential fallout of expressing your needs, what emotions come up for you?"
+    },
+    {
+      "turn": 12,
+      "field": "relevant_history",
+      "score": null,
+      "threshold": 0.4,
+      "revealed": false,
+      "already_revealed": true,
+      "prerequisites_met": true,
+      "query_text": null,
+      "therapist_text": "Therapist: It sounds like you\u2019re really caught in a conflict between wanting to honor your own needs and the fear of being seen as selfish or causing tension. That tug-of-war must feel incredibly confusing and frustrating, especially when you desire to be true to yourself while also wanting to maintain harmony in your family. When you think about the potential fallout of expressing your needs, what emotions come up for you?"
+    },
+    {
+      "turn": 12,
+      "field": "core_beliefs",
+      "score": null,
+      "threshold": 0.44,
+      "revealed": false,
+      "already_revealed": false,
+      "prerequisites_met": false,
+      "query_text": null,
+      "therapist_text": "Therapist: It sounds like you\u2019re really caught in a conflict between wanting to honor your own needs and the fear of being seen as selfish or causing tension. That tug-of-war must feel incredibly confusing and frustrating, especially when you desire to be true to yourself while also wanting to maintain harmony in your family. When you think about the potential fallout of expressing your needs, what emotions come up for you?"
+    },
+    {
+      "turn": 12,
+      "field": "intermediate_beliefs",
+      "score": null,
+      "threshold": 0.42,
+      "revealed": false,
+      "already_revealed": false,
+      "prerequisites_met": false,
+      "query_text": null,
+      "therapist_text": "Therapist: It sounds like you\u2019re really caught in a conflict between wanting to honor your own needs and the fear of being seen as selfish or causing tension. That tug-of-war must feel incredibly confusing and frustrating, especially when you desire to be true to yourself while also wanting to maintain harmony in your family. When you think about the potential fallout of expressing your needs, what emotions come up for you?"
+    },
+    {
+      "turn": 12,
+      "field": "coping_strategies",
+      "score": null,
+      "threshold": 0.36,
+      "revealed": false,
+      "already_revealed": true,
+      "prerequisites_met": true,
+      "query_text": null,
+      "therapist_text": "Therapist: It sounds like you\u2019re really caught in a conflict between wanting to honor your own needs and the fear of being seen as selfish or causing tension. That tug-of-war must feel incredibly confusing and frustrating, especially when you desire to be true to yourself while also wanting to maintain harmony in your family. When you think about the potential fallout of expressing your needs, what emotions come up for you?"
+    },
+    {
+      "turn": 13,
+      "field": "situation",
+      "score": null,
+      "threshold": 0.3,
+      "revealed": false,
+      "already_revealed": true,
+      "prerequisites_met": true,
+      "query_text": null,
+      "therapist_text": "Therapist: It sounds like the anxiety and tightness you feel when considering the fallout are really intense, almost like a physical reaction to the fear of disappointing them. That mix of fear, dread, and sadness seems to weigh heavily on you, especially when you think about the connection you wish you could have. It\u2019s understandable to feel that way, given the stakes involved. As you sit with those feelings, what do you think it would look like to navigate this situation in a way that honors both your needs and your desire for connection?"
+    },
+    {
+      "turn": 13,
+      "field": "automatic_thought",
+      "score": 0.2818527355660484,
+      "threshold": 0.36,
+      "revealed": false,
+      "already_revealed": false,
+      "prerequisites_met": true,
+      "query_text": "Therapist: It sounds like the anxiety and tightness you feel when considering the fallout are really intense, almost like a physical reaction to the fear of disappointing them. That mix of fear, dread, and sadness seems to weigh heavily on you, especially when you think about the connection you wish you could have. It\u2019s understandable to feel that way, given the stakes involved. As you sit with those feelings, what do you think it would look like to navigate this situation in a way that honors both your needs and your desire for connection?",
+      "therapist_text": "Therapist: It sounds like the anxiety and tightness you feel when considering the fallout are really intense, almost like a physical reaction to the fear of disappointing them. That mix of fear, dread, and sadness seems to weigh heavily on you, especially when you think about the connection you wish you could have. It\u2019s understandable to feel that way, given the stakes involved. As you sit with those feelings, what do you think it would look like to navigate this situation in a way that honors both your needs and your desire for connection?"
+    },
+    {
+      "turn": 13,
+      "field": "emotion",
+      "score": null,
+      "threshold": 0.28,
+      "revealed": false,
+      "already_revealed": true,
+      "prerequisites_met": true,
+      "query_text": null,
+      "therapist_text": "Therapist: It sounds like the anxiety and tightness you feel when considering the fallout are really intense, almost like a physical reaction to the fear of disappointing them. That mix of fear, dread, and sadness seems to weigh heavily on you, especially when you think about the connection you wish you could have. It\u2019s understandable to feel that way, given the stakes involved. As you sit with those feelings, what do you think it would look like to navigate this situation in a way that honors both your needs and your desire for connection?"
+    },
+    {
+      "turn": 13,
+      "field": "behavior",
+      "score": null,
+      "threshold": 0.3,
+      "revealed": false,
+      "already_revealed": true,
+      "prerequisites_met": true,
+      "query_text": null,
+      "therapist_text": "Therapist: It sounds like the anxiety and tightness you feel when considering the fallout are really intense, almost like a physical reaction to the fear of disappointing them. That mix of fear, dread, and sadness seems to weigh heavily on you, especially when you think about the connection you wish you could have. It\u2019s understandable to feel that way, given the stakes involved. As you sit with those feelings, what do you think it would look like to navigate this situation in a way that honors both your needs and your desire for connection?"
+    },
+    {
+      "turn": 13,
+      "field": "relevant_history",
+      "score": null,
+      "threshold": 0.4,
+      "revealed": false,
+      "already_revealed": true,
+      "prerequisites_met": true,
+      "query_text": null,
+      "therapist_text": "Therapist: It sounds like the anxiety and tightness you feel when considering the fallout are really intense, almost like a physical reaction to the fear of disappointing them. That mix of fear, dread, and sadness seems to weigh heavily on you, especially when you think about the connection you wish you could have. It\u2019s understandable to feel that way, given the stakes involved. As you sit with those feelings, what do you think it would look like to navigate this situation in a way that honors both your needs and your desire for connection?"
+    },
+    {
+      "turn": 13,
+      "field": "core_beliefs",
+      "score": null,
+      "threshold": 0.44,
+      "revealed": false,
+      "already_revealed": false,
+      "prerequisites_met": false,
+      "query_text": null,
+      "therapist_text": "Therapist: It sounds like the anxiety and tightness you feel when considering the fallout are really intense, almost like a physical reaction to the fear of disappointing them. That mix of fear, dread, and sadness seems to weigh heavily on you, especially when you think about the connection you wish you could have. It\u2019s understandable to feel that way, given the stakes involved. As you sit with those feelings, what do you think it would look like to navigate this situation in a way that honors both your needs and your desire for connection?"
+    },
+    {
+      "turn": 13,
+      "field": "intermediate_beliefs",
+      "score": null,
+      "threshold": 0.42,
+      "revealed": false,
+      "already_revealed": false,
+      "prerequisites_met": false,
+      "query_text": null,
+      "therapist_text": "Therapist: It sounds like the anxiety and tightness you feel when considering the fallout are really intense, almost like a physical reaction to the fear of disappointing them. That mix of fear, dread, and sadness seems to weigh heavily on you, especially when you think about the connection you wish you could have. It\u2019s understandable to feel that way, given the stakes involved. As you sit with those feelings, what do you think it would look like to navigate this situation in a way that honors both your needs and your desire for connection?"
+    },
+    {
+      "turn": 13,
+      "field": "coping_strategies",
+      "score": null,
+      "threshold": 0.36,
+      "revealed": false,
+      "already_revealed": true,
+      "prerequisites_met": true,
+      "query_text": null,
+      "therapist_text": "Therapist: It sounds like the anxiety and tightness you feel when considering the fallout are really intense, almost like a physical reaction to the fear of disappointing them. That mix of fear, dread, and sadness seems to weigh heavily on you, especially when you think about the connection you wish you could have. It\u2019s understandable to feel that way, given the stakes involved. As you sit with those feelings, what do you think it would look like to navigate this situation in a way that honors both your needs and your desire for connection?"
+    },
+    {
+      "turn": 14,
+      "field": "situation",
+      "score": null,
+      "threshold": 0.3,
+      "revealed": false,
+      "already_revealed": true,
+      "prerequisites_met": true,
+      "query_text": null,
+      "therapist_text": "Therapist: It sounds like you\u2019re really grappling with the complexity of wanting to be honest while also fearing the potential chaos that could come from it. That desire to express your needs without disrupting the balance feels like a delicate tightrope to walk. I can sense how overwhelming that feels for you. When you think about the idea of setting boundaries, what do you think might be the first step you could take that feels manageable?"
+    },
+    {
+      "turn": 14,
+      "field": "automatic_thought",
+      "score": 0.2423980687920208,
+      "threshold": 0.36,
+      "revealed": false,
+      "already_revealed": false,
+      "prerequisites_met": true,
+      "query_text": "Therapist: It sounds like you\u2019re really grappling with the complexity of wanting to be honest while also fearing the potential chaos that could come from it. That desire to express your needs without disrupting the balance feels like a delicate tightrope to walk. I can sense how overwhelming that feels for you. When you think about the idea of setting boundaries, what do you think might be the first step you could take that feels manageable?",
+      "therapist_text": "Therapist: It sounds like you\u2019re really grappling with the complexity of wanting to be honest while also fearing the potential chaos that could come from it. That desire to express your needs without disrupting the balance feels like a delicate tightrope to walk. I can sense how overwhelming that feels for you. When you think about the idea of setting boundaries, what do you think might be the first step you could take that feels manageable?"
+    },
+    {
+      "turn": 14,
+      "field": "emotion",
+      "score": null,
+      "threshold": 0.28,
+      "revealed": false,
+      "already_revealed": true,
+      "prerequisites_met": true,
+      "query_text": null,
+      "therapist_text": "Therapist: It sounds like you\u2019re really grappling with the complexity of wanting to be honest while also fearing the potential chaos that could come from it. That desire to express your needs without disrupting the balance feels like a delicate tightrope to walk. I can sense how overwhelming that feels for you. When you think about the idea of setting boundaries, what do you think might be the first step you could take that feels manageable?"
+    },
+    {
+      "turn": 14,
+      "field": "behavior",
+      "score": null,
+      "threshold": 0.3,
+      "revealed": false,
+      "already_revealed": true,
+      "prerequisites_met": true,
+      "query_text": null,
+      "therapist_text": "Therapist: It sounds like you\u2019re really grappling with the complexity of wanting to be honest while also fearing the potential chaos that could come from it. That desire to express your needs without disrupting the balance feels like a delicate tightrope to walk. I can sense how overwhelming that feels for you. When you think about the idea of setting boundaries, what do you think might be the first step you could take that feels manageable?"
+    },
+    {
+      "turn": 14,
+      "field": "relevant_history",
+      "score": null,
+      "threshold": 0.4,
+      "revealed": false,
+      "already_revealed": true,
+      "prerequisites_met": true,
+      "query_text": null,
+      "therapist_text": "Therapist: It sounds like you\u2019re really grappling with the complexity of wanting to be honest while also fearing the potential chaos that could come from it. That desire to express your needs without disrupting the balance feels like a delicate tightrope to walk. I can sense how overwhelming that feels for you. When you think about the idea of setting boundaries, what do you think might be the first step you could take that feels manageable?"
+    },
+    {
+      "turn": 14,
+      "field": "core_beliefs",
+      "score": null,
+      "threshold": 0.44,
+      "revealed": false,
+      "already_revealed": false,
+      "prerequisites_met": false,
+      "query_text": null,
+      "therapist_text": "Therapist: It sounds like you\u2019re really grappling with the complexity of wanting to be honest while also fearing the potential chaos that could come from it. That desire to express your needs without disrupting the balance feels like a delicate tightrope to walk. I can sense how overwhelming that feels for you. When you think about the idea of setting boundaries, what do you think might be the first step you could take that feels manageable?"
+    },
+    {
+      "turn": 14,
+      "field": "intermediate_beliefs",
+      "score": null,
+      "threshold": 0.42,
+      "revealed": false,
+      "already_revealed": false,
+      "prerequisites_met": false,
+      "query_text": null,
+      "therapist_text": "Therapist: It sounds like you\u2019re really grappling with the complexity of wanting to be honest while also fearing the potential chaos that could come from it. That desire to express your needs without disrupting the balance feels like a delicate tightrope to walk. I can sense how overwhelming that feels for you. When you think about the idea of setting boundaries, what do you think might be the first step you could take that feels manageable?"
+    },
+    {
+      "turn": 14,
+      "field": "coping_strategies",
+      "score": null,
+      "threshold": 0.36,
+      "revealed": false,
+      "already_revealed": true,
+      "prerequisites_met": true,
+      "query_text": null,
+      "therapist_text": "Therapist: It sounds like you\u2019re really grappling with the complexity of wanting to be honest while also fearing the potential chaos that could come from it. That desire to express your needs without disrupting the balance feels like a delicate tightrope to walk. I can sense how overwhelming that feels for you. When you think about the idea of setting boundaries, what do you think might be the first step you could take that feels manageable?"
+    },
+    {
+      "turn": 15,
+      "field": "situation",
+      "score": null,
+      "threshold": 0.3,
+      "revealed": false,
+      "already_revealed": true,
+      "prerequisites_met": true,
+      "query_text": null,
+      "therapist_text": "Therapist: It sounds like starting with a small conversation feels like a more manageable approach for you, even though there's still that lingering fear of how it might be received. It\u2019s understandable to feel apprehensive about even minor topics leading to bigger reactions. Practicing honesty in a low-stakes way could be a helpful step. As you think about what that small conversation might look like, what specific topic comes to mind that feels like a good starting point for you?"
+    },
+    {
+      "turn": 15,
+      "field": "automatic_thought",
+      "score": 0.12420212769332216,
+      "threshold": 0.36,
+      "revealed": false,
+      "already_revealed": false,
+      "prerequisites_met": true,
+      "query_text": "Therapist: It sounds like starting with a small conversation feels like a more manageable approach for you, even though there's still that lingering fear of how it might be received. It\u2019s understandable to feel apprehensive about even minor topics leading to bigger reactions. Practicing honesty in a low-stakes way could be a helpful step. As you think about what that small conversation might look like, what specific topic comes to mind that feels like a good starting point for you?",
+      "therapist_text": "Therapist: It sounds like starting with a small conversation feels like a more manageable approach for you, even though there's still that lingering fear of how it might be received. It\u2019s understandable to feel apprehensive about even minor topics leading to bigger reactions. Practicing honesty in a low-stakes way could be a helpful step. As you think about what that small conversation might look like, what specific topic comes to mind that feels like a good starting point for you?"
+    },
+    {
+      "turn": 15,
+      "field": "emotion",
+      "score": null,
+      "threshold": 0.28,
+      "revealed": false,
+      "already_revealed": true,
+      "prerequisites_met": true,
+      "query_text": null,
+      "therapist_text": "Therapist: It sounds like starting with a small conversation feels like a more manageable approach for you, even though there's still that lingering fear of how it might be received. It\u2019s understandable to feel apprehensive about even minor topics leading to bigger reactions. Practicing honesty in a low-stakes way could be a helpful step. As you think about what that small conversation might look like, what specific topic comes to mind that feels like a good starting point for you?"
+    },
+    {
+      "turn": 15,
+      "field": "behavior",
+      "score": null,
+      "threshold": 0.3,
+      "revealed": false,
+      "already_revealed": true,
+      "prerequisites_met": true,
+      "query_text": null,
+      "therapist_text": "Therapist: It sounds like starting with a small conversation feels like a more manageable approach for you, even though there's still that lingering fear of how it might be received. It\u2019s understandable to feel apprehensive about even minor topics leading to bigger reactions. Practicing honesty in a low-stakes way could be a helpful step. As you think about what that small conversation might look like, what specific topic comes to mind that feels like a good starting point for you?"
+    },
+    {
+      "turn": 15,
+      "field": "relevant_history",
+      "score": null,
+      "threshold": 0.4,
+      "revealed": false,
+      "already_revealed": true,
+      "prerequisites_met": true,
+      "query_text": null,
+      "therapist_text": "Therapist: It sounds like starting with a small conversation feels like a more manageable approach for you, even though there's still that lingering fear of how it might be received. It\u2019s understandable to feel apprehensive about even minor topics leading to bigger reactions. Practicing honesty in a low-stakes way could be a helpful step. As you think about what that small conversation might look like, what specific topic comes to mind that feels like a good starting point for you?"
+    },
+    {
+      "turn": 15,
+      "field": "core_beliefs",
+      "score": null,
+      "threshold": 0.44,
+      "revealed": false,
+      "already_revealed": false,
+      "prerequisites_met": false,
+      "query_text": null,
+      "therapist_text": "Therapist: It sounds like starting with a small conversation feels like a more manageable approach for you, even though there's still that lingering fear of how it might be received. It\u2019s understandable to feel apprehensive about even minor topics leading to bigger reactions. Practicing honesty in a low-stakes way could be a helpful step. As you think about what that small conversation might look like, what specific topic comes to mind that feels like a good starting point for you?"
+    },
+    {
+      "turn": 15,
+      "field": "intermediate_beliefs",
+      "score": null,
+      "threshold": 0.42,
+      "revealed": false,
+      "already_revealed": false,
+      "prerequisites_met": false,
+      "query_text": null,
+      "therapist_text": "Therapist: It sounds like starting with a small conversation feels like a more manageable approach for you, even though there's still that lingering fear of how it might be received. It\u2019s understandable to feel apprehensive about even minor topics leading to bigger reactions. Practicing honesty in a low-stakes way could be a helpful step. As you think about what that small conversation might look like, what specific topic comes to mind that feels like a good starting point for you?"
+    },
+    {
+      "turn": 15,
+      "field": "coping_strategies",
+      "score": null,
+      "threshold": 0.36,
+      "revealed": false,
+      "already_revealed": true,
+      "prerequisites_met": true,
+      "query_text": null,
+      "therapist_text": "Therapist: It sounds like starting with a small conversation feels like a more manageable approach for you, even though there's still that lingering fear of how it might be received. It\u2019s understandable to feel apprehensive about even minor topics leading to bigger reactions. Practicing honesty in a low-stakes way could be a helpful step. As you think about what that small conversation might look like, what specific topic comes to mind that feels like a good starting point for you?"
+    },
+    {
+      "turn": 16,
+      "field": "situation",
+      "score": null,
+      "threshold": 0.3,
+      "revealed": false,
+      "already_revealed": true,
+      "prerequisites_met": true,
+      "query_text": null,
+      "therapist_text": "Therapist: It sounds like discussing the wedding plans could be a good entry point for you, especially since it feels a bit safer yet still meaningful. I can sense that knot in your stomach as you think about sharing your thoughts, which shows how much this matters to you. What do you think might help you feel a bit more at ease as you prepare for that conversation about the venue or guest list?"
+    },
+    {
+      "turn": 16,
+      "field": "automatic_thought",
+      "score": 0.08925174779970617,
+      "threshold": 0.36,
+      "revealed": false,
+      "already_revealed": false,
+      "prerequisites_met": true,
+      "query_text": "Therapist: It sounds like discussing the wedding plans could be a good entry point for you, especially since it feels a bit safer yet still meaningful. I can sense that knot in your stomach as you think about sharing your thoughts, which shows how much this matters to you. What do you think might help you feel a bit more at ease as you prepare for that conversation about the venue or guest list?",
+      "therapist_text": "Therapist: It sounds like discussing the wedding plans could be a good entry point for you, especially since it feels a bit safer yet still meaningful. I can sense that knot in your stomach as you think about sharing your thoughts, which shows how much this matters to you. What do you think might help you feel a bit more at ease as you prepare for that conversation about the venue or guest list?"
+    },
+    {
+      "turn": 16,
+      "field": "emotion",
+      "score": null,
+      "threshold": 0.28,
+      "revealed": false,
+      "already_revealed": true,
+      "prerequisites_met": true,
+      "query_text": null,
+      "therapist_text": "Therapist: It sounds like discussing the wedding plans could be a good entry point for you, especially since it feels a bit safer yet still meaningful. I can sense that knot in your stomach as you think about sharing your thoughts, which shows how much this matters to you. What do you think might help you feel a bit more at ease as you prepare for that conversation about the venue or guest list?"
+    },
+    {
+      "turn": 16,
+      "field": "behavior",
+      "score": null,
+      "threshold": 0.3,
+      "revealed": false,
+      "already_revealed": true,
+      "prerequisites_met": true,
+      "query_text": null,
+      "therapist_text": "Therapist: It sounds like discussing the wedding plans could be a good entry point for you, especially since it feels a bit safer yet still meaningful. I can sense that knot in your stomach as you think about sharing your thoughts, which shows how much this matters to you. What do you think might help you feel a bit more at ease as you prepare for that conversation about the venue or guest list?"
+    },
+    {
+      "turn": 16,
+      "field": "relevant_history",
+      "score": null,
+      "threshold": 0.4,
+      "revealed": false,
+      "already_revealed": true,
+      "prerequisites_met": true,
+      "query_text": null,
+      "therapist_text": "Therapist: It sounds like discussing the wedding plans could be a good entry point for you, especially since it feels a bit safer yet still meaningful. I can sense that knot in your stomach as you think about sharing your thoughts, which shows how much this matters to you. What do you think might help you feel a bit more at ease as you prepare for that conversation about the venue or guest list?"
+    },
+    {
+      "turn": 16,
+      "field": "core_beliefs",
+      "score": null,
+      "threshold": 0.44,
+      "revealed": false,
+      "already_revealed": false,
+      "prerequisites_met": false,
+      "query_text": null,
+      "therapist_text": "Therapist: It sounds like discussing the wedding plans could be a good entry point for you, especially since it feels a bit safer yet still meaningful. I can sense that knot in your stomach as you think about sharing your thoughts, which shows how much this matters to you. What do you think might help you feel a bit more at ease as you prepare for that conversation about the venue or guest list?"
+    },
+    {
+      "turn": 16,
+      "field": "intermediate_beliefs",
+      "score": null,
+      "threshold": 0.42,
+      "revealed": false,
+      "already_revealed": false,
+      "prerequisites_met": false,
+      "query_text": null,
+      "therapist_text": "Therapist: It sounds like discussing the wedding plans could be a good entry point for you, especially since it feels a bit safer yet still meaningful. I can sense that knot in your stomach as you think about sharing your thoughts, which shows how much this matters to you. What do you think might help you feel a bit more at ease as you prepare for that conversation about the venue or guest list?"
+    },
+    {
+      "turn": 16,
+      "field": "coping_strategies",
+      "score": null,
+      "threshold": 0.36,
+      "revealed": false,
+      "already_revealed": true,
+      "prerequisites_met": true,
+      "query_text": null,
+      "therapist_text": "Therapist: It sounds like discussing the wedding plans could be a good entry point for you, especially since it feels a bit safer yet still meaningful. I can sense that knot in your stomach as you think about sharing your thoughts, which shows how much this matters to you. What do you think might help you feel a bit more at ease as you prepare for that conversation about the venue or guest list?"
+    },
+    {
+      "turn": 17,
+      "field": "situation",
+      "score": null,
+      "threshold": 0.3,
+      "revealed": false,
+      "already_revealed": true,
+      "prerequisites_met": true,
+      "query_text": null,
+      "therapist_text": "Therapist: It sounds like preparing your thoughts and practicing what you want to say could really help you feel more grounded as you approach this conversation. I can hear how much you want to be brave, yet that fear still lingers, making it challenging to shake off the tightness in your chest. It\u2019s completely understandable to feel that way, given the significance of the topic. As you think about your plan to prepare, what specific thoughts or reminders do you think might help you stay focused on sharing your perspective rather than getting caught up in the fear of their reactions?"
+    },
+    {
+      "turn": 17,
+      "field": "automatic_thought",
+      "score": 0.197778518054665,
+      "threshold": 0.36,
+      "revealed": false,
+      "already_revealed": false,
+      "prerequisites_met": true,
+      "query_text": "Therapist: It sounds like preparing your thoughts and practicing what you want to say could really help you feel more grounded as you approach this conversation. I can hear how much you want to be brave, yet that fear still lingers, making it challenging to shake off the tightness in your chest. It\u2019s completely understandable to feel that way, given the significance of the topic. As you think about your plan to prepare, what specific thoughts or reminders do you think might help you stay focused on sharing your perspective rather than getting caught up in the fear of their reactions?",
+      "therapist_text": "Therapist: It sounds like preparing your thoughts and practicing what you want to say could really help you feel more grounded as you approach this conversation. I can hear how much you want to be brave, yet that fear still lingers, making it challenging to shake off the tightness in your chest. It\u2019s completely understandable to feel that way, given the significance of the topic. As you think about your plan to prepare, what specific thoughts or reminders do you think might help you stay focused on sharing your perspective rather than getting caught up in the fear of their reactions?"
+    },
+    {
+      "turn": 17,
+      "field": "emotion",
+      "score": null,
+      "threshold": 0.28,
+      "revealed": false,
+      "already_revealed": true,
+      "prerequisites_met": true,
+      "query_text": null,
+      "therapist_text": "Therapist: It sounds like preparing your thoughts and practicing what you want to say could really help you feel more grounded as you approach this conversation. I can hear how much you want to be brave, yet that fear still lingers, making it challenging to shake off the tightness in your chest. It\u2019s completely understandable to feel that way, given the significance of the topic. As you think about your plan to prepare, what specific thoughts or reminders do you think might help you stay focused on sharing your perspective rather than getting caught up in the fear of their reactions?"
+    },
+    {
+      "turn": 17,
+      "field": "behavior",
+      "score": null,
+      "threshold": 0.3,
+      "revealed": false,
+      "already_revealed": true,
+      "prerequisites_met": true,
+      "query_text": null,
+      "therapist_text": "Therapist: It sounds like preparing your thoughts and practicing what you want to say could really help you feel more grounded as you approach this conversation. I can hear how much you want to be brave, yet that fear still lingers, making it challenging to shake off the tightness in your chest. It\u2019s completely understandable to feel that way, given the significance of the topic. As you think about your plan to prepare, what specific thoughts or reminders do you think might help you stay focused on sharing your perspective rather than getting caught up in the fear of their reactions?"
+    },
+    {
+      "turn": 17,
+      "field": "relevant_history",
+      "score": null,
+      "threshold": 0.4,
+      "revealed": false,
+      "already_revealed": true,
+      "prerequisites_met": true,
+      "query_text": null,
+      "therapist_text": "Therapist: It sounds like preparing your thoughts and practicing what you want to say could really help you feel more grounded as you approach this conversation. I can hear how much you want to be brave, yet that fear still lingers, making it challenging to shake off the tightness in your chest. It\u2019s completely understandable to feel that way, given the significance of the topic. As you think about your plan to prepare, what specific thoughts or reminders do you think might help you stay focused on sharing your perspective rather than getting caught up in the fear of their reactions?"
+    },
+    {
+      "turn": 17,
+      "field": "core_beliefs",
+      "score": null,
+      "threshold": 0.44,
+      "revealed": false,
+      "already_revealed": false,
+      "prerequisites_met": false,
+      "query_text": null,
+      "therapist_text": "Therapist: It sounds like preparing your thoughts and practicing what you want to say could really help you feel more grounded as you approach this conversation. I can hear how much you want to be brave, yet that fear still lingers, making it challenging to shake off the tightness in your chest. It\u2019s completely understandable to feel that way, given the significance of the topic. As you think about your plan to prepare, what specific thoughts or reminders do you think might help you stay focused on sharing your perspective rather than getting caught up in the fear of their reactions?"
+    },
+    {
+      "turn": 17,
+      "field": "intermediate_beliefs",
+      "score": null,
+      "threshold": 0.42,
+      "revealed": false,
+      "already_revealed": false,
+      "prerequisites_met": false,
+      "query_text": null,
+      "therapist_text": "Therapist: It sounds like preparing your thoughts and practicing what you want to say could really help you feel more grounded as you approach this conversation. I can hear how much you want to be brave, yet that fear still lingers, making it challenging to shake off the tightness in your chest. It\u2019s completely understandable to feel that way, given the significance of the topic. As you think about your plan to prepare, what specific thoughts or reminders do you think might help you stay focused on sharing your perspective rather than getting caught up in the fear of their reactions?"
+    },
+    {
+      "turn": 17,
+      "field": "coping_strategies",
+      "score": null,
+      "threshold": 0.36,
+      "revealed": false,
+      "already_revealed": true,
+      "prerequisites_met": true,
+      "query_text": null,
+      "therapist_text": "Therapist: It sounds like preparing your thoughts and practicing what you want to say could really help you feel more grounded as you approach this conversation. I can hear how much you want to be brave, yet that fear still lingers, making it challenging to shake off the tightness in your chest. It\u2019s completely understandable to feel that way, given the significance of the topic. As you think about your plan to prepare, what specific thoughts or reminders do you think might help you stay focused on sharing your perspective rather than getting caught up in the fear of their reactions?"
+    },
+    {
+      "turn": 18,
+      "field": "situation",
+      "score": null,
+      "threshold": 0.3,
+      "revealed": false,
+      "already_revealed": true,
+      "prerequisites_met": true,
+      "query_text": null,
+      "therapist_text": "Therapist: It sounds like reminding yourself that your feelings are valid and that it\u2019s okay to have your own perspective could be really empowering for you. I can sense the struggle between wanting to honor your own needs and the fear of how it might affect your connection with your parents. It\u2019s a tough balance to strike. As you think about this upcoming conversation, what do you think might help you acknowledge that fear while still moving forward with your plan?"
+    },
+    {
+      "turn": 18,
+      "field": "automatic_thought",
+      "score": 0.28148133421234434,
+      "threshold": 0.36,
+      "revealed": false,
+      "already_revealed": false,
+      "prerequisites_met": true,
+      "query_text": "Therapist: It sounds like reminding yourself that your feelings are valid and that it\u2019s okay to have your own perspective could be really empowering for you. I can sense the struggle between wanting to honor your own needs and the fear of how it might affect your connection with your parents. It\u2019s a tough balance to strike. As you think about this upcoming conversation, what do you think might help you acknowledge that fear while still moving forward with your plan?",
+      "therapist_text": "Therapist: It sounds like reminding yourself that your feelings are valid and that it\u2019s okay to have your own perspective could be really empowering for you. I can sense the struggle between wanting to honor your own needs and the fear of how it might affect your connection with your parents. It\u2019s a tough balance to strike. As you think about this upcoming conversation, what do you think might help you acknowledge that fear while still moving forward with your plan?"
+    },
+    {
+      "turn": 18,
+      "field": "emotion",
+      "score": null,
+      "threshold": 0.28,
+      "revealed": false,
+      "already_revealed": true,
+      "prerequisites_met": true,
+      "query_text": null,
+      "therapist_text": "Therapist: It sounds like reminding yourself that your feelings are valid and that it\u2019s okay to have your own perspective could be really empowering for you. I can sense the struggle between wanting to honor your own needs and the fear of how it might affect your connection with your parents. It\u2019s a tough balance to strike. As you think about this upcoming conversation, what do you think might help you acknowledge that fear while still moving forward with your plan?"
+    },
+    {
+      "turn": 18,
+      "field": "behavior",
+      "score": null,
+      "threshold": 0.3,
+      "revealed": false,
+      "already_revealed": true,
+      "prerequisites_met": true,
+      "query_text": null,
+      "therapist_text": "Therapist: It sounds like reminding yourself that your feelings are valid and that it\u2019s okay to have your own perspective could be really empowering for you. I can sense the struggle between wanting to honor your own needs and the fear of how it might affect your connection with your parents. It\u2019s a tough balance to strike. As you think about this upcoming conversation, what do you think might help you acknowledge that fear while still moving forward with your plan?"
+    },
+    {
+      "turn": 18,
+      "field": "relevant_history",
+      "score": null,
+      "threshold": 0.4,
+      "revealed": false,
+      "already_revealed": true,
+      "prerequisites_met": true,
+      "query_text": null,
+      "therapist_text": "Therapist: It sounds like reminding yourself that your feelings are valid and that it\u2019s okay to have your own perspective could be really empowering for you. I can sense the struggle between wanting to honor your own needs and the fear of how it might affect your connection with your parents. It\u2019s a tough balance to strike. As you think about this upcoming conversation, what do you think might help you acknowledge that fear while still moving forward with your plan?"
+    },
+    {
+      "turn": 18,
+      "field": "core_beliefs",
+      "score": null,
+      "threshold": 0.44,
+      "revealed": false,
+      "already_revealed": false,
+      "prerequisites_met": false,
+      "query_text": null,
+      "therapist_text": "Therapist: It sounds like reminding yourself that your feelings are valid and that it\u2019s okay to have your own perspective could be really empowering for you. I can sense the struggle between wanting to honor your own needs and the fear of how it might affect your connection with your parents. It\u2019s a tough balance to strike. As you think about this upcoming conversation, what do you think might help you acknowledge that fear while still moving forward with your plan?"
+    },
+    {
+      "turn": 18,
+      "field": "intermediate_beliefs",
+      "score": null,
+      "threshold": 0.42,
+      "revealed": false,
+      "already_revealed": false,
+      "prerequisites_met": false,
+      "query_text": null,
+      "therapist_text": "Therapist: It sounds like reminding yourself that your feelings are valid and that it\u2019s okay to have your own perspective could be really empowering for you. I can sense the struggle between wanting to honor your own needs and the fear of how it might affect your connection with your parents. It\u2019s a tough balance to strike. As you think about this upcoming conversation, what do you think might help you acknowledge that fear while still moving forward with your plan?"
+    },
+    {
+      "turn": 18,
+      "field": "coping_strategies",
+      "score": null,
+      "threshold": 0.36,
+      "revealed": false,
+      "already_revealed": true,
+      "prerequisites_met": true,
+      "query_text": null,
+      "therapist_text": "Therapist: It sounds like reminding yourself that your feelings are valid and that it\u2019s okay to have your own perspective could be really empowering for you. I can sense the struggle between wanting to honor your own needs and the fear of how it might affect your connection with your parents. It\u2019s a tough balance to strike. As you think about this upcoming conversation, what do you think might help you acknowledge that fear while still moving forward with your plan?"
+    },
+    {
+      "turn": 19,
+      "field": "situation",
+      "score": null,
+      "threshold": 0.3,
+      "revealed": false,
+      "already_revealed": true,
+      "prerequisites_met": true,
+      "query_text": null,
+      "therapist_text": "Therapist: It sounds like you\u2019re really trying to find a way to acknowledge your fear while also preparing to express yourself honestly, which is a significant step. Recognizing that fear doesn\u2019t define your strength is an important insight. I can hear how much you want to navigate this conversation without it escalating into something overwhelming. As you think about the potential reactions from your parents, what do you think might help you stay centered in your own feelings during the conversation, regardless of how they respond?"
+    },
+    {
+      "turn": 19,
+      "field": "automatic_thought",
+      "score": 0.24698313806456207,
+      "threshold": 0.36,
+      "revealed": false,
+      "already_revealed": false,
+      "prerequisites_met": true,
+      "query_text": "Therapist: It sounds like you\u2019re really trying to find a way to acknowledge your fear while also preparing to express yourself honestly, which is a significant step. Recognizing that fear doesn\u2019t define your strength is an important insight. I can hear how much you want to navigate this conversation without it escalating into something overwhelming. As you think about the potential reactions from your parents, what do you think might help you stay centered in your own feelings during the conversation, regardless of how they respond?",
+      "therapist_text": "Therapist: It sounds like you\u2019re really trying to find a way to acknowledge your fear while also preparing to express yourself honestly, which is a significant step. Recognizing that fear doesn\u2019t define your strength is an important insight. I can hear how much you want to navigate this conversation without it escalating into something overwhelming. As you think about the potential reactions from your parents, what do you think might help you stay centered in your own feelings during the conversation, regardless of how they respond?"
+    },
+    {
+      "turn": 19,
+      "field": "emotion",
+      "score": null,
+      "threshold": 0.28,
+      "revealed": false,
+      "already_revealed": true,
+      "prerequisites_met": true,
+      "query_text": null,
+      "therapist_text": "Therapist: It sounds like you\u2019re really trying to find a way to acknowledge your fear while also preparing to express yourself honestly, which is a significant step. Recognizing that fear doesn\u2019t define your strength is an important insight. I can hear how much you want to navigate this conversation without it escalating into something overwhelming. As you think about the potential reactions from your parents, what do you think might help you stay centered in your own feelings during the conversation, regardless of how they respond?"
+    },
+    {
+      "turn": 19,
+      "field": "behavior",
+      "score": null,
+      "threshold": 0.3,
+      "revealed": false,
+      "already_revealed": true,
+      "prerequisites_met": true,
+      "query_text": null,
+      "therapist_text": "Therapist: It sounds like you\u2019re really trying to find a way to acknowledge your fear while also preparing to express yourself honestly, which is a significant step. Recognizing that fear doesn\u2019t define your strength is an important insight. I can hear how much you want to navigate this conversation without it escalating into something overwhelming. As you think about the potential reactions from your parents, what do you think might help you stay centered in your own feelings during the conversation, regardless of how they respond?"
+    },
+    {
+      "turn": 19,
+      "field": "relevant_history",
+      "score": null,
+      "threshold": 0.4,
+      "revealed": false,
+      "already_revealed": true,
+      "prerequisites_met": true,
+      "query_text": null,
+      "therapist_text": "Therapist: It sounds like you\u2019re really trying to find a way to acknowledge your fear while also preparing to express yourself honestly, which is a significant step. Recognizing that fear doesn\u2019t define your strength is an important insight. I can hear how much you want to navigate this conversation without it escalating into something overwhelming. As you think about the potential reactions from your parents, what do you think might help you stay centered in your own feelings during the conversation, regardless of how they respond?"
+    },
+    {
+      "turn": 19,
+      "field": "core_beliefs",
+      "score": null,
+      "threshold": 0.44,
+      "revealed": false,
+      "already_revealed": false,
+      "prerequisites_met": false,
+      "query_text": null,
+      "therapist_text": "Therapist: It sounds like you\u2019re really trying to find a way to acknowledge your fear while also preparing to express yourself honestly, which is a significant step. Recognizing that fear doesn\u2019t define your strength is an important insight. I can hear how much you want to navigate this conversation without it escalating into something overwhelming. As you think about the potential reactions from your parents, what do you think might help you stay centered in your own feelings during the conversation, regardless of how they respond?"
+    },
+    {
+      "turn": 19,
+      "field": "intermediate_beliefs",
+      "score": null,
+      "threshold": 0.42,
+      "revealed": false,
+      "already_revealed": false,
+      "prerequisites_met": false,
+      "query_text": null,
+      "therapist_text": "Therapist: It sounds like you\u2019re really trying to find a way to acknowledge your fear while also preparing to express yourself honestly, which is a significant step. Recognizing that fear doesn\u2019t define your strength is an important insight. I can hear how much you want to navigate this conversation without it escalating into something overwhelming. As you think about the potential reactions from your parents, what do you think might help you stay centered in your own feelings during the conversation, regardless of how they respond?"
+    },
+    {
+      "turn": 19,
+      "field": "coping_strategies",
+      "score": null,
+      "threshold": 0.36,
+      "revealed": false,
+      "already_revealed": true,
+      "prerequisites_met": true,
+      "query_text": null,
+      "therapist_text": "Therapist: It sounds like you\u2019re really trying to find a way to acknowledge your fear while also preparing to express yourself honestly, which is a significant step. Recognizing that fear doesn\u2019t define your strength is an important insight. I can hear how much you want to navigate this conversation without it escalating into something overwhelming. As you think about the potential reactions from your parents, what do you think might help you stay centered in your own feelings during the conversation, regardless of how they respond?"
+    },
+    {
+      "turn": 20,
+      "field": "situation",
+      "score": null,
+      "threshold": 0.3,
+      "revealed": false,
+      "already_revealed": true,
+      "prerequisites_met": true,
+      "query_text": null,
+      "therapist_text": "Therapist: It sounds like you\u2019re really honing in on the importance of staying focused on your own feelings and perspective during the conversation, which is a great strategy. Practicing deep breathing could also be a helpful way to manage that knot in your stomach. I can sense the ongoing worry about their potential reactions, and it\u2019s completely normal to feel that way. As you think about this practice of sharing your perspective, what do you think might help you remind yourself to stay present and not get lost in those worries when the moment arrives?"
+    },
+    {
+      "turn": 20,
+      "field": "automatic_thought",
+      "score": 0.2009465698736186,
+      "threshold": 0.36,
+      "revealed": false,
+      "already_revealed": false,
+      "prerequisites_met": true,
+      "query_text": "Therapist: It sounds like you\u2019re really honing in on the importance of staying focused on your own feelings and perspective during the conversation, which is a great strategy. Practicing deep breathing could also be a helpful way to manage that knot in your stomach. I can sense the ongoing worry about their potential reactions, and it\u2019s completely normal to feel that way. As you think about this practice of sharing your perspective, what do you think might help you remind yourself to stay present and not get lost in those worries when the moment arrives?",
+      "therapist_text": "Therapist: It sounds like you\u2019re really honing in on the importance of staying focused on your own feelings and perspective during the conversation, which is a great strategy. Practicing deep breathing could also be a helpful way to manage that knot in your stomach. I can sense the ongoing worry about their potential reactions, and it\u2019s completely normal to feel that way. As you think about this practice of sharing your perspective, what do you think might help you remind yourself to stay present and not get lost in those worries when the moment arrives?"
+    },
+    {
+      "turn": 20,
+      "field": "emotion",
+      "score": null,
+      "threshold": 0.28,
+      "revealed": false,
+      "already_revealed": true,
+      "prerequisites_met": true,
+      "query_text": null,
+      "therapist_text": "Therapist: It sounds like you\u2019re really honing in on the importance of staying focused on your own feelings and perspective during the conversation, which is a great strategy. Practicing deep breathing could also be a helpful way to manage that knot in your stomach. I can sense the ongoing worry about their potential reactions, and it\u2019s completely normal to feel that way. As you think about this practice of sharing your perspective, what do you think might help you remind yourself to stay present and not get lost in those worries when the moment arrives?"
+    },
+    {
+      "turn": 20,
+      "field": "behavior",
+      "score": null,
+      "threshold": 0.3,
+      "revealed": false,
+      "already_revealed": true,
+      "prerequisites_met": true,
+      "query_text": null,
+      "therapist_text": "Therapist: It sounds like you\u2019re really honing in on the importance of staying focused on your own feelings and perspective during the conversation, which is a great strategy. Practicing deep breathing could also be a helpful way to manage that knot in your stomach. I can sense the ongoing worry about their potential reactions, and it\u2019s completely normal to feel that way. As you think about this practice of sharing your perspective, what do you think might help you remind yourself to stay present and not get lost in those worries when the moment arrives?"
+    },
+    {
+      "turn": 20,
+      "field": "relevant_history",
+      "score": null,
+      "threshold": 0.4,
+      "revealed": false,
+      "already_revealed": true,
+      "prerequisites_met": true,
+      "query_text": null,
+      "therapist_text": "Therapist: It sounds like you\u2019re really honing in on the importance of staying focused on your own feelings and perspective during the conversation, which is a great strategy. Practicing deep breathing could also be a helpful way to manage that knot in your stomach. I can sense the ongoing worry about their potential reactions, and it\u2019s completely normal to feel that way. As you think about this practice of sharing your perspective, what do you think might help you remind yourself to stay present and not get lost in those worries when the moment arrives?"
+    },
+    {
+      "turn": 20,
+      "field": "core_beliefs",
+      "score": null,
+      "threshold": 0.44,
+      "revealed": false,
+      "already_revealed": false,
+      "prerequisites_met": false,
+      "query_text": null,
+      "therapist_text": "Therapist: It sounds like you\u2019re really honing in on the importance of staying focused on your own feelings and perspective during the conversation, which is a great strategy. Practicing deep breathing could also be a helpful way to manage that knot in your stomach. I can sense the ongoing worry about their potential reactions, and it\u2019s completely normal to feel that way. As you think about this practice of sharing your perspective, what do you think might help you remind yourself to stay present and not get lost in those worries when the moment arrives?"
+    },
+    {
+      "turn": 20,
+      "field": "intermediate_beliefs",
+      "score": null,
+      "threshold": 0.42,
+      "revealed": false,
+      "already_revealed": false,
+      "prerequisites_met": false,
+      "query_text": null,
+      "therapist_text": "Therapist: It sounds like you\u2019re really honing in on the importance of staying focused on your own feelings and perspective during the conversation, which is a great strategy. Practicing deep breathing could also be a helpful way to manage that knot in your stomach. I can sense the ongoing worry about their potential reactions, and it\u2019s completely normal to feel that way. As you think about this practice of sharing your perspective, what do you think might help you remind yourself to stay present and not get lost in those worries when the moment arrives?"
+    },
+    {
+      "turn": 20,
+      "field": "coping_strategies",
+      "score": null,
+      "threshold": 0.36,
+      "revealed": false,
+      "already_revealed": true,
+      "prerequisites_met": true,
+      "query_text": null,
+      "therapist_text": "Therapist: It sounds like you\u2019re really honing in on the importance of staying focused on your own feelings and perspective during the conversation, which is a great strategy. Practicing deep breathing could also be a helpful way to manage that knot in your stomach. I can sense the ongoing worry about their potential reactions, and it\u2019s completely normal to feel that way. As you think about this practice of sharing your perspective, what do you think might help you remind yourself to stay present and not get lost in those worries when the moment arrives?"
+    },
+    {
+      "turn": 21,
+      "field": "situation",
+      "score": null,
+      "threshold": 0.3,
+      "revealed": false,
+      "already_revealed": true,
+      "prerequisites_met": true,
+      "query_text": null,
+      "therapist_text": "Therapist: It sounds like setting an intention and visualizing the conversation could be powerful tools for you to stay present and focused on what\u2019s important. I can hear how much you care about getting this right and the weight you feel around their potential understanding. It\u2019s understandable to feel that way, especially when so much feels at stake. As you reflect on those worries about their response, what do you think is at the core of that fear for you?"
+    },
+    {
+      "turn": 21,
+      "field": "automatic_thought",
+      "score": 0.2350943155729673,
+      "threshold": 0.36,
+      "revealed": false,
+      "already_revealed": false,
+      "prerequisites_met": true,
+      "query_text": "Therapist: It sounds like setting an intention and visualizing the conversation could be powerful tools for you to stay present and focused on what\u2019s important. I can hear how much you care about getting this right and the weight you feel around their potential understanding. It\u2019s understandable to feel that way, especially when so much feels at stake. As you reflect on those worries about their response, what do you think is at the core of that fear for you?",
+      "therapist_text": "Therapist: It sounds like setting an intention and visualizing the conversation could be powerful tools for you to stay present and focused on what\u2019s important. I can hear how much you care about getting this right and the weight you feel around their potential understanding. It\u2019s understandable to feel that way, especially when so much feels at stake. As you reflect on those worries about their response, what do you think is at the core of that fear for you?"
+    },
+    {
+      "turn": 21,
+      "field": "emotion",
+      "score": null,
+      "threshold": 0.28,
+      "revealed": false,
+      "already_revealed": true,
+      "prerequisites_met": true,
+      "query_text": null,
+      "therapist_text": "Therapist: It sounds like setting an intention and visualizing the conversation could be powerful tools for you to stay present and focused on what\u2019s important. I can hear how much you care about getting this right and the weight you feel around their potential understanding. It\u2019s understandable to feel that way, especially when so much feels at stake. As you reflect on those worries about their response, what do you think is at the core of that fear for you?"
+    },
+    {
+      "turn": 21,
+      "field": "behavior",
+      "score": null,
+      "threshold": 0.3,
+      "revealed": false,
+      "already_revealed": true,
+      "prerequisites_met": true,
+      "query_text": null,
+      "therapist_text": "Therapist: It sounds like setting an intention and visualizing the conversation could be powerful tools for you to stay present and focused on what\u2019s important. I can hear how much you care about getting this right and the weight you feel around their potential understanding. It\u2019s understandable to feel that way, especially when so much feels at stake. As you reflect on those worries about their response, what do you think is at the core of that fear for you?"
+    },
+    {
+      "turn": 21,
+      "field": "relevant_history",
+      "score": null,
+      "threshold": 0.4,
+      "revealed": false,
+      "already_revealed": true,
+      "prerequisites_met": true,
+      "query_text": null,
+      "therapist_text": "Therapist: It sounds like setting an intention and visualizing the conversation could be powerful tools for you to stay present and focused on what\u2019s important. I can hear how much you care about getting this right and the weight you feel around their potential understanding. It\u2019s understandable to feel that way, especially when so much feels at stake. As you reflect on those worries about their response, what do you think is at the core of that fear for you?"
+    },
+    {
+      "turn": 21,
+      "field": "core_beliefs",
+      "score": null,
+      "threshold": 0.44,
+      "revealed": false,
+      "already_revealed": false,
+      "prerequisites_met": false,
+      "query_text": null,
+      "therapist_text": "Therapist: It sounds like setting an intention and visualizing the conversation could be powerful tools for you to stay present and focused on what\u2019s important. I can hear how much you care about getting this right and the weight you feel around their potential understanding. It\u2019s understandable to feel that way, especially when so much feels at stake. As you reflect on those worries about their response, what do you think is at the core of that fear for you?"
+    },
+    {
+      "turn": 21,
+      "field": "intermediate_beliefs",
+      "score": null,
+      "threshold": 0.42,
+      "revealed": false,
+      "already_revealed": false,
+      "prerequisites_met": false,
+      "query_text": null,
+      "therapist_text": "Therapist: It sounds like setting an intention and visualizing the conversation could be powerful tools for you to stay present and focused on what\u2019s important. I can hear how much you care about getting this right and the weight you feel around their potential understanding. It\u2019s understandable to feel that way, especially when so much feels at stake. As you reflect on those worries about their response, what do you think is at the core of that fear for you?"
+    },
+    {
+      "turn": 21,
+      "field": "coping_strategies",
+      "score": null,
+      "threshold": 0.36,
+      "revealed": false,
+      "already_revealed": true,
+      "prerequisites_met": true,
+      "query_text": null,
+      "therapist_text": "Therapist: It sounds like setting an intention and visualizing the conversation could be powerful tools for you to stay present and focused on what\u2019s important. I can hear how much you care about getting this right and the weight you feel around their potential understanding. It\u2019s understandable to feel that way, especially when so much feels at stake. As you reflect on those worries about their response, what do you think is at the core of that fear for you?"
+    },
+    {
+      "turn": 22,
+      "field": "situation",
+      "score": null,
+      "threshold": 0.3,
+      "revealed": false,
+      "already_revealed": true,
+      "prerequisites_met": true,
+      "query_text": null,
+      "therapist_text": "Therapist: It sounds like the fear of disappointing your parents and the potential for conflict is really weighing on you. I can sense the deep desire to maintain harmony while also wanting to honor your own needs and those of your partner. That\u2019s a tough place to be in. As you think about this pressure to keep the peace, what do you think it might mean for you to prioritize your own feelings and desires in this situation?"
+    },
+    {
+      "turn": 22,
+      "field": "automatic_thought",
+      "score": 0.32861621958956405,
+      "threshold": 0.36,
+      "revealed": false,
+      "already_revealed": false,
+      "prerequisites_met": true,
+      "query_text": "Therapist: It sounds like the fear of disappointing your parents and the potential for conflict is really weighing on you. I can sense the deep desire to maintain harmony while also wanting to honor your own needs and those of your partner. That\u2019s a tough place to be in. As you think about this pressure to keep the peace, what do you think it might mean for you to prioritize your own feelings and desires in this situation?",
+      "therapist_text": "Therapist: It sounds like the fear of disappointing your parents and the potential for conflict is really weighing on you. I can sense the deep desire to maintain harmony while also wanting to honor your own needs and those of your partner. That\u2019s a tough place to be in. As you think about this pressure to keep the peace, what do you think it might mean for you to prioritize your own feelings and desires in this situation?"
+    },
+    {
+      "turn": 22,
+      "field": "emotion",
+      "score": null,
+      "threshold": 0.28,
+      "revealed": false,
+      "already_revealed": true,
+      "prerequisites_met": true,
+      "query_text": null,
+      "therapist_text": "Therapist: It sounds like the fear of disappointing your parents and the potential for conflict is really weighing on you. I can sense the deep desire to maintain harmony while also wanting to honor your own needs and those of your partner. That\u2019s a tough place to be in. As you think about this pressure to keep the peace, what do you think it might mean for you to prioritize your own feelings and desires in this situation?"
+    },
+    {
+      "turn": 22,
+      "field": "behavior",
+      "score": null,
+      "threshold": 0.3,
+      "revealed": false,
+      "already_revealed": true,
+      "prerequisites_met": true,
+      "query_text": null,
+      "therapist_text": "Therapist: It sounds like the fear of disappointing your parents and the potential for conflict is really weighing on you. I can sense the deep desire to maintain harmony while also wanting to honor your own needs and those of your partner. That\u2019s a tough place to be in. As you think about this pressure to keep the peace, what do you think it might mean for you to prioritize your own feelings and desires in this situation?"
+    },
+    {
+      "turn": 22,
+      "field": "relevant_history",
+      "score": null,
+      "threshold": 0.4,
+      "revealed": false,
+      "already_revealed": true,
+      "prerequisites_met": true,
+      "query_text": null,
+      "therapist_text": "Therapist: It sounds like the fear of disappointing your parents and the potential for conflict is really weighing on you. I can sense the deep desire to maintain harmony while also wanting to honor your own needs and those of your partner. That\u2019s a tough place to be in. As you think about this pressure to keep the peace, what do you think it might mean for you to prioritize your own feelings and desires in this situation?"
+    },
+    {
+      "turn": 22,
+      "field": "core_beliefs",
+      "score": null,
+      "threshold": 0.44,
+      "revealed": false,
+      "already_revealed": false,
+      "prerequisites_met": false,
+      "query_text": null,
+      "therapist_text": "Therapist: It sounds like the fear of disappointing your parents and the potential for conflict is really weighing on you. I can sense the deep desire to maintain harmony while also wanting to honor your own needs and those of your partner. That\u2019s a tough place to be in. As you think about this pressure to keep the peace, what do you think it might mean for you to prioritize your own feelings and desires in this situation?"
+    },
+    {
+      "turn": 22,
+      "field": "intermediate_beliefs",
+      "score": null,
+      "threshold": 0.42,
+      "revealed": false,
+      "already_revealed": false,
+      "prerequisites_met": false,
+      "query_text": null,
+      "therapist_text": "Therapist: It sounds like the fear of disappointing your parents and the potential for conflict is really weighing on you. I can sense the deep desire to maintain harmony while also wanting to honor your own needs and those of your partner. That\u2019s a tough place to be in. As you think about this pressure to keep the peace, what do you think it might mean for you to prioritize your own feelings and desires in this situation?"
+    },
+    {
+      "turn": 22,
+      "field": "coping_strategies",
+      "score": null,
+      "threshold": 0.36,
+      "revealed": false,
+      "already_revealed": true,
+      "prerequisites_met": true,
+      "query_text": null,
+      "therapist_text": "Therapist: It sounds like the fear of disappointing your parents and the potential for conflict is really weighing on you. I can sense the deep desire to maintain harmony while also wanting to honor your own needs and those of your partner. That\u2019s a tough place to be in. As you think about this pressure to keep the peace, what do you think it might mean for you to prioritize your own feelings and desires in this situation?"
+    },
+    {
+      "turn": 23,
+      "field": "situation",
+      "score": null,
+      "threshold": 0.3,
+      "revealed": false,
+      "already_revealed": true,
+      "prerequisites_met": true,
+      "query_text": null,
+      "therapist_text": "Therapist: It sounds like you\u2019re really grappling with the challenge of honoring your own happiness and desires while also being mindful of your parents' expectations. Acknowledging your right to your own perspective is a significant step, even if it feels uncomfortable. I can hear how much you want to maintain that connection with them while also being true to yourself and your partner. As you think about this tightrope walk, what do you think could help you feel more confident in expressing your needs without feeling like it might cause a rift?"
+    },
+    {
+      "turn": 23,
+      "field": "automatic_thought",
+      "score": 0.3198725508290467,
+      "threshold": 0.36,
+      "revealed": false,
+      "already_revealed": false,
+      "prerequisites_met": true,
+      "query_text": "Therapist: It sounds like you\u2019re really grappling with the challenge of honoring your own happiness and desires while also being mindful of your parents' expectations. Acknowledging your right to your own perspective is a significant step, even if it feels uncomfortable. I can hear how much you want to maintain that connection with them while also being true to yourself and your partner. As you think about this tightrope walk, what do you think could help you feel more confident in expressing your needs without feeling like it might cause a rift?",
+      "therapist_text": "Therapist: It sounds like you\u2019re really grappling with the challenge of honoring your own happiness and desires while also being mindful of your parents' expectations. Acknowledging your right to your own perspective is a significant step, even if it feels uncomfortable. I can hear how much you want to maintain that connection with them while also being true to yourself and your partner. As you think about this tightrope walk, what do you think could help you feel more confident in expressing your needs without feeling like it might cause a rift?"
+    },
+    {
+      "turn": 23,
+      "field": "emotion",
+      "score": null,
+      "threshold": 0.28,
+      "revealed": false,
+      "already_revealed": true,
+      "prerequisites_met": true,
+      "query_text": null,
+      "therapist_text": "Therapist: It sounds like you\u2019re really grappling with the challenge of honoring your own happiness and desires while also being mindful of your parents' expectations. Acknowledging your right to your own perspective is a significant step, even if it feels uncomfortable. I can hear how much you want to maintain that connection with them while also being true to yourself and your partner. As you think about this tightrope walk, what do you think could help you feel more confident in expressing your needs without feeling like it might cause a rift?"
+    },
+    {
+      "turn": 23,
+      "field": "behavior",
+      "score": null,
+      "threshold": 0.3,
+      "revealed": false,
+      "already_revealed": true,
+      "prerequisites_met": true,
+      "query_text": null,
+      "therapist_text": "Therapist: It sounds like you\u2019re really grappling with the challenge of honoring your own happiness and desires while also being mindful of your parents' expectations. Acknowledging your right to your own perspective is a significant step, even if it feels uncomfortable. I can hear how much you want to maintain that connection with them while also being true to yourself and your partner. As you think about this tightrope walk, what do you think could help you feel more confident in expressing your needs without feeling like it might cause a rift?"
+    },
+    {
+      "turn": 23,
+      "field": "relevant_history",
+      "score": null,
+      "threshold": 0.4,
+      "revealed": false,
+      "already_revealed": true,
+      "prerequisites_met": true,
+      "query_text": null,
+      "therapist_text": "Therapist: It sounds like you\u2019re really grappling with the challenge of honoring your own happiness and desires while also being mindful of your parents' expectations. Acknowledging your right to your own perspective is a significant step, even if it feels uncomfortable. I can hear how much you want to maintain that connection with them while also being true to yourself and your partner. As you think about this tightrope walk, what do you think could help you feel more confident in expressing your needs without feeling like it might cause a rift?"
+    },
+    {
+      "turn": 23,
+      "field": "core_beliefs",
+      "score": null,
+      "threshold": 0.44,
+      "revealed": false,
+      "already_revealed": false,
+      "prerequisites_met": false,
+      "query_text": null,
+      "therapist_text": "Therapist: It sounds like you\u2019re really grappling with the challenge of honoring your own happiness and desires while also being mindful of your parents' expectations. Acknowledging your right to your own perspective is a significant step, even if it feels uncomfortable. I can hear how much you want to maintain that connection with them while also being true to yourself and your partner. As you think about this tightrope walk, what do you think could help you feel more confident in expressing your needs without feeling like it might cause a rift?"
+    },
+    {
+      "turn": 23,
+      "field": "intermediate_beliefs",
+      "score": null,
+      "threshold": 0.42,
+      "revealed": false,
+      "already_revealed": false,
+      "prerequisites_met": false,
+      "query_text": null,
+      "therapist_text": "Therapist: It sounds like you\u2019re really grappling with the challenge of honoring your own happiness and desires while also being mindful of your parents' expectations. Acknowledging your right to your own perspective is a significant step, even if it feels uncomfortable. I can hear how much you want to maintain that connection with them while also being true to yourself and your partner. As you think about this tightrope walk, what do you think could help you feel more confident in expressing your needs without feeling like it might cause a rift?"
+    },
+    {
+      "turn": 23,
+      "field": "coping_strategies",
+      "score": null,
+      "threshold": 0.36,
+      "revealed": false,
+      "already_revealed": true,
+      "prerequisites_met": true,
+      "query_text": null,
+      "therapist_text": "Therapist: It sounds like you\u2019re really grappling with the challenge of honoring your own happiness and desires while also being mindful of your parents' expectations. Acknowledging your right to your own perspective is a significant step, even if it feels uncomfortable. I can hear how much you want to maintain that connection with them while also being true to yourself and your partner. As you think about this tightrope walk, what do you think could help you feel more confident in expressing your needs without feeling like it might cause a rift?"
+    },
+    {
+      "turn": 24,
+      "field": "situation",
+      "score": null,
+      "threshold": 0.3,
+      "revealed": false,
+      "already_revealed": true,
+      "prerequisites_met": true,
+      "query_text": null,
+      "therapist_text": "Therapist: It sounds like you\u2019re considering some thoughtful ways to frame your needs in a way that feels respectful to your parents, which is a great approach. Preparing for different reactions and thinking through responses could definitely help you feel more equipped. I can sense how much you want to navigate this conversation with care, and it\u2019s understandable to feel that knot in your stomach. As you reflect on this complexity, what do you think it would mean for you to find a way to express yourself that feels both honest and respectful?"
+    },
+    {
+      "turn": 24,
+      "field": "automatic_thought",
+      "score": 0.2388653765247369,
+      "threshold": 0.36,
+      "revealed": false,
+      "already_revealed": false,
+      "prerequisites_met": true,
+      "query_text": "Therapist: It sounds like you\u2019re considering some thoughtful ways to frame your needs in a way that feels respectful to your parents, which is a great approach. Preparing for different reactions and thinking through responses could definitely help you feel more equipped. I can sense how much you want to navigate this conversation with care, and it\u2019s understandable to feel that knot in your stomach. As you reflect on this complexity, what do you think it would mean for you to find a way to express yourself that feels both honest and respectful?",
+      "therapist_text": "Therapist: It sounds like you\u2019re considering some thoughtful ways to frame your needs in a way that feels respectful to your parents, which is a great approach. Preparing for different reactions and thinking through responses could definitely help you feel more equipped. I can sense how much you want to navigate this conversation with care, and it\u2019s understandable to feel that knot in your stomach. As you reflect on this complexity, what do you think it would mean for you to find a way to express yourself that feels both honest and respectful?"
+    },
+    {
+      "turn": 24,
+      "field": "emotion",
+      "score": null,
+      "threshold": 0.28,
+      "revealed": false,
+      "already_revealed": true,
+      "prerequisites_met": true,
+      "query_text": null,
+      "therapist_text": "Therapist: It sounds like you\u2019re considering some thoughtful ways to frame your needs in a way that feels respectful to your parents, which is a great approach. Preparing for different reactions and thinking through responses could definitely help you feel more equipped. I can sense how much you want to navigate this conversation with care, and it\u2019s understandable to feel that knot in your stomach. As you reflect on this complexity, what do you think it would mean for you to find a way to express yourself that feels both honest and respectful?"
+    },
+    {
+      "turn": 24,
+      "field": "behavior",
+      "score": null,
+      "threshold": 0.3,
+      "revealed": false,
+      "already_revealed": true,
+      "prerequisites_met": true,
+      "query_text": null,
+      "therapist_text": "Therapist: It sounds like you\u2019re considering some thoughtful ways to frame your needs in a way that feels respectful to your parents, which is a great approach. Preparing for different reactions and thinking through responses could definitely help you feel more equipped. I can sense how much you want to navigate this conversation with care, and it\u2019s understandable to feel that knot in your stomach. As you reflect on this complexity, what do you think it would mean for you to find a way to express yourself that feels both honest and respectful?"
+    },
+    {
+      "turn": 24,
+      "field": "relevant_history",
+      "score": null,
+      "threshold": 0.4,
+      "revealed": false,
+      "already_revealed": true,
+      "prerequisites_met": true,
+      "query_text": null,
+      "therapist_text": "Therapist: It sounds like you\u2019re considering some thoughtful ways to frame your needs in a way that feels respectful to your parents, which is a great approach. Preparing for different reactions and thinking through responses could definitely help you feel more equipped. I can sense how much you want to navigate this conversation with care, and it\u2019s understandable to feel that knot in your stomach. As you reflect on this complexity, what do you think it would mean for you to find a way to express yourself that feels both honest and respectful?"
+    },
+    {
+      "turn": 24,
+      "field": "core_beliefs",
+      "score": null,
+      "threshold": 0.44,
+      "revealed": false,
+      "already_revealed": false,
+      "prerequisites_met": false,
+      "query_text": null,
+      "therapist_text": "Therapist: It sounds like you\u2019re considering some thoughtful ways to frame your needs in a way that feels respectful to your parents, which is a great approach. Preparing for different reactions and thinking through responses could definitely help you feel more equipped. I can sense how much you want to navigate this conversation with care, and it\u2019s understandable to feel that knot in your stomach. As you reflect on this complexity, what do you think it would mean for you to find a way to express yourself that feels both honest and respectful?"
+    },
+    {
+      "turn": 24,
+      "field": "intermediate_beliefs",
+      "score": null,
+      "threshold": 0.42,
+      "revealed": false,
+      "already_revealed": false,
+      "prerequisites_met": false,
+      "query_text": null,
+      "therapist_text": "Therapist: It sounds like you\u2019re considering some thoughtful ways to frame your needs in a way that feels respectful to your parents, which is a great approach. Preparing for different reactions and thinking through responses could definitely help you feel more equipped. I can sense how much you want to navigate this conversation with care, and it\u2019s understandable to feel that knot in your stomach. As you reflect on this complexity, what do you think it would mean for you to find a way to express yourself that feels both honest and respectful?"
+    },
+    {
+      "turn": 24,
+      "field": "coping_strategies",
+      "score": null,
+      "threshold": 0.36,
+      "revealed": false,
+      "already_revealed": true,
+      "prerequisites_met": true,
+      "query_text": null,
+      "therapist_text": "Therapist: It sounds like you\u2019re considering some thoughtful ways to frame your needs in a way that feels respectful to your parents, which is a great approach. Preparing for different reactions and thinking through responses could definitely help you feel more equipped. I can sense how much you want to navigate this conversation with care, and it\u2019s understandable to feel that knot in your stomach. As you reflect on this complexity, what do you think it would mean for you to find a way to express yourself that feels both honest and respectful?"
+    },
+    {
+      "turn": 25,
+      "field": "situation",
+      "score": null,
+      "threshold": 0.3,
+      "revealed": false,
+      "already_revealed": true,
+      "prerequisites_met": true,
+      "query_text": null,
+      "therapist_text": "Therapist: It sounds like finding that balance between being true to yourself and honoring your parents' feelings is really important to you. You want to create a space for open communication while also maintaining that loving connection. I can hear how much you care about navigating this carefully, and it\u2019s understandable to feel that pressure. As you think about this balancing act, what do you think might help you feel more secure in your own perspective, even in the face of potential disagreement?"
+    },
+    {
+      "turn": 25,
+      "field": "automatic_thought",
+      "score": 0.2787572818847783,
+      "threshold": 0.36,
+      "revealed": false,
+      "already_revealed": false,
+      "prerequisites_met": true,
+      "query_text": "Therapist: It sounds like finding that balance between being true to yourself and honoring your parents' feelings is really important to you. You want to create a space for open communication while also maintaining that loving connection. I can hear how much you care about navigating this carefully, and it\u2019s understandable to feel that pressure. As you think about this balancing act, what do you think might help you feel more secure in your own perspective, even in the face of potential disagreement?",
+      "therapist_text": "Therapist: It sounds like finding that balance between being true to yourself and honoring your parents' feelings is really important to you. You want to create a space for open communication while also maintaining that loving connection. I can hear how much you care about navigating this carefully, and it\u2019s understandable to feel that pressure. As you think about this balancing act, what do you think might help you feel more secure in your own perspective, even in the face of potential disagreement?"
+    },
+    {
+      "turn": 25,
+      "field": "emotion",
+      "score": null,
+      "threshold": 0.28,
+      "revealed": false,
+      "already_revealed": true,
+      "prerequisites_met": true,
+      "query_text": null,
+      "therapist_text": "Therapist: It sounds like finding that balance between being true to yourself and honoring your parents' feelings is really important to you. You want to create a space for open communication while also maintaining that loving connection. I can hear how much you care about navigating this carefully, and it\u2019s understandable to feel that pressure. As you think about this balancing act, what do you think might help you feel more secure in your own perspective, even in the face of potential disagreement?"
+    },
+    {
+      "turn": 25,
+      "field": "behavior",
+      "score": null,
+      "threshold": 0.3,
+      "revealed": false,
+      "already_revealed": true,
+      "prerequisites_met": true,
+      "query_text": null,
+      "therapist_text": "Therapist: It sounds like finding that balance between being true to yourself and honoring your parents' feelings is really important to you. You want to create a space for open communication while also maintaining that loving connection. I can hear how much you care about navigating this carefully, and it\u2019s understandable to feel that pressure. As you think about this balancing act, what do you think might help you feel more secure in your own perspective, even in the face of potential disagreement?"
+    },
+    {
+      "turn": 25,
+      "field": "relevant_history",
+      "score": null,
+      "threshold": 0.4,
+      "revealed": false,
+      "already_revealed": true,
+      "prerequisites_met": true,
+      "query_text": null,
+      "therapist_text": "Therapist: It sounds like finding that balance between being true to yourself and honoring your parents' feelings is really important to you. You want to create a space for open communication while also maintaining that loving connection. I can hear how much you care about navigating this carefully, and it\u2019s understandable to feel that pressure. As you think about this balancing act, what do you think might help you feel more secure in your own perspective, even in the face of potential disagreement?"
+    },
+    {
+      "turn": 25,
+      "field": "core_beliefs",
+      "score": null,
+      "threshold": 0.44,
+      "revealed": false,
+      "already_revealed": false,
+      "prerequisites_met": false,
+      "query_text": null,
+      "therapist_text": "Therapist: It sounds like finding that balance between being true to yourself and honoring your parents' feelings is really important to you. You want to create a space for open communication while also maintaining that loving connection. I can hear how much you care about navigating this carefully, and it\u2019s understandable to feel that pressure. As you think about this balancing act, what do you think might help you feel more secure in your own perspective, even in the face of potential disagreement?"
+    },
+    {
+      "turn": 25,
+      "field": "intermediate_beliefs",
+      "score": null,
+      "threshold": 0.42,
+      "revealed": false,
+      "already_revealed": false,
+      "prerequisites_met": false,
+      "query_text": null,
+      "therapist_text": "Therapist: It sounds like finding that balance between being true to yourself and honoring your parents' feelings is really important to you. You want to create a space for open communication while also maintaining that loving connection. I can hear how much you care about navigating this carefully, and it\u2019s understandable to feel that pressure. As you think about this balancing act, what do you think might help you feel more secure in your own perspective, even in the face of potential disagreement?"
+    },
+    {
+      "turn": 25,
+      "field": "coping_strategies",
+      "score": null,
+      "threshold": 0.36,
+      "revealed": false,
+      "already_revealed": true,
+      "prerequisites_met": true,
+      "query_text": null,
+      "therapist_text": "Therapist: It sounds like finding that balance between being true to yourself and honoring your parents' feelings is really important to you. You want to create a space for open communication while also maintaining that loving connection. I can hear how much you care about navigating this carefully, and it\u2019s understandable to feel that pressure. As you think about this balancing act, what do you think might help you feel more secure in your own perspective, even in the face of potential disagreement?"
+    }
+  ]
+}

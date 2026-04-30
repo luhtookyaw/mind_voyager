@@ -7,6 +7,7 @@ from dataclasses import dataclass, field
 from pathlib import Path
 from typing import Any
 
+from dotenv import load_dotenv
 from llm import call_llm, cosine_similarity, get_embedding
 
 
@@ -281,7 +282,8 @@ def build_base_prompt_payload(state: SimulatorState) -> dict[str, str]:
 
 def render_client_system_prompt(state: SimulatorState) -> str:
     prompt = load_prompt("base_client_prompt.txt").replace("[Client]", state.case.name)
-    return prompt.format(**build_base_prompt_payload(state))
+    prompt = prompt.format(**build_base_prompt_payload(state))
+    return prompt
 
 
 def default_transcript_path(state: SimulatorState) -> Path:
@@ -319,6 +321,7 @@ def render_client_user_prompt(
 
 
 def ensure_api_key() -> None:
+    load_dotenv(ROOT / ".env")
     if not os.getenv("OPENAI_API_KEY"):
         raise RuntimeError("OPENAI_API_KEY is required for non-dry-run simulator usage.")
 
