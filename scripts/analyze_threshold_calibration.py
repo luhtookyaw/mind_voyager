@@ -35,6 +35,31 @@ def percentile(values: list[float], p: float) -> float | None:
     return ordered[lo] * (1 - frac) + ordered[hi] * frac
 
 
+def capped_ratio(value: float | None, threshold: float | None) -> float | None:
+    if value is None or threshold in (None, 0):
+        return None
+    return min(value / threshold, 1.0)
+
+
+def difficulty_index(
+    reveal_rate: float | None,
+    p90_score: float | None,
+    max_score: float | None,
+    threshold: float | None,
+) -> float | None:
+    if reveal_rate is None or threshold in (None, 0):
+        return None
+    p90_ratio = capped_ratio(p90_score, threshold)
+    max_ratio = capped_ratio(max_score, threshold)
+    if p90_ratio is None or max_ratio is None:
+        return None
+    return (
+        0.5 * (1 - reveal_rate)
+        + 0.3 * (1 - p90_ratio)
+        + 0.2 * (1 - max_ratio)
+    )
+
+
 def load_events(root: Path) -> list[dict[str, Any]]:
     events: list[dict[str, Any]] = []
     for difficulty in DIFFICULTIES:
@@ -73,19 +98,35 @@ def summarize(events: list[dict[str, Any]]) -> dict[str, dict[str, dict[str, Any
                 row for row in scored if float(row["score"]) >= float(row["threshold"])
             ]
             blocked = [row for row in rows if not row["prerequisites_met"]]
+            threshold = float(scored[0]["threshold"]) if scored else (
+                float(rows[0]["threshold"]) if rows else None
+            )
+
+            reveal_rate = (len(revealed_rows) / len(rows)) if rows else None
+            p90_score = percentile(scores, 0.90)
+            max_score = max(scores) if scores else None
 
             summary[difficulty][field] = {
                 "events": len(rows),
                 "scored_events": len(scored),
                 "reveals": len(revealed_rows),
-                "reveal_rate": (len(revealed_rows) / len(rows)) if rows else None,
+                "reveal_rate": reveal_rate,
                 "threshold_hits": len(threshold_hits),
                 "blocked_by_prereq": len(blocked),
+                "threshold": threshold,
                 "mean_score": mean(scores) if scores else None,
                 "median_score": median(scores) if scores else None,
                 "p75_score": percentile(scores, 0.75),
-                "p90_score": percentile(scores, 0.90),
-                "max_score": max(scores) if scores else None,
+                "p90_score": p90_score,
+                "max_score": max_score,
+                "p90_threshold_ratio": capped_ratio(p90_score, threshold),
+                "max_threshold_ratio": capped_ratio(max_score, threshold),
+                "difficulty_index": difficulty_index(
+                    reveal_rate=reveal_rate,
+                    p90_score=p90_score,
+                    max_score=max_score,
+                    threshold=threshold,
+                ),
             }
     return summary
 
@@ -97,7 +138,7 @@ def format_summary(summary: dict[str, dict[str, dict[str, Any]]]) -> str:
         lines.append(
             f"{'Field':<24} {'N':>5} {'Scored':>7} {'Reveals':>8} "
             f"{'Rate':>7} {'Hits':>6} {'Blocked':>8} "
-            f"{'Mean':>7} {'P75':>7} {'P90':>7} {'Max':>7}"
+            f"{'Mean':>7} {'P75':>7} {'P90':>7} {'Max':>7} {'DiffIx':>7}"
         )
         for field in FIELDS:
             stats = summary[difficulty][field]
@@ -106,12 +147,65 @@ def format_summary(summary: dict[str, dict[str, dict[str, Any]]]) -> str:
             p75_score = "-" if stats["p75_score"] is None else f"{stats['p75_score']:.3f}"
             p90_score = "-" if stats["p90_score"] is None else f"{stats['p90_score']:.3f}"
             max_score = "-" if stats["max_score"] is None else f"{stats['max_score']:.3f}"
+            difficulty_idx = (
+                "-" if stats["difficulty_index"] is None else f"{stats['difficulty_index']:.3f}"
+            )
             lines.append(
                 f"{field:<24} {stats['events']:>5} {stats['scored_events']:>7} "
                 f"{stats['reveals']:>8} {rate:>7} {stats['threshold_hits']:>6} "
                 f"{stats['blocked_by_prereq']:>8} {mean_score:>7} "
-                f"{p75_score:>7} {p90_score:>7} {max_score:>7}"
+                f"{p75_score:>7} {p90_score:>7} {max_score:>7} {difficulty_idx:>7}"
             )
+
+        def avg_value(key: str) -> float | None:
+            values = [
+                summary[difficulty][field][key]
+                for field in FIELDS
+                if summary[difficulty][field][key] is not None
+            ]
+            return mean(values) if values else None
+
+        avg_events = avg_value("events")
+        avg_scored = avg_value("scored_events")
+        avg_reveals = avg_value("reveals")
+        avg_rate = avg_value("reveal_rate")
+        avg_hits = avg_value("threshold_hits")
+        avg_blocked = avg_value("blocked_by_prereq")
+        avg_mean = avg_value("mean_score")
+        avg_p75 = avg_value("p75_score")
+        avg_p90 = avg_value("p90_score")
+        avg_max = avg_value("max_score")
+        avg_difficulty = avg_value("difficulty_index")
+
+        lines.append(
+            f"{'average':<24} "
+            f"{('-' if avg_events is None else f'{avg_events:.1f}'):>5} "
+            f"{('-' if avg_scored is None else f'{avg_scored:.1f}'):>7} "
+            f"{('-' if avg_reveals is None else f'{avg_reveals:.1f}'):>8} "
+            f"{('-' if avg_rate is None else f'{avg_rate:.2f}'):>7} "
+            f"{('-' if avg_hits is None else f'{avg_hits:.1f}'):>6} "
+            f"{('-' if avg_blocked is None else f'{avg_blocked:.1f}'):>8} "
+            f"{('-' if avg_mean is None else f'{avg_mean:.3f}'):>7} "
+            f"{('-' if avg_p75 is None else f'{avg_p75:.3f}'):>7} "
+            f"{('-' if avg_p90 is None else f'{avg_p90:.3f}'):>7} "
+            f"{('-' if avg_max is None else f'{avg_max:.3f}'):>7} "
+            f"{('-' if avg_difficulty is None else f'{avg_difficulty:.3f}'):>7}"
+        )
+
+        ranked = sorted(
+            (
+                (field, summary[difficulty][field]["difficulty_index"])
+                for field in FIELDS
+                if summary[difficulty][field]["difficulty_index"] is not None
+            ),
+            key=lambda item: item[1],
+            reverse=True,
+        )
+        lines.append("Difficulty ranking:")
+        if not ranked:
+            lines.append("- none")
+        for idx, (field, value) in enumerate(ranked, start=1):
+            lines.append(f"{idx}. {field}: {value:.3f}")
     return "\n".join(lines)
 
 
